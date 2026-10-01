@@ -184,11 +184,11 @@ html[data-theme="ocean"]{
 .key-space{min-width:calc(220px*var(--ks));text-transform:lowercase;letter-spacing:2px;font-size:calc(.74rem*var(--ks));}
 .key.next{background:var(--accent);color:#241c00;border-color:var(--accent);box-shadow:0 0 0 3px var(--accentdim),0 7px 18px -6px var(--accentglow);transform:translateY(-2px);font-weight:800;}
 .f-LP{--fc:#f7768e;}.f-LR{--fc:#e0af68;}.f-LM{--fc:#9ece6a;}.f-LI{--fc:#73daca;}.f-RI{--fc:#7dcfff;}.f-RM{--fc:#7aa2f7;}.f-RR{--fc:#bb9af7;}.f-RP{--fc:#ff9e64;}.f-TH{--fc:#9aa5ce;}
-.hands{--ks:1;display:flex;justify-content:center;gap:calc(44px*var(--ks));margin-top:16px;}
-.hand svg{width:calc(94px*var(--ks));height:auto;display:block;}
-.hand .fg{fill:var(--panel2);stroke:var(--line);stroke-width:2;transition:fill .12s,stroke .12s;}
-.hand .fg.active{fill:var(--accent);stroke:var(--accent);}
-.hand .plm{fill:var(--panel2);stroke:var(--line);stroke-width:2;}
+.hands{--ks:1;display:flex;justify-content:center;gap:calc(30px*var(--ks));margin-top:16px;}
+.hand svg{width:calc(104px*var(--ks));height:auto;display:block;filter:drop-shadow(0 5px 14px rgba(0,0,0,.45));}
+.hand .fg{fill:#fff;fill-opacity:0;stroke:#fff;stroke-width:0;transition:fill-opacity .14s,stroke-width .14s;}
+.hand .fg.active{fill:var(--accent);fill-opacity:1;stroke-width:.5;}
+.hand.mir svg{transform:scaleX(-1);}
 .wpm-chart{display:block;width:100%;max-width:460px;height:auto;margin:6px auto 16px;}
 .typing{position:relative;}
 .typing.blurred #text{filter:blur(4.5px);opacity:.4;transition:filter .15s;}
@@ -442,22 +442,15 @@ function applyKbdSize(sz){
   var bs=document.querySelectorAll(".kbd-size"); for(var j=0;j<bs.length;j++)bs[j].classList.toggle("on",bs[j].getAttribute("data-ks")===k);
   try{localStorage.setItem("kbdSize",k);}catch(e){}
 }
+var HAND_INNER='<g fill="none"><path fill="#ffc83d" d="M25.156 7.266c-1.281 0-1.945.859-1.945.859V6.203c0-1.038-1-1.969-2.04-1.969c-1.952 0-2.28 1.157-2.28 1.157s-.016-.907-.157-1.688c-.14-.781-1.133-1.734-2.172-1.734c-1.943 0-2.68 1.539-2.554 3.218c0 0-.649-1.062-2.055-1.062c-1.038 0-2.492.984-2.32 2.898l.36 7.555S8.954 13.011 8.077 12.5s-2.19-.489-2.906.281c-.842.905-.995 2.323-.39 3.188c1.812 2.594 4.384 5.982 4.874 7.562c1.25 4.032 4.906 6.451 8.313 6.451c4.11 0 8.423-3.098 8.765-7.873l.711-12.125c.078-1.046-.734-2.718-2.289-2.718"/><path fill="#d67d00" d="M14.98 4.673c-.01-.513-.022-1.127.108-1.673q.118-.496.358-.74a.8.8 0 0 1 .246-.17c-1.294.394-1.788 1.697-1.684 3.098l-.019-.029l.308 7.642a.5.5 0 1 0 1-.04l-.313-7.74q0-.164-.004-.348M16.172 2q-.045 0-.085.002l.085-.011zm2.718 3.37q-.046.279-.046.556l-.281 6.317a.5.5 0 1 0 .999.045l.282-6.34v-.01c0-.464.13-.926.36-1.258c.133-.19.294-.335.487-.42c-1.528.17-1.8 1.13-1.8 1.13zm4.373 2.695a6.8 6.8 0 0 0-.231 1.536v.003l-.172 4.11a.5.5 0 0 0 .999.041l.172-4.107c.052-1.081.28-1.686.506-2.006c.216-.306.432-.36.557-.36v-.016a2.58 2.58 0 0 0-1.831.799m-12.706 8.498a.5.5 0 0 1-.448-.26c-.496-.902-1.655-2.99-2.263-3.921q.12.053.232.118c.876.51 1.911 2.074 1.914 2.078l-.36-7.554c-.137-1.537.773-2.474 1.674-2.784c-.197.124-.349.316-.466.573c-.216.472-.3 1.148-.247 1.935v.008l.469 9.281a.5.5 0 0 1-.505.526"/></g>';
+var HAND_TIPS=[['I',11,5.4],['M',15,3.4],['R',19.6,5.5],['P',23.1,8.4]];
 function handSVG(side){
-  var L=side==="L";
-  var svg='<div class="hand"><svg viewBox="0 0 130 162" aria-hidden="true">';
-  svg+='<path class="plm" d="M30 80 L30 154 Q30 161 37 161 L93 161 Q100 161 100 154 L100 80 Z"></path>';
-  var F=L?["LR","LM","LI"]:["RI","RM","RR"];
-  svg+='<rect class="fg" data-f="'+F[0]+'" x="20" y="28" width="18" height="74" rx="10"></rect>';
-  svg+='<rect class="fg" data-f="'+(L?"LM":"RM")+'" x="42" y="18" width="18" height="84" rx="10"></rect>';
-  svg+='<rect class="fg" data-f="'+F[2]+'" x="64" y="28" width="18" height="74" rx="10"></rect>';
-  if(L){
-    svg+='<rect class="fg" data-f="LP" x="0" y="44" width="18" height="58" rx="10"></rect>';
-    svg+='<rect class="fg" data-f="TH" x="103" y="98" width="17" height="52" rx="9" transform="rotate(38 107 110)"></rect>';
-  }else{
-    svg+='<rect class="fg" data-f="RP" x="84" y="44" width="18" height="58" rx="10"></rect>';
-    svg+='<rect class="fg" data-f="TH" x="10" y="98" width="17" height="52" rx="9" transform="rotate(-38 23 110)"></rect>';
-  }
-  svg+='</svg></div>'; return svg;
+  var L=side==="L"; var pre=L?"L":"R";
+  var svg='<div class="hand'+(L?" mir":"")+'"><svg viewBox="0 0 32 32" aria-hidden="true">'+HAND_INNER;
+  for(var i=0;i<HAND_TIPS.length;i++){var t=HAND_TIPS[i];
+    svg+='<circle class="fg" data-f="'+pre+t[0]+'" cx="'+t[1]+'" cy="'+t[2]+'" r="2.4"></circle>';}
+  svg+='<circle class="fg" data-f="TH" cx="7.5" cy="12.5" r="2.4"></circle>';
+  return svg+'</svg></div>';
 }
 function buildHands(){ var h=document.getElementById("hands"); if(h)h.innerHTML=handSVG("L")+handSVG("R"); }
 function buildKbd(){
@@ -580,7 +573,7 @@ window.addEventListener("tr-relang",function(){reset();try{renderHist(JSON.parse
 buildKbd(); reset();
 })();
 </script>
-<script src="ui.js?v=202610012337" defer></script>
-<script src="egg.js?v=202610012337" defer></script>
+<script src="ui.js?v=202610020726" defer></script>
+<script src="egg.js?v=202610020726" defer></script>
 </body>
 </html>
