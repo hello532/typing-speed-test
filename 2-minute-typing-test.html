@@ -168,6 +168,13 @@ html[data-theme="ocean"]{
 .kbd-wrap{margin-top:22px;}
 .kbd-tools{display:flex;align-items:center;justify-content:center;gap:7px;margin-bottom:14px;}
 .kbd-tools .lab{color:var(--dim);font-size:.8rem;margin-right:3px;}
+.snd-toggle{display:inline-flex;align-items:center;gap:3px;margin-left:10px;padding:0 10px;height:28px;border-radius:7px;background:var(--panel2);border:1px solid var(--line);color:var(--soft);font-size:.76rem;cursor:pointer;transition:all .12s;}
+.snd-toggle:hover{border-color:var(--borderhi);color:var(--text);}
+.snd-toggle.on{background:var(--accentdim);border-color:var(--accent);color:var(--accent);}
+.snd-toggle .snd-state{text-transform:uppercase;letter-spacing:.5px;}
+.pb-line{min-height:1.2em;margin:2px 0 10px;font-size:.9rem;color:var(--dim);font-weight:600;}
+.pb-line.pb-new{color:var(--accent);animation:pbpop .5s ease;}
+@keyframes pbpop{0%{transform:scale(.6);opacity:0;}60%{transform:scale(1.12);}100%{transform:scale(1);opacity:1;}}
 .kbd-size{display:inline-flex;align-items:center;justify-content:center;width:30px;height:28px;border-radius:7px;background:var(--panel2);border:1px solid var(--line);color:var(--soft);font-size:.8rem;font-weight:600;cursor:pointer;transition:all .12s;}
 .kbd-size:hover{border-color:var(--borderhi);color:var(--text);}
 .kbd-size.on{background:var(--accentdim);border-color:var(--accent);color:var(--accent);}
@@ -243,7 +250,7 @@ html[data-theme="ocean"]{
       <div class="refocus" data-i18n="resume">Click to resume</div>
     </div>
     <div class="kbd-wrap" id="kbdWrap" aria-hidden="true">
-      <div class="kbd-tools"><span class="lab" data-i18n="kbd_size">Keyboard</span><button class="kbd-size" data-ks="s" aria-label="Small">S</button><button class="kbd-size" data-ks="m" aria-label="Medium">M</button><button class="kbd-size" data-ks="l" aria-label="Large">L</button></div>
+      <div class="kbd-tools"><span class="lab" data-i18n="kbd_size">Keyboard</span><button class="kbd-size" data-ks="s" aria-label="Small">S</button><button class="kbd-size" data-ks="m" aria-label="Medium">M</button><button class="kbd-size" data-ks="l" aria-label="Large">L</button><button class="snd-toggle" id="sndToggle" aria-pressed="false" title="Typing sound"><span data-i18n="sound">Sound</span>: <b class="snd-state">off</b></button></div>
       <div class="kbd" id="kbd"></div>
       <div class="hands" id="hands"></div>
     </div>
@@ -252,12 +259,14 @@ html[data-theme="ocean"]{
 
   <div class="panel result" id="resultPanel" style="display:none;">
     <div class="big" id="rWpm">0 WPM</div>
+    <div class="pb-line" id="pbLine"></div>
     <canvas id="wpmChart" class="wpm-chart" width="600" height="130"></canvas>
     <div class="result-grid">
       <div class="stat"><div class="num" id="rAcc">100%</div><div class="lab" data-i18n="accuracy">Accuracy</div></div>
       <div class="stat"><div class="num" id="rCpm">0</div><div class="lab" data-i18n="r_cpm">Chars/min</div></div>
       <div class="stat"><div class="num" id="rErr">0</div><div class="lab" data-i18n="r_errors">Errors</div></div>
       <div class="stat"><div class="num" id="rRaw">0</div><div class="lab" data-i18n="r_raw">Raw WPM</div></div>
+      <div class="stat"><div class="num" id="rCons">100%</div><div class="lab" data-i18n="r_cons">Consistency</div></div>
     </div>
     <div class="result-actions">
       <button class="btn" id="btnAgain" data-i18n="btn_again">Test again</button>
@@ -338,7 +347,7 @@ var elText=document.getElementById("text"), elIn=document.getElementById("input"
     elHint=document.getElementById("hint"), elRes=document.getElementById("resultPanel"),
     chipsD=document.querySelectorAll(".dur"), chipsM=document.querySelectorAll(".mode");
 var dur=120, mode="sentences", text="", chars=[], timer=null, startAt=0, finished=false, errCount=0, totalTyped=0;
-var wpmSamples=[];
+var wpmSamples=[]; var _prevLen=0;
 function mmss(s){return Math.floor(s/60)+":"+String(s%60).padStart(2,"0");}
 function render(){
   var h="";
@@ -371,14 +380,35 @@ function stats(){
           cpm:Math.round(totalTyped/mins)};
 }
 function showLive(){var s=stats(); elW.textContent=s.wpm; elA.textContent=s.acc+"%"; elT.textContent=mmss(Math.max(0,dur-Math.floor((Date.now()-startAt)/1000))); if(startAt){wpmSamples.push({x:(Date.now()-startAt)/1000,y:s.wpm});}}
+function consistency(){
+  if(wpmSamples.length<2)return 100;
+  var ys=[],i; for(i=0;i<wpmSamples.length;i++)ys.push(wpmSamples[i].y);
+  var m=0; for(i=0;i<ys.length;i++)m+=ys[i]; m/=ys.length;
+  if(m<=0)return 0;
+  var v=0; for(i=0;i<ys.length;i++)v+=(ys[i]-m)*(ys[i]-m); v/=ys.length;
+  var cv=Math.sqrt(v)/m;                 /* coefficient of variation */
+  return Math.max(0,Math.min(100,Math.round((1-cv)*100)));
+}
+function pbKey(){return "typingPB_"+mode+"_"+dur;}
 function finish(){
   finished=true; clearInterval(timer);
-  var s=stats();
+  var s=stats(); var cons=consistency();
   document.getElementById("rWpm").textContent=s.wpm+" "+((window.TR&&TR.t)?TR.t("wpm"):"WPM");
   document.getElementById("rAcc").textContent=s.acc+"%";
   document.getElementById("rCpm").textContent=s.cpm;
   document.getElementById("rErr").textContent=s.err;
   document.getElementById("rRaw").textContent=s.raw;
+  var ce=document.getElementById("rCons"); if(ce)ce.textContent=cons+"%";
+  var pb=0; try{pb=parseInt(localStorage.getItem(pbKey())||"0",10)||0;}catch(e){}
+  var isPB=s.wpm>pb;
+  if(isPB){try{localStorage.setItem(pbKey(),String(s.wpm));}catch(e){}}
+  var pl=document.getElementById("pbLine");
+  if(pl){
+    var tr=(window.TR&&TR.t)?TR.t:function(k){return null;};
+    if(isPB&&s.wpm>0){pl.className="pb-line pb-new";pl.textContent=(tr("pb_new")||"New personal best!")+" \u2605";}
+    else if(pb>0){pl.className="pb-line";pl.textContent=(tr("pb_prev")||"Personal best")+": "+pb+" WPM";}
+    else{pl.className="pb-line";pl.textContent="";}
+  }
   saveHist(s);
   drawChart();
   render(); elRes.style.display="block"; elHint.style.display="none";
@@ -479,6 +509,27 @@ function drawChart(){
   elIn.addEventListener("blur",function(){if(startAt&&!finished)tp.classList.add("blurred");});
   elIn.addEventListener("focus",function(){tp.classList.remove("blurred");});
 }})();
+/* --- optional typing sound (WebAudio, no asset) --- */
+var sndOn=false; try{sndOn=localStorage.getItem("typingSnd")==="1";}catch(e){}
+var AC=null;
+function click_(bad){
+  if(!sndOn)return;
+  try{
+    if(!AC)AC=new (window.AudioContext||window.webkitAudioContext)();
+    var o=AC.createOscillator(),g=AC.createGain(),t=AC.currentTime;
+    o.type="square"; o.frequency.value=bad?180:660;
+    g.gain.setValueAtTime(0.0001,t); g.gain.exponentialRampToValueAtTime(0.07,t+0.004);
+    g.gain.exponentialRampToValueAtTime(0.0001,t+0.06);
+    o.connect(g); g.connect(AC.destination); o.start(t); o.stop(t+0.07);
+  }catch(e){}
+}
+(function(){
+  var tg=document.getElementById("sndToggle"); if(!tg)return;
+  function paint(){var b=tg.querySelector(".snd-state"); if(b)b.textContent=sndOn?((window.TR&&TR.t&&TR.t("on"))||"on"):((window.TR&&TR.t&&TR.t("off"))||"off"); tg.setAttribute("aria-pressed",sndOn?"true":"false"); tg.classList.toggle("on",sndOn);}
+  tg.addEventListener("click",function(){sndOn=!sndOn; try{localStorage.setItem("typingSnd",sndOn?"1":"0");}catch(e){} if(sndOn&&!AC){try{AC=new (window.AudioContext||window.webkitAudioContext)();}catch(e){}} paint(); click_(false);});
+  paint();
+  window.addEventListener("tr-relang",paint);
+})();
 document.addEventListener("keydown",function(e){if(e.key==="Escape"){reset();elIn.focus();}});
 elIn.addEventListener("input",function(){
   if(finished)return;
@@ -492,6 +543,8 @@ elIn.addEventListener("input",function(){
   totalTyped=v.length;
   errCount=0;
   for(var i=0;i<totalTyped;i++){if(chars[i]){chars[i].ok=(chars[i].t===v[i]); if(!chars[i].ok)errCount++;}}
+  if(typeof click_==="function" && v.length>_prevLen){var _lc=chars[v.length-1]; click_(_lc?!_lc.ok:false);}
+  _prevLen=v.length;
   render();
   showLive();
   if(totalTyped>=chars.length){finish();}
@@ -528,7 +581,7 @@ window.addEventListener("tr-relang",function(){reset();try{renderHist(JSON.parse
 buildKbd(); reset();
 })();
 </script>
-<script src="ui.js?v=202610012328" defer></script>
-<script src="egg.js?v=202610012328" defer></script>
+<script src="ui.js?v=202610012337" defer></script>
+<script src="egg.js?v=202610012337" defer></script>
 </body>
 </html>

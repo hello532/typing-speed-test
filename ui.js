@@ -50,6 +50,14 @@ var POOL={
 
 (function(){var R={en:"Click to resume",zh:"点击继续打字",es:"Haz clic para continuar",hi:"जारी रखने के लिए क्लिक करें",ar:"انقر للمتابعة"};for(var k in R){if(I18N[k])I18N[k].resume=R[k];}})();
 (function(){var R={en:"Keyboard",zh:"键盘大小",es:"Teclado",hi:"कीबोर्ड",ar:"لوحة المفاتيح"};for(var k in R){if(I18N[k])I18N[k].kbd_size=R[k];}})();
+(function(){var M={
+ r_cons:{en:"Consistency",zh:"稳定性",es:"Consistencia",hi:"स्थिरता",ar:"الثبات"},
+ sound:{en:"Sound",zh:"音效",es:"Sonido",hi:"ध्वनि",ar:"الصوت"},
+ on:{en:"on",zh:"开",es:"sí",hi:"चालू",ar:"تشغيل"},
+ off:{en:"off",zh:"关",es:"no",hi:"बंद",ar:"إيقاف"},
+ pb_new:{en:"New personal best!",zh:"刷新个人最佳！",es:"¡Nuevo récord personal!",hi:"नया व्यक्तिगत सर्वश्रेष्ठ!",ar:"أفضل رقم شخصي جديد!"},
+ pb_prev:{en:"Personal best",zh:"个人最佳",es:"Récord personal",hi:"व्यक्तिगत सर्वश्रेष्ठ",ar:"أفضل رقم شخصي"}
+};for(var key in M){var R=M[key];for(var k in R){if(I18N[k])I18N[k][key]=R[k];}}})();
 var LANGS=["en","zh","es","hi","ar"];
 var THEMES=[["dark","🌙"],["light","☀️"],["ocean","🌊"]];
 function ls(k,v){try{if(v===undefined)return localStorage.getItem(k);localStorage.setItem(k,v);}catch(e){return null;}}
