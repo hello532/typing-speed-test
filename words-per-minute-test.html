@@ -3,210 +3,324 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Words Per Minute Test - Free WPM Test Online | Check Your Typing Speed</title>
-<meta name="description" content="Free words per minute test. Find out your WPM and typing accuracy in one minute. Learn what words per minute means and how to improve it. No sign-up.">
-<meta name="keywords" content="words per minute test, wpm test, words per minute, typing speed, how many words per minute, wpm benchmark">
-<meta name="robots" content="index, follow">
-<meta property="og:type" content="website">
+<title>Words Per Minute Test - Free WPM Speed Test Online | Typing.Rerivo</title>
+<meta name="description" content="Free typing speed test online. Measure your words per minute (WPM), accuracy and CPM in 15s, 30s, 1, 2, 3, 5 or 10 minutes. Practice with sentences, quotes, numbers or words. No sign up.">
+<meta name="keywords" content="typing speed test, wpm test, words per minute test, 1 minute typing test, typing test, typing practice, free typing test, typing speed, accuracy, cpm">
+<link rel="canonical" href="https://typing.rerivo.com/words-per-minute-test.html">
 <meta property="og:title" content="Typing Speed Test - Free Online WPM Test">
-<meta property="og:description" content="Measure your words per minute (WPM) and typing accuracy in 1-5 minutes. Free, no sign-up.">
-<link rel="canonical" href="https://hello532.github.io/typing-speed-test/words-per-minute-test.html">
+<meta property="og:description" content="Measure your typing speed in WPM. Choose 15s to 10 minutes, sentences quotes numbers or words. Free, no sign up.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://typing.rerivo.com/words-per-minute-test.html">
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"WebApplication","name":"Typing Speed Test","url":"https://typing.rerivo.com/","applicationCategory":"UtilitiesGame","operatingSystem":"All","description":"Free online typing speed test. Measure WPM and accuracy from 15 seconds to 10 minutes.","offers":{"@type":"Offer","price":"0","priceCurrency":"USD"},"featureList":["WPM speed test","Accuracy tracking","15s to 10 minute tests","Sentences, quotes, numbers and words practice","Local typing history"]}
+</script>
 <style>
-  :root{--bg:#0f1420;--card:#171e2e;--txt:#e8ecf4;--mut:#8b95ad;--acc:#4f8cff;--ok:#34c98e;--bad:#ff5d6c;}
-  *{box-sizing:border-box}
-  body{margin:0;background:var(--bg);color:var(--txt);font-family:"Segoe UI",system-ui,-apple-system,Roboto,Arial,sans-serif;line-height:1.6}
-  .wrap{max-width:860px;margin:0 auto;padding:24px 18px 60px}
-  header{text-align:center;padding:8px 0 4px}
-  h1{font-size:2.4rem;margin:0 0 6px;letter-spacing:.5px}
-  .sub{color:var(--mut);margin:0 0 18px}
-  .card{background:var(--card);border:1px solid #243048;border-radius:14px;padding:20px;box-shadow:0 6px 24px rgba(0,0,0,.25)}
-  .opts{display:flex;gap:10px;justify-content:center;flex-wrap:wrap;margin-bottom:16px}
-  .opts button{background:#222c42;color:var(--txt);border:1px solid #33415f;border-radius:10px;padding:9px 18px;font-size:1rem;cursor:pointer}
-  .opts button:hover{border-color:var(--acc)}
-  .opts button.on{background:var(--acc);border-color:var(--acc);color:#fff}
-  .stats{display:flex;gap:14px;justify-content:center;flex-wrap:wrap;margin-bottom:14px}
-  .stat{background:#101725;border:1px solid #243048;border-radius:10px;padding:10px 16px;min-width:110px;text-align:center}
-  .stat b{display:block;font-size:1.7rem;line-height:1.2}
-  .stat span{color:var(--mut);font-size:.82rem;text-transform:uppercase;letter-spacing:.6px}
-  #text{font-size:1.35rem;line-height:1.9;letter-spacing:.4px;min-height:120px;padding:14px;background:#0d1320;border:1px solid #223049;border-radius:10px;white-space:pre-wrap;word-break:break-word}
-  .c-ok{color:var(--ok)}
-  .c-bad{color:var(--bad);text-decoration:underline}
-  .c-cur{background:var(--acc);color:#fff;border-radius:3px}
-  .c-pend{color:#5b667e}
-  #input{width:100%;margin-top:14px;background:#0d1320;color:var(--txt);border:1px solid #33415f;border-radius:10px;padding:12px;font-size:1.1rem;font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;resize:vertical;min-height:74px}
-  #input:focus{outline:none;border-color:var(--acc)}
-  #result{display:none;margin-top:16px;text-align:center;background:#101725;border:1px solid #243048;border-radius:10px;padding:18px}
-  #result.show{display:block}
-  #result h2{margin:0 0 8px;font-size:1.5rem}
-  #result .big{font-size:2.6rem;font-weight:700;color:var(--ok)}
-  .btn{background:var(--acc);color:#fff;border:none;border-radius:10px;padding:10px 22px;font-size:1rem;cursor:pointer;margin-top:12px}
-  .hint{color:var(--mut);font-size:.86rem;text-align:center;margin-top:10px}
-  section.doc{margin-top:34px}
-  section.doc h2{font-size:1.35rem;margin:22px 0 8px}
-  section.doc p{color:#b9c1d4;margin:0 0 12px}
-  footer{color:var(--mut);font-size:.8rem;text-align:center;margin-top:30px}
+:root{
+  --bg:#0e0f13; --panel:#15171e; --panel2:#1b1e27; --text:#e6e6e6; --dim:#8b8fa3;
+  --accent:#e2b714; --ok:#9ece6a; --bad:#f7768e; --cur:#7aa2f7; --line:#2a2e3a;
+}
+*{box-sizing:border-box; margin:0; padding:0;}
+html{scroll-behavior:smooth;}
+body{background:var(--bg); color:var(--text); font-family:"Segoe UI",system-ui,-apple-system,sans-serif; line-height:1.6;}
+.wrap{max-width:860px; margin:0 auto; padding:18px 20px 60px;}
+header.top{display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:10px; margin-bottom:14px;}
+.logo{font-size:1.15rem; font-weight:700; color:var(--accent); text-decoration:none; letter-spacing:.3px;}
+nav.toplinks a{color:var(--dim); text-decoration:none; font-size:.86rem; margin-left:14px;}
+nav.toplinks a:hover{color:var(--text);}
+.hero{text-align:center; margin:8px 0 18px;}
+.hero h1{font-size:clamp(1.6rem,4.5vw,2.4rem); font-weight:800; letter-spacing:-.5px;}
+.hero p{color:var(--dim); margin-top:6px; font-size:.98rem;}
+.panel{background:var(--panel); border:1px solid var(--line); border-radius:12px; padding:16px; margin-bottom:16px;}
+.controls{display:flex; flex-wrap:wrap; gap:16px; justify-content:center; align-items:center;}
+.ctrl-group{display:flex; align-items:center; gap:7px; flex-wrap:wrap; justify-content:center;}
+.ctrl-label{font-size:.74rem; color:var(--dim); text-transform:uppercase; letter-spacing:.9px; margin-right:2px;}
+.chip{background:var(--panel2); border:1px solid var(--line); color:var(--dim); border-radius:7px;
+  padding:5px 11px; font-size:.84rem; cursor:pointer; font-weight:600; transition:.13s;}
+.chip:hover{color:var(--text); border-color:#3a3f4e;}
+.chip.on{background:var(--accent); border-color:var(--accent); color:#1a1a1a;}
+.stats{display:flex; justify-content:center; gap:clamp(18px,6vw,64px); margin:6px 0 2px;}
+.stat{text-align:center;}
+.stat .num{font-size:clamp(1.5rem,4vw,2.2rem); font-weight:800; font-variant-numeric:tabular-nums; color:var(--text);}
+.stat .num.accent{color:var(--accent);}
+.stat .lab{font-size:.72rem; color:var(--dim); text-transform:uppercase; letter-spacing:1px;}
+.typing{position:relative; margin-top:10px;}
+#text{font-family:"Cascadia Code","JetBrains Mono","Fira Code",Consolas,Menlo,monospace;
+  font-size:clamp(1.05rem,2.6vw,1.5rem); line-height:1.75; letter-spacing:.2px; color:#555a6e;
+  min-height:5.2em; user-select:none; padding:14px; background:var(--panel2); border-radius:10px; border:1px solid var(--line);}
+#text .ok{color:var(--ok);}
+#text .bad{color:var(--bad); background:rgba(247,118,142,.14); border-radius:3px;}
+#text .cur{border-left:2px solid var(--cur); animation:blink 1s steps(1) infinite; margin-left:-1px;}
+@keyframes blink{50%{border-color:transparent;}}
+#input{position:absolute; opacity:0; width:1px; height:1px; left:-9999px;}
+.focus-hint{text-align:center; color:var(--dim); font-size:.86rem; margin-top:10px; cursor:text;}
+.focus-hint b{color:var(--cur); font-weight:600;}
+.btn{display:inline-block; background:var(--accent); color:#1a1a1a; font-weight:700; border:none;
+  border-radius:8px; padding:9px 22px; font-size:.95rem; cursor:pointer;}
+.btn:hover{filter:brightness(1.08);}
+.btn.ghost{background:var(--panel2); color:var(--text); border:1px solid var(--line);}
+.result{text-align:center;}
+.result .big{font-size:clamp(2rem,6vw,3rem); font-weight:800; color:var(--accent);}
+.result-grid{display:flex; justify-content:center; gap:clamp(16px,5vw,48px); margin:14px 0 18px; flex-wrap:wrap;}
+.result-actions{display:flex; gap:10px; justify-content:center; flex-wrap:wrap;}
+.hist{text-align:left; margin-top:14px;}
+.hist h3{font-size:.95rem; color:var(--dim); text-transform:uppercase; letter-spacing:1px; margin-bottom:8px;}
+.hist table{width:100%; border-collapse:collapse; font-size:.9rem;}
+.hist th{color:var(--dim); font-weight:600; text-align:left; padding:5px 8px; border-bottom:1px solid var(--line); font-size:.78rem; text-transform:uppercase;}
+.hist td{padding:6px 8px; border-bottom:1px solid #222633; font-variant-numeric:tabular-nums;}
+.hist td.wpm{color:var(--accent); font-weight:700;}
+.hist .empty{color:var(--dim); font-size:.88rem; padding:10px 0;}
+.sharebox{margin-top:12px; background:var(--panel2); border:1px solid var(--line); border-radius:8px; padding:10px 12px; font-size:.88rem; color:var(--dim); text-align:left;}
+.seo{color:var(--dim); font-size:.95rem;}
+.seo h2{color:var(--text); font-size:1.12rem; margin:20px 0 8px;}
+.seo p{margin-bottom:10px;}
+.seo strong{color:var(--text);}
+.faq details{border:1px solid var(--line); border-radius:8px; padding:2px 14px; margin-bottom:8px; background:var(--panel);}
+.faq summary{cursor:pointer; padding:9px 0; font-weight:600; color:var(--text); list-style:none;}
+.faq summary::-webkit-details-marker{display:none;}
+.faq summary::before{content:"▸ "; color:var(--accent);}
+.faq details[open] summary::before{content:"▾ ";}
+.faq p{color:var(--dim); font-size:.92rem; padding:0 0 10px;}
+footer{margin-top:30px; text-align:center; color:#555a6e; font-size:.82rem;}
+footer a{color:var(--dim); text-decoration:none;}
 </style>
 </head>
 <body>
 <div class="wrap">
-  <header>
-    <h1>Words Per Minute Test</h1>
-    <p class="sub">Measure your words per minute (WPM) the standard way. One minute, instant results, free and no sign-up.</p>
+  <header class="top">
+    <a class="logo" href="/">⌨️ Typing.Rerivo</a>
+    <nav class="toplinks">
+      <a href="https://typing.rerivo.com/">Home</a>
+      <a href="1-minute-typing-test.html">1 Minute Test</a>
+      <a href="typing-practice.html">Practice</a>
+    </nav>
   </header>
 
-  <div class="card">
-    <div class="opts" id="opts">
-      <button data-min="1" class="on">1 minute</button>
-      <button data-min="2">2 minutes</button>
-      <button data-min="3">3 minutes</button>
-      <button data-min="5">5 minutes</button>
+  <section class="hero">
+    <h1>Words Per Minute Test</h1>
+    <p>Measure your <strong>words per minute (WPM)</strong> with a free online speed test. Type for one minute or choose 15 seconds up to 10 minutes and get your WPM and accuracy instantly.</p>
+  </section>
+
+  <div class="panel">
+    <div class="controls">
+      <div class="ctrl-group">
+        <span class="ctrl-label">Time</span>
+        <button class="chip dur" data-d="15">15s</button>
+        <button class="chip dur" data-d="30">30s</button>
+        <button class="chip dur on" data-d="60">1 min</button>
+        <button class="chip dur" data-d="120">2 min</button>
+        <button class="chip dur" data-d="180">3 min</button>
+        <button class="chip dur" data-d="300">5 min</button>
+        <button class="chip dur" data-d="600">10 min</button>
+      </div>
+      <div class="ctrl-group">
+        <span class="ctrl-label">Text</span>
+        <button class="chip mode on" data-m="sentences">Sentences</button>
+        <button class="chip mode" data-m="quotes">Quotes</button>
+        <button class="chip mode" data-m="numbers">Numbers</button>
+        <button class="chip mode" data-m="words">Words</button>
+      </div>
     </div>
+
     <div class="stats">
-      <div class="stat"><b id="sWpm">0</b><span>WPM</span></div>
-      <div class="stat"><b id="sAcc">100%</b><span>Accuracy</span></div>
-      <div class="stat"><b id="sErr">0</b><span>Errors</span></div>
-      <div class="stat"><b id="sTime">1:00</b><span>Time left</span></div>
+      <div class="stat"><div class="num accent" id="sTime">1:00</div><div class="lab">Time</div></div>
+      <div class="stat"><div class="num" id="sWpm">0</div><div class="lab">WPM</div></div>
+      <div class="stat"><div class="num" id="sAcc">100%</div><div class="lab">Accuracy</div></div>
     </div>
-    <div id="text" aria-live="off">Pick a duration and start typing. The test begins the moment you type your first character.</div>
-    <textarea id="input" placeholder="Start typing here…" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false"></textarea>
-    <p class="hint">Press <b>Enter</b> only at the end of each line. The test ends when the timer runs out or you finish the text.</p>
-    <div id="result">
-      <h2>Your result</h2>
-      <div class="big" id="rWpm">0 WPM</div>
-      <p id="rDetail">Accuracy 100% · 0 errors</p>
-      <button class="btn" id="again">Try again</button>
+
+    <div class="typing">
+      <div id="text"></div>
+      <input id="input" type="text" autocomplete="off" autocapitalize="off" autocorrect="off" spellcheck="false">
+    </div>
+    <div class="focus-hint" id="hint">Click here or press <b>any key</b> to start typing</div>
+  </div>
+
+  <div class="panel result" id="resultPanel" style="display:none;">
+    <div class="big" id="rWpm">0 WPM</div>
+    <div class="result-grid">
+      <div class="stat"><div class="num" id="rAcc">100%</div><div class="lab">Accuracy</div></div>
+      <div class="stat"><div class="num" id="rCpm">0</div><div class="lab">Chars/min</div></div>
+      <div class="stat"><div class="num" id="rErr">0</div><div class="lab">Errors</div></div>
+      <div class="stat"><div class="num" id="rRaw">0</div><div class="lab">Raw WPM</div></div>
+    </div>
+    <div class="result-actions">
+      <button class="btn" id="btnAgain">Test again</button>
+      <button class="btn ghost" id="btnShare">Copy result</button>
+    </div>
+    <div class="hist" id="histBox">
+      <h3>Your typing history (saved in this browser)</h3>
+      <table>
+        <thead><tr><th>Date</th><th>Test</th><th>WPM</th><th>Accuracy</th><th>Errors</th></tr></thead>
+        <tbody id="histBody"></tbody>
+      </table>
     </div>
   </div>
 
-    <section class="doc">
-    <h2>What does words per minute (WPM) mean?</h2>
-    <p>Words per minute, usually written as WPM, is the standard measure of typing speed. One word is counted as five characters of text, so longer words are not rewarded more than short ones. When you take a words per minute test you learn not just your raw speed, but how accurate you are while typing under a time limit.</p>
-    <h2>How is WPM calculated?</h2>
-    <p>WPM = correct characters divided by 5, divided by the number of minutes you typed. Accuracy = correct characters divided by everything you typed. This is why guessing words you are unsure about rarely helps your score: every wrong keystroke lowers both numbers.</p>
-    <h2>How to increase your words per minute</h2>
-    <p>Type a little every day, keep your eyes on the screen, and let your fingers find the keys without looking down. Slow down on the words that trip you up until they become automatic. Accuracy is what allows real speed to last, so practice cleanly first and let speed follow.</p>
-    <h2>Other typing tests</h2>
-<ul>
-      <li><a href="index.html">Typing Speed Test</a> — the full speed test with 1-5 minute options.</li>
-      <li><a href="1-minute-typing-test.html">1 Minute Typing Test</a> — a focused 60-second speed check.</li>
-      <li><a href="words-per-minute-test.html">Words Per Minute Test</a> — benchmark your WPM the standard way.</li>
-      <li><a href="typing-practice.html">Typing Practice</a> — longer drills to build accuracy and speed.</li>
-    </ul>
+    <section class="seo">
+    <h2>words per minute test</h2>
+    <p>A <strong>words per minute test</strong> (WPM test) measures how many words you can type in one minute. The rule is simple: every five characters counts as one word, so longer words add more to your score. Take the test, type the text shown on screen, and your WPM, accuracy and error count are calculated live as you type.</p>
+    <h2>What is a good WPM score?</h2>
+    <p>An average computer user types about <strong>40 WPM</strong>. Around 60 WPM is solid for most office and writing work. Above 80 WPM is fast, and professional typists, developers and data entry staff often type 90 to 120 WPM. If you are just starting, do not chase speed — aim for above 95 percent accuracy first and your speed will rise on its own.</p>
+    <h2>WPM vs CPM</h2>
+    <p>CPM means characters per minute. Some sites show CPM instead of WPM. Because one word equals five characters, you can convert easily: WPM = CPM / 5. This test shows you both numbers on the result panel so you can compare with any other typing test.</p>
   </section>
 
-  <footer>&copy; 2026 · <a href="index.html">Typing Speed Test</a> · Free online WPM test</footer>
+  <section class="seo faq">
+    <h2>Typing test FAQ</h2>
+    <details open><summary>What is a typing test?</summary><p>A typing test measures how fast and accurately you type. You type a passage of text while the test counts your words per minute (WPM), accuracy and errors.</p></details>
+    <details><summary>How is WPM calculated?</summary><p>WPM = (correct characters ÷ 5) ÷ minutes elapsed. The industry standard treats every 5 characters as one word, so longer words count more. Raw WPM ignores errors, while net WPM subtracts them.</p></details>
+    <details><summary>How long should a typing test be?</summary><p>1 minute is the most popular length and is enough for a quick check. Longer tests (3, 5 or 10 minutes) give a more stable result because they average out short bursts of speed and fatigue.</p></details>
+    <details><summary>Is this typing test free?</summary><p>Yes, completely free with no sign up, no account and no ads inside the typing area. Your past results are stored only in your own browser (localStorage), never on a server.</p></details>
+    <details><summary>How do I type faster?</summary><p>Practice daily for 10–15 minutes, prioritise accuracy over speed, keep your wrists relaxed and your fingers anchored on the home row (ASDF JKL;). Learn to use all ten fingers rather than hunting and pecking with two.</p></details>
+  </section>
+
+  <footer>
+    <a href="/">Typing.Rerivo</a> · Free online WPM typing test ·
+    <a href="1-minute-typing-test.html">1 min</a> · <a href="words-per-minute-test.html">WPM</a> · <a href="typing-practice.html">Practice</a>
+  </footer>
 </div>
 
 <script>
 (function(){
-  var TEXTS = [
-    "The quick brown fox jumps over the lazy dog near the quiet river bank every single morning.",
-    "Learning to type quickly is a skill that helps students, writers and programmers save hours every week.",
-    "A calm mind and steady hands will carry you through the hardest of days without ever losing focus.",
-    "Small habits practiced daily lead to remarkable results over the course of a few short months.",
-    "The library was silent except for the soft turning of pages and the distant sound of summer rain.",
-    "Good writing is clear thinking made visible, edited once more for rhythm, pace and honest meaning.",
-    "She packed her laptop, a notebook and two pens, then walked to the cafe where the morning light was best.",
-    "Practice does not make perfect, but steady practice always makes better than yesterday.",
-    "The road wound through green hills, past small farms and a wooden bridge over a wide shallow stream.",
-    "Ideas are everywhere; the trick is to write them down before the next one quietly pushes them away.",
-    "He woke early, boiled water for tea and read the news while the rest of the city was still asleep.",
-    "Every expert was once a beginner who decided to keep going one more day than felt comfortable."
-  ];
-  var elText=document.getElementById("text"), elIn=document.getElementById("input"),
-      elW=document.getElementById("sWpm"), elA=document.getElementById("sAcc"),
-      elE=document.getElementById("sErr"), elT=document.getElementById("sTime"),
-      elRes=document.getElementById("result"), elRW=document.getElementById("rWpm"),
-      elRD=document.getElementById("rDetail"), elAgain=document.getElementById("again"),
-      btns=document.querySelectorAll("#opts button");
-  var text="", mins=1, chars=[], timer=null, startAt=0, endAt=0, done=false, correct=0, wrong=0;
-
-  function pick(){ return TEXTS[Math.floor(Math.random()*TEXTS.length)]; }
-
-  function render(input){
-    var html="", n=text.length;
-    for(var i=0;i<n;i++){
-      var ch=text[i];
-      if(i<input.length){
-        if(input[i]===ch) html+='<span class="c-ok">'+esc(ch)+'</span>';
-        else html+='<span class="c-bad">'+esc(ch==='\n'?' ':ch)+'</span>';
-      } else if(i===input.length){
-        html+='<span class="c-cur">'+esc(ch==='\n'?' ':ch)+'</span>';
-      } else {
-        html+='<span class="c-pend">'+esc(ch)+'</span>';
-      }
-    }
-    elText.innerHTML=html;
+"use strict";
+var SENTENCES=[
+"Learning to type quickly is a skill that helps students and professionals save time every day.",
+"Practice a little each day and your fingers will learn the keyboard without looking down.",
+"Good posture and relaxed hands make typing faster and more accurate over time.",
+"The quick brown fox jumps over the lazy dog near the quiet river bank every morning.",
+"Reading books aloud can improve both your vocabulary and your typing rhythm.",
+"Accurate typing is often more valuable than fast typing in professional work.",
+"A clean desk, a comfortable chair, and good lighting help you focus on your work.",
+"Software developers spend hours every day typing code, notes, and documentation.",
+];
+var QUOTES=[
+"The secret of getting ahead is getting started. - Mark Twain",
+"Quality is not an act, it is a habit. - Aristotle",
+"Do not wait for opportunity. Create it. - George Bernard Shaw",
+"Success is the sum of small efforts repeated day in and day out. - Robert Collier",
+"Whether you think you can or you think you cannot, you are right. - Henry Ford",
+"The best time to plant a tree was twenty years ago. The second best time is now.",
+"Typing is the language we use to speak to computers. Learn it well.",
+"Practice does not make perfect. Perfect practice makes perfect. - Vince Lombardi",
+];
+var WORDS=["the","be","and","of","to","in","that","have","it","for","not","on","with","he","as","you","do","at","this","but","his","by","from","they","we","say","her","she","or","an","will","my","one","all","would","there","their","what","so","up","out","if","about","who","get","which","go","me","when","make","can","like","time","no","just","him","know","take","people","into","year","your","good","some","could","them","see","other","than","then","now","look","only","come","its","over","think","also","back","after","use","two","how","our","work","first","well","way","even","new","want","because","any","these","give","day","most","us","water","world","life","hand","part","child","eye","woman","place","week","case","point","government","company","number","group","problem","fact"];
+function rnd(n){return Math.floor(Math.random()*n);}
+function pickText(mode){
+  if(mode==="quotes"){return QUOTES[rnd(QUOTES.length)];}
+  if(mode==="numbers"){var a=[];for(var i=0;i<24;i++){a.push(String(100+rnd(899)));}return a.join(" ");}
+  if(mode==="words"){var a=[];for(var i=0;i<40;i++){a.push(WORDS[rnd(WORDS.length)]);}return a.join(" ");}
+  var s=[];for(var i=0;i<3;i++){s.push(SENTENCES[rnd(SENTENCES.length)]);}
+  return s.join(" ");
+}
+var elText=document.getElementById("text"), elIn=document.getElementById("input"),
+    elT=document.getElementById("sTime"), elW=document.getElementById("sWpm"), elA=document.getElementById("sAcc"),
+    elHint=document.getElementById("hint"), elRes=document.getElementById("resultPanel"),
+    chipsD=document.querySelectorAll(".dur"), chipsM=document.querySelectorAll(".mode");
+var dur=60, mode="sentences", text="", chars=[], timer=null, startAt=0, finished=false, errCount=0, totalTyped=0;
+function mmss(s){return Math.floor(s/60)+":"+String(s%60).padStart(2,"0");}
+function render(){
+  var h="";
+  for(var i=0;i<chars.length;i++){
+    var c=chars[i];
+    if(i===totalTyped && !finished){h+='<span class="cur">'+esc(c.t)+'</span>';continue;}
+    if(i<totalTyped){h+='<span class="'+(c.ok?"ok":"bad")+'">'+esc(c.t)+'</span>';}
+    else{h+=esc(c.t);}
   }
-  function esc(c){ return c.replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;"); }
-
-  function fmt(sec){ var m=Math.floor(sec/60), s=sec%60; return m+":"+String(s).padStart(2,"0"); }
-
-  function stats(input){
-    var c=0,w=0;
-    for(var i=0;i<Math.min(input.length,text.length);i++){ if(input[i]===text[i]) c++; }
-    for(var j=0;j<input.length;j++){ if(j>=text.length || input[j]!==text[j]) w++; }
-    correct=c; wrong=w;
-    var used=(Date.now()-startAt)/1000;
-    var wpm = used>0 ? Math.round((c/5)/(used/60)) : 0;
-    var acc = input.length>0 ? Math.round(c/input.length*100) : 100;
-    elW.textContent=wpm; elA.textContent=acc+"%"; elE.textContent=w;
-  }
-
-  function finish(){
-    if(done) return; done=true;
-    clearInterval(timer);
-    var input=elIn.value; stats(input);
-    var total=input.length, c=correct, w=wrong;
-    var wpm = total>0 ? Math.round((c/5)/( (endAt-startAt)/1000/60 )) : 0;
-    var acc = total>0 ? Math.round(c/total*100) : 100;
-    elRW.textContent=wpm+" WPM";
-    elRD.textContent="Accuracy "+acc+"% · "+w+" error"+(w===1?"":"s")+" · "+mins+" minute test";
-    elRes.classList.add("show");
-    elIn.disabled=true;
-  }
-
-  function start(){
-    done=false; correct=0; wrong=0;
-    elRes.classList.remove("show");
-    elIn.disabled=false; elIn.value="";
-    text=pick();
-    render("");
-    elT.textContent=fmt(mins*60);
-    elIn.focus();
-  }
-
-  function begin(){
-    if(startAt) return;
-    startAt=Date.now(); endAt=startAt+mins*60*1000;
-    var left=mins*60;
-    timer=setInterval(function(){
-      left--;
-      elT.textContent=fmt(Math.max(left,0));
-      stats(elIn.value);
-      if(left<=0) finish();
-    },1000);
-  }
-
-  btns.forEach(function(b){
-    b.addEventListener("click",function(){
-      btns.forEach(function(x){x.classList.remove("on");});
-      b.classList.add("on");
-      mins=parseInt(b.getAttribute("data-min"),10);
-      clearInterval(timer); startAt=0;
-      start();
-    });
+  elText.innerHTML=h;
+}
+function esc(s){return s.replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;").replace(/ /g,"&nbsp;");}
+function reset(){
+  clearInterval(timer); text=pickText(mode);
+  chars=[]; for(var i=0;i<text.length;i++){chars.push({t:text[i],ok:false});}
+  totalTyped=0; errCount=0; finished=false; startAt=0;
+  elT.textContent=mmss(dur); elW.textContent="0"; elA.textContent="100%";
+  elRes.style.display="none"; elHint.style.display="block";
+  render(); elIn.value="";
+}
+function stats(){
+  var el=0; for(var i=0;i<totalTyped;i++){if(chars[i]&&!chars[i].ok)el++;}
+  var mins=(Date.now()-startAt)/60000;
+  if(mins<=0)mins=1/60000;
+  var correct=totalTyped-el;
+  return {wpm:Math.round((correct/5)/mins), raw:Math.round((totalTyped/5)/mins),
+          acc: totalTyped? Math.round(correct/totalTyped*100):100, err:el,
+          cpm:Math.round(totalTyped/mins)};
+}
+function showLive(){var s=stats(); elW.textContent=s.wpm; elA.textContent=s.acc+"%"; elT.textContent=mmss(Math.max(0,dur-Math.floor((Date.now()-startAt)/1000)));}
+function finish(){
+  finished=true; clearInterval(timer);
+  var s=stats();
+  document.getElementById("rWpm").textContent=s.wpm+" WPM";
+  document.getElementById("rAcc").textContent=s.acc+"%";
+  document.getElementById("rCpm").textContent=s.cpm;
+  document.getElementById("rErr").textContent=s.err;
+  document.getElementById("rRaw").textContent=s.raw;
+  saveHist(s);
+  render(); elRes.style.display="block"; elHint.style.display="none";
+  elRes.scrollIntoView({behavior:"smooth",block:"center"});
+}
+function saveHist(s){
+  var k="typingHistV1", rows=[];
+  try{rows=JSON.parse(localStorage.getItem(k)||"[]");}catch(e){rows=[];}
+  var durLabel = dur<60 ? dur+"s" : (dur/60)+" min";
+  rows.unshift({d:new Date().toLocaleDateString(), t:durLabel, m:mode, w:s.wpm, a:s.acc, e:s.err});
+  rows=rows.slice(0,10);
+  try{localStorage.setItem(k,JSON.stringify(rows));}catch(e){}
+  renderHist(rows);
+}
+function renderHist(rows){
+  var b=document.getElementById("histBody"); b.innerHTML="";
+  if(!rows.length){b.innerHTML='<tr><td colspan="5" class="empty">No results yet — finish a test and it will appear here.</td></tr>';return;}
+  rows.forEach(function(r){
+    var tr=document.createElement("tr");
+    tr.innerHTML="<td>"+esc(r.d)+"</td><td>"+esc(r.t)+" · "+esc(r.m)+"</td><td class='wpm'>"+r.w+"</td><td>"+r.a+"%</td><td>"+r.e+"</td>";
+    b.appendChild(tr);
   });
-  elIn.addEventListener("input",function(){
-    if(!startAt) begin();
-    stats(elIn.value);
-    render(elIn.value);
-    if(elIn.value.length>=text.length) finish();
-  });
-  elAgain.addEventListener("click",function(){
-    clearInterval(timer); startAt=0; start(); begin();
-  });
-  start();
+}
+elIn.addEventListener("input",function(){
+  if(finished)return;
+  if(!startAt){startAt=Date.now();
+    timer=setInterval(function(){showLive();
+      if((Date.now()-startAt)/1000>=dur){finish();}
+    },200);
+    elHint.style.display="none";
+  }
+  var v=elIn.value;
+  totalTyped=v.length;
+  errCount=0;
+  for(var i=0;i<totalTyped;i++){if(chars[i]){chars[i].ok=(chars[i].t===v[i]); if(!chars[i].ok)errCount++;}}
+  render();
+  showLive();
+  if(totalTyped>=chars.length){finish();}
+});
+elText.addEventListener("click",function(){elIn.focus();});
+elHint.addEventListener("click",function(){elIn.focus();});
+document.addEventListener("keydown",function(e){
+  if(finished||e.target===elIn||e.target.tagName==="INPUT"||e.target.tagName==="TEXTAREA")return;
+  if(e.metaKey||e.ctrlKey||e.altKey)return;
+  var k=e.key;
+  if(k.length===1||k==="Backspace"){e.preventDefault(); elIn.focus();
+    if(k==="Backspace"){elIn.value=elIn.value.slice(0,-1);}
+    else{elIn.value+=k;}
+    elIn.dispatchEvent(new Event("input"));
+  }
+});
+chipsD.forEach(function(c){c.addEventListener("click",function(){
+  chipsD.forEach(function(x){x.classList.remove("on");}); c.classList.add("on");
+  dur=parseInt(c.getAttribute("data-d"),10); reset();
+});});
+chipsM.forEach(function(c){c.addEventListener("click",function(){
+  chipsM.forEach(function(x){x.classList.remove("on");}); c.classList.add("on");
+  mode=c.getAttribute("data-m"); reset();
+});});
+document.getElementById("btnAgain").addEventListener("click",function(){reset();elIn.focus();});
+document.getElementById("btnShare").addEventListener("click",function(){
+  var s=stats();
+  var txt="I typed "+s.wpm+" WPM with "+s.acc+"% accuracy on Typing.Rerivo — https://typing.rerivo.com/";
+  if(navigator.clipboard&&navigator.clipboard.writeText){navigator.clipboard.writeText(txt).then(function(){},function(){});}
+  var btn=this; btn.textContent="Copied!"; setTimeout(function(){btn.textContent="Copy result";},1400);
+});
+(function(){var rows=[];try{rows=JSON.parse(localStorage.getItem("typingHistV1")||"[]");}catch(e){}renderHist(rows);})();
+reset();
 })();
 </script>
 </body>

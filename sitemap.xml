@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url><loc>https://hello532.github.io/typing-speed-test/</loc><changefreq>weekly</changefreq><priority>1.0</priority></url>
-  <url><loc>https://hello532.github.io/typing-speed-test/1-minute-typing-test.html</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://hello532.github.io/typing-speed-test/words-per-minute-test.html</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://hello532.github.io/typing-speed-test/typing-practice.html</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://typing.rerivo.com/</loc><changefreq>weekly</changefreq><priority>1.0</priority></url>
+  <url><loc>https://typing.rerivo.com/1-minute-typing-test.html</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://typing.rerivo.com/words-per-minute-test.html</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://typing.rerivo.com/typing-practice.html</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
 </urlset>

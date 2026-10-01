@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://hello532.github.io/typing-speed-test/sitemap.xml
+Sitemap: https://typing.rerivo.com/sitemap.xml
