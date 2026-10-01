@@ -49,6 +49,7 @@ var POOL={
 };
 
 (function(){var R={en:"Click to resume",zh:"点击继续打字",es:"Haz clic para continuar",hi:"जारी रखने के लिए क्लिक करें",ar:"انقر للمتابعة"};for(var k in R){if(I18N[k])I18N[k].resume=R[k];}})();
+(function(){var R={en:"Keyboard",zh:"键盘大小",es:"Teclado",hi:"कीबोर्ड",ar:"لوحة المفاتيح"};for(var k in R){if(I18N[k])I18N[k].kbd_size=R[k];}})();
 var LANGS=["en","zh","es","hi","ar"];
 var THEMES=[["dark","🌙"],["light","☀️"],["ocean","🌊"]];
 function ls(k,v){try{if(v===undefined)return localStorage.getItem(k);localStorage.setItem(k,v);}catch(e){return null;}}
