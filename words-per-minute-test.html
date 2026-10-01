@@ -32,6 +32,8 @@
   --text:#edeef2; --soft:#b4b8c7; --dim:#7f8498;
   --accent:#ffc93c; --accent2:#ffd96b; --accentdim:rgba(255,201,60,.14);
   --ok:#9ece6a; --bad:#f7768e; --cur:#7aa2f7; --line:#262a37; --line2:#30354599;
+  --borderhi:#3c4252; --h1a:#fff; --h1b:#c9ccd8; --untyped:#565b70;
+  --glow1:rgba(255,201,60,.08); --glow2:rgba(122,162,247,.07); --accentglow:rgba(255,201,60,.5);
   --radius:16px; --radius-sm:11px; --shadow:0 10px 40px -12px rgba(0,0,0,.55);
   --font:"Inter","Segoe UI",system-ui,-apple-system,"Helvetica Neue",sans-serif;
   --mono:"Cascadia Code","JetBrains Mono","Fira Code",ui-monospace,Consolas,Menlo,monospace;
@@ -40,8 +42,8 @@
 html{scroll-behavior:smooth; -webkit-text-size-adjust:100%;}
 body{
   background:
-    radial-gradient(1100px 520px at 50% -8%, rgba(255,201,60,.08), transparent 60%),
-    radial-gradient(760px 420px at 88% 4%, rgba(122,162,247,.07), transparent 55%),
+    radial-gradient(1100px 520px at 50% -8%, var(--glow1), transparent 60%),
+    radial-gradient(760px 420px at 88% 4%, var(--glow2), transparent 55%),
     var(--bg);
   color:var(--text); font-family:var(--font); line-height:1.65;
   -webkit-font-smoothing:antialiased; text-rendering:optimizeLegibility;
@@ -63,7 +65,7 @@ nav.crumbs span{color:var(--dim);}
 
 .hero{text-align:center; margin:34px 0 26px;}
 .hero h1{font-size:clamp(2.1rem,5.6vw,3.3rem); font-weight:800; letter-spacing:-1.2px; line-height:1.08;
-  background:linear-gradient(180deg,#fff 30%,#c9ccd8); -webkit-background-clip:text; background-clip:text; -webkit-text-fill-color:transparent;}
+  background:linear-gradient(180deg,var(--h1a) 30%,var(--h1b)); -webkit-background-clip:text; background-clip:text; -webkit-text-fill-color:transparent;}
 .hero p{color:var(--soft); margin:14px auto 0; font-size:clamp(1rem,1.6vw,1.12rem); max-width:60ch; line-height:1.6;}
 .hero strong{color:var(--text); font-weight:600;}
 
@@ -73,9 +75,9 @@ nav.crumbs span{color:var(--dim);}
 .ctrl-label{font-size:.72rem; color:var(--soft); text-transform:uppercase; letter-spacing:1.4px; font-weight:700; margin-right:5px;}
 .chip{background:var(--panel2); border:1px solid var(--line); color:var(--soft); border-radius:999px;
   padding:7px 15px; font-size:.86rem; cursor:pointer; font-weight:600; transition:transform .12s, background .15s, color .15s, border-color .15s, box-shadow .15s;}
-.chip:hover{color:var(--text); border-color:#3c4252; background:var(--panelhi); transform:translateY(-1px);}
+.chip:hover{color:var(--text); border-color:var(--borderhi); background:var(--panelhi); transform:translateY(-1px);}
 .chip:active{transform:translateY(0);}
-.chip.on{background:linear-gradient(180deg,var(--accent2),var(--accent)); border-color:var(--accent); color:#241c00; box-shadow:0 6px 18px -6px rgba(255,201,60,.6);}
+.chip.on{background:linear-gradient(180deg,var(--accent2),var(--accent)); border-color:var(--accent); color:#241c00; box-shadow:0 6px 18px -6px var(--accentglow);}
 
 .stats{display:flex; justify-content:center; gap:clamp(26px,7vw,76px); margin:26px 0 6px; padding-top:24px; border-top:1px solid var(--line);}
 .stat{text-align:center;}
@@ -85,7 +87,7 @@ nav.crumbs span{color:var(--dim);}
 
 .typing{position:relative; margin-top:18px;}
 #text{font-family:var(--mono);
-  font-size:clamp(1.12rem,2.7vw,1.6rem); line-height:1.95; letter-spacing:.3px; color:#565b70;
+  font-size:clamp(1.12rem,2.7vw,1.6rem); line-height:1.95; letter-spacing:.3px; color:var(--untyped);
   min-height:5.4em; user-select:none; padding:22px 24px; background:var(--bg2); border-radius:var(--radius-sm);
   border:1px solid var(--line); overflow-wrap:anywhere; word-break:break-word; transition:border-color .2s, box-shadow .2s;}
 .typing.active #text{border-color:rgba(255,201,60,.45); box-shadow:0 0 0 4px var(--accentdim);}
@@ -98,11 +100,11 @@ nav.crumbs span{color:var(--dim);}
 .focus-hint b{color:var(--cur); font-weight:600;}
 
 .btn{display:inline-flex; align-items:center; justify-content:center; gap:7px; background:linear-gradient(180deg,var(--accent2),var(--accent)); color:#241c00; font-weight:700; border:none;
-  border-radius:10px; padding:11px 26px; font-size:.98rem; cursor:pointer; transition:transform .12s, box-shadow .15s, filter .15s; box-shadow:0 8px 22px -8px rgba(255,201,60,.5);}
-.btn:hover{filter:brightness(1.05); transform:translateY(-2px); box-shadow:0 12px 26px -8px rgba(255,201,60,.6);}
+  border-radius:10px; padding:11px 26px; font-size:.98rem; cursor:pointer; transition:transform .12s, box-shadow .15s, filter .15s; box-shadow:0 8px 22px -8px var(--accentglow);}
+.btn:hover{filter:brightness(1.05); transform:translateY(-2px); box-shadow:0 12px 26px -8px var(--accentglow);}
 .btn:active{transform:translateY(0);}
 .btn.ghost{background:var(--panel2); color:var(--text); border:1px solid var(--line); box-shadow:none;}
-.btn.ghost:hover{background:var(--panelhi); border-color:#3c4252;}
+.btn.ghost:hover{background:var(--panelhi); border-color:var(--borderhi);}
 
 .result{text-align:center;}
 .result .big{font-size:clamp(2.6rem,8vw,4rem); font-weight:800; letter-spacing:-1.5px;
@@ -113,7 +115,7 @@ nav.crumbs span{color:var(--dim);}
 .hist h3{font-size:.72rem; color:var(--dim); text-transform:uppercase; letter-spacing:1.4px; font-weight:700; margin-bottom:10px;}
 .hist table{width:100%; border-collapse:collapse; font-size:.92rem;}
 .hist th{color:var(--dim); font-weight:700; text-align:left; padding:7px 10px; border-bottom:1px solid var(--line); font-size:.7rem; text-transform:uppercase; letter-spacing:.8px;}
-.hist td{padding:9px 10px; border-bottom:1px solid #1d2130; font-variant-numeric:tabular-nums;}
+.hist td{padding:9px 10px; border-bottom:1px solid var(--line); font-variant-numeric:tabular-nums;}
 .hist tr:last-child td{border-bottom:none;}
 .hist td.wpm{color:var(--accent); font-weight:700;}
 .hist .empty{color:var(--dim); font-size:.9rem; padding:12px 0;}
@@ -125,8 +127,8 @@ nav.crumbs span{color:var(--dim);}
 .seo strong{color:var(--text); font-weight:600;}
 .faq{margin-top:8px;}
 .faq details{border:1px solid var(--line); border-radius:var(--radius-sm); padding:2px 16px; margin-bottom:10px; background:var(--panel); transition:border-color .15s, background .15s;}
-.faq details:hover{border-color:#343a4a;}
-.faq details[open]{background:var(--panel2); border-color:#343a4a;}
+.faq details:hover{border-color:var(--borderhi);}
+.faq details[open]{background:var(--panel2); border-color:var(--borderhi);}
 .faq summary{cursor:pointer; padding:13px 0; font-weight:600; font-size:1rem; color:var(--text); list-style:none; display:flex; align-items:center; gap:9px;}
 .faq summary::-webkit-details-marker{display:none;}
 .faq summary::before{content:"+"; color:var(--accent); font-weight:800; font-size:1.2em; line-height:1; width:1em; text-align:center; transition:transform .2s;}
@@ -143,7 +145,28 @@ footer a:hover{color:var(--accent);}
   .panel{padding:17px;}
   #text{padding:17px 16px;}
 }
+
+html[data-theme="light"]{
+  --bg:#f3f5f9; --bg2:#e9edf4; --panel:#ffffff; --panel2:#f1f4f9; --panelhi:#e4e9f2;
+  --text:#171a22; --soft:#3b4150; --dim:#6a7183;
+  --accent:#c98900; --accent2:#eab308; --accentdim:rgba(201,137,0,.16); --accentglow:rgba(201,137,0,.4);
+  --ok:#2e9e3f; --bad:#dc3b57; --cur:#2563eb;
+  --line:#dde3ec; --line2:#e6ebf3; --borderhi:#c7cedb;
+  --h1a:#171a22; --h1b:#4a5160; --untyped:#a7afc0;
+  --glow1:rgba(234,179,8,.10); --glow2:rgba(37,99,235,.06);
+  --shadow:0 10px 34px -14px rgba(30,40,70,.25);
+}
+html[data-theme="ocean"]{
+  --bg:#06182a; --bg2:#0a2238; --panel:#0e2c48; --panel2:#123a5c; --panelhi:#17496e;
+  --text:#eaf4ff; --soft:#aecbe6; --dim:#6f93b4;
+  --accent:#36d6c6; --accent2:#5ff0e2; --accentdim:rgba(56,214,198,.16); --accentglow:rgba(56,214,198,.45);
+  --ok:#59e6a6; --bad:#ff7a97; --cur:#7fd4ff;
+  --line:#1c466a; --line2:#1c466a99; --borderhi:#2a5a84;
+  --h1a:#ffffff; --h1b:#9fd4e8; --untyped:#44688c;
+  --glow1:rgba(56,214,198,.10); --glow2:rgba(80,170,255,.09);
+}
 </style>
+<script>try{var _t=localStorage.getItem("trTheme");if(_t&&_t!=="dark")document.documentElement.setAttribute("data-theme",_t);var _l=localStorage.getItem("trLang");if(_l&&_l!=="en"){document.documentElement.lang=_l;if(_l==="ar")document.documentElement.dir="rtl";}}catch(e){}</script>
 </head>
 <body>
 <div class="wrap">
@@ -166,7 +189,7 @@ footer a:hover{color:var(--accent);}
   <div class="panel">
     <div class="controls">
       <div class="ctrl-group">
-        <span class="ctrl-label">Time</span>
+        <span class="ctrl-label" data-i18n="time">Time</span>
         <button class="chip dur" data-d="15">15s</button>
         <button class="chip dur" data-d="30">30s</button>
         <button class="chip dur on" data-d="60">1 min</button>
@@ -176,43 +199,43 @@ footer a:hover{color:var(--accent);}
         <button class="chip dur" data-d="600">10 min</button>
       </div>
       <div class="ctrl-group">
-        <span class="ctrl-label">Text</span>
-        <button class="chip mode on" data-m="sentences">Sentences</button>
-        <button class="chip mode" data-m="quotes">Quotes</button>
-        <button class="chip mode" data-m="numbers">Numbers</button>
-        <button class="chip mode" data-m="words">Words</button>
+        <span class="ctrl-label" data-i18n="text">Text</span>
+        <button class="chip mode on" data-m="sentences" data-i18n="m_sentences">Sentences</button>
+        <button class="chip mode" data-m="quotes" data-i18n="m_quotes">Quotes</button>
+        <button class="chip mode" data-m="numbers" data-i18n="m_numbers">Numbers</button>
+        <button class="chip mode" data-m="words" data-i18n="m_words">Words</button>
       </div>
     </div>
 
     <div class="stats">
-      <div class="stat"><div class="num accent" id="sTime">1:00</div><div class="lab">Time</div></div>
-      <div class="stat"><div class="num" id="sWpm">0</div><div class="lab">WPM</div></div>
-      <div class="stat"><div class="num" id="sAcc">100%</div><div class="lab">Accuracy</div></div>
+      <div class="stat"><div class="num accent" id="sTime">1:00</div><div class="lab" data-i18n="st_time">Time</div></div>
+      <div class="stat"><div class="num" id="sWpm">0</div><div class="lab" data-i18n="wpm">WPM</div></div>
+      <div class="stat"><div class="num" id="sAcc">100%</div><div class="lab" data-i18n="accuracy">Accuracy</div></div>
     </div>
 
     <div class="typing">
       <div id="text"></div>
       <input id="input" type="text" autocomplete="off" autocapitalize="off" autocorrect="off" spellcheck="false">
     </div>
-    <div class="focus-hint" id="hint">Click here or press <b>any key</b> to start typing</div>
+    <div class="focus-hint" id="hint" data-i18n-html="hint">Click here or press <b>any key</b> to start typing</div>
   </div>
 
   <div class="panel result" id="resultPanel" style="display:none;">
     <div class="big" id="rWpm">0 WPM</div>
     <div class="result-grid">
-      <div class="stat"><div class="num" id="rAcc">100%</div><div class="lab">Accuracy</div></div>
-      <div class="stat"><div class="num" id="rCpm">0</div><div class="lab">Chars/min</div></div>
-      <div class="stat"><div class="num" id="rErr">0</div><div class="lab">Errors</div></div>
-      <div class="stat"><div class="num" id="rRaw">0</div><div class="lab">Raw WPM</div></div>
+      <div class="stat"><div class="num" id="rAcc">100%</div><div class="lab" data-i18n="accuracy">Accuracy</div></div>
+      <div class="stat"><div class="num" id="rCpm">0</div><div class="lab" data-i18n="r_cpm">Chars/min</div></div>
+      <div class="stat"><div class="num" id="rErr">0</div><div class="lab" data-i18n="r_errors">Errors</div></div>
+      <div class="stat"><div class="num" id="rRaw">0</div><div class="lab" data-i18n="r_raw">Raw WPM</div></div>
     </div>
     <div class="result-actions">
-      <button class="btn" id="btnAgain">Test again</button>
-      <button class="btn ghost" id="btnShare">Copy result</button>
+      <button class="btn" id="btnAgain" data-i18n="btn_again">Test again</button>
+      <button class="btn ghost" id="btnShare" data-i18n="btn_share">Copy result</button>
     </div>
     <div class="hist" id="histBox">
-      <h3>Your typing history (saved in this browser)</h3>
+      <h3 data-i18n="hist_title">Your typing history (saved in this browser)</h3>
       <table>
-        <thead><tr><th>Date</th><th>Test</th><th>WPM</th><th>Accuracy</th><th>Errors</th></tr></thead>
+        <thead><tr><th data-i18n="h_date">Date</th><th data-i18n="h_test">Test</th><th data-i18n="wpm">WPM</th><th data-i18n="accuracy">Accuracy</th><th data-i18n="r_errors">Errors</th></tr></thead>
         <tbody id="histBody"></tbody>
       </table>
     </div>
@@ -268,8 +291,14 @@ var QUOTES=[
 var WORDS=["the","be","and","of","to","in","that","have","it","for","not","on","with","he","as","you","do","at","this","but","his","by","from","they","we","say","her","she","or","an","will","my","one","all","would","there","their","what","so","up","out","if","about","who","get","which","go","me","when","make","can","like","time","no","just","him","know","take","people","into","year","your","good","some","could","them","see","other","than","then","now","look","only","come","its","over","think","also","back","after","use","two","how","our","work","first","well","way","even","new","want","because","any","these","give","day","most","us","water","world","life","hand","part","child","eye","woman","place","week","case","point","government","company","number","group","problem","fact"];
 function rnd(n){return Math.floor(Math.random()*n);}
 function pickText(mode){
-  if(mode==="quotes"){return QUOTES[rnd(QUOTES.length)];}
   if(mode==="numbers"){var a=[];for(var i=0;i<24;i++){a.push(String(100+rnd(899)));}return a.join(" ");}
+  var L=(window.TR&&TR.pool&&TR.lang&&TR.lang!=="en")?TR.pool(TR.lang):null;
+  if(L){
+    if(mode==="quotes"&&L.quotes&&L.quotes.length){return L.quotes[rnd(L.quotes.length)];}
+    if(mode==="words"&&L.words&&L.words.length){var w=[];for(var i=0;i<40;i++){w.push(L.words[rnd(L.words.length)]);}return w.join(" ");}
+    if(L.sentences&&L.sentences.length){var s=[];for(var i=0;i<3;i++){s.push(L.sentences[rnd(L.sentences.length)]);}return s.join(" ");}
+  }
+  if(mode==="quotes"){return QUOTES[rnd(QUOTES.length)];}
   if(mode==="words"){var a=[];for(var i=0;i<40;i++){a.push(WORDS[rnd(WORDS.length)]);}return a.join(" ");}
   var s=[];for(var i=0;i<3;i++){s.push(SENTENCES[rnd(SENTENCES.length)]);}
   return s.join(" ");
@@ -332,7 +361,7 @@ function saveHist(s){
 }
 function renderHist(rows){
   var b=document.getElementById("histBody"); b.innerHTML="";
-  if(!rows.length){b.innerHTML='<tr><td colspan="5" class="empty">No results yet — finish a test and it will appear here.</td></tr>';return;}
+  if(!rows.length){b.innerHTML='<tr><td colspan="5" class="empty">'+((window.TR&&TR.t)?TR.t("hist_empty"):"No results yet — finish a test and it will appear here.")+'</td></tr>';return;}
   rows.forEach(function(r){
     var tr=document.createElement("tr");
     tr.innerHTML="<td>"+esc(r.d)+"</td><td>"+esc(r.t)+" · "+esc(r.m)+"</td><td class='wpm'>"+r.w+"</td><td>"+r.a+"%</td><td>"+r.e+"</td>";
@@ -380,12 +409,14 @@ document.getElementById("btnShare").addEventListener("click",function(){
   var s=stats();
   var txt="I typed "+s.wpm+" WPM with "+s.acc+"% accuracy on Typing.Rerivo — https://typing.rerivo.com/";
   if(navigator.clipboard&&navigator.clipboard.writeText){navigator.clipboard.writeText(txt).then(function(){},function(){});}
-  var btn=this; btn.textContent="Copied!"; setTimeout(function(){btn.textContent="Copy result";},1400);
+  var btn=this; btn.textContent=(window.TR&&TR.t)?TR.t("btn_copied"):"Copied!"; setTimeout(function(){btn.textContent=(window.TR&&TR.t)?TR.t("btn_share"):"Copy result";},1400);
 });
+window.addEventListener("tr-relang",function(){reset();elIn.focus();});
 (function(){var rows=[];try{rows=JSON.parse(localStorage.getItem("typingHistV1")||"[]");}catch(e){}renderHist(rows);})();
 reset();
 })();
 </script>
+<script src="ui.js" defer></script>
 <script src="egg.js" defer></script>
 </body>
 </html>
