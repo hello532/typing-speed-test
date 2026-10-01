@@ -165,6 +165,17 @@ html[data-theme="ocean"]{
   --h1a:#ffffff; --h1b:#9fd4e8; --untyped:#44688c;
   --glow1:rgba(56,214,198,.10); --glow2:rgba(80,170,255,.09);
 }
+.kbd{display:flex;flex-direction:column;align-items:center;gap:6px;margin-top:20px;user-select:none;}
+.kbd-row{display:flex;gap:6px;}
+.key{display:inline-flex;align-items:center;justify-content:center;min-width:36px;height:40px;padding:0 5px;border-radius:9px;background:var(--panel2);border:1px solid var(--line);color:var(--dim);font-size:.84rem;font-family:var(--mono);text-transform:uppercase;transition:transform .1s,background .1s,color .1s,box-shadow .1s;}
+.key-space{min-width:220px;text-transform:lowercase;letter-spacing:2px;font-size:.74rem;}
+.key.next{background:var(--accent);color:#241c00;border-color:var(--accent);box-shadow:0 0 0 3px var(--accentdim),0 7px 18px -6px var(--accentglow);transform:translateY(-2px);font-weight:800;}
+.wpm-chart{display:block;width:100%;max-width:460px;height:auto;margin:6px auto 16px;}
+.typing{position:relative;}
+.typing.blurred #text{filter:blur(4.5px);opacity:.4;transition:filter .15s;}
+.refocus{display:none;}
+.typing.blurred .refocus{display:flex;position:absolute;inset:0;align-items:center;justify-content:center;font-size:1.02rem;color:var(--text);font-weight:700;letter-spacing:.3px;pointer-events:none;}
+@media(max-width:560px){.kbd{display:none;}}
 </style>
 <script>try{var _t=localStorage.getItem("trTheme");if(_t&&_t!=="dark")document.documentElement.setAttribute("data-theme",_t);var _l=localStorage.getItem("trLang");if(_l&&_l!=="en"){document.documentElement.lang=_l;if(_l==="ar")document.documentElement.dir="rtl";}}catch(e){}</script>
 </head>
@@ -216,12 +227,15 @@ html[data-theme="ocean"]{
     <div class="typing">
       <div id="text"></div>
       <input id="input" type="text" autocomplete="off" autocapitalize="off" autocorrect="off" spellcheck="false">
+      <div class="refocus" data-i18n="resume">Click to resume</div>
     </div>
+    <div class="kbd" id="kbd" aria-hidden="true"></div>
     <div class="focus-hint" id="hint" data-i18n-html="hint">Click here or press <b>any key</b> to start typing</div>
   </div>
 
   <div class="panel result" id="resultPanel" style="display:none;">
     <div class="big" id="rWpm">0 WPM</div>
+    <canvas id="wpmChart" class="wpm-chart" width="600" height="130"></canvas>
     <div class="result-grid">
       <div class="stat"><div class="num" id="rAcc">100%</div><div class="lab" data-i18n="accuracy">Accuracy</div></div>
       <div class="stat"><div class="num" id="rCpm">0</div><div class="lab" data-i18n="r_cpm">Chars/min</div></div>
@@ -306,6 +320,7 @@ var elText=document.getElementById("text"), elIn=document.getElementById("input"
     elHint=document.getElementById("hint"), elRes=document.getElementById("resultPanel"),
     chipsD=document.querySelectorAll(".dur"), chipsM=document.querySelectorAll(".mode");
 var dur=60, mode="sentences", text="", chars=[], timer=null, startAt=0, finished=false, errCount=0, totalTyped=0;
+var wpmSamples=[];
 function mmss(s){return Math.floor(s/60)+":"+String(s%60).padStart(2,"0");}
 function render(){
   var h="";
@@ -316,6 +331,7 @@ function render(){
     else{h+=esc(c.t);}
   }
   elText.innerHTML=h;
+  highlightKey();
 }
 function esc(s){return s.replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;");}
 function reset(){
@@ -324,6 +340,7 @@ function reset(){
   totalTyped=0; errCount=0; finished=false; startAt=0;
   elT.textContent=mmss(dur); elW.textContent="0"; elA.textContent="100%";
   elRes.style.display="none"; elHint.style.display="block";
+  wpmSamples=[]; clearChart();
   render(); elIn.value="";
 }
 function stats(){
@@ -335,7 +352,7 @@ function stats(){
           acc: totalTyped? Math.round(correct/totalTyped*100):100, err:el,
           cpm:Math.round(totalTyped/mins)};
 }
-function showLive(){var s=stats(); elW.textContent=s.wpm; elA.textContent=s.acc+"%"; elT.textContent=mmss(Math.max(0,dur-Math.floor((Date.now()-startAt)/1000)));}
+function showLive(){var s=stats(); elW.textContent=s.wpm; elA.textContent=s.acc+"%"; elT.textContent=mmss(Math.max(0,dur-Math.floor((Date.now()-startAt)/1000))); if(startAt){wpmSamples.push({x:(Date.now()-startAt)/1000,y:s.wpm});}}
 function finish(){
   finished=true; clearInterval(timer);
   var s=stats();
@@ -345,6 +362,7 @@ function finish(){
   document.getElementById("rErr").textContent=s.err;
   document.getElementById("rRaw").textContent=s.raw;
   saveHist(s);
+  drawChart();
   render(); elRes.style.display="block"; elHint.style.display="none";
   elRes.scrollIntoView({behavior:"smooth",block:"center"});
 }
@@ -368,6 +386,52 @@ function renderHist(rows){
     b.appendChild(tr);
   });
 }
+var KB_ROWS=["qwertyuiop","asdfghjkl","zxcvbnm"];
+function buildKbd(){
+  var kb=document.getElementById("kbd"); if(!kb)return;
+  var html="";
+  for(var r=0;r<KB_ROWS.length;r++){
+    html+='<div class="kbd-row">';
+    var row=KB_ROWS[r];
+    for(var i=0;i<row.length;i++){html+='<span class="key" data-k="'+row[i]+'">'+row[i]+'</span>';}
+    html+='</div>';
+  }
+  html+='<div class="kbd-row"><span class="key key-space" data-k=" ">space</span></div>';
+  kb.innerHTML=html;
+}
+function highlightKey(){
+  var kb=document.getElementById("kbd"); if(!kb)return;
+  var p=kb.querySelectorAll(".key.next"); for(var i=0;i<p.length;i++)p[i].classList.remove("next");
+  if(finished)return;
+  var c=chars[totalTyped]; if(!c)return;
+  var ch=(c.t||"").toLowerCase();
+  var el=null;
+  try{ el = ch===" " ? kb.querySelector(".key-space") : kb.querySelector('.key[data-k="'+ch.replace(/["\\]/g,'')+'"]'); }catch(e){}
+  if(el)el.classList.add("next");
+}
+function clearChart(){var cv=document.getElementById("wpmChart");if(cv){cv.getContext("2d").clearRect(0,0,cv.width,cv.height);}}
+function drawChart(){
+  var cv=document.getElementById("wpmChart"); if(!cv||wpmSamples.length<2)return;
+  var x=cv.getContext("2d"),W=cv.width,H=cv.height,pad=24;
+  x.clearRect(0,0,W,H);
+  var maxY=10,i; for(i=0;i<wpmSamples.length;i++)maxY=Math.max(maxY,wpmSamples[i].y);
+  var maxX=wpmSamples[wpmSamples.length-1].x||1;
+  var cs=getComputedStyle(document.documentElement);
+  var acc=(cs.getPropertyValue("--accent")||"#ffc93c").trim();
+  var ln=(cs.getPropertyValue("--line")||"#333").trim();
+  x.strokeStyle=ln;x.lineWidth=1;x.beginPath();x.moveTo(pad,H-pad);x.lineTo(W-6,H-pad);x.stroke();
+  function PX(p){return pad+(W-pad-6)*(p.x/maxX);} function PY(p){return (H-pad)-(H-pad-12)*(p.y/maxY);}
+  x.strokeStyle=acc;x.lineWidth=2.6;x.lineJoin="round";x.beginPath();
+  for(i=0;i<wpmSamples.length;i++){var px=PX(wpmSamples[i]),py=PY(wpmSamples[i]);if(i===0)x.moveTo(px,py);else x.lineTo(px,py);}
+  x.stroke();
+  x.lineTo(PX(wpmSamples[wpmSamples.length-1]),H-pad);x.lineTo(pad,H-pad);x.closePath();
+  x.globalAlpha=.13;x.fillStyle=acc;x.fill();x.globalAlpha=1;
+}
+(function(){var tp=document.querySelector(".typing");if(tp){
+  elIn.addEventListener("blur",function(){if(startAt&&!finished)tp.classList.add("blurred");});
+  elIn.addEventListener("focus",function(){tp.classList.remove("blurred");});
+}})();
+document.addEventListener("keydown",function(e){if(e.key==="Escape"){reset();elIn.focus();}});
 elIn.addEventListener("input",function(){
   if(finished)return;
   if(!startAt){startAt=Date.now();
@@ -413,10 +477,10 @@ document.getElementById("btnShare").addEventListener("click",function(){
 });
 window.addEventListener("tr-relang",function(){reset();try{renderHist(JSON.parse(localStorage.getItem("typingHistV1")||"[]"));}catch(e){}});
 (function(){var rows=[];try{rows=JSON.parse(localStorage.getItem("typingHistV1")||"[]");}catch(e){}renderHist(rows);})();
-reset();
+buildKbd(); reset();
 })();
 </script>
-<script src="ui.js?v=202610012247" defer></script>
-<script src="egg.js?v=202610012247" defer></script>
+<script src="ui.js?v=202610012301" defer></script>
+<script src="egg.js?v=202610012301" defer></script>
 </body>
 </html>

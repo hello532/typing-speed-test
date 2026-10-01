@@ -48,6 +48,7 @@ var POOL={
    words:"من في على إلى عن مع هذا ذلك التي الذي كان قد لا ما هو هي نحن أنت كل بعض عند بين قبل بعد حيث لكن أو ثم كما حتى إذا لأن منذ خلال ضد نحو".split(" ")}
 };
 
+(function(){var R={en:"Click to resume",zh:"点击继续打字",es:"Haz clic para continuar",hi:"जारी रखने के लिए क्लिक करें",ar:"انقر للمتابعة"};for(var k in R){if(I18N[k])I18N[k].resume=R[k];}})();
 var LANGS=["en","zh","es","hi","ar"];
 var THEMES=[["dark","🌙"],["light","☀️"],["ocean","🌊"]];
 function ls(k,v){try{if(v===undefined)return localStorage.getItem(k);localStorage.setItem(k,v);}catch(e){return null;}}
