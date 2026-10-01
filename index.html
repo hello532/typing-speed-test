@@ -349,7 +349,7 @@ function showLive(){var s=stats(); elW.textContent=s.wpm; elA.textContent=s.acc+
 function finish(){
   finished=true; clearInterval(timer);
   var s=stats();
-  document.getElementById("rWpm").textContent=s.wpm+" WPM";
+  document.getElementById("rWpm").textContent=s.wpm+" "+((window.TR&&TR.t)?TR.t("wpm"):"WPM");
   document.getElementById("rAcc").textContent=s.acc+"%";
   document.getElementById("rCpm").textContent=s.cpm;
   document.getElementById("rErr").textContent=s.err;
@@ -362,7 +362,7 @@ function saveHist(s){
   var k="typingHistV1", rows=[];
   try{rows=JSON.parse(localStorage.getItem(k)||"[]");}catch(e){rows=[];}
   var durLabel = dur<60 ? dur+"s" : (dur/60)+" min";
-  rows.unshift({d:new Date().toLocaleDateString(), t:durLabel, m:mode, w:s.wpm, a:s.acc, e:s.err});
+  rows.unshift({d:new Date().toLocaleDateString(), sec:dur, t:durLabel, m:mode, w:s.wpm, a:s.acc, e:s.err});
   rows=rows.slice(0,10);
   try{localStorage.setItem(k,JSON.stringify(rows));}catch(e){}
   renderHist(rows);
@@ -372,7 +372,9 @@ function renderHist(rows){
   if(!rows.length){b.innerHTML='<tr><td colspan="5" class="empty">'+((window.TR&&TR.t)?TR.t("hist_empty"):"No results yet — finish a test and it will appear here.")+'</td></tr>';return;}
   rows.forEach(function(r){
     var tr=document.createElement("tr");
-    tr.innerHTML="<td>"+esc(r.d)+"</td><td>"+esc(r.t)+" · "+esc(r.m)+"</td><td class='wpm'>"+r.w+"</td><td>"+r.a+"%</td><td>"+r.e+"</td>";
+    var _dl=(window.TR&&TR.fmtDur&&r.sec!=null)?TR.fmtDur(r.sec,TR.lang):(r.t||"");
+    var _ml=(window.TR&&TR.modeLabel)?TR.modeLabel(r.m):r.m;
+    tr.innerHTML="<td>"+esc(r.d)+"</td><td>"+esc(_dl)+" · "+esc(_ml)+"</td><td class='wpm'>"+r.w+"</td><td>"+r.a+"%</td><td>"+r.e+"</td>";
     b.appendChild(tr);
   });
 }
@@ -419,7 +421,7 @@ document.getElementById("btnShare").addEventListener("click",function(){
   if(navigator.clipboard&&navigator.clipboard.writeText){navigator.clipboard.writeText(txt).then(function(){},function(){});}
   var btn=this; btn.textContent=(window.TR&&TR.t)?TR.t("btn_copied"):"Copied!"; setTimeout(function(){btn.textContent=(window.TR&&TR.t)?TR.t("btn_share"):"Copy result";},1400);
 });
-window.addEventListener("tr-relang",function(){reset();elIn.focus();});
+window.addEventListener("tr-relang",function(){reset();try{renderHist(JSON.parse(localStorage.getItem("typingHistV1")||"[]"));}catch(e){}});
 (function(){var rows=[];try{rows=JSON.parse(localStorage.getItem("typingHistV1")||"[]");}catch(e){}renderHist(rows);})();
 reset();
 })();

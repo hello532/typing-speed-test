@@ -22,7 +22,7 @@ var I18N={
    hist_title:"Tu historial de mecanografía (guardado en este navegador)",h_date:"Fecha",h_test:"Prueba",
    hist_empty:"Aún no hay resultados: completa una prueba y aparecerá aquí."},
  hi:{_name:"हिन्दी",time:"समय",text:"पाठ",m_sentences:"वाक्य",m_quotes:"उद्धरण",m_numbers:"संख्याएँ",m_words:"शब्द",
-   st_time:"समय",wpm:"WPM",accuracy:"सटीकता",r_cpm:"वर्ण/मिनट",r_errors:"त्रुटियाँ",r_raw:"कच्चा WPM",
+   st_time:"समय",wpm:"WPM",accuracy:"सटीकता",r_cpm:"वर्ण/मिनट",r_errors:"त्रुटियाँ",r_raw:"रॉ WPM",
    hint:'यहाँ क्लिक करें या <b>कोई भी कुंजी</b> दबाकर टाइप करना शुरू करें',btn_again:"फिर से टेस्ट करें",btn_share:"परिणाम कॉपी करें",btn_copied:"कॉपी हो गया!",
    hist_title:"आपका टाइपिंग इतिहास (इस ब्राउज़र में सहेजा गया)",h_date:"तारीख",h_test:"टेस्ट",
    hist_empty:"अभी तक कोई परिणाम नहीं — एक टेस्ट पूरा करें और यह यहाँ दिखेगा।"},
@@ -55,7 +55,14 @@ function ls(k,v){try{if(v===undefined)return localStorage.getItem(k);localStorag
 var TR={lang:"en"};
 TR.t=function(k){var d=I18N[TR.lang]||I18N.en;return (d[k]!=null?d[k]:I18N.en[k])||"";};
 TR.pool=function(l){return POOL[l]||null;};
+var UNITS={en:{s:"s",m:" min"},zh:{s:"秒",m:"分"},es:{s:" s",m:" min"},hi:{s:" सेकंड",m:" मिनट"},ar:{s:" ث",m:" د"}};
+TR.fmtDur=function(sec,l){var u=UNITS[l]||UNITS.en;return sec<60?(sec+u.s):((sec/60)+u.m);};
+TR.modeLabel=function(m){return TR.t("m_"+m)||m;};
 window.TR=TR;
+function updateDurChips(){
+  var ch=document.querySelectorAll(".chip.dur");
+  for(var i=0;i<ch.length;i++){var d=parseInt(ch[i].getAttribute("data-d"),10);if(!isNaN(d))ch[i].textContent=TR.fmtDur(d,TR.lang);}
+}
 
 function translate(){
   var d=I18N[TR.lang]||I18N.en;
@@ -70,6 +77,7 @@ function setLang(l,fire){
   document.documentElement.lang=l;
   document.documentElement.dir=(l==="ar")?"rtl":"ltr";
   translate();
+  updateDurChips();
   if(fire)window.dispatchEvent(new Event("tr-relang"));
 }
 function setTheme(t){
