@@ -46,7 +46,7 @@ nav.toplinks a:hover{color:var(--text);}
 .typing{position:relative; margin-top:10px;}
 #text{font-family:"Cascadia Code","JetBrains Mono","Fira Code",Consolas,Menlo,monospace;
   font-size:clamp(1.05rem,2.6vw,1.5rem); line-height:1.75; letter-spacing:.2px; color:#555a6e;
-  min-height:5.2em; user-select:none; padding:14px; background:var(--panel2); border-radius:10px; border:1px solid var(--line);}
+  min-height:5.2em; user-select:none; padding:14px; background:var(--panel2); border-radius:10px; border:1px solid var(--line); overflow-wrap:anywhere; word-break:break-word;}
 #text .ok{color:var(--ok);}
 #text .bad{color:var(--bad); background:rgba(247,118,142,.14); border-radius:3px;}
 #text .cur{border-left:2px solid var(--cur); animation:blink 1s steps(1) infinite; margin-left:-1px;}
@@ -227,7 +227,7 @@ function render(){
   }
   elText.innerHTML=h;
 }
-function esc(s){return s.replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;").replace(/ /g,"&nbsp;");}
+function esc(s){return s.replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;");}
 function reset(){
   clearInterval(timer); text=pickText(mode);
   chars=[]; for(var i=0;i<text.length;i++){chars.push({t:text[i],ok:false});}
