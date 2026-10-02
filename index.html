@@ -338,7 +338,7 @@ var QUOTES=[
 ];
 var WORDS=["the","be","and","of","to","in","that","have","it","for","not","on","with","he","as","you","do","at","this","but","his","by","from","they","we","say","her","she","or","an","will","my","one","all","would","there","their","what","so","up","out","if","about","who","get","which","go","me","when","make","can","like","time","no","just","him","know","take","people","into","year","your","good","some","could","them","see","other","than","then","now","look","only","come","its","over","think","also","back","after","use","two","how","our","work","first","well","way","even","new","want","because","any","these","give","day","most","us","water","world","life","hand","part","child","eye","woman","place","week","case","point","government","company","number","group","problem","fact"];
 function rnd(n){return Math.floor(Math.random()*n);}
-function pickText(mode){
+function nextChunk(mode){
   if(mode==="numbers"){var a=[];for(var i=0;i<24;i++){a.push(String(100+rnd(899)));}return a.join(" ");}
   var L=(window.TR&&TR.pool&&TR.lang&&TR.lang!=="en")?TR.pool(TR.lang):null;
   if(L){
@@ -355,25 +355,76 @@ var elText=document.getElementById("text"), elIn=document.getElementById("input"
     elT=document.getElementById("sTime"), elW=document.getElementById("sWpm"), elA=document.getElementById("sAcc"),
     elHint=document.getElementById("hint"), elRes=document.getElementById("resultPanel"),
     chipsD=document.querySelectorAll(".dur"), chipsM=document.querySelectorAll(".mode");
-var dur=60, mode="sentences", text="", chars=[], timer=null, startAt=0, finished=false, errCount=0, totalTyped=0;
+var dur=60, mode="sentences", chars=[], timer=null, startAt=0, finished=false, totalTyped=0;
+var errTotal=0;            /* 累计打错次数（单调不减）——结果面板 Errors 用它 */
 var wpmSamples=[]; var _prevLen=0;
+var curEl=null;            /* 当前持 .cur 的 span，增量渲染时只动这一个节点 */
+/* 无限文本流：初始铺满首屏，之后只要光标前方余量不足 LOOKAHEAD 就尾部追加一个 chunk。
+   追加只发生在末尾，已输入部分的 chars[i] ↔ v[i] 索引对应关系不受影响。 */
+var INIT_CHARS=240, LOOKAHEAD=80;
 function mmss(s){return Math.floor(s/60)+":"+String(s%60).padStart(2,"0");}
 function render(){
-  var h="";
-  for(var i=0;i<chars.length;i++){
-    var c=chars[i];
-    if(i===totalTyped && !finished){h+='<span class="cur">'+esc(c.t)+'</span>';continue;}
-    if(i<totalTyped){h+='<span class="'+(c.ok?"ok":"bad")+'">'+esc(c.t)+'</span>';}
-    else{h+=esc(c.t);}
+  /* 全量重建路径：reset() 与 finish() 使用。打字中走 updateDOM() 增量路径。 */
+  var frag=document.createDocumentFragment(), i, sp;
+  for(i=0;i<chars.length;i++){
+    sp=document.createElement("span");
+    sp.textContent=chars[i].t;
+    if(i<totalTyped)sp.className=chars[i].ok?"ok":"bad";
+    else if(i===totalTyped&&!finished)sp.className="cur";
+    chars[i].el=sp;
+    frag.appendChild(sp);
   }
-  elText.innerHTML=h;
+  elText.innerHTML=""; elText.appendChild(frag);
+  curEl=(chars[totalTyped]&&!finished)?chars[totalTyped].el:null;
   highlightKey();
+}
+function pushChunk(){
+  var c=nextChunk(mode);
+  if(!c)return 0;
+  if(chars.length)c=" "+c;                     /* chunk 之间用空格分隔 */
+  var frag=document.createDocumentFragment(), i, sp;
+  for(i=0;i<c.length;i++){
+    sp=document.createElement("span");
+    sp.textContent=c[i];
+    chars.push({t:c[i],ok:false,el:sp});
+    frag.appendChild(sp);
+  }
+  elText.appendChild(frag);
+  return c.length;
+}
+function seedText(){
+  var guard=0;
+  while(chars.length<INIT_CHARS&&guard++<20)pushChunk();
+  if(!chars.length)pushChunk();
+}
+function ensureSupply(){
+  /* 光标前方余量低于 LOOKAHEAD 就续写；guard 防 nextChunk 返回空串时死循环 */
+  var guard=0;
+  while(chars.length-totalTyped<LOOKAHEAD&&guard++<40){if(!pushChunk())break;}
+}
+function updateDOM(prev){
+  /* 增量路径：只改 [min,max) 区间的 class 与光标节点，O(1) 级而非全量重建 */
+  var lo=Math.min(prev,totalTyped), hi=Math.max(prev,totalTyped), i, el;
+  for(i=lo;i<hi;i++){
+    el=chars[i]&&chars[i].el; if(!el)continue;
+    el.className=(i<totalTyped)?(chars[i].ok?"ok":"bad"):"";
+  }
+  if(curEl){curEl.classList.remove("cur"); curEl=null;}
+  var c=chars[totalTyped];
+  if(c&&c.el&&!finished){c.el.classList.add("cur"); curEl=c.el;}
+  highlightKey();
+}
+function followCursor(){
+  /* 打字中保持光标行可见；block:"nearest" 只在真的滚出视口时才动，避免每击键都滚 */
+  var c=chars[totalTyped]; if(!c||!c.el||finished)return;
+  var r=c.el.getBoundingClientRect(), vh=window.innerHeight||document.documentElement.clientHeight;
+  if(r.top<0||r.bottom>vh)c.el.scrollIntoView({block:"nearest"});
 }
 function esc(s){return s.replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;");}
 function reset(){
-  clearInterval(timer); text=pickText(mode);
-  chars=[]; for(var i=0;i<text.length;i++){chars.push({t:text[i],ok:false});}
-  totalTyped=0; errCount=0; finished=false; startAt=0;
+  clearInterval(timer);
+  chars=[]; totalTyped=0; errTotal=0; finished=false; startAt=0; curEl=null; _prevLen=0;
+  elText.innerHTML=""; seedText();
   elT.textContent=mmss(dur); elW.textContent="0"; elA.textContent="100%";
   elRes.style.display="none"; elHint.style.display="block";
   wpmSamples=[]; clearChart();
@@ -385,8 +436,8 @@ function stats(){
   if(mins<=0)mins=1/60000;
   var correct=totalTyped-el;
   return {wpm:Math.round((correct/5)/mins), raw:Math.round((totalTyped/5)/mins),
-          acc: totalTyped? Math.round(correct/totalTyped*100):100, err:el,
-          cpm:Math.round(totalTyped/mins)};
+          acc: totalTyped? Math.round(correct/totalTyped*100):100,
+          err:errTotal, errNow:el, cpm:Math.round(totalTyped/mins)};
 }
 function showLive(){var s=stats(); elW.textContent=s.wpm; elA.textContent=s.acc+"%"; elT.textContent=mmss(Math.max(0,dur-Math.floor((Date.now()-startAt)/1000))); if(startAt){wpmSamples.push({x:(Date.now()-startAt)/1000,y:s.wpm});}}
 function consistency(){
@@ -532,15 +583,18 @@ elIn.addEventListener("input",function(){
     },200);
     elHint.style.display="none";
   }
-  var v=elIn.value;
+  var v=elIn.value, prev=totalTyped;
   totalTyped=v.length;
-  errCount=0;
-  for(var i=0;i<totalTyped;i++){if(chars[i]){chars[i].ok=(chars[i].t===v[i]); if(!chars[i].ok)errCount++;}}
+  for(var i=0;i<totalTyped;i++){if(chars[i])chars[i].ok=(chars[i].t===v[i]);}
+  /* 累计错误只对本次新增的字符计数：改对不再减少 Errors，改错重复计数 */
+  if(totalTyped>_prevLen){for(i=_prevLen;i<totalTyped;i++){if(chars[i]&&!chars[i].ok)errTotal++;}}
   if(typeof click_==="function" && v.length>_prevLen){var _lc=chars[v.length-1]; click_(_lc?!_lc.ok:false);}
   _prevLen=v.length;
-  render();
-  showLive();
-  if(totalTyped>=chars.length){finish();}
+  ensureSupply();
+  updateDOM(prev);
+  followCursor();
+  /* 不再在此调用 showLive()：采样只由 200ms 定时器驱动，避免 wpmSamples 双重推入。
+     也不再判断 totalTyped>=chars.length 提前结束：文本无限供给，只有计时器能结束测试。 */
 });
 elText.addEventListener("click",function(){elIn.focus();});
 elHint.addEventListener("click",function(){elIn.focus();});

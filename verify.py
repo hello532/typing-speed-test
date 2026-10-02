@@ -1,15 +1,16 @@
 #!/usr/bin/env python3
-"""站点产物校验器 —— 10 项检查，任何一项失败即退出码 1。
+"""站点产物校验器 —— 11 项检查，任何一项失败即退出码 1。
 
     python3 verify.py
 
 检查覆盖：产物完整性、模板占位符、共享资源一致性、引擎漂移、
 JSON-LD 合法性、sitemap 一致性、外链存在性、与 git 基线的字节等价
-（豁免表见 EXEMPT）、构建幂等性、无重复内联块。
+（剥引擎块后对比，豁免表见 EXEMPT）、构建幂等性、引擎行为级 harness。
 """
 import difflib
 import json
 import re
+import shutil
 import subprocess
 import sys
 from pathlib import Path
@@ -17,6 +18,17 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parent
 SRC = ROOT / "src"
 SITE = "https://typing.rerivo.com"
+
+# 产物中引擎内联块的形态（无属性 <script> + IIFE + "use strict"）。
+# 全站唯一，check 5 与 check 9 共用；head-snippet 不以 (function(){ 开头，不会误伤。
+ENGINE_BLOCK_RE = r"<script>\n\(function\(\)\{\n.*?\n</script>"
+
+
+def strip_engine(html: str) -> str:
+    """剥掉引擎内联块。引擎在 Task#2 起有意演进（无限文本流+增量渲染等），
+    不再要求逐字节等于重构前基线；其正确性由 check 4/5/5b + check 11 行为级 harness 守卫。
+    CSS 未变，保留在对比内，使 208KB 冗余消除仍是基线回归守卫。"""
+    return re.sub(ENGINE_BLOCK_RE, "<script>{{ENGINE}}</script>", html, flags=re.S)
 
 # 架构重构前的基线提交。检查 9 永久对比它，使"产物等价于原站"成为回归守卫，
 # 而不是提交后退化成自我对比。
@@ -142,9 +154,11 @@ def main():
         if g.returncode != 0:
             unexpected[n] = ["(基线中不存在)"]
             continue
-        if g.stdout == htmls.get(n):
+        # 剥掉引擎块再比：引擎有意演进，HTML 内容与 CSS 仍逐字节守卫
+        if strip_engine(g.stdout) == strip_engine(htmls.get(n, "")):
             continue
-        d = [l for l in difflib.unified_diff(g.stdout.split("\n"), htmls[n].split("\n"),
+        d = [l for l in difflib.unified_diff(strip_engine(g.stdout).split("\n"),
+                                             strip_engine(htmls[n]).split("\n"),
                                              lineterm="", n=0)
              if l[:1] in "+-" and not l.startswith(("+++", "---"))]
         diffs[n] = d
@@ -172,6 +186,20 @@ def main():
     r2 = subprocess.run([sys.executable, str(ROOT / "build.py")], cwd=ROOT, capture_output=True, text=True)
     again = {n: (ROOT / n).read_text(encoding="utf-8") for n in names}
     check("10. build.py 幂等（重跑产物不变）", r2.returncode == 0 and again == htmls)
+
+    # 11. 引擎行为级 harness（P0-1 无限流 / P1 五项修复）
+    harness = SRC / "tools" / "engine_harness.mjs"
+    node = shutil.which("node")
+    if not node:
+        check("11. 引擎行为级 harness", False, "node 不在 PATH，无法验证引擎行为")
+    elif not harness.exists():
+        check("11. 引擎行为级 harness", False, f"缺失 {harness}")
+    else:
+        r3 = subprocess.run([node, str(harness)], cwd=ROOT, capture_output=True, text=True)
+        tail = (r3.stdout + r3.stderr).strip().splitlines()
+        summary = tail[-1] if tail else "(无输出)"
+        check("11. 引擎行为级 harness 全绿", r3.returncode == 0,
+              summary if r3.returncode == 0 else (summary + " | " + " ; ".join(l for l in tail if "❌" in l)[:120]))
 
     print(f"\n通过 {len(ok)}/{len(ok)+len(fail)} 项")
     if fail:
