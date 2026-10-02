@@ -18,6 +18,10 @@ ROOT = Path(__file__).resolve().parent
 SRC = ROOT / "src"
 SITE = "https://typing.rerivo.com"
 
+# 架构重构前的基线提交。检查 9 永久对比它，使"产物等价于原站"成为回归守卫，
+# 而不是提交后退化成自我对比。
+BASELINE_REF = "eada54e"
+
 # 架构重构豁免表：相对 git 基线唯一允许的差异。
 # 全部是不可见空白或渲染等价的正确性修正，逐条给出理由。
 EXEMPT = {
@@ -129,10 +133,12 @@ def main():
     check("8. 页面引用的本地资源全部存在", not miss, f"缺失: {miss}" if miss else f"{len(refs)} 个: {sorted(refs)}")
 
     # 9. 与 git 基线字节等价（豁免表内差异需逐条命中）
-    base_ref = git("rev-parse", "HEAD").stdout.strip()[:7]
+    base_ref = BASELINE_REF
+    if git("cat-file", "-e", f"{BASELINE_REF}^{{commit}}").returncode != 0:
+        base_ref = "HEAD"  # 浅克隆等取不到基线时退化
     diffs, unexpected, unmatched = {}, {}, set(EXEMPT)
     for n in names:
-        g = git("show", f"HEAD:{n}")
+        g = git("show", f"{base_ref}:{n}")
         if g.returncode != 0:
             unexpected[n] = ["(基线中不存在)"]
             continue
@@ -152,8 +158,8 @@ def main():
                     unexpected.setdefault(n, []).append(line[:100])
         else:
             unexpected.setdefault(n, []).extend(l[:100] for l in d)
-    # 提交后 HEAD == 产物，diffs 为空，豁免表自然满足（它是本次重构的一次性审计记录）
-    passed9 = not unexpected and (not diffs or not unmatched)
+    # 基线是重构前提交，diffs 恒为豁免表内容；豁免项必须全部命中
+    passed9 = not unexpected and not unmatched
     check("9. 相对 git 基线仅有豁免表内差异", passed9,
           f"意外差异 {list(unexpected)[:2]}" if unexpected else
           (f"豁免表未命中 {sorted(unmatched)}" if unmatched and diffs else
