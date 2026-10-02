@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>{{TITLE}}</title>
+<meta name="description" content="{{META_DESC}}">
+<meta name="keywords" content="{{KEYWORDS}}">
+<link rel="canonical" href="{{CANONICAL}}">
+<meta property="og:title" content="{{OG_TITLE}}">
+<meta property="og:description" content="{{OG_DESC}}">
+<meta property="og:type" content="website">
+<meta property="og:url" content="{{OG_URL}}">
+<meta property="og:image" content="https://typing.rerivo.com/og-cover.png">
+<meta property="og:site_name" content="Typing.Rerivo">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="{{TW_TITLE}}">
+<meta name="twitter:description" content="{{TW_DESC}}">
+<meta name="twitter:image" content="https://typing.rerivo.com/og-cover.png">
+{{LD_WEBAPP}}
+{{LD_FAQ}}
+{{LD_BREADCRUMB}}
+<style>
+{{CSS}}
+</style>
+<script>{{HEAD_SNIPPET}}</script>
+</head>
+<body>
+<div class="wrap">
+  {{HEADER}}
+{{CRUMBS}}
+  <section class="hero">
+    <h1>{{H1}}</h1>
+    <p>{{HERO_P}}</p>
+  </section>
+
+  <div class="panel">
+    <div class="controls">
+      <div class="ctrl-group">
+        <span class="ctrl-label" data-i18n="time">Time</span>
+        {{CHIP_DUR_15}}
+        {{CHIP_DUR_30}}
+        {{CHIP_DUR_60}}
+        {{CHIP_DUR_120}}
+        {{CHIP_DUR_180}}
+        {{CHIP_DUR_300}}
+        {{CHIP_DUR_600}}
+      </div>
+      <div class="ctrl-group">
+        <span class="ctrl-label" data-i18n="text">Text</span>
+        {{CHIP_MODE_SENTENCES}}
+        {{CHIP_MODE_QUOTES}}
+        {{CHIP_MODE_NUMBERS}}
+        {{CHIP_MODE_WORDS}}
+      </div>
+    </div>
+
+    <div class="stats">
+      <div class="stat"><div class="num accent" id="sTime">{{STIME}}</div><div class="lab" data-i18n="st_time">Time</div></div>
+      <div class="stat"><div class="num" id="sWpm">0</div><div class="lab" data-i18n="wpm">WPM</div></div>
+      <div class="stat"><div class="num" id="sAcc">100%</div><div class="lab" data-i18n="accuracy">Accuracy</div></div>
+    </div>
+
+    <div class="typing">
+      <div id="text"></div>
+      <input id="input" type="text" autocomplete="off" autocapitalize="off" autocorrect="off" spellcheck="false">
+      <div class="refocus" data-i18n="resume">Click to resume</div>
+    </div>
+    <div class="kbd-wrap" id="kbdWrap" aria-hidden="true">
+      <div class="kbd-tools"><span class="lab" data-i18n="kbd_size">Keyboard</span><button class="kbd-size" data-ks="s" aria-label="Small">S</button><button class="kbd-size" data-ks="m" aria-label="Medium">M</button><button class="kbd-size" data-ks="l" aria-label="Large">L</button><button class="snd-toggle" id="sndToggle" aria-pressed="false" title="Typing sound"><span data-i18n="sound">Sound</span>: <b class="snd-state">off</b></button></div>
+      <div class="kbd" id="kbd"></div>
+      <div class="hands" id="hands"></div>
+    </div>
+    <div class="focus-hint" id="hint" data-i18n-html="hint">Click here or press <b>any key</b> to start typing</div>
+  </div>
+
+  {{RESULT}}
+
+  {{SEO}}
+
+  {{FAQ}}
+
+  {{FOOTER}}
+</div>
+
+<script>
+{{ENGINE}}
+</script>
+<script src="ui.js?v=202610020900" defer></script>
+<script src="egg.js?v=202610020900" defer></script>
+</body>
+</html>

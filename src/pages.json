@@ -1,0 +1,1470 @@
+{
+  "site": "https://typing.rerivo.com",
+  "keywords": "typing speed test, wpm test, words per minute test, 1 minute typing test, typing test, typing practice, free typing test, typing speed, accuracy, cpm",
+  "webAppDesc": "Free online typing speed test. Measure WPM and accuracy from 15 seconds to 10 minutes.",
+  "pages": [
+    {
+      "file": "1-minute-typing-test.html",
+      "title": "1 Minute Typing Test - Free 60 Second WPM Test",
+      "metaDesc": "Free 1 minute typing test. Check your typing speed in 60 seconds and get instant WPM results. No sign-up, unlimited typing tests.",
+      "canonical": "https://typing.rerivo.com/1-minute-typing-test.html",
+      "dur": 60,
+      "mode": "sentences",
+      "nav": [
+        {
+          "href": "https://typing.rerivo.com/",
+          "text": "Home"
+        },
+        {
+          "href": "words-per-minute-test.html",
+          "text": "WPM Test"
+        },
+        {
+          "href": "typing-practice.html",
+          "text": "Practice"
+        }
+      ],
+      "crumbs": [
+        "Home",
+        "1 Minute Typing Test"
+      ],
+      "h1": "1 Minute Typing Test",
+      "heroP": "Test your typing speed in exactly <strong>60 seconds</strong>. This one minute typing test measures your words per minute (WPM) and accuracy — the standard quick check most typing sites use.",
+      "seo": [
+        {
+          "h2": "1 minute typing test",
+          "p": [
+            "The <strong>1 minute typing test</strong> is the most popular way to check typing speed. Sixty seconds is long enough to measure your real speed and short enough to fit into any break. Type the passage as fast as you can without mistakes — the test counts your WPM, accuracy and errors automatically. When the minute is up, your result appears instantly and is saved in this browser so you can compare it with your next attempt."
+          ]
+        },
+        {
+          "h2": "Why 60 seconds?",
+          "p": [
+            "A one minute test balances two things: it is long enough that a single lucky or unlucky sentence does not dominate the result, and short enough that you stay focused the whole time. Shorter tests such as 15 or 30 seconds are fun for quick bursts, but a 60 second test is what most people mean when they say typing speed. Recruiters and typing certificates almost always use a one minute test."
+          ]
+        }
+      ],
+      "faqFirstOpen": true,
+      "faqH2": "Typing test FAQ",
+      "faq": [
+        {
+          "q": "What is a typing test?",
+          "a": "A typing test measures how fast and accurately you type. You type a passage of text while the test counts your words per minute (WPM), accuracy and errors."
+        },
+        {
+          "q": "How is WPM calculated?",
+          "a": "WPM = (correct characters ÷ 5) ÷ minutes elapsed. The industry standard treats every 5 characters as one word, so longer words count more. Raw WPM ignores errors, while net WPM subtracts them."
+        },
+        {
+          "q": "How long should a typing test be?",
+          "a": "1 minute is the most popular length and is enough for a quick check. Longer tests (3, 5 or 10 minutes) give a more stable result because they average out short bursts of speed and fatigue."
+        },
+        {
+          "q": "Is this typing test free?",
+          "a": "Yes, completely free with no sign up, no account and no ads inside the typing area. Your past results are stored only in your own browser (localStorage), never on a server."
+        },
+        {
+          "q": "How do I type faster?",
+          "a": "Practice daily for 10–15 minutes, prioritise accuracy over speed, keep your wrists relaxed and your fingers anchored on the home row (ASDF JKL;). Learn to use all ten fingers rather than hunting and pecking with two."
+        }
+      ],
+      "webAppName": "Typing Speed Test",
+      "webAppUrl": "https://typing.rerivo.com/",
+      "bcItems": [
+        {
+          "name": "Home",
+          "item": "https://typing.rerivo.com/"
+        },
+        {
+          "name": "1 Minute Typing Test",
+          "item": "https://typing.rerivo.com/1-minute-typing-test.html"
+        }
+      ],
+      "ldPretty": []
+    },
+    {
+      "file": "2-minute-typing-test.html",
+      "title": "2 Minute Typing Test - Free 2 Min WPM Test",
+      "metaDesc": "Free 2 minute typing test. Check your typing speed and accuracy over 2 minutes with instant WPM results. No sign up, unlimited retries.",
+      "canonical": "https://typing.rerivo.com/2-minute-typing-test.html",
+      "dur": 120,
+      "mode": "sentences",
+      "nav": [
+        {
+          "href": "/",
+          "text": "Home"
+        },
+        {
+          "href": "1-minute-typing-test.html",
+          "text": "1 Minute Test"
+        },
+        {
+          "href": "words-per-minute-test.html",
+          "text": "WPM Test"
+        },
+        {
+          "href": "typing-practice.html",
+          "text": "Practice"
+        }
+      ],
+      "crumbs": [
+        "Home",
+        "2 Minute Typing Test"
+      ],
+      "h1": "2 Minute Typing Test",
+      "heroP": "Test your typing speed over <strong>2 minutes</strong> — long enough for a stable WPM score, short enough to stay sharp. A great middle ground between the quick 1 minute test and the full 5 minute test.",
+      "seo": [
+        {
+          "h2": "2 minute typing test",
+          "p": [
+            "The <strong>2 minute typing test</strong> is a popular middle-ground length. Two minutes is long enough that your score reflects real typing speed rather than one lucky sentence, yet short enough to keep full concentration. Type the passage as fast and accurately as you can — WPM, accuracy and errors are counted automatically."
+          ]
+        },
+        {
+          "h2": "1 minute vs 2 minute vs 5 minute",
+          "p": [
+            "A 1 minute test is a quick check, a 2 minute test is a reliable everyday measure, and a 5 minute test is best for serious benchmarking. If you are practising daily, the 2 minute test is a comfortable default that balances speed feedback and stability."
+          ]
+        },
+        {
+          "h2": "Why a 2-minute typing test",
+          "p": [
+            "Two minutes is the sweet spot between a quick sprint and a full endurance run. It's long enough to settle into a steady rhythm and smooth out a shaky start, yet short enough to retake several times in a sitting. Many employer screening tests use a two-minute format, which makes it ideal practice for job applications."
+          ]
+        }
+      ],
+      "faqFirstOpen": true,
+      "faqH2": "Typing test FAQ",
+      "faq": [
+        {
+          "q": "How long is a 2 minute typing test?",
+          "a": "Exactly 120 seconds. When the timer runs out your WPM, accuracy, characters per minute and error count appear instantly."
+        },
+        {
+          "q": "What is a good 2 minute WPM?",
+          "a": "Around 40 WPM is average, 60+ is good and 80+ is professional. Accuracy above 95% is just as important as raw speed."
+        },
+        {
+          "q": "Is this typing test free?",
+          "a": "Yes, completely free with no sign up and no ads inside the typing area. Results are saved only in your browser."
+        },
+        {
+          "q": "Can I retry as many times as I want?",
+          "a": "Yes, there is no limit. Click “Test again” for a fresh passage and your history keeps the last results."
+        }
+      ],
+      "webAppName": "Typing Speed Test",
+      "webAppUrl": "https://typing.rerivo.com/",
+      "bcItems": [
+        {
+          "name": "Home",
+          "item": "https://typing.rerivo.com/"
+        },
+        {
+          "name": "2 Minute Typing Test",
+          "item": "https://typing.rerivo.com/2-minute-typing-test.html"
+        }
+      ],
+      "ldPretty": []
+    },
+    {
+      "file": "5-minute-typing-test.html",
+      "title": "5 Minute Typing Test - Free 5 Min WPM Test",
+      "metaDesc": "Free 5 minute typing test. Measure your sustained typing speed and accuracy over 5 minutes with instant WPM results. No sign up.",
+      "canonical": "https://typing.rerivo.com/5-minute-typing-test.html",
+      "dur": 300,
+      "mode": "sentences",
+      "nav": [
+        {
+          "href": "/",
+          "text": "Home"
+        },
+        {
+          "href": "1-minute-typing-test.html",
+          "text": "1 Minute Test"
+        },
+        {
+          "href": "words-per-minute-test.html",
+          "text": "WPM Test"
+        },
+        {
+          "href": "typing-practice.html",
+          "text": "Practice"
+        }
+      ],
+      "crumbs": [
+        "Home",
+        "5 Minute Typing Test"
+      ],
+      "h1": "5 Minute Typing Test",
+      "heroP": "Measure your <strong>sustained typing speed</strong> over a full 5 minutes. A longer test averages out lucky bursts and fatigue, giving a more reliable words per minute (WPM) score than a quick 1 minute test.",
+      "seo": [
+        {
+          "h2": "5 minute typing test",
+          "p": [
+            "The <strong>5 minute typing test</strong> is the best way to measure your real, sustained typing speed. Over five minutes your score settles down: a single fast or slow sentence no longer dominates the result, and natural fatigue is factored in. This is why many employers and typing certifications prefer a 3-5 minute test over a 60 second one."
+          ]
+        },
+        {
+          "h2": "Who should use a 5 minute test?",
+          "p": [
+            "If you type for a living — data entry, transcription, programming, customer support — the 5 minute test reflects your working speed far better than a short burst. Take it a few times a week and watch your WPM and accuracy trend in the saved history below."
+          ]
+        },
+        {
+          "h2": "Build typing endurance",
+          "p": [
+            "A five-minute test measures something a quick sprint can't: how well you hold speed and accuracy as your hands tire. Pace yourself, keep your posture relaxed and your wrists level, and breathe. Finishing strong on the five-minute test is a reliable sign your typing is ready for long real-world sessions of writing, coding or data entry."
+          ]
+        }
+      ],
+      "faqFirstOpen": true,
+      "faqH2": "Typing test FAQ",
+      "faq": [
+        {
+          "q": "Is a 5 minute typing test more accurate?",
+          "a": "Yes. Longer tests average out short bursts of speed and moments of fatigue, so a 5 minute result is more stable and representative of your true typing speed than a 15 or 60 second test."
+        },
+        {
+          "q": "What is a good 5 minute WPM?",
+          "a": "40 WPM is average, 60+ WPM is good, and 80+ WPM is professional level. Maintaining high accuracy over 5 minutes matters more than peak speed."
+        },
+        {
+          "q": "Is this typing test free?",
+          "a": "Yes, completely free with no sign up and no ads inside the typing area. Your results are stored only in your own browser."
+        },
+        {
+          "q": "Does the test save my progress?",
+          "a": "Your last results are saved locally in this browser (localStorage) so you can track improvement over time. Nothing is sent to a server."
+        }
+      ],
+      "webAppName": "Typing Speed Test",
+      "webAppUrl": "https://typing.rerivo.com/",
+      "bcItems": [
+        {
+          "name": "Home",
+          "item": "https://typing.rerivo.com/"
+        },
+        {
+          "name": "5 Minute Typing Test",
+          "item": "https://typing.rerivo.com/5-minute-typing-test.html"
+        }
+      ],
+      "ldPretty": []
+    },
+    {
+      "file": "capital-letter-typing-test.html",
+      "title": "Capital Letter Typing Test - Shift Key Practice",
+      "metaDesc": "Free capital letter typing test. Practise the Shift key and uppercase letters, and measure your WPM and accuracy with instant results. No sign up.",
+      "canonical": "https://typing.rerivo.com/capital-letter-typing-test.html",
+      "dur": 60,
+      "mode": "sentences",
+      "nav": [
+        {
+          "href": "1-minute-typing-test.html",
+          "text": "1 Minute Test"
+        },
+        {
+          "href": "words-per-minute-test.html",
+          "text": "WPM Test"
+        },
+        {
+          "href": "typing-practice.html",
+          "text": "Practice"
+        }
+      ],
+      "crumbs": [
+        "Home",
+        "Capital Letter Typing Test"
+      ],
+      "h1": "Capital Letter Typing Test",
+      "heroP": "Practise <strong>uppercase letters and the Shift key</strong> with a focused capital letter typing test. Build muscle memory for capitals and symbols while tracking your WPM and accuracy.",
+      "seo": [
+        {
+          "h2": "Capital letter typing test",
+          "p": [
+            "Capitals slow most people down because they need the Shift key and a return to the home row. This capital letter typing test gives you sentences full of proper nouns and uppercase words so you can drill the motion until it feels natural. Your WPM and accuracy are shown instantly after every run."
+          ]
+        },
+        {
+          "h2": "How to type capitals faster",
+          "p": [
+            "Use the opposite hand: press the Shift key with the hand that is not typing the letter. Keep your fingers on the home row and avoid using Caps Lock for single capitals. A few minutes of daily practice with this typing test makes the Shift reach automatic."
+          ]
+        },
+        {
+          "h2": "Mastering the Shift key",
+          "p": [
+            "Capital letters are where many typists lose speed. Reaching for Shift with the opposite hand — left Shift for right-hand letters and right Shift for left-hand letters — keeps your typing balanced and quick. This test mixes capitals through natural sentences so the Shift reach becomes second nature instead of a stumble."
+          ]
+        },
+        {
+          "h2": "Capitalization in real writing",
+          "p": [
+            "Every sentence starts with a capital, and names, places and titles add many more. Practising proper capitalization trains the timing of pressing Shift and a letter together smoothly, so your names and sentence starts flow without the tiny pauses that quietly drag down your words-per-minute."
+          ]
+        }
+      ],
+      "faqFirstOpen": true,
+      "faqH2": "Frequently asked questions",
+      "faq": [
+        {
+          "q": "What is a capital letter typing test?",
+          "a": "It is a typing test that focuses on uppercase letters and the Shift key, so you can practise capitals, proper nouns and symbols rather than only lowercase words."
+        },
+        {
+          "q": "Why are capital letters hard to type?",
+          "a": "Capitals need a Shift key press with the opposite hand plus a quick return to the home row, which breaks your rhythm until the motion becomes muscle memory."
+        },
+        {
+          "q": "Is this typing test free?",
+          "a": "Yes, completely free with no sign up. Your results are stored only in your own browser."
+        }
+      ],
+      "webAppName": "Capital Letter Typing Test",
+      "webAppUrl": "https://typing.rerivo.com/capital-letter-typing-test.html",
+      "bcItems": [
+        {
+          "name": "Home",
+          "item": "https://typing.rerivo.com/"
+        },
+        {
+          "name": "Capital Letter Typing Test",
+          "item": "https://typing.rerivo.com/capital-letter-typing-test.html"
+        }
+      ],
+      "ldPretty": [
+        "FAQPage",
+        "BreadcrumbList"
+      ]
+    },
+    {
+      "file": "easy-typing-test.html",
+      "title": "Easy Typing Test - Simple WPM Test for Beginners",
+      "metaDesc": "An easy typing test for beginners. Short, simple rounds with common words, instant WPM and accuracy, and no sign up. Start improving today.",
+      "canonical": "https://typing.rerivo.com/easy-typing-test.html",
+      "dur": 60,
+      "mode": "sentences",
+      "nav": [
+        {
+          "href": "1-minute-typing-test.html",
+          "text": "1 Minute Test"
+        },
+        {
+          "href": "words-per-minute-test.html",
+          "text": "WPM Test"
+        },
+        {
+          "href": "typing-practice.html",
+          "text": "Practice"
+        }
+      ],
+      "crumbs": [
+        "Home",
+        "Easy Typing Test"
+      ],
+      "h1": "Easy Typing Test",
+      "heroP": "A simple, <strong>easy typing test</strong> for beginners. Start with short rounds and common words, see your WPM and accuracy instantly, and build confidence at your own pace.",
+      "seo": [
+        {
+          "h2": "Easy typing test for beginners",
+          "p": [
+            "If you are just starting out, long passages and hard words can be discouraging. This easy typing test keeps things simple with short 15 or 30 second rounds and common everyday words, so you can get a quick WPM score and feel progress fast."
+          ]
+        },
+        {
+          "h2": "Build speed step by step",
+          "p": [
+            "Begin with the shortest rounds and the words mode, focus on accuracy, and only then stretch to a 1 minute typing test. A few relaxed minutes each day beat one long frustrating session, and your saved history shows every improvement."
+          ]
+        },
+        {
+          "h2": "A gentle starting point for beginners",
+          "p": [
+            "If longer tests feel intimidating, start here. Short durations and simple, everyday sentences let you build rhythm without pressure. There's no account, no difficulty spike and no penalty for a slow start — just type at a pace that feels comfortable and watch your numbers climb a little each time."
+          ]
+        },
+        {
+          "h2": "Building typing confidence",
+          "p": [
+            "Confidence comes from repetition. Begin with the 15- or 30-second timer, keep your eyes on the screen, and let the on-screen keyboard guide your next key. As clean runs become routine, stretch to the one-minute test. Small wins stack up fast, and before long the keys you once hunted for will feel automatic."
+          ]
+        }
+      ],
+      "faqFirstOpen": true,
+      "faqH2": "Frequently asked questions",
+      "faq": [
+        {
+          "q": "What makes this an easy typing test?",
+          "a": "It offers short rounds and a simple common-words mode, so beginners get a quick, encouraging WPM result without long or difficult passages."
+        },
+        {
+          "q": "I am a slow typist — where do I start?",
+          "a": "Start with a 15 or 30 second round in the words mode, aim for accuracy first, and build up to longer tests as you improve."
+        },
+        {
+          "q": "Is it free?",
+          "a": "Yes, completely free with no sign up. Your results stay in your own browser."
+        }
+      ],
+      "webAppName": "Easy Typing Test",
+      "webAppUrl": "https://typing.rerivo.com/easy-typing-test.html",
+      "bcItems": [
+        {
+          "name": "Home",
+          "item": "https://typing.rerivo.com/"
+        },
+        {
+          "name": "Easy Typing Test",
+          "item": "https://typing.rerivo.com/easy-typing-test.html"
+        }
+      ],
+      "ldPretty": [
+        "FAQPage",
+        "BreadcrumbList"
+      ]
+    },
+    {
+      "file": "english-typing-test.html",
+      "title": "English Typing Test - Free Online Typing Test",
+      "metaDesc": "Free English typing test online. Type English sentences and check your words per minute (WPM) and accuracy with instant results. No sign up.",
+      "canonical": "https://typing.rerivo.com/english-typing-test.html",
+      "dur": 60,
+      "mode": "sentences",
+      "nav": [
+        {
+          "href": "1-minute-typing-test.html",
+          "text": "1 Minute Test"
+        },
+        {
+          "href": "words-per-minute-test.html",
+          "text": "WPM Test"
+        },
+        {
+          "href": "typing-practice.html",
+          "text": "Practice"
+        }
+      ],
+      "crumbs": [
+        "Home",
+        "English Typing Test"
+      ],
+      "h1": "English Typing Test",
+      "heroP": "Test your <strong>English typing speed</strong> with real sentences. Measure your words per minute (WPM) and accuracy instantly. Free, no sign up.",
+      "seo": [
+        {
+          "h2": "English typing test",
+          "p": [
+            "An <strong>English typing test</strong> measures how fast and accurately you type English text. Your result is shown in WPM (words per minute), where every 5 characters counts as one word. Typing full English sentences — with punctuation and capitals — is the most realistic way to measure everyday typing speed."
+          ]
+        },
+        {
+          "h2": "How to improve English typing",
+          "p": [
+            "Practise with real sentences rather than isolated words, keep your fingers on the home row (ASDF JKL;), and look at the screen instead of the keyboard. Accuracy first, then speed: 10-15 focused minutes a day beats long occasional sessions."
+          ]
+        },
+        {
+          "h2": "Practising English typing",
+          "p": [
+            "This English typing test uses natural, everyday sentences rather than random letters, so you practise the real word patterns and spacing you meet in emails, essays and chat. Typing whole phrases trains the common letter pairs — \"th\", \"ing\", \"and\", \"tion\" — that make fluent English typing feel effortless."
+          ]
+        },
+        {
+          "h2": "Why common words speed you up",
+          "p": [
+            "A small set of words makes up most of what we write in English. Drilling high-frequency words like the, and, that, with and your builds instant muscle memory for the keystrokes you repeat thousands of times a day. Master those and your overall WPM rises across every kind of text you type."
+          ]
+        }
+      ],
+      "faqFirstOpen": true,
+      "faqH2": "Typing test FAQ",
+      "faq": [
+        {
+          "q": "Is this English typing test free?",
+          "a": "Yes, completely free with no sign up. Your results are saved only in your own browser."
+        },
+        {
+          "q": "What is a good English typing speed?",
+          "a": "40 WPM is average, 60-70 WPM is good, and 80+ WPM is professional level for most office and writing work."
+        },
+        {
+          "q": "How is WPM calculated?",
+          "a": "Every 5 typed characters count as one word, divided by the minutes elapsed, then adjusted for errors."
+        }
+      ],
+      "webAppName": "Typing Speed Test",
+      "webAppUrl": "https://typing.rerivo.com/",
+      "bcItems": [
+        {
+          "name": "Home",
+          "item": "https://typing.rerivo.com/"
+        },
+        {
+          "name": "English Typing Test",
+          "item": "https://typing.rerivo.com/english-typing-test.html"
+        }
+      ],
+      "ldPretty": []
+    },
+    {
+      "file": "free-typing-test.html",
+      "title": "Free Typing Test - No Sign Up, Instant WPM",
+      "metaDesc": "A free typing test with no sign up and no ads in the typing area. Check your WPM and accuracy instantly, from 15 seconds to 10 minutes. Free forever.",
+      "canonical": "https://typing.rerivo.com/free-typing-test.html",
+      "dur": 60,
+      "mode": "sentences",
+      "nav": [
+        {
+          "href": "1-minute-typing-test.html",
+          "text": "1 Minute Test"
+        },
+        {
+          "href": "words-per-minute-test.html",
+          "text": "WPM Test"
+        },
+        {
+          "href": "typing-practice.html",
+          "text": "Practice"
+        }
+      ],
+      "crumbs": [
+        "Home",
+        "Free Typing Test"
+      ],
+      "h1": "Free Typing Test",
+      "heroP": "A truly <strong>free typing test</strong> — no sign up, no account, no ads in the typing area. Check your WPM and accuracy instantly and practise as much as you like.",
+      "seo": [
+        {
+          "h2": "Free typing test, no sign up",
+          "p": [
+            "Many typing sites hide results behind an account or bury the test under ads. This free typing test does neither: you land on the page, start typing, and get your WPM and accuracy the moment the timer ends. Nothing is locked and nothing is uploaded to a server."
+          ]
+        },
+        {
+          "h2": "Practise as much as you want",
+          "p": [
+            "Because the test is free forever, you can run it every day to build speed and accuracy. Pick any length from 15 seconds to 10 minutes and switch between sentences, quotes, numbers and words to train your weak spots."
+          ]
+        },
+        {
+          "h2": "Completely free, no sign-up required",
+          "p": [
+            "There's no account, no email, no paywall and no trial that quietly expires. Open the page and start typing — every duration, text mode, language and theme is available immediately and forever. Your results stay on your own device, so practising costs you nothing and shares nothing."
+          ]
+        },
+        {
+          "h2": "Everything you get for free",
+          "p": [
+            "Free here means the full tool: timed tests from 15 seconds to 10 minutes, real sentences, quotes, numbers and word drills, live WPM and accuracy, an on-screen keyboard, a results graph and locally saved history. It's the complete typing test experience without a single hidden cost."
+          ]
+        }
+      ],
+      "faqFirstOpen": true,
+      "faqH2": "Frequently asked questions",
+      "faq": [
+        {
+          "q": "Is this typing test really free?",
+          "a": "Yes. There is no sign up, no account, no paywall and no ads inside the typing area. You can use it as often as you like."
+        },
+        {
+          "q": "Do I need to create an account?",
+          "a": "No account is needed. Your past results are saved only in your own browser using localStorage."
+        },
+        {
+          "q": "What can I measure?",
+          "a": "You get words per minute (WPM), accuracy, characters per minute and error counts after every attempt."
+        }
+      ],
+      "webAppName": "Free Typing Test",
+      "webAppUrl": "https://typing.rerivo.com/free-typing-test.html",
+      "bcItems": [
+        {
+          "name": "Home",
+          "item": "https://typing.rerivo.com/"
+        },
+        {
+          "name": "Free Typing Test",
+          "item": "https://typing.rerivo.com/free-typing-test.html"
+        }
+      ],
+      "ldPretty": [
+        "FAQPage",
+        "BreadcrumbList"
+      ]
+    },
+    {
+      "file": "index.html",
+      "title": "Typing Speed Test - Free Online WPM Test (60s)",
+      "metaDesc": "Free typing speed test online. Check your WPM in 60 seconds with instant results. Practice typing with sentences, quotes, numbers and words.",
+      "canonical": "https://typing.rerivo.com/",
+      "dur": 60,
+      "mode": "sentences",
+      "nav": [
+        {
+          "href": "1-minute-typing-test.html",
+          "text": "1 Minute Test"
+        },
+        {
+          "href": "words-per-minute-test.html",
+          "text": "WPM Test"
+        },
+        {
+          "href": "typing-practice.html",
+          "text": "Practice"
+        }
+      ],
+      "crumbs": null,
+      "h1": "Free Typing Speed Test",
+      "heroP": "Measure your <strong>words per minute (WPM)</strong> and accuracy. Choose 15s to 10 minutes, type the text, get instant results. No sign up, free forever.",
+      "seo": [
+        {
+          "h2": "Typing Speed Test",
+          "p": [
+            "This is a free online <strong>typing speed test</strong>. It measures how many <strong>words per minute (WPM)</strong> you can type and how accurate you are. The test works on any device with a keyboard — desktop, laptop, tablet or phone. There is nothing to install and no account needed."
+          ]
+        },
+        {
+          "h2": "How to improve your typing speed",
+          "p": [
+            "Take a short test every day. Start with a <strong>1 minute typing test</strong>, then try 2 or 5 minutes as you get faster. Focus on accuracy first — speed follows accuracy. Keep your fingers on the home row and look at the screen, not the keyboard. Switch to <strong>quotes</strong> or <strong>numbers</strong> mode to practice punctuation and digits, which are the most common slowdowns."
+          ]
+        },
+        {
+          "h2": "What is a good typing speed?",
+          "p": [
+            "An average typing speed is about <strong>40 WPM</strong>. Typing at 60 WPM is faster than most people and good for most office work. Above 80 WPM is fast, and professional typists and developers often reach 90–120 WPM. Children usually start around 20–30 WPM and improve quickly with a few minutes of daily practice."
+          ]
+        },
+        {
+          "h2": "Why use an online typing speed test?",
+          "p": [
+            "An online <strong>typing speed test</strong> gives you an instant, objective picture of how well you type. Instead of guessing, you get a clear <strong>WPM</strong> score and an accuracy percentage after every attempt. Because this typing speed test runs entirely in your browser, there is nothing to download and no login to create — you just start typing and the timer does the rest."
+          ]
+        },
+        {
+          "h2": "Choose your typing test duration and text",
+          "p": [
+            "Everyone types differently, so this typing speed test lets you pick the length and style that suit you. Short 15 or 30 second rounds are great for a quick warm up, while a <strong>1 minute typing test</strong> is the classic benchmark. Longer 3, 5 and 10 minute tests reveal your stamina and give a steadier WPM result. You can also switch between sentences, famous quotes, numbers and common words, so you train exactly the keys you struggle with most."
+          ]
+        },
+        {
+          "h2": "Track your typing progress over time",
+          "p": [
+            "Improvement is easier to see when you measure it. After each typing speed test your result is saved in your own browser, building a private history of WPM, accuracy and error counts. Watching those numbers climb week by week is motivating and tells you whether to push for raw speed or to slow down and tighten up accuracy. Your typing history stays private in your browser."
+          ]
+        },
+        {
+          "h2": "Tips to type faster and more accurately",
+          "p": [
+            "Fast typing is built on good habits. Keep your fingers on the home row, use all ten fingers, and glance at the screen rather than the keyboard. Take a typing test every day for ten to fifteen minutes and always value accuracy over raw speed, because fixing mistakes costs more time than typing a little slower. Numbers and punctuation are the most common slowdowns, so practise them in the dedicated modes until they feel automatic."
+          ]
+        },
+        {
+          "h2": "Who should take a typing speed test?",
+          "p": [
+            "Students, office workers, programmers, writers, gamers and data entry professionals all benefit from faster, more accurate typing. A quick typing speed test helps job seekers prove their WPM on a résumé and gives anyone who spends the day at a keyboard a simple goal to beat. Whatever your starting point, a few minutes of regular practice with this free typing test will steadily raise your words per minute."
+          ]
+        }
+      ],
+      "faqFirstOpen": true,
+      "faqH2": "Typing test FAQ",
+      "faq": [
+        {
+          "q": "What is a typing test?",
+          "a": "A typing test measures how fast and accurately you type. You type a passage of text while the test counts your words per minute (WPM), accuracy and errors."
+        },
+        {
+          "q": "How is WPM calculated?",
+          "a": "WPM = (correct characters ÷ 5) ÷ minutes elapsed. The industry standard treats every 5 characters as one word, so longer words count more. Raw WPM ignores errors, while net WPM subtracts them."
+        },
+        {
+          "q": "How long should a typing test be?",
+          "a": "1 minute is the most popular length and is enough for a quick check. Longer tests (3, 5 or 10 minutes) give a more stable result because they average out short bursts of speed and fatigue."
+        },
+        {
+          "q": "Is this typing test free?",
+          "a": "Yes, completely free with no sign up, no account and no ads inside the typing area. Your past results are stored only in your own browser (localStorage), never on a server."
+        },
+        {
+          "q": "How do I type faster?",
+          "a": "Practice daily for 10–15 minutes, prioritise accuracy over speed, keep your wrists relaxed and your fingers anchored on the home row (ASDF JKL;). Learn to use all ten fingers rather than hunting and pecking with two."
+        }
+      ],
+      "webAppName": "Typing Speed Test",
+      "webAppUrl": "https://typing.rerivo.com/",
+      "bcItems": [
+        {
+          "name": "Home",
+          "item": "https://typing.rerivo.com/"
+        }
+      ],
+      "ldPretty": []
+    },
+    {
+      "file": "keyboard-typing-test.html",
+      "title": "Keyboard Typing Test - Free Online WPM Test",
+      "metaDesc": "Free keyboard typing test. Measure your keyboard speed in WPM and accuracy with instant results. Practise on any keyboard, no sign up.",
+      "canonical": "https://typing.rerivo.com/keyboard-typing-test.html",
+      "dur": 60,
+      "mode": "sentences",
+      "nav": [
+        {
+          "href": "1-minute-typing-test.html",
+          "text": "1 Minute Test"
+        },
+        {
+          "href": "words-per-minute-test.html",
+          "text": "WPM Test"
+        },
+        {
+          "href": "typing-practice.html",
+          "text": "Practice"
+        }
+      ],
+      "crumbs": [
+        "Home",
+        "Keyboard Typing Test"
+      ],
+      "h1": "Keyboard Typing Test",
+      "heroP": "Test your <strong>keyboard speed</strong> and accuracy. Works on any keyboard — laptop, mechanical or full-size. Instant WPM results, free, no sign up.",
+      "seo": [
+        {
+          "h2": "Keyboard typing test",
+          "p": [
+            "A <strong>keyboard typing test</strong> checks how fast you type on your keyboard and how accurate you are. It works the same on laptop, mechanical and full-size keyboards. Measuring regularly shows whether a new keyboard or layout actually improves your speed."
+          ]
+        },
+        {
+          "h2": "Keyboard typing tips",
+          "p": [
+            "Keep your wrists relaxed and fingers anchored on the home row. Use all ten fingers rather than hunting and pecking. A comfortable keyboard with good key travel helps, but consistent practice matters far more than the hardware."
+          ]
+        },
+        {
+          "h2": "Works with any keyboard layout",
+          "p": [
+            "This keyboard typing test runs on QWERTY, AZERTY, Dvorak and Colemak alike — it simply measures the characters you type against the target text. Membrane, mechanical or laptop scissor-switch, the physical board doesn't change the score. What matters is muscle memory: knowing where each key sits without looking so your hands stay anchored on the home row."
+          ]
+        },
+        {
+          "h2": "Build true touch typing",
+          "p": [
+            "Touch typing means typing without watching your fingers. Use the small bumps on the F and J keys to find the home row by feel, then return to it after every reach. The on-screen keyboard below highlights the next key so you can gradually stop looking down at your real keyboard and trust your hands instead."
+          ]
+        }
+      ],
+      "faqFirstOpen": true,
+      "faqH2": "Typing test FAQ",
+      "faq": [
+        {
+          "q": "Does the keyboard type affect my score?",
+          "a": "Technique matters more than hardware, but a comfortable keyboard with good key travel can help you type faster and more accurately."
+        },
+        {
+          "q": "Is this keyboard typing test free?",
+          "a": "Yes, free with no sign up. Results stay in your own browser only."
+        },
+        {
+          "q": "Can I test a mechanical keyboard?",
+          "a": "Yes — this test works on any keyboard, so it's great for comparing a new mechanical board against your old one."
+        }
+      ],
+      "webAppName": "Typing Speed Test",
+      "webAppUrl": "https://typing.rerivo.com/",
+      "bcItems": [
+        {
+          "name": "Home",
+          "item": "https://typing.rerivo.com/"
+        },
+        {
+          "name": "Keyboard Typing Test",
+          "item": "https://typing.rerivo.com/keyboard-typing-test.html"
+        }
+      ],
+      "ldPretty": []
+    },
+    {
+      "file": "number-typing-test.html",
+      "title": "Number Typing Test - Free Numeric Keypad Test",
+      "metaDesc": "Free number typing test. Practice typing digits fast and improve your numeric keypad speed and accuracy with instant WPM results. No sign up.",
+      "canonical": "https://typing.rerivo.com/number-typing-test.html",
+      "dur": 60,
+      "mode": "numbers",
+      "nav": [
+        {
+          "href": "/",
+          "text": "Home"
+        },
+        {
+          "href": "1-minute-typing-test.html",
+          "text": "1 Minute Test"
+        },
+        {
+          "href": "words-per-minute-test.html",
+          "text": "WPM Test"
+        },
+        {
+          "href": "typing-practice.html",
+          "text": "Practice"
+        }
+      ],
+      "crumbs": [
+        "Home",
+        "Number Typing Test"
+      ],
+      "h1": "Number Typing Test",
+      "heroP": "Practise typing <strong>numbers</strong> fast and accurately. Numeric typing is a separate skill from text — essential for data entry, accounting and finance. This number typing test measures your digit speed and accuracy.",
+      "seo": [
+        {
+          "h2": "Number typing test",
+          "p": [
+            "The <strong>number typing test</strong> focuses on digits instead of words. Typing numbers quickly is a distinct skill: the top row and numeric keypad use different finger movements than regular text, and most people are far slower at numbers than letters. Regular practice closes that gap — vital for data entry, accounting, finance and spreadsheet work."
+          ]
+        },
+        {
+          "h2": "How to type numbers faster",
+          "p": [
+            "Use the numeric keypad on a full keyboard and anchor your fingers on the 4-5-6 home row. On a laptop, practise the top number row until you can hit digits without looking. Prioritise accuracy first — a mistyped number is often worse than a mistyped word — then build speed with daily reps."
+          ]
+        },
+        {
+          "h2": "Number row versus numeric keypad",
+          "p": [
+            "There are two ways to type numbers: the top number row and the dedicated numeric keypad on full-size keyboards. This test drills the number row, which every keyboard has — including laptops. Mastering it means you can enter dates, prices and codes mid-sentence without moving your hands away from the home row."
+          ]
+        },
+        {
+          "h2": "Where fast number typing pays off",
+          "p": [
+            "Accountants, data-entry clerks, developers and anyone working with spreadsheets type digits constantly. Clean, quick number entry cuts costly transposition errors — typing 1,243 instead of 1,423 — and speeds up any task built on figures. Regular practice turns the number row from a slow reach into automatic muscle memory."
+          ]
+        }
+      ],
+      "faqFirstOpen": true,
+      "faqH2": "Typing test FAQ",
+      "faq": [
+        {
+          "q": "What is a number typing test?",
+          "a": "It measures how fast and accurately you type digits (0-9) rather than words. Your speed is still reported in WPM, where every 5 characters counts as one word."
+        },
+        {
+          "q": "Why is typing numbers harder?",
+          "a": "Numbers are typed less often than letters, and the top row or numeric keypad use different finger patterns. Most people type numbers 30-50% slower than text until they practise."
+        },
+        {
+          "q": "Is this number typing test free?",
+          "a": "Yes, completely free, no sign up and no ads inside the typing area. Your results are saved only in your own browser."
+        },
+        {
+          "q": "Does it use the numeric keypad?",
+          "a": "You can use either the number row or the numeric keypad — whichever you want to practise. The test just checks the digits you type against the target."
+        }
+      ],
+      "webAppName": "Typing Speed Test",
+      "webAppUrl": "https://typing.rerivo.com/",
+      "bcItems": [
+        {
+          "name": "Home",
+          "item": "https://typing.rerivo.com/"
+        },
+        {
+          "name": "Number Typing Test",
+          "item": "https://typing.rerivo.com/number-typing-test.html"
+        }
+      ],
+      "ldPretty": []
+    },
+    {
+      "file": "online-typing-test.html",
+      "title": "Online Typing Test - Free WPM Speed Test",
+      "metaDesc": "Free online typing test. Check your typing speed in WPM and accuracy right in your browser — nothing to install, no sign up.",
+      "canonical": "https://typing.rerivo.com/online-typing-test.html",
+      "dur": 60,
+      "mode": "sentences",
+      "nav": [
+        {
+          "href": "1-minute-typing-test.html",
+          "text": "1 Minute Test"
+        },
+        {
+          "href": "words-per-minute-test.html",
+          "text": "WPM Test"
+        },
+        {
+          "href": "typing-practice.html",
+          "text": "Practice"
+        }
+      ],
+      "crumbs": [
+        "Home",
+        "Online Typing Test"
+      ],
+      "h1": "Online Typing Test",
+      "heroP": "A free <strong>online typing test</strong> that runs right in your browser. Check your WPM and accuracy instantly — nothing to install, no sign up.",
+      "seo": [
+        {
+          "h2": "Online typing test",
+          "p": [
+            "An <strong>online typing test</strong> runs entirely in your browser — there's nothing to download or install. Pick a duration and text type, start typing, and get your WPM and accuracy instantly. It works on any device with a keyboard."
+          ]
+        },
+        {
+          "h2": "Benefits of an online test",
+          "p": [
+            "Because it's browser-based, you can test your typing speed anywhere — at work, school or home — without software. Your results are saved locally so you can track progress over time, completely private."
+          ]
+        },
+        {
+          "h2": "How to improve your online typing speed",
+          "p": [
+            "The fastest way to raise your WPM online is short, regular sessions. Five focused minutes a day beats one long weekly grind. Keep your fingers on the home row (ASDF JKL;), glance at the screen instead of the keys, and let your weakest fingers — the pinkies and ring fingers — do their share of the work. Speed follows accuracy, so slow down whenever your error count climbs."
+          ]
+        },
+        {
+          "h2": "Who uses an online typing test",
+          "p": [
+            "Students check their words-per-minute before online exams, remote workers warm up before a day of emails, call-centre and data-entry applicants rehearse for employer screening tests, and programmers measure how quickly they move through code. Because the test is browser-based and private, anyone can benchmark their speed in under a minute and come back to track steady improvement."
+          ]
+        }
+      ],
+      "faqFirstOpen": true,
+      "faqH2": "Typing test FAQ",
+      "faq": [
+        {
+          "q": "Do I need to install anything?",
+          "a": "No. This online typing test runs fully in your browser on any device with a keyboard."
+        },
+        {
+          "q": "Is the online typing test free?",
+          "a": "Yes, completely free with no sign up. Results are saved only in your own browser."
+        },
+        {
+          "q": "Does it work on mobile?",
+          "a": "It works best with a physical keyboard, but you can try it on a tablet with an attached keyboard too."
+        }
+      ],
+      "webAppName": "Typing Speed Test",
+      "webAppUrl": "https://typing.rerivo.com/",
+      "bcItems": [
+        {
+          "name": "Home",
+          "item": "https://typing.rerivo.com/"
+        },
+        {
+          "name": "Online Typing Test",
+          "item": "https://typing.rerivo.com/online-typing-test.html"
+        }
+      ],
+      "ldPretty": []
+    },
+    {
+      "file": "punctuation-typing-test.html",
+      "title": "Punctuation Typing Test - Symbols & Marks Practice",
+      "metaDesc": "Free punctuation typing test. Practise commas, periods, quotes and symbols, and measure your WPM and accuracy with instant results. No sign up.",
+      "canonical": "https://typing.rerivo.com/punctuation-typing-test.html",
+      "dur": 60,
+      "mode": "sentences",
+      "nav": [
+        {
+          "href": "1-minute-typing-test.html",
+          "text": "1 Minute Test"
+        },
+        {
+          "href": "words-per-minute-test.html",
+          "text": "WPM Test"
+        },
+        {
+          "href": "typing-practice.html",
+          "text": "Practice"
+        }
+      ],
+      "crumbs": [
+        "Home",
+        "Punctuation Typing Test"
+      ],
+      "h1": "Punctuation Typing Test",
+      "heroP": "Drill <strong>commas, periods, quotes and symbols</strong> with a punctuation typing test. Punctuation is where accuracy drops most, so train it directly and watch your WPM improve.",
+      "seo": [
+        {
+          "h2": "Punctuation typing test",
+          "p": [
+            "Punctuation marks sit on the hardest-to-reach keys and often need the Shift key, so they are the biggest source of typing errors. This punctuation typing test feeds you real sentences full of commas, full stops, apostrophes, quotes and brackets so you can practise them in context."
+          ]
+        },
+        {
+          "h2": "Tips for accurate punctuation",
+          "p": [
+            "Slow down slightly before a punctuation mark, keep your fingers anchored on the home row, and learn the exact reach for each symbol. Accuracy matters more than speed here, because a misplaced comma or bracket is costly to fix."
+          ]
+        },
+        {
+          "h2": "Why punctuation is harder to type",
+          "p": [
+            "Letters live on the home and middle rows, but commas, apostrophes, quotation marks and brackets force your fingers to the edges of the keyboard — often with the Shift key held down. That reach breaks your rhythm, which is exactly why dedicated punctuation practice pays off for anyone who writes emails, essays or code all day."
+          ]
+        },
+        {
+          "h2": "Punctuation worth drilling",
+          "p": [
+            "Focus on the marks you actually use: periods, commas, apostrophes in contractions, question marks, colons and parentheses. Practising sentences full of real punctuation trains the Shift-plus-symbol combinations until they feel automatic, so your writing flows without constant pauses to hunt for the right key."
+          ]
+        }
+      ],
+      "faqFirstOpen": true,
+      "faqH2": "Frequently asked questions",
+      "faq": [
+        {
+          "q": "What is a punctuation typing test?",
+          "a": "It is a typing test that emphasises punctuation marks and symbols, letting you practise commas, periods, quotes, brackets and more in real sentences."
+        },
+        {
+          "q": "Why do I make so many punctuation errors?",
+          "a": "Punctuation keys are on the edges of the keyboard and many need the Shift key, so they break your home-row rhythm until you practise them."
+        },
+        {
+          "q": "Is this typing test free?",
+          "a": "Yes, it is completely free with no sign up and no account. Results stay in your own browser."
+        }
+      ],
+      "webAppName": "Punctuation Typing Test",
+      "webAppUrl": "https://typing.rerivo.com/punctuation-typing-test.html",
+      "bcItems": [
+        {
+          "name": "Home",
+          "item": "https://typing.rerivo.com/"
+        },
+        {
+          "name": "Punctuation Typing Test",
+          "item": "https://typing.rerivo.com/punctuation-typing-test.html"
+        }
+      ],
+      "ldPretty": [
+        "FAQPage",
+        "BreadcrumbList"
+      ]
+    },
+    {
+      "file": "typing-accuracy-test.html",
+      "title": "Typing Accuracy Test - Free WPM & Accuracy Test",
+      "metaDesc": "Free typing accuracy test. Measure how accurately you type alongside your WPM, see your error count and improve precision. No sign up.",
+      "canonical": "https://typing.rerivo.com/typing-accuracy-test.html",
+      "dur": 60,
+      "mode": "sentences",
+      "nav": [
+        {
+          "href": "1-minute-typing-test.html",
+          "text": "1 Minute Test"
+        },
+        {
+          "href": "words-per-minute-test.html",
+          "text": "WPM Test"
+        },
+        {
+          "href": "typing-practice.html",
+          "text": "Practice"
+        }
+      ],
+      "crumbs": [
+        "Home",
+        "Typing Accuracy Test"
+      ],
+      "h1": "Typing Accuracy Test",
+      "heroP": "Measure your <strong>typing accuracy</strong>, not just speed. See your error count and precision alongside WPM. Free, no sign up.",
+      "seo": [
+        {
+          "h2": "Typing accuracy test",
+          "p": [
+            "A <strong>typing accuracy test</strong> shows what percentage of characters you type correctly, alongside your WPM and error count. Accuracy is often more valuable than raw speed — a fast typist who makes many mistakes is slower overall once corrections are counted."
+          ]
+        },
+        {
+          "h2": "How to improve accuracy",
+          "p": [
+            "Slow down slightly and aim for zero errors first; speed follows naturally once your fingers learn the correct movements. Focus on the keys you miss most, and keep your eyes on the screen so you can catch mistakes as they happen."
+          ]
+        },
+        {
+          "h2": "Why accuracy beats raw speed",
+          "p": [
+            "A blazing WPM means little if half your words need fixing. Every mistake costs a backspace and a retype, so real-world typing speed depends far more on accuracy than on peak pace. This test shows accuracy next to WPM and counts your errors, so you can see exactly where clean typing is quietly slowing you down."
+          ]
+        },
+        {
+          "h2": "How to type more accurately",
+          "p": [
+            "Start slower than feels natural and let correct keystrokes build muscle memory — rushing only teaches your fingers the wrong moves. Watch for your personal problem keys (often the top row and punctuation), keep a light, even rhythm, and resist the urge to glance at the keyboard. Aim to hold accuracy above 97% before you push for speed."
+          ]
+        }
+      ],
+      "faqFirstOpen": true,
+      "faqH2": "Typing test FAQ",
+      "faq": [
+        {
+          "q": "What is a good typing accuracy?",
+          "a": "Aim for 95% or higher. Professional typists usually stay above 97% accuracy while maintaining good speed."
+        },
+        {
+          "q": "Why does accuracy matter more than speed?",
+          "a": "Every error needs correcting, which costs time. High accuracy means your effective speed is close to your raw speed."
+        },
+        {
+          "q": "Is this accuracy test free?",
+          "a": "Yes, free with no sign up. Results are stored only in your browser."
+        }
+      ],
+      "webAppName": "Typing Speed Test",
+      "webAppUrl": "https://typing.rerivo.com/",
+      "bcItems": [
+        {
+          "name": "Home",
+          "item": "https://typing.rerivo.com/"
+        },
+        {
+          "name": "Typing Accuracy Test",
+          "item": "https://typing.rerivo.com/typing-accuracy-test.html"
+        }
+      ],
+      "ldPretty": []
+    },
+    {
+      "file": "typing-practice.html",
+      "title": "Typing Practice - Free Typing Exercises Online",
+      "metaDesc": "Free online typing practice. Improve typing speed and accuracy with sentence, quote and number exercises. Daily typing training.",
+      "canonical": "https://typing.rerivo.com/typing-practice.html",
+      "dur": 120,
+      "mode": "sentences",
+      "nav": [
+        {
+          "href": "https://typing.rerivo.com/",
+          "text": "Home"
+        },
+        {
+          "href": "1-minute-typing-test.html",
+          "text": "1 Minute Test"
+        },
+        {
+          "href": "words-per-minute-test.html",
+          "text": "WPM Test"
+        }
+      ],
+      "crumbs": [
+        "Home",
+        "Typing Practice"
+      ],
+      "h1": "Typing Practice",
+      "heroP": "Free <strong>typing practice</strong> online. Switch between sentences, quotes, numbers and words, pick a longer test, and train every day. Your past results are saved in this browser so you can watch your speed grow.",
+      "seo": [
+        {
+          "h2": "typing practice",
+          "p": [
+            "Regular <strong>typing practice</strong> is the only reliable way to get faster. Ten to fifteen minutes a day beats one long session once a week, because your muscles learn the key positions through repetition. Use this page every day: pick a mode, type the text, then compare your result with yesterday. Try to keep accuracy above 95 percent at all times."
+          ]
+        },
+        {
+          "h2": "Typing exercises for every skill",
+          "p": [
+            "Change the text mode to target your weak spots. <strong>Sentences</strong> build everyday typing fluency. <strong>Quotes</strong> add capital letters and punctuation. <strong>Numbers</strong> train the top row, which is the slowest part of the keyboard for most people. <strong>Words</strong> mode drills common English vocabulary so high-frequency words become automatic."
+          ]
+        },
+        {
+          "h2": "A simple practice plan",
+          "p": [
+            "Week one: two minute sentence tests, focus on accuracy. Week two: add quotes and numbers, keep the same two minutes. Week three: try five minute tests to build endurance. Week four: switch back to one minute and compare your WPM with week one. Most people gain 10 to 20 WPM in a month with this routine."
+          ]
+        }
+      ],
+      "faqFirstOpen": true,
+      "faqH2": "Typing test FAQ",
+      "faq": [
+        {
+          "q": "What is a typing test?",
+          "a": "A typing test measures how fast and accurately you type. You type a passage of text while the test counts your words per minute (WPM), accuracy and errors."
+        },
+        {
+          "q": "How is WPM calculated?",
+          "a": "WPM = (correct characters ÷ 5) ÷ minutes elapsed. The industry standard treats every 5 characters as one word, so longer words count more. Raw WPM ignores errors, while net WPM subtracts them."
+        },
+        {
+          "q": "How long should a typing test be?",
+          "a": "1 minute is the most popular length and is enough for a quick check. Longer tests (3, 5 or 10 minutes) give a more stable result because they average out short bursts of speed and fatigue."
+        },
+        {
+          "q": "Is this typing test free?",
+          "a": "Yes, completely free with no sign up, no account and no ads inside the typing area. Your past results are stored only in your own browser (localStorage), never on a server."
+        },
+        {
+          "q": "How do I type faster?",
+          "a": "Practice daily for 10–15 minutes, prioritise accuracy over speed, keep your wrists relaxed and your fingers anchored on the home row (ASDF JKL;). Learn to use all ten fingers rather than hunting and pecking with two."
+        }
+      ],
+      "webAppName": "Typing Speed Test",
+      "webAppUrl": "https://typing.rerivo.com/",
+      "bcItems": [
+        {
+          "name": "Home",
+          "item": "https://typing.rerivo.com/"
+        },
+        {
+          "name": "Typing Practice",
+          "item": "https://typing.rerivo.com/typing-practice.html"
+        }
+      ],
+      "ldPretty": []
+    },
+    {
+      "file": "typing-test-game.html",
+      "title": "Typing Test Game - Free Fun Typing Speed Game",
+      "metaDesc": "Free typing test game. Make improving your typing speed fun — type words against the clock and beat your best WPM. No sign up.",
+      "canonical": "https://typing.rerivo.com/typing-test-game.html",
+      "dur": 60,
+      "mode": "sentences",
+      "nav": [
+        {
+          "href": "1-minute-typing-test.html",
+          "text": "1 Minute Test"
+        },
+        {
+          "href": "words-per-minute-test.html",
+          "text": "WPM Test"
+        },
+        {
+          "href": "typing-practice.html",
+          "text": "Practice"
+        }
+      ],
+      "crumbs": [
+        "Home",
+        "Typing Test Game"
+      ],
+      "h1": "Typing Test Game",
+      "heroP": "Turn typing practice into a <strong>game</strong>. Race the clock, beat your best WPM and track your scores. Free, fun, no sign up.",
+      "seo": [
+        {
+          "h2": "Typing test game",
+          "p": [
+            "A <strong>typing test game</strong> makes practice fun by turning speed into a challenge: beat the clock, beat your previous best, and watch your WPM climb. The game format keeps you motivated to practise far longer than a plain drill would."
+          ]
+        },
+        {
+          "h2": "Why games help typing",
+          "p": [
+            "Gamified practice adds goals and instant feedback, which keeps you engaged. Choose the word mode for a fast arcade feel, and use your saved history to compete against your own best scores every day."
+          ]
+        },
+        {
+          "h2": "Why turning practice into a game works",
+          "p": [
+            "Progress you can see is progress you repeat. Treating each round like a mini-game — beat your last WPM, keep accuracy above 97%, clear the text without a single backspace — turns dull drilling into a quick challenge you actually want to retry. The live speed graph and saved history make every attempt a high score to chase."
+          ]
+        },
+        {
+          "h2": "Fun challenges to try",
+          "p": [
+            "Set yourself playful rules: a \"no mistakes\" run where one typo means restart, a sprint on the 15-second timer, or a marathon on the 5-minute setting. Switch the text to quotes or numbers to keep things fresh. Small, varied goals keep practice fun and your fingers learning without it ever feeling like homework."
+          ]
+        }
+      ],
+      "faqFirstOpen": true,
+      "faqH2": "Typing test FAQ",
+      "faq": [
+        {
+          "q": "Is this typing game free?",
+          "a": "Yes, completely free with no sign up and no ads inside the typing area."
+        },
+        {
+          "q": "How do I beat my high score?",
+          "a": "Prioritise accuracy — errors cost more than slow typing. Warm up, then push speed on a short 15 or 30 second game."
+        },
+        {
+          "q": "Are my scores saved?",
+          "a": "Yes, your recent results are saved in your own browser so you can try to beat them."
+        }
+      ],
+      "webAppName": "Typing Speed Test",
+      "webAppUrl": "https://typing.rerivo.com/",
+      "bcItems": [
+        {
+          "name": "Home",
+          "item": "https://typing.rerivo.com/"
+        },
+        {
+          "name": "Typing Test Game",
+          "item": "https://typing.rerivo.com/typing-test-game.html"
+        }
+      ],
+      "ldPretty": []
+    },
+    {
+      "file": "words-per-minute-test.html",
+      "title": "Words Per Minute Test - Free WPM Test Online",
+      "metaDesc": "Free words per minute test. Measure your WPM typing speed online with instant results. Multiple test lengths and text types available.",
+      "canonical": "https://typing.rerivo.com/words-per-minute-test.html",
+      "dur": 60,
+      "mode": "sentences",
+      "nav": [
+        {
+          "href": "https://typing.rerivo.com/",
+          "text": "Home"
+        },
+        {
+          "href": "1-minute-typing-test.html",
+          "text": "1 Minute Test"
+        },
+        {
+          "href": "typing-practice.html",
+          "text": "Practice"
+        }
+      ],
+      "crumbs": [
+        "Home",
+        "Words Per Minute Test"
+      ],
+      "h1": "Words Per Minute Test",
+      "heroP": "Measure your <strong>words per minute (WPM)</strong> with a free online speed test. Type for one minute or choose 15 seconds up to 10 minutes and get your WPM and accuracy instantly.",
+      "seo": [
+        {
+          "h2": "words per minute test",
+          "p": [
+            "A <strong>words per minute test</strong> (WPM test) measures how many words you can type in one minute. The rule is simple: every five characters counts as one word, so longer words add more to your score. Take the test, type the text shown on screen, and your WPM, accuracy and error count are calculated live as you type."
+          ]
+        },
+        {
+          "h2": "What is a good WPM score?",
+          "p": [
+            "An average computer user types about <strong>40 WPM</strong>. Around 60 WPM is solid for most office and writing work. Above 80 WPM is fast, and professional typists, developers and data entry staff often type 90 to 120 WPM. If you are just starting, do not chase speed — aim for above 95 percent accuracy first and your speed will rise on its own."
+          ]
+        },
+        {
+          "h2": "WPM vs CPM",
+          "p": [
+            "CPM means characters per minute. Some sites show CPM instead of WPM. Because one word equals five characters, you can convert easily: WPM = CPM / 5. This test shows you both numbers on the result panel so you can compare with any other typing test."
+          ]
+        }
+      ],
+      "faqFirstOpen": true,
+      "faqH2": "Typing test FAQ",
+      "faq": [
+        {
+          "q": "What is a typing test?",
+          "a": "A typing test measures how fast and accurately you type. You type a passage of text while the test counts your words per minute (WPM), accuracy and errors."
+        },
+        {
+          "q": "How is WPM calculated?",
+          "a": "WPM = (correct characters ÷ 5) ÷ minutes elapsed. The industry standard treats every 5 characters as one word, so longer words count more. Raw WPM ignores errors, while net WPM subtracts them."
+        },
+        {
+          "q": "How long should a typing test be?",
+          "a": "1 minute is the most popular length and is enough for a quick check. Longer tests (3, 5 or 10 minutes) give a more stable result because they average out short bursts of speed and fatigue."
+        },
+        {
+          "q": "Is this typing test free?",
+          "a": "Yes, completely free with no sign up, no account and no ads inside the typing area. Your past results are stored only in your own browser (localStorage), never on a server."
+        },
+        {
+          "q": "How do I type faster?",
+          "a": "Practice daily for 10–15 minutes, prioritise accuracy over speed, keep your wrists relaxed and your fingers anchored on the home row (ASDF JKL;). Learn to use all ten fingers rather than hunting and pecking with two."
+        }
+      ],
+      "webAppName": "Typing Speed Test",
+      "webAppUrl": "https://typing.rerivo.com/",
+      "bcItems": [
+        {
+          "name": "Home",
+          "item": "https://typing.rerivo.com/"
+        },
+        {
+          "name": "Words Per Minute Test",
+          "item": "https://typing.rerivo.com/words-per-minute-test.html"
+        }
+      ],
+      "ldPretty": []
+    },
+    {
+      "file": "wpm-test-online.html",
+      "title": "WPM Test Online - Free Words Per Minute Checker",
+      "metaDesc": "Free WPM test online. Check your words per minute and accuracy instantly in your browser, from 15 seconds to 10 minutes. No download, no sign up.",
+      "canonical": "https://typing.rerivo.com/wpm-test-online.html",
+      "dur": 60,
+      "mode": "sentences",
+      "nav": [
+        {
+          "href": "1-minute-typing-test.html",
+          "text": "1 Minute Test"
+        },
+        {
+          "href": "words-per-minute-test.html",
+          "text": "WPM Test"
+        },
+        {
+          "href": "typing-practice.html",
+          "text": "Practice"
+        }
+      ],
+      "crumbs": [
+        "Home",
+        "WPM Test Online"
+      ],
+      "h1": "WPM Test Online",
+      "heroP": "Check your <strong>words per minute online</strong> in seconds. This WPM test runs in your browser with instant results — no download, no sign up, no account.",
+      "seo": [
+        {
+          "h2": "WPM test online",
+          "p": [
+            "A WPM test online is the quickest way to see how fast you type without installing anything. This test runs entirely in your browser: pick a length, type the text, and your words per minute and accuracy appear the instant the timer stops."
+          ]
+        },
+        {
+          "h2": "How WPM is measured",
+          "p": [
+            "WPM is calculated as correct characters divided by five, divided by the minutes elapsed, so every five characters count as one word. Run the test a few times online to get a reliable average rather than relying on a single attempt."
+          ]
+        },
+        {
+          "h2": "What counts as a good WPM score",
+          "p": [
+            "The average adult types around 40 WPM. Reaching 50–60 WPM is comfortably above average, 70–80 WPM is strong professional speed, and anything past 100 WPM puts you among the fastest typists. For most jobs, a steady 60 WPM with high accuracy is more than enough — consistency matters more than a one-off record."
+          ]
+        },
+        {
+          "h2": "How WPM is calculated",
+          "p": [
+            "Words per minute uses a standard \"word\" of five characters, so your WPM is the number of characters you typed correctly divided by five, scaled to a full minute. This test also shows raw WPM (before mistakes) and net WPM (after errors), so you can see how much your accuracy is helping or hurting your real speed."
+          ]
+        }
+      ],
+      "faqFirstOpen": true,
+      "faqH2": "Frequently asked questions",
+      "faq": [
+        {
+          "q": "What is a WPM test online?",
+          "a": "It is a browser-based test that measures your words per minute and accuracy instantly, with no software download and no account required."
+        },
+        {
+          "q": "How many WPM is good?",
+          "a": "Around 40 WPM is average, 60-80 WPM is fast, and over 90 WPM is professional level. Accuracy above 95% matters just as much as raw speed."
+        },
+        {
+          "q": "Does it work on mobile?",
+          "a": "Yes, the WPM test works in any modern browser, though a physical keyboard gives the most accurate result."
+        }
+      ],
+      "webAppName": "WPM Test Online",
+      "webAppUrl": "https://typing.rerivo.com/wpm-test-online.html",
+      "bcItems": [
+        {
+          "name": "Home",
+          "item": "https://typing.rerivo.com/"
+        },
+        {
+          "name": "WPM Test Online",
+          "item": "https://typing.rerivo.com/wpm-test-online.html"
+        }
+      ],
+      "ldPretty": [
+        "FAQPage",
+        "BreadcrumbList"
+      ]
+    }
+  ]
+}
