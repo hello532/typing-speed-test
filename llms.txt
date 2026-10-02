@@ -1,0 +1,33 @@
+# Rerivo Typing Speed Test
+
+> Rerivo is a free, no-signup online typing speed test and keyboard practice tool. Measure your typing speed in WPM (words per minute), track accuracy, and practice touch typing with a built-in virtual keyboard, on-screen hand/finger guide, multiple timed modes (15s–5min), and several text sets. Works in the browser on desktop and mobile, available in 5 languages, with light/dark/sepia themes.
+
+## Core Tool
+- [Typing Speed Test (home)](https://typing.rerivo.com/): Main 60-second WPM typing speed test with live WPM, accuracy, and error tracking.
+- [Online Typing Test](https://typing.rerivo.com/online-typing-test.html): Browser-based typing test, no download or signup required.
+- [Free Typing Test](https://typing.rerivo.com/free-typing-test.html): Completely free typing speed and accuracy test.
+- [Typing Practice](https://typing.rerivo.com/typing-practice.html): Open-ended practice mode with virtual keyboard and finger guide.
+
+## Timed Modes
+- [1 Minute Typing Test](https://typing.rerivo.com/1-minute-typing-test.html): Classic 60-second WPM test.
+- [2 Minute Typing Test](https://typing.rerivo.com/2-minute-typing-test.html): 2-minute endurance typing test.
+- [5 Minute Typing Test](https://typing.rerivo.com/5-minute-typing-test.html): 5-minute test for sustained speed and stamina.
+
+## Metrics & Scoring
+- [Words Per Minute Test](https://typing.rerivo.com/words-per-minute-test.html): Explains and measures WPM.
+- [WPM Test Online](https://typing.rerivo.com/wpm-test-online.html): Quick online WPM check.
+- [Typing Accuracy Test](https://typing.rerivo.com/typing-accuracy-test.html): Focuses on accuracy and error rate.
+
+## Text / Difficulty Variations
+- [Number Typing Test](https://typing.rerivo.com/number-typing-test.html): Numeric keypad and digits practice.
+- [English Typing Test](https://typing.rerivo.com/english-typing-test.html): Common English words and sentences.
+- [Keyboard Typing Test](https://typing.rerivo.com/keyboard-typing-test.html): Full-keyboard touch typing with on-screen key highlighting.
+- [Capital Letter Typing Test](https://typing.rerivo.com/capital-letter-typing-test.html): Uppercase and shift-key practice.
+- [Punctuation Typing Test](https://typing.rerivo.com/punctuation-typing-test.html): Punctuation and symbol accuracy.
+- [Easy Typing Test](https://typing.rerivo.com/easy-typing-test.html): Beginner-friendly simple words.
+- [Typing Test Game](https://typing.rerivo.com/typing-test-game.html): Gamified typing challenge.
+
+## About
+- Free, no registration, privacy-friendly (runs fully in the browser).
+- Features: live WPM/CPM, accuracy %, error highlighting, adjustable virtual keyboard with next-key highlight, on-screen hands finger guide, 5 languages, 3 color themes.
+- Sitemap: https://typing.rerivo.com/sitemap.xml
