@@ -330,7 +330,218 @@ var QUOTES=[
 ];
 var WORDS=["the","be","and","of","to","in","that","have","it","for","not","on","with","he","as","you","do","at","this","but","his","by","from","they","we","say","her","she","or","an","will","my","one","all","would","there","their","what","so","up","out","if","about","who","get","which","go","me","when","make","can","like","time","no","just","him","know","take","people","into","year","your","good","some","could","them","see","other","than","then","now","look","only","come","its","over","think","also","back","after","use","two","how","our","work","first","well","way","even","new","want","because","any","these","give","day","most","us","water","world","life","hand","part","child","eye","woman","place","week","case","point","government","company","number","group","problem","fact"];
 function rnd(n){return Math.floor(Math.random()*n);}
+function pickN(arr,n){var a=[],i;for(i=0;i<n;i++)a.push(arr[rnd(arr.length)]);return a.join(" ");}
+function pick3(arr){var a=[],i;for(i=0;i<3;i++)a.push(arr[rnd(arr.length)]);return a.join(" ");}
+function pad2(n){return (n<10?"0":"")+n;}
+function fmtDate(f){
+  var y=f.minYear+rnd(f.maxYear-f.minYear+1), m=1+rnd(12), d=1+rnd(28);
+  var pat=f.pattern||"YYYY-MM-DD";
+  return pat.replace("YYYY",y).replace("MM",pad2(m)).replace("DD",pad2(d));
+}
+function fmtTime(f){
+  var h=f.h24?rnd(24):(1+rnd(12)), m=rnd(60), sec=rnd(60);
+  var pat=f.pattern||"HH:MM";
+  return pat.replace("HH",pad2(h)).replace("MM",pad2(m)).replace("SS",pad2(sec));
+}
+function fmtPhone(f){
+  var pat=f.pattern||"(XXX) XXX-XXXX", out="", i;
+  for(i=0;i<pat.length;i++){out+=(pat[i]==="X"?String(rnd(10)):pat[i]);}
+  return out;
+}
+function genOne(f){
+  var t=f.type, v, s;
+  if(t==="int")return String(f.min+rnd(f.max-f.min+1));
+  if(t==="decimal"||t==="currency"||t==="percent"){
+    v=f.min+Math.random()*(f.max-f.min); s=v.toFixed(f.dp!=null?f.dp:2);
+    if(t==="currency")return (f.prefix||"")+s;
+    if(t==="percent")return s+"%";
+    return s;
+  }
+  if(t==="date")return fmtDate(f);
+  if(t==="time")return fmtTime(f);
+  if(t==="phone")return fmtPhone(f);
+  return String(rnd(100));
+}
+function genNumbers(formats,n){
+  var totalW=0,i; for(i=0;i<formats.length;i++)totalW+=(formats[i].weight||1);
+  var out=[],k,r,f;
+  for(k=0;k<n;k++){
+    r=rnd(totalW); f=formats[0];
+    for(i=0;i<formats.length;i++){r-=(formats[i].weight||1); if(r<0){f=formats[i];break;}}
+    out.push(genOne(f));
+  }
+  return out.join(" ");
+}
+function fingerKeys(fg){
+  var ks=[],c;
+  if(fg==="all"){return (KB_ROWS.join("").split("")).concat([" "]);}
+  for(c in FINGER){if(FINGER[c]===fg)ks.push(c);}
+  return ks.length?ks:["a"];
+}
+function genFingerKeys(){
+  var ks=fingerKeys(drillFinger),out=[],n=30,i;
+  for(i=0;i<n;i++){out.push(ks[rnd(ks.length)]); if(i%5===4)out.push(" ");}
+  return out.join("");
+}
+/* ─────────── variant 行为层（VARIANT=null 时整层闲置）───────────
+   7 个主题页各自"真做"：punctuation/capital/easy/numbers_ext 只换文本池（见 nextChunk），
+   accuracy 阻塞错键并统计错键分布，game 有连击倍率/分数/等级/HUD/粒子，
+   finger_drill 提供手指选择器，只出该手指负责的键。
+   变体专属 CSS 由 VPOOL.css 在运行时注入 <style>，刻意不进 src/style.css——
+   这样 13 个普通页的 CSS 与 HTML 对基线保持逐字节等价（verify.py check 4/9 守卫）。 */
+function injectVariantCSS(){
+  if(!VPOOL||!VPOOL.css)return;
+  var st=document.createElement("style");
+  st.setAttribute("data-variant",VARIANT);
+  st.textContent=VPOOL.css;
+  document.head.appendChild(st);
+}
+function beforeTyping(node){
+  var tp=document.querySelector(".typing");
+  if(!tp||!tp.parentNode)return null;
+  tp.parentNode.insertBefore(node,tp); return node;
+}
+/* --- accuracy --- */
+function buildAccBanner(){
+  if(!VPOOL||!VPOOL.banner)return;
+  var d=document.createElement("div");
+  d.className="acc-banner"; d.textContent=VPOOL.banner;
+  beforeTyping(d);
+}
+function keyDistHTML(){
+  var ks=[],k,i,out="";
+  for(k in keyErrors)ks.push([k,keyErrors[k]]);
+  ks.sort(function(a,b){return b[1]-a[1];});
+  if(!ks.length)return '<span class="kd">No blocked keys \u2014 clean run</span>';
+  for(i=0;i<Math.min(ks.length,10);i++){
+    out+='<span class="kd"><b>'+ks[i][1]+'\u00d7</b>'+esc(ks[i][0]===" "?"space":ks[i][0])+"</span>";
+  }
+  return out;
+}
+/* --- game --- */
+function gameMult(){return Math.min((VPOOL&&VPOOL.maxMultiplier)||8,1+Math.floor(combo/10));}
+function buildGameHUD(){
+  var h=document.createElement("div"); h.className="game-hud"; h.id="gameHud";
+  h.innerHTML='<div class="hud-cell"><span class="hud-lab">Score</span><b id="gScore">0</b></div>'
+    +'<div class="hud-cell"><span class="hud-lab">Combo</span><b id="gCombo">0</b></div>'
+    +'<div class="hud-cell"><span class="hud-lab">Mult</span><b id="gMult">\u00d71</b></div>'
+    +'<div class="hud-cell"><span class="hud-lab">Level</span><b id="gLevel">1</b></div>';
+  beforeTyping(h);
+}
+function setHUD(id,txt){var e=document.getElementById(id); if(e)e.textContent=txt;}
+function updateHUD(){
+  if(VARIANT!=="game")return;
+  setHUD("gScore",score); setHUD("gCombo",combo);
+  setHUD("gMult","\u00d7"+gameMult()); setHUD("gLevel",level);
+}
+function hudShake(){
+  var h=document.getElementById("gameHud"); if(!h)return;
+  h.classList.remove("shake"); void h.offsetWidth; h.classList.add("shake");
+}
+function levelUpFx(){
+  var tp=document.querySelector(".typing"); if(!tp)return;
+  var d=document.createElement("div"); d.className="lvl-fx";
+  d.textContent="LEVEL "+level; tp.appendChild(d);
+  setTimeout(function(){if(d.parentNode)d.parentNode.removeChild(d);},1200);
+}
+function sparkBurst(el){
+  if(!el||!VPOOL||!VPOOL.particles)return;
+  var tp=document.querySelector(".typing"); if(!tp)return;
+  var r=el.getBoundingClientRect(), pr=tp.getBoundingClientRect(), i;
+  for(i=0;i<6;i++){
+    var s=document.createElement("div"); s.className="spark";
+    var a=Math.random()*Math.PI*2, dist=16+Math.random()*24;
+    s.style.left=(r.left-pr.left+r.width/2)+"px";
+    s.style.top=(r.top-pr.top+r.height/2)+"px";
+    s.style.setProperty("--dx",(Math.cos(a)*dist).toFixed(1)+"px");
+    s.style.setProperty("--dy",(Math.sin(a)*dist).toFixed(1)+"px");
+    tp.appendChild(s);
+    (function(n){setTimeout(function(){if(n.parentNode)n.parentNode.removeChild(n);},520);})(s);
+  }
+}
+function gameOnChar(ok,el){
+  var g=VPOOL||{};
+  if(ok){
+    combo++; if(combo>bestCombo)bestCombo=combo;
+    score+=(g.basePoints||10)*gameMult();
+    if(combo%10===0)sparkBurst(el);
+  }else{combo=0; hudShake();}
+  var nl=1+Math.floor(score/(g.levelEvery||200));
+  if(nl>level){level=nl; levelUpFx();}
+  updateHUD();
+}
+/* --- finger_drill --- */
+function fingerOptions(){
+  var opts=[],i,f,lab=(VPOOL&&VPOOL.labels)||{},fs=(VPOOL&&VPOOL.fingers)||[];
+  if(VPOOL&&VPOOL.allFingersOption)opts.push(["all","All fingers"]);
+  for(i=0;i<fs.length;i++){
+    f=fs[i];
+    if(f==="TH")continue;                 /* 拇指只管空格，单独练没有意义 */
+    opts.push([f,lab[f]||f]);
+  }
+  return opts;
+}
+function buildFingerBar(){
+  var bar=document.createElement("div"); bar.className="finger-bar"; bar.id="fingerBar";
+  var opts=fingerOptions(),html="",i;
+  for(i=0;i<opts.length;i++){
+    html+='<button type="button" class="finger-btn" data-f="'+opts[i][0]+'">'+esc(opts[i][1])+"</button>";
+  }
+  bar.innerHTML=html; beforeTyping(bar); paintFingerBar();
+  bar.addEventListener("click",function(e){
+    var t=e.target,b=null;
+    while(t&&t!==bar){if(t.classList&&t.classList.contains("finger-btn")){b=t;break;}t=t.parentNode;}
+    if(!b)return;
+    drillFinger=b.getAttribute("data-f")||"all";
+    paintFingerBar(); reset(); elIn.focus();
+  });
+}
+function paintFingerBar(){
+  var bar=document.getElementById("fingerBar"); if(!bar)return;
+  var bs=bar.querySelectorAll(".finger-btn"),i;
+  for(i=0;i<bs.length;i++)bs[i].classList.toggle("on",bs[i].getAttribute("data-f")===drillFinger);
+}
+/* --- 变体结果块：finish() 时挂到结果面板尾部 --- */
+function variantResult(){
+  var host=document.getElementById("resultPanel"); if(!host||!VARIANT)return;
+  var old=document.getElementById("variantRes");
+  if(old&&old.parentNode)old.parentNode.removeChild(old);
+  var d=document.createElement("div"); d.className="variant-res"; d.id="variantRes";
+  if(VARIANT==="game"){
+    var gk="gameBest_"+dur, gb=0, nb;
+    try{gb=parseInt(localStorage.getItem(gk)||"0",10)||0;}catch(e){}
+    nb=score>gb;
+    if(nb){try{localStorage.setItem(gk,String(score));}catch(e){}}
+    d.innerHTML='<div class="vr-title">Game summary</div><div class="vr-grid">'
+      +'<div><b>'+score+'</b><span>Score</span></div>'
+      +'<div><b>'+level+'</b><span>Level reached</span></div>'
+      +'<div><b>'+bestCombo+'</b><span>Best combo</span></div></div>'
+      +'<div class="vr-note">'+(nb?"New best score! \u2605":"Best score: "+Math.max(gb,score))+'</div>';
+  }else if(VARIANT==="accuracy"&&VPOOL&&VPOOL.showKeyDist){
+    d.innerHTML='<div class="vr-title">Most-missed keys</div><div class="kd-list">'+keyDistHTML()+'</div>';
+  }else{return;}
+  host.appendChild(d);
+}
+function buildVariantUI(){
+  if(!VARIANT)return;
+  injectVariantCSS();
+  if(VARIANT==="game")buildGameHUD();
+  else if(VARIANT==="finger_drill")buildFingerBar();
+  else if(VARIANT==="accuracy")buildAccBanner();
+}
 function nextChunk(mode){
+  /* ── variant 专用文本池（VARIANT=null 时全部跳过，走下方标准逻辑）── */
+  if(VARIANT==="punctuation"&&VPOOL){
+    if(mode==="quotes"&&VPOOL.quotes)return VPOOL.quotes[rnd(VPOOL.quotes.length)];
+    return pick3(VPOOL.sentences);
+  }
+  if(VARIANT==="capital"&&VPOOL){
+    if(mode==="words"&&VPOOL.words)return pickN(VPOOL.words,40);
+    return pick3(VPOOL.sentences);
+  }
+  if(VARIANT==="easy"&&VPOOL){return pickN(VPOOL.words,40);}   /* 强制短词，忽略 mode */
+  if(VARIANT==="numbers_ext"&&VPOOL){return genNumbers(VPOOL.formats,30);}
+  if(VARIANT==="finger_drill"){return genFingerKeys();}
   if(mode==="numbers"){var a=[];for(var i=0;i<24;i++){a.push(String(100+rnd(899)));}return a.join(" ");}
   var L=(window.TR&&TR.pool&&TR.lang&&TR.lang!=="en")?TR.pool(TR.lang):null;
   if(L){
@@ -347,10 +558,15 @@ var elText=document.getElementById("text"), elIn=document.getElementById("input"
     elT=document.getElementById("sTime"), elW=document.getElementById("sWpm"), elA=document.getElementById("sAcc"),
     elHint=document.getElementById("hint"), elRes=document.getElementById("resultPanel"),
     chipsD=document.querySelectorAll(".dur"), chipsM=document.querySelectorAll(".mode");
-var dur=60, mode="sentences", chars=[], timer=null, startAt=0, finished=false, totalTyped=0;
+var dur=60, mode="sentences", VARIANT="game", VPOOL={"basePoints":10,"comboBonus":2,"levelEvery":200,"maxMultiplier":8,"particles":true,"css":".game-hud{display:flex;gap:10px;justify-content:center;margin:0 0 14px;flex-wrap:wrap}.hud-cell{background:var(--panel2);border:1px solid var(--line);border-radius:var(--radius-sm);padding:8px 16px;text-align:center;min-width:74px}.hud-lab{display:block;font-size:11px;color:var(--dim);text-transform:uppercase;letter-spacing:.08em}.hud-cell b{font-size:22px;color:var(--accent);font-family:var(--mono)}.game-hud.shake{animation:hshake .3s}@keyframes hshake{0%,100%{transform:translateX(0)}25%{transform:translateX(-6px)}75%{transform:translateX(6px)}}.lvl-fx{position:absolute;left:50%;top:40%;transform:translate(-50%,-50%);font-size:34px;font-weight:800;color:var(--accent);text-shadow:0 0 20px var(--accent);pointer-events:none;animation:lvlup 1.2s ease-out forwards;z-index:5}@keyframes lvlup{0%{opacity:0;transform:translate(-50%,-50%) scale(.5)}20%{opacity:1;transform:translate(-50%,-50%) scale(1.15)}100%{opacity:0;transform:translate(-50%,-90%) scale(1)}}.variant-res{margin-top:18px;padding-top:16px;border-top:1px solid var(--line)}.vr-title{font-size:13px;text-transform:uppercase;letter-spacing:.1em;color:var(--dim);margin-bottom:10px}.vr-grid{display:flex;gap:22px;flex-wrap:wrap}.vr-grid>div{text-align:center}.vr-grid b{display:block;font-size:26px;color:var(--accent);font-family:var(--mono)}.vr-grid span{font-size:11px;color:var(--dim)}.spark{position:absolute;width:5px;height:5px;border-radius:50%;background:var(--accent);pointer-events:none;z-index:4;animation:spark .5s ease-out forwards}@keyframes spark{0%{opacity:1;transform:translate(0,0) scale(1)}100%{opacity:0;transform:translate(var(--dx),var(--dy)) scale(.3)}}.vr-note{margin-top:12px;font-size:13px;color:var(--soft);text-align:center}"};/*VAR_INIT*/
+var chars=[], timer=null, startAt=0, finished=false, totalTyped=0;
 var errTotal=0;            /* 累计打错次数（单调不减）——结果面板 Errors 用它 */
 var wpmSamples=[]; var _prevLen=0;
 var curEl=null;            /* 当前持 .cur 的 span，增量渲染时只动这一个节点 */
+/* variant 运行时状态（普通页 VARIANT=null，以下全部闲置） */
+var drillFinger="all";           /* finger_drill：当前练习的手指 */
+var combo=0, score=0, level=1, bestCombo=0;   /* game：连击 / 分数 / 等级 / 本局最高连击 */
+var keyErrors={};                /* accuracy：错键分布 target->count */
 /* 无限文本流：初始铺满首屏，之后只要光标前方余量不足 LOOKAHEAD 就尾部追加一个 chunk。
    追加只发生在末尾，已输入部分的 chars[i] ↔ v[i] 索引对应关系不受影响。 */
 var INIT_CHARS=240, LOOKAHEAD=80;
@@ -416,19 +632,23 @@ function esc(s){return s.replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g
 function reset(){
   clearInterval(timer);
   chars=[]; totalTyped=0; errTotal=0; finished=false; startAt=0; curEl=null; _prevLen=0;
+  /* variant 每局状态清零；drillFinger 是用户选择，跨局保留 */
+  combo=0; score=0; level=1; bestCombo=0; keyErrors={};
   elText.innerHTML=""; seedText();
   elT.textContent=mmss(dur); elW.textContent="0"; elA.textContent="100%";
   elRes.style.display="none"; elHint.style.display="block";
   wpmSamples=[]; clearChart();
-  render(); elIn.value="";
+  render(); elIn.value=""; updateHUD();
 }
 function stats(){
   var el=0; for(var i=0;i<totalTyped;i++){if(chars[i]&&!chars[i].ok)el++;}
   var mins=(Date.now()-startAt)/60000;
   if(mins<=0)mins=1/60000;
   var correct=totalTyped-el;
+  /* accuracy 变体：被阻塞的击键不进 totalTyped，分母必须补回 errTotal，否则 acc 恒为 100% */
+  var accDen=((VARIANT==="accuracy"&&VPOOL&&VPOOL.blockOnError)?(correct+errTotal):totalTyped);
   return {wpm:Math.round((correct/5)/mins), raw:Math.round((totalTyped/5)/mins),
-          acc: totalTyped? Math.round(correct/totalTyped*100):100,
+          acc: accDen? Math.round(correct/accDen*100):100,
           err:errTotal, errNow:el, cpm:Math.round(totalTyped/mins)};
 }
 function showLive(){var s=stats(); elW.textContent=s.wpm; elA.textContent=s.acc+"%"; elT.textContent=mmss(Math.max(0,dur-Math.floor((Date.now()-startAt)/1000))); if(startAt){wpmSamples.push({x:(Date.now()-startAt)/1000,y:s.wpm});}}
@@ -462,6 +682,7 @@ function finish(){
     else{pl.className="pb-line";pl.textContent="";}
   }
   saveHist(s);
+  variantResult();
   drawChart();
   render(); elRes.style.display="block"; elHint.style.display="none";
   elRes.scrollIntoView({behavior:"smooth",block:"center"});
@@ -575,11 +796,28 @@ elIn.addEventListener("input",function(){
     },200);
     elHint.style.display="none";
   }
-  var v=elIn.value, prev=totalTyped;
+  var v=elIn.value, prev=totalTyped, i;
+  /* accuracy 变体：错键阻塞前进 —— 截断到第一个错键处，被拦下的击键计入 errTotal 与错键分布。
+     截断后 [_prevLen,totalTyped) 区间必然全对，所以下方通用错误计数不会重复计。 */
+  if(VARIANT==="accuracy"&&VPOOL&&VPOOL.blockOnError&&v.length>_prevLen){
+    var bi=-1;
+    for(i=_prevLen;i<v.length;i++){if(chars[i]&&chars[i].t!==v[i]){bi=i;break;}}
+    if(bi>=0){
+      var kt=chars[bi]?chars[bi].t:"?";
+      keyErrors[kt]=(keyErrors[kt]||0)+1;
+      errTotal++;
+      v=v.slice(0,bi); elIn.value=v;
+      if(typeof click_==="function")click_(true);
+    }
+  }
   totalTyped=v.length;
-  for(var i=0;i<totalTyped;i++){if(chars[i])chars[i].ok=(chars[i].t===v[i]);}
+  for(i=0;i<totalTyped;i++){if(chars[i])chars[i].ok=(chars[i].t===v[i]);}
   /* 累计错误只对本次新增的字符计数：改对不再减少 Errors，改错重复计数 */
   if(totalTyped>_prevLen){for(i=_prevLen;i<totalTyped;i++){if(chars[i]&&!chars[i].ok)errTotal++;}}
+  /* game 变体：对本次新增字符逐个结算连击/分数/等级 */
+  if(VARIANT==="game"&&totalTyped>_prevLen){
+    for(i=_prevLen;i<totalTyped;i++){gameOnChar(!!(chars[i]&&chars[i].ok),chars[i]&&chars[i].el);}
+  }
   if(typeof click_==="function" && v.length>_prevLen){var _lc=chars[v.length-1]; click_(_lc?!_lc.ok:false);}
   _prevLen=v.length;
   ensureSupply();
@@ -617,7 +855,7 @@ document.getElementById("btnShare").addEventListener("click",function(){
 });
 window.addEventListener("tr-relang",function(){reset();try{renderHist(JSON.parse(localStorage.getItem("typingHistV1")||"[]"));}catch(e){}});
 (function(){var rows=[];try{rows=JSON.parse(localStorage.getItem("typingHistV1")||"[]");}catch(e){}renderHist(rows);})();
-buildKbd(); reset();
+buildKbd(); buildVariantUI(); reset();
 })();
 </script>
 <script src="ui.js?v=202610020900" defer></script>

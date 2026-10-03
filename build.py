@@ -124,12 +124,35 @@ def build_jsonld(page, cfg):
             ld_block(bc, "BreadcrumbList" in pretty))
 
 
-def render(page, cfg, tpl, css, engine, head_snippet, footer, result):
+def inject_variant(page, engine, variants):
+    r"""把 engine.js 源码里的 VAR_INIT 标记行替换成本页的 dur/mode/VARIANT/VPOOL。
+
+    普通页 VARIANT=null, VPOOL=null；变体页注入变体名与该变体的数据池（含 css）。
+    数据只落在需要它的那一页，零冗余。用 lambda 作 repl，避免 JSON 里的反斜杠
+    被 re.sub 当成反向引用（\g / \1）解释。
+    """
+    vname = page.get("variant")
+    if vname:
+        if vname not in variants:
+            sys.exit(f'{page["file"]}: unknown variant "{vname}" (not in src/variants.json)')
+        pool = {k: v for k, v in variants[vname].items() if not k.startswith("_")}
+        vjson = json.dumps(vname)
+        pjson = json.dumps(pool, separators=(",", ":"), ensure_ascii=False)
+    else:
+        vjson, pjson = "null", "null"
+
+    pat = r'var dur=\d+, mode="\w+", VARIANT=null, VPOOL=null;/\*VAR_INIT\*/'
+    repl = (f'var dur={page["dur"]}, mode="{page["mode"]}", '
+            f'VARIANT={vjson}, VPOOL={pjson};/*VAR_INIT*/')
+    out, n = re.subn(pat, lambda m: repl, engine, count=1)
+    if n == 0:
+        sys.exit(f'{page["file"]}: VAR_INIT marker line not found in engine.js')
+    return out
+
+
+def render(page, cfg, tpl, css, engine, head_snippet, footer, result, variants):
     wa, faq, bc = build_jsonld(page, cfg)
-    engine_page = re.sub(r'var dur=\d+, mode="\w+"',
-                         f'var dur={page["dur"]}, mode="{page["mode"]}"', engine, count=1)
-    if engine_page == engine and (page["dur"], page["mode"]) != (60, "sentences"):
-        sys.exit(f'{page["file"]}: engine dur/mode init not found')
+    engine_page = inject_variant(page, engine, variants)
 
     title = page["title"]
     desc = page["metaDesc"]
@@ -170,10 +193,11 @@ def main():
     head_snippet = (SRC / "head-snippet.js").read_text(encoding="utf-8").rstrip("\n")
     footer = (SRC / "footer.html").read_text(encoding="utf-8").rstrip("\n")
     result = (SRC / "result.html").read_text(encoding="utf-8").rstrip("\n")
+    variants = json.loads((SRC / "variants.json").read_text(encoding="utf-8"))
 
     bad = []
     for page in cfg["pages"]:
-        html = render(page, cfg, tpl, css, engine, head_snippet, footer, result)
+        html = render(page, cfg, tpl, css, engine, head_snippet, footer, result, variants)
         target = ROOT / page["file"]
         if check:
             cur = target.read_text(encoding="utf-8") if target.exists() else None

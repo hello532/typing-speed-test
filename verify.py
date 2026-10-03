@@ -95,23 +95,30 @@ def main():
           len(csss) == 1 and next(iter(csss)) == base_css,
           f"{len(csss)} 个版本，{len(base_css):,}B")
 
-    # 5. 引擎仅 dur/mode 初值一行漂移
+    # 5. 引擎归一后仅 1 个版本（漂移只在 dur/mode/variant 初值一行）
+    #    VAR_INIT 行含 per-page VARIANT/VPOOL 注入（变体页携带各自数据池），
+    #    整行归一为 "VAR"；不用 re.S，保证只匹配这一行（JSON 是单行）。
+    VAR_NORM = r'var dur=\d+, mode="\w+", VARIANT=.*?;/\*VAR_INIT\*/'
     variants = {}
     for n, h in htmls.items():
         e = re.search(r"<script>\n\(function\(\)\{\n.*?\n</script>", h, re.S)
         if e:
-            variants.setdefault(re.sub(r'var dur=\d+, mode="\w+"', "VAR", e.group(0)), []).append(n)
-    check("5. 引擎归一后仅 1 个版本（漂移只在 dur/mode）",
+            variants.setdefault(re.sub(VAR_NORM, "VAR", e.group(0)), []).append(n)
+    check("5. 引擎归一后仅 1 个版本（漂移只在 VAR_INIT 行）",
           len(variants) == 1, f"{len(variants)} 个版本")
     for n in names:
         p = next(x for x in pages if x["file"] == n)
         h = htmls.get(n, "")
-        want = f'var dur={p["dur"]}, mode="{p["mode"]}"'
-        if want not in h:
-            check(f"5b. {n} dur/mode 初值", False, f"未找到 {want}")
+        v = p.get("variant")
+        if v:
+            marker = f'var dur={p["dur"]}, mode="{p["mode"]}", VARIANT="{v}", VPOOL={{'
+        else:
+            marker = f'var dur={p["dur"]}, mode="{p["mode"]}", VARIANT=null, VPOOL=null;/*VAR_INIT*/'
+        if marker not in h:
+            check(f"5b. {n} dur/mode/variant 初值", False, f"未找到 {marker[:60]}")
             break
     else:
-        check("5b. 每页 dur/mode 初值与配置一致", True)
+        check("5b. 每页 dur/mode/variant 初值与配置一致", True)
 
     # 6. JSON-LD 三块可解析且类型正确
     bad_ld = []

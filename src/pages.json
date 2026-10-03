@@ -10,6 +10,7 @@
       "canonical": "https://typing.rerivo.com/1-minute-typing-test.html",
       "dur": 60,
       "mode": "sentences",
+      "variant": null,
       "nav": [
         {
           "href": "https://typing.rerivo.com/",
@@ -89,6 +90,7 @@
       "canonical": "https://typing.rerivo.com/2-minute-typing-test.html",
       "dur": 120,
       "mode": "sentences",
+      "variant": null,
       "nav": [
         {
           "href": "/",
@@ -174,6 +176,7 @@
       "canonical": "https://typing.rerivo.com/5-minute-typing-test.html",
       "dur": 300,
       "mode": "sentences",
+      "variant": null,
       "nav": [
         {
           "href": "/",
@@ -259,6 +262,7 @@
       "canonical": "https://typing.rerivo.com/capital-letter-typing-test.html",
       "dur": 60,
       "mode": "sentences",
+      "variant": "capital",
       "nav": [
         {
           "href": "1-minute-typing-test.html",
@@ -345,6 +349,7 @@
       "canonical": "https://typing.rerivo.com/easy-typing-test.html",
       "dur": 60,
       "mode": "sentences",
+      "variant": "easy",
       "nav": [
         {
           "href": "1-minute-typing-test.html",
@@ -431,6 +436,7 @@
       "canonical": "https://typing.rerivo.com/english-typing-test.html",
       "dur": 60,
       "mode": "sentences",
+      "variant": null,
       "nav": [
         {
           "href": "1-minute-typing-test.html",
@@ -514,6 +520,7 @@
       "canonical": "https://typing.rerivo.com/free-typing-test.html",
       "dur": 60,
       "mode": "sentences",
+      "variant": null,
       "nav": [
         {
           "href": "1-minute-typing-test.html",
@@ -600,6 +607,7 @@
       "canonical": "https://typing.rerivo.com/",
       "dur": 60,
       "mode": "sentences",
+      "variant": null,
       "nav": [
         {
           "href": "1-minute-typing-test.html",
@@ -708,6 +716,7 @@
       "canonical": "https://typing.rerivo.com/keyboard-typing-test.html",
       "dur": 60,
       "mode": "sentences",
+      "variant": "finger_drill",
       "nav": [
         {
           "href": "1-minute-typing-test.html",
@@ -791,6 +800,7 @@
       "canonical": "https://typing.rerivo.com/number-typing-test.html",
       "dur": 60,
       "mode": "numbers",
+      "variant": "numbers_ext",
       "nav": [
         {
           "href": "/",
@@ -882,6 +892,7 @@
       "canonical": "https://typing.rerivo.com/online-typing-test.html",
       "dur": 60,
       "mode": "sentences",
+      "variant": null,
       "nav": [
         {
           "href": "1-minute-typing-test.html",
@@ -965,6 +976,7 @@
       "canonical": "https://typing.rerivo.com/punctuation-typing-test.html",
       "dur": 60,
       "mode": "sentences",
+      "variant": "punctuation",
       "nav": [
         {
           "href": "1-minute-typing-test.html",
@@ -1051,6 +1063,7 @@
       "canonical": "https://typing.rerivo.com/typing-accuracy-test.html",
       "dur": 60,
       "mode": "sentences",
+      "variant": "accuracy",
       "nav": [
         {
           "href": "1-minute-typing-test.html",
@@ -1134,6 +1147,7 @@
       "canonical": "https://typing.rerivo.com/typing-practice.html",
       "dur": 120,
       "mode": "sentences",
+      "variant": null,
       "nav": [
         {
           "href": "https://typing.rerivo.com/",
@@ -1219,6 +1233,7 @@
       "canonical": "https://typing.rerivo.com/typing-test-game.html",
       "dur": 60,
       "mode": "sentences",
+      "variant": "game",
       "nav": [
         {
           "href": "1-minute-typing-test.html",
@@ -1302,6 +1317,7 @@
       "canonical": "https://typing.rerivo.com/words-per-minute-test.html",
       "dur": 60,
       "mode": "sentences",
+      "variant": null,
       "nav": [
         {
           "href": "https://typing.rerivo.com/",
@@ -1387,6 +1403,7 @@
       "canonical": "https://typing.rerivo.com/wpm-test-online.html",
       "dur": 60,
       "mode": "sentences",
+      "variant": null,
       "nav": [
         {
           "href": "1-minute-typing-test.html",
