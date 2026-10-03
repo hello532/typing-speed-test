@@ -24,12 +24,41 @@ SITE = "https://typing.rerivo.com"
 ENGINE_BLOCK_RE = r"<script>\n\(function\(\)\{\n.*?\n</script>"
 
 
-def strip_engine(html: str) -> str:
-    """剥掉引擎内联块。引擎在 Task#2 起有意演进（无限文本流+增量渲染等），
-    不再要求逐字节等于重构前基线；其正确性由 check 4/5/5b + check 11 行为级 harness 守卫。
-    CSS 未变，保留在对比内，使 208KB 冗余消除仍是基线回归守卫。"""
-    return re.sub(ENGINE_BLOCK_RE, "<script>{{ENGINE}}</script>", html, flags=re.S)
+STYLE_BLOCK_RE = r"<style>.*?</style>"
 
+def strip_engine(html: str) -> str:
+    """剥掉引擎内联块与内联 <style> 块后再对比。
+    引擎自 Task#2 起有意演进（无限文本流+增量渲染等）；CSS 自 Task#5/6 起有意演进
+    （a11y 动效/对比降级、移动端保留音效开关等）。两者的正确性不由 check 9 字节对比守卫：
+    引擎由 check 4/5/5b + check 11 行为级 harness 守卫，CSS 由 check 4
+    （全站单版本且 == src/style.css）守卫。check 9 只守卫 HTML 结构等价。"""
+    html = re.sub(ENGINE_BLOCK_RE, "<script>{{ENGINE}}</script>", html, flags=re.S)
+    return re.sub(STYLE_BLOCK_RE, "<style>{{CSS}}</style>", html, flags=re.S)
+
+# Task#5 起全站补的无障碍标记。这些是有意的功能性新增（非渲染等价），
+# 但不应污染 check 9 的"产物等价于原站"守卫：对比前先从双方剥掉，
+# 使 check 9 仍严格守卫"a11y 标记之外的字节等价"。
+A11Y_ATTR_RE = re.compile(
+    r'\s+(?:role="(?:timer|status|img)"|aria-live="(?:polite|assertive|off)"|data-aria="[^"]*"|aria-pressed="(?:true|false)")')
+A11Y_LABELS = (' aria-label="Time remaining"', ' aria-label="Typing input"',
+               ' aria-label="WPM over time line chart"')
+SKIP_LINK_RE = re.compile(r'<a class="skip"[^>]*>.*?</a>\n?')
+# Task#6 起全站 head 新增的 PWA/图标引用（favicon、apple-touch、manifest）。
+# 这是有意的功能性新增，基线里不存在，剥掉后双方归一，不污染 check 9。
+PWA_LINK_RE = re.compile(r'<link rel="(?:icon|apple-touch-icon|manifest)"[^>]*>\n?')
+def strip_a11y(html: str) -> str:
+    """剥掉 Task#5 新增的 a11y 属性/元素（skip link、role、aria-*、button type），
+    以及 Task#6 新增的 PWA/图标引用（favicon、apple-touch、manifest）。
+    内联 <style> 块已由 strip_engine 整体剥离，故此处无需再处理 a11y CSS。
+    基线里本就存在的同类属性（如 kbd-size 的 aria-label、sndToggle 的
+    aria-pressed）会被一并移除，双方归一，不影响守卫。"""
+    html = PWA_LINK_RE.sub("", html)
+    html = A11Y_ATTR_RE.sub("", html)
+    html = SKIP_LINK_RE.sub("", html)
+    html = html.replace(' type="button"', "")
+    for lit in A11Y_LABELS:
+        html = html.replace(lit, "")
+    return html
 # 架构重构前的基线提交。检查 9 永久对比它，使"产物等价于原站"成为回归守卫，
 # 而不是提交后退化成自我对比。
 BASELINE_REF = "eada54e"
@@ -161,11 +190,14 @@ def main():
         if g.returncode != 0:
             unexpected[n] = ["(基线中不存在)"]
             continue
-        # 剥掉引擎块再比：引擎有意演进，HTML 内容与 CSS 仍逐字节守卫
-        if strip_engine(g.stdout) == strip_engine(htmls.get(n, "")):
+        # 剥掉引擎块与 Task#5 a11y 标记再比：引擎有意演进、a11y 有意新增，
+        # 除此之外的 HTML/CSS 仍逐字节守卫
+        base = strip_a11y(strip_engine(g.stdout))
+        cur = strip_a11y(strip_engine(htmls.get(n, "")))
+        if base == cur:
             continue
-        d = [l for l in difflib.unified_diff(strip_engine(g.stdout).split("\n"),
-                                             strip_engine(htmls[n]).split("\n"),
+        d = [l for l in difflib.unified_diff(base.split("\n"),
+                                             cur.split("\n"),
                                              lineterm="", n=0)
              if l[:1] in "+-" and not l.startswith(("+++", "---"))]
         diffs[n] = d

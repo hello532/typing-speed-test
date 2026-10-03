@@ -74,12 +74,14 @@ def build_chips(page):
     """时长/模式按钮：高亮态由 dur/mode 派生。"""
     out = {}
     for sec, lab in DURATIONS:
-        cls = "chip dur on" if sec == page["dur"] else "chip dur"
-        out["{{CHIP_DUR_%d}}" % sec] = f'<button class="{cls}" data-d="{sec}">{lab}</button>'
+        on = sec == page["dur"]
+        cls = "chip dur on" if on else "chip dur"
+        out["{{CHIP_DUR_%d}}" % sec] = f'<button type="button" class="{cls}" data-d="{sec}" aria-pressed="{str(on).lower()}">{lab}</button>'
     for mode, lab, i18n in MODES:
-        cls = "chip mode on" if mode == page["mode"] else "chip mode"
+        on = mode == page["mode"]
+        cls = "chip mode on" if on else "chip mode"
         out["{{CHIP_MODE_%s}}" % mode.upper()] = (
-            f'<button class="{cls}" data-m="{mode}" data-i18n="{i18n}">{lab}</button>')
+            f'<button type="button" class="{cls}" data-m="{mode}" data-i18n="{i18n}" aria-pressed="{str(on).lower()}">{lab}</button>')
     return out
 
 

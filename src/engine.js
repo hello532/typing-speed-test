@@ -191,7 +191,7 @@ function buildFingerBar(){
 function paintFingerBar(){
   var bar=document.getElementById("fingerBar"); if(!bar)return;
   var bs=bar.querySelectorAll(".finger-btn"),i;
-  for(i=0;i<bs.length;i++)bs[i].classList.toggle("on",bs[i].getAttribute("data-f")===drillFinger);
+  for(i=0;i<bs.length;i++){var bf=bs[i]; bf.classList.toggle("on",bf.getAttribute("data-f")===drillFinger); bf.setAttribute("aria-pressed",bf.getAttribute("data-f")===drillFinger?"true":"false");}
 }
 /* --- 变体结果块：finish() 时挂到结果面板尾部 --- */
 function variantResult(){
@@ -405,7 +405,7 @@ var KSIZE={s:1,m:1.3,l:1.65};
 function applyKbdSize(sz){
   var k=KSIZE[sz]?sz:"m", wrap=document.getElementById("kbdWrap"); if(!wrap)return;
   var els=wrap.querySelectorAll(".kbd,.hands"); for(var i=0;i<els.length;i++)els[i].style.setProperty("--ks",KSIZE[k]);
-  var bs=document.querySelectorAll(".kbd-size"); for(var j=0;j<bs.length;j++)bs[j].classList.toggle("on",bs[j].getAttribute("data-ks")===k);
+  var bs=document.querySelectorAll(".kbd-size"); for(var j=0;j<bs.length;j++){var on=bs[j].getAttribute("data-ks")===k; bs[j].classList.toggle("on",on); bs[j].setAttribute("aria-pressed",on?"true":"false");}
   try{localStorage.setItem("kbdSize",k);}catch(e){}
 }
 var HAND_TIPS=[['LP',40,32],['LR',78,18],['LM',126,16],['LI',174,22],['TH',214,112],['TH',262,112],['RI',306,22],['RM',352,16],['RR',406,18],['RP',442,32]];
@@ -531,11 +531,11 @@ document.addEventListener("keydown",function(e){
   }
 });
 chipsD.forEach(function(c){c.addEventListener("click",function(){
-  chipsD.forEach(function(x){x.classList.remove("on");}); c.classList.add("on");
+  chipsD.forEach(function(x){x.classList.toggle("on",x===c); x.setAttribute("aria-pressed",x===c?"true":"false");});
   dur=parseInt(c.getAttribute("data-d"),10); reset();
 });});
 chipsM.forEach(function(c){c.addEventListener("click",function(){
-  chipsM.forEach(function(x){x.classList.remove("on");}); c.classList.add("on");
+  chipsM.forEach(function(x){x.classList.toggle("on",x===c); x.setAttribute("aria-pressed",x===c?"true":"false");});
   mode=c.getAttribute("data-m"); reset();
 });});
 document.getElementById("btnAgain").addEventListener("click",function(){reset();elIn.focus();});

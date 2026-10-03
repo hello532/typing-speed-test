@@ -7,6 +7,11 @@
 <meta name="description" content="{{META_DESC}}">
 <meta name="keywords" content="{{KEYWORDS}}">
 <link rel="canonical" href="{{CANONICAL}}">
+<link rel="icon" type="image/svg+xml" href="/favicon.svg">
+<link rel="icon" type="image/png" sizes="192x192" href="/icon-192.png">
+<link rel="icon" type="image/png" sizes="512x512" href="/icon-512.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="manifest" href="/site.webmanifest">
 <meta property="og:title" content="{{OG_TITLE}}">
 <meta property="og:description" content="{{OG_DESC}}">
 <meta property="og:type" content="website">
@@ -26,6 +31,7 @@
 <script>{{HEAD_SNIPPET}}</script>
 </head>
 <body>
+<a class="skip" href="#input" data-i18n="skip">Skip to typing test</a>
 <div class="wrap">
   {{HEADER}}
 {{CRUMBS}}
@@ -56,18 +62,18 @@
     </div>
 
     <div class="stats">
-      <div class="stat"><div class="num accent" id="sTime">{{STIME}}</div><div class="lab" data-i18n="st_time">Time</div></div>
+      <div class="stat"><div class="num accent" id="sTime" role="timer" aria-label="Time remaining" data-aria="timer_aria">{{STIME}}</div><div class="lab" data-i18n="st_time">Time</div></div>
       <div class="stat"><div class="num" id="sWpm">0</div><div class="lab" data-i18n="wpm">WPM</div></div>
       <div class="stat"><div class="num" id="sAcc">100%</div><div class="lab" data-i18n="accuracy">Accuracy</div></div>
     </div>
 
     <div class="typing">
       <div id="text"></div>
-      <input id="input" type="text" autocomplete="off" autocapitalize="off" autocorrect="off" spellcheck="false">
+      <input id="input" type="text" autocomplete="off" autocapitalize="off" autocorrect="off" spellcheck="false" aria-label="Typing input" data-aria="input_aria">
       <div class="refocus" data-i18n="resume">Click to resume</div>
     </div>
     <div class="kbd-wrap" id="kbdWrap" aria-hidden="true">
-      <div class="kbd-tools"><span class="lab" data-i18n="kbd_size">Keyboard</span><button class="kbd-size" data-ks="s" aria-label="Small">S</button><button class="kbd-size" data-ks="m" aria-label="Medium">M</button><button class="kbd-size" data-ks="l" aria-label="Large">L</button><button class="snd-toggle" id="sndToggle" aria-pressed="false" title="Typing sound"><span data-i18n="sound">Sound</span>: <b class="snd-state">off</b></button></div>
+      <div class="kbd-tools"><span class="lab" data-i18n="kbd_size">Keyboard</span><button type="button" class="kbd-size" data-ks="s" aria-label="Small">S</button><button type="button" class="kbd-size" data-ks="m" aria-label="Medium">M</button><button type="button" class="kbd-size" data-ks="l" aria-label="Large">L</button><button type="button" class="snd-toggle" id="sndToggle" aria-pressed="false" title="Typing sound"><span data-i18n="sound">Sound</span>: <b class="snd-state">off</b></button></div>
       <div class="kbd" id="kbd"></div>
       <div class="hands" id="hands"></div>
     </div>

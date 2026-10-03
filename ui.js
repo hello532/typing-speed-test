@@ -45,6 +45,13 @@ var POOL={"en":{"sentences":["Learning to type quickly is a skill that helps stu
  pb_new:{en:"New personal best!",zh:"刷新个人最佳！",es:"¡Nuevo récord personal!",hi:"नया व्यक्तिगत सर्वश्रेष्ठ!",ar:"أفضل رقم شخصي جديد!"},
  pb_prev:{en:"Personal best",zh:"个人最佳",es:"Récord personal",hi:"व्यक्तिगत सर्वश्रेष्ठ",ar:"أفضل رقم شخصي"}
 };for(var key in M){var R=M[key];for(var k in R){if(I18N[k])I18N[k][key]=R[k];}}})();
+/* a11y: aria-label 也跟随语言切换（[data-aria] 元素）*/
+(function(){var A={
+ skip:{en:"Skip to typing test",zh:"跳到打字测试",es:"Saltar a la prueba",hi:"टाइपिंग टेस्ट पर जाएँ",ar:"تخطّي إلى اختبار الكتابة"},
+ input_aria:{en:"Typing input",zh:"打字输入框",es:"Campo de escritura",hi:"टाइपिंग इनपुट",ar:"حقل الكتابة"},
+ timer_aria:{en:"Time remaining",zh:"剩余时间",es:"Tiempo restante",hi:"शेष समय",ar:"الوقت المتبقي"},
+ chart_aria:{en:"WPM over time line chart",zh:"WPM 随时间变化折线图",es:"Gráfico de PPM en el tiempo",hi:"समय के साथ WPM रेखाचित्र",ar:"رسم بياني للسرعة عبر الزمن"}
+};for(var key in A){var R=A[key];for(var k in R){if(I18N[k])I18N[k][key]=R[k];}}})();
 var LANGS=["en","zh","es","hi","ar"];
 var THEMES=[["dark","🌙"],["light","☀️"],["ocean","🌊"]];
 function ls(k,v){try{if(v===undefined)return localStorage.getItem(k);localStorage.setItem(k,v);}catch(e){return null;}}
@@ -67,6 +74,8 @@ function translate(){
   for(var i=0;i<els.length;i++){var k=els[i].getAttribute("data-i18n");if(d[k]!=null||I18N.en[k]!=null)els[i].textContent=TR.t(k);}
   var hs=document.querySelectorAll("[data-i18n-html]");
   for(var j=0;j<hs.length;j++){var kk=hs[j].getAttribute("data-i18n-html");hs[j].innerHTML=TR.t(kk);}
+  var da=document.querySelectorAll("[data-aria]");
+  for(var n=0;n<da.length;n++){var ka=da[n].getAttribute("data-aria");var av=TR.t(ka);if(av)da[n].setAttribute("aria-label",av);}
 }
 
 function setLang(l,fire){
