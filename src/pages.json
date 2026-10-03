@@ -1483,5 +1483,120 @@
         "BreadcrumbList"
       ]
     }
+,
+    {
+      "file": "30-second-typing-test.html",
+      "title": "30 Second Typing Test - Free 30s WPM Test",
+      "metaDesc": "Free 30 second typing test. A quick 30s WPM check to test your typing speed fast. Instant results, no sign up, unlimited tries.",
+      "canonical": "https://typing.rerivo.com/30-second-typing-test.html",
+      "dur": 30,
+      "mode": "sentences",
+      "variant": null,
+      "nav": [
+        { "href": "/", "text": "Home" },
+        { "href": "1-minute-typing-test.html", "text": "1 Minute Test" },
+        { "href": "words-per-minute-test.html", "text": "WPM Test" },
+        { "href": "typing-practice.html", "text": "Practice" }
+      ],
+      "crumbs": [ "Home", "30 Second Typing Test" ],
+      "h1": "30 Second Typing Test",
+      "heroP": "Test your typing speed in just <strong>30 seconds</strong>. A fast, no-frills WPM check when you want a quick snapshot of your typing speed without committing to a full minute.",
+      "seo": [
+        { "h2": "30 second typing test", "p": [ "The <strong>30 second typing test</strong> is the quickest way to get a WPM estimate. Thirty seconds is enough to type roughly 20-45 words, which gives a usable sample when you are short on time. For a steadier score that averages out fast bursts, try the <a href=\"1-minute-typing-test.html\">1 minute typing test</a> or the <a href=\"5-minute-typing-test.html\">5 minute typing test</a>." ] },
+        { "h2": "How accurate is a 30 second test?", "p": [ "A 30 second test is a good snapshot but not the most stable measure - one fast or slow sentence sways the result more than in a longer test. Use it for quick daily checks, and pair it with longer rounds from <a href=\"typing-practice.html\">typing practice</a> to track real progress." ] },
+        { "h2": "Tips for a faster 30 second sprint", "p": [ "Warm up first, keep your eyes on the text rather than your hands, and prioritise accuracy over raw speed since errors cost time to fix. To build real speed, our <a href=\"typing-practice.html\">typing exercises</a> progressively train common words and patterns." ] }
+      ],
+      "faqFirstOpen": true,
+      "faqH2": "30 second typing test FAQ",
+      "faq": [
+        { "q": "Is a 30 second typing test accurate?", "a": "It gives a reasonable snapshot of your speed, but a short test is more easily affected by a single fast or slow sentence. For a more stable WPM, use a 1, 2 or 5 minute test." },
+        { "q": "How many words do you type in 30 seconds?", "a": "Most people type 20-45 words in 30 seconds depending on their speed, which is enough for a quick WPM estimate." },
+        { "q": "Is this 30 second test free?", "a": "Yes, completely free with no sign up and no ads inside the typing area. Your results stay in your own browser." },
+        { "q": "Can I retake the test?", "a": "Yes, retake it as many times as you like. Each round saves locally so you can compare your results over time." }
+      ],
+      "webAppName": "Typing Speed Test",
+      "webAppUrl": "https://typing.rerivo.com/30-second-typing-test.html",
+      "bcItems": [
+        { "name": "Home", "item": "https://typing.rerivo.com/" },
+        { "name": "30 Second Typing Test", "item": "https://typing.rerivo.com/30-second-typing-test.html" }
+      ],
+      "ldPretty": []
+    },
+    {
+      "file": "3-minute-typing-test.html",
+      "title": "3 Minute Typing Test - Free 3 Min WPM Test",
+      "metaDesc": "Free 3 minute typing test. Measure your typing speed and accuracy over 3 minutes with instant WPM results. No sign up required.",
+      "canonical": "https://typing.rerivo.com/3-minute-typing-test.html",
+      "dur": 180,
+      "mode": "sentences",
+      "variant": null,
+      "nav": [
+        { "href": "/", "text": "Home" },
+        { "href": "1-minute-typing-test.html", "text": "1 Minute Test" },
+        { "href": "5-minute-typing-test.html", "text": "5 Minute Test" },
+        { "href": "typing-practice.html", "text": "Practice" }
+      ],
+      "crumbs": [ "Home", "3 Minute Typing Test" ],
+      "h1": "3 Minute Typing Test",
+      "heroP": "Measure your typing speed over a balanced <strong>3 minute</strong> test. Long enough to smooth out quick bursts, short enough to fit any practice routine - a favourite length for pre-employment typing checks.",
+      "seo": [
+        { "h2": "3 minute typing test", "p": [ "The <strong>3 minute typing test</strong> hits a sweet spot: it averages out short bursts of speed without the fatigue of a long round, which is why many pre-employment typing screenings use a 3-5 minute window. Compare it with the <a href=\"1-minute-typing-test.html\">1 minute typing test</a> and the <a href=\"5-minute-typing-test.html\">5 minute typing test</a> to see how length changes your score." ] },
+        { "h2": "Why test for 3 minutes?", "p": [ "Three minutes filters out the noise of a single lucky sentence while staying short enough to take every day. It reveals whether you can hold speed and accuracy together, the real signal employers care about. Build that endurance with guided <a href=\"typing-practice.html\">typing practice</a>." ] },
+        { "h2": "What is a good 3 minute WPM?", "p": [ "Around 40 WPM is average for adults, 60+ is good, and 80+ is professional. Over 3 minutes accuracy matters as much as speed, so aim to finish with 95% or higher accuracy." ] }
+      ],
+      "faqFirstOpen": true,
+      "faqH2": "3 minute typing test FAQ",
+      "faq": [
+        { "q": "Why do employers use 3 minute typing tests?", "a": "Three minutes is long enough to reflect sustained real-world typing speed yet short enough for screening, so many hiring tests use a 3-5 minute window." },
+        { "q": "What WPM do I need for a typing job?", "a": "Most data entry and transcription roles ask for 40-60 WPM with 90% or higher accuracy; specialised roles may want 70+ WPM." },
+        { "q": "Is the 3 minute test free?", "a": "Yes - free, no sign up, no ads in the typing area, and results are stored only in your browser." },
+        { "q": "Does it track my accuracy too?", "a": "Yes. Alongside WPM you get accuracy, error count and character-level stats for every round." }
+      ],
+      "webAppName": "Typing Speed Test",
+      "webAppUrl": "https://typing.rerivo.com/3-minute-typing-test.html",
+      "bcItems": [
+        { "name": "Home", "item": "https://typing.rerivo.com/" },
+        { "name": "3 Minute Typing Test", "item": "https://typing.rerivo.com/3-minute-typing-test.html" }
+      ],
+      "ldPretty": []
+    },
+    {
+      "file": "10-minute-typing-test.html",
+      "title": "10 Minute Typing Test - Free 10 Min WPM Test",
+      "metaDesc": "Free 10 minute typing test. Test your long-form typing endurance and accuracy over 10 minutes with instant WPM results. No sign up.",
+      "canonical": "https://typing.rerivo.com/10-minute-typing-test.html",
+      "dur": 600,
+      "mode": "sentences",
+      "variant": null,
+      "nav": [
+        { "href": "/", "text": "Home" },
+        { "href": "5-minute-typing-test.html", "text": "5 Minute Test" },
+        { "href": "words-per-minute-test.html", "text": "WPM Test" },
+        { "href": "typing-practice.html", "text": "Practice" }
+      ],
+      "crumbs": [ "Home", "10 Minute Typing Test" ],
+      "h1": "10 Minute Typing Test",
+      "heroP": "Test true typing <strong>endurance</strong> with a full 10 minute typing test. Ten minutes measures how well you hold speed and accuracy over long sessions - the closest test to a real workday of writing or data entry.",
+      "seo": [
+        { "h2": "10 minute typing test", "p": [ "The <strong>10 minute typing test</strong> is the ultimate endurance check. Ten minutes exposes fatigue that short rounds hide: most typists slow 5-15% between minute one and minute ten, so your score here reflects what you can truly sustain. Warm up first with a <a href=\"1-minute-typing-test.html\">1 minute typing test</a> or a <a href=\"5-minute-typing-test.html\">5 minute typing test</a>." ] },
+        { "h2": "Who needs a 10 minute test?", "p": [ "Anyone whose work is long-form typing - transcriptionists, writers, coders, data entry clerks. If you will type for hours, a 10 minute result predicts your real-day speed better than any sprint. Build up to it with structured <a href=\"typing-practice.html\">typing practice</a> sessions." ] },
+        { "h2": "How to pace a 10 minute test", "p": [ "Start about 10% slower than your 1 minute speed and settle into a rhythm you can hold. Sit up, keep wrists neutral, and take micro-pauses at sentence breaks. Finishing strong matters more than an early burst that fades." ] }
+      ],
+      "faqFirstOpen": true,
+      "faqH2": "10 minute typing test FAQ",
+      "faq": [
+        { "q": "Will I slow down over 10 minutes?", "a": "Most people type 5-15% slower by the end of a 10 minute test as fatigue sets in. Pacing yourself and staying relaxed helps limit the drop." },
+        { "q": "Is a 10 minute test better than 1 minute?", "a": "It measures something different: endurance and consistency rather than peak speed. A 1 minute test shows your top speed; a 10 minute test shows what you can sustain." },
+        { "q": "Is the 10 minute typing test free?", "a": "Yes, completely free with no sign up and no ads in the typing area, and your results stay private in your browser." },
+        { "q": "What text is used for the test?", "a": "Real English sentences by default. You can switch to quotes, numbers or words from the panel above the typing area." }
+      ],
+      "webAppName": "Typing Speed Test",
+      "webAppUrl": "https://typing.rerivo.com/10-minute-typing-test.html",
+      "bcItems": [
+        { "name": "Home", "item": "https://typing.rerivo.com/" },
+        { "name": "10 Minute Typing Test", "item": "https://typing.rerivo.com/10-minute-typing-test.html" }
+      ],
+      "ldPretty": []
+    }
   ]
 }

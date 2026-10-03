@@ -46,12 +46,16 @@ SKIP_LINK_RE = re.compile(r'<a class="skip"[^>]*>.*?</a>\n?')
 # Task#6 起全站 head 新增的 PWA/图标引用（favicon、apple-touch、manifest）。
 # 这是有意的功能性新增，基线里不存在，剥掉后双方归一，不污染 check 9。
 PWA_LINK_RE = re.compile(r'<link rel="(?:icon|apple-touch-icon|manifest)"[^>]*>\n?')
+# 全站页脚内链枢纽：有意演进的 SEO 内链（给每页全站入口），不参与 check 9
+# 字节守卫；其“覆盖所有页且无死链”由 check 12 单独守卫。
+FOOTER_RE = re.compile(r"<footer>.*?</footer>", re.S)
 def strip_a11y(html: str) -> str:
     """剥掉 Task#5 新增的 a11y 属性/元素（skip link、role、aria-*、button type），
-    以及 Task#6 新增的 PWA/图标引用（favicon、apple-touch、manifest）。
+    Task#6 新增的 PWA/图标引用，以及有意演进的页脚内链枢纽（见 check 12）。
     内联 <style> 块已由 strip_engine 整体剥离，故此处无需再处理 a11y CSS。
     基线里本就存在的同类属性（如 kbd-size 的 aria-label、sndToggle 的
     aria-pressed）会被一并移除，双方归一，不影响守卫。"""
+    html = FOOTER_RE.sub("", html)
     html = PWA_LINK_RE.sub("", html)
     html = A11Y_ATTR_RE.sub("", html)
     html = SKIP_LINK_RE.sub("", html)
@@ -102,7 +106,7 @@ def main():
 
     # 1. 产物完整性
     missing = [n for n in names if not (ROOT / n).exists()]
-    check("1. 17 个页面产物全部存在", not missing, f"缺失: {missing}" if missing else f"{len(names)} 页")
+    check("1. 页面产物全部存在", not missing, f"缺失: {missing}" if missing else f"{len(names)} 页")
 
     htmls = {n: (ROOT / n).read_text(encoding="utf-8") for n in names if (ROOT / n).exists()}
 
@@ -168,8 +172,8 @@ def main():
     if sm.exists():
         urls = set(re.findall(r"<loc>(.*?)</loc>", sm.read_text(encoding="utf-8")))
         want = {SITE + "/" if n == "index.html" else SITE + "/" + n for n in names}
-        check("7. sitemap.xml 覆盖且仅覆盖这 17 个 URL",
-              urls == want, f"缺 {sorted(want-urls)[:2]} 多 {sorted(urls-want)[:2]}" if urls != want else "17/17")
+        check("7. sitemap.xml 覆盖且仅覆盖全部页面 URL",
+              urls == want, f"缺 {sorted(want-urls)[:2]} 多 {sorted(urls-want)[:2]}" if urls != want else f"{len(urls)}/{len(want)} 个 URL 一致")
     else:
         check("7. sitemap.xml 存在", False)
 
@@ -183,14 +187,24 @@ def main():
     miss = sorted(r for r in refs if not (ROOT / r.lstrip("/")).exists())
     check("8. 页面引用的本地资源全部存在", not miss, f"缺失: {miss}" if miss else f"{len(refs)} 个: {sorted(refs)}")
 
-    # 9. 与 git 基线字节等价（豁免表内差异需逐条命中）
+    # 重构后新增的落地页：基线中不存在，属有意新增（补 gap 词），不是回归。
+    NEW_PAGES = {
+        "30-second-typing-test.html": "新增 30 秒时长落地页（补时长阶梯）",
+        "3-minute-typing-test.html": "新增 3 分钟时长落地页（补时长阶梯）",
+        "10-minute-typing-test.html": "新增 10 分钟时长落地页（补时长阶梯）",
+    }
+
+    # 9. 与 git 基线字节等价（豁免表内差异需逐条命中；新增页单独登记）
     base_ref = BASELINE_REF
     if git("cat-file", "-e", f"{BASELINE_REF}^{{commit}}").returncode != 0:
         base_ref = "HEAD"  # 浅克隆等取不到基线时退化
-    diffs, unexpected, unmatched = {}, {}, set(EXEMPT)
+    diffs, unexpected, unmatched, new_hit = {}, {}, set(EXEMPT), 0
     for n in names:
         g = git("show", f"{base_ref}:{n}")
         if g.returncode != 0:
+            if n in NEW_PAGES:
+                new_hit += 1
+                continue  # 有意新增的落地页（基线不存在），非回归
             unexpected[n] = ["(基线中不存在)"]
             continue
         # 剥掉引擎块与 Task#5 a11y 标记再比：引擎有意演进、a11y 有意新增，
@@ -219,10 +233,22 @@ def main():
     check("9. 相对 git 基线仅有豁免表内差异", passed9,
           f"意外差异 {list(unexpected)[:2]}" if unexpected else
           (f"豁免表未命中 {sorted(unmatched)}" if unmatched and diffs else
-           (f"{len(diffs)}/{len(names)} 页命中豁免（基线 {base_ref}）" if diffs
+           (f"{len(diffs)+new_hit}/{len(names)} 页命中豁免（基线 {base_ref}"
+            + (f"，含 {new_hit} 个新增落地页" if new_hit else "") + "）" if diffs
             else f"无差异，与基线 {base_ref} 完全一致")))
     for n, d in sorted(diffs.items()):
         print(f'      · {n}: {len(d)} 行 — {EXEMPT.get(n, "未登记")}')
+
+    # 12. 页脚内链枢纽覆盖所有页面且无死链（哥飞第5步：每个页都要有全站入口）
+    foot_src = (SRC / "footer.html").read_text(encoding="utf-8")
+    foot_links = set(re.findall(r'href="([^"]+)"', foot_src))
+    foot_pages = {l for l in foot_links if l.endswith(".html")}
+    covered = foot_pages | ({"index.html"} if "/" in foot_links else set())
+    miss12 = set(names) - covered
+    dead12 = foot_pages - set(names)
+    check("12. 页脚枢纽覆盖所有页面且无死链", not miss12 and not dead12,
+          f"缺入口 {sorted(miss12)}" if miss12 else
+          (f"死链 {sorted(dead12)}" if dead12 else f"{len(covered)}/{len(names)} 页有页脚入口"))
 
     # 10. 构建幂等
     r2 = subprocess.run([sys.executable, str(ROOT / "build.py")], cwd=ROOT, capture_output=True, text=True)

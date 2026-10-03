@@ -12,6 +12,9 @@
 - [1 Minute Typing Test](https://typing.rerivo.com/1-minute-typing-test.html): Classic 60-second WPM test.
 - [2 Minute Typing Test](https://typing.rerivo.com/2-minute-typing-test.html): 2-minute endurance typing test.
 - [5 Minute Typing Test](https://typing.rerivo.com/5-minute-typing-test.html): 5-minute test for sustained speed and stamina.
+- [30 Second Typing Test](https://typing.rerivo.com/30-second-typing-test.html): Quick 30-second WPM snapshot.
+- [3 Minute Typing Test](https://typing.rerivo.com/3-minute-typing-test.html): Balanced 3-minute test, a common pre-employment typing check length.
+- [10 Minute Typing Test](https://typing.rerivo.com/10-minute-typing-test.html): 10-minute endurance test for sustained speed.
 
 ## Metrics & Scoring
 - [Words Per Minute Test](https://typing.rerivo.com/words-per-minute-test.html): Explains and measures WPM.
