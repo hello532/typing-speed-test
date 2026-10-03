@@ -194,6 +194,8 @@ def main():
         "10-minute-typing-test.html": "新增 10 分钟时长落地页（补时长阶梯）",
         "typing-games.html": "新增 typing games 落地页（补游戏线 gap 词）",
         "typing-lessons.html": "新增 typing lessons 落地页（补教育线 gap 词）",
+        "learn-to-type-faster.html": "新增 learn to type faster 落地页（补教育线提速 P1 词）",
+        "typing-tips.html": "新增 typing tips 落地页（补信息线技巧聚合 P1 词）",
     }
 
     # 9. 与 git 基线字节等价（豁免表内差异需逐条命中；新增页单独登记）
