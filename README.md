@@ -68,7 +68,7 @@ change `src/`, re-run `build.py`, then commit the regenerated pages.
 ```
 src/            template, pages.json, engine.js, ui.js, footer.html, style.css
 src/pools/      practice content (en / zh / es / hi / ar)
-tools/          generator & extraction helpers
+src/tools/      generator & extraction helpers
 *.html          generated pages (build artifacts)
 og-cover.png    social preview image
 ```
