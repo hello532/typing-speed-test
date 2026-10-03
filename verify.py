@@ -175,9 +175,12 @@ def main():
 
     # 8. 外链资源存在
     refs = set()
+    # 站内绝对路径（/favicon.svg 等，根部署）也纳入校验；仅排除外部 URL、
+    # protocol-relative（//）、锚点（#）、mailto。
     for h in htmls.values():
-        refs |= set(re.findall(r'(?:src|href)="((?!https?://|/|#|mailto:)[^"?]+)', h))
-    miss = sorted(r for r in refs if not (ROOT / r).exists())
+        refs |= set(re.findall(r'(?:src|href)="(?!https?://|//|#|mailto:)([^"?]+)', h))
+    refs = {r for r in refs if r.strip("/")}  # 剔除 logo href="/" 这类首页自引用
+    miss = sorted(r for r in refs if not (ROOT / r.lstrip("/")).exists())
     check("8. 页面引用的本地资源全部存在", not miss, f"缺失: {miss}" if miss else f"{len(refs)} 个: {sorted(refs)}")
 
     # 9. 与 git 基线字节等价（豁免表内差异需逐条命中）
