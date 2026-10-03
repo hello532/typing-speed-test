@@ -365,6 +365,39 @@ for (const m of ['sentences', 'quotes', 'words', 'numbers']) {
   assert(ok, `mode=${m}: seedText 铺满 ${ctx.chars.length} 字符 ${ok ? '✅' : '❌'}`);
 }
 
+console.log('\n=== P3: 五语练习池规模 + 按语言实际取样 ===');
+{
+  // en 是主语言（words 1000），其余四语各 30/30/400
+  const expect = { en: [50, 50, 1000], zh: [30, 30, 400], es: [30, 30, 400], hi: [30, 30, 400], ar: [30, 30, 400] };
+  for (const lang of Object.keys(expect)) {
+    const p = POOL[lang];
+    assert(!!p, `POOL[${lang}] 存在`);
+    const [s, q, w] = expect[lang];
+    assert(Array.isArray(p.sentences) && p.sentences.length >= s, `${lang} sentences ≥ ${s}（实际 ${p.sentences?.length}）`);
+    assert(Array.isArray(p.quotes) && p.quotes.length >= q, `${lang} quotes ≥ ${q}（实际 ${p.quotes?.length}）`);
+    assert(Array.isArray(p.words) && p.words.length >= w, `${lang} words ≥ ${w}（实际 ${p.words?.length}）`);
+    const badDup = new Set(p.sentences.filter((x, i) => p.sentences.indexOf(x) !== i));
+    assert(badDup.size === 0, `${lang} sentences 无重复（重复 ${badDup.size}）`);
+  }
+  // nextChunk 必须按 TR.lang 取对应语言池（非 en），且取样内容确来自该池
+  clearVariant();
+  for (const lang of ['zh', 'es', 'hi', 'ar']) {
+    sandbox.TR.lang = lang;
+    ctx.mode = 'sentences';
+    ctx.reset();
+    assert(ctx.chars.length >= 240, `${lang}: 重置后铺满 ${ctx.chars.length} 字符`);
+    // quotes 模式返回单条整串，取样必须精确命中该语言池
+    const q = ctx.nextChunk('quotes');
+    assert(POOL[lang].quotes.includes(q), `${lang}: quotes 取样精确命中该语言池`);
+    // words 模式取 40 词，每个词都必须来自该语言词池
+    const ws = ctx.nextChunk('words').split(' ');
+    const wset = new Set(POOL[lang].words);
+    assert(ws.length === 40 && ws.every(x => wset.has(x)), `${lang}: words 取样 ${ws.length} 词全部来自该语言词池`);
+  }
+  sandbox.TR.lang = 'en';
+  ctx.reset();
+}
+
 console.log(`\n${'─'.repeat(60)}`);
 console.log(`结果: ${passed} passed, ${failed} failed`);
 process.exit(failed ? 1 : 0);

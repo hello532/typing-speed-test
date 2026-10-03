@@ -184,6 +184,29 @@ def render(page, cfg, tpl, css, engine, head_snippet, footer, result, variants):
     return out
 
 
+def build_ui_js():
+    """生成 ui.js：src/ui.js 模板 + src/pools/*.json 五语练习池。
+
+    ui.js 是外链脚本（不在 HTML 内联），17 页共享同一份。词池是真源，
+    必须由 build 派生，否则根目录 ui.js 会与 src/ 漂移。
+    """
+    ui_tpl = (SRC / "ui.js").read_text(encoding="utf-8")
+    pool = {}
+    for lang in ("en", "zh", "es", "hi", "ar"):
+        p = json.loads((SRC / "pools" / f"{lang}.json").read_text(encoding="utf-8"))
+        for key in ("sentences", "quotes", "words"):
+            if key not in p or not isinstance(p[key], list):
+                sys.exit(f"src/pools/{lang}.json: 缺少 {key} 数组")
+            if not p[key]:
+                sys.exit(f"src/pools/{lang}.json: {key} 为空")
+        pool[lang] = {k: p[k] for k in ("sentences", "quotes", "words")}
+    pool_json = json.dumps(pool, ensure_ascii=False, separators=(",", ":"))
+    out = ui_tpl.replace("var POOL=/*{{POOL}}*/;", "var POOL=" + pool_json + ";")
+    if "/*{{POOL}}*/" in out:
+        sys.exit("src/ui.js: POOL 占位符未被替换")
+    return out
+
+
 def main():
     check = "--check" in sys.argv
     cfg = json.loads((SRC / "pages.json").read_text(encoding="utf-8"))
@@ -194,8 +217,16 @@ def main():
     footer = (SRC / "footer.html").read_text(encoding="utf-8").rstrip("\n")
     result = (SRC / "result.html").read_text(encoding="utf-8").rstrip("\n")
     variants = json.loads((SRC / "variants.json").read_text(encoding="utf-8"))
-
+    ui_js = build_ui_js()
     bad = []
+    ui_target = ROOT / "ui.js"
+    if check:
+        cur_ui = ui_target.read_text(encoding="utf-8") if ui_target.exists() else None
+        if cur_ui != ui_js:
+            bad.append("ui.js")
+    else:
+        ui_target.write_text(ui_js, encoding="utf-8")
+
     for page in cfg["pages"]:
         html = render(page, cfg, tpl, css, engine, head_snippet, footer, result, variants)
         target = ROOT / page["file"]
