@@ -1227,6 +1227,178 @@
       "ldPretty": []
     },
     {
+      "file": "typing-games.html",
+      "title": "Typing Games - Free Fun Typing Practice Games Online",
+      "metaDesc": "Free typing games. Play fun typing practice games in your browser - timed challenges, instant WPM and accuracy, scores saved locally. No sign up, no ads.",
+      "canonical": "https://typing.rerivo.com/typing-games.html",
+      "dur": 60,
+      "mode": "sentences",
+      "variant": null,
+      "nav": [
+        {
+          "href": "/",
+          "text": "Home"
+        },
+        {
+          "href": "typing-test-game.html",
+          "text": "Typing Test Game"
+        },
+        {
+          "href": "typing-practice.html",
+          "text": "Typing Practice"
+        }
+      ],
+      "crumbs": [
+        "Home",
+        "Typing Games"
+      ],
+      "h1": "Typing Games",
+      "heroP": "Play free <strong>typing games</strong> right in your browser. Pick a timed challenge, type each line as fast and as accurately as you can, then try to beat your own best WPM. No sign up, no ads, and every score is saved on this device.",
+      "seo": [
+        {
+          "h2": "typing games",
+          "p": [
+            "<strong>Typing games</strong> turn a boring drill into something you actually want to do. The trick to faster typing is volume: thousands of keystrokes, spread over many short sessions. A game gives each session a score, a clock and a target, so ten minutes disappears before you notice. Play one or two rounds whenever you have a spare moment and your speed climbs on its own."
+          ]
+        },
+        {
+          "h2": "Fun typing games to play right now",
+          "p": [
+            "Every game on this site runs the same simple loop: read the text, type it, get your WPM and accuracy instantly. Short rounds (15 to 30 seconds) are pure speed fun. Longer rounds (2 to 10 minutes) are endurance games that punish mistakes. Switch the text set to numbers or punctuation for a fresh challenge, or open the game mode for a timed race against the clock. Pick whichever feels most fun today."
+          ]
+        },
+        {
+          "h2": "Turn practice into a game you keep coming back to",
+          "p": [
+            "Keep one simple rule: beat yesterday. Your last scores stay in this browser, so each game has a number to chase. If you miss a lot, slow down and aim for 98 percent accuracy first; speed returns on its own once your fingers stop making errors. Two or three games a day for a month is enough to see a real, lasting jump in your typing speed."
+          ]
+        }
+      ],
+      "faqFirstOpen": true,
+      "faqH2": "Typing games FAQ",
+      "faq": [
+        {
+          "q": "What are typing games?",
+          "a": "Typing games are typing practice with a score and a timer. You type the text on screen and the game instantly shows your words per minute (WPM) and accuracy, so each round feels like a small challenge to beat."
+        },
+        {
+          "q": "Are these typing games free?",
+          "a": "Yes. Every game is completely free, with no sign up, no account and no ads inside the typing area. Nothing is installed, and your scores are stored only in your own browser."
+        },
+        {
+          "q": "Which typing game should I play first?",
+          "a": "Start with a 1 minute sentence game. It is long enough to be a real test and short enough to fit any break. Once that feels easy, try 15 or 30 second rounds for pure speed, or a 5 minute round for endurance."
+        },
+        {
+          "q": "Can typing games actually make me faster?",
+          "a": "Yes, if you play often. Speed comes from repetition, and games make repetition fun. Players who play a few short rounds a day typically gain 10 to 20 WPM in a month, as long as they keep accuracy high."
+        },
+        {
+          "q": "Are my game scores saved?",
+          "a": "Yes. Your recent results are saved in your own browser (localStorage), so you can open the same game tomorrow and try to beat your best score. Nothing is sent to a server."
+        }
+      ],
+      "webAppName": "Typing Speed Test",
+      "webAppUrl": "https://typing.rerivo.com/",
+      "bcItems": [
+        {
+          "name": "Home",
+          "item": "https://typing.rerivo.com/"
+        },
+        {
+          "name": "Typing Games",
+          "item": "https://typing.rerivo.com/typing-games.html"
+        }
+      ],
+      "ldPretty": []
+    },
+    {
+      "file": "typing-lessons.html",
+      "title": "Typing Lessons - Free Online Touch Typing Lessons",
+      "metaDesc": "Free typing lessons. Learn touch typing step by step with free online lessons, finger placement drills and daily practice. No sign up, no cost.",
+      "canonical": "https://typing.rerivo.com/typing-lessons.html",
+      "dur": 60,
+      "mode": "sentences",
+      "variant": null,
+      "nav": [
+        {
+          "href": "/",
+          "text": "Home"
+        },
+        {
+          "href": "typing-practice.html",
+          "text": "Typing Practice"
+        },
+        {
+          "href": "keyboard-typing-test.html",
+          "text": "Keyboard Typing Test"
+        }
+      ],
+      "crumbs": [
+        "Home",
+        "Typing Lessons"
+      ],
+      "h1": "Typing Lessons",
+      "heroP": "Free <strong>typing lessons</strong> for every level. Learn touch typing one step at a time: home row first, then every finger, then real speed. Each lesson is a timed practice you can repeat until it feels effortless. No sign up, learn at your own pace.",
+      "seo": [
+        {
+          "h2": "typing lessons",
+          "p": [
+            "Good <strong>typing lessons</strong> build speed the safe way: one habit at a time. Touch typing means typing without looking at the keyboard, and it is the single biggest speed upgrade most people can make. Instead of hunting for keys with two fingers, you train all ten fingers so each key has a fixed finger and muscle memory takes over. The result is faster, steadier typing that also frees your eyes for the screen."
+          ]
+        },
+        {
+          "h2": "Start every lesson with the home row",
+          "p": [
+            "Every typing lesson plan starts in the same place: the home row. Rest your left fingers on A S D F and your right fingers on J K L ; with your thumbs on the space bar. Feel for the small bumps on F and J; they tell your index fingers where to land without looking. Practice typing words made only of home row letters until you never have to think about it, because every other key is reached from this position."
+          ]
+        },
+        {
+          "h2": "A free four week typing lesson plan",
+          "p": [
+            "Week one: home row only, short one minute lessons, accuracy over speed. Week two: add the top row and the shift keys for capitals, two minute lessons. Week three: cover the bottom row and the number row, then try the number text set. Week four: mix sentences, quotes and punctuation, and test your WPM against week one. Ten to fifteen minutes a day is enough; most learners reach 40 to 60 WPM within a month of daily lessons."
+          ]
+        }
+      ],
+      "faqFirstOpen": true,
+      "faqH2": "Typing lessons FAQ",
+      "faq": [
+        {
+          "q": "How long does it take to learn touch typing?",
+          "a": "Most people reach a comfortable 40 to 60 WPM with 10 to 15 minutes of daily practice for three to four weeks. Reaching 80 WPM or more takes a few more months of regular use, but the daily time stays the same."
+        },
+        {
+          "q": "Are these typing lessons free?",
+          "a": "Yes. Every lesson is free, with no sign up, no account and no paywall. You can repeat each lesson as many times as you like, and your results are saved only in your own browser."
+        },
+        {
+          "q": "How often should I take typing lessons?",
+          "a": "Daily is best, but short. Ten to fifteen minutes every day beats a single long session once a week, because muscle memory is built by frequency rather than by total minutes."
+        },
+        {
+          "q": "Do I need a special keyboard or a paid course?",
+          "a": "No. Any standard keyboard works, and these free lessons cover the same finger placement as paid typing courses. Start with the home row (A S D F J K L ;) and add one row at a time."
+        },
+        {
+          "q": "What is the difference between touch typing and hunt-and-peck?",
+          "a": "Hunt-and-peck means looking at the keys and pressing them with one or two fingers, which is slow and tiring. Touch typing uses all ten fingers from the home row without looking, so typing becomes faster, more accurate and far less effort."
+        }
+      ],
+      "webAppName": "Typing Speed Test",
+      "webAppUrl": "https://typing.rerivo.com/",
+      "bcItems": [
+        {
+          "name": "Home",
+          "item": "https://typing.rerivo.com/"
+        },
+        {
+          "name": "Typing Lessons",
+          "item": "https://typing.rerivo.com/typing-lessons.html"
+        }
+      ],
+      "ldPretty": []
+    },
+    {
       "file": "typing-test-game.html",
       "title": "Typing Test Game - Free Fun Typing Speed Game",
       "metaDesc": "Free typing test game. Make improving your typing speed fun — type words against the clock and beat your best WPM. No sign up.",

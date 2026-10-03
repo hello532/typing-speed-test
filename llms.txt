@@ -29,6 +29,8 @@
 - [Punctuation Typing Test](https://typing.rerivo.com/punctuation-typing-test.html): Punctuation and symbol accuracy.
 - [Easy Typing Test](https://typing.rerivo.com/easy-typing-test.html): Beginner-friendly simple words.
 - [Typing Test Game](https://typing.rerivo.com/typing-test-game.html): Gamified typing challenge.
+- [Typing Games](https://typing.rerivo.com/typing-games.html): Fun, gamified typing challenges and races.
+- [Typing Lessons](https://typing.rerivo.com/typing-lessons.html): Step-by-step free touch typing lessons and course.
 
 ## About
 - Free, no registration, privacy-friendly (runs fully in the browser).
