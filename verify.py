@@ -196,6 +196,7 @@ def main():
         "typing-lessons.html": "新增 typing lessons 落地页（补教育线 gap 词）",
         "learn-to-type-faster.html": "新增 learn to type faster 落地页（补教育线提速 P1 词）",
         "typing-tips.html": "新增 typing tips 落地页（补信息线技巧聚合 P1 词）",
+        "spanish-typing-test.html": "新增西班牙语打字测试落地页（多语线 P2：五语池现成，页面级默认 es）",
     }
 
     # 9. 与 git 基线字节等价（豁免表内差异需逐条命中；新增页单独登记）
@@ -259,19 +260,27 @@ def main():
     again = {n: (ROOT / n).read_text(encoding="utf-8") for n in names}
     check("10. build.py 幂等（重跑产物不变）", r2.returncode == 0 and again == htmls)
 
-    # 11. 引擎行为级 harness（P0-1 无限流 / P1 五项修复）
-    harness = SRC / "tools" / "engine_harness.mjs"
+    # 11. 行为级 harness（引擎内部行为 + 多语页“页面默认语言”链路）
+    harnesses = ["engine_harness.mjs", "lang_default_harness.mjs"]
     node = shutil.which("node")
     if not node:
-        check("11. 引擎行为级 harness", False, "node 不在 PATH，无法验证引擎行为")
-    elif not harness.exists():
-        check("11. 引擎行为级 harness", False, f"缺失 {harness}")
+        check("11. 行为级 harness 全绿", False, "node 不在 PATH，无法验证行为")
     else:
-        r3 = subprocess.run([node, str(harness)], cwd=ROOT, capture_output=True, text=True)
-        tail = (r3.stdout + r3.stderr).strip().splitlines()
-        summary = tail[-1] if tail else "(无输出)"
-        check("11. 引擎行为级 harness 全绿", r3.returncode == 0,
-              summary if r3.returncode == 0 else (summary + " | " + " ; ".join(l for l in tail if "❌" in l)[:120]))
+        all_ok, oks, fails = True, [], []
+        for hf in harnesses:
+            hp = SRC / "tools" / hf
+            if not hp.exists():
+                all_ok = False; fails.append(f"缺失 {hf}"); continue
+            r3 = subprocess.run([node, str(hp)], cwd=ROOT, capture_output=True, text=True)
+            tail = (r3.stdout + r3.stderr).strip().splitlines()
+            last = tail[-1] if tail else "(无输出)"
+            if r3.returncode == 0:
+                oks.append(f"{hf}: {last}")
+            else:
+                all_ok = False
+                fails.append(f"{hf}: {last} | " + " ; ".join(l for l in tail if "❌" in l)[:120])
+        check("11. 行为级 harness 全绿", all_ok,
+              " ; ".join(oks) if all_ok else " ; ".join(fails)[:200])
 
     print(f"\n通过 {len(ok)}/{len(ok)+len(fail)} 项")
     if fail:

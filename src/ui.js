@@ -78,8 +78,8 @@ function translate(){
   for(var n=0;n<da.length;n++){var ka=da[n].getAttribute("data-aria");var av=TR.t(ka);if(av)da[n].setAttribute("aria-label",av);}
 }
 
-function setLang(l,fire){
-  if(LANGS.indexOf(l)<0)l="en"; TR.lang=l; ls("trLang",l);
+function setLang(l,fire,persist){
+  if(LANGS.indexOf(l)<0)l="en"; TR.lang=l; if(persist!==false)ls("trLang",l);
   document.documentElement.lang=l;
   document.documentElement.dir=(l==="ar")?"rtl":"ltr";
   translate();
@@ -136,7 +136,9 @@ function buildBar(){
 
 function init(){
   buildBar();
-  setLang(ls("trLang")||"en",false);
+  var stored=ls("trLang");
+  var l=stored||(window.__trPageLang||"en");
+  setLang(l,l!=="en",!!stored);
   setTheme(ls("trTheme")||"dark");
 }
 if(document.readyState==="loading")document.addEventListener("DOMContentLoaded",init);

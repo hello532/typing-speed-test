@@ -514,6 +514,91 @@
       "ldPretty": []
     },
     {
+      "file": "spanish-typing-test.html",
+      "title": "Spanish Typing Test - Free Online Spanish WPM Test",
+      "metaDesc": "Free Spanish typing test online. Type real Spanish sentences and check your words per minute and accuracy with instant results. No sign up.",
+      "canonical": "https://typing.rerivo.com/spanish-typing-test.html",
+      "dur": 60,
+      "mode": "sentences",
+      "variant": null,
+      "lang": "es",
+      "nav": [
+        {
+          "href": "english-typing-test.html",
+          "text": "English Test"
+        },
+        {
+          "href": "words-per-minute-test.html",
+          "text": "WPM Test"
+        },
+        {
+          "href": "typing-practice.html",
+          "text": "Practice"
+        }
+      ],
+      "crumbs": [
+        "Home",
+        "Spanish Typing Test"
+      ],
+      "h1": "Spanish Typing Test",
+      "heroP": "Test your <strong>Spanish typing speed</strong> with real Spanish sentences. Measure your words per minute and accuracy instantly. Free, no sign up.",
+      "seo": [
+        {
+          "h2": "Spanish typing test",
+          "p": [
+            "A <strong>Spanish typing test</strong> measures how fast and accurately you type Spanish text. Your result is shown in words per minute, where every 5 characters counts as one word. Typing full Spanish sentences — with accents, the letter ñ and inverted punctuation — is the most realistic way to measure everyday Spanish typing speed."
+          ]
+        },
+        {
+          "h2": "How to improve Spanish typing",
+          "p": [
+            "Practise with real sentences rather than isolated words, keep your fingers on the home row, and look at the screen instead of the keyboard. Spanish adds accented vowels (á, é, í, ó, ú) and ñ, so slow down at first to learn those key positions; accuracy first, then speed."
+          ]
+        },
+        {
+          "h2": "Practising Spanish typing",
+          "p": [
+            "This Spanish typing test uses natural, everyday sentences rather than random letters, so you practise the real word patterns of Spanish — common endings like -ción, -mente and -ando — together with the accented characters and ¿ ¡ punctuation you meet in real Spanish writing."
+          ]
+        },
+        {
+          "h2": "Why accented characters matter",
+          "p": [
+            "Accents in Spanish change a word's meaning (for example sí meaning yes versus si meaning if), so typing them correctly is part of typing Spanish well. Drilling sentences that include á, é, í, ó, ú and ñ builds muscle memory for the extra keystrokes, and your overall Spanish typing speed rises across every kind of text you write."
+          ]
+        }
+      ],
+      "faqFirstOpen": true,
+      "faqH2": "Spanish typing test FAQ",
+      "faq": [
+        {
+          "q": "Is this Spanish typing test free?",
+          "a": "Yes, completely free with no sign up. Your results are saved only in your own browser."
+        },
+        {
+          "q": "Does the test include accented characters and ñ?",
+          "a": "Yes. The practice sentences are real Spanish, so they include accented vowels (á, é, í, ó, ú), the letter ñ, and inverted ¿ ¡ punctuation."
+        },
+        {
+          "q": "How is words per minute calculated?",
+          "a": "Every 5 typed characters count as one word, divided by the minutes elapsed, then adjusted for errors."
+        }
+      ],
+      "webAppName": "Typing Speed Test",
+      "webAppUrl": "https://typing.rerivo.com/",
+      "bcItems": [
+        {
+          "name": "Home",
+          "item": "https://typing.rerivo.com/"
+        },
+        {
+          "name": "Spanish Typing Test",
+          "item": "https://typing.rerivo.com/spanish-typing-test.html"
+        }
+      ],
+      "ldPretty": []
+    },
+    {
       "file": "free-typing-test.html",
       "title": "Free Typing Test - No Sign Up, Instant WPM",
       "metaDesc": "A free typing test with no sign up and no ads in the typing area. Check your WPM and accuracy instantly, from 15 seconds to 10 minutes. Free forever.",

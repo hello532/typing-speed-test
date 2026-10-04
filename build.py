@@ -155,6 +155,10 @@ def inject_variant(page, engine, variants):
 def render(page, cfg, tpl, css, engine, head_snippet, footer, result, variants):
     wa, faq, bc = build_jsonld(page, cfg)
     engine_page = inject_variant(page, engine, variants)
+    hs = head_snippet
+    pl = page.get("lang")
+    if pl:
+        hs = hs + "\nwindow.__trPageLang=" + json.dumps(pl) + ";"
 
     title = page["title"]
     desc = page["metaDesc"]
@@ -169,7 +173,7 @@ def render(page, cfg, tpl, css, engine, head_snippet, footer, result, variants):
         "{{TW_TITLE}}": esc_attr(title),
         "{{TW_DESC}}": esc_attr(desc),
         "{{LD_WEBAPP}}": wa, "{{LD_FAQ}}": faq, "{{LD_BREADCRUMB}}": bc,
-        "{{CSS}}": css, "{{ENGINE}}": engine_page, "{{HEAD_SNIPPET}}": head_snippet,
+        "{{CSS}}": css, "{{ENGINE}}": engine_page, "{{HEAD_SNIPPET}}": hs,
         "{{FOOTER}}": footer, "{{RESULT}}": result,
         "{{HEADER}}": build_header(page), "{{CRUMBS}}": build_crumbs(page),
         "{{H1}}": page["h1"], "{{HERO_P}}": page["heroP"],
