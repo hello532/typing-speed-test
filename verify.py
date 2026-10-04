@@ -1,11 +1,12 @@
 #!/usr/bin/env python3
-"""站点产物校验器 —— 11 项检查，任何一项失败即退出码 1。
+"""站点产物校验器 —— 13 项检查，任何一项失败即退出码 1。
 
     python3 verify.py
 
 检查覆盖：产物完整性、模板占位符、共享资源一致性、引擎漂移、
-JSON-LD 合法性、sitemap 一致性、外链存在性、与 git 基线的字节等价
-（剥引擎块后对比，豁免表见 EXEMPT）、构建幂等性、引擎行为级 harness。
+JSON-LD 合法性、sitemap 一致性、llms.txt（AI 发现清单）一致性、
+外链存在性、与 git 基线的字节等价（剥引擎块后对比，豁免表见 EXEMPT）、
+页脚内链覆盖、构建幂等性、引擎与多语页默认语言的行为级 harness。
 """
 import difflib
 import json
@@ -176,6 +177,18 @@ def main():
               urls == want, f"缺 {sorted(want-urls)[:2]} 多 {sorted(urls-want)[:2]}" if urls != want else f"{len(urls)}/{len(want)} 个 URL 一致")
     else:
         check("7. sitemap.xml 存在", False)
+
+    # 13. llms.txt 覆盖且仅覆盖全部页面 URL（AI 爬虫发现清单）
+    # llms.txt 是手工维护的（build.py 不生成它），每加一页必须手写登记，
+    # 否则 AI 收录会静默漏页——本 check 正为堵这个缺口而加。
+    lt = ROOT / "llms.txt"
+    if lt.exists():
+        lurls = set(re.findall(r"\]\((https?://[^\)]+)\)", lt.read_text(encoding="utf-8")))
+        lwant = {SITE + "/" if n == "index.html" else SITE + "/" + n for n in names}
+        check("13. llms.txt 覆盖且仅覆盖全部页面 URL",
+              lurls == lwant, f"缺 {sorted(lwant-lurls)[:2]} 多 {sorted(lurls-lwant)[:2]}" if lurls != lwant else f"{len(lurls)}/{len(lwant)} 个 URL 一致")
+    else:
+        check("13. llms.txt 存在", False)
 
     # 8. 外链资源存在
     refs = set()
