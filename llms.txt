@@ -25,6 +25,9 @@
 - [Number Typing Test](https://typing.rerivo.com/number-typing-test.html): Numeric keypad and digits practice.
 - [English Typing Test](https://typing.rerivo.com/english-typing-test.html): Common English words and sentences.
 - [Spanish Typing Test](https://typing.rerivo.com/spanish-typing-test.html): Practice typing real Spanish sentences with accented vowels, ñ, and inverted ¿ ¡ punctuation; measures Spanish WPM and accuracy.
+- [Chinese Typing Test](https://typing.rerivo.com/chinese-typing-test.html): Practice typing real simplified Chinese sentences; measures Chinese WPM and accuracy with the 、 and 。 punctuation of everyday Chinese writing.
+- [Hindi Typing Test](https://typing.rerivo.com/hindi-typing-test.html): Practice typing real Hindi sentences in Devanagari script, including matras, conjunct consonants and the । mark; timed Devanagari practice for typing exams.
+- [Arabic Typing Test](https://typing.rerivo.com/arabic-typing-test.html): Practice typing real Arabic sentences right to left, including hamza forms, the ة ta marbuta and ؛ ، punctuation.
 - [Keyboard Typing Test](https://typing.rerivo.com/keyboard-typing-test.html): Full-keyboard touch typing with on-screen key highlighting.
 - [Capital Letter Typing Test](https://typing.rerivo.com/capital-letter-typing-test.html): Uppercase and shift-key practice.
 - [Punctuation Typing Test](https://typing.rerivo.com/punctuation-typing-test.html): Punctuation and symbol accuracy.

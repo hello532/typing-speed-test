@@ -23,6 +23,11 @@ body{
 a{color:inherit;}
 :focus-visible{outline:2px solid var(--accent); outline-offset:3px; border-radius:6px;}
 .wrap{max-width:900px; margin:0 auto; padding:22px 22px 72px;}
+/* 打字区宽度可调（用户偏好 trWidth，localStorage 持久化）：w-std 与基线 900px 逐像素一致 */
+.wrap.w-std{max-width:900px;}
+.wrap.w-wide{max-width:1200px;}
+.wrap.w-xwide{max-width:1480px;}
+.wrap.w-fluid{max-width:100%;}
 
 header.top{display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:10px; margin-bottom:10px;}
 .logo{font-size:1.2rem; font-weight:800; color:var(--accent); text-decoration:none; letter-spacing:-.2px;}
@@ -93,6 +98,8 @@ nav.crumbs span{color:var(--dim);}
 .sharebox{margin-top:14px; background:var(--panel2); border:1px solid var(--line); border-radius:var(--radius-sm); padding:12px 14px; font-size:.9rem; color:var(--soft); text-align:left;}
 
 .seo{color:var(--soft); font-size:1rem; line-height:1.75;}
+/* 宽度档位拉宽后，seo/faq 正文行宽仍封顶在 860px（900px 内容区 856px 下不生效，基线不变） */
+.seo,.faq{max-width:860px;}
 .seo h2{color:var(--text); font-size:clamp(1.2rem,2.2vw,1.4rem); font-weight:700; letter-spacing:-.3px; margin:30px 0 10px;}
 .seo p{margin-bottom:12px;}
 .seo strong{color:var(--text); font-weight:600;}

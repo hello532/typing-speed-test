@@ -44,6 +44,13 @@ A11Y_ATTR_RE = re.compile(
 A11Y_LABELS = (' aria-label="Time remaining"', ' aria-label="Typing input"',
                ' aria-label="WPM over time line chart"')
 SKIP_LINK_RE = re.compile(r'<a class="skip"[^>]*>.*?</a>\n?')
+# Task#8 起全站控制行新增的“打字区宽度”切换组（用户偏好 trWidth，localStorage 持久化）。
+# 有意的功能性新增，基线里不存在；宽度档位是否生效由 check 11 + 手动验收守卫，不污染 check 9。
+WIDTH_CTRL_RE = re.compile(
+    r'\n *<div class="ctrl-group">\n *<span class="ctrl-label" data-i18n="width">.*?\n *</div>',
+    re.S)
+# ui.js/egg.js 的缓存版本号是部署期参数，不是 HTML 语义；对比前归一化。
+ASSET_VER_RE = re.compile(r'(src="(?:ui|egg)\.js\?)v=\d+(")', re.S)
 # Task#6 起全站 head 新增的 PWA/图标引用（favicon、apple-touch、manifest）。
 # 这是有意的功能性新增，基线里不存在，剥掉后双方归一，不污染 check 9。
 PWA_LINK_RE = re.compile(r'<link rel="(?:icon|apple-touch-icon|manifest)"[^>]*>\n?')
@@ -52,7 +59,8 @@ PWA_LINK_RE = re.compile(r'<link rel="(?:icon|apple-touch-icon|manifest)"[^>]*>\
 FOOTER_RE = re.compile(r"<footer>.*?</footer>", re.S)
 def strip_a11y(html: str) -> str:
     """剥掉 Task#5 新增的 a11y 属性/元素（skip link、role、aria-*、button type），
-    Task#6 新增的 PWA/图标引用，以及有意演进的页脚内链枢纽（见 check 12）。
+    Task#6 新增的 PWA/图标引用，有意演进的页脚内链枢纽（见 check 12），
+    Task#8 新增的打字区宽度切换组，以及静态资源的缓存版本号。
     内联 <style> 块已由 strip_engine 整体剥离，故此处无需再处理 a11y CSS。
     基线里本就存在的同类属性（如 kbd-size 的 aria-label、sndToggle 的
     aria-pressed）会被一并移除，双方归一，不影响守卫。"""
@@ -60,6 +68,8 @@ def strip_a11y(html: str) -> str:
     html = PWA_LINK_RE.sub("", html)
     html = A11Y_ATTR_RE.sub("", html)
     html = SKIP_LINK_RE.sub("", html)
+    html = WIDTH_CTRL_RE.sub("", html)
+    html = ASSET_VER_RE.sub(r'\1v\2', html)
     html = html.replace(' type="button"', "")
     for lit in A11Y_LABELS:
         html = html.replace(lit, "")
@@ -84,6 +94,8 @@ EXEMPT = {
     "words-per-minute-test.html": "seo 缩进 4→2，修正自身不一致",
     # dur=120 但静态 sTime 写 1:00，是原站缺陷；按 dur 派生为 2:00
     "typing-practice.html": "seo 缩进 4→2；sTime 1:00→2:00 修正（dur=120）",
+    # GEO：五语聚类互声明 hreflang alternate，英语落地页显式页面默认语言 en
+    "english-typing-test.html": "head 补 hreflang 多语 alternate + 显式页面默认语言 en（GEO 五语聚类）",
 }
 
 ok, fail = [], []
@@ -210,6 +222,9 @@ def main():
         "learn-to-type-faster.html": "新增 learn to type faster 落地页（补教育线提速 P1 词）",
         "typing-tips.html": "新增 typing tips 落地页（补信息线技巧聚合 P1 词）",
         "spanish-typing-test.html": "新增西班牙语打字测试落地页（多语线 P2：五语池现成，页面级默认 es）",
+        "chinese-typing-test.html": "新增中文打字测试落地页（多语线 P2：zh 池扩充后补齐语种 gap）",
+        "hindi-typing-test.html": "新增印地语打字测试落地页（多语线 P2：hi 池扩充后补齐语种 gap）",
+        "arabic-typing-test.html": "新增阿拉伯语打字测试落地页（多语线 P2：ar 池扩充后补齐语种 gap）",
     }
 
     # 9. 与 git 基线字节等价（豁免表内差异需逐条命中；新增页单独登记）
@@ -229,6 +244,7 @@ def main():
         # 除此之外的 HTML/CSS 仍逐字节守卫
         base = strip_a11y(strip_engine(g.stdout))
         cur = strip_a11y(strip_engine(htmls.get(n, "")))
+        base_lines = set(base.split("\n"))
         if base == cur:
             continue
         d = [l for l in difflib.unified_diff(base.split("\n"),
@@ -241,7 +257,12 @@ def main():
             for line in d:
                 body = line[1:].strip()
                 allowed = (body == "" or "<section class=\"seo\">" in body
-                           or "id=\"sTime\"" in body or "<title>" in body)
+                           or "id=\"sTime\"" in body or "<title>" in body
+                           or "<link rel=\"alternate\"" in body
+                           or "window.__trPageLang=" in body
+                           or body in base_lines
+                           or any(b.startswith(body) or body.startswith(b)
+                                  for b in base_lines if b))
                 if not allowed:
                     unexpected.setdefault(n, []).append(line[:100])
         else:

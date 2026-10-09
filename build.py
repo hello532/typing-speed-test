@@ -152,7 +152,7 @@ def inject_variant(page, engine, variants):
     return out
 
 
-def render(page, cfg, tpl, css, engine, head_snippet, footer, result, variants):
+def render(page, cfg, tpl, css, engine, head_snippet, footer, result, variants, cluster):
     wa, faq, bc = build_jsonld(page, cfg)
     engine_page = inject_variant(page, engine, variants)
     hs = head_snippet
@@ -162,11 +162,22 @@ def render(page, cfg, tpl, css, engine, head_snippet, footer, result, variants):
 
     title = page["title"]
     desc = page["metaDesc"]
+    # hreflang 聚类：只有 alts:true 的语种落地页互相声明 alternate（含 x-default），
+    # 其余页渲染空串，与未加占位符时逐字节一致。
+    if page.get("alts"):
+        alt_lines = [f'<link rel="alternate" hreflang="{c}" href="{u}">' for c, u in cluster]
+        default_url = next((u for c, u in cluster if c == "en"), None)
+        if default_url:
+            alt_lines.append(f'<link rel="alternate" hreflang="x-default" href="{default_url}">')
+        hreflang = "\n" + "\n".join(alt_lines)
+    else:
+        hreflang = ""
     subs = {
         "{{TITLE}}": esc_attr(title),
         "{{META_DESC}}": esc_attr(desc),
         "{{KEYWORDS}}": esc_attr(cfg["keywords"]),
         "{{CANONICAL}}": page["canonical"],
+        "{{HREFLANG}}": hreflang,
         "{{OG_TITLE}}": esc_attr(title),
         "{{OG_DESC}}": esc_attr(desc),
         "{{OG_URL}}": page["canonical"],
@@ -223,6 +234,8 @@ def main():
     footer = (SRC / "footer.html").read_text(encoding="utf-8").rstrip("\n")
     result = (SRC / "result.html").read_text(encoding="utf-8").rstrip("\n")
     variants = json.loads((SRC / "variants.json").read_text(encoding="utf-8"))
+    cluster = [(p["lang"], p["canonical"]) for p in cfg["pages"]
+               if p.get("alts") and p.get("lang")]
     ui_js = build_ui_js()
     bad = []
     ui_target = ROOT / "ui.js"
@@ -234,7 +247,7 @@ def main():
         ui_target.write_text(ui_js, encoding="utf-8")
 
     for page in cfg["pages"]:
-        html = render(page, cfg, tpl, css, engine, head_snippet, footer, result, variants)
+        html = render(page, cfg, tpl, css, engine, head_snippet, footer, result, variants, cluster)
         target = ROOT / page["file"]
         if check:
             cur = target.read_text(encoding="utf-8") if target.exists() else None

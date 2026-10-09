@@ -52,7 +52,16 @@ var POOL=/*{{POOL}}*/;
  timer_aria:{en:"Time remaining",zh:"剩余时间",es:"Tiempo restante",hi:"शेष समय",ar:"الوقت المتبقي"},
  chart_aria:{en:"WPM over time line chart",zh:"WPM 随时间变化折线图",es:"Gráfico de PPM en el tiempo",hi:"समय के साथ WPM रेखाचित्र",ar:"رسم بياني للسرعة عبر الزمن"}
 };for(var key in A){var R=A[key];for(var k in R){if(I18N[k])I18N[k][key]=R[k];}}})();
+/* 打字区宽度：用户偏好 trWidth 持久化，档位与 style.css 的 .wrap.w-* 一一对应 */
+(function(){var W={
+ width:{en:"Width",zh:"宽度",es:"Ancho",hi:"चौड़ाई",ar:"العرض"},
+ w_std:{en:"Standard",zh:"标准",es:"Estándar",hi:"मानक",ar:"قياسي"},
+ w_wide:{en:"Wide",zh:"宽",es:"Ancho",hi:"चौड़ा",ar:"واسع"},
+ w_xwide:{en:"X-Wide",zh:"更宽",es:"Muy ancho",hi:"बहुत चौड़ा",ar:"أوسع"},
+ w_fluid:{en:"Full",zh:"全宽",es:"Total",hi:"पूरा",ar:"كامل"}
+};for(var key in W){var R=W[key];for(var k in R){if(I18N[k])I18N[k][key]=R[k];}}})();
 var LANGS=["en","zh","es","hi","ar"];
+var WIDTHS=["std","wide","xwide","fluid"];
 var THEMES=[["dark","🌙"],["light","☀️"],["ocean","🌊"]];
 function ls(k,v){try{if(v===undefined)return localStorage.getItem(k);localStorage.setItem(k,v);}catch(e){return null;}}
 
@@ -134,12 +143,30 @@ function buildBar(){
   else{bar.style.position="fixed";bar.style.top="12px";bar.style.right="12px";bar.style.zIndex="50";document.body.appendChild(bar);}
 }
 
+function setWidth(w){
+  if(WIDTHS.indexOf(w)<0)w="std";
+  var wrap=document.querySelector(".wrap");
+  if(wrap){wrap.classList.remove("w-std","w-wide","w-xwide","w-fluid");wrap.classList.add("w-"+w);}
+  ls("trWidth",w);
+  var ch=document.querySelectorAll(".chip.width");
+  for(var i=0;i<ch.length;i++){
+    var on=ch[i].getAttribute("data-w")===w;
+    ch[i].classList.toggle("on",on);
+    ch[i].setAttribute("aria-pressed", on?"true":"false");
+  }
+}
+
 function init(){
   buildBar();
   var stored=ls("trLang");
   var l=stored||(window.__trPageLang||"en");
   setLang(l,l!=="en",!!stored);
   setTheme(ls("trTheme")||"dark");
+  var wch=document.querySelectorAll(".chip.width");
+  for(var i=0;i<wch.length;i++){
+    (function(btn){btn.addEventListener("click",function(){setWidth(btn.getAttribute("data-w"));});})(wch[i]);
+  }
+  setWidth(ls("trWidth")||"std");
 }
 if(document.readyState==="loading")document.addEventListener("DOMContentLoaded",init);
 else init();

@@ -437,6 +437,8 @@
       "dur": 60,
       "mode": "sentences",
       "variant": null,
+      "lang": "en",
+      "alts": true,
       "nav": [
         {
           "href": "1-minute-typing-test.html",
@@ -522,6 +524,7 @@
       "mode": "sentences",
       "variant": null,
       "lang": "es",
+      "alts": true,
       "nav": [
         {
           "href": "english-typing-test.html",
@@ -2024,6 +2027,276 @@
       "bcItems": [
         { "name": "Home", "item": "https://typing.rerivo.com/" },
         { "name": "10 Minute Typing Test", "item": "https://typing.rerivo.com/10-minute-typing-test.html" }
+      ],
+      "ldPretty": []
+    },
+    {
+      "file": "chinese-typing-test.html",
+      "title": "Chinese Typing Test - Free Online Chinese WPM Test",
+      "metaDesc": "Free Chinese typing test online. Type real Chinese sentences and check your words per minute and accuracy with instant results. No sign up.",
+      "canonical": "https://typing.rerivo.com/chinese-typing-test.html",
+      "dur": 60,
+      "mode": "sentences",
+      "variant": null,
+      "lang": "zh",
+      "alts": true,
+      "nav": [
+        {
+          "href": "english-typing-test.html",
+          "text": "English Test"
+        },
+        {
+          "href": "words-per-minute-test.html",
+          "text": "WPM Test"
+        },
+        {
+          "href": "typing-practice.html",
+          "text": "Practice"
+        }
+      ],
+      "crumbs": [
+        "Home",
+        "Chinese Typing Test"
+      ],
+      "h1": "Chinese Typing Test",
+      "heroP": "Test your <strong>Chinese typing speed</strong> with real Chinese sentences. Measure your words per minute and accuracy instantly. Free, no sign up.",
+      "seo": [
+        {
+          "h2": "Chinese typing test",
+          "p": [
+            "A <strong>Chinese typing test</strong> measures how fast and accurately you type Chinese text. Your result is shown in words per minute, where every 5 characters counts as one word, so every extra correct character raises your score. Typing complete Chinese sentences is the most realistic way to measure everyday Chinese typing speed."
+          ]
+        },
+        {
+          "h2": "How to improve Chinese typing",
+          "p": [
+            "Practise with real sentences rather than isolated characters, keep your fingers relaxed over the home row, and watch the screen instead of the keyboard. Because each Chinese character carries far more meaning than a single Latin letter, accuracy matters more than raw key speed; slow down first and let speed follow."
+          ]
+        },
+        {
+          "h2": "Typing Chinese characters",
+          "p": [
+            "Chinese is written without spaces between characters, so your fingers learn long sequences of keystrokes rather than short word patterns. Re-typing the same sentence a few times builds muscle memory for the most common characters — 的, 一, 是, 不, 了 — which make up a large share of everyday Chinese text."
+          ]
+        },
+        {
+          "h2": "Practising Chinese typing",
+          "p": [
+            "This Chinese typing test uses natural, everyday sentences, so you practise the real rhythm of Chinese writing: clauses separated by 、 and 。, numbers in full form, and the punctuation patterns you meet in articles, chat and email. Switch between sentences, quotes and words modes above to vary your drills."
+          ]
+        }
+      ],
+      "faqFirstOpen": true,
+      "faqH2": "Chinese typing test FAQ",
+      "faq": [
+        {
+          "q": "Is this Chinese typing test free?",
+          "a": "Yes, completely free with no sign up. Your results are saved only in your own browser."
+        },
+        {
+          "q": "Is the text simplified or traditional Chinese?",
+          "a": "Simplified Chinese, as used in mainland China, Singapore and most online writing. The sentences are natural, everyday Chinese."
+        },
+        {
+          "q": "How is words per minute calculated for Chinese?",
+          "a": "Every 5 typed characters count as one word, divided by the minutes elapsed, then adjusted for errors — the same rule used for every language on this site."
+        },
+        {
+          "q": "Can I practise Chinese quotes and single characters too?",
+          "a": "Yes. Switch the text mode above the typing area to quotes or words to change what you type."
+        }
+      ],
+      "webAppName": "Typing Speed Test",
+      "webAppUrl": "https://typing.rerivo.com/chinese-typing-test.html",
+      "bcItems": [
+        {
+          "name": "Home",
+          "item": "https://typing.rerivo.com/"
+        },
+        {
+          "name": "Chinese Typing Test",
+          "item": "https://typing.rerivo.com/chinese-typing-test.html"
+        }
+      ],
+      "ldPretty": []
+    },
+    {
+      "file": "hindi-typing-test.html",
+      "title": "Hindi Typing Test - Free Online Hindi WPM Test",
+      "metaDesc": "Free Hindi typing test online. Type real Hindi sentences in Devanagari and check your words per minute and accuracy with instant results. No sign up.",
+      "canonical": "https://typing.rerivo.com/hindi-typing-test.html",
+      "dur": 60,
+      "mode": "sentences",
+      "variant": null,
+      "lang": "hi",
+      "alts": true,
+      "nav": [
+        {
+          "href": "english-typing-test.html",
+          "text": "English Test"
+        },
+        {
+          "href": "words-per-minute-test.html",
+          "text": "WPM Test"
+        },
+        {
+          "href": "typing-practice.html",
+          "text": "Practice"
+        }
+      ],
+      "crumbs": [
+        "Home",
+        "Hindi Typing Test"
+      ],
+      "h1": "Hindi Typing Test",
+      "heroP": "Test your <strong>Hindi typing speed</strong> with real Hindi sentences in Devanagari script. Measure your words per minute and accuracy instantly. Free, no sign up.",
+      "seo": [
+        {
+          "h2": "Hindi typing test",
+          "p": [
+            "A <strong>Hindi typing test</strong> measures how fast and accurately you type Devanagari script. Your result is shown in words per minute, where every 5 characters counts as one word. Typing full Hindi sentences — with matras, conjunct consonants and the क्ष, त्र, ज्ञ clusters — is the most realistic way to measure everyday Hindi typing speed."
+          ]
+        },
+        {
+          "h2": "How to improve Hindi typing",
+          "p": [
+            "Practise with real sentences rather than isolated letters, keep your fingers on the home row, and look at the screen instead of the keyboard. Hindi adds matras above and below the consonants, so slow down at first to learn those key positions; accuracy first, then speed."
+          ]
+        },
+        {
+          "h2": "Devanagari and typing speed",
+          "p": [
+            "Devanagari is a syllabic script: most consonants carry an inherent अ vowel, and matras change that vowel. Typing real sentences trains the frequent conjuncts — क्ष, त्र, व्र, ज्ञ — and the matras ा ि ी ो ै that appear in almost every Hindi word."
+          ]
+        },
+        {
+          "h2": "Practising Hindi typing",
+          "p": [
+            "This Hindi typing test uses natural, everyday sentences, so you practise the real word patterns of Hindi — common endings like -ना, -कर and -है — together with the । full stop and the punctuation you meet in real Hindi writing. Timed Devanagari practice is also the format of most Indian typing exams."
+          ]
+        }
+      ],
+      "faqFirstOpen": true,
+      "faqH2": "Hindi typing test FAQ",
+      "faq": [
+        {
+          "q": "Is this Hindi typing test free?",
+          "a": "Yes, completely free with no sign up. Your results are saved only in your own browser."
+        },
+        {
+          "q": "Does the test use Devanagari script?",
+          "a": "Yes. The practice sentences are real Hindi in Devanagari script, including matras, conjunct consonants and the । sentence-ending mark."
+        },
+        {
+          "q": "Is this useful for Hindi typing exams?",
+          "a": "Yes. Timed sentence practice in Devanagari is the format of most Indian government and court typing tests, so it builds the same speed and accuracy against a clock."
+        },
+        {
+          "q": "How is words per minute calculated?",
+          "a": "Every 5 typed characters count as one word, divided by the minutes elapsed, then adjusted for errors."
+        }
+      ],
+      "webAppName": "Typing Speed Test",
+      "webAppUrl": "https://typing.rerivo.com/hindi-typing-test.html",
+      "bcItems": [
+        {
+          "name": "Home",
+          "item": "https://typing.rerivo.com/"
+        },
+        {
+          "name": "Hindi Typing Test",
+          "item": "https://typing.rerivo.com/hindi-typing-test.html"
+        }
+      ],
+      "ldPretty": []
+    },
+    {
+      "file": "arabic-typing-test.html",
+      "title": "Arabic Typing Test - Free Online Arabic WPM Test",
+      "metaDesc": "Free Arabic typing test online. Type real Arabic sentences and check your words per minute and accuracy with instant results. No sign up.",
+      "canonical": "https://typing.rerivo.com/arabic-typing-test.html",
+      "dur": 60,
+      "mode": "sentences",
+      "variant": null,
+      "lang": "ar",
+      "alts": true,
+      "nav": [
+        {
+          "href": "english-typing-test.html",
+          "text": "English Test"
+        },
+        {
+          "href": "words-per-minute-test.html",
+          "text": "WPM Test"
+        },
+        {
+          "href": "typing-practice.html",
+          "text": "Practice"
+        }
+      ],
+      "crumbs": [
+        "Home",
+        "Arabic Typing Test"
+      ],
+      "h1": "Arabic Typing Test",
+      "heroP": "Test your <strong>Arabic typing speed</strong> with real Arabic sentences. Measure your words per minute and accuracy instantly. Free, no sign up.",
+      "seo": [
+        {
+          "h2": "Arabic typing test",
+          "p": [
+            "An <strong>Arabic typing test</strong> measures how fast and accurately you type Arabic script. Your result is shown in words per minute, where every 5 characters counts as one word. Typing full Arabic sentences — with connected letters, the ة ta marbuta and the أ hamza — is the most realistic way to measure everyday Arabic typing speed."
+          ]
+        },
+        {
+          "h2": "How to improve Arabic typing",
+          "p": [
+            "Practise with real sentences rather than isolated letters, keep your fingers on the home row, and watch the screen instead of the keyboard. Arabic is typed right to left, so let your hands move with the text from right to left; slow down at first and let speed follow."
+          ]
+        },
+        {
+          "h2": "Right-to-left typing",
+          "p": [
+            "Arabic script runs right to left, and most letters connect to what follows them, changing shape by position. Typing real sentences trains the frequent letters — ا ل م و ي — and the word-final letter forms that appear in almost every Arabic sentence."
+          ]
+        },
+        {
+          "h2": "Practising Arabic typing",
+          "p": [
+            "This Arabic typing test uses natural, everyday sentences, so you practise the real word patterns of Arabic — the ال prefix and endings like ـها and ـكم — together with the ، and . punctuation you meet in real Arabic writing."
+          ]
+        }
+      ],
+      "faqFirstOpen": true,
+      "faqH2": "Arabic typing test FAQ",
+      "faq": [
+        {
+          "q": "Is this Arabic typing test free?",
+          "a": "Yes, completely free with no sign up. Your results are saved only in your own browser."
+        },
+        {
+          "q": "Does the test type right to left?",
+          "a": "Yes. The whole page switches to right-to-left direction for Arabic, so letters join and flow exactly as they do in Arabic text."
+        },
+        {
+          "q": "Does the test include hamza and ta marbuta?",
+          "a": "Yes. The practice sentences are real Arabic, so they include the أ إ آ ؤ ئ hamza forms, the ة ta marbuta, and ؛ ، punctuation."
+        },
+        {
+          "q": "How is words per minute calculated?",
+          "a": "Every 5 typed characters count as one word, divided by the minutes elapsed, then adjusted for errors."
+        }
+      ],
+      "webAppName": "Typing Speed Test",
+      "webAppUrl": "https://typing.rerivo.com/arabic-typing-test.html",
+      "bcItems": [
+        {
+          "name": "Home",
+          "item": "https://typing.rerivo.com/"
+        },
+        {
+          "name": "Arabic Typing Test",
+          "item": "https://typing.rerivo.com/arabic-typing-test.html"
+        }
       ],
       "ldPretty": []
     }

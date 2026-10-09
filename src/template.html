@@ -6,7 +6,7 @@
 <title>{{TITLE}}</title>
 <meta name="description" content="{{META_DESC}}">
 <meta name="keywords" content="{{KEYWORDS}}">
-<link rel="canonical" href="{{CANONICAL}}">
+<link rel="canonical" href="{{CANONICAL}}">{{HREFLANG}}
 <link rel="icon" type="image/svg+xml" href="/favicon.svg">
 <link rel="icon" type="image/png" sizes="192x192" href="/icon-192.png">
 <link rel="icon" type="image/png" sizes="512x512" href="/icon-512.png">
@@ -59,6 +59,13 @@
         {{CHIP_MODE_NUMBERS}}
         {{CHIP_MODE_WORDS}}
       </div>
+      <div class="ctrl-group">
+        <span class="ctrl-label" data-i18n="width">Width</span>
+        <button type="button" class="chip width on" data-w="std" data-i18n="w_std" aria-pressed="true">Standard</button>
+        <button type="button" class="chip width" data-w="wide" data-i18n="w_wide" aria-pressed="false">Wide</button>
+        <button type="button" class="chip width" data-w="xwide" data-i18n="w_xwide" aria-pressed="false">X-Wide</button>
+        <button type="button" class="chip width" data-w="fluid" data-i18n="w_fluid" aria-pressed="false">Full</button>
+      </div>
     </div>
 
     <div class="stats">
@@ -92,7 +99,7 @@
 <script>
 {{ENGINE}}
 </script>
-<script src="ui.js?v=202610020900" defer></script>
-<script src="egg.js?v=202610020900" defer></script>
+<script src="ui.js?v=202610090900" defer></script>
+<script src="egg.js?v=202610090900" defer></script>
 </body>
 </html>
