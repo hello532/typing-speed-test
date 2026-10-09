@@ -225,6 +225,9 @@ def main():
         "chinese-typing-test.html": "新增中文打字测试落地页（多语线 P2：zh 池扩充后补齐语种 gap）",
         "hindi-typing-test.html": "新增印地语打字测试落地页（多语线 P2：hi 池扩充后补齐语种 gap）",
         "arabic-typing-test.html": "新增阿拉伯语打字测试落地页（多语线 P2：ar 池扩充后补齐语种 gap）",
+        "touch-typing-test.html": "新增 touch typing 落地页（教育线 P1：触觉打字/盲打）",
+        "typing-race.html": "新增 typing race 落地页（游戏线 P2：竞速/比赛）",
+        "typing-tutorial.html": "新增 typing tutorial 落地页（教育线 P1：教程/tutor/教学）",
     }
 
     # 9. 与 git 基线字节等价（豁免表内差异需逐条命中；新增页单独登记）

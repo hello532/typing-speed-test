@@ -263,6 +263,32 @@ console.log('\n=== P2-a: 变体文本池（池本身 + nextChunk 生成）===');
 }
 clearVariant();
 
+console.log('\n=== P2-a2: 教育线变体池 touch/race/tutorial（池规模 + nextChunk 实测取样）===');
+{
+  for (const name of ['touch', 'race', 'tutorial']) {
+    const p = setVariant(name);
+    assert(p.sentences.length >= 40, `${name} 池 sentences=${p.sentences.length} ≥ 40`);
+    assert(p.quotes.length >= 5, `${name} 池 quotes=${p.quotes.length} ≥ 5`);
+    assert(new Set(p.sentences).size === p.sentences.length, `${name} sentences 无重复`);
+    const sset = new Set(p.sentences);
+    const qset = new Set(p.quotes);
+    ctx.mode = 'sentences';
+    const splitsInto = (chunk, left) => {
+      if (left === 0) return chunk === '';
+      for (const s of p.sentences) {
+        if (chunk === s || chunk.startsWith(s + ' ')) {
+          if (splitsInto(chunk.slice(s.length + (chunk === s ? 0 : 1)), left - 1)) return true;
+        }
+      }
+      return false;
+    };
+    const chunks = Array.from({ length: 60 }, () => ctx.nextChunk('sentences'));
+    assert(chunks.every(c => splitsInto(c, 3)), `${name}: nextChunk sentences 取样全部为变体池 3 句拼接`);
+    assert(qset.has(ctx.nextChunk('quotes')), `${name}: quotes 模式取样精确命中变体池`);
+    clearVariant();
+  }
+}
+
 console.log('\n=== P2-b: game — 连击倍率 / 分数 / 等级 / 错误清零 ===');
 {
   setVariant('game');

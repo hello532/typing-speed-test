@@ -37,6 +37,9 @@
 - [Typing Lessons](https://typing.rerivo.com/typing-lessons.html): Step-by-step free touch typing lessons and course.
 - [Learn to Type Faster](https://typing.rerivo.com/learn-to-type-faster.html): Free training plan and daily drills to increase typing speed and WPM.
 - [Typing Tips](https://typing.rerivo.com/typing-tips.html): Practical posture, finger placement, and accuracy tips to type faster.
+- [Touch Typing Test](https://typing.rerivo.com/touch-typing-test.html): Free touch typing test and practice without looking at the keyboard.
+- [Typing Race](https://typing.rerivo.com/typing-race.html): Free 60-second typing race against the clock for top WPM.
+- [Typing Tutorial](https://typing.rerivo.com/typing-tutorial.html): Free step-by-step typing tutor and lessons for beginners.
 
 ## About
 - Free, no registration, privacy-friendly (runs fully in the browser).
