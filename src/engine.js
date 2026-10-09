@@ -3796,6 +3796,48 @@ chipsM.forEach(function(c){c.addEventListener("click",function(){
   mode=c.getAttribute("data-m"); reset();
 });});
 document.getElementById("btnAgain").addEventListener("click",function(){reset();elIn.focus();});
+document.getElementById("btnCert").addEventListener("click",function(){
+  var s=stats();
+  var tr=function(k,f){try{return (window.TR&&TR.t&&TR.t(k))||f;}catch(e){return f;}};
+  var mm=function(n){return n<10?"0"+n:""+n;};
+  var d=new Date(), dateStr=d.getFullYear()+"-"+mm(d.getMonth()+1)+"-"+mm(d.getDate());
+  var durStr=(window.TR&&TR.fmtDur)?TR.fmtDur(dur,TR.lang):Math.round(dur/60)+" min";
+  var line1=tr("cert_line1","This certifies that the bearer completed a {dur} typing test with the results below.").replace("{dur}",durStr);
+  var rows=[
+    [tr("wpm","WPM"),s.wpm],
+    [tr("accuracy","Accuracy"),s.acc+"%"],
+    [tr("r_cpm","Chars/min"),s.cpm],
+    [tr("r_raw","Raw WPM"),s.raw],
+    [tr("r_errors","Errors"),s.err],
+    [tr("r_cons","Consistency"),consistency()+"%"]
+  ];
+  var h='<table>'+rows.map(function(r){return '<tr><td>'+r[0]+'</td><td>'+r[1]+'</td></tr>';}).join("")+'</table>';
+  var html='<!DOCTYPE html><html><head><meta charset="utf-8"><title>'+tr("cert_title","Typing Speed Certificate")+'</title>'
+    +'<style>@page{margin:1.6cm}body{font-family:Georgia,"Times New Roman",serif;color:#1a1a1a}'
+    +'.cert{max-width:15cm;margin:1cm auto;border:3px double #1a1a1a;padding:1.4cm 1.8cm;text-align:center}'
+    +'h1{font-size:26px;margin:0 0 .3em;letter-spacing:.06em}.date{color:#555;margin:.2em 0 1.2em}'
+    +'.line1{margin:0 auto 1.2em;max-width:11cm;line-height:1.6;font-size:15px}'
+    +'table{border-collapse:collapse;margin:0 auto 1.4em}td{border:1px solid #999;padding:7px 22px;font-size:16px}'
+    +'td:first-child{text-align:left;color:#555;background:#f7f7f7}td:last-child{font-weight:700;min-width:80px}'
+    +'.sig{margin-top:2.2em;font-family:"Brush Script MT",cursive;font-size:24px;border-top:1px solid #1a1a1a;padding-top:.4em;max-width:9cm;margin-left:auto;margin-right:auto}'
+    +'.foot{margin-top:.4em;color:#555;font-size:13px}</style></head><body><div class="cert">'
+    +'<h1>'+tr("cert_title","Typing Speed Certificate")+'</h1>'
+    +'<div class="date">'+dateStr+'</div>'
+    +'<p class="line1">'+line1+'</p>'+h
+    +'<div class="sig">'+tr("cert_verified","Verified by Typing.Rerivo")+'</div>'
+    +'<div class="foot">https://typing.rerivo.com/</div></div></body></html>';
+  var fr=document.createElement("iframe");
+  fr.setAttribute("aria-hidden","true");
+  fr.style.cssText="position:fixed;right:0;bottom:0;width:0;height:0;border:0;opacity:0";
+  document.body.appendChild(fr);
+  var done=false;
+  var close=function(){if(!done){done=true;setTimeout(function(){if(fr.parentNode)fr.parentNode.removeChild(fr);},800);}};
+  fr.onload=function(){try{fr.contentWindow.focus();fr.contentWindow.print();}catch(e){}close();};
+  try{
+    var doc=fr.contentWindow.document; doc.open(); doc.write(html); doc.close();
+    if(navigator.userAgent.indexOf("Safari")>=0){setTimeout(function(){try{fr.contentWindow.focus();fr.contentWindow.print();}catch(e){}close();},120);}
+  }catch(e){close();}
+});
 document.getElementById("btnShare").addEventListener("click",function(){
   var s=stats();
   var txt="I typed "+s.wpm+" WPM with "+s.acc+"% accuracy on Typing.Rerivo — https://typing.rerivo.com/";

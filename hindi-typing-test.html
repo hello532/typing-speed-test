@@ -326,6 +326,7 @@ window.__trPageLang="hi";</script>
     <div class="result-actions">
       <button type="button" class="btn" id="btnAgain" data-i18n="btn_again">Test again</button>
       <button type="button" class="btn ghost" id="btnShare" data-i18n="btn_share">Copy result</button>
+          <button type="button" class="btn ghost" id="btnCert" data-i18n="btn_cert">Print certificate</button>
     </div>
     <div class="hist" id="histBox">
       <h3 data-i18n="hist_title">Your typing history (saved in this browser)</h3>
@@ -358,7 +359,7 @@ window.__trPageLang="hi";</script>
   <footer>
     <a href="/">Typing.Rerivo</a> · Free online WPM typing test ·
     <a href="typing-games.html">Games</a> · <a href="typing-lessons.html">Lessons</a> · <a href="learn-to-type-faster.html">Learn Faster</a> · <a href="typing-tips.html">Tips</a> ·
-    <a href="30-second-typing-test.html">30s</a> · <a href="1-minute-typing-test.html">1 min</a> · <a href="2-minute-typing-test.html">2 min</a> · <a href="3-minute-typing-test.html">3 min</a> · <a href="5-minute-typing-test.html">5 min</a> · <a href="10-minute-typing-test.html">10 min</a> · <a href="words-per-minute-test.html">WPM</a> · <a href="wpm-test-online.html">WPM Online</a> · <a href="number-typing-test.html">Numbers</a> · <a href="english-typing-test.html">English</a> · <a href="spanish-typing-test.html">Spanish</a> · <a href="chinese-typing-test.html">Chinese</a> · <a href="hindi-typing-test.html">Hindi</a> · <a href="arabic-typing-test.html">Arabic</a> · <a href="keyboard-typing-test.html">Keyboard</a> · <a href="capital-letter-typing-test.html">Capitals</a> · <a href="punctuation-typing-test.html">Punctuation</a> · <a href="typing-test-game.html">Game</a> · <a href="typing-accuracy-test.html">Accuracy</a> · <a href="online-typing-test.html">Online</a> · <a href="free-typing-test.html">Free</a> · <a href="easy-typing-test.html">Easy</a> · <a href="touch-typing-test.html">Touch Typing</a> · <a href="typing-race.html">Race</a> · <a href="typing-tutorial.html">Tutorial</a> · <a href="typing-tutor.html">Tutor</a> · <a href="learn-to-type.html">Learn</a> · <a href="typing-trainer.html">Trainer</a> · <a href="custom-typing-test.html">Custom</a> · <a href="typing-tests-in-other-languages.html">Languages</a> · <a href="typing-practice.html">Practice</a>
+    <a href="30-second-typing-test.html">30s</a> · <a href="1-minute-typing-test.html">1 min</a> · <a href="2-minute-typing-test.html">2 min</a> · <a href="3-minute-typing-test.html">3 min</a> · <a href="5-minute-typing-test.html">5 min</a> · <a href="10-minute-typing-test.html">10 min</a> · <a href="words-per-minute-test.html">WPM</a> · <a href="wpm-test-online.html">WPM Online</a> · <a href="number-typing-test.html">Numbers</a> · <a href="english-typing-test.html">English</a> · <a href="spanish-typing-test.html">Spanish</a> · <a href="chinese-typing-test.html">Chinese</a> · <a href="hindi-typing-test.html">Hindi</a> · <a href="arabic-typing-test.html">Arabic</a> · <a href="keyboard-typing-test.html">Keyboard</a> · <a href="capital-letter-typing-test.html">Capitals</a> · <a href="punctuation-typing-test.html">Punctuation</a> · <a href="typing-test-game.html">Game</a> · <a href="typing-accuracy-test.html">Accuracy</a> · <a href="online-typing-test.html">Online</a> · <a href="free-typing-test.html">Free</a> · <a href="easy-typing-test.html">Easy</a> · <a href="touch-typing-test.html">Touch Typing</a> · <a href="typing-race.html">Race</a> · <a href="typing-tutorial.html">Tutorial</a> · <a href="typing-tutor.html">Tutor</a> · <a href="learn-to-type.html">Learn</a> · <a href="typing-trainer.html">Trainer</a> · <a href="custom-typing-test.html">Custom</a> · <a href="typing-tests-in-other-languages.html">Languages</a> · <a href="typing-certificate.html">Certificate</a> · <a href="typing-practice.html">Practice</a>
   </footer>
 </div>
 
@@ -4161,6 +4162,48 @@ chipsM.forEach(function(c){c.addEventListener("click",function(){
   mode=c.getAttribute("data-m"); reset();
 });});
 document.getElementById("btnAgain").addEventListener("click",function(){reset();elIn.focus();});
+document.getElementById("btnCert").addEventListener("click",function(){
+  var s=stats();
+  var tr=function(k,f){try{return (window.TR&&TR.t&&TR.t(k))||f;}catch(e){return f;}};
+  var mm=function(n){return n<10?"0"+n:""+n;};
+  var d=new Date(), dateStr=d.getFullYear()+"-"+mm(d.getMonth()+1)+"-"+mm(d.getDate());
+  var durStr=(window.TR&&TR.fmtDur)?TR.fmtDur(dur,TR.lang):Math.round(dur/60)+" min";
+  var line1=tr("cert_line1","This certifies that the bearer completed a {dur} typing test with the results below.").replace("{dur}",durStr);
+  var rows=[
+    [tr("wpm","WPM"),s.wpm],
+    [tr("accuracy","Accuracy"),s.acc+"%"],
+    [tr("r_cpm","Chars/min"),s.cpm],
+    [tr("r_raw","Raw WPM"),s.raw],
+    [tr("r_errors","Errors"),s.err],
+    [tr("r_cons","Consistency"),consistency()+"%"]
+  ];
+  var h='<table>'+rows.map(function(r){return '<tr><td>'+r[0]+'</td><td>'+r[1]+'</td></tr>';}).join("")+'</table>';
+  var html='<!DOCTYPE html><html><head><meta charset="utf-8"><title>'+tr("cert_title","Typing Speed Certificate")+'</title>'
+    +'<style>@page{margin:1.6cm}body{font-family:Georgia,"Times New Roman",serif;color:#1a1a1a}'
+    +'.cert{max-width:15cm;margin:1cm auto;border:3px double #1a1a1a;padding:1.4cm 1.8cm;text-align:center}'
+    +'h1{font-size:26px;margin:0 0 .3em;letter-spacing:.06em}.date{color:#555;margin:.2em 0 1.2em}'
+    +'.line1{margin:0 auto 1.2em;max-width:11cm;line-height:1.6;font-size:15px}'
+    +'table{border-collapse:collapse;margin:0 auto 1.4em}td{border:1px solid #999;padding:7px 22px;font-size:16px}'
+    +'td:first-child{text-align:left;color:#555;background:#f7f7f7}td:last-child{font-weight:700;min-width:80px}'
+    +'.sig{margin-top:2.2em;font-family:"Brush Script MT",cursive;font-size:24px;border-top:1px solid #1a1a1a;padding-top:.4em;max-width:9cm;margin-left:auto;margin-right:auto}'
+    +'.foot{margin-top:.4em;color:#555;font-size:13px}</style></head><body><div class="cert">'
+    +'<h1>'+tr("cert_title","Typing Speed Certificate")+'</h1>'
+    +'<div class="date">'+dateStr+'</div>'
+    +'<p class="line1">'+line1+'</p>'+h
+    +'<div class="sig">'+tr("cert_verified","Verified by Typing.Rerivo")+'</div>'
+    +'<div class="foot">https://typing.rerivo.com/</div></div></body></html>';
+  var fr=document.createElement("iframe");
+  fr.setAttribute("aria-hidden","true");
+  fr.style.cssText="position:fixed;right:0;bottom:0;width:0;height:0;border:0;opacity:0";
+  document.body.appendChild(fr);
+  var done=false;
+  var close=function(){if(!done){done=true;setTimeout(function(){if(fr.parentNode)fr.parentNode.removeChild(fr);},800);}};
+  fr.onload=function(){try{fr.contentWindow.focus();fr.contentWindow.print();}catch(e){}close();};
+  try{
+    var doc=fr.contentWindow.document; doc.open(); doc.write(html); doc.close();
+    if(navigator.userAgent.indexOf("Safari")>=0){setTimeout(function(){try{fr.contentWindow.focus();fr.contentWindow.print();}catch(e){}close();},120);}
+  }catch(e){close();}
+});
 document.getElementById("btnShare").addEventListener("click",function(){
   var s=stats();
   var txt="I typed "+s.wpm+" WPM with "+s.acc+"% accuracy on Typing.Rerivo — https://typing.rerivo.com/";

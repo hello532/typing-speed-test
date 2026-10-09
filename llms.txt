@@ -45,6 +45,7 @@
 - [Typing Trainer](https://typing.rerivo.com/typing-trainer.html): Free typing training drills, practice plans and progress logging.
 - [Custom Typing Test](https://typing.rerivo.com/custom-typing-test.html): Free customizable typing test - duration, text type, language, theme and width.
 - [Typing Tests in Other Languages](https://typing.rerivo.com/typing-tests-in-other-languages.html): Free multilingual typing tests in Spanish, Chinese, Hindi, Arabic and English.
+- [Typing Certificate](https://typing.rerivo.com/typing-certificate.html): Free printable typing test certificate with WPM, accuracy, consistency and errors.
 
 ## About
 - Free, no registration, privacy-friendly (runs fully in the browser).

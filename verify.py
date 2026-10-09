@@ -49,6 +49,11 @@ SKIP_LINK_RE = re.compile(r'<a class="skip"[^>]*>.*?</a>\n?')
 WIDTH_CTRL_RE = re.compile(
     r'\n *<div class="ctrl-group">\n *<span class="ctrl-label" data-i18n="width">.*?\n *</div>',
     re.S)
+# Task#9 起结果面板新增的「打印证书」按钮（typing certificate 特性，五语 i18n）。
+# 有意的功能性新增，基线里不存在；按钮与证书内容由 check 11 + 手动验收守卫，不污染 check 9。
+CERT_BTN_RE = re.compile(
+    r'\n *<button[^>]*id="btnCert"[^>]*>.*?</button>',
+    re.S)
 # ui.js/egg.js 的缓存版本号是部署期参数，不是 HTML 语义；对比前归一化。
 ASSET_VER_RE = re.compile(r'(src="(?:ui|egg)\.js\?)v=\d+(")', re.S)
 # Task#6 起全站 head 新增的 PWA/图标引用（favicon、apple-touch、manifest）。
@@ -69,6 +74,7 @@ def strip_a11y(html: str) -> str:
     html = A11Y_ATTR_RE.sub("", html)
     html = SKIP_LINK_RE.sub("", html)
     html = WIDTH_CTRL_RE.sub("", html)
+    html = CERT_BTN_RE.sub("", html)
     html = ASSET_VER_RE.sub(r'\1v\2', html)
     html = html.replace(' type="button"', "")
     for lit in A11Y_LABELS:
@@ -236,6 +242,7 @@ def main():
         "typing-trainer.html": "新增 typing trainer 落地页（教育线 P1：训练/计划/记录）",
         "custom-typing-test.html": "新增 custom typing test 落地页（可定制：时长/文本类型/语言/主题/宽度）",
         "typing-tests-in-other-languages.html": "新增多语聚合枢纽页（P2：五语内链中心）",
+        "typing-certificate.html": "新增 typing certificate 落地页（可打印成绩单特性）",
     }
 
     # 9. 与 git 基线字节等价（豁免表内差异需逐条命中；新增页单独登记）
