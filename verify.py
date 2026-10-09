@@ -228,6 +228,9 @@ def main():
         "touch-typing-test.html": "新增 touch typing 落地页（教育线 P1：触觉打字/盲打）",
         "typing-race.html": "新增 typing race 落地页（游戏线 P2：竞速/比赛）",
         "typing-tutorial.html": "新增 typing tutorial 落地页（教育线 P1：教程/tutor/教学）",
+        "typing-tutor.html": "新增 typing tutor 落地页（教育线 P1：导师/实时反馈工具）",
+        "learn-to-type.html": "新增 learn to type 落地页（教育线 P1：零基础学打字）",
+        "typing-trainer.html": "新增 typing trainer 落地页（教育线 P1：训练/计划/记录）",
     }
 
     # 9. 与 git 基线字节等价（豁免表内差异需逐条命中；新增页单独登记）

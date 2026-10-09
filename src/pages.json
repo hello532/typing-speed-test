@@ -2708,6 +2708,276 @@
    "ldPretty": [],
    "webAppName": "Typing Speed Test",
    "webAppUrl": "https://typing.rerivo.com/"
+  },
+  {
+   "file": "typing-tutor.html",
+   "title": "Typing Tutor - Free Online Typing Tutor with Live Feedback",
+   "metaDesc": "Free typing tutor online. Practice typing drills with instant WPM, accuracy and per-key error feedback from a typing tutor that never charges. No sign up.",
+   "canonical": "https://typing.rerivo.com/typing-tutor.html",
+   "dur": 60,
+   "mode": "sentences",
+   "variant": "tutor",
+   "nav": [
+    {
+     "href": "/",
+     "text": "Home"
+    },
+    {
+     "href": "typing-lessons.html",
+     "text": "Typing Lessons"
+    },
+    {
+     "href": "typing-tutorial.html",
+     "text": "Typing Tutorial"
+    }
+   ],
+   "crumbs": [
+    "Home",
+    "Typing Tutor"
+   ],
+   "h1": "Typing Tutor",
+   "heroP": "Free <strong>typing tutor</strong> with live feedback. Pick a drill, type for sixty seconds, and the tutor scores your WPM, your accuracy, and names the exact keys that slowed you down. Every drill is also your practice text, so the lesson is the workout. No sign up, no cost.",
+   "seo": [
+    {
+     "h2": "typing tutor",
+     "p": [
+      "A <strong>typing tutor</strong> is a practice partner that never gets tired and never charges. This free online typing tutor runs a sixty second drill, then hands you three numbers: words per minute, accuracy, and an error report that names every key you missed. The practice sentences are written as tutor drills, so while you type you are being coached in the language of drills, scores, and feedback. No download, no account, and no paywall between you and another rep."
+     ]
+    },
+    {
+     "h2": "How this typing tutor teaches",
+     "p": [
+      "Every drill works the same way: the tutor loads a line of practice text, the timer starts on your first keystroke, and the score updates live. When the minute ends, the tutor prints your error report, and that report is the whole lesson. It tells you which keys are slow, which are wrong, and which hand is doing extra work. Your weakest key becomes the next drill, and the tutor keeps your best score in the browser so each session has something to beat."
+     ]
+    },
+    {
+     "h2": "A week with the typing tutor",
+     "p": [
+      "Day one is diagnosis: run three drills and read the error reports without trying to fix anything. Day two through four, drill the two weakest keys until they are boring. Day five, run the full minute at half speed and let accuracy climb. By the end of the week the tutor's own leaderboard, your saved best scores, will show you what the drills did. Ten minutes a day is the entire prescription."
+     ]
+    }
+   ],
+   "faq": [
+    {
+     "q": "Is this typing tutor free?",
+     "a": "Yes, completely free. There is no sign up, no account, and no paid tier, and your scores are stored only in your own browser."
+    },
+    {
+     "q": "What makes it a typing tutor rather than a typing test?",
+     "a": "A test only gives you a score. A tutor gives you a score plus the error report that tells you what to practice next. Every drill here ends with a per-key breakdown, so the drill points at your next drill."
+    },
+    {
+     "q": "How long is each tutoring drill?",
+     "a": "Sixty seconds by default. Short enough to fit between tasks, long enough to expose which keys fail when your hands get tired."
+    },
+    {
+     "q": "How often should I use a typing tutor?",
+     "a": "Ten minutes a day, every day. Your tutor keeps your best score locally, so daily practice gives it a curve to beat. Missing a day costs nothing; missing a week costs the habit."
+    },
+    {
+     "q": "Can a typing tutor fix hunt-and-peck habits?",
+     "a": "Yes, though it takes patience. Start with home row drills, cover the keyboard if you have to, and let the error report tell you when old habits creep back. Most people break the habit in two to three weeks of daily drills."
+    },
+    {
+     "q": "Do I need an account to save my progress?",
+     "a": "No. The tutor stores your best scores in your own browser, so nothing to sign up for and nothing to lose if you switch devices later."
+    }
+   ],
+   "faqH2": "Typing tutor FAQ",
+   "faqFirstOpen": true,
+   "bcItems": [
+    {
+     "item": "https://typing.rerivo.com/",
+     "name": "Home"
+    },
+    {
+     "item": "https://typing.rerivo.com/typing-tutor.html",
+     "name": "Typing Tutor"
+    }
+   ],
+   "ldPretty": [],
+   "webAppName": "Typing Speed Test",
+   "webAppUrl": "https://typing.rerivo.com/"
+  },
+  {
+   "file": "learn-to-type.html",
+   "title": "Learn to Type - Free Touch Typing Course for Beginners",
+   "metaDesc": "Learn to type for free. A beginner typing course that teaches touch typing from the home row up, with timed practice and instant feedback. No sign up.",
+   "canonical": "https://typing.rerivo.com/learn-to-type.html",
+   "dur": 60,
+   "mode": "sentences",
+   "variant": "learner",
+   "nav": [
+    {
+     "href": "/",
+     "text": "Home"
+    },
+    {
+     "href": "typing-lessons.html",
+     "text": "Typing Lessons"
+    },
+    {
+     "href": "typing-tips.html",
+     "text": "Typing Tips"
+    }
+   ],
+   "crumbs": [
+    "Home",
+    "Learn to Type"
+   ],
+   "h1": "Learn to Type",
+   "heroP": "<strong>Learn to type</strong> for free, from the very first key. This beginner typing course starts at the home row and adds one row at a time, and every practice line is written as a first lesson, so the text you type teaches you how to type. Sixty seconds a day, instant feedback, no sign up.",
+   "seo": [
+    {
+     "h2": "learn to type",
+     "p": [
+      "To <strong>learn to type</strong> you only need two things: the home row, and the patience to be slow for a week. This free course teaches touch typing from absolute zero, and every practice sentence is a lesson about learning itself, so your practice text coaches you while you type it. Sixty seconds a day in your browser, with live WPM and accuracy feedback, no account and no cost."
+     ]
+    },
+    {
+     "h2": "Your first lesson in learning to type",
+     "p": [
+      "Rest your left fingers on A S D F and your right fingers on J K L ;, thumbs on the space bar. Feel the small bumps on F and J; they are the only map a beginner needs. Type words made from the home row only, slowly, and let each finger return home after every key. If you must look, look after the word, never in the middle of it. That is the entire first lesson, and everything after it is just practice."
+     ]
+    },
+    {
+     "h2": "How long does it take to learn to type?",
+     "p": [
+      "Most people own the home row in a week and reach a comfortable 40 to 60 words per minute in three to four weeks of daily practice. The mistake beginners make is chasing speed early; accuracy is the foundation and speed is the building that arrives later. End every session on your slowest, most careful line, and your hands will learn faster than you expect."
+     ]
+    }
+   ],
+   "faq": [
+    {
+     "q": "Can I learn to type for free?",
+     "a": "Yes. This course is completely free, with no sign up, no account, and no paywall. Every lesson is a timed practice you can repeat as often as you like, and your results stay in your own browser."
+    },
+    {
+     "q": "I have never touched a keyboard. Can I still learn to type?",
+     "a": "That is exactly who this page is for. It starts at the home row, assumes nothing, and adds one row at a time. Being slow in the first week is not a setback; it is the lesson."
+    },
+    {
+     "q": "What is the first thing I should learn?",
+     "a": "The home row: A S D F J K L ; with your thumbs on the space bar. Find the bumps on F and J with your index fingers, and practice words made only from those keys until you never look down."
+    },
+    {
+     "q": "How long until I can type without looking?",
+     "a": "Usually one to two weeks for the home row, and three to four weeks before the whole keyboard feels automatic. Covering the keyboard with a cloth speeds this up, because it removes the option of cheating."
+    },
+    {
+     "q": "Should I focus on speed or accuracy while learning?",
+     "a": "Accuracy, always. Speed is a byproduct of accurate repetition. A fast wrong keystroke teaches your hand the wrong address for a key, which you then have to unlearn."
+    },
+    {
+     "q": "How many minutes a day should I practice?",
+     "a": "Ten to fifteen minutes every day. Short daily practice builds muscle memory far better than one long weekly session, because the hands learn by frequency, not by total minutes."
+    }
+   ],
+   "faqH2": "Learn to type FAQ",
+   "faqFirstOpen": true,
+   "bcItems": [
+    {
+     "item": "https://typing.rerivo.com/",
+     "name": "Home"
+    },
+    {
+     "item": "https://typing.rerivo.com/learn-to-type.html",
+     "name": "Learn to Type"
+    }
+   ],
+   "ldPretty": [],
+   "webAppName": "Typing Speed Test",
+   "webAppUrl": "https://typing.rerivo.com/"
+  },
+  {
+   "file": "typing-trainer.html",
+   "title": "Typing Trainer - Free Typing Training Drills & Practice Plans",
+   "metaDesc": "Free typing trainer with training drills and practice plans. Build muscle memory with timed drills, log your WPM, and follow a typing training plan. No sign up.",
+   "canonical": "https://typing.rerivo.com/typing-trainer.html",
+   "dur": 60,
+   "mode": "sentences",
+   "variant": "trainer",
+   "nav": [
+    {
+     "href": "/",
+     "text": "Home"
+    },
+    {
+     "href": "typing-lessons.html",
+     "text": "Typing Lessons"
+    },
+    {
+     "href": "learn-to-type-faster.html",
+     "text": "Learn to Type Faster"
+    }
+   ],
+   "crumbs": [
+    "Home",
+    "Typing Trainer"
+   ],
+   "h1": "Typing Trainer",
+   "heroP": "Free <strong>typing trainer</strong> with drills and practice plans. Sixty second training sets, live WPM and accuracy, and your best scores saved locally so every session has a target to beat. The practice text is written as training instruction, so each drill coaches you while you type it. No sign up.",
+   "seo": [
+    {
+     "h2": "typing trainer",
+     "p": [
+      "A <strong>typing trainer</strong> gives you the two things practice alone never will: a plan and a record. This free trainer runs sixty second drills, scores your live WPM and accuracy, and keeps your best result in the browser so each session has a number to beat. The practice lines are written as training instruction, so while you type, the drill teaches you about training plans, muscle memory, and logging progress. No sign up and no cost."
+     ]
+    },
+    {
+     "h2": "The trainer's four week plan",
+     "p": [
+      "Week one is diagnosis: run three drills a day and read the error report without trying to fix anything. Week two, drill your two weakest keys twice as often as the rest. Week three, run the full minute at a speed where you make no errors, and live there. Week four, chase your personal best once a day and log it. Five words per minute each week is the only target, because tendons keep their own pace."
+     ]
+    },
+    {
+     "h2": "Why training beats practice",
+     "p": [
+      "Practice is typing a lot; training is typing the right thing a lot. The difference is the log. When you record your WPM and accuracy side by side each day, a speed that costs accuracy shows up immediately as a bad trade, and the drill that fixed your weak keys shows up as a permanent step up. Your hands will plateau; the trainer's answer is variety and rest, not more effort."
+     ]
+    }
+   ],
+   "faq": [
+    {
+     "q": "Is this typing trainer free?",
+     "a": "Yes, completely free, with no sign up and no account. Your best scores are stored only in your own browser."
+    },
+    {
+     "q": "What is the difference between a typing trainer and a typing test?",
+     "a": "A test measures you once. A trainer gives you drills sized for daily use, keeps your best score so you always have a target, and points your next session at your weakest keys."
+    },
+    {
+     "q": "How long should a training drill be?",
+     "a": "Sixty seconds per set, with short rest between sets. Keep total training under thirty minutes a day; a tired hand practices its own mistakes."
+    },
+    {
+     "q": "How fast can a typing trainer make me?",
+     "a": "Most people add five to ten words per minute per month with daily drills. The reliable ceiling for daily practice is around 80 to 100 WPM, and accuracy above 95 percent is what makes that speed stick."
+    },
+    {
+     "q": "Should I train when my hands hurt?",
+     "a": "No. Stop, rest, and check your posture and wrist position. Rest days are part of the training program, because muscle memory is written during recovery, not during strain."
+    },
+    {
+     "q": "How do I know the training is working?",
+     "a": "Log your WPM and accuracy side by side each day. Speed that drops accuracy is not progress. The clearest sign is your error report shrinking week over week, because fewer errors always precede faster speed."
+    }
+   ],
+   "faqH2": "Typing trainer FAQ",
+   "faqFirstOpen": true,
+   "bcItems": [
+    {
+     "item": "https://typing.rerivo.com/",
+     "name": "Home"
+    },
+    {
+     "item": "https://typing.rerivo.com/typing-trainer.html",
+     "name": "Typing Trainer"
+    }
+   ],
+   "ldPretty": [],
+   "webAppName": "Typing Speed Test",
+   "webAppUrl": "https://typing.rerivo.com/"
   }
  ]
 }

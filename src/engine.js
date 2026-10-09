@@ -3275,6 +3275,8 @@ var WORDS=[
 function rnd(n){return Math.floor(Math.random()*n);}
 function pickN(arr,n){var a=[],i;for(i=0;i<n;i++)a.push(arr[rnd(arr.length)]);return a.join(" ");}
 function pick3(arr){var a=[],i;for(i=0;i<3;i++)a.push(arr[rnd(arr.length)]);return a.join(" ");}
+/* 教育线变体共用同一供给逻辑：quotes 取整条、其余取 3 句拼接 */
+var EDU_VARIANTS=["touch","race","tutorial","tutor","learner","trainer"];
 function pad2(n){return (n<10?"0":"")+n;}
 function fmtDate(f){
   var y=f.minYear+rnd(f.maxYear-f.minYear+1), m=1+rnd(12), d=1+rnd(28);
@@ -3485,15 +3487,7 @@ function nextChunk(mode){
   if(VARIANT==="easy"&&VPOOL){return pickN(VPOOL.words,40);}   /* 强制短词，忽略 mode */
   if(VARIANT==="numbers_ext"&&VPOOL){return genNumbers(VPOOL.formats,30);}
   if(VARIANT==="finger_drill"){return genFingerKeys();}
-  if(VARIANT==="touch"&&VPOOL){
-    if(mode==="quotes"&&VPOOL.quotes)return VPOOL.quotes[rnd(VPOOL.quotes.length)];
-    return pick3(VPOOL.sentences);
-  }
-  if(VARIANT==="race"&&VPOOL){
-    if(mode==="quotes"&&VPOOL.quotes)return VPOOL.quotes[rnd(VPOOL.quotes.length)];
-    return pick3(VPOOL.sentences);
-  }
-  if(VARIANT==="tutorial"&&VPOOL){
+  if(VARIANT&&EDU_VARIANTS.indexOf(VARIANT)>=0&&VPOOL){
     if(mode==="quotes"&&VPOOL.quotes)return VPOOL.quotes[rnd(VPOOL.quotes.length)];
     return pick3(VPOOL.sentences);
   }

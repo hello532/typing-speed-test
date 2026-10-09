@@ -265,7 +265,7 @@ clearVariant();
 
 console.log('\n=== P2-a2: 教育线变体池 touch/race/tutorial（池规模 + nextChunk 实测取样）===');
 {
-  for (const name of ['touch', 'race', 'tutorial']) {
+  for (const name of ['touch', 'race', 'tutorial', 'tutor', 'learner', 'trainer']) {
     const p = setVariant(name);
     assert(p.sentences.length >= 40, `${name} 池 sentences=${p.sentences.length} ≥ 40`);
     assert(p.quotes.length >= 5, `${name} 池 quotes=${p.quotes.length} ≥ 5`);

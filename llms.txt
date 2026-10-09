@@ -40,6 +40,9 @@
 - [Touch Typing Test](https://typing.rerivo.com/touch-typing-test.html): Free touch typing test and practice without looking at the keyboard.
 - [Typing Race](https://typing.rerivo.com/typing-race.html): Free 60-second typing race against the clock for top WPM.
 - [Typing Tutorial](https://typing.rerivo.com/typing-tutorial.html): Free step-by-step typing tutor and lessons for beginners.
+- [Typing Tutor](https://typing.rerivo.com/typing-tutor.html): Free online typing tutor with live WPM, accuracy and per-key error feedback.
+- [Learn to Type](https://typing.rerivo.com/learn-to-type.html): Free beginner typing course, from the home row up.
+- [Typing Trainer](https://typing.rerivo.com/typing-trainer.html): Free typing training drills, practice plans and progress logging.
 
 ## About
 - Free, no registration, privacy-friendly (runs fully in the browser).

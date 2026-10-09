@@ -358,7 +358,7 @@ html[data-theme="ocean"]{
   <footer>
     <a href="/">Typing.Rerivo</a> · Free online WPM typing test ·
     <a href="typing-games.html">Games</a> · <a href="typing-lessons.html">Lessons</a> · <a href="learn-to-type-faster.html">Learn Faster</a> · <a href="typing-tips.html">Tips</a> ·
-    <a href="30-second-typing-test.html">30s</a> · <a href="1-minute-typing-test.html">1 min</a> · <a href="2-minute-typing-test.html">2 min</a> · <a href="3-minute-typing-test.html">3 min</a> · <a href="5-minute-typing-test.html">5 min</a> · <a href="10-minute-typing-test.html">10 min</a> · <a href="words-per-minute-test.html">WPM</a> · <a href="wpm-test-online.html">WPM Online</a> · <a href="number-typing-test.html">Numbers</a> · <a href="english-typing-test.html">English</a> · <a href="spanish-typing-test.html">Spanish</a> · <a href="chinese-typing-test.html">Chinese</a> · <a href="hindi-typing-test.html">Hindi</a> · <a href="arabic-typing-test.html">Arabic</a> · <a href="keyboard-typing-test.html">Keyboard</a> · <a href="capital-letter-typing-test.html">Capitals</a> · <a href="punctuation-typing-test.html">Punctuation</a> · <a href="typing-test-game.html">Game</a> · <a href="typing-accuracy-test.html">Accuracy</a> · <a href="online-typing-test.html">Online</a> · <a href="free-typing-test.html">Free</a> · <a href="easy-typing-test.html">Easy</a> · <a href="touch-typing-test.html">Touch Typing</a> · <a href="typing-race.html">Race</a> · <a href="typing-tutorial.html">Tutorial</a> · <a href="typing-practice.html">Practice</a>
+    <a href="30-second-typing-test.html">30s</a> · <a href="1-minute-typing-test.html">1 min</a> · <a href="2-minute-typing-test.html">2 min</a> · <a href="3-minute-typing-test.html">3 min</a> · <a href="5-minute-typing-test.html">5 min</a> · <a href="10-minute-typing-test.html">10 min</a> · <a href="words-per-minute-test.html">WPM</a> · <a href="wpm-test-online.html">WPM Online</a> · <a href="number-typing-test.html">Numbers</a> · <a href="english-typing-test.html">English</a> · <a href="spanish-typing-test.html">Spanish</a> · <a href="chinese-typing-test.html">Chinese</a> · <a href="hindi-typing-test.html">Hindi</a> · <a href="arabic-typing-test.html">Arabic</a> · <a href="keyboard-typing-test.html">Keyboard</a> · <a href="capital-letter-typing-test.html">Capitals</a> · <a href="punctuation-typing-test.html">Punctuation</a> · <a href="typing-test-game.html">Game</a> · <a href="typing-accuracy-test.html">Accuracy</a> · <a href="online-typing-test.html">Online</a> · <a href="free-typing-test.html">Free</a> · <a href="easy-typing-test.html">Easy</a> · <a href="touch-typing-test.html">Touch Typing</a> · <a href="typing-race.html">Race</a> · <a href="typing-tutorial.html">Tutorial</a> · <a href="typing-tutor.html">Tutor</a> · <a href="learn-to-type.html">Learn</a> · <a href="typing-trainer.html">Trainer</a> · <a href="typing-practice.html">Practice</a>
   </footer>
 </div>
 
@@ -3640,6 +3640,8 @@ var WORDS=[
 function rnd(n){return Math.floor(Math.random()*n);}
 function pickN(arr,n){var a=[],i;for(i=0;i<n;i++)a.push(arr[rnd(arr.length)]);return a.join(" ");}
 function pick3(arr){var a=[],i;for(i=0;i<3;i++)a.push(arr[rnd(arr.length)]);return a.join(" ");}
+/* 教育线变体共用同一供给逻辑：quotes 取整条、其余取 3 句拼接 */
+var EDU_VARIANTS=["touch","race","tutorial","tutor","learner","trainer"];
 function pad2(n){return (n<10?"0":"")+n;}
 function fmtDate(f){
   var y=f.minYear+rnd(f.maxYear-f.minYear+1), m=1+rnd(12), d=1+rnd(28);
@@ -3850,15 +3852,7 @@ function nextChunk(mode){
   if(VARIANT==="easy"&&VPOOL){return pickN(VPOOL.words,40);}   /* 强制短词，忽略 mode */
   if(VARIANT==="numbers_ext"&&VPOOL){return genNumbers(VPOOL.formats,30);}
   if(VARIANT==="finger_drill"){return genFingerKeys();}
-  if(VARIANT==="touch"&&VPOOL){
-    if(mode==="quotes"&&VPOOL.quotes)return VPOOL.quotes[rnd(VPOOL.quotes.length)];
-    return pick3(VPOOL.sentences);
-  }
-  if(VARIANT==="race"&&VPOOL){
-    if(mode==="quotes"&&VPOOL.quotes)return VPOOL.quotes[rnd(VPOOL.quotes.length)];
-    return pick3(VPOOL.sentences);
-  }
-  if(VARIANT==="tutorial"&&VPOOL){
+  if(VARIANT&&EDU_VARIANTS.indexOf(VARIANT)>=0&&VPOOL){
     if(mode==="quotes"&&VPOOL.quotes)return VPOOL.quotes[rnd(VPOOL.quotes.length)];
     return pick3(VPOOL.sentences);
   }
