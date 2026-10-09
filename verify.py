@@ -96,6 +96,9 @@ EXEMPT = {
     "typing-practice.html": "seo 缩进 4→2；sTime 1:00→2:00 修正（dur=120）",
     # GEO：五语聚类互声明 hreflang alternate，英语落地页显式页面默认语言 en
     "english-typing-test.html": "head 补 hreflang 多语 alternate + 显式页面默认语言 en（GEO 五语聚类）",
+    # TDK 定向：目标长尾词进 title/metaDesc/正文（结构不变）
+    "wpm-test-online.html": "TDK 定向 check your wpm：title 加 “Check Your WPM Free” + 补 seo 段",
+    "keyboard-typing-test.html": "TDK 定向 keyboard test：title 改为 “Keyboard Test - …” + 补 seo 段",
 }
 
 ok, fail = [], []
@@ -226,11 +229,13 @@ def main():
         "hindi-typing-test.html": "新增印地语打字测试落地页（多语线 P2：hi 池扩充后补齐语种 gap）",
         "arabic-typing-test.html": "新增阿拉伯语打字测试落地页（多语线 P2：ar 池扩充后补齐语种 gap）",
         "touch-typing-test.html": "新增 touch typing 落地页（教育线 P1：触觉打字/盲打）",
-        "typing-race.html": "新增 typing race 落地页（游戏线 P2：竞速/比赛）",
+        "typing-race.html": "新增 typing race 落地页（游戏线 P2：竞速/比赛；title 含 competitive typing game 定向）",
         "typing-tutorial.html": "新增 typing tutorial 落地页（教育线 P1：教程/tutor/教学）",
         "typing-tutor.html": "新增 typing tutor 落地页（教育线 P1：导师/实时反馈工具）",
         "learn-to-type.html": "新增 learn to type 落地页（教育线 P1：零基础学打字）",
         "typing-trainer.html": "新增 typing trainer 落地页（教育线 P1：训练/计划/记录）",
+        "custom-typing-test.html": "新增 custom typing test 落地页（可定制：时长/文本类型/语言/主题/宽度）",
+        "typing-tests-in-other-languages.html": "新增多语聚合枢纽页（P2：五语内链中心）",
     }
 
     # 9. 与 git 基线字节等价（豁免表内差异需逐条命中；新增页单独登记）
@@ -264,11 +269,15 @@ def main():
                 body = line[1:].strip()
                 allowed = (body == "" or "<section class=\"seo\">" in body
                            or "id=\"sTime\"" in body or "<title>" in body
+                           or "<meta name=\"description" in body
+                           or '<meta property="og:' in body
+                           or '<meta name="twitter:' in body
                            or "<link rel=\"alternate\"" in body
                            or "window.__trPageLang=" in body
                            or body in base_lines
                            or any(b.startswith(body) or body.startswith(b)
-                                  for b in base_lines if b))
+                                  for b in base_lines if b)
+                           or body.startswith(("<h2", "<p>", "<p ")))
                 if not allowed:
                     unexpected.setdefault(n, []).append(line[:100])
         else:

@@ -43,6 +43,8 @@
 - [Typing Tutor](https://typing.rerivo.com/typing-tutor.html): Free online typing tutor with live WPM, accuracy and per-key error feedback.
 - [Learn to Type](https://typing.rerivo.com/learn-to-type.html): Free beginner typing course, from the home row up.
 - [Typing Trainer](https://typing.rerivo.com/typing-trainer.html): Free typing training drills, practice plans and progress logging.
+- [Custom Typing Test](https://typing.rerivo.com/custom-typing-test.html): Free customizable typing test - duration, text type, language, theme and width.
+- [Typing Tests in Other Languages](https://typing.rerivo.com/typing-tests-in-other-languages.html): Free multilingual typing tests in Spanish, Chinese, Hindi, Arabic and English.
 
 ## About
 - Free, no registration, privacy-friendly (runs fully in the browser).

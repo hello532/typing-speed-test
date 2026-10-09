@@ -799,8 +799,8 @@
   },
   {
    "file": "keyboard-typing-test.html",
-   "title": "Keyboard Typing Test - Free Online WPM Test",
-   "metaDesc": "Free keyboard typing test. Measure your keyboard speed in WPM and accuracy with instant results. Practise on any keyboard, no sign up.",
+   "title": "Keyboard Test - Free Online Keyboard Typing Test & WPM",
+   "metaDesc": "Free keyboard test online. Test your keyboard typing speed and accuracy on laptop, mechanical or full-size keyboards. Instant WPM results, no sign up.",
    "canonical": "https://typing.rerivo.com/keyboard-typing-test.html",
    "dur": 60,
    "mode": "sentences",
@@ -830,6 +830,12 @@
      "h2": "Keyboard typing test",
      "p": [
       "A <strong>keyboard typing test</strong> checks how fast you type on your keyboard and how accurate you are. It works the same on laptop, mechanical and full-size keyboards. Measuring regularly shows whether a new keyboard or layout actually improves your speed."
+     ]
+    },
+    {
+     "h2": "Test any keyboard, not just the one you own",
+     "p": [
+      "A <strong>keyboard test</strong> answers one question honestly: how fast are your hands on this keyboard? Laptop keyboards, mechanical switches and full-size boards all have different travel and feedback, and your WPM shifts with them. Test the keyboard you use for work, then test the one you game on; the difference tells you which one your hands actually like."
      ]
     },
     {
@@ -1830,8 +1836,8 @@
   },
   {
    "file": "wpm-test-online.html",
-   "title": "WPM Test Online - Free Words Per Minute Checker",
-   "metaDesc": "Free WPM test online. Check your words per minute and accuracy instantly in your browser, from 15 seconds to 10 minutes. No download, no sign up.",
+   "title": "WPM Test Online - Check Your WPM Free, Words Per Minute Checker",
+   "metaDesc": "Free WPM test online. Check your WPM and accuracy instantly in your browser. Pick 15 seconds to 10 minutes, type, and get your words per minute. No sign up.",
    "canonical": "https://typing.rerivo.com/wpm-test-online.html",
    "dur": 60,
    "mode": "sentences",
@@ -1861,6 +1867,12 @@
      "h2": "WPM test online",
      "p": [
       "A WPM test online is the quickest way to see how fast you type without installing anything. This test runs entirely in your browser: pick a length, type the text, and your words per minute and accuracy appear the instant the timer stops."
+     ]
+    },
+    {
+     "h2": "Check your WPM in 60 seconds",
+     "p": [
+      "To <strong>check your WPM</strong> you only need one minute. Pick a duration, type the text that appears, and the score panel gives you three numbers: words per minute, accuracy, and errors. Check it Monday, check it again Friday; the gap between the two is your weekly progress. Your best results are stored in this browser, so every visit starts with your last score to beat."
      ]
     },
     {
@@ -2535,8 +2547,8 @@
   },
   {
    "file": "typing-race.html",
-   "title": "Typing Race - Free Typing Speed Race Online",
-   "metaDesc": "Free typing race and typing speed competition. Race the clock and beat your best WPM with fast, timed typing sprints. Free online typing race, no sign up.",
+   "title": "Typing Race - Free Competitive Typing Game & Speed Race Online",
+   "metaDesc": "Free typing race, the competitive typing game online. Race the clock and beat your best WPM with instant results. A typing competition for speed, no sign up.",
    "canonical": "https://typing.rerivo.com/typing-race.html",
    "dur": 60,
    "mode": "sentences",
@@ -2566,6 +2578,12 @@
      "h2": "typing race",
      "p": [
       "A <strong>typing race</strong> turns practice into a sprint: a fixed 60 second timer, a live WPM counter, and sentences short enough that you never lose momentum. This free typing race is the fastest way to find your top speed, because the clock removes every excuse to slow down. Every clean word pushes the counter higher, and the error report at the finish line shows exactly where the race was won or lost."
+     ]
+    },
+    {
+     "h2": "A competitive typing game for speed",
+     "p": [
+      "This is a <strong>competitive typing game</strong> in its purest form: one minute, one text, and a score that stays on this device until you beat it. There is no lobby and no opponent to wait for, so the race starts the moment your first keystroke does. Compete against yourself daily, or share your WPM and race a friend on the same keyboard; every session is a new heat."
      ]
     },
     {
@@ -2978,6 +2996,186 @@
    "ldPretty": [],
    "webAppName": "Typing Speed Test",
    "webAppUrl": "https://typing.rerivo.com/"
+  },
+  {
+   "file": "custom-typing-test.html",
+   "title": "Custom Typing Test - Free Customizable Typing Test Online",
+   "metaDesc": "Free customizable typing test online. Choose your duration, text type, language, theme and line width, then type and get instant WPM. Fully configurable typing test, no sign up.",
+   "canonical": "https://typing.rerivo.com/custom-typing-test.html",
+   "dur": 60,
+   "mode": "sentences",
+   "variant": null,
+   "nav": [
+    {
+     "href": "https://typing.rerivo.com/",
+     "text": "Home"
+    },
+    {
+     "href": "typing-practice.html",
+     "text": "Typing Practice"
+    },
+    {
+     "href": "wpm-test-online.html",
+     "text": "WPM Test"
+    }
+   ],
+   "crumbs": [
+    "Home",
+    "Custom Typing Test"
+   ],
+   "h1": "Custom Typing Test",
+   "heroP": "A fully <strong>customizable typing test</strong>: pick your duration from 15 seconds to 10 minutes, switch between sentences, quotes, numbers and words, set the language, theme and line width, then type and get instant WPM. Everything is configurable, nothing to sign up for.",
+   "seo": [
+    {
+     "h2": "custom typing test",
+     "p": [
+      "A <strong>custom typing test</strong> is one that fits your practice instead of the other way around. This test is configurable end to end: six durations from 15 seconds to 10 minutes, four text types, five languages, light and dark themes, and a line width that adapts to your screen. Configure it once, and every result after that is comparable, because you changed nothing but your typing."
+     ]
+    },
+    {
+     "h2": "What you can customize",
+     "p": [
+      "<strong>Duration</strong>: 15, 30, 60, 120, 300 or 600 seconds. <strong>Text type</strong>: sentences for everyday fluency, quotes for capitals and punctuation, numbers for the top row, and words for high-frequency vocabulary. <strong>Language</strong>: English, Spanish, Chinese, Hindi and Arabic. <strong>Theme and width</strong>: light or dark, and a text column that fits your screen so your eyes never leave the line you are typing."
+     ]
+    },
+    {
+     "h2": "Build your own typing test routine",
+     "p": [
+      "Start with one minute of sentences to get a baseline. Add quotes for two weeks until capitals cost you nothing, then numbers until the top row is no longer slow. Switch to five minutes when you want endurance, and back to one minute when you want to see your top speed. A custom test is the only one that can follow that plan for a month without ever asking you to sign up."
+     ]
+    }
+   ],
+   "faqFirstOpen": true,
+   "faqH2": "Custom typing test FAQ",
+   "faq": [
+    {
+     "q": "Is this typing test customizable for free?",
+     "a": "Yes, completely free with no sign up. Duration, text type, language, theme and line width are all configurable in your browser."
+    },
+    {
+     "q": "What durations can I choose?",
+     "a": "15, 30, 60, 120, 300 and 600 seconds. Short durations suit quick checks; long ones give a more stable average WPM because they smooth out bursts of speed and fatigue."
+    },
+    {
+     "q": "Can I change the language of the typing text?",
+     "a": "Yes. The test runs in English, Spanish, Chinese, Hindi and Arabic. Arabic and Hindi also render right-to-left correctly."
+    },
+    {
+     "q": "Which text type should I pick?",
+     "a": "Sentences for everyday fluency, quotes to train capitals and punctuation, numbers for the slow top row, and words to drill common vocabulary. If unsure, start with sentences."
+    },
+    {
+     "q": "Is my configuration saved?",
+     "a": "Your past results are stored only in this browser (localStorage). The configuration itself resets on reload, so bookmark a page set to the duration you practice most."
+    },
+    {
+     "q": "Can I use this for a custom typing test at work or school?",
+     "a": "Yes. It is free, needs no account, and works offline once the page is loaded, which makes it easy to run for a group without collecting anyone's data."
+    }
+   ],
+   "webAppName": "Typing Speed Test",
+   "webAppUrl": "https://typing.rerivo.com/",
+   "bcItems": [
+    {
+     "item": "https://typing.rerivo.com/",
+     "name": "Home"
+    },
+    {
+     "item": "https://typing.rerivo.com/custom-typing-test.html",
+     "name": "Custom Typing Test"
+    }
+   ],
+   "ldPretty": []
+  },
+  {
+   "file": "typing-tests-in-other-languages.html",
+   "title": "Typing Tests in Other Languages - Spanish, Chinese, Hindi, Arabic",
+   "metaDesc": "Free typing tests in other languages. Practice typing in Spanish, Chinese, Hindi and Arabic, plus English. Timed multilingual typing tests with instant WPM and accuracy. No sign up.",
+   "canonical": "https://typing.rerivo.com/typing-tests-in-other-languages.html",
+   "dur": 60,
+   "mode": "sentences",
+   "variant": null,
+   "nav": [
+    {
+     "href": "https://typing.rerivo.com/",
+     "text": "Home"
+    },
+    {
+     "href": "custom-typing-test.html",
+     "text": "Custom Test"
+    },
+    {
+     "href": "typing-lessons.html",
+     "text": "Typing Lessons"
+    }
+   ],
+   "crumbs": [
+    "Home",
+    "Typing Tests in Other Languages"
+   ],
+   "h1": "Typing Tests in Other Languages",
+   "heroP": "Free <strong>typing tests in other languages</strong>. The same timed typing test with instant WPM and accuracy, now in English, Spanish, Chinese, Hindi and Arabic. Pick your language below and start; nothing to sign up for.",
+   "seo": [
+    {
+     "h2": "typing tests in other languages",
+     "p": [
+      "Our <strong>typing tests in other languages</strong> give you the same timed test, the same live WPM and accuracy feedback, and the same instant results, in five languages: <a href=\"english-typing-test.html\">English Typing Test</a>, <a href=\"spanish-typing-test.html\">Spanish Typing Test</a>, <a href=\"chinese-typing-test.html\">Chinese Typing Test</a>, <a href=\"hindi-typing-test.html\">Hindi Typing Test</a>, <a href=\"arabic-typing-test.html\">Arabic Typing Test</a>. If you write in more than one language, your typing speed is not one number; it is five, and the only way to know each one is to test it in that language."
+     ]
+    },
+    {
+     "h2": "Why test typing in your own language",
+     "p": [
+      "Most typing tests assume English, but a keyboard is not the same in every language. Chinese and Hindi use input methods that add a composition step between keystroke and character. Arabic reverses direction and changes letter shapes mid-word. Spanish adds accented vowels. Testing in the language you actually write in is the only way to measure the speed that matters to you."
+     ]
+    },
+    {
+     "h2": "How to compare across languages",
+     "p": [
+      "Run the same one minute test in each language on the same day, and write the five numbers down. Most people are fastest in their dominant language and ten to twenty percent slower in the others, and the gap shrinks fast with a few minutes of daily practice in the weaker languages. Re-run the same set next month and the comparison is honest, because the test itself never changed."
+     ]
+    }
+   ],
+   "faqFirstOpen": true,
+   "faqH2": "Multilingual typing test FAQ",
+   "faq": [
+    {
+     "q": "Which languages can I take a typing test in?",
+     "a": "English, Spanish, Chinese, Hindi and Arabic. Each has its own timed page with practice text written natively in that language."
+    },
+    {
+     "q": "How does WPM work in Chinese, Hindi or Arabic?",
+     "a": "WPM is still correct characters divided by five, divided by minutes. For Chinese and Hindi the count reflects composed characters through an input method, which is the speed that matters when you actually write."
+    },
+    {
+     "q": "Do the non-English tests render correctly?",
+     "a": "Yes. Arabic renders right-to-left with correct letter shaping, and each page declares its own language and hreflang alternates so search engines route the right version."
+    },
+    {
+     "q": "Are these multilingual typing tests free?",
+     "a": "Yes, completely free with no sign up, no account and no ads. Results are stored only in your own browser."
+    },
+    {
+     "q": "How long should a language typing test be?",
+     "a": "One minute to compare languages quickly, three minutes when you want a stable average. Shorter tests expose mistakes; longer ones smooth out bursts of speed."
+    },
+    {
+     "q": "Can I switch languages without leaving the page?",
+     "a": "Use the custom typing test, which lets you change language along with duration, text type, theme and line width in one place."
+    }
+   ],
+   "webAppName": "Typing Speed Test",
+   "webAppUrl": "https://typing.rerivo.com/",
+   "bcItems": [
+    {
+     "item": "https://typing.rerivo.com/",
+     "name": "Home"
+    },
+    {
+     "item": "https://typing.rerivo.com/typing-tests-in-other-languages.html",
+     "name": "Typing Tests in Other Languages"
+    }
+   ],
+   "ldPretty": []
   }
  ]
 }
