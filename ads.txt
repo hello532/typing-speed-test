@@ -1,0 +1,3 @@
+# ads.txt — typing.rerivo.com
+# AdSense publisher ID 填入后生效（登录 AdSense 后台获取，格式：pub-XXXXXXXXXXXXXXXX）
+# google.com, pub-XXXXXXXXXXXXXXXX, DIRECT, f08c47fec0942fa0
