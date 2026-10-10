@@ -1,6 +1,6 @@
 # Typing.Rerivo
 
-**A free online typing test — 34 landing pages, no signup, no ads.**
+**A free online typing test — 41 landing pages, no signup, no ads.**
 
 🔗 Live: **<https://typing.rerivo.com>**
 
@@ -17,7 +17,7 @@ page, pick a duration, start typing.
 
 ## Features
 
-- **34 landing pages** covering the full duration ladder, practice variants, an
+- **41 landing pages** covering the full duration ladder, practice variants, an
   education line, a games line, and five languages
   ([30 second](https://typing.rerivo.com/30-second-typing-test.html) ·
   [1 minute](https://typing.rerivo.com/1-minute-typing-test.html) ·
@@ -38,6 +38,9 @@ page, pick a duration, start typing.
   [chinese](https://typing.rerivo.com/chinese-typing-test.html) ·
   [hindi](https://typing.rerivo.com/hindi-typing-test.html) ·
   [arabic](https://typing.rerivo.com/arabic-typing-test.html) …)
+- **Differentiated features**: a [printable typing certificate](https://typing.rerivo.com/typing-certificate.html),
+  a [Dvorak typing test](https://typing.rerivo.com/dvorak-typing.html) with an on-screen Dvorak keyboard,
+  and [one hand typing](https://typing.rerivo.com/one-hand-typing.html) practice
 - **Timed rounds from 15s to 10min** with 4 text modes: sentences, quotes, numbers, words
 - **Instant WPM + accuracy**, results stored in `localStorage`, unlimited retakes
 - **Multilingual practice pools** — English, Chinese, Spanish, Hindi, Arabic
