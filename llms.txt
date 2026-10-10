@@ -48,6 +48,8 @@
 - [Typing Certificate](https://typing.rerivo.com/typing-certificate.html): Free printable typing test certificate with WPM, accuracy, consistency and errors.
 - [Dvorak Typing Test](https://typing.rerivo.com/dvorak-typing.html): Typing test with an on screen Dvorak keyboard and QWERTY/Dvorak switch.
 - [One Hand Typing](https://typing.rerivo.com/one-hand-typing.html): One hand typing practice and speed test for a standard keyboard.
+- [Privacy Policy](https://typing.rerivo.com/privacy-policy.html): No accounts, no cookies, no analytics, no tracking.
+- [About](https://typing.rerivo.com/about.html): A free browser-only typing speed test; contact and measurement method.
 
 ## About
 - Free, no registration, privacy-friendly (runs fully in the browser).

@@ -251,6 +251,8 @@ def main():
         "typing-certificate.html": "新增 typing certificate 落地页（可打印成绩单特性）",
         "dvorak-typing.html": "新增 Dvorak 打字测试页（键盘认知 Dvorak 布局）",
         "one-hand-typing.html": "新增单手打字练习页",
+        "privacy-policy.html": "新增隐私政策页（AdSense 合规）",
+        "about.html": "新增关于页（AdSense 合规）",
     }
 
     # 9. 与 git 基线字节等价（豁免表内差异需逐条命中；新增页单独登记）
