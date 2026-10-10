@@ -93,6 +93,7 @@ nav.crumbs span{color:var(--dim);}
   padding:7px 15px; font-size:.86rem; cursor:pointer; font-weight:600; transition:transform .12s, background .15s, color .15s, border-color .15s, box-shadow .15s;}
 .chip:hover{color:var(--text); border-color:var(--borderhi); background:var(--panelhi); transform:translateY(-1px);}
 .chip:active{transform:translateY(0);}
+.chip.link{display:inline-block; text-decoration:none;}
 .chip.on{background:linear-gradient(180deg,var(--accent2),var(--accent)); border-color:var(--accent); color:#241c00; box-shadow:0 6px 18px -6px var(--accentglow);}
 
 .stats{display:flex; justify-content:center; gap:clamp(26px,7vw,76px); margin:26px 0 6px; padding-top:24px; border-top:1px solid var(--line);}
@@ -285,6 +286,12 @@ window.__trPageLang="en";</script>
         <button type="button" class="chip mode" data-m="quotes" data-i18n="m_quotes" aria-pressed="false">Quotes</button>
         <button type="button" class="chip mode" data-m="numbers" data-i18n="m_numbers" aria-pressed="false">Numbers</button>
         <button type="button" class="chip mode" data-m="words" data-i18n="m_words" aria-pressed="false">Words</button>
+      </div>
+      <div class="ctrl-group">
+        <span class="ctrl-label" data-i18n="practice">Practice</span>
+        <a class="chip link" href="dvorak-typing.html" data-i18n="p_dvorak">Dvorak</a>
+        <a class="chip link" href="one-hand-typing.html" data-i18n="p_onehand">One-Hand</a>
+        <a class="chip link" href="typing-certificate.html" data-i18n="p_cert">Certificate</a>
       </div>
       <div class="ctrl-group">
         <span class="ctrl-label" data-i18n="width">Width</span>

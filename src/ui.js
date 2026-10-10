@@ -60,6 +60,13 @@ var POOL=/*{{POOL}}*/;
  w_xwide:{en:"X-Wide",zh:"更宽",es:"Muy ancho",hi:"बहुत चौड़ा",ar:"أوسع"},
  w_fluid:{en:"Full",zh:"全宽",es:"Total",hi:"पूरा",ar:"كامل"}
 };for(var key in W){var R=W[key];for(var k in R){if(I18N[k])I18N[k][key]=R[k];}}})();
+/* 练习模式快捷入口（Reddit 反馈：Dvorak/单手/证书模式藏页脚找不到）*/
+(function(){var P={
+ practice:{en:"Practice",zh:"练习",es:"Práctica",hi:"अभ्यास",ar:"تمرين"},
+ p_dvorak:{en:"Dvorak",zh:"Dvorak 键盘",es:"Dvorak",hi:"Dvorak",ar:"Dvorak"},
+ p_onehand:{en:"One-Hand",zh:"单手打字",es:"Una mano",hi:"एक हाथ",ar:"يد واحدة"},
+ p_cert:{en:"Certificate",zh:"打字证书",es:"Certificado",hi:"प्रमाणपत्र",ar:"شهادة"}
+};for(var key in P){var R=P[key];for(var k in R){if(I18N[k])I18N[k][key]=R[k];}}})();
 var LANGS=["en","zh","es","hi","ar"];
 var WIDTHS=["std","wide","xwide","fluid"];
 var THEMES=[["dark","🌙"],["light","☀️"],["ocean","🌊"]];

@@ -59,6 +59,12 @@ CERT_BTN_RE = re.compile(
 LAYOUT_CTRL_RE = re.compile(
     r'<span class="lab kbd-lay-lab"[^>]*>.*?data-lay="dvorak"[^>]*>.*?</button>',
     re.S)
+# Task#11 起控制行新增的「练习模式」快捷入口组（Reddit r/SideProject 反馈：
+# Dvorak/单手/证书模式藏在页脚找不到，建议放到文本选项旁）。
+# 有意的功能性新增，基线里不存在；链接有效性由 check 8 + check 12 守卫，不污染 check 9。
+PRACTICE_CTRL_RE = re.compile(
+    r'\n *<div class="ctrl-group">\n *<span class="ctrl-label" data-i18n="practice">.*?\n *</div>',
+    re.S)
 # ui.js/egg.js 的缓存版本号是部署期参数，不是 HTML 语义；对比前归一化。
 ASSET_VER_RE = re.compile(r'(src="(?:ui|egg)\.js\?)v=\d+(")', re.S)
 # Task#6 起全站 head 新增的 PWA/图标引用（favicon、apple-touch、manifest）。
@@ -81,6 +87,7 @@ def strip_a11y(html: str) -> str:
     html = WIDTH_CTRL_RE.sub("", html)
     html = CERT_BTN_RE.sub("", html)
     html = LAYOUT_CTRL_RE.sub("", html)
+    html = PRACTICE_CTRL_RE.sub("", html)
     html = ASSET_VER_RE.sub(r'\1v\2', html)
     html = html.replace(' type="button"', "")
     for lit in A11Y_LABELS:
