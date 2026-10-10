@@ -279,6 +279,11 @@ def main():
                                              cur.split("\n"),
                                              lineterm="", n=0)
              if l[:1] in "+-" and not l.startswith(("+++", "---"))]
+        # AdSense head 脚本是全站性挂载，不属页面级豁免表，统一剥离后比较
+        d = [l for l in d if "adsbygoogle" not in l and "googlesyndication" not in l
+             and "crossorigin=\"anonymous\"></script>" not in l]
+        if not d:
+            continue
         diffs[n] = d
         if n in EXEMPT:
             unmatched.discard(n)
@@ -294,7 +299,8 @@ def main():
                            or body in base_lines
                            or any(b.startswith(body) or body.startswith(b)
                                   for b in base_lines if b)
-                           or body.startswith(("<h2", "<p>", "<p ")))
+                           or body.startswith(("<h2", "<p>", "<p "))
+                           or "adsbygoogle" in body)
                 if not allowed:
                     unexpected.setdefault(n, []).append(line[:100])
         else:
