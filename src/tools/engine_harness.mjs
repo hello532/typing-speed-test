@@ -424,6 +424,37 @@ console.log('\n=== P3: 五语练习池规模 + 按语言实际取样 ===');
   ctx.reset();
 }
 
+
+/* ── Dvorak 布局特性：布局注入 + 字符集/指法表覆盖（防回归）── */
+{
+  const eng = fs.readFileSync(path.join(root, 'src', 'engine.js'), 'utf8');
+  const dvPage = fs.readFileSync(path.join(root, 'dvorak-typing.html'), 'utf8');
+  const qwPage = fs.readFileSync(path.join(root, '1-minute-typing-test.html'), 'utf8');
+  assert(/layout="dvorak", VARIANT=/.test(dvPage), 'dvorak 页注入 layout="dvorak"');
+  assert(/layout="qwerty", VARIANT=/.test(qwPage), '普通页注入 layout="qwerty"');
+  // DVORAK_ROWS：物理 QWERTY 位置 → Dvorak 键面，三行长度 12/11/10
+  const rowsM = eng.match(/DVORAK_ROWS=(\[.*?\]);/);
+  assert(rowsM, 'DVORAK_ROWS 三行表存在于引擎源');
+  const rows = JSON.parse(rowsM[1]);
+  assert(rows.length === 3 && rows.map(r => r.length).join(',') === '12,11,10',
+    `DVORAK_ROWS 行长 ${rows.map(r => r.length).join(',')}（期望 12,11,10）`);
+  const letters = rows.join('').replace(/[^A-Za-z]/g, '');
+  assert(new Set(letters).size === 26 && letters.length === 26,
+    `DVORAK_ROWS 含 26 字母无重复（实际 ${new Set(letters).size}）`);
+  // DVORAK_FINGER 必须覆盖 DVORAK_ROWS 里每个字符 + 空格
+  const fm = eng.match(/DVORAK_FINGER=\{[\s\S]*?\};/);
+  assert(fm, 'DVORAK_FINGER 指法表存在于引擎源');
+  const finger = eval('(' + fm[0].slice('DVORAK_FINGER='.length).replace(/;$/, '') + ')');
+  const chars = [...new Set(rows.join('') + ' ')];
+  const missing = chars.filter(c => !(c in finger));
+  assert(missing.length === 0, `DVORAK_FINGER 覆盖全部键面字符（缺 ${missing.join('')}）`);
+  // buildKbd/highlightKey 必须按布局选表
+  assert(/rows=layoutRows\(\)/.test(eng) && /layoutFinger\(\)\[ch\]/.test(eng),
+    'buildKbd 与 highlightKey 按当前布局选行/指法表');
+  // charCode 编码键名：Dvorak 键面含 ' 会破坏 data-k 属性
+  assert(/data-k="\'\+c\.charCodeAt\(0\)/.test(eng), '键名用 charCode 编码（兼容 Dvorak 键面的单引号）');
+}
+
 console.log(`\n${'─'.repeat(60)}`);
 console.log(`结果: ${passed} passed, ${failed} failed`);
 process.exit(failed ? 1 : 0);

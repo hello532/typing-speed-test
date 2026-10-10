@@ -46,6 +46,8 @@
 - [Custom Typing Test](https://typing.rerivo.com/custom-typing-test.html): Free customizable typing test - duration, text type, language, theme and width.
 - [Typing Tests in Other Languages](https://typing.rerivo.com/typing-tests-in-other-languages.html): Free multilingual typing tests in Spanish, Chinese, Hindi, Arabic and English.
 - [Typing Certificate](https://typing.rerivo.com/typing-certificate.html): Free printable typing test certificate with WPM, accuracy, consistency and errors.
+- [Dvorak Typing Test](https://typing.rerivo.com/dvorak-typing.html): Typing test with an on screen Dvorak keyboard and QWERTY/Dvorak switch.
+- [One Hand Typing](https://typing.rerivo.com/one-hand-typing.html): One hand typing practice and speed test for a standard keyboard.
 
 ## About
 - Free, no registration, privacy-friendly (runs fully in the browser).

@@ -3266,6 +3266,193 @@
     }
    ],
    "ldPretty": []
+  },
+  {
+   "dur": 60,
+   "mode": "sentences",
+   "variant": null,
+   "nav": [
+    {
+     "href": "https://typing.rerivo.com/",
+     "text": "Home"
+    },
+    {
+     "href": "typing-lessons.html",
+     "text": "Typing Lessons"
+    },
+    {
+     "href": "typing-games.html",
+     "text": "Typing Games"
+    }
+   ],
+   "faqFirstOpen": true,
+   "webAppName": "Typing Speed Test",
+   "webAppUrl": "https://typing.rerivo.com/",
+   "ldPretty": [],
+   "file": "dvorak-typing.html",
+   "title": "Dvorak Typing Test - Practice & Measure Your Dvorak WPM",
+   "metaDesc": "Free Dvorak typing test. On-screen keyboard switches to the Dvorak layout so you can practice and measure WPM in Dvorak with finger guidance. QWERTY/Dvorak switch included, no sign up.",
+   "canonical": "https://typing.rerivo.com/dvorak-typing.html",
+   "crumbs": [
+    "Home",
+    "Dvorak Typing"
+   ],
+   "h1": "Dvorak Typing Test",
+   "layout": "dvorak",
+   "heroP": "Practice and measure your typing in <strong>Dvorak</strong>. The on screen keyboard below is already set to the Dvorak layout, with finger guidance mapped to Dvorak hand positions, so what you see matches what your system layout produces. Use the <strong>QWERTY / Dvorak</strong> switch in the keyboard toolbar any time. Switch your operating system to Dvorak, take the test, and get WPM, accuracy and consistency.",
+   "seo": [
+    {
+     "h2": "dvorak typing",
+     "p": [
+      "Most typing tests show a QWERTY keyboard, which is useless when you practice <strong>Dvorak typing</strong>: the label you need to find is not on the key you press. This test flips the on screen keyboard to the Dvorak layout, keeping the physical key positions of QWERTY and relabelling every key, so the hand you need to move matches the finger guide on screen exactly as a Dvorak user sees their own keyboard.",
+      "Nothing is installed and nothing changes your system: the test only draws the Dvorak keyboard on this page. Switch your operating system input to Dvorak, start typing, and the test scores you exactly as it would in QWERTY, because the measuring logic reads the characters your layout produces, not the keys."
+     ]
+    },
+    {
+     "h2": "Why switch to Dvorak",
+     "p": [
+      "August Dvorak designed the layout in the 1930s so the most common letters sit on the home row, which means less finger travel between rows for almost every English word. Typists who switch usually report less strain in long sessions, and many reach a higher comfortable speed once the new muscle memory settles, which takes roughly two to four weeks of daily practice.",
+      "The honest trade off: Dvorak helps most for people who type a lot of English prose. Shortcuts that assume QWERTY positions stay where they were physically, and shared or public keyboards are QWERTY by default, so most Dvorak users keep a fast way to switch back."
+     ]
+    },
+    {
+     "h2": "How to practice Dvorak typing",
+     "p": [
+      "Set your operating system layout to Dvorak first, otherwise you would be typing QWERTY text while looking at a Dvorak keyboard. Start with short sessions of two to five minutes, and resist the urge to look at your hands: the finger guides on this page exist exactly to replace that habit.",
+      "Expect your speed to drop well below your QWERTY speed for the first week; that drop is the switch cost, not a sign Dvorak is wrong for you. Track your WPM here each day and compare accuracy rather than raw speed, because accuracy recovers first and speed follows it."
+     ]
+    }
+   ],
+   "faqH2": "Dvorak typing FAQ",
+   "faq": [
+    {
+     "q": "Does this test switch my keyboard to Dvorak?",
+     "a": "No. The test only shows a Dvorak keyboard on this page; you switch your own operating system input to Dvorak in its keyboard or language settings. The test then scores what your layout produces."
+    },
+    {
+     "q": "Do I need an account or install anything?",
+     "a": "No. The Dvorak keyboard is drawn by the page itself, the test runs entirely in your browser, and your results are stored only in this browser."
+    },
+    {
+     "q": "Will my Dvorak WPM be lower than my QWERTY WPM?",
+     "a": "At first, yes, usually much lower. That is the cost of rebuilding muscle memory and it passes in a few weeks. Measure accuracy first; once accuracy is back to your normal level, speed follows."
+    },
+    {
+     "q": "Can I switch back to QWERTY on this page?",
+     "a": "Yes. The keyboard toolbar has a QWERTY and Dvorak switch and your choice is remembered in this browser, so the same page works for either layout."
+    },
+    {
+     "q": "Which keys move in Dvorak?",
+     "a": "The vowels A, O, E, U, I move to the middle row under the left hand, and common consonants like T, N, S and H move to the right hand. The full relabelling is drawn on the on screen keyboard above."
+    },
+    {
+     "q": "Is Dvorak faster than QWERTY?",
+     "a": "Evidence is mixed: most studies show a modest speed gain at the high end and clearer reductions in finger movement and strain. The main benefit people report is comfort in long typing sessions rather than a guaranteed speed jump."
+    }
+   ],
+   "bcItems": [
+    {
+     "item": "https://typing.rerivo.com/",
+     "name": "Home"
+    },
+    {
+     "item": "https://typing.rerivo.com/dvorak-typing.html",
+     "name": "Dvorak Typing"
+    }
+   ]
+  },
+  {
+   "dur": 60,
+   "mode": "sentences",
+   "variant": null,
+   "nav": [
+    {
+     "href": "https://typing.rerivo.com/",
+     "text": "Home"
+    },
+    {
+     "href": "typing-lessons.html",
+     "text": "Typing Lessons"
+    },
+    {
+     "href": "typing-games.html",
+     "text": "Typing Games"
+    }
+   ],
+   "faqFirstOpen": true,
+   "webAppName": "Typing Speed Test",
+   "webAppUrl": "https://typing.rerivo.com/",
+   "ldPretty": [],
+   "file": "one-hand-typing.html",
+   "title": "One Hand Typing - Practice & Speed Test for Single-Handed Typists",
+   "metaDesc": "Free one hand typing practice and speed test. Learn to type with one hand using the standard keyboard, with drills, technique and a WPM test that works for left hand or right hand typing. No sign up.",
+   "canonical": "https://typing.rerivo.com/one-hand-typing.html",
+   "crumbs": [
+    "Home",
+    "One Hand Typing"
+   ],
+   "h1": "One Hand Typing",
+   "heroP": "Learn and measure <strong>one hand typing</strong> on a normal keyboard. Whether you type with one hand because of an injury, a permanent condition, or simply a hand that is busy holding a coffee, the technique below lets you reach useful speeds without special hardware or chording software. Take the test with one hand and see where you are today.",
+   "seo": [
+    {
+     "h2": "one hand typing",
+     "p": [
+      "<strong>One hand typing</strong> on a standard QWERTY keyboard is a real, learnable skill. The idea is not to hunt and peck with one finger, but to assign each finger a fixed zone of the keyboard so your hand develops a repeatable map of where every letter lives. With practice, single hand typists reach 40 to 70 WPM, which is fast enough for almost all desk work.",
+      "You do not need a one handed keyboard or chord input software. The regular keyboard you already own is enough, because the technique is about hand position and practice, not hardware."
+     ]
+    },
+    {
+     "h2": "Hand position for one hand typing",
+     "p": [
+      "Put your four fingers on the home row of the side you use: left hand on A S D F, right hand on J K L semicolon. The thumb works the space bar. Each finger owns the keys in its column plus the row above and below, and the index finger stretches across the middle column to cover the keys on the far side.",
+      "The stretch is the hard part at first, especially the keys farthest from your little finger. Slow drills at first are normal; speed comes from accuracy, because a hand that returns to home row after every key does not need to look down."
+     ]
+    },
+    {
+     "h2": "How fast can one hand typing get",
+     "p": [
+      "Beginners hunting with one finger sit near 15 to 25 WPM. With proper finger zones and a few weeks of short daily sessions, 35 to 50 WPM is common. Experienced one hand typists who type all day reach 60 to 70 WPM and occasionally higher.",
+      "Measure honestly with the test on this page: run a one minute test with one hand only, and record your accuracy beside your WPM. Accuracy below 90 percent usually means you are reaching for speed before the map is settled, so slow down until accuracy rises and let speed follow."
+     ]
+    }
+   ],
+   "faqH2": "One hand typing FAQ",
+   "faq": [
+    {
+     "q": "Can I really type fast with one hand?",
+     "a": "Yes. With fixed finger zones and practice, one hand typists commonly reach 40 to 60 WPM and experienced ones 70 WPM or more. The key is using all fingers of that hand, not one finger hunting."
+    },
+    {
+     "q": "Do I need a special one handed keyboard?",
+     "a": "No. The technique works on any standard QWERTY keyboard. Specialised hardware can help for some people, but it is not required to reach useful speeds."
+    },
+    {
+     "q": "Should I learn left hand or right hand typing?",
+     "a": "Use the hand you have. The finger zone method works symmetrically for either side; the test here does not care which hand presses the keys."
+    },
+    {
+     "q": "How long does it take to learn one hand typing?",
+     "a": "Basic fluency in two to four weeks with fifteen to twenty minutes a day. Getting back to your two hand speed takes longer, but useful working speed arrives faster than most people expect."
+    },
+    {
+     "q": "Is this test suitable for injured hands?",
+     "a": "The test is self paced and as short as 15 seconds, so you can use it within whatever your recovery allows. It is not medical advice; follow your clinician's guidance about how much to type while healing."
+    },
+    {
+     "q": "How do I track progress?",
+     "a": "Results are saved in this browser automatically, so run a one minute test every few days and watch the history table for your WPM and accuracy trend."
+    }
+   ],
+   "bcItems": [
+    {
+     "item": "https://typing.rerivo.com/",
+     "name": "Home"
+    },
+    {
+     "item": "https://typing.rerivo.com/one-hand-typing.html",
+     "name": "One Hand Typing"
+    }
+   ]
   }
  ]
 }

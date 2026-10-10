@@ -143,8 +143,9 @@ def inject_variant(page, engine, variants):
     else:
         vjson, pjson = "null", "null"
 
-    pat = r'var dur=\d+, mode="\w+", VARIANT=null, VPOOL=null;/\*VAR_INIT\*/'
-    repl = (f'var dur={page["dur"]}, mode="{page["mode"]}", '
+    pat = r'var dur=\d+, mode="\w+", layout="\w+", VARIANT=null, VPOOL=null;/\*VAR_INIT\*/'
+    lay = page.get("layout") or "qwerty"
+    repl = (f'var dur={page["dur"]}, mode="{page["mode"]}", layout="{lay}", '
             f'VARIANT={vjson}, VPOOL={pjson};/*VAR_INIT*/')
     out, n = re.subn(pat, lambda m: repl, engine, count=1)
     if n == 0:

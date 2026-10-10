@@ -194,7 +194,7 @@ html[data-theme="ocean"]{
 .kbd-size.on{background:var(--accentdim);border-color:var(--accent);color:var(--accent);}
 .kbd{--ks:1;display:flex;flex-direction:column;align-items:center;gap:calc(6px*var(--ks));user-select:none;}
 .kbd-row{display:flex;gap:calc(6px*var(--ks));}
-.key{position:relative;display:inline-flex;align-items:center;justify-content:center;min-width:calc(36px*var(--ks));height:calc(40px*var(--ks));padding:0 calc(5px*var(--ks));border-radius:9px;background:var(--panel2);border:1px solid var(--line);border-bottom:3px solid var(--fc,var(--line));color:var(--dim);font-size:calc(.84rem*var(--ks));font-family:var(--mono);text-transform:uppercase;transition:transform .1s,background .1s,color .1s,box-shadow .1s;}
+.key{position:relative;display:inline-flex;align-items:center;justify-content:center;min-width:calc(34px*var(--ks));height:calc(40px*var(--ks));padding:0 calc(5px*var(--ks));flex:1 0 auto;border-radius:9px;background:var(--panel2);border:1px solid var(--line);border-bottom:3px solid var(--fc,var(--line));color:var(--dim);font-size:calc(.84rem*var(--ks));font-family:var(--mono);text-transform:uppercase;transition:transform .1s,background .1s,color .1s,box-shadow .1s;}
 .key-space{min-width:calc(220px*var(--ks));text-transform:lowercase;letter-spacing:2px;font-size:calc(.74rem*var(--ks));}
 .key.next{background:var(--accent);color:#241c00;border-color:var(--accent);box-shadow:0 0 0 3px var(--accentdim),0 7px 18px -6px var(--accentglow);transform:translateY(-2px);font-weight:800;}
 .f-LP{--fc:#f7768e;}.f-LR{--fc:#e0af68;}.f-LM{--fc:#9ece6a;}.f-LI{--fc:#73daca;}.f-RI{--fc:#7dcfff;}.f-RM{--fc:#7aa2f7;}.f-RR{--fc:#bb9af7;}.f-RP{--fc:#ff9e64;}.f-TH{--fc:#9aa5ce;}
@@ -298,7 +298,7 @@ html[data-theme="ocean"]{
       <div class="refocus" data-i18n="resume">Click to resume</div>
     </div>
     <div class="kbd-wrap" id="kbdWrap" aria-hidden="true">
-      <div class="kbd-tools"><span class="lab" data-i18n="kbd_size">Keyboard</span><button type="button" class="kbd-size" data-ks="s" aria-label="Small">S</button><button type="button" class="kbd-size" data-ks="m" aria-label="Medium">M</button><button type="button" class="kbd-size" data-ks="l" aria-label="Large">L</button><button type="button" class="snd-toggle" id="sndToggle" aria-pressed="false" title="Typing sound"><span data-i18n="sound">Sound</span>: <b class="snd-state">off</b></button></div>
+      <div class="kbd-tools"><span class="lab" data-i18n="kbd_size">Keyboard</span><button type="button" class="kbd-size" data-ks="s" aria-label="Small">S</button><button type="button" class="kbd-size" data-ks="m" aria-label="Medium">M</button><button type="button" class="kbd-size" data-ks="l" aria-label="Large">L</button><button type="button" class="snd-toggle" id="sndToggle" aria-pressed="false" title="Typing sound"><span data-i18n="sound">Sound</span>: <b class="snd-state">off</b></button><span class="lab kbd-lay-lab" data-i18n="kbd_layout">Layout</span><button type="button" class="kbd-size kbd-layout on" data-lay="qwerty" aria-pressed="true">QWERTY</button><button type="button" class="kbd-size kbd-layout" data-lay="dvorak" aria-pressed="false">Dvorak</button></div>
       <div class="kbd" id="kbd"></div>
       <div class="hands" id="hands"></div>
     </div>
@@ -352,7 +352,7 @@ html[data-theme="ocean"]{
   <footer>
     <a href="/">Typing.Rerivo</a> · Free online WPM typing test ·
     <a href="typing-games.html">Games</a> · <a href="typing-lessons.html">Lessons</a> · <a href="learn-to-type-faster.html">Learn Faster</a> · <a href="typing-tips.html">Tips</a> ·
-    <a href="30-second-typing-test.html">30s</a> · <a href="1-minute-typing-test.html">1 min</a> · <a href="2-minute-typing-test.html">2 min</a> · <a href="3-minute-typing-test.html">3 min</a> · <a href="5-minute-typing-test.html">5 min</a> · <a href="10-minute-typing-test.html">10 min</a> · <a href="words-per-minute-test.html">WPM</a> · <a href="wpm-test-online.html">WPM Online</a> · <a href="number-typing-test.html">Numbers</a> · <a href="english-typing-test.html">English</a> · <a href="spanish-typing-test.html">Spanish</a> · <a href="chinese-typing-test.html">Chinese</a> · <a href="hindi-typing-test.html">Hindi</a> · <a href="arabic-typing-test.html">Arabic</a> · <a href="keyboard-typing-test.html">Keyboard</a> · <a href="capital-letter-typing-test.html">Capitals</a> · <a href="punctuation-typing-test.html">Punctuation</a> · <a href="typing-test-game.html">Game</a> · <a href="typing-accuracy-test.html">Accuracy</a> · <a href="online-typing-test.html">Online</a> · <a href="free-typing-test.html">Free</a> · <a href="easy-typing-test.html">Easy</a> · <a href="touch-typing-test.html">Touch Typing</a> · <a href="typing-race.html">Race</a> · <a href="typing-tutorial.html">Tutorial</a> · <a href="typing-tutor.html">Tutor</a> · <a href="learn-to-type.html">Learn</a> · <a href="typing-trainer.html">Trainer</a> · <a href="custom-typing-test.html">Custom</a> · <a href="typing-tests-in-other-languages.html">Languages</a> · <a href="typing-certificate.html">Certificate</a> · <a href="typing-practice.html">Practice</a>
+    <a href="30-second-typing-test.html">30s</a> · <a href="1-minute-typing-test.html">1 min</a> · <a href="2-minute-typing-test.html">2 min</a> · <a href="3-minute-typing-test.html">3 min</a> · <a href="5-minute-typing-test.html">5 min</a> · <a href="10-minute-typing-test.html">10 min</a> · <a href="words-per-minute-test.html">WPM</a> · <a href="wpm-test-online.html">WPM Online</a> · <a href="number-typing-test.html">Numbers</a> · <a href="english-typing-test.html">English</a> · <a href="spanish-typing-test.html">Spanish</a> · <a href="chinese-typing-test.html">Chinese</a> · <a href="hindi-typing-test.html">Hindi</a> · <a href="arabic-typing-test.html">Arabic</a> · <a href="keyboard-typing-test.html">Keyboard</a> · <a href="capital-letter-typing-test.html">Capitals</a> · <a href="punctuation-typing-test.html">Punctuation</a> · <a href="typing-test-game.html">Game</a> · <a href="typing-accuracy-test.html">Accuracy</a> · <a href="online-typing-test.html">Online</a> · <a href="free-typing-test.html">Free</a> · <a href="easy-typing-test.html">Easy</a> · <a href="touch-typing-test.html">Touch Typing</a> · <a href="typing-race.html">Race</a> · <a href="typing-tutorial.html">Tutorial</a> · <a href="typing-tutor.html">Tutor</a> · <a href="learn-to-type.html">Learn</a> · <a href="typing-trainer.html">Trainer</a> · <a href="custom-typing-test.html">Custom</a> · <a href="typing-tests-in-other-languages.html">Languages</a> · <a href="typing-certificate.html">Certificate</a> · <a href="dvorak-typing.html">Dvorak</a> · <a href="one-hand-typing.html">One Hand</a> · <a href="typing-practice.html">Practice</a>
   </footer>
 </div>
 
@@ -3866,7 +3866,7 @@ var elText=document.getElementById("text"), elIn=document.getElementById("input"
     elT=document.getElementById("sTime"), elW=document.getElementById("sWpm"), elA=document.getElementById("sAcc"),
     elHint=document.getElementById("hint"), elRes=document.getElementById("resultPanel"),
     chipsD=document.querySelectorAll(".dur"), chipsM=document.querySelectorAll(".mode");
-var dur=60, mode="sentences", VARIANT="tutor", VPOOL={"sentences":["A good typing tutor watches the keys so your eyes do not have to.","The tutor prints your WPM after every drill and asks one question: which keys were slow?","Open the tutor, pick a drill, and let the timer do the teaching.","Every drill in this tutor ends with the numbers that matter: speed, accuracy, and errors.","Your tutor never sleeps and never charges; repeat a drill a hundred times if you like.","The tutor marks each missed key in red so your eyes find the problem before your fingers do.","A drill is a short loop: type it, read the score, then type it again.","The tutor does not care about yesterday; it only reads the line in front of you.","Start a drill at half speed and let the tutor confirm your accuracy before you rush.","When your accuracy passes ninety eight percent, the tutor will tell you to go faster.","The tutor keeps your best score in the browser, and every drill is a chance to beat it.","Do not study the keyboard; study the drill, and let the tutor study the keyboard for you.","A typing tutor turns twenty spare minutes into a habit that pays you back for years.","The tutor gives you the same drill the professionals use: home row, then rows, then real text.","Your weakest key is the only lesson the tutor cares about today.","The tutor rewards repetition, because a keystroke repeated correctly a thousand times becomes permanent.","Take the tutor's drill before you start work and your hands will be warm by the first email.","The tutor will not let you hide a slow key; the error report names every one of them.","Pick one drill, finish it, read the score, and the tutor has already done its job.","A tutor is a mirror for your hands; it shows you what they did, not what you meant.","The tutor's favorite student is the one who comes back tomorrow.","Run the same drill for a week and the tutor will show you a curve you did not expect.","The tutor counts errors as lessons, not as failures.","Let the tutor set the pace for the first month; your ambition can set it after that.","Every drill is a conversation: you type, the tutor answers with numbers.","The tutor knows you are slow on the left ring finger, and it has a drill waiting.","Trust the tutor's error report more than your own feeling of speed.","The tutor's drills are short on purpose; a bored hand is a hand that is learning.","Finish the drill, breathe, and start the next one before doubt arrives.","A typing tutor is the cheapest employee you will ever hire: free, honest, and always on time.","The tutor will never say you are done; it will only offer the next drill.","Score chasing is the tutor's trick to make you practice without noticing.","The tutor turns 'I should practice' into 'I just did'.","Let the tutor watch your accuracy, and let your pride watch the WPM.","Drills build the floor; the tutor keeps raising the ceiling.","The tutor's report is short on purpose: three numbers, one decision.","Every keystroke in a drill is a vote for the typist you are becoming.","The tutor does not grade on curve; your score is your score, and tomorrow is a retake.","Practice with the tutor until the drill is boring, then practice it once more.","A drill finished is a promise kept; the tutor keeps the count.","The tutor gives you the drill, the timer, and the truth.","Your hands know more than you think; the tutor just asks them to prove it."],"quotes":["Practice the difficult passages until they are easy; that is the whole secret of a tutor. — piano instructor","The tutor's job is not to make it easy, but to make the hard things habitual. — old schoolmaster","Repetition is the mother of learning, and the tutor is its clerk. — Russian proverb","A good tutor shows you what you did, not what you intended. — coach's notebook","We are what we repeatedly do; excellence, then, is not an act but a habit. — Will Durant"]};/*VAR_INIT*/
+var dur=60, mode="sentences", layout="qwerty", VARIANT="tutor", VPOOL={"sentences":["A good typing tutor watches the keys so your eyes do not have to.","The tutor prints your WPM after every drill and asks one question: which keys were slow?","Open the tutor, pick a drill, and let the timer do the teaching.","Every drill in this tutor ends with the numbers that matter: speed, accuracy, and errors.","Your tutor never sleeps and never charges; repeat a drill a hundred times if you like.","The tutor marks each missed key in red so your eyes find the problem before your fingers do.","A drill is a short loop: type it, read the score, then type it again.","The tutor does not care about yesterday; it only reads the line in front of you.","Start a drill at half speed and let the tutor confirm your accuracy before you rush.","When your accuracy passes ninety eight percent, the tutor will tell you to go faster.","The tutor keeps your best score in the browser, and every drill is a chance to beat it.","Do not study the keyboard; study the drill, and let the tutor study the keyboard for you.","A typing tutor turns twenty spare minutes into a habit that pays you back for years.","The tutor gives you the same drill the professionals use: home row, then rows, then real text.","Your weakest key is the only lesson the tutor cares about today.","The tutor rewards repetition, because a keystroke repeated correctly a thousand times becomes permanent.","Take the tutor's drill before you start work and your hands will be warm by the first email.","The tutor will not let you hide a slow key; the error report names every one of them.","Pick one drill, finish it, read the score, and the tutor has already done its job.","A tutor is a mirror for your hands; it shows you what they did, not what you meant.","The tutor's favorite student is the one who comes back tomorrow.","Run the same drill for a week and the tutor will show you a curve you did not expect.","The tutor counts errors as lessons, not as failures.","Let the tutor set the pace for the first month; your ambition can set it after that.","Every drill is a conversation: you type, the tutor answers with numbers.","The tutor knows you are slow on the left ring finger, and it has a drill waiting.","Trust the tutor's error report more than your own feeling of speed.","The tutor's drills are short on purpose; a bored hand is a hand that is learning.","Finish the drill, breathe, and start the next one before doubt arrives.","A typing tutor is the cheapest employee you will ever hire: free, honest, and always on time.","The tutor will never say you are done; it will only offer the next drill.","Score chasing is the tutor's trick to make you practice without noticing.","The tutor turns 'I should practice' into 'I just did'.","Let the tutor watch your accuracy, and let your pride watch the WPM.","Drills build the floor; the tutor keeps raising the ceiling.","The tutor's report is short on purpose: three numbers, one decision.","Every keystroke in a drill is a vote for the typist you are becoming.","The tutor does not grade on curve; your score is your score, and tomorrow is a retake.","Practice with the tutor until the drill is boring, then practice it once more.","A drill finished is a promise kept; the tutor keeps the count.","The tutor gives you the drill, the timer, and the truth.","Your hands know more than you think; the tutor just asks them to prove it."],"quotes":["Practice the difficult passages until they are easy; that is the whole secret of a tutor. — piano instructor","The tutor's job is not to make it easy, but to make the hard things habitual. — old schoolmaster","Repetition is the mother of learning, and the tutor is its clerk. — Russian proverb","A good tutor shows you what you did, not what you intended. — coach's notebook","We are what we repeatedly do; excellence, then, is not an act but a habit. — Will Durant"]};/*VAR_INIT*/
 var chars=[], timer=null, startAt=0, finished=false, totalTyped=0;
 var errTotal=0;            /* 累计打错次数（单调不减）——结果面板 Errors 用它 */
 var wpmSamples=[]; var _prevLen=0;
@@ -4016,7 +4016,13 @@ function renderHist(rows){
   });
 }
 var KB_ROWS=["qwertyuiop","asdfghjkl","zxcvbnm"];
+var DVORAK_ROWS=["',.pyfgcrl/=","aoeuidhtns-",";qjkxbmwvz"];   /* 键面字符按物理 QWERTY 位置排列 */
 var FINGER={q:"LP",a:"LP",z:"LP",w:"LR",s:"LR",x:"LR",e:"LM",d:"LM",c:"LM",r:"LI",f:"LI",v:"LI",t:"LI",g:"LI",b:"LI",y:"RI",h:"RI",n:"RI",u:"RI",j:"RI",m:"RI",i:"RM",k:"RM",o:"RR",l:"RR",p:"RP"," ":"TH"};
+var DVORAK_FINGER={"'":"LP",",":"LP",".":"LM",p:"RI",y:"LI",f:"RI",g:"RI",c:"RM",r:"RR",l:"RP","/":"RP","=":"RP",
+  a:"LP",o:"LP",e:"LM",u:"RI",i:"LI",d:"RI",h:"RI",t:"RM",n:"RR",s:"RR","-":"RP",
+  ";":"LP",q:"LP",j:"LM",k:"RI",x:"LI",b:"RI",m:"RI",w:"LM",v:"RM",z:"RR"," ":"TH"};
+function layoutRows(){return layout==="dvorak"?DVORAK_ROWS:KB_ROWS;}
+function layoutFinger(){return layout==="dvorak"?DVORAK_FINGER:FINGER;}
 var KSIZE={s:1,m:1.3,l:1.65};
 function applyKbdSize(sz){
   var k=KSIZE[sz]?sz:"m", wrap=document.getElementById("kbdWrap"); if(!wrap)return;
@@ -4028,10 +4034,11 @@ var HAND_TIPS=[['LP',40,32],['LR',78,18],['LM',126,16],['LI',174,22],['TH',214,1
 function buildHands(){var h=document.getElementById("hands");if(!h)return;var s='<div class="hands-wrap"><img class="hands-img" src="hands.png?v=202610020900" alt="finger position guide"><svg class="hands-ov" viewBox="0 0 486 265" aria-hidden="true">';for(var i=0;i<HAND_TIPS.length;i++){var t=HAND_TIPS[i];s+='<circle class="fg" data-f="'+t[0]+'" cx="'+t[1]+'" cy="'+t[2]+'" r="15"></circle>';}h.innerHTML=s+'</svg></div>';}
 function buildKbd(){
   var kb=document.getElementById("kbd"); if(!kb)return;
+  var rows=layoutRows(), fg=layoutFinger();
   var html="",r,i,c;
-  for(r=0;r<KB_ROWS.length;r++){
-    html+='<div class="kbd-row">'; var row=KB_ROWS[r];
-    for(i=0;i<row.length;i++){ c=row[i]; html+='<span class="key f-'+(FINGER[c]||"")+'" data-k="'+c+'">'+c+'</span>'; }
+  for(r=0;r<rows.length;r++){
+    html+='<div class="kbd-row">'; var row=rows[r];
+    for(i=0;i<row.length;i++){ c=row[i]; html+='<span class="key f-'+(fg[c]||"")+'" data-k="'+c.charCodeAt(0)+'">'+c+'</span>'; }
     html+='</div>';
   }
   html+='<div class="kbd-row"><span class="key key-space f-TH" data-k=" ">space</span></div>';
@@ -4040,6 +4047,23 @@ function buildKbd(){
   applyKbdSize(sz);
   var bs=document.querySelectorAll(".kbd-size");
   for(i=0;i<bs.length;i++){(function(b){b.addEventListener("click",function(){applyKbdSize(b.getAttribute("data-ks"));});})(bs[i]);}
+  /* 布局切换：页面默认优先（dvorak 页注入 layout="dvorak"），用户选择持久化 */
+  var ls=document.querySelectorAll(".kbd-layout");
+  for(i=0;i<ls.length;i++){(function(b){
+    b.addEventListener("click",function(){
+      layout=b.getAttribute("data-lay");
+      try{localStorage.setItem("kbdLayout",layout);}catch(e){}
+      buildKbd(); highlightKey();
+      var l2=document.querySelectorAll(".kbd-layout"); for(var j=0;j<l2.length;j++){var on=l2[j].getAttribute("data-lay")===layout; l2[j].classList.toggle("on",on); l2[j].setAttribute("aria-pressed",on?"true":"false");}
+    });
+  })(ls[i]);}
+  var saved=null; try{saved=localStorage.getItem("kbdLayout");}catch(e){}
+  if(saved==="qwerty"||saved==="dvorak") layout=saved;
+  for(i=0;i<ls.length;i++){var on=ls[i].getAttribute("data-lay")===layout; ls[i].classList.toggle("on",on); ls[i].setAttribute("aria-pressed",on?"true":"false");}
+  if(layout==="dvorak"){ var kb2=document.getElementById("kbd"); if(kb2 && kb2.getAttribute("data-cur")!=="dvorak"){kb2.setAttribute("data-cur","dvorak"); var rows=layoutRows(),fg2=layoutFinger(),h2="",r2,i2,c2;
+    for(r2=0;r2<rows.length;r2++){h2+='<div class="kbd-row">'; var row=rows[r2];
+      for(i2=0;i2<row.length;i2++){c2=row[i2]; h2+='<span class="key f-'+(fg2[c2]||"")+'" data-k="'+c2.charCodeAt(0)+'">'+c2+'</span>';} h2+='</div>';}
+    kb2.innerHTML=h2;}}
 }
 function highlightKey(){
   var kb=document.getElementById("kbd"); if(!kb)return;
@@ -4048,9 +4072,9 @@ function highlightKey(){
   if(finished)return;
   var c=chars[totalTyped]; if(!c)return;
   var ch=(c.t||"").toLowerCase(), el=null;
-  try{ el = ch===" " ? kb.querySelector(".key-space") : kb.querySelector('.key[data-k="'+ch.replace(/["\\]/g,'')+'"]'); }catch(e){}
+  try{ el = ch===" " ? kb.querySelector(".key-space") : kb.querySelector('.key[data-k="'+ch.charCodeAt(0)+'"]'); }catch(e){}
   if(el)el.classList.add("next");
-  var fg=FINGER[ch]; if(fg){var fe=document.querySelectorAll('.fg[data-f="'+fg+'"]'); for(i=0;i<fe.length;i++)fe[i].classList.add("active");}
+  var fg=layoutFinger()[ch]; if(fg){var fe=document.querySelectorAll('.fg[data-f="'+fg+'"]'); for(i=0;i<fe.length;i++)fe[i].classList.add("active");}
 }
 function clearChart(){var cv=document.getElementById("wpmChart");if(cv){cv.getContext("2d").clearRect(0,0,cv.width,cv.height);}}
 function drawChart(){
