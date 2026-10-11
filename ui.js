@@ -84,6 +84,11 @@ var POOL={"en":{"sentences":["Learning to type quickly is a skill that helps stu
 };for(var key in S){var R=S[key];for(var k in R){if(I18N[k])I18N[k][key]=R[k];}}})();
 (function(){var G={btn_img:{en:"Save image",zh:"保存成绩图",es:"Guardar imagen",hi:"इमेज सहेजें",ar:"حفظ الصورة"}};for(var key in G){var R=G[key];for(var k in R){if(I18N[k])I18N[k][key]=R[k];}}})();
 (function(){var Wk={btn_weak:{en:"Practice weak keys",zh:"专练弱键",es:"Practicar teclas débiles",hi:"कमज़ोर कुंजियाँ अभ्यास",ar:"تدريب المفاتيح الضعيفة"}};for(var key in Wk){var R=Wk[key];for(var k in R){if(I18N[k])I18N[k][key]=R[k];}}})();
+(function(){var Ct={
+ custom_text:{en:"Custom text",zh:"自定义文本",es:"Texto personalizado",hi:"कस्टम पाठ",ar:"نص مخصص"},
+ custom_use:{en:"Use this text",zh:"用这段文本",es:"Usar este texto",hi:"इस पाठ का उपयोग करें",ar:"استخدم هذا النص"},
+ custom_clear:{en:"Clear",zh:"清除",es:"Borrar",hi:"हटाएँ",ar:"مسح"}
+};for(var key in Ct){var R=Ct[key];for(var k in R){if(I18N[k])I18N[k][key]=R[k];}}})();
 var LANGS=["en","zh","es","hi","ar"];
 var WIDTHS=["std","wide","xwide","fluid"];
 var THEMES=[["dark","🌙"],["light","☀️"],["ocean","🌊"],["sepia","📖"],["green","🌿"]];

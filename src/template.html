@@ -75,6 +75,14 @@
         <button type="button" class="chip width" data-w="fluid" data-i18n="w_fluid" aria-pressed="false">Full</button>
       </div>
     </div>
+    <details class="custombox">
+      <summary data-i18n="custom_text">Custom text</summary>
+      <textarea id="customInput" rows="3" placeholder="Paste any text to practice…" aria-label="Custom text"></textarea>
+      <div class="custom-actions">
+        <button type="button" class="chip" id="btnCustom" data-i18n="custom_use">Use this text</button>
+        <button type="button" class="chip" id="btnCustomClear" data-i18n="custom_clear">Clear</button>
+      </div>
+    </details>
 
     <div class="stats">
       <div class="stat"><div class="num accent" id="sTime" role="timer" aria-label="Time remaining" data-aria="timer_aria">{{STIME}}</div><div class="lab" data-i18n="st_time">Time</div></div>
@@ -107,7 +115,7 @@
 <script>
 {{ENGINE}}
 </script>
-<script src="ui.js?v=202610111640" defer></script>
+<script src="ui.js?v=202610111710" defer></script>
 <script src="egg.js?v=202610090900" defer></script>
 </body>
 </html>

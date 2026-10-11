@@ -303,6 +303,15 @@ body.typing-active footer{opacity:.26;filter:saturate(.72);pointer-events:none;}
 .achv-b{display:inline-flex;align-items:center;justify-content:center;width:38px;height:38px;border-radius:10px;background:var(--panel2);border:1px solid var(--line);font-size:1.1rem;filter:grayscale(1);opacity:.4;transition:all .2s;cursor:default;}
 .achv-b.on{filter:none;opacity:1;border-color:var(--accent);background:var(--accentdim);}
 .achv-b.newly{animation:pbpop .5s ease;box-shadow:0 0 0 3px var(--accentdim);}
+/* ---------- 竞品级：自定义文本练习（粘贴任意文本 / URL 分享）---------- */
+.custombox{max-width:720px;margin:14px auto 0;border:1px solid var(--line);border-radius:var(--radius-sm);background:var(--panel2);padding:0 14px;}
+.custombox>summary{cursor:pointer;padding:10px 2px;font-size:.82rem;font-weight:700;color:var(--soft);list-style:none;text-transform:uppercase;letter-spacing:1px;}
+.custombox>summary::-webkit-details-marker{display:none;}
+.custombox>summary::before{content:"\270E  ";}
+.custombox[open]{padding-bottom:14px;}
+#customInput{width:100%;box-sizing:border-box;min-height:72px;resize:vertical;background:var(--bg2);color:var(--text);border:1px solid var(--line);border-radius:8px;padding:10px 12px;font-family:var(--font);font-size:.92rem;line-height:1.5;}
+#customInput:focus{outline:none;border-color:var(--accent);}
+.custom-actions{display:flex;gap:8px;margin-top:9px;}
 </style>
 <script>try{var _t=localStorage.getItem("trTheme");if(_t&&_t!=="dark")document.documentElement.setAttribute("data-theme",_t);var _l=localStorage.getItem("trLang");if(_l&&_l!=="en"){document.documentElement.lang=_l;if(_l==="ar")document.documentElement.dir="rtl";}}catch(e){}</script>
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1401237223139327"
@@ -360,6 +369,14 @@ body.typing-active footer{opacity:.26;filter:saturate(.72);pointer-events:none;}
         <button type="button" class="chip width" data-w="fluid" data-i18n="w_fluid" aria-pressed="false">Full</button>
       </div>
     </div>
+    <details class="custombox">
+      <summary data-i18n="custom_text">Custom text</summary>
+      <textarea id="customInput" rows="3" placeholder="Paste any text to practice…" aria-label="Custom text"></textarea>
+      <div class="custom-actions">
+        <button type="button" class="chip" id="btnCustom" data-i18n="custom_use">Use this text</button>
+        <button type="button" class="chip" id="btnCustomClear" data-i18n="custom_clear">Clear</button>
+      </div>
+    </details>
 
     <div class="stats">
       <div class="stat"><div class="num accent" id="sTime" role="timer" aria-label="Time remaining" data-aria="timer_aria">1:00</div><div class="lab" data-i18n="st_time">Time</div></div>
@@ -3978,6 +3995,7 @@ var combo=0, score=0, level=1, bestCombo=0;   /* game：连击 / 分数 / 等级
 var keyErrors={};                /* accuracy：错键分布 target->count */
 var keyTime={}, _lastKeyTs=0;    /* 慢键分析：target->{n,s(ms)} + 上次击键时刻 */
 var weakMode=false;              /* 弱键定向练习：按历史最常错键加权出词 */
+var customText=null;             /* 自定义文本练习：非 null 时整段文本一次性铺入、打完即结束 */
 /* 无限文本流：初始铺满首屏，之后只要光标前方余量不足 LOOKAHEAD 就尾部追加一个 chunk。
    追加只发生在末尾，已输入部分的 chars[i] ↔ v[i] 索引对应关系不受影响。 */
 var INIT_CHARS=240, LOOKAHEAD=80;
@@ -4011,12 +4029,19 @@ function pushChunk(){
   elText.appendChild(frag);
   return c.length;
 }
+function pushCustomText(){
+  var frag=document.createDocumentFragment(),i,sp,c=customText||"";
+  for(i=0;i<c.length;i++){sp=document.createElement("span");sp.textContent=c[i];chars.push({t:c[i],ok:false,el:sp});frag.appendChild(sp);}
+  elText.appendChild(frag);
+}
 function seedText(){
+  if(customText!=null){ if(!chars.length)pushCustomText(); return; }
   var guard=0;
   while(chars.length<INIT_CHARS&&guard++<20)pushChunk();
   if(!chars.length)pushChunk();
 }
 function ensureSupply(){
+  if(customText!=null)return;
   /* 光标前方余量低于 LOOKAHEAD 就续写；guard 防 nextChunk 返回空串时死循环 */
   var guard=0;
   while(chars.length-totalTyped<LOOKAHEAD&&guard++<40){if(!pushChunk())break;}
@@ -4336,6 +4361,7 @@ elIn.addEventListener("input",function(){
       if(typeof click_==="function")click_(true);
     }
   }
+  if(customText!=null&&v.length>chars.length){v=v.slice(0,chars.length);elIn.value=v;}
   totalTyped=v.length;
   for(i=0;i<totalTyped;i++){if(chars[i])chars[i].ok=(chars[i].t===v[i]);}
   /* 累计错误只对本次新增的字符计数：改对不再减少 Errors，改错重复计数 */
@@ -4349,6 +4375,7 @@ elIn.addEventListener("input",function(){
   ensureSupply();
   updateDOM(prev);
   followCursor();
+  if(customText!=null&&!finished&&chars.length&&totalTyped>=chars.length){finish();return;}
   /* 不再在此调用 showLive()：采样只由 200ms 定时器驱动，避免 wpmSamples 双重推入。
      也不再判断 totalTyped>=chars.length 提前结束：文本无限供给，只有计时器能结束测试。 */
 });
@@ -4370,7 +4397,7 @@ chipsD.forEach(function(c){c.addEventListener("click",function(){
 });});
 chipsM.forEach(function(c){c.addEventListener("click",function(){
   chipsM.forEach(function(x){x.classList.toggle("on",x===c); x.setAttribute("aria-pressed",x===c?"true":"false");});
-  mode=c.getAttribute("data-m"); weakMode=false; reset();
+  mode=c.getAttribute("data-m"); weakMode=false; customText=null; reset();
 });});
 document.getElementById("btnAgain").addEventListener("click",function(){reset();elIn.focus();});
 function saveResultImage(){
@@ -4443,10 +4470,17 @@ document.getElementById("btnShare").addEventListener("click",function(){
 });
 window.addEventListener("tr-relang",function(){reset();try{renderHist(JSON.parse(localStorage.getItem("typingHistV1")||"[]"));}catch(e){}});
 (function(){var rows=[];try{rows=JSON.parse(localStorage.getItem("typingHistV1")||"[]");}catch(e){}renderHist(rows);})();
+(function(){
+  var ci=document.getElementById("customInput"),bc=document.getElementById("btnCustom"),bcc=document.getElementById("btnCustomClear");
+  function useCustom(t){t=(t||"").replace(/\s+/g," ").trim(); if(!t)return; customText=t; weakMode=false; reset(); var ty=document.querySelector(".typing"); if(ty)ty.scrollIntoView({behavior:"smooth",block:"center"}); elIn.focus();}
+  if(bc&&ci)bc.addEventListener("click",function(){useCustom(ci.value); if(customText){try{location.hash="text="+encodeURIComponent(customText);}catch(e){}} var d=document.querySelector(".custombox"); if(d)d.open=false;});
+  if(bcc&&ci)bcc.addEventListener("click",function(){ci.value="";customText=null; try{if(location.hash.indexOf("#text=")===0)history.replaceState(null,"",location.pathname+location.search);}catch(e){} reset();});
+  try{if(location.hash.indexOf("#text=")===0){var ht=decodeURIComponent(location.hash.slice(6)).replace(/\s+/g," ").trim(); if(ht){customText=ht; if(ci)ci.value=ht;}}}catch(e){}
+})();
 buildKbd(); buildVariantUI(); reset();
 })();
 </script>
-<script src="ui.js?v=202610111640" defer></script>
+<script src="ui.js?v=202610111710" defer></script>
 <script src="egg.js?v=202610090900" defer></script>
 </body>
 </html>

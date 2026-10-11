@@ -3535,6 +3535,7 @@ var combo=0, score=0, level=1, bestCombo=0;   /* game：连击 / 分数 / 等级
 var keyErrors={};                /* accuracy：错键分布 target->count */
 var keyTime={}, _lastKeyTs=0;    /* 慢键分析：target->{n,s(ms)} + 上次击键时刻 */
 var weakMode=false;              /* 弱键定向练习：按历史最常错键加权出词 */
+var customText=null;             /* 自定义文本练习：非 null 时整段文本一次性铺入、打完即结束 */
 /* 无限文本流：初始铺满首屏，之后只要光标前方余量不足 LOOKAHEAD 就尾部追加一个 chunk。
    追加只发生在末尾，已输入部分的 chars[i] ↔ v[i] 索引对应关系不受影响。 */
 var INIT_CHARS=240, LOOKAHEAD=80;
@@ -3568,12 +3569,19 @@ function pushChunk(){
   elText.appendChild(frag);
   return c.length;
 }
+function pushCustomText(){
+  var frag=document.createDocumentFragment(),i,sp,c=customText||"";
+  for(i=0;i<c.length;i++){sp=document.createElement("span");sp.textContent=c[i];chars.push({t:c[i],ok:false,el:sp});frag.appendChild(sp);}
+  elText.appendChild(frag);
+}
 function seedText(){
+  if(customText!=null){ if(!chars.length)pushCustomText(); return; }
   var guard=0;
   while(chars.length<INIT_CHARS&&guard++<20)pushChunk();
   if(!chars.length)pushChunk();
 }
 function ensureSupply(){
+  if(customText!=null)return;
   /* 光标前方余量低于 LOOKAHEAD 就续写；guard 防 nextChunk 返回空串时死循环 */
   var guard=0;
   while(chars.length-totalTyped<LOOKAHEAD&&guard++<40){if(!pushChunk())break;}
@@ -3893,6 +3901,7 @@ elIn.addEventListener("input",function(){
       if(typeof click_==="function")click_(true);
     }
   }
+  if(customText!=null&&v.length>chars.length){v=v.slice(0,chars.length);elIn.value=v;}
   totalTyped=v.length;
   for(i=0;i<totalTyped;i++){if(chars[i])chars[i].ok=(chars[i].t===v[i]);}
   /* 累计错误只对本次新增的字符计数：改对不再减少 Errors，改错重复计数 */
@@ -3906,6 +3915,7 @@ elIn.addEventListener("input",function(){
   ensureSupply();
   updateDOM(prev);
   followCursor();
+  if(customText!=null&&!finished&&chars.length&&totalTyped>=chars.length){finish();return;}
   /* 不再在此调用 showLive()：采样只由 200ms 定时器驱动，避免 wpmSamples 双重推入。
      也不再判断 totalTyped>=chars.length 提前结束：文本无限供给，只有计时器能结束测试。 */
 });
@@ -3927,7 +3937,7 @@ chipsD.forEach(function(c){c.addEventListener("click",function(){
 });});
 chipsM.forEach(function(c){c.addEventListener("click",function(){
   chipsM.forEach(function(x){x.classList.toggle("on",x===c); x.setAttribute("aria-pressed",x===c?"true":"false");});
-  mode=c.getAttribute("data-m"); weakMode=false; reset();
+  mode=c.getAttribute("data-m"); weakMode=false; customText=null; reset();
 });});
 document.getElementById("btnAgain").addEventListener("click",function(){reset();elIn.focus();});
 function saveResultImage(){
@@ -4000,5 +4010,12 @@ document.getElementById("btnShare").addEventListener("click",function(){
 });
 window.addEventListener("tr-relang",function(){reset();try{renderHist(JSON.parse(localStorage.getItem("typingHistV1")||"[]"));}catch(e){}});
 (function(){var rows=[];try{rows=JSON.parse(localStorage.getItem("typingHistV1")||"[]");}catch(e){}renderHist(rows);})();
+(function(){
+  var ci=document.getElementById("customInput"),bc=document.getElementById("btnCustom"),bcc=document.getElementById("btnCustomClear");
+  function useCustom(t){t=(t||"").replace(/\s+/g," ").trim(); if(!t)return; customText=t; weakMode=false; reset(); var ty=document.querySelector(".typing"); if(ty)ty.scrollIntoView({behavior:"smooth",block:"center"}); elIn.focus();}
+  if(bc&&ci)bc.addEventListener("click",function(){useCustom(ci.value); if(customText){try{location.hash="text="+encodeURIComponent(customText);}catch(e){}} var d=document.querySelector(".custombox"); if(d)d.open=false;});
+  if(bcc&&ci)bcc.addEventListener("click",function(){ci.value="";customText=null; try{if(location.hash.indexOf("#text=")===0)history.replaceState(null,"",location.pathname+location.search);}catch(e){} reset();});
+  try{if(location.hash.indexOf("#text=")===0){var ht=decodeURIComponent(location.hash.slice(6)).replace(/\s+/g," ").trim(); if(ht){customText=ht; if(ci)ci.value=ht;}}}catch(e){}
+})();
 buildKbd(); buildVariantUI(); reset();
 })();
