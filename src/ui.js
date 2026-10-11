@@ -72,6 +72,11 @@ var POOL=/*{{POOL}}*/;
  ks_slow:{en:"Slowest keys",zh:"最慢的键",es:"Teclas más lentas",hi:"सबसे धीमी कुंजियाँ",ar:"المفاتيح الأبطأ"},
  ks_clean:{en:"Clean, even run — no standout weak keys.",zh:"干净平稳，没有明显的弱键。",es:"Pulsación limpia y uniforme: sin teclas débiles destacadas.",hi:"साफ़, एकसमान प्रयास — कोई खास कमज़ोर कुंजी नहीं।",ar:"أداء نظيف ومتساوٍ — لا مفاتيح ضعيفة بارزة."}
 };for(var key in K){var R=K[key];for(var k in R){if(I18N[k])I18N[k][key]=R[k];}}})();
+(function(){var H={
+ hist_export:{en:"Export progress",zh:"导出进度",es:"Exportar progreso",hi:"प्रगति निर्यात करें",ar:"تصدير التقدم"},
+ hist_import:{en:"Import",zh:"导入",es:"Importar",hi:"आयात करें",ar:"استيراد"},
+ hist_bad:{en:"Could not read that file — is it a Typing.Rerivo export?",zh:"无法读取该文件 —— 它是 Typing.Rerivo 导出的进度吗？",es:"No se pudo leer el archivo: ¿es una exportación de Typing.Rerivo?",hi:"वह फ़ाइल नहीं पढ़ी जा सकी — क्या यह Typing.Rerivo निर्यात है?",ar:"تعذّرت قراءة الملف — هل هو ملف تصدير من Typing.Rerivo؟"}
+};for(var key in H){var R=H[key];for(var k in R){if(I18N[k])I18N[k][key]=R[k];}}})();
 var LANGS=["en","zh","es","hi","ar"];
 var WIDTHS=["std","wide","xwide","fluid"];
 var THEMES=[["dark","🌙"],["light","☀️"],["ocean","🌊"],["sepia","📖"],["green","🌿"]];

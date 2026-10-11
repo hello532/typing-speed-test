@@ -17,6 +17,11 @@
     </div>
     <div class="hist" id="histBox">
       <h3 data-i18n="hist_title">Your typing history (saved in this browser)</h3>
+      <div class="hist-tools">
+        <button type="button" class="hist-btn" id="btnExport" data-i18n="hist_export">Export progress</button>
+        <button type="button" class="hist-btn" id="btnImport" data-i18n="hist_import">Import</button>
+        <input type="file" id="impFile" accept="application/json,.json" style="display:none;" aria-hidden="true">
+      </div>
       <table>
         <thead><tr><th data-i18n="h_date">Date</th><th data-i18n="h_test">Test</th><th data-i18n="wpm">WPM</th><th data-i18n="accuracy">Accuracy</th><th data-i18n="r_errors">Errors</th></tr></thead>
         <tbody id="histBody"></tbody>

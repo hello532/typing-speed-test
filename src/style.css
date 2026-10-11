@@ -257,3 +257,7 @@ body.typing-active footer{opacity:.26;filter:saturate(.72);pointer-events:none;}
 .ksk.ks-slow b{color:var(--cur);}
 .ks-clean{color:var(--ok);font-weight:600;font-size:.9rem;justify-content:center;}
 @media(max-width:560px){.ks-lab{min-width:0;text-align:center;width:100%;}}
+/* ---------- 隐私优先：本地进度导出/导入（无账户跨设备）---------- */
+.hist-tools{display:flex;gap:8px;flex-wrap:wrap;margin:2px 0 12px;}
+.hist-btn{background:var(--panel2);border:1px solid var(--line);color:var(--soft);border-radius:8px;padding:5px 12px;font-size:.78rem;font-weight:600;cursor:pointer;font-family:inherit;transition:border-color .15s,color .15s,background .15s;}
+.hist-btn:hover{border-color:var(--borderhi);color:var(--text);background:var(--panelhi);}

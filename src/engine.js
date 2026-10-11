@@ -3676,6 +3676,38 @@ function renderHist(rows){
     b.appendChild(tr);
   });
 }
+function exportProgress(){
+  var data={v:1,app:"typing.rerivo",exported:new Date().toISOString(),history:[],pb:{},prefs:{}};
+  try{data.history=JSON.parse(localStorage.getItem("typingHistV1")||"[]");}catch(e){}
+  try{for(var i=0;i<localStorage.length;i++){var k=localStorage.key(i);
+    if(k.indexOf("typingPB_")===0)data.pb[k]=localStorage.getItem(k);
+    else if(["trTheme","trLang","trWidth","trMusic","typingSnd"].indexOf(k)>=0)data.prefs[k]=localStorage.getItem(k);}}catch(e){}
+  var blob=new Blob([JSON.stringify(data,null,2)],{type:"application/json"});
+  var a=document.createElement("a");a.href=URL.createObjectURL(blob);
+  a.download="typing-rerivo-progress-"+new Date().toISOString().slice(0,10)+".json";
+  document.body.appendChild(a);a.click();
+  setTimeout(function(){URL.revokeObjectURL(a.href);if(a.parentNode)a.parentNode.removeChild(a);},800);
+}
+function importProgress(file){
+  var fr=new FileReader();
+  fr.onload=function(){
+    var bad=function(){alert((window.TR&&TR.t&&TR.t("hist_bad"))||"Could not read that file \u2014 is it a Typing.Rerivo export?");};
+    try{var d=JSON.parse(fr.result);
+      if(!d||Object.prototype.toString.call(d.history)!=="[object Array]"){bad();return;}
+      localStorage.setItem("typingHistV1",JSON.stringify(d.history.slice(0,10)));
+      if(d.pb)for(var k in d.pb){if(k.indexOf("typingPB_")===0)localStorage.setItem(k,String(d.pb[k]));}
+      if(d.prefs)for(var p in d.prefs){localStorage.setItem(p,String(d.prefs[p]));}
+      location.reload();
+    }catch(e){bad();}
+  };
+  fr.readAsText(file);
+}
+(function(){
+  var bx=document.getElementById("btnExport"); if(bx)bx.addEventListener("click",exportProgress);
+  var bi=document.getElementById("btnImport"), fi=document.getElementById("impFile");
+  if(bi&&fi){bi.addEventListener("click",function(){fi.click();});
+    fi.addEventListener("change",function(){if(fi.files&&fi.files[0]){importProgress(fi.files[0]);fi.value="";}});}
+})();
 var KB_ROWS=["qwertyuiop","asdfghjkl","zxcvbnm"];
 var DVORAK_ROWS=["',.pyfgcrl/=","aoeuidhtns-",";qjkxbmwvz"];   /* 键面字符按物理 QWERTY 位置排列 */
 var FINGER={q:"LP",a:"LP",z:"LP",w:"LR",s:"LR",x:"LR",e:"LM",d:"LM",c:"LM",r:"LI",f:"LI",v:"LI",t:"LI",g:"LI",b:"LI",y:"RI",h:"RI",n:"RI",u:"RI",j:"RI",m:"RI",i:"RM",k:"RM",o:"RR",l:"RR",p:"RP"," ":"TH"};

@@ -291,6 +291,10 @@ body.typing-active footer{opacity:.26;filter:saturate(.72);pointer-events:none;}
 .ksk.ks-slow b{color:var(--cur);}
 .ks-clean{color:var(--ok);font-weight:600;font-size:.9rem;justify-content:center;}
 @media(max-width:560px){.ks-lab{min-width:0;text-align:center;width:100%;}}
+/* ---------- 隐私优先：本地进度导出/导入（无账户跨设备）---------- */
+.hist-tools{display:flex;gap:8px;flex-wrap:wrap;margin:2px 0 12px;}
+.hist-btn{background:var(--panel2);border:1px solid var(--line);color:var(--soft);border-radius:8px;padding:5px 12px;font-size:.78rem;font-weight:600;cursor:pointer;font-family:inherit;transition:border-color .15s,color .15s,background .15s;}
+.hist-btn:hover{border-color:var(--borderhi);color:var(--text);background:var(--panelhi);}
 </style>
 <script>try{var _t=localStorage.getItem("trTheme");if(_t&&_t!=="dark")document.documentElement.setAttribute("data-theme",_t);var _l=localStorage.getItem("trLang");if(_l&&_l!=="en"){document.documentElement.lang=_l;if(_l==="ar")document.documentElement.dir="rtl";}}catch(e){}</script>
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1401237223139327"
@@ -387,6 +391,11 @@ body.typing-active footer{opacity:.26;filter:saturate(.72);pointer-events:none;}
     </div>
     <div class="hist" id="histBox">
       <h3 data-i18n="hist_title">Your typing history (saved in this browser)</h3>
+      <div class="hist-tools">
+        <button type="button" class="hist-btn" id="btnExport" data-i18n="hist_export">Export progress</button>
+        <button type="button" class="hist-btn" id="btnImport" data-i18n="hist_import">Import</button>
+        <input type="file" id="impFile" accept="application/json,.json" style="display:none;" aria-hidden="true">
+      </div>
       <table>
         <thead><tr><th data-i18n="h_date">Date</th><th data-i18n="h_test">Test</th><th data-i18n="wpm">WPM</th><th data-i18n="accuracy">Accuracy</th><th data-i18n="r_errors">Errors</th></tr></thead>
         <tbody id="histBody"></tbody>
@@ -4097,6 +4106,38 @@ function renderHist(rows){
     b.appendChild(tr);
   });
 }
+function exportProgress(){
+  var data={v:1,app:"typing.rerivo",exported:new Date().toISOString(),history:[],pb:{},prefs:{}};
+  try{data.history=JSON.parse(localStorage.getItem("typingHistV1")||"[]");}catch(e){}
+  try{for(var i=0;i<localStorage.length;i++){var k=localStorage.key(i);
+    if(k.indexOf("typingPB_")===0)data.pb[k]=localStorage.getItem(k);
+    else if(["trTheme","trLang","trWidth","trMusic","typingSnd"].indexOf(k)>=0)data.prefs[k]=localStorage.getItem(k);}}catch(e){}
+  var blob=new Blob([JSON.stringify(data,null,2)],{type:"application/json"});
+  var a=document.createElement("a");a.href=URL.createObjectURL(blob);
+  a.download="typing-rerivo-progress-"+new Date().toISOString().slice(0,10)+".json";
+  document.body.appendChild(a);a.click();
+  setTimeout(function(){URL.revokeObjectURL(a.href);if(a.parentNode)a.parentNode.removeChild(a);},800);
+}
+function importProgress(file){
+  var fr=new FileReader();
+  fr.onload=function(){
+    var bad=function(){alert((window.TR&&TR.t&&TR.t("hist_bad"))||"Could not read that file \u2014 is it a Typing.Rerivo export?");};
+    try{var d=JSON.parse(fr.result);
+      if(!d||Object.prototype.toString.call(d.history)!=="[object Array]"){bad();return;}
+      localStorage.setItem("typingHistV1",JSON.stringify(d.history.slice(0,10)));
+      if(d.pb)for(var k in d.pb){if(k.indexOf("typingPB_")===0)localStorage.setItem(k,String(d.pb[k]));}
+      if(d.prefs)for(var p in d.prefs){localStorage.setItem(p,String(d.prefs[p]));}
+      location.reload();
+    }catch(e){bad();}
+  };
+  fr.readAsText(file);
+}
+(function(){
+  var bx=document.getElementById("btnExport"); if(bx)bx.addEventListener("click",exportProgress);
+  var bi=document.getElementById("btnImport"), fi=document.getElementById("impFile");
+  if(bi&&fi){bi.addEventListener("click",function(){fi.click();});
+    fi.addEventListener("change",function(){if(fi.files&&fi.files[0]){importProgress(fi.files[0]);fi.value="";}});}
+})();
 var KB_ROWS=["qwertyuiop","asdfghjkl","zxcvbnm"];
 var DVORAK_ROWS=["',.pyfgcrl/=","aoeuidhtns-",";qjkxbmwvz"];   /* 键面字符按物理 QWERTY 位置排列 */
 var FINGER={q:"LP",a:"LP",z:"LP",w:"LR",s:"LR",x:"LR",e:"LM",d:"LM",c:"LM",r:"LI",f:"LI",v:"LI",t:"LI",g:"LI",b:"LI",y:"RI",h:"RI",n:"RI",u:"RI",j:"RI",m:"RI",i:"RM",k:"RM",o:"RR",l:"RR",p:"RP"," ":"TH"};
@@ -4315,7 +4356,7 @@ window.addEventListener("tr-relang",function(){reset();try{renderHist(JSON.parse
 buildKbd(); buildVariantUI(); reset();
 })();
 </script>
-<script src="ui.js?v=202610111411" defer></script>
+<script src="ui.js?v=202610111430" defer></script>
 <script src="egg.js?v=202610090900" defer></script>
 </body>
 </html>
