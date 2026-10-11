@@ -53,7 +53,7 @@ body{
   color:var(--text); font-family:var(--font); line-height:1.65;
   -webkit-font-smoothing:antialiased; text-rendering:optimizeLegibility;
 }
-::selection{background:var(--accentdim); color:#fff;}
+::selection{background:var(--accentdim); color:var(--text);}
 a{color:inherit;}
 :focus-visible{outline:2px solid var(--accent); outline-offset:3px; border-radius:6px;}
 .wrap{max-width:900px; margin:0 auto; padding:22px 22px 72px;}
@@ -189,6 +189,26 @@ html[data-theme="ocean"]{
   --h1a:#ffffff; --h1b:#9fd4e8; --untyped:#44688c;
   --glow1:rgba(56,214,198,.10); --glow2:rgba(80,170,255,.09);
 }
+html[data-theme="sepia"]{
+  --bg:#efe6d3; --bg2:#e7dcc4; --panel:#f6efdf; --panel2:#efe6d1; --panelhi:#e6dabf;
+  --text:#43382a; --soft:#6b5c45; --dim:#8a7a60;
+  --accent:#b07513; --accent2:#cf9433; --accentdim:rgba(176,117,19,.16); --accentglow:rgba(176,117,19,.38);
+  --ok:#4f8a2f; --bad:#c0493a; --cur:#9a6b1f;
+  --line:#dbcdb0; --line2:#e3d7bd99; --borderhi:#c7b793;
+  --h1a:#43382a; --h1b:#6b5c45; --untyped:#b3a788;
+  --glow1:rgba(176,117,19,.10); --glow2:rgba(120,100,60,.05);
+  --shadow:0 10px 34px -14px rgba(90,70,40,.22);
+}
+html[data-theme="green"]{
+  --bg:#cfe4cf; --bg2:#c3dcc3; --panel:#dcecd8; --panel2:#cfe4cc; --panelhi:#c3dcbf;
+  --text:#213626; --soft:#3f5942; --dim:#5d7760;
+  --accent:#1f7a52; --accent2:#2f9e68; --accentdim:rgba(31,122,82,.15); --accentglow:rgba(31,122,82,.38);
+  --ok:#2e7d32; --bad:#c0392b; --cur:#0f766e;
+  --line:#b6d2b3; --line2:#c4dcc199; --borderhi:#9fc29b;
+  --h1a:#213626; --h1b:#3f5942; --untyped:#94b394;
+  --glow1:rgba(31,122,82,.10); --glow2:rgba(60,120,80,.06);
+  --shadow:0 10px 34px -14px rgba(40,70,45,.20);
+}
 .kbd-wrap{margin-top:22px;}
 .kbd-tools{display:flex;flex-wrap:wrap;align-items:center;justify-content:center;gap:7px;margin-bottom:14px;}
 .kbd-tools .lab{color:var(--dim);font-size:.8rem;margin-right:3px;}
@@ -248,6 +268,15 @@ html[data-theme="ocean"]{
   .btn.ghost{background:var(--panel2);color:var(--text);border:1px solid var(--line);}
   a,.faq summary{color:var(--text);}
 }
+
+/* ---------- 人性化：打字进行时自动淡出周边内容，帮助专注；结束/重置自动恢复 ---------- */
+.hero p,nav.toplinks,nav.crumbs,.seo,.faq,footer{transition:opacity .45s ease,filter .45s ease;}
+body.typing-active .hero p,
+body.typing-active nav.toplinks,
+body.typing-active nav.crumbs,
+body.typing-active .seo,
+body.typing-active .faq,
+body.typing-active footer{opacity:.26;filter:saturate(.72);pointer-events:none;}
 </style>
 <script>try{var _t=localStorage.getItem("trTheme");if(_t&&_t!=="dark")document.documentElement.setAttribute("data-theme",_t);var _l=localStorage.getItem("trLang");if(_l&&_l!=="en"){document.documentElement.lang=_l;if(_l==="ar")document.documentElement.dir="rtl";}}catch(e){}</script>
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1401237223139327"
@@ -3970,6 +3999,7 @@ function esc(s){return s.replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g
 function reset(){
   clearInterval(timer);
   chars=[]; totalTyped=0; errTotal=0; finished=false; startAt=0; curEl=null; _prevLen=0;
+  if(document.body)document.body.classList.remove("typing-active");
   /* variant 每局状态清零；drillFinger 是用户选择，跨局保留 */
   combo=0; score=0; level=1; bestCombo=0; keyErrors={};
   elText.innerHTML=""; seedText();
@@ -4002,6 +4032,7 @@ function consistency(){
 function pbKey(){return "typingPB_"+mode+"_"+dur;}
 function finish(){
   finished=true; clearInterval(timer);
+  if(document.body)document.body.classList.remove("typing-active");
   var s=stats(); var cons=consistency();
   document.getElementById("rWpm").textContent=s.wpm+" "+((window.TR&&TR.t)?TR.t("wpm"):"WPM");
   document.getElementById("rAcc").textContent=s.acc+"%";
@@ -4153,6 +4184,7 @@ document.addEventListener("keydown",function(e){if(e.key==="Escape"){reset();elI
 elIn.addEventListener("input",function(){
   if(finished)return;
   if(!startAt){startAt=Date.now();
+    if(document.body)document.body.classList.add("typing-active");
     timer=setInterval(function(){showLive();
       if((Date.now()-startAt)/1000>=dur){finish();}
     },200);

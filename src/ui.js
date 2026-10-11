@@ -69,7 +69,7 @@ var POOL=/*{{POOL}}*/;
 };for(var key in P){var R=P[key];for(var k in R){if(I18N[k])I18N[k][key]=R[k];}}})();
 var LANGS=["en","zh","es","hi","ar"];
 var WIDTHS=["std","wide","xwide","fluid"];
-var THEMES=[["dark","🌙"],["light","☀️"],["ocean","🌊"]];
+var THEMES=[["dark","🌙"],["light","☀️"],["ocean","🌊"],["sepia","📖"],["green","🌿"]];
 function ls(k,v){try{if(v===undefined)return localStorage.getItem(k);localStorage.setItem(k,v);}catch(e){return null;}}
 
 var TR={lang:"en"};

@@ -3581,6 +3581,7 @@ function esc(s){return s.replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g
 function reset(){
   clearInterval(timer);
   chars=[]; totalTyped=0; errTotal=0; finished=false; startAt=0; curEl=null; _prevLen=0;
+  if(document.body)document.body.classList.remove("typing-active");
   /* variant 每局状态清零；drillFinger 是用户选择，跨局保留 */
   combo=0; score=0; level=1; bestCombo=0; keyErrors={};
   elText.innerHTML=""; seedText();
@@ -3613,6 +3614,7 @@ function consistency(){
 function pbKey(){return "typingPB_"+mode+"_"+dur;}
 function finish(){
   finished=true; clearInterval(timer);
+  if(document.body)document.body.classList.remove("typing-active");
   var s=stats(); var cons=consistency();
   document.getElementById("rWpm").textContent=s.wpm+" "+((window.TR&&TR.t)?TR.t("wpm"):"WPM");
   document.getElementById("rAcc").textContent=s.acc+"%";
@@ -3764,6 +3766,7 @@ document.addEventListener("keydown",function(e){if(e.key==="Escape"){reset();elI
 elIn.addEventListener("input",function(){
   if(finished)return;
   if(!startAt){startAt=Date.now();
+    if(document.body)document.body.classList.add("typing-active");
     timer=setInterval(function(){showLive();
       if((Date.now()-startAt)/1000>=dur){finish();}
     },200);
