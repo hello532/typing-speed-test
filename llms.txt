@@ -54,6 +54,8 @@
 - [One Hand Typing](https://typing.rerivo.com/one-hand-typing.html): One hand typing practice and speed test for a standard keyboard.
 - [Privacy Policy](https://typing.rerivo.com/privacy-policy.html): No accounts, no cookies, no analytics, no tracking.
 - [About](https://typing.rerivo.com/about.html): A free browser-only typing speed test; contact and measurement method.
+- [Typing Practice for Programmers](https://typing.rerivo.com/typing-practice-for-programmers.html): Code-focused typing practice — symbols, brackets, camelCase, and pasting your own code as custom text.
+- [How to Type Without Looking](https://typing.rerivo.com/how-to-type-without-looking.html): Home-row touch-typing guide — type by feel, train muscle memory, stop looking at the keyboard.
 
 ## About
 - Free, no registration, privacy-friendly (runs fully in the browser).

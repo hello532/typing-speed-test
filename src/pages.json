@@ -3996,6 +3996,179 @@
     }
    ],
    "ldPretty": []
+  },
+  {
+   "file": "typing-practice-for-programmers.html",
+   "title": "Typing Practice for Programmers - Code Typing Test",
+   "metaDesc": "Free typing practice for programmers. Train the symbols, brackets and camelCase that slow coders down — paste your own code as custom text, or drill punctuation and numbers. See the WPM developers need.",
+   "canonical": "https://typing.rerivo.com/typing-practice-for-programmers.html",
+   "dur": 60,
+   "mode": "sentences",
+   "variant": null,
+   "nav": [
+    {
+     "href": "https://typing.rerivo.com/",
+     "text": "Home"
+    },
+    {
+     "href": "punctuation-typing-test.html",
+     "text": "Punctuation"
+    },
+    {
+     "href": "custom-typing-test.html",
+     "text": "Custom"
+    }
+   ],
+   "crumbs": [
+    "Home",
+    "Typing Practice for Programmers"
+   ],
+   "h1": "Typing Practice for Programmers",
+   "heroP": "Programmers type a lot of <strong>symbols, brackets and camelCase</strong> &mdash; the exact characters most typing tests skip. Most developers type <strong>50&ndash;70 WPM</strong> on prose, but what really matters is fluent symbols and a low error rate. Practise the way you code: paste your own code with <strong>custom text</strong>, or drill punctuation and numbers below.",
+   "seo": [
+    {
+     "h2": "Why typing speed matters for programmers",
+     "p": [
+      "A good typing speed for a programmer is <strong>50&ndash;70 WPM</strong>, but coding is not a typing race &mdash; you spend far more time thinking than typing. Speed matters where it removes friction: the faster your fingers find brackets, operators and names, the less a thought is interrupted on its way to the screen. Accuracy matters even more, because a mistyped symbol is a syntax error you have to hunt down."
+     ]
+    },
+    {
+     "h2": "What slows programmers down",
+     "p": [
+      "Code is dense with characters that ordinary typing practice never covers &mdash; brackets, semicolons, operators, and numbers &mdash; plus naming styles like camelCase and snake_case that break your rhythm. The fix is to practise those specific characters, not more prose.",
+      "<div class=\"tbl\"><table><thead><tr><th>What you type in code</th><th>Why it is slow</th><th>Practise it here</th></tr></thead><tbody><tr><td>Brackets &amp; symbols () {} [] ; = &gt;</td><td>Rare in word tests; awkward reaches for the pinkies</td><td><a href=\"punctuation-typing-test.html\">Punctuation test</a></td></tr><tr><td>Numbers &amp; operators</td><td>Top row and keypad use different muscle memory</td><td><a href=\"number-typing-test.html\">Number test</a></td></tr><tr><td>Your real code</td><td>camelCase, indentation and your stack&rsquo;s idioms</td><td><a href=\"custom-typing-test.html\">Custom text</a></td></tr></tbody></table></div>"
+     ]
+    },
+    {
+     "h2": "How to practise typing as a developer",
+     "p": [
+      "Paste a real file you work in using <a href=\"custom-typing-test.html\">custom text</a> and type it for accuracy, not speed. Spend a few minutes on the <a href=\"punctuation-typing-test.html\">punctuation</a> and <a href=\"number-typing-test.html\">number</a> drills so symbol reaches become automatic. Keep your fingers on the home row and let the weak pinkies own the bracket and semicolon keys. Ten focused minutes a day beats one long session."
+     ]
+    }
+   ],
+   "faqFirstOpen": true,
+   "faqH2": "Typing test FAQ",
+   "faq": [
+    {
+     "q": "What is a good typing speed for a programmer?",
+     "a": "Around 50–70 WPM is typical and plenty for most development work. Coding is thinking-heavy, so fluent symbols and high accuracy matter more than raw prose speed."
+    },
+    {
+     "q": "Does typing speed matter for coding?",
+     "a": "Up to a point. Once you can type without hunting for keys, extra prose speed helps little — but fast, accurate symbol and bracket entry does reduce friction and typos."
+    },
+    {
+     "q": "How do I practise typing code?",
+     "a": "Paste real code into the custom-text box and type it for accuracy, and drill punctuation and numbers separately so symbol reaches become automatic."
+    },
+    {
+     "q": "Should programmers learn touch typing?",
+     "a": "Yes. Touch typing frees your attention for the logic instead of the keyboard, and makes symbol-heavy code far less error-prone."
+    },
+    {
+     "q": "What is the best typing test for developers?",
+     "a": "One that includes real symbols and numbers. Use the punctuation and number tests here, or paste your own code with custom text for the most realistic practice."
+    }
+   ],
+   "webAppName": "Typing Speed Test",
+   "webAppUrl": "https://typing.rerivo.com/",
+   "bcItems": [
+    {
+     "name": "Home",
+     "item": "https://typing.rerivo.com/"
+    },
+    {
+     "name": "Typing Practice for Programmers",
+     "item": "https://typing.rerivo.com/typing-practice-for-programmers.html"
+    }
+   ],
+   "ldPretty": []
+  },
+  {
+   "file": "how-to-type-without-looking.html",
+   "title": "How to Type Without Looking at the Keyboard",
+   "metaDesc": "Learn how to type without looking at the keyboard. Master the home row, the right finger for each key, and the short daily practice that builds touch-typing muscle memory — then test yourself free.",
+   "canonical": "https://typing.rerivo.com/how-to-type-without-looking.html",
+   "dur": 60,
+   "mode": "sentences",
+   "variant": null,
+   "nav": [
+    {
+     "href": "https://typing.rerivo.com/",
+     "text": "Home"
+    },
+    {
+     "href": "touch-typing-test.html",
+     "text": "Touch Typing"
+    },
+    {
+     "href": "keyboard-typing-test.html",
+     "text": "Keyboard"
+    }
+   ],
+   "crumbs": [
+    "Home",
+    "How to Type Without Looking at the Keyboard"
+   ],
+   "h1": "How to Type Without Looking at the Keyboard",
+   "heroP": "To <strong>type without looking</strong>, rest your fingers on the <strong>home row</strong> &mdash; left hand on <strong>ASDF</strong>, right hand on <strong>JKL;</strong> &mdash; feel the small bumps on <strong>F</strong> and <strong>J</strong>, and let each finger own its own keys. The skill is called touch typing, and it comes from short daily practice, not talent. Here is exactly how to build it, then test yourself below.",
+   "seo": [
+    {
+     "h2": "Start on the home row (ASDF JKL;)",
+     "p": [
+      "Put your left index finger on <strong>F</strong> and your right index finger on <strong>J</strong> &mdash; both have a raised bump so you can find them without looking. Your other fingers fall onto A S D and K L ; . This is &lsquo;home&rsquo;: every key is reached from here and your fingers return here between keystrokes. Each finger is responsible for the keys directly above and below its home key."
+     ]
+    },
+    {
+     "h2": "Train muscle memory, not your eyes",
+     "p": [
+      "The whole skill is not looking down. Keep your eyes on the screen, use the on-screen keyboard and hand guide below to see the next key, and resist peeking even when it feels slow at first. Practise <strong>10&ndash;15 minutes a day</strong> and prioritise accuracy over speed &mdash; speed is just accurate muscle memory repeated. The <a href=\"touch-typing-test.html\">touch typing test</a> and the <a href=\"keyboard-typing-test.html\">on-screen keyboard test</a> highlight the next key and the correct finger as you go."
+     ]
+    },
+    {
+     "h2": "How long until you can touch type?",
+     "p": [
+      "Most people stop needing to look within a few weeks of daily practice, and return to their old speed within one to two months &mdash; faster after that, because touch typing has no ceiling the way hunt-and-peck does. Check your progress against the <a href=\"average-typing-speed.html\">average typing speed</a> as you go."
+     ]
+    }
+   ],
+   "faqFirstOpen": true,
+   "faqH2": "Typing test FAQ",
+   "faq": [
+    {
+     "q": "How do I type without looking at the keyboard?",
+     "a": "Rest your fingers on the home row (ASDF for the left hand, JKL; for the right), find the bumps on F and J by feel, keep your eyes on the screen, and let each finger own its keys. Practise a little every day."
+    },
+    {
+     "q": "How long does it take to learn touch typing?",
+     "a": "Most people stop looking within a few weeks of 10–15 minutes daily practice, and match their old speed within one to two months."
+    },
+    {
+     "q": "What are the home row keys?",
+     "a": "A, S, D, F for the left hand and J, K, L, ; for the right. F and J have raised bumps so you can locate the home row without looking."
+    },
+    {
+     "q": "Why should I not look at the keyboard?",
+     "a": "Looking down breaks your focus on the text and caps your speed. Typing by feel keeps your eyes on the screen and lets muscle memory take over, which is faster and more accurate."
+    },
+    {
+     "q": "Can I learn touch typing as an adult?",
+     "a": "Yes. Touch typing is muscle memory, not talent or age — short, consistent daily practice works at any age."
+    }
+   ],
+   "webAppName": "Typing Speed Test",
+   "webAppUrl": "https://typing.rerivo.com/",
+   "bcItems": [
+    {
+     "name": "Home",
+     "item": "https://typing.rerivo.com/"
+    },
+    {
+     "name": "How to Type Without Looking at the Keyboard",
+     "item": "https://typing.rerivo.com/how-to-type-without-looking.html"
+    }
+   ],
+   "ldPretty": []
   }
  ]
 }
