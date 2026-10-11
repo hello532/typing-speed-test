@@ -402,6 +402,7 @@ window.__trPageLang="zh";</script>
     <div class="achv" id="achv"></div>
     <div class="result-actions">
       <button type="button" class="btn" id="btnAgain" data-i18n="btn_again">Test again</button>
+      <button type="button" class="btn ghost" id="btnWeak" data-i18n="btn_weak" style="display:none;">Practice weak keys</button>
       <button type="button" class="btn ghost" id="btnShare" data-i18n="btn_share">Copy result</button>
       <button type="button" class="btn ghost" id="btnImg" data-i18n="btn_img">Save image</button>
           <button type="button" class="btn ghost" id="btnCert" data-i18n="btn_cert">Print certificate</button>
@@ -3924,7 +3925,24 @@ function buildVariantUI(){
   else if(VARIANT==="finger_drill")buildFingerBar();
   else if(VARIANT==="accuracy")buildAccBanner();
 }
+function topWeakKeys(n){
+  var agg={}; try{agg=JSON.parse(localStorage.getItem("typingWeakV1"))||{};}catch(e){}
+  var k; for(k in keyErrors)agg[k]=(agg[k]||0)+keyErrors[k];
+  var arr=[]; for(k in agg){if(/^[a-z]$/i.test(k))arr.push([k.toLowerCase(),agg[k]]);}
+  arr.sort(function(a,b){return b[1]-a[1];});
+  var out=[],i; for(i=0;i<arr.length&&i<n;i++)out.push(arr[i][0]);
+  return out;
+}
+function weakWords(){
+  var weak=topWeakKeys(5),a=[],i;
+  if(!weak.length){for(i=0;i<40;i++)a.push(WORDS[rnd(WORDS.length)]);return a.join(" ");}
+  var hit=[]; for(i=0;i<WORDS.length;i++){var w=WORDS[i].toLowerCase();for(var j=0;j<weak.length;j++){if(w.indexOf(weak[j])>=0){hit.push(WORDS[i]);break;}}}
+  if(hit.length<10){for(i=0;i<40;i++)a.push(WORDS[rnd(WORDS.length)]);return a.join(" ");}
+  for(i=0;i<40;i++)a.push(hit[rnd(hit.length)]);
+  return a.join(" ");
+}
 function nextChunk(mode){
+  if(weakMode)return weakWords();
   /* ── variant 专用文本池（VARIANT=null 时全部跳过，走下方标准逻辑）── */
   if(VARIANT==="punctuation"&&VPOOL){
     if(mode==="quotes"&&VPOOL.quotes)return VPOOL.quotes[rnd(VPOOL.quotes.length)];
@@ -3967,6 +3985,7 @@ var drillFinger="all";           /* finger_drill：当前练习的手指 */
 var combo=0, score=0, level=1, bestCombo=0;   /* game：连击 / 分数 / 等级 / 本局最高连击 */
 var keyErrors={};                /* accuracy：错键分布 target->count */
 var keyTime={}, _lastKeyTs=0;    /* 慢键分析：target->{n,s(ms)} + 上次击键时刻 */
+var weakMode=false;              /* 弱键定向练习：按历史最常错键加权出词 */
 /* 无限文本流：初始铺满首屏，之后只要光标前方余量不足 LOOKAHEAD 就尾部追加一个 chunk。
    追加只发生在末尾，已输入部分的 chars[i] ↔ v[i] 索引对应关系不受影响。 */
 var INIT_CHARS=240, LOOKAHEAD=80;
@@ -4120,6 +4139,8 @@ function finish(){
     else{pl.className="pb-line";pl.textContent="";}
   }
   saveHist(s);
+  try{var _wv=JSON.parse(localStorage.getItem("typingWeakV1"))||{},_wk; for(_wk in keyErrors)_wv[_wk]=(_wv[_wk]||0)+keyErrors[_wk]; localStorage.setItem("typingWeakV1",JSON.stringify(_wv));}catch(e){}
+  var _bw=document.getElementById("btnWeak"); if(_bw)_bw.style.display=topWeakKeys(5).length?"":"none";
   variantResult();
   drawChart();
   renderKeyStats();
@@ -4357,7 +4378,7 @@ chipsD.forEach(function(c){c.addEventListener("click",function(){
 });});
 chipsM.forEach(function(c){c.addEventListener("click",function(){
   chipsM.forEach(function(x){x.classList.toggle("on",x===c); x.setAttribute("aria-pressed",x===c?"true":"false");});
-  mode=c.getAttribute("data-m"); reset();
+  mode=c.getAttribute("data-m"); weakMode=false; reset();
 });});
 document.getElementById("btnAgain").addEventListener("click",function(){reset();elIn.focus();});
 function saveResultImage(){
@@ -4379,6 +4400,7 @@ function saveResultImage(){
   cE.toBlob(function(b){if(!b)return;var a=document.createElement("a");a.href=URL.createObjectURL(b);a.download="typing-"+s.wpm+"wpm.png";document.body.appendChild(a);a.click();setTimeout(function(){URL.revokeObjectURL(a.href);if(a.parentNode)a.parentNode.removeChild(a);},800);},"image/png");
 }
 (function(){var b=document.getElementById("btnImg");if(b)b.addEventListener("click",saveResultImage);})();
+(function(){var b=document.getElementById("btnWeak");if(b)b.addEventListener("click",function(){weakMode=true;reset();var t=document.querySelector(".typing");if(t)t.scrollIntoView({behavior:"smooth",block:"center"});elIn.focus();});})();
 document.getElementById("btnCert").addEventListener("click",function(){
   var s=stats();
   var tr=function(k,f){try{return (window.TR&&TR.t&&TR.t(k))||f;}catch(e){return f;}};
@@ -4432,7 +4454,7 @@ window.addEventListener("tr-relang",function(){reset();try{renderHist(JSON.parse
 buildKbd(); buildVariantUI(); reset();
 })();
 </script>
-<script src="ui.js?v=202610111606" defer></script>
+<script src="ui.js?v=202610111640" defer></script>
 <script src="egg.js?v=202610090900" defer></script>
 </body>
 </html>
