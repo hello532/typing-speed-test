@@ -4072,7 +4072,7 @@ function renderKeyStats(){
   var slow=[],k2; for(k2 in keyTime){var o=keyTime[k2]; if(o.n>=2)slow.push([k2,Math.round(o.s/o.n)]);}
   slow.sort(function(a,b){return b[1]-a[1];}); slow=slow.slice(0,6);
   var html="",i;
-  if(miss.length){html+='<div class="ks-row"><span class="ks-lab">'+(tr("ks_missed")||"Most-missed keys")+'</span><span class="ks-keys">';
+  if(miss.length&&!(VARIANT==="accuracy"&&VPOOL&&VPOOL.showKeyDist)){html+='<div class="ks-row"><span class="ks-lab">'+(tr("ks_missed")||"Most-missed keys")+'</span><span class="ks-keys">';
     for(i=0;i<miss.length;i++)html+=chip(miss[i][0],miss[i][1]+"\u00d7","ks-miss"); html+='</span></div>';}
   if(slow.length){html+='<div class="ks-row"><span class="ks-lab">'+(tr("ks_slow")||"Slowest keys")+'</span><span class="ks-keys">';
     for(i=0;i<slow.length;i++)html+=chip(slow[i][0],slow[i][1]+"ms","ks-slow"); html+='</span></div>';}
@@ -4299,7 +4299,7 @@ function click_(bad){
   paint();
   window.addEventListener("tr-relang",paint);
 })();
-document.addEventListener("keydown",function(e){if(e.key==="Escape"){reset();elIn.focus();}});
+document.addEventListener("keydown",function(e){if(e.key==="Escape"){reset();elIn.focus();}else if(e.key==="Tab"){e.preventDefault();reset();elIn.focus();}});
 elIn.addEventListener("input",function(){
   if(finished)return;
   if(!startAt){startAt=Date.now();
