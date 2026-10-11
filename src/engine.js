@@ -3849,7 +3849,7 @@ function click_(bad){
   paint();
   window.addEventListener("tr-relang",paint);
 })();
-document.addEventListener("keydown",function(e){if(e.key==="Escape"){reset();elIn.focus();}else if(e.key==="Tab"){e.preventDefault();reset();elIn.focus();}});
+document.addEventListener("keydown",function(e){if(e.key==="Escape"){reset();elIn.focus();}});
 elIn.addEventListener("input",function(){
   if(finished)return;
   if(!startAt){startAt=Date.now();
