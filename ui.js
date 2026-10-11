@@ -113,7 +113,7 @@ function setTheme(t){
 function buildBar(){
   var css=document.createElement("style");
   css.textContent=
-   ".tr-bar{display:flex;align-items:center;gap:12px;margin-left:auto;}"+
+   ".tr-bar{display:flex;flex-wrap:wrap;align-items:center;justify-content:flex-end;gap:10px 12px;margin-left:auto;}"+
    ".tr-sel{background:var(--panel2);color:var(--text);border:1px solid var(--line);border-radius:999px;"+
      "padding:6px 30px 6px 13px;font-size:.85rem;font-weight:600;cursor:pointer;font-family:inherit;"+
      "-webkit-appearance:none;appearance:none;transition:border-color .15s,background .15s;"+
