@@ -295,6 +295,14 @@ body.typing-active footer{opacity:.26;filter:saturate(.72);pointer-events:none;}
 .hist-tools{display:flex;gap:8px;flex-wrap:wrap;margin:2px 0 12px;}
 .hist-btn{background:var(--panel2);border:1px solid var(--line);color:var(--soft);border-radius:8px;padding:5px 12px;font-size:.78rem;font-weight:600;cursor:pointer;font-family:inherit;transition:border-color .15s,color .15s,background .15s;}
 .hist-btn:hover{border-color:var(--borderhi);color:var(--text);background:var(--panelhi);}
+/* ---------- 竞品级：本地成就徽章 + 连续天数（纯本地，无排行榜）---------- */
+.achv{max-width:560px;margin:2px auto 16px;text-align:center;}
+.achv-streak{font-size:.9rem;color:var(--dim);margin-bottom:9px;}
+.achv-streak b{color:var(--accent);font-size:1.05rem;}
+.achv-grid{display:flex;flex-wrap:wrap;gap:7px;justify-content:center;}
+.achv-b{display:inline-flex;align-items:center;justify-content:center;width:38px;height:38px;border-radius:10px;background:var(--panel2);border:1px solid var(--line);font-size:1.1rem;filter:grayscale(1);opacity:.4;transition:all .2s;cursor:default;}
+.achv-b.on{filter:none;opacity:1;border-color:var(--accent);background:var(--accentdim);}
+.achv-b.newly{animation:pbpop .5s ease;box-shadow:0 0 0 3px var(--accentdim);}
 </style>
 <script>try{var _t=localStorage.getItem("trTheme");if(_t&&_t!=="dark")document.documentElement.setAttribute("data-theme",_t);var _l=localStorage.getItem("trLang");if(_l&&_l!=="en"){document.documentElement.lang=_l;if(_l==="ar")document.documentElement.dir="rtl";}}catch(e){}</script>
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1401237223139327"
@@ -384,6 +392,7 @@ body.typing-active footer{opacity:.26;filter:saturate(.72);pointer-events:none;}
       <div class="stat"><div class="num" id="rCons">100%</div><div class="lab" data-i18n="r_cons">Consistency</div></div>
     </div>
     <div class="keystats" id="keyStats"></div>
+    <div class="achv" id="achv"></div>
     <div class="result-actions">
       <button type="button" class="btn" id="btnAgain" data-i18n="btn_again">Test again</button>
       <button type="button" class="btn ghost" id="btnShare" data-i18n="btn_share">Copy result</button>
@@ -4064,6 +4073,26 @@ function renderKeyStats(){
   if(!html)html='<div class="ks-row ks-clean">'+(tr("ks_clean")||"Clean, even run \u2014 no standout weak keys.")+'</div>';
   box.innerHTML=html;
 }
+function renderAchievements(s){
+  var box=document.getElementById("achv"); if(!box)return;
+  var today=new Date().toISOString().slice(0,10);
+  var st={last:"",n:0}; try{st=JSON.parse(localStorage.getItem("typingStreakV1"))||st;}catch(e){}
+  if(st.last!==today){var y=new Date(Date.now()-86400000).toISOString().slice(0,10); st.n=(st.last===y)?(st.n+1):1; st.last=today; try{localStorage.setItem("typingStreakV1",JSON.stringify(st));}catch(e){}}
+  var langs={}; try{langs=JSON.parse(localStorage.getItem("typingLangsV1"))||{};}catch(e){}
+  langs[(window.TR&&TR.lang)||"en"]=1; try{localStorage.setItem("typingLangsV1",JSON.stringify(langs));}catch(e){}
+  var earned={}; try{earned=JSON.parse(localStorage.getItem("typingBadgesV1"))||{};}catch(e){}
+  var defs=[["first","🏁","First test",true],["wpm60","⚡","60 WPM",s.wpm>=60],["wpm80","🚀","80 WPM",s.wpm>=80],
+    ["wpm100","💯","100 WPM",s.wpm>=100],["acc100","🎯","100% accuracy",s.acc>=100],["flawless","✨","Flawless 60s+",s.err===0&&dur>=60],
+    ["marathon","🧘","10-minute run",dur>=600],["streak7","🔥","7-day streak",st.n>=7],["polyglot","🌍","2+ languages",Object.keys(langs).length>=2]];
+  var newly=[],i;
+  for(i=0;i<defs.length;i++){if(defs[i][3]&&!earned[defs[i][0]]){earned[defs[i][0]]=today;newly.push(defs[i][0]);}}
+  try{localStorage.setItem("typingBadgesV1",JSON.stringify(earned));}catch(e){}
+  var tr=(window.TR&&TR.t)?TR.t:function(k){return null;};
+  var html='<div class="achv-streak">🔥 '+(tr("streak")||"Streak")+' <b>'+st.n+'</b> '+(st.n===1?(tr("day")||"day"):(tr("days")||"days"))+'</div><div class="achv-grid">';
+  for(i=0;i<defs.length;i++){var d=defs[i],on=!!earned[d[0]];
+    html+='<span class="achv-b'+(on?" on":"")+(newly.indexOf(d[0])>=0?" newly":"")+'" title="'+d[2]+'">'+d[1]+'</span>';}
+  box.innerHTML=html+'</div>';
+}
 function finish(){
   finished=true; clearInterval(timer);
   if(document.body)document.body.classList.remove("typing-active");
@@ -4088,6 +4117,7 @@ function finish(){
   variantResult();
   drawChart();
   renderKeyStats();
+  renderAchievements(s);
   render(); elRes.style.display="block"; elHint.style.display="none";
   elRes.scrollIntoView({behavior:"smooth",block:"center"});
 }
@@ -4377,7 +4407,7 @@ window.addEventListener("tr-relang",function(){reset();try{renderHist(JSON.parse
 buildKbd(); buildVariantUI(); reset();
 })();
 </script>
-<script src="ui.js?v=202610111430" defer></script>
+<script src="ui.js?v=202610111450" defer></script>
 <script src="egg.js?v=202610090900" defer></script>
 </body>
 </html>

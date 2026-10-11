@@ -77,6 +77,11 @@ var POOL=/*{{POOL}}*/;
  hist_import:{en:"Import",zh:"导入",es:"Importar",hi:"आयात करें",ar:"استيراد"},
  hist_bad:{en:"Could not read that file — is it a Typing.Rerivo export?",zh:"无法读取该文件 —— 它是 Typing.Rerivo 导出的进度吗？",es:"No se pudo leer el archivo: ¿es una exportación de Typing.Rerivo?",hi:"वह फ़ाइल नहीं पढ़ी जा सकी — क्या यह Typing.Rerivo निर्यात है?",ar:"تعذّرت قراءة الملف — هل هو ملف تصدير من Typing.Rerivo؟"}
 };for(var key in H){var R=H[key];for(var k in R){if(I18N[k])I18N[k][key]=R[k];}}})();
+(function(){var S={
+ streak:{en:"Streak",zh:"连续练习",es:"Racha",hi:"स्ट्रीक",ar:"سلسلة"},
+ day:{en:"day",zh:"天",es:"día",hi:"दिन",ar:"يوم"},
+ days:{en:"days",zh:"天",es:"días",hi:"दिन",ar:"أيام"}
+};for(var key in S){var R=S[key];for(var k in R){if(I18N[k])I18N[k][key]=R[k];}}})();
 var LANGS=["en","zh","es","hi","ar"];
 var WIDTHS=["std","wide","xwide","fluid"];
 var THEMES=[["dark","🌙"],["light","☀️"],["ocean","🌊"],["sepia","📖"],["green","🌿"]];

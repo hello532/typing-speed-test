@@ -261,3 +261,11 @@ body.typing-active footer{opacity:.26;filter:saturate(.72);pointer-events:none;}
 .hist-tools{display:flex;gap:8px;flex-wrap:wrap;margin:2px 0 12px;}
 .hist-btn{background:var(--panel2);border:1px solid var(--line);color:var(--soft);border-radius:8px;padding:5px 12px;font-size:.78rem;font-weight:600;cursor:pointer;font-family:inherit;transition:border-color .15s,color .15s,background .15s;}
 .hist-btn:hover{border-color:var(--borderhi);color:var(--text);background:var(--panelhi);}
+/* ---------- 竞品级：本地成就徽章 + 连续天数（纯本地，无排行榜）---------- */
+.achv{max-width:560px;margin:2px auto 16px;text-align:center;}
+.achv-streak{font-size:.9rem;color:var(--dim);margin-bottom:9px;}
+.achv-streak b{color:var(--accent);font-size:1.05rem;}
+.achv-grid{display:flex;flex-wrap:wrap;gap:7px;justify-content:center;}
+.achv-b{display:inline-flex;align-items:center;justify-content:center;width:38px;height:38px;border-radius:10px;background:var(--panel2);border:1px solid var(--line);font-size:1.1rem;filter:grayscale(1);opacity:.4;transition:all .2s;cursor:default;}
+.achv-b.on{filter:none;opacity:1;border-color:var(--accent);background:var(--accentdim);}
+.achv-b.newly{animation:pbpop .5s ease;box-shadow:0 0 0 3px var(--accentdim);}

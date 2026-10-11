@@ -3629,6 +3629,26 @@ function renderKeyStats(){
   if(!html)html='<div class="ks-row ks-clean">'+(tr("ks_clean")||"Clean, even run \u2014 no standout weak keys.")+'</div>';
   box.innerHTML=html;
 }
+function renderAchievements(s){
+  var box=document.getElementById("achv"); if(!box)return;
+  var today=new Date().toISOString().slice(0,10);
+  var st={last:"",n:0}; try{st=JSON.parse(localStorage.getItem("typingStreakV1"))||st;}catch(e){}
+  if(st.last!==today){var y=new Date(Date.now()-86400000).toISOString().slice(0,10); st.n=(st.last===y)?(st.n+1):1; st.last=today; try{localStorage.setItem("typingStreakV1",JSON.stringify(st));}catch(e){}}
+  var langs={}; try{langs=JSON.parse(localStorage.getItem("typingLangsV1"))||{};}catch(e){}
+  langs[(window.TR&&TR.lang)||"en"]=1; try{localStorage.setItem("typingLangsV1",JSON.stringify(langs));}catch(e){}
+  var earned={}; try{earned=JSON.parse(localStorage.getItem("typingBadgesV1"))||{};}catch(e){}
+  var defs=[["first","🏁","First test",true],["wpm60","⚡","60 WPM",s.wpm>=60],["wpm80","🚀","80 WPM",s.wpm>=80],
+    ["wpm100","💯","100 WPM",s.wpm>=100],["acc100","🎯","100% accuracy",s.acc>=100],["flawless","✨","Flawless 60s+",s.err===0&&dur>=60],
+    ["marathon","🧘","10-minute run",dur>=600],["streak7","🔥","7-day streak",st.n>=7],["polyglot","🌍","2+ languages",Object.keys(langs).length>=2]];
+  var newly=[],i;
+  for(i=0;i<defs.length;i++){if(defs[i][3]&&!earned[defs[i][0]]){earned[defs[i][0]]=today;newly.push(defs[i][0]);}}
+  try{localStorage.setItem("typingBadgesV1",JSON.stringify(earned));}catch(e){}
+  var tr=(window.TR&&TR.t)?TR.t:function(k){return null;};
+  var html='<div class="achv-streak">🔥 '+(tr("streak")||"Streak")+' <b>'+st.n+'</b> '+(st.n===1?(tr("day")||"day"):(tr("days")||"days"))+'</div><div class="achv-grid">';
+  for(i=0;i<defs.length;i++){var d=defs[i],on=!!earned[d[0]];
+    html+='<span class="achv-b'+(on?" on":"")+(newly.indexOf(d[0])>=0?" newly":"")+'" title="'+d[2]+'">'+d[1]+'</span>';}
+  box.innerHTML=html+'</div>';
+}
 function finish(){
   finished=true; clearInterval(timer);
   if(document.body)document.body.classList.remove("typing-active");
@@ -3653,6 +3673,7 @@ function finish(){
   variantResult();
   drawChart();
   renderKeyStats();
+  renderAchievements(s);
   render(); elRes.style.display="block"; elHint.style.display="none";
   elRes.scrollIntoView({behavior:"smooth",block:"center"});
 }
