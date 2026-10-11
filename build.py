@@ -90,7 +90,10 @@ def build_seo(page):
     for sec in page["seo"]:
         parts.append(f'    <h2>{sec["h2"]}</h2>')
         for p in sec["p"]:
-            parts.append(f"    <p>{p}</p>")
+            if p.lstrip().startswith(("<table", "<ul", "<ol", "<div", "<figure")):
+                parts.append(f"    {p}")
+            else:
+                parts.append(f"    <p>{p}</p>")
     parts.append("  </section>")
     return "\n".join(parts)
 

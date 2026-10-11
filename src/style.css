@@ -106,6 +106,15 @@ nav.crumbs span{color:var(--dim);}
 .seo strong{color:var(--text); font-weight:600;}
 .seo a{color:var(--accent); text-decoration:none; font-weight:600;}
 .seo a:hover{color:var(--text); text-decoration:underline;}
+.seo .tbl{overflow-x:auto;margin:4px 0 16px;-webkit-overflow-scrolling:touch;}
+.seo table{width:100%;border-collapse:collapse;font-size:.94rem;}
+.seo th,.seo td{border:1px solid var(--line);padding:8px 11px;text-align:left;vertical-align:top;}
+.seo th{color:var(--text);font-weight:700;background:var(--panel2);white-space:nowrap;}
+.seo tbody tr:hover{background:var(--panel2);}
+.seo td:first-child{color:var(--text);font-weight:600;}
+.seo ul,.seo ol{margin:0 0 12px 1.2em;}
+.seo li{margin-bottom:5px;}
+@media(max-width:560px){.seo table{font-size:.84rem;}.seo th,.seo td{padding:6px 8px;}}
 .faq{margin-top:8px;}
 .faq details{border:1px solid var(--line); border-radius:var(--radius-sm); padding:2px 16px; margin-bottom:10px; background:var(--panel); transition:border-color .15s, background .15s;}
 .faq details:hover{border-color:var(--borderhi);}

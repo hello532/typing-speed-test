@@ -20,6 +20,10 @@
 - [Words Per Minute Test](https://typing.rerivo.com/words-per-minute-test.html): Explains and measures WPM.
 - [WPM Test Online](https://typing.rerivo.com/wpm-test-online.html): Quick online WPM check.
 - [Typing Accuracy Test](https://typing.rerivo.com/typing-accuracy-test.html): Focuses on accuracy and error rate.
+- [Average Typing Speed](https://typing.rerivo.com/average-typing-speed.html): What a good WPM is, with average typing speed benchmarks by skill level, age and profession.
+- [CPM Typing Test](https://typing.rerivo.com/cpm-typing-test.html): Measures typing speed in characters per minute (CPM = WPM x 5) with live CPM and WPM.
+- [Typing Test for Kids](https://typing.rerivo.com/typing-test-for-kids.html): Simple, fun words-per-minute test for children with a visual keyboard and finger guide.
+- [Typing Test for Jobs](https://typing.rerivo.com/typing-test-for-jobs.html): Pre-employment typing test practice; shows the WPM data entry, admin and support jobs require.
 
 ## Text / Difficulty Variations
 - [Number Typing Test](https://typing.rerivo.com/number-typing-test.html): Numeric keypad and digits practice.
