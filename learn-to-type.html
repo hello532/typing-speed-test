@@ -4035,7 +4035,7 @@ function stats(){
           acc: accDen? Math.round(correct/accDen*100):100,
           err:errTotal, errNow:el, cpm:Math.round(totalTyped/mins)};
 }
-function showLive(){var s=stats(); elW.textContent=s.wpm; elA.textContent=s.acc+"%"; elT.textContent=mmss(Math.max(0,dur-Math.floor((Date.now()-startAt)/1000))); if(startAt){wpmSamples.push({x:(Date.now()-startAt)/1000,y:s.wpm});}}
+function showLive(){var s=stats(); elW.textContent=s.wpm; elA.textContent=s.acc+"%"; elT.textContent=mmss(Math.max(0,dur-Math.floor((Date.now()-startAt)/1000))); if(startAt){wpmSamples.push({x:(Date.now()-startAt)/1000,y:s.wpm,r:s.raw,e:errTotal});}}
 function consistency(){
   if(wpmSamples.length<2)return 100;
   var ys=[],i; for(i=0;i<wpmSamples.length;i++)ys.push(wpmSamples[i].y);
@@ -4207,18 +4207,34 @@ function drawChart(){
   var cv=document.getElementById("wpmChart"); if(!cv||wpmSamples.length<2)return;
   var x=cv.getContext("2d"),W=cv.width,H=cv.height,pad=24;
   x.clearRect(0,0,W,H);
-  var maxY=10,i; for(i=0;i<wpmSamples.length;i++)maxY=Math.max(maxY,wpmSamples[i].y);
+  var maxY=10,i; for(i=0;i<wpmSamples.length;i++)maxY=Math.max(maxY,wpmSamples[i].y,wpmSamples[i].r||0);
   var maxX=wpmSamples[wpmSamples.length-1].x||1;
   var cs=getComputedStyle(document.documentElement);
   var acc=(cs.getPropertyValue("--accent")||"#ffc93c").trim();
+  var dim=(cs.getPropertyValue("--dim")||"#888").trim();
+  var bad=(cs.getPropertyValue("--bad")||"#f7768e").trim();
   var ln=(cs.getPropertyValue("--line")||"#333").trim();
   x.strokeStyle=ln;x.lineWidth=1;x.beginPath();x.moveTo(pad,H-pad);x.lineTo(W-6,H-pad);x.stroke();
-  function PX(p){return pad+(W-pad-6)*(p.x/maxX);} function PY(p){return (H-pad)-(H-pad-12)*(p.y/maxY);}
+  function PX(p){return pad+(W-pad-6)*(p.x/maxX);} function PYv(v){return (H-pad)-(H-pad-12)*(v/maxY);}
+  /* raw WPM —— 虚线、弱色，衬在净速后面 */
+  x.strokeStyle=dim;x.lineWidth=1.5;x.setLineDash([4,4]);x.lineJoin="round";x.beginPath();
+  for(i=0;i<wpmSamples.length;i++){var rx=PX(wpmSamples[i]),ry=PYv(wpmSamples[i].r||wpmSamples[i].y);if(i===0)x.moveTo(rx,ry);else x.lineTo(rx,ry);}
+  x.stroke();x.setLineDash([]);
+  /* net WPM —— 主色实线 + 填充 */
   x.strokeStyle=acc;x.lineWidth=2.6;x.lineJoin="round";x.beginPath();
-  for(i=0;i<wpmSamples.length;i++){var px=PX(wpmSamples[i]),py=PY(wpmSamples[i]);if(i===0)x.moveTo(px,py);else x.lineTo(px,py);}
+  for(i=0;i<wpmSamples.length;i++){var px=PX(wpmSamples[i]),py=PYv(wpmSamples[i].y);if(i===0)x.moveTo(px,py);else x.lineTo(px,py);}
   x.stroke();
   x.lineTo(PX(wpmSamples[wpmSamples.length-1]),H-pad);x.lineTo(pad,H-pad);x.closePath();
   x.globalAlpha=.13;x.fillStyle=acc;x.fill();x.globalAlpha=1;
+  /* 错误标记 —— 累计错误增加的采样点打红点 */
+  x.fillStyle=bad;
+  for(i=1;i<wpmSamples.length;i++){if((wpmSamples[i].e||0)>(wpmSamples[i-1].e||0)){var ex=PX(wpmSamples[i]),ey=PYv(wpmSamples[i].y);x.beginPath();x.arc(ex,ey,3.2,0,6.2832);x.fill();}}
+  /* 图例 */
+  var tr=(window.TR&&TR.t)?TR.t:function(k){return k;};
+  x.font='600 10px '+((cs.getPropertyValue("--font")||"sans-serif").trim());x.textBaseline="middle";
+  var lx=pad+2,ly=11;
+  function leg(col,txt){x.fillStyle=col;x.fillRect(lx,ly-4,8,8);x.fillStyle=dim;x.fillText(" "+txt,lx+9,ly);lx+=x.measureText(" "+txt).width+24;}
+  leg(acc,(tr("wpm")||"WPM")); leg(dim,(tr("r_raw")||"Raw")); leg(bad,(tr("r_errors")||"Errors"));
 }
 (function(){var tp=document.querySelector(".typing");if(tp){
   elIn.addEventListener("blur",function(){if(startAt&&!finished)tp.classList.add("blurred");});
