@@ -82,6 +82,7 @@ var POOL=/*{{POOL}}*/;
  day:{en:"day",zh:"天",es:"día",hi:"दिन",ar:"يوم"},
  days:{en:"days",zh:"天",es:"días",hi:"दिन",ar:"أيام"}
 };for(var key in S){var R=S[key];for(var k in R){if(I18N[k])I18N[k][key]=R[k];}}})();
+(function(){var G={btn_img:{en:"Save image",zh:"保存成绩图",es:"Guardar imagen",hi:"इमेज सहेजें",ar:"حفظ الصورة"}};for(var key in G){var R=G[key];for(var k in R){if(I18N[k])I18N[k][key]=R[k];}}})();
 var LANGS=["en","zh","es","hi","ar"];
 var WIDTHS=["std","wide","xwide","fluid"];
 var THEMES=[["dark","🌙"],["light","☀️"],["ocean","🌊"],["sepia","📖"],["green","🌿"]];

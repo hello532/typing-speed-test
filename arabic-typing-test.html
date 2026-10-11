@@ -403,6 +403,7 @@ window.__trPageLang="ar";</script>
     <div class="result-actions">
       <button type="button" class="btn" id="btnAgain" data-i18n="btn_again">Test again</button>
       <button type="button" class="btn ghost" id="btnShare" data-i18n="btn_share">Copy result</button>
+      <button type="button" class="btn ghost" id="btnImg" data-i18n="btn_img">Save image</button>
           <button type="button" class="btn ghost" id="btnCert" data-i18n="btn_cert">Print certificate</button>
     </div>
     <div class="hist" id="histBox">
@@ -4359,6 +4360,25 @@ chipsM.forEach(function(c){c.addEventListener("click",function(){
   mode=c.getAttribute("data-m"); reset();
 });});
 document.getElementById("btnAgain").addEventListener("click",function(){reset();elIn.focus();});
+function saveResultImage(){
+  var s=stats(), cs=getComputedStyle(document.documentElement);
+  function cvar(n,f){return (cs.getPropertyValue(n)||f).trim();}
+  var W=1200,H=630,cE=document.createElement("canvas");cE.width=W;cE.height=H;var x=cE.getContext("2d");
+  var bg=cvar("--bg","#0b0c10"),text=cvar("--text","#edeef2"),dim=cvar("--dim","#7f8498"),acc=cvar("--accent","#ffc93c");
+  var FONT="Inter,'Segoe UI',system-ui,sans-serif";
+  function F(w,px){return w+" "+px+"px "+FONT;}
+  var tr=function(k,f){try{return (window.TR&&TR.t&&TR.t(k))||f;}catch(e){return f;}};
+  x.fillStyle=bg;x.fillRect(0,0,W,H); x.fillStyle=acc;x.fillRect(0,0,W,10);
+  x.fillStyle=dim;x.font=F("700",30);x.fillText("TYPING.RERIVO",70,98);
+  x.fillStyle=acc;x.font=F("800",180);x.fillText(String(s.wpm),70,322);
+  x.fillStyle=text;x.font=F("700",54);x.fillText(" "+tr("wpm","WPM"),70+x.measureText(String(s.wpm)).width,322);
+  x.fillStyle=text;x.font=F("600",40);x.fillText(tr("accuracy","Accuracy")+": "+s.acc+"%      "+tr("r_errors","Errors")+": "+s.err,70,432);
+  var durLabel=dur<60?(dur+"s"):((dur/60)+" min"),ml=(window.TR&&TR.modeLabel)?TR.modeLabel(mode):mode;
+  x.fillStyle=dim;x.font=F("600",34);x.fillText(durLabel+" \u00b7 "+ml+" \u00b7 "+s.cpm+" "+tr("r_cpm","CPM"),70,494);
+  x.fillStyle=dim;x.font=F("600",30);x.fillText("Free online typing speed test \u00b7 typing.rerivo.com",70,576);
+  cE.toBlob(function(b){if(!b)return;var a=document.createElement("a");a.href=URL.createObjectURL(b);a.download="typing-"+s.wpm+"wpm.png";document.body.appendChild(a);a.click();setTimeout(function(){URL.revokeObjectURL(a.href);if(a.parentNode)a.parentNode.removeChild(a);},800);},"image/png");
+}
+(function(){var b=document.getElementById("btnImg");if(b)b.addEventListener("click",saveResultImage);})();
 document.getElementById("btnCert").addEventListener("click",function(){
   var s=stats();
   var tr=function(k,f){try{return (window.TR&&TR.t&&TR.t(k))||f;}catch(e){return f;}};
@@ -4412,7 +4432,7 @@ window.addEventListener("tr-relang",function(){reset();try{renderHist(JSON.parse
 buildKbd(); buildVariantUI(); reset();
 })();
 </script>
-<script src="ui.js?v=202610111450" defer></script>
+<script src="ui.js?v=202610111606" defer></script>
 <script src="egg.js?v=202610090900" defer></script>
 </body>
 </html>
