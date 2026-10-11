@@ -67,6 +67,11 @@ var POOL=/*{{POOL}}*/;
  p_onehand:{en:"One-Hand",zh:"单手打字",es:"Una mano",hi:"एक हाथ",ar:"يد واحدة"},
  p_cert:{en:"Certificate",zh:"打字证书",es:"Certificado",hi:"प्रमाणपत्र",ar:"شهادة"}
 };for(var key in P){var R=P[key];for(var k in R){if(I18N[k])I18N[k][key]=R[k];}}})();
+(function(){var K={
+ ks_missed:{en:"Most-missed keys",zh:"最常打错的键",es:"Teclas más falladas",hi:"सबसे ज़्यादा गलत कुंजियाँ",ar:"المفاتيح الأكثر خطأً"},
+ ks_slow:{en:"Slowest keys",zh:"最慢的键",es:"Teclas más lentas",hi:"सबसे धीमी कुंजियाँ",ar:"المفاتيح الأبطأ"},
+ ks_clean:{en:"Clean, even run — no standout weak keys.",zh:"干净平稳，没有明显的弱键。",es:"Pulsación limpia y uniforme: sin teclas débiles destacadas.",hi:"साफ़, एकसमान प्रयास — कोई खास कमज़ोर कुंजी नहीं।",ar:"أداء نظيف ومتساوٍ — لا مفاتيح ضعيفة بارزة."}
+};for(var key in K){var R=K[key];for(var k in R){if(I18N[k])I18N[k][key]=R[k];}}})();
 var LANGS=["en","zh","es","hi","ar"];
 var WIDTHS=["std","wide","xwide","fluid"];
 var THEMES=[["dark","🌙"],["light","☀️"],["ocean","🌊"],["sepia","📖"],["green","🌿"]];

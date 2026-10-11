@@ -3516,6 +3516,7 @@ var curEl=null;            /* 当前持 .cur 的 span，增量渲染时只动这
 var drillFinger="all";           /* finger_drill：当前练习的手指 */
 var combo=0, score=0, level=1, bestCombo=0;   /* game：连击 / 分数 / 等级 / 本局最高连击 */
 var keyErrors={};                /* accuracy：错键分布 target->count */
+var keyTime={}, _lastKeyTs=0;    /* 慢键分析：target->{n,s(ms)} + 上次击键时刻 */
 /* 无限文本流：初始铺满首屏，之后只要光标前方余量不足 LOOKAHEAD 就尾部追加一个 chunk。
    追加只发生在末尾，已输入部分的 chars[i] ↔ v[i] 索引对应关系不受影响。 */
 var INIT_CHARS=240, LOOKAHEAD=80;
@@ -3583,7 +3584,7 @@ function reset(){
   chars=[]; totalTyped=0; errTotal=0; finished=false; startAt=0; curEl=null; _prevLen=0;
   if(document.body)document.body.classList.remove("typing-active");
   /* variant 每局状态清零；drillFinger 是用户选择，跨局保留 */
-  combo=0; score=0; level=1; bestCombo=0; keyErrors={};
+  combo=0; score=0; level=1; bestCombo=0; keyErrors={}; keyTime={}; _lastKeyTs=0;
   elText.innerHTML=""; seedText();
   elT.textContent=mmss(dur); elW.textContent="0"; elA.textContent="100%";
   elRes.style.display="none"; elHint.style.display="block";
@@ -3612,6 +3613,22 @@ function consistency(){
   return Math.max(0,Math.min(100,Math.round((1-cv)*100)));
 }
 function pbKey(){return "typingPB_"+mode+"_"+dur;}
+function renderKeyStats(){
+  var box=document.getElementById("keyStats"); if(!box)return;
+  var tr=(window.TR&&TR.t)?TR.t:function(k){return null;};
+  function chip(ch,val,cls){ch=(ch===" ")?"\u2423":esc(ch);return '<span class="ksk '+(cls||"")+'">'+ch+'<b>'+val+'</b></span>';}
+  var miss=[],k; for(k in keyErrors)miss.push([k,keyErrors[k]]);
+  miss.sort(function(a,b){return b[1]-a[1];}); miss=miss.slice(0,6);
+  var slow=[],k2; for(k2 in keyTime){var o=keyTime[k2]; if(o.n>=2)slow.push([k2,Math.round(o.s/o.n)]);}
+  slow.sort(function(a,b){return b[1]-a[1];}); slow=slow.slice(0,6);
+  var html="",i;
+  if(miss.length){html+='<div class="ks-row"><span class="ks-lab">'+(tr("ks_missed")||"Most-missed keys")+'</span><span class="ks-keys">';
+    for(i=0;i<miss.length;i++)html+=chip(miss[i][0],miss[i][1]+"\u00d7","ks-miss"); html+='</span></div>';}
+  if(slow.length){html+='<div class="ks-row"><span class="ks-lab">'+(tr("ks_slow")||"Slowest keys")+'</span><span class="ks-keys">';
+    for(i=0;i<slow.length;i++)html+=chip(slow[i][0],slow[i][1]+"ms","ks-slow"); html+='</span></div>';}
+  if(!html)html='<div class="ks-row ks-clean">'+(tr("ks_clean")||"Clean, even run \u2014 no standout weak keys.")+'</div>';
+  box.innerHTML=html;
+}
 function finish(){
   finished=true; clearInterval(timer);
   if(document.body)document.body.classList.remove("typing-active");
@@ -3635,6 +3652,7 @@ function finish(){
   saveHist(s);
   variantResult();
   drawChart();
+  renderKeyStats();
   render(); elRes.style.display="block"; elHint.style.display="none";
   elRes.scrollIntoView({behavior:"smooth",block:"center"});
 }
@@ -3789,7 +3807,7 @@ elIn.addEventListener("input",function(){
   totalTyped=v.length;
   for(i=0;i<totalTyped;i++){if(chars[i])chars[i].ok=(chars[i].t===v[i]);}
   /* 累计错误只对本次新增的字符计数：改对不再减少 Errors，改错重复计数 */
-  if(totalTyped>_prevLen){for(i=_prevLen;i<totalTyped;i++){if(chars[i]&&!chars[i].ok)errTotal++;}}
+  if(totalTyped>_prevLen){var _now=Date.now();for(i=_prevLen;i<totalTyped;i++){if(!chars[i])continue;var _tg=chars[i].t;if(!chars[i].ok){errTotal++;keyErrors[_tg]=(keyErrors[_tg]||0)+1;}else{var _dt=_now-(_lastKeyTs||_now);if(_dt>0&&_dt<2500){var _kt=keyTime[_tg]||(keyTime[_tg]={n:0,s:0});_kt.n++;_kt.s+=_dt;}}}_lastKeyTs=_now;}
   /* game 变体：对本次新增字符逐个结算连击/分数/等级 */
   if(VARIANT==="game"&&totalTyped>_prevLen){
     for(i=_prevLen;i<totalTyped;i++){gameOnChar(!!(chars[i]&&chars[i].ok),chars[i]&&chars[i].el);}

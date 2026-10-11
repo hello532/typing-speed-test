@@ -243,3 +243,17 @@ body.typing-active nav.crumbs,
 body.typing-active .seo,
 body.typing-active .faq,
 body.typing-active footer{opacity:.26;filter:saturate(.72);pointer-events:none;}
+
+/* ---------- 竞品级：成绩页按键分析（最常错键 / 最慢键）---------- */
+.keystats{display:flex;flex-direction:column;gap:8px;max-width:560px;margin:4px auto 18px;}
+.ks-row{display:flex;flex-wrap:wrap;align-items:center;gap:8px;justify-content:center;}
+.ks-lab{font-size:.68rem;color:var(--dim);text-transform:uppercase;letter-spacing:1.2px;font-weight:700;min-width:118px;text-align:right;}
+.ks-keys{display:inline-flex;flex-wrap:wrap;gap:6px;}
+.ksk{display:inline-flex;align-items:center;gap:5px;background:var(--panel2);border:1px solid var(--line);border-radius:8px;padding:4px 9px;font-family:var(--mono);font-size:.9rem;color:var(--text);text-transform:uppercase;}
+.ksk b{font-family:var(--font);font-size:.72rem;font-weight:700;}
+.ksk.ks-miss{border-color:var(--bad);color:var(--bad);}
+.ksk.ks-miss b{color:var(--bad);}
+.ksk.ks-slow{border-color:var(--cur);color:var(--cur);}
+.ksk.ks-slow b{color:var(--cur);}
+.ks-clean{color:var(--ok);font-weight:600;font-size:.9rem;justify-content:center;}
+@media(max-width:560px){.ks-lab{min-width:0;text-align:center;width:100%;}}
