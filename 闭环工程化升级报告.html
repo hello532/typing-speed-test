@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Typing.Rerivo 闭环工程化升级报告 —— 程序化硬伤修复 + 外链运维工具化</title>
+<style>
+:root{--ink:#1a2233;--ink2:#4a5568;--ink3:#718096;--bg:#f6f7fb;--card:#fff;--line:#e2e8f0;
+--pri:#008060;--pri-soft:#e6f4f0;--good:#0ea5e9;--warn:#f59e0b;--no:#ef4444;--radius:14px;
+--shadow:0 1px 3px rgba(16,24,40,.06),0 8px 24px -12px rgba(16,24,40,.12);}
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:-apple-system,BlinkMacSystemFont,"PingFang SC","Microsoft YaHei",sans-serif;background:var(--bg);color:var(--ink);line-height:1.7;font-size:15px}
+.wrap{max-width:1080px;margin:0 auto;padding:0 22px 60px}
+header.hero{background:linear-gradient(135deg,#065f46,#008060 55%,#0d9488);color:#fff;padding:44px 0 34px;margin-bottom:26px}
+header.hero h1{font-size:25px;font-weight:800}
+header.hero .sub{opacity:.92;margin-top:8px;font-size:14px}
+header.hero blockquote{margin-top:16px;background:rgba(255,255,255,.12);border-left:3px solid rgba(255,255,255,.55);padding:10px 16px;border-radius:0 10px 10px 0;font-size:13.5px}
+.badges{display:flex;gap:8px;flex-wrap:wrap;margin-top:16px}
+.badge{background:rgba(255,255,255,.16);border:1px solid rgba(255,255,255,.3);padding:4px 12px;border-radius:999px;font-size:12px}
+section{margin-top:30px}
+h2{font-size:19px;font-weight:800;display:flex;align-items:center;gap:10px;margin-bottom:6px}
+h2 .tag{font-size:11px;font-weight:700;color:#fff;padding:3px 10px;border-radius:999px;background:var(--pri)}
+.lede{color:var(--ink2);font-size:13.5px;margin-bottom:16px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:var(--radius);box-shadow:var(--shadow);padding:20px 22px;margin-top:14px}
+table{width:100%;border-collapse:collapse;font-size:13px}
+th,td{text-align:left;padding:8px 10px;border-bottom:1px solid var(--line);vertical-align:top}
+th{font-size:12px;color:var(--ink3);text-transform:uppercase;letter-spacing:.05em;font-weight:700}
+tr:last-child td{border-bottom:none}
+.num{font-variant-numeric:tabular-nums;font-weight:700;color:var(--pri)}
+code{font-family:ui-monospace,Menlo,Consolas,monospace;font-size:12.5px;background:var(--pri-soft);color:#065f46;padding:2px 6px;border-radius:6px}
+.pill{display:inline-block;font-size:11.5px;font-weight:700;padding:2px 10px;border-radius:999px}
+.pill.ok{background:#e6f4f0;color:#047857}.pill.warn{background:#fef3c7;color:#b45309}.pill.no{background:#fee2e2;color:#b91c1c}
+.kv{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:12px;margin-top:4px}
+.kv>div{background:var(--bg);border:1px solid var(--line);border-radius:10px;padding:12px 14px}
+.kv b{display:block;font-size:22px;color:var(--pri);font-variant-numeric:tabular-nums}
+.kv span{font-size:12px;color:var(--ink3)}
+ul.tick{list-style:none;display:grid;gap:8px;margin-top:6px}
+ul.tick li{padding-left:26px;position:relative;font-size:13.5px}
+ul.tick li::before{content:"\2705";position:absolute;left:0}
+ul.tick li.warn::before{content:"\26A0\FE0F"}ul.tick li.warn{color:#92400e}
+footer.foot{margin-top:40px;padding-top:18px;border-top:1px solid var(--line);color:var(--ink3);font-size:12.5px}
+</style>
+</head>
+<body>
+<header class="hero"><div class="wrap">
+  <h1>Typing.Rerivo &middot; 闭环工程化升级报告</h1>
+  <div class="sub">程序员 + 独立站实操双视角：程序化硬伤修复 → 零维护闸门 → 外链运维工具化 → CI ｜ 2026-10-12</div>
+  <blockquote>不是再发几篇外链，而是把「闭环」本身做成**可复跑、可版本化、零手工维护**的工程件：结构守卫不再需要每加一个功能就改验证器；外链从对话里的记事变成 <code>directories.json</code> 台账 + 探测脚本；收录核实一条命令；CI 首次上线。</blockquote>
+  <div class="badges">
+    <span class="badge">verify 14 → 16 闸门</span>
+    <span class="badge">verify.py 400 → 215 行</span>
+    <span class="badge">49 骨架 → 1 不变量</span>
+    <span class="badge">外链台账 18 条</span>
+    <span class="badge">CI 首绿</span>
+  </div>
+</div></header>
+
+<div class="wrap">
+
+<section>
+  <h2>① 审计发现的程序化硬伤 <span class="tag">问题</span></h2>
+  <div class="lede">以「六个月后还能维护吗」为标准自审，而不是以「现在能不能跑」。</div>
+  <div class="card">
+    <table>
+      <thead><tr><th>硬伤</th><th>证据</th><th>后果</th></tr></thead>
+      <tbody>
+        <tr><td><strong>验证器随功能膨胀</strong></td><td>check 9 对 <code>eada54e</code> 冻结基线做字节 diff，靠 <b>13 条 EXEMPT + 32 条 NEW_PAGES + 16 条逐功能 strip 正则</b>维持绿</td><td>每加一个功能块/页面都要手改验证器；豁免表只增不减，最终没人敢动</td></tr>
+        <tr><td><strong>无 CI</strong></td><td>无 <code>.github/workflows</code></td><td>所有闸门只在你本地跑；push 坏了没人拦</td></tr>
+        <tr><td><strong>GEO 清单缺全文版</strong></td><td><code>llms-full.txt</code> → 404</td><td>AI 引擎要二次抓取才能引用，白掉一轮 GEO</td></tr>
+        <tr><td><strong>外链无机器可读台账</strong></td><td>状态散在 markdown/对话</td><td>无法回答「哪些提交/被挡/要登录」，无法批量复探</td></tr>
+        <tr><td><strong>收录核实靠手点</strong></td><td>无脚本</td><td>49 URL 是否 200 只能人工抽查</td></tr>
+      </tbody>
+    </table>
+  </div>
+</section>
+
+<section>
+  <h2>② 结构守卫重构 <span class="tag">零维护</span></h2>
+  <div class="lede">把「结构等价」从「对冻结基线逐条豁免」变成「一个不变量 + 一个金标」。</div>
+  <div class="card">
+    <ul class="tick">
+      <li><strong>骨架归一</strong>（<code>src/tools/skeleton.py</code>）：把每页的可变槽位（TDK / canonical / hero / seo / faq / JSON-LD / nav / footer / VAR_INIT / aria-pressed / 倒计时 …）换成 <code>{{槽}}</code> 占位，其余结构逐字节保留。</li>
+      <li><strong>实证：49 种页面结构 → 1 个骨架</strong>。此前 49 页各自为政，现在任何一页多出/缺失未声明的结构块会立刻暴露。</li>
+      <li><strong>结构闸门</strong>（<code>src/tools/structure_gate.py</code>）：S1 骨架唯一 / S1a 除首页外都有面包屑 / S2 必需槽位齐全 / S3 <strong>金标锁</strong>（<code>--update</code> 重签）。</li>
+      <li><strong>负向测试通过</strong>：① 往 index 塞一个 <code>&lt;div class="rogue-panel"&gt;</code> → S1 失败并打印差异行；② 删 typing-tips 的面包屑 → S1a 精确点名。闸门是真会响的，不是装饰。</li>
+      <li><strong>verify.py 400 → 215 行</strong>，check 9 从 96 行豁免逻辑变成 9 行委托。<b>以后新增页面/功能，不必再改验证器</b>——这正是旧设计的病根。</li>
+    </ul>
+  </div>
+</section>
+
+<section>
+  <h2>③ 外链运维工具化 <span class="tag">独立站实操</span></h2>
+  <div class="lede">把「发外链」从一次性体力活，变成可版本化数据 + 可复跑命令。</div>
+  <div class="card">
+    <ul class="tick">
+      <li><code>src/tools/directories.json</code>：<strong>18 条</strong>机器可读台账（名称/URL/类型/dofollow/DR/状态/日期/备注），状态机 <code>candidate→submitted|live|blocked_cf|needs_login|dead|skipped</code>。</li>
+      <li><code>linkops.py probe</code>：批量探测目录站，自动分类 <b>Cloudflare 墙 / 需登录 / 已下线</b>。<strong>只允许「明确信号」改写台账</strong>（弱信号"可达"不改，交人工），避免误判污染数据。</li>
+      <li><code>linkops.py live</code>：sitemap 全量 URL 逐个核实 —— 本次实测 <b>49/49 全 200</b>。</li>
+      <li><code>linkops.py ledger report</code>：一眼看清 <span class="pill ok">submitted 5</span> <span class="pill warn">blocked_cf 5</span> <span class="pill no">needs_login 5</span> dead 1 candidate 2。</li>
+    </ul>
+    <p class="lede" style="margin-top:12px;margin-bottom:0">台账让「Cloudflare 挡住自动化」这件事<strong>有据可查</strong>，而不是每次凭印象重试——它明确标出 blocked_cf 是「交回人工」而非失败。</p>
+  </div>
+</section>
+
+<section>
+  <h2>④ GEO 增量 + CI <span class="tag">工程收口</span></h2>
+  <div class="card">
+    <ul class="tick">
+      <li><code>llms-full.txt</code>（118KB）：把 49 页的 H1 + 正文 + FAQ <strong>全文内联</strong>，AI 引擎无需二次抓取即可引用。由 <code>build.py</code> 派生（含 drift 守卫），已上线 <b>200</b>。</li>
+      <li><code>.github/workflows/verify.yml</code>：首次 CI —— push/PR 自动跑 build-drift + 16 闸门 + 台账校验。<strong>首次运行 success</strong>（commit <code>1b7af9a</code>）。</li>
+      <li>verify.py 新增 gate 14（台账数据合法）、gate 15（llms-full 覆盖全站）。</li>
+    </ul>
+  </div>
+</section>
+
+<section>
+  <h2>⑤ 验证 <span class="tag">证据</span></h2>
+  <div class="kv">
+    <div><b>16/16</b><span>verify 闸门（原 14）</span></div>
+    <div><b>1</b><span>49 页收敛后的骨架数</span></div>
+    <div><b>49/49</b><span>sitemap 线上 200</span></div>
+    <div><b>18</b><span>外链台账条目</span></div>
+    <div><b>success</b><span>CI 首次运行</span></div>
+  </div>
+  <div class="card">
+    <ul class="tick">
+      <li>两轮负向测试证明结构闸门会响（rogue 块 / 缺面包屑）。</li>
+      <li>CI 在 <strong>干净 Ubuntu + Python 3.12 + Node 20</strong> 环境跑通，不是本地特供。</li>
+      <li>线上复验：<code>llms-full.txt</code> / <code>llms.txt</code> / <code>sitemap.xml</code> 全 200。</li>
+    </ul>
+  </div>
+</section>
+
+<section>
+  <h2>⑥ 对闭环的意义 <span class="tag">复盘</span></h2>
+  <div class="card">
+    <p class="lede" style="margin-bottom:10px">哥飞闭环的六步（找需求→建页→站内→收录→外链→复盘）此前只有前两步是工程化的，后四步靠人肉。本轮把<b>站内/收录/外链/复盘</b>都变成了可执行件：</p>
+    <table>
+      <thead><tr><th>闭环步骤</th><th>升级前</th><th>升级后</th></tr></thead>
+      <tbody>
+        <tr><td>建页 / 站内</td><td>改 src 后手工核对</td><td>骨架不变量自动兜住结构；金标锁记录有意变更</td></tr>
+        <tr><td>收录</td><td>手点查 Bing</td><td><code>linkops live</code> 一条命令核实 49/49</td></tr>
+        <tr><td>外链</td><td>对话里记事</td><td><code>directories.json</code> 台账 + <code>probe</code> 自动分类</td></tr>
+        <tr><td>复盘</td><td>凭印象</td><td>台账状态机 + CI 每次 push 复验</td></tr>
+      </tbody>
+    </table>
+    <p class="lede" style="margin-top:12px;margin-bottom:0"><strong>下一轮唯一的关键缺口</strong>：<span class="pill warn">blocked_cf ×5 + needs_login ×5</span> 这类目录需要「真人或有账号的浏览器」才能推进——工程侧已把它们的字段、分类、优先级全部备好，人工成本从"找与判断"降到"点"。以及排名侧仍缺 GSC 接入（现只能靠 Bing site:）。</p>
+  </div>
+</section>
+
+<footer class="foot">
+  站点源：<code>~/projects/GenericAgent/temp/site1/typing-speed-test</code> ｜ 提交 <code>1b7af9a</code> ｜ CI: <code>.github/workflows/verify.yml</code><br>
+  新增件：<code>src/tools/skeleton.py</code> · <code>structure_gate.py</code>(+golden) · <code>linkops.py</code> · <code>directories.json</code> · <code>llms-full.txt</code> · <code>verify.yml</code>
+</footer>
+</div>
+</body>
+</html>
