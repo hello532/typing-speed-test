@@ -455,6 +455,28 @@ console.log('\n=== P3: 五语练习池规模 + 按语言实际取样 ===');
   assert(/data-k="\'\+c\.charCodeAt\(0\)/.test(eng), '键名用 charCode 编码（兼容 Dvorak 键面的单引号）');
 }
 
+/* ── Colemak 布局特性：数据表 + 指法覆盖 + 页面注入 + 三路切换（防回归）── */
+{
+  const eng = fs.readFileSync(path.join(root, 'src', 'engine.js'), 'utf8');
+  const cmPage = fs.readFileSync(path.join(root, 'colemak-typing.html'), 'utf8');
+  assert(/layout="colemak", VARIANT=/.test(cmPage), 'colemak 页注入 layout="colemak"');
+  const rowsM = eng.match(/COLEMAK_ROWS=(\[.*?\]);/);
+  assert(rowsM, 'COLEMAK_ROWS 三行表存在于引擎源');
+  const rows = JSON.parse(rowsM[1]);
+  const letters = rows.join('').replace(/[^A-Za-z]/g, '');
+  assert(new Set(letters).size === 26 && letters.length === 26,
+    `COLEMAK_ROWS 含 26 字母无重复（实际 ${new Set(letters).size}）`);
+  const fm = eng.match(/COLEMAK_FINGER=\{[\s\S]*?\};/);
+  assert(fm, 'COLEMAK_FINGER 指法表存在于引擎源');
+  const finger = eval('(' + fm[0].slice('COLEMAK_FINGER='.length).replace(/;$/, '') + ')');
+  const chars = [...new Set(rows.join('') + ' ')];
+  const missing = chars.filter(c => !(c in finger));
+  assert(missing.length === 0, `COLEMAK_FINGER 覆盖全部键面字符（缺 ${missing.join('')}）`);
+  assert(/layout==="colemak"\?COLEMAK_ROWS/.test(eng) && /layout==="colemak"\?COLEMAK_FINGER/.test(eng),
+    'layoutRows/layoutFinger 支持 colemak 三路选择');
+  assert(/data-lay="colemak"/.test(cmPage), 'colemak 页工具条含 Colemak 布局按钮');
+}
+
 console.log(`\n${'─'.repeat(60)}`);
 console.log(`结果: ${passed} passed, ${failed} failed`);
 process.exit(failed ? 1 : 0);

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url><loc>https://typing.rerivo.com/</loc><lastmod>2026-10-11</lastmod><changefreq>weekly</changefreq><priority>1.0</priority></url>
+  <url><loc>https://typing.rerivo.com/</loc><lastmod>2026-10-12</lastmod><changefreq>weekly</changefreq><priority>1.0</priority></url>
   <url><loc>https://typing.rerivo.com/1-minute-typing-test.html</loc><lastmod>2026-10-02</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
   <url><loc>https://typing.rerivo.com/2-minute-typing-test.html</loc><lastmod>2026-10-02</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
   <url><loc>https://typing.rerivo.com/5-minute-typing-test.html</loc><lastmod>2026-10-02</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
@@ -47,4 +47,6 @@
   <url><loc>https://typing.rerivo.com/typing-test-for-jobs.html</loc><lastmod>2026-10-11</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
   <url><loc>https://typing.rerivo.com/typing-practice-for-programmers.html</loc><lastmod>2026-10-11</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
   <url><loc>https://typing.rerivo.com/how-to-type-without-looking.html</loc><lastmod>2026-10-11</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://typing.rerivo.com/keyboard-layouts.html</loc><lastmod>2026-10-12</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://typing.rerivo.com/colemak-typing.html</loc><lastmod>2026-10-12</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
 </urlset>

@@ -51,6 +51,8 @@
 - [Typing Tests in Other Languages](https://typing.rerivo.com/typing-tests-in-other-languages.html): Free multilingual typing tests in Spanish, Chinese, Hindi, Arabic and English.
 - [Typing Certificate](https://typing.rerivo.com/typing-certificate.html): Free printable typing test certificate with WPM, accuracy, consistency and errors.
 - [Dvorak Typing Test](https://typing.rerivo.com/dvorak-typing.html): Typing test with an on screen Dvorak keyboard and QWERTY/Dvorak switch.
+- [Colemak Typing Test](https://typing.rerivo.com/colemak-typing.html): Typing test with an on-screen Colemak keyboard and QWERTY/Dvorak/Colemak switch, with Colemak finger guidance.
+- [Keyboard Layouts Compared](https://typing.rerivo.com/keyboard-layouts.html): QWERTY vs Dvorak vs Colemak vs Workman compared on home-row use, finger travel and same-finger rate, with guidance on which layout to pick and whether to switch.
 - [One Hand Typing](https://typing.rerivo.com/one-hand-typing.html): One hand typing practice and speed test for a standard keyboard.
 - [Privacy Policy](https://typing.rerivo.com/privacy-policy.html): No accounts, no cookies, no analytics, no tracking.
 - [About](https://typing.rerivo.com/about.html): A free browser-only typing speed test; contact and measurement method.

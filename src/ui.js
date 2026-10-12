@@ -89,6 +89,22 @@ var POOL=/*{{POOL}}*/;
  custom_use:{en:"Use this text",zh:"用这段文本",es:"Usar este texto",hi:"इस पाठ का उपयोग करें",ar:"استخدم هذا النص"},
  custom_clear:{en:"Clear",zh:"清除",es:"Borrar",hi:"हटाएँ",ar:"مسح"}
 };for(var key in Ct){var R=Ct[key];for(var k in R){if(I18N[k])I18N[k][key]=R[k];}}})();
+(function(){var T={
+ tier_beginner:{en:"Beginner",zh:"入门",es:"Principiante",hi:"शुरुआती",ar:"مبتدئ"},
+ tier_developing:{en:"Developing",zh:"进步中",es:"En progreso",hi:"विकासशील",ar:"متطور"},
+ tier_average:{en:"Average",zh:"普通",es:"Promedio",hi:"औसत",ar:"متوسط"},
+ tier_above:{en:"Above average",zh:"高于平均",es:"Sobre la media",hi:"औसत से ऊपर",ar:"فوق المتوسط"},
+ tier_fast:{en:"Fast",zh:"快速",es:"Rápido",hi:"तेज़",ar:"سريع"},
+ tier_elite:{en:"Elite",zh:"精英",es:"Élite",hi:"विशिष्ट",ar:"نخبة"},
+ tiern_beginner:{en:"below the 40 WPM average",zh:"低于 40 WPM 的平均水平",es:"por debajo de la media de 40 PPM",hi:"40 WPM के औसत से नीचे",ar:"أقل من متوسط 40 كلمة/د"},
+ tiern_developing:{en:"nearing the 40 WPM average",zh:"接近 40 WPM 的平均水平",es:"cerca de la media de 40 PPM",hi:"40 WPM के औसत के करीब",ar:"يقترب من متوسط 40 كلمة/د"},
+ tiern_average:{en:"around the 40–50 WPM average",zh:"处于 40–50 WPM 的平均区间",es:"en torno a la media de 40–50 PPM",hi:"40–50 WPM के औसत के आसपास",ar:"حول متوسط 40–50 كلمة/د"},
+ tiern_above:{en:"above the average speed",zh:"高于平均打字速度",es:"por encima de la velocidad media",hi:"औसत गति से तेज़",ar:"أعلى من السرعة المتوسطة"},
+ tiern_fast:{en:"top ~10% of typists",zh:"约前 10% 的打字者",es:"~10% más rápido",hi:"शीर्ष ~10% टाइपिस्ट",ar:"ضمن أسرع ~10%"},
+ tiern_elite:{en:"top ~1% of typists",zh:"约前 1% 的打字者",es:"~1% más rápido",hi:"शीर्ष ~1% टाइपिस्ट",ar:"ضمن أسرع ~1%"},
+ heat_cap:{en:"Weak keys are highlighted on the keyboard above.",zh:"较弱的按键已在上方键盘高亮显示。",es:"Las teclas débiles se resaltan en el teclado de arriba.",hi:"कमज़ोर कुंजियाँ ऊपर कीबोर्ड पर हाइलाइट की गई हैं।",ar:"المفاتيح الضعيفة مميّزة على لوحة المفاتيح أعلاه."},
+ p_colemak:{en:"Colemak",zh:"Colemak",es:"Colemak",hi:"Colemak",ar:"Colemak"}
+};for(var key in T){var R=T[key];for(var k in R){if(I18N[k])I18N[k][key]=R[k];}}})();
 var LANGS=["en","zh","es","hi","ar"];
 var WIDTHS=["std","wide","xwide","fluid"];
 var THEMES=[["dark","🌙"],["light","☀️"],["ocean","🌊"],["sepia","📖"],["green","🌿"]];

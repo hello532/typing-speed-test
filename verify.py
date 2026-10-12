@@ -57,7 +57,7 @@ CERT_BTN_RE = re.compile(
 # Task#10 起键盘工具条新增的布局切换组（Dvorak 特性，QWERTY/Dvorak 键面切换）。
 # 有意的功能性新增，基线里不存在；布局是否生效由 check 11 + 手动验收守卫，不污染 check 9。
 LAYOUT_CTRL_RE = re.compile(
-    r'<span class="lab kbd-lay-lab"[^>]*>.*?data-lay="dvorak"[^>]*>.*?</button>',
+    r'<span class="lab kbd-lay-lab"[^>]*>.*?data-lay="colemak"[^>]*>.*?</button>',
     re.S)
 # Task#11 起控制行新增的「练习模式」快捷入口组（Reddit r/SideProject 反馈：
 # Dvorak/单手/证书模式藏在页脚找不到，建议放到文本选项旁）。
@@ -65,6 +65,16 @@ LAYOUT_CTRL_RE = re.compile(
 PRACTICE_CTRL_RE = re.compile(
     r'\n *<div class="ctrl-group">\n *<span class="ctrl-label" data-i18n="practice">.*?\n *</div>',
     re.S)
+# cycle4/5/7/8 起结果面板与控制区的站级功能新增（基线不存在）：自定义文本粘贴、按键分析、
+# 成就徽章、弱键/成绩图按钮、进度导出入、键位热力图说明、成绩分级标签。均为有意新增，
+# 由 check 11 行为级 harness + 手动验收守卫，不污染 check 9 的结构字节守卫。
+CUSTOMBOX_RE = re.compile(r'\n *<details class="custombox">.*?</details>', re.S)
+KEYSTATS_RE = re.compile(r'\n *<div class="keystats" id="keyStats"></div>')
+ACHV_RE = re.compile(r'\n *<div class="achv" id="achv"></div>')
+HEATCAP_RE = re.compile(r'\n *<div class="heat-cap"[^>]*>.*?</div>', re.S)
+TIERLINE_RE = re.compile(r'\n *<div class="tier-line" id="tierLine"></div>')
+RESULT_BTN_RE = re.compile(r'\n *<button[^>]*id="(?:btnWeak|btnImg)"[^>]*>.*?</button>', re.S)
+HISTTOOLS_RE = re.compile(r'\n *<div class="hist-tools">.*?</div>', re.S)
 # ui.js/egg.js 的缓存版本号是部署期参数，不是 HTML 语义；对比前归一化。
 ASSET_VER_RE = re.compile(r'(src="(?:ui|egg)\.js\?)v=\d+(")', re.S)
 # Task#6 起全站 head 新增的 PWA/图标引用（favicon、apple-touch、manifest）。
@@ -88,6 +98,13 @@ def strip_a11y(html: str) -> str:
     html = CERT_BTN_RE.sub("", html)
     html = LAYOUT_CTRL_RE.sub("", html)
     html = PRACTICE_CTRL_RE.sub("", html)
+    html = CUSTOMBOX_RE.sub("", html)
+    html = KEYSTATS_RE.sub("", html)
+    html = ACHV_RE.sub("", html)
+    html = HEATCAP_RE.sub("", html)
+    html = TIERLINE_RE.sub("", html)
+    html = RESULT_BTN_RE.sub("", html)
+    html = HISTTOOLS_RE.sub("", html)
     html = ASSET_VER_RE.sub(r'\1v\2', html)
     html = html.replace(' type="button"', "")
     for lit in A11Y_LABELS:
@@ -118,6 +135,8 @@ EXEMPT = {
     # TDK 定向：目标长尾词进 title/metaDesc/正文（结构不变）
     "wpm-test-online.html": "TDK 定向 check your wpm：title 加 “Check Your WPM Free” + 补 seo 段",
     "keyboard-typing-test.html": "TDK 定向 keyboard test：title 改为 “Keyboard Test - …” + 补 seo 段",
+    # 首页新增 WPM 基准小表 + average-typing-speed 内链（GEO 数据预览，正文内容新增）
+    "index.html": "首页新增 WPM 基准小表 + average-typing-speed 内链（GEO 数据预览）",
 }
 
 ok, fail = [], []
@@ -260,6 +279,14 @@ def main():
         "one-hand-typing.html": "新增单手打字练习页",
         "privacy-policy.html": "新增隐私政策页（AdSense 合规）",
         "about.html": "新增关于页（AdSense 合规）",
+        "colemak-typing.html": "新增 Colemak 打字测试页（布局线：QWERTY/Dvorak/Colemak 三路，竞品 ratatype/keybr 背书）",
+        "keyboard-layouts.html": "新增键盘布局对比数据页（GEO 磁铁：QWERTY/Dvorak/Colemak/Workman 对比表 + FAQ）",
+        "average-typing-speed.html": "新增 average typing speed 基准数据页（GEO hub：技能/年龄/职业三表）",
+        "cpm-typing-test.html": "新增 CPM 打字测试页（CPM=WPM×5 指标线）",
+        "typing-test-for-kids.html": "新增 typing test for kids 落地页（儿童受众，words 模式 + 年龄表）",
+        "typing-test-for-jobs.html": "新增 typing test for jobs 落地页（就业/数据录入意图，职业要求表）",
+        "typing-practice-for-programmers.html": "新增 programmers 打字练习页（符号/括号/驼峰 + 自定义代码）",
+        "how-to-type-without-looking.html": "新增 how to type without looking 指南页（home row 盲打）",
     }
 
     # 9. 与 git 基线字节等价（豁免表内差异需逐条命中；新增页单独登记）
@@ -306,7 +333,7 @@ def main():
                            or body in base_lines
                            or any(b.startswith(body) or body.startswith(b)
                                   for b in base_lines if b)
-                           or body.startswith(("<h2", "<p>", "<p "))
+                           or body.startswith(("<h2", "<p>", "<p ", "<div class=\"tbl\""))
                            or "adsbygoogle" in body)
                 if not allowed:
                     unexpected.setdefault(n, []).append(line[:100])

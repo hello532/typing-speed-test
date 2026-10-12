@@ -3614,7 +3614,7 @@ function reset(){
   elText.innerHTML=""; seedText();
   elT.textContent=mmss(dur); elW.textContent="0"; elA.textContent="100%";
   elRes.style.display="none"; elHint.style.display="block";
-  wpmSamples=[]; clearChart();
+  wpmSamples=[]; clearChart(); clearHeat();
   render(); elIn.value=""; updateHUD();
 }
 function stats(){
@@ -3695,12 +3695,14 @@ function finish(){
     else if(pb>0){pl.className="pb-line";pl.textContent=(tr("pb_prev")||"Personal best")+": "+pb+" WPM";}
     else{pl.className="pb-line";pl.textContent="";}
   }
+  renderTier(s);
   saveHist(s);
   try{var _wv=JSON.parse(localStorage.getItem("typingWeakV1"))||{},_wk; for(_wk in keyErrors)_wv[_wk]=(_wv[_wk]||0)+keyErrors[_wk]; localStorage.setItem("typingWeakV1",JSON.stringify(_wv));}catch(e){}
   var _bw=document.getElementById("btnWeak"); if(_bw)_bw.style.display=topWeakKeys(5).length?"":"none";
   variantResult();
   drawChart();
   renderKeyStats();
+  renderHeatmap();
   renderAchievements(s);
   render(); elRes.style.display="block"; elHint.style.display="none";
   elRes.scrollIntoView({behavior:"smooth",block:"center"});
@@ -3759,12 +3761,16 @@ function importProgress(file){
 })();
 var KB_ROWS=["qwertyuiop","asdfghjkl","zxcvbnm"];
 var DVORAK_ROWS=["',.pyfgcrl/=","aoeuidhtns-",";qjkxbmwvz"];   /* 键面字符按物理 QWERTY 位置排列 */
+var COLEMAK_ROWS=["qwfpgjluy;","arstdhneio","zxcvbkm"];   /* Colemak：物理 QWERTY 位置 → Colemak 键面，26 字母 + ; */
 var FINGER={q:"LP",a:"LP",z:"LP",w:"LR",s:"LR",x:"LR",e:"LM",d:"LM",c:"LM",r:"LI",f:"LI",v:"LI",t:"LI",g:"LI",b:"LI",y:"RI",h:"RI",n:"RI",u:"RI",j:"RI",m:"RI",i:"RM",k:"RM",o:"RR",l:"RR",p:"RP"," ":"TH"};
 var DVORAK_FINGER={"'":"LP",",":"LP",".":"LM",p:"RI",y:"LI",f:"RI",g:"RI",c:"RM",r:"RR",l:"RP","/":"RP","=":"RP",
   a:"LP",o:"LP",e:"LM",u:"RI",i:"LI",d:"RI",h:"RI",t:"RM",n:"RR",s:"RR","-":"RP",
   ";":"LP",q:"LP",j:"LM",k:"RI",x:"LI",b:"RI",m:"RI",w:"LM",v:"RM",z:"RR"," ":"TH"};
-function layoutRows(){return layout==="dvorak"?DVORAK_ROWS:KB_ROWS;}
-function layoutFinger(){return layout==="dvorak"?DVORAK_FINGER:FINGER;}
+var COLEMAK_FINGER={q:"LP",w:"LR",f:"LM",p:"LI",g:"LI",j:"RI",l:"RI",u:"RM",y:"RR",";":"RP",
+  a:"LP",r:"LR",s:"LM",t:"LI",d:"LI",h:"RI",n:"RI",e:"RM",i:"RR",o:"RP",
+  z:"LP",x:"LR",c:"LM",v:"LI",b:"LI",k:"RI",m:"RI"," ":"TH"};
+function layoutRows(){return layout==="dvorak"?DVORAK_ROWS:(layout==="colemak"?COLEMAK_ROWS:KB_ROWS);}
+function layoutFinger(){return layout==="dvorak"?DVORAK_FINGER:(layout==="colemak"?COLEMAK_FINGER:FINGER);}
 var KSIZE={s:1,m:1.3,l:1.65};
 function applyKbdSize(sz){
   var k=KSIZE[sz]?sz:"m", wrap=document.getElementById("kbdWrap"); if(!wrap)return;
@@ -3800,12 +3806,17 @@ function buildKbd(){
     });
   })(ls[i]);}
   var saved=null; try{saved=localStorage.getItem("kbdLayout");}catch(e){}
-  if(saved==="qwerty"||saved==="dvorak") layout=saved;
+  if(saved==="qwerty"||saved==="dvorak"||saved==="colemak") layout=saved;
   for(i=0;i<ls.length;i++){var on=ls[i].getAttribute("data-lay")===layout; ls[i].classList.toggle("on",on); ls[i].setAttribute("aria-pressed",on?"true":"false");}
-  if(layout==="dvorak"){ var kb2=document.getElementById("kbd"); if(kb2 && kb2.getAttribute("data-cur")!=="dvorak"){kb2.setAttribute("data-cur","dvorak"); var rows=layoutRows(),fg2=layoutFinger(),h2="",r2,i2,c2;
-    for(r2=0;r2<rows.length;r2++){h2+='<div class="kbd-row">'; var row=rows[r2];
-      for(i2=0;i2<row.length;i2++){c2=row[i2]; h2+='<span class="key f-'+(fg2[c2]||"")+'" data-k="'+c2.charCodeAt(0)+'">'+c2+'</span>';} h2+='</div>';}
-    kb2.innerHTML=h2;}}
+  /* 最终布局与已渲染键面不符时按当前布局重绘（含空格键），覆盖 qwerty/dvorak/colemak */
+  var kbC=document.getElementById("kbd");
+  if(kbC && kbC.getAttribute("data-cur")!==layout){
+    kbC.setAttribute("data-cur",layout);
+    var rws=layoutRows(),fgc=layoutFinger(),hc="",rc,ic,cc;
+    for(rc=0;rc<rws.length;rc++){hc+='<div class="kbd-row">'; var rowc=rws[rc]; for(ic=0;ic<rowc.length;ic++){cc=rowc[ic]; hc+='<span class="key f-'+(fgc[cc]||"")+'" data-k="'+cc.charCodeAt(0)+'">'+cc+'</span>';} hc+='</div>';}
+    hc+='<div class="kbd-row"><span class="key key-space f-TH" data-k=" ">space</span></div>';
+    kbC.innerHTML=hc; buildHands();
+  }
 }
 function highlightKey(){
   var kb=document.getElementById("kbd"); if(!kb)return;
@@ -3817,6 +3828,49 @@ function highlightKey(){
   try{ el = ch===" " ? kb.querySelector(".key-space") : kb.querySelector('.key[data-k="'+ch.charCodeAt(0)+'"]'); }catch(e){}
   if(el)el.classList.add("next");
   var fg=layoutFinger()[ch]; if(fg){var fe=document.querySelectorAll('.fg[data-f="'+fg+'"]'); for(i=0;i<fe.length;i++)fe[i].classList.add("active");}
+}
+/* --- 键位热力图（Keybr/TypingMaster 式）：按本局错键次数 + 平均击键耗时给键面上色 --- */
+function clearHeat(){
+  var kb=document.getElementById("kbd"); if(!kb)return;
+  kb.classList.remove("heatmap");
+  var ks=kb.querySelectorAll(".key"); if(!ks)return;
+  for(var i=0;i<ks.length;i++)ks[i].classList.remove("heat-1","heat-2","heat-3","heat-4");
+}
+function renderHeatmap(){
+  var kb=document.getElementById("kbd"); if(!kb)return;
+  var ks=kb.querySelectorAll(".key"); if(!ks||!ks.length)return;
+  var i,el,dk,ch,errs,o,ms,cls,any=false;
+  for(i=0;i<ks.length;i++){
+    el=ks[i]; el.classList.remove("heat-1","heat-2","heat-3","heat-4");
+    dk=el.getAttribute("data-k"); ch=null;
+    if(dk){try{ch=String.fromCharCode(parseInt(dk,10));}catch(e){}}
+    if(!ch||ch===" ")continue;
+    errs=(keyErrors[ch]||0)+(keyErrors[ch.toUpperCase()]||0);
+    o=keyTime[ch]; ms=(o&&o.n)?Math.round(o.s/o.n):0;
+    if(!errs&&!ms)continue;
+    any=true;
+    if(errs>=3||ms>=420)cls="heat-4";
+    else if(errs===2||ms>=320)cls="heat-3";
+    else if(errs===1||ms>=240)cls="heat-2";
+    else cls="heat-1";
+    el.classList.add(cls);
+  }
+  if(any)kb.classList.add("heatmap");
+}
+/* --- 成绩分级（档位与 average-typing-speed.html 的 skill-level 表一致，为单一真源）--- */
+function tierFor(wpm){
+  if(wpm<30)return"beginner"; if(wpm<40)return"developing"; if(wpm<60)return"average";
+  if(wpm<80)return"above"; if(wpm<100)return"fast"; return"elite";
+}
+function renderTier(s){
+  var el=document.getElementById("tierLine"); if(!el)return;
+  if(!(s&&s.wpm>0)){el.textContent=""; el.removeAttribute("data-tier"); return;}
+  var tr=function(k,f){try{return (window.TR&&TR.t&&TR.t(k))||f;}catch(e){return f;}};
+  var key=tierFor(s.wpm);
+  var LBL={beginner:"Beginner",developing:"Developing",average:"Average",above:"Above average",fast:"Fast",elite:"Elite"};
+  var NOTE={beginner:"keep going — most adults reach about 40 WPM",developing:"on your way to the ~40 WPM adult average",average:"right around the 40–50 WPM adult average",above:"faster than most — meets office-job requirements",fast:"top ~10% of typists",elite:"top ~1% — few people type over 100 WPM"};
+  el.setAttribute("data-tier",key);
+  el.innerHTML='<b>'+tr("tier_"+key,LBL[key])+'</b> · '+tr("tiern_"+key,NOTE[key]);
 }
 function clearChart(){var cv=document.getElementById("wpmChart");if(cv){cv.getContext("2d").clearRect(0,0,cv.width,cv.height);}}
 function drawChart(){
@@ -3967,6 +4021,10 @@ document.getElementById("btnCert").addEventListener("click",function(){
   var d=new Date(), dateStr=d.getFullYear()+"-"+mm(d.getMonth()+1)+"-"+mm(d.getDate());
   var durStr=(window.TR&&TR.fmtDur)?TR.fmtDur(dur,TR.lang):Math.round(dur/60)+" min";
   var line1=tr("cert_line1","This certifies that the bearer completed a {dur} typing test with the results below.").replace("{dur}",durStr);
+  var _w=s.wpm,_a=s.acc,awardKey=(_w>=70&&_a>=99)?"platinum":(_w>=50&&_a>=97)?"gold":(_w>=40&&_a>=95)?"silver":"completion";
+  var awardMedal=({platinum:"💎",gold:"🥇",silver:"🥈",completion:"✅"})[awardKey];
+  var awardName=tr("cert_"+awardKey,({platinum:"Platinum",gold:"Gold",silver:"Silver",completion:"Completion"})[awardKey]);
+  var awardLabel=tr("cert_award","Award");
   var rows=[
     [tr("wpm","WPM"),s.wpm],
     [tr("accuracy","Accuracy"),s.acc+"%"],
@@ -3984,9 +4042,11 @@ document.getElementById("btnCert").addEventListener("click",function(){
     +'table{border-collapse:collapse;margin:0 auto 1.4em}td{border:1px solid #999;padding:7px 22px;font-size:16px}'
     +'td:first-child{text-align:left;color:#555;background:#f7f7f7}td:last-child{font-weight:700;min-width:80px}'
     +'.sig{margin-top:2.2em;font-family:"Brush Script MT",cursive;font-size:24px;border-top:1px solid #1a1a1a;padding-top:.4em;max-width:9cm;margin-left:auto;margin-right:auto}'
+    +'.award{font-size:18px;font-weight:700;margin:.1em 0 1.1em;letter-spacing:.03em}.award .medal{font-size:22px;margin-right:.35em}'
     +'.foot{margin-top:.4em;color:#555;font-size:13px}</style></head><body><div class="cert">'
     +'<h1>'+tr("cert_title","Typing Speed Certificate")+'</h1>'
     +'<div class="date">'+dateStr+'</div>'
+    +'<div class="award"><span class="medal">'+awardMedal+'</span>'+awardLabel+': '+awardName+'</div>'
     +'<p class="line1">'+line1+'</p>'+h
     +'<div class="sig">'+tr("cert_verified","Verified by Typing.Rerivo")+'</div>'
     +'<div class="foot">https://typing.rerivo.com/</div></div></body></html>';

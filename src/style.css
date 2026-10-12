@@ -257,6 +257,21 @@ body.typing-active footer{opacity:.26;filter:saturate(.72);pointer-events:none;}
 .ksk.ks-slow b{color:var(--cur);}
 .ks-clean{color:var(--ok);font-weight:600;font-size:.9rem;justify-content:center;}
 @media(max-width:560px){.ks-lab{min-width:0;text-align:center;width:100%;}}
+/* ---------- 竞品级：成绩页键位热力图（Keybr/TypingMaster 弱键可视化）---------- */
+.kbd.heatmap .key{opacity:.38;}
+.kbd.heatmap .key.heat-1,.kbd.heatmap .key.heat-2,.kbd.heatmap .key.heat-3,.kbd.heatmap .key.heat-4{opacity:1;font-weight:700;}
+.key.heat-1{background:#22c55e;border-color:#22c55e;border-bottom-color:#16a34a;color:#0a2a12;}
+.key.heat-2{background:#eab308;border-color:#eab308;border-bottom-color:#ca9a04;color:#241c00;}
+.key.heat-3{background:#f97316;border-color:#f97316;border-bottom-color:#ea580c;color:#fff;}
+.key.heat-4{background:#ef4444;border-color:#ef4444;border-bottom-color:#dc2626;color:#fff;}
+.heat-cap{font-size:.74rem;color:var(--dim);margin:-8px auto 15px;max-width:560px;text-align:center;}
+@media(max-width:560px){.heat-cap{display:none;}}
+/* ---------- 竞品级：成绩分级 + 百分位标签（TypingMaster/Ratatype 档位，单一真源=average-typing-speed 表）---------- */
+.tier-line{min-height:1.1em;margin:0 0 10px;font-size:.95rem;color:var(--soft);font-weight:500;}
+.tier-line b{font-weight:800;color:var(--accent);}
+.tier-line[data-tier="beginner"] b{color:var(--dim);}
+.tier-line[data-tier="developing"] b{color:var(--cur);}
+.tier-line[data-tier="average"] b,.tier-line[data-tier="above"] b{color:var(--ok);}
 /* ---------- 隐私优先：本地进度导出/导入（无账户跨设备）---------- */
 .hist-tools{display:flex;gap:8px;flex-wrap:wrap;margin:2px 0 12px;}
 .hist-btn{background:var(--panel2);border:1px solid var(--line);color:var(--soft);border-radius:8px;padding:5px 12px;font-size:.78rem;font-weight:600;cursor:pointer;font-family:inherit;transition:border-color .15s,color .15s,background .15s;}

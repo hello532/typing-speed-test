@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Typing.Rerivo SEO/GEO 闭环复跑报告 Round-2 —— top10 竞品吸收 + 布局线 + 竞品级功能</title>
+<style>
+:root{
+  --ink:#1a2233; --ink2:#4a5568; --ink3:#718096;
+  --bg:#f6f7fb; --card:#ffffff; --line:#e2e8f0;
+  --pri:#008060; --pri-soft:#e6f4f0;
+  --good:#0ea5e9; --warn:#f59e0b; --no:#ef4444;
+  --radius:14px;
+  --shadow:0 1px 3px rgba(16,24,40,.06),0 8px 24px -12px rgba(16,24,40,.12);
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{font-family:-apple-system,BlinkMacSystemFont,"PingFang SC","Hiragino Sans GB","Microsoft YaHei",sans-serif;background:var(--bg);color:var(--ink);line-height:1.7;font-size:15px;-webkit-font-smoothing:antialiased}
+.wrap{max-width:1080px;margin:0 auto;padding:0 22px 60px}
+header.hero{background:linear-gradient(135deg,#065f46 0%,#008060 55%,#0d9488 100%);color:#fff;padding:44px 0 34px;margin-bottom:26px}
+header.hero h1{font-size:25px;font-weight:800;letter-spacing:.3px}
+header.hero .sub{opacity:.92;margin-top:8px;font-size:14px}
+header.hero blockquote{margin-top:16px;background:rgba(255,255,255,.12);border-left:3px solid rgba(255,255,255,.55);padding:10px 16px;border-radius:0 10px 10px 0;font-size:13.5px}
+.badges{display:flex;gap:8px;flex-wrap:wrap;margin-top:16px}
+.badge{background:rgba(255,255,255,.16);border:1px solid rgba(255,255,255,.3);padding:4px 12px;border-radius:999px;font-size:12px}
+section{margin-top:30px}
+h2{font-size:19px;font-weight:800;display:flex;align-items:center;gap:10px;margin-bottom:6px}
+h2 .tag{font-size:11px;font-weight:700;color:#fff;padding:3px 10px;border-radius:999px;background:var(--pri)}
+.lede{color:var(--ink2);font-size:13.5px;margin-bottom:16px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:var(--radius);box-shadow:var(--shadow);padding:20px 22px;margin-top:14px}
+table{width:100%;border-collapse:collapse;font-size:13px}
+th,td{text-align:left;padding:8px 10px;border-bottom:1px solid var(--line);vertical-align:top}
+th{font-size:12px;color:var(--ink3);text-transform:uppercase;letter-spacing:.05em;font-weight:700}
+tr:last-child td{border-bottom:none}
+.num{font-variant-numeric:tabular-nums;font-weight:700;color:var(--pri)}
+code{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;font-size:12.5px;background:var(--pri-soft);color:#065f46;padding:2px 6px;border-radius:6px}
+.pill{display:inline-block;font-size:11.5px;font-weight:700;padding:2px 10px;border-radius:999px}
+.pill.ok{background:#e6f4f0;color:#047857}
+.pill.warn{background:#fef3c7;color:#b45309}
+.kv{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:12px;margin-top:4px}
+.kv>div{background:var(--bg);border:1px solid var(--line);border-radius:10px;padding:12px 14px}
+.kv b{display:block;font-size:22px;color:var(--pri);font-variant-numeric:tabular-nums}
+.kv span{font-size:12px;color:var(--ink3)}
+ul.tick{list-style:none;display:grid;gap:8px;margin-top:6px}
+ul.tick li{padding-left:26px;position:relative;font-size:13.5px}
+ul.tick li::before{content:"\2705";position:absolute;left:0}
+ul.tick li.warn::before{content:"\26A0\FE0F"}
+ul.tick li.warn{color:#92400e}
+footer.foot{margin-top:40px;padding-top:18px;border-top:1px solid var(--line);color:var(--ink3);font-size:12.5px}
+</style>
+</head>
+<body>
+<header class="hero">
+  <div class="wrap">
+    <h1>Typing.Rerivo &middot; SEO/GEO 闭环复跑报告 Round-2</h1>
+    <div class="sub">调研 top10 竞品（含收费）→ 吸收优点 → 布局线建页 + 竞品级功能增强 → 全闸门复验 ｜ 2026-10-12</div>
+    <blockquote>
+      哥飞闭环再跑一圈：<b>找需求</b>（竞品缺口：布局线 + 四项功能）→ <b>建页</b>（pages.json + build.py，+2 页）→ <b>站内 SEO/GEO</b>（TDK/canonical/JSON-LD/页脚枢纽/sitemap/llms.txt/数据表）→ <b>收录</b>（IndexNow 第十二圈待提交）→ <b>外链</b>（锚文本表 +2 页）→ <b>复盘</b>（本报告）。
+    </blockquote>
+    <div class="badges">
+      <span class="badge">落地页 47 → 49</span>
+      <span class="badge">verify.py 14/14（修复旧 13/14）</span>
+      <span class="badge">engine harness 144</span>
+      <span class="badge">+4 竞品级功能</span>
+      <span class="badge">浏览器实测通过</span>
+    </div>
+  </div>
+</header>
+
+<div class="wrap">
+
+  <section>
+    <h2>① 调研 top10 竞品 <span class="tag">吸收优点</span></h2>
+    <div class="lede">三组并行实地调研（免费/教育/收费），只取「静态站可复刻」的强项，收费产品重点看「凭什么付费」。</div>
+    <div class="card">
+      <table>
+        <thead><tr><th>组</th><th>竞品</th><th>本站吸收的强项</th></tr></thead>
+        <tbody>
+          <tr><td>免费/头部</td><td>monkeytype · keybr · 10fastfingers · typeracer · typingtest.com</td><td>keybr 的<strong>每键熟练度热力图</strong>；monkeytype 的 consistency+raw/net 曲线（本站已有）；typingtest/10ff 的 <strong>FAQPage 基准档位</strong>（GEO）；keybr <code>/layouts</code> 的<strong>布局效率数据页</strong></td></tr>
+          <tr><td>教育/freemium</td><td>typing.com · typingclub · ratatype · nitrotype</td><td>ratatype 的<strong>分级证书阶梯</strong>（Platinum/Gold/Silver）；ratatype 的 average-speed infographic 数据（本站 average-typing-speed 已覆盖，本轮补世界纪录）；手位/指法引导（本站已有）</td></tr>
+          <tr><td>收费产品</td><td>TypingMaster($19.9/29.9) · Typesy($84/yr) · KAZ(&pound;29.95) · Mavis Beacon($39.9) · TypingClub Premium($35/yr)</td><td>TypingMaster 的<strong>难键/慢键识别</strong>与<strong>速度分级（Developing/Skilled/Master）</strong>→ 本站成绩分级+百分位；付费核心（班级后台/云同步/认证）为 backend，<strong>明确跳过</strong></td></tr>
+        </tbody>
+      </table>
+      <p class="lede" style="margin-top:12px;margin-bottom:0">结论：本站功能面已追平大多数竞品；本轮补齐四项高可见度差异点 + 一条 GEO 磁铁页，全部 100% 静态、无后端、无账户。</p>
+    </div>
+  </section>
+
+  <section>
+    <h2>② 竞品级功能增强 <span class="tag">静态可实现</span></h2>
+    <div class="lede">改动集中在 <code>src/engine.js</code> / <code>result.html</code> / <code>style.css</code> / <code>ui.js</code>，经单一模板全站生效。</div>
+    <div class="card">
+      <ul class="tick">
+        <li><strong>键位热力图（keybr / TypingMaster）</strong>：成绩出炉后按本局<code>keyErrors</code>（错键次数）+<code>keyTime</code>（平均击键耗时）给屏幕键盘上色，绿&rarr;黄&rarr;橙&rarr;红四档（<code>.heat-1..4</code>），弱键一眼可见；<code>reset()</code> 清色，移动端随键盘隐藏。</li>
+        <li><strong>成绩分级 + 百分位（TypingMaster / Ratatype 档位）</strong>：结果页新增 <code>#tierLine</code>，按 WPM 落入 Beginner / Developing / Average / Above average / Fast / Elite，并给出「约前 10% / 前 1%」等标注；档位与 <code>average-typing-speed.html</code> 基准表<strong>同源</strong>，五语 i18n。</li>
+        <li><strong>分级证书（Ratatype 阶梯）</strong>：可打印证书新增奖级徽章 —— <code>&ge;70wpm&amp;&ge;99%</code> 💎 Platinum、<code>&ge;50&amp;&ge;97%</code> 🥇 Gold、<code>&ge;40&amp;&ge;95%</code> 🥈 Silver，否则 ✅ Completion。</li>
+        <li><strong>Colemak 布局（keybr / TypingMaster）</strong>：引擎新增 <code>COLEMAK_ROWS</code> / <code>COLEMAK_FINGER</code>（26 字母全覆盖，指法按物理 QWERTY 位映射），工具条升级为 <strong>QWERTY / Dvorak / Colemak</strong> 三路切换，<code>buildKbd</code> 按最终布局重绘（含空格键，顺带修掉旧 dvorak 重绘丢空格的缺陷）。</li>
+      </ul>
+    </div>
+  </section>
+
+  <section>
+    <h2>③ 新落地页 <span class="tag">布局线 + GEO</span></h2>
+    <div class="lede">补 top10 里本站唯一缺的关键词簇（键盘布局），用竞品背书词建两页。</div>
+    <div class="card">
+      <table>
+        <thead><tr><th>页面</th><th>目标词</th><th>角色</th></tr></thead>
+        <tbody>
+          <tr><td><code>keyboard-layouts.html</code></td><td>keyboard layouts / dvorak vs qwerty / colemak vs qwerty / best keyboard layout</td><td><strong>GEO 磁铁</strong>：四布局硬数据对比表 + 4 段正文 + 6 FAQ</td></tr>
+          <tr><td><code>colemak-typing.html</code></td><td>colemak typing test / colemak practice</td><td>布局线实测页（镜像 dvorak，<code>layout=colemak</code>）</td></tr>
+        </tbody>
+      </table>
+      <p class="lede" style="margin:14px 0 6px"><code>keyboard-layouts.html</code> 对比表（数据来源：The Typing Cat 布局模型实验，同一英文语料；标注「建模值非实测速度」以保 GEO 可信）：</p>
+      <table>
+        <thead><tr><th>布局</th><th>推出</th><th>手指移动*</th><th>Home-row 占比</th><th>同指连击</th></tr></thead>
+        <tbody>
+          <tr><td>QWERTY</td><td>1870s</td><td>153 m（基准）</td><td>36%</td><td>7.9%</td></tr>
+          <tr><td>Dvorak</td><td>1936</td><td>88 m（&minus;42%）</td><td>71%</td><td>3.2%</td></tr>
+          <tr><td>Colemak</td><td>2006</td><td>89 m（&minus;42%）</td><td class="num">73%</td><td class="num">1.5%</td></tr>
+          <tr><td>Workman</td><td>2010</td><td class="num">84 m（&minus;45%）</td><td>67%</td><td>2.0%</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+  <section>
+    <h2>④ 站内 SEO / GEO 收口 <span class="tag">引流增量</span></h2>
+    <div class="card">
+      <ul class="tick">
+        <li>两新页全套 <strong>TDK + canonical + JSON-LD&times;3</strong>（WebApplication / FAQPage / BreadcrumbList）+ 面包屑，沿用模板与验证链路。</li>
+        <li><strong>页脚内链枢纽</strong> +2 入口、<strong>sitemap.xml</strong> +2 URL（lastmod 2026-10-12，首页同步 bump）、<strong>llms.txt</strong> +2 条目（AI 发现清单）。</li>
+        <li><strong>GEO 数据可引用性</strong>：<code>average-typing-speed.html</code> 的「最快打字速度」FAQ 补入可引用世界纪录（Barbara Blackburn 212 WPM/Dvorak、Stella Pajunas 216 WPM/1946）+ 职业 97% 准确率基准；<code>keyboard-layouts.html</code> 四布局硬数据表专为 AI Overview / Perplexity 抽取设计。</li>
+        <li><strong>选词登记</strong>：<code>keyword_matrix.md</code> 新增 P3 布局线；<code>ranking_tracker.md</code> +2 行；<code>外链执行包.md</code> 锚文本表 +2 页、就绪表更新为 49 URL。</li>
+      </ul>
+    </div>
+  </section>
+
+  <section>
+    <h2>⑤ 验证 <span class="tag">回归守卫 + 浏览器实测</span></h2>
+    <div class="kv">
+      <div><b>14/14</b><span>verify.py 全闸门（修复旧 13/14）</span></div>
+      <div><b>144</b><span>engine harness 断言（含 Colemak 块）</span></div>
+      <div><b>49</b><span>落地页，JSON-LD 147 块合法</span></div>
+      <div><b>115</b><span>实测 WPM，分级 Elite，100% 准确</span></div>
+      <div><b>19</b><span>实测热力图上色键数</span></div>
+    </div>
+    <div class="card">
+      <ul class="tick">
+        <li><strong>verify.py 回到 14/14</strong>：把 cycle4-8 的站级功能新增（自定义文本 / 按键分析 / 徽章 / 弱键·成绩图按钮 / 进度导出入）与本轮新增（热力图说明 / 成绩分级 / Colemak 按钮）全部登记进 strip 规则与 <code>LAYOUT_CTRL_RE</code>；6 个漏登记的扩展页（average/cpm/kids/jobs/programmers/how-to）补进 <code>NEW_PAGES</code>，首页基准小表进 <code>EXEMPT</code>。check 9 恢复为「结构字节守卫」。</li>
+        <li><strong>浏览器无头实测</strong>（本地起站 + Chromium 实跑，非文本猜测）：<code>colemak-typing.html</code> 键面实读 <code>qwfpgjluy;</code> / <code>arstdhneio</code> / <code>zxcvbkm</code>（正确 Colemak）；<code>keyboard-layouts.html</code> 对比表 4 行 + 命中 73% / 7.9% / 1.5% + 6 FAQ；首页跑完一局自定义文本 → 结果面板出现，<code>#tierLine</code>=「Elite · top ~1%」，键盘 <code>.heatmap</code> 生效、19 键上色、错键 i 显红。</li>
+        <li><strong>build 幂等 + 产物无手改</strong>（check 3/10）；CSS/引擎全站单版本（check 4/5）。</li>
+      </ul>
+    </div>
+  </section>
+
+  <section>
+    <h2>⑥ 下一步 <span class="tag">待你确认</span></h2>
+    <div class="card">
+      <ul class="tick">
+        <li class="warn"><strong>部署</strong>（生产，需你确认）：<code>cd ~/projects/GenericAgent/temp/site1/typing-speed-test &amp;&amp; git add -A &amp;&amp; git commit -m "round2: keyboard layouts + colemak + per-key heatmap + WPM tier + cert tiers" &amp;&amp; git push origin main</code> → GitHub Pages 上线。</li>
+        <li class="warn"><strong>收录第十二圈</strong>：部署成功后向 IndexNow POST 2 个新 URL（<code>keyboard-layouts.html</code> / <code>colemak-typing.html</code>），key 文件已在站根。</li>
+        <li><strong>外链</strong>：按 <code>外链执行包.md</code> 新锚文本给两页铺低 KD 外链（Reddit r/MechanicalKeyboards、Colemak 社区、键盘布局目录站）。</li>
+        <li><strong>复盘</strong>：2–4 周后看 GSC 这两页展现/点击，决定是否补 Colemak-DH / Workman 实测页或 AZERTY 等区域布局。</li>
+      </ul>
+    </div>
+  </section>
+
+  <footer class="foot">
+    站点源：<code>~/projects/GenericAgent/temp/site1/typing-speed-test</code>（src/ 为单一真源，生成页禁止手编）<br>
+    闭环依据：哥飞 SEO/GEO 落地页闭环（找需求→建页→站内→收录→外链→复盘）。本轮为 Round-2：竞品吸收 + 布局线 + 竞品级功能。
+  </footer>
+</div>
+</body>
+</html>

@@ -291,6 +291,21 @@ body.typing-active footer{opacity:.26;filter:saturate(.72);pointer-events:none;}
 .ksk.ks-slow b{color:var(--cur);}
 .ks-clean{color:var(--ok);font-weight:600;font-size:.9rem;justify-content:center;}
 @media(max-width:560px){.ks-lab{min-width:0;text-align:center;width:100%;}}
+/* ---------- 竞品级：成绩页键位热力图（Keybr/TypingMaster 弱键可视化）---------- */
+.kbd.heatmap .key{opacity:.38;}
+.kbd.heatmap .key.heat-1,.kbd.heatmap .key.heat-2,.kbd.heatmap .key.heat-3,.kbd.heatmap .key.heat-4{opacity:1;font-weight:700;}
+.key.heat-1{background:#22c55e;border-color:#22c55e;border-bottom-color:#16a34a;color:#0a2a12;}
+.key.heat-2{background:#eab308;border-color:#eab308;border-bottom-color:#ca9a04;color:#241c00;}
+.key.heat-3{background:#f97316;border-color:#f97316;border-bottom-color:#ea580c;color:#fff;}
+.key.heat-4{background:#ef4444;border-color:#ef4444;border-bottom-color:#dc2626;color:#fff;}
+.heat-cap{font-size:.74rem;color:var(--dim);margin:-8px auto 15px;max-width:560px;text-align:center;}
+@media(max-width:560px){.heat-cap{display:none;}}
+/* ---------- 竞品级：成绩分级 + 百分位标签（TypingMaster/Ratatype 档位，单一真源=average-typing-speed 表）---------- */
+.tier-line{min-height:1.1em;margin:0 0 10px;font-size:.95rem;color:var(--soft);font-weight:500;}
+.tier-line b{font-weight:800;color:var(--accent);}
+.tier-line[data-tier="beginner"] b{color:var(--dim);}
+.tier-line[data-tier="developing"] b{color:var(--cur);}
+.tier-line[data-tier="average"] b,.tier-line[data-tier="above"] b{color:var(--ok);}
 /* ---------- 隐私优先：本地进度导出/导入（无账户跨设备）---------- */
 .hist-tools{display:flex;gap:8px;flex-wrap:wrap;margin:2px 0 12px;}
 .hist-btn{background:var(--panel2);border:1px solid var(--line);color:var(--soft);border-radius:8px;padding:5px 12px;font-size:.78rem;font-weight:600;cursor:pointer;font-family:inherit;transition:border-color .15s,color .15s,background .15s;}
@@ -390,7 +405,7 @@ body.typing-active footer{opacity:.26;filter:saturate(.72);pointer-events:none;}
       <div class="refocus" data-i18n="resume">Click to resume</div>
     </div>
     <div class="kbd-wrap" id="kbdWrap" aria-hidden="true">
-      <div class="kbd-tools"><span class="lab" data-i18n="kbd_size">Keyboard</span><button type="button" class="kbd-size" data-ks="s" aria-label="Small">S</button><button type="button" class="kbd-size" data-ks="m" aria-label="Medium">M</button><button type="button" class="kbd-size" data-ks="l" aria-label="Large">L</button><button type="button" class="snd-toggle" id="sndToggle" aria-pressed="false" title="Typing sound"><span data-i18n="sound">Sound</span>: <b class="snd-state">off</b></button><span class="lab kbd-lay-lab" data-i18n="kbd_layout">Layout</span><button type="button" class="kbd-size kbd-layout on" data-lay="qwerty" aria-pressed="true">QWERTY</button><button type="button" class="kbd-size kbd-layout" data-lay="dvorak" aria-pressed="false">Dvorak</button></div>
+      <div class="kbd-tools"><span class="lab" data-i18n="kbd_size">Keyboard</span><button type="button" class="kbd-size" data-ks="s" aria-label="Small">S</button><button type="button" class="kbd-size" data-ks="m" aria-label="Medium">M</button><button type="button" class="kbd-size" data-ks="l" aria-label="Large">L</button><button type="button" class="snd-toggle" id="sndToggle" aria-pressed="false" title="Typing sound"><span data-i18n="sound">Sound</span>: <b class="snd-state">off</b></button><span class="lab kbd-lay-lab" data-i18n="kbd_layout">Layout</span><button type="button" class="kbd-size kbd-layout on" data-lay="qwerty" aria-pressed="true">QWERTY</button><button type="button" class="kbd-size kbd-layout" data-lay="dvorak" aria-pressed="false">Dvorak</button><button type="button" class="kbd-size kbd-layout" data-lay="colemak" aria-pressed="false">Colemak</button></div>
       <div class="kbd" id="kbd"></div>
       <div class="hands" id="hands"></div>
     </div>
@@ -400,6 +415,7 @@ body.typing-active footer{opacity:.26;filter:saturate(.72);pointer-events:none;}
   <div class="panel result" id="resultPanel" role="status" aria-live="polite" style="display:none;">
     <div class="big" id="rWpm">0 WPM</div>
     <div class="pb-line" id="pbLine"></div>
+    <div class="tier-line" id="tierLine"></div>
     <canvas id="wpmChart" class="wpm-chart" width="600" height="130" role="img" aria-label="WPM over time line chart" data-aria="chart_aria"></canvas>
     <div class="result-grid">
       <div class="stat"><div class="num" id="rAcc">100%</div><div class="lab" data-i18n="accuracy">Accuracy</div></div>
@@ -409,6 +425,7 @@ body.typing-active footer{opacity:.26;filter:saturate(.72);pointer-events:none;}
       <div class="stat"><div class="num" id="rCons">100%</div><div class="lab" data-i18n="r_cons">Consistency</div></div>
     </div>
     <div class="keystats" id="keyStats"></div>
+    <div class="heat-cap" data-i18n="heat_cap">Weak keys are highlighted on the keyboard above.</div>
     <div class="achv" id="achv"></div>
     <div class="result-actions">
       <button type="button" class="btn" id="btnAgain" data-i18n="btn_again">Test again</button>
@@ -458,7 +475,7 @@ body.typing-active footer{opacity:.26;filter:saturate(.72);pointer-events:none;}
     <a href="typing-games.html">Games</a> · <a href="typing-lessons.html">Lessons</a> · <a href="learn-to-type-faster.html">Learn Faster</a> · <a href="typing-tips.html">Tips</a> ·
     <a href="30-second-typing-test.html">30s</a> · <a href="1-minute-typing-test.html">1 min</a> · <a href="2-minute-typing-test.html">2 min</a> · <a href="3-minute-typing-test.html">3 min</a> · <a href="5-minute-typing-test.html">5 min</a> · <a href="10-minute-typing-test.html">10 min</a> · <a href="words-per-minute-test.html">WPM</a> · <a href="wpm-test-online.html">WPM Online</a> · <a href="number-typing-test.html">Numbers</a> · <a href="english-typing-test.html">English</a> · <a href="spanish-typing-test.html">Spanish</a> · <a href="chinese-typing-test.html">Chinese</a> · <a href="hindi-typing-test.html">Hindi</a> · <a href="arabic-typing-test.html">Arabic</a> · <a href="keyboard-typing-test.html">Keyboard</a> · <a href="capital-letter-typing-test.html">Capitals</a> · <a href="punctuation-typing-test.html">Punctuation</a> · <a href="typing-test-game.html">Game</a> · <a href="typing-accuracy-test.html">Accuracy</a> · <a href="online-typing-test.html">Online</a> · <a href="free-typing-test.html">Free</a> · <a href="easy-typing-test.html">Easy</a> · <a href="touch-typing-test.html">Touch Typing</a> · <a href="typing-race.html">Race</a> · <a href="typing-tutorial.html">Tutorial</a> · <a href="typing-tutor.html">Tutor</a> · <a href="learn-to-type.html">Learn</a> · <a href="typing-trainer.html">Trainer</a> · <a href="custom-typing-test.html">Custom</a> · <a href="typing-tests-in-other-languages.html">Languages</a> · <a href="typing-certificate.html">Certificate</a> · <a href="dvorak-typing.html">Dvorak</a> · <a href="one-hand-typing.html">One Hand</a> · <a href="about.html">About</a> · <a href="privacy-policy.html">Privacy</a> · <a href="typing-practice.html">Practice</a>
      · <a href="average-typing-speed.html">Average Speed</a> · <a href="cpm-typing-test.html">CPM</a> · <a href="typing-test-for-kids.html">For Kids</a> · <a href="typing-test-for-jobs.html">For Jobs</a>
-     · <a href="typing-practice-for-programmers.html">For Programmers</a> · <a href="how-to-type-without-looking.html">Type Without Looking</a>
+     · <a href="typing-practice-for-programmers.html">For Programmers</a> · <a href="how-to-type-without-looking.html">Type Without Looking</a> · <a href="keyboard-layouts.html">Keyboard Layouts</a> · <a href="colemak-typing.html">Colemak</a>
   </footer>
 </div>
 
@@ -4079,7 +4096,7 @@ function reset(){
   elText.innerHTML=""; seedText();
   elT.textContent=mmss(dur); elW.textContent="0"; elA.textContent="100%";
   elRes.style.display="none"; elHint.style.display="block";
-  wpmSamples=[]; clearChart();
+  wpmSamples=[]; clearChart(); clearHeat();
   render(); elIn.value=""; updateHUD();
 }
 function stats(){
@@ -4160,12 +4177,14 @@ function finish(){
     else if(pb>0){pl.className="pb-line";pl.textContent=(tr("pb_prev")||"Personal best")+": "+pb+" WPM";}
     else{pl.className="pb-line";pl.textContent="";}
   }
+  renderTier(s);
   saveHist(s);
   try{var _wv=JSON.parse(localStorage.getItem("typingWeakV1"))||{},_wk; for(_wk in keyErrors)_wv[_wk]=(_wv[_wk]||0)+keyErrors[_wk]; localStorage.setItem("typingWeakV1",JSON.stringify(_wv));}catch(e){}
   var _bw=document.getElementById("btnWeak"); if(_bw)_bw.style.display=topWeakKeys(5).length?"":"none";
   variantResult();
   drawChart();
   renderKeyStats();
+  renderHeatmap();
   renderAchievements(s);
   render(); elRes.style.display="block"; elHint.style.display="none";
   elRes.scrollIntoView({behavior:"smooth",block:"center"});
@@ -4224,12 +4243,16 @@ function importProgress(file){
 })();
 var KB_ROWS=["qwertyuiop","asdfghjkl","zxcvbnm"];
 var DVORAK_ROWS=["',.pyfgcrl/=","aoeuidhtns-",";qjkxbmwvz"];   /* 键面字符按物理 QWERTY 位置排列 */
+var COLEMAK_ROWS=["qwfpgjluy;","arstdhneio","zxcvbkm"];   /* Colemak：物理 QWERTY 位置 → Colemak 键面，26 字母 + ; */
 var FINGER={q:"LP",a:"LP",z:"LP",w:"LR",s:"LR",x:"LR",e:"LM",d:"LM",c:"LM",r:"LI",f:"LI",v:"LI",t:"LI",g:"LI",b:"LI",y:"RI",h:"RI",n:"RI",u:"RI",j:"RI",m:"RI",i:"RM",k:"RM",o:"RR",l:"RR",p:"RP"," ":"TH"};
 var DVORAK_FINGER={"'":"LP",",":"LP",".":"LM",p:"RI",y:"LI",f:"RI",g:"RI",c:"RM",r:"RR",l:"RP","/":"RP","=":"RP",
   a:"LP",o:"LP",e:"LM",u:"RI",i:"LI",d:"RI",h:"RI",t:"RM",n:"RR",s:"RR","-":"RP",
   ";":"LP",q:"LP",j:"LM",k:"RI",x:"LI",b:"RI",m:"RI",w:"LM",v:"RM",z:"RR"," ":"TH"};
-function layoutRows(){return layout==="dvorak"?DVORAK_ROWS:KB_ROWS;}
-function layoutFinger(){return layout==="dvorak"?DVORAK_FINGER:FINGER;}
+var COLEMAK_FINGER={q:"LP",w:"LR",f:"LM",p:"LI",g:"LI",j:"RI",l:"RI",u:"RM",y:"RR",";":"RP",
+  a:"LP",r:"LR",s:"LM",t:"LI",d:"LI",h:"RI",n:"RI",e:"RM",i:"RR",o:"RP",
+  z:"LP",x:"LR",c:"LM",v:"LI",b:"LI",k:"RI",m:"RI"," ":"TH"};
+function layoutRows(){return layout==="dvorak"?DVORAK_ROWS:(layout==="colemak"?COLEMAK_ROWS:KB_ROWS);}
+function layoutFinger(){return layout==="dvorak"?DVORAK_FINGER:(layout==="colemak"?COLEMAK_FINGER:FINGER);}
 var KSIZE={s:1,m:1.3,l:1.65};
 function applyKbdSize(sz){
   var k=KSIZE[sz]?sz:"m", wrap=document.getElementById("kbdWrap"); if(!wrap)return;
@@ -4265,12 +4288,17 @@ function buildKbd(){
     });
   })(ls[i]);}
   var saved=null; try{saved=localStorage.getItem("kbdLayout");}catch(e){}
-  if(saved==="qwerty"||saved==="dvorak") layout=saved;
+  if(saved==="qwerty"||saved==="dvorak"||saved==="colemak") layout=saved;
   for(i=0;i<ls.length;i++){var on=ls[i].getAttribute("data-lay")===layout; ls[i].classList.toggle("on",on); ls[i].setAttribute("aria-pressed",on?"true":"false");}
-  if(layout==="dvorak"){ var kb2=document.getElementById("kbd"); if(kb2 && kb2.getAttribute("data-cur")!=="dvorak"){kb2.setAttribute("data-cur","dvorak"); var rows=layoutRows(),fg2=layoutFinger(),h2="",r2,i2,c2;
-    for(r2=0;r2<rows.length;r2++){h2+='<div class="kbd-row">'; var row=rows[r2];
-      for(i2=0;i2<row.length;i2++){c2=row[i2]; h2+='<span class="key f-'+(fg2[c2]||"")+'" data-k="'+c2.charCodeAt(0)+'">'+c2+'</span>';} h2+='</div>';}
-    kb2.innerHTML=h2;}}
+  /* 最终布局与已渲染键面不符时按当前布局重绘（含空格键），覆盖 qwerty/dvorak/colemak */
+  var kbC=document.getElementById("kbd");
+  if(kbC && kbC.getAttribute("data-cur")!==layout){
+    kbC.setAttribute("data-cur",layout);
+    var rws=layoutRows(),fgc=layoutFinger(),hc="",rc,ic,cc;
+    for(rc=0;rc<rws.length;rc++){hc+='<div class="kbd-row">'; var rowc=rws[rc]; for(ic=0;ic<rowc.length;ic++){cc=rowc[ic]; hc+='<span class="key f-'+(fgc[cc]||"")+'" data-k="'+cc.charCodeAt(0)+'">'+cc+'</span>';} hc+='</div>';}
+    hc+='<div class="kbd-row"><span class="key key-space f-TH" data-k=" ">space</span></div>';
+    kbC.innerHTML=hc; buildHands();
+  }
 }
 function highlightKey(){
   var kb=document.getElementById("kbd"); if(!kb)return;
@@ -4282,6 +4310,49 @@ function highlightKey(){
   try{ el = ch===" " ? kb.querySelector(".key-space") : kb.querySelector('.key[data-k="'+ch.charCodeAt(0)+'"]'); }catch(e){}
   if(el)el.classList.add("next");
   var fg=layoutFinger()[ch]; if(fg){var fe=document.querySelectorAll('.fg[data-f="'+fg+'"]'); for(i=0;i<fe.length;i++)fe[i].classList.add("active");}
+}
+/* --- 键位热力图（Keybr/TypingMaster 式）：按本局错键次数 + 平均击键耗时给键面上色 --- */
+function clearHeat(){
+  var kb=document.getElementById("kbd"); if(!kb)return;
+  kb.classList.remove("heatmap");
+  var ks=kb.querySelectorAll(".key"); if(!ks)return;
+  for(var i=0;i<ks.length;i++)ks[i].classList.remove("heat-1","heat-2","heat-3","heat-4");
+}
+function renderHeatmap(){
+  var kb=document.getElementById("kbd"); if(!kb)return;
+  var ks=kb.querySelectorAll(".key"); if(!ks||!ks.length)return;
+  var i,el,dk,ch,errs,o,ms,cls,any=false;
+  for(i=0;i<ks.length;i++){
+    el=ks[i]; el.classList.remove("heat-1","heat-2","heat-3","heat-4");
+    dk=el.getAttribute("data-k"); ch=null;
+    if(dk){try{ch=String.fromCharCode(parseInt(dk,10));}catch(e){}}
+    if(!ch||ch===" ")continue;
+    errs=(keyErrors[ch]||0)+(keyErrors[ch.toUpperCase()]||0);
+    o=keyTime[ch]; ms=(o&&o.n)?Math.round(o.s/o.n):0;
+    if(!errs&&!ms)continue;
+    any=true;
+    if(errs>=3||ms>=420)cls="heat-4";
+    else if(errs===2||ms>=320)cls="heat-3";
+    else if(errs===1||ms>=240)cls="heat-2";
+    else cls="heat-1";
+    el.classList.add(cls);
+  }
+  if(any)kb.classList.add("heatmap");
+}
+/* --- 成绩分级（档位与 average-typing-speed.html 的 skill-level 表一致，为单一真源）--- */
+function tierFor(wpm){
+  if(wpm<30)return"beginner"; if(wpm<40)return"developing"; if(wpm<60)return"average";
+  if(wpm<80)return"above"; if(wpm<100)return"fast"; return"elite";
+}
+function renderTier(s){
+  var el=document.getElementById("tierLine"); if(!el)return;
+  if(!(s&&s.wpm>0)){el.textContent=""; el.removeAttribute("data-tier"); return;}
+  var tr=function(k,f){try{return (window.TR&&TR.t&&TR.t(k))||f;}catch(e){return f;}};
+  var key=tierFor(s.wpm);
+  var LBL={beginner:"Beginner",developing:"Developing",average:"Average",above:"Above average",fast:"Fast",elite:"Elite"};
+  var NOTE={beginner:"keep going — most adults reach about 40 WPM",developing:"on your way to the ~40 WPM adult average",average:"right around the 40–50 WPM adult average",above:"faster than most — meets office-job requirements",fast:"top ~10% of typists",elite:"top ~1% — few people type over 100 WPM"};
+  el.setAttribute("data-tier",key);
+  el.innerHTML='<b>'+tr("tier_"+key,LBL[key])+'</b> · '+tr("tiern_"+key,NOTE[key]);
 }
 function clearChart(){var cv=document.getElementById("wpmChart");if(cv){cv.getContext("2d").clearRect(0,0,cv.width,cv.height);}}
 function drawChart(){
@@ -4432,6 +4503,10 @@ document.getElementById("btnCert").addEventListener("click",function(){
   var d=new Date(), dateStr=d.getFullYear()+"-"+mm(d.getMonth()+1)+"-"+mm(d.getDate());
   var durStr=(window.TR&&TR.fmtDur)?TR.fmtDur(dur,TR.lang):Math.round(dur/60)+" min";
   var line1=tr("cert_line1","This certifies that the bearer completed a {dur} typing test with the results below.").replace("{dur}",durStr);
+  var _w=s.wpm,_a=s.acc,awardKey=(_w>=70&&_a>=99)?"platinum":(_w>=50&&_a>=97)?"gold":(_w>=40&&_a>=95)?"silver":"completion";
+  var awardMedal=({platinum:"💎",gold:"🥇",silver:"🥈",completion:"✅"})[awardKey];
+  var awardName=tr("cert_"+awardKey,({platinum:"Platinum",gold:"Gold",silver:"Silver",completion:"Completion"})[awardKey]);
+  var awardLabel=tr("cert_award","Award");
   var rows=[
     [tr("wpm","WPM"),s.wpm],
     [tr("accuracy","Accuracy"),s.acc+"%"],
@@ -4449,9 +4524,11 @@ document.getElementById("btnCert").addEventListener("click",function(){
     +'table{border-collapse:collapse;margin:0 auto 1.4em}td{border:1px solid #999;padding:7px 22px;font-size:16px}'
     +'td:first-child{text-align:left;color:#555;background:#f7f7f7}td:last-child{font-weight:700;min-width:80px}'
     +'.sig{margin-top:2.2em;font-family:"Brush Script MT",cursive;font-size:24px;border-top:1px solid #1a1a1a;padding-top:.4em;max-width:9cm;margin-left:auto;margin-right:auto}'
+    +'.award{font-size:18px;font-weight:700;margin:.1em 0 1.1em;letter-spacing:.03em}.award .medal{font-size:22px;margin-right:.35em}'
     +'.foot{margin-top:.4em;color:#555;font-size:13px}</style></head><body><div class="cert">'
     +'<h1>'+tr("cert_title","Typing Speed Certificate")+'</h1>'
     +'<div class="date">'+dateStr+'</div>'
+    +'<div class="award"><span class="medal">'+awardMedal+'</span>'+awardLabel+': '+awardName+'</div>'
     +'<p class="line1">'+line1+'</p>'+h
     +'<div class="sig">'+tr("cert_verified","Verified by Typing.Rerivo")+'</div>'
     +'<div class="foot">https://typing.rerivo.com/</div></div></body></html>';
@@ -4485,7 +4562,7 @@ window.addEventListener("tr-relang",function(){reset();try{renderHist(JSON.parse
 buildKbd(); buildVariantUI(); reset();
 })();
 </script>
-<script src="ui.js?v=202610111710" defer></script>
+<script src="ui.js?v=202610121200" defer></script>
 <script src="egg.js?v=202610090900" defer></script>
 </body>
 </html>

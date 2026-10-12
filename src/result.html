@@ -1,6 +1,7 @@
 <div class="panel result" id="resultPanel" role="status" aria-live="polite" style="display:none;">
     <div class="big" id="rWpm">0 WPM</div>
     <div class="pb-line" id="pbLine"></div>
+    <div class="tier-line" id="tierLine"></div>
     <canvas id="wpmChart" class="wpm-chart" width="600" height="130" role="img" aria-label="WPM over time line chart" data-aria="chart_aria"></canvas>
     <div class="result-grid">
       <div class="stat"><div class="num" id="rAcc">100%</div><div class="lab" data-i18n="accuracy">Accuracy</div></div>
@@ -10,6 +11,7 @@
       <div class="stat"><div class="num" id="rCons">100%</div><div class="lab" data-i18n="r_cons">Consistency</div></div>
     </div>
     <div class="keystats" id="keyStats"></div>
+    <div class="heat-cap" data-i18n="heat_cap">Weak keys are highlighted on the keyboard above.</div>
     <div class="achv" id="achv"></div>
     <div class="result-actions">
       <button type="button" class="btn" id="btnAgain" data-i18n="btn_again">Test again</button>

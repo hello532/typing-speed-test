@@ -3708,7 +3708,7 @@
     },
     {
      "q": "What is the fastest typing speed?",
-     "a": "On a normal QWERTY keyboard the fastest typists reach 150+ WPM and records exceed 200 WPM. Court reporters hit 225+ WPM, but on a specialised stenotype machine using shorthand chords, not a standard keyboard."
+     "a": "On a normal QWERTY keyboard the fastest typists reach 150+ WPM. The highest reliably recorded speeds belong to Barbara Blackburn, who sustained 212 WPM on a Dvorak keyboard (a Guinness record), and Stella Pajunas, timed at 216 WPM back in 1946. Court reporters exceed 225 WPM, but on a specialised stenotype machine using shorthand chords, not a standard keyboard. For context the average is about 40 WPM, and professional typists aim for 97%+ accuracy."
     },
     {
      "q": "How is typing speed measured?",
@@ -4166,6 +4166,200 @@
     {
      "name": "How to Type Without Looking at the Keyboard",
      "item": "https://typing.rerivo.com/how-to-type-without-looking.html"
+    }
+   ],
+   "ldPretty": []
+  },
+  {
+   "file": "colemak-typing.html",
+   "title": "Colemak Typing Test - Practice & Measure Your Colemak WPM",
+   "metaDesc": "Free Colemak typing test. The on-screen keyboard switches to the Colemak layout with Colemak finger guidance, so you can practice and measure your Colemak WPM, accuracy and consistency. QWERTY / Dvorak / Colemak switch, no sign up.",
+   "canonical": "https://typing.rerivo.com/colemak-typing.html",
+   "dur": 60,
+   "mode": "sentences",
+   "variant": null,
+   "layout": "colemak",
+   "nav": [
+    {
+     "href": "https://typing.rerivo.com/",
+     "text": "Home"
+    },
+    {
+     "href": "keyboard-layouts.html",
+     "text": "Keyboard Layouts"
+    },
+    {
+     "href": "dvorak-typing.html",
+     "text": "Dvorak"
+    }
+   ],
+   "crumbs": [
+    "Home",
+    "Colemak Typing"
+   ],
+   "h1": "Colemak Typing Test",
+   "heroP": "Practice and measure your typing in <strong>Colemak</strong>. The on-screen keyboard below is already set to the Colemak layout, with finger guidance mapped to Colemak hand positions, so what you see matches what your system layout produces. Use the <strong>QWERTY / Dvorak / Colemak</strong> switch in the keyboard toolbar any time. Switch your operating system to Colemak, take the test, and get WPM, accuracy and consistency.",
+   "seo": [
+    {
+     "h2": "colemak typing test",
+     "p": [
+      "Most typing tests only draw a QWERTY keyboard, which is useless for <strong>Colemak typing practice</strong>: the label you are hunting for is not on the key you press. This test flips the on-screen keyboard to the Colemak layout, keeping the physical QWERTY key positions and relabelling every key, so the finger guide on screen matches exactly what a Colemak typist sees.",
+      "Nothing is installed and nothing changes your system. The page only draws the Colemak keyboard; you switch your operating system input to Colemak, start typing, and the test scores the characters your layout produces &mdash; so your WPM, accuracy, consistency and the per-key heatmap are all measured for real Colemak typing."
+     ]
+    },
+    {
+     "h2": "Why Colemak",
+     "p": [
+      "Colemak was published in 2006 as a middle path between QWERTY and Dvorak. It keeps the common shortcut keys Z, X, C and V in their QWERTY places and changes only 17 keys, so the switch is far gentler than Dvorak while still putting the most-used letters under your fingers.",
+      "On the same English passage, Colemak keeps about <strong>73% of letters on the home row</strong> (QWERTY is near 36%) and cuts repeated same-finger presses to roughly <strong>1.5%</strong>, versus about 7.9% on QWERTY. Less finger travel usually means more comfort over long sessions; it does not guarantee a higher top speed, which still depends mostly on practice."
+     ]
+    },
+    {
+     "h2": "How to practice Colemak typing",
+     "p": [
+      "Set your operating system input to Colemak first, otherwise you would be typing QWERTY characters while looking at a Colemak keyboard. Start with short two-to-five minute sessions and resist looking at your hands &mdash; the finger guide and on-screen keyboard exist to replace that habit.",
+      "Expect your speed to drop well below your QWERTY speed for the first week or two; that is the switch cost, not a verdict on Colemak. Track accuracy here before speed, because accuracy recovers first and speed follows it. Compare Colemak with Dvorak and QWERTY on the <a href=\"keyboard-layouts.html\">keyboard layouts</a> page."
+     ]
+    }
+   ],
+   "faqFirstOpen": true,
+   "faqH2": "Colemak typing FAQ",
+   "faq": [
+    {
+     "q": "Does this test switch my keyboard to Colemak?",
+     "a": "No. The test only shows a Colemak keyboard on this page. You switch your own operating system input to Colemak in its keyboard or language settings, and the test then scores whatever characters your layout produces."
+    },
+    {
+     "q": "Do I need an account or to install anything?",
+     "a": "No. The Colemak keyboard is drawn by the page itself, the test runs entirely in your browser, and your results are stored only in this browser."
+    },
+    {
+     "q": "Is Colemak easier to learn than Dvorak?",
+     "a": "For most QWERTY typists, yes. Colemak changes only 17 keys and keeps Z, X, C and V in their QWERTY positions, so common shortcuts and much of your muscle memory still apply. Dvorak moves almost every key."
+    },
+    {
+     "q": "Will my Colemak WPM be lower than my QWERTY WPM at first?",
+     "a": "Yes, usually much lower for the first week or two while you rebuild muscle memory. Measure accuracy first; once accuracy returns to your normal level, speed follows."
+    },
+    {
+     "q": "Which keys does Colemak move?",
+     "a": "Colemak keeps the bottom row's Z X C V B and the Q W A positions, and remaps the rest so E, T, N, S, I, R and O land on the home row. The full relabelling is drawn on the on-screen keyboard above."
+    },
+    {
+     "q": "Can I switch back to QWERTY or try Dvorak here?",
+     "a": "Yes. The keyboard toolbar has a QWERTY / Dvorak / Colemak switch and your choice is remembered in this browser, so the same page works for any of the three layouts."
+    }
+   ],
+   "webAppName": "Typing Speed Test",
+   "webAppUrl": "https://typing.rerivo.com/",
+   "bcItems": [
+    {
+     "name": "Home",
+     "item": "https://typing.rerivo.com/"
+    },
+    {
+     "name": "Colemak Typing",
+     "item": "https://typing.rerivo.com/colemak-typing.html"
+    }
+   ],
+   "ldPretty": []
+  },
+  {
+   "file": "keyboard-layouts.html",
+   "title": "Keyboard Layouts Compared - QWERTY vs Dvorak vs Colemak vs Workman",
+   "metaDesc": "QWERTY vs Dvorak vs Colemak vs Workman compared: home-row use, finger travel and same-finger rate in one table, plus which keyboard layout is best and whether to switch. Then test each layout free.",
+   "canonical": "https://typing.rerivo.com/keyboard-layouts.html",
+   "dur": 60,
+   "mode": "sentences",
+   "variant": null,
+   "nav": [
+    {
+     "href": "https://typing.rerivo.com/",
+     "text": "Home"
+    },
+    {
+     "href": "dvorak-typing.html",
+     "text": "Dvorak"
+    },
+    {
+     "href": "colemak-typing.html",
+     "text": "Colemak"
+    }
+   ],
+   "crumbs": [
+    "Home",
+    "Keyboard Layouts"
+   ],
+   "h1": "Keyboard Layouts Compared",
+   "heroP": "<strong>QWERTY, Dvorak, Colemak and Workman</strong> compared on home-row use, finger travel and same-finger presses &mdash; so you can see which keyboard layout fits you before you commit weeks to switching. Try any of them on the test below with a layout-matched on-screen keyboard and finger guide.",
+   "seo": [
+    {
+     "h2": "QWERTY vs Dvorak vs Colemak vs Workman",
+     "p": [
+      "A <strong>keyboard layout</strong> is just the map of which letter sits under each key. QWERTY has been the default since the 1870s, but alternative layouts rearrange the letters so the most common ones sit on the home row, cutting finger travel. Here is how the four best-known layouts compare on the same English text.",
+      "<div class=\"tbl\"><table><thead><tr><th>Layout</th><th>Introduced</th><th>Finger travel*</th><th>Home-row use</th><th>Same-finger</th></tr></thead><tbody><tr><td>QWERTY</td><td>1870s</td><td>153 m (baseline)</td><td>36%</td><td>7.9%</td></tr><tr><td>Dvorak</td><td>1936</td><td>88 m (&minus;42%)</td><td>71%</td><td>3.2%</td></tr><tr><td>Colemak</td><td>2006</td><td>89 m (&minus;42%)</td><td><strong>73%</strong></td><td><strong>1.5%</strong></td></tr><tr><td>Workman</td><td>2010</td><td><strong>84 m (&minus;45%)</strong></td><td>67%</td><td>2.0%</td></tr></tbody></table></div>",
+      "*Modeled finger travel for the same 5,847-character English passage on a standard keyboard, with the share of letters typed without leaving the home row and the share of consecutive keys pressed by the same finger. Figures from the <a href=\"https://thetypingcat.com/blog/qwerty-vs-dvorak-vs-colemak-vs-workman\" rel=\"nofollow\">Typing Cat layout comparison lab</a>; they are estimates of movement, not measured typing speeds."
+     ]
+    },
+    {
+     "h2": "Which keyboard layout is best?",
+     "p": [
+      "There is no single best layout, because less finger movement is not the same as faster typing. <strong>QWERTY</strong> wins on familiarity: it is on every shared computer and every shortcut assumes it. <strong>Dvorak</strong> alternates hands the most (about 67% of keystrokes), which many typists find rhythmic for long English prose. <strong>Colemak</strong> keeps the most letters on the home row (73%) and the fewest awkward same-finger presses (1.5%) while leaving Z, X, C, V and most shortcuts in place, so it is the usual pick for QWERTY users who want to switch. <strong>Workman</strong> trims total finger travel the most by also minimising sideways stretches.",
+      "For almost everyone, practice and accuracy move your WPM far more than the layout does. A fast QWERTY typist will beat a beginner on any layout. Switch for comfort and reduced finger travel, not for a guaranteed speed jump."
+     ]
+    },
+    {
+     "h2": "Should you switch keyboard layout?",
+     "p": [
+      "Switching costs you one to four weeks of slower, deliberate typing while new muscle memory forms, and shared or public machines will still be QWERTY. The payoff is less finger travel and, for many people, more comfort in long sessions. It is worth it mainly if you type a lot of English every day and own the keyboards you use most.",
+      "If you want the gentlest change, start with Colemak because it keeps your common shortcuts. If you love hand-alternation, try Dvorak. The honest answer for casual typists is that staying on QWERTY and practising is the higher-return move."
+     ]
+    },
+    {
+     "h2": "Try each keyboard layout here",
+     "p": [
+      "You can practise two of these layouts right now with a matching on-screen keyboard and finger guide: take the <a href=\"colemak-typing.html\">Colemak typing test</a> or the <a href=\"dvorak-typing.html\">Dvorak typing test</a>, or measure your current speed on QWERTY with the <a href=\"/\">main typing speed test</a>. Each shows WPM, accuracy, consistency and a per-key heatmap so you can compare how a layout feels for you."
+     ]
+    }
+   ],
+   "faqFirstOpen": true,
+   "faqH2": "Keyboard layouts FAQ",
+   "faq": [
+    {
+     "q": "Which keyboard layout is the fastest?",
+     "a": "No layout is reliably fastest for everyone. Modeling shows Dvorak, Colemak and Workman cut finger travel by roughly 42 to 45% versus QWERTY, but measured typing speed depends far more on practice and accuracy than on the layout. The world's fastest typists use several different layouts, including QWERTY."
+    },
+    {
+     "q": "Is Dvorak better than QWERTY?",
+     "a": "Dvorak puts about 71% of letters on the home row versus QWERTY's 36% and alternates hands more, which many typists find more comfortable for long English text. Studies show modest speed gains at best, so the main benefit is reduced finger movement and comfort, not a guaranteed speed jump."
+    },
+    {
+     "q": "Is Colemak better than Dvorak?",
+     "a": "Colemak keeps more letters on the home row (about 73%) and the lowest same-finger rate (about 1.5%), and it changes only 17 keys while keeping Z, X, C and V in their QWERTY places, so it is easier to switch to than Dvorak. Dvorak alternates hands more. Which feels better is personal."
+    },
+    {
+     "q": "What is the best keyboard layout for programming?",
+     "a": "Code uses far more punctuation, brackets and symbols than English prose, so prose-optimised layouts help less. Programmer variants such as Programmer Dvorak and Workman Programmer rearrange the number and symbol rows. Many developers stay on QWERTY because editors, shortcuts and pair-programming all assume it."
+    },
+    {
+     "q": "How long does it take to switch keyboard layouts?",
+     "a": "Most people reach usable speed again in one to four weeks of short daily practice, and return to their old speed over one to three months. Accuracy recovers before raw speed, so track accuracy first."
+    },
+    {
+     "q": "Can I practise Dvorak and Colemak online for free?",
+     "a": "Yes. This site has a free Dvorak typing test and a free Colemak typing test, each with an on-screen keyboard relabelled to that layout and a matching finger guide, so you can practise and measure your WPM without installing anything."
+    }
+   ],
+   "webAppName": "Typing Speed Test",
+   "webAppUrl": "https://typing.rerivo.com/",
+   "bcItems": [
+    {
+     "name": "Home",
+     "item": "https://typing.rerivo.com/"
+    },
+    {
+     "name": "Keyboard Layouts",
+     "item": "https://typing.rerivo.com/keyboard-layouts.html"
     }
    ],
    "ldPretty": []
