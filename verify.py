@@ -1,14 +1,13 @@
 #!/usr/bin/env python3
-"""站点产物校验器 —— 13 项检查，任何一项失败即退出码 1。
+"""站点产物校验器 —— 任何一项失败即退出码 1。
 
     python3 verify.py
 
 检查覆盖：产物完整性、模板占位符、共享资源一致性、引擎漂移、
 JSON-LD 合法性、sitemap 一致性、llms.txt（AI 发现清单）一致性、
-外链存在性、与 git 基线的字节等价（剥引擎块后对比，豁免表见 EXEMPT）、
+外链存在性、结构等价（委托 structure_gate：骨架归一 + 金标锁）、
 页脚内链覆盖、构建幂等性、引擎与多语页默认语言的行为级 harness。
 """
-import difflib
 import json
 import re
 import shutil
@@ -20,124 +19,11 @@ ROOT = Path(__file__).resolve().parent
 SRC = ROOT / "src"
 SITE = "https://typing.rerivo.com"
 
-# 产物中引擎内联块的形态（无属性 <script> + IIFE + "use strict"）。
-# 全站唯一，check 5 与 check 9 共用；head-snippet 不以 (function(){ 开头，不会误伤。
-ENGINE_BLOCK_RE = r"<script>\n\(function\(\)\{\n.*?\n</script>"
-
-
-STYLE_BLOCK_RE = r"<style>.*?</style>"
-
-def strip_engine(html: str) -> str:
-    """剥掉引擎内联块与内联 <style> 块后再对比。
-    引擎自 Task#2 起有意演进（无限文本流+增量渲染等）；CSS 自 Task#5/6 起有意演进
-    （a11y 动效/对比降级、移动端保留音效开关等）。两者的正确性不由 check 9 字节对比守卫：
-    引擎由 check 4/5/5b + check 11 行为级 harness 守卫，CSS 由 check 4
-    （全站单版本且 == src/style.css）守卫。check 9 只守卫 HTML 结构等价。"""
-    html = re.sub(ENGINE_BLOCK_RE, "<script>{{ENGINE}}</script>", html, flags=re.S)
-    return re.sub(STYLE_BLOCK_RE, "<style>{{CSS}}</style>", html, flags=re.S)
-
-# Task#5 起全站补的无障碍标记。这些是有意的功能性新增（非渲染等价），
-# 但不应污染 check 9 的"产物等价于原站"守卫：对比前先从双方剥掉，
-# 使 check 9 仍严格守卫"a11y 标记之外的字节等价"。
-A11Y_ATTR_RE = re.compile(
-    r'\s+(?:role="(?:timer|status|img)"|aria-live="(?:polite|assertive|off)"|data-aria="[^"]*"|aria-pressed="(?:true|false)")')
-A11Y_LABELS = (' aria-label="Time remaining"', ' aria-label="Typing input"',
-               ' aria-label="WPM over time line chart"')
-SKIP_LINK_RE = re.compile(r'<a class="skip"[^>]*>.*?</a>\n?')
-# Task#8 起全站控制行新增的“打字区宽度”切换组（用户偏好 trWidth，localStorage 持久化）。
-# 有意的功能性新增，基线里不存在；宽度档位是否生效由 check 11 + 手动验收守卫，不污染 check 9。
-WIDTH_CTRL_RE = re.compile(
-    r'\n *<div class="ctrl-group">\n *<span class="ctrl-label" data-i18n="width">.*?\n *</div>',
-    re.S)
-# Task#9 起结果面板新增的「打印证书」按钮（typing certificate 特性，五语 i18n）。
-# 有意的功能性新增，基线里不存在；按钮与证书内容由 check 11 + 手动验收守卫，不污染 check 9。
-CERT_BTN_RE = re.compile(
-    r'\n *<button[^>]*id="btnCert"[^>]*>.*?</button>',
-    re.S)
-# Task#10 起键盘工具条新增的布局切换组（Dvorak 特性，QWERTY/Dvorak 键面切换）。
-# 有意的功能性新增，基线里不存在；布局是否生效由 check 11 + 手动验收守卫，不污染 check 9。
-LAYOUT_CTRL_RE = re.compile(
-    r'<span class="lab kbd-lay-lab"[^>]*>.*?data-lay="colemak"[^>]*>.*?</button>',
-    re.S)
-# Task#11 起控制行新增的「练习模式」快捷入口组（Reddit r/SideProject 反馈：
-# Dvorak/单手/证书模式藏在页脚找不到，建议放到文本选项旁）。
-# 有意的功能性新增，基线里不存在；链接有效性由 check 8 + check 12 守卫，不污染 check 9。
-PRACTICE_CTRL_RE = re.compile(
-    r'\n *<div class="ctrl-group">\n *<span class="ctrl-label" data-i18n="practice">.*?\n *</div>',
-    re.S)
-# cycle4/5/7/8 起结果面板与控制区的站级功能新增（基线不存在）：自定义文本粘贴、按键分析、
-# 成就徽章、弱键/成绩图按钮、进度导出入、键位热力图说明、成绩分级标签。均为有意新增，
-# 由 check 11 行为级 harness + 手动验收守卫，不污染 check 9 的结构字节守卫。
-CUSTOMBOX_RE = re.compile(r'\n *<details class="custombox">.*?</details>', re.S)
-KEYSTATS_RE = re.compile(r'\n *<div class="keystats" id="keyStats"></div>')
-ACHV_RE = re.compile(r'\n *<div class="achv" id="achv"></div>')
-HEATCAP_RE = re.compile(r'\n *<div class="heat-cap"[^>]*>.*?</div>', re.S)
-TIERLINE_RE = re.compile(r'\n *<div class="tier-line" id="tierLine"></div>')
-RESULT_BTN_RE = re.compile(r'\n *<button[^>]*id="(?:btnWeak|btnImg)"[^>]*>.*?</button>', re.S)
-HISTTOOLS_RE = re.compile(r'\n *<div class="hist-tools">.*?</div>', re.S)
-# ui.js/egg.js 的缓存版本号是部署期参数，不是 HTML 语义；对比前归一化。
-ASSET_VER_RE = re.compile(r'(src="(?:ui|egg)\.js\?)v=\d+(")', re.S)
-# Task#6 起全站 head 新增的 PWA/图标引用（favicon、apple-touch、manifest）。
-# 这是有意的功能性新增，基线里不存在，剥掉后双方归一，不污染 check 9。
-PWA_LINK_RE = re.compile(r'<link rel="(?:icon|apple-touch-icon|manifest)"[^>]*>\n?')
-# 全站页脚内链枢纽：有意演进的 SEO 内链（给每页全站入口），不参与 check 9
-# 字节守卫；其“覆盖所有页且无死链”由 check 12 单独守卫。
-FOOTER_RE = re.compile(r"<footer>.*?</footer>", re.S)
-def strip_a11y(html: str) -> str:
-    """剥掉 Task#5 新增的 a11y 属性/元素（skip link、role、aria-*、button type），
-    Task#6 新增的 PWA/图标引用，有意演进的页脚内链枢纽（见 check 12），
-    Task#8 新增的打字区宽度切换组，以及静态资源的缓存版本号。
-    内联 <style> 块已由 strip_engine 整体剥离，故此处无需再处理 a11y CSS。
-    基线里本就存在的同类属性（如 kbd-size 的 aria-label、sndToggle 的
-    aria-pressed）会被一并移除，双方归一，不影响守卫。"""
-    html = FOOTER_RE.sub("", html)
-    html = PWA_LINK_RE.sub("", html)
-    html = A11Y_ATTR_RE.sub("", html)
-    html = SKIP_LINK_RE.sub("", html)
-    html = WIDTH_CTRL_RE.sub("", html)
-    html = CERT_BTN_RE.sub("", html)
-    html = LAYOUT_CTRL_RE.sub("", html)
-    html = PRACTICE_CTRL_RE.sub("", html)
-    html = CUSTOMBOX_RE.sub("", html)
-    html = KEYSTATS_RE.sub("", html)
-    html = ACHV_RE.sub("", html)
-    html = HEATCAP_RE.sub("", html)
-    html = TIERLINE_RE.sub("", html)
-    html = RESULT_BTN_RE.sub("", html)
-    html = HISTTOOLS_RE.sub("", html)
-    html = ASSET_VER_RE.sub(r'\1v\2', html)
-    html = html.replace(' type="button"', "")
-    for lit in A11Y_LABELS:
-        html = html.replace(lit, "")
-    return html
-# 架构重构前的基线提交。检查 9 永久对比它，使"产物等价于原站"成为回归守卫，
-# 而不是提交后退化成自我对比。
-BASELINE_REF = "eada54e"
-
-# 架构重构豁免表：相对 git 基线唯一允许的差异。
-# 全部是不可见空白或渲染等价的正确性修正，逐条给出理由。
-EXEMPT = {
-    # crumbs 前统一留一个空行（11/16 页的多数约定）
-    "capital-letter-typing-test.html": "crumbs 前补空行，归一多数约定",
-    "easy-typing-test.html": "crumbs 前补空行，归一多数约定",
-    "free-typing-test.html": "crumbs 前补空行，归一多数约定",
-    "punctuation-typing-test.html": "crumbs 前补空行，归一多数约定",
-    "wpm-test-online.html": "crumbs 前补空行，归一多数约定",
-    # <title> 内裸 & 属无效 HTML，统一转义（渲染结果不变）
-    "typing-accuracy-test.html": "title 内 & → &amp;，修正无效 HTML",
-    # seo 开标签缩进 4→2，与该页闭标签及多数页一致
-    "1-minute-typing-test.html": "seo 缩进 4→2，修正自身不一致",
-    "words-per-minute-test.html": "seo 缩进 4→2，修正自身不一致",
-    # dur=120 但静态 sTime 写 1:00，是原站缺陷；按 dur 派生为 2:00
-    "typing-practice.html": "seo 缩进 4→2；sTime 1:00→2:00 修正（dur=120）",
-    # GEO：五语聚类互声明 hreflang alternate，英语落地页显式页面默认语言 en
-    "english-typing-test.html": "head 补 hreflang 多语 alternate + 显式页面默认语言 en（GEO 五语聚类）",
-    # TDK 定向：目标长尾词进 title/metaDesc/正文（结构不变）
-    "wpm-test-online.html": "TDK 定向 check your wpm：title 加 “Check Your WPM Free” + 补 seo 段",
-    "keyboard-typing-test.html": "TDK 定向 keyboard test：title 改为 “Keyboard Test - …” + 补 seo 段",
-    # 首页新增 WPM 基准小表 + average-typing-speed 内链（GEO 数据预览，正文内容新增）
-    "index.html": "首页新增 WPM 基准小表 + average-typing-speed 内链（GEO 数据预览）",
-}
+# ── 结构等价守卫：委托 src/tools/structure_gate.py（骨架归一 + 金标锁）──
+# 旧方案（EXEMPT 逐条豁免 + 逐功能 strip 正则 + 冻结基线字节 diff）已废弃：
+# 它要求每新增一个功能块/页面就手工改验证器，豁免表会无限膨胀。
+# 新方案见 src/tools/skeleton.py 的槽位定义与 structure_gate.py 的 S1/S1a/S2/S3。
+STRUCTURE_GATE = SRC / "tools" / "structure_gate.py"
 
 ok, fail = [], []
 
@@ -253,102 +139,16 @@ def main():
     miss = sorted(r for r in refs if not (ROOT / r.lstrip("/")).exists())
     check("8. 页面引用的本地资源全部存在", not miss, f"缺失: {miss}" if miss else f"{len(refs)} 个: {sorted(refs)}")
 
-    # 重构后新增的落地页：基线中不存在，属有意新增（补 gap 词），不是回归。
-    NEW_PAGES = {
-        "30-second-typing-test.html": "新增 30 秒时长落地页（补时长阶梯）",
-        "3-minute-typing-test.html": "新增 3 分钟时长落地页（补时长阶梯）",
-        "10-minute-typing-test.html": "新增 10 分钟时长落地页（补时长阶梯）",
-        "typing-games.html": "新增 typing games 落地页（补游戏线 gap 词）",
-        "typing-lessons.html": "新增 typing lessons 落地页（补教育线 gap 词）",
-        "learn-to-type-faster.html": "新增 learn to type faster 落地页（补教育线提速 P1 词）",
-        "typing-tips.html": "新增 typing tips 落地页（补信息线技巧聚合 P1 词）",
-        "spanish-typing-test.html": "新增西班牙语打字测试落地页（多语线 P2：五语池现成，页面级默认 es）",
-        "chinese-typing-test.html": "新增中文打字测试落地页（多语线 P2：zh 池扩充后补齐语种 gap）",
-        "hindi-typing-test.html": "新增印地语打字测试落地页（多语线 P2：hi 池扩充后补齐语种 gap）",
-        "arabic-typing-test.html": "新增阿拉伯语打字测试落地页（多语线 P2：ar 池扩充后补齐语种 gap）",
-        "touch-typing-test.html": "新增 touch typing 落地页（教育线 P1：触觉打字/盲打）",
-        "typing-race.html": "新增 typing race 落地页（游戏线 P2：竞速/比赛；title 含 competitive typing game 定向）",
-        "typing-tutorial.html": "新增 typing tutorial 落地页（教育线 P1：教程/tutor/教学）",
-        "typing-tutor.html": "新增 typing tutor 落地页（教育线 P1：导师/实时反馈工具）",
-        "learn-to-type.html": "新增 learn to type 落地页（教育线 P1：零基础学打字）",
-        "typing-trainer.html": "新增 typing trainer 落地页（教育线 P1：训练/计划/记录）",
-        "custom-typing-test.html": "新增 custom typing test 落地页（可定制：时长/文本类型/语言/主题/宽度）",
-        "typing-tests-in-other-languages.html": "新增多语聚合枢纽页（P2：五语内链中心）",
-        "typing-certificate.html": "新增 typing certificate 落地页（可打印成绩单特性）",
-        "dvorak-typing.html": "新增 Dvorak 打字测试页（键盘认知 Dvorak 布局）",
-        "one-hand-typing.html": "新增单手打字练习页",
-        "privacy-policy.html": "新增隐私政策页（AdSense 合规）",
-        "about.html": "新增关于页（AdSense 合规）",
-        "colemak-typing.html": "新增 Colemak 打字测试页（布局线：QWERTY/Dvorak/Colemak 三路，竞品 ratatype/keybr 背书）",
-        "keyboard-layouts.html": "新增键盘布局对比数据页（GEO 磁铁：QWERTY/Dvorak/Colemak/Workman 对比表 + FAQ）",
-        "average-typing-speed.html": "新增 average typing speed 基准数据页（GEO hub：技能/年龄/职业三表）",
-        "cpm-typing-test.html": "新增 CPM 打字测试页（CPM=WPM×5 指标线）",
-        "typing-test-for-kids.html": "新增 typing test for kids 落地页（儿童受众，words 模式 + 年龄表）",
-        "typing-test-for-jobs.html": "新增 typing test for jobs 落地页（就业/数据录入意图，职业要求表）",
-        "typing-practice-for-programmers.html": "新增 programmers 打字练习页（符号/括号/驼峰 + 自定义代码）",
-        "how-to-type-without-looking.html": "新增 how to type without looking 指南页（home row 盲打）",
-    }
-
-    # 9. 与 git 基线字节等价（豁免表内差异需逐条命中；新增页单独登记）
-    base_ref = BASELINE_REF
-    if git("cat-file", "-e", f"{BASELINE_REF}^{{commit}}").returncode != 0:
-        base_ref = "HEAD"  # 浅克隆等取不到基线时退化
-    diffs, unexpected, unmatched, new_hit = {}, {}, set(EXEMPT), 0
-    for n in names:
-        g = git("show", f"{base_ref}:{n}")
-        if g.returncode != 0:
-            if n in NEW_PAGES:
-                new_hit += 1
-                continue  # 有意新增的落地页（基线不存在），非回归
-            unexpected[n] = ["(基线中不存在)"]
-            continue
-        # 剥掉引擎块与 Task#5 a11y 标记再比：引擎有意演进、a11y 有意新增，
-        # 除此之外的 HTML/CSS 仍逐字节守卫
-        base = strip_a11y(strip_engine(g.stdout))
-        cur = strip_a11y(strip_engine(htmls.get(n, "")))
-        base_lines = set(base.split("\n"))
-        if base == cur:
-            continue
-        d = [l for l in difflib.unified_diff(base.split("\n"),
-                                             cur.split("\n"),
-                                             lineterm="", n=0)
-             if l[:1] in "+-" and not l.startswith(("+++", "---"))]
-        # AdSense head 脚本是全站性挂载，不属页面级豁免表，统一剥离后比较
-        d = [l for l in d if "adsbygoogle" not in l and "googlesyndication" not in l
-             and "crossorigin=\"anonymous\"></script>" not in l]
-        if not d:
-            continue
-        diffs[n] = d
-        if n in EXEMPT:
-            unmatched.discard(n)
-            for line in d:
-                body = line[1:].strip()
-                allowed = (body == "" or "<section class=\"seo\">" in body
-                           or "id=\"sTime\"" in body or "<title>" in body
-                           or "<meta name=\"description" in body
-                           or '<meta property="og:' in body
-                           or '<meta name="twitter:' in body
-                           or "<link rel=\"alternate\"" in body
-                           or "window.__trPageLang=" in body
-                           or body in base_lines
-                           or any(b.startswith(body) or body.startswith(b)
-                                  for b in base_lines if b)
-                           or body.startswith(("<h2", "<p>", "<p ", "<div class=\"tbl\""))
-                           or "adsbygoogle" in body)
-                if not allowed:
-                    unexpected.setdefault(n, []).append(line[:100])
-        else:
-            unexpected.setdefault(n, []).extend(l[:100] for l in d)
-    # 基线是重构前提交，diffs 恒为豁免表内容；豁免项必须全部命中
-    passed9 = not unexpected and not unmatched
-    check("9. 相对 git 基线仅有豁免表内差异", passed9,
-          f"意外差异 {list(unexpected)[:2]}" if unexpected else
-          (f"豁免表未命中 {sorted(unmatched)}" if unmatched and diffs else
-           (f"{len(diffs)+new_hit}/{len(names)} 页命中豁免（基线 {base_ref}"
-            + (f"，含 {new_hit} 个新增落地页" if new_hit else "") + "）" if diffs
-            else f"无差异，与基线 {base_ref} 完全一致")))
-    for n, d in sorted(diffs.items()):
-        print(f'      · {n}: {len(d)} 行 — {EXEMPT.get(n, "未登记")}')
+    # 9. 结构等价（委托 structure_gate.py：骨架唯一 + 金标锁）
+    #    取代旧的「对冻结基线字节 diff + EXEMPT 手工豁免表 + 逐功能 strip 正则」——
+    #    该方案每新增功能/页面都要改验证器，正是本轮升级要修的债。
+    r9 = subprocess.run([sys.executable, str(STRUCTURE_GATE)],
+                        cwd=ROOT, capture_output=True, text=True)
+    lines9 = [l.strip() for l in r9.stdout.splitlines() if l.strip().startswith(("✅", "❌", "↻"))]
+    check("9. 结构等价（骨架唯一 + 金标锁，零维护）", r9.returncode == 0,
+          (lines9[-1][1:100] if lines9 else (r9.stderr.strip() or "无输出")[:120]))
+    for l in lines9:
+        print(f'      {l}')
 
     # 12. 页脚内链枢纽覆盖所有页面且无死链（哥飞第5步：每个页都要有全站入口）
     foot_src = (SRC / "footer.html").read_text(encoding="utf-8")
@@ -387,6 +187,23 @@ def main():
                 fails.append(f"{hf}: {last} | " + " ; ".join(l for l in tail if "❌" in l)[:120])
         check("11. 行为级 harness 全绿", all_ok,
               " ; ".join(oks) if all_ok else " ; ".join(fails)[:200])
+
+    # 14. 外链台账数据合法（linkops ledger check）
+    r14 = subprocess.run([sys.executable, str(SRC / "tools" / "linkops.py"), "ledger", "check"],
+                         cwd=ROOT, capture_output=True, text=True)
+    check("14. 外链台账数据合法（linkops ledger check）", r14.returncode == 0,
+          (r14.stdout.strip() or r14.stderr.strip())[-90:])
+
+    # 15. llms-full.txt 覆盖全部页面（GEO：AI 可直接引用的全文清单）
+    lf = ROOT / "llms-full.txt"
+    if lf.exists():
+        body = lf.read_text(encoding="utf-8")
+        miss_full = [n for n in names if (SITE + "/" if n == "index.html" else SITE + "/" + n)
+                     not in body]
+        check("15. llms-full.txt 覆盖全部页面", not miss_full,
+              f"缺 {miss_full[:3]}" if miss_full else f"{len(names)} 页全文已收录")
+    else:
+        check("15. llms-full.txt 存在", False, "缺失（build.py 生成）")
 
     print(f"\n通过 {len(ok)}/{len(ok)+len(fail)} 项")
     if fail:

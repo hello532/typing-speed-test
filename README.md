@@ -53,18 +53,28 @@ One template + one config table generate the whole site — every page is a
 build artifact, never hand-edited.
 
 - **Vanilla JS + HTML/CSS**, no framework, no build toolchain beyond Python
-- `src/template.html` + `src/pages.json` → `build.py` renders all 34 pages
-- **SEO built-in**: JSON-LD (`WebApplication` / `FAQPage` / `BreadcrumbList`)
-  on every page, plus `sitemap.xml`, `robots.txt`, `llms.txt`
-- **Regression guard**: `verify.py` (14/14 structural checks) + an engine
-  behavior harness keep the generated pages honest
+- `src/template.html` + `src/pages.json` → `build.py` renders all 49 pages
+- **SEO/GEO built-in**: JSON-LD (`WebApplication` / `FAQPage` / `BreadcrumbList`)
+  on every page, plus `sitemap.xml`, `robots.txt`, `llms.txt`, and `llms-full.txt`
+  (full-text AI citation manifest, generated from the pages)
+- **Zero-maintenance structural gate**: `src/tools/skeleton.py` normalises every
+  page to one canonical skeleton (declared slots only) and `structure_gate.py`
+  locks it with a golden hash — adding pages or features needs **no** verifier
+  edits. `verify.py` (16 gates) + engine behavior harness keep products honest
+- **CI**: `.github/workflows/verify.yml` runs build-drift, all gates and the
+  backlink ledger on every push/PR
+- **Link ops**: `src/tools/linkops.py` = backlink ledger (machine-readable
+  `directories.json`), directory probing, and sitemap liveness checks
 
 ## Local development
 
 ```bash
-python3 build.py      # render all pages from src/
-python3 verify.py     # run the 14/14 regression checks
-python3 -m http.server 8000   # then open http://localhost:8000
+python3 build.py                       # render all pages + llms-full.txt from src/
+python3 verify.py                      # 16 gates (structure, JSON-LD, sitemap, harness)
+python3 src/tools/linkops.py ledger report   # backlink ledger status
+python3 src/tools/linkops.py live            # sitemap liveness (all URLs 200?)
+python3 src/tools/linkops.py probe           # re-probe directories (dry-run)
+python3 -m http.server 8000                  # then open http://localhost:8000
 ```
 
 Requires only Python 3 (the static generator). No `npm install`.
@@ -81,11 +91,14 @@ change `src/`, re-run `build.py`, then commit the regenerated pages.
 ## Repo layout
 
 ```
-src/            template, pages.json, engine.js, ui.js, footer.html, style.css
-src/pools/      practice content (en / zh / es / hi / ar)
-src/tools/      generator & extraction helpers
-*.html          generated pages (build artifacts)
-og-cover.png    social preview image
+src/               template, pages.json, engine.js, ui.js, footer.html, style.css
+src/pools/         practice content (en / zh / es / hi / ar)
+src/tools/         skeleton.py + structure_gate.py (structural invariants)
+                   linkops.py + directories.json (backlink ledger & probes)
+                   engine_harness.mjs, lang_default_harness.mjs (behavior tests)
+*.html             generated pages (build artifacts)
+llms-full.txt      generated full-text AI manifest
+og-cover.png       social preview image
 ```
 
 ## Links

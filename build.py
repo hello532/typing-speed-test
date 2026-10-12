@@ -228,6 +228,42 @@ def build_ui_js():
     return out
 
 
+def build_llms_full(cfg, htmls):
+    """生成 llms-full.txt —— AI 抓取清单的「全文版」（GEO）。
+
+    llms.txt = 只给链接与一句话摘要；llms-full.txt = 把每页的 H1 + 正文段落
+    直接内联，AI 引擎无需二次抓取即可引用，提升被 AI Overview / Perplexity
+    检索并引用的概率。与 llms.txt 一样是派生文件，由 build 生成，避免漂移。
+    """
+    parts = ["# Rerivo Typing Speed Test — Full Content",
+             "",
+             "> Free, no-signup online typing speed test. Below is the full readable text of every page,",
+             "> for AI answer engines and retrieval systems. Source: https://typing.rerivo.com/",
+             ""]
+    for page in cfg["pages"]:
+        url = page["canonical"]
+        h = htmls.get(page["file"], "")
+        seo = re.search(r'<section class="seo">(.*?)</section>', h, re.S)
+        faq = re.search(r'<section class="seo faq">(.*?)</section>', h, re.S)
+        body = []
+        for blk in (seo, faq):
+            if not blk:
+                continue
+            for m in re.findall(r"<(?:h2|p)>(.*?)</(?:h2|p)>", blk.group(1), re.S):
+                txt = re.sub(r"<[^>]+>", "", m)
+                txt = re.sub(r"\s+", " ", txt).strip()
+                if txt:
+                    body.append(txt)
+        parts.append(f"## {page['h1']}")
+        parts.append(f"Source: {url}")
+        parts.append("")
+        parts.append(page["heroP"].replace("<strong>", "").replace("</strong>", ""))
+        parts.append("")
+        parts.extend(body)
+        parts.append("")
+    return "\n".join(parts).rstrip("\n") + "\n"
+
+
 def main():
     check = "--check" in sys.argv
     cfg = json.loads((SRC / "pages.json").read_text(encoding="utf-8"))
@@ -250,8 +286,10 @@ def main():
     else:
         ui_target.write_text(ui_js, encoding="utf-8")
 
+    htmls = {}
     for page in cfg["pages"]:
         html = render(page, cfg, tpl, css, engine, head_snippet, footer, result, variants, cluster)
+        htmls[page["file"]] = html
         target = ROOT / page["file"]
         if check:
             cur = target.read_text(encoding="utf-8") if target.exists() else None
@@ -259,6 +297,17 @@ def main():
                 bad.append(page["file"])
         else:
             target.write_text(html, encoding="utf-8")
+
+    # llms-full.txt（GEO 全文版）：派生自产物，AI 引擎可直接引用，无需二次抓取
+    full = build_llms_full(cfg, htmls)
+    ftarget = ROOT / "llms-full.txt"
+    if check:
+        cur = ftarget.read_text(encoding="utf-8") if ftarget.exists() else None
+        if cur != full:
+            bad.append("llms-full.txt")
+    else:
+        ftarget.write_text(full, encoding="utf-8")
+
     if check:
         if bad:
             print(f"DRIFT: {len(bad)} page(s) differ from src/ → run build.py")

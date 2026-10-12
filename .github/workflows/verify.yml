@@ -1,0 +1,32 @@
+name: verify
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      # 1) 产物必须与 src/ 一致（没人手编生成的 HTML）
+      - name: build drift check
+        run: python3 build.py --check
+
+      # 2) 全量闸门：结构等价(骨架金标) + JSON-LD + sitemap/llms + 行为 harness
+      - name: verify gates
+        run: python3 verify.py
+
+      # 3) 外链台账数据自检
+      - name: backlink ledger check
+        run: python3 src/tools/linkops.py ledger check

@@ -1,0 +1,186 @@
+{
+ "site": "https://typing.rerivo.com",
+ "updated": "2026-10-12",
+ "directories": [
+  {
+   "name": "IndexNow (Bing/Yandex/Seznam/Naver)",
+   "url": "https://api.indexnow.org/indexnow",
+   "kind": "indexing",
+   "dofollow": null,
+   "dr": null,
+   "status": "submitted",
+   "date": "2026-10-12",
+   "note": "全站 49 URL 已 POST，HTTP 200；收录机制非外链"
+  },
+  {
+   "name": "GitHub PR #86 — awesome-no-signup-tools",
+   "url": "https://github.com/Zio-Tibia/awesome-no-signup-tools/pull/86",
+   "kind": "awesome-list-pr",
+   "dofollow": "yes",
+   "dr": null,
+   "status": "submitted",
+   "date": "2026-10-12",
+   "note": "开源清单 PR，合并后 github.io 站点出 dofollow 链接"
+  },
+  {
+   "name": "GitHub PR #7 — Awesome-keyboard-typing",
+   "url": "https://github.com/osufiles/Awesome-keyboard-typing/pull/7",
+   "kind": "awesome-list-pr",
+   "dofollow": "yes",
+   "dr": null,
+   "status": "submitted",
+   "date": "2026-10-12",
+   "note": "打字测试 webapp 清单，主站+程序员练习页 2 条"
+  },
+  {
+   "name": "Launch Llama",
+   "url": "https://tools.launchllama.co/products/typing-rerivo",
+   "kind": "launch-directory",
+   "dofollow": "yes",
+   "dr": 73,
+   "status": "submitted",
+   "date": "2026-10-12",
+   "note": "免费档，人工审核约 4 周；已拒绝互惠 badge 换链"
+  },
+  {
+   "name": "SaaSHub",
+   "url": "https://www.saashub.com/typing-rerivo",
+   "kind": "software-directory",
+   "dofollow": "no",
+   "dr": 80,
+   "status": "submitted",
+   "date": "2026-10-12",
+   "note": "页面已建（Education），审核中；免费档 nofollow"
+  },
+  {
+   "name": "AlternativeTo",
+   "url": "https://alternativeto.net/manage-item/",
+   "kind": "software-directory",
+   "dofollow": "no",
+   "dr": 80,
+   "status": "blocked_cf",
+   "date": "2026-10-12",
+   "note": "Cloudflare 人机验证，自动化不可过；相关度最高的目录，建议人工提交"
+  },
+  {
+   "name": "Softpedia",
+   "url": "https://www.softpedia.com/user/submit.shtml",
+   "kind": "software-directory",
+   "dofollow": "yes",
+   "dr": 86,
+   "status": "blocked_cf",
+   "date": "2026-10-12",
+   "note": "Cloudflare Turnstile；DR86 dofollow，人工提交优先"
+  },
+  {
+   "name": "SoftwareWorld",
+   "url": "https://www.softwareworld.co/",
+   "kind": "software-directory",
+   "dofollow": "yes",
+   "dr": 73,
+   "status": "blocked_cf",
+   "date": "2026-10-12",
+   "note": "Cloudflare"
+  },
+  {
+   "name": "Sitelike.org",
+   "url": "https://www.sitelike.org/add-site",
+   "kind": "similar-sites",
+   "dofollow": "yes",
+   "dr": 66,
+   "status": "blocked_cf",
+   "date": "2026-10-12",
+   "note": "表单可填，提交动作触发 Cloudflare"
+  },
+  {
+   "name": "alternative.me",
+   "url": "https://alternative.me/how-to/submit-software/",
+   "kind": "software-directory",
+   "dofollow": "yes",
+   "dr": 75,
+   "status": "needs_login",
+   "date": "2026-10-12",
+   "note": "必须邮箱注册+验证，无 Google OAuth"
+  },
+  {
+   "name": "Uneed",
+   "url": "https://www.uneed.best/submit-a-tool",
+   "kind": "launch-directory",
+   "dofollow": "yes",
+   "dr": null,
+   "status": "needs_login",
+   "date": "2026-10-12",
+   "note": "需注册账号"
+  },
+  {
+   "name": "Indie Hackers",
+   "url": "https://www.indiehackers.com/products",
+   "kind": "community",
+   "dofollow": null,
+   "dr": null,
+   "status": "needs_login",
+   "date": "2026-10-12",
+   "note": "需账号；品牌+真流量，价值在社区曝光"
+  },
+  {
+   "name": "StackShare",
+   "url": "https://stackshare.io/",
+   "kind": "dev-directory",
+   "dofollow": "yes",
+   "dr": 79,
+   "status": "needs_login",
+   "date": "2026-10-12",
+   "note": "需登录；sign-in 路径当前 404，待复核"
+  },
+  {
+   "name": "SideProjectors",
+   "url": "https://www.sideprojectors.com/",
+   "kind": "marketplace",
+   "dofollow": null,
+   "dr": null,
+   "status": "needs_login",
+   "date": "2026-10-12",
+   "note": "市场定位，相关度低"
+  },
+  {
+   "name": "Startup Fame",
+   "url": "https://startupfa.me/submit",
+   "kind": "launch-directory",
+   "dofollow": "yes",
+   "dr": null,
+   "status": "dead",
+   "date": "2026-10-12",
+   "note": "/submit 返回 404，路径已变更，待找新入口"
+  },
+  {
+   "name": "Serchen",
+   "url": "https://www.serchen.com/get-listed",
+   "kind": "software-directory",
+   "dofollow": "yes",
+   "dr": 67,
+   "status": "candidate",
+   "date": null,
+   "note": "搜索式收录，未露出「新建」入口；待研究创建路径"
+  },
+  {
+   "name": "Product Hunt",
+   "url": "https://www.producthunt.com/",
+   "kind": "launch",
+   "dofollow": "yes",
+   "dr": 91,
+   "status": "blocked_cf",
+   "date": null,
+   "note": "需账号；一次性 launch，建议攒种子用户后发"
+  },
+  {
+   "name": "Hacker News (Show HN)",
+   "url": "https://news.ycombinator.com/submit",
+   "kind": "community",
+   "dofollow": "no",
+   "dr": 90,
+   "status": "candidate",
+   "date": null,
+   "note": "需账号；真流量，守社区规，勿硬广"
+  }
+ ]
+}

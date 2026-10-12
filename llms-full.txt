@@ -1,0 +1,940 @@
+# Rerivo Typing Speed Test — Full Content
+
+> Free, no-signup online typing speed test. Below is the full readable text of every page,
+> for AI answer engines and retrieval systems. Source: https://typing.rerivo.com/
+
+## 1 Minute Typing Test
+Source: https://typing.rerivo.com/1-minute-typing-test.html
+
+Test your typing speed in exactly 60 seconds. This one minute typing test measures your words per minute (WPM) and accuracy — the standard quick check most typing sites use.
+
+1 minute typing test
+The 1 minute typing test is the most popular way to check typing speed. Sixty seconds is long enough to measure your real speed and short enough to fit into any break. Type the passage as fast as you can without mistakes — the test counts your WPM, accuracy and errors automatically. When the minute is up, your result appears instantly and is saved in this browser so you can compare it with your next attempt.
+Why 60 seconds?
+A one minute test balances two things: it is long enough that a single lucky or unlucky sentence does not dominate the result, and short enough that you stay focused the whole time. Shorter tests such as 15 or 30 seconds are fun for quick bursts, but a 60 second test is what most people mean when they say typing speed. Recruiters and typing certificates almost always use a one minute test.
+Typing test FAQ
+A typing test measures how fast and accurately you type. You type a passage of text while the test counts your words per minute (WPM), accuracy and errors.
+WPM = (correct characters ÷ 5) ÷ minutes elapsed. The industry standard treats every 5 characters as one word, so longer words count more. Raw WPM ignores errors, while net WPM subtracts them.
+1 minute is the most popular length and is enough for a quick check. Longer tests (3, 5 or 10 minutes) give a more stable result because they average out short bursts of speed and fatigue.
+Yes, completely free with no sign up, no account and no ads inside the typing area. Your past results are stored only in your own browser (localStorage), never on a server.
+Practice daily for 10–15 minutes, prioritise accuracy over speed, keep your wrists relaxed and your fingers anchored on the home row (ASDF JKL;). Learn to use all ten fingers rather than hunting and pecking with two.
+
+## 2 Minute Typing Test
+Source: https://typing.rerivo.com/2-minute-typing-test.html
+
+Test your typing speed over 2 minutes — long enough for a stable WPM score, short enough to stay sharp. A great middle ground between the quick 1 minute test and the full 5 minute test.
+
+2 minute typing test
+The 2 minute typing test is a popular middle-ground length. Two minutes is long enough that your score reflects real typing speed rather than one lucky sentence, yet short enough to keep full concentration. Type the passage as fast and accurately as you can — WPM, accuracy and errors are counted automatically.
+1 minute vs 2 minute vs 5 minute
+A 1 minute test is a quick check, a 2 minute test is a reliable everyday measure, and a 5 minute test is best for serious benchmarking. If you are practising daily, the 2 minute test is a comfortable default that balances speed feedback and stability.
+Why a 2-minute typing test
+Two minutes is the sweet spot between a quick sprint and a full endurance run. It's long enough to settle into a steady rhythm and smooth out a shaky start, yet short enough to retake several times in a sitting. Many employer screening tests use a two-minute format, which makes it ideal practice for job applications.
+Typing test FAQ
+Exactly 120 seconds. When the timer runs out your WPM, accuracy, characters per minute and error count appear instantly.
+Around 40 WPM is average, 60+ is good and 80+ is professional. Accuracy above 95% is just as important as raw speed.
+Yes, completely free with no sign up and no ads inside the typing area. Results are saved only in your browser.
+Yes, there is no limit. Click “Test again” for a fresh passage and your history keeps the last results.
+
+## 5 Minute Typing Test
+Source: https://typing.rerivo.com/5-minute-typing-test.html
+
+Measure your sustained typing speed over a full 5 minutes. A longer test averages out lucky bursts and fatigue, giving a more reliable words per minute (WPM) score than a quick 1 minute test.
+
+5 minute typing test
+The 5 minute typing test is the best way to measure your real, sustained typing speed. Over five minutes your score settles down: a single fast or slow sentence no longer dominates the result, and natural fatigue is factored in. This is why many employers and typing certifications prefer a 3-5 minute test over a 60 second one.
+Who should use a 5 minute test?
+If you type for a living — data entry, transcription, programming, customer support — the 5 minute test reflects your working speed far better than a short burst. Take it a few times a week and watch your WPM and accuracy trend in the saved history below.
+Build typing endurance
+A five-minute test measures something a quick sprint can't: how well you hold speed and accuracy as your hands tire. Pace yourself, keep your posture relaxed and your wrists level, and breathe. Finishing strong on the five-minute test is a reliable sign your typing is ready for long real-world sessions of writing, coding or data entry.
+Typing test FAQ
+Yes. Longer tests average out short bursts of speed and moments of fatigue, so a 5 minute result is more stable and representative of your true typing speed than a 15 or 60 second test.
+40 WPM is average, 60+ WPM is good, and 80+ WPM is professional level. Maintaining high accuracy over 5 minutes matters more than peak speed.
+Yes, completely free with no sign up and no ads inside the typing area. Your results are stored only in your own browser.
+Your last results are saved locally in this browser (localStorage) so you can track improvement over time. Nothing is sent to a server.
+
+## Capital Letter Typing Test
+Source: https://typing.rerivo.com/capital-letter-typing-test.html
+
+Practise uppercase letters and the Shift key with a focused capital letter typing test. Build muscle memory for capitals and symbols while tracking your WPM and accuracy.
+
+Capital letter typing test
+Capitals slow most people down because they need the Shift key and a return to the home row. This capital letter typing test gives you sentences full of proper nouns and uppercase words so you can drill the motion until it feels natural. Your WPM and accuracy are shown instantly after every run.
+How to type capitals faster
+Use the opposite hand: press the Shift key with the hand that is not typing the letter. Keep your fingers on the home row and avoid using Caps Lock for single capitals. A few minutes of daily practice with this typing test makes the Shift reach automatic.
+Mastering the Shift key
+Capital letters are where many typists lose speed. Reaching for Shift with the opposite hand — left Shift for right-hand letters and right Shift for left-hand letters — keeps your typing balanced and quick. This test mixes capitals through natural sentences so the Shift reach becomes second nature instead of a stumble.
+Capitalization in real writing
+Every sentence starts with a capital, and names, places and titles add many more. Practising proper capitalization trains the timing of pressing Shift and a letter together smoothly, so your names and sentence starts flow without the tiny pauses that quietly drag down your words-per-minute.
+Frequently asked questions
+It is a typing test that focuses on uppercase letters and the Shift key, so you can practise capitals, proper nouns and symbols rather than only lowercase words.
+Capitals need a Shift key press with the opposite hand plus a quick return to the home row, which breaks your rhythm until the motion becomes muscle memory.
+Yes, completely free with no sign up. Your results are stored only in your own browser.
+
+## Easy Typing Test
+Source: https://typing.rerivo.com/easy-typing-test.html
+
+A simple, easy typing test for beginners. Start with short rounds and common words, see your WPM and accuracy instantly, and build confidence at your own pace.
+
+Easy typing test for beginners
+If you are just starting out, long passages and hard words can be discouraging. This easy typing test keeps things simple with short 15 or 30 second rounds and common everyday words, so you can get a quick WPM score and feel progress fast.
+Build speed step by step
+Begin with the shortest rounds and the words mode, focus on accuracy, and only then stretch to a 1 minute typing test. A few relaxed minutes each day beat one long frustrating session, and your saved history shows every improvement.
+A gentle starting point for beginners
+If longer tests feel intimidating, start here. Short durations and simple, everyday sentences let you build rhythm without pressure. There's no account, no difficulty spike and no penalty for a slow start — just type at a pace that feels comfortable and watch your numbers climb a little each time.
+Building typing confidence
+Confidence comes from repetition. Begin with the 15- or 30-second timer, keep your eyes on the screen, and let the on-screen keyboard guide your next key. As clean runs become routine, stretch to the one-minute test. Small wins stack up fast, and before long the keys you once hunted for will feel automatic.
+Frequently asked questions
+It offers short rounds and a simple common-words mode, so beginners get a quick, encouraging WPM result without long or difficult passages.
+Start with a 15 or 30 second round in the words mode, aim for accuracy first, and build up to longer tests as you improve.
+Yes, completely free with no sign up. Your results stay in your own browser.
+
+## English Typing Test
+Source: https://typing.rerivo.com/english-typing-test.html
+
+Test your English typing speed with real sentences. Measure your words per minute (WPM) and accuracy instantly. Free, no sign up.
+
+English typing test
+An English typing test measures how fast and accurately you type English text. Your result is shown in WPM (words per minute), where every 5 characters counts as one word. Typing full English sentences — with punctuation and capitals — is the most realistic way to measure everyday typing speed.
+How to improve English typing
+Practise with real sentences rather than isolated words, keep your fingers on the home row (ASDF JKL;), and look at the screen instead of the keyboard. Accuracy first, then speed: 10-15 focused minutes a day beats long occasional sessions.
+Practising English typing
+This English typing test uses natural, everyday sentences rather than random letters, so you practise the real word patterns and spacing you meet in emails, essays and chat. Typing whole phrases trains the common letter pairs — "th", "ing", "and", "tion" — that make fluent English typing feel effortless.
+Why common words speed you up
+A small set of words makes up most of what we write in English. Drilling high-frequency words like the, and, that, with and your builds instant muscle memory for the keystrokes you repeat thousands of times a day. Master those and your overall WPM rises across every kind of text you type.
+Typing test FAQ
+Yes, completely free with no sign up. Your results are saved only in your own browser.
+40 WPM is average, 60-70 WPM is good, and 80+ WPM is professional level for most office and writing work.
+Every 5 typed characters count as one word, divided by the minutes elapsed, then adjusted for errors.
+
+## Spanish Typing Test
+Source: https://typing.rerivo.com/spanish-typing-test.html
+
+Test your Spanish typing speed with real Spanish sentences. Measure your words per minute and accuracy instantly. Free, no sign up.
+
+Spanish typing test
+A Spanish typing test measures how fast and accurately you type Spanish text. Your result is shown in words per minute, where every 5 characters counts as one word. Typing full Spanish sentences — with accents, the letter ñ and inverted punctuation — is the most realistic way to measure everyday Spanish typing speed.
+How to improve Spanish typing
+Practise with real sentences rather than isolated words, keep your fingers on the home row, and look at the screen instead of the keyboard. Spanish adds accented vowels (á, é, í, ó, ú) and ñ, so slow down at first to learn those key positions; accuracy first, then speed.
+Practising Spanish typing
+This Spanish typing test uses natural, everyday sentences rather than random letters, so you practise the real word patterns of Spanish — common endings like -ción, -mente and -ando — together with the accented characters and ¿ ¡ punctuation you meet in real Spanish writing.
+Why accented characters matter
+Accents in Spanish change a word's meaning (for example sí meaning yes versus si meaning if), so typing them correctly is part of typing Spanish well. Drilling sentences that include á, é, í, ó, ú and ñ builds muscle memory for the extra keystrokes, and your overall Spanish typing speed rises across every kind of text you write.
+Spanish typing test FAQ
+Yes, completely free with no sign up. Your results are saved only in your own browser.
+Yes. The practice sentences are real Spanish, so they include accented vowels (á, é, í, ó, ú), the letter ñ, and inverted ¿ ¡ punctuation.
+Every 5 typed characters count as one word, divided by the minutes elapsed, then adjusted for errors.
+
+## Free Typing Test
+Source: https://typing.rerivo.com/free-typing-test.html
+
+A truly free typing test — no sign up, no account, no ads in the typing area. Check your WPM and accuracy instantly and practise as much as you like.
+
+Free typing test, no sign up
+Many typing sites hide results behind an account or bury the test under ads. This free typing test does neither: you land on the page, start typing, and get your WPM and accuracy the moment the timer ends. Nothing is locked and nothing is uploaded to a server.
+Practise as much as you want
+Because the test is free forever, you can run it every day to build speed and accuracy. Pick any length from 15 seconds to 10 minutes and switch between sentences, quotes, numbers and words to train your weak spots.
+Completely free, no sign-up required
+There's no account, no email, no paywall and no trial that quietly expires. Open the page and start typing — every duration, text mode, language and theme is available immediately and forever. Your results stay on your own device, so practising costs you nothing and shares nothing.
+Everything you get for free
+Free here means the full tool: timed tests from 15 seconds to 10 minutes, real sentences, quotes, numbers and word drills, live WPM and accuracy, an on-screen keyboard, a results graph and locally saved history. It's the complete typing test experience without a single hidden cost.
+Frequently asked questions
+Yes. There is no sign up, no account, no paywall and no ads inside the typing area. You can use it as often as you like.
+No account is needed. Your past results are saved only in your own browser using localStorage.
+You get words per minute (WPM), accuracy, characters per minute and error counts after every attempt.
+
+## Free Typing Speed Test
+Source: https://typing.rerivo.com/
+
+Measure your words per minute (WPM) and accuracy. Choose 15s to 10 minutes, type the text, get instant results. No sign up, free forever.
+
+Typing Speed Test
+This is a free online typing speed test. It measures how many words per minute (WPM) you can type and how accurate you are. The test works on any device with a keyboard — desktop, laptop, tablet or phone. There is nothing to install and no account needed.
+How to improve your typing speed
+Take a short test every day. Start with a 1 minute typing test, then try 2 or 5 minutes as you get faster. Focus on accuracy first — speed follows accuracy. Keep your fingers on the home row and look at the screen, not the keyboard. Switch to quotes or numbers mode to practice punctuation and digits, which are the most common slowdowns.
+What is a good typing speed?
+An average typing speed is about 40 WPM. Typing at 60 WPM is faster than most people and good for most office work. Above 80 WPM is fast, and professional typists and developers often reach 90–120 WPM. Children usually start around 20–30 WPM and improve quickly with a few minutes of daily practice.
+These are rough bands &mdash; see the full average typing speed benchmarks by age and profession.
+Why use an online typing speed test?
+An online typing speed test gives you an instant, objective picture of how well you type. Instead of guessing, you get a clear WPM score and an accuracy percentage after every attempt. Because this typing speed test runs entirely in your browser, there is nothing to download and no login to create — you just start typing and the timer does the rest.
+Choose your typing test duration and text
+Everyone types differently, so this typing speed test lets you pick the length and style that suit you. Short 15 or 30 second rounds are great for a quick warm up, while a 1 minute typing test is the classic benchmark. Longer 3, 5 and 10 minute tests reveal your stamina and give a steadier WPM result. You can also switch between sentences, famous quotes, numbers and common words, so you train exactly the keys you struggle with most.
+Track your typing progress over time
+Improvement is easier to see when you measure it. After each typing speed test your result is saved in your own browser, building a private history of WPM, accuracy and error counts. Watching those numbers climb week by week is motivating and tells you whether to push for raw speed or to slow down and tighten up accuracy. Your typing history stays private in your browser.
+Tips to type faster and more accurately
+Fast typing is built on good habits. Keep your fingers on the home row, use all ten fingers, and glance at the screen rather than the keyboard. Take a typing test every day for ten to fifteen minutes and always value accuracy over raw speed, because fixing mistakes costs more time than typing a little slower. Numbers and punctuation are the most common slowdowns, so practise them in the dedicated modes until they feel automatic.
+Who should take a typing speed test?
+Students, office workers, programmers, writers, gamers and data entry professionals all benefit from faster, more accurate typing. A quick typing speed test helps job seekers prove their WPM on a résumé and gives anyone who spends the day at a keyboard a simple goal to beat. Whatever your starting point, a few minutes of regular practice with this free typing test will steadily raise your words per minute.
+Typing test FAQ
+A typing test measures how fast and accurately you type. You type a passage of text while the test counts your words per minute (WPM), accuracy and errors.
+WPM = (correct characters ÷ 5) ÷ minutes elapsed. The industry standard treats every 5 characters as one word, so longer words count more. Raw WPM ignores errors, while net WPM subtracts them.
+1 minute is the most popular length and is enough for a quick check. Longer tests (3, 5 or 10 minutes) give a more stable result because they average out short bursts of speed and fatigue.
+Yes, completely free with no sign up, no account and no ads inside the typing area. Your past results are stored only in your own browser (localStorage), never on a server.
+Practice daily for 10–15 minutes, prioritise accuracy over speed, keep your wrists relaxed and your fingers anchored on the home row (ASDF JKL;). Learn to use all ten fingers rather than hunting and pecking with two.
+
+## Keyboard Typing Test
+Source: https://typing.rerivo.com/keyboard-typing-test.html
+
+Test your keyboard speed and accuracy. Works on any keyboard — laptop, mechanical or full-size. Instant WPM results, free, no sign up.
+
+Keyboard typing test
+A keyboard typing test checks how fast you type on your keyboard and how accurate you are. It works the same on laptop, mechanical and full-size keyboards. Measuring regularly shows whether a new keyboard or layout actually improves your speed.
+Test any keyboard, not just the one you own
+A keyboard test answers one question honestly: how fast are your hands on this keyboard? Laptop keyboards, mechanical switches and full-size boards all have different travel and feedback, and your WPM shifts with them. Test the keyboard you use for work, then test the one you game on; the difference tells you which one your hands actually like.
+Keyboard typing tips
+Keep your wrists relaxed and fingers anchored on the home row. Use all ten fingers rather than hunting and pecking. A comfortable keyboard with good key travel helps, but consistent practice matters far more than the hardware.
+Works with any keyboard layout
+This keyboard typing test runs on QWERTY, AZERTY, Dvorak and Colemak alike — it simply measures the characters you type against the target text. Membrane, mechanical or laptop scissor-switch, the physical board doesn't change the score. What matters is muscle memory: knowing where each key sits without looking so your hands stay anchored on the home row.
+Build true touch typing
+Touch typing means typing without watching your fingers. Use the small bumps on the F and J keys to find the home row by feel, then return to it after every reach. The on-screen keyboard below highlights the next key so you can gradually stop looking down at your real keyboard and trust your hands instead.
+Typing test FAQ
+Technique matters more than hardware, but a comfortable keyboard with good key travel can help you type faster and more accurately.
+Yes, free with no sign up. Results stay in your own browser only.
+Yes — this test works on any keyboard, so it's great for comparing a new mechanical board against your old one.
+
+## Number Typing Test
+Source: https://typing.rerivo.com/number-typing-test.html
+
+Practise typing numbers fast and accurately. Numeric typing is a separate skill from text — essential for data entry, accounting and finance. This number typing test measures your digit speed and accuracy.
+
+Number typing test
+The number typing test focuses on digits instead of words. Typing numbers quickly is a distinct skill: the top row and numeric keypad use different finger movements than regular text, and most people are far slower at numbers than letters. Regular practice closes that gap — vital for data entry, accounting, finance and spreadsheet work.
+How to type numbers faster
+Use the numeric keypad on a full keyboard and anchor your fingers on the 4-5-6 home row. On a laptop, practise the top number row until you can hit digits without looking. Prioritise accuracy first — a mistyped number is often worse than a mistyped word — then build speed with daily reps.
+Number row versus numeric keypad
+There are two ways to type numbers: the top number row and the dedicated numeric keypad on full-size keyboards. This test drills the number row, which every keyboard has — including laptops. Mastering it means you can enter dates, prices and codes mid-sentence without moving your hands away from the home row.
+Where fast number typing pays off
+Accountants, data-entry clerks, developers and anyone working with spreadsheets type digits constantly. Clean, quick number entry cuts costly transposition errors — typing 1,243 instead of 1,423 — and speeds up any task built on figures. Regular practice turns the number row from a slow reach into automatic muscle memory.
+Typing test FAQ
+It measures how fast and accurately you type digits (0-9) rather than words. Your speed is still reported in WPM, where every 5 characters counts as one word.
+Numbers are typed less often than letters, and the top row or numeric keypad use different finger patterns. Most people type numbers 30-50% slower than text until they practise.
+Yes, completely free, no sign up and no ads inside the typing area. Your results are saved only in your own browser.
+You can use either the number row or the numeric keypad — whichever you want to practise. The test just checks the digits you type against the target.
+
+## Online Typing Test
+Source: https://typing.rerivo.com/online-typing-test.html
+
+A free online typing test that runs right in your browser. Check your WPM and accuracy instantly — nothing to install, no sign up.
+
+Online typing test
+An online typing test runs entirely in your browser — there's nothing to download or install. Pick a duration and text type, start typing, and get your WPM and accuracy instantly. It works on any device with a keyboard.
+Benefits of an online test
+Because it's browser-based, you can test your typing speed anywhere — at work, school or home — without software. Your results are saved locally so you can track progress over time, completely private.
+How to improve your online typing speed
+The fastest way to raise your WPM online is short, regular sessions. Five focused minutes a day beats one long weekly grind. Keep your fingers on the home row (ASDF JKL;), glance at the screen instead of the keys, and let your weakest fingers — the pinkies and ring fingers — do their share of the work. Speed follows accuracy, so slow down whenever your error count climbs.
+Who uses an online typing test
+Students check their words-per-minute before online exams, remote workers warm up before a day of emails, call-centre and data-entry applicants rehearse for employer screening tests, and programmers measure how quickly they move through code. Because the test is browser-based and private, anyone can benchmark their speed in under a minute and come back to track steady improvement.
+Typing test FAQ
+No. This online typing test runs fully in your browser on any device with a keyboard.
+Yes, completely free with no sign up. Results are saved only in your own browser.
+It works best with a physical keyboard, but you can try it on a tablet with an attached keyboard too.
+
+## Punctuation Typing Test
+Source: https://typing.rerivo.com/punctuation-typing-test.html
+
+Drill commas, periods, quotes and symbols with a punctuation typing test. Punctuation is where accuracy drops most, so train it directly and watch your WPM improve.
+
+Punctuation typing test
+Punctuation marks sit on the hardest-to-reach keys and often need the Shift key, so they are the biggest source of typing errors. This punctuation typing test feeds you real sentences full of commas, full stops, apostrophes, quotes and brackets so you can practise them in context.
+Tips for accurate punctuation
+Slow down slightly before a punctuation mark, keep your fingers anchored on the home row, and learn the exact reach for each symbol. Accuracy matters more than speed here, because a misplaced comma or bracket is costly to fix.
+Why punctuation is harder to type
+Letters live on the home and middle rows, but commas, apostrophes, quotation marks and brackets force your fingers to the edges of the keyboard — often with the Shift key held down. That reach breaks your rhythm, which is exactly why dedicated punctuation practice pays off for anyone who writes emails, essays or code all day.
+Punctuation worth drilling
+Focus on the marks you actually use: periods, commas, apostrophes in contractions, question marks, colons and parentheses. Practising sentences full of real punctuation trains the Shift-plus-symbol combinations until they feel automatic, so your writing flows without constant pauses to hunt for the right key.
+Frequently asked questions
+It is a typing test that emphasises punctuation marks and symbols, letting you practise commas, periods, quotes, brackets and more in real sentences.
+Punctuation keys are on the edges of the keyboard and many need the Shift key, so they break your home-row rhythm until you practise them.
+Yes, it is completely free with no sign up and no account. Results stay in your own browser.
+
+## Typing Accuracy Test
+Source: https://typing.rerivo.com/typing-accuracy-test.html
+
+Measure your typing accuracy, not just speed. See your error count and precision alongside WPM. Free, no sign up.
+
+Typing accuracy test
+A typing accuracy test shows what percentage of characters you type correctly, alongside your WPM and error count. Accuracy is often more valuable than raw speed — a fast typist who makes many mistakes is slower overall once corrections are counted.
+How to improve accuracy
+Slow down slightly and aim for zero errors first; speed follows naturally once your fingers learn the correct movements. Focus on the keys you miss most, and keep your eyes on the screen so you can catch mistakes as they happen.
+Why accuracy beats raw speed
+A blazing WPM means little if half your words need fixing. Every mistake costs a backspace and a retype, so real-world typing speed depends far more on accuracy than on peak pace. This test shows accuracy next to WPM and counts your errors, so you can see exactly where clean typing is quietly slowing you down.
+How to type more accurately
+Start slower than feels natural and let correct keystrokes build muscle memory — rushing only teaches your fingers the wrong moves. Watch for your personal problem keys (often the top row and punctuation), keep a light, even rhythm, and resist the urge to glance at the keyboard. Aim to hold accuracy above 97% before you push for speed.
+Typing test FAQ
+Aim for 95% or higher. Professional typists usually stay above 97% accuracy while maintaining good speed.
+Every error needs correcting, which costs time. High accuracy means your effective speed is close to your raw speed.
+Yes, free with no sign up. Results are stored only in your browser.
+
+## Typing Practice
+Source: https://typing.rerivo.com/typing-practice.html
+
+Free typing practice online. Switch between sentences, quotes, numbers and words, pick a longer test, and train every day. Your past results are saved in this browser so you can watch your speed grow.
+
+typing practice
+Regular typing practice is the only reliable way to get faster. Ten to fifteen minutes a day beats one long session once a week, because your muscles learn the key positions through repetition. Use this page every day: pick a mode, type the text, then compare your result with yesterday. Try to keep accuracy above 95 percent at all times.
+Typing exercises for every skill
+Change the text mode to target your weak spots. Sentences build everyday typing fluency. Quotes add capital letters and punctuation. Numbers train the top row, which is the slowest part of the keyboard for most people. Words mode drills common English vocabulary so high-frequency words become automatic.
+A simple practice plan
+Week one: two minute sentence tests, focus on accuracy. Week two: add quotes and numbers, keep the same two minutes. Week three: try five minute tests to build endurance. Week four: switch back to one minute and compare your WPM with week one. Most people gain 10 to 20 WPM in a month with this routine.
+Typing test FAQ
+A typing test measures how fast and accurately you type. You type a passage of text while the test counts your words per minute (WPM), accuracy and errors.
+WPM = (correct characters ÷ 5) ÷ minutes elapsed. The industry standard treats every 5 characters as one word, so longer words count more. Raw WPM ignores errors, while net WPM subtracts them.
+1 minute is the most popular length and is enough for a quick check. Longer tests (3, 5 or 10 minutes) give a more stable result because they average out short bursts of speed and fatigue.
+Yes, completely free with no sign up, no account and no ads inside the typing area. Your past results are stored only in your own browser (localStorage), never on a server.
+Practice daily for 10–15 minutes, prioritise accuracy over speed, keep your wrists relaxed and your fingers anchored on the home row (ASDF JKL;). Learn to use all ten fingers rather than hunting and pecking with two.
+
+## Typing Games
+Source: https://typing.rerivo.com/typing-games.html
+
+Play free typing games right in your browser. Pick a timed challenge, type each line as fast and as accurately as you can, then try to beat your own best WPM. No sign up, no ads, and every score is saved on this device.
+
+typing games
+Typing games turn a boring drill into something you actually want to do. The trick to faster typing is volume: thousands of keystrokes, spread over many short sessions. A game gives each session a score, a clock and a target, so ten minutes disappears before you notice. Play one or two rounds whenever you have a spare moment and your speed climbs on its own.
+Fun typing games to play right now
+Every game on this site runs the same simple loop: read the text, type it, get your WPM and accuracy instantly. Short rounds (15 to 30 seconds) are pure speed fun. Longer rounds (2 to 10 minutes) are endurance games that punish mistakes. Switch the text set to numbers or punctuation for a fresh challenge, or open the game mode for a timed race against the clock. Pick whichever feels most fun today.
+Turn practice into a game you keep coming back to
+Keep one simple rule: beat yesterday. Your last scores stay in this browser, so each game has a number to chase. If you miss a lot, slow down and aim for 98 percent accuracy first; speed returns on its own once your fingers stop making errors. Two or three games a day for a month is enough to see a real, lasting jump in your typing speed.
+Typing games FAQ
+Typing games are typing practice with a score and a timer. You type the text on screen and the game instantly shows your words per minute (WPM) and accuracy, so each round feels like a small challenge to beat.
+Yes. Every game is completely free, with no sign up, no account and no ads inside the typing area. Nothing is installed, and your scores are stored only in your own browser.
+Start with a 1 minute sentence game. It is long enough to be a real test and short enough to fit any break. Once that feels easy, try 15 or 30 second rounds for pure speed, or a 5 minute round for endurance.
+Yes, if you play often. Speed comes from repetition, and games make repetition fun. Players who play a few short rounds a day typically gain 10 to 20 WPM in a month, as long as they keep accuracy high.
+Yes. Your recent results are saved in your own browser (localStorage), so you can open the same game tomorrow and try to beat your best score. Nothing is sent to a server.
+
+## Typing Lessons
+Source: https://typing.rerivo.com/typing-lessons.html
+
+Free typing lessons for every level. Learn touch typing one step at a time: home row first, then every finger, then real speed. Each lesson is a timed practice you can repeat until it feels effortless. No sign up, learn at your own pace.
+
+typing lessons
+Good typing lessons build speed the safe way: one habit at a time. Touch typing means typing without looking at the keyboard, and it is the single biggest speed upgrade most people can make. Instead of hunting for keys with two fingers, you train all ten fingers so each key has a fixed finger and muscle memory takes over. The result is faster, steadier typing that also frees your eyes for the screen.
+Start every lesson with the home row
+Every typing lesson plan starts in the same place: the home row. Rest your left fingers on A S D F and your right fingers on J K L ; with your thumbs on the space bar. Feel for the small bumps on F and J; they tell your index fingers where to land without looking. Practice typing words made only of home row letters until you never have to think about it, because every other key is reached from this position.
+A free four week typing lesson plan
+Week one: home row only, short one minute lessons, accuracy over speed. Week two: add the top row and the shift keys for capitals, two minute lessons. Week three: cover the bottom row and the number row, then try the number text set. Week four: mix sentences, quotes and punctuation, and test your WPM against week one. Ten to fifteen minutes a day is enough; most learners reach 40 to 60 WPM within a month of daily lessons.
+Typing lessons FAQ
+Most people reach a comfortable 40 to 60 WPM with 10 to 15 minutes of daily practice for three to four weeks. Reaching 80 WPM or more takes a few more months of regular use, but the daily time stays the same.
+Yes. Every lesson is free, with no sign up, no account and no paywall. You can repeat each lesson as many times as you like, and your results are saved only in your own browser.
+Daily is best, but short. Ten to fifteen minutes every day beats a single long session once a week, because muscle memory is built by frequency rather than by total minutes.
+No. Any standard keyboard works, and these free lessons cover the same finger placement as paid typing courses. Start with the home row (A S D F J K L ;) and add one row at a time.
+Hunt-and-peck means looking at the keys and pressing them with one or two fingers, which is slow and tiring. Touch typing uses all ten fingers from the home row without looking, so typing becomes faster, more accurate and far less effort.
+
+## Learn to Type Faster
+Source: https://typing.rerivo.com/learn-to-type-faster.html
+
+Want to learn to type faster? Speed is a trainable skill, not a gift. Use this free timed test as your daily speed drill: type the passage, beat your last WPM, and watch your average climb week by week. No sign up, no ads, and every result is saved in your browser.
+
+learn to type faster
+Most people who want to learn to type faster are already typing every day, so the problem is not volume but method. Two things hold typists back: looking at the keyboard, and fixing mistakes. When you stop looking down, your speed jumps almost immediately, because your eyes stop lagging behind your fingers. When you chase accuracy instead of raw speed, you stop losing time to backspacing, and speed rises on its own.
+What slows most people down
+Three areas cause almost all slow typing: numbers, punctuation, and the shift keys. Most learners are fluent with common words but freeze the moment a digit or a comma appears. Turn your weakness into a drill: spend a few minutes a day on the number and punctuation text sets until they feel as easy as sentences. Also check that you press shift with the opposite hand, never by stretching the same finger across the keyboard.
+A four week plan to type faster
+Week one: one minute tests only, target 98 percent accuracy, ignore speed entirely. Week two: add two minute tests and switch to quotes to train capitals and punctuation. Week three: use the number set daily, and start tracking your average WPM across the week. Week four: push for speed on one minute tests and compare with week one. Most typists add 10 to 25 WPM in a month with ten to fifteen minutes of this training a day.
+Learn to type faster FAQ
+With ten to fifteen minutes of daily practice, most people reach 40 to 60 WPM in three to four weeks and 70 to 90 WPM in two to three months. Progress is fastest at the start and then levels off, which is normal.
+A plateau usually means you are practicing what you are already good at. Change the drill: switch text sets, lengthen the test, or focus on accuracy for a week. Speed plateaus break when you rebuild accuracy at the new, higher speed.
+Ten to fifteen minutes every day beats a single long weekly session. Short, daily sessions build muscle memory, while your attention stays sharp enough to keep accuracy high.
+Accuracy first, always. Every error costs a backspace and retype, so fast-but-sloppy typing is actually slower. Aim for 98 percent accuracy; when that feels easy, speed follows without extra effort.
+Learn touch typing from the home row (A S D F J K L ;) so you never look at the keyboard, then practice daily with a timed test. Combining proper finger placement with a short daily drill is the quickest path to real speed.
+
+## Typing Tips
+Source: https://typing.rerivo.com/typing-tips.html
+
+Small typing tips compound into big speed. Below are the habits that actually move the needle: how to sit, where to put your fingers, and how to train accuracy so speed follows. Read one tip, then test it on the timed practice right here. Free, no sign up.
+
+typing tips
+The best typing tips are the boring ones, because typing is pure muscle memory. Anything you repeat daily becomes automatic, and anything you shortcut becomes a habit you later have to unlearn. Pick two or three tips below and apply them for a week rather than reading all of them once. Small adjustments to hand position and attention add up faster than any speed-typing trick.
+Posture and hand position tips
+Sit with your feet flat, your forearms roughly level, and the top of your screen at eye height so your neck stays relaxed. Curve your fingers slightly and rest them on the home row: left hand on A S D F, right hand on J K L ;, thumbs on the space bar. Feel the small bumps on F and J; they let your index fingers find home without looking. Keep your wrists floating rather than pressed hard onto the desk.
+Accuracy tips that also build speed
+Look at the text, never your hands. Press every key with the finger that owns it on the home row rather than the nearest finger, even when it feels slower at first. Type to the end of a word before you fix an error, instead of stopping mid-word. And slow down to the speed at which you make almost no mistakes; that is the speed your fingers actually learn, and it rises on its own.
+Typing tips FAQ
+Keep your fingers on the home row and look only at the screen. Once your hands learn where the keys are, speed becomes a matter of practice instead of searching.
+Cover your hands with a cloth or dim the room light for a few minutes a day, and use the on-screen keyboard to check positions. The bumps on F and J give your index fingers a landmark, so trust them and keep your eyes on the text.
+Each key has a home-row finger that owns it. Index fingers cover the middle columns and stretch outward, middle and ring fingers take their own columns, and the pinkies handle the outer edges plus the shift and enter keys. Practice slowly at first so each key keeps its fixed finger.
+Slow down until you make almost no errors, finish each word before correcting, and practice the number and punctuation sets, which cause most mistakes. Accuracy is a habit, not a limit, and it is what ultimately raises your speed.
+Feet flat, back supported, shoulders relaxed, forearms roughly parallel to the floor, and the screen top at eye height. Your wrists should float over the keyboard rather than resting heavily on the desk, which keeps your fingers quick and pain-free.
+
+## Typing Test Game
+Source: https://typing.rerivo.com/typing-test-game.html
+
+Turn typing practice into a game. Race the clock, beat your best WPM and track your scores. Free, fun, no sign up.
+
+Typing test game
+A typing test game makes practice fun by turning speed into a challenge: beat the clock, beat your previous best, and watch your WPM climb. The game format keeps you motivated to practise far longer than a plain drill would.
+Why games help typing
+Gamified practice adds goals and instant feedback, which keeps you engaged. Choose the word mode for a fast arcade feel, and use your saved history to compete against your own best scores every day.
+Why turning practice into a game works
+Progress you can see is progress you repeat. Treating each round like a mini-game — beat your last WPM, keep accuracy above 97%, clear the text without a single backspace — turns dull drilling into a quick challenge you actually want to retry. The live speed graph and saved history make every attempt a high score to chase.
+Fun challenges to try
+Set yourself playful rules: a "no mistakes" run where one typo means restart, a sprint on the 15-second timer, or a marathon on the 5-minute setting. Switch the text to quotes or numbers to keep things fresh. Small, varied goals keep practice fun and your fingers learning without it ever feeling like homework.
+Typing test FAQ
+Yes, completely free with no sign up and no ads inside the typing area.
+Prioritise accuracy — errors cost more than slow typing. Warm up, then push speed on a short 15 or 30 second game.
+Yes, your recent results are saved in your own browser so you can try to beat them.
+
+## Words Per Minute Test
+Source: https://typing.rerivo.com/words-per-minute-test.html
+
+Measure your words per minute (WPM) with a free online speed test. Type for one minute or choose 15 seconds up to 10 minutes and get your WPM and accuracy instantly.
+
+words per minute test
+A words per minute test (WPM test) measures how many words you can type in one minute. The rule is simple: every five characters counts as one word, so longer words add more to your score. Take the test, type the text shown on screen, and your WPM, accuracy and error count are calculated live as you type.
+What is a good WPM score?
+An average computer user types about 40 WPM. Around 60 WPM is solid for most office and writing work. Above 80 WPM is fast, and professional typists, developers and data entry staff often type 90 to 120 WPM. If you are just starting, do not chase speed — aim for above 95 percent accuracy first and your speed will rise on its own.
+See the full average typing speed benchmarks by skill level, age and profession.
+WPM vs CPM
+CPM means characters per minute. Some sites show CPM instead of WPM. Because one word equals five characters, you can convert easily: WPM = CPM / 5. This test shows you both numbers on the result panel so you can compare with any other typing test.
+Prefer characters per minute? Try the CPM typing test, where CPM = WPM &times; 5.
+Typing test FAQ
+A typing test measures how fast and accurately you type. You type a passage of text while the test counts your words per minute (WPM), accuracy and errors.
+WPM = (correct characters ÷ 5) ÷ minutes elapsed. The industry standard treats every 5 characters as one word, so longer words count more. Raw WPM ignores errors, while net WPM subtracts them.
+1 minute is the most popular length and is enough for a quick check. Longer tests (3, 5 or 10 minutes) give a more stable result because they average out short bursts of speed and fatigue.
+Yes, completely free with no sign up, no account and no ads inside the typing area. Your past results are stored only in your own browser (localStorage), never on a server.
+Practice daily for 10–15 minutes, prioritise accuracy over speed, keep your wrists relaxed and your fingers anchored on the home row (ASDF JKL;). Learn to use all ten fingers rather than hunting and pecking with two.
+
+## WPM Test Online
+Source: https://typing.rerivo.com/wpm-test-online.html
+
+Check your words per minute online in seconds. This WPM test runs in your browser with instant results — no download, no sign up, no account.
+
+WPM test online
+A WPM test online is the quickest way to see how fast you type without installing anything. This test runs entirely in your browser: pick a length, type the text, and your words per minute and accuracy appear the instant the timer stops.
+Check your WPM in 60 seconds
+To check your WPM you only need one minute. Pick a duration, type the text that appears, and the score panel gives you three numbers: words per minute, accuracy, and errors. Check it Monday, check it again Friday; the gap between the two is your weekly progress. Your best results are stored in this browser, so every visit starts with your last score to beat.
+How WPM is measured
+WPM is calculated as correct characters divided by five, divided by the minutes elapsed, so every five characters count as one word. Run the test a few times online to get a reliable average rather than relying on a single attempt.
+What counts as a good WPM score
+The average adult types around 40 WPM. Reaching 50–60 WPM is comfortably above average, 70–80 WPM is strong professional speed, and anything past 100 WPM puts you among the fastest typists. For most jobs, a steady 60 WPM with high accuracy is more than enough — consistency matters more than a one-off record.
+How WPM is calculated
+Words per minute uses a standard "word" of five characters, so your WPM is the number of characters you typed correctly divided by five, scaled to a full minute. This test also shows raw WPM (before mistakes) and net WPM (after errors), so you can see how much your accuracy is helping or hurting your real speed.
+Frequently asked questions
+It is a browser-based test that measures your words per minute and accuracy instantly, with no software download and no account required.
+Around 40 WPM is average, 60-80 WPM is fast, and over 90 WPM is professional level. Accuracy above 95% matters just as much as raw speed.
+Yes, the WPM test works in any modern browser, though a physical keyboard gives the most accurate result.
+
+## 30 Second Typing Test
+Source: https://typing.rerivo.com/30-second-typing-test.html
+
+Test your typing speed in just 30 seconds. A fast, no-frills WPM check when you want a quick snapshot of your typing speed without committing to a full minute.
+
+30 second typing test
+The 30 second typing test is the quickest way to get a WPM estimate. Thirty seconds is enough to type roughly 20-45 words, which gives a usable sample when you are short on time. For a steadier score that averages out fast bursts, try the 1 minute typing test or the 5 minute typing test.
+How accurate is a 30 second test?
+A 30 second test is a good snapshot but not the most stable measure - one fast or slow sentence sways the result more than in a longer test. Use it for quick daily checks, and pair it with longer rounds from typing practice to track real progress.
+Tips for a faster 30 second sprint
+Warm up first, keep your eyes on the text rather than your hands, and prioritise accuracy over raw speed since errors cost time to fix. To build real speed, our typing exercises progressively train common words and patterns.
+30 second typing test FAQ
+It gives a reasonable snapshot of your speed, but a short test is more easily affected by a single fast or slow sentence. For a more stable WPM, use a 1, 2 or 5 minute test.
+Most people type 20-45 words in 30 seconds depending on their speed, which is enough for a quick WPM estimate.
+Yes, completely free with no sign up and no ads inside the typing area. Your results stay in your own browser.
+Yes, retake it as many times as you like. Each round saves locally so you can compare your results over time.
+
+## 3 Minute Typing Test
+Source: https://typing.rerivo.com/3-minute-typing-test.html
+
+Measure your typing speed over a balanced 3 minute test. Long enough to smooth out quick bursts, short enough to fit any practice routine - a favourite length for pre-employment typing checks.
+
+3 minute typing test
+The 3 minute typing test hits a sweet spot: it averages out short bursts of speed without the fatigue of a long round, which is why many pre-employment typing screenings use a 3-5 minute window. Compare it with the 1 minute typing test and the 5 minute typing test to see how length changes your score.
+Why test for 3 minutes?
+Three minutes filters out the noise of a single lucky sentence while staying short enough to take every day. It reveals whether you can hold speed and accuracy together, the real signal employers care about. Build that endurance with guided typing practice.
+What is a good 3 minute WPM?
+Around 40 WPM is average for adults, 60+ is good, and 80+ is professional. Over 3 minutes accuracy matters as much as speed, so aim to finish with 95% or higher accuracy.
+3 minute typing test FAQ
+Three minutes is long enough to reflect sustained real-world typing speed yet short enough for screening, so many hiring tests use a 3-5 minute window.
+Most data entry and transcription roles ask for 40-60 WPM with 90% or higher accuracy; specialised roles may want 70+ WPM.
+Yes - free, no sign up, no ads in the typing area, and results are stored only in your browser.
+Yes. Alongside WPM you get accuracy, error count and character-level stats for every round.
+
+## 10 Minute Typing Test
+Source: https://typing.rerivo.com/10-minute-typing-test.html
+
+Test true typing endurance with a full 10 minute typing test. Ten minutes measures how well you hold speed and accuracy over long sessions - the closest test to a real workday of writing or data entry.
+
+10 minute typing test
+The 10 minute typing test is the ultimate endurance check. Ten minutes exposes fatigue that short rounds hide: most typists slow 5-15% between minute one and minute ten, so your score here reflects what you can truly sustain. Warm up first with a 1 minute typing test or a 5 minute typing test.
+Who needs a 10 minute test?
+Anyone whose work is long-form typing - transcriptionists, writers, coders, data entry clerks. If you will type for hours, a 10 minute result predicts your real-day speed better than any sprint. Build up to it with structured typing practice sessions.
+How to pace a 10 minute test
+Start about 10% slower than your 1 minute speed and settle into a rhythm you can hold. Sit up, keep wrists neutral, and take micro-pauses at sentence breaks. Finishing strong matters more than an early burst that fades.
+10 minute typing test FAQ
+Most people type 5-15% slower by the end of a 10 minute test as fatigue sets in. Pacing yourself and staying relaxed helps limit the drop.
+It measures something different: endurance and consistency rather than peak speed. A 1 minute test shows your top speed; a 10 minute test shows what you can sustain.
+Yes, completely free with no sign up and no ads in the typing area, and your results stay private in your browser.
+Real English sentences by default. You can switch to quotes, numbers or words from the panel above the typing area.
+
+## Chinese Typing Test
+Source: https://typing.rerivo.com/chinese-typing-test.html
+
+Test your Chinese typing speed with real Chinese sentences. Measure your words per minute and accuracy instantly. Free, no sign up.
+
+Chinese typing test
+A Chinese typing test measures how fast and accurately you type Chinese text. Your result is shown in words per minute, where every 5 characters counts as one word, so every extra correct character raises your score. Typing complete Chinese sentences is the most realistic way to measure everyday Chinese typing speed.
+How to improve Chinese typing
+Practise with real sentences rather than isolated characters, keep your fingers relaxed over the home row, and watch the screen instead of the keyboard. Because each Chinese character carries far more meaning than a single Latin letter, accuracy matters more than raw key speed; slow down first and let speed follow.
+Typing Chinese characters
+Chinese is written without spaces between characters, so your fingers learn long sequences of keystrokes rather than short word patterns. Re-typing the same sentence a few times builds muscle memory for the most common characters — 的, 一, 是, 不, 了 — which make up a large share of everyday Chinese text.
+Practising Chinese typing
+This Chinese typing test uses natural, everyday sentences, so you practise the real rhythm of Chinese writing: clauses separated by 、 and 。, numbers in full form, and the punctuation patterns you meet in articles, chat and email. Switch between sentences, quotes and words modes above to vary your drills.
+Chinese typing test FAQ
+Yes, completely free with no sign up. Your results are saved only in your own browser.
+Simplified Chinese, as used in mainland China, Singapore and most online writing. The sentences are natural, everyday Chinese.
+Every 5 typed characters count as one word, divided by the minutes elapsed, then adjusted for errors — the same rule used for every language on this site.
+Yes. Switch the text mode above the typing area to quotes or words to change what you type.
+
+## Hindi Typing Test
+Source: https://typing.rerivo.com/hindi-typing-test.html
+
+Test your Hindi typing speed with real Hindi sentences in Devanagari script. Measure your words per minute and accuracy instantly. Free, no sign up.
+
+Hindi typing test
+A Hindi typing test measures how fast and accurately you type Devanagari script. Your result is shown in words per minute, where every 5 characters counts as one word. Typing full Hindi sentences — with matras, conjunct consonants and the क्ष, त्र, ज्ञ clusters — is the most realistic way to measure everyday Hindi typing speed.
+How to improve Hindi typing
+Practise with real sentences rather than isolated letters, keep your fingers on the home row, and look at the screen instead of the keyboard. Hindi adds matras above and below the consonants, so slow down at first to learn those key positions; accuracy first, then speed.
+Devanagari and typing speed
+Devanagari is a syllabic script: most consonants carry an inherent अ vowel, and matras change that vowel. Typing real sentences trains the frequent conjuncts — क्ष, त्र, व्र, ज्ञ — and the matras ा ि ी ो ै that appear in almost every Hindi word.
+Practising Hindi typing
+This Hindi typing test uses natural, everyday sentences, so you practise the real word patterns of Hindi — common endings like -ना, -कर and -है — together with the । full stop and the punctuation you meet in real Hindi writing. Timed Devanagari practice is also the format of most Indian typing exams.
+Hindi typing test FAQ
+Yes, completely free with no sign up. Your results are saved only in your own browser.
+Yes. The practice sentences are real Hindi in Devanagari script, including matras, conjunct consonants and the । sentence-ending mark.
+Yes. Timed sentence practice in Devanagari is the format of most Indian government and court typing tests, so it builds the same speed and accuracy against a clock.
+Every 5 typed characters count as one word, divided by the minutes elapsed, then adjusted for errors.
+
+## Arabic Typing Test
+Source: https://typing.rerivo.com/arabic-typing-test.html
+
+Test your Arabic typing speed with real Arabic sentences. Measure your words per minute and accuracy instantly. Free, no sign up.
+
+Arabic typing test
+An Arabic typing test measures how fast and accurately you type Arabic script. Your result is shown in words per minute, where every 5 characters counts as one word. Typing full Arabic sentences — with connected letters, the ة ta marbuta and the أ hamza — is the most realistic way to measure everyday Arabic typing speed.
+How to improve Arabic typing
+Practise with real sentences rather than isolated letters, keep your fingers on the home row, and watch the screen instead of the keyboard. Arabic is typed right to left, so let your hands move with the text from right to left; slow down at first and let speed follow.
+Right-to-left typing
+Arabic script runs right to left, and most letters connect to what follows them, changing shape by position. Typing real sentences trains the frequent letters — ا ل م و ي — and the word-final letter forms that appear in almost every Arabic sentence.
+Practising Arabic typing
+This Arabic typing test uses natural, everyday sentences, so you practise the real word patterns of Arabic — the ال prefix and endings like ـها and ـكم — together with the ، and . punctuation you meet in real Arabic writing.
+Arabic typing test FAQ
+Yes, completely free with no sign up. Your results are saved only in your own browser.
+Yes. The whole page switches to right-to-left direction for Arabic, so letters join and flow exactly as they do in Arabic text.
+Yes. The practice sentences are real Arabic, so they include the أ إ آ ؤ ئ hamza forms, the ة ta marbuta, and ؛ ، punctuation.
+Every 5 typed characters count as one word, divided by the minutes elapsed, then adjusted for errors.
+
+## Touch Typing Test
+Source: https://typing.rerivo.com/touch-typing-test.html
+
+Free touch typing test and practice. Train yourself to type without looking at the keyboard: home row drills, real sentences, and a 60 second test that scores your speed and accuracy. The practice text is drawn from touch typing lessons, so what you read is what you learn. No sign up, works in your browser.
+
+touch typing test
+A touch typing test measures how fast and how accurately you type without looking at the keys. Touch typing means all ten fingers work from the home row, and your eyes stay on the screen the whole time. This free test runs for 60 seconds, scores your words per minute (WPM) and accuracy live, and highlights every error so you can see exactly which keys still trip you up. Because the practice sentences are taken from real touch typing lessons, taking the test is itself a lesson.
+Why take a touch typing test every day
+Muscle memory is built by frequency, not by marathon sessions. A daily 60 second touch typing test is enough to keep the home row fresh and to expose the two or three keys that always slow you down. Track your WPM across a week and you will see the pattern: accuracy climbs first, and speed follows a few days behind. When your accuracy passes 98 percent, you know the keyboard has finally moved into your fingers.
+How to use this touch typing practice
+Start by resting your index fingers on the small bumps on F and J, with the other fingers curling onto the home row beside them. Type the sentence on screen without glancing down; if you must look, look only after the line is finished. Keep your wrists floating and your shoulders down. After the test, read the error report: those keys, not your fastest ones, are your next practice targets.
+Touch typing test FAQ
+A touch typing test measures your typing speed and accuracy while you type without looking at the keyboard. This one runs for 60 seconds and reports live WPM, accuracy, and a per-key error summary.
+Yes, it is completely free. There is no sign up, no account, and no paywall, and your results are stored only in your own browser.
+A comfortable touch typing speed is 40 to 60 WPM, and 70 to 90 WPM is considered fast. Above 100 WPM is competitive territory. Accuracy matters first: most people reach their best speed only after their accuracy passes 97 to 98 percent.
+With 10 to 15 minutes of daily practice, most people learn the home row in a week and reach a comfortable 40 to 60 WPM in three to four weeks. The practice sentences on this page come from the same lessons, so the test itself doubles as training.
+No. Cover the keyboard with a piece of paper if you have to, and let the bumps on F and J guide your index fingers. Every glance down is a habit that costs speed later, so train the eyes to stay on the screen.
+The home row is the middle letter row: A S D F G H J K L ; with the thumbs on the space bar. Every finger owns a small group of keys around the home row, and every finger returns home after each keystroke.
+
+## Typing Race
+Source: https://typing.rerivo.com/typing-race.html
+
+Free typing race against the clock. Sixty seconds, short punchy sentences, and a live WPM counter that climbs with every clean word. Race your own best time, hold a steady sprint, and finish with zero corrections. No sign up, straight in your browser.
+
+typing race
+A typing race turns practice into a sprint: a fixed 60 second timer, a live WPM counter, and sentences short enough that you never lose momentum. This free typing race is the fastest way to find your top speed, because the clock removes every excuse to slow down. Every clean word pushes the counter higher, and the error report at the finish line shows exactly where the race was won or lost.
+A competitive typing game for speed
+This is a competitive typing game in its purest form: one minute, one text, and a score that stays on this device until you beat it. There is no lobby and no opponent to wait for, so the race starts the moment your first keystroke does. Compete against yourself daily, or share your WPM and race a friend on the same keyboard; every session is a new heat.
+How to race your fastest typing sprint
+Treat the first sentence like a warm up, not a launch: start at 80 percent of your top speed and build into the race. Keep your eyes on the text two or three words ahead of your fingers, so your hands never stall mid-sentence. Keep your wrists light and your rhythm even, because most typing races are lost in the last ten seconds when fatigue makes fingers sloppy.
+Race yourself and track your best WPM
+Your best time is saved in your own browser, so every race is really against yourself. Try a best-of-three: race once to warm up, once at full speed, and once while aiming for zero corrections. The third race usually produces your best WPM, because chasing accuracy is what unlocks the top speed. Come back daily and the leaderboard of your own history does the rest.
+Typing race FAQ
+A typing race is a timed typing sprint where you type as fast and as accurately as you can against a countdown. This one gives you 60 seconds and scores your live WPM and accuracy.
+Yes, completely free with no sign up and no account. Just open the page and start racing.
+Start slightly slower than your top speed and build into the sprint, read a few words ahead of your fingers, and keep your rhythm steady. Most races are decided in the final ten seconds, so finishing cleanly beats starting fast.
+Around 50 to 70 WPM is a solid race speed, 80 to 100 WPM is fast, and anything above 100 WPM is competitive. Remember that accuracy multiplies speed: a race with no corrections almost always beats a faster race full of fixes.
+This is a race against the clock and your own saved best score, which keeps it fair and pressure-free. Compare your best WPM with friends by sharing the page; whoever holds the highest clean score wins.
+Sixty seconds by default, the classic race length that balances burst speed with endurance. Short races train your launch, and the full minute trains you to hold that speed when your hands get tired.
+
+## Typing Tutorial
+Source: https://typing.rerivo.com/typing-tutorial.html
+
+Free typing tutorial for beginners. Step by step touch typing lessons in your browser: home row first, then every finger, then real speed. Each tutorial sentence is also your practice text, so reading the lesson is doing the lesson. No sign up, no cost.
+
+typing tutorial
+A good typing tutorial explains why each finger owns certain keys, not just which key to press. This free online typing tutor works the same way: every practice sentence is a lesson in itself, so while you type you absorb the home row, the finger map, and the posture rules at the same time. Sixty seconds of guided practice, live WPM and accuracy feedback, and no sign up, no download, and no cost.
+What this typing tutor teaches first
+The tutorial starts where every typing tutor must: the home row. Your left fingers rest on A S D F and your right fingers on J K L ;, with thumbs on the space bar and index fingers on the small bumps of F and J. From there the lessons add the upper and lower rows one at a time, then the shift key, then punctuation. Each step is short on purpose, because a tutorial only works when you can finish it without rushing.
+Practice schedule for a typing tutorial
+Ten to fifteen minutes a day, every day, beats a single long session once a week. Repeat each lesson until it feels boring, then once more: that is the moment muscle memory forms. Close the loop by ending every session on your weakest keys, the ones where your accuracy dips, and those keys will be your strongest within a week.
+Typing tutorial FAQ
+Yes. Every lesson is free, with no sign up, no account, and no paywall. You can repeat the tutorial as often as you like, and your results stay in your own browser.
+If you hunt and peck with two fingers, a typing tutor is the single biggest speed upgrade available. If you already touch type, this tutorial still helps by drilling the keys and rows that drag your accuracy down.
+Each practice round is 60 seconds, and a full beginner pass through the lessons takes about two weeks of 10 to 15 minutes a day. You can move faster or slower; the tutorial is self-paced.
+The home row, always. Rest your fingers on A S D F J K L ;, find the bumps on F and J with your index fingers, and practice words built only from those keys until you never look down. Everything else is added on top of that foundation.
+Yes. Any standard keyboard works, laptop or desktop. The finger map is identical on QWERTY layouts, and a tutorial that teaches posture and relaxation transfers to any keyboard you own.
+
+## Typing Tutor
+Source: https://typing.rerivo.com/typing-tutor.html
+
+Free typing tutor with live feedback. Pick a drill, type for sixty seconds, and the tutor scores your WPM, your accuracy, and names the exact keys that slowed you down. Every drill is also your practice text, so the lesson is the workout. No sign up, no cost.
+
+typing tutor
+A typing tutor is a practice partner that never gets tired and never charges. This free online typing tutor runs a sixty second drill, then hands you three numbers: words per minute, accuracy, and an error report that names every key you missed. The practice sentences are written as tutor drills, so while you type you are being coached in the language of drills, scores, and feedback. No download, no account, and no paywall between you and another rep.
+How this typing tutor teaches
+Every drill works the same way: the tutor loads a line of practice text, the timer starts on your first keystroke, and the score updates live. When the minute ends, the tutor prints your error report, and that report is the whole lesson. It tells you which keys are slow, which are wrong, and which hand is doing extra work. Your weakest key becomes the next drill, and the tutor keeps your best score in the browser so each session has something to beat.
+A week with the typing tutor
+Day one is diagnosis: run three drills and read the error reports without trying to fix anything. Day two through four, drill the two weakest keys until they are boring. Day five, run the full minute at half speed and let accuracy climb. By the end of the week the tutor's own leaderboard, your saved best scores, will show you what the drills did. Ten minutes a day is the entire prescription.
+Typing tutor FAQ
+Yes, completely free. There is no sign up, no account, and no paid tier, and your scores are stored only in your own browser.
+A test only gives you a score. A tutor gives you a score plus the error report that tells you what to practice next. Every drill here ends with a per-key breakdown, so the drill points at your next drill.
+Sixty seconds by default. Short enough to fit between tasks, long enough to expose which keys fail when your hands get tired.
+Ten minutes a day, every day. Your tutor keeps your best score locally, so daily practice gives it a curve to beat. Missing a day costs nothing; missing a week costs the habit.
+Yes, though it takes patience. Start with home row drills, cover the keyboard if you have to, and let the error report tell you when old habits creep back. Most people break the habit in two to three weeks of daily drills.
+No. The tutor stores your best scores in your own browser, so nothing to sign up for and nothing to lose if you switch devices later.
+
+## Learn to Type
+Source: https://typing.rerivo.com/learn-to-type.html
+
+Learn to type for free, from the very first key. This beginner typing course starts at the home row and adds one row at a time, and every practice line is written as a first lesson, so the text you type teaches you how to type. Sixty seconds a day, instant feedback, no sign up.
+
+learn to type
+To learn to type you only need two things: the home row, and the patience to be slow for a week. This free course teaches touch typing from absolute zero, and every practice sentence is a lesson about learning itself, so your practice text coaches you while you type it. Sixty seconds a day in your browser, with live WPM and accuracy feedback, no account and no cost.
+Your first lesson in learning to type
+Rest your left fingers on A S D F and your right fingers on J K L ;, thumbs on the space bar. Feel the small bumps on F and J; they are the only map a beginner needs. Type words made from the home row only, slowly, and let each finger return home after every key. If you must look, look after the word, never in the middle of it. That is the entire first lesson, and everything after it is just practice.
+How long does it take to learn to type?
+Most people own the home row in a week and reach a comfortable 40 to 60 words per minute in three to four weeks of daily practice. The mistake beginners make is chasing speed early; accuracy is the foundation and speed is the building that arrives later. End every session on your slowest, most careful line, and your hands will learn faster than you expect.
+Learn to type FAQ
+Yes. This course is completely free, with no sign up, no account, and no paywall. Every lesson is a timed practice you can repeat as often as you like, and your results stay in your own browser.
+That is exactly who this page is for. It starts at the home row, assumes nothing, and adds one row at a time. Being slow in the first week is not a setback; it is the lesson.
+The home row: A S D F J K L ; with your thumbs on the space bar. Find the bumps on F and J with your index fingers, and practice words made only from those keys until you never look down.
+Usually one to two weeks for the home row, and three to four weeks before the whole keyboard feels automatic. Covering the keyboard with a cloth speeds this up, because it removes the option of cheating.
+Accuracy, always. Speed is a byproduct of accurate repetition. A fast wrong keystroke teaches your hand the wrong address for a key, which you then have to unlearn.
+Ten to fifteen minutes every day. Short daily practice builds muscle memory far better than one long weekly session, because the hands learn by frequency, not by total minutes.
+
+## Typing Trainer
+Source: https://typing.rerivo.com/typing-trainer.html
+
+Free typing trainer with drills and practice plans. Sixty second training sets, live WPM and accuracy, and your best scores saved locally so every session has a target to beat. The practice text is written as training instruction, so each drill coaches you while you type it. No sign up.
+
+typing trainer
+A typing trainer gives you the two things practice alone never will: a plan and a record. This free trainer runs sixty second drills, scores your live WPM and accuracy, and keeps your best result in the browser so each session has a number to beat. The practice lines are written as training instruction, so while you type, the drill teaches you about training plans, muscle memory, and logging progress. No sign up and no cost.
+The trainer's four week plan
+Week one is diagnosis: run three drills a day and read the error report without trying to fix anything. Week two, drill your two weakest keys twice as often as the rest. Week three, run the full minute at a speed where you make no errors, and live there. Week four, chase your personal best once a day and log it. Five words per minute each week is the only target, because tendons keep their own pace.
+Why training beats practice
+Practice is typing a lot; training is typing the right thing a lot. The difference is the log. When you record your WPM and accuracy side by side each day, a speed that costs accuracy shows up immediately as a bad trade, and the drill that fixed your weak keys shows up as a permanent step up. Your hands will plateau; the trainer's answer is variety and rest, not more effort.
+Typing trainer FAQ
+Yes, completely free, with no sign up and no account. Your best scores are stored only in your own browser.
+A test measures you once. A trainer gives you drills sized for daily use, keeps your best score so you always have a target, and points your next session at your weakest keys.
+Sixty seconds per set, with short rest between sets. Keep total training under thirty minutes a day; a tired hand practices its own mistakes.
+Most people add five to ten words per minute per month with daily drills. The reliable ceiling for daily practice is around 80 to 100 WPM, and accuracy above 95 percent is what makes that speed stick.
+No. Stop, rest, and check your posture and wrist position. Rest days are part of the training program, because muscle memory is written during recovery, not during strain.
+Log your WPM and accuracy side by side each day. Speed that drops accuracy is not progress. The clearest sign is your error report shrinking week over week, because fewer errors always precede faster speed.
+
+## Custom Typing Test
+Source: https://typing.rerivo.com/custom-typing-test.html
+
+A fully customizable typing test: pick your duration from 15 seconds to 10 minutes, switch between sentences, quotes, numbers and words, set the language, theme and line width, then type and get instant WPM. Everything is configurable, nothing to sign up for.
+
+custom typing test
+A custom typing test is one that fits your practice instead of the other way around. This test is configurable end to end: six durations from 15 seconds to 10 minutes, four text types, five languages, light and dark themes, and a line width that adapts to your screen. Configure it once, and every result after that is comparable, because you changed nothing but your typing.
+What you can customize
+Duration: 15, 30, 60, 120, 300 or 600 seconds. Text type: sentences for everyday fluency, quotes for capitals and punctuation, numbers for the top row, and words for high-frequency vocabulary. Language: English, Spanish, Chinese, Hindi and Arabic. Theme and width: light or dark, and a text column that fits your screen so your eyes never leave the line you are typing.
+Build your own typing test routine
+Start with one minute of sentences to get a baseline. Add quotes for two weeks until capitals cost you nothing, then numbers until the top row is no longer slow. Switch to five minutes when you want endurance, and back to one minute when you want to see your top speed. A custom test is the only one that can follow that plan for a month without ever asking you to sign up.
+Custom typing test FAQ
+Yes, completely free with no sign up. Duration, text type, language, theme and line width are all configurable in your browser.
+15, 30, 60, 120, 300 and 600 seconds. Short durations suit quick checks; long ones give a more stable average WPM because they smooth out bursts of speed and fatigue.
+Yes. The test runs in English, Spanish, Chinese, Hindi and Arabic. Arabic and Hindi also render right-to-left correctly.
+Sentences for everyday fluency, quotes to train capitals and punctuation, numbers for the slow top row, and words to drill common vocabulary. If unsure, start with sentences.
+Your past results are stored only in this browser (localStorage). The configuration itself resets on reload, so bookmark a page set to the duration you practice most.
+Yes. It is free, needs no account, and works offline once the page is loaded, which makes it easy to run for a group without collecting anyone's data.
+
+## Typing Tests in Other Languages
+Source: https://typing.rerivo.com/typing-tests-in-other-languages.html
+
+Free typing tests in other languages. The same timed typing test with instant WPM and accuracy, now in English, Spanish, Chinese, Hindi and Arabic. Pick your language below and start; nothing to sign up for.
+
+typing tests in other languages
+Our typing tests in other languages give you the same timed test, the same live WPM and accuracy feedback, and the same instant results, in five languages: English Typing Test, Spanish Typing Test, Chinese Typing Test, Hindi Typing Test, Arabic Typing Test. If you write in more than one language, your typing speed is not one number; it is five, and the only way to know each one is to test it in that language.
+Why test typing in your own language
+Most typing tests assume English, but a keyboard is not the same in every language. Chinese and Hindi use input methods that add a composition step between keystroke and character. Arabic reverses direction and changes letter shapes mid-word. Spanish adds accented vowels. Testing in the language you actually write in is the only way to measure the speed that matters to you.
+How to compare across languages
+Run the same one minute test in each language on the same day, and write the five numbers down. Most people are fastest in their dominant language and ten to twenty percent slower in the others, and the gap shrinks fast with a few minutes of daily practice in the weaker languages. Re-run the same set next month and the comparison is honest, because the test itself never changed.
+Multilingual typing test FAQ
+English, Spanish, Chinese, Hindi and Arabic. Each has its own timed page with practice text written natively in that language.
+WPM is still correct characters divided by five, divided by minutes. For Chinese and Hindi the count reflects composed characters through an input method, which is the speed that matters when you actually write.
+Yes. Arabic renders right-to-left with correct letter shaping, and each page declares its own language and hreflang alternates so search engines route the right version.
+Yes, completely free with no sign up, no account and no ads. Results are stored only in your own browser.
+One minute to compare languages quickly, three minutes when you want a stable average. Shorter tests expose mistakes; longer ones smooth out bursts of speed.
+Use the custom typing test, which lets you change language along with duration, text type, theme and line width in one place.
+
+## Typing Certificate
+Source: https://typing.rerivo.com/typing-certificate.html
+
+Earn a free typing certificate in one minute. Take the test below, then click Print certificate in the results panel to print or save a certificate with your WPM, accuracy, raw speed, error count and consistency. No account, no paywall, and the certificate is generated entirely in your browser.
+
+typing certificate
+A typing certificate should not cost money or an email address. Here the whole chain is free and instant: take the one minute test, open the results panel, and press Print certificate. Your scores are computed in your own browser and the certificate is generated in the same browser, so nothing is uploaded and nobody has to verify your email. Print it for a class, save it as a PDF for a portfolio, or share it straight from the page.
+What is on the certificate
+Six measured fields: WPM (net words per minute, the standard 5-character-per-word measure), accuracy as a percentage, chars per minute, raw WPM before errors are subtracted, errors, and consistency, which is how stable your speed was through the test. The certificate also carries the test date and the test length, so anyone reading it knows exactly what was measured.
+How to use a typing certificate
+Teachers can run a whole class through a one minute test and have every student print a certificate in the same lesson, with no accounts to create and no data leaving the room. Job applicants can attach one to a portfolio to back up a stated typing speed. Track yourself by printing one at the start of a practice month and another at the end; the two certificates on the same wall are the most honest progress report you can make.
+Typing certificate FAQ
+Yes, completely free with no sign up, no account and no paywall. The test and the certificate are both generated in your browser.
+Finish the test, then click the Print certificate button in the results panel. Your browser's print dialog opens with the certificate ready; choose a printer or Save as PDF.
+There is no pass or fail; the certificate records whatever you scored. For office work, 40 to 60 WPM is typical; 70 WPM or above is fast. Accuracy matters more than raw speed, so aim for 95 percent or higher.
+It is self-generated and not notarised, so treat it as evidence of a self-measured result rather than an official credential. Many employers accept it as a supporting document alongside a proctored test.
+Yes. Take any duration from 15 seconds to 10 minutes and the certificate records the test length along with your scores, so longer tests print an equally valid certificate.
+Nowhere outside your browser. Scores are computed locally and your past results are stored only in localStorage on this device. Nothing is uploaded to any server.
+
+## Dvorak Typing Test
+Source: https://typing.rerivo.com/dvorak-typing.html
+
+Practice and measure your typing in Dvorak. The on screen keyboard below is already set to the Dvorak layout, with finger guidance mapped to Dvorak hand positions, so what you see matches what your system layout produces. Use the QWERTY / Dvorak switch in the keyboard toolbar any time. Switch your operating system to Dvorak, take the test, and get WPM, accuracy and consistency.
+
+dvorak typing
+Most typing tests show a QWERTY keyboard, which is useless when you practice Dvorak typing: the label you need to find is not on the key you press. This test flips the on screen keyboard to the Dvorak layout, keeping the physical key positions of QWERTY and relabelling every key, so the hand you need to move matches the finger guide on screen exactly as a Dvorak user sees their own keyboard.
+Nothing is installed and nothing changes your system: the test only draws the Dvorak keyboard on this page. Switch your operating system input to Dvorak, start typing, and the test scores you exactly as it would in QWERTY, because the measuring logic reads the characters your layout produces, not the keys.
+Why switch to Dvorak
+August Dvorak designed the layout in the 1930s so the most common letters sit on the home row, which means less finger travel between rows for almost every English word. Typists who switch usually report less strain in long sessions, and many reach a higher comfortable speed once the new muscle memory settles, which takes roughly two to four weeks of daily practice.
+The honest trade off: Dvorak helps most for people who type a lot of English prose. Shortcuts that assume QWERTY positions stay where they were physically, and shared or public keyboards are QWERTY by default, so most Dvorak users keep a fast way to switch back.
+How to practice Dvorak typing
+Set your operating system layout to Dvorak first, otherwise you would be typing QWERTY text while looking at a Dvorak keyboard. Start with short sessions of two to five minutes, and resist the urge to look at your hands: the finger guides on this page exist exactly to replace that habit.
+Expect your speed to drop well below your QWERTY speed for the first week; that drop is the switch cost, not a sign Dvorak is wrong for you. Track your WPM here each day and compare accuracy rather than raw speed, because accuracy recovers first and speed follows it.
+Dvorak typing FAQ
+No. The test only shows a Dvorak keyboard on this page; you switch your own operating system input to Dvorak in its keyboard or language settings. The test then scores what your layout produces.
+No. The Dvorak keyboard is drawn by the page itself, the test runs entirely in your browser, and your results are stored only in this browser.
+At first, yes, usually much lower. That is the cost of rebuilding muscle memory and it passes in a few weeks. Measure accuracy first; once accuracy is back to your normal level, speed follows.
+Yes. The keyboard toolbar has a QWERTY and Dvorak switch and your choice is remembered in this browser, so the same page works for either layout.
+The vowels A, O, E, U, I move to the middle row under the left hand, and common consonants like T, N, S and H move to the right hand. The full relabelling is drawn on the on screen keyboard above.
+Evidence is mixed: most studies show a modest speed gain at the high end and clearer reductions in finger movement and strain. The main benefit people report is comfort in long typing sessions rather than a guaranteed speed jump.
+
+## One Hand Typing
+Source: https://typing.rerivo.com/one-hand-typing.html
+
+Learn and measure one hand typing on a normal keyboard. Whether you type with one hand because of an injury, a permanent condition, or simply a hand that is busy holding a coffee, the technique below lets you reach useful speeds without special hardware or chording software. Take the test with one hand and see where you are today.
+
+one hand typing
+One hand typing on a standard QWERTY keyboard is a real, learnable skill. The idea is not to hunt and peck with one finger, but to assign each finger a fixed zone of the keyboard so your hand develops a repeatable map of where every letter lives. With practice, single hand typists reach 40 to 70 WPM, which is fast enough for almost all desk work.
+You do not need a one handed keyboard or chord input software. The regular keyboard you already own is enough, because the technique is about hand position and practice, not hardware.
+Hand position for one hand typing
+Put your four fingers on the home row of the side you use: left hand on A S D F, right hand on J K L semicolon. The thumb works the space bar. Each finger owns the keys in its column plus the row above and below, and the index finger stretches across the middle column to cover the keys on the far side.
+The stretch is the hard part at first, especially the keys farthest from your little finger. Slow drills at first are normal; speed comes from accuracy, because a hand that returns to home row after every key does not need to look down.
+How fast can one hand typing get
+Beginners hunting with one finger sit near 15 to 25 WPM. With proper finger zones and a few weeks of short daily sessions, 35 to 50 WPM is common. Experienced one hand typists who type all day reach 60 to 70 WPM and occasionally higher.
+Measure honestly with the test on this page: run a one minute test with one hand only, and record your accuracy beside your WPM. Accuracy below 90 percent usually means you are reaching for speed before the map is settled, so slow down until accuracy rises and let speed follow.
+One hand typing FAQ
+Yes. With fixed finger zones and practice, one hand typists commonly reach 40 to 60 WPM and experienced ones 70 WPM or more. The key is using all fingers of that hand, not one finger hunting.
+No. The technique works on any standard QWERTY keyboard. Specialised hardware can help for some people, but it is not required to reach useful speeds.
+Use the hand you have. The finger zone method works symmetrically for either side; the test here does not care which hand presses the keys.
+Basic fluency in two to four weeks with fifteen to twenty minutes a day. Getting back to your two hand speed takes longer, but useful working speed arrives faster than most people expect.
+The test is self paced and as short as 15 seconds, so you can use it within whatever your recovery allows. It is not medical advice; follow your clinician's guidance about how much to type while healing.
+Results are saved in this browser automatically, so run a one minute test every few days and watch the history table for your WPM and accuracy trend.
+
+## Privacy Policy
+Source: https://typing.rerivo.com/privacy-policy.html
+
+This page explains what Typing.Rerivo does and does not collect. The short version: nothing about you is collected at all.
+
+What we collect
+Nothing. There is no account system, no sign up, no email collection and no contact form on the typing test itself. We do not run analytics scripts, advertising pixels, fingerprinting or any third party tracking on this site.
+When you take a test, your text input, your typing speed and your accuracy are computed entirely inside your own browser by JavaScript running on this page. The results are never transmitted to any server.
+What is stored on your device
+Your typing history, your chosen settings and your high score are saved in your browser's localStorage, which lives on your device only. Clearing your browser data or using a private window removes all of it. Nothing of yours reaches a database, because there is no database.
+If you use the print certificate feature, the certificate is generated in your browser and sent straight to your printer or to your browser's save as PDF dialog; it is not uploaded anywhere.
+Hosting and indexing
+The site is hosted on GitHub Pages, so GitHub may record standard request logs (IP address, timestamp, requested URL) as part of serving the pages, as any web host does. Those logs are governed by GitHub's own privacy policy and are not shared with or used by us.
+We submit page URLs to IndexNow so search engines can discover the site faster. That submission contains only public URLs, no personal information.
+Privacy FAQ
+No. Settings are stored in browser localStorage, which is not a cookie and is not sent to any server with your requests.
+No analytics, no advertising scripts and no tracking pixels run on this site.
+Yes. There are no accounts, no data collection and no advertising, and the practice texts are ordinary sentences and quotations.
+Clear your browser's site data for typing.rerivo.com, or use a private or incognito window, and nothing is retained.
+By email at hello@rerivo.com for any privacy question or removal request.
+
+## About Typing.Rerivo
+Source: https://typing.rerivo.com/about.html
+
+Typing.Rerivo is a free typing speed test that runs entirely in your browser. No account, no paywall, no upload: pick a duration from 15 seconds to 10 minutes, type, and get your WPM, accuracy and consistency instantly.
+
+Why this site exists
+Most typing tests on the web are heavy pages that ask you to sign up, show ads between every test, or hide your results behind an email wall. This one is built the opposite way: one fast page, one test, one result, and everything stored in your own browser so your history stays yours.
+It started as a single page and grew by listening to what people actually searched for: timed variants from 15 seconds to 10 minutes, practice for punctuation and capital letters, number and symbol drills, a certificate you can print, a Dvorak keyboard that matches your layout, and one hand typing practice for people who type with a single hand.
+How the measurement works
+WPM uses the industry standard of five characters per word, counted from correctly typed characters divided by elapsed minutes. Accuracy is the share of correct keystrokes, and raw WPM counts every keystroke including mistakes, so the gap between the two shows how much correcting you do. Consistency measures how stable your speed was across the whole test rather than just the peak.
+The text you type never leaves your browser, and there is no server-side scoring because there is no need for one: JavaScript on this page does all of it.
+Contact
+Questions, corrections to a practice text, or ideas for the next typing drill are welcome at hello@rerivo.com. If you would like the site in your language, that is the fastest way to make it happen.
+About FAQ
+Yes, completely free with no account, no paywall and no advertising on the test pages.
+A small independent project. The source code is public on GitHub at github.com/hello532/typing-speed-test.
+Thirty nine timed and themed variants across five languages, plus timed modes from 15 seconds to 10 minutes on every page.
+Yes, email hello@rerivo.com. Several existing pages started as a single request.
+
+## Average Typing Speed
+Source: https://typing.rerivo.com/average-typing-speed.html
+
+The average typing speed is about 40 to 50 words per minute (WPM) with roughly 92% accuracy. 45–60 WPM is good, 60–80 WPM is above average, and only about 1% of people type faster than 100 WPM. Test your own speed below, then compare it with the benchmarks.
+
+What is the average typing speed?
+The average typing speed is about 40 to 50 words per minute (WPM) with roughly 92% accuracy &mdash; that is where most adults land without deliberate practice. A speed of 45–60 WPM is considered good, 60–80 WPM is above average, and only about 1% of people type faster than 100 WPM. The table below shows how typing speeds are usually classified.
+Average typing speed by age
+Typing speed is shaped more by how long someone has typed daily than by age itself, but it does follow a rough curve: it climbs through the teens, peaks in the late teens to twenties, then eases slightly later in life. These are approximate averages.
+Typing speed by profession
+Different jobs demand very different typing speeds. Roles where typing is the job &mdash; data entry, transcription, legal and executive support &mdash; expect well above average, while general office work is fine around 40–55 WPM. Accuracy usually matters as much as raw speed.
+Benchmarks compiled from occupational typing data published by Wonderlic and TypingTest.now (2025&ndash;2026). Actual requirements vary by employer, test length, text and keyboard.
+Want your own number? Take the typing speed test, measure it in characters per minute, or see the speeds employers require for jobs.
+How to type faster than average
+If you are below the speed you want, the fastest way up is touch typing: use all ten fingers from the home row (ASDF JKL;) without looking at the keyboard. Prioritise accuracy over speed, practise 10–15 minutes a day, and keep your wrists relaxed. Most people add 10–20 WPM within a few weeks of daily practice.
+Typing test FAQ
+The average typing speed is about 40–50 words per minute (WPM) with roughly 92% accuracy. Most adults who have not practised deliberately settle between 40 and 60 WPM.
+A good typing speed is 45–60 WPM. 60–80 WPM is above average and meets most office job requirements, while over 70 WPM is advanced. Only about 1% of people type faster than 100 WPM.
+40 WPM is right around the adult average and is fine for everyday computer use. If you are accurate at 40 WPM, 60 WPM is a realistic next target with regular touch-typing practice.
+On a normal QWERTY keyboard the fastest typists reach 150+ WPM. The highest reliably recorded speeds belong to Barbara Blackburn, who sustained 212 WPM on a Dvorak keyboard (a Guinness record), and Stella Pajunas, timed at 216 WPM back in 1946. Court reporters exceed 225 WPM, but on a specialised stenotype machine using shorthand chords, not a standard keyboard. For context the average is about 40 WPM, and professional typists aim for 97%+ accuracy.
+Typing speed is measured in words per minute (WPM), where one word equals five characters including spaces. Net WPM subtracts errors, so WPM = (correct characters ÷ 5) ÷ minutes.
+Touch type with all ten fingers from the home row (ASDF JKL;), prioritise accuracy over speed, and practise 10–15 minutes a day. Speed follows once your accuracy is consistently above 95%.
+
+## CPM Typing Test
+Source: https://typing.rerivo.com/cpm-typing-test.html
+
+This CPM typing test measures your speed in characters per minute. CPM counts every correct keystroke, so because one word is five characters, CPM = WPM &times; 5. Type the passage below to see your live CPM, WPM and accuracy.
+
+What is CPM (characters per minute)?
+CPM means characters per minute &mdash; the number of correct characters you type in one minute, counting letters, numbers, spaces and symbols. It is simply a finer-grained version of typing speed. Because a word is defined as five characters, CPM = WPM &times; 5. The table below converts between the two.
+CPM vs WPM: which should you use?
+WPM and CPM measure the same thing on different scales, so neither is more accurate. WPM is the standard for ordinary prose typing. CPM is more common for numeric and data-entry work done on the number keypad, where whole words do not apply.
+This test shows both your live CPM and WPM. For prose, see the words per minute test; for digits, try the number typing test.
+What is a good CPM typing speed?
+The average adult types about 200 CPM (40 WPM). A good CPM is 250–300 (50–60 WPM), and 400+ CPM (80 WPM) is fast. Numeric data-entry roles commonly require at least 165 CPM on the keypad with 95%+ accuracy. See the full average typing speed benchmarks for context.
+Typing test FAQ
+CPM stands for characters per minute &mdash; the number of correct characters you type in one minute, counting letters, numbers, spaces and symbols. It is a finer-grained measure of typing speed than WPM.
+Divide CPM by 5, because a word is defined as five characters. So 300 CPM equals 60 WPM and 200 CPM equals 40 WPM. To go the other way, WPM × 5 = CPM.
+The average adult types about 200 CPM (40 WPM). A good CPM is 250–300 (50–60 WPM), and 400+ CPM (80+ WPM) is fast. Numeric data-entry roles often require at least 165 CPM.
+Numeric data entry is done on the number keypad where whole words do not apply, so speed is measured in characters (or keystrokes) per minute. Employers commonly ask for at least 165 CPM with 95%+ accuracy.
+Neither is better &mdash; they measure the same thing on different scales (CPM = WPM × 5). WPM is the standard for prose typing; CPM is more common for numeric and data-entry work.
+
+## Typing Test for Kids
+Source: https://typing.rerivo.com/typing-test-for-kids.html
+
+A free, kid-friendly typing test that measures words per minute (WPM) with simple words, a big on-screen keyboard and a finger guide. No ads in the typing area and no sign-up &mdash; children just start typing. A typical speed for kids is 15–30 WPM, improving fast with short daily practice.
+
+A fun, simple typing test for kids
+This is a free typing test made for kids: simple words, a big on-screen keyboard that highlights the next key, and a hand guide that shows which finger to use. There is no sign-up and no ads inside the typing area, so children can just start typing. A typical speed for kids is 15–30 WPM and improves quickly with a little daily practice.
+What is a good typing speed for kids by age?
+Children type more slowly than adults, which is completely normal &mdash; the goal at this age is correct finger habits, not speed. These are rough averages; a child who touch types a little slower will overtake a faster hunt-and-peck typist within months.
+How kids can type faster (the fun way)
+Keep sessions short and playful: 10–15 minutes a day beats one long session. Start with the home row (ASDF and JKL;), use the on-screen hands below so your child never has to look down, and praise accuracy over speed. Turn it into a race against their own best score with the typing race or the typing games.
+Typing test FAQ
+Children under 13 typically type 15–30 WPM and teenagers 35–55 WPM. Speed matters far less than building correct touch-typing habits early, so focus on accuracy and finger placement first.
+Yes. It is completely free, needs no sign-up or account, shows no ads inside the typing area, and stores results only in the browser &mdash; nothing is sent to a server.
+Most children can start learning touch typing around ages 6–7, once their hands are big enough to reach the home row. Short, playful sessions work far better than long ones at this age.
+Short daily sessions of 10–15 minutes build muscle memory faster than occasional long ones. Keep it fun and stop before it feels like a chore.
+Have them rest their fingers on the home row (ASDF for the left hand, JKL; for the right), use the on-screen keyboard and hand guide below, and resist peeking. Not looking at the keys is the whole skill of touch typing.
+
+## Typing Test for Jobs
+Source: https://typing.rerivo.com/typing-test-for-jobs.html
+
+Practise a pre-employment typing test the way employers run it: a timed words-per-minute (WPM) and accuracy check. Most office jobs ask for 50–60 WPM, while data entry and transcription expect 60–80 WPM with 95%+ accuracy. Take the timed test below and compare your result with the requirements by role.
+
+What typing speed do employers require?
+Most office jobs expect 50–60 WPM. Roles where typing is central &mdash; data entry, transcription, legal and executive support &mdash; ask for 60–90 WPM, almost always with 95–98%+ accuracy. The table shows the typing speed commonly required by role.
+Benchmarks compiled from occupational typing data published by Wonderlic and TypingTest.now (2025&ndash;2026). Actual requirements vary by employer, test length, text and keyboard.
+How pre-employment typing tests work
+Employer typing tests are timed, usually 1 to 5 minutes, with 3 minutes a common length. They score net WPM &mdash; your speed after errors are subtracted &mdash; so accuracy counts as much as speed. Some tests disable the backspace key, which makes careful typing even more important.
+Practise at the right length with the 1 minute, 3 minute or 5 minute tests, and check your accuracy.
+How to pass a typing test for a job
+Prioritise accuracy over raw speed &mdash; most employers prefer 60 WPM at 99% accuracy over 75 WPM at 92%. Practise with real sentences, punctuation and numbers rather than simple word lists, take several tests to find a reliable average, and warm up for a minute first. See how you compare with the average typing speed.
+Typing test FAQ
+Most office jobs expect 50–60 WPM. Data entry, transcription and legal roles ask for 60–80 WPM, usually with 95–98% accuracy. Specialised roles can require 90+ WPM.
+Data entry roles commonly require 60–80 WPM with 98%+ accuracy. Numeric data entry is often measured in characters per minute instead, with at least 165 CPM as a baseline.
+Employer typing tests are usually 1 to 5 minutes long, with 3 minutes a common length. Longer tests give a more reliable score because they average out short bursts of speed and fatigue.
+Employers use net WPM, which subtracts your errors, not gross WPM. A posting that says 60 WPM required almost always means 60 net WPM with high accuracy.
+Practise a timed test at the length the employer uses, prioritise accuracy over raw speed, and get used to typing real sentences with punctuation and numbers rather than simple word lists.
+
+## Typing Practice for Programmers
+Source: https://typing.rerivo.com/typing-practice-for-programmers.html
+
+Programmers type a lot of symbols, brackets and camelCase &mdash; the exact characters most typing tests skip. Most developers type 50&ndash;70 WPM on prose, but what really matters is fluent symbols and a low error rate. Practise the way you code: paste your own code with custom text, or drill punctuation and numbers below.
+
+Why typing speed matters for programmers
+A good typing speed for a programmer is 50&ndash;70 WPM, but coding is not a typing race &mdash; you spend far more time thinking than typing. Speed matters where it removes friction: the faster your fingers find brackets, operators and names, the less a thought is interrupted on its way to the screen. Accuracy matters even more, because a mistyped symbol is a syntax error you have to hunt down.
+What slows programmers down
+Code is dense with characters that ordinary typing practice never covers &mdash; brackets, semicolons, operators, and numbers &mdash; plus naming styles like camelCase and snake_case that break your rhythm. The fix is to practise those specific characters, not more prose.
+How to practise typing as a developer
+Paste a real file you work in using custom text and type it for accuracy, not speed. Spend a few minutes on the punctuation and number drills so symbol reaches become automatic. Keep your fingers on the home row and let the weak pinkies own the bracket and semicolon keys. Ten focused minutes a day beats one long session.
+Typing test FAQ
+Around 50–70 WPM is typical and plenty for most development work. Coding is thinking-heavy, so fluent symbols and high accuracy matter more than raw prose speed.
+Up to a point. Once you can type without hunting for keys, extra prose speed helps little — but fast, accurate symbol and bracket entry does reduce friction and typos.
+Paste real code into the custom-text box and type it for accuracy, and drill punctuation and numbers separately so symbol reaches become automatic.
+Yes. Touch typing frees your attention for the logic instead of the keyboard, and makes symbol-heavy code far less error-prone.
+One that includes real symbols and numbers. Use the punctuation and number tests here, or paste your own code with custom text for the most realistic practice.
+
+## How to Type Without Looking at the Keyboard
+Source: https://typing.rerivo.com/how-to-type-without-looking.html
+
+To type without looking, rest your fingers on the home row &mdash; left hand on ASDF, right hand on JKL; &mdash; feel the small bumps on F and J, and let each finger own its own keys. The skill is called touch typing, and it comes from short daily practice, not talent. Here is exactly how to build it, then test yourself below.
+
+Start on the home row (ASDF JKL;)
+Put your left index finger on F and your right index finger on J &mdash; both have a raised bump so you can find them without looking. Your other fingers fall onto A S D and K L ; . This is &lsquo;home&rsquo;: every key is reached from here and your fingers return here between keystrokes. Each finger is responsible for the keys directly above and below its home key.
+Train muscle memory, not your eyes
+The whole skill is not looking down. Keep your eyes on the screen, use the on-screen keyboard and hand guide below to see the next key, and resist peeking even when it feels slow at first. Practise 10&ndash;15 minutes a day and prioritise accuracy over speed &mdash; speed is just accurate muscle memory repeated. The touch typing test and the on-screen keyboard test highlight the next key and the correct finger as you go.
+How long until you can touch type?
+Most people stop needing to look within a few weeks of daily practice, and return to their old speed within one to two months &mdash; faster after that, because touch typing has no ceiling the way hunt-and-peck does. Check your progress against the average typing speed as you go.
+Typing test FAQ
+Rest your fingers on the home row (ASDF for the left hand, JKL; for the right), find the bumps on F and J by feel, keep your eyes on the screen, and let each finger own its keys. Practise a little every day.
+Most people stop looking within a few weeks of 10–15 minutes daily practice, and match their old speed within one to two months.
+A, S, D, F for the left hand and J, K, L, ; for the right. F and J have raised bumps so you can locate the home row without looking.
+Looking down breaks your focus on the text and caps your speed. Typing by feel keeps your eyes on the screen and lets muscle memory take over, which is faster and more accurate.
+Yes. Touch typing is muscle memory, not talent or age — short, consistent daily practice works at any age.
+
+## Colemak Typing Test
+Source: https://typing.rerivo.com/colemak-typing.html
+
+Practice and measure your typing in Colemak. The on-screen keyboard below is already set to the Colemak layout, with finger guidance mapped to Colemak hand positions, so what you see matches what your system layout produces. Use the QWERTY / Dvorak / Colemak switch in the keyboard toolbar any time. Switch your operating system to Colemak, take the test, and get WPM, accuracy and consistency.
+
+colemak typing test
+Most typing tests only draw a QWERTY keyboard, which is useless for Colemak typing practice: the label you are hunting for is not on the key you press. This test flips the on-screen keyboard to the Colemak layout, keeping the physical QWERTY key positions and relabelling every key, so the finger guide on screen matches exactly what a Colemak typist sees.
+Nothing is installed and nothing changes your system. The page only draws the Colemak keyboard; you switch your operating system input to Colemak, start typing, and the test scores the characters your layout produces &mdash; so your WPM, accuracy, consistency and the per-key heatmap are all measured for real Colemak typing.
+Why Colemak
+Colemak was published in 2006 as a middle path between QWERTY and Dvorak. It keeps the common shortcut keys Z, X, C and V in their QWERTY places and changes only 17 keys, so the switch is far gentler than Dvorak while still putting the most-used letters under your fingers.
+On the same English passage, Colemak keeps about 73% of letters on the home row (QWERTY is near 36%) and cuts repeated same-finger presses to roughly 1.5%, versus about 7.9% on QWERTY. Less finger travel usually means more comfort over long sessions; it does not guarantee a higher top speed, which still depends mostly on practice.
+How to practice Colemak typing
+Set your operating system input to Colemak first, otherwise you would be typing QWERTY characters while looking at a Colemak keyboard. Start with short two-to-five minute sessions and resist looking at your hands &mdash; the finger guide and on-screen keyboard exist to replace that habit.
+Expect your speed to drop well below your QWERTY speed for the first week or two; that is the switch cost, not a verdict on Colemak. Track accuracy here before speed, because accuracy recovers first and speed follows it. Compare Colemak with Dvorak and QWERTY on the keyboard layouts page.
+Colemak typing FAQ
+No. The test only shows a Colemak keyboard on this page. You switch your own operating system input to Colemak in its keyboard or language settings, and the test then scores whatever characters your layout produces.
+No. The Colemak keyboard is drawn by the page itself, the test runs entirely in your browser, and your results are stored only in this browser.
+For most QWERTY typists, yes. Colemak changes only 17 keys and keeps Z, X, C and V in their QWERTY positions, so common shortcuts and much of your muscle memory still apply. Dvorak moves almost every key.
+Yes, usually much lower for the first week or two while you rebuild muscle memory. Measure accuracy first; once accuracy returns to your normal level, speed follows.
+Colemak keeps the bottom row's Z X C V B and the Q W A positions, and remaps the rest so E, T, N, S, I, R and O land on the home row. The full relabelling is drawn on the on-screen keyboard above.
+Yes. The keyboard toolbar has a QWERTY / Dvorak / Colemak switch and your choice is remembered in this browser, so the same page works for any of the three layouts.
+
+## Keyboard Layouts Compared
+Source: https://typing.rerivo.com/keyboard-layouts.html
+
+QWERTY, Dvorak, Colemak and Workman compared on home-row use, finger travel and same-finger presses &mdash; so you can see which keyboard layout fits you before you commit weeks to switching. Try any of them on the test below with a layout-matched on-screen keyboard and finger guide.
+
+QWERTY vs Dvorak vs Colemak vs Workman
+A keyboard layout is just the map of which letter sits under each key. QWERTY has been the default since the 1870s, but alternative layouts rearrange the letters so the most common ones sit on the home row, cutting finger travel. Here is how the four best-known layouts compare on the same English text.
+*Modeled finger travel for the same 5,847-character English passage on a standard keyboard, with the share of letters typed without leaving the home row and the share of consecutive keys pressed by the same finger. Figures from the Typing Cat layout comparison lab; they are estimates of movement, not measured typing speeds.
+Which keyboard layout is best?
+There is no single best layout, because less finger movement is not the same as faster typing. QWERTY wins on familiarity: it is on every shared computer and every shortcut assumes it. Dvorak alternates hands the most (about 67% of keystrokes), which many typists find rhythmic for long English prose. Colemak keeps the most letters on the home row (73%) and the fewest awkward same-finger presses (1.5%) while leaving Z, X, C, V and most shortcuts in place, so it is the usual pick for QWERTY users who want to switch. Workman trims total finger travel the most by also minimising sideways stretches.
+For almost everyone, practice and accuracy move your WPM far more than the layout does. A fast QWERTY typist will beat a beginner on any layout. Switch for comfort and reduced finger travel, not for a guaranteed speed jump.
+Should you switch keyboard layout?
+Switching costs you one to four weeks of slower, deliberate typing while new muscle memory forms, and shared or public machines will still be QWERTY. The payoff is less finger travel and, for many people, more comfort in long sessions. It is worth it mainly if you type a lot of English every day and own the keyboards you use most.
+If you want the gentlest change, start with Colemak because it keeps your common shortcuts. If you love hand-alternation, try Dvorak. The honest answer for casual typists is that staying on QWERTY and practising is the higher-return move.
+Try each keyboard layout here
+You can practise two of these layouts right now with a matching on-screen keyboard and finger guide: take the Colemak typing test or the Dvorak typing test, or measure your current speed on QWERTY with the main typing speed test. Each shows WPM, accuracy, consistency and a per-key heatmap so you can compare how a layout feels for you.
+Keyboard layouts FAQ
+No layout is reliably fastest for everyone. Modeling shows Dvorak, Colemak and Workman cut finger travel by roughly 42 to 45% versus QWERTY, but measured typing speed depends far more on practice and accuracy than on the layout. The world's fastest typists use several different layouts, including QWERTY.
+Dvorak puts about 71% of letters on the home row versus QWERTY's 36% and alternates hands more, which many typists find more comfortable for long English text. Studies show modest speed gains at best, so the main benefit is reduced finger movement and comfort, not a guaranteed speed jump.
+Colemak keeps more letters on the home row (about 73%) and the lowest same-finger rate (about 1.5%), and it changes only 17 keys while keeping Z, X, C and V in their QWERTY places, so it is easier to switch to than Dvorak. Dvorak alternates hands more. Which feels better is personal.
+Code uses far more punctuation, brackets and symbols than English prose, so prose-optimised layouts help less. Programmer variants such as Programmer Dvorak and Workman Programmer rearrange the number and symbol rows. Many developers stay on QWERTY because editors, shortcuts and pair-programming all assume it.
+Most people reach usable speed again in one to four weeks of short daily practice, and return to their old speed over one to three months. Accuracy recovers before raw speed, so track accuracy first.
+Yes. This site has a free Dvorak typing test and a free Colemak typing test, each with an on-screen keyboard relabelled to that layout and a matching finger guide, so you can practise and measure your WPM without installing anything.

@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>{{TITLE}}</title>
+<meta name="description" content="{{DESC}}">
+<meta name="keywords" content="{{KEYWORDS}}">
+<link rel="canonical" href="{{CANONICAL}}">
+<link rel="icon" type="image/svg+xml" href="/favicon.svg">
+<link rel="icon" type="image/png" sizes="192x192" href="/icon-192.png">
+<link rel="icon" type="image/png" sizes="512x512" href="/icon-512.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="manifest" href="/site.webmanifest">
+<meta property="og:title" content="{{OG}}">
+<meta property="og:description" content="{{OG}}">
+<meta property="og:type" content="website">
+<meta property="og:url" content="{{OG}}">
+<meta property="og:image" content="https://typing.rerivo.com/og-cover.png">
+<meta property="og:site_name" content="Typing.Rerivo">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="{{TW}}">
+<meta name="twitter:description" content="{{TW}}">
+<meta name="twitter:image" content="https://typing.rerivo.com/og-cover.png">
+<script type="application/ld+json">{{LD}}
+</script>
+<script type="application/ld+json">{{LD}}
+</script>
+<script type="application/ld+json">{{LD}}
+</script>
+<style>{{CSS}}</style>
+<script>{{HEADJS}}</script>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1401237223139327"
+crossorigin="anonymous"></script>
+</head>
+<body>
+<a class="skip" href="#input" data-i18n="skip">Skip to typing test</a>
+<div class="wrap">
+<header class="top">{{NAV}}</header>
+<section class="hero">{{HERO}}</section>
+<div class="panel">
+<div class="controls">
+<div class="ctrl-group">
+<span class="ctrl-label" data-i18n="time">Time</span>
+<button type="button" class="chip dur" data-d="15" aria-pressed="{{PR}}">15s</button>
+<button type="button" class="chip dur" data-d="30" aria-pressed="{{PR}}">30s</button>
+<button type="button" class="chip dur" data-d="60" aria-pressed="{{PR}}">1 min</button>
+<button type="button" class="chip dur" data-d="120" aria-pressed="{{PR}}">2 min</button>
+<button type="button" class="chip dur" data-d="180" aria-pressed="{{PR}}">3 min</button>
+<button type="button" class="chip dur" data-d="300" aria-pressed="{{PR}}">5 min</button>
+<button type="button" class="chip dur" data-d="600" aria-pressed="{{PR}}">10 min</button>
+</div>
+<div class="ctrl-group">
+<span class="ctrl-label" data-i18n="text">Text</span>
+<button type="button" class="chip mode" data-m="sentences" data-i18n="m_sentences" aria-pressed="{{PR}}">Sentences</button>
+<button type="button" class="chip mode" data-m="quotes" data-i18n="m_quotes" aria-pressed="{{PR}}">Quotes</button>
+<button type="button" class="chip mode" data-m="numbers" data-i18n="m_numbers" aria-pressed="{{PR}}">Numbers</button>
+<button type="button" class="chip mode" data-m="words" data-i18n="m_words" aria-pressed="{{PR}}">Words</button>
+</div>
+<div class="ctrl-group">
+<span class="ctrl-label" data-i18n="practice">Practice</span>
+<a class="chip link" href="dvorak-typing.html" data-i18n="p_dvorak">Dvorak</a>
+<a class="chip link" href="one-hand-typing.html" data-i18n="p_onehand">One-Hand</a>
+<a class="chip link" href="typing-certificate.html" data-i18n="p_cert">Certificate</a>
+</div>
+<div class="ctrl-group">
+<span class="ctrl-label" data-i18n="width">Width</span>
+<button type="button" class="chip width on" data-w="std" data-i18n="w_std" aria-pressed="{{PR}}">Standard</button>
+<button type="button" class="chip width" data-w="wide" data-i18n="w_wide" aria-pressed="{{PR}}">Wide</button>
+<button type="button" class="chip width" data-w="xwide" data-i18n="w_xwide" aria-pressed="{{PR}}">X-Wide</button>
+<button type="button" class="chip width" data-w="fluid" data-i18n="w_fluid" aria-pressed="{{PR}}">Full</button>
+</div>
+</div>
+<details class="custombox">
+<summary data-i18n="custom_text">Custom text</summary>
+<textarea id="customInput" rows="3" placeholder="Paste any text to practice…" aria-label="Custom text"></textarea>
+<div class="custom-actions">
+<button type="button" class="chip" id="btnCustom" data-i18n="custom_use">Use this text</button>
+<button type="button" class="chip" id="btnCustomClear" data-i18n="custom_clear">Clear</button>
+</div>
+</details>
+<div class="stats">
+<div class="stat"><div class="num accent" id="sTime" role="timer" aria-label="Time remaining" data-aria="timer_aria">{{STIME}}</div><div class="lab" data-i18n="st_time">Time</div></div>
+<div class="stat"><div class="num" id="sWpm">0</div><div class="lab" data-i18n="wpm">WPM</div></div>
+<div class="stat"><div class="num" id="sAcc">100%</div><div class="lab" data-i18n="accuracy">Accuracy</div></div>
+</div>
+<div class="typing">
+<div id="text"></div>
+<input id="input" type="text" autocomplete="off" autocapitalize="off" autocorrect="off" spellcheck="false" aria-label="Typing input" data-aria="input_aria">
+<div class="refocus" data-i18n="resume">Click to resume</div>
+</div>
+<div class="kbd-wrap" id="kbdWrap" aria-hidden="true">
+<div class="kbd-tools"><span class="lab" data-i18n="kbd_size">Keyboard</span><button type="button" class="kbd-size" data-ks="s" aria-label="Small">S</button><button type="button" class="kbd-size" data-ks="m" aria-label="Medium">M</button><button type="button" class="kbd-size" data-ks="l" aria-label="Large">L</button><button type="button" class="snd-toggle" id="sndToggle" aria-pressed="{{PR}}" title="Typing sound"><span data-i18n="sound">Sound</span>: <b class="snd-state">off</b></button><span class="lab kbd-lay-lab" data-i18n="kbd_layout">Layout</span><button type="button" class="kbd-size kbd-layout on" data-lay="qwerty" aria-pressed="{{PR}}">QWERTY</button><button type="button" class="kbd-size kbd-layout" data-lay="dvorak" aria-pressed="{{PR}}">Dvorak</button><button type="button" class="kbd-size kbd-layout" data-lay="colemak" aria-pressed="{{PR}}">Colemak</button></div>
+<div class="kbd" id="kbd"></div>
+<div class="hands" id="hands"></div>
+</div>
+<div class="focus-hint" id="hint" data-i18n-html="hint">Click here or press <b>any key</b> to start typing</div>
+</div>
+<div class="panel result" id="resultPanel" role="status" aria-live="polite" style="display:none;">
+<div class="big" id="rWpm">0 WPM</div>
+<div class="pb-line" id="pbLine"></div>
+<div class="tier-line" id="tierLine"></div>
+<canvas id="wpmChart" class="wpm-chart" width="600" height="130" role="img" aria-label="WPM over time line chart" data-aria="chart_aria"></canvas>
+<div class="result-grid">
+<div class="stat"><div class="num" id="rAcc">100%</div><div class="lab" data-i18n="accuracy">Accuracy</div></div>
+<div class="stat"><div class="num" id="rCpm">0</div><div class="lab" data-i18n="r_cpm">Chars/min</div></div>
+<div class="stat"><div class="num" id="rErr">0</div><div class="lab" data-i18n="r_errors">Errors</div></div>
+<div class="stat"><div class="num" id="rRaw">0</div><div class="lab" data-i18n="r_raw">Raw WPM</div></div>
+<div class="stat"><div class="num" id="rCons">100%</div><div class="lab" data-i18n="r_cons">Consistency</div></div>
+</div>
+<div class="keystats" id="keyStats"></div>
+<div class="heat-cap" data-i18n="heat_cap">Weak keys are highlighted on the keyboard above.</div>
+<div class="achv" id="achv"></div>
+<div class="result-actions">
+<button type="button" class="btn" id="btnAgain" data-i18n="btn_again">Test again</button>
+<button type="button" class="btn ghost" id="btnWeak" data-i18n="btn_weak" style="display:none;">Practice weak keys</button>
+<button type="button" class="btn ghost" id="btnShare" data-i18n="btn_share">Copy result</button>
+<button type="button" class="btn ghost" id="btnImg" data-i18n="btn_img">Save image</button>
+<button type="button" class="btn ghost" id="btnCert" data-i18n="btn_cert">Print certificate</button>
+</div>
+<div class="hist" id="histBox">
+<h3 data-i18n="hist_title">Your typing history (saved in this browser)</h3>
+<div class="hist-tools">
+<button type="button" class="hist-btn" id="btnExport" data-i18n="hist_export">Export progress</button>
+<button type="button" class="hist-btn" id="btnImport" data-i18n="hist_import">Import</button>
+<input type="file" id="impFile" accept="application/json,.json" style="display:none;" aria-hidden="true">
+</div>
+<table>
+<thead><tr><th data-i18n="h_date">Date</th><th data-i18n="h_test">Test</th><th data-i18n="wpm">WPM</th><th data-i18n="accuracy">Accuracy</th><th data-i18n="r_errors">Errors</th></tr></thead>
+<tbody id="histBody"></tbody>
+</table>
+</div>
+</div>
+<section class="seo">{{SEO}}</section>
+<section class="seo faq">{{FAQ}}</section>
+<footer>{{FOOT}}</footer>
+</div>
+<script>{{ENGINE}}</script>
+<script src="ui.js?v={{V}}" defer></script>
+<script src="egg.js?v={{V}}" defer></script>
+</body>
+</html>
