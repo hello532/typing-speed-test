@@ -1,6 +1,6 @@
 {
  "site": "https://typing.rerivo.com",
- "updated": "2026-10-12",
+ "updated": "2026-10-13",
  "directories": [
   {
    "name": "IndexNow (Bing/Yandex/Seznam/Naver)",
@@ -148,9 +148,9 @@
    "kind": "launch-directory",
    "dofollow": "yes",
    "dr": null,
-   "status": "dead",
-   "date": "2026-10-12",
-   "note": "/submit 返回 404，路径已变更，待找新入口"
+   "status": "candidate",
+   "date": null,
+   "note": "/submit 现返回 200（此前 404），入口恢复；待研究新表单路径"
   },
   {
    "name": "Serchen",
@@ -178,9 +178,309 @@
    "kind": "community",
    "dofollow": "no",
    "dr": 90,
+   "status": "needs_login",
+   "date": null,
+   "note": "需账号；/submit 未登录即登录表单；真流量，守社区规，勿硬广"
+  },
+  {
+   "name": "Launching Next",
+   "url": "https://www.launchingnext.com/submit/",
+   "kind": "launch-directory",
+   "dofollow": null,
+   "dr": null,
    "status": "candidate",
    "date": null,
-   "note": "需账号；真流量，守社区规，勿硬广"
+   "note": "免费免登录：纯POST表单+邮箱+2+3验证；$99仅1天速审；automation-friendly，已验表单字段"
+  },
+  {
+   "name": "Tiny Startups",
+   "url": "https://www.tinystartups.com/launch",
+   "kind": "launch-directory",
+   "dofollow": null,
+   "dr": null,
+   "status": "needs_login",
+   "date": null,
+   "note": "需账号；人工精选+每日更新；适合小而美工具首发叙事"
+  },
+  {
+   "name": "BetaPage→PitchWall",
+   "url": "https://betapage.co",
+   "kind": "launch-board",
+   "dofollow": null,
+   "dr": null,
+   "status": "needs_login",
+   "date": null,
+   "note": "已301跳PitchWall；免费注册，免费launch约等30天"
+  },
+  {
+   "name": "KillerStartups",
+   "url": "https://killerstartups.com/how-to-submit/",
+   "kind": "startup-community",
+   "dofollow": null,
+   "dr": null,
+   "status": "needs_login",
+   "date": null,
+   "note": "需先join社区+答完全部编辑问题；免费/付费通道口径冲突，提交前再验"
+  },
+  {
+   "name": "StartupBlink",
+   "url": "https://www.startupblink.com/startups/add",
+   "kind": "startup-map",
+   "dofollow": null,
+   "dr": null,
+   "status": "needs_login",
+   "date": null,
+   "note": "免费添加；需注册+邮箱域名验证+声明官方代表"
+  },
+  {
+   "name": "StartupRanking",
+   "url": "https://www.startupranking.com",
+   "kind": "startup-ranking",
+   "dofollow": null,
+   "dr": null,
+   "status": "candidate",
+   "date": null,
+   "note": "提交入口不明（站内找submit/contact）；优先级最低"
+  },
+  {
+   "name": "StartupBuffer",
+   "url": "https://startupbuffer.com/site/submit",
+   "kind": "startup-directory",
+   "dofollow": null,
+   "dr": null,
+   "status": "blocked_cf",
+   "date": null,
+   "note": "403 Cloudflare挑战；多源标free，人工提交"
+  },
+  {
+   "name": "Crozdesk",
+   "url": "https://crozdesk.com/claims/new",
+   "kind": "b2b-directory",
+   "dofollow": null,
+   "dr": null,
+   "status": "needs_login",
+   "date": null,
+   "note": "免费listing；需专业邮箱认领；B2B偏向，与免费打字工具契合中等"
+  },
+  {
+   "name": "Slant",
+   "url": "https://www.slant.co/",
+   "kind": "crowdsource-ranking",
+   "dofollow": null,
+   "dr": null,
+   "status": "needs_login",
+   "date": null,
+   "note": "无标准提交表单；需账号在best typing test类话题下加option"
+  },
+  {
+   "name": "FutureTools",
+   "url": "https://futuretools.io/submit-a-tool",
+   "kind": "ai-directory",
+   "dofollow": null,
+   "dr": null,
+   "status": "candidate",
+   "date": null,
+   "note": "免费免登录但JS CAPTCHA，自动化不可过需人工；Matt Wolfe人工精选拒收率高；typing非AI契合弱，category选Education/Other"
+  },
+  {
+   "name": "AI Tools Directory",
+   "url": "https://aitoolsdirectory.com/submit-tool",
+   "kind": "ai-directory",
+   "dofollow": null,
+   "dr": null,
+   "status": "candidate",
+   "date": null,
+   "note": "自称免费无隐藏收费；提交页200但表单疑似JS渲染，需人工确认；规则：透明定价、无waiting list"
+  },
+  {
+   "name": "Dang.ai",
+   "url": "https://dang.ai",
+   "kind": "ai-directory",
+   "dofollow": null,
+   "dr": null,
+   "status": "needs_login",
+   "date": null,
+   "note": "需账号；AI发现属性强，引流价值大于SEO"
+  },
+  {
+   "name": "TAAFT",
+   "url": "https://theresanaiforthat.com/launch",
+   "kind": "ai-directory",
+   "dofollow": null,
+   "dr": null,
+   "status": "candidate",
+   "date": null,
+   "note": "免费/付费($49)口径冲突；AI相关性低，优先级低"
+  },
+  {
+   "name": "Home Educated",
+   "url": "https://home-educated.org/submit-resource",
+   "kind": "education-directory",
+   "dofollow": null,
+   "dr": null,
+   "status": "candidate",
+   "date": null,
+   "note": "homeschool资源目录，与kids页最契合；免费listing+付费升级可选；提交页200但表单疑似JS渲染，需人工确认"
+  },
+  {
+   "name": "HomeschoolPeeps",
+   "url": "https://homeschoolpeeps.com/submit-homeschool-resource/",
+   "kind": "education-directory",
+   "dofollow": null,
+   "dr": null,
+   "status": "needs_login",
+   "date": null,
+   "note": "Listivo站点，需注册账号后提交；收本地+纯在线资源"
+  },
+  {
+   "name": "OER Commons",
+   "url": "https://www.oercommons.org",
+   "kind": "oer-library",
+   "dofollow": null,
+   "dr": null,
+   "status": "needs_login",
+   "date": null,
+   "note": "需登录+教育元数据+评审；隐含开放许可预期，专有工具适配风险高，用kids页+教学说明包装"
+  },
+  {
+   "name": "EveryHomeschool",
+   "url": "https://everyhomeschool.com/directory/publishers/submit",
+   "kind": "education-directory",
+   "dofollow": null,
+   "dr": null,
+   "status": "candidate",
+   "date": null,
+   "note": "门槛高：需live网站+课程catalog+真实家庭用户；单一工具批准风险高"
+  },
+  {
+   "name": "Webwiki",
+   "url": "https://www.webwiki.com/info",
+   "kind": "web-directory",
+   "dofollow": null,
+   "dr": null,
+   "status": "blocked_cf",
+   "date": null,
+   "note": "403 Cloudflare挑战；二手称免费表单免登录；德/法/国际多镜像，人工提交"
+  },
+  {
+   "name": "PR aviaryan/awesome-no-login-web-apps",
+   "url": "https://github.com/aviaryan/awesome-no-login-web-apps",
+   "kind": "awesome-list-pr",
+   "dofollow": null,
+   "dr": null,
+   "status": "candidate",
+   "date": null,
+   "note": "3.4k star最契合免登录叙事；有CONTRIBUTING+PULL_REQUEST_TEMPLATE；落点Study and Education/Text tools"
+  },
+  {
+   "name": "PR Soneji/awesome-teaching",
+   "url": "https://github.com/Soneji/awesome-teaching",
+   "kind": "awesome-list-pr",
+   "dofollow": null,
+   "dr": null,
+   "status": "candidate",
+   "date": null,
+   "note": "已收录Typing Club先例；对应kids页；落点Classroom Resources/Pre-Programming"
+  },
+  {
+   "name": "PR moimikey/awesome-devtools",
+   "url": "https://github.com/moimikey/awesome-devtools",
+   "kind": "awesome-list-pr",
+   "dofollow": null,
+   "dr": null,
+   "status": "candidate",
+   "date": null,
+   "note": "539 star；对应typing-practice-for-programmers页"
+  },
+  {
+   "name": "PR woodyhayday/home-ed",
+   "url": "https://github.com/woodyhayday/home-ed",
+   "kind": "awesome-list-pr",
+   "dofollow": null,
+   "dr": null,
+   "status": "candidate",
+   "date": null,
+   "note": "README直言可直接PR；对应kids/homeschooling页；小库通过率高"
+  },
+  {
+   "name": "PR lukasz-madon/awesome-remote-job",
+   "url": "https://github.com/lukasz-madon/awesome-remote-job",
+   "kind": "awesome-list-pr",
+   "dofollow": null,
+   "dr": null,
+   "status": "candidate",
+   "date": null,
+   "note": "49k star大库门槛高；对应jobs页，以远程工作者打字技能资源角度投Resources"
+  },
+  {
+   "name": "PR tramcar/awesome-job-boards",
+   "url": "https://github.com/tramcar/awesome-job-boards",
+   "kind": "awesome-list-pr",
+   "dofollow": null,
+   "dr": null,
+   "status": "candidate",
+   "date": null,
+   "note": "1.9k star；对应jobs页；需写好PR描述（求职技能vs招聘板）"
+  },
+  {
+   "name": "PR All-Tools-Verse",
+   "url": "https://github.com/All-Tools-Verse/all-tools-verse",
+   "kind": "awesome-list-pr",
+   "dofollow": null,
+   "dr": null,
+   "status": "candidate",
+   "date": null,
+   "note": "新小库昨日仍活跃，通过率高；privacy-first免注册叙事契合"
+  },
+  {
+   "name": "PR NwabKhan/awesome-web-tools",
+   "url": "https://github.com/NwabKhan/awesome-web-tools",
+   "kind": "awesome-list-pr",
+   "dofollow": null,
+   "dr": null,
+   "status": "candidate",
+   "date": null,
+   "note": "小而活跃；Education+Developer双section可挂kids页与programmer页"
+  },
+  {
+   "name": "PR brandonhimpfen/awesome-web-development",
+   "url": "https://github.com/brandonhimpfen/awesome-web-development",
+   "kind": "awesome-list-pr",
+   "dofollow": null,
+   "dr": null,
+   "status": "candidate",
+   "date": null,
+   "note": "小而活跃；web开发资源定位"
+  },
+  {
+   "name": "PR dailydotdev/awesome-developer-recruiting",
+   "url": "https://github.com/dailydotdev/awesome-developer-recruiting",
+   "kind": "awesome-list-pr",
+   "dofollow": null,
+   "dr": null,
+   "status": "candidate",
+   "date": null,
+   "note": "无独立CONTRIBUTING按README直接PR；包装为候选人打字实操筛选辅助；相关性中等"
+  },
+  {
+   "name": "PR aviaryan #749",
+   "url": "https://github.com/aviaryan/awesome-no-login-web-apps/pull/749",
+   "kind": "awesome-list-pr",
+   "dofollow": "yes",
+   "dr": null,
+   "status": "submitted",
+   "date": "2026-10-13",
+   "note": "Study and Education 末尾；no-login叙事契合；待合并"
+  },
+  {
+   "name": "PR home-ed #1",
+   "url": "https://github.com/woodyhayday/home-ed/pull/1",
+   "kind": "awesome-list-pr",
+   "dofollow": "yes",
+   "dr": null,
+   "status": "submitted",
+   "date": "2026-10-13",
+   "note": "section 3 Subject-Specific Tools；kids页；待合并"
   }
  ]
 }
