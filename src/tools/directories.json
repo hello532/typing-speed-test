@@ -363,16 +363,6 @@
    "note": "403 Cloudflare挑战；二手称免费表单免登录；德/法/国际多镜像，人工提交"
   },
   {
-   "name": "PR aviaryan/awesome-no-login-web-apps",
-   "url": "https://github.com/aviaryan/awesome-no-login-web-apps",
-   "kind": "awesome-list-pr",
-   "dofollow": null,
-   "dr": null,
-   "status": "candidate",
-   "date": null,
-   "note": "3.4k star最契合免登录叙事；有CONTRIBUTING+PULL_REQUEST_TEMPLATE；落点Study and Education/Text tools"
-  },
-  {
    "name": "PR Soneji/awesome-teaching",
    "url": "https://github.com/Soneji/awesome-teaching",
    "kind": "awesome-list-pr",
@@ -391,16 +381,6 @@
    "status": "candidate",
    "date": null,
    "note": "539 star；对应typing-practice-for-programmers页"
-  },
-  {
-   "name": "PR woodyhayday/home-ed",
-   "url": "https://github.com/woodyhayday/home-ed",
-   "kind": "awesome-list-pr",
-   "dofollow": null,
-   "dr": null,
-   "status": "candidate",
-   "date": null,
-   "note": "README直言可直接PR；对应kids/homeschooling页；小库通过率高"
   },
   {
    "name": "PR lukasz-madon/awesome-remote-job",
