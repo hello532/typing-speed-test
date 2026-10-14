@@ -363,16 +363,6 @@
    "note": "403 Cloudflare挑战；二手称免费表单免登录；德/法/国际多镜像，人工提交"
   },
   {
-   "name": "PR Soneji/awesome-teaching",
-   "url": "https://github.com/Soneji/awesome-teaching",
-   "kind": "awesome-list-pr",
-   "dofollow": null,
-   "dr": null,
-   "status": "candidate",
-   "date": null,
-   "note": "已收录Typing Club先例；对应kids页；落点Classroom Resources/Pre-Programming"
-  },
-  {
    "name": "PR moimikey/awesome-devtools",
    "url": "https://github.com/moimikey/awesome-devtools",
    "kind": "awesome-list-pr",
@@ -413,16 +403,6 @@
    "note": "新小库昨日仍活跃，通过率高；privacy-first免注册叙事契合"
   },
   {
-   "name": "PR NwabKhan/awesome-web-tools",
-   "url": "https://github.com/NwabKhan/awesome-web-tools",
-   "kind": "awesome-list-pr",
-   "dofollow": null,
-   "dr": null,
-   "status": "candidate",
-   "date": null,
-   "note": "小而活跃；Education+Developer双section可挂kids页与programmer页"
-  },
-  {
    "name": "PR brandonhimpfen/awesome-web-development",
    "url": "https://github.com/brandonhimpfen/awesome-web-development",
    "kind": "awesome-list-pr",
@@ -461,6 +441,26 @@
    "status": "submitted",
    "date": "2026-10-13",
    "note": "section 3 Subject-Specific Tools；kids页；待合并"
+  },
+  {
+   "name": "PR Soneji #6",
+   "url": "https://github.com/Soneji/awesome-teaching/pull/6",
+   "kind": "awesome-list-pr",
+   "dofollow": "yes",
+   "dr": null,
+   "status": "submitted",
+   "date": "2026-10-13",
+   "note": "Pre-Programming Languages，紧邻Typing Club；kids页；待合并"
+  },
+  {
+   "name": "PR NwabKhan #136",
+   "url": "https://github.com/NwabKhan/awesome-web-tools/pull/136",
+   "kind": "awesome-list-pr",
+   "dofollow": "yes",
+   "dr": null,
+   "status": "submitted",
+   "date": "2026-10-13",
+   "note": "Education小节；kids页；待合并"
   }
  ]
 }

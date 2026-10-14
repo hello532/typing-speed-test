@@ -76,6 +76,7 @@ Frequently asked questions
 It is a typing test that focuses on uppercase letters and the Shift key, so you can practise capitals, proper nouns and symbols rather than only lowercase words.
 Capitals need a Shift key press with the opposite hand plus a quick return to the home row, which breaks your rhythm until the motion becomes muscle memory.
 Yes. Free with no sign up, and your Shift-key drill results stay in your own browser.
+Always Shift for single capitals: hold it with the opposite hand's pinky while the other hand strikes the letter. Caps Lock is only for multi-letter acronyms, and reaching for it mid-sentence breaks rhythm and costs accuracy.
 
 ## Easy Typing Test
 Source: https://typing.rerivo.com/easy-typing-test.html
@@ -94,6 +95,7 @@ Frequently asked questions
 It offers short rounds and a simple common-words mode, so beginners get a quick, encouraging WPM result without long or difficult passages.
 Start with a 15 or 30 second round in the words mode, aim for accuracy first, and build up to longer tests as you improve.
 Yes, completely free with no sign up. Your results stay in your own browser.
+Most beginners score 15 to 25 WPM on their first try with simple words, and that is normal. After a week of short daily rounds most reach 30+, the point where typing starts feeling useful instead of painful.
 
 ## English Typing Test
 Source: https://typing.rerivo.com/english-typing-test.html
@@ -112,6 +114,7 @@ Typing test FAQ
 Yes. The English typing test is free with no sign up, and your English WPM history is saved only in this browser.
 40 WPM is average, 60-70 WPM is good, and 80+ WPM is professional level for most office and writing work.
 The standard 5-characters-per-word rule, applied to real English sentences. Because English words average close to 5 characters, the formula matches real English text well; errors are subtracted for net WPM.
+Slightly: WPM counts five characters as one word, and common English words average just under five, so scores on real sentences run a touch higher than on random-word drills. The difference is small — a few WPM — and consistent, so scores compare fairly.
 
 ## Spanish Typing Test
 Source: https://typing.rerivo.com/spanish-typing-test.html
@@ -130,6 +133,7 @@ Spanish typing test FAQ
 Yes. The Spanish typing test is free with no sign up; your Spanish results stay in this browser.
 Yes. The practice sentences are real Spanish, so they include accented vowels (á, é, í, ó, ú), the letter ñ, and inverted ¿ ¡ punctuation.
 The same 5-characters-per-word rule, applied to real Spanish sentences including accented vowels and ñ. Accents count as ordinary characters, so typing them correctly protects your accuracy.
+No: the test accepts standard keystrokes and guides you through accented characters with the on-screen keyboard. A Spanish layout helps at speed, but beginners can start on any keyboard immediately.
 
 ## Free Typing Test
 Source: https://typing.rerivo.com/free-typing-test.html
@@ -148,6 +152,7 @@ Frequently asked questions
 Yes. There is no sign up, no account, no paywall and no ads inside the typing area. You can use it as often as you like.
 No account is needed. Your past results are saved only in your own browser using localStorage.
 You get words per minute (WPM), accuracy, characters per minute and error counts after every attempt.
+No catch: the test runs entirely in your browser with no accounts, no servers and no ads in the typing area, so there is almost nothing to pay for. Optional display ads outside the test area keep the site running without ever locking features.
 
 ## Free Typing Speed Test
 Source: https://typing.rerivo.com/
@@ -197,6 +202,7 @@ Typing test FAQ
 Technique matters more than hardware, but a comfortable keyboard with good key travel can help you type faster and more accurately.
 Yes, free with no sign up. Results stay in your own browser only.
 Yes — this test works on any keyboard, so it's great for comparing a new mechanical board against your old one.
+Mechanical keyboards usually add 3 to 8 WPM from cleaner key feel and fewer missed presses, but the gap shrinks with practice. Test both here and keep the one whose accuracy stays higher after ten rounds, not just the faster-feeling one.
 
 ## Number Typing Test
 Source: https://typing.rerivo.com/number-typing-test.html
@@ -234,6 +240,7 @@ Typing test FAQ
 No. This online typing test runs fully in your browser on any device with a keyboard.
 Yes, completely free with no sign up. Results are saved only in your own browser.
 It works best with a physical keyboard, but you can try it on a tablet with an attached keyboard too.
+Yes — once the page loads, the test runs fully in your browser with no further network use. Your results save locally too, so a dropped connection mid-round never loses your score.
 
 ## Punctuation Typing Test
 Source: https://typing.rerivo.com/punctuation-typing-test.html
@@ -252,6 +259,7 @@ Frequently asked questions
 It is a typing test that emphasises punctuation marks and symbols, letting you practise commas, periods, quotes, brackets and more in real sentences.
 Punctuation keys are on the edges of the keyboard and many need the Shift key, so they break your home-row rhythm until you practise them.
 Yes, completely free with no account; punctuation drill results stay on your device.
+The apostrophe, comma and hyphen lead because they need a pinky stretch plus a rhythm break; brackets and quotes follow for programmers. Drill them in short bursts rather than full tests — ten focused minutes beats an hour of mixed typing.
 
 ## Typing Accuracy Test
 Source: https://typing.rerivo.com/typing-accuracy-test.html
@@ -270,6 +278,7 @@ Typing test FAQ
 Aim for 95% or higher. Professional typists usually stay above 97% accuracy while maintaining good speed.
 Every error needs correcting, which costs time. High accuracy means your effective speed is close to your raw speed.
 Yes, free with no sign up. Results are stored only in your browser.
+Hold 97% or higher first; only then add pace. Below 95%, every extra WPM costs more correction time than it saves, so the score looks faster while real output slows down.
 
 ## Typing Practice
 Source: https://typing.rerivo.com/typing-practice.html
@@ -282,6 +291,8 @@ Typing exercises for every skill
 Change the text mode to target your weak spots. Sentences build everyday typing fluency. Quotes add capital letters and punctuation. Numbers train the top row, which is the slowest part of the keyboard for most people. Words mode drills common English vocabulary so high-frequency words become automatic.
 A simple practice plan
 Week one: two minute sentence tests, focus on accuracy. Week two: add quotes and numbers, keep the same two minutes. Week three: try five minute tests to build endurance. Week four: switch back to one minute and compare your WPM with week one. Most people gain 10 to 20 WPM in a month with this routine.
+When practice stops working
+A plateau near 50 or 70 WPM usually means one bottleneck, not general slowness: check your slowest keys in the result panel after each round. Spend a week drilling only those keys in accuracy test rounds at 97%+ before chasing speed again. If accuracy is fine but speed stalls, your rhythm is uneven — try 2 minute tests at a metronome-steady pace instead of sprinting. Most plateaus break within two focused weeks.
 Typing test FAQ
 Untimed, repeatable drills across sentences, quotes, numbers and words modes. Unlike a scored test, practice lets you retry weak keys freely and watch per-key accuracy improve before you take a timed test.
 Practice rounds use the same formula — correct characters divided by 5 and by minutes spent — plus accuracy and slowest-key stats. Scores save locally so you can compare rounds over time.
@@ -378,6 +389,7 @@ Typing test FAQ
 Yes, completely free with no sign up and no ads inside the typing area.
 Prioritise accuracy — errors cost more than slow typing. Warm up, then push speed on a short 15 or 30 second game.
 Yes, your recent results are saved in your own browser so you can try to beat them.
+Play short rounds daily instead of one long session, and replay the mode where your accuracy dips lowest. Speed follows accuracy: once a round stays above 97%, push pace and your high score climbs on its own.
 
 ## Words Per Minute Test
 Source: https://typing.rerivo.com/words-per-minute-test.html
@@ -418,6 +430,7 @@ Frequently asked questions
 It is a browser-based test that measures your words per minute and accuracy instantly, with no software download and no account required.
 Around 40 WPM is average, 60-80 WPM is fast, and over 90 WPM is professional level. Accuracy above 95% matters just as much as raw speed.
 Yes, it runs in any modern mobile browser, but a physical keyboard gives the truest score — phone keyboards add autocorrect noise. For a quotable result, retest on a real keyboard.
+Quote net WPM: it subtracts errors, so employers and certificates trust it. Raw WPM (before errors) is useful only as a training gauge — when raw climbs but net stalls, slow down and fix accuracy first.
 
 ## 30 Second Typing Test
 Source: https://typing.rerivo.com/30-second-typing-test.html

@@ -341,6 +341,10 @@
     {
      "q": "Is the capital letter test free?",
      "a": "Yes. Free with no sign up, and your Shift-key drill results stay in your own browser."
+    },
+    {
+     "q": "Do I use Shift or Caps Lock for capitals?",
+     "a": "Always Shift for single capitals: hold it with the opposite hand's pinky while the other hand strikes the letter. Caps Lock is only for multi-letter acronyms, and reaching for it mid-sentence breaks rhythm and costs accuracy."
     }
    ],
    "webAppName": "Capital Letter Typing Test",
@@ -428,6 +432,10 @@
     {
      "q": "Is it free?",
      "a": "Yes, completely free with no sign up. Your results stay in your own browser."
+    },
+    {
+     "q": "How easy is easy — what WPM should I expect first?",
+     "a": "Most beginners score 15 to 25 WPM on their first try with simple words, and that is normal. After a week of short daily rounds most reach 30+, the point where typing starts feeling useful instead of painful."
     }
    ],
    "webAppName": "Easy Typing Test",
@@ -517,6 +525,10 @@
     {
      "q": "How is English typing speed calculated?",
      "a": "The standard 5-characters-per-word rule, applied to real English sentences. Because English words average close to 5 characters, the formula matches real English text well; errors are subtracted for net WPM."
+    },
+    {
+     "q": "Does English word length affect my WPM?",
+     "a": "Slightly: WPM counts five characters as one word, and common English words average just under five, so scores on real sentences run a touch higher than on random-word drills. The difference is small — a few WPM — and consistent, so scores compare fairly."
     }
    ],
    "webAppName": "Typing Speed Test",
@@ -603,6 +615,10 @@
     {
      "q": "How is WPM counted for Spanish text?",
      "a": "The same 5-characters-per-word rule, applied to real Spanish sentences including accented vowels and ñ. Accents count as ordinary characters, so typing them correctly protects your accuracy."
+    },
+    {
+     "q": "Do I need a Spanish keyboard for the ñ and accents?",
+     "a": "No: the test accepts standard keystrokes and guides you through accented characters with the on-screen keyboard. A Spanish layout helps at speed, but beginners can start on any keyboard immediately."
     }
    ],
    "webAppName": "Typing Speed Test",
@@ -687,6 +703,10 @@
     {
      "q": "What can I measure?",
      "a": "You get words per minute (WPM), accuracy, characters per minute and error counts after every attempt."
+    },
+    {
+     "q": "Is there a catch — why is it free?",
+     "a": "No catch: the test runs entirely in your browser with no accounts, no servers and no ads in the typing area, so there is almost nothing to pay for. Optional display ads outside the test area keep the site running without ever locking features."
     }
    ],
    "webAppName": "Free Typing Test",
@@ -891,6 +911,10 @@
     {
      "q": "Can I test a mechanical keyboard?",
      "a": "Yes — this test works on any keyboard, so it's great for comparing a new mechanical board against your old one."
+    },
+    {
+     "q": "Laptop or mechanical keyboard — which scores higher?",
+     "a": "Mechanical keyboards usually add 3 to 8 WPM from cleaner key feel and fewer missed presses, but the gap shrinks with practice. Test both here and keep the one whose accuracy stays higher after ten rounds, not just the faster-feeling one."
     }
    ],
    "webAppName": "Typing Speed Test",
@@ -1067,6 +1091,10 @@
     {
      "q": "Does it work on mobile?",
      "a": "It works best with a physical keyboard, but you can try it on a tablet with an attached keyboard too."
+    },
+    {
+     "q": "Does the online test work offline after loading?",
+     "a": "Yes — once the page loads, the test runs fully in your browser with no further network use. Your results save locally too, so a dropped connection mid-round never loses your score."
     }
    ],
    "webAppName": "Typing Speed Test",
@@ -1151,6 +1179,10 @@
     {
      "q": "Is the punctuation test free?",
      "a": "Yes, completely free with no account; punctuation drill results stay on your device."
+    },
+    {
+     "q": "Which punctuation marks slow typists down most?",
+     "a": "The apostrophe, comma and hyphen lead because they need a pinky stretch plus a rhythm break; brackets and quotes follow for programmers. Drill them in short bursts rather than full tests — ten focused minutes beats an hour of mixed typing."
     }
    ],
    "webAppName": "Punctuation Typing Test",
@@ -1238,6 +1270,10 @@
     {
      "q": "Is this accuracy test free?",
      "a": "Yes, free with no sign up. Results are stored only in your browser."
+    },
+    {
+     "q": "What accuracy should I aim for before pushing speed?",
+     "a": "Hold 97% or higher first; only then add pace. Below 95%, every extra WPM costs more correction time than it saves, so the score looks faster while real output slows down."
     }
    ],
    "webAppName": "Typing Speed Test",
@@ -1299,6 +1335,12 @@
      "h2": "A simple practice plan",
      "p": [
       "Week one: two minute sentence tests, focus on accuracy. Week two: add quotes and numbers, keep the same two minutes. Week three: try five minute tests to build endurance. Week four: switch back to one minute and compare your WPM with week one. Most people gain 10 to 20 WPM in a month with this routine."
+     ]
+    },
+    {
+     "h2": "When practice stops working",
+     "p": [
+      "A plateau near 50 or 70 WPM usually means one bottleneck, not general slowness: check your slowest keys in the result panel after each round. Spend a week drilling only those keys in <a href=\"typing-accuracy-test.html\">accuracy test</a> rounds at 97%+ before chasing speed again. If accuracy is fine but speed stalls, your rhythm is uneven — try <a href=\"2-minute-typing-test.html\">2 minute tests</a> at a metronome-steady pace instead of sprinting. Most plateaus break within two focused weeks."
      ]
     }
    ],
@@ -1752,6 +1794,10 @@
     {
      "q": "Are my scores saved?",
      "a": "Yes, your recent results are saved in your own browser so you can try to beat them."
+    },
+    {
+     "q": "How do I level up fastest in the typing game?",
+     "a": "Play short rounds daily instead of one long session, and replay the mode where your accuracy dips lowest. Speed follows accuracy: once a round stays above 97%, push pace and your high score climbs on its own."
     }
    ],
    "webAppName": "Typing Speed Test",
@@ -1860,7 +1906,7 @@
   {
    "file": "wpm-test-online.html",
    "title": "WPM Test Online - Check Your WPM Free, Words Per Minute Checker",
-   "metaDesc": "Free WPM test online. Check your WPM and accuracy instantly in your browser. Pick 15 seconds to 10 minutes, type, and get your words per minute. No sign up.",
+   "metaDesc": "Free WPM test online. Check WPM and accuracy instantly. Pick 15 seconds to 10 minutes, type, get words per minute. No sign up.",
    "canonical": "https://typing.rerivo.com/wpm-test-online.html",
    "dur": 60,
    "mode": "sentences",
@@ -1931,6 +1977,10 @@
     {
      "q": "Can I take the WPM test on my phone?",
      "a": "Yes, it runs in any modern mobile browser, but a physical keyboard gives the truest score — phone keyboards add autocorrect noise. For a quotable result, retest on a real keyboard."
+    },
+    {
+     "q": "Raw vs net WPM — which number should I quote?",
+     "a": "Quote net WPM: it subtracts errors, so employers and certificates trust it. Raw WPM (before errors) is useful only as a training gauge — when raw climbs but net stalls, slow down and fix accuracy first."
     }
    ],
    "webAppName": "WPM Test Online",
@@ -2499,7 +2549,7 @@
   {
    "file": "touch-typing-test.html",
    "title": "Touch Typing Test - Free Touch Typing Practice Online",
-   "metaDesc": "Free touch typing test and practice. Learn to type without looking at the keyboard with home row drills, finger placement, and timed touch typing tests. No sign up.",
+   "metaDesc": "Free touch typing test and practice. Learn to type without looking at the keyboard with home row drills and timed tests. No sign up.",
    "canonical": "https://typing.rerivo.com/touch-typing-test.html",
    "dur": 60,
    "mode": "sentences",
@@ -2589,7 +2639,7 @@
   {
    "file": "typing-race.html",
    "title": "Typing Race - Free Competitive Typing Game & Speed Race Online",
-   "metaDesc": "Free typing race, the competitive typing game online. Race the clock and beat your best WPM with instant results. A typing competition for speed, no sign up.",
+   "metaDesc": "Free typing race, the competitive typing game online. Race the clock, beat your best WPM with instant results. No sign up.",
    "canonical": "https://typing.rerivo.com/typing-race.html",
    "dur": 60,
    "mode": "sentences",
@@ -2685,7 +2735,7 @@
   {
    "file": "typing-tutorial.html",
    "title": "Typing Tutorial - Free Online Typing Tutor for Beginners",
-   "metaDesc": "Free typing tutorial and typing tutor for beginners. Step by step touch typing lessons, finger placement, and timed practice in your browser. No sign up, no cost.",
+   "metaDesc": "Free typing tutorial for beginners. Step by step touch typing lessons, finger placement, and timed practice in your browser. No sign up.",
    "canonical": "https://typing.rerivo.com/typing-tutorial.html",
    "dur": 60,
    "mode": "sentences",
@@ -2951,7 +3001,7 @@
   {
    "file": "typing-trainer.html",
    "title": "Typing Trainer - Free Typing Training Drills & Practice Plans",
-   "metaDesc": "Free typing trainer with training drills and practice plans. Build muscle memory with timed drills, log your WPM, and follow a typing training plan. No sign up.",
+   "metaDesc": "Free typing trainer with drills and practice plans. Build muscle memory with timed drills and log your WPM. No sign up.",
    "canonical": "https://typing.rerivo.com/typing-trainer.html",
    "dur": 60,
    "mode": "sentences",
@@ -3041,7 +3091,7 @@
   {
    "file": "custom-typing-test.html",
    "title": "Custom Typing Test - Free Customizable Typing Test Online",
-   "metaDesc": "Free customizable typing test online. Choose your duration, text type, language, theme and line width, then type and get instant WPM. Fully configurable typing test, no sign up.",
+   "metaDesc": "Free customizable typing test. Choose duration, text type, language, theme and line width, then get instant WPM. No sign up.",
    "canonical": "https://typing.rerivo.com/custom-typing-test.html",
    "dur": 60,
    "mode": "sentences",
@@ -3131,7 +3181,7 @@
   {
    "file": "typing-tests-in-other-languages.html",
    "title": "Typing Tests in Other Languages - Spanish, Chinese, Hindi, Arabic",
-   "metaDesc": "Free typing tests in other languages. Practice typing in Spanish, Chinese, Hindi and Arabic, plus English. Timed multilingual typing tests with instant WPM and accuracy. No sign up.",
+   "metaDesc": "Free typing tests in Spanish, Chinese, Hindi, Arabic and English. Timed multilingual tests with instant WPM and accuracy. No sign up.",
    "canonical": "https://typing.rerivo.com/typing-tests-in-other-languages.html",
    "dur": 60,
    "mode": "sentences",
@@ -3221,7 +3271,7 @@
   {
    "file": "typing-certificate.html",
    "title": "Typing Certificate - Free Printable Typing Test Certificate",
-   "metaDesc": "Free typing certificate. Finish a typing test and print a certificate with your WPM, accuracy, consistency and errors. A printable typing test certificate, no sign up, no paywall.",
+   "metaDesc": "Free typing certificate. Finish a test and print a certificate with WPM, accuracy, consistency and errors. No sign up, no paywall.",
    "canonical": "https://typing.rerivo.com/typing-certificate.html",
    "dur": 60,
    "mode": "sentences",
@@ -3332,7 +3382,7 @@
    "ldPretty": [],
    "file": "dvorak-typing.html",
    "title": "Dvorak Typing Test - Practice & Measure Your Dvorak WPM",
-   "metaDesc": "Free Dvorak typing test. On-screen keyboard switches to the Dvorak layout so you can practice and measure WPM in Dvorak with finger guidance. QWERTY/Dvorak switch included, no sign up.",
+   "metaDesc": "Free Dvorak typing test. On-screen keyboard switches to Dvorak so you can practice and measure WPM with finger guidance. No sign up.",
    "canonical": "https://typing.rerivo.com/dvorak-typing.html",
    "crumbs": [
     "Home",
@@ -3426,7 +3476,7 @@
    "ldPretty": [],
    "file": "one-hand-typing.html",
    "title": "One Hand Typing - Practice & Speed Test for Single-Handed Typists",
-   "metaDesc": "Free one hand typing practice and speed test. Learn to type with one hand using the standard keyboard, with drills, technique and a WPM test that works for left hand or right hand typing. No sign up.",
+   "metaDesc": "Free one hand typing practice and speed test. Type with one hand using the standard keyboard, with drills and a WPM test. No sign up.",
    "canonical": "https://typing.rerivo.com/one-hand-typing.html",
    "crumbs": [
     "Home",
@@ -3608,7 +3658,7 @@
    "ldPretty": [],
    "file": "about.html",
    "title": "About - Typing.Rerivo Free Typing Speed Test",
-   "metaDesc": "About Typing.Rerivo: a free typing speed test built as a single fast web page. 39 timed variants, 5 languages, printable certificates, Dvorak layout and one hand typing practice. No sign up.",
+   "metaDesc": "About Typing.Rerivo: a free typing speed test as a single fast page. 39 timed variants, 5 languages, certificates and Dvorak. No sign up.",
    "canonical": "https://typing.rerivo.com/about.html",
    "crumbs": [
     "Home",
@@ -3671,7 +3721,7 @@
   {
    "file": "average-typing-speed.html",
    "title": "Average Typing Speed - What Is a Good WPM?",
-   "metaDesc": "The average typing speed is about 40 WPM; 45–60 is good and 70+ is advanced. See typing speed benchmarks by skill level, age and profession, then test your WPM free.",
+   "metaDesc": "Average typing speed is about 40 WPM; 45-60 is good, 70+ advanced. Benchmarks by level, age and profession, then test free.",
    "canonical": "https://typing.rerivo.com/average-typing-speed.html",
    "dur": 60,
    "mode": "sentences",
@@ -3860,7 +3910,7 @@
   {
    "file": "typing-test-for-kids.html",
    "title": "Typing Test for Kids - Free Fun WPM Test",
-   "metaDesc": "Free typing test for kids. A simple, fun words-per-minute test for children with a big on-screen keyboard and finger guide. No sign-up and no ads in the typing area.",
+   "metaDesc": "Free typing test for kids. A simple, fun WPM test for children with a big on-screen keyboard and finger guide. No ads in typing area.",
    "canonical": "https://typing.rerivo.com/typing-test-for-kids.html",
    "dur": 60,
    "mode": "words",
@@ -3947,7 +3997,7 @@
   {
    "file": "typing-test-for-jobs.html",
    "title": "Typing Test for Jobs - Free Pre-Employment WPM Test",
-   "metaDesc": "Free typing test for jobs and pre-employment screening. Practise a timed WPM and accuracy test and see the typing speed data entry, admin and support jobs require.",
+   "metaDesc": "Free typing test for jobs and pre-employment screening. Timed WPM and accuracy test; see speeds data entry and admin jobs require.",
    "canonical": "https://typing.rerivo.com/typing-test-for-jobs.html",
    "dur": 60,
    "mode": "sentences",
@@ -4036,7 +4086,7 @@
   {
    "file": "typing-practice-for-programmers.html",
    "title": "Typing Practice for Programmers - Code Typing Test",
-   "metaDesc": "Free typing practice for programmers. Train the symbols, brackets and camelCase that slow coders down — paste your own code as custom text, or drill punctuation and numbers. See the WPM developers need.",
+   "metaDesc": "Free typing practice for programmers. Train symbols, brackets and camelCase that slow coders down; paste your own code as custom text.",
    "canonical": "https://typing.rerivo.com/typing-practice-for-programmers.html",
    "dur": 60,
    "mode": "sentences",
@@ -4123,7 +4173,7 @@
   {
    "file": "how-to-type-without-looking.html",
    "title": "How to Type Without Looking at the Keyboard",
-   "metaDesc": "Learn how to type without looking at the keyboard. Master the home row, the right finger for each key, and the short daily practice that builds touch-typing muscle memory — then test yourself free.",
+   "metaDesc": "Learn to type without looking at the keyboard. Master the home row, the right finger for each key, and short daily practice.",
    "canonical": "https://typing.rerivo.com/how-to-type-without-looking.html",
    "dur": 60,
    "mode": "sentences",
@@ -4209,7 +4259,7 @@
   {
    "file": "colemak-typing.html",
    "title": "Colemak Typing Test - Practice & Measure Your Colemak WPM",
-   "metaDesc": "Free Colemak typing test. The on-screen keyboard switches to the Colemak layout with Colemak finger guidance, so you can practice and measure your Colemak WPM, accuracy and consistency. QWERTY / Dvorak / Colemak switch, no sign up.",
+   "metaDesc": "Free Colemak typing test. On-screen keyboard switches to Colemak with finger guidance; measure WPM, accuracy and consistency. No sign up.",
    "canonical": "https://typing.rerivo.com/colemak-typing.html",
    "dur": 60,
    "mode": "sentences",
@@ -4303,7 +4353,7 @@
   {
    "file": "keyboard-layouts.html",
    "title": "Keyboard Layouts Compared - QWERTY vs Dvorak vs Colemak vs Workman",
-   "metaDesc": "QWERTY vs Dvorak vs Colemak vs Workman compared: home-row use, finger travel and same-finger rate in one table, plus which keyboard layout is best and whether to switch. Then test each layout free.",
+   "metaDesc": "QWERTY vs Dvorak vs Colemak vs Workman compared: home-row use, finger travel and same-finger rate in one table. Test each free.",
    "canonical": "https://typing.rerivo.com/keyboard-layouts.html",
    "dur": 60,
    "mode": "sentences",
