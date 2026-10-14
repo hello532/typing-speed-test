@@ -34,6 +34,15 @@ WEBAPP_CONST = {
                     "Sentences, quotes, numbers and words practice", "Local typing history"],
 }
 
+# Round-6 GEO：全站共享的 OG 图片 alt（单张通用封面，各页一致 → 不破坏骨架唯一）
+OG_IMAGE_ALT = "Rerivo free online typing speed test — measure WPM and accuracy"
+
+# Round-6 GEO：组织 / 站点实体（仅首页输出 Organization + WebSite，其余页空串）
+ORG_OBJ = {"@context": "https://schema.org", "@type": "Organization",
+           "name": "Rerivo", "url": SITE, "logo": SITE + "/icon-512.png"}
+SITE_OBJ = {"@context": "https://schema.org", "@type": "WebSite",
+            "name": "Rerivo Typing Speed Test", "url": SITE + "/"}
+
 
 def esc_attr(s):
     """属性值转义：& → &amp;（原文 <title> 保留裸 &，故 title 不走这里）。"""
@@ -107,6 +116,17 @@ def build_faq(page):
     return "\n".join(parts)
 
 
+def build_tldr(page):
+    """Round-6 GEO：TL;DR 前置摘要（仅配置了 tldr 的页输出，其余空串）。
+
+    落在 hero 区内，骨架归一整块剥除，不影响金标。内容须每页唯一。
+    """
+    t = (page.get("tldr") or "").strip()
+    if not t:
+        return ""
+    return f'    <p class="tldr"><strong>TL;DR:</strong> {t}</p>'
+
+
 def build_jsonld(page, cfg):
     pretty = set(page["ldPretty"])
     wa = {"@context": "https://schema.org", "@type": "WebApplication",
@@ -115,7 +135,8 @@ def build_jsonld(page, cfg):
     # 字段顺序须与原文一致：name,url,applicationCategory,operatingSystem,description,offers,featureList
     wa = {"@context": wa["@context"], "@type": wa["@type"], "name": wa["name"], "url": wa["url"],
           "applicationCategory": wa["applicationCategory"], "operatingSystem": wa["operatingSystem"],
-          "description": cfg["webAppDesc"], "offers": wa["offers"], "featureList": wa["featureList"]}
+          "description": cfg["webAppDesc"], "offers": wa["offers"], "featureList": wa["featureList"],
+          "datePublished": "2026-10-01", "dateModified": "2026-10-14"}
     faq = {"@context": "https://schema.org", "@type": "FAQPage",
            "mainEntity": [{"@type": "Question", "name": f["q"],
                            "acceptedAnswer": {"@type": "Answer", "text": f["a"]}}
@@ -126,7 +147,9 @@ def build_jsonld(page, cfg):
                               for i, it in enumerate(page["bcItems"])]}
     return (ld_block(wa, "WebApplication" in pretty),
             ld_block(faq, "FAQPage" in pretty),
-            ld_block(bc, "BreadcrumbList" in pretty))
+            ld_block(bc, "BreadcrumbList" in pretty),
+            ld_block(ORG_OBJ, False) if page["file"] == "index.html" else "",
+            ld_block(SITE_OBJ, False) if page["file"] == "index.html" else "")
 
 
 def inject_variant(page, engine, variants):
@@ -157,7 +180,7 @@ def inject_variant(page, engine, variants):
 
 
 def render(page, cfg, tpl, css, engine, head_snippet, footer, result, variants, cluster):
-    wa, faq, bc = build_jsonld(page, cfg)
+    wa, faq, bc, org, site = build_jsonld(page, cfg)
     engine_page = inject_variant(page, engine, variants)
     hs = head_snippet
     pl = page.get("lang")
@@ -187,7 +210,12 @@ def render(page, cfg, tpl, css, engine, head_snippet, footer, result, variants, 
         "{{OG_URL}}": page["canonical"],
         "{{TW_TITLE}}": esc_attr(title),
         "{{TW_DESC}}": esc_attr(desc),
+        "{{OG_ALT}}": esc_attr(OG_IMAGE_ALT),
+        "{{TW_ALT}}": esc_attr(OG_IMAGE_ALT),
+        "{{MD_URL}}": page["canonical"].replace(".html", ".md") if page["file"] != "index.html" else SITE + "/index.md",
+        "{{TLDR}}": build_tldr(page),
         "{{LD_WEBAPP}}": wa, "{{LD_FAQ}}": faq, "{{LD_BREADCRUMB}}": bc,
+        "{{LD_ORG}}": org, "{{LD_SITE}}": site,
         "{{CSS}}": css, "{{ENGINE}}": engine_page, "{{HEAD_SNIPPET}}": hs,
         "{{FOOTER}}": footer, "{{RESULT}}": result,
         "{{HEADER}}": build_header(page), "{{CRUMBS}}": build_crumbs(page),
@@ -264,6 +292,51 @@ def build_llms_full(cfg, htmls):
     return "\n".join(parts).rstrip("\n") + "\n"
 
 
+def build_md_mirrors(cfg, htmls):
+    """生成各页的 Markdown 镜像 —— GEO（alternate text/markdown 目标）。
+
+    内容 = H1 + heroP（去标签）+ SEO h2/p + FAQ Q/A，派生自产物 HTML
+    （与 build_llms_full 同源：正则提取 → 去标签 → 空白归一），由 build 生成，
+    main() 里与 llms-full.txt 同模式做 --check 漂移检测，避免手改漂移。
+    文件名：<basename>.md（index.html → index.md），写到仓库根目录。
+    """
+    def clean(s):
+        return re.sub(r"\s+", " ", re.sub(r"<[^>]+>", "", s)).strip()
+
+    mirrors = {}
+    for page in cfg["pages"]:
+        h = htmls.get(page["file"], "")
+        lines = ["# " + page["h1"], "", "Source: " + page["canonical"], ""]
+        hero = clean(page["heroP"])
+        if hero:
+            lines += [hero, ""]
+        seo = re.search(r'<section class="seo">(.*?)</section>', h, re.S)
+        if seo:
+            for tag, txt in re.findall(r"<(h2|p)>(.*?)</\1>", seo.group(1), re.S):
+                txt = clean(txt)
+                if txt:
+                    lines += [f"## {txt}", ""] if tag == "h2" else [txt, ""]
+        faq = re.search(r'<section class="seo faq">(.*?)</section>', h, re.S)
+        fh2 = page.get("faqH2", "FAQ")
+        pairs = []
+        if faq:
+            m2 = re.search(r"<h2>(.*?)</h2>", faq.group(1), re.S)
+            if m2 and clean(m2.group(1)):
+                fh2 = clean(m2.group(1))
+            raw = re.findall(r"<summary>(.*?)</summary>\s*<p>(.*?)</p>", faq.group(1), re.S)
+            pairs = [(clean(q), clean(a)) for q, a in raw]
+            pairs = [(q, a) for q, a in pairs if q or a]
+        if not pairs:  # 兜底：产物正则未命中时回落配置原文（渲染系逐字替换，正常应一致）
+            pairs = [(clean(f["q"]), clean(f["a"])) for f in page.get("faq", [])]
+        if pairs:
+            lines += [f"## {fh2}", ""]
+            for q, a in pairs:
+                lines += [f"### {q}", "", a, ""]
+        name = Path(page["file"]).with_suffix(".md").name
+        mirrors[name] = "\n".join(lines).rstrip("\n") + "\n"
+    return mirrors
+
+
 def main():
     check = "--check" in sys.argv
     cfg = json.loads((SRC / "pages.json").read_text(encoding="utf-8"))
@@ -307,6 +380,17 @@ def main():
             bad.append("llms-full.txt")
     else:
         ftarget.write_text(full, encoding="utf-8")
+
+    # .md 镜像（GEO alternate text/markdown 目标）：派生自产物 HTML，与 llms-full.txt 同模式漂移检测
+    mirrors = build_md_mirrors(cfg, htmls)
+    for name, body in mirrors.items():
+        mtarget = ROOT / name
+        if check:
+            cur = mtarget.read_text(encoding="utf-8") if mtarget.exists() else None
+            if cur != body:
+                bad.append(name)
+        else:
+            mtarget.write_text(body, encoding="utf-8")
 
     if check:
         if bad:

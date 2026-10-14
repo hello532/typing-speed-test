@@ -93,7 +93,7 @@ def main():
     else:
         check("5b. 每页 dur/mode/variant 初值与配置一致", True)
 
-    # 6. JSON-LD 三块可解析且类型正确
+    # 6. JSON-LD 可解析且类型正确（Round-6：首页 + Organization/WebSite）
     bad_ld = []
     for n, h in htmls.items():
         raws = re.findall(r'<script type="application/ld\+json">\s*(\{.*?\})\s*</script>', h, re.S)
@@ -103,9 +103,11 @@ def main():
                 types.append(json.loads(raw)["@type"])
             except Exception as e:
                 bad_ld.append((n, str(e)[:50]))
-        if types != ["WebApplication", "FAQPage", "BreadcrumbList"]:
+        want_types = (["WebApplication", "FAQPage", "BreadcrumbList", "Organization", "WebSite"]
+                      if n == "index.html" else ["WebApplication", "FAQPage", "BreadcrumbList"])
+        if types != want_types:
             bad_ld.append((n, f"types={types}"))
-    check("6. 每页 3 块 JSON-LD 合法且类型顺序正确", not bad_ld, str(bad_ld[:3]) if bad_ld else f"{len(htmls)*3} 块")
+    check("6. 每页 JSON-LD 合法且类型顺序正确（首页 5 块含 Org/Site）", not bad_ld, str(bad_ld[:3]) if bad_ld else f"{len(htmls)*3+2} 块")
 
     # 7. sitemap 与实际页面一致
     sm = ROOT / "sitemap.xml"

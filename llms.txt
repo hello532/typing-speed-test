@@ -63,3 +63,9 @@
 - Free, no registration, privacy-friendly (runs fully in the browser).
 - Features: live WPM/CPM, accuracy %, error highlighting, adjustable virtual keyboard with next-key highlight, on-screen hands finger guide, 5 languages, 3 color themes.
 - Sitemap: https://typing.rerivo.com/sitemap.xml
+
+## Optional
+- Google site verification: https://typing.rerivo.com/google654611a0b43e1965.html
+- Site verification: https://typing.rerivo.com/39f4fcd69975670c8a24a9ab78838ba9.txt
+- [About](https://typing.rerivo.com/about.html): A free browser-only typing speed test; contact and measurement method.
+- [Privacy Policy](https://typing.rerivo.com/privacy-policy.html): No accounts, no cookies, no analytics, no tracking.

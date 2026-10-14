@@ -1,36 +1,42 @@
 # robots.txt — typing.rerivo.com
-# Allow all standard search engines
+# Round-6 GEO policy: search/citation crawlers = allow (else we lose AI
+# citations); training crawlers = disallow (no model training on our copy).
+# Standard search engines
 User-agent: *
 Allow: /
 
-# --- AI / Generative search crawlers (GEO): allow citation & search ---
+# --- AI search & citation crawlers: ALLOW (ChatGPT / Claude / Perplexity refs) ---
 User-agent: OAI-SearchBot
 Allow: /
 User-agent: ChatGPT-User
-Allow: /
-User-agent: GPTBot
 Allow: /
 User-agent: PerplexityBot
 Allow: /
 User-agent: Perplexity-User
 Allow: /
-User-agent: Google-Extended
-Allow: /
-User-agent: Applebot-Extended
-Allow: /
-User-agent: ClaudeBot
-Allow: /
 User-agent: Claude-SearchBot
 Allow: /
 User-agent: Claude-User
 Allow: /
-User-agent: CCBot
+User-agent: Amzn-SearchBot
 Allow: /
 User-agent: Bingbot
 Allow: /
+
+# --- AI training crawlers: DISALLOW (no training use) ---
+User-agent: GPTBot
+Disallow: /
+User-agent: CCBot
+Disallow: /
+User-agent: Google-Extended
+Disallow: /
+User-agent: Applebot-Extended
+Disallow: /
+User-agent: ClaudeBot
+Disallow: /
 User-agent: Amazonbot
-Allow: /
+Disallow: /
 User-agent: cohere-ai
-Allow: /
+Disallow: /
 
 Sitemap: https://typing.rerivo.com/sitemap.xml

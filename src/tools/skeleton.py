@@ -44,11 +44,17 @@ _RULES = [
     (re.compile(r'<meta name="keywords" content=".*?">', re.S), '<meta name="keywords" content="{{KEYWORDS}}">'),
     (re.compile(r'<link rel="canonical" href="[^"]*">'), '<link rel="canonical" href="{{CANONICAL}}">'),
     (re.compile(r'<link rel="alternate"[^>]*>\n?'), ""),
+    (re.compile(r'<link rel="describedby"[^>]*>\n?'), ""),
+    # Round-6 GEO：OG/Twitter 补齐行（全站静态，剥除以保金标稳定）
+    (re.compile(r'<meta property="og:(?:image:width|image:height|image:alt|locale)"[^>]*>\n?'), ""),
+    (re.compile(r'<meta name="twitter:image:alt"[^>]*>\n?'), ""),
     (re.compile(r'<meta property="og:title" content=".*?">', re.S), '<meta property="og:title" content="{{OG}}">'),
     (re.compile(r'<meta property="og:description" content=".*?">', re.S), '<meta property="og:description" content="{{OG}}">'),
     (re.compile(r'<meta property="og:url" content="[^"]*">'), '<meta property="og:url" content="{{OG}}">'),
     (re.compile(r'<meta name="twitter:title" content=".*?">', re.S), '<meta name="twitter:title" content="{{TW}}">'),
     (re.compile(r'<meta name="twitter:description" content=".*?">', re.S), '<meta name="twitter:description" content="{{TW}}">'),
+    # Round-6 GEO：首页专属 Organization / WebSite 块（按 @type 预剥离，金标不动）
+    (re.compile(r'<script type="application/ld\+json">\s*\{"@context":\s*"https://schema\.org",\s*"@type":\s*"(?:Organization|WebSite)".*?\}\s*</script>\n?', re.S), ""),
     # JSON-LD（三块，内容随页）
     (re.compile(r'<script type="application/ld\+json">\s*\{.*?\}\s*</script>', re.S),
      '<script type="application/ld+json">{{LD}}</script>'),
@@ -67,7 +73,7 @@ _RULES = [
     (re.compile(r'<script src="(ui|egg)\.js\?v=\d+'), r'<script src="\1.js?v={{V}}'),
     # 模板占位符 → 规范槽位（src/template.html 渲染前名字与产物不同，需对齐）
     (re.compile(r"\{\{HREFLANG\}\}"), ""),
-    (re.compile(r"\{\{LD_(?:WEBAPP|FAQ|BREADCRUMB)\}\}"), "<script type=\"application/ld+json\">{{LD}}</script>"),
+    (re.compile(r"\{\{LD_(?:WEBAPP|FAQ|BREADCRUMB|ORG|SITE)\}\}"), "<script type=\"application/ld+json\">{{LD}}</script>"),
     (re.compile(r"\{\{HEAD_SNIPPET\}\}"), "{{HEADJS}}"),
     (re.compile(r"(\{\{LD\}\}\s*\n?)+"), "{{LD}}\n"),
     # 行首缩进属纯排版，结构闸门只比 token 结构；统一剥除（末尾空行归一已在上面）

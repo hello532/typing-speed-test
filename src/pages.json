@@ -30,6 +30,7 @@
     "1 Minute Typing Test"
    ],
    "h1": "1 Minute Typing Test",
+   "tldr": "A 1 minute typing test is the standard 60-second check of typing speed: type the passage for exactly one minute, then get instant WPM, accuracy, and error counts. WPM is scored as correct characters divided by 5 divided by 1 minute, so 300 correct characters equals 60 WPM, with both raw and net (errors subtracted) scores shown. Under 30 WPM marks a beginner, 40 to 60 WPM covers the average adult range, 60-plus beats roughly three-quarters of test takers, and 80-plus is professional level. One minute is the length employers and certificates use most, making scores directly comparable.",
    "heroP": "Test your typing speed in exactly <strong>60 seconds</strong>. This one minute typing test measures your words per minute (WPM) and accuracy — the standard quick check most typing sites use.",
    "seo": [
     {
@@ -484,6 +485,7 @@
     "English Typing Test"
    ],
    "h1": "English Typing Test",
+   "tldr": "An English typing test measures speed on real English sentences with punctuation and capitals, scored in WPM where 5 characters count as one word. Because common English words average just under 5 characters, sentence-based scores run slightly higher than random-word drills, so compare like with like. Benchmarks hold at 40 WPM average, 60 to 70 good, and 80-plus professional, always paired with 95 percent-plus accuracy. Practising high-frequency words like the, and, that, and with, plus pairs like th, ing, and tion, builds the muscle memory behind most of the thousands of keystrokes a working day demands.",
    "heroP": "Test your <strong>English typing speed</strong> with real sentences. Measure your words per minute (WPM) and accuracy instantly. Free, no sign up.",
    "seo": [
     {
@@ -662,6 +664,7 @@
     "Free Typing Test"
    ],
    "h1": "Free Typing Test",
+   "tldr": "A free typing test lets you measure WPM and accuracy with zero cost and zero friction: no sign-up, no account, no paywall, and no ads inside the typing area. Every duration from 15 seconds to 10 minutes is included, plus sentences, quotes, numbers, and word drills, live WPM and accuracy readouts, a results graph, and history saved privately in your own browser. Because nothing uploads to a server, unlimited daily retakes cost nothing, and the standard 5-characters-per-word WPM formula with 95 percent accuracy targets applies exactly as on paid tools.",
    "heroP": "A truly <strong>free typing test</strong> — no sign up, no account, no ads in the typing area. Check your WPM and accuracy instantly and practise as much as you like.",
    "seo": [
     {
@@ -750,6 +753,7 @@
    ],
    "crumbs": null,
    "h1": "Free Typing Speed Test",
+   "tldr": "A typing speed test measures how fast and accurately you type, scored in words per minute (WPM), where 5 characters count as one word using the formula of correct characters divided by 5 divided by minutes. The average adult types 40 to 50 WPM, 60 WPM beats most office workers, 80-plus WPM is professional territory, and 100-plus WPM ranks in the top 1 percent of typists. This free online test runs 15 seconds to 10 minutes with sentences, quotes, numbers, and word drills, shows instant WPM and accuracy with 95 percent as the quality benchmark, and needs no sign-up.",
    "heroP": "Measure your <strong>words per minute (WPM)</strong> and accuracy. Choose 15s to 10 minutes, type the text, get instant results. No sign up, free forever.",
    "seo": [
     {
@@ -1050,6 +1054,7 @@
     "Online Typing Test"
    ],
    "h1": "Online Typing Test",
+   "tldr": "An online typing test runs entirely in your browser with nothing to download or install: pick a duration and text type, type, and get instant WPM and accuracy on any device with a keyboard. Scores use the standard formula of correct characters divided by 5 divided by minutes, so 40 to 50 WPM marks the average adult and 60-plus WPM is good for most office work. Once the page loads the test even works if your connection drops, results save locally for private progress tracking, and accuracy above 95 percent is the threshold that makes any speed claim meaningful.",
    "heroP": "A free <strong>online typing test</strong> that runs right in your browser. Check your WPM and accuracy instantly — nothing to install, no sign up.",
    "seo": [
     {
@@ -1229,6 +1234,7 @@
     "Typing Accuracy Test"
    ],
    "h1": "Typing Accuracy Test",
+   "tldr": "A typing accuracy test measures what percentage of your keystrokes are correct, and 95 percent accuracy is the threshold where speed becomes genuinely useful, since below it fixing mistakes costs more time than typing slowly saves. Net WPM subtracts errors from raw WPM, so a fast but sloppy 70 WPM round can score worse than a clean 55 WPM one. Professionals in transcription and data entry hold 97 to 98 percent or more, average typists sit near 92 to 95 percent, and anything under 90 percent signals technique to fix first. Slow down 10 percent, use all ten fingers from the home row, and let speed rebuild on top of clean keystrokes.",
    "heroP": "Measure your <strong>typing accuracy</strong>, not just speed. See your error count and precision alongside WPM. Free, no sign up.",
    "seo": [
     {
@@ -1317,6 +1323,7 @@
     "Typing Practice"
    ],
    "h1": "Typing Practice",
+   "tldr": "Typing practice is deliberate daily repetition that converts hunting and pecking into automatic touch typing, and 10 to 15 focused minutes a day typically adds 10-plus WPM within a month. The method that works: fingers anchored on the home row, eyes on the screen, accuracy above 95 percent before chasing speed, and rotating sentences, quotes, numbers, and word drills to train weak keys. Short daily sessions beat one long weekly grind, two measured rounds a day reveal a trend within a fortnight, and saved local history proves which drills move your WPM.",
    "heroP": "Free <strong>typing practice</strong> online. Switch between sentences, quotes, numbers and words, pick a longer test, and train every day. Your past results are saved in this browser so you can watch your speed grow.",
    "seo": [
     {
@@ -1841,6 +1848,7 @@
     "Words Per Minute Test"
    ],
    "h1": "Words Per Minute Test",
+   "tldr": "Words per minute (WPM) is the standard unit of typing speed, defined as correct characters divided by 5 divided by minutes, so every 5 keystrokes count as one word regardless of actual word length. Net WPM subtracts errors while raw WPM ignores them; always quote net WPM with accuracy above 95 percent for an honest number. Typical benchmarks run 40 to 50 WPM for average adults, 60 to 80 for good office typists, 80 to 100 for the top 10 percent, and 100-plus for the top 1 percent. This free WPM test measures both figures instantly across 15 seconds to 10 minutes.",
    "heroP": "Measure your <strong>words per minute (WPM)</strong> with a free online speed test. Type for one minute or choose 15 seconds up to 10 minutes and get your WPM and accuracy instantly.",
    "seo": [
     {
@@ -1930,6 +1938,7 @@
     "WPM Test Online"
    ],
    "h1": "WPM Test Online",
+   "tldr": "An online WPM test gives you a words-per-minute number in under a minute: type the on-screen passage, and the timer computes correct characters divided by 5 divided by minutes the instant it ends. Treat 40 to 50 WPM as average, 60 as the office-comfort line, 80 as professional, and 100-plus as competitive, always alongside an accuracy readout where 95 percent-plus marks a trustworthy round. Short 15 to 30 second bursts suit warm-ups, the 60-second default matches what most sites and recruiters quote, and free unlimited retakes with local history turn one-off curiosity into a visible trend.",
    "heroP": "Check your <strong>words per minute online</strong> in seconds. This WPM test runs in your browser with instant results — no download, no sign up, no account.",
    "seo": [
     {
@@ -3745,6 +3754,7 @@
     "Average Typing Speed"
    ],
    "h1": "Average Typing Speed",
+   "tldr": "Average typing speed for adults sits at 40 to 50 WPM, the baseline at which most office work feels comfortable. Students and beginners typically start at 20 to 30 WPM, casual typists land at 30 to 40, good office workers reach 60 to 80, fast typists in the top 10 percent hit 80 to 100, and advanced typists above 100 WPM make the top 1 percent. Professional roles like transcription and data entry usually demand 60 to 80 WPM with accuracy above 95 percent. Compare your score against the age and profession tables on this page, and retest over 3 to 5 minutes for a stable benchmark.",
    "heroP": "The <strong>average typing speed is about 40 to 50 words per minute (WPM)</strong> with roughly 92% accuracy. 45–60 WPM is good, 60–80 WPM is above average, and only about 1% of people type faster than 100 WPM. Test your own speed below, then compare it with the benchmarks.",
    "seo": [
     {
