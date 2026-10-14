@@ -30,3 +30,8 @@ jobs:
       # 3) 外链台账数据自检
       - name: backlink ledger check
         run: python3 src/tools/linkops.py ledger check
+
+      # 4) 复盘快照（信息性，不作门禁）：离线确定性输出，便于人工看每轮增量。
+      #    不设 continue-on-error — retro.py 离线只读，跑不通就该红。
+      - name: retrospective snapshot
+        run: python3 src/tools/retro.py

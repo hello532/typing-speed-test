@@ -207,6 +207,25 @@ def main():
     else:
         check("15. llms-full.txt 存在", False, "缺失（build.py 生成）")
 
+    # 16. 闭环快照可生成（retro.py 离线只读；只验字段齐全，不比对内容）
+    #     快照内容随 commit/时间变化，比对内容会让 CI 频繁误红；此处只保证
+    #     「复盘一步跑得通且六段字段在」，真实快照由 CI 信息步/人工查看。
+    r16 = subprocess.run([sys.executable, str(SRC / "tools" / "retro.py"), "--json"],
+                         cwd=ROOT, capture_output=True, text=True)
+    if r16.returncode != 0:
+        check("16. 闭环快照可生成（retro.py）", False, (r16.stderr.strip() or "")[-110:])
+    else:
+        try:
+            snap = json.loads(r16.stdout)
+            need = ["git", "pages", "sitemap", "ai_manifest", "robots", "backlinks"]
+            miss = [k for k in need if k not in snap]
+            pages_ok = snap.get("pages", {}).get("count") == len(pages)
+            check("16. 闭环快照可生成（retro.py）", not miss and pages_ok,
+                  f"缺字段 {miss}" if miss else ("页数不一致" if not pages_ok
+                                                else f"六段齐备，{snap['pages']['count']} 页"))
+        except Exception as e:  # noqa: BLE001 - 快照不可解析即失败
+            check("16. 闭环快照可生成（retro.py）", False, f"输出非 JSON: {e}")
+
     print(f"\n通过 {len(ok)}/{len(ok)+len(fail)} 项")
     if fail:
         print("失败项: " + ", ".join(fail))

@@ -1,6 +1,6 @@
 # Typing.Rerivo
 
-**A free online typing test — 41 landing pages, no signup, no ads.**
+**A free online typing test — 49 landing pages, no signup, no ads.**
 
 🔗 Live: **<https://typing.rerivo.com>**
 
@@ -17,7 +17,7 @@ page, pick a duration, start typing.
 
 ## Features
 
-- **41 landing pages** covering the full duration ladder, practice variants, an
+- **49 landing pages** covering the full duration ladder, practice variants, an
   education line, a games line, and five languages
   ([30 second](https://typing.rerivo.com/30-second-typing-test.html) ·
   [1 minute](https://typing.rerivo.com/1-minute-typing-test.html) ·
@@ -64,16 +64,23 @@ build artifact, never hand-edited.
 - **CI**: `.github/workflows/verify.yml` runs build-drift, all gates and the
   backlink ledger on every push/PR
 - **Link ops**: `src/tools/linkops.py` = backlink ledger (machine-readable
-  `directories.json`), directory probing, and sitemap liveness checks
+  `directories.json`), directory probing, sitemap liveness, **PR-merge sync**
+  (`pr`), and **index-readiness checks** (`index`: live canonical / robots / AI
+  manifests). `src/tools/retro.py` prints a deterministic offline closed-loop
+  snapshot (the "retrospective" step, version-able and diff-able)
 
 ## Local development
 
 ```bash
 python3 build.py                       # render all pages + llms-full.txt from src/
-python3 verify.py                      # 16 gates (structure, JSON-LD, sitemap, harness)
+python3 verify.py                      # 17 gates (structure, JSON-LD, sitemap, harness)
 python3 src/tools/linkops.py ledger report   # backlink ledger status
 python3 src/tools/linkops.py live            # sitemap liveness (all URLs 200?)
+python3 src/tools/linkops.py index           # index readiness (canonical/robots/llms)
+python3 src/tools/linkops.py pr              # sync PR merge state (needs gh auth)
 python3 src/tools/linkops.py probe           # re-probe directories (dry-run)
+python3 src/tools/indexnow.py                # resubmit all URLs to IndexNow
+python3 src/tools/retro.py                   # closed-loop snapshot (offline)
 python3 -m http.server 8000                  # then open http://localhost:8000
 ```
 
@@ -95,6 +102,7 @@ src/               template, pages.json, engine.js, ui.js, footer.html, style.cs
 src/pools/         practice content (en / zh / es / hi / ar)
 src/tools/         skeleton.py + structure_gate.py (structural invariants)
                    linkops.py + directories.json (backlink ledger & probes)
+                   indexnow.py (IndexNow submitter), retro.py (loop snapshot)
                    engine_harness.mjs, lang_default_harness.mjs (behavior tests)
 *.html             generated pages (build artifacts)
 llms-full.txt      generated full-text AI manifest
