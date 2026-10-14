@@ -8,6 +8,8 @@ Measure your words per minute (WPM) with a free online speed test. Type for one 
 
 A words per minute test (WPM test) measures how many words you can type in one minute. The rule is simple: every five characters counts as one word, so longer words add more to your score. Take the test, type the text shown on screen, and your WPM, accuracy and error count are calculated live as you type.
 
+In practice a typing words per minute test is the same measurement under a different name: you type for a fixed time, the test counts correct characters, and dividing that count by five and by the elapsed minutes gives your WPM. Nothing else changes the number, so any result you see here is directly comparable with other typing tests.
+
 ## What is a good WPM score?
 
 What counts as fast depends on context, but the bands below hold for most desk work. Around 40 WPM is typical, 60 WPM handles office and writing work comfortably, and 80+ WPM is genuinely fast — professionals land between 90 and 120. New typists should chase 95%+ accuracy first; speed follows on its own.
@@ -41,3 +43,7 @@ Yes. Unlimited free WPM tests with no sign up and no ads in the typing area; res
 ### How do I raise my WPM score?
 
 Push accuracy above 95% first — errors hurt net WPM twice, once in speed and once in the penalty. Then build speed with daily practice rounds and retest weekly.
+
+### What is a typing words per minute test?
+
+It is a timed typing test that reports your speed in words per minute. You type for 60 seconds (or another length), the test divides your correct characters by five to get words, then divides by the elapsed minutes. A 300-character round is 60 WPM.

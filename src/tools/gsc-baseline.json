@@ -1,0 +1,12 @@
+{
+ "captured": "2026-10-14",
+ "note": "Round-7 起点（服务账号获 GSC 完整权限当日）。growth 子命令以此为对比基线。",
+ "days": 28,
+ "clicks": 4,
+ "impressions": 1197,
+ "ctr": 0.0033,
+ "position": 56.6,
+ "indexed": 23,
+ "not_indexed": 13,
+ "not_indexed_reasons": {"crawled_not_indexed": 11, "discovered_not_indexed": 2}
+}

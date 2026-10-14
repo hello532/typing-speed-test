@@ -37,3 +37,7 @@ Yes — unlimited 1 minute rounds, no sign up, no ads in the typing area. Your h
 ### How can I raise my 1 minute score?
 
 Warm up with one throwaway round, then focus on accuracy: at 95%+ accuracy speed follows. Keep your fingers on the home row, look at the text not your hands, and practise daily with typing drills.
+
+### Is a 1 minute typing test accurate?
+
+Yes, for a quick check. Sixty seconds is long enough that one lucky sentence does not decide the result, and it is the length employers and typing certificates use, so your score compares directly. Take a 3 or 5 minute test when you want a steadier number.

@@ -5,8 +5,8 @@
  "pages": [
   {
    "file": "1-minute-typing-test.html",
-   "title": "1 Minute Typing Test - Free 60 Second WPM Test",
-   "metaDesc": "Free 1 minute typing test. Check your typing speed in 60 seconds and get instant WPM results. No sign-up, unlimited typing tests.",
+   "title": "1 Minute Typing Test - Free 60 Second WPM Typing Test",
+   "metaDesc": "Free 1 minute typing test: type 60 seconds, get your WPM and accuracy instantly. 300 correct characters equals 60 WPM. No sign up, unlimited rounds.",
    "canonical": "https://typing.rerivo.com/1-minute-typing-test.html",
    "dur": 60,
    "mode": "sentences",
@@ -74,6 +74,10 @@
     {
      "q": "How can I raise my 1 minute score?",
      "a": "Warm up with one throwaway round, then focus on accuracy: at 95%+ accuracy speed follows. Keep your fingers on the home row, look at the text not your hands, and practise daily with typing drills."
+    },
+    {
+     "q": "Is a 1 minute typing test accurate?",
+     "a": "Yes, for a quick check. Sixty seconds is long enough that one lucky sentence does not decide the result, and it is the length employers and typing certificates use, so your score compares directly. Take a 3 or 5 minute test when you want a steadier number."
     }
    ],
    "webAppName": "Typing Speed Test",
@@ -1298,8 +1302,8 @@
   },
   {
    "file": "typing-practice.html",
-   "title": "Typing Practice - Free Typing Exercises Online",
-   "metaDesc": "Free online typing practice. Improve typing speed and accuracy with sentence, quote and number exercises. Daily typing training.",
+   "title": "Typing Practice - Free Online Typing Exercises & Drills",
+   "metaDesc": "Free typing practice online: sentences, quotes, numbers and words, 15 seconds to 10 minutes. Build speed with a daily plan. No sign up, saved locally.",
    "canonical": "https://typing.rerivo.com/typing-practice.html",
    "dur": 120,
    "mode": "sentences",
@@ -1823,8 +1827,8 @@
   },
   {
    "file": "words-per-minute-test.html",
-   "title": "Words Per Minute Test - Free WPM Test Online",
-   "metaDesc": "Free words per minute test. Measure your WPM typing speed online with instant results. Multiple test lengths and text types available.",
+   "title": "Words Per Minute Test - Free Typing WPM Test Online",
+   "metaDesc": "Free words per minute test. Type for 60 seconds and see your WPM instantly — 300 correct characters equals 60 WPM. No sign up, unlimited attempts.",
    "canonical": "https://typing.rerivo.com/words-per-minute-test.html",
    "dur": 60,
    "mode": "sentences",
@@ -1854,7 +1858,8 @@
     {
      "h2": "words per minute test",
      "p": [
-      "A <strong>words per minute test</strong> (WPM test) measures how many words you can type in one minute. The rule is simple: every five characters counts as one word, so longer words add more to your score. Take the test, type the text shown on screen, and your WPM, accuracy and error count are calculated live as you type."
+      "A <strong>words per minute test</strong> (WPM test) measures how many words you can type in one minute. The rule is simple: every five characters counts as one word, so longer words add more to your score. Take the test, type the text shown on screen, and your WPM, accuracy and error count are calculated live as you type.",
+      "In practice a <strong>typing words per minute test</strong> is the same measurement under a different name: you type for a fixed time, the test counts correct characters, and dividing that count by five and by the elapsed minutes gives your WPM. Nothing else changes the number, so any result you see here is directly comparable with other typing tests."
      ]
     },
     {
@@ -1895,6 +1900,10 @@
     {
      "q": "How do I raise my WPM score?",
      "a": "Push accuracy above 95% first — errors hurt net WPM twice, once in speed and once in the penalty. Then build speed with daily practice rounds and retest weekly."
+    },
+    {
+     "q": "What is a typing words per minute test?",
+     "a": "It is a timed typing test that reports your speed in words per minute. You type for 60 seconds (or another length), the test divides your correct characters by five to get words, then divides by the elapsed minutes. A 300-character round is 60 WPM."
     }
    ],
    "webAppName": "Typing Speed Test",
@@ -4362,7 +4371,7 @@
   },
   {
    "file": "keyboard-layouts.html",
-   "title": "Keyboard Layouts Compared - QWERTY vs Dvorak vs Colemak vs Workman",
+   "title": "Keyboard Layouts Compared - QWERTY vs Dvorak vs Colemak",
    "metaDesc": "QWERTY vs Dvorak vs Colemak vs Workman compared: home-row use, finger travel and same-finger rate in one table. Test each free.",
    "canonical": "https://typing.rerivo.com/keyboard-layouts.html",
    "dur": 60,
