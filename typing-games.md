@@ -16,6 +16,16 @@ Every game on this site runs the same simple loop: read the text, type it, get y
 
 Keep one simple rule: beat yesterday. Your last scores stay in this browser, so each game has a number to chase. If you miss a lot, slow down and aim for 98 percent accuracy first; speed returns on its own once your fingers stop making errors. Two or three games a day for a month is enough to see a real, lasting jump in your typing speed.
 
+## Do typing games actually make you faster?
+
+Games help mainly when they keep you practising past the point where plain drills feel boring. The mechanism is repetition under mild pressure, not the game itself.
+
+Use games for volume - they are good for extra repetitions, not for measuring progress.
+Measure with a test, not a game - use the 1 minute typing test to track real speed.
+Watch for bad habits - some games reward speed over accuracy; ignore the score and keep form.
+
+A practical split: games or typing race for 5-10 minutes of warm-up, then a timed round for the score that actually counts.
+
 ## Typing games FAQ
 
 ### What are typing games?

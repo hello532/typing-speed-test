@@ -20,6 +20,21 @@ Around 40 WPM is average for adults, 60+ is good, and 80+ is professional. Over 
 
 The costliest error is opening at sprint pace: typists who blast the first thirty seconds usually fade below their 1 minute average by minute three. Second is glancing at the keyboard after every mistake, which breaks rhythm and adds hesitation errors. Third is chasing raw speed while accuracy slides under 95% — each error costs both the keystroke and the correction. Hold a pace about 5% under your one-minute speed, keep your eyes on the screen, and let accuracy carry the score.
 
+## 3 minute typing test scores by role
+
+Use this table to place a 3 minute result against common benchmarks. Figures are typical ranges employers quote for entry-level screening, not hard cut-offs.
+
+Role | Typical WPM ask | Accuracy floor
+General office / admin | 35-45 WPM | 90%
+Data entry | 40-60 WPM | 95%
+Transcription | 60-80 WPM | 96%
+Medical / legal transcription | 70-90 WPM | 98%
+Programmer (prose speed only) | 50-70 WPM | 92%
+
+A 3 minute round is the shortest length that still exposes endurance: typists who peak at 90 WPM for 30 seconds often settle near 60 WPM across three minutes. If your 3 minute score sits well below your 30 second typing test score, the gap is stamina, not raw speed.
+
+Compare against your own history rather than the table. The score that matters is the one you can repeat tomorrow.
+
 ## 3 minute typing test FAQ
 
 ### Why do employers use 3 minute typing tests?

@@ -20,6 +20,15 @@ Start about 10% slower than your 1 minute speed and settle into a rhythm you can
 
 Your ten-minute score tells two stories: the headline WPM, and the fade between your fastest and slowest minutes. A drop under 10% means solid endurance; 10 to 20% is normal and shrinks with practice; more than 20% points to tension — usually raised shoulders or held breath — rather than weak fingers. Check whether errors cluster late in the round, which signals fatigue, or scatter throughout, which signals an accuracy habit; then train the weakness with focused typing practice sessions.
 
+## Preparing for a 10 minute typing test
+
+A 10 minute typing test is an endurance event, not a sprint. Almost everyone finishes 10-15% slower than their 1 minute speed, and that is expected rather than a failure.
+
+Set posture first - feet flat, wrists neutral, elbows near 90 degrees. Discomfort at minute three becomes lost accuracy by minute seven.
+Pace, do not sprint - open at roughly 90% of your comfortable speed and hold it. Sprinting the first minute reliably costs more than it gains.
+Stop correcting every slip - for an endurance score, constant backtracking costs more WPM than the error itself.
+Breathe and relax the shoulders - tension is the main cause of late-round slowdown.
+
 ## 10 minute typing test FAQ
 
 ### Will I slow down over 10 minutes?

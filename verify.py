@@ -207,6 +207,50 @@ def main():
     else:
         check("15. llms-full.txt 存在", False, "缺失（build.py 生成）")
 
+    # 15b. GEO 镜像必须保留结构化内容（表格/清单）
+    #      教训：build_seo 会把 <table>/<div class="tbl">/<ul>/<ol> 原样输出而不包 <p>，
+    #      一旦抽取正则只认 <(h2|p)>，所有基准表与清单会**静默**从 AI 可引用文本里消失
+    #      —— 而基准数据正是最值得被 AI 引用的部分。本 check 锁死该不变式。
+    def _struct_rows(html: str) -> list[str]:
+        """取 seo 区块内表格的每一行 / 清单的每一项（归一为与镜像一致的文本）。
+
+        按「行/项」而不是按词验：按词会因关键字在别处也出现而**假阴性**
+        （删掉 “Data entry...” 后 “Data” 仍可能在正文里）。
+        与 build.py 的 _blocks clean() 同规则（td/th 用 “ | ” 连接、解实体）。
+        """
+        def norm(s: str) -> str:
+            s = re.sub(r"</(?:td|th)>", " | ", s)
+            s = re.sub(r"</(?:tr|li)>", "\n", s)
+            s = re.sub(r"<[^>]+>", "", s)
+            for ent, ch in (("&ndash;", "-"), ("&mdash;", "-"), ("&nbsp;", " "),
+                            ("&amp;", "&"), ("&lt;", "<"), ("&gt;", ">"),
+                            ("&quot;", '"'), ("&#39;", "'")):
+                s = s.replace(ent, ch)
+            lines = [re.sub(r"[ \t]+", " ", ln).strip(" |\t") for ln in s.split("\n")]
+            return "\n".join(ln for ln in lines if ln)
+
+        rows: list[str] = []
+        for sec in re.findall(r'<section class="seo">(.*?)</section>', html, re.S):
+            for blk in re.findall(r"<(?:table|ul|ol)>(.*?)</(?:table|ul|ol)>", sec, re.S):
+                rows += [ln for ln in norm(blk).split("\n") if len(ln) > 12]
+        return rows
+
+    full_text = lf.read_text(encoding="utf-8", errors="replace") if lf.exists() else ""
+    lost_mirror, lost_full = [], []
+    for n in names:
+        rows = _struct_rows((ROOT / n).read_text(encoding="utf-8", errors="replace"))
+        if not rows:
+            continue
+        # 必须按「本页自己的镜像」逐页判：用全局合集会因别页也有同行而假阴性
+        m = ROOT / n.replace(".html", ".md")
+        mtxt = m.read_text(encoding="utf-8", errors="replace") if m.exists() else ""
+        lost_mirror += [f"{n}:{r}" for r in rows if r not in mtxt]
+        lost_full += [f"{n}:{r}" for r in rows if r not in full_text]
+    check("15b. GEO 镜像保留表格/清单内容（防结构化内容静默丢失）",
+          not lost_mirror and not lost_full,
+          f".md 丢 {lost_mirror[:2]} / llms-full 丢 {lost_full[:2]}"
+          if (lost_mirror or lost_full) else f"{sum(len(_struct_rows((ROOT / n).read_text(encoding='utf-8', errors='replace'))) for n in names)} 行表格/清单已进入镜像")
+
     # 16. 闭环快照可生成（retro.py 离线只读；只验字段齐全，不比对内容）
     #     快照内容随 commit/时间变化，比对内容会让 CI 频繁误红；此处只保证
     #     「复盘一步跑得通且六段字段在」，真实快照由 CI 信息步/人工查看。

@@ -16,6 +16,16 @@ Every typing lesson plan starts in the same place: the home row. Rest your left 
 
 Week one: home row only, short one minute lessons, accuracy over speed. Week two: add the top row and the shift keys for capitals, two minute lessons. Week three: cover the bottom row and the number row, then try the number text set. Week four: mix sentences, quotes and punctuation, and test your WPM against week one. Ten to fifteen minutes a day is enough; most learners reach 40 to 60 WPM within a month of daily lessons.
 
+## Typing lessons order: what to learn first
+
+Lessons only work in the right order. Learning speed before home row is the most common way people stall.
+
+1. Home row - asdf jkl; until you can find each key without looking.
+2. Top and bottom rows - add one row at a time; accuracy first, speed later.
+3. Capitals and punctuation - use the capital letter typing test and punctuation typing test.
+4. Numbers - separate skill; the number typing test covers it.
+5. Speed and endurance - only now use the 1 minute and 5 minute timed tests as training.
+
 ## Typing lessons FAQ
 
 ### How long does it take to learn touch typing?

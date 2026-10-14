@@ -10,7 +10,13 @@ This is a free typing test made for kids: simple words, a big on-screen keyboard
 
 ## What is a good typing speed for kids by age?
 
-Children type more slowly than adults, which is completely normal &mdash; the goal at this age is correct finger habits, not speed. These are rough averages; a child who touch types a little slower will overtake a faster hunt-and-peck typist within months.
+Children type more slowly than adults, which is completely normal - the goal at this age is correct finger habits, not speed. These are rough averages; a child who touch types a little slower will overtake a faster hunt-and-peck typist within months.
+
+Age | Average WPM | Notes
+Under 8 | 8-15 WPM | First letters; still finding keys
+8-10 | 12-25 WPM | Home row settling in
+11-13 | 15-30 WPM | Muscle memory building fast
+13-15 | 25-45 WPM | Approaching adult beginner range
 
 ## How kids can type faster (the fun way)
 

@@ -8,7 +8,7 @@ Practice and measure your typing in Colemak. The on-screen keyboard below is alr
 
 Most typing tests only draw a QWERTY keyboard, which is useless for Colemak typing practice: the label you are hunting for is not on the key you press. This test flips the on-screen keyboard to the Colemak layout, keeping the physical QWERTY key positions and relabelling every key, so the finger guide on screen matches exactly what a Colemak typist sees.
 
-Nothing is installed and nothing changes your system. The page only draws the Colemak keyboard; you switch your operating system input to Colemak, start typing, and the test scores the characters your layout produces &mdash; so your WPM, accuracy, consistency and the per-key heatmap are all measured for real Colemak typing.
+Nothing is installed and nothing changes your system. The page only draws the Colemak keyboard; you switch your operating system input to Colemak, start typing, and the test scores the characters your layout produces - so your WPM, accuracy, consistency and the per-key heatmap are all measured for real Colemak typing.
 
 ## Why Colemak
 
@@ -18,7 +18,7 @@ On the same English passage, Colemak keeps about 73% of letters on the home row 
 
 ## How to practice Colemak typing
 
-Set your operating system input to Colemak first, otherwise you would be typing QWERTY characters while looking at a Colemak keyboard. Start with short two-to-five minute sessions and resist looking at your hands &mdash; the finger guide and on-screen keyboard exist to replace that habit.
+Set your operating system input to Colemak first, otherwise you would be typing QWERTY characters while looking at a Colemak keyboard. Start with short two-to-five minute sessions and resist looking at your hands - the finger guide and on-screen keyboard exist to replace that habit.
 
 Expect your speed to drop well below your QWERTY speed for the first week or two; that is the switch cost, not a verdict on Colemak. Track accuracy here before speed, because accuracy recovers first and speed follows it. Compare Colemak with Dvorak and QWERTY on the keyboard layouts page.
 

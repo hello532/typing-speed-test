@@ -20,6 +20,16 @@ Two minutes is the sweet spot between a quick sprint and a full endurance run. I
 
 One reliable routine: open the test at the same time each day, take exactly two rounds with a one-minute stretch break between them, and keep the better score. Two rounds a day is enough to show a trend within a fortnight — most steady practicers gain 5 to 10 WPM in the first month. When progress stalls for a full week, switch to targeted drills for your slowest keys instead of adding more test rounds; our typing tips explain how to find them.
 
+## 2 minute typing test vs 1 minute and 3 minute
+
+Two minutes is the shortest round where a single bad sentence stops dominating the score. A 1 minute typing test can swing 10-15 WPM on one unfamiliar sentence; across two minutes that swing halves.
+
+1 minute - good for daily speed checks and quick warm-ups.
+2 minutes - the sweet spot for a repeatable score you can track week to week.
+3 minute / 5 minute - endurance and technique, used for screening.
+
+If you are tracking progress, keep the length fixed. Comparing a 2 minute score against a 5 minute score tells you about endurance, not improvement.
+
 ## Typing test FAQ
 
 ### How long is a 2 minute typing test?

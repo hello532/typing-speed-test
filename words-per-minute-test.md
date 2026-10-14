@@ -14,6 +14,12 @@ In practice a typing words per minute test is the same measurement under a diffe
 
 What counts as fast depends on context, but the bands below hold for most desk work. Around 40 WPM is typical, 60 WPM handles office and writing work comfortably, and 80+ WPM is genuinely fast — professionals land between 90 and 120. New typists should chase 95%+ accuracy first; speed follows on its own.
 
+Level | Typing speed | What it unlocks
+Average adult | 40-50 WPM | Everyday typing
+Good (office standard) | 60-80 WPM | Most office and writing jobs
+Fast (top ~10%) | 80-100 WPM | Transcription and coding pace
+Advanced (top ~1%) | 100+ WPM | Professional typist territory
+
 Compare yourself properly on the average typing speed benchmarks, broken down by age and profession.
 
 ## WPM vs CPM

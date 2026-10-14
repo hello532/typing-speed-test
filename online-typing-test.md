@@ -20,6 +20,16 @@ The fastest way to raise your WPM online is short, regular sessions. Five focuse
 
 Students check their words-per-minute before online exams, remote workers warm up before a day of emails, call-centre and data-entry applicants rehearse for employer screening tests, and programmers measure how quickly they move through code. Because the test is browser-based and private, anyone can benchmark their speed in under a minute and come back to track steady improvement.
 
+## Online typing test vs installed typing software
+
+An online typing test needs nothing installed, which matters when you are checking speed on a work laptop, a borrowed machine or a Chromebook.
+
+No install or admin rights - the test runs in the browser.
+Same engine everywhere - your score does not depend on which machine you used.
+Nothing leaves the device - results are stored in your own browser, not uploaded.
+
+The one trade-off is the keyboard itself. Typing on an unfamiliar keyboard can cost 5-10 WPM, so if you are comparing scores, compare them on the same machine.
+
 ## Typing test FAQ
 
 ### Do I need to install anything?

@@ -8,6 +8,12 @@ QWERTY, Dvorak, Colemak and Workman compared on home-row use, finger travel and 
 
 A keyboard layout is just the map of which letter sits under each key. QWERTY has been the default since the 1870s, but alternative layouts rearrange the letters so the most common ones sit on the home row, cutting finger travel. Here is how the four best-known layouts compare on the same English text.
 
+Layout | Introduced | Finger travel* | Home-row use | Same-finger
+QWERTY | 1870s | 153 m (baseline) | 36% | 7.9%
+Dvorak | 1936 | 88 m (&minus;42%) | 71% | 3.2%
+Colemak | 2006 | 89 m (&minus;42%) | 73% | 1.5%
+Workman | 2010 | 84 m (&minus;45%) | 67% | 2.0%
+
 *Modeled finger travel for the same 5,847-character English passage on a standard keyboard, with the share of letters typed without leaving the home row and the share of consecutive keys pressed by the same finger. Figures from the Typing Cat layout comparison lab; they are estimates of movement, not measured typing speeds.
 
 ## Which keyboard layout is best?

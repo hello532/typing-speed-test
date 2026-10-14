@@ -8,17 +8,26 @@ Practise a pre-employment typing test the way employers run it: a timed words-pe
 
 Hiring bars are stated as net WPM with an accuracy floor — the table shows what employers commonly ask for by role, plus the test length you will usually face. Most office jobs expect 50–60 WPM; roles where typing is central ask for 60–90 WPM, almost always with 95–98%+ accuracy.
 
-Figures summarise occupational typing data from Wonderlic and TypingTest.now (2025&ndash;2026); real postings vary by employer, test text and keyboard.
+Job / role | Speed required | Accuracy | Common test length
+General office work | 40-55 WPM | 95%+ | 1-3 min
+Customer support / chat | 50-65 WPM | 97%+ | 2-3 min
+Administrative assistant | 50-70 WPM | 97%+ | 3 min
+Data entry | 60-80 WPM | 98%+ | 5 min
+Medical transcription | 65-75 WPM | 98%+ | 5 min
+Executive assistant | 70-80 WPM | 98%+ | 3-5 min
+Legal secretary / paralegal | 70-90 WPM | 99%+ | 5 min
+
+Figures summarise occupational typing data from Wonderlic and TypingTest.now (2025-2026); real postings vary by employer, test text and keyboard.
 
 ## How pre-employment typing tests work
 
-Employer typing tests are timed, usually 1 to 5 minutes, with 3 minutes a common length. They score net WPM &mdash; your speed after errors are subtracted &mdash; so accuracy counts as much as speed. Some tests disable the backspace key, which makes careful typing even more important.
+Employer typing tests are timed, usually 1 to 5 minutes, with 3 minutes a common length. They score net WPM - your speed after errors are subtracted - so accuracy counts as much as speed. Some tests disable the backspace key, which makes careful typing even more important.
 
 Practise at the right length with the 1 minute, 3 minute or 5 minute tests, and check your accuracy.
 
 ## How to pass a typing test for a job
 
-Prioritise accuracy over raw speed &mdash; most employers prefer 60 WPM at 99% accuracy over 75 WPM at 92%. Practise with real sentences, punctuation and numbers rather than simple word lists, take several tests to find a reliable average, and warm up for a minute first. See how you compare with the average typing speed.
+Prioritise accuracy over raw speed - most employers prefer 60 WPM at 99% accuracy over 75 WPM at 92%. Practise with real sentences, punctuation and numbers rather than simple word lists, take several tests to find a reliable average, and warm up for a minute first. See how you compare with the average typing speed.
 
 ## Typing test FAQ
 

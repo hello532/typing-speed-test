@@ -16,6 +16,18 @@ Sit with your feet flat, your forearms roughly level, and the top of your screen
 
 Look at the text, never your hands. Press every key with the finger that owns it on the home row rather than the nearest finger, even when it feels slower at first. Type to the end of a word before you fix an error, instead of stopping mid-word. And slow down to the speed at which you make almost no mistakes; that is the speed your fingers actually learn, and it rises on its own.
 
+## How to type faster and more accurately: a weekly routine
+
+Speed follows accuracy, not the other way round. This is the routine that raises both without turning practice into a chore.
+
+Day 1-2: form only. Run slow rounds at 95%+ accuracy. Ignore WPM entirely.
+Day 3-4: steady rounds. Hold a pace you can repeat. Use a 2 minute typing test so the score is comparable.
+Day 5: push one round. Accept lower accuracy to find your ceiling, then go back to form work.
+Day 6: weak keys. Identify the two or three letters that cost you most and drill them with typing practice.
+Day 7: rest. Progress in typing is consolidated between sessions.
+
+Two things reliably hold people back: looking at the keyboard, and chasing WPM while accuracy is still below 95%. Fix the second one first, with how to type without looking and typing accuracy test.
+
 ## Typing tips FAQ
 
 ### What is the single most important typing tip for beginners?

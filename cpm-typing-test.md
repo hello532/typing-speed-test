@@ -6,7 +6,14 @@ This CPM typing test measures your speed in characters per minute. CPM counts ev
 
 ## What is CPM (characters per minute)?
 
-CPM means characters per minute &mdash; the number of correct characters you type in one minute, counting letters, numbers, spaces and symbols. It is simply a finer-grained version of typing speed. Because a word is defined as five characters, CPM = WPM &times; 5. The table below converts between the two.
+CPM means characters per minute - the number of correct characters you type in one minute, counting letters, numbers, spaces and symbols. It is simply a finer-grained version of typing speed. Because a word is defined as five characters, CPM = WPM &times; 5. The table below converts between the two.
+
+WPM | CPM (= WPM &times; 5) | Level
+20 WPM | 100 CPM | Beginner
+40 WPM | 200 CPM | Average adult
+60 WPM | 300 CPM | Good / office standard
+80 WPM | 400 CPM | Fast
+100 WPM | 500 CPM | Top ~1%
 
 ## CPM vs WPM: which should you use?
 

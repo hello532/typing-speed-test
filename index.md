@@ -16,7 +16,13 @@ Take a short test every day. Start with a 1 minute typing test, then try 2 or 5 
 
 An average typing speed is about 40 WPM. Typing at 60 WPM is faster than most people and good for most office work. Above 80 WPM is fast, and professional typists and developers often reach 90–120 WPM. Children usually start around 20–30 WPM and improve quickly with a few minutes of daily practice.
 
-These are rough bands &mdash; see the full average typing speed benchmarks by age and profession.
+Level | Typing speed
+Average adult | 40-50 WPM
+Good (office standard) | 60-80 WPM
+Fast (top ~10%) | 80-100 WPM
+Advanced (top ~1%) | 100+ WPM
+
+These are rough bands - see the full average typing speed benchmarks by age and profession.
 
 ## Why use an online typing speed test?
 

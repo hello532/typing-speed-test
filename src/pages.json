@@ -5,8 +5,8 @@
  "pages": [
   {
    "file": "1-minute-typing-test.html",
-   "title": "1 Minute Typing Test - Free 60 Second WPM Typing Test",
-   "metaDesc": "Free 1 minute typing test: type 60 seconds, get your WPM and accuracy instantly. 300 correct characters equals 60 WPM. No sign up, unlimited rounds.",
+   "title": "1 Minute Typing Test - One Minute Typing Test, Free WPM",
+   "metaDesc": "Free 1 minute typing test. Type for 60 seconds and get your WPM and accuracy instantly. 300 correct characters equals 60 WPM. No sign up, unlimited rounds.",
    "canonical": "https://typing.rerivo.com/1-minute-typing-test.html",
    "dur": 60,
    "mode": "sentences",
@@ -96,7 +96,7 @@
   },
   {
    "file": "2-minute-typing-test.html",
-   "title": "2 Minute Typing Test - Free 2 Min WPM Test",
+   "title": "2 Minute Typing Test - Free Typing Test 2 Minutes WPM",
    "metaDesc": "Free 2 minute typing test. Check your typing speed and accuracy over 2 minutes with instant WPM results. No sign up, unlimited retries.",
    "canonical": "https://typing.rerivo.com/2-minute-typing-test.html",
    "dur": 120,
@@ -149,6 +149,14 @@
      "h2": "A daily 2 minute practice routine",
      "p": [
       "One reliable routine: open the test at the same time each day, take exactly two rounds with a one-minute stretch break between them, and keep the better score. Two rounds a day is enough to show a trend within a fortnight — most steady practicers gain 5 to 10 WPM in the first month. When progress stalls for a full week, switch to targeted drills for your slowest keys instead of adding more test rounds; our <a href=\"typing-tips.html\">typing tips</a> explain how to find them."
+     ]
+    },
+    {
+     "h2": "2 minute typing test vs 1 minute and 3 minute",
+     "p": [
+      "Two minutes is the shortest round where a single bad sentence stops dominating the score. A <a href=\"1-minute-typing-test.html\">1 minute typing test</a> can swing 10-15 WPM on one unfamiliar sentence; across two minutes that swing halves.",
+      "<ul><li><strong>1 minute</strong> - good for daily speed checks and quick warm-ups.</li><li><strong>2 minutes</strong> - the sweet spot for a repeatable score you can track week to week.</li><li><strong><a href=\"3-minute-typing-test.html\">3 minute</a> / <a href=\"5-minute-typing-test.html\">5 minute</a></strong> - endurance and technique, used for screening.</li></ul>",
+      "If you are tracking progress, keep the length fixed. Comparing a 2 minute score against a 5 minute score tells you about endurance, not improvement."
      ]
     }
    ],
@@ -241,6 +249,14 @@
      "h2": "How to prepare for the 5 minute test",
      "p": [
       "Treat a five-minute attempt like a short workout: sit with feet flat and wrists floating level with the keyboard, roll your shoulders once, then run a <a href=\"1-minute-typing-test.html\">1 minute typing test</a> as a warm-up. Keep water nearby but skip coffee right before — caffeine jitters tend to show up as extra errors around minute three. During the round, breathe steadily and use sentence breaks as micro-rests for your eyes. Two prepared attempts a week beat seven tired ones."
+     ]
+    },
+    {
+     "h2": "5 minute typing test: what a longer round reveals",
+     "p": [
+      "Short tests measure reflexes; a 5 minute typing test measures technique. Most errors that show up here are not typos but fatigue patterns: the left hand drifts off home row, the pinky stops reaching for shift, and accuracy falls before speed does.",
+      "<ul><li><strong>Speed decay</strong> - the WPM you hold at minute four is your working speed. Warm-up speed is not.</li><li><strong>Accuracy drift</strong> - watch whether accuracy falls over time. If it does, slow down rather than push.</li><li><strong>Rhythm breaks</strong> - long pauses cluster around punctuation and capitals, which is where drills pay off most.</li></ul>",
+      "Best practice once you have a baseline: run <a href=\"1-minute-typing-test.html\">1 minute typing tests</a> daily for speed, and a 5 minute round weekly to confirm the speed is sustainable."
      ]
     }
    ],
@@ -643,8 +659,8 @@
   },
   {
    "file": "free-typing-test.html",
-   "title": "Free Typing Test - No Sign Up, Instant WPM",
-   "metaDesc": "A free typing test with no sign up and no ads in the typing area. Check your WPM and accuracy instantly, from 15 seconds to 10 minutes. Free forever.",
+   "title": "Free Typing Test With WPM - No Sign Up, Instant Results",
+   "metaDesc": "A free typing test with WPM and accuracy, no sign up and no ads in the typing area. Test typing speed from 15 seconds to 10 minutes. Free forever.",
    "canonical": "https://typing.rerivo.com/free-typing-test.html",
    "dur": 60,
    "mode": "sentences",
@@ -1033,8 +1049,8 @@
   },
   {
    "file": "online-typing-test.html",
-   "title": "Online Typing Test - Free WPM Speed Test",
-   "metaDesc": "Free online typing test. Check your typing speed in WPM and accuracy right in your browser — nothing to install, no sign up.",
+   "title": "Online Typing Test - Free WPM Typing Speed Test",
+   "metaDesc": "Free online typing test: check your WPM typing speed and accuracy in your browser, nothing to install, no sign up. Unlimited rounds, instant results.",
    "canonical": "https://typing.rerivo.com/online-typing-test.html",
    "dur": 60,
    "mode": "sentences",
@@ -1083,6 +1099,14 @@
      "h2": "Who uses an online typing test",
      "p": [
       "Students check their words-per-minute before online exams, remote workers warm up before a day of emails, call-centre and data-entry applicants rehearse for employer screening tests, and programmers measure how quickly they move through code. Because the test is browser-based and private, anyone can benchmark their speed in under a minute and come back to track steady improvement."
+     ]
+    },
+    {
+     "h2": "Online typing test vs installed typing software",
+     "p": [
+      "An online typing test needs nothing installed, which matters when you are checking speed on a work laptop, a borrowed machine or a Chromebook.",
+      "<ul><li><strong>No install or admin rights</strong> - the test runs in the browser.</li><li><strong>Same engine everywhere</strong> - your score does not depend on which machine you used.</li><li><strong>Nothing leaves the device</strong> - results are stored in your own browser, not uploaded.</li></ul>",
+      "The one trade-off is the keyboard itself. Typing on an unfamiliar keyboard can cost 5-10 WPM, so if you are comparing scores, compare them on the same machine."
      ]
     }
    ],
@@ -1447,6 +1471,14 @@
      "p": [
       "Keep one simple rule: beat yesterday. Your last scores stay in this browser, so each game has a number to chase. If you miss a lot, slow down and aim for 98 percent accuracy first; speed returns on its own once your fingers stop making errors. Two or three games a day for a month is enough to see a real, lasting jump in your typing speed."
      ]
+    },
+    {
+     "h2": "Do typing games actually make you faster?",
+     "p": [
+      "Games help mainly when they keep you practising past the point where plain drills feel boring. The mechanism is repetition under mild pressure, not the game itself.",
+      "<ul><li><strong>Use games for volume</strong> - they are good for extra repetitions, not for measuring progress.</li><li><strong>Measure with a test, not a game</strong> - use the <a href=\"1-minute-typing-test.html\">1 minute typing test</a> to track real speed.</li><li><strong>Watch for bad habits</strong> - some games reward speed over accuracy; ignore the score and keep form.</li></ul>",
+      "A practical split: games or <a href=\"typing-race.html\">typing race</a> for 5-10 minutes of warm-up, then a timed round for the score that actually counts."
+     ]
     }
    ],
    "faqFirstOpen": true,
@@ -1532,6 +1564,13 @@
      "h2": "A free four week typing lesson plan",
      "p": [
       "Week one: home row only, short one minute lessons, accuracy over speed. Week two: add the top row and the shift keys for capitals, two minute lessons. Week three: cover the bottom row and the number row, then try the number text set. Week four: mix sentences, quotes and punctuation, and test your WPM against week one. Ten to fifteen minutes a day is enough; most learners reach 40 to 60 WPM within a month of daily lessons."
+     ]
+    },
+    {
+     "h2": "Typing lessons order: what to learn first",
+     "p": [
+      "Lessons only work in the right order. Learning speed before home row is the most common way people stall.",
+      "<ul><li><strong>1. Home row</strong> - asdf jkl; until you can find each key without looking.</li><li><strong>2. Top and bottom rows</strong> - add one row at a time; accuracy first, speed later.</li><li><strong>3. Capitals and punctuation</strong> - use the <a href=\"capital-letter-typing-test.html\">capital letter typing test</a> and <a href=\"punctuation-typing-test.html\">punctuation typing test</a>.</li><li><strong>4. Numbers</strong> - separate skill; the <a href=\"number-typing-test.html\">number typing test</a> covers it.</li><li><strong>5. Speed and endurance</strong> - only now use the <a href=\"1-minute-typing-test.html\">1 minute</a> and <a href=\"5-minute-typing-test.html\">5 minute</a> timed tests as training.</li></ul>"
      ]
     }
    ],
@@ -1661,8 +1700,8 @@
   },
   {
    "file": "typing-tips.html",
-   "title": "Typing Tips - Practical Tips to Type Faster and More Accurately",
-   "metaDesc": "Free typing tips. Practical, proven tips to improve typing speed and accuracy - posture, finger placement, accuracy drills and daily habits. No sign up.",
+   "title": "How to Type Faster and More Accurately - Typing Tips",
+   "metaDesc": "Practical typing tips: how to type faster and more accurately with better posture, finger placement, accuracy drills and daily habits. Free, no sign up.",
    "canonical": "https://typing.rerivo.com/typing-tips.html",
    "dur": 60,
    "mode": "sentences",
@@ -1704,6 +1743,14 @@
      "h2": "Accuracy tips that also build speed",
      "p": [
       "Look at the text, never your hands. Press every key with the finger that owns it on the home row rather than the nearest finger, even when it feels slower at first. Type to the end of a word before you fix an error, instead of stopping mid-word. And slow down to the speed at which you make almost no mistakes; that is the speed your fingers actually learn, and it rises on its own."
+     ]
+    },
+    {
+     "h2": "How to type faster and more accurately: a weekly routine",
+     "p": [
+      "Speed follows accuracy, not the other way round. This is the routine that raises both without turning practice into a chore.",
+      "<ul><li><strong>Day 1-2: form only.</strong> Run slow rounds at 95%+ accuracy. Ignore WPM entirely.</li><li><strong>Day 3-4: steady rounds.</strong> Hold a pace you can repeat. Use a <a href=\"2-minute-typing-test.html\">2 minute typing test</a> so the score is comparable.</li><li><strong>Day 5: push one round.</strong> Accept lower accuracy to find your ceiling, then go back to form work.</li><li><strong>Day 6: weak keys.</strong> Identify the two or three letters that cost you most and drill them with <a href=\"typing-practice.html\">typing practice</a>.</li><li><strong>Day 7: rest.</strong> Progress in typing is consolidated between sessions.</li></ul>",
+      "Two things reliably hold people back: looking at the keyboard, and chasing WPM while accuracy is still below 95%. Fix the second one first, with <a href=\"how-to-type-without-looking.html\">how to type without looking</a> and <a href=\"typing-accuracy-test.html\">typing accuracy test</a>."
      ]
     }
    ],
@@ -1835,8 +1882,8 @@
   },
   {
    "file": "words-per-minute-test.html",
-   "title": "Words Per Minute Test - Free Typing WPM Test Online",
-   "metaDesc": "Free words per minute test: type 60 seconds, see your WPM instantly. 300 correct characters equals 60 WPM. No sign up, unlimited rounds.",
+   "title": "Typing Words Per Minute Test - Free WPM Test Online",
+   "metaDesc": "Free typing words per minute test: type for 60 seconds and see your WPM instantly. 300 correct characters equals 60 WPM. No sign up, unlimited rounds.",
    "canonical": "https://typing.rerivo.com/words-per-minute-test.html",
    "dur": 60,
    "mode": "sentences",
@@ -2174,6 +2221,15 @@
      "p": [
       "The costliest error is opening at sprint pace: typists who blast the first thirty seconds usually fade below their <a href=\"1-minute-typing-test.html\">1 minute</a> average by minute three. Second is glancing at the keyboard after every mistake, which breaks rhythm and adds hesitation errors. Third is chasing raw speed while accuracy slides under 95% — each error costs both the keystroke and the correction. Hold a pace about 5% under your one-minute speed, keep your eyes on the screen, and let accuracy carry the score."
      ]
+    },
+    {
+     "h2": "3 minute typing test scores by role",
+     "p": [
+      "Use this table to place a 3 minute result against common benchmarks. Figures are typical ranges employers quote for entry-level screening, not hard cut-offs.",
+      "<table><thead><tr><th>Role</th><th>Typical WPM ask</th><th>Accuracy floor</th></tr></thead><tbody><tr><td>General office / admin</td><td>35-45 WPM</td><td>90%</td></tr><tr><td>Data entry</td><td>40-60 WPM</td><td>95%</td></tr><tr><td>Transcription</td><td>60-80 WPM</td><td>96%</td></tr><tr><td>Medical / legal transcription</td><td>70-90 WPM</td><td>98%</td></tr><tr><td>Programmer (prose speed only)</td><td>50-70 WPM</td><td>92%</td></tr></tbody></table>",
+      "A 3 minute round is the shortest length that still exposes endurance: typists who peak at 90 WPM for 30 seconds often settle near 60 WPM across three minutes. If your 3 minute score sits well below your <a href=\"30-second-typing-test.html\">30 second typing test</a> score, the gap is stamina, not raw speed.",
+      "Compare against your own history rather than the table. The score that matters is the one you can repeat tomorrow."
+     ]
     }
    ],
    "faqFirstOpen": true,
@@ -2265,6 +2321,13 @@
      "h2": "Reading your 10 minute result",
      "p": [
       "Your ten-minute score tells two stories: the headline WPM, and the fade between your fastest and slowest minutes. A drop under 10% means solid endurance; 10 to 20% is normal and shrinks with practice; more than 20% points to tension — usually raised shoulders or held breath — rather than weak fingers. Check whether errors cluster late in the round, which signals fatigue, or scatter throughout, which signals an accuracy habit; then train the weakness with focused <a href=\"typing-practice.html\">typing practice</a> sessions."
+     ]
+    },
+    {
+     "h2": "Preparing for a 10 minute typing test",
+     "p": [
+      "A 10 minute typing test is an endurance event, not a sprint. Almost everyone finishes 10-15% slower than their <a href=\"1-minute-typing-test.html\">1 minute</a> speed, and that is expected rather than a failure.",
+      "<ul><li><strong>Set posture first</strong> - feet flat, wrists neutral, elbows near 90 degrees. Discomfort at minute three becomes lost accuracy by minute seven.</li><li><strong>Pace, do not sprint</strong> - open at roughly 90% of your comfortable speed and hold it. Sprinting the first minute reliably costs more than it gains.</li><li><strong>Stop correcting every slip</strong> - for an endurance score, constant backtracking costs more WPM than the error itself.</li><li><strong>Breathe and relax the shoulders</strong> - tension is the main cause of late-round slowdown.</li></ul>"
      ]
     }
    ],

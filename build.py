@@ -256,6 +256,35 @@ def build_ui_js():
     return out
 
 
+def _blocks(html_section: str) -> list[str]:
+    """把 seo/faq 区块里的可引用内容抽成纯文本块。
+
+    关键：`build_seo` 会把 <table>/<div class="tbl">/<ul>/<ol> 原样输出（不包 <p>），
+    所以只匹配 <(h2|p)> 会**静默丢掉所有基准表与清单**——而这些恰恰是基准数据
+    （WPM 分档、按年龄、按职业），是 AI 引擎最值得引用的部分。
+    这里按 <h2> / <p> / 列表块 / 表格块 四类分别抽取，表格按行降级为可读文本。
+    """
+    def clean(s: str) -> str:
+        s = re.sub(r"(?i)<br\s*/?>", " ", s)
+        s = re.sub(r"</(?:td|th)>", " | ", s)
+        s = re.sub(r"</(?:tr|li)>", "\n", s)
+        s = re.sub(r"<[^>]+>", "", s)
+        s = s.replace("&ndash;", "-").replace("&mdash;", "-")
+        s = s.replace("&amp;", "&").replace("&nbsp;", " ")
+        s = s.replace("&lt;", "<").replace("&gt;", ">")
+        s = s.replace("&quot;", '"').replace("&#39;", "'")
+        lines = [re.sub(r"[ \t]+", " ", ln).strip(" |\t") for ln in s.split("\n")]
+        return "\n".join(ln for ln in lines if ln)
+
+    out = []
+    for tag, txt in re.findall(r"<(h2|p|ul|ol|table)>(.*?)</\1>", html_section, re.S):
+        t = clean(txt)
+        if not t:
+            continue
+        out.append(f"## {t}" if tag == "h2" else t)
+    return out
+
+
 def build_llms_full(cfg, htmls):
     """生成 llms-full.txt —— AI 抓取清单的「全文版」（GEO）。
 
@@ -275,13 +304,8 @@ def build_llms_full(cfg, htmls):
         faq = re.search(r'<section class="seo faq">(.*?)</section>', h, re.S)
         body = []
         for blk in (seo, faq):
-            if not blk:
-                continue
-            for m in re.findall(r"<(?:h2|p)>(.*?)</(?:h2|p)>", blk.group(1), re.S):
-                txt = re.sub(r"<[^>]+>", "", m)
-                txt = re.sub(r"\s+", " ", txt).strip()
-                if txt:
-                    body.append(txt)
+            if blk:
+                body.extend(_blocks(blk.group(1)))
         parts.append(f"## {page['h1']}")
         parts.append(f"Source: {url}")
         parts.append("")
@@ -312,10 +336,11 @@ def build_md_mirrors(cfg, htmls):
             lines += [hero, ""]
         seo = re.search(r'<section class="seo">(.*?)</section>', h, re.S)
         if seo:
-            for tag, txt in re.findall(r"<(h2|p)>(.*?)</\1>", seo.group(1), re.S):
-                txt = clean(txt)
-                if txt:
-                    lines += [f"## {txt}", ""] if tag == "h2" else [txt, ""]
+            for blk in _blocks(seo.group(1)):
+                if blk.startswith("## "):
+                    lines += [blk, ""]
+                else:
+                    lines += [blk, ""]
         faq = re.search(r'<section class="seo faq">(.*?)</section>', h, re.S)
         fh2 = page.get("faqH2", "FAQ")
         pairs = []

@@ -6,11 +6,16 @@ Programmers type a lot of symbols, brackets and camelCase &mdash; the exact char
 
 ## Why typing speed matters for programmers
 
-A good typing speed for a programmer is 50&ndash;70 WPM, but coding is not a typing race &mdash; you spend far more time thinking than typing. Speed matters where it removes friction: the faster your fingers find brackets, operators and names, the less a thought is interrupted on its way to the screen. Accuracy matters even more, because a mistyped symbol is a syntax error you have to hunt down.
+A good typing speed for a programmer is 50-70 WPM, but coding is not a typing race - you spend far more time thinking than typing. Speed matters where it removes friction: the faster your fingers find brackets, operators and names, the less a thought is interrupted on its way to the screen. Accuracy matters even more, because a mistyped symbol is a syntax error you have to hunt down.
 
 ## What slows programmers down
 
-Code is dense with characters that ordinary typing practice never covers &mdash; brackets, semicolons, operators, and numbers &mdash; plus naming styles like camelCase and snake_case that break your rhythm. The fix is to practise those specific characters, not more prose.
+Code is dense with characters that ordinary typing practice never covers - brackets, semicolons, operators, and numbers - plus naming styles like camelCase and snake_case that break your rhythm. The fix is to practise those specific characters, not more prose.
+
+What you type in code | Why it is slow | Practise it here
+Brackets & symbols () {} [] ; = > | Rare in word tests; awkward reaches for the pinkies | Punctuation test
+Numbers & operators | Top row and keypad use different muscle memory | Number test
+Your real code | camelCase, indentation and your stack&rsquo;s idioms | Custom text
 
 ## How to practise typing as a developer
 

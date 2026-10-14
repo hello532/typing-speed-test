@@ -20,6 +20,16 @@ A five-minute test measures something a quick sprint can't: how well you hold sp
 
 Treat a five-minute attempt like a short workout: sit with feet flat and wrists floating level with the keyboard, roll your shoulders once, then run a 1 minute typing test as a warm-up. Keep water nearby but skip coffee right before — caffeine jitters tend to show up as extra errors around minute three. During the round, breathe steadily and use sentence breaks as micro-rests for your eyes. Two prepared attempts a week beat seven tired ones.
 
+## 5 minute typing test: what a longer round reveals
+
+Short tests measure reflexes; a 5 minute typing test measures technique. Most errors that show up here are not typos but fatigue patterns: the left hand drifts off home row, the pinky stops reaching for shift, and accuracy falls before speed does.
+
+Speed decay - the WPM you hold at minute four is your working speed. Warm-up speed is not.
+Accuracy drift - watch whether accuracy falls over time. If it does, slow down rather than push.
+Rhythm breaks - long pauses cluster around punctuation and capitals, which is where drills pay off most.
+
+Best practice once you have a baseline: run 1 minute typing tests daily for speed, and a 5 minute round weekly to confirm the speed is sustainable.
+
 ## Typing test FAQ
 
 ### Is a 5 minute typing test more accurate?

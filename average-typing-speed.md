@@ -6,17 +6,42 @@ The average typing speed is about 40 to 50 words per minute (WPM) with roughly 9
 
 ## What is the average typing speed?
 
-The average typing speed is about 40 to 50 words per minute (WPM) with roughly 92% accuracy &mdash; that is where most adults land without deliberate practice. A speed of 45–60 WPM is considered good, 60–80 WPM is above average, and only about 1% of people type faster than 100 WPM. The table below shows how typing speeds are usually classified.
+The average typing speed is about 40 to 50 words per minute (WPM) with roughly 92% accuracy - that is where most adults land without deliberate practice. A speed of 45–60 WPM is considered good, 60–80 WPM is above average, and only about 1% of people type faster than 100 WPM. The table below shows how typing speeds are usually classified.
+
+Skill level | Speed (WPM) | What it means
+Beginner | Under 30 WPM | Still learning; hunt-and-peck on many keys
+Below average | 30-45 WPM | Functional but slow; typing takes conscious effort
+Average | 40-50 WPM | Where most adults land without practice
+Good / above average | 60-80 WPM | Comfortable; meets most office job requirements
+Fast | 80-100 WPM | Top ~10% of typists
+Advanced / elite | 100+ WPM | Top ~1%; only about 1% type over 100 WPM
 
 ## Average typing speed by age
 
 Typing speed is shaped more by how long someone has typed daily than by age itself, but it does follow a rough curve: it climbs through the teens, peaks in the late teens to twenties, then eases slightly later in life. These are approximate averages.
 
+Age group | Average WPM | Notes
+Under 13 | 15-30 WPM | Still building muscle memory; wide variance
+13-18 | 35-55 WPM | Heavy phone users are often slower than expected
+18-30 | 50-65 WPM | Peak learning years; fastest improvement
+30-45 | 45-60 WPM | Stable; reflects accumulated work habits
+45-60 | 40-55 WPM | Slight drop in raw speed, often higher accuracy
+60+ | 30-45 WPM | Motor slowdown; practice still helps
+
 ## Typing speed by profession
 
-Different jobs demand very different typing speeds. Roles where typing is the job &mdash; data entry, transcription, legal and executive support &mdash; expect well above average, while general office work is fine around 40–55 WPM. Accuracy usually matters as much as raw speed.
+Different jobs demand very different typing speeds. Roles where typing is the job - data entry, transcription, legal and executive support - expect well above average, while general office work is fine around 40–55 WPM. Accuracy usually matters as much as raw speed.
 
-Benchmarks compiled from occupational typing data published by Wonderlic and TypingTest.now (2025&ndash;2026). Actual requirements vary by employer, test length, text and keyboard.
+Job / role | Typing speed expected | Typical accuracy
+General office work | 40-55 WPM | 95%+
+Customer support / chat | 50-65 WPM | 97%+
+Administrative assistant | 50-70 WPM | 97%+
+Data entry | 60-80 WPM | 98%+
+Medical transcription | 65-75 WPM | 98%+
+Executive assistant | 70-80 WPM | 98%+
+Legal secretary / paralegal | 70-90 WPM | 99%+
+
+Benchmarks compiled from occupational typing data published by Wonderlic and TypingTest.now (2025-2026). Actual requirements vary by employer, test length, text and keyboard.
 
 Want your own number? Take the typing speed test, measure it in characters per minute, or see the speeds employers require for jobs.
 
