@@ -1303,7 +1303,7 @@
   {
    "file": "typing-practice.html",
    "title": "Typing Practice - Free Online Typing Exercises & Drills",
-   "metaDesc": "Free typing practice online: sentences, quotes, numbers and words, 15 seconds to 10 minutes. Build speed with a daily plan. No sign up, saved locally.",
+   "metaDesc": "Free typing practice online — timed drills from 15 seconds to 10 minutes. Daily plan, instant WPM and accuracy. No sign up, progress saved locally.",
    "canonical": "https://typing.rerivo.com/typing-practice.html",
    "dur": 120,
    "mode": "sentences",
@@ -1352,6 +1352,14 @@
      "h2": "When practice stops working",
      "p": [
       "A plateau near 50 or 70 WPM usually means one bottleneck, not general slowness: check your slowest keys in the result panel after each round. Spend a week drilling only those keys in <a href=\"typing-accuracy-test.html\">accuracy test</a> rounds at 97%+ before chasing speed again. If accuracy is fine but speed stalls, your rhythm is uneven — try <a href=\"2-minute-typing-test.html\">2 minute tests</a> at a metronome-steady pace instead of sprinting. Most plateaus break within two focused weeks."
+     ]
+    },
+    {
+     "h2": "Free online typing practice, without the sign-up wall",
+     "p": [
+      "Most <strong>free typing practice</strong> sites are free until you want to see your score, then ask for an account. This page is not: every drill is open, every result is shown immediately, and your history stays in your own browser. That matters more than it sounds, because practice you can start in three seconds is practice you will actually repeat daily.",
+      "If you searched for <strong>online typing practice</strong>, the useful question is not which site has the most lessons but which one gives you a number you can trust and compare. Take one 60-second round here as a baseline, note the WPM and accuracy, then pick a single drill type below and repeat it for a week. Accuracy first: a 97% round beats a fast sloppy one for building the muscle memory that raises speed later.",
+      "Ready-made exercise sets cover sentences, quotes, numbers and words, and every length from 15 seconds to 10 minutes is available, so you can practise in the gaps of a normal day. Start with the <a href=\"learn-to-type-faster.html\">learn to type faster</a> plan if you want a fixed routine, or jump straight into a round below."
      ]
     }
    ],
@@ -1828,7 +1836,7 @@
   {
    "file": "words-per-minute-test.html",
    "title": "Words Per Minute Test - Free Typing WPM Test Online",
-   "metaDesc": "Free words per minute test. Type for 60 seconds and see your WPM instantly — 300 correct characters equals 60 WPM. No sign up, unlimited attempts.",
+   "metaDesc": "Free words per minute test: type 60 seconds, see your WPM instantly. 300 correct characters equals 60 WPM. No sign up, unlimited rounds.",
    "canonical": "https://typing.rerivo.com/words-per-minute-test.html",
    "dur": 60,
    "mode": "sentences",

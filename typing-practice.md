@@ -20,6 +20,14 @@ Week one: two minute sentence tests, focus on accuracy. Week two: add quotes and
 
 A plateau near 50 or 70 WPM usually means one bottleneck, not general slowness: check your slowest keys in the result panel after each round. Spend a week drilling only those keys in accuracy test rounds at 97%+ before chasing speed again. If accuracy is fine but speed stalls, your rhythm is uneven — try 2 minute tests at a metronome-steady pace instead of sprinting. Most plateaus break within two focused weeks.
 
+## Free online typing practice, without the sign-up wall
+
+Most free typing practice sites are free until you want to see your score, then ask for an account. This page is not: every drill is open, every result is shown immediately, and your history stays in your own browser. That matters more than it sounds, because practice you can start in three seconds is practice you will actually repeat daily.
+
+If you searched for online typing practice, the useful question is not which site has the most lessons but which one gives you a number you can trust and compare. Take one 60-second round here as a baseline, note the WPM and accuracy, then pick a single drill type below and repeat it for a week. Accuracy first: a 97% round beats a fast sloppy one for building the muscle memory that raises speed later.
+
+Ready-made exercise sets cover sentences, quotes, numbers and words, and every length from 15 seconds to 10 minutes is available, so you can practise in the gaps of a normal day. Start with the learn to type faster plan if you want a fixed routine, or jump straight into a round below.
+
 ## Typing test FAQ
 
 ### What is typing practice?
