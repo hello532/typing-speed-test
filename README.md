@@ -63,6 +63,11 @@ build artifact, never hand-edited.
   edits. `verify.py` (16 gates) + engine behavior harness keep products honest
 - **CI**: `.github/workflows/verify.yml` runs build-drift, all gates and the
   backlink ledger on every push/PR
+- **Search Console (GSC)**: `src/tools/gsc.py` reads real Search
+  Console data (service-account JWT → API): `report`, `pages`, `queries`,
+  `unindexed`, `growth`, and `snapshot` (writes `gsc-snapshot.json`, which the
+  offline `retro.py` picks up). Needs the service account to be granted access
+  in GSC; absent credentials it exits with setup guidance.
 - **Link ops**: `src/tools/linkops.py` = backlink ledger (machine-readable
   `directories.json`), directory probing, sitemap liveness, **PR-merge sync**
   (`pr`), and **index-readiness checks** (`index`: live canonical / robots / AI
@@ -73,7 +78,7 @@ build artifact, never hand-edited.
 
 ```bash
 python3 build.py                       # render all pages + llms-full.txt from src/
-python3 verify.py                      # 17 gates (structure, JSON-LD, sitemap, harness)
+python3 verify.py                      # 18 gates (structure, JSON-LD, sitemap, harness)
 python3 src/tools/linkops.py ledger report   # backlink ledger status
 python3 src/tools/linkops.py live            # sitemap liveness (all URLs 200?)
 python3 src/tools/linkops.py index           # index readiness (canonical/robots/llms)
@@ -81,6 +86,9 @@ python3 src/tools/linkops.py pr              # sync PR merge state (needs gh aut
 python3 src/tools/linkops.py probe           # re-probe directories (dry-run)
 python3 src/tools/indexnow.py                # resubmit all URLs to IndexNow
 python3 src/tools/retro.py                   # closed-loop snapshot (offline)
+python3 src/tools/gsc.py report              # Search Console performance
+python3 src/tools/gsc.py growth              # growth vs src/tools/gsc-baseline.json
+python3 src/tools/gsc.py snapshot            # store data for retro.py
 python3 -m http.server 8000                  # then open http://localhost:8000
 ```
 
@@ -103,6 +111,7 @@ src/pools/         practice content (en / zh / es / hi / ar)
 src/tools/         skeleton.py + structure_gate.py (structural invariants)
                    linkops.py + directories.json (backlink ledger & probes)
                    indexnow.py (IndexNow submitter), retro.py (loop snapshot)
+                   gsc.py + gsc-baseline.json (Search Console data & baseline)
                    engine_harness.mjs, lang_default_harness.mjs (behavior tests)
 *.html             generated pages (build artifacts)
 llms-full.txt      generated full-text AI manifest

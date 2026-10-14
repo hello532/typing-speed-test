@@ -98,7 +98,31 @@ def collect() -> dict:
                    "disallow_ua": disallow},
         "backlinks": {"total": len(rows), "by_status": dict(status),
                       "open_prs": len(dopen), "live": len(dlive)},
+        "search": search_snapshot(),
     }
+
+
+def search_snapshot() -> dict | None:
+    """读最近一次 gsc.py 落盘的搜索表现快照（保持本工具离线、确定性）。
+
+    gsc.py 是联网工具（需服务账号 + GSC 权限），retro.py 不调它；
+    只读它写下的 gsc-snapshot.json。缺失时返回 None（不报错）。
+    """
+    p = SRC / "tools" / "gsc-snapshot.json"
+    if not p.exists():
+        return None
+    try:
+        d = json.loads(p.read_text(encoding="utf-8"))
+    except Exception:
+        return None
+    base = SRC / "tools" / "gsc-baseline.json"
+    b = json.loads(base.read_text(encoding="utf-8")) if base.exists() else None
+    if b and b.get("impressions"):
+        d["impressions_growth_pct"] = (d.get("impressions", 0) - b["impressions"]) / b["impressions"] * 100
+        d["clicks_growth_pct"] = (d.get("clicks", 0) - b["clicks"]) / b["clicks"] * 100 if b.get("clicks") else None
+        d["baseline_impressions"] = b["impressions"]
+        d["baseline_clicks"] = b["clicks"]
+    return d
 
 
 def as_markdown(d: dict) -> str:
@@ -135,11 +159,29 @@ def as_markdown(d: dict) -> str:
         f"- 待合并 PR：{bl['open_prs']} 个　已生效链接：{bl['live']} 条",
         f"- 状态同步：`python3 src/tools/linkops.py pr`（--update 回写）",
         "",
-        "## 5. 复盘",
+        "## 5. 搜索表现（GSC）",
+        *search_lines(d.get("search")),
+        "",
+        "## 6. 复盘",
         "- 本文件由 `python3 src/tools/retro.py` 生成（离线、确定性、可版本化）",
         "- 建议每轮闭环收尾时重跑一次，diff 前后快照即为该轮实际增量",
         "",
     ])
+
+
+def search_lines(s: dict | None) -> list[str]:
+    if not s:
+        return ["- 无 GSC 快照（跑 `python3 src/tools/gsc.py snapshot` 落盘后重现）"]
+    cg, ig = s.get("clicks_growth_pct"), s.get("impressions_growth_pct")
+    fmt = lambda v: "—" if v is None else f"{v:+.1f}%"
+    return [
+        f"- 口径：{s.get('range', {}).get('start')} ~ {s.get('range', {}).get('end')}"
+        f"（采集于 {s.get('captured')}）",
+        f"- 点击 {s.get('clicks')}（基线 {s.get('baseline_clicks', '—')}，{fmt(cg)}）"
+        f"｜曝光 {s.get('impressions')}（基线 {s.get('baseline_impressions', '—')}，{fmt(ig)}）",
+        f"- CTR {s.get('ctr', 0)*100:.2f}%｜平均排名 {s.get('position', 0):.1f}",
+        "- 刷新：`python3 src/tools/gsc.py snapshot`（需服务账号在 GSC 有权限）",
+    ]
 
 
 def main() -> int:

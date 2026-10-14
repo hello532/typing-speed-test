@@ -226,6 +226,23 @@ def main():
         except Exception as e:  # noqa: BLE001 - 快照不可解析即失败
             check("16. 闭环快照可生成（retro.py）", False, f"输出非 JSON: {e}")
 
+    # 17. GSC 快照可解析（离线；只验存在时字段合法，缺失不算失败）
+    #     快照由人工跑 gsc.py snapshot 生成（需服务账号权限），CI 无凭据，
+    #     因此缺失时不报错；存在则必须含必需字段且可解析。
+    gs = SRC / "tools" / "gsc-snapshot.json"
+    if not gs.exists():
+        check("17. GSC 快照字段合法（缺失则跳过）", True, "无 gsc-snapshot.json（需手工 gsc.py snapshot）")
+    else:
+        try:
+            g = json.loads(gs.read_text(encoding="utf-8"))
+            need17 = ["captured", "range", "clicks", "impressions", "ctr", "position"]
+            miss17 = [k for k in need17 if k not in g]
+            check("17. GSC 快照字段合法（缺失则跳过）", not miss17,
+                  f"缺字段 {miss17}" if miss17 else
+                  f"clicks {g['clicks']:.0f} / impressions {g['impressions']:.0f}")
+        except Exception as e:  # noqa: BLE001
+            check("17. GSC 快照字段合法（缺失则跳过）", False, f"不可解析: {e}")
+
     print(f"\n通过 {len(ok)}/{len(ok)+len(fail)} 项")
     if fail:
         print("失败项: " + ", ".join(fail))

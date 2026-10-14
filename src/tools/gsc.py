@@ -35,6 +35,7 @@ from datetime import date, timedelta
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[2]
+SRC = ROOT / "src"
 SITE = "https://typing.rerivo.com/"
 SITEMAP = "https://typing.rerivo.com/sitemap.xml"
 DEFAULT_CRED = Path.home() / ".config" / "google-seo-mcp" / "kinx-seo-credentials.json"
@@ -245,12 +246,31 @@ def cmd_growth(args) -> int:
     return 0
 
 
+def cmd_snapshot(args) -> int:
+    """取一次搜索表现快照并落盘 gsc-snapshot.json，供离线 retro.py 读取。"""
+    cred = json.loads(cred_path().read_text(encoding="utf-8"))
+    tok = get_token(cred)
+    start, end = date_range(args.days)
+    rows = api(f"sites/{urllib.parse.quote(SITE, safe='')}/searchAnalytics/query", tok,
+               {"startDate": start, "endDate": end, "dimensions": [], "rowLimit": 1}).get("rows") or [{}]
+    out = {"captured": date.today().isoformat(),
+           "range": {"start": start, "end": end, "days": args.days},
+           "clicks": rows[0].get("clicks", 0), "impressions": rows[0].get("impressions", 0),
+           "ctr": rows[0].get("ctr", 0), "position": rows[0].get("position", 0)}
+    p = SRC / "tools" / "gsc-snapshot.json"
+    p.write_text(json.dumps(out, ensure_ascii=False, indent=1) + "\n", encoding="utf-8")
+    print(f"written: {p.relative_to(ROOT)}")
+    print(f"  clicks {out['clicks']:.0f} | impressions {out['impressions']:.0f} | "
+          f"CTR {out['ctr']*100:.2f}% | pos {out['position']:.1f}")
+    return 0
+
+
 def main() -> int:
     ap = argparse.ArgumentParser(description="GSC 取数工具（需服务账号已被授予 GSC 权限）")
     ap.add_argument("--json", action="store_true")
     ap.add_argument("--days", type=int, default=28)
     sub = ap.add_subparsers(dest="cmd", required=True)
-    for name in ("report", "pages", "queries", "unindexed", "growth"):
+    for name in ("report", "pages", "queries", "unindexed", "growth", "snapshot"):
         sub.add_parser(name)
     # 顶层 --json/--days 也允许写在子命令后
     a = ap.parse_args()
@@ -258,7 +278,8 @@ def main() -> int:
         print(f"❌ 找不到凭据 {cred_path()}\n   设置 GSC_CREDENTIALS 指向服务账号 JSON。", file=sys.stderr)
         return 1
     return {"report": cmd_report, "pages": cmd_pages, "queries": cmd_queries,
-            "unindexed": cmd_unindexed, "growth": cmd_growth}[a.cmd](a)
+            "unindexed": cmd_unindexed, "growth": cmd_growth,
+            "snapshot": cmd_snapshot}[a.cmd](a)
 
 
 if __name__ == "__main__":
