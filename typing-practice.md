@@ -6,7 +6,7 @@ Free typing practice online. Switch between sentences, quotes, numbers and words
 
 ## typing practice
 
-Regular typing practice is the only reliable way to get faster. Ten to fifteen minutes a day beats one long session once a week, because your muscles learn the key positions through repetition. Use this page every day: pick a mode, type the text, then compare your result with yesterday. Try to keep accuracy above 95 percent at all times.
+Regular typing practice is the only reliable way to get faster. Ten to fifteen minutes a day beats one long session once a week, because your muscles learn the key positions through repetition. Use this page every day: pick a mode, type the text, then compare your result with yesterday. Try to keep accuracy above 95 percent at all times. This doubles as typing test practice: the same engine, the same scoring, so a drill round here is a rehearsal for the real thing.
 
 ## Typing exercises for every skill
 
@@ -14,7 +14,7 @@ Change the text mode to target your weak spots. Sentences build everyday typing 
 
 ## A simple practice plan
 
-Week one: two minute sentence tests, focus on accuracy. Week two: add quotes and numbers, keep the same two minutes. Week three: try five minute tests to build endurance. Week four: switch back to one minute and compare your WPM with week one. Most people gain 10 to 20 WPM in a month with this routine.
+Week one: two minute sentence tests, focus on accuracy. Week two: add quotes and numbers, keep the same two minutes. Week three: try five minute tests to build endurance. Week four: switch back to one minute and compare your WPM with week one. Most people gain 10 to 20 WPM in a month with this routine. Treat a short round as a typing quiz: ten to twenty seconds, one attempt, score recorded — a quick check-in that tells you whether the week’s practice is actually moving your speed.
 
 ## When practice stops working
 
@@ -49,3 +49,7 @@ Yes, free forever with no account. Every drill, language, theme and duration is 
 ### How do I type faster?
 
 Practice daily for 10–15 minutes, prioritise accuracy over speed, keep your wrists relaxed and your fingers anchored on the home row (ASDF JKL;). Learn to use all ten fingers rather than hunting and pecking with two.
+
+### Can I use this page for typing test practice?
+
+Yes. Every drill runs on the same engine and scoring as the timed tests, so a practice round rehearses exactly what a typing test measures. Run a short quiz-style round to warm up, then switch to a 1 minute typing test when you want a score to report.

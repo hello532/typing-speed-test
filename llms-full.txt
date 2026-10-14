@@ -228,7 +228,7 @@ Source: https://typing.rerivo.com/number-typing-test.html
 Practise typing numbers fast and accurately. Numeric typing is a separate skill from text — essential for data entry, accounting and finance. This number typing test measures your digit speed and accuracy.
 
 ## Number typing test
-The number typing test focuses on digits instead of words. Typing numbers quickly is a distinct skill: the top row and numeric keypad use different finger movements than regular text, and most people are far slower at numbers than letters. Regular practice closes that gap — vital for data entry, accounting, finance and spreadsheet work.
+The number typing test focuses on digits instead of words. Typing numbers quickly is a distinct skill: the top row and numeric keypad use different finger movements than regular text, and most people are far slower at numbers than letters. Regular practice closes that gap — vital for data entry, accounting, finance and spreadsheet work. In offices this same drill is called the ten key punch test or ten key test, named after the ten-key numeric pad. The keys and the muscle memory are identical, so scores carry across both names.
 ## How to type numbers faster
 Use the numeric keypad on a full keyboard and anchor your fingers on the 4-5-6 home row. On a laptop, practise the top number row until you can hit digits without looking. Prioritise accuracy first — a mistyped number is often worse than a mistyped word — then build speed with daily reps.
 ## Number row versus numeric keypad
@@ -240,6 +240,7 @@ It measures how fast and accurately you type digits (0-9) rather than words. You
 Numbers are typed less often than letters, and the top row or numeric keypad use different finger patterns. Most people type numbers 30-50% slower than text until they practise.
 Yes, completely free, no sign up and no ads inside the typing area. Your results are saved only in your own browser.
 You can use either the number row or the numeric keypad — whichever you want to practise. The test just checks the digits you type against the target.
+Yes. A ten key punch test, ten key test and number typing test all measure how fast you key digits on the numeric pad. Some employers use the ten key name for their data entry screening, but the measurement — digits per minute and accuracy — is exactly what this page scores.
 
 ## Online Typing Test
 Source: https://typing.rerivo.com/online-typing-test.html
@@ -310,11 +311,11 @@ Source: https://typing.rerivo.com/typing-practice.html
 Free typing practice online. Switch between sentences, quotes, numbers and words, pick a longer test, and train every day. Your past results are saved in this browser so you can watch your speed grow.
 
 ## typing practice
-Regular typing practice is the only reliable way to get faster. Ten to fifteen minutes a day beats one long session once a week, because your muscles learn the key positions through repetition. Use this page every day: pick a mode, type the text, then compare your result with yesterday. Try to keep accuracy above 95 percent at all times.
+Regular typing practice is the only reliable way to get faster. Ten to fifteen minutes a day beats one long session once a week, because your muscles learn the key positions through repetition. Use this page every day: pick a mode, type the text, then compare your result with yesterday. Try to keep accuracy above 95 percent at all times. This doubles as typing test practice: the same engine, the same scoring, so a drill round here is a rehearsal for the real thing.
 ## Typing exercises for every skill
 Change the text mode to target your weak spots. Sentences build everyday typing fluency. Quotes add capital letters and punctuation. Numbers train the top row, which is the slowest part of the keyboard for most people. Words mode drills common English vocabulary so high-frequency words become automatic.
 ## A simple practice plan
-Week one: two minute sentence tests, focus on accuracy. Week two: add quotes and numbers, keep the same two minutes. Week three: try five minute tests to build endurance. Week four: switch back to one minute and compare your WPM with week one. Most people gain 10 to 20 WPM in a month with this routine.
+Week one: two minute sentence tests, focus on accuracy. Week two: add quotes and numbers, keep the same two minutes. Week three: try five minute tests to build endurance. Week four: switch back to one minute and compare your WPM with week one. Most people gain 10 to 20 WPM in a month with this routine. Treat a short round as a typing quiz: ten to twenty seconds, one attempt, score recorded — a quick check-in that tells you whether the week’s practice is actually moving your speed.
 ## When practice stops working
 A plateau near 50 or 70 WPM usually means one bottleneck, not general slowness: check your slowest keys in the result panel after each round. Spend a week drilling only those keys in accuracy test rounds at 97%+ before chasing speed again. If accuracy is fine but speed stalls, your rhythm is uneven — try 2 minute tests at a metronome-steady pace instead of sprinting. Most plateaus break within two focused weeks.
 ## Free online typing practice, without the sign-up wall
@@ -327,6 +328,7 @@ Practice rounds use the same formula — correct characters divided by 5 and by 
 Ten to fifteen minutes a day beats an occasional hour. Short daily sessions build muscle memory; stop when accuracy drops, since practising mistakes ingrains them.
 Yes, free forever with no account. Every drill, language, theme and duration is unlocked, and nothing uploads to a server.
 Practice daily for 10–15 minutes, prioritise accuracy over speed, keep your wrists relaxed and your fingers anchored on the home row (ASDF JKL;). Learn to use all ten fingers rather than hunting and pecking with two.
+Yes. Every drill runs on the same engine and scoring as the timed tests, so a practice round rehearses exactly what a typing test measures. Run a short quiz-style round to warm up, then switch to a 1 minute typing test when you want a score to report.
 
 ## Typing Games
 Source: https://typing.rerivo.com/typing-games.html
@@ -447,7 +449,7 @@ Measure your words per minute (WPM) with a free online speed test. Type for one 
 
 ## words per minute test
 A words per minute test (WPM test) measures how many words you can type in one minute. The rule is simple: every five characters counts as one word, so longer words add more to your score. Take the test, type the text shown on screen, and your WPM, accuracy and error count are calculated live as you type.
-In practice a typing words per minute test is the same measurement under a different name: you type for a fixed time, the test counts correct characters, and dividing that count by five and by the elapsed minutes gives your WPM. Nothing else changes the number, so any result you see here is directly comparable with other typing tests.
+In practice a typing words per minute test is the same measurement under a different name: you type for a fixed time, the test counts correct characters, and dividing that count by five and by the elapsed minutes gives your WPM. Nothing else changes the number, so any result you see here is directly comparable with other typing tests. The name changes with word order too — WPM typing test, typing test WPM and words per minute test all point at the same measurement, so whichever phrasing you searched for, this page scores it the same way.
 ## What is a good WPM score?
 What counts as fast depends on context, but the bands below hold for most desk work. Around 40 WPM is typical, 60 WPM handles office and writing work comfortably, and 80+ WPM is genuinely fast — professionals land between 90 and 120. New typists should chase 95%+ accuracy first; speed follows on its own.
 Level | Typing speed | What it unlocks
@@ -466,6 +468,7 @@ Sixty seconds is the accepted standard for a reportable score. Shorter sprints f
 Yes. Unlimited free WPM tests with no sign up and no ads in the typing area; results stay in your browser.
 Push accuracy above 95% first — errors hurt net WPM twice, once in speed and once in the penalty. Then build speed with daily practice rounds and retest weekly.
 It is a timed typing test that reports your speed in words per minute. You type for 60 seconds (or another length), the test divides your correct characters by five to get words, then divides by the elapsed minutes. A 300-character round is 60 WPM.
+Most adults land between 40 and 60 WPM. Office and writing roles usually ask for 60 to 80, data entry and transcription posts 80-plus, and 90 to 120 is professional territory. Anything under 30 WPM is a beginner still building touch typing foundations. Check the average typing speed bands before judging a single round.
 
 ## WPM Test Online
 Source: https://typing.rerivo.com/wpm-test-online.html
@@ -777,7 +780,7 @@ Source: https://typing.rerivo.com/typing-certificate.html
 Earn a free typing certificate in one minute. Take the test below, then click Print certificate in the results panel to print or save a certificate with your WPM, accuracy, raw speed, error count and consistency. No account, no paywall, and the certificate is generated entirely in your browser.
 
 ## typing certificate
-A typing certificate should not cost money or an email address. Here the whole chain is free and instant: take the one minute test, open the results panel, and press Print certificate. Your scores are computed in your own browser and the certificate is generated in the same browser, so nothing is uploaded and nobody has to verify your email. Print it for a class, save it as a PDF for a portfolio, or share it straight from the page.
+A typing certificate should not cost money or an email address. Here the whole chain is free and instant: take the one minute test, open the results panel, and press Print certificate. Your scores are computed in your own browser and the certificate is generated in the same browser, so nothing is uploaded and nobody has to verify your email. Print it for a class, save it as a PDF for a portfolio, or share it straight from the page. Employers and schools often call the same check a typing assessment, so a certificate from this page and an assessment result off the same run report the same WPM.
 ## What is on the certificate
 Six measured fields: WPM (net words per minute, the standard 5-character-per-word measure), accuracy as a percentage, chars per minute, raw WPM before errors are subtracted, errors, and consistency, which is how stable your speed was through the test. The certificate also carries the test date and the test length, so anyone reading it knows exactly what was measured.
 ## How to use a typing certificate
@@ -959,7 +962,7 @@ Under 8 | 8-15 WPM | First letters; still finding keys
 11-13 | 15-30 WPM | Muscle memory building fast
 13-15 | 25-45 WPM | Approaching adult beginner range
 ## How kids can type faster (the fun way)
-Keep sessions short and playful: 10–15 minutes a day beats one long session. Start with the home row (ASDF and JKL;), use the on-screen hands below so your child never has to look down, and praise accuracy over speed. Turn it into a race against their own best score with the typing race or the typing games.
+Keep sessions short and playful: 10–15 minutes a day beats one long session. Start with the home row (ASDF and JKL;), use the on-screen hands below so your child never has to look down, and praise accuracy over speed. Turn it into a race against their own best score with the typing race or the typing games. Framed as typing games for kids, the same drills work: short rounds, immediate feedback and a score to beat keep children coming back without turning practice into a chore.
 ## Typing test FAQ
 Children under 13 typically type 15–30 WPM and teenagers 35–55 WPM. Speed matters far less than building correct touch-typing habits early, so focus on accuracy and finger placement first.
 Yes. It is completely free, needs no sign-up or account, shows no ads inside the typing area, and stores results only in the browser - nothing is sent to a server.
@@ -973,7 +976,7 @@ Source: https://typing.rerivo.com/typing-test-for-jobs.html
 Practise a pre-employment typing test the way employers run it: a timed words-per-minute (WPM) and accuracy check. Most office jobs ask for 50–60 WPM, while data entry and transcription expect 60–80 WPM with 95%+ accuracy. Take the timed test below and compare your result with the requirements by role.
 
 ## What typing speed do employers require?
-Hiring bars are stated as net WPM with an accuracy floor — the table shows what employers commonly ask for by role, plus the test length you will usually face. Most office jobs expect 50–60 WPM; roles where typing is central ask for 60–90 WPM, almost always with 95–98%+ accuracy.
+Hiring bars are stated as net WPM with an accuracy floor — the table shows what employers commonly ask for by role, plus the test length you will usually face. Most office jobs expect 50–60 WPM; roles where typing is central ask for 60–90 WPM, almost always with 95–98%+ accuracy. Recruitment platforms screen with a typing assessment rather than a practice round, so treat this as exam conditions: one attempt, no retries, and a score you would be happy to send.
 Job / role | Speed required | Accuracy | Common test length
 General office work | 40-55 WPM | 95%+ | 1-3 min
 Customer support / chat | 50-65 WPM | 97%+ | 2-3 min
@@ -994,6 +997,7 @@ Data entry roles commonly require 60–80 WPM with 98%+ accuracy. Numeric data e
 Employer typing tests are usually 1 to 5 minutes long, with 3 minutes a common length. Longer tests give a more reliable score because they average out short bursts of speed and fatigue.
 Employers use net WPM, which subtracts your errors, not gross WPM. A posting that says 60 WPM required almost always means 60 net WPM with high accuracy.
 Practise a timed test at the length the employer uses, prioritise accuracy over raw speed, and get used to typing real sentences with punctuation and numbers rather than simple word lists.
+Functionally yes. A pre-employment typing assessment, a typing exam and a job typing test all measure the same two numbers — net WPM and accuracy — under timed conditions. Practising here with one-attempt rounds is the closest rehearsal you can get without the recruiter watching.
 
 ## Typing Practice for Programmers
 Source: https://typing.rerivo.com/typing-practice-for-programmers.html

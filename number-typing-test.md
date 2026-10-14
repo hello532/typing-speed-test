@@ -6,7 +6,7 @@ Practise typing numbers fast and accurately. Numeric typing is a separate skill 
 
 ## Number typing test
 
-The number typing test focuses on digits instead of words. Typing numbers quickly is a distinct skill: the top row and numeric keypad use different finger movements than regular text, and most people are far slower at numbers than letters. Regular practice closes that gap — vital for data entry, accounting, finance and spreadsheet work.
+The number typing test focuses on digits instead of words. Typing numbers quickly is a distinct skill: the top row and numeric keypad use different finger movements than regular text, and most people are far slower at numbers than letters. Regular practice closes that gap — vital for data entry, accounting, finance and spreadsheet work. In offices this same drill is called the ten key punch test or ten key test, named after the ten-key numeric pad. The keys and the muscle memory are identical, so scores carry across both names.
 
 ## How to type numbers faster
 
@@ -37,3 +37,7 @@ Yes, completely free, no sign up and no ads inside the typing area. Your results
 ### Does it use the numeric keypad?
 
 You can use either the number row or the numeric keypad — whichever you want to practise. The test just checks the digits you type against the target.
+
+### Is this the same as a ten key punch test?
+
+Yes. A ten key punch test, ten key test and number typing test all measure how fast you key digits on the numeric pad. Some employers use the ten key name for their data entry screening, but the measurement — digits per minute and accuracy — is exactly what this page scores.

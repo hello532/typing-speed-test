@@ -1,6 +1,6 @@
 {
  "site": "https://typing.rerivo.com",
- "keywords": "typing speed test, wpm test, words per minute test, 1 minute typing test, typing test, typing practice, free typing test, typing speed, accuracy, cpm",
+ "keywords": "typing test, typing games, learn to type, typing speed, typing practice, typing speed test, wpm test, wpm typing test, typing test wpm, words per minute test, typing test free, free typing test, typing lessons, average typing speed, typing test practice, typing games for kids, number typing test, ten key typing test, typing certificate, typing quiz, typing assessment, typing test for job",
  "webAppDesc": "Free online typing speed test. Measure WPM and accuracy from 15 seconds to 10 minutes.",
  "pages": [
   {
@@ -22,7 +22,7 @@
     },
     {
      "href": "typing-practice.html",
-     "text": "Practice"
+     "text": "Typing Practice"
     }
    ],
    "crumbs": [
@@ -117,7 +117,7 @@
     },
     {
      "href": "typing-practice.html",
-     "text": "Practice"
+     "text": "Typing Practice"
     }
    ],
    "crumbs": [
@@ -217,7 +217,7 @@
     },
     {
      "href": "typing-practice.html",
-     "text": "Practice"
+     "text": "Typing Practice"
     }
    ],
    "crumbs": [
@@ -313,7 +313,7 @@
     },
     {
      "href": "typing-practice.html",
-     "text": "Practice"
+     "text": "Typing Practice"
     }
    ],
    "crumbs": [
@@ -404,7 +404,7 @@
     },
     {
      "href": "typing-practice.html",
-     "text": "Practice"
+     "text": "Typing Practice"
     }
    ],
    "crumbs": [
@@ -497,7 +497,7 @@
     },
     {
      "href": "typing-practice.html",
-     "text": "Practice"
+     "text": "Typing Practice"
     }
    ],
    "crumbs": [
@@ -580,7 +580,7 @@
    "nav": [
     {
      "href": "english-typing-test.html",
-     "text": "English Test"
+     "text": "English Typing Test"
     },
     {
      "href": "words-per-minute-test.html",
@@ -588,7 +588,7 @@
     },
     {
      "href": "typing-practice.html",
-     "text": "Practice"
+     "text": "Typing Practice"
     }
    ],
    "crumbs": [
@@ -676,7 +676,7 @@
     },
     {
      "href": "typing-practice.html",
-     "text": "Practice"
+     "text": "Typing Practice"
     }
    ],
    "crumbs": [
@@ -768,7 +768,7 @@
     },
     {
      "href": "typing-practice.html",
-     "text": "Practice"
+     "text": "Typing Practice"
     }
    ],
    "crumbs": null,
@@ -880,7 +880,7 @@
     },
     {
      "href": "typing-practice.html",
-     "text": "Practice"
+     "text": "Typing Practice"
     }
    ],
    "crumbs": [
@@ -957,8 +957,8 @@
   },
   {
    "file": "number-typing-test.html",
-   "title": "Number Typing Test - Free Numeric Keypad Test",
-   "metaDesc": "Free number typing test. Practice typing digits fast and improve your numeric keypad speed and accuracy with instant WPM results. No sign up.",
+   "title": "Number Typing Test - Free Ten Key & Numeric Keypad Test",
+   "metaDesc": "Free number typing test and ten key punch test. Practise the numeric keypad for speed and accuracy with instant WPM, no sign up.",
    "canonical": "https://typing.rerivo.com/number-typing-test.html",
    "dur": 60,
    "mode": "numbers",
@@ -978,7 +978,7 @@
     },
     {
      "href": "typing-practice.html",
-     "text": "Practice"
+     "text": "Typing Practice"
     }
    ],
    "crumbs": [
@@ -991,7 +991,7 @@
     {
      "h2": "Number typing test",
      "p": [
-      "The <strong>number typing test</strong> focuses on digits instead of words. Typing numbers quickly is a distinct skill: the top row and numeric keypad use different finger movements than regular text, and most people are far slower at numbers than letters. Regular practice closes that gap — vital for data entry, accounting, finance and spreadsheet work."
+      "The <strong>number typing test</strong> focuses on digits instead of words. Typing numbers quickly is a distinct skill: the top row and numeric keypad use different finger movements than regular text, and most people are far slower at numbers than letters. Regular practice closes that gap — vital for data entry, accounting, finance and spreadsheet work. In offices this same drill is called the <strong>ten key punch test</strong> or ten key test, named after the ten-key numeric pad. The keys and the muscle memory are identical, so scores carry across both names."
      ]
     },
     {
@@ -1031,6 +1031,10 @@
     {
      "q": "Does it use the numeric keypad?",
      "a": "You can use either the number row or the numeric keypad — whichever you want to practise. The test just checks the digits you type against the target."
+    },
+    {
+     "q": "Is this the same as a ten key punch test?",
+     "a": "Yes. A ten key punch test, ten key test and number typing test all measure how fast you key digits on the numeric pad. Some employers use the ten key name for their data entry screening, but the measurement — digits per minute and accuracy — is exactly what this page scores."
     }
    ],
    "webAppName": "Typing Speed Test",
@@ -1066,7 +1070,7 @@
     },
     {
      "href": "typing-practice.html",
-     "text": "Practice"
+     "text": "Typing Practice"
     }
    ],
    "crumbs": [
@@ -1163,7 +1167,7 @@
     },
     {
      "href": "typing-practice.html",
-     "text": "Practice"
+     "text": "Typing Practice"
     }
    ],
    "crumbs": [
@@ -1254,7 +1258,7 @@
     },
     {
      "href": "typing-practice.html",
-     "text": "Practice"
+     "text": "Typing Practice"
     }
    ],
    "crumbs": [
@@ -1357,7 +1361,7 @@
     {
      "h2": "typing practice",
      "p": [
-      "Regular <strong>typing practice</strong> is the only reliable way to get faster. Ten to fifteen minutes a day beats one long session once a week, because your muscles learn the key positions through repetition. Use this page every day: pick a mode, type the text, then compare your result with yesterday. Try to keep accuracy above 95 percent at all times."
+      "Regular <strong>typing practice</strong> is the only reliable way to get faster. Ten to fifteen minutes a day beats one long session once a week, because your muscles learn the key positions through repetition. Use this page every day: pick a mode, type the text, then compare your result with yesterday. Try to keep accuracy above 95 percent at all times. This doubles as <strong>typing test practice</strong>: the same engine, the same scoring, so a drill round here is a rehearsal for the real thing."
      ]
     },
     {
@@ -1369,7 +1373,7 @@
     {
      "h2": "A simple practice plan",
      "p": [
-      "Week one: two minute sentence tests, focus on accuracy. Week two: add quotes and numbers, keep the same two minutes. Week three: try five minute tests to build endurance. Week four: switch back to one minute and compare your WPM with week one. Most people gain 10 to 20 WPM in a month with this routine."
+      "Week one: two minute sentence tests, focus on accuracy. Week two: add quotes and numbers, keep the same two minutes. Week three: try five minute tests to build endurance. Week four: switch back to one minute and compare your WPM with week one. Most people gain 10 to 20 WPM in a month with this routine. Treat a short round as a <strong>typing quiz</strong>: ten to twenty seconds, one attempt, score recorded — a quick check-in that tells you whether the week’s practice is actually moving your speed."
      ]
     },
     {
@@ -1409,6 +1413,10 @@
     {
      "q": "How do I type faster?",
      "a": "Practice daily for 10–15 minutes, prioritise accuracy over speed, keep your wrists relaxed and your fingers anchored on the home row (ASDF JKL;). Learn to use all ten fingers rather than hunting and pecking with two."
+    },
+    {
+     "q": "Can I use this page for typing test practice?",
+     "a": "Yes. Every drill runs on the same engine and scoring as the timed tests, so a practice round rehearses exactly what a typing test measures. Run a short quiz-style round to warm up, then switch to a <a href=\"1-minute-typing-test.html\">1 minute typing test</a> when you want a score to report."
     }
    ],
    "webAppName": "Typing Speed Test",
@@ -1811,7 +1819,7 @@
     },
     {
      "href": "typing-practice.html",
-     "text": "Practice"
+     "text": "Typing Practice"
     }
    ],
    "crumbs": [
@@ -1899,7 +1907,7 @@
     },
     {
      "href": "typing-practice.html",
-     "text": "Practice"
+     "text": "Typing Practice"
     }
    ],
    "crumbs": [
@@ -1914,7 +1922,7 @@
      "h2": "words per minute test",
      "p": [
       "A <strong>words per minute test</strong> (WPM test) measures how many words you can type in one minute. The rule is simple: every five characters counts as one word, so longer words add more to your score. Take the test, type the text shown on screen, and your WPM, accuracy and error count are calculated live as you type.",
-      "In practice a <strong>typing words per minute test</strong> is the same measurement under a different name: you type for a fixed time, the test counts correct characters, and dividing that count by five and by the elapsed minutes gives your WPM. Nothing else changes the number, so any result you see here is directly comparable with other typing tests."
+      "In practice a <strong>typing words per minute test</strong> is the same measurement under a different name: you type for a fixed time, the test counts correct characters, and dividing that count by five and by the elapsed minutes gives your WPM. Nothing else changes the number, so any result you see here is directly comparable with other typing tests. The name changes with word order too — <strong>WPM typing test</strong>, <strong>typing test WPM</strong> and words per minute test all point at the same measurement, so whichever phrasing you searched for, this page scores it the same way."
      ]
     },
     {
@@ -1959,6 +1967,10 @@
     {
      "q": "What is a typing words per minute test?",
      "a": "It is a timed typing test that reports your speed in words per minute. You type for 60 seconds (or another length), the test divides your correct characters by five to get words, then divides by the elapsed minutes. A 300-character round is 60 WPM."
+    },
+    {
+     "q": "How many words per minute should I type?",
+     "a": "Most adults land between 40 and 60 WPM. Office and writing roles usually ask for 60 to 80, data entry and transcription posts 80-plus, and 90 to 120 is professional territory. Anything under 30 WPM is a beginner still building touch typing foundations. Check the <a href=\"average-typing-speed.html\">average typing speed</a> bands before judging a single round."
     }
    ],
    "webAppName": "Typing Speed Test",
@@ -1994,7 +2006,7 @@
     },
     {
      "href": "typing-practice.html",
-     "text": "Practice"
+     "text": "Typing Practice"
     }
    ],
    "crumbs": [
@@ -2096,7 +2108,7 @@
     },
     {
      "href": "typing-practice.html",
-     "text": "Practice"
+     "text": "Typing Practice"
     }
    ],
    "crumbs": [
@@ -2188,7 +2200,7 @@
     },
     {
      "href": "typing-practice.html",
-     "text": "Practice"
+     "text": "Typing Practice"
     }
    ],
    "crumbs": [
@@ -2289,7 +2301,7 @@
     },
     {
      "href": "typing-practice.html",
-     "text": "Practice"
+     "text": "Typing Practice"
     }
    ],
    "crumbs": [
@@ -2378,7 +2390,7 @@
    "nav": [
     {
      "href": "english-typing-test.html",
-     "text": "English Test"
+     "text": "English Typing Test"
     },
     {
      "href": "words-per-minute-test.html",
@@ -2386,7 +2398,7 @@
     },
     {
      "href": "typing-practice.html",
-     "text": "Practice"
+     "text": "Typing Practice"
     }
    ],
    "crumbs": [
@@ -2468,7 +2480,7 @@
    "nav": [
     {
      "href": "english-typing-test.html",
-     "text": "English Test"
+     "text": "English Typing Test"
     },
     {
      "href": "words-per-minute-test.html",
@@ -2476,7 +2488,7 @@
     },
     {
      "href": "typing-practice.html",
-     "text": "Practice"
+     "text": "Typing Practice"
     }
    ],
    "crumbs": [
@@ -2558,7 +2570,7 @@
    "nav": [
     {
      "href": "english-typing-test.html",
-     "text": "English Test"
+     "text": "English Typing Test"
     },
     {
      "href": "words-per-minute-test.html",
@@ -2566,7 +2578,7 @@
     },
     {
      "href": "typing-practice.html",
-     "text": "Practice"
+     "text": "Typing Practice"
     }
    ],
    "crumbs": [
@@ -3389,7 +3401,7 @@
     {
      "h2": "typing certificate",
      "p": [
-      "A <strong>typing certificate</strong> should not cost money or an email address. Here the whole chain is free and instant: take the one minute test, open the results panel, and press Print certificate. Your scores are computed in your own browser and the certificate is generated in the same browser, so nothing is uploaded and nobody has to verify your email. Print it for a class, save it as a PDF for a portfolio, or share it straight from the page."
+      "A <strong>typing certificate</strong> should not cost money or an email address. Here the whole chain is free and instant: take the one minute test, open the results panel, and press Print certificate. Your scores are computed in your own browser and the certificate is generated in the same browser, so nothing is uploaded and nobody has to verify your email. Print it for a class, save it as a PDF for a portfolio, or share it straight from the page. Employers and schools often call the same check a typing assessment, so a certificate from this page and an assessment result off the same run report the same WPM."
      ]
     },
     {
@@ -3826,7 +3838,7 @@
     },
     {
      "href": "typing-practice.html",
-     "text": "Practice"
+     "text": "Typing Practice"
     }
    ],
    "crumbs": [
@@ -4042,7 +4054,7 @@
     {
      "h2": "How kids can type faster (the fun way)",
      "p": [
-      "Keep sessions short and playful: 10–15 minutes a day beats one long session. Start with the home row (ASDF and JKL;), use the on-screen hands below so your child never has to look down, and praise accuracy over speed. Turn it into a race against their own best score with the <a href=\"typing-race.html\">typing race</a> or the <a href=\"typing-games.html\">typing games</a>."
+      "Keep sessions short and playful: 10–15 minutes a day beats one long session. Start with the home row (ASDF and JKL;), use the on-screen hands below so your child never has to look down, and praise accuracy over speed. Turn it into a race against their own best score with the <a href=\"typing-race.html\">typing race</a> or the <a href=\"typing-games.html\">typing games</a>. Framed as <strong>typing games for kids</strong>, the same drills work: short rounds, immediate feedback and a score to beat keep children coming back without turning practice into a chore."
      ]
     }
    ],
@@ -4086,8 +4098,8 @@
   },
   {
    "file": "typing-test-for-jobs.html",
-   "title": "Typing Test for Jobs - Free Pre-Employment WPM Test",
-   "metaDesc": "Free typing test for jobs and pre-employment screening. Timed WPM and accuracy test; see speeds data entry and admin jobs require.",
+   "title": "Typing Test for Jobs - Free Pre-Employment Typing Assessment",
+   "metaDesc": "Free pre-employment typing assessment and job typing test. Timed WPM and accuracy; see the speeds data entry and admin jobs require.",
    "canonical": "https://typing.rerivo.com/typing-test-for-jobs.html",
    "dur": 60,
    "mode": "sentences",
@@ -4116,7 +4128,7 @@
     {
      "h2": "What typing speed do employers require?",
      "p": [
-      "Hiring bars are stated as net WPM with an accuracy floor — the table shows what employers commonly ask for by role, plus the test length you will usually face. Most office jobs expect <strong>50–60 WPM</strong>; roles where typing is central ask for <strong>60–90 WPM</strong>, almost always with 95–98%+ accuracy.",
+      "Hiring bars are stated as net WPM with an accuracy floor — the table shows what employers commonly ask for by role, plus the test length you will usually face. Most office jobs expect <strong>50–60 WPM</strong>; roles where typing is central ask for <strong>60–90 WPM</strong>, almost always with 95–98%+ accuracy. Recruitment platforms screen with a <strong>typing assessment</strong> rather than a practice round, so treat this as exam conditions: one attempt, no retries, and a score you would be happy to send.",
       "<div class=\"tbl\"><table><thead><tr><th>Job / role</th><th>Speed required</th><th>Accuracy</th><th>Common test length</th></tr></thead><tbody><tr><td>General office work</td><td>40&ndash;55 WPM</td><td>95%+</td><td>1&ndash;3 min</td></tr><tr><td>Customer support / chat</td><td>50&ndash;65 WPM</td><td>97%+</td><td>2&ndash;3 min</td></tr><tr><td>Administrative assistant</td><td>50&ndash;70 WPM</td><td>97%+</td><td>3 min</td></tr><tr><td>Data entry</td><td>60&ndash;80 WPM</td><td>98%+</td><td>5 min</td></tr><tr><td>Medical transcription</td><td>65&ndash;75 WPM</td><td>98%+</td><td>5 min</td></tr><tr><td>Executive assistant</td><td>70&ndash;80 WPM</td><td>98%+</td><td>3&ndash;5 min</td></tr><tr><td>Legal secretary / paralegal</td><td>70&ndash;90 WPM</td><td>99%+</td><td>5 min</td></tr></tbody></table></div>",
       "Figures summarise occupational typing data from <a href=\"https://wonderlic.com/blog/assessments/skills/what-is-a-good-typing-speed-by-profession/\" rel=\"nofollow\">Wonderlic</a> and TypingTest.now (2025&ndash;2026); real postings vary by employer, test text and keyboard."
      ]
@@ -4157,6 +4169,10 @@
     {
      "q": "How can I prepare for an employment typing test?",
      "a": "Practise a timed test at the length the employer uses, prioritise accuracy over raw speed, and get used to typing real sentences with punctuation and numbers rather than simple word lists."
+    },
+    {
+     "q": "Is this the same as a typing assessment or typing exam?",
+     "a": "Functionally yes. A pre-employment typing assessment, a typing exam and a job typing test all measure the same two numbers — net WPM and accuracy — under timed conditions. Practising here with one-attempt rounds is the closest rehearsal you can get without the recruiter watching."
     }
    ],
    "webAppName": "Typing Speed Test",

@@ -8,7 +8,7 @@ Measure your words per minute (WPM) with a free online speed test. Type for one 
 
 A words per minute test (WPM test) measures how many words you can type in one minute. The rule is simple: every five characters counts as one word, so longer words add more to your score. Take the test, type the text shown on screen, and your WPM, accuracy and error count are calculated live as you type.
 
-In practice a typing words per minute test is the same measurement under a different name: you type for a fixed time, the test counts correct characters, and dividing that count by five and by the elapsed minutes gives your WPM. Nothing else changes the number, so any result you see here is directly comparable with other typing tests.
+In practice a typing words per minute test is the same measurement under a different name: you type for a fixed time, the test counts correct characters, and dividing that count by five and by the elapsed minutes gives your WPM. Nothing else changes the number, so any result you see here is directly comparable with other typing tests. The name changes with word order too — WPM typing test, typing test WPM and words per minute test all point at the same measurement, so whichever phrasing you searched for, this page scores it the same way.
 
 ## What is a good WPM score?
 
@@ -53,3 +53,7 @@ Push accuracy above 95% first — errors hurt net WPM twice, once in speed and o
 ### What is a typing words per minute test?
 
 It is a timed typing test that reports your speed in words per minute. You type for 60 seconds (or another length), the test divides your correct characters by five to get words, then divides by the elapsed minutes. A 300-character round is 60 WPM.
+
+### How many words per minute should I type?
+
+Most adults land between 40 and 60 WPM. Office and writing roles usually ask for 60 to 80, data entry and transcription posts 80-plus, and 90 to 120 is professional territory. Anything under 30 WPM is a beginner still building touch typing foundations. Check the average typing speed bands before judging a single round.

@@ -6,7 +6,7 @@ Practise a pre-employment typing test the way employers run it: a timed words-pe
 
 ## What typing speed do employers require?
 
-Hiring bars are stated as net WPM with an accuracy floor — the table shows what employers commonly ask for by role, plus the test length you will usually face. Most office jobs expect 50–60 WPM; roles where typing is central ask for 60–90 WPM, almost always with 95–98%+ accuracy.
+Hiring bars are stated as net WPM with an accuracy floor — the table shows what employers commonly ask for by role, plus the test length you will usually face. Most office jobs expect 50–60 WPM; roles where typing is central ask for 60–90 WPM, almost always with 95–98%+ accuracy. Recruitment platforms screen with a typing assessment rather than a practice round, so treat this as exam conditions: one attempt, no retries, and a score you would be happy to send.
 
 Job / role | Speed required | Accuracy | Common test length
 General office work | 40-55 WPM | 95%+ | 1-3 min
@@ -50,3 +50,7 @@ Employers use net WPM, which subtracts your errors, not gross WPM. A posting tha
 ### How can I prepare for an employment typing test?
 
 Practise a timed test at the length the employer uses, prioritise accuracy over raw speed, and get used to typing real sentences with punctuation and numbers rather than simple word lists.
+
+### Is this the same as a typing assessment or typing exam?
+
+Functionally yes. A pre-employment typing assessment, a typing exam and a job typing test all measure the same two numbers — net WPM and accuracy — under timed conditions. Practising here with one-attempt rounds is the closest rehearsal you can get without the recruiter watching.

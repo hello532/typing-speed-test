@@ -6,7 +6,7 @@ Earn a free typing certificate in one minute. Take the test below, then click Pr
 
 ## typing certificate
 
-A typing certificate should not cost money or an email address. Here the whole chain is free and instant: take the one minute test, open the results panel, and press Print certificate. Your scores are computed in your own browser and the certificate is generated in the same browser, so nothing is uploaded and nobody has to verify your email. Print it for a class, save it as a PDF for a portfolio, or share it straight from the page.
+A typing certificate should not cost money or an email address. Here the whole chain is free and instant: take the one minute test, open the results panel, and press Print certificate. Your scores are computed in your own browser and the certificate is generated in the same browser, so nothing is uploaded and nobody has to verify your email. Print it for a class, save it as a PDF for a portfolio, or share it straight from the page. Employers and schools often call the same check a typing assessment, so a certificate from this page and an assessment result off the same run report the same WPM.
 
 ## What is on the certificate
 
