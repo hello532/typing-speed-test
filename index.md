@@ -44,6 +44,14 @@ Fast typing is built on good habits. Keep your fingers on the home row, use all 
 
 Students, office workers, programmers, writers, gamers and data entry professionals all benefit from faster, more accurate typing. A quick typing speed test helps job seekers prove their WPM on a résumé and gives anyone who spends the day at a keyboard a simple goal to beat. Whatever your starting point, a few minutes of regular practice with this free typing test will steadily raise your words per minute.
 
+## Typing tests by skill, level and exam
+
+Start with the format: a paragraph typing test, a timed run from 15 seconds to 10 minutes, or the quick brown fox warm-up. Beginners can use the beginner and keyboard practice pages; confident typists can try the fast, hard and advanced tests.
+
+By audience and skill: adults, students, teachers, plus the skill test and home row drill. Numeric and office work: the 10 key, data entry, speed calculator and keystrokes per hour pages.
+
+Exam and job preparation: rehearse with the interview, government, bank and SSC typing tests, or answer how fast can I type in one minute.
+
 ## Typing test FAQ
 
 ### What is a typing test?

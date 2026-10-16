@@ -69,3 +69,27 @@
 - Site verification: https://typing.rerivo.com/39f4fcd69975670c8a24a9ab78838ba9.txt
 - [About](https://typing.rerivo.com/about.html): A free browser-only typing speed test; contact and measurement method.
 - [Privacy Policy](https://typing.rerivo.com/privacy-policy.html): No accounts, no cookies, no analytics, no tracking.
+
+## Skill, Level, Format & Exam Tests
+- [10 Key Typing Test](https://typing.rerivo.com/ten-key-typing-test.html): Free 10 key typing test for the numeric keypad, with number-pad speed in CPM/KPH and accuracy.
+- [Data Entry Typing Test](https://typing.rerivo.com/data-entry-typing-test.html): Practise the timed data entry typing test employers set, with WPM and accuracy targets.
+- [Keystrokes Per Hour Test](https://typing.rerivo.com/keystrokes-per-hour-test.html): Measure keystrokes per hour (KPH) and convert it to WPM and CPM.
+- [Typing Speed Calculator](https://typing.rerivo.com/typing-speed-calculator.html): Calculate typing speed from keystrokes: the WPM formula plus live WPM, CPM and KPH.
+- [Quick Brown Fox Typing Test](https://typing.rerivo.com/quick-brown-fox-typing-test.html): Type the quick brown fox pangram and other alphabet sentences as a keyboard warm-up.
+- [Home Row Typing Test](https://typing.rerivo.com/home-row-typing-test.html): Drill the home row (ASDF JKL;) with a finger guide to build touch-typing muscle memory.
+- [Typing Test for Adults](https://typing.rerivo.com/typing-test-for-adults.html): A free adult typing test with realistic WPM targets; the average adult types about 40 WPM.
+- [Typing Test for Students](https://typing.rerivo.com/typing-test-for-students.html): Typing test for students with speed targets for primary, high school and university.
+- [Typing Skill Test](https://typing.rerivo.com/typing-skill-test.html): A typing skill test that grades speed and accuracy together from beginner to advanced.
+- [Government Typing Test](https://typing.rerivo.com/government-typing-test.html): Practise the timed government and clerical typing test with its fixed pass mark and accuracy limit.
+- [Paragraph Typing Test](https://typing.rerivo.com/paragraph-typing-test.html): Type full paragraphs at 1, 5 or 10 minutes with instant WPM and accuracy.
+- [Beginner Typing Test](https://typing.rerivo.com/beginner-typing-test.html): A gentle first typing test for complete beginners, with realistic starting targets.
+- [Timed Typing Test](https://typing.rerivo.com/timed-typing-test.html): A countdown typing test from 15 seconds to 10 minutes, with the clock never stopping.
+- [Fast Typing Test](https://typing.rerivo.com/fast-typing-test.html): Test how fast you really type; fast starts above 60 WPM and elite above 100.
+- [Hard Typing Test](https://typing.rerivo.com/hard-typing-test.html): Difficult passages with capitals, numbers and punctuation to expose weak keys.
+- [Advanced Typing Test](https://typing.rerivo.com/advanced-typing-test.html): A demanding test for experienced typists; advanced is 80 WPM at 98% accuracy.
+- [How Fast Can I Type?](https://typing.rerivo.com/how-fast-can-i-type.html): Find your exact words-per-minute score in one minute and compare with the average.
+- [Typing Test for Interview](https://typing.rerivo.com/typing-test-for-interview.html): Practise the pre-employment typing test employers set at interviews for admin and data-entry roles.
+- [Bank Typing Test](https://typing.rerivo.com/bank-typing-test.html): Practice the timed passage and accuracy standard used in bank clerk and banking exams.
+- [SSC Typing Test](https://typing.rerivo.com/ssc-typing-test.html): Free SSC typing practice for the timed qualifying round, English and Hindi.
+- [Typing Test for Teachers](https://typing.rerivo.com/typing-test-for-teachers.html): Typing speed and accuracy for the teaching and education admin workload.
+- [Keyboard Practice](https://typing.rerivo.com/keyboard-practice.html): Learn the keys, drill the home row and build touch-typing memory from scratch.

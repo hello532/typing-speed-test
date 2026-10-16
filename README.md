@@ -1,6 +1,6 @@
 # Typing.Rerivo
 
-**A free online typing test — 49 landing pages, no signup, no ads.**
+**A free online typing test — 71 landing pages, no signup, no ads.**
 
 🔗 Live: **<https://typing.rerivo.com>**
 
@@ -17,7 +17,7 @@ page, pick a duration, start typing.
 
 ## Features
 
-- **49 landing pages** covering the full duration ladder, practice variants, an
+- **71 landing pages** covering the full duration ladder, practice variants, an
   education line, a games line, and five languages
   ([30 second](https://typing.rerivo.com/30-second-typing-test.html) ·
   [1 minute](https://typing.rerivo.com/1-minute-typing-test.html) ·
@@ -53,7 +53,7 @@ One template + one config table generate the whole site — every page is a
 build artifact, never hand-edited.
 
 - **Vanilla JS + HTML/CSS**, no framework, no build toolchain beyond Python
-- `src/template.html` + `src/pages.json` → `build.py` renders all 49 pages
+- `src/template.html` + `src/pages.json` → `build.py` renders all 71 pages
 - **SEO/GEO built-in**: JSON-LD (`WebApplication` / `FAQPage` / `BreadcrumbList`)
   on every page, plus `sitemap.xml`, `robots.txt`, `llms.txt`, and `llms-full.txt`
   (full-text AI citation manifest, generated from the pages)
