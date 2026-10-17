@@ -6538,6 +6538,196 @@
    ],
    "ldPretty": [],
    "tldr": "Keyboard practice starts with the home row, A, S, D, F and J, K, L, semicolon, where F and J have raised bumps, and builds muscle memory by using the correct finger for every key and never looking down. Ten focused minutes a day with accuracy above 97 percent raises speed fastest. This page gives a clean, distraction-free practice space."
+  },
+  {
+   "file": "japanese-typing-test.html",
+   "title": "Japanese Typing Test - Free Online Japanese WPM Test",
+   "metaDesc": "Free Japanese typing test online. Type real Japanese sentences with kanji and kana and check your speed and accuracy with instant results. No sign up.",
+   "canonical": "https://typing.rerivo.com/japanese-typing-test.html",
+   "dur": 60,
+   "mode": "sentences",
+   "variant": null,
+   "lang": "ja",
+   "alts": true,
+   "nav": [
+    {
+     "href": "english-typing-test.html",
+     "text": "English Typing Test"
+    },
+    {
+     "href": "words-per-minute-test.html",
+     "text": "WPM Test"
+    },
+    {
+     "href": "typing-practice.html",
+     "text": "Typing Practice"
+    }
+   ],
+   "crumbs": [
+    "Home",
+    "Japanese Typing Test"
+   ],
+   "h1": "Japanese Typing Test",
+   "heroP": "Test your <strong>Japanese typing speed</strong> with real Japanese sentences mixing kanji, hiragana and katakana. Instant speed and accuracy results. Free, no sign up.",
+   "seo": [
+    {
+     "h2": "Japanese typing test",
+     "p": [
+      "A <strong>Japanese typing test</strong> measures how fast and accurately you type real Japanese text — sentences that mix kanji, hiragana and katakana exactly the way everyday Japanese is written. Your result is shown in words per minute, where every 5 characters counts as one word, so the score stays comparable with the classic <a href=\"1-minute-typing-test.html\">1 minute typing test</a>."
+     ]
+    },
+    {
+     "h2": "Romaji input, kana input and the IME",
+     "p": [
+      "Most people type Japanese with a romaji-to-kana IME: you type roman letters, the IME converts them to kana, and you confirm kanji conversions as you go. This test shows the finished Japanese sentence, so it trains the reading-and-confirming rhythm that real Japanese typing depends on, whichever input method you use."
+     ]
+    },
+    {
+     "h2": "How to improve Japanese typing speed",
+     "p": [
+      "Accuracy first: a missed kanji conversion costs far more time than a slow, clean sentence. Practise short daily rounds, keep your eyes on the screen, and let your fingers learn the romaji syllable rhythm — consonant plus vowel — that almost every Japanese word follows."
+     ]
+    },
+    {
+     "h2": "WPM, CPM and Japanese",
+     "p": [
+      "Because Japanese packs meaning into characters, one Japanese 'word' carries more content than one English word. Watch your <a href=\"cpm-typing-test.html\">characters per minute (CPM)</a> alongside WPM: for Japanese, CPM is often the fairer measure of real input speed."
+     ]
+    }
+   ],
+   "faqFirstOpen": true,
+   "faqH2": "Japanese typing test FAQ",
+   "faq": [
+    {
+     "q": "Is this Japanese typing test free?",
+     "a": "Yes. It is free with no sign up, and your practice history stays on your own device."
+    },
+    {
+     "q": "Do I type in romaji or in kana?",
+     "a": "Either works. The test shows real Japanese sentences; you reproduce the characters with your usual input method — romaji-to-kana IME, kana input, or a Japanese keyboard."
+    },
+    {
+     "q": "Does the test include kanji?",
+     "a": "Yes. Sentences mix kanji, hiragana and katakana the way natural Japanese writing does, so you practise real text, not isolated kana drills."
+    },
+    {
+     "q": "Is WPM a fair measure for Japanese?",
+     "a": "Treat it as a guide, not an absolute. Japanese words carry more meaning per character, so many typists prefer to track CPM (characters per minute), which this test also shows after every round."
+    },
+    {
+     "q": "Will this help with Japanese typing exams or work?",
+     "a": "Yes. Timed sentence practice with real mixed-script text builds exactly the speed and accuracy that Japanese office work and data-entry exams measure."
+    }
+   ],
+   "tldr": "A Japanese typing test measures speed and accuracy on real mixed-script sentences (kanji, hiragana, katakana). Because Japanese packs more meaning into each character, CPM (characters per minute) is often a fairer metric than WPM. Most typists use a romaji-to-kana IME; this free test works with any input method, runs 15 seconds to 10 minutes, and needs no sign up.",
+   "webAppName": "Typing Speed Test",
+   "webAppUrl": "https://typing.rerivo.com/japanese-typing-test.html",
+   "bcItems": [
+    {
+     "name": "Home",
+     "item": "https://typing.rerivo.com/"
+    },
+    {
+     "name": "Japanese Typing Test",
+     "item": "https://typing.rerivo.com/japanese-typing-test.html"
+    }
+   ],
+   "ldPretty": []
+  },
+  {
+   "file": "korean-typing-test.html",
+   "title": "Korean Typing Test - Free Online Korean WPM Test",
+   "metaDesc": "Free Korean typing test online. Type real Korean Hangul sentences and check your typing speed and accuracy with instant results. No sign up.",
+   "canonical": "https://typing.rerivo.com/korean-typing-test.html",
+   "dur": 60,
+   "mode": "sentences",
+   "variant": null,
+   "lang": "ko",
+   "alts": true,
+   "nav": [
+    {
+     "href": "english-typing-test.html",
+     "text": "English Typing Test"
+    },
+    {
+     "href": "words-per-minute-test.html",
+     "text": "WPM Test"
+    },
+    {
+     "href": "typing-practice.html",
+     "text": "Typing Practice"
+    }
+   ],
+   "crumbs": [
+    "Home",
+    "Korean Typing Test"
+   ],
+   "h1": "Korean Typing Test",
+   "heroP": "Test your <strong>Korean typing speed</strong> with real Korean sentences in Hangul. Measure your speed and accuracy instantly with live results. Free, no sign up.",
+   "seo": [
+    {
+     "h2": "Korean typing test",
+     "p": [
+      "A <strong>Korean typing test</strong> measures how fast and accurately you type real Korean sentences — everyday Hangul text with natural spacing (띄어쓰기) and punctuation. Your score appears in words per minute, where every 5 characters counts as one word, so results stay comparable with the standard <a href=\"1-minute-typing-test.html\">1 minute typing test</a>."
+     ]
+    },
+    {
+     "h2": "Hangul syllable blocks and typing rhythm",
+     "p": [
+      "Hangul is typed letter by letter — ㅎ, ㅏ, ㄴ — and the IME assembles each syllable block (한) as you go. That means Korean typing speed is really about how fast your fingers roll through the jamo inside each block. Smooth, even syllable rhythm beats short bursts of speed."
+     ]
+    },
+    {
+     "h2": "How to improve Korean typing speed",
+     "p": [
+      "Keep your fingers on the home row (ㅁㄴㅇㄹ / ㅏㅓㅣㅡ positions on the standard 2-set keyboard), look at the screen not the keyboard, and practise short daily rounds. Accuracy first: fixing a mis-composed syllable costs more time than typing it slowly and cleanly."
+     ]
+    },
+    {
+     "h2": "WPM and CPM for Korean",
+     "p": [
+      "Korean syllable blocks pack several letters into one character, so raw WPM understates the work your fingers do. Watch your <a href=\"cpm-typing-test.html\">characters per minute (CPM)</a> as well: it tracks the real keystroke load of Korean text."
+     ]
+    }
+   ],
+   "faqFirstOpen": true,
+   "faqH2": "Korean typing test FAQ",
+   "faq": [
+    {
+     "q": "Is this Korean typing test free?",
+     "a": "Yes. It is free with no sign up, and your practice history stays on your own device."
+    },
+    {
+     "q": "Which keyboard layout does the test expect?",
+     "a": "Any. The test shows real Korean sentences and measures what you produce, so the standard 2-set Hangul layout, 3-set layouts, or a mobile Korean keyboard all work."
+    },
+    {
+     "q": "How do syllable blocks affect typing?",
+     "a": "You type individual jamo (letters) and the IME composes them into syllable blocks automatically. Fast Korean typing comes from an even jamo rhythm inside each block, not from rushing whole words."
+    },
+    {
+     "q": "Is WPM or CPM more useful for Korean?",
+     "a": "Both are shown after each round. Because each Hangul block contains several letters, CPM (characters per minute) reflects your true keystroke speed better than WPM."
+    },
+    {
+     "q": "Will this help with Korean typing exams?",
+     "a": "Yes. Timed sentence practice with real Hangul text builds the speed and accuracy measured in Korean office, civil-service and data-entry typing tests."
+    }
+   ],
+   "tldr": "A Korean typing test measures speed and accuracy on real Hangul sentences. You type jamo letters and the IME composes each syllable block, so an even syllable rhythm matters more than bursts of speed. Because blocks pack several letters into one character, CPM is a fairer metric than WPM. Free, timed 15 seconds to 10 minutes, no sign up.",
+   "webAppName": "Typing Speed Test",
+   "webAppUrl": "https://typing.rerivo.com/korean-typing-test.html",
+   "bcItems": [
+    {
+     "name": "Home",
+     "item": "https://typing.rerivo.com/"
+    },
+    {
+     "name": "Korean Typing Test",
+     "item": "https://typing.rerivo.com/korean-typing-test.html"
+    }
+   ],
+   "ldPretty": []
   }
  ]
 }

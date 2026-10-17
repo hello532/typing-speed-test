@@ -35,6 +35,7 @@ var I18N={
 
 var POOL=/*{{POOL}}*/;
 
+(function(){var N={ja:"日本語",ko:"한국어",ur:"اردو"};for(var k in N){if(!I18N[k])I18N[k]={_name:N[k]};}})();
 (function(){var R={en:"Click to resume",zh:"点击继续打字",es:"Haz clic para continuar",hi:"जारी रखने के लिए क्लिक करें",ar:"انقر للمتابعة"};for(var k in R){if(I18N[k])I18N[k].resume=R[k];}})();
 (function(){var R={en:"Keyboard",zh:"键盘大小",es:"Teclado",hi:"कीबोर्ड",ar:"لوحة المفاتيح"};for(var k in R){if(I18N[k])I18N[k].kbd_size=R[k];}})();
 (function(){var M={
@@ -105,7 +106,7 @@ var POOL=/*{{POOL}}*/;
  heat_cap:{en:"Weak keys are highlighted on the keyboard above.",zh:"较弱的按键已在上方键盘高亮显示。",es:"Las teclas débiles se resaltan en el teclado de arriba.",hi:"कमज़ोर कुंजियाँ ऊपर कीबोर्ड पर हाइलाइट की गई हैं।",ar:"المفاتيح الضعيفة مميّزة على لوحة المفاتيح أعلاه."},
  p_colemak:{en:"Colemak",zh:"Colemak",es:"Colemak",hi:"Colemak",ar:"Colemak"}
 };for(var key in T){var R=T[key];for(var k in R){if(I18N[k])I18N[k][key]=R[k];}}})();
-var LANGS=["en","zh","es","hi","ar"];
+var LANGS=["en","zh","es","hi","ar","ja","ko","ur"];
 var WIDTHS=["std","wide","xwide","fluid"];
 var THEMES=[["dark","🌙"],["light","☀️"],["ocean","🌊"],["sepia","📖"],["green","🌿"]];
 function ls(k,v){try{if(v===undefined)return localStorage.getItem(k);localStorage.setItem(k,v);}catch(e){return null;}}
@@ -135,7 +136,7 @@ function translate(){
 function setLang(l,fire,persist){
   if(LANGS.indexOf(l)<0)l="en"; TR.lang=l; if(persist!==false)ls("trLang",l);
   document.documentElement.lang=l;
-  document.documentElement.dir=(l==="ar")?"rtl":"ltr";
+  document.documentElement.dir=(l==="ar"||l==="ur")?"rtl":"ltr";
   translate();
   updateDurChips();
   if(fire)window.dispatchEvent(new Event("tr-relang"));

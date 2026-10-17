@@ -241,7 +241,7 @@ def build_ui_js():
     """
     ui_tpl = (SRC / "ui.js").read_text(encoding="utf-8")
     pool = {}
-    for lang in ("en", "zh", "es", "hi", "ar"):
+    for lang in ("en", "zh", "es", "hi", "ar", "ja", "ko", "ur"):
         p = json.loads((SRC / "pools" / f"{lang}.json").read_text(encoding="utf-8"))
         for key in ("sentences", "quotes", "words"):
             if key not in p or not isinstance(p[key], list):

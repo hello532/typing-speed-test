@@ -32,6 +32,8 @@
 - [Chinese Typing Test](https://typing.rerivo.com/chinese-typing-test.html): Practice typing real simplified Chinese sentences; measures Chinese WPM and accuracy with the 、 and 。 punctuation of everyday Chinese writing.
 - [Hindi Typing Test](https://typing.rerivo.com/hindi-typing-test.html): Practice typing real Hindi sentences in Devanagari script, including matras, conjunct consonants and the । mark; timed Devanagari practice for typing exams.
 - [Arabic Typing Test](https://typing.rerivo.com/arabic-typing-test.html): Practice typing real Arabic sentences right to left, including hamza forms, the ة ta marbuta and ؛ ، punctuation.
+- [Japanese Typing Test](https://typing.rerivo.com/japanese-typing-test.html): Practice typing real Japanese sentences mixing kanji, hiragana and katakana; works with romaji IME or kana input, measures WPM and CPM.
+- [Korean Typing Test](https://typing.rerivo.com/korean-typing-test.html): Practice typing real Korean Hangul sentences; even syllable-block rhythm training, measures WPM and CPM.
 - [Keyboard Typing Test](https://typing.rerivo.com/keyboard-typing-test.html): Full-keyboard touch typing with on-screen key highlighting.
 - [Capital Letter Typing Test](https://typing.rerivo.com/capital-letter-typing-test.html): Uppercase and shift-key practice.
 - [Punctuation Typing Test](https://typing.rerivo.com/punctuation-typing-test.html): Punctuation and symbol accuracy.
