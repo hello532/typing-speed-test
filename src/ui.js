@@ -287,6 +287,25 @@ function init(){
 }
 if(document.readyState==="loading")document.addEventListener("DOMContentLoaded",init);
 else init();
+
+/* ---------- footer 分组折叠（减少密度） ---------- */
+(function(){var nav=document.querySelector(".foot-nav");if(!nav)return;
+var caps=nav.querySelectorAll(".foot-cap");if(caps.length<=5)return;
+var groups=[];for(var i=0;i<caps.length;i++){var cap=caps[i];var links=cap.nextElementSibling;
+while(links&&!links.classList.contains("foot-links"))links=links.nextElementSibling;
+if(links)groups.push({cap:cap,links:links});}
+if(groups.length<=5)return;var moreCollapsed=false;
+var moreBtn=document.createElement("p");moreBtn.className="foot-more-toggle";
+moreBtn.innerHTML="<a href='#' onclick='return false'>\u25bc More categories</a>";
+moreBtn.style.cursor="pointer";moreBtn.style.textAlign="center";
+moreBtn.style.margin="6px 0";moreBtn.style.fontSize=".82rem";
+moreBtn.style.color="var(--accent)";moreBtn.style.fontWeight="600";
+function applyMore(){for(var i=3;i<groups.length-1;i++){
+groups[i].cap.style.display=moreCollapsed?"":"none";
+groups[i].links.style.display=moreCollapsed?"":"none";}
+moreBtn.querySelector("a").textContent=moreCollapsed?"\u25b2 Fewer categories":"\u25bc More categories";}
+groups[2].links.parentNode.insertBefore(moreBtn,groups[3].cap);applyMore();
+moreBtn.querySelector("a").addEventListener("click",function(e){e.preventDefault();moreCollapsed=!moreCollapsed;applyMore();});})();
 })();
 ;
 /* ---------- R11: SEO/FAQ 折叠控制器 — 工具优先，内容按需展开 ---------- */
@@ -297,7 +316,7 @@ else init();
   seoEl.classList.add('collapsed');
   faqEl.classList.add('collapsed');
   var btn=document.createElement('button');
-  btn.className='toggle-btn'; btn.textContent='📖 阅读完整指南 ▼';
+  btn.className='toggle-btn'; btn.textContent='📖 Read the full guide ▼';
   btn.setAttribute('aria-expanded','false');
   var result=document.querySelector('#resultPanel');
   var parent=seoEl.parentNode;
@@ -308,7 +327,7 @@ else init();
     seoEl.classList.toggle('collapsed',!open);
     faqEl.classList.toggle('collapsed',!open);
     btn.setAttribute('aria-expanded',String(open));
-    btn.textContent=open?'▲ 收起指南':'📖 阅读完整指南 ▼';
+    btn.textContent=open?'▲ Collapse':'📖 Read the full guide ▼';
     if(!open)btn.scrollIntoView({behavior:'smooth',block:'nearest'});
   });
 })();;
