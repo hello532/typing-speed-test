@@ -3276,7 +3276,7 @@ function rnd(n){return Math.floor(Math.random()*n);}
 function pickN(arr,n){var a=[],i;for(i=0;i<n;i++)a.push(arr[rnd(arr.length)]);return a.join(" ");}
 function pick3(arr){var a=[],i;for(i=0;i<3;i++)a.push(arr[rnd(arr.length)]);return a.join(" ");}
 /* 教育线变体共用同一供给逻辑：quotes 取整条、其余取 3 句拼接 */
-var EDU_VARIANTS=["touch","race","tutorial","tutor","learner","trainer","quotes_ext","pangram","python_code","javascript_code"];
+var EDU_VARIANTS=["touch","race","tutorial","tutor","learner","trainer","quotes_ext","pangram","python_code","javascript_code","bigram_common","bigram_hard"];
 function pad2(n){return (n<10?"0":"")+n;}
 function fmtDate(f){
   var y=f.minYear+rnd(f.maxYear-f.minYear+1), m=1+rnd(12), d=1+rnd(28);

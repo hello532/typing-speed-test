@@ -128,6 +128,7 @@
 - [Online Typing Practice](https://typing.rerivo.com/online-typing-practice.html): Free browser-based structured typing practice: daily 10-minute plan by goal, per-key weakness analysis, 12 languages, no sign up.
 - [1000 Most Common English Words](https://typing.rerivo.com/top-1000-english-words.html): The 1000 most common English words in frequency order from open subtitle data, with a free typing practice test.
 - [Typing Games for Kids](https://typing.rerivo.com/typing-games-for-kids.html): Typing games for kids: 5-10 minute game-feeling sessions, letter-hunt drills, word-collection challenges, and how to keep children practising without nagging.
+- [Bigram Typing Practice](https://typing.rerivo.com/bigram-typing-practice.html): Bigram typing practice targeting the 13 most common English letter combinations with per-key weakness tracking.
 
 ## Skill, Level, Format & Exam Tests
 - [10 Key Typing Test](https://typing.rerivo.com/ten-key-typing-test.html): Free 10 key typing test for the numeric keypad, with number-pad speed in CPM/KPH and accuracy.

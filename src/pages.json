@@ -13336,6 +13336,105 @@
     }
    ],
    "ldPretty": []
+  },
+  {
+   "file": "bigram-typing-practice.html",
+   "title": "Bigram Typing Practice - Drill Common Letter Combinations",
+   "metaDesc": "Bigram typing practice targeting the most common English letter combinations (th, he, in, er, on...). Free timed rounds with per-key weakness tracking.",
+   "canonical": "https://typing.rerivo.com/bigram-typing-practice.html",
+   "dur": 60,
+   "mode": "words",
+   "variant": null,
+   "nav": [
+    {
+     "href": "english-typing-test.html",
+     "text": "English Typing Test"
+    },
+    {
+     "href": "words-per-minute-test.html",
+     "text": "WPM Test"
+    },
+    {
+     "href": "typing-practice.html",
+     "text": "Typing Practice"
+    }
+   ],
+   "crumbs": [
+    "Home",
+    "Bigram Typing Practice"
+   ],
+   "h1": "Bigram Typing Practice",
+   "heroP": "A <strong>bigram typing practice</strong> drill targeting the most common English letter combinations.",
+   "seo": [
+    {
+     "h2": "What is bigram typing practice?",
+     "p": [
+      "A bigram is a pair of consecutive letters that appears very often in English: th, he, in, er, on, ed, nd, ti, es, re, ou, ar and st. These thirteen pairs dominate English text, so a <strong>bigram typing practice</strong> drill that repeats them builds the exact finger coordination that real-world typing demands.",
+      "When the letters th appear in a word, your two fingers must coordinate - one strikes t while the other prepares h. If this transition is hesitant, every word containing th is slowed. Drill the bigram and every matching word speeds up."
+     ]
+    },
+    {
+     "h2": "Common vs rare bigrams",
+     "p": [
+      "There are two drill modes. Common bigrams (th, he, in, er, on) train the transitions you use every minute. Rare bigrams (wh, kn, gh, qu, ch, ght, ugh, ought) train the combinations that break rhythm even in skilled typists. Start with common until they feel automatic, then switch to rare for a challenge.",
+      "Alternating between the two keeps each round fresh while covering the full range of English letter combinations."
+     ]
+    },
+    {
+     "h2": "The most common English bigrams",
+     "p": [
+      "These thirteen pairs dominate English text. Practice each until the combination feels like a single keystroke.",
+      "<div class=\"tbl\"><table><thead><tr><th>#</th><th>Bigram</th><th>Example words</th></tr></thead><tbody>\n<tr><td>1</td><td>th</td><td>the, that, this, three</td></tr>\n<tr><td>2</td><td>he</td><td>the, he, her, here</td></tr>\n<tr><td>3</td><td>in</td><td>in, into, thing</td></tr>\n<tr><td>4</td><td>er</td><td>her, here, there</td></tr>\n<tr><td>5</td><td>on</td><td>on, only, one</td></tr>\n<tr><td>6</td><td>ed</td><td>ended, typed, looked</td></tr>\n<tr><td>7</td><td>nd</td><td>and, end, under</td></tr>\n<tr><td>8</td><td>ti</td><td>time, this, until</td></tr>\n<tr><td>9</td><td>es</td><td>best, test, these</td></tr>\n<tr><td>10</td><td>re</td><td>are, more, there</td></tr>\n<tr><td>11</td><td>ou</td><td>you, our, about</td></tr>\n<tr><td>12</td><td>ar</td><td>are, card, hard</td></tr>\n<tr><td>13</td><td>st</td><td>best, most, start</td></tr>\n</tbody></table></div>"
+     ]
+    },
+    {
+     "h2": "How to use this page",
+     "p": [
+      "Take a 15-second round on common bigrams, note your weak-key report, then a 15-second round on rare bigrams. The keys in both reports are your true weak keys. Drill them until they stop appearing, then retest with the <a href=\"1-minute-typing-test.html\">1 minute typing test</a>.",
+      "For more drills see <a href=\"typing-speed-exercises.html\">typing speed exercises</a>. For symbols try <a href=\"quotes-typing-test.html\">quotes typing test</a>."
+     ]
+    },
+    {
+     "h2": "Bigram practice for exam preparation",
+     "p": [
+      "Government and clerk typing tests in India test accuracy and speed on timed passages. Bigram fluency directly improves passage typing because common letter combinations no longer cause hesitation. Practice common bigrams until automatic, then hard bigrams until comfortable, and finally full sentences to tie them together. Punctuation symbols carry more CPM weight than people expect, because they break letter rhythm: practise them with quotes mode or the punctuation test on this site to keep every keystroke type at the same automatic level."
+     ]
+    }
+   ],
+   "faqFirstOpen": true,
+   "faqH2": "Bigram Typing Practice FAQ",
+   "faq": [
+    {
+     "q": "Is this bigram typing practice free?",
+     "a": "Yes. Free with no sign up."
+    },
+    {
+     "q": "What is a bigram in typing?",
+     "a": "A pair of consecutive letters that appears very often in English, like th, he, in, er, on. Repeating them builds finger coordination."
+    },
+    {
+     "q": "How does bigram practice improve speed?",
+     "a": "Speed is capped by your slowest key transitions. Bigram drills isolate those transitions until they become single motions."
+    },
+    {
+     "q": "What are the most common English bigrams?",
+     "a": "th, he, in, er, on, ed, nd, ti, es, re, ou, ar and st. The page above has all 13 in a table."
+    }
+   ],
+   "tldr": "Bigram typing practice drills the 13 most common English letter combinations until they feel like single keystrokes. These pairs dominate English text, so drilling them builds real-world typing speed. Two modes: common and rare bigrams. Free, timed, no sign up.",
+   "webAppName": "Typing Speed Test",
+   "webAppUrl": "https://typing.rerivo.com/bigram-typing-practice.html",
+   "bcItems": [
+    {
+     "name": "Home",
+     "item": "https://typing.rerivo.com/"
+    },
+    {
+     "name": "Bigram Typing Practice",
+     "item": "https://typing.rerivo.com/bigram-typing-practice.html"
+    }
+   ],
+   "ldPretty": []
   }
  ]
 }

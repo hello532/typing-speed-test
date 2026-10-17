@@ -1560,5 +1560,55 @@
    "const memo = useMemo(() => compute(x), [x]);",
    "const cb = useCallback((e) => onChange(e), [onChange]);"
   ]
+ },
+ "bigram_common": {
+  "_note": "high-freq bigrams th/he/in/er/on",
+  "sentences": [
+   "The thing about the weather is that there is no other thing like the weather.",
+   "Then he started thinking about three thousand other things that seemed the same.",
+   "Sometimes the north east wind brings the first autumn rain over the land.",
+   "Then they turned to the mother and said thanks for their thoughts.",
+   "There were three other sides that seemed rather thin on the test day.",
+   "The father and the mother started their own thing three years after.",
+   "They went there on their own with nothing other than one share.",
+   "The children sat there on the left and listened with intent.",
+   "His hand went to the other end; the heart started to slow.",
+   "The three of them started there on their own for the third time.",
+   "When there was nothing else to do, they went with the other side.",
+   "The thing that started their first stint was rather short.",
+   "There are three sides to the thing that neither of them saw.",
+   "Their heart in the other side came from the same short stint.",
+   "He said there would be three other heart tests before the start."
+  ],
+  "quotes": [
+   "The truth is the thing. - attr",
+   "There is nothing either good or bad. - Shakespeare",
+   "The heart has its reasons. - Pascal"
+  ]
+ },
+ "bigram_hard": {
+  "_note": "rare bigrams wh/kn/gh/qu/ch",
+  "sentences": [
+   "The knight knew that nothing would change the truth he had fought.",
+   "She bought a watch that had a bright black and white face.",
+   "Though the night was dark, the thought brought light to their hearts.",
+   "When the ghost knocked on the door, the cat caught the sound.",
+   "He thought that the whole thing was quite wrong, yet he went through.",
+   "The quick brown fox thought nothing of the bright white snow.",
+   "She caught the ball though it went through the crowd.",
+   "The knight fought through the night with nothing but his thought.",
+   "Though they knew the right thing, they went through with it.",
+   "When the whole thought came through, the light showed the way.",
+   "The thought that the ghost knew their names brought a chill.",
+   "She went through the whole night with nothing but the moon.",
+   "Though the knight was caught, the ghost knew nothing.",
+   "The white light went through the house and caught them.",
+   "The whole thing was quite bright through the night."
+  ],
+  "quotes": [
+   "Through thick and thin. - attr",
+   "Though this be madness. - Shakespeare",
+   "Knowledge speaks, wisdom listens. - Hendrix"
+  ]
  }
 }
