@@ -128,6 +128,9 @@ nav.crumbs span{color:var(--dim);}
 footer{margin-top:40px; padding-top:22px; border-top:1px solid var(--line); text-align:center; color:var(--dim); font-size:.86rem; line-height:2;}
 footer a{color:var(--soft); text-decoration:none; transition:color .15s;}
 footer a:hover{color:var(--accent);}
+.foot-nav{margin-top:10px;}
+.foot-cap{margin:12px 0 2px; font-weight:600; color:var(--dim); font-size:.78rem; letter-spacing:.06em; text-transform:uppercase;}
+.foot-links{margin:0; line-height:2;}
 @media(max-width:560px){
   .wrap{padding:16px 15px 56px;}
   .hero{margin:22px 0 20px;}
