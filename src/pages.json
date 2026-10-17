@@ -7511,6 +7511,365 @@
     }
    ],
    "ldPretty": []
+  },
+  {
+   "file": "quotes-typing-test.html",
+   "title": "Quotes Typing Test - Type Famous Quotes, Free WPM Test",
+   "metaDesc": "Free quotes typing test. Type real famous quotes from history's greatest minds and measure your WPM and accuracy with instant results. No sign up.",
+   "canonical": "https://typing.rerivo.com/quotes-typing-test.html",
+   "dur": 60,
+   "mode": "quotes",
+   "variant": "quotes_ext",
+   "nav": [
+    {
+     "href": "english-typing-test.html",
+     "text": "English Typing Test"
+    },
+    {
+     "href": "words-per-minute-test.html",
+     "text": "WPM Test"
+    },
+    {
+     "href": "typing-practice.html",
+     "text": "Typing Practice"
+    }
+   ],
+   "crumbs": [
+    "Home",
+    "Quotes Typing Test"
+   ],
+   "h1": "Quotes Typing Test",
+   "heroP": "Test your typing speed with <strong>famous quotes</strong> from history's greatest minds. Real sentences with natural punctuation and capitals. Free, instant results, no sign up.",
+   "seo": [
+    {
+     "h2": "Quotes typing test",
+     "p": [
+      "A <strong>quotes typing test</strong> measures your speed and accuracy on real famous quotations — the same sentences people actually read, share and write. Unlike random word drills, quotes make you type the way real writing flows: natural word order, commas and full stops in the right places, and capital letters that mark where thoughts begin."
+     ]
+    },
+    {
+     "h2": "Why quotes are the best typing practice text",
+     "p": [
+      "Quotes are dense with the two things that slow most typists down: punctuation and capitals. Every sentence forces you to handle them at speed, which is exactly the skill that separates a fast prose typist from a fast word-list typist. And because the lines are memorable, your brain reads ahead while your fingers follow — the same look-ahead rhythm that professional typists rely on.",
+      "The pool on this page mixes short, punchy lines with longer reflective ones, so a one-minute round trains both burst speed and sustained rhythm. If you want a warm-up first, the <a href=\"quick-brown-fox-typing-test.html\">quick brown fox typing test</a> covers every letter of the alphabet in a single sentence."
+     ]
+    },
+    {
+     "h2": "What is in this quote collection",
+     "p": [
+      "Thirty-five lines from public-domain and widely attributed authors — Twain, Aristotle, Franklin, Lincoln, Edison, Einstein, Lao Tzu, Marcus Aurelius and more. Each one is typed exactly as commonly cited, with the author's name after a dash, so you also practise the dash-and-capital pattern that citations use."
+     ]
+    },
+    {
+     "h2": "How to use quotes to raise your WPM",
+     "p": [
+      "Take one minute a day. Type the quote as if you were writing it down for someone else to read: clean capitals, clean punctuation, no shortcuts. Watch the weak-key report after each round — most people discover a specific symbol (the comma, the dash, the shift key) that taxes every sentence they type. Drill that, and your prose speed jumps within a week."
+     ]
+    }
+   ],
+   "faqFirstOpen": true,
+   "faqH2": "Quotes typing test FAQ",
+   "faq": [
+    {
+     "q": "Is this quotes typing test free?",
+     "a": "Yes. It is free with no sign up, and your practice history stays on your own device."
+    },
+    {
+     "q": "Which quotes are in the test?",
+     "a": "Thirty-five famous lines from public-domain and widely attributed authors — Twain, Aristotle, Franklin, Lincoln, Edison, Einstein, Lao Tzu, Marcus Aurelius and others — typed as commonly cited."
+    },
+    {
+     "q": "Are quotes good typing practice?",
+     "a": "Yes. Quotes carry natural punctuation, capitals and word flow, so they train realistic prose typing better than random word lists."
+    },
+    {
+     "q": "Does the test include punctuation and capitals?",
+     "a": "Yes. Every quote keeps its original commas, full stops, dashes and capital letters, so you practise the complete skill of real-world typing."
+    }
+   ],
+   "tldr": "A quotes typing test measures WPM and accuracy on 35 famous public-domain quotations with natural punctuation and capitals — the most realistic prose-typing practice available. Quotes train the look-ahead reading rhythm and symbol handling that word lists miss. Free, timed 15 seconds to 10 minutes, no sign up.",
+   "webAppName": "Typing Speed Test",
+   "webAppUrl": "https://typing.rerivo.com/quotes-typing-test.html",
+   "bcItems": [
+    {
+     "name": "Home",
+     "item": "https://typing.rerivo.com/"
+    },
+    {
+     "name": "Quotes Typing Test",
+     "item": "https://typing.rerivo.com/quotes-typing-test.html"
+    }
+   ],
+   "ldPretty": []
+  },
+  {
+   "file": "pangram-typing-test.html",
+   "title": "Pangram Typing Test - Practice Every Letter of the Alphabet",
+   "metaDesc": "Free pangram typing test. Type famous pangrams like the quick brown fox and many more, covering every letter of the alphabet. Instant WPM and accuracy.",
+   "canonical": "https://typing.rerivo.com/pangram-typing-test.html",
+   "dur": 60,
+   "mode": "sentences",
+   "variant": "pangram",
+   "nav": [
+    {
+     "href": "english-typing-test.html",
+     "text": "English Typing Test"
+    },
+    {
+     "href": "words-per-minute-test.html",
+     "text": "WPM Test"
+    },
+    {
+     "href": "typing-practice.html",
+     "text": "Typing Practice"
+    }
+   ],
+   "crumbs": [
+    "Home",
+    "Pangram Typing Test"
+   ],
+   "h1": "Pangram Typing Test",
+   "heroP": "Practice typing with <strong>pangrams</strong> — sentences that contain every letter of the alphabet. From the famous quick brown fox to fifteen harder variations. Free, instant results.",
+   "seo": [
+    {
+     "h2": "Pangram typing test",
+     "p": [
+      "A <strong>pangram typing test</strong> trains every key on the keyboard in a single sentence. A pangram is a sentence that uses all 26 letters at least once, so a few rounds guarantee your fingers visit every corner of the layout — including the rare letters (q, z, x, j) that ordinary prose barely touches."
+     ]
+    },
+    {
+     "h2": "Why the rare letters matter",
+     "p": [
+      "Typing speed is capped by your slowest keys, not your fastest. Most people fly through e, t and a but stumble on q, z, x and j simply because daily typing rarely calls for them. Pangram drills force those keys into your muscle memory, and once the rare letters stop being events, your baseline speed on normal text rises too."
+     ]
+    },
+    {
+     "h2": "The pangrams in this test",
+     "p": [
+      "Sixteen pangrams in rising difficulty, starting with the classic <a href=\"quick-brown-fox-typing-test.html\">quick brown fox</a> — which has its own dedicated page with more variations — and moving to trickier constructions like 'Sphinx of black quartz, judge my vow' and 'Mr Jock, TV quiz PhD, bags few lynx'. The harder ones mix capitals, punctuation and unusual words for a full-keyboard workout."
+     ]
+    },
+    {
+     "h2": "How to practise with pangrams",
+     "p": [
+      "Run a minute a day and watch the weak-key report. When a pangram round flags the same letters round after round, those are your true weak keys — drill them until they disappear from the report. Alternate between the easy pangrams for warm-up and the hard ones for a proper challenge."
+     ]
+    }
+   ],
+   "faqFirstOpen": true,
+   "faqH2": "Pangram typing test FAQ",
+   "faq": [
+    {
+     "q": "Is this pangram typing test free?",
+     "a": "Yes. It is free with no sign up, and your practice history stays on your own device."
+    },
+    {
+     "q": "What is a pangram?",
+     "a": "A pangram is a sentence that contains every letter of the alphabet at least once, like 'The quick brown fox jumps over the lazy dog'. Typing pangrams exercises all 26 keys in a single line."
+    },
+    {
+     "q": "Why practise typing pangrams?",
+     "a": "Because rare letters (q, z, x, j) cap your real-world speed. Pangrams force every key into muscle memory, which raises your baseline on ordinary text too."
+    },
+    {
+     "q": "How many pangrams are included?",
+     "a": "Sixteen, in rising difficulty — from the classic quick brown fox to dense constructions like 'Sphinx of black quartz, judge my vow'."
+    }
+   ],
+   "tldr": "A pangram typing test trains all 26 letters in single sentences — including the rare q, z, x, j that cap real-world speed. This free test serves 16 pangrams in rising difficulty, from the quick brown fox to 'Sphinx of black quartz, judge my vow'. Timed 15 seconds to 10 minutes, no sign up.",
+   "webAppName": "Typing Speed Test",
+   "webAppUrl": "https://typing.rerivo.com/pangram-typing-test.html",
+   "bcItems": [
+    {
+     "name": "Home",
+     "item": "https://typing.rerivo.com/"
+    },
+    {
+     "name": "Pangram Typing Test",
+     "item": "https://typing.rerivo.com/pangram-typing-test.html"
+    }
+   ],
+   "ldPretty": []
+  },
+  {
+   "file": "python-code-typing.html",
+   "title": "Python Code Typing Test - Practice Typing Python Syntax",
+   "metaDesc": "Free Python code typing test. Type real Python lines with brackets, colons, underscores and indentation. Build coding speed and accuracy. No sign up.",
+   "canonical": "https://typing.rerivo.com/python-code-typing.html",
+   "dur": 60,
+   "mode": "sentences",
+   "variant": "python_code",
+   "nav": [
+    {
+     "href": "english-typing-test.html",
+     "text": "English Typing Test"
+    },
+    {
+     "href": "words-per-minute-test.html",
+     "text": "WPM Test"
+    },
+    {
+     "href": "typing-practice.html",
+     "text": "Typing Practice"
+    }
+   ],
+   "crumbs": [
+    "Home",
+    "Python Code Typing"
+   ],
+   "h1": "Python Code Typing Test",
+   "heroP": "Practice typing <strong>real Python code</strong> — keywords, brackets, colons, underscores and f-strings. Build the symbol speed that coding actually demands. Free, instant results.",
+   "seo": [
+    {
+     "h2": "Python code typing test",
+     "p": [
+      "A <strong>Python code typing test</strong> measures how fast and accurately you type real Python syntax — def, return, lambda, list comprehensions, f-strings and decorators. Coding speed is a different skill from prose speed: it is dominated by symbols ({ } [ ] ( ) : ; _ =), mixed case, and indentation, which is exactly what this drill trains."
+     ]
+    },
+    {
+     "h2": "Why code typing is a separate skill",
+     "p": [
+      "Prose typing lives on the home row; code typing lives everywhere else. Brackets sit on the top row, the underscore and colon need the shift key, and every line mixes letters with symbols in patterns your prose muscle memory never rehearses. Developers who never drill symbols stay slow at them — and symbols are half of every line of code you write."
+     ]
+    },
+    {
+     "h2": "What is in the Python pool",
+     "p": [
+      "Fifty realistic Python lines built from the official keyword list and everyday standard-library patterns: control flow, comprehensions, f-strings, pathlib, json handling, async functions, classes and dunder methods. You will type real constructs like <strong>for i in range(len(items)):</strong> and <strong>sorted(users, key=lambda u: u.score, reverse=True)</strong> — not random characters.",
+      "The pool is drawn from the Python 3 keyword set (python.org documentation) plus the standard-library calls that appear most in real codebases, so the practice transfers directly to your editor."
+     ]
+    },
+    {
+     "h2": "How to get faster at coding",
+     "p": [
+      "Run one minute a day and read the weak-key report carefully — for most developers it flags the bracket keys, the underscore or the colon. Drill those in isolation until they vanish, then retest. For prose-side speed and general developer ergonomics, see <a href=\"typing-practice-for-programmers.html\">typing practice for programmers</a>, and for JavaScript syntax try the <a href=\"javascript-code-typing.html\">JavaScript code typing test</a>."
+     ]
+    }
+   ],
+   "faqFirstOpen": true,
+   "faqH2": "Python code typing FAQ",
+   "faq": [
+    {
+     "q": "Is this Python code typing test free?",
+     "a": "Yes. It is free with no sign up, and your practice history stays on your own device."
+    },
+    {
+     "q": "What Python code will I type?",
+     "a": "Fifty realistic lines built from the official Python keyword list and common standard-library patterns: def, return, lambda, comprehensions, f-strings, pathlib, json, async/await and more."
+    },
+    {
+     "q": "Does typing code really need separate practice?",
+     "a": "Yes. Code is half symbols — brackets, colons, underscores — which prose typing never trains. Symbol speed is what separates fast coders from fast prose typists."
+    },
+    {
+     "q": "Will this help me code faster in my editor?",
+     "a": "Yes. The lines mirror real Python constructs, so the muscle memory for keywords and symbol patterns transfers directly to everyday coding."
+    }
+   ],
+   "tldr": "A Python code typing test drills real Python syntax — keywords, brackets, colons, underscores, f-strings — the symbol-heavy patterns that prose typing never trains. This free test serves 50 realistic lines from the official keyword set and standard library. Timed 15 seconds to 10 minutes, no sign up.",
+   "webAppName": "Typing Speed Test",
+   "webAppUrl": "https://typing.rerivo.com/python-code-typing.html",
+   "bcItems": [
+    {
+     "name": "Home",
+     "item": "https://typing.rerivo.com/"
+    },
+    {
+     "name": "Python Code Typing",
+     "item": "https://typing.rerivo.com/python-code-typing.html"
+    }
+   ],
+   "ldPretty": []
+  },
+  {
+   "file": "javascript-code-typing.html",
+   "title": "JavaScript Code Typing Test - Practice Typing JS Syntax",
+   "metaDesc": "Free JavaScript code typing test. Type real JS lines with arrow functions, template literals, destructuring and braces. Build coding speed. No sign up.",
+   "canonical": "https://typing.rerivo.com/javascript-code-typing.html",
+   "dur": 60,
+   "mode": "sentences",
+   "variant": "javascript_code",
+   "nav": [
+    {
+     "href": "english-typing-test.html",
+     "text": "English Typing Test"
+    },
+    {
+     "href": "words-per-minute-test.html",
+     "text": "WPM Test"
+    },
+    {
+     "href": "typing-practice.html",
+     "text": "Typing Practice"
+    }
+   ],
+   "crumbs": [
+    "Home",
+    "JavaScript Code Typing"
+   ],
+   "h1": "JavaScript Code Typing Test",
+   "heroP": "Practice typing <strong>real JavaScript code</strong> — arrow functions, template literals, destructuring, braces and semicolons. Build the symbol speed modern JS demands. Free, instant results.",
+   "seo": [
+    {
+     "h2": "JavaScript code typing test",
+     "p": [
+      "A <strong>JavaScript code typing test</strong> measures how fast and accurately you type real JavaScript — const and let, arrow functions, async/await, template literals and destructuring. Modern JS is one of the most symbol-dense languages in everyday use: braces, brackets, backticks, dollar signs, arrows and semicolons fill every line."
+     ]
+    },
+    {
+     "h2": "Why JavaScript is the hardest mainstream syntax to type",
+     "p": [
+      "JavaScript stacks more symbol types per line than almost any other popular language: ( ) for calls, { } for blocks and objects, [ ] for arrays, ` ` for template literals with ${ } inside, => for arrows, and ?. plus ?? for safety. Every one of those is a shift key or an awkward reach, and every one appears dozens of times in a normal workday. Drilling them directly is the only way they stop being friction."
+     ]
+    },
+    {
+     "h2": "What is in the JavaScript pool",
+     "p": [
+      "Fifty realistic lines built from the MDN JavaScript reference and everyday patterns in modern codebases: array methods, destructuring, spread, async/await, DOM calls, fetch with AbortController, classes, getters, and React-flavoured hooks like useState and useEffect. You will type constructs like <strong>const users = list.filter(u => u.active);</strong> and <strong>const merged = { ...defaults, ...options };</strong>",
+      "The lines follow the MDN documented language syntax (developer.mozilla.org) plus patterns that dominate real repositories, so the practice transfers to your daily editor work."
+     ]
+    },
+    {
+     "h2": "How to get faster at typing JavaScript",
+     "p": [
+      "Run one minute a day and study the weak-key report — JS developers typically discover the curly brace, backtick or dollar-sign keys as their bottlenecks. Drill those until they disappear, then retest. For the Python side of the stack see the <a href=\"python-code-typing.html\">Python code typing test</a>, and for general developer typing ergonomics see <a href=\"typing-practice-for-programmers.html\">typing practice for programmers</a>."
+     ]
+    }
+   ],
+   "faqFirstOpen": true,
+   "faqH2": "JavaScript code typing FAQ",
+   "faq": [
+    {
+     "q": "Is this JavaScript code typing test free?",
+     "a": "Yes. It is free with no sign up, and your practice history stays on your own device."
+    },
+    {
+     "q": "What JavaScript code will I type?",
+     "a": "Fifty realistic lines from the MDN-documented language: const/let, arrow functions, template literals, destructuring, spread, async/await, array methods, DOM and fetch patterns, classes and hooks."
+    },
+    {
+     "q": "Why does JavaScript need its own typing drill?",
+     "a": "Because JS is uniquely symbol-dense — braces, brackets, backticks, ${ }, arrows and semicolons on every line. Prose typing never trains those reaches."
+    },
+    {
+     "q": "Will this help with frameworks like React?",
+     "a": "Yes. The pool includes hooks-style patterns (useState, useEffect) and the destructuring that dominates React and Node code alike."
+    }
+   ],
+   "tldr": "A JavaScript code typing test drills real JS syntax — arrow functions, template literals, destructuring, braces and async/await — the most symbol-dense mainstream language. This free test serves 50 realistic lines from the MDN-documented language. Timed 15 seconds to 10 minutes, no sign up.",
+   "webAppName": "Typing Speed Test",
+   "webAppUrl": "https://typing.rerivo.com/javascript-code-typing.html",
+   "bcItems": [
+    {
+     "name": "Home",
+     "item": "https://typing.rerivo.com/"
+    },
+    {
+     "name": "JavaScript Code Typing",
+     "item": "https://typing.rerivo.com/javascript-code-typing.html"
+    }
+   ],
+   "ldPretty": []
   }
  ]
 }

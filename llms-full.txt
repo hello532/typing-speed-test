@@ -2146,3 +2146,82 @@ From the open FrequencyWords dataset (MIT license), which counts word frequencie
 They are the most frequent words in subtitle transcripts — everyday spoken-style language. That makes them the most useful 200 words for typing practice, though formal written text has a slightly different profile.
 Practise with the built-in test above: it serves these exact words in timed rounds. Short daily rounds with an accuracy-first approach build speed fastest.
 Yes. The word list and the typing practice test are free with no sign up.
+
+## Quotes Typing Test
+Source: https://typing.rerivo.com/quotes-typing-test.html
+
+Test your typing speed with famous quotes from history's greatest minds. Real sentences with natural punctuation and capitals. Free, instant results, no sign up.
+
+## Quotes typing test
+A quotes typing test measures your speed and accuracy on real famous quotations — the same sentences people actually read, share and write. Unlike random word drills, quotes make you type the way real writing flows: natural word order, commas and full stops in the right places, and capital letters that mark where thoughts begin.
+## Why quotes are the best typing practice text
+Quotes are dense with the two things that slow most typists down: punctuation and capitals. Every sentence forces you to handle them at speed, which is exactly the skill that separates a fast prose typist from a fast word-list typist. And because the lines are memorable, your brain reads ahead while your fingers follow — the same look-ahead rhythm that professional typists rely on.
+The pool on this page mixes short, punchy lines with longer reflective ones, so a one-minute round trains both burst speed and sustained rhythm. If you want a warm-up first, the quick brown fox typing test covers every letter of the alphabet in a single sentence.
+## What is in this quote collection
+Thirty-five lines from public-domain and widely attributed authors — Twain, Aristotle, Franklin, Lincoln, Edison, Einstein, Lao Tzu, Marcus Aurelius and more. Each one is typed exactly as commonly cited, with the author's name after a dash, so you also practise the dash-and-capital pattern that citations use.
+## How to use quotes to raise your WPM
+Take one minute a day. Type the quote as if you were writing it down for someone else to read: clean capitals, clean punctuation, no shortcuts. Watch the weak-key report after each round — most people discover a specific symbol (the comma, the dash, the shift key) that taxes every sentence they type. Drill that, and your prose speed jumps within a week.
+## Quotes typing test FAQ
+Yes. It is free with no sign up, and your practice history stays on your own device.
+Thirty-five famous lines from public-domain and widely attributed authors — Twain, Aristotle, Franklin, Lincoln, Edison, Einstein, Lao Tzu, Marcus Aurelius and others — typed as commonly cited.
+Yes. Quotes carry natural punctuation, capitals and word flow, so they train realistic prose typing better than random word lists.
+Yes. Every quote keeps its original commas, full stops, dashes and capital letters, so you practise the complete skill of real-world typing.
+
+## Pangram Typing Test
+Source: https://typing.rerivo.com/pangram-typing-test.html
+
+Practice typing with pangrams — sentences that contain every letter of the alphabet. From the famous quick brown fox to fifteen harder variations. Free, instant results.
+
+## Pangram typing test
+A pangram typing test trains every key on the keyboard in a single sentence. A pangram is a sentence that uses all 26 letters at least once, so a few rounds guarantee your fingers visit every corner of the layout — including the rare letters (q, z, x, j) that ordinary prose barely touches.
+## Why the rare letters matter
+Typing speed is capped by your slowest keys, not your fastest. Most people fly through e, t and a but stumble on q, z, x and j simply because daily typing rarely calls for them. Pangram drills force those keys into your muscle memory, and once the rare letters stop being events, your baseline speed on normal text rises too.
+## The pangrams in this test
+Sixteen pangrams in rising difficulty, starting with the classic quick brown fox — which has its own dedicated page with more variations — and moving to trickier constructions like 'Sphinx of black quartz, judge my vow' and 'Mr Jock, TV quiz PhD, bags few lynx'. The harder ones mix capitals, punctuation and unusual words for a full-keyboard workout.
+## How to practise with pangrams
+Run a minute a day and watch the weak-key report. When a pangram round flags the same letters round after round, those are your true weak keys — drill them until they disappear from the report. Alternate between the easy pangrams for warm-up and the hard ones for a proper challenge.
+## Pangram typing test FAQ
+Yes. It is free with no sign up, and your practice history stays on your own device.
+A pangram is a sentence that contains every letter of the alphabet at least once, like 'The quick brown fox jumps over the lazy dog'. Typing pangrams exercises all 26 keys in a single line.
+Because rare letters (q, z, x, j) cap your real-world speed. Pangrams force every key into muscle memory, which raises your baseline on ordinary text too.
+Sixteen, in rising difficulty — from the classic quick brown fox to dense constructions like 'Sphinx of black quartz, judge my vow'.
+
+## Python Code Typing Test
+Source: https://typing.rerivo.com/python-code-typing.html
+
+Practice typing real Python code — keywords, brackets, colons, underscores and f-strings. Build the symbol speed that coding actually demands. Free, instant results.
+
+## Python code typing test
+A Python code typing test measures how fast and accurately you type real Python syntax — def, return, lambda, list comprehensions, f-strings and decorators. Coding speed is a different skill from prose speed: it is dominated by symbols ({ } [ ] ( ) : ; _ =), mixed case, and indentation, which is exactly what this drill trains.
+## Why code typing is a separate skill
+Prose typing lives on the home row; code typing lives everywhere else. Brackets sit on the top row, the underscore and colon need the shift key, and every line mixes letters with symbols in patterns your prose muscle memory never rehearses. Developers who never drill symbols stay slow at them — and symbols are half of every line of code you write.
+## What is in the Python pool
+Fifty realistic Python lines built from the official keyword list and everyday standard-library patterns: control flow, comprehensions, f-strings, pathlib, json handling, async functions, classes and dunder methods. You will type real constructs like for i in range(len(items)): and sorted(users, key=lambda u: u.score, reverse=True) — not random characters.
+The pool is drawn from the Python 3 keyword set (python.org documentation) plus the standard-library calls that appear most in real codebases, so the practice transfers directly to your editor.
+## How to get faster at coding
+Run one minute a day and read the weak-key report carefully — for most developers it flags the bracket keys, the underscore or the colon. Drill those in isolation until they vanish, then retest. For prose-side speed and general developer ergonomics, see typing practice for programmers, and for JavaScript syntax try the JavaScript code typing test.
+## Python code typing FAQ
+Yes. It is free with no sign up, and your practice history stays on your own device.
+Fifty realistic lines built from the official Python keyword list and common standard-library patterns: def, return, lambda, comprehensions, f-strings, pathlib, json, async/await and more.
+Yes. Code is half symbols — brackets, colons, underscores — which prose typing never trains. Symbol speed is what separates fast coders from fast prose typists.
+Yes. The lines mirror real Python constructs, so the muscle memory for keywords and symbol patterns transfers directly to everyday coding.
+
+## JavaScript Code Typing Test
+Source: https://typing.rerivo.com/javascript-code-typing.html
+
+Practice typing real JavaScript code — arrow functions, template literals, destructuring, braces and semicolons. Build the symbol speed modern JS demands. Free, instant results.
+
+## JavaScript code typing test
+A JavaScript code typing test measures how fast and accurately you type real JavaScript — const and let, arrow functions, async/await, template literals and destructuring. Modern JS is one of the most symbol-dense languages in everyday use: braces, brackets, backticks, dollar signs, arrows and semicolons fill every line.
+## Why JavaScript is the hardest mainstream syntax to type
+JavaScript stacks more symbol types per line than almost any other popular language: ( ) for calls, { } for blocks and objects, [ ] for arrays, ` ` for template literals with ${ } inside, => for arrows, and ?. plus ?? for safety. Every one of those is a shift key or an awkward reach, and every one appears dozens of times in a normal workday. Drilling them directly is the only way they stop being friction.
+## What is in the JavaScript pool
+Fifty realistic lines built from the MDN JavaScript reference and everyday patterns in modern codebases: array methods, destructuring, spread, async/await, DOM calls, fetch with AbortController, classes, getters, and React-flavoured hooks like useState and useEffect. You will type constructs like const users = list.filter(u => u.active); and const merged = { ...defaults, ...options };
+The lines follow the MDN documented language syntax (developer.mozilla.org) plus patterns that dominate real repositories, so the practice transfers to your daily editor work.
+## How to get faster at typing JavaScript
+Run one minute a day and study the weak-key report — JS developers typically discover the curly brace, backtick or dollar-sign keys as their bottlenecks. Drill those until they disappear, then retest. For the Python side of the stack see the Python code typing test, and for general developer typing ergonomics see typing practice for programmers.
+## JavaScript code typing FAQ
+Yes. It is free with no sign up, and your practice history stays on your own device.
+Fifty realistic lines from the MDN-documented language: const/let, arrow functions, template literals, destructuring, spread, async/await, array methods, DOM and fetch patterns, classes and hooks.
+Because JS is uniquely symbol-dense — braces, brackets, backticks, ${ }, arrows and semicolons on every line. Prose typing never trains those reaches.
+Yes. The pool includes hooks-style patterns (useState, useEffect) and the destructuring that dominates React and Node code alike.
