@@ -12289,8 +12289,8 @@
   },
   {
    "file": "turkish-typing-test.html",
-   "title": "Turkish Typing Test - Free Online Turkish WPM Test",
-   "metaDesc": "Free Turkish typing test online. Type real Turkish sentences with ç, ğ, ı, ö, ş and ü, and check your speed and accuracy instantly. No sign up.",
+   "title": "Türkçe Klavye Hız Testi - Ücretsiz Online Yazma Testi",
+   "metaDesc": "Ücretsiz Türkçe yazma testi online. Gerçek Türkçe cümleler yazarak hızınızı ve doğruluğunuzu anında ölçün. Kayıt gerekmez.",
    "canonical": "https://typing.rerivo.com/turkish-typing-test.html",
    "dur": 60,
    "mode": "sentences",
@@ -12315,8 +12315,8 @@
     "Home",
     "Turkish Typing Test"
    ],
-   "h1": "Turkish Typing Test",
-   "heroP": "Test your <strong>Turkish typing speed</strong> with real Turkish sentences — ç, ğ, ı, ö, ş and ü included. Instant speed and accuracy results. Free, no sign up.",
+   "h1": "Türkçe Klavye Hız Testi",
+   "heroP": "<strong>Türkçe yazma hızınızı</strong> gerçek Türkçe cümlelerle test edin — ç, ğ, ı, ö, ş, ü dahil. Anında sonuç. Ücretsiz, kayıt yok.",
    "seo": [
     {
      "h2": "Turkish typing test",
@@ -12341,6 +12341,20 @@
      "p": [
       "Practise with real sentences so the special letters stop being special: ç, ğ, ş and the İ/ı pair should feel as automatic as a and e. Keep your eyes on the screen, accuracy first, and use daily timed rounds — Turkish suffix chains (-lar/-ler, -miş, -arak) repeat constantly and quickly become single motions."
      ]
+    },
+    {
+     "h2": "Bu testi nasıl kullanırsınız?",
+     "p": [
+      "Süre seçin (15 saniye - 10 dakika), yazma alanına tıklayın ve ekrandaki cümleleri yazmaya başlayın. Kronometre ilk tuş vuruşunuzda başlar, öncesinde değil. Test bittiğinde WPM, doğruluk, CPM ve zayıf tuş raporunu görürsünüz — en çok yanlış yazdığınız ve en yavaş bastığınız tuşlar.",
+      "Hız için önce doğruluk çalışın (hedef %97-98), sonra tempo kademeli yükseltin. Türkçe ek dizilimleri (-lar/-ler, -mış, -arak) her cümlede tekrar eder; gerçek cümlelerle pratik, tam ihtiyaç duyulan yerde otomasyon kurar."
+     ]
+    },
+    {
+     "h2": "Türkçe Q, Türkçe F ve standart QWERTY",
+     "p": [
+      "Türkiye'de iki yerel düzen vardır: Türkçe Q klavyesi (ç, ğ, ı, ö, ş, ü ana blokta yerleşik) ve Türkçe F klavyesi (mecburi sınavlarda kullanılır). Bu test sizin ürettiğiniz metni ölçer, bu yüzden Türkçe Q, Türkçe F veya Türkçe düzenli standart QWERTY — hangisiyle yazarsanız yazın sonuç adildir.",
+      "M Our core deviation: the Turkish İ/ı system is unique among Latin scripts — dotted uppercase İ and dotless lowercase ı are separate letters, and confusing them changes word meaning. Sentence practice with real Turkish text builds the automatic habit until the right choice happens without thought."
+     ]
     }
    ],
    "faqFirstOpen": true,
@@ -12361,9 +12375,13 @@
     {
      "q": "Will this help with Turkish official typing exams?",
      "a": "Yes. Timed sentence practice with real Turkish text builds the same measured speed and accuracy that official and workplace typing exams in Turkey require."
+    },
+    {
+     "q": "Bu test için özel Türkçe klavye düzeni gerekiyor mu?",
+     "a": "Hayır gerekmiyor. Test sizin ürettiğiniz Türkçe metni ölçer; Türkçe Q, Türkçe F veya standart QWERTY — hangisini kullanıyorsanız onunla çalışır."
     }
    ],
-   "tldr": "A Turkish typing test measures WPM and accuracy on real Turkish sentences with ç, ğ, ı, ö, ş and ü. Works with Turkish Q, Turkish F or standard QWERTY layouts — the test measures the text, not the keys. Free, timed 15 seconds to 10 minutes, no sign up.",
+   "tldr": "Türkçe klavye hız testi: gerçek Türkçe cümlelerle WPM ve doğruluk ölçümü. Türkçe Q, F veya standart QWERTY ile çalışır. Ücretsiz, 15 saniye - 10 dakika.",
    "webAppName": "Typing Speed Test",
    "webAppUrl": "https://typing.rerivo.com/turkish-typing-test.html",
    "bcItems": [

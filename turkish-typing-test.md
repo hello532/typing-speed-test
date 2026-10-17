@@ -1,8 +1,8 @@
-# Turkish Typing Test
+# Türkçe Klavye Hız Testi
 
 Source: https://typing.rerivo.com/turkish-typing-test.html
 
-Test your Turkish typing speed with real Turkish sentences — ç, ğ, ı, ö, ş and ü included. Instant speed and accuracy results. Free, no sign up.
+Türkçe yazma hızınızı gerçek Türkçe cümlelerle test edin — ç, ğ, ı, ö, ş, ü dahil. Anında sonuç. Ücretsiz, kayıt yok.
 
 ## Turkish typing test
 
@@ -19,6 +19,18 @@ Turkish is the only language that distinguishes a dotted capital İ from a dotle
 ## How to improve Turkish typing speed
 
 Practise with real sentences so the special letters stop being special: ç, ğ, ş and the İ/ı pair should feel as automatic as a and e. Keep your eyes on the screen, accuracy first, and use daily timed rounds — Turkish suffix chains (-lar/-ler, -miş, -arak) repeat constantly and quickly become single motions.
+
+## Bu testi nasıl kullanırsınız?
+
+Süre seçin (15 saniye - 10 dakika), yazma alanına tıklayın ve ekrandaki cümleleri yazmaya başlayın. Kronometre ilk tuş vuruşunuzda başlar, öncesinde değil. Test bittiğinde WPM, doğruluk, CPM ve zayıf tuş raporunu görürsünüz — en çok yanlış yazdığınız ve en yavaş bastığınız tuşlar.
+
+Hız için önce doğruluk çalışın (hedef %97-98), sonra tempo kademeli yükseltin. Türkçe ek dizilimleri (-lar/-ler, -mış, -arak) her cümlede tekrar eder; gerçek cümlelerle pratik, tam ihtiyaç duyulan yerde otomasyon kurar.
+
+## Türkçe Q, Türkçe F ve standart QWERTY
+
+Türkiye'de iki yerel düzen vardır: Türkçe Q klavyesi (ç, ğ, ı, ö, ş, ü ana blokta yerleşik) ve Türkçe F klavyesi (mecburi sınavlarda kullanılır). Bu test sizin ürettiğiniz metni ölçer, bu yüzden Türkçe Q, Türkçe F veya Türkçe düzenli standart QWERTY — hangisiyle yazarsanız yazın sonuç adildir.
+
+M Our core deviation: the Turkish İ/ı system is unique among Latin scripts — dotted uppercase İ and dotless lowercase ı are separate letters, and confusing them changes word meaning. Sentence practice with real Turkish text builds the automatic habit until the right choice happens without thought.
 
 ## Turkish typing test FAQ
 
@@ -37,3 +49,7 @@ Yes. Sentences use real Turkish with all the special letters, including the dott
 ### Will this help with Turkish official typing exams?
 
 Yes. Timed sentence practice with real Turkish text builds the same measured speed and accuracy that official and workplace typing exams in Turkey require.
+
+### Bu test için özel Türkçe klavye düzeni gerekiyor mu?
+
+Hayır gerekmiyor. Test sizin ürettiğiniz Türkçe metni ölçer; Türkçe Q, Türkçe F veya standart QWERTY — hangisini kullanıyorsanız onunla çalışır.
