@@ -30,6 +30,10 @@ Job postings for data entry and clerical work often ask for 8,000-10,000 KPH wit
 
 Divide by 300: WPM = KPH ÷ 300, so a 10,000 KPH posting is asking for about 33 WPM. For the complete table of KPH, CPM and WPM requirements by job and exam, see typing speed requirements by job and exam.
 
+## Where KPH scores lead
+
+Put your KPH to work: online typing jobs that quote KPH, and data entry job requirements by the numbers.
+
 ## Keystrokes per hour FAQ
 
 ### What is a good keystrokes per hour score?

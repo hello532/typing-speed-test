@@ -20,6 +20,10 @@ Use the timer to simulate the exact length your employer uses, and type business
 
 Interview pressure costs most candidates five to ten WPM. Because you have practised the format here, the test itself will feel routine — that calm alone is often worth several words per minute.
 
+## Interview test strategy
+
+Pass the interview round: how to pass a typing test with test-day protocol, and typing test tips for before, during and after.
+
 ## Interview Typing Test FAQ
 
 ### Do employers really give typing tests at interviews?

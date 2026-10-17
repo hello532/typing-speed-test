@@ -3510,6 +3510,12 @@
      "p": [
       "Teachers can run a whole class through a one minute test and have every student print a certificate in the same lesson, with no accounts to create and no data leaving the room. Job applicants can attach one to a portfolio to back up a stated typing speed. Track yourself by printing one at the start of a practice month and another at the end; the two certificates on the same wall are the most honest progress report you can make."
      ]
+    },
+    {
+     "h2": "Using your certificate",
+     "p": [
+      "A certificate opens doors when paired with proof of practice: <a href=\"how-to-get-a-typing-job.html\">how to get a typing job</a>, and <a href=\"work-from-home-typing-jobs.html\">work from home typing jobs</a> that value verified scores."
+     ]
     }
    ],
    "faqFirstOpen": true,
@@ -4313,6 +4319,12 @@
      "p": [
       "Prioritise accuracy over raw speed &mdash; most employers prefer 60 WPM at 99% accuracy over 75 WPM at 92%. Practise with real sentences, punctuation and numbers rather than simple word lists, take several tests to find a reliable average, and warm up for a minute first. See how you compare with the <a href=\"average-typing-speed.html\">average typing speed</a>."
      ]
+    },
+    {
+     "h2": "Guides for getting hired",
+     "p": [
+      "Turn your score into an offer: <a href=\"online-typing-jobs.html\">online typing jobs</a> compared by role, <a href=\"how-to-get-a-typing-job.html\">how to get a typing job</a> from zero to hired, and <a href=\"work-from-home-typing-jobs.html\">work from home typing jobs</a> for remote roles."
+     ]
     }
    ],
    "faqFirstOpen": true,
@@ -4878,6 +4890,12 @@
      "p": [
       "Most data-entry postings quote 8,000–12,000 keystrokes per hour with ~98% accuracy — about 27–40 WPM — and professional numeric roles can reach 12,000–15,000 KPH. For the full requirements table across every scenario, see <a href=\"typing-speed-requirements.html\">typing speed requirements by job and exam</a>."
      ]
+    },
+    {
+     "h2": "Prepare for data entry hiring tests",
+     "p": [
+      "Before the real test: <a href=\"data-entry-practice.html\">data entry practice</a> with a two-week KPH plan, and <a href=\"data-entry-job-requirements.html\">data entry job requirements</a> translated into plain numbers."
+     ]
     }
    ],
    "faqFirstOpen": true,
@@ -4973,6 +4991,12 @@
      "h2": "How do KPH requirements convert to WPM?",
      "p": [
       "Divide by 300: WPM = KPH ÷ 300, so a 10,000 KPH posting is asking for about 33 WPM. For the complete table of KPH, CPM and WPM requirements by job and exam, see <a href=\"typing-speed-requirements.html\">typing speed requirements by job and exam</a>."
+     ]
+    },
+    {
+     "h2": "Where KPH scores lead",
+     "p": [
+      "Put your KPH to work: <a href=\"online-typing-jobs.html\">online typing jobs</a> that quote KPH, and <a href=\"data-entry-job-requirements.html\">data entry job requirements</a> by the numbers."
      ]
     }
    ],
@@ -6324,6 +6348,12 @@
      "p": [
       "Interview pressure costs most candidates five to ten WPM. Because you have practised the format here, the test itself will feel routine — that calm alone is often worth several words per minute."
      ]
+    },
+    {
+     "h2": "Interview test strategy",
+     "p": [
+      "Pass the interview round: <a href=\"how-to-pass-a-typing-test.html\">how to pass a typing test</a> with test-day protocol, and <a href=\"typing-test-tips.html\">typing test tips</a> for before, during and after."
+     ]
     }
    ],
    "faqFirstOpen": true,
@@ -6513,6 +6543,12 @@
      "h2": "What typing speed do SSC-type exams require?",
      "p": [
       "Most SSC-type government exams set a qualifying bar around 30–35 WPM (or the KPH equivalent) with a cap on mistakes, tested as a short timed passage. For the full comparison across data entry, clerk, transcription and office roles — plus the WPM↔CPM↔KPH conversions — see <a href=\"typing-speed-requirements.html\">typing speed requirements by job and exam</a>."
+     ]
+    },
+    {
+     "h2": "Beyond the exam: test-day craft",
+     "p": [
+      "Exam-day skills transfer everywhere: <a href=\"how-to-pass-a-typing-test.html\">how to pass a typing test</a> and <a href=\"typing-test-tips.html\">typing test tips</a> apply the same accuracy-first strategy."
      ]
     }
    ],
@@ -9252,6 +9288,1294 @@
     {
      "name": "Typing Speed Improvement Tips",
      "item": "https://typing.rerivo.com/typing-speed-improvement-tips.html"
+    }
+   ],
+   "ldPretty": []
+  },
+  {
+   "file": "online-typing-jobs.html",
+   "title": "Online Typing Jobs - Types, Requirements and How to Start",
+   "metaDesc": "Online typing jobs explained: data entry, transcription, captioning and chat support roles, the speed each requires, how to spot scams, and how to qualify.",
+   "canonical": "https://typing.rerivo.com/online-typing-jobs.html",
+   "dur": 60,
+   "mode": "words",
+   "variant": null,
+   "nav": [
+    {
+     "href": "english-typing-test.html",
+     "text": "English Typing Test"
+    },
+    {
+     "href": "words-per-minute-test.html",
+     "text": "WPM Test"
+    },
+    {
+     "href": "typing-practice.html",
+     "text": "Typing Practice"
+    }
+   ],
+   "crumbs": [
+    "Home",
+    "Online Typing Jobs"
+   ],
+   "h1": "Online Typing Jobs",
+   "heroP": "<strong>Online typing jobs</strong> are real work with real requirements — mostly speed, accuracy and reliability. Here is what the roles actually involve, what they measure, and how to avoid the scams that surround them.",
+   "seo": [
+    {
+     "h2": "The four main types of online typing jobs",
+     "p": [
+      "Data entry is the largest category: transferring information into forms, spreadsheets and databases, usually measured in KPH — keystrokes per hour — with 8,000–12,000 KPH (about 27–40 WPM) as the common requirement band and a hard accuracy cutoff around 98%. Transcription converts audio to text and pays for sustained accuracy at 300+ CPM (60+ WPM): general transcription needs no special background, while legal and medical work pays more and demands terminology training.",
+      "Captioning and subtitling sits between the two: real-time listening plus clean formatting. Chat and email support is the fourth category — typed customer service where 40–60 WPM with excellent written accuracy is the baseline. Every one of these roles is trained on the same foundation: a verified speed score and a near-error-free record."
+     ]
+    },
+    {
+     "h2": "What employers and platforms actually measure",
+     "p": [
+      "Expect three measurements before any paid work: a timed typing test (usually one to three minutes, scored as net WPM with an accuracy gate), an accuracy or proofreading exercise, and a small paid-or-unpaid trial task. Nobody hires on self-reported speed alone, so having a recent, verifiable score matters more than the number on your résumé.",
+      "The <a href=\"typing-speed-requirements.html\">typing speed requirements</a> table shows the bands by role, and the <a href=\"keystrokes-per-hour-test.html\">keystrokes per hour test</a> converts your score into the KPH unit most data-entry platforms use."
+     ]
+    },
+    {
+     "h2": "How to spot typing job scams",
+     "p": [
+      "The rule that eliminates nearly every scam: legitimate typing work never asks you to pay. No registration fee, no training fee, no 'software package' to buy, no refundable deposit. Any offer that reverses the money flow is not a job.",
+      "Secondary red flags: pay rates wildly above market for easy work, vague company identity, and interviews conducted entirely over chat apps. Real platforms test you, pay on a schedule, and never need your money. When in doubt, search the company name plus 'scam' before sharing any personal information."
+     ]
+    },
+    {
+     "h2": "How to qualify and get started",
+     "p": [
+      "The practical path: first, verify your speed — take a <a href=\"data-entry-typing-test.html\">data entry typing test</a> or the KPH test and record your score. Second, close the gap if you are below the band for your target role; two to four weeks of daily practice moves most people 10+ WPM. Third, assemble proof: a recent test result and, for some roles, a <a href=\"typing-certificate.html\">typing certificate</a> you can attach to applications.",
+      "Then apply widely and treat the first month as paid training: accuracy ratings on early tasks unlock better-paying work on every platform. Reliability compounds faster than speed."
+     ]
+    },
+    {
+     "h2": "Captioning and subtitling: the fourth lane",
+     "p": [
+      "Captioning turns video audio into timed text — part transcription, part formatting discipline. The typing requirement sits around 60 WPM with excellent accuracy, but the real skill is timing: syncing text to speech within style rules for line length and reading speed. Subtitling adds translation-free condensing: saying the same thing in fewer characters so viewers can keep up.",
+      "Entry routes mirror transcription: platform tests with a style guide, a short trial, then paid work. It is a good fit for typists who are accurate and detail-oriented but find long-form transcription monotonous."
+     ]
+    },
+    {
+     "h2": "Chat and email support: typing as customer service",
+     "p": [
+      "Support roles rarely say 'typing job' in the title, yet typing is the job: simultaneous chats, templated-but-personalised replies, and ticket summaries all day. The benchmark is 40–60 WPM with near-perfect written accuracy, because a public typo to a customer is worse than a slow reply.",
+      "These roles are the most beginner-friendly entry into paid typing work: training is provided, scripts exist, and accuracy metrics are visible from day one. Many people use a year of support work as the springboard into transcription or data-specialist roles."
+     ]
+    },
+    {
+     "h2": "Freelance platforms vs direct employment",
+     "p": [
+      "Gig and freelance platforms offer fast entry and flexible hours, with pay per task and heavy early competition; your rating history is everything. Direct employment — staffing agencies and employer career pages — offers steadier hours and benefits, with formal tests and interviews as the gate.",
+      "Most working typists blend the two: a part-time employed role for stability, platform work for extra income. Start wherever the barrier is lowest for you; the proof of speed and accuracy you build transfers between both worlds unchanged."
+     ]
+    },
+    {
+     "h2": "Equipment and environment that protect your rating",
+     "p": [
+      "Ratings in online typing work die from two killers: errors and missed deadlines. A comfortable full-size keyboard, a quiet workspace, and a second monitor or split screen for source material reduce both. Backup internet — even a phone hotspot — saves a deadline when the connection drops mid-task.",
+      "Track your own metrics from day one: tasks completed, error rate, average time per task. Platforms show you some of this; keeping your own log lets you spot which task types actually pay best for your speed profile, and double down on them."
+     ]
+    },
+    {
+     "h2": "A realistic first-90-days roadmap",
+     "p": [
+      "Days 1–14: verify your score, pick your target role from the table in this article, and close any speed gap with daily practice. Days 15–30: assemble proof (recent test, certificate), create profiles on two platforms, and take every entry test available — they are free practice even where you do not pass.",
+      "Days 31–90: protect your accuracy rating like income, because it is. Accept lower-paying tasks only while they build ratings, specialise in the task type your log says pays you best, and re-test your typing monthly to keep proof current. The typists earning steadily at day 90 are not the fastest; they are the most reliable."
+     ]
+    }
+   ],
+   "faqFirstOpen": true,
+   "faqH2": "Online Typing Jobs FAQ",
+   "faq": [
+    {
+     "q": "Are online typing jobs legitimate?",
+     "a": "Yes — data entry, transcription, captioning and chat support are real categories. The rule for spotting scams: legitimate typing work never asks you to pay any fee. Money flows to you, never from you."
+    },
+    {
+     "q": "What typing speed do online jobs require?",
+     "a": "Data entry typically 8,000–12,000 KPH (27–40 WPM) with ~98% accuracy; transcription 300+ CPM (60+ WPM); chat support 40–60 WPM. Every platform tests you — self-reported speed is never enough."
+    },
+    {
+     "q": "Do I need experience for online typing jobs?",
+     "a": "Entry-level data entry and chat support need only a passing test score. Transcription benefits from practice but general transcription is open to beginners; legal and medical variants want terminology training."
+    },
+    {
+     "q": "How do I prove my typing speed to employers?",
+     "a": "With a recent verifiable test result. Take a timed test, save the result, and attach a typing certificate where applications allow it. Test your score now on the data entry typing test."
+    }
+   ],
+   "tldr": "Online typing jobs span data entry (8,000–12,000 KPH at ~98% accuracy), transcription (300+ CPM sustained), captioning, and chat support (40–60 WPM). Employers verify with timed tests, never trust self-reported speed. Scam rule: real typing jobs never ask you to pay. Qualify with a verified score plus two to four weeks of daily practice.",
+   "webAppName": "Typing Speed Test",
+   "webAppUrl": "https://typing.rerivo.com/online-typing-jobs.html",
+   "bcItems": [
+    {
+     "name": "Home",
+     "item": "https://typing.rerivo.com/"
+    },
+    {
+     "name": "Online Typing Jobs",
+     "item": "https://typing.rerivo.com/online-typing-jobs.html"
+    }
+   ],
+   "ldPretty": []
+  },
+  {
+   "file": "work-from-home-typing-jobs.html",
+   "title": "Work From Home Typing Jobs - The Realistic Guide",
+   "metaDesc": "Work from home typing jobs: which roles are real, the equipment you need, speed benchmarks by role, scam red flags, and how to build a track record from zero.",
+   "canonical": "https://typing.rerivo.com/work-from-home-typing-jobs.html",
+   "dur": 60,
+   "mode": "words",
+   "variant": null,
+   "nav": [
+    {
+     "href": "english-typing-test.html",
+     "text": "English Typing Test"
+    },
+    {
+     "href": "words-per-minute-test.html",
+     "text": "WPM Test"
+    },
+    {
+     "href": "typing-practice.html",
+     "text": "Typing Practice"
+    }
+   ],
+   "crumbs": [
+    "Home",
+    "Work From Home Typing Jobs"
+   ],
+   "h1": "Work From Home Typing Jobs",
+   "heroP": "<strong>Work from home typing jobs</strong> can be a genuine income — if you pick the real roles, set up properly, and ignore the too-good-to-be-true offers. This is the realistic version.",
+   "seo": [
+    {
+     "h2": "Which home typing roles are actually real",
+     "p": [
+      "Four categories dominate legitimate remote typing work. Transcription: converting recorded audio to text, paid per audio minute, needing 60+ WPM and excellent accuracy. Data entry: form, spreadsheet and database work measured in KPH, with 8,000–12,000 KPH the common band. Captioning and subtitling for video content. And virtual assistance, where typing speed underpins email, scheduling and document work even though it is never the job title.",
+      "What is almost never real: 'get paid to type' ads with no skill test, no company identity and pay that seems too easy. Real remote typing work always tests you."
+     ]
+    },
+    {
+     "h2": "Setup: what you actually need",
+     "p": [
+      "The hardware list is short: a reliable computer, a full-size keyboard you type comfortably on (consistency matters more than brand), and a decent internet connection. Transcription adds closed-back headphones and, eventually, a foot pedal for hands-free audio control — the single biggest productivity purchase in that field.",
+      "The software list is mostly free: a spreadsheet and word processor, and a quiet text expander for repeated phrases. Where professionals gain their edge is accuracy tooling — spellcheck discipline and a proofreading pass — because remote typing work is judged almost entirely on error rate."
+     ]
+    },
+    {
+     "h2": "Speed benchmarks by role",
+     "p": [
+      "Transcription expects 300+ CPM (60+ WPM) sustained over long audio, with near-perfect accuracy. Data entry quotes 8,000–12,000 KPH (27–40 WPM) at about 98% accuracy. Captioning sits around 60 WPM with formatting precision. Virtual assistant work is comfortable at 50+ WPM with professional written tone.",
+      "Measure yourself against these with the <a href=\"keystrokes-per-hour-test.html\">keystrokes per hour test</a> for KPH roles and a standard timed test for the rest. If you are below a band, two to four weeks of daily practice usually closes it — see <a href=\"online-typing-jobs.html\">online typing jobs</a> for the full role breakdown."
+     ]
+    },
+    {
+     "h2": "Scam red flags and how to build a track record",
+     "p": [
+      "The red flags never change: any fee to apply, train or unlock work; pay far above market for trivial effort; companies with no verifiable identity; interviews only over encrypted chat. Real employers pay you — never the reverse.",
+      "Building a track record from zero: take entry-level tasks on established platforms, protect your accuracy rating like money (it is), and collect proof of your speed — a recent test result and a <a href=\"typing-certificate.html\">typing certificate</a>. Within a few months of reliable delivery, better-paying tiers open. Roles like <a href=\"transcription-typing-jobs.html\">transcription typing jobs</a> reward exactly this kind of accumulated trust."
+     ]
+    },
+    {
+     "h2": "Virtual assistance: typing under another title",
+     "p": [
+      "The biggest hidden category of home typing work is virtual assistance. Email management, scheduling, document formatting, research summaries — all of it is fast, accurate typing in practice, even though the job posting says 'assistant'. Speed requirements are modest (50+ WPM) but tone and accuracy expectations are high, because everything you type reaches a client.",
+      "VA work suits typists who want variety over volume. It also builds the professional references that pure task platforms never give you, and references are what convert gig work into career work."
+     ]
+    },
+    {
+     "h2": "Setting your home office up for long typing sessions",
+     "p": [
+      "Remote typing pays by output, and output dies in bad ergonomics. Chair with real back support, screen at eye level, keyboard at elbow height, wrists neutral — the setup is not luxury, it is what keeps your accuracy intact in hour six. Natural light and a door you can close matter more than any gadget.",
+      "One practical habit from professionals: a hard start-stop ritual. Begin and end work at fixed times with a short walk. Home typing fails as often from burnout as from scams, and the ritual is the cheapest insurance there is."
+     ]
+    },
+    {
+     "h2": "Taxes, contracts and getting paid",
+     "p": [
+      "Most home typing work is contractor work: no automatic tax withholding, irregular invoices, and payment cycles from weekly to monthly. Keep every invoice, set aside a percentage of every payment for taxes from day one, and read the payment terms before your first task — some platforms hold the first payment for a verification period.",
+      "On contracts, the clauses that matter are pay rate, payment schedule, revision policy and who owns the work. Vague on any of those is a reason to ask questions before you type a single paid word, not after."
+     ]
+    },
+    {
+     "h2": "Growing from tasks to a clientele",
+     "p": [
+      "The income ceiling in home typing is not speed — it is client ownership. Platform work pays platform rates forever; direct clients pay for reliability and trust. The usual path: a year of platform work building ratings and samples, then approaching your best platform clients (where terms allow) or local businesses directly with a simple service offer.",
+      "Every step of that path runs on the same fuel: a verifiable speed score, a clean accuracy record, and references who will vouch for your reliability. Build all three deliberately from your very first task."
+     ]
+    },
+    {
+     "h2": "The home typing week that actually works",
+     "p": [
+      "Structure beats motivation at home. A week that works: fixed start time, two 90-minute deep-work blocks for paid tasks with short breaks between, one admin block for invoicing and applications, and thirty minutes of typing practice to keep your score climbing. Friday afternoon is for metrics: tasks, rates, error counts, next week's targets.",
+      "It looks rigid on paper and feels like freedom in practice, because the boundaries are what keep work from consuming the home it happens in."
+     ]
+    }
+   ],
+   "faqFirstOpen": true,
+   "faqH2": "Work From Home Typing Jobs FAQ",
+   "faq": [
+    {
+     "q": "Are work from home typing jobs legitimate?",
+     "a": "The real ones are: transcription, data entry, captioning and virtual assistance are established categories. Anything asking you to pay a fee to start is a scam — legitimate work never reverses the money flow."
+    },
+    {
+     "q": "What equipment do I need for home typing jobs?",
+     "a": "A computer, a comfortable full-size keyboard and reliable internet. Transcription adds closed-back headphones and eventually a foot pedal. Most software you need is free."
+    },
+    {
+     "q": "How fast do I need to type for home typing jobs?",
+     "a": "Transcription 300+ CPM, data entry 8,000–12,000 KPH (27–40 WPM), captioning ~60 WPM, assistant work 50+ WPM — all with high accuracy. Verify your score with the keystrokes per hour test."
+    },
+    {
+     "q": "How do beginners build a track record?",
+     "a": "Entry tasks on established platforms, a protected accuracy rating, and proof of speed (recent test result or typing certificate). Reliability compounds into better-paying tiers within months."
+    }
+   ],
+   "tldr": "Work from home typing jobs that are real: transcription (300+ CPM), data entry (8,000–12,000 KPH), captioning, and virtual assistance. Setup is a computer, a good keyboard and headphones; the foot pedal comes later. Scam rule: never pay to work. Build a track record with entry tasks, a protected accuracy rating, and a verifiable speed score.",
+   "webAppName": "Typing Speed Test",
+   "webAppUrl": "https://typing.rerivo.com/work-from-home-typing-jobs.html",
+   "bcItems": [
+    {
+     "name": "Home",
+     "item": "https://typing.rerivo.com/"
+    },
+    {
+     "name": "Work From Home Typing Jobs",
+     "item": "https://typing.rerivo.com/work-from-home-typing-jobs.html"
+    }
+   ],
+   "ldPretty": []
+  },
+  {
+   "file": "data-entry-practice.html",
+   "title": "Data Entry Practice - How to Prepare for KPH Tests",
+   "metaDesc": "Data entry practice that prepares you for real KPH tests: the 8,000-12,000 KPH target, numeric drills, 10-key training, accuracy cutoffs and a 2-week plan.",
+   "canonical": "https://typing.rerivo.com/data-entry-practice.html",
+   "dur": 60,
+   "mode": "words",
+   "variant": null,
+   "nav": [
+    {
+     "href": "english-typing-test.html",
+     "text": "English Typing Test"
+    },
+    {
+     "href": "words-per-minute-test.html",
+     "text": "WPM Test"
+    },
+    {
+     "href": "typing-practice.html",
+     "text": "Typing Practice"
+    }
+   ],
+   "crumbs": [
+    "Home",
+    "Data Entry Practice"
+   ],
+   "h1": "Data Entry Practice",
+   "heroP": "<strong>Data entry practice</strong> is not typing practice with a different name — the tests measure keystrokes per hour on mixed letters and digits with a hard accuracy cutoff. Here is how to train for exactly that.",
+   "seo": [
+    {
+     "h2": "Understand what the test measures",
+     "p": [
+      "Data-entry tests score KPH — keystrokes per hour — not WPM, because the work is measured in raw keystrokes across letters, numbers and symbols. The common requirement band is 8,000–12,000 KPH with about 98% accuracy; converting at the standard rate (KPH = WPM × 300), that is roughly 27–40 WPM. Professional numeric-heavy roles can ask 12,000–15,000 KPH.",
+      "The accuracy rule is what fails most candidates: many platforms discard your speed score entirely if accuracy drops below the cutoff. A 10,000 KPH run at 96% loses to a 9,000 KPH run at 99%. Practice must therefore be accuracy-led from day one. Check your current figure on the <a href=\"keystrokes-per-hour-test.html\">keystrokes per hour test</a>."
+     ]
+    },
+    {
+     "h2": "The three skill components to train",
+     "p": [
+      "Letters: standard touch-typing speed and accuracy on prose — the base everything sits on. Digits: number-row fluency for phone numbers, dates and codes, trained in numbers mode because digits break letter rhythm. And the numeric keypad: for any high-volume numeric role, 10-key speed is its own discipline with its own finger layout — middle finger on 5, index on 4, ring on 6, thumb on 0.",
+      "Most candidates over-train letters and under-train digits and keypad, then lose the test on the numeric sections. Split practice time roughly in thirds across the three. The <a href=\"number-typing-test.html\">number typing test</a> and <a href=\"ten-key-typing-test.html\">10 key typing test</a> cover the two numeric components directly."
+     ]
+    },
+    {
+     "h2": "A two-week data-entry practice plan",
+     "p": [
+      "Week one — accuracy base: daily rounds at 90% of comfortable speed with a hard 98% accuracy floor, alternating prose and numbers mode. Add ten 10-key minutes every other day, slow and precise. End the week with a KPH baseline measurement and record it.",
+      "Week two — pace building: lift speed about 5% a day while holding the 98% line. Two full KPH-test simulations on days ten and thirteen, exactly like the real thing: unfamiliar text, one take, no pauses. Day fourteen: final measurement. Most candidates arrive at test day 10–20% above their starting figure — enough margin to absorb test-day nerves."
+     ]
+    },
+    {
+     "h2": "Test-day execution",
+     "p": [
+      "Warm up with one relaxed minute of easy text thirty minutes before, not five minutes before — you want loose fingers, not fatigue. During the test, hold a steady rhythm instead of sprinting and correcting; every correction costs about two extra keystrokes and breaks flow. If the platform shows live accuracy, guard it like the score itself.",
+      "Afterwards, whether you pass or not, record the result. Data-entry hiring is a numbers game across multiple platforms, and a documented score history shortens every future application. Keep your edge with weekly rounds on the <a href=\"data-entry-typing-test.html\">data entry typing test</a>."
+     ]
+    },
+    {
+     "h2": "Numeric keypad fluency: the 10-key discipline",
+     "p": [
+      "For volume numeric work, the keypad is a separate instrument: index finger on 4, middle on 5 (which has a home bump), ring on 6, thumb on 0, pinky covering enter and plus. Speed comes from the same principles as touch typing — home position, blind reach, rhythm — but the layout is compact, so progress is faster: most people build usable keypad speed in two to three weeks of daily ten-minute sessions.",
+      "Train with realistic numeric shapes: phone numbers, dates, invoice amounts, account codes — not random digits. The <a href=\"ten-key-typing-test.html\">10 key typing test</a> tracks your keypad KPH separately, which is exactly how employers measure it."
+     ]
+    },
+    {
+     "h2": "Reading-verification: the skill between speed and accuracy",
+     "p": [
+      "Data entry is rarely pure typing; it is read-type-verify in a loop. Professionals develop a rhythm: read a field-sized chunk, type it without looking back, and verify with a fast glance before moving on. Verifying every word doubles your time; verifying never doubles your error rate. Field-sized chunks are the sweet spot.",
+      "Practice this explicitly: with any document, force yourself to read one full field before typing it. It feels slow for two days, then becomes automatic — and it is the habit that lets you keep 99% accuracy at full speed."
+     ]
+    },
+    {
+     "h2": "Simulating real source material",
+     "p": [
+      "Test passages are clean; real source material is not. Handwritten forms, scanned invoices, inconsistent dates and mixed currencies are the daily reality. Build practice material that matches: pull up any public form, invoice or table and type it out under time pressure, formatting included.",
+      "This is also the moment to rehearse the software side: type into an actual spreadsheet, moving between cells with Tab and Enter instead of the mouse. Cell-navigation speed is part of real data-entry KPH even though typing tests never measure it."
+     ]
+    },
+    {
+     "h2": "Common test formats and how to handle each",
+     "p": [
+      "The straight KPH test: type a passage or data set for a fixed time — pure pace with an accuracy gate; rhythm wins. The form-filling test: fields on screen, source beside them — here cell navigation and chunking matter as much as typing. The audio data-entry test: numbers or text read aloud — the listen-type pipeline from transcription applies directly.",
+      "Ask which format your test uses before test day if you can, and simulate that exact format twice. Format familiarity is worth more than a week of generic practice."
+     ]
+    },
+    {
+     "h2": "Tracking your practice like a professional",
+     "p": [
+      "Keep a simple log: date, KPH, accuracy, text type, and one note on what felt hard. After two weeks you will see patterns no single test reveals — digits slower in the afternoon, accuracy dropping on certain symbol types, keypad pace stuck at a plateau.",
+      "Those patterns are your drill assignments. Data-entry hiring rewards the candidate who knows their own numbers, and the log is also the evidence of progress that keeps you practising when the curve flattens."
+     ]
+    }
+   ],
+   "faqFirstOpen": true,
+   "faqH2": "Data Entry Practice FAQ",
+   "faq": [
+    {
+     "q": "What KPH do I need for data entry jobs?",
+     "a": "Most postings ask 8,000–12,000 KPH with ~98% accuracy — about 27–40 WPM at the standard conversion (KPH = WPM × 300). Professional numeric roles can reach 12,000–15,000 KPH."
+    },
+    {
+     "q": "How do I practice for a data entry test?",
+     "a": "Train three components in thirds: prose letters, number-row digits, and the 10-key numeric keypad. Lead with accuracy (98% floor), then build pace ~5% a day. Two weeks of this structure moves most candidates 10-20%."
+    },
+    {
+     "q": "Is accuracy or speed more important for data entry?",
+     "a": "Accuracy — many platforms discard your speed score below the cutoff (~98%). A 9,000 KPH run at 99% beats a 10,000 KPH run at 96% in every scored test."
+    },
+    {
+     "q": "What is 10-key and do I need it?",
+     "a": "The numeric keypad discipline (middle finger on 5, index 4, ring 6, thumb 0). Essential for high-volume numeric data entry; practice it on the 10 key typing test."
+    }
+   ],
+   "tldr": "Data entry practice for KPH tests: the target is 8,000–12,000 KPH (≈27–40 WPM) with a hard ~98% accuracy cutoff that fails more candidates than speed does. Train letters, number-row digits and 10-key in thirds; two-week plan of accuracy-first then +5% pace daily with two full simulations. Test day: warm up early, hold rhythm, guard accuracy.",
+   "webAppName": "Typing Speed Test",
+   "webAppUrl": "https://typing.rerivo.com/data-entry-practice.html",
+   "bcItems": [
+    {
+     "name": "Home",
+     "item": "https://typing.rerivo.com/"
+    },
+    {
+     "name": "Data Entry Practice",
+     "item": "https://typing.rerivo.com/data-entry-practice.html"
+    }
+   ],
+   "ldPretty": []
+  },
+  {
+   "file": "transcription-typing-jobs.html",
+   "title": "Transcription Typing Jobs - Skills, Speed and How to Qualify",
+   "metaDesc": "Transcription typing jobs explained: what the work involves, the 300+ CPM speed reality, general vs legal vs medical transcription, and how to qualify.",
+   "canonical": "https://typing.rerivo.com/transcription-typing-jobs.html",
+   "dur": 60,
+   "mode": "words",
+   "variant": null,
+   "nav": [
+    {
+     "href": "english-typing-test.html",
+     "text": "English Typing Test"
+    },
+    {
+     "href": "words-per-minute-test.html",
+     "text": "WPM Test"
+    },
+    {
+     "href": "typing-practice.html",
+     "text": "Typing Practice"
+    }
+   ],
+   "crumbs": [
+    "Home",
+    "Transcription Typing Jobs"
+   ],
+   "h1": "Transcription Typing Jobs",
+   "heroP": "<strong>Transcription typing jobs</strong> pay for one thing above all: turning spoken audio into accurate text at speed. Here is what the work really involves, what it takes to qualify, and where the specialisations differ.",
+   "seo": [
+    {
+     "h2": "What transcription work actually involves",
+     "p": [
+      "You listen to audio — interviews, meetings, lectures, dictation — and produce clean, formatted text. The work sounds simple and is not: audio quality varies, speakers overlap, accents differ, and every project has a style guide covering timestamps, speaker labels and how to mark unclear passages. The professionals are not the fastest listeners; they are the most consistent producers of client-ready text.",
+      "Pay is usually per audio minute or per project, so your effective hourly rate is speed times accuracy. A typist at 70 WPM with 99% accuracy out-earns a 90 WPM typist who proofreads twice, every time."
+     ]
+    },
+    {
+     "h2": "The speed and accuracy reality",
+     "p": [
+      "The working benchmark is 300+ CPM (60+ WPM) sustained over long audio — not sprint speed. Because audio continues while you type, the real constraint is the listen-type pipeline: holding several seconds of speech in memory while your fingers finish the previous phrase. That skill is trainable, and it improves fastest with actual audio practice rather than plain typing drills.",
+      "Accuracy expectations are stricter than almost any other typing job: 99%+ is the professional norm, because errors change meaning. Measure your baseline on the <a href=\"cpm-typing-test.html\">CPM typing test</a>, which shows both CPM and accuracy after every round."
+     ]
+    },
+    {
+     "h2": "General, legal and medical transcription",
+     "p": [
+      "General transcription — podcasts, interviews, lectures — has the lowest barrier: good English, good speed, no special background. Legal transcription adds courtroom and legal-document terminology, formatting conventions and often confidentiality requirements. Medical transcription is the most specialised: clinical vocabulary, drug names and report formats, usually requiring dedicated training and carrying strict privacy obligations.",
+      "The pay ladder follows the specialisation: general work is the entry point, and the specialist fields reward the terminology investment. For the medical branch specifically, see <a href=\"medical-transcription-typing.html\">medical transcription typing</a>."
+     ]
+    },
+    {
+     "h2": "How to qualify, step by step",
+     "p": [
+      "First, verify you meet the speed floor: 300 CPM at 98%+ accuracy, measured on a three-minute round rather than a sprint. Second, train the audio pipeline: practise typing along with any spoken audio — a podcast at normal speed — starting with pausing freely, then reducing pauses to zero over two weeks. Third, learn a style guide's basics (speaker labels, [unclear] marks, timestamp conventions) because tests grade formatting as well as text.",
+      "Fourth, take platform entry tests; they sample exactly these skills. And fifth, build the accuracy rating carefully — in transcription, your rating is your résumé. The <a href=\"typing-speed-requirements.html\">typing speed requirements</a> page compares transcription against other typing roles."
+     ]
+    },
+    {
+     "h2": "A day in the life of a working transcriptionist",
+     "p": [
+      "The work arrives as audio files with a deadline and a style guide. A typical rhythm: preview the file for speakers and audio quality, transcribe in 30-45 minute blocks with real breaks between them, then a full proofing pass against the audio before submission. Rush jobs pay premiums; standard jobs pay on accuracy.",
+      "What surprises newcomers most: typing is maybe half the time. Listening, researching names and terms, formatting and proofing fill the rest. Effective hourly rate equals audio-minutes-per-hour times rate, which is why the listen-type pipeline matters more than raw WPM."
+     ]
+    },
+    {
+     "h2": "Style guides: where tests are actually failed",
+     "p": [
+      "Every platform and client has a style guide, and entry tests grade it as strictly as the text: how to mark [unclear] audio, whether to clean up false starts, timestamp rules, speaker labels, numbers-as-digits-or-words. Candidates fail tests daily with perfect typing and sloppy formatting.",
+      "The fix is unglamorous: read the style guide twice before touching the test audio, and keep it open in a second window while you work. Following a guide exactly is a skill in itself — and it is the one clients mention first in reviews."
+     ]
+    },
+    {
+     "h2": "Audio quality, accents and difficult files",
+     "p": [
+      "Real audio is not studio-clear: background noise, phone recordings, overlapping speakers and strong accents are normal. The professionals' toolkit: good closed-back headphones, a noise-reduction or volume-boost filter in the player, willingness to rewind generously on the first pass, and disciplined [unclear] marking instead of guessing.",
+      "Do not cherry-pick easy files forever. Difficult audio is where rates are higher and where your skills actually grow — after the first month, take one hard file for every few comfortable ones."
+     ]
+    },
+    {
+     "h2": "Building speed on the listen-type pipeline",
+     "p": [
+      "The pipeline — hearing ahead while typing behind — has three training stages. Stage one: type along with clear audio, pausing whenever you need. Stage two: no pausing allowed; rewind only at phrase boundaries. Stage three: continuous audio with strategic rewinds, the real working mode.",
+      "Two weeks of daily half-hour sessions through these stages transforms throughput more than any keyboard drill. Your raw typing still matters — keep it tuned on the <a href=\"cpm-typing-test.html\">CPM typing test</a> — but the pipeline is where transcription speed actually lives."
+     ]
+    },
+    {
+     "h2": "Rates, platforms and when to specialise",
+     "p": [
+      "General transcription rates sit at the entry level and are volume-driven; legal and medical pay meaningfully more but gate on terminology and, often, certification. The moment to specialise is when your general accuracy rating is consistently high — usually three to six months in — because specialist tests assume your fundamentals are already automatic.",
+      "Whichever lane you choose, the economics are identical: effective rate = speed × accuracy × reliability. Speed gets tested once; the other two get reviewed on every single file."
+     ]
+    }
+   ],
+   "faqFirstOpen": true,
+   "faqH2": "Transcription Typing Jobs FAQ",
+   "faq": [
+    {
+     "q": "How fast do you need to type for transcription?",
+     "a": "300+ CPM (60+ WPM) sustained over long audio, with 99%+ accuracy as the professional norm. Sprint speed matters less than the listen-type pipeline — holding audio in memory while your fingers catch up."
+    },
+    {
+     "q": "Is transcription typing hard to learn?",
+     "a": "The typing is the easy part if you already meet the speed floor. The learnable skills are the listen-type pipeline, style-guide formatting, and sustained accuracy over long audio — all trainable in weeks with real audio practice."
+    },
+    {
+     "q": "What is the difference between general and medical transcription?",
+     "a": "General transcription needs only speed and English. Medical transcription adds clinical vocabulary, drug names, report formats and strict privacy obligations — typically requiring dedicated training, and it pays more for it."
+    },
+    {
+     "q": "How do I start getting transcription work?",
+     "a": "Verify 300 CPM at 98%+ accuracy, train with real audio until you can type without pausing, learn basic style-guide conventions, then take platform entry tests. Your accuracy rating becomes your résumé."
+    }
+   ],
+   "tldr": "Transcription typing jobs pay per audio minute for turning speech into clean text: 300+ CPM sustained and 99%+ accuracy are the working benchmarks. The real skill is the listen-type pipeline — holding speech in memory while typing. General transcription is the entry point; legal and medical add terminology and pay more. Qualify with a verified score, audio practice and platform tests.",
+   "webAppName": "Typing Speed Test",
+   "webAppUrl": "https://typing.rerivo.com/transcription-typing-jobs.html",
+   "bcItems": [
+    {
+     "name": "Home",
+     "item": "https://typing.rerivo.com/"
+    },
+    {
+     "name": "Transcription Typing Jobs",
+     "item": "https://typing.rerivo.com/transcription-typing-jobs.html"
+    }
+   ],
+   "ldPretty": []
+  },
+  {
+   "file": "how-to-pass-a-typing-test.html",
+   "title": "How to Pass a Typing Test - Test-Day Strategy That Works",
+   "metaDesc": "How to pass a typing test: what examiners measure, the warm-up protocol, accuracy gates, pacing strategy, mistake recovery and the preparation timeline.",
+   "canonical": "https://typing.rerivo.com/how-to-pass-a-typing-test.html",
+   "dur": 60,
+   "mode": "words",
+   "variant": null,
+   "nav": [
+    {
+     "href": "english-typing-test.html",
+     "text": "English Typing Test"
+    },
+    {
+     "href": "words-per-minute-test.html",
+     "text": "WPM Test"
+    },
+    {
+     "href": "typing-practice.html",
+     "text": "Typing Practice"
+    }
+   ],
+   "crumbs": [
+    "Home",
+    "How to Pass a Typing Test"
+   ],
+   "h1": "How to Pass a Typing Test",
+   "heroP": "<strong>How to pass a typing test</strong> is mostly decided before test day: the candidates who fail usually prepared for speed when the test was scoring accuracy. Here is the strategy that passes.",
+   "seo": [
+    {
+     "h2": "Know what the test actually measures",
+     "p": [
+      "Almost every employment typing test works the same way: a one- to three-minute passage, scored as net WPM — speed with errors deducted — behind an accuracy gate, typically 95–98%. Fall below the gate and your speed does not count at all. Some data-entry tests use KPH with the same structure.",
+      "That single fact changes preparation completely. Passing is not about your fastest run; it is about your cleanest run at a good pace. Candidates who drill maximum speed arrive with a number they cannot reproduce accurately under pressure. Candidates who drill accuracy arrive with a margin."
+     ]
+    },
+    {
+     "h2": "The two-week preparation timeline",
+     "p": [
+      "Week one: accuracy base. Daily timed rounds at 90% of comfortable speed with a hard floor two points above the test's gate — so 98%+ if the gate is 95%, or perfect rounds if it is 98%. End the week with a baseline simulation: unfamiliar text, one take, no pauses.",
+      "Week two: pace and simulation. Lift speed about 5% a day while holding the floor. Run a full simulation every other day under exact test conditions — same duration, unfamiliar passage, single attempt. Day before the test: light practice only, one relaxed round, then stop. Fatigue on test morning converts directly into errors."
+     ]
+    },
+    {
+     "h2": "The warm-up and pacing protocol",
+     "p": [
+      "Arrive early and warm up properly: one to two relaxed minutes of easy typing twenty to thirty minutes before the test, never immediately before — you want loose fingers without fatigue. Sit, breathe, and set your posture before the passage appears: feet flat, wrists raised, eyes on screen.",
+      "Pacing: start at your controlled rhythm, not your maximum. The first thirty seconds set your error rate for the whole test. If you make a mistake, correct it once and move on — do not rush the next three words to 'catch up', because that is how single errors become error clusters. Steady beats fast in every scored test."
+     ]
+    },
+    {
+     "h2": "Mistake recovery and what examiners notice",
+     "p": [
+      "Every candidate makes errors; passing candidates contain them. The recovery move is simple: fix it, take a breath's worth of rhythm back, continue. Panic-correction — speeding up after a mistake — is the most common way to fail an accuracy gate.",
+      "Examiners and platforms notice patterns beyond the headline: accuracy trend within the test, consistency, and whether speed collapses in the final third. Train those with full-length practice on the <a href=\"1-minute-typing-test.html\">1 minute typing test</a> and the <a href=\"timed-typing-test.html\">timed typing test</a> at your test's exact duration. For interview-specific formats, <a href=\"typing-test-for-interview.html\">typing test for interview</a> mirrors the real thing."
+     ]
+    },
+    {
+     "h2": "Understanding the scoring: net WPM and gates",
+     "p": [
+      "Net WPM is your speed after error deduction, and the accuracy gate is a pass/fail line beneath it. Two consequences matter for strategy. First, a single run decides nothing for the examiner only if it is your run — one take, no re-dos, so consistency under one-take conditions is the skill to rehearse. Second, the gate changes optimal pace: the mathematically best strategy is the fastest speed at which you stay safely above the accuracy line, never the fastest speed you can physically reach.",
+      "Ask beforehand what the test measures if it is not stated — duration, gate, KPH or WPM. Candidates who know the scoring rule prepare half as long and pass twice as often."
+     ]
+    },
+    {
+     "h2": "Simulation protocol: making practice match test day",
+     "p": [
+      "A simulation is not 'doing a typing test at home'. It is: unfamiliar text you have never typed, exact test duration, one take only, no pausing, no correcting beyond the test's rules, at the same time of day as the real thing. Everything else is practice; only this is rehearsal.",
+      "Run two per week in the final fortnight and log net WPM and accuracy for each. The trend of your simulation scores — not your best practice score — is your predicted test-day result. If simulations say you are below the gate, delay the test if possible; a postponed pass beats a failed attempt."
+     ]
+    },
+    {
+     "h2": "Text types you will face",
+     "p": [
+      "Standard passages are neutral prose with normal punctuation — the easiest format. Data-entry variants add numbers, codes and sometimes tab-separated fields, where digit accuracy dominates. Transcription-style tests play audio, where the listen-type pipeline is the whole game.",
+      "Match your practice mix to your target: prose rounds for standard tests, numbers mode and keypad for data entry, podcast-along typing for audio formats. Practising the wrong text type is the quietest way to fail a test you were fast enough to pass."
+     ]
+    },
+    {
+     "h2": "The mental game: pressure-proofing your fingers",
+     "p": [
+      "Test anxiety expresses itself physically: shoulders up, wrists locked, grip tightened, breathing shallow — all of which slow your fingers and raise errors. The countermeasure is a pre-test ritual: two minutes of slow breathing, shoulders dropped, hands shaken loose, and one deep breath before the first keystroke.",
+      "During the test, treat errors as weather: noticed, fixed once, forgotten. The candidates who fail accuracy gates rarely lack skill; they let one early mistake turn into a rushed, error-dense minute. One bad word costs one word — unless you chase it."
+     ]
+    },
+    {
+     "h2": "If you have a week or less",
+     "p": [
+      "Compressed timeline, compressed plan. Days one to two: accuracy floor work — every round at 98%+, at 90% pace, no exceptions. Days three to four: one full simulation daily, plus weak-key drills on whatever the simulations expose. Day five: two simulations and review. Day six: light practice only, one relaxed round, early night.",
+      "Skip anything that does not directly serve the test: no new layouts, no new exercises, no volume marathons. A week of focused, gate-aware preparation beats a month of generic typing practice."
+     ]
+    }
+   ],
+   "faqFirstOpen": true,
+   "faqH2": "How to Pass a Typing Test FAQ",
+   "faq": [
+    {
+     "q": "What score do I need to pass a typing test?",
+     "a": "Most employment tests want 35–50 net WPM behind a 95–98% accuracy gate; data-entry tests use KPH (typically 8,000–12,000). The accuracy gate fails more candidates than speed does — prepare accuracy-first."
+    },
+    {
+     "q": "How do I calm nerves before a typing test?",
+     "a": "Warm up 20-30 minutes before with relaxed typing (never right before), arrive early, set posture before the passage appears, and start at controlled rhythm. Nerves convert to errors mostly in the first 30 seconds — own that window."
+    },
+    {
+     "q": "Should I correct mistakes during the test?",
+     "a": "Yes — fix each error once and move on, without speeding up to compensate. Uncorrected errors cost the character at scoring; panic-correction costs the next three words in new errors."
+    },
+    {
+     "q": "How long should I prepare for a typing test?",
+     "a": "Two weeks works for most candidates: week one accuracy base (hard floor above the gate), week two pace building with full simulations every other day. Light practice only the day before."
+    }
+   ],
+   "tldr": "How to pass a typing test: tests score net WPM behind a 95-98% accuracy gate, so the cleanest run beats the fastest. Two-week prep: week one accuracy floor above the gate, week two +5% pace with full simulations every other day. Test day: warm up 20-30 min early, start at controlled rhythm, fix errors once without panic-correction, and hold steady through the final third.",
+   "webAppName": "Typing Speed Test",
+   "webAppUrl": "https://typing.rerivo.com/how-to-pass-a-typing-test.html",
+   "bcItems": [
+    {
+     "name": "Home",
+     "item": "https://typing.rerivo.com/"
+    },
+    {
+     "name": "How to Pass a Typing Test",
+     "item": "https://typing.rerivo.com/how-to-pass-a-typing-test.html"
+    }
+   ],
+   "ldPretty": []
+  },
+  {
+   "file": "typing-test-tips.html",
+   "title": "Typing Test Tips - Before, During and After the Test",
+   "metaDesc": "Typing test tips that actually raise your score: the pre-test checklist, during-test tactics for accuracy and pacing, and the post-test review that compounds.",
+   "canonical": "https://typing.rerivo.com/typing-test-tips.html",
+   "dur": 60,
+   "mode": "words",
+   "variant": null,
+   "nav": [
+    {
+     "href": "english-typing-test.html",
+     "text": "English Typing Test"
+    },
+    {
+     "href": "words-per-minute-test.html",
+     "text": "WPM Test"
+    },
+    {
+     "href": "typing-practice.html",
+     "text": "Typing Practice"
+    }
+   ],
+   "crumbs": [
+    "Home",
+    "Typing Test Tips"
+   ],
+   "h1": "Typing Test Tips",
+   "heroP": "These <strong>typing test tips</strong> cover the three phases that decide your score: what you do before the timer starts, how you handle the test itself, and what you do with the result. Most people only get the middle one right.",
+   "seo": [
+    {
+     "h2": "Before the test: the checklist",
+     "p": [
+      "Sleep matters more than cramming — fatigue shows up as errors before it shows up as slowness. Eat normally, avoid extra caffeine if you do not usually have it, and arrive with time to spare. Hardware: use the keyboard you trained on if you possibly can; key-travel differences cost real points.",
+      "Warm up twenty to thirty minutes before with one or two relaxed minutes of easy typing — never right before the test, or you bring fatigue instead of looseness. Set posture before the passage appears: feet flat, back straight, wrists slightly raised, screen at eye level. This thirty-second setup prevents the mid-test posture drift that causes late errors."
+     ]
+    },
+    {
+     "h2": "During the test: accuracy and pacing tactics",
+     "p": [
+      "Start at your controlled rhythm, not your maximum — the first thirty seconds set your error rate for the whole test. Read one word ahead of your fingers so unfamiliar words never stall you. When you make a mistake, correct it once and continue at the same pace; panic-speeding after an error is how single mistakes become clusters.",
+      "Watch the clock without obsessing over it: at the halfway mark, you should be on pace with accuracy intact — if accuracy is slipping, slow down 5% immediately rather than donating the final third to errors. Finishing strong is worth more points than starting fast."
+     ]
+    },
+    {
+     "h2": "After the test: the review that compounds",
+     "p": [
+      "Whatever the result, harvest the data. The weak-key report tells you exactly which keys cost you accuracy and speed — those are next week's drills. Save the score with the date and conditions; a documented history turns one test into a trend line, and trends are what you improve against.",
+      "If you passed: keep two short sessions a week to hold the level — skill decays quietly. If you fell short: the gap analysis is free. Below the accuracy gate means accuracy-first practice for two weeks; below the speed target means sprint work plus weak-key elimination. Either way, retake a <a href=\"free-typing-test.html\">free typing test</a> under the same conditions to verify the fix before the next attempt."
+     ]
+    },
+    {
+     "h2": "The three tips that matter most",
+     "p": [
+      "If you remember nothing else: accuracy gates fail more candidates than speed limits do, so prepare clean, not just fast. Warm up early but never right before. And fix errors once, calmly — never chase them. Those three behaviours alone rescue more test scores than any speed drill.",
+      "For more habit-level guidance, the <a href=\"typing-tips.html\">typing tips</a> page covers everyday improvement, and the <a href=\"typing-accuracy-test.html\">typing accuracy test</a> is the best rehearsal for accuracy-gated exams."
+     ]
+    },
+    {
+     "h2": "Choosing your test conditions when you have a choice",
+     "p": [
+      "When the test lets you pick time and place, pick your peak hours — most people type fastest mid-morning — and your own equipment. Book tests for the same time of day you practise, so the score you trained for is the score that shows up. If the venue is fixed, visit or simulate the setup: unfamiliar keyboard, chair height, screen angle.",
+      "Small environmental edges are real edges. A wobbly desk, a sticky spacebar or a glaring screen costs measurable WPM, and none of them appear on the score report as anything but a lower number."
+     ]
+    },
+    {
+     "h2": "Reading the passage before you type it",
+     "p": [
+      "If the test allows a preview, use every second of it: scan for the unusual words, the longest sentences, and the punctuation traps, and pre-decide your rhythm for the dense sections. Knowing a hard sentence is coming is worth several error-free words.",
+      "If there is no preview, apply the same trick on the fly: keep your eyes one word ahead of your fingers throughout, so nothing in the passage ever surprises your hands. This look-ahead habit alone prevents most hesitation errors."
+     ]
+    },
+    {
+     "h2": "Handling the last thirty seconds",
+     "p": [
+      "The final stretch is where accuracy goes to die: tired fingers, time pressure, and the urge to sprint. Counter it deliberately: at the thirty-second mark, consciously hold your rhythm instead of raising it. An even finish scores better than a sprinted, error-dense one.",
+      "If the test shows a live score, use it as a pacing signal, not a stress source. Ahead of target with accuracy intact: maintain. Behind target: lift pace slightly only if accuracy is still above the gate. Never trade the gate for the number in the last seconds — that trade always loses."
+     ]
+    },
+    {
+     "h2": "What to do in the five minutes after",
+     "p": [
+      "The test ends; the learning starts. Before you stand up: record the score, the duration, the accuracy, and one sentence about what felt hard. These notes turn every test — passed or failed — into training data for the next one.",
+      "If a retake is allowed, resist the immediate retry. Take the weak-key report away, drill the two worst keys for ten minutes, and retake the next day instead. The second attempt after targeted micro-practice outperforms the instant retry almost every time."
+     ]
+    },
+    {
+     "h2": "Retake strategy and score verification",
+     "p": [
+      "Most platforms and employers allow retakes on a schedule. Use them strategically: only retake when your practice scores exceed the requirement by a margin, because each failed attempt costs waiting time and, on some platforms, rating. One strong pass beats three scraped attempts.",
+      "Keep the final evidence: a screenshot or export of your passing result with the date. Scores get asked for again — in later interviews, in follow-up rounds, in platform tier reviews — and the candidate with records always looks more serious than the candidate with memories."
+     ]
+    }
+   ],
+   "faqFirstOpen": true,
+   "faqH2": "Typing Test Tips FAQ",
+   "faq": [
+    {
+     "q": "What should I do right before a typing test?",
+     "a": "Warm up with relaxed typing 20-30 minutes before (never immediately before), set posture before the passage appears, and start at controlled rhythm. Sleep beats cramming the night before."
+    },
+    {
+     "q": "How do I stop making mistakes under pressure?",
+     "a": "Start at controlled rhythm — the first 30 seconds set your error rate. Fix each error once without speeding up, and if accuracy slips mid-test, slow down 5% immediately instead of donating the final third."
+    },
+    {
+     "q": "What is the best way to practice for a typing test?",
+     "a": "Simulate the exact format weekly: same duration, unfamiliar text, one take. Between simulations, accuracy-first rounds plus weak-key drills. Verify readiness on a free typing test under real conditions."
+    },
+    {
+     "q": "What should I do after failing a typing test?",
+     "a": "Read the gap: below the accuracy gate means two weeks of accuracy-first practice; below the speed target means sprint work plus weak-key elimination. Save every score — the trend line guides the next attempt."
+    }
+   ],
+   "tldr": "Typing test tips across three phases: before — sleep, normal routine, warm up 20-30 min early, set posture. During — controlled start, read one word ahead, fix errors once without panic-speeding, slow 5% if accuracy slips. After — harvest the weak-key report, save dated scores, train the specific gap. Accuracy gates fail more candidates than speed limits.",
+   "webAppName": "Typing Speed Test",
+   "webAppUrl": "https://typing.rerivo.com/typing-test-tips.html",
+   "bcItems": [
+    {
+     "name": "Home",
+     "item": "https://typing.rerivo.com/"
+    },
+    {
+     "name": "Typing Test Tips",
+     "item": "https://typing.rerivo.com/typing-test-tips.html"
+    }
+   ],
+   "ldPretty": []
+  },
+  {
+   "file": "medical-transcription-typing.html",
+   "title": "Medical Transcription Typing - Skills and Training Path",
+   "metaDesc": "Medical transcription typing: what the work involves, the terminology barrier, speed and accuracy requirements, privacy obligations, and the training path in.",
+   "canonical": "https://typing.rerivo.com/medical-transcription-typing.html",
+   "dur": 60,
+   "mode": "words",
+   "variant": null,
+   "nav": [
+    {
+     "href": "english-typing-test.html",
+     "text": "English Typing Test"
+    },
+    {
+     "href": "words-per-minute-test.html",
+     "text": "WPM Test"
+    },
+    {
+     "href": "typing-practice.html",
+     "text": "Typing Practice"
+    }
+   ],
+   "crumbs": [
+    "Home",
+    "Medical Transcription Typing"
+   ],
+   "h1": "Medical Transcription Typing",
+   "heroP": "<strong>Medical transcription typing</strong> is the most specialised form of typing work: clinical vocabulary, strict accuracy and privacy rules, in exchange for better pay than general transcription. Here is what it actually takes.",
+   "seo": [
+    {
+     "h2": "What medical transcription involves",
+     "p": [
+      "You convert clinicians' dictated recordings — patient histories, examination findings, discharge summaries, operative notes — into formatted medical documents. The source audio is fast, accented and full of terminology that sounds alike: ileum versus ilium, hypertension versus hypotension. An error is not a typo here; it can change a patient's record.",
+      "That is why the field pairs typing skill with domain knowledge, and why it pays a premium over general transcription. The typing test is the entry ticket, not the job."
+     ]
+    },
+    {
+     "h2": "The three requirements: speed, accuracy, terminology",
+     "p": [
+      "Speed: the same 300+ CPM (60+ WPM) floor as general transcription, verifiable on a timed test — the <a href=\"cpm-typing-test.html\">CPM typing test</a> measures exactly this. Accuracy: effectively 99%+, because clinical documents tolerate almost no error. Terminology: anatomy, pharmacology, disease names, procedure names and the abbreviations clinicians actually dictate — the real barrier, learned over months of structured study rather than days.",
+      "Reports also follow strict formats — history and physical, consultation, operative note — with section headers and conventions that employers test alongside your typing."
+     ]
+    },
+    {
+     "h2": "Privacy and compliance obligations",
+     "p": [
+      "Medical transcription handles protected health information, which in most jurisdictions carries legal privacy duties. In practice that means: working only on approved, secure systems; never storing audio or drafts locally; no discussing cases; and formal confidentiality agreements with every employer or platform. Breaches are career-ending events, not warnings.",
+      "Any legitimate training path includes privacy compliance as a core module. Any employer that does not ask about privacy practices is itself a warning sign."
+     ]
+    },
+    {
+     "h2": "The training path in",
+     "p": [
+      "The realistic sequence: first, meet the typing floor — 300+ CPM at 98%+ accuracy, measured. Second, learn medical terminology systematically: root words, prefixes and suffixes do most of the work (cardio-, -itis, -ectomy), because thousands of terms decompose into a few hundred parts. Third, practise with real dictation-style audio at gradually increasing speed, formatting to standard report templates.",
+      "Fourth, consider a recognised training program if you want structured proof for employers — the field has established certificate programs, and while requirements vary by employer, documented training shortens every application. For the broader context, compare with <a href=\"transcription-typing-jobs.html\">transcription typing jobs</a> and the <a href=\"typing-speed-requirements.html\">typing speed requirements</a> table."
+     ]
+    },
+    {
+     "h2": "How medical terminology is actually learned",
+     "p": [
+      "Clinical vocabulary looks infinite and is not: most terms assemble from a few hundred Greek and Latin parts. Learn that cardio- means heart, -itis means inflammation, -ectomy means removal, and suddenly cardiomyopathy, tonsillitis and appendectomy decode themselves. Study systems teach these roots first, then layer anatomy and pharmacology on top.",
+      "Expect two to four months of consistent study to reach working vocabulary, and plan to keep a medical dictionary open beside you for the first year on real files. Even senior transcriptionists verify drug names rather than trust memory — the field punishes confident guessing."
+     ]
+    },
+    {
+     "h2": "Report formats you must know",
+     "p": [
+      "Medical documents follow strict structures: the History and Physical (chief complaint, history of present illness, review of systems, examination, assessment, plan), the operative note (pre/post-op diagnosis, procedure, findings, technique), the discharge summary. Each has expected section headers and ordering, and employers grade format knowledge alongside typing.",
+      "The efficient way to learn them: transcribe sample reports from any reputable teaching resource, comparing your structure to the template line by line. A dozen of these teaches more than a month of abstract study."
+     ]
+    },
+    {
+     "h2": "Editing speech-recognition drafts: the modern role",
+     "p": [
+      "Much of today's medical transcription is editing: speech-recognition software produces a draft, and the human verifies terminology, punctuation and context. The skill set shifts from raw speed to forensic accuracy — catching the drug-name substitution the machine got wrong, the 'no' the software dropped.",
+      "This evolution makes the field more terminology-dependent, not less: the machine handles the typing, you handle the knowing. Typing speed remains the entry test, but long-term value lives in vocabulary and verification discipline."
+     ]
+    },
+    {
+     "h2": "Privacy practice in daily work",
+     "p": [
+      "Compliance translates into small daily habits: working only inside the approved platform, locking your screen every time you step away, never copying text outside the system, never discussing cases — not even anonymised, not even at home. Secure disposal of any notes, and immediate reporting of anything that looks like a breach.",
+      "These feel like formalities until the first audit. Build them as reflexes from day one and they cost nothing; learn them after a violation and they cost everything."
+     ]
+    },
+    {
+     "h2": "Is the investment worth it?",
+     "p": [
+      "The honest accounting: medical transcription demands the largest training investment in the typing world — months of terminology plus privacy discipline — and returns it with better rates, steadier demand and genuine scarcity of qualified people. Generalists are plentiful; people who can verify a cardiology report are not.",
+      "If you already type 60+ WPM accurately and enjoy precise, knowledge-heavy work, the investment pays. If you want quick entry to typing income, start with general transcription and revisit the medical branch once your fundamentals are proven.",
+      "One more reality worth pricing in before you commit: the learning never fully stops. New drugs, new procedures and new abbreviations arrive every year, and staying accurate means staying curious — the field rewards people who treat terminology as a permanent practice rather than a one-time course.",
+      "For the right person, that is exactly the appeal: a typing career where knowledge, not just keystrokes, sets your rate."
+     ]
+    }
+   ],
+   "faqFirstOpen": true,
+   "faqH2": "Medical Transcription Typing FAQ",
+   "faq": [
+    {
+     "q": "How fast do you need to type for medical transcription?",
+     "a": "The same floor as general transcription: 300+ CPM (60+ WPM), but at effectively 99%+ accuracy because clinical documents tolerate almost no error. Terminology, not typing, is the real barrier."
+    },
+    {
+     "q": "Do you need a certificate for medical transcription?",
+     "a": "Requirements vary by employer, but the field has established training and certificate programs, and documented training meaningfully shortens applications. The non-negotiables are the typing floor, terminology, and privacy compliance."
+    },
+    {
+     "q": "How long does it take to learn medical transcription?",
+     "a": "If you already type 60+ WPM: several months of terminology study and dictation practice. The typing itself takes weeks; the clinical vocabulary and report formats take months of structured learning."
+    },
+    {
+     "q": "Is medical transcription a dying field?",
+     "a": "Speech recognition changed the work but did not end it: the role has shifted toward editing and verifying machine drafts with human accuracy and privacy accountability. Skilled editors with terminology knowledge remain in demand."
+    }
+   ],
+   "tldr": "Medical transcription typing converts clinical dictation into formatted medical documents: 300+ CPM typing floor, 99%+ accuracy, and the real barrier — clinical terminology learned over months. Privacy compliance (secure systems, no local storage, confidentiality) is legally mandatory. Path in: verify typing, learn terminology by roots, practise dictation-style audio, consider a recognised program.",
+   "webAppName": "Typing Speed Test",
+   "webAppUrl": "https://typing.rerivo.com/medical-transcription-typing.html",
+   "bcItems": [
+    {
+     "name": "Home",
+     "item": "https://typing.rerivo.com/"
+    },
+    {
+     "name": "Medical Transcription Typing",
+     "item": "https://typing.rerivo.com/medical-transcription-typing.html"
+    }
+   ],
+   "ldPretty": []
+  },
+  {
+   "file": "how-to-get-a-typing-job.html",
+   "title": "How to Get a Typing Job - From Zero to Hired",
+   "metaDesc": "How to get a typing job: where typing jobs are posted, how to present your WPM on a resume, proof that beats claims, interview test prep, and the 30-day plan.",
+   "canonical": "https://typing.rerivo.com/how-to-get-a-typing-job.html",
+   "dur": 60,
+   "mode": "words",
+   "variant": null,
+   "nav": [
+    {
+     "href": "english-typing-test.html",
+     "text": "English Typing Test"
+    },
+    {
+     "href": "words-per-minute-test.html",
+     "text": "WPM Test"
+    },
+    {
+     "href": "typing-practice.html",
+     "text": "Typing Practice"
+    }
+   ],
+   "crumbs": [
+    "Home",
+    "How to Get a Typing Job"
+   ],
+   "h1": "How to Get a Typing Job",
+   "heroP": "<strong>How to get a typing job</strong> comes down to three provable things: a verifiable speed score, a clean application, and passing the test they give you. Here is the whole path from zero to hired.",
+   "seo": [
+    {
+     "h2": "Where typing jobs are actually posted",
+     "p": [
+      "Typing-forward roles appear in four places. General job boards under titles like data entry clerk, transcriptionist, administrative assistant and customer support representative. Freelance and gig platforms for project-based typing work. Staffing agencies, which place a large share of data-entry and clerical roles. And direct employer career pages, especially hospitals, courts, universities and logistics companies.",
+      "Search by the skill, not just the title: 'typing', 'data entry', 'transcription', 'KPH' and 'WPM' surface roles that title-search misses. For the remote branch specifically, see <a href=\"online-typing-jobs.html\">online typing jobs</a> and <a href=\"work-from-home-typing-jobs.html\">work from home typing jobs</a>."
+     ]
+    },
+    {
+     "h2": "How to present your WPM on a resume",
+     "p": [
+      "Quote a net WPM from a recent, dated test — 'Types 65 WPM (net) with 98% accuracy, tested March 2026' — never a vague 'fast typist'. Recruiters see hundreds of self-assessed claims and trust none of them; a dated, specific, verifiable number is the only one that survives.",
+      "Put it in the skills section, and if the role is typing-critical, also in the summary line. Include the accuracy figure: it signals you understand how hiring tests actually score, which itself reads as competence."
+     ]
+    },
+    {
+     "h2": "Proof that beats claims",
+     "p": [
+      "The strongest application bundle has three items: a recent timed-test result (screenshot or export), a <a href=\"typing-certificate.html\">typing certificate</a> for roles that accept attachments, and — for transcription or content roles — a small work sample produced under time pressure. None of these requires experience; all of them beat a paragraph of claims.",
+      "Keep the proof current: retest monthly while job hunting, because a three-month-old score reads like a guess. The <a href=\"typing-test-for-jobs.html\">typing test for jobs</a> page is built for exactly this kind of pre-application verification."
+     ]
+    },
+    {
+     "h2": "The interview test and your 30-day plan",
+     "p": [
+      "Almost every typing-critical role tests you: a one- to three-minute passage, net WPM, accuracy gate around 95–98%. Prepare with full simulations — the <a href=\"typing-test-for-interview.html\">typing test for interview</a> mirrors the format. Two accuracy-first weeks before any scheduled test day moves most candidates clearly above the gate.",
+      "The 30-day plan, condensed: week one, verify your score and start accuracy work; week two, simulations plus resume and proof bundle; week three, apply widely — twenty targeted applications beat two perfect ones; week four, interview-test on demand. Track every application and every test score; the log turns a scattergun search into a managed pipeline."
+     ]
+    },
+    {
+     "h2": "Writing the application that gets read",
+     "p": [
+      "Typing-job applications are screened in seconds, for two things: the number and the reliability signal. Lead with your verified score in the first line — 'Data entry specialist, 11,200 KPH at 99% accuracy' — then one sentence of evidence: platforms worked on, volume handled, error rate. No adjectives, just numbers.",
+      "Tailor the vocabulary to the posting: if it says KPH, quote KPH; if it says WPM, quote WPM. Speaking the employer's units signals you have actually done this work, and it gets your application into the interview pile instead of the maybe pile."
+     ]
+    },
+    {
+     "h2": "Entry-level roles that hire on proof alone",
+     "p": [
+      "The most accessible first typing jobs: data entry clerking through staffing agencies (they test and place quickly), chat and email support (training provided, accuracy metrics from day one), general transcription on open platforms (entry test is the only gate), and form-processing work for logistics and healthcare-adjacent firms.",
+      "Each of these converts directly into the next tier: six months of clean metrics in any of them is the experience section of your resume for everything better. The first role is a credential factory — treat it that way from day one."
+     ]
+    },
+    {
+     "h2": "Acing the practical assessment",
+     "p": [
+      "The assessment is usually the last gate: a timed typing test, a sample task, or both. For the typing component, apply the full test-day protocol — early warm-up, controlled start, calm error recovery. For sample tasks, read the instructions twice before typing once; accuracy on instructions outranks speed every single time.",
+      "Time-box your sample task review: finish, then spend the final fifth of the time checking against instructions — names, formats, required fields. The candidates who fail samples rarely type badly; they follow instructions badly."
+     ]
+    },
+    {
+     "h2": "Negotiating pay in typing roles",
+     "p": [
+      "Typing pay bands are narrower than many fields, but two levers still move them: demonstrated accuracy ratings from previous platforms, and speed evidence above the requirement. Both are documents, not adjectives. Bring them to any negotiation.",
+      "Know when the honest answer is volume instead: at entry level, total income grows more from reliable hours and task selection than from rate haggling. Negotiate seriously once your metrics are rare; before that, out-deliver."
+     ]
+    },
+    {
+     "h2": "Your first 90 days: from new hire to proven",
+     "p": [
+      "The first month is for reliability: on time, on spec, zero missed deadlines, questions asked early. The second month is for speed: now you optimise task selection and shave time per task with templates and expanders. The third month is for visibility: share your metrics proactively — supervisors remember the person whose numbers are always clean.",
+      "Ninety days of this pattern makes you the low-risk choice for every better assignment, raise conversation and referral. In typing work, careers are built less on brilliance than on being reliably, measurably good.",
+      "Finally, expect rejection ratios to look harsh and mean little. Typing hiring is volume-driven on both sides: employers screen hundreds of similar applications, and your advantage is that each of yours carries verified numbers most others lack.",
+      "Twenty targeted applications with proof will outperform a hundred generic ones with adjectives — measure your own pipeline the way you measure your typing."
+     ]
+    }
+   ],
+   "faqFirstOpen": true,
+   "faqH2": "How to Get a Typing Job FAQ",
+   "faq": [
+    {
+     "q": "How do I get a typing job with no experience?",
+     "a": "With proof instead of experience: a recent dated net-WPM score at 98% accuracy, a typing certificate, and a passed entry test. Entry-level data entry and chat support roles need exactly these — no prior employment."
+    },
+    {
+     "q": "What WPM should I put on my resume?",
+     "a": "A recent, dated net WPM with accuracy — '65 WPM (net) with 98% accuracy, tested March 2026'. Never inflate: employers test you, and a mismatched claim ends the application on the spot."
+    },
+    {
+     "q": "Where can I find typing jobs?",
+     "a": "General job boards (data entry clerk, transcriptionist, assistant titles), freelance platforms, staffing agencies, and direct employer career pages at hospitals, courts, universities and logistics firms."
+    },
+    {
+     "q": "Do typing jobs always test you?",
+     "a": "Almost always: a 1-3 minute passage scored as net WPM behind a 95-98% accuracy gate. Prepare with full simulations on the typing test for interview page — format familiarity is half the pass."
+    }
+   ],
+   "tldr": "How to get a typing job: search by skill (typing/data entry/transcription/KPH) across job boards, freelance platforms, staffing agencies and direct career pages. Present WPM as a dated net score with accuracy — never a vague claim. Bundle a recent test result, certificate and work sample as proof. Expect a 1-3 minute test with a 95-98% accuracy gate and simulate it beforehand. 30-day plan: verify, simulate, apply widely, track everything.",
+   "webAppName": "Typing Speed Test",
+   "webAppUrl": "https://typing.rerivo.com/how-to-get-a-typing-job.html",
+   "bcItems": [
+    {
+     "name": "Home",
+     "item": "https://typing.rerivo.com/"
+    },
+    {
+     "name": "How to Get a Typing Job",
+     "item": "https://typing.rerivo.com/how-to-get-a-typing-job.html"
+    }
+   ],
+   "ldPretty": []
+  },
+  {
+   "file": "audio-typing-tips.html",
+   "title": "Audio Typing Tips - Transcription Skills That Pay",
+   "metaDesc": "Audio typing tips for transcription work: building the listen-type pipeline, chunking audio, playback control, text expansion, and accuracy habits that pay.",
+   "canonical": "https://typing.rerivo.com/audio-typing-tips.html",
+   "dur": 60,
+   "mode": "words",
+   "variant": null,
+   "nav": [
+    {
+     "href": "english-typing-test.html",
+     "text": "English Typing Test"
+    },
+    {
+     "href": "words-per-minute-test.html",
+     "text": "WPM Test"
+    },
+    {
+     "href": "typing-practice.html",
+     "text": "Typing Practice"
+    }
+   ],
+   "crumbs": [
+    "Home",
+    "Audio Typing Tips"
+   ],
+   "h1": "Audio Typing Tips",
+   "heroP": "<strong>Audio typing tips</strong> are different from typing tips: in transcription the enemy is not the keyboard, it is the audio that keeps playing while you are still typing the last sentence. These skills close that gap.",
+   "seo": [
+    {
+     "h2": "Build the listen-type pipeline",
+     "p": [
+      "Professional audio typists hold three to five seconds of speech in memory while their fingers finish the previous phrase — listening ahead and typing behind simultaneously. This pipeline is the core skill of transcription, and it is trainable: start by typing along to any clear podcast, pausing freely at first, then reducing pauses to zero over about two weeks.",
+      "The pipeline breaks when you try to type word-for-word in real time. Let yourself lag deliberately; a controlled three-second lag is smoother and faster than constant catch-up panic."
+     ]
+    },
+    {
+     "h2": "Chunk the audio, not the keyboard",
+     "p": [
+      "Work in meaning chunks, not words. Listen for a full phrase, hold it, type it, and use the natural pause between phrases to catch up. Short rewind is your friend: replaying a phrase once is always faster than guessing wrong and fixing it in proofreading.",
+      "Playback speed control matters more than most beginners realise. Most tools let you run audio at 80–90% speed; that small reduction cuts errors dramatically while barely costing time. Speed the audio up only after your accuracy holds at normal pace for a full project."
+     ]
+    },
+    {
+     "h2": "Let text expansion carry the boilerplate",
+     "p": [
+      "Transcription is full of repeated phrases — speaker labels, common openers, domain terms. A text expander turns 'int' into 'interviewer' or a full speaker tag with two keystrokes, and over an hour of audio it saves hundreds of keystrokes and, more importantly, keeps your rhythm unbroken.",
+      "Build your expansion list from your last project: anything you typed five times or more is a candidate. Review it monthly; the list compounds into a personal shorthand that no generic tool ships with."
+     ]
+    },
+    {
+     "h2": "Accuracy habits that actually pay",
+     "p": [
+      "Transcription pays for clean text, so: never guess a word silently — mark it [unclear] per the style guide and move on; a marked guess costs nothing, a wrong word can cost the contract. Proofread once against the audio at 1.5x speed, hunting for meaning errors rather than typos. And keep your typing accuracy trained separately on the <a href=\"typing-accuracy-test.html\">typing accuracy test</a> — audio skills and keyboard accuracy compound independently.",
+      "For speed foundations, the <a href=\"cpm-typing-test.html\">CPM typing test</a> tracks the metric transcription is paid on, and <a href=\"transcription-typing-jobs.html\">transcription typing jobs</a> covers qualifying for the work itself."
+     ]
+    },
+    {
+     "h2": "Equipment that changes the work",
+     "p": [
+      "Three purchases define an audio typist's kit. Closed-back headphones: isolation reveals mumbled words that speakers hide, and they protect your hearing over long sessions. A foot pedal: hands-free play, pause and rewind keeps both hands on the keyboard — the single biggest throughput upgrade in transcription. And a proper media player with speed control and hotkeys, because rewinding with a mouse breaks rhythm every time.",
+      "Buy in that order as budget allows. None of them is required to start — clear audio and free players exist — but each one pays for itself in hours saved within weeks."
+     ]
+    },
+    {
+     "h2": "Handling accents and fast speakers",
+     "p": [
+      "Accents stop being a problem when you stop fighting them word by word. The technique: listen to the first minute without typing anything, just calibrating to the speaker's rhythm and vowel patterns. Your brain adapts remarkably fast — the same voice that was unintelligible at second ten is clear by minute two.",
+      "Fast speakers yield to the speed control: run them at 80% pace and they become ordinary. The mistake is trying to keep up at full speed and producing error-dense text that takes longer to fix than the slowdown costs."
+     ]
+    },
+    {
+     "h2": "Research skills: names, terms and places",
+     "p": [
+      "Every transcript contains names, technical terms and places you cannot reliably guess from audio. Professional habit: mark them on first pass, then research in a dedicated pass — search the project context, speaker names, organisation websites, spelling variants. Five minutes of research per hour of audio is normal and expected.",
+      "Keep a project glossary as you go: confirmed spellings of every name and term. It halves research time on long projects and it is the difference between a transcript that reads professionally and one that reads guessed."
+     ]
+    },
+    {
+     "h2": "Timestamping and formatting discipline",
+     "p": [
+      "Most style guides require timestamps at intervals or at every unclear passage, plus consistent speaker labels. The efficient method: insert timestamps and labels as you go with hotkeys or expander shortcuts — retrofitting them in proofing takes twice as long.",
+      "Formatting errors are the most avoidable reason transcripts get rejected. Keep the style guide open, build your expander entries for its exact formats, and let muscle memory handle compliance while you focus on the audio."
+     ]
+    },
+    {
+     "h2": "Proofing against the audio, not the text",
+     "p": [
+      "The final quality gate is a proofing pass, and the rule is: proof against the audio, not against your text. Reading your own transcript silently shows you what you meant to type; listening again shows you what the speaker actually said. Meaning errors — wrong word, dropped negation — only surface against the audio.",
+      "Run the proof pass at 1.5x speed, hunting meaning rather than commas. One focused pass catches what matters; three unfocused passes catch less and cost your evening.",
+      "A last habit from veterans: end every workday with two minutes of log — files done, audio minutes, error notes. It takes almost no time, and it turns vague feelings of a good or bad week into data you can actually improve from.",
+      "In a trade paid by the audio minute, knowing your own numbers is the difference between guessing your rate and setting it."
+     ]
+    }
+   ],
+   "faqFirstOpen": true,
+   "faqH2": "Audio Typing Tips FAQ",
+   "faq": [
+    {
+     "q": "How can I get faster at audio typing?",
+     "a": "Train the listen-type pipeline: type along to a clear podcast, pausing freely at first, then reduce pauses to zero over two weeks. Work in phrase chunks, not words, and run audio at 80-90% speed until accuracy holds."
+    },
+    {
+     "q": "What is the listen-type pipeline?",
+     "a": "Holding 3-5 seconds of speech in memory while your fingers finish the previous phrase — listening ahead and typing behind at once. It is the core transcription skill and it is trainable with real audio practice."
+    },
+    {
+     "q": "Should I use text expansion for transcription?",
+     "a": "Yes — speaker labels and repeated phrases are boilerplate. Expanders save hundreds of keystrokes per hour and, more importantly, keep your rhythm unbroken. Build the list from anything you typed 5+ times in the last project."
+    },
+    {
+     "q": "What do I do when I cannot hear a word?",
+     "a": "Mark it [unclear] per the style guide and move on — never guess silently. Rewind once for a second listen; if it is still unclear, mark it. A marked gap costs nothing; a wrong word can cost the contract."
+    }
+   ],
+   "tldr": "Audio typing tips: build the listen-type pipeline (3-5s of speech held in memory while typing behind) with podcast-along practice and zero-pause progression. Chunk by phrases, run audio at 80-90% speed, use text expansion for boilerplate, mark [unclear] instead of guessing, and proofread once against the audio at 1.5x. Train raw accuracy separately — the two skills compound.",
+   "webAppName": "Typing Speed Test",
+   "webAppUrl": "https://typing.rerivo.com/audio-typing-tips.html",
+   "bcItems": [
+    {
+     "name": "Home",
+     "item": "https://typing.rerivo.com/"
+    },
+    {
+     "name": "Audio Typing Tips",
+     "item": "https://typing.rerivo.com/audio-typing-tips.html"
+    }
+   ],
+   "ldPretty": []
+  },
+  {
+   "file": "data-entry-job-requirements.html",
+   "title": "Data Entry Job Requirements - Speed, Accuracy and Skills",
+   "metaDesc": "Data entry job requirements explained: the 8,000-12,000 KPH speed band, accuracy cutoffs, software skills, test formats, and how to prepare in two weeks.",
+   "canonical": "https://typing.rerivo.com/data-entry-job-requirements.html",
+   "dur": 60,
+   "mode": "words",
+   "variant": null,
+   "nav": [
+    {
+     "href": "english-typing-test.html",
+     "text": "English Typing Test"
+    },
+    {
+     "href": "words-per-minute-test.html",
+     "text": "WPM Test"
+    },
+    {
+     "href": "typing-practice.html",
+     "text": "Typing Practice"
+    }
+   ],
+   "crumbs": [
+    "Home",
+    "Data Entry Job Requirements"
+   ],
+   "h1": "Data Entry Job Requirements",
+   "heroP": "<strong>Data entry job requirements</strong> look intimidating on the posting and modest in the conversion. Here is exactly what employers ask for, what the numbers mean, and how to meet them in about two weeks.",
+   "seo": [
+    {
+     "h2": "The speed requirement, translated",
+     "p": [
+      "Most data-entry postings quote keystrokes per hour: typically 8,000–12,000 KPH for general roles, sometimes 12,000–15,000 KPH for high-volume numeric work. Convert at the standard rate — KPH = WPM × 300 — and 8,000–12,000 KPH is roughly 27–40 WPM. The big number is much less scary than it looks.",
+      "Some postings quote WPM directly, usually 35–50 net WPM. Either way, the measurement is the same: a short timed test scored on speed with errors deducted. Check where you stand on the <a href=\"keystrokes-per-hour-test.html\">keystrokes per hour test</a> before you apply."
+     ]
+    },
+    {
+     "h2": "The accuracy cutoff that fails most candidates",
+     "p": [
+      "Every serious data-entry test gates on accuracy, typically 98%: fall below it and your speed score is discarded. This is the requirement that actually filters people, because most candidates practise typing faster when they should practise typing cleaner.",
+      "Numeric accuracy matters even more than prose accuracy — a transposed digit in an account number is the classic data-entry error. If your practice time is limited, weight it toward numbers mode and the numeric keypad rather than more prose."
+     ]
+    },
+    {
+     "h2": "Software and workplace skills",
+     "p": [
+      "Beyond typing, postings commonly ask for spreadsheet basics (entering, sorting, simple formulas in Excel or Google Sheets), word processor formatting, and general file handling. Some roles add specific systems — CRM, ERP or industry databases — which employers expect to teach; they screen for typing and spreadsheet fundamentals, not platform knowledge.",
+      "Soft requirements worth taking seriously: sustained attention (the work is repetitive), confidentiality habits, and reliable output over long sessions. The <a href=\"typing-speed-requirements.html\">typing speed requirements</a> table puts data entry alongside other typing roles."
+     ]
+    },
+    {
+     "h2": "How to prepare in two weeks",
+     "p": [
+      "Week one: accuracy base. Daily rounds at 90% of comfortable speed with a hard 98% floor, splitting time between prose, numbers mode and the <a href=\"ten-key-typing-test.html\">10 key typing test</a> if the role is numeric. Record a KPH baseline at the end of the week.",
+      "Week two: pace and simulation. Lift speed about 5% a day holding the accuracy floor, with full test simulations on days ten and thirteen — unfamiliar text, one take, timed. Add thirty minutes of spreadsheet drills so the software questions feel routine. On test day: warm up early, hold rhythm, protect accuracy. Prepare the practical side with the <a href=\"data-entry-typing-test.html\">data entry typing test</a>, and the practice plan in <a href=\"data-entry-practice.html\">data entry practice</a> goes deeper on drills."
+     ]
+    },
+    {
+     "h2": "Reading a job posting like an insider",
+     "p": [
+      "The requirements list is a wish list, sorted by what they will actually test. First line — usually typing speed or KPH — is the real gate. 'Preferred' items are negotiable; 'required' items with a number attached are not. The test they give you will sample the first three requirements and ignore the rest.",
+      "Watch for the phrases that change the job: 'high volume' means pace matters more than polish; 'accuracy-critical' means the error cutoff is strict; 'seasonal' means reliability beats speed. Two postings with identical speed numbers can be completely different jobs."
+     ]
+    },
+    {
+     "h2": "Accuracy requirements in practice",
+     "p": [
+      "A 98% accuracy requirement means two errors per hundred characters — which sounds forgiving until you try it under time pressure on unfamiliar data. In practice it requires typing below your maximum speed: the candidates who pass are the ones who find the pace where errors simply stop happening.",
+      "Numeric fields tighten this further: transposition errors (54 becoming 45) are the classic failure, and they happen during fast digit runs. The professional habit is a micro-pause after each numeric field — a fraction of a second of verification that saves the entire record."
+     ]
+    },
+    {
+     "h2": "Full-time, part-time and seasonal structures",
+     "p": [
+      "Data entry hiring comes in three shapes. Full-time clerical roles: stable, benefits, formal testing, slower hiring. Part-time and remote task work: fast entry, flexible, rating-driven. Seasonal volume — tax season, enrollment periods, retail peaks — which hires fast, tests lightly, and rewards people who can deliver accurate volume immediately.",
+      "Seasonal work is the underrated entry point: lower gates, real output metrics, and a track record you can point to when applying for the stable roles. One good season often equals a year of applications."
+     ]
+    },
+    {
+     "h2": "Health and sustainability in high-volume work",
+     "p": [
+      "The unlisted requirement in data entry is physical sustainability: thousands of keystrokes daily for years. Wrist-neutral posture, real breaks every hour, and keyboard familiarity are not comfort features — they are what keep your accuracy from degrading into unemployable over time.",
+      "Employers notice the opposite pattern in high turnover: speed that collapses after week two. Build endurance gradually in practice — longer rounds each week — and the stamina itself becomes a hiring advantage most candidates never think to mention."
+     ]
+    },
+    {
+     "h2": "Progression paths out of data entry",
+     "p": [
+      "Data entry is a starting lane, not a destination. The proven progressions: into data quality and verification roles (accuracy specialists), team coordination (volume managers), adjacent clerical specialties like records, billing or coding (with short additional training), and — for those who enjoy the metrics — into roles that design and run these very tests.",
+      "Every one of these doors opens with the same key: a documented history of accurate, sustained output. Collect it from your first week, and the career builds itself.",
+      "Keep the requirement table handy and re-check your score against it every few weeks while you prepare; requirements read on paper feel abstract until your own measured number sits next to them.",
+      "The day your KPH at 99% accuracy clears the band with room to spare, you are no longer preparing for the requirement — you are the requirement's ideal candidate."
+     ]
+    }
+   ],
+   "faqFirstOpen": true,
+   "faqH2": "Data Entry Job Requirements FAQ",
+   "faq": [
+    {
+     "q": "What are the requirements for a data entry job?",
+     "a": "Typically 8,000–12,000 KPH (≈27–40 WPM) or 35–50 net WPM, a ~98% accuracy cutoff, spreadsheet basics, and reliable sustained output. Specific systems are taught on the job; typing and accuracy are what they screen."
+    },
+    {
+     "q": "Is 10,000 KPH a hard requirement to meet?",
+     "a": "Less than it sounds: 10,000 KPH is about 33 WPM at the standard conversion. Most regular computer users reach it with two weeks of accuracy-led practice, especially with numbers-mode and keypad training."
+    },
+    {
+     "q": "Do data entry jobs require Excel skills?",
+     "a": "Basic spreadsheet skills — entering, sorting, simple formulas in Excel or Google Sheets — are commonly requested. Deep expertise is not; employers screen typing speed and accuracy, then teach their specific systems."
+    },
+    {
+     "q": "How do I prepare for a data entry test in two weeks?",
+     "a": "Week one: accuracy floor at 98% across prose, numbers and 10-key. Week two: +5% pace daily with full simulations. Test your level now on the keystrokes per hour test."
+    }
+   ],
+   "tldr": "Data entry job requirements: 8,000–12,000 KPH (≈27–40 WPM) or 35–50 net WPM, a ~98% accuracy cutoff that fails more candidates than speed, basic spreadsheet skills, and sustained reliable output. Numeric accuracy matters most. Two-week prep: accuracy-first across prose/numbers/keypad, then pace building with simulations — 10,000 KPH is only about 33 WPM.",
+   "webAppName": "Typing Speed Test",
+   "webAppUrl": "https://typing.rerivo.com/data-entry-job-requirements.html",
+   "bcItems": [
+    {
+     "name": "Home",
+     "item": "https://typing.rerivo.com/"
+    },
+    {
+     "name": "Data Entry Job Requirements",
+     "item": "https://typing.rerivo.com/data-entry-job-requirements.html"
     }
    ],
    "ldPretty": []

@@ -16,6 +16,10 @@ Six measured fields: WPM (net words per minute, the standard 5-character-per-wor
 
 Teachers can run a whole class through a one minute test and have every student print a certificate in the same lesson, with no accounts to create and no data leaving the room. Job applicants can attach one to a portfolio to back up a stated typing speed. Track yourself by printing one at the start of a practice month and another at the end; the two certificates on the same wall are the most honest progress report you can make.
 
+## Using your certificate
+
+A certificate opens doors when paired with proof of practice: how to get a typing job, and work from home typing jobs that value verified scores.
+
 ## Typing certificate FAQ
 
 ### Is the typing certificate free?
