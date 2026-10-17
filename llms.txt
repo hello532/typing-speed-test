@@ -35,6 +35,10 @@
 - [Japanese Typing Test](https://typing.rerivo.com/japanese-typing-test.html): Practice typing real Japanese sentences mixing kanji, hiragana and katakana; works with romaji IME or kana input, measures WPM and CPM.
 - [Korean Typing Test](https://typing.rerivo.com/korean-typing-test.html): Practice typing real Korean Hangul sentences; even syllable-block rhythm training, measures WPM and CPM.
 - [Urdu Typing Test](https://typing.rerivo.com/urdu-typing-test.html): Practice typing real Urdu sentences right to left in Perso-Arabic script; letters join automatically, measures WPM and CPM.
+- [Indonesian Typing Test](https://typing.rerivo.com/indonesian-typing-test.html): Practice typing real Bahasa Indonesia sentences on any standard keyboard, no IME needed.
+- [Vietnamese Typing Test](https://typing.rerivo.com/vietnamese-typing-test.html): Practice typing real Vietnamese sentences with full tones and diacritics; works with Telex, VNI or any keyboard.
+- [Turkish Typing Test](https://typing.rerivo.com/turkish-typing-test.html): Practice typing real Turkish sentences with ç, ğ, ı, ö, ş, ü; works with Turkish Q, F or standard layouts.
+- [Thai Typing Test](https://typing.rerivo.com/thai-typing-test.html): Practice typing real Thai sentences with tone marks and no word spaces; CPM shown next to WPM.
 - [Keyboard Typing Test](https://typing.rerivo.com/keyboard-typing-test.html): Full-keyboard touch typing with on-screen key highlighting.
 - [Quotes Typing Test](https://typing.rerivo.com/quotes-typing-test.html): Type 35 famous public-domain quotes with natural punctuation and capitals.
 - [Pangram Typing Test](https://typing.rerivo.com/pangram-typing-test.html): 16 pangrams covering all 26 letters, from quick brown fox to sphinx of black quartz.
@@ -73,6 +77,10 @@
 - [Top Japanese Words](https://typing.rerivo.com/top-ja-words.html): The 200 most common Japanese words from open subtitle-frequency data, with a built-in typing practice test.
 - [Top Korean Words](https://typing.rerivo.com/top-ko-words.html): The 200 most common Korean words from open subtitle-frequency data, with a built-in typing practice test.
 - [Top Urdu Words](https://typing.rerivo.com/top-ur-words.html): The 200 most common Urdu words from open subtitle-frequency data, with a built-in typing practice test.
+- [Top Indonesian Words](https://typing.rerivo.com/top-id-words.html): The 200 most common Indonesian words from open subtitle-frequency data, with a built-in typing practice test.
+- [Top Vietnamese Words](https://typing.rerivo.com/top-vi-words.html): The 200 most common Vietnamese words from open subtitle-frequency data, with a built-in typing practice test.
+- [Top Turkish Words](https://typing.rerivo.com/top-tr-words.html): The 200 most common Turkish words from open subtitle-frequency data, with a built-in typing practice test.
+- [Top Thai Words](https://typing.rerivo.com/top-th-words.html): The 200 most common Thai words (curated everyday vocabulary), with a built-in typing practice test.
 
 ## About
 - Free, no registration, privacy-friendly (runs fully in the browser).
