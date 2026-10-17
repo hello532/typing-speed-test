@@ -20,6 +20,10 @@ Practice is typing a lot; training is typing the right thing a lot. The differen
 
 Technique before speed: touch typing tips that fix form, and finger placement typing drills.
 
+## Structured practice plans
+
+Trainer drills work best inside a plan: online typing practice lays out the daily 10-minute structure by goal — speed, accuracy, exam or a new language.
+
 ## Typing trainer FAQ
 
 ### Is this typing trainer free?

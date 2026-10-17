@@ -125,6 +125,7 @@
 - [Finger Placement Typing](https://typing.rerivo.com/finger-placement-typing.html): Finger placement typing: how to train correct finger placement from day one, per-finger drills for weak fingers, and how placement errors become speed ceilings.
 - [Touch Typing for Adults](https://typing.rerivo.com/touch-typing-for-adults.html): Touch typing for adults: why adults actually learn well, the unlearning problem and its fix, realistic expectations, and the adult-specific practice plan that works.
 - [Best Free Typing Tests Online](https://typing.rerivo.com/best-typing-test-online.html): Honest comparison of monkeytype, 10fastfingers, typing.com, keybr, TypingTest.com and Typing.Rerivo — features, languages, and what each is best for.
+- [Online Typing Practice](https://typing.rerivo.com/online-typing-practice.html): Free browser-based structured typing practice: daily 10-minute plan by goal, per-key weakness analysis, 12 languages, no sign up.
 
 ## Skill, Level, Format & Exam Tests
 - [10 Key Typing Test](https://typing.rerivo.com/ten-key-typing-test.html): Free 10 key typing test for the numeric keypad, with number-pad speed in CPM/KPH and accuracy.

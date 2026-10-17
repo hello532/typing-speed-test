@@ -30,6 +30,10 @@ Nothing leaves the device - results are stored in your own browser, not uploaded
 
 The one trade-off is the keyboard itself. Typing on an unfamiliar keyboard can cost 5-10 WPM, so if you are comparing scores, compare them on the same machine.
 
+## From testing to practising
+
+A test tells you where you are; practice moves you. The online typing practice page turns your score into a daily 10-minute routine with weak-key targeting.
+
 ## Typing test FAQ
 
 ### Do I need to install anything?

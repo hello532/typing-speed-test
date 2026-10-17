@@ -32,6 +32,10 @@ Ready-made exercise sets cover sentences, quotes, numbers and words, and every l
 
 Turn practice sessions into progress: how to get better at typing, learn to type faster free, and typing speed exercises with a daily 10-minute structure.
 
+## More ways to practise online
+
+For structured browser-based practice with per-language text and per-key analysis, see online typing practice — a daily 10-minute plan by goal, no sign up.
+
 ## Typing test FAQ
 
 ### What is typing practice?

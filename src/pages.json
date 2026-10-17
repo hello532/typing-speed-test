@@ -1183,6 +1183,12 @@
       "<ul><li><strong>No install or admin rights</strong> - the test runs in the browser.</li><li><strong>Same engine everywhere</strong> - your score does not depend on which machine you used.</li><li><strong>Nothing leaves the device</strong> - results are stored in your own browser, not uploaded.</li></ul>",
       "The one trade-off is the keyboard itself. Typing on an unfamiliar keyboard can cost 5-10 WPM, so if you are comparing scores, compare them on the same machine."
      ]
+    },
+    {
+     "h2": "From testing to practising",
+     "p": [
+      "A test tells you where you are; practice moves you. The <a href=\"online-typing-practice.html\">online typing practice</a> page turns your score into a daily 10-minute routine with weak-key targeting."
+     ]
     }
    ],
    "faqFirstOpen": true,
@@ -1471,6 +1477,12 @@
      "h2": "Structured practice plans",
      "p": [
       "Turn practice sessions into progress: <a href=\"how-to-get-better-at-typing.html\">how to get better at typing</a>, <a href=\"learn-to-type-faster-free.html\">learn to type faster free</a>, and <a href=\"typing-speed-exercises.html\">typing speed exercises</a> with a daily 10-minute structure."
+     ]
+    },
+    {
+     "h2": "More ways to practise online",
+     "p": [
+      "For structured browser-based practice with per-language text and per-key analysis, see <a href=\"online-typing-practice.html\">online typing practice</a> — a daily 10-minute plan by goal, no sign up."
      ]
     }
    ],
@@ -3251,6 +3263,12 @@
      "h2": "Technique-first training",
      "p": [
       "Technique before speed: <a href=\"touch-typing-tips.html\">touch typing tips</a> that fix form, and <a href=\"finger-placement-typing.html\">finger placement typing</a> drills."
+     ]
+    },
+    {
+     "h2": "Structured practice plans",
+     "p": [
+      "Trainer drills work best inside a plan: <a href=\"online-typing-practice.html\">online typing practice</a> lays out the daily 10-minute structure by goal — speed, accuracy, exam or a new language."
      ]
     }
    ],
@@ -12800,6 +12818,133 @@
     {
      "name": "Best Typing Test Online",
      "item": "https://typing.rerivo.com/best-typing-test-online.html"
+    }
+   ],
+   "ldPretty": []
+  },
+  {
+   "file": "online-typing-practice.html",
+   "title": "Online Typing Practice - Free Structured Practice, No Sign Up",
+   "metaDesc": "Online typing practice that actually improves you: free browser-based structured practice with weak-key analysis, 12 languages, and a daily 10-minute plan. No sign up.",
+   "canonical": "https://typing.rerivo.com/online-typing-practice.html",
+   "dur": 60,
+   "mode": "words",
+   "variant": null,
+   "nav": [
+    {
+     "href": "english-typing-test.html",
+     "text": "English Typing Test"
+    },
+    {
+     "href": "words-per-minute-test.html",
+     "text": "WPM Test"
+    },
+    {
+     "href": "typing-practice.html",
+     "text": "Typing Practice"
+    }
+   ],
+   "crumbs": [
+    "Home",
+    "Online Typing Practice"
+   ],
+   "h1": "Online Typing Practice",
+   "heroP": "Free <strong>online typing practice</strong> with structure built in: timed rounds, per-key weakness analysis, practice in 12 languages, and a daily 10-minute plan. No account, no install.",
+   "seo": [
+    {
+     "h2": "Online typing practice",
+     "p": [
+      "<strong>Online typing practice</strong> is structured, timed repetition in the browser — not just 'typing more'. The difference between practice and testing is intent: a test measures where you are; practice deliberately attacks one measured weakness at a time until it moves. Done right, ten minutes of structured online practice outperforms an hour of unstructured typing.",
+      "This page gives you the practice itself plus the structure around it: timed rounds with live WPM and accuracy, a per-key weakness report after every round, practice text in 12 languages, and a daily plan built from those measurements. Everything runs in your browser — no account, no download, and your history stays on your device."
+     ]
+    },
+    {
+     "h2": "Why browser-based practice beats installed software",
+     "p": [
+      "Installed typing software made sense in 2005. Today the browser wins for four reasons: zero install and zero account (you are practising ten seconds after opening the page), your progress history stays private on your device instead of a company's server, the tool works identically on any computer you sit down at, and updates arrive without downloads.",
+      "Desktop software still has one niche — locked-down enterprise environments with no browser access. For everyone else, browser practice is strictly more convenient and exactly as effective. The <a href=\"typing-practice.html\">typing practice</a> page here is the working example: full practice suite, nothing to install."
+     ]
+    },
+    {
+     "h2": "A practice structure that actually improves you",
+     "p": [
+      "The daily ten minutes, in order: two 15-second sprints to wake your fingers, one full measured minute, five minutes drilling the two weakest keys from your last result, and two minutes on a text type you find hard — numbers, quotes, or a new language. That is the whole routine, and it covers every bottleneck a typist has.",
+      "The weekly piece matters as much: one honest measurement under the same conditions, compared against last week. Daily scores wander; weekly trends tell the truth. The table below maps the routine to your specific goal.",
+      "<div class=\"tbl\"><table><thead><tr><th>Goal</th><th>Daily 10 minutes</th><th>Weekly check</th></tr></thead><tbody>\n    <tr><td>Raw speed</td><td>2 sprints + 1 measured round + 5 min weak keys</td><td>Net WPM trend</td></tr>\n    <tr><td>Accuracy</td><td>3 controlled rounds at 98% accuracy floor</td><td>Accuracy + net-raw gap</td></tr>\n    <tr><td>Exam preparation</td><td>1 full simulation at the test's duration</td><td>Simulation score vs the gate</td></tr>\n    <tr><td>New language</td><td>1 round in the target language's word pool</td><td>Language round WPM + accuracy</td></tr>\n    <tr><td>Endurance</td><td>1 long round (3-10 minutes)</td><td>Decay in final third</td></tr>\n  </tbody></table></div>"
+     ]
+    },
+    {
+     "h2": "Practice in your own language",
+     "p": [
+      "Most online typing practice is English-only, which is useless if your daily writing is in another language. This site runs practice in <a href=\"typing-tests-in-other-languages.html\">12 languages</a> — English, Spanish, Chinese, Hindi, Arabic, Japanese, Korean, Urdu, Indonesian, Vietnamese, Turkish and Thai — each with real practice text, not translated English, and a top-200 word list per language.",
+      "The skills transfer: accuracy habits built in one script carry to every other script you type. Multilingual practice also breaks rhythm monotony, which is the hidden cause of most plateaus."
+     ]
+    },
+    {
+     "h2": "When practice stops working",
+     "p": [
+      "Every practitioner hits the wall: two or more weeks of flat scores despite daily practice. The wall is always one of three things — a bottleneck you have not measured (check the weak-key report), a drill that has gone stale (change text type or duration), or accumulated fatigue (take two rest days; adaptation happens on rest).",
+      "What never works is more volume of the same practice. Ten measured minutes with a changed stimulus beats every marathon. For the full drill library, see <a href=\"typing-speed-exercises.html\">typing speed exercises</a>, and for the theory behind the plan, <a href=\"how-to-get-better-at-typing.html\">how to get better at typing</a> walks the 4-week system."
+     ]
+    },
+    {
+     "h2": "Setting up your first practice week",
+     "p": [
+      "Day one is measurement day, not practice day: take a <a href=\"1-minute-typing-test.html\">1 minute typing test</a> three times, record the middle net WPM and accuracy, and read the weak-key report carefully. Those three numbers are your baseline — everything you do for the next month gets measured against them.",
+      "Days two to seven follow the daily ten-minute structure from the table above, chosen for your goal. Day seven: retest under the same conditions and compare. Most people see the first measurable movement inside two weeks — and almost all of it comes from accuracy, not raw speed. From there it is the same weekly cycle: measure, drill the bottleneck, repeat."
+     ]
+    },
+    {
+     "h2": "Common practice mistakes to avoid",
+     "p": [
+      "The biggest one is practising for speed from day one. Speed built on sloppy foundations has a hard ceiling, and every hour of it deepens the errors you will later pay weeks to unlearn. Start at ninety percent of your comfortable pace and hold a 97-98% accuracy line; speed follows automatically once the base is clean.",
+      "Second: marathon sessions on weekends. Motor memory consolidates overnight between sessions, so ten minutes daily outperforms seventy minutes on Sunday by a wide margin. Third: measuring yourself every day. Daily scores wander by several points for no meaningful reason, and watching them is discouraging without being informative. Measure weekly, under the same conditions, and act on the trend.",
+      "Fourth: ignoring the weak-key report after each round. It is the single most useful piece of practice data you have — the difference between knowing your speed and knowing what is slowing it down. Every practice session should end with one glance at that report and one decision about what to drill next."
+     ]
+    },
+    {
+     "h2": "Making practice a habit that survives busy weeks",
+     "p": [
+      "The routine that fails is the one that depends on motivation. Anchor your ten minutes to an existing daily event — the first coffee, the start of a work block, the end of lunch — so the practice happens at the same cue every day without negotiation. Habit piggybacking beats willpower every time.",
+      "Have a minimum viable day too: on your worst day, do one single measured minute and stop. One minute keeps the chain unbroken and takes less time than finding an excuse. The people who improve are not the ones with perfect weeks; they are the ones whose bad weeks still contain a minute a day."
+     ]
+    }
+   ],
+   "faqFirstOpen": true,
+   "faqH2": "Online Typing Practice FAQ",
+   "faq": [
+    {
+     "q": "Is online typing practice free?",
+     "a": "Yes — this practice suite is free with no sign up, no install and no account. Your practice history stays privately on your own device."
+    },
+    {
+     "q": "How much should I practice typing each day?",
+     "a": "Ten focused minutes daily beats an occasional hour. Motor memory consolidates between sessions, so frequency matters more than session length."
+    },
+    {
+     "q": "Does online typing practice actually make you faster?",
+     "a": "Yes, if it is structured: measurement, weak-key targeting and weekly review. Unstructured 'typing more' just rehearses your current ceiling, errors included."
+    },
+    {
+     "q": "Can I practice typing in my own language?",
+     "a": "Yes — 12 languages with real practice text per language, from Spanish and Hindi to Vietnamese and Thai. See the typing tests in other languages page for the full list."
+    },
+    {
+     "q": "What should I do when I plateau?",
+     "a": "Change the stimulus, not the volume: new text type, different duration, or targeted weak-key drills. Plateaus are technique signals, and more of the same practice only deepens them."
+    }
+   ],
+   "tldr": "Online typing practice that works is structured, not voluminous: a daily 10-minute routine (sprints, measured round, weak-key drilling, hard text type) plus one honest weekly measurement. Browser-based beats installed software — no account, private history, works anywhere. Practice in 12 languages with real text, and break plateaus by changing stimulus, not adding volume.",
+   "webAppName": "Typing Speed Test",
+   "webAppUrl": "https://typing.rerivo.com/online-typing-practice.html",
+   "bcItems": [
+    {
+     "name": "Home",
+     "item": "https://typing.rerivo.com/"
+    },
+    {
+     "name": "Online Typing Practice",
+     "item": "https://typing.rerivo.com/online-typing-practice.html"
     }
    ],
    "ldPretty": []
