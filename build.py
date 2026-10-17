@@ -362,6 +362,50 @@ def build_md_mirrors(cfg, htmls):
     return mirrors
 
 
+def page_lastmods(names):
+    """每页真实 lastmod：该页 HTML 最后一次提交的日期；有未提交改动/未跟踪 → 今天。
+
+    产物幂等重建不改变内容 → git 状态干净 → 日期=最后一次真实内容变更，
+    不会出现"全站每天同日"的假新鲜信号（竞对 56K 页无 lastmod 的反面）。
+    """
+    import datetime
+    import subprocess
+    today = datetime.date.today().isoformat()
+    dirty = set()
+    r = subprocess.run(["git", "status", "--porcelain"], cwd=ROOT,
+                       capture_output=True, text=True)
+    if r.returncode == 0:
+        for ln in r.stdout.splitlines():
+            p = ln[3:].split(" -> ")[-1].strip() if len(ln) > 3 else ""
+            if p:
+                dirty.add(p)
+    dates = {}
+    r = subprocess.run(["git", "log", "--format=@%cs", "--name-only", "--", "*.html"],
+                       cwd=ROOT, capture_output=True, text=True)
+    cur = None
+    for ln in r.stdout.splitlines():
+        if ln.startswith("@"):
+            cur = ln[1:]
+        elif ln and ln not in dates:
+            dates[ln] = cur
+    return {n: (today if n in dirty else dates.get(n) or today) for n in names}
+
+
+def build_sitemap(cfg):
+    """sitemap.xml 由构建自动更新（此前手工维护，lastmod 全站同日、与真实修改脱节）。"""
+    names = [p["file"] for p in cfg["pages"]]
+    mods = page_lastmods(names)
+    lines = ['<?xml version="1.0" encoding="UTF-8"?>',
+             '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">']
+    for n in names:
+        loc = SITE + "/" if n == "index.html" else SITE + "/" + n
+        cf, pr = ("weekly", "1.0") if n == "index.html" else ("monthly", "0.8")
+        lines.append(f'  <url><loc>{loc}</loc><lastmod>{mods[n]}</lastmod>'
+                     f'<changefreq>{cf}</changefreq><priority>{pr}</priority></url>')
+    lines.append('</urlset>')
+    (ROOT / "sitemap.xml").write_text("\n".join(lines) + "\n", encoding="utf-8")
+
+
 def main():
     check = "--check" in sys.argv
     cfg = json.loads((SRC / "pages.json").read_text(encoding="utf-8"))
@@ -425,6 +469,7 @@ def main():
             sys.exit(1)
         print(f"OK: all {len(cfg['pages'])} pages match src/")
     else:
+        build_sitemap(cfg)
         print(f"built {len(cfg['pages'])} pages from src/")
 
 
