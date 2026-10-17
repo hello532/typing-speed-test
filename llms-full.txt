@@ -997,6 +997,12 @@ Run the arithmetic and the pattern is obvious. A raw 310 CPM at 94% accuracy net
 One more reason CPM deserves a place on your dashboard: it reacts to practice faster than WPM does. Because the unit is five times finer, a genuine improvement shows up as a visible CPM gain within days, while WPM might not tick over for weeks. That faster feedback loop keeps motivation honest — you can see the practice working, in keystrokes, almost as it happens.
 ## What is a good CPM typing speed?
 Scaled from the standard WPM bands: around 200 CPM is the average adult, 300 CPM is good office-standard speed, 400 CPM is fast — the top ten percent — and 500 CPM or more is elite territory. The accuracy rule scales too: whatever your CPM, keep it above 97% accuracy, because every corrected error costs far more time than it saves.
+WPM | CPM (= WPM × 5) | Level
+20 WPM | 100 CPM | Beginner
+40 WPM | 200 CPM | Average adult
+60 WPM | 300 CPM | Good / office standard
+80 WPM | 400 CPM | Fast
+100 WPM | 500 CPM | Top ~1%
 Watch your net figure, not the raw one. This test shows net CPM with errors deducted alongside your raw keystroke rate; the raw-minus-net gap is the clearest signal of whether you should push speed or tighten accuracy.
 ## How to raise your CPM
 CPM rewards exactly one thing: more correct keystrokes per minute. Anything that removes hesitation raises it — home-row discipline, eyes on the screen, and drilling the specific keys your weak-key report flags after each round. Anything that creates backspaces lowers it, so type a touch slower than your panic speed and let accuracy do the compounding.

@@ -52,6 +52,13 @@ One more reason CPM deserves a place on your dashboard: it reacts to practice fa
 
 Scaled from the standard WPM bands: around 200 CPM is the average adult, 300 CPM is good office-standard speed, 400 CPM is fast — the top ten percent — and 500 CPM or more is elite territory. The accuracy rule scales too: whatever your CPM, keep it above 97% accuracy, because every corrected error costs far more time than it saves.
 
+WPM | CPM (= WPM × 5) | Level
+20 WPM | 100 CPM | Beginner
+40 WPM | 200 CPM | Average adult
+60 WPM | 300 CPM | Good / office standard
+80 WPM | 400 CPM | Fast
+100 WPM | 500 CPM | Top ~1%
+
 Watch your net figure, not the raw one. This test shows net CPM with errors deducted alongside your raw keystroke rate; the raw-minus-net gap is the clearest signal of whether you should push speed or tighten accuracy.
 
 ## How to raise your CPM

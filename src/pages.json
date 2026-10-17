@@ -4063,6 +4063,7 @@
      "h2": "What is a good CPM typing speed?",
      "p": [
       "Scaled from the standard WPM bands: around 200 CPM is the average adult, 300 CPM is good office-standard speed, 400 CPM is fast — the top ten percent — and 500 CPM or more is elite territory. The accuracy rule scales too: whatever your CPM, keep it above 97% accuracy, because every corrected error costs far more time than it saves.",
+      "<div class=\"tbl\"><table><thead><tr><th>WPM</th><th>CPM (= WPM × 5)</th><th>Level</th></tr></thead><tbody>\n    <tr><td>20 WPM</td><td>100 CPM</td><td>Beginner</td></tr>\n    <tr><td>40 WPM</td><td>200 CPM</td><td>Average adult</td></tr>\n    <tr><td>60 WPM</td><td>300 CPM</td><td>Good / office standard</td></tr>\n    <tr><td>80 WPM</td><td>400 CPM</td><td>Fast</td></tr>\n    <tr><td>100 WPM</td><td>500 CPM</td><td>Top ~1%</td></tr>\n  </tbody></table></div>",
       "Watch your net figure, not the raw one. This test shows net CPM with errors deducted alongside your raw keystroke rate; the raw-minus-net gap is the clearest signal of whether you should push speed or tighten accuracy."
      ]
     },
