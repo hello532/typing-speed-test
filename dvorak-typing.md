@@ -22,6 +22,10 @@ Set your operating system layout to Dvorak first, otherwise you would be typing 
 
 Expect your speed to drop well below your QWERTY speed for the first week; that drop is the switch cost, not a sign Dvorak is wrong for you. Track your WPM here each day and compare accuracy rather than raw speed, because accuracy recovers first and speed follows it.
 
+## Before you switch layouts
+
+Considering the switch? Dvorak vs QWERTY weighs the evidence honestly — and why technique usually beats layout.
+
 ## Dvorak typing FAQ
 
 ### Does this test switch my keyboard to Dvorak?

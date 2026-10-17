@@ -16,6 +16,10 @@ Week one is diagnosis: run three drills a day and read the error report without 
 
 Practice is typing a lot; training is typing the right thing a lot. The difference is the log. When you record your WPM and accuracy side by side each day, a speed that costs accuracy shows up immediately as a bad trade, and the drill that fixed your weak keys shows up as a permanent step up. Your hands will plateau; the trainer's answer is variety and rest, not more effort.
 
+## Technique-first training
+
+Technique before speed: touch typing tips that fix form, and finger placement typing drills.
+
 ## Typing trainer FAQ
 
 ### Is this typing trainer free?

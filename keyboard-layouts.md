@@ -32,6 +32,10 @@ If you want the gentlest change, start with Colemak because it keeps your common
 
 You can practise two of these layouts right now with a matching on-screen keyboard and finger guide: take the Colemak typing test or the Dvorak typing test, or measure your current speed on QWERTY with the main typing speed test. Each shows WPM, accuracy, consistency and a per-key heatmap so you can compare how a layout feels for you.
 
+## Choosing a layout
+
+Layout decisions: Dvorak vs QWERTY — evidence, retraining cost, and who should switch.
+
 ## Keyboard layouts FAQ
 
 ### Which keyboard layout is the fastest?

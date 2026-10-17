@@ -16,6 +16,10 @@ Muscle memory is built by frequency, not by marathon sessions. A daily 60 second
 
 Start by resting your index fingers on the small bumps on F and J, with the other fingers curling onto the home row beside them. Type the sentence on screen without glancing down; if you must look, look only after the line is finished. Keep your wrists floating and your shoulders down. After the test, read the error report: those keys, not your fastest ones, are your next practice targets.
 
+## Learn touch typing, honestly
+
+The full picture: is it hard to learn touch typing, how long to learn touch typing, the easy way to learn touch typing, and touch typing for adults.
+
 ## Touch typing test FAQ
 
 ### What is a touch typing test?

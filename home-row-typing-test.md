@@ -28,6 +28,10 @@ The thumbs rest on the space bar. Keeping this assignment is what lets you type 
 
 Effective home-row practice repeats the eight home keys in short, varied bursts rather than long paragraphs, so your fingers build the exact movements they need. Run this test for 1 or 2 minutes a day, aiming first for perfect accuracy and only then for speed. When the home row feels natural, move on to the touch typing test and the keyboard typing test, which introduce the surrounding rows with an on-screen finger guide.
 
+## Hand and finger fundamentals
+
+Placement done right: proper hand position for typing and the typing finger chart.
+
 ## Home row FAQ
 
 ### What are the home row keys?

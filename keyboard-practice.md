@@ -20,6 +20,10 @@ Turn on the virtual keyboard and the next-key highlight so you can see which fin
 
 Ten focused minutes a day beats one long weekly session. Keep accuracy above 97% and let speed rise on its own; rushing before the habits are set just trains mistakes. Return to this page whenever you want a clean, distraction-free practice space.
 
+## Placement and finger training guides
+
+Build the map correctly: typing finger chart for every key, and finger placement typing with per-finger drills.
+
 ## Keyboard Practice FAQ
 
 ### How do I practise typing on a keyboard?
