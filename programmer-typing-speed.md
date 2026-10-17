@@ -22,6 +22,26 @@ The most valuable typing routine targets three code-heavy reaches: brackets and 
 
 See typing practice for programmers for the full technique guide.
 
+## Three code-heavy reaches that slow every developer
+
+First: brackets and braces on the shift row. These appear in nearly every line of code and require either a shift hold or a dedicated finger from home row. Second: underscore and hyphen on the bottom row, which is the least accessible key group. Third: backtick-shift and dollar-sign-brace combinations in template strings.
+
+## What senior developers know about typing that juniors do not
+
+Senior developers who are fast coders share this specific belief: typing is a tool they have made invisible so the keyboard never competes with the thought. The focus is not how fast they type but whether every symbol reaches the screen without conscious thought about fingers or keys.
+
+## How to choose which language code drill to start with
+
+Start with the language you spend the most hours in. Python developers should drill the underscore and colon patterns. JavaScript developers should drill brackets, template literals and arrow function reaches. Use the code typing test that matches your language and switch only after automaticity is achieved in one.
+
+## IDE autocomplete does not make typing speed irrelevant
+
+Autocomplete saves you from remembering API calls and parameter names, but it does not save you from typing the code structure around those calls. Array methods, control flow patterns and variable declarations are still typed character by character. Typing speed determines how fast you reach the autocomplete trigger.
+
+## The developer week of typing practice
+
+Monday: code typing round in your primary language, 60 seconds. Tuesday: prose accuracy round at 98% floor. Wednesday: code typing in your secondary language, 60 seconds. Thursday: prose speed round with sprints. Friday: code typing round plus weak-key drill. Weekend: rest or one long round for stamina.
+
 ## Programmer Typing Speed FAQ
 
 ### Does typing speed matter for programmers?

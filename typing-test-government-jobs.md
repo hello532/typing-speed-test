@@ -22,6 +22,26 @@ Week one: accuracy base. Daily rounds at 90% of comfortable speed with a hard 98
 
 Speed beyond the requirement does not earn extra marks in most government exams. Consistent accuracy over the full duration does. The typing speed requirements table marks these exams as accuracy-critical.
 
+## Government typing practice: which format to train first
+
+There are three data-entry test formats to practise: format one is a straight KPH test with mixed text and digits in a fixed duration; format two is form-filling with fields on screen and source beside them; format three is audio data entry where numbers are read aloud. Find out which format your specific exam uses and practise that exact format in a timed one-take simulation twice per week.
+
+## What separates passing from failing candidates
+
+Field analysis of data-entry and clerk typing test results shows that the accuracy gate fails more candidates than the speed floor. Candidates who pass at exactly the minimum speed with 99% accuracy consistently outperform those who exceed the speed requirement but drop below the accuracy line by one or two points.
+
+## Language choice: English or Hindi for the exam
+
+Many Indian government exams accept either English or Hindi typing. English is more standardised across posts and simpler on standard keyboards. Hindi uses a Devanagari layout (Kedmanee or Remington) that requires dedicated practice. Choose the language you can type most accurately on test day.
+
+## Full-time, part-time and seasonal data-entry hiring
+
+Full-time government clerk roles: stable, formal testing, slow hiring. Part-time and remote task work: fast entry, flexible, rating-driven. Seasonal volume (tax season, enrollment period, retail peak): hires fast with lower speed gates. Seasonal work is the underrated entry point for one good season of a track record worth a year of applications.
+
+## Keyboard layout and language for SSC exams
+
+For SSC CHSL and court clerk exams, both English and Hindi typing layouts are accepted depending on the post. Hindi uses either the Kedmanee or Remington layout. Practising in the language you will use on test day builds the exact letter patterns and pacing habits that the exam measures.
+
 ## Typing Speed Test for Government Jobs FAQ
 
 ### What typing speed do SSC exams require?

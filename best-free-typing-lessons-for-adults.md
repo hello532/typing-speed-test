@@ -24,6 +24,26 @@ A browser is the only requirement. This site provides the timed test, the practi
 
 Weekly measurement on the same test under the same conditions is the entire tracking system. Record net WPM, accuracy and weak keys. Compare the weekly trend, not daily scores. If the number rises, keep going. If it flattens for two weeks, change the drill, not the volume. The browser history saves every result automatically for you to compare.
 
+## Why adults benefit more from practice than they expect
+
+Adults who learn touch typing report two categories of improvement beyond raw speed. First: less fatigue, because hunt-and-peck fingers travel six times farther than touch typing for the same sentence, which over eight hours of work causes evening pain. Second: faster thought-to-text flow, because when letter reaches are automatic the bottleneck shifts from the fingers to the brain. Third: professional credibility from a dated typing speed certificate attached to your resume.
+
+## The mistakes that keep adults slow (even with practice)
+
+Mistake one: mixing touch typing in practice with hunt-and-peck in real work, which prevents consolidation. Fix: a three-week no-mixing boundary. Mistake two: no accuracy floor, which at 95% builds error habits faster than speed. Fix: always 90% pace with 98% floor. Mistake three: re-typing comfortable texts instead of rotating text types to train the full keyboard surface.
+
+## Building the daily 10-minute habit as an adult
+
+Anchor the ten minutes to an existing daily event: first coffee, morning stand-up, end of lunch. Use a fixed test format, and have a one-minute minimum for crowded days; one minute is better than zero and keeps the chain unbroken. After four weeks of daily practice, the weekly measurement becomes self-correcting: the number rises when drills are right and flattens when the bottleneck has moved.
+
+## Where adults have an advantage over younger learners
+
+Adults bring vocabulary and context to typing practice that younger learners lack: you already know every word you type, so look-ahead reading is free instead of a skill to develop. Adults also know exactly which days matter for an exam, which text types their work requires, and how to think through a timed test under pressure.
+
+## Tracking without a paid subscription
+
+Weekly measurement under identical conditions is the entire tracking system. Record net WPM, accuracy and weak keys in any note-taking app. A simple table with twelve weeks of numbers is more motivating than a gamified dashboard.
+
 ## Best Free Typing Lessons for Adults FAQ
 
 ### Is it possible to learn typing as an adult?

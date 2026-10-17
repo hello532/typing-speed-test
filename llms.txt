@@ -129,6 +129,9 @@
 - [1000 Most Common English Words](https://typing.rerivo.com/top-1000-english-words.html): The 1000 most common English words in frequency order from open subtitle data, with a free typing practice test.
 - [Typing Games for Kids](https://typing.rerivo.com/typing-games-for-kids.html): Typing games for kids: 5-10 minute game-feeling sessions, letter-hunt drills, word-collection challenges, and how to keep children practising without nagging.
 - [Bigram Typing Practice](https://typing.rerivo.com/bigram-typing-practice.html): Bigram typing practice targeting the 13 most common English letter combinations with per-key weakness tracking.
+- [Best Free Typing Lessons for Adults](https://typing.rerivo.com/best-free-typing-lessons-for-adults.html): Structured 4-week free plan for adults to reach 60 WPM with free online tools.
+- [Typing Test for Government Jobs](https://typing.rerivo.com/typing-test-government-jobs.html): SSC, IBPS and court clerk typing test requirements and preparation.
+- [Programmer Typing Speed](https://typing.rerivo.com/programmer-typing-speed.html): Why code typing is a separate skill and how to drill symbol-dense reaches.
 
 ## Skill, Level, Format & Exam Tests
 - [10 Key Typing Test](https://typing.rerivo.com/ten-key-typing-test.html): Free 10 key typing test for the numeric keypad, with number-pad speed in CPM/KPH and accuracy.
