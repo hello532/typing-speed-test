@@ -1,0 +1,181 @@
+{
+ "site": "https://typing.rerivo.com",
+ "updated": "2026-10-17",
+ "pairs": [
+  {
+   "q": "What is a 1 minute typing test?",
+   "a": "A 60-second timed round: type the passage shown for exactly one minute, then get your WPM, accuracy and error breakdown instantly. One minute is the most-quoted test length, so scores compare directly across sites and job requirements.",
+   "page": "1-minute-typing-test.html"
+  },
+  {
+   "q": "How is WPM scored on the 1 minute test?",
+   "a": "Correct characters divided by 5, divided by the one elapsed minute. Because the test lasts exactly sixty seconds the maths is simple: 300 correct characters equals 60 WPM. The results panel shows both raw WPM and net WPM with errors subtracted.",
+   "page": "1-minute-typing-test.html"
+  },
+  {
+   "q": "Is 1 minute the right test length?",
+   "a": "For most people, yes: 60 seconds balances speed bursts against fatigue and matches the length employers and benchmarks use. Take longer 3 or 5 minute tests when you want a steadier, hiring-grade number.",
+   "page": "1-minute-typing-test.html"
+  },
+  {
+   "q": "Is the 1 minute test free?",
+   "a": "Yes — unlimited 1 minute rounds, no sign up, no ads in the typing area. Your history stays in your own browser.",
+   "page": "1-minute-typing-test.html"
+  },
+  {
+   "q": "How can I raise my 1 minute score?",
+   "a": "Warm up with one throwaway round, then focus on accuracy: at 95%+ accuracy speed follows. Keep your fingers on the home row, look at the text not your hands, and practise daily with typing drills.",
+   "page": "1-minute-typing-test.html"
+  },
+  {
+   "q": "Is a 1 minute typing test accurate?",
+   "a": "Yes, for a quick check. Sixty seconds is long enough that one lucky sentence does not decide the result, and it is the length employers and typing certificates use, so your score compares directly. Take a 3 or 5 minute test when you want a steadier number.",
+   "page": "1-minute-typing-test.html"
+  },
+  {
+   "q": "How long is a 2 minute typing test?",
+   "a": "Exactly 120 seconds. When the timer runs out your WPM, accuracy, characters per minute and error count appear instantly.",
+   "page": "2-minute-typing-test.html"
+  },
+  {
+   "q": "What is a good 2 minute WPM?",
+   "a": "Around 40 WPM is average, 60+ is good and 80+ is professional. Accuracy above 95% is just as important as raw speed.",
+   "page": "2-minute-typing-test.html"
+  },
+  {
+   "q": "Is the 2 minute test free?",
+   "a": "Yes. Free with no sign up; retake the full two minutes as often as you like and every result is stored only on your own device.",
+   "page": "2-minute-typing-test.html"
+  },
+  {
+   "q": "Can I retry as many times as I want?",
+   "a": "Yes, there is no limit. Click “Test again” for a fresh passage and your history keeps the last results.",
+   "page": "2-minute-typing-test.html"
+  },
+  {
+   "q": "Is a 5 minute typing test more accurate?",
+   "a": "Yes. Longer tests average out short bursts of speed and moments of fatigue, so a 5 minute result is more stable and representative of your true typing speed than a 15 or 60 second test.",
+   "page": "5-minute-typing-test.html"
+  },
+  {
+   "q": "What is a good 5 minute WPM?",
+   "a": "40 WPM is average, 60+ WPM is good, and 80+ WPM is professional level. Maintaining high accuracy over 5 minutes matters more than peak speed.",
+   "page": "5-minute-typing-test.html"
+  },
+  {
+   "q": "Is the 5 minute test free?",
+   "a": "Yes. Free with no sign up and no limit on retakes; the whole five-minute endurance round costs nothing and uploads nothing.",
+   "page": "5-minute-typing-test.html"
+  },
+  {
+   "q": "Does the test save my progress?",
+   "a": "Your last results are saved locally in this browser (localStorage) so you can track improvement over time. Nothing is sent to a server.",
+   "page": "5-minute-typing-test.html"
+  },
+  {
+   "q": "What is a capital letter typing test?",
+   "a": "It is a typing test that focuses on uppercase letters and the Shift key, so you can practise capitals, proper nouns and symbols rather than only lowercase words.",
+   "page": "capital-letter-typing-test.html"
+  },
+  {
+   "q": "Why are capital letters hard to type?",
+   "a": "Capitals need a Shift key press with the opposite hand plus a quick return to the home row, which breaks your rhythm until the motion becomes muscle memory.",
+   "page": "capital-letter-typing-test.html"
+  },
+  {
+   "q": "Is the capital letter test free?",
+   "a": "Yes. Free with no sign up, and your Shift-key drill results stay in your own browser.",
+   "page": "capital-letter-typing-test.html"
+  },
+  {
+   "q": "Do I use Shift or Caps Lock for capitals?",
+   "a": "Always Shift for single capitals: hold it with the opposite hand's pinky while the other hand strikes the letter. Caps Lock is only for multi-letter acronyms, and reaching for it mid-sentence breaks rhythm and costs accuracy.",
+   "page": "capital-letter-typing-test.html"
+  },
+  {
+   "q": "What makes this an easy typing test?",
+   "a": "It offers short rounds and a simple common-words mode, so beginners get a quick, encouraging WPM result without long or difficult passages.",
+   "page": "easy-typing-test.html"
+  },
+  {
+   "q": "I am a slow typist — where do I start?",
+   "a": "Start with a 15 or 30 second round in the words mode, aim for accuracy first, and build up to longer tests as you improve.",
+   "page": "easy-typing-test.html"
+  },
+  {
+   "q": "Is it free?",
+   "a": "Yes, completely free with no sign up. Your results stay in your own browser.",
+   "page": "easy-typing-test.html"
+  },
+  {
+   "q": "How easy is easy — what WPM should I expect first?",
+   "a": "Most beginners score 15 to 25 WPM on their first try with simple words, and that is normal. After a week of short daily rounds most reach 30+, the point where typing starts feeling useful instead of painful.",
+   "page": "easy-typing-test.html"
+  },
+  {
+   "q": "Is this English typing test free?",
+   "a": "Yes. The English typing test is free with no sign up, and your English WPM history is saved only in this browser.",
+   "page": "english-typing-test.html"
+  },
+  {
+   "q": "What is a good English typing speed?",
+   "a": "40 WPM is average, 60-70 WPM is good, and 80+ WPM is professional level for most office and writing work.",
+   "page": "english-typing-test.html"
+  },
+  {
+   "q": "How is English typing speed calculated?",
+   "a": "The standard 5-characters-per-word rule, applied to real English sentences. Because English words average close to 5 characters, the formula matches real English text well; errors are subtracted for net WPM.",
+   "page": "english-typing-test.html"
+  },
+  {
+   "q": "Does English word length affect my WPM?",
+   "a": "Slightly: WPM counts five characters as one word, and common English words average just under five, so scores on real sentences run a touch higher than on random-word drills. The difference is small — a few WPM — and consistent, so scores compare fairly.",
+   "page": "english-typing-test.html"
+  },
+  {
+   "q": "Is this Spanish typing test free?",
+   "a": "Yes. The Spanish typing test is free with no sign up; your Spanish results stay in this browser.",
+   "page": "spanish-typing-test.html"
+  },
+  {
+   "q": "Does the test include accented characters and ñ?",
+   "a": "Yes. The practice sentences are real Spanish, so they include accented vowels (á, é, í, ó, ú), the letter ñ, and inverted ¿ ¡ punctuation.",
+   "page": "spanish-typing-test.html"
+  },
+  {
+   "q": "How is WPM counted for Spanish text?",
+   "a": "The same 5-characters-per-word rule, applied to real Spanish sentences including accented vowels and ñ. Accents count as ordinary characters, so typing them correctly protects your accuracy.",
+   "page": "spanish-typing-test.html"
+  },
+  {
+   "q": "Do I need a Spanish keyboard for the ñ and accents?",
+   "a": "No: the test accepts standard keystrokes and guides you through accented characters with the on-screen keyboard. A Spanish layout helps at speed, but beginners can start on any keyboard immediately.",
+   "page": "spanish-typing-test.html"
+  },
+  {
+   "q": "Is this typing test really free?",
+   "a": "Yes. There is no sign up, no account, no paywall and no ads inside the typing area. You can use it as often as you like.",
+   "page": "free-typing-test.html"
+  },
+  {
+   "q": "Do I need to create an account?",
+   "a": "No account is needed. Your past results are saved only in your own browser using localStorage.",
+   "page": "free-typing-test.html"
+  },
+  {
+   "q": "What can I measure?",
+   "a": "You get words per minute (WPM), accuracy, characters per minute and error counts after every attempt.",
+   "page": "free-typing-test.html"
+  },
+  {
+   "q": "Is there a catch — why is it free?",
+   "a": "No catch: the test runs entirely in your browser with no accounts, no servers and no ads in the typing area, so there is almost nothing to pay for. Optional display ads outside the test area keep the site running without ever locking features.",
+   "page": "free-typing-test.html"
+  },
+  {
+   "q": "What is a typing test?",
+   "a": "A typing test measures how fast and accurately you type. You type a passage of text while the test counts your words per minute (WPM), accuracy and errors.",
+   "page": "index.html"
+  }
+ ]
+}
