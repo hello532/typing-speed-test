@@ -791,6 +791,16 @@
    "status": "candidate",
    "date": "2026-10-17",
    "note": "R7 页B 分发动作；草稿 ops-r6/reddit-online-typing-practice.md，人审后人工发"
+  },
+  {
+   "name": "Quora answer draft — best way to practice typing",
+   "url": "https://typing.rerivo.com/typing-practice.html",
+   "kind": "distribution",
+   "dofollow": null,
+   "dr": null,
+   "status": "candidate",
+   "date": "2026-10-17",
+   "note": "R7 页A 分发动作；草稿 ops-r6/quora-typing-practice.md，人审后人工发"
   }
  ]
 }

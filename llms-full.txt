@@ -372,6 +372,27 @@ Ready-made exercise sets cover sentences, quotes, numbers and words, and every l
 Turn practice sessions into progress: how to get better at typing, learn to type faster free, and typing speed exercises with a daily 10-minute structure.
 ## More ways to practise online
 For structured browser-based practice with per-language text and per-key analysis, see online typing practice — a daily 10-minute plan by goal, no sign up.
+## The four bottlenecks practice must target
+Every slow typist is slow for one of four reasons, and each needs a different drill. Accuracy bottlenecks show as a wide gap between net and raw speed — fix them with controlled rounds at a 98% floor. Speed bottlenecks show as clean but slow rounds — fix them with 15-second sprints that stretch the ceiling. Symbol bottlenecks show as collapses on numbers and punctuation — fix them with dedicated numbers and quotes rounds, because everyday prose never trains those keys.
+Stamina bottlenecks show as accuracy decaying in the final third of a long test — fix them with weekly three-to-five-minute endurance rounds. Read your result panel in that order and the panel tells you which bottleneck you have this week. Practice without this diagnosis is just repetition.
+## Drills by bottleneck
+Match the drill to the bottleneck — this is the whole art of practice. The table maps each bottleneck to the drill that fixes it and the metric that proves the fix.
+Bottleneck | Symptom on result panel | Drill | Fix metric
+Accuracy | Net WPM far below raw WPM | 90% pace, 98% floor rounds | Net-raw gap closes
+Speed | High accuracy, low WPM | 15-second max-effort sprints | Sprint WPM rises
+Symbols | Collapses on digits/punctuation | Numbers / quotes mode rounds | Symbol rounds match prose
+Stamina | Accuracy decays late in test | Weekly 3-5 minute rounds | Final-third errors drop
+Specific keys | Same keys in weak report | 15s weak-key bursts daily | Keys leave the report
+Notice the fix metric column: every drill has a way to know it worked, usually within one to two weeks. If a drill's metric has not moved in two weeks, the bottleneck moved — re-read the panel and change the drill.
+## Practising for a specific goal
+For an employment test: practise the exact format — same duration, unfamiliar text, one take — twice a week, and hold accuracy two points above the gate. For raw speed: alternate sprint days and rhythm days, and accept that gains past 80 WPM come in single points per month. For a new language: practise that language's word pool daily; accuracy habits transfer between scripts faster than vocabulary does.
+For school or everyday competence: you need far less than you think. Forty WPM at 97% accuracy covers almost every daily need, and the typing speed requirements table shows what specific jobs actually ask for — most are lower than people fear.
+## How to know your practice is working
+Weekly, not daily: one measured round under identical conditions, recorded with the date. Three numbers tell you everything — net WPM rising means the system works; accuracy falling means you are pushing too hard; consistency dropping means fatigue or posture drift needs attention before any drill.
+Keep the log where you will actually look at it. A simple note with twelve weeks of numbers is more motivating than any badge system, and it is the only reliable way to catch a plateau in week one instead of week six.
+## Common practice mistakes
+Practising speed first: every error costs about two correction keystrokes, so sloppy speed practice builds a faster way to be slow. Practising rarely: an hour on Sunday consolidates worse than ten minutes daily, because motor memory forms between sessions. Practising without measurement: if you are not tracking a number, you are rehearsing, not improving.
+And the quietest one: practising only what you are already good at. Comfortable text feels productive and fixes nothing. The weak-key report is the opposite of comfortable — and that is exactly where the gains live. For a ready-made weekly structure, the online typing practice plan maps drills to goals, and typing speed exercises lists the full drill menu.
 ## Typing test FAQ
 Untimed, repeatable drills across sentences, quotes, numbers and words modes. Unlike a scored test, practice lets you retry weak keys freely and watch per-key accuracy improve before you take a timed test.
 Practice rounds use the same formula — correct characters divided by 5 and by minutes spent — plus accuracy and slowest-key stats. Scores save locally so you can compare rounds over time.
