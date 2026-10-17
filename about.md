@@ -32,7 +32,7 @@ A small independent project. The source code is public on GitHub at github.com/h
 
 ### How many tests are there?
 
-Thirty nine timed and themed variants across five languages, plus timed modes from 15 seconds to 10 minutes on every page.
+Thirty nine timed and themed variants across eight languages, plus timed modes from 15 seconds to 10 minutes on every page.
 
 ### Can I suggest a feature or a language?
 

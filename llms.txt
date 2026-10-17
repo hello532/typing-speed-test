@@ -1,6 +1,6 @@
 # Rerivo Typing Speed Test
 
-> Rerivo is a free, no-signup online typing speed test and keyboard practice tool. Measure your typing speed in WPM (words per minute), track accuracy, and practice touch typing with a built-in virtual keyboard, on-screen hand/finger guide, multiple timed modes (15s–10min), and several text sets. Works in the browser on desktop and mobile, available in 5 languages, with dark/light/ocean themes.
+> Rerivo is a free, no-signup online typing speed test and keyboard practice tool. Measure your typing speed in WPM (words per minute), track accuracy, and practice touch typing with a built-in virtual keyboard, on-screen hand/finger guide, multiple timed modes (15s–10min), and several text sets. Works in the browser on desktop and mobile, available in 8 languages, with dark/light/ocean themes.
 
 ## Core Tool
 - [Typing Speed Test (home)](https://typing.rerivo.com/): Main 60-second WPM typing speed test with live WPM, accuracy, and error tracking.
@@ -64,7 +64,7 @@
 
 ## About
 - Free, no registration, privacy-friendly (runs fully in the browser).
-- Features: live WPM/CPM, accuracy %, error highlighting, adjustable virtual keyboard with next-key highlight, on-screen hands finger guide, 5 languages, 3 color themes.
+- Features: live WPM/CPM, accuracy %, error highlighting, adjustable virtual keyboard with next-key highlight, on-screen hands finger guide, 8 languages, 3 color themes.
 - Sitemap: https://typing.rerivo.com/sitemap.xml
 
 ## Optional

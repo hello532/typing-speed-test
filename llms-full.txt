@@ -746,7 +746,7 @@ Source: https://typing.rerivo.com/custom-typing-test.html
 A fully customizable typing test: pick your duration from 15 seconds to 10 minutes, switch between sentences, quotes, numbers and words, set the language, theme and line width, then type and get instant WPM. Everything is configurable, nothing to sign up for.
 
 ## custom typing test
-A custom typing test is one that fits your practice instead of the other way around. This test is configurable end to end: six durations from 15 seconds to 10 minutes, four text types, five languages, light and dark themes, and a line width that adapts to your screen. Configure it once, and every result after that is comparable, because you changed nothing but your typing.
+A custom typing test is one that fits your practice instead of the other way around. This test is configurable end to end: six durations from 15 seconds to 10 minutes, four text types, eight languages, light and dark themes, and a line width that adapts to your screen. Configure it once, and every result after that is comparable, because you changed nothing but your typing.
 ## What you can customize
 Duration: 15, 30, 60, 120, 300 or 600 seconds. Text type: sentences for everyday fluency, quotes for capitals and punctuation, numbers for the top row, and words for high-frequency vocabulary. Language: English, Spanish, Chinese, Hindi and Arabic. Theme and width: light or dark, and a text column that fits your screen so your eyes never leave the line you are typing.
 ## Build your own typing test routine
@@ -762,10 +762,10 @@ Yes. It is free, needs no account, and works offline once the page is loaded, wh
 ## Typing Tests in Other Languages
 Source: https://typing.rerivo.com/typing-tests-in-other-languages.html
 
-Free typing tests in other languages. The same timed typing test with instant WPM and accuracy, now in English, Spanish, Chinese, Hindi and Arabic. Pick your language below and start; nothing to sign up for.
+Free typing tests in other languages. The same timed typing test with instant WPM and accuracy, now in English, Spanish, Chinese, Hindi, Arabic, Japanese, Korean and Urdu. Pick your language below and start; nothing to sign up for.
 
 ## typing tests in other languages
-Our typing tests in other languages give you the same timed test, the same live WPM and accuracy feedback, and the same instant results, in five languages: English Typing Test, Spanish Typing Test, Chinese Typing Test, Hindi Typing Test, Arabic Typing Test. If you write in more than one language, your typing speed is not one number; it is five, and the only way to know each one is to test it in that language.
+Our typing tests in other languages give you the same timed test, the same live WPM and accuracy feedback, and the same instant results, in eight languages: English Typing Test, Spanish Typing Test, Chinese Typing Test, Hindi Typing Test, Arabic Typing Test, Japanese Typing Test, Korean Typing Test and Urdu Typing Test. If you write in more than one language, your typing speed is not one number; it is five, and the only way to know each one is to test it in that language.
 ## Why test typing in your own language
 Most typing tests assume English, but a keyboard is not the same in every language. Chinese and Hindi use input methods that add a composition step between keystroke and character. Arabic reverses direction and changes letter shapes mid-word. Spanish adds accented vowels. Testing in the language you actually write in is the only way to measure the speed that matters to you.
 ## How to compare across languages
@@ -878,7 +878,7 @@ Questions, corrections to a practice text, or ideas for the next typing drill ar
 ## About FAQ
 Yes, completely free with no account, no paywall and no advertising on the test pages.
 A small independent project. The source code is public on GitHub at github.com/hello532/typing-speed-test.
-Thirty nine timed and themed variants across five languages, plus timed modes from 15 seconds to 10 minutes on every page.
+Thirty nine timed and themed variants across eight languages, plus timed modes from 15 seconds to 10 minutes on every page.
 Yes, email hello@rerivo.com. Several existing pages started as a single request.
 
 ## Average Typing Speed

@@ -3229,7 +3229,7 @@
     {
      "h2": "custom typing test",
      "p": [
-      "A <strong>custom typing test</strong> is one that fits your practice instead of the other way around. This test is configurable end to end: six durations from 15 seconds to 10 minutes, four text types, five languages, light and dark themes, and a line width that adapts to your screen. Configure it once, and every result after that is comparable, because you changed nothing but your typing."
+      "A <strong>custom typing test</strong> is one that fits your practice instead of the other way around. This test is configurable end to end: six durations from 15 seconds to 10 minutes, four text types, eight languages, light and dark themes, and a line width that adapts to your screen. Configure it once, and every result after that is comparable, because you changed nothing but your typing."
      ]
     },
     {
@@ -3289,8 +3289,8 @@
   },
   {
    "file": "typing-tests-in-other-languages.html",
-   "title": "Typing Tests in Other Languages - Spanish, Chinese, Hindi, Arabic",
-   "metaDesc": "Free typing tests in Spanish, Chinese, Hindi, Arabic and English. Timed multilingual tests with instant WPM and accuracy. No sign up.",
+   "title": "Typing Tests in Other Languages - Free in 8 Languages",
+   "metaDesc": "Free typing tests in English, Spanish, Chinese, Hindi, Arabic, Japanese, Korean and Urdu. Timed multilingual tests with instant WPM and accuracy. No sign up.",
    "canonical": "https://typing.rerivo.com/typing-tests-in-other-languages.html",
    "dur": 60,
    "mode": "sentences",
@@ -3314,12 +3314,12 @@
     "Typing Tests in Other Languages"
    ],
    "h1": "Typing Tests in Other Languages",
-   "heroP": "Free <strong>typing tests in other languages</strong>. The same timed typing test with instant WPM and accuracy, now in English, Spanish, Chinese, Hindi and Arabic. Pick your language below and start; nothing to sign up for.",
+   "heroP": "Free <strong>typing tests in other languages</strong>. The same timed typing test with instant WPM and accuracy, now in English, Spanish, Chinese, Hindi, Arabic, Japanese, Korean and Urdu. Pick your language below and start; nothing to sign up for.",
    "seo": [
     {
      "h2": "typing tests in other languages",
      "p": [
-      "Our <strong>typing tests in other languages</strong> give you the same timed test, the same live WPM and accuracy feedback, and the same instant results, in five languages: <a href=\"english-typing-test.html\">English Typing Test</a>, <a href=\"spanish-typing-test.html\">Spanish Typing Test</a>, <a href=\"chinese-typing-test.html\">Chinese Typing Test</a>, <a href=\"hindi-typing-test.html\">Hindi Typing Test</a>, <a href=\"arabic-typing-test.html\">Arabic Typing Test</a>. If you write in more than one language, your typing speed is not one number; it is five, and the only way to know each one is to test it in that language."
+      "Our <strong>typing tests in other languages</strong> give you the same timed test, the same live WPM and accuracy feedback, and the same instant results, in eight languages: <a href=\"english-typing-test.html\">English Typing Test</a>, <a href=\"spanish-typing-test.html\">Spanish Typing Test</a>, <a href=\"chinese-typing-test.html\">Chinese Typing Test</a>, <a href=\"hindi-typing-test.html\">Hindi Typing Test</a>, <a href=\"arabic-typing-test.html\">Arabic Typing Test</a>, <a href=\"japanese-typing-test.html\">Japanese Typing Test</a>, <a href=\"korean-typing-test.html\">Korean Typing Test</a> and <a href=\"urdu-typing-test.html\">Urdu Typing Test</a>. If you write in more than one language, your typing speed is not one number; it is five, and the only way to know each one is to test it in that language."
      ]
     },
     {
@@ -3767,7 +3767,7 @@
    "ldPretty": [],
    "file": "about.html",
    "title": "About - Typing.Rerivo Free Typing Speed Test",
-   "metaDesc": "About Typing.Rerivo: a free typing speed test as a single fast page. 39 timed variants, 5 languages, certificates and Dvorak. No sign up.",
+   "metaDesc": "About Typing.Rerivo: a free typing speed test as a single fast page. 39 timed variants, 8 languages, certificates and Dvorak. No sign up.",
    "canonical": "https://typing.rerivo.com/about.html",
    "crumbs": [
     "Home",
@@ -3809,7 +3809,7 @@
     },
     {
      "q": "How many tests are there?",
-     "a": "Thirty nine timed and themed variants across five languages, plus timed modes from 15 seconds to 10 minutes on every page."
+     "a": "Thirty nine timed and themed variants across eight languages, plus timed modes from 15 seconds to 10 minutes on every page."
     },
     {
      "q": "Can I suggest a feature or a language?",

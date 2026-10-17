@@ -6,7 +6,7 @@ A fully customizable typing test: pick your duration from 15 seconds to 10 minut
 
 ## custom typing test
 
-A custom typing test is one that fits your practice instead of the other way around. This test is configurable end to end: six durations from 15 seconds to 10 minutes, four text types, five languages, light and dark themes, and a line width that adapts to your screen. Configure it once, and every result after that is comparable, because you changed nothing but your typing.
+A custom typing test is one that fits your practice instead of the other way around. This test is configurable end to end: six durations from 15 seconds to 10 minutes, four text types, eight languages, light and dark themes, and a line width that adapts to your screen. Configure it once, and every result after that is comparable, because you changed nothing but your typing.
 
 ## What you can customize
 
