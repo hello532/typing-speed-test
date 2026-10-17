@@ -6728,6 +6728,101 @@
     }
    ],
    "ldPretty": []
+  },
+  {
+   "file": "urdu-typing-test.html",
+   "title": "Urdu Typing Test - Free Online Urdu WPM Test",
+   "metaDesc": "Free Urdu typing test online. Type real Urdu sentences right to left in Nastaliq script and check your speed and accuracy instantly. No sign up.",
+   "canonical": "https://typing.rerivo.com/urdu-typing-test.html",
+   "dur": 60,
+   "mode": "sentences",
+   "variant": null,
+   "lang": "ur",
+   "alts": true,
+   "nav": [
+    {
+     "href": "english-typing-test.html",
+     "text": "English Typing Test"
+    },
+    {
+     "href": "words-per-minute-test.html",
+     "text": "WPM Test"
+    },
+    {
+     "href": "typing-practice.html",
+     "text": "Typing Practice"
+    }
+   ],
+   "crumbs": [
+    "Home",
+    "Urdu Typing Test"
+   ],
+   "h1": "Urdu Typing Test",
+   "heroP": "Test your <strong>Urdu typing speed</strong> with real Urdu sentences in the Perso-Arabic script, typed right to left. Instant speed and accuracy results. Free, no sign up.",
+   "seo": [
+    {
+     "h2": "Urdu typing test",
+     "p": [
+      "An <strong>Urdu typing test</strong> measures how fast and accurately you type real Urdu sentences in the Perso-Arabic (Nastaliq-style) script, written and read right to left. Your result is shown in words per minute, where every 5 characters counts as one word, so you can compare scores with the classic <a href=\"1-minute-typing-test.html\">typing test 1 minute</a> round."
+     ]
+    },
+    {
+     "h2": "Right-to-left typing: what changes",
+     "p": [
+      "The cursor moves right to left, and letters change shape depending on their position in a word — initial, medial, final or isolated forms join automatically as you type. This test renders the practice text and your input right to left, exactly as Urdu appears in real documents, so what you practise is what you produce."
+     ]
+    },
+    {
+     "h2": "How to improve Urdu typing speed",
+     "p": [
+      "Practise with real sentences rather than single letters, keep your eyes on the screen, and slow down at first for the characters that sit above and below the line — the diacritics and the special letters ٹ ڈ ڑ ں ہ ے. Accuracy first: rasm (spelling) mistakes cost more time than a steady, clean pace."
+     ]
+    },
+    {
+     "h2": "Urdu typing for exams and office work",
+     "p": [
+      "Timed Urdu passage typing is the format used in Pakistani government, court and data-entry exams, usually set in InPage or standard Urdu keyboards. Daily timed rounds with real sentences build the same speed and accuracy those tests measure — and your <a href=\"cpm-typing-test.html\">CPM</a> shows the raw keystroke rate alongside WPM."
+     ]
+    }
+   ],
+   "faqFirstOpen": true,
+   "faqH2": "Urdu typing test FAQ",
+   "faq": [
+    {
+     "q": "Is this Urdu typing test free?",
+     "a": "Yes. It is free with no sign up, and your practice history stays on your own device."
+    },
+    {
+     "q": "Does the test type right to left?",
+     "a": "Yes. Both the practice text and your input field run right to left, the way real Urdu is written and read, so your practice matches real documents."
+    },
+    {
+     "q": "Which Urdu keyboard does it work with?",
+     "a": "Any standard Urdu keyboard layout — the national Urdu keyboard, phonetic layouts, or InPage-style input — because the test measures the text you produce, not the keys you press."
+    },
+    {
+     "q": "Do letters join correctly as I type?",
+     "a": "Yes. Urdu letters automatically take their initial, medial, final or isolated shapes as you type; the test displays the joined text exactly like any Urdu word processor."
+    },
+    {
+     "q": "Will this help with Urdu typing exams?",
+     "a": "Yes. Timed sentence practice in the Perso-Arabic script is the standard format of Pakistani government and court typing tests, so daily rounds build the same measured speed and accuracy."
+    }
+   ],
+   "tldr": "An Urdu typing test measures speed and accuracy on real Urdu sentences in the Perso-Arabic script, typed right to left with letters joining automatically. Timed Urdu passage typing is the format of Pakistani government and court exams. This free test runs 15 seconds to 10 minutes, shows WPM and CPM, works with any Urdu keyboard layout, and needs no sign up.",
+   "webAppName": "Typing Speed Test",
+   "webAppUrl": "https://typing.rerivo.com/urdu-typing-test.html",
+   "bcItems": [
+    {
+     "name": "Home",
+     "item": "https://typing.rerivo.com/"
+    },
+    {
+     "name": "Urdu Typing Test",
+     "item": "https://typing.rerivo.com/urdu-typing-test.html"
+    }
+   ],
+   "ldPretty": []
   }
  ]
 }

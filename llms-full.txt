@@ -1617,3 +1617,23 @@ Any. The test shows real Korean sentences and measures what you produce, so the 
 You type individual jamo (letters) and the IME composes them into syllable blocks automatically. Fast Korean typing comes from an even jamo rhythm inside each block, not from rushing whole words.
 Both are shown after each round. Because each Hangul block contains several letters, CPM (characters per minute) reflects your true keystroke speed better than WPM.
 Yes. Timed sentence practice with real Hangul text builds the speed and accuracy measured in Korean office, civil-service and data-entry typing tests.
+
+## Urdu Typing Test
+Source: https://typing.rerivo.com/urdu-typing-test.html
+
+Test your Urdu typing speed with real Urdu sentences in the Perso-Arabic script, typed right to left. Instant speed and accuracy results. Free, no sign up.
+
+## Urdu typing test
+An Urdu typing test measures how fast and accurately you type real Urdu sentences in the Perso-Arabic (Nastaliq-style) script, written and read right to left. Your result is shown in words per minute, where every 5 characters counts as one word, so you can compare scores with the classic typing test 1 minute round.
+## Right-to-left typing: what changes
+The cursor moves right to left, and letters change shape depending on their position in a word — initial, medial, final or isolated forms join automatically as you type. This test renders the practice text and your input right to left, exactly as Urdu appears in real documents, so what you practise is what you produce.
+## How to improve Urdu typing speed
+Practise with real sentences rather than single letters, keep your eyes on the screen, and slow down at first for the characters that sit above and below the line — the diacritics and the special letters ٹ ڈ ڑ ں ہ ے. Accuracy first: rasm (spelling) mistakes cost more time than a steady, clean pace.
+## Urdu typing for exams and office work
+Timed Urdu passage typing is the format used in Pakistani government, court and data-entry exams, usually set in InPage or standard Urdu keyboards. Daily timed rounds with real sentences build the same speed and accuracy those tests measure — and your CPM shows the raw keystroke rate alongside WPM.
+## Urdu typing test FAQ
+Yes. It is free with no sign up, and your practice history stays on your own device.
+Yes. Both the practice text and your input field run right to left, the way real Urdu is written and read, so your practice matches real documents.
+Any standard Urdu keyboard layout — the national Urdu keyboard, phonetic layouts, or InPage-style input — because the test measures the text you produce, not the keys you press.
+Yes. Urdu letters automatically take their initial, medial, final or isolated shapes as you type; the test displays the joined text exactly like any Urdu word processor.
+Yes. Timed sentence practice in the Perso-Arabic script is the standard format of Pakistani government and court typing tests, so daily rounds build the same measured speed and accuracy.
