@@ -811,6 +811,36 @@
    "status": "candidate",
    "date": "2026-10-17",
    "note": "R7 页C 分发动作；草稿 ops-r6/reddit-10-minute-endurance.md，人审后人工发"
+  },
+  {
+   "name": "Quora vi answer draft",
+   "url": "https://typing.rerivo.com/vietnamese-typing-test.html",
+   "kind": "distribution",
+   "dofollow": null,
+   "dr": null,
+   "status": "candidate",
+   "date": "2026-10-17",
+   "note": "R9 本地化分发；草稿 ops-r6/ 人审后人工发"
+  },
+  {
+   "name": "Quora tr answer draft",
+   "url": "https://typing.rerivo.com/turkish-typing-test.html",
+   "kind": "distribution",
+   "dofollow": null,
+   "dr": null,
+   "status": "candidate",
+   "date": "2026-10-17",
+   "note": "R9 本地化分发；草稿 ops-r6/ 人审后人工发"
+  },
+  {
+   "name": "Quora th answer draft",
+   "url": "https://typing.rerivo.com/thai-typing-test.html",
+   "kind": "distribution",
+   "dofollow": null,
+   "dr": null,
+   "status": "candidate",
+   "date": "2026-10-17",
+   "note": "R9 本地化分发；草稿 ops-r6/ 人审后人工发"
   }
  ]
 }
