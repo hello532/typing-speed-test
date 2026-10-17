@@ -4580,7 +4580,9 @@ document.getElementById("btnCert").addEventListener("click",function(){
 });
 document.getElementById("btnShare").addEventListener("click",function(){
   var s=stats();
-  var txt="I typed "+s.wpm+" WPM with "+s.acc+"% accuracy on Typing.Rerivo — https://typing.rerivo.com/";
+  var tier=s.wpm>=100?"elite":s.wpm>=80?"fast":s.wpm>=60?"good":s.wpm>=40?"average":"beginner";
+  var url="https://typing.rerivo.com/share-"+tier+".html?s="+s.wpm+"&a="+s.acc;
+  var txt="I typed "+s.wpm+" WPM with "+s.acc+"% accuracy on Typing.Rerivo — can you beat me? "+url;
   if(navigator.clipboard&&navigator.clipboard.writeText){navigator.clipboard.writeText(txt).then(function(){},function(){});}
   var btn=this; btn.textContent=(window.TR&&TR.t)?TR.t("btn_copied"):"Copied!"; setTimeout(function(){btn.textContent=(window.TR&&TR.t)?TR.t("btn_share"):"Copy result";},1400);
 });
