@@ -44,6 +44,18 @@ Adults bring vocabulary and context to typing practice that younger learners lac
 
 Weekly measurement under identical conditions is the entire tracking system. Record net WPM, accuracy and weak keys in any note-taking app. A simple table with twelve weeks of numbers is more motivating than a gamified dashboard.
 
+## Avoiding the mistakes that keep adults from improving
+
+Three self-inflicted mistakes keep adult learners from improving. The first: practising without cancelling the old hunt-and-peck habit, which happens when touch typing is used only for practice sessions while pecking continues for real work. The fix: a three-week hard boundary where touch typing is used exclusively, no matter how slow it feels. The brain cannot consolidate two motor patterns simultaneously; it must be forced to choose one before it can automate it.
+
+The second: setting no accuracy floor. Typing at 95% accuracy or below builds error habits faster than speed. The fix: always practise at 90% of comfortable pace with an explicit 98% accuracy floor. The third: re-typing the same comfortable sentences instead of rotating text types. A rotation between prose, numbers, quotes and code text ensures every key on the keyboard is trained equally.
+
+## Where to find the time for typing practice
+
+The time question is the most common barrier for adult learners. The answer is not to find a new block of time; it is to attach the practice to an existing daily event. The first coffee becomes the trigger for one measured round. The end of lunch becomes the second practice slot. The commute (on a phone or tablet) becomes a reading-ahead exercise. Ten minutes exists in every adult's day, fragmented across multiple small gaps.
+
+The other answer is to make the practice itself shorter rather than longer. One measured minute is better than zero minutes. One minute keeps the chain alive, maintains the habit, and produces a data point for the weekly trend. The days when you can only do one minute are the days that keep the habit from dying.
+
 ## Best Free Typing Lessons for Adults FAQ
 
 ### Is it possible to learn typing as an adult?

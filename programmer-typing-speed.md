@@ -42,6 +42,24 @@ Autocomplete saves you from remembering API calls and parameter names, but it do
 
 Monday: code typing round in your primary language, 60 seconds. Tuesday: prose accuracy round at 98% floor. Wednesday: code typing in your secondary language, 60 seconds. Thursday: prose speed round with sprints. Friday: code typing round plus weak-key drill. Weekend: rest or one long round for stamina.
 
+## Symbol density as the real bottleneck in coding speed
+
+A typical line of JavaScript code contains seven to twelve characters that are not letters: brackets, braces, dots, commas, arrows, colons and semicolons. In Python, the ratio is similar, with underscores, colons, square brackets and function call parentheses dominating. When these symbols require a conscious finger reach, every line costs more time than the same line of prose.
+
+The solution is not to type faster in general but to bring the specific symbol reaches up to the same automatic level as the letter reaches. A developer who types every bracket, colon and underscore with the same confidence as A and S has removed the keyboard as a barrier to writing code. That automaticity is built with daily rounds on code-specific typing tests that serve real code lines rather than random characters.
+
+## Three levels of code typing practice that build on each other
+
+Level one: language-specific typing tests serving real code lines in Python, JavaScript or another language. These drill the keywords, operators and symbol patterns that the framework demands. Level two: symbol-focused practice isolating the hardest reaches for targeted work. Level three: mixed-mode practice alternating between code and prose, building the switching speed that daily development requires.
+
+The free code typing tests on this site cover level one for Python and JavaScript with top word lists and full sentence practice. The weak-key report after each round identifies exactly which symbol reaches need work, and the accuracy tracking shows whether you are building the precision that production code demands.
+
+## Compounding returns: faster typing means more practice, which means faster typing
+
+The gap between typing practice and real coding is bridged by consistency and the right feedback loop. Code-specific typing practice at typing.rerivo.com serves real Python and JavaScript lines with symbol-rich syntax, so what you practise is what you write. After two weeks of daily rounds, developers report that common code patterns flow without conscious thought about individual characters.
+
+The compounding effect is real: faster typing makes practice feel less tedious, which means more rounds are completed, which builds more automaticity, which makes subsequent rounds faster. This positive feedback loop is the same one that drives elite typists and elite musicians. The skill feeds the practice, and the practice feeds the skill, and the cycle compounds over months into a skill that most people never develop because they stop at the first plateau.
+
 ## Programmer Typing Speed FAQ
 
 ### Does typing speed matter for programmers?
