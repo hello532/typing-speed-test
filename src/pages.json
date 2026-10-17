@@ -2484,6 +2484,35 @@
       "A 10 minute typing test is an endurance event, not a sprint. Almost everyone finishes 10-15% slower than their <a href=\"1-minute-typing-test.html\">1 minute</a> speed, and that is expected rather than a failure.",
       "<ul><li><strong>Set posture first</strong> - feet flat, wrists neutral, elbows near 90 degrees. Discomfort at minute three becomes lost accuracy by minute seven.</li><li><strong>Pace, do not sprint</strong> - open at roughly 90% of your comfortable speed and hold it. Sprinting the first minute reliably costs more than it gains.</li><li><strong>Stop correcting every slip</strong> - for an endurance score, constant backtracking costs more WPM than the error itself.</li><li><strong>Breathe and relax the shoulders</strong> - tension is the main cause of late-round slowdown.</li></ul>"
      ]
+    },
+    {
+     "h2": "What 10 minutes measures that 1 minute can't",
+     "p": [
+      "A one-minute test measures your working speed — fresh fingers, no fatigue, a sprint by any other name. Ten minutes measures something employers actually care about more: whether your speed survives contact with real work. Almost everyone is fast for sixty seconds; the tenth minute is where sloppy posture, death-grip tension and uneven rhythm come due.",
+      "Expect your ten-minute score to read 5–15% below your one-minute score. That gap is not a failure — it is your fatigue profile, and it is the most honest single number about your typing. A small gap means your technique is sustainable; a large gap means you are borrowing speed from muscles that will not lend it for eight hours."
+     ]
+    },
+    {
+     "h2": "The 10 minute decay curve",
+     "p": [
+      "Ten minutes has a shape, and knowing it is half the pacing battle. The table below breaks the test into its natural segments — where speed comes free, where the wall hits, and what to do in each.",
+      "<div class=\"tbl\"><table><thead><tr><th>Segment</th><th>What happens</th><th>What to do</th></tr></thead><tbody>\n    <tr><td>Minutes 1–2</td><td>Warm-up; rhythm forms</td><td>Start at 90% of sprint pace, settle early</td></tr>\n    <tr><td>Minutes 3–6</td><td>Cruise zone; your real speed</td><td>Hold even rhythm, eyes one word ahead</td></tr>\n    <tr><td>Minutes 7–8</td><td>The fatigue wall; errors spike</td><td>Drop 5% pace, do NOT fight through at full speed</td></tr>\n    <tr><td>Minutes 9–10</td><td>Second wind or collapse</td><td>Hold form, finish clean — last-minute errors cost most</td></tr>\n  </tbody></table></div>",
+      "Most people lose the test in minutes 7–8, not because they are slow but because they refuse to downshift. The professionals' secret is unglamorous: planned deceleration. Losing 5% of pace for two minutes costs far less than the error cluster that full-speed fatigue produces."
+     ]
+    },
+    {
+     "h2": "Training for the 10 minute format",
+     "p": [
+      "Endurance is trainable, and the training is boring on purpose: one long round per week at the full ten minutes, watching where your accuracy starts to slip. That slip point moves later and later over a month of weekly rounds — from minute five, to seven, to clear through ten. The decay curve flattening is the clearest progress signal in endurance typing.",
+      "Two supporting habits matter more than extra rounds. Posture checks at minute five — shoulders down, wrists floating, grip relaxed — because tension is what you are actually fighting in the back half. And a ten-second hand shake between practice rounds, so you learn to release tension instead of carrying it into the next round."
+     ]
+    },
+    {
+     "h2": "When employers and exams use long tests",
+     "p": [
+      "Short tests dominate hiring screens, but the long formats show up wherever the job itself is long: transcription and captioning assessments (sustained audio work), data-entry simulations for volume roles, and court or administrative exams in several countries that set five-to-ten-minute passages specifically to measure endurance.",
+      "If your target role involves continuous typing, your ten-minute score matters more than your one-minute best — and the <a href=\"typing-speed-requirements.html\">typing speed requirements</a> table shows which roles weight endurance heavily. Practise the format you will be tested on: the <a href=\"5-minute-typing-test.html\">5 minute typing test</a> is the natural stepping stone if ten minutes still breaks you today."
+     ]
     }
    ],
    "faqFirstOpen": true,
@@ -2504,6 +2533,14 @@
     {
      "q": "What text is used for the test?",
      "a": "Real English sentences by default. You can switch to quotes, numbers or words from the panel above the typing area."
+    },
+    {
+     "q": "Why is my 10 minute score lower than my 1 minute score?",
+     "a": "Almost everyone reads 5–15% lower over ten minutes — that gap is your fatigue profile, not a failure. A small gap means sustainable technique; a large gap means tension and posture issues to fix."
+    },
+    {
+     "q": "How do I train for a 10 minute typing test?",
+     "a": "One full-length round per week, watching where accuracy starts to slip — that slip point moves later with training. Add posture checks at minute five and downshift 5% at the fatigue wall instead of fighting through at full speed."
     }
    ],
    "webAppName": "Typing Speed Test",
@@ -2518,7 +2555,8 @@
      "item": "https://typing.rerivo.com/10-minute-typing-test.html"
     }
    ],
-   "ldPretty": []
+   "ldPretty": [],
+   "tldr": "A 10 minute typing test measures endurance, not just speed: expect 5–15% below your one-minute score — that gap is your fatigue profile. The test has a shape: warm up in minutes 1–2, cruise 3–6, downshift 5% at the 7–8 fatigue wall, and finish clean. Train with one weekly long round and posture checks at minute five. Long formats appear in transcription, data-entry and administrative exams where sustained accuracy is the actual job."
   },
   {
    "file": "chinese-typing-test.html",
