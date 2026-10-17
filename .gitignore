@@ -1,4 +1,12 @@
-# 内部分析报告（含 GSC 数据与策略，不公开）
+__pycache__/
+*.pyc
+# 内部交付物：不发布到公开站点（会被搜索引擎收录，且泄露选词/外链策略）
 GSC*.html
 闭环*.html
 外链执行清单.html
+外链执行包.md
+keyword_matrix.md
+ranking_tracker.md
+SEO-GEO诊断与改进清单.md
+SEO-GEO实施报告.md
+选词决策表.md
