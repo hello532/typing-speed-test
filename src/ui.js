@@ -288,3 +288,27 @@ function init(){
 if(document.readyState==="loading")document.addEventListener("DOMContentLoaded",init);
 else init();
 })();
+;
+/* ---------- R11: SEO/FAQ 折叠控制器 — 工具优先，内容按需展开 ---------- */
+(function(){
+  var seoEl=document.querySelector('.seo');
+  var faqEl=document.querySelector('.faq');
+  if(!seoEl||!faqEl)return;
+  seoEl.classList.add('collapsed');
+  faqEl.classList.add('collapsed');
+  var btn=document.createElement('button');
+  btn.className='toggle-btn'; btn.textContent='📖 阅读完整指南 ▼';
+  btn.setAttribute('aria-expanded','false');
+  var result=document.querySelector('#resultPanel');
+  var parent=seoEl.parentNode;
+  parent.insertBefore(btn,seoEl);
+  var open=false;
+  btn.addEventListener('click',function(){
+    open=!open;
+    seoEl.classList.toggle('collapsed',!open);
+    faqEl.classList.toggle('collapsed',!open);
+    btn.setAttribute('aria-expanded',String(open));
+    btn.textContent=open?'▲ 收起指南':'📖 阅读完整指南 ▼';
+    if(!open)btn.scrollIntoView({behavior:'smooth',block:'nearest'});
+  });
+})();;
