@@ -90,6 +90,7 @@
 - [Data Entry Typing Test](https://typing.rerivo.com/data-entry-typing-test.html): Practise the timed data entry typing test employers set, with WPM and accuracy targets.
 - [Keystrokes Per Hour Test](https://typing.rerivo.com/keystrokes-per-hour-test.html): Measure keystrokes per hour (KPH) and convert it to WPM and CPM.
 - [Typing Speed Calculator](https://typing.rerivo.com/typing-speed-calculator.html): Calculate typing speed from keystrokes: the WPM formula plus live WPM, CPM and KPH.
+- [Typing Speed Requirements](https://typing.rerivo.com/typing-speed-requirements.html): WPM/CPM/KPH requirement ranges for data entry, transcription, clerk and government exams, with conversions and a printable checklist.
 - [Quick Brown Fox Typing Test](https://typing.rerivo.com/quick-brown-fox-typing-test.html): Type the quick brown fox pangram and other alphabet sentences as a keyboard warm-up.
 - [Home Row Typing Test](https://typing.rerivo.com/home-row-typing-test.html): Drill the home row (ASDF JKL;) with a finger guide to build touch-typing muscle memory.
 - [Typing Test for Adults](https://typing.rerivo.com/typing-test-for-adults.html): A free adult typing test with realistic WPM targets; the average adult types about 40 WPM.

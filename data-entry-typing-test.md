@@ -28,6 +28,10 @@ Practise with real text that includes numbers, punctuation and capitals, because
 
 Every result here is saved in your browser, so you can watch both WPM and accuracy improve over the days before an interview. Your history is private and stays on your device.
 
+## What KPH do data entry jobs require?
+
+Most data-entry postings quote 8,000–12,000 keystrokes per hour with ~98% accuracy — about 27–40 WPM — and professional numeric roles can reach 12,000–15,000 KPH. For the full requirements table across every scenario, see typing speed requirements by job and exam.
+
 ## Data entry typing FAQ
 
 ### What is a good speed for data entry?

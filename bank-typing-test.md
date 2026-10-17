@@ -20,6 +20,10 @@ Bank typing rounds use ordinary prose, not technical jargon, but they are timed 
 
 Set the timer to match your exam — often five minutes — and aim to finish comfortably under the error limit before you try to raise speed. Once you can pass at 97% accuracy, push your WPM up in small steps. Watch our data entry and government typing pages for the same family of clerical tests.
 
+## What typing speed do bank exams require?
+
+Bank clerk typing tests typically ask for short timed passages in the 25–35 WPM range with an accuracy threshold. For the full table of requirements across data entry, clerk, government and office scenarios, see typing speed requirements by job and exam.
+
 ## Bank Typing Test FAQ
 
 ### What is a bank typing test?

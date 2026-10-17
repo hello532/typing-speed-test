@@ -26,6 +26,10 @@ Practise at the exam length. Warm up with a 1 minute test, then run 3 and 5 minu
 
 Work on accuracy until you can complete a passage cleanly, then raise speed. Train the home row and touch typing so you are not watching your hands, and if the post is data entry, drill the keypad with the 10 key typing test. Test yourself under the same conditions as the exam - same length, no restarts - and check your standing against the average typing speed. Your practice history stays in your browser.
 
+## What typing speed do government exams require?
+
+Government clerk and assistant exams usually qualify on a short timed passage around 25–35 WPM with capped errors. For the complete scenario-by-scenario table with conversions, see typing speed requirements by job and exam.
+
 ## Government typing test FAQ
 
 ### What typing speed do government jobs require?

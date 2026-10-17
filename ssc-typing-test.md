@@ -20,6 +20,10 @@ The passage is delivered on screen and the clock does not stop, so the goal is s
 
 Build your baseline with short daily sessions until you clear the required speed at 95%+ accuracy, then add a minute at a time to build stamina. Our government and bank typing pages cover the same clerical-test family; use them together for a rounded practice routine.
 
+## What typing speed do SSC-type exams require?
+
+Most SSC-type government exams set a qualifying bar around 30–35 WPM (or the KPH equivalent) with a cap on mistakes, tested as a short timed passage. For the full comparison across data entry, clerk, transcription and office roles — plus the WPM↔CPM↔KPH conversions — see typing speed requirements by job and exam.
+
 ## SSC Typing Test FAQ
 
 ### Is there a typing test in SSC exams?

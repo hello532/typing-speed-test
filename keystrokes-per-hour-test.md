@@ -26,6 +26,10 @@ The table assumes no error penalty; employers usually apply a net-accuracy penal
 
 Job postings for data entry and clerical work often ask for 8,000-10,000 KPH with a high accuracy rate; some set the bar at 12,000 KPH. Numeric roles may test the number pad specifically, so pair this test with the 10 key typing test. Measure your text speed here and your WPM on the words per minute test, then check the requirements in the typing test for jobs page.
 
+## How do KPH requirements convert to WPM?
+
+Divide by 300: WPM = KPH ÷ 300, so a 10,000 KPH posting is asking for about 33 WPM. For the complete table of KPH, CPM and WPM requirements by job and exam, see typing speed requirements by job and exam.
+
 ## Keystrokes per hour FAQ
 
 ### What is a good keystrokes per hour score?
