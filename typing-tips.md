@@ -28,6 +28,10 @@ Day 7: rest. Progress in typing is consolidated between sessions.
 
 Two things reliably hold people back: looking at the keyboard, and chasing WPM while accuracy is still below 95%. Fix the second one first, with how to type without looking and typing accuracy test.
 
+## Guides for specific speed goals
+
+Beyond general tips: typing speed improvement tips ranked by impact, how to type faster and more accurately with the dual-metric method, and how to type 100 WPM for the elite path.
+
 ## Typing tips FAQ
 
 ### What is the single most important typing tip for beginners?

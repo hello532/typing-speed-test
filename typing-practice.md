@@ -28,6 +28,10 @@ If you searched for online typing practice, the useful question is not which sit
 
 Ready-made exercise sets cover sentences, quotes, numbers and words, and every length from 15 seconds to 10 minutes is available, so you can practise in the gaps of a normal day. Start with the learn to type faster plan if you want a fixed routine, or jump straight into a round below.
 
+## Structured practice plans
+
+Turn practice sessions into progress: how to get better at typing, learn to type faster free, and typing speed exercises with a daily 10-minute structure.
+
 ## Typing test FAQ
 
 ### What is typing practice?

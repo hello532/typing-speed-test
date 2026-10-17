@@ -85,6 +85,18 @@
 - [About](https://typing.rerivo.com/about.html): A free browser-only typing speed test; contact and measurement method.
 - [Privacy Policy](https://typing.rerivo.com/privacy-policy.html): No accounts, no cookies, no analytics, no tracking.
 
+## Guides & Articles
+- [How to Get Better at Typing](https://typing.rerivo.com/how-to-get-better-at-typing.html): How to get better at typing with a simple daily system: measure your baseline, fix accuracy first, drill weak keys and track real progress. Free tools included.
+- [How Many Words Per Minute Is Fast?](https://typing.rerivo.com/how-many-words-per-minute-is-fast.html): How many words per minute is fast? 40 WPM is average, 60-80 is good, 80-100 is fast and 100+ is elite. Full WPM benchmarks by goal, plus how to measure yours.
+- [How to Type Faster for Beginners](https://typing.rerivo.com/how-to-type-faster-for-beginners.html): How to type faster for beginners: learn home row first, stop looking at the keyboard, practice 10 minutes daily, and fix the 5 mistakes every beginner makes.
+- [How to Type 100 WPM](https://typing.rerivo.com/how-to-type-100-wpm.html): How to type 100 WPM: the accuracy floor, burst training, rhythm work and realistic timeline behind elite typing speed. What separates 100 WPM from 80.
+- [How to Type Faster and More Accurately](https://typing.rerivo.com/how-to-type-faster-and-more-accurately.html): How to type faster and more accurately at the same time: the error-cost math, the accuracy-first protocol, and how to train both metrics together.
+- [Typing Speed Exercises](https://typing.rerivo.com/typing-speed-exercises.html): Typing speed exercises that actually work: sprint drills, weak-key elimination, symbol rounds, endurance sets and the daily 10-minute structure to use them in.
+- [Average Typing Speed by Age](https://typing.rerivo.com/average-typing-speed-by-age.html): Average typing speed by age: kids 10-20 WPM, teens 30-45, adults 40-50, seniors 25-35. Full age benchmark table plus why practice beats age every time.
+- [Fastest Typing Speed Records](https://typing.rerivo.com/fastest-typing-speed-record.html): The fastest typing speed records ever measured, from 200+ WPM champions to modern competitive typists — and the four trainable things elite speed is built from.
+- [Learn to Type Faster for Free](https://typing.rerivo.com/learn-to-type-faster-free.html): Learn to type faster free with a simple daily structure and free online tools. No paid course needed: baseline, home row, daily drills and weekly measurement.
+- [Typing Speed Improvement Tips](https://typing.rerivo.com/typing-speed-improvement-tips.html): Typing speed improvement tips that actually move the number: accuracy-first practice, weak-key drills, sprint structure, posture fixes and measurement habits.
+
 ## Skill, Level, Format & Exam Tests
 - [10 Key Typing Test](https://typing.rerivo.com/ten-key-typing-test.html): Free 10 key typing test for the numeric keypad, with number-pad speed in CPM/KPH and accuracy.
 - [Data Entry Typing Test](https://typing.rerivo.com/data-entry-typing-test.html): Practise the timed data entry typing test employers set, with WPM and accuracy targets.

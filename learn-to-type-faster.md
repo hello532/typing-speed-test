@@ -16,6 +16,10 @@ Three areas cause almost all slow typing: numbers, punctuation, and the shift ke
 
 Week one: one minute tests only, target 98 percent accuracy, ignore speed entirely. Week two: add two minute tests and switch to quotes to train capitals and punctuation. Week three: use the number set daily, and start tracking your average WPM across the week. Week four: push for speed on one minute tests and compare with week one. Most typists add 10 to 25 WPM in a month with ten to fifteen minutes of this training a day.
 
+## More ways to get faster
+
+Working through the system here? These guides go deeper on specific goals: how to get better at typing with a 4-week system, how to type faster for beginners, and typing speed exercises that target each bottleneck.
+
 ## Learn to type faster FAQ
 
 ### How fast can I realistically learn to type?

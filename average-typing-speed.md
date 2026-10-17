@@ -49,6 +49,10 @@ Want your own number? Take the typing speed test, measure it in characters per m
 
 If you are below the speed you want, the fastest way up is touch typing: use all ten fingers from the home row (ASDF JKL;) without looking at the keyboard. Prioritise accuracy over speed, practise 10–15 minutes a day, and keep your wrists relaxed. Most people add 10–20 WPM within a few weeks of daily practice.
 
+## Benchmarks by age and goals
+
+See also: average typing speed by age from kids to seniors, how many words per minute is fast, and the fastest typing speed records ever measured.
+
 ## Typing test FAQ
 
 ### What is the average typing speed?

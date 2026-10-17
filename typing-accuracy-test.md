@@ -20,6 +20,10 @@ A blazing WPM means little if half your words need fixing. Every mistake costs a
 
 Start slower than feels natural and let correct keystrokes build muscle memory — rushing only teaches your fingers the wrong moves. Watch for your personal problem keys (often the top row and punctuation), keep a light, even rhythm, and resist the urge to glance at the keyboard. Aim to hold accuracy above 97% before you push for speed.
 
+## Speed and accuracy together
+
+The two metrics feed each other: how to type faster and more accurately explains the error-cost math, and typing speed improvement tips puts accuracy first for a reason.
+
 ## Typing test FAQ
 
 ### What is a good typing accuracy?
