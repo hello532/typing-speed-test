@@ -1,8 +1,8 @@
-# Thai Typing Test
+# ทดสอบการพิมพ์ภาษาไทย
 
 Source: https://typing.rerivo.com/thai-typing-test.html
 
-Test your Thai typing speed with real Thai sentences — tone marks, vowels above and below the line, and no spaces between words. Free, instant results.
+ทดสอบความเร็วการพิมพ์ภาษาไทยด้วยประโยคภาษาไทยจริง ผลลัพธ์ทันที แสดง WPM และความแม่นยำ ฟรี ไม่ต้องสมัคร
 
 ## Thai typing test
 
@@ -19,6 +19,16 @@ Thailand's standard keyboard layout is Kedmanee, which places the most common co
 ## How to improve Thai typing speed
 
 Practise with real sentences: Thai syllable shapes (consonant + vowel + tone mark) become single motions in your fingers with repetition. Keep your eyes on the screen, accuracy first, and watch your CPM trend — because words have no spaces, character-level consistency is the metric that actually moves.
+
+## วิธีใช้แบบทดสอบนี้
+
+เลือกระยะเวลา (15 วินาที ถึง 10 นาที) คลิกที่พื้นที่พิมพ์แล้วเริ่มพิมพ์ประโยคที่ปรากฏบนหน้าจอ ตัวจับเวลาเริ่มนับจาการกดปุ่มแรก ไม่ใช่ก่อนหน้า หลังจบการพิมพ์คุณจะเห็น WPM ความแม่นยำ CPM และรายงานปุ่มที่อ่อนแอ
+
+เพื่อปรับปรุงความเร็ว ให้ฝึกความแม่นยำก่อน (เป้าหมาย 97-98%) จากนั้นค่อยเพิ่มความเร็ว รูปแบบพยางค์ภาษาไทย (พยัญชนะ + สระ + วรรณยุกต์) กลายเป็นการเคลื่อนไหวเดียวในนิ้วเมื่อฝึกซ้ำกับประโยคจริง
+
+## การพิมพ์ภาษาไทยที่ไม่มีเว้นวรรค
+
+ภาษาไทยเขียนติดกันไม่มีเว้นวรรค ดังนั้นคำว่า 'จำนวนคำ' ขึ้นอยู่กับอัลกอริทึมการแบ่งคำ ไม่ใช่สิ่งที่ผู้พิมพ์มองเห็น นี่คือเหตุผลที่แบบทดสอบนี้แสดง CPM (จำนวนอักขระต่อนาที) ควบคู่กับ WPM สำหรับภาษาไทย CPM คือการวัดที่ซื่อสัตย์และแม่นยำสำหรับความเร็วการกดปุ่มจริง
 
 ## Thai typing test FAQ
 
@@ -37,3 +47,7 @@ Any — the standard Kedmanee layout or a phone Thai keyboard. The test measures
 ### Does the test include tone marks and vowels above and below?
 
 Yes. Sentences use real Thai with the full abugida system — preposed and following vowels, above/below-line vowels and all four tone marks.
+
+### การทดสอบนี้วัดความเร็วอย่างไรเมื่อภาษาไทยไม่มีการเว้นวรรค?
+
+ภาษาไทยเขียนติดกันโดยไม่มีช่องว่างระหว่างคำ ดังนั้นนับจำนวนคำขึ้นอยู่กับอัลกอริทึม เราจึงแสดง CPM (จำนวนอักขระต่อนาที) ควบคู่กับ WPM — นี่คือการวัดที่ซื่อสัตย์สำหรับภาษาไทยเพราะการกดปุ่มคือการกดปุ่มไม่ว่าคำจะเริ่มหรือจบตรงไหน

@@ -12398,8 +12398,8 @@
   },
   {
    "file": "thai-typing-test.html",
-   "title": "Thai Typing Test - Free Online Thai WPM Test",
-   "metaDesc": "Free Thai typing test online. Type real Thai sentences with tone marks and no word spaces, and check your speed and accuracy instantly. No sign up.",
+   "title": "ทดสอบการพิมพ์ภาษาไทย - ทดสอบ WPM ออนไลน์ฟรี",
+   "metaDesc": "ทดสอบการพิมพ์ภาษาไทยออนไลน์ฟรี พิมพ์ประโยคภาษาไทยจริง ตรวจสอบความเร็วและความแม่นยำทันที ไม่ต้องสมัคร",
    "canonical": "https://typing.rerivo.com/thai-typing-test.html",
    "dur": 60,
    "mode": "sentences",
@@ -12424,8 +12424,8 @@
     "Home",
     "Thai Typing Test"
    ],
-   "h1": "Thai Typing Test",
-   "heroP": "Test your <strong>Thai typing speed</strong> with real Thai sentences — tone marks, vowels above and below the line, and no spaces between words. Free, instant results.",
+   "h1": "ทดสอบการพิมพ์ภาษาไทย",
+   "heroP": "ทดสอบ<strong>ความเร็วการพิมพ์ภาษาไทย</strong>ด้วยประโยคภาษาไทยจริง ผลลัพธ์ทันที แสดง WPM และความแม่นยำ ฟรี ไม่ต้องสมัคร",
    "seo": [
     {
      "h2": "Thai typing test",
@@ -12450,6 +12450,19 @@
      "p": [
       "Practise with real sentences: Thai syllable shapes (consonant + vowel + tone mark) become single motions in your fingers with repetition. Keep your eyes on the screen, accuracy first, and watch your CPM trend — because words have no spaces, character-level consistency is the metric that actually moves."
      ]
+    },
+    {
+     "h2": "วิธีใช้แบบทดสอบนี้",
+     "p": [
+      "เลือกระยะเวลา (15 วินาที ถึง 10 นาที) คลิกที่พื้นที่พิมพ์แล้วเริ่มพิมพ์ประโยคที่ปรากฏบนหน้าจอ ตัวจับเวลาเริ่มนับจาการกดปุ่มแรก ไม่ใช่ก่อนหน้า หลังจบการพิมพ์คุณจะเห็น WPM ความแม่นยำ CPM และรายงานปุ่มที่อ่อนแอ",
+      "เพื่อปรับปรุงความเร็ว ให้ฝึกความแม่นยำก่อน (เป้าหมาย 97-98%) จากนั้นค่อยเพิ่มความเร็ว รูปแบบพยางค์ภาษาไทย (พยัญชนะ + สระ + วรรณยุกต์) กลายเป็นการเคลื่อนไหวเดียวในนิ้วเมื่อฝึกซ้ำกับประโยคจริง"
+     ]
+    },
+    {
+     "h2": "การพิมพ์ภาษาไทยที่ไม่มีเว้นวรรค",
+     "p": [
+      "ภาษาไทยเขียนติดกันไม่มีเว้นวรรค ดังนั้นคำว่า 'จำนวนคำ' ขึ้นอยู่กับอัลกอริทึมการแบ่งคำ ไม่ใช่สิ่งที่ผู้พิมพ์มองเห็น นี่คือเหตุผลที่แบบทดสอบนี้แสดง CPM (จำนวนอักขระต่อนาที) ควบคู่กับ WPM สำหรับภาษาไทย CPM คือการวัดที่ซื่อสัตย์และแม่นยำสำหรับความเร็วการกดปุ่มจริง"
+     ]
     }
    ],
    "faqFirstOpen": true,
@@ -12470,9 +12483,13 @@
     {
      "q": "Does the test include tone marks and vowels above and below?",
      "a": "Yes. Sentences use real Thai with the full abugida system — preposed and following vowels, above/below-line vowels and all four tone marks."
+    },
+    {
+     "q": "การทดสอบนี้วัดความเร็วอย่างไรเมื่อภาษาไทยไม่มีการเว้นวรรค?",
+     "a": "ภาษาไทยเขียนติดกันโดยไม่มีช่องว่างระหว่างคำ ดังนั้นนับจำนวนคำขึ้นอยู่กับอัลกอริทึม เราจึงแสดง CPM (จำนวนอักขระต่อนาที) ควบคู่กับ WPM — นี่คือการวัดที่ซื่อสัตย์สำหรับภาษาไทยเพราะการกดปุ่มคือการกดปุ่มไม่ว่าคำจะเริ่มหรือจบตรงไหน"
     }
    ],
-   "tldr": "A Thai typing test measures speed and accuracy on real Thai sentences — abugida vowels, four tone marks, and no word spaces. Because Thai has no spaces, CPM (characters per minute) is the honest speed metric alongside WPM. Works with Kedmanee or any Thai keyboard. Free, timed 15 seconds to 10 minutes.",
+   "tldr": "ทดสอบการพิมพ์ภาษาไทยวัดความเร็วและความแม่นยำจากประโยคภาษาไทยจริง แสดง CPM ควบคู่กับ WPM ฟรี 15 วินาทีถึง 10 นาที ไม่ต้องสมัคร",
    "webAppName": "Typing Speed Test",
    "webAppUrl": "https://typing.rerivo.com/thai-typing-test.html",
    "bcItems": [
