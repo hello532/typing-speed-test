@@ -1637,3 +1637,435 @@ Yes. Both the practice text and your input field run right to left, the way real
 Any standard Urdu keyboard layout — the national Urdu keyboard, phonetic layouts, or InPage-style input — because the test measures the text you produce, not the keys you press.
 Yes. Urdu letters automatically take their initial, medial, final or isolated shapes as you type; the test displays the joined text exactly like any Urdu word processor.
 Yes. Timed sentence practice in the Perso-Arabic script is the standard format of Pakistani government and court typing tests, so daily rounds build the same measured speed and accuracy.
+
+## Top 200 Most Common English Words
+Source: https://typing.rerivo.com/top-en-words.html
+
+The 200 most common English words from real frequency data, with a free typing practice test above. Master these and you cover the bulk of everyday English text.
+
+## The 200 most common English words
+The 200 most common English words below come from real subtitle frequency data, so they are the words you actually type every day — not a textbook list. The list is drawn from the FrequencyWords open dataset (MIT license), built from OpenSubtitles transcripts, and filtered to words in the native script only.
+# | Word | # | Word | # | Word | # | Word
+1 | you | 51 | oh | 101 | something | 151 | other
+2 | i | 52 | one | 102 | has | 152 | wait
+3 | the | 53 | come | 103 | too | 153 | stop
+4 | to | 54 | well | 104 | more | 154 | call
+5 | a | 55 | her | 105 | way | 155 | after
+6 | it | 56 | how | 106 | down | 156 | won
+7 | and | 57 | yeah | 107 | make | 157 | talk
+8 | that | 58 | will | 108 | very | 158 | away
+9 | of | 59 | got | 109 | never | 159 | than
+10 | is | 60 | want | 110 | only | 160 | thought
+11 | in | 61 | think | 111 | people | 161 | home
+12 | what | 62 | as | 112 | over | 162 | night
+13 | we | 63 | see | 113 | because | 163 | put
+14 | me | 64 | did | 114 | little | 164 | great
+15 | this | 65 | good | 115 | please | 165 | those
+16 | he | 66 | who | 116 | love | 166 | last
+17 | for | 67 | why | 117 | should | 167 | better
+18 | my | 68 | from | 118 | mean | 168 | everything
+19 | on | 69 | let | 119 | said | 169 | told
+20 | have | 70 | his | 120 | sorry | 170 | new
+21 | your | 71 | yes | 121 | give | 171 | things
+22 | do | 72 | when | 122 | off | 172 | always
+23 | was | 73 | going | 123 | am | 173 | keep
+24 | no | 74 | time | 124 | thank | 174 | long
+25 | not | 75 | an | 125 | any | 175 | years
+26 | be | 76 | okay | 126 | two | 176 | leave
+27 | are | 77 | back | 127 | even | 177 | does
+28 | don | 78 | look | 128 | much | 178 | money
+29 | know | 79 | us | 129 | doing | 179 | around
+30 | can | 80 | would | 130 | sure | 180 | doesn
+31 | with | 81 | them | 131 | thing | 181 | name
+32 | but | 82 | where | 132 | these | 182 | place
+33 | all | 83 | were | 133 | help | 183 | ever
+34 | so | 84 | take | 134 | first | 184 | feel
+35 | just | 85 | then | 135 | into | 185 | guys
+36 | there | 86 | had | 136 | anything | 186 | father
+37 | here | 87 | or | 137 | still | 187 | guy
+38 | they | 88 | been | 138 | find | 188 | made
+39 | like | 89 | our | 139 | life | 189 | old
+40 | get | 90 | gonna | 140 | nothing | 190 | isn
+41 | she | 91 | tell | 141 | sir | 191 | which
+42 | go | 92 | really | 142 | day | 192 | big
+43 | if | 93 | man | 143 | god | 193 | lot
+44 | right | 94 | some | 144 | work | 194 | done
+45 | out | 95 | say | 145 | their | 195 | hello
+46 | about | 96 | hey | 146 | uh | 196 | nice
+47 | up | 97 | could | 147 | again | 197 | believe
+48 | at | 98 | didn | 148 | maybe | 198 | girl
+49 | him | 99 | by | 149 | must | 199 | someone
+50 | now | 100 | need | 150 | before | 200 | fine
+## Why drill the top English words
+In almost every language, a few hundred words cover most of what people actually write. English is no exception: these 200 words appear again and again in messages, documents, subtitles and web pages. If your fingers can produce them without thinking, your real-world English typing speed rises immediately — long before you memorise any larger vocabulary.
+English high-frequency words are mostly short function words (the, of, and) mixed with everyday verbs and nouns. They are the words where touch-typing muscle memory pays off fastest, because you type them thousands of times a day.
+## How to practise English typing with this list
+Start the test above — it draws words from this very list, so every round drills the words that matter. Type a short round every day, aim for accuracy first (97%+), and only then push for speed. Watch the weak-key report after each round: it shows exactly which letters slow you down, so you can target them instead of re-typing words you already know.
+When you want full sentences instead of single words, switch to the English typing test, or benchmark yourself against the classic 1 minute typing test.
+## Word lists in other languages
+The same top-200 frequency list is available for: Spanish · Hindi · Japanese · Korean · Urdu. Each list is built from the same open subtitle-frequency dataset, so the lists are directly comparable across languages.
+## Top English words FAQ
+From the open FrequencyWords dataset (MIT license), which counts word frequencies in OpenSubtitles transcripts. We filtered the raw ranking to native-script words and took the top 200.
+They are the most frequent words in subtitle transcripts — everyday spoken-style language. That makes them the most useful 200 words for typing practice, though formal written text has a slightly different profile.
+Practise with the built-in test above: it serves these exact words in timed rounds. Short daily rounds with an accuracy-first approach build speed fastest.
+Yes. The word list and the typing practice test are free with no sign up.
+
+## Top 200 Most Common Spanish Words
+Source: https://typing.rerivo.com/top-es-words.html
+
+The 200 most common Spanish words from real frequency data, with a free typing practice test above. Master these and you cover the bulk of everyday Spanish text.
+
+## The 200 most common Spanish words
+The 200 most common Spanish words below come from real subtitle frequency data — the words native speakers actually read and type daily. The list is drawn from the FrequencyWords open dataset (MIT license), built from OpenSubtitles transcripts, and filtered to words in the native script only.
+# | Word | # | Word | # | Word | # | Word
+1 | de | 51 | tengo | 101 | oh | 151 | nadie
+2 | que | 52 | él | 102 | favor | 152 | quiere
+3 | no | 53 | cuando | 103 | mucho | 153 | podría
+4 | a | 54 | estás | 104 | mí | 154 | hablar
+5 | la | 55 | sé | 105 | quieres | 155 | vas
+6 | el | 56 | tú | 106 | siento | 156 | ellos
+7 | y | 57 | nos | 107 | señor | 157 | tal
+8 | es | 58 | nada | 108 | mejor | 158 | pasa
+9 | en | 59 | cómo | 109 | hace | 159 | fuera
+10 | lo | 60 | este | 110 | has | 160 | después
+11 | un | 61 | o | 111 | decir | 161 | han
+12 | por | 62 | he | 112 | también | 162 | desde
+13 | qué | 63 | ser | 113 | sobre | 163 | dinero
+14 | me | 64 | tiene | 114 | dios | 164 | mundo
+15 | una | 65 | puedo | 115 | sin | 165 | claro
+16 | los | 66 | ella | 116 | tenemos | 166 | momento
+17 | se | 67 | quiero | 117 | están | 167 | les
+18 | te | 68 | hacer | 118 | ti | 168 | tener
+19 | con | 69 | fue | 119 | puedes | 169 | estado
+20 | para | 70 | gracias | 120 | ver | 170 | otro
+21 | está | 71 | vez | 121 | hombre | 171 | había
+22 | mi | 72 | era | 122 | vida | 172 | mañana
+23 | pero | 73 | soy | 123 | alguien | 173 | tenía
+24 | sí | 74 | sólo | 124 | cosas | 174 | madre
+25 | si | 75 | todos | 125 | siempre | 175 | vale
+26 | bien | 76 | porque | 126 | hasta | 176 | lugar
+27 | eso | 77 | son | 127 | ahí | 177 | haciendo
+28 | su | 78 | tienes | 128 | ir | 178 | donde
+29 | las | 79 | creo | 129 | años | 179 | seguro
+30 | yo | 80 | voy | 130 | antes | 180 | sabe
+31 | del | 81 | sabes | 131 | estar | 181 | podemos
+32 | como | 82 | estaba | 132 | ni | 182 | tus
+33 | aquí | 83 | puede | 133 | poco | 183 | espera
+34 | tu | 84 | eres | 134 | día | 184 | nuevo
+35 | al | 85 | ese | 135 | uno | 185 | sido
+36 | más | 86 | usted | 136 | noche | 186 | cosa
+37 | le | 87 | entonces | 137 | hecho | 187 | hijo
+38 | esto | 88 | hola | 138 | mis | 188 | allí
+39 | todo | 89 | solo | 139 | estamos | 189 | menos
+40 | ya | 90 | verdad | 140 | otra | 190 | tipo
+41 | estoy | 91 | casa | 141 | acuerdo | 191 | amigo
+42 | ahora | 92 | tan | 142 | trabajo | 192 | gran
+43 | muy | 93 | quién | 143 | nosotros | 193 | nuestro
+44 | ha | 94 | sus | 144 | parece | 194 | mujer
+45 | esta | 95 | tiempo | 145 | gente | 195 | mamá
+46 | así | 96 | dos | 146 | sea | 196 | luego
+47 | vamos | 97 | esa | 147 | padre | 197 | papá
+48 | algo | 98 | nunca | 148 | mira | 198 | días
+49 | hay | 99 | dónde | 149 | mismo | 199 | dice
+50 | bueno | 100 | va | 150 | dijo | 200 | hoy
+## Why drill the top Spanish words
+In almost every language, a few hundred words cover most of what people actually write. Spanish is no exception: these 200 words appear again and again in messages, documents, subtitles and web pages. If your fingers can produce them without thinking, your real-world Spanish typing speed rises immediately — long before you memorise any larger vocabulary.
+Spanish high-frequency words include the accented vowels (qué, más, está) and the ñ that make Spanish typing distinct. Getting fast at these 200 words means your fingers stop hesitating at the accent keys.
+## How to practise Spanish typing with this list
+Start the test above — it draws words from this very list, so every round drills the words that matter. Type a short round every day, aim for accuracy first (97%+), and only then push for speed. Watch the weak-key report after each round: it shows exactly which letters slow you down, so you can target them instead of re-typing words you already know.
+When you want full sentences instead of single words, switch to the Spanish typing test, or benchmark yourself against the classic 1 minute typing test.
+## Word lists in other languages
+The same top-200 frequency list is available for: English · Hindi · Japanese · Korean · Urdu. Each list is built from the same open subtitle-frequency dataset, so the lists are directly comparable across languages.
+## Top Spanish words FAQ
+From the open FrequencyWords dataset (MIT license), which counts word frequencies in OpenSubtitles transcripts. We filtered the raw ranking to native-script words and took the top 200.
+They are the most frequent words in subtitle transcripts — everyday spoken-style language. That makes them the most useful 200 words for typing practice, though formal written text has a slightly different profile.
+Practise with the built-in test above: it serves these exact words in timed rounds. Short daily rounds with an accuracy-first approach build speed fastest.
+Yes. The word list and the typing practice test are free with no sign up.
+
+## Top 200 Most Common Hindi Words
+Source: https://typing.rerivo.com/top-hi-words.html
+
+The 200 most common Hindi words from real frequency data, with a free typing practice test above. Master these and you cover the bulk of everyday Hindi text.
+
+## The 200 most common Hindi words
+The 200 most common Hindi words below come from real subtitle frequency data — everyday Devanagari words, not dictionary entries. The list is drawn from the FrequencyWords open dataset (MIT license), built from OpenSubtitles transcripts, and filtered to words in the native script only.
+# | Word | # | Word | # | Word | # | Word
+1 | एक | 51 | आग | 101 | असल | 151 | पहन
+2 | आप | 52 | शहर | 102 | आई | 152 | एह
+3 | और | 53 | डर | 103 | शक | 153 | असफल
+4 | यह | 54 | नरक | 104 | दल | 154 | लक
+5 | कर | 55 | तब | 105 | नजर | 155 | हरमन
+6 | हम | 56 | बदल | 106 | डबल | 156 | बकबक
+7 | वह | 57 | औरत | 107 | बह | 157 | उपर
+8 | पर | 58 | अलग | 108 | इधर | 158 | वजन
+9 | इस | 59 | नए | 109 | आम | 159 | मऊ
+10 | अब | 60 | मन | 110 | बच | 160 | रस
+11 | तरह | 61 | कदम | 111 | ऋण | 161 | बचत
+12 | सब | 62 | रह | 112 | सरल | 162 | वचन
+13 | जब | 63 | आए | 113 | जल | 163 | जय
+14 | बस | 64 | लगभग | 114 | मई | 164 | ऊह
+15 | अगर | 65 | नफरत | 115 | दफन | 165 | ऐ
+16 | तक | 66 | बन | 116 | सफल | 166 | उलमन
+17 | समय | 67 | छह | 117 | बल | 167 | शरण
+18 | ओह | 68 | भर | 118 | दर | 168 | आकर
+19 | आ | 69 | तरफ | 119 | बदतर | 169 | रन
+20 | उस | 70 | कब | 120 | तट | 170 | ल
+21 | मत | 71 | रख | 121 | ऊ | 171 | द
+22 | घर | 72 | एन | 122 | बगल | 172 | हक
+23 | एम | 73 | एलन | 123 | दम | 173 | अल
+24 | हर | 74 | पल | 124 | गरम | 174 | रथ
+25 | मतलब | 75 | दस | 125 | फल | 175 | एकदम
+26 | मदद | 76 | बज | 126 | हट | 176 | उधर
+27 | आज | 77 | नई | 127 | एस | 177 | ओउ
+28 | आओ | 78 | एल | 128 | सह | 178 | उदयगढ
+29 | न | 79 | वजह | 129 | गबन | 179 | लव
+30 | इन | 80 | खबर | 130 | सबक | 180 | डटकर
+31 | सर | 81 | उम | 131 | नमक | 181 | चमक
+32 | जगह | 82 | तय | 132 | अवसर | 182 | ओय
+33 | लग | 83 | कवर | 133 | ओवर | 183 | अरब
+34 | कम | 84 | बहन | 134 | अचल | 184 | सतह
+35 | सच | 85 | ओ | 135 | फसल | 185 | कवच
+36 | मर | 86 | छत | 136 | कप | 186 | ऑफ
+37 | उन | 87 | जनरल | 137 | जहर | 187 | जज
+38 | गए | 88 | धन | 138 | गठन | 188 | पवन
+39 | ऊपर | 89 | अप | 139 | नकद | 189 | उलझन
+40 | कल | 90 | सहमत | 140 | बचपन | 190 | कट
+41 | कह | 91 | कसम | 141 | बहस | 191 | लहर
+42 | आह | 92 | मम | 142 | चयन | 192 | एवन
+43 | उह | 93 | बम | 143 | टन | 193 | सहन
+44 | चल | 94 | आठ | 144 | सटन | 194 | उप
+45 | आर | 95 | चकमक | 145 | भय | 195 | नकल
+46 | ओर | 96 | थक | 146 | शहद | 196 | ख
+47 | गई | 97 | तहत | 147 | ई | 197 | ग़लत
+48 | गलत | 98 | वन | 148 | उपकरण | 198 | ऑफ़
+49 | समझ | 99 | ए | 149 | उठ | 199 | नल
+50 | कई | 100 | हल | 150 | आदत | 200 | ईआर
+## Why drill the top Hindi words
+In almost every language, a few hundred words cover most of what people actually write. Hindi is no exception: these 200 words appear again and again in messages, documents, subtitles and web pages. If your fingers can produce them without thinking, your real-world Hindi typing speed rises immediately — long before you memorise any larger vocabulary.
+Hindi high-frequency words are rich in matras and the conjunct consonants (क्ष, त्र, ज्ञ) that slow most typists down. Drilling these 200 words builds automaticity exactly where Hindi typing needs it.
+## How to practise Hindi typing with this list
+Start the test above — it draws words from this very list, so every round drills the words that matter. Type a short round every day, aim for accuracy first (97%+), and only then push for speed. Watch the weak-key report after each round: it shows exactly which letters slow you down, so you can target them instead of re-typing words you already know.
+When you want full sentences instead of single words, switch to the Hindi typing test, or benchmark yourself against the classic 1 minute typing test.
+## Word lists in other languages
+The same top-200 frequency list is available for: English · Spanish · Japanese · Korean · Urdu. Each list is built from the same open subtitle-frequency dataset, so the lists are directly comparable across languages.
+## Top Hindi words FAQ
+From the open FrequencyWords dataset (MIT license), which counts word frequencies in OpenSubtitles transcripts. We filtered the raw ranking to native-script words and took the top 200.
+They are the most frequent words in subtitle transcripts — everyday spoken-style language. That makes them the most useful 200 words for typing practice, though formal written text has a slightly different profile.
+Practise with the built-in test above: it serves these exact words in timed rounds. Short daily rounds with an accuracy-first approach build speed fastest.
+Yes. The word list and the typing practice test are free with no sign up.
+
+## Top 200 Most Common Japanese Words
+Source: https://typing.rerivo.com/top-ja-words.html
+
+The 200 most common Japanese words from real frequency data, with a free typing practice test above. Master these and you cover the bulk of everyday Japanese text.
+
+## The 200 most common Japanese words
+The 200 most common Japanese words below come from real subtitle frequency data, segmented the way Japanese text is actually written. The list is drawn from the FrequencyWords open dataset (MIT license), built from OpenSubtitles transcripts, and filtered to words in the native script only.
+# | Word | # | Word | # | Word | # | Word
+1 | い | 51 | よう | 101 | ため | 151 | 目
+2 | の | 52 | くれ | 102 | もの | 152 | 所
+3 | は | 53 | これ | 103 | あの | 153 | やめ
+4 | て | 54 | この | 104 | 待 | 154 | 車
+5 | た | 55 | 事 | 105 | 奴 | 155 | 居
+6 | に | 56 | ここ | 106 | 気 | 156 | 分
+7 | な | 57 | 人 | 107 | 無 | 157 | なん
+8 | を | 58 | 知 | 108 | 良 | 158 | みたい
+9 | る | 59 | き | 109 | 大丈夫 | 159 | より
+10 | だ | 60 | ば | 110 | 自分 | 160 | 様
+11 | が | 61 | その | 111 | 持 | 161 | あんた
+12 | で | 62 | 誰 | 112 | 時間 | 162 | こ
+13 | し | 63 | 彼女 | 113 | 一 | 163 | また
+14 | っ | 64 | 思 | 114 | なぜ | 164 | 場所
+15 | か | 65 | 見 | 115 | 家 | 165 | みんな
+16 | と | 66 | って | 116 | 本当 | 166 | 父
+17 | も | 67 | お前 | 117 | まだ | 167 | 度
+18 | ん | 68 | 話 | 118 | そんな | 168 | べ
+19 | す | 69 | だっ | 119 | 的 | 169 | 欲し
+20 | よ | 70 | つ | 120 | む | 170 | 同じ
+21 | う | 71 | ぞ | 121 | 戻 | 171 | 金
+22 | ま | 72 | さん | 122 | ありがとう | 172 | しろ
+23 | 私 | 73 | もう | 123 | いや | 173 | 問題
+24 | ら | 74 | 来 | 124 | 男 | 174 | こんな
+25 | く | 75 | 僕 | 125 | 考え | 175 | おい
+26 | 何 | 76 | しょ | 126 | 会 | 176 | え
+27 | わ | 77 | でき | 127 | 年 | 177 | 子供
+28 | から | 78 | だけ | 128 | 日 | 178 | 愛
+29 | あ | 79 | なら | 129 | 方 | 179 | 名前
+30 | れ | 80 | 者 | 130 | そして | 180 | 帰
+31 | ね | 81 | わか | 131 | 仕事 | 181 | 子
+32 | する | 82 | 今 | 132 | 手 | 182 | もし
+33 | それ | 83 | 分か | 133 | 見つけ | 183 | ただ
+34 | 彼 | 84 | たち | 134 | ちょっと | 184 | はず
+35 | さ | 85 | 聞 | 135 | じ | 185 | 信
+36 | ろ | 86 | 出 | 136 | いつ | 186 | 全て
+37 | こと | 87 | まで | 137 | 出来 | 187 | けれ
+38 | そう | 88 | けど | 138 | 違 | 188 | 好き
+39 | あなた | 89 | どこ | 139 | 後 | 189 | ご
+40 | お | 90 | られ | 140 | 他 | 190 | 使
+41 | どう | 91 | 死 | 141 | そこ | 191 | 少し
+42 | 君 | 92 | へ | 142 | 一緒 | 192 | くださ
+43 | せ | 93 | 時 | 143 | 電話 | 193 | さあ
+44 | 言 | 94 | 殺 | 144 | すぐ | 194 | 見え
+45 | 俺 | 95 | 達 | 145 | 悪 | 195 | 通り
+46 | や | 96 | ああ | 146 | なさ | 196 | 教え
+47 | じゃ | 97 | 前 | 147 | 入 | 197 | 皆
+48 | り | 98 | 中 | 148 | 助け | 198 | ー
+49 | かっ | 99 | 必要 | 149 | ええ | 199 | 為
+50 | 行 | 100 | み | 150 | なんて | 200 | 入れ
+## Why drill the top Japanese words
+In almost every language, a few hundred words cover most of what people actually write. Japanese is no exception: these 200 words appear again and again in messages, documents, subtitles and web pages. If your fingers can produce them without thinking, your real-world Japanese typing speed rises immediately — long before you memorise any larger vocabulary.
+Japanese high-frequency words are dominated by particles (は, が, を, に) and the most common verbs and auxiliaries. Because Japanese has no spaces between words, learning to type these fragments instantly is what makes full-sentence typing feel fluent.
+## How to practise Japanese typing with this list
+Start the test above — it draws words from this very list, so every round drills the words that matter. Type a short round every day, aim for accuracy first (97%+), and only then push for speed. Watch the weak-key report after each round: it shows exactly which letters slow you down, so you can target them instead of re-typing words you already know.
+When you want full sentences instead of single words, switch to the Japanese typing test, or benchmark yourself against the classic 1 minute typing test.
+## Word lists in other languages
+The same top-200 frequency list is available for: English · Spanish · Hindi · Korean · Urdu. Each list is built from the same open subtitle-frequency dataset, so the lists are directly comparable across languages.
+## Top Japanese words FAQ
+From the open FrequencyWords dataset (MIT license), which counts word frequencies in OpenSubtitles transcripts. We filtered the raw ranking to native-script words and took the top 200.
+They are the most frequent words in subtitle transcripts — everyday spoken-style language. That makes them the most useful 200 words for typing practice, though formal written text has a slightly different profile.
+Practise with the built-in test above: it serves these exact words in timed rounds. Short daily rounds with an accuracy-first approach build speed fastest.
+Yes. The word list and the typing practice test are free with no sign up.
+
+## Top 200 Most Common Korean Words
+Source: https://typing.rerivo.com/top-ko-words.html
+
+The 200 most common Korean words from real frequency data, with a free typing practice test above. Master these and you cover the bulk of everyday Korean text.
+
+## The 200 most common Korean words
+The 200 most common Korean words below come from real subtitle frequency data — the spoken-style words that dominate everyday Korean typing. The list is drawn from the FrequencyWords open dataset (MIT license), built from OpenSubtitles transcripts, and filtered to words in the native script only.
+# | Word | # | Word | # | Word | # | Word
+1 | 내가 | 51 | 못 | 101 | 어서 | 151 | 집에
+2 | 그 | 52 | 좋아 | 102 | 그는 | 152 | 거지
+3 | 난 | 53 | 당신이 | 103 | 위해 | 153 | 일을
+4 | 내 | 54 | 다른 | 104 | 해요 | 154 | 저는
+5 | 안 | 55 | 나 | 105 | 일이 | 155 | 음
+6 | 수 | 56 | 그런 | 106 | 하지 | 156 | 그렇지
+7 | 이 | 57 | 그건 | 107 | 엄마 | 157 | 함께
+8 | 네 | 58 | 너무 | 108 | 바로 | 158 | 만약
+9 | 거야 | 59 | 그래서 | 109 | 가 | 159 | 하나
+10 | 좀 | 60 | 그렇게 | 110 | 근데 | 160 | 저기
+11 | 그래 | 61 | 다시 | 111 | 알고 | 161 | 고마워요
+12 | 있어 | 62 | 이건 | 112 | 이렇게 | 162 | 항상
+13 | 왜 | 63 | 이런 | 113 | 빨리 | 163 | 나한테
+14 | 더 | 64 | 나도 | 114 | 있습니다 | 164 | 잠깐
+15 | 그리고 | 65 | 모든 | 115 | 이거 | 165 | 가서
+16 | 우리 | 66 | 당신 | 116 | 전에 | 166 | 가장
+17 | 다 | 67 | 거예요 | 117 | 어 | 167 | 돼요
+18 | 무슨 | 68 | 당신은 | 118 | 아뇨 | 168 | 거죠
+19 | 한 | 69 | 아 | 119 | 계속 | 169 | 가자
+20 | 하지만 | 70 | 좋은 | 120 | 닥터 | 170 | 맞아
+21 | 잘 | 71 | 오 | 121 | 얼마나 | 171 | 보고
+22 | 어떻게 | 72 | 때 | 122 | 될 | 172 | 와
+23 | 할 | 73 | 너 | 123 | 알았어 | 173 | 그거
+24 | 그냥 | 74 | 하는 | 124 | 않아 | 174 | 말을
+25 | 정말 | 75 | 하고 | 125 | 제발 | 175 | 괜찮아요
+26 | 그럼 | 76 | 아냐 | 126 | 있지 | 176 | 아무도
+27 | 것 | 77 | 나는 | 127 | 겁니다 | 177 | 없는
+28 | 게 | 78 | 아니야 | 128 | 어디 | 178 | 안녕하세요
+29 | 있어요 | 79 | 알아 | 129 | 사람이 | 179 | 몰라
+30 | 있는 | 80 | 같이 | 130 | 그가 | 180 | 일
+31 | 해 | 81 | 응 | 131 | 안녕 | 181 | 많은
+32 | 여기 | 82 | 이게 | 132 | 좋아요 | 182 | 당신의
+33 | 넌 | 83 | 없어요 | 133 | 같아 | 183 | 아무것도
+34 | 제가 | 84 | 괜찮아 | 134 | 우리는 | 184 | 그러니까
+35 | 날 | 85 | 오늘 | 135 | 그래요 | 185 | 큰
+36 | 우리가 | 86 | 말이야 | 136 | 당신을 | 186 | 알아요
+37 | 건 | 87 | 줄 | 137 | 자 | 187 | 그의
+38 | 전 | 88 | 또 | 138 | 그걸 | 188 | 뭐가
+39 | 이제 | 89 | 널 | 139 | 두 | 189 | 고마워
+40 | 지금 | 90 | 누가 | 140 | 아니에요 | 190 | 그만
+41 | 그게 | 91 | 어떤 | 141 | 있을 | 191 | 했어요
+42 | 걸 | 92 | 아주 | 142 | 때문에 | 192 | 젠장
+43 | 거 | 93 | 말 | 143 | 대해 | 193 | 사람들이
+44 | 아니 | 94 | 아직 | 144 | 아빠 | 194 | 거에요
+45 | 네가 | 95 | 안돼 | 145 | 몇 | 195 | 이걸
+46 | 없어 | 96 | 진짜 | 146 | 사람 | 196 | 그럴
+47 | 돼 | 97 | 모두 | 147 | 했어 | 197 | 것도
+48 | 저 | 98 | 마 | 148 | 뭐야 | 198 | 말이
+49 | 우린 | 99 | 같은 | 149 | 수도 | 199 | 이미
+50 | 제 | 100 | 여기서 | 150 | 많이 | 200 | 야
+## Why drill the top Korean words
+In almost every language, a few hundred words cover most of what people actually write. Korean is no exception: these 200 words appear again and again in messages, documents, subtitles and web pages. If your fingers can produce them without thinking, your real-world Korean typing speed rises immediately — long before you memorise any larger vocabulary.
+Korean high-frequency words are short, particle-heavy forms (내가, 그리고, 있어) built from a small set of jamo. Drilling them trains the even syllable-block rhythm that real Korean typing speed is made of.
+## How to practise Korean typing with this list
+Start the test above — it draws words from this very list, so every round drills the words that matter. Type a short round every day, aim for accuracy first (97%+), and only then push for speed. Watch the weak-key report after each round: it shows exactly which letters slow you down, so you can target them instead of re-typing words you already know.
+When you want full sentences instead of single words, switch to the Korean typing test, or benchmark yourself against the classic 1 minute typing test.
+## Word lists in other languages
+The same top-200 frequency list is available for: English · Spanish · Hindi · Japanese · Urdu. Each list is built from the same open subtitle-frequency dataset, so the lists are directly comparable across languages.
+## Top Korean words FAQ
+From the open FrequencyWords dataset (MIT license), which counts word frequencies in OpenSubtitles transcripts. We filtered the raw ranking to native-script words and took the top 200.
+They are the most frequent words in subtitle transcripts — everyday spoken-style language. That makes them the most useful 200 words for typing practice, though formal written text has a slightly different profile.
+Practise with the built-in test above: it serves these exact words in timed rounds. Short daily rounds with an accuracy-first approach build speed fastest.
+Yes. The word list and the typing practice test are free with no sign up.
+
+## Top 200 Most Common Urdu Words
+Source: https://typing.rerivo.com/top-ur-words.html
+
+The 200 most common Urdu words from real frequency data, with a free typing practice test above. Master these and you cover the bulk of everyday Urdu text.
+
+## The 200 most common Urdu words
+The 200 most common Urdu words below come from real subtitle frequency data — the everyday words of spoken and written Urdu. The list is drawn from the FrequencyWords open dataset (MIT license), built from OpenSubtitles transcripts, and filtered to words in the native script only.
+# | Word | # | Word | # | Word | # | Word
+1 | ہے | 51 | گے | 101 | لگتا | 151 | رات
+2 | میں | 52 | بات | 102 | کرتا | 152 | ش
+3 | کے | 53 | سکتا | 103 | ء | 153 | وجہ
+4 | نہیں | 54 | اپنے | 104 | مل | 154 | دن
+5 | آپ | 55 | زیادہ | 105 | ہمیں | 155 | بار
+6 | کی | 56 | جی | 106 | ن | 156 | بس
+7 | ایک | 57 | کسی | 107 | نہ | 157 | دیکھو
+8 | سے | 58 | دیا | 108 | ہر | 158 | ي
+9 | ہیں | 59 | جاؤ | 109 | مجھ | 159 | نیچے
+10 | کو | 60 | بارے | 110 | پاس | 160 | خدا
+11 | اس | 61 | دو | 111 | طرف | 161 | چاہئے
+12 | نے | 62 | کرنا | 112 | لوگوں | 162 | کیلئے
+13 | یہ | 63 | چلو | 113 | تمام | 163 | جانے
+14 | کیا | 64 | تھے | 114 | ئ | 164 | تمہارے
+15 | تم | 65 | جا | 115 | اپنی | 165 | دور
+16 | اور | 66 | میری | 116 | آدمی | 166 | جگہ
+17 | وہ | 67 | باہر | 117 | تھی | 167 | دیکھا
+18 | ہو | 68 | تمہیں | 118 | کون | 168 | رہی
+19 | کر | 69 | ضرورت | 119 | میرا | 169 | انتظار
+20 | ہم | 70 | کہا | 120 | ایسا | 170 | مطلب
+21 | کہ | 71 | ہی | 121 | پتہ | 171 | دنیا
+22 | لئے | 72 | حاصل | 122 | بعد | 172 | تیار
+23 | پر | 73 | کریں | 123 | ہ | 173 | صاحب
+24 | تھا | 74 | جو | 124 | لوگ | 174 | جانتا
+25 | ہوں | 75 | طور | 125 | دیکھ | 175 | کرے
+26 | کا | 76 | جانتے | 126 | مدد | 176 | ابھی
+27 | مجھے | 77 | وہاں | 127 | شکریہ | 177 | استعمال
+28 | بھی | 78 | چاہتے | 128 | گھر | 178 | ہمیشہ
+29 | تو | 79 | وقت | 129 | بند | 179 | بالکل
+30 | کرنے | 80 | جائے | 130 | ارے | 180 | ہونا
+31 | رہے | 81 | پھر | 131 | یقین | 181 | پاگل
+32 | ٹھیک | 82 | اچھا | 132 | نام | 182 | ك
+33 | گا | 83 | کام | 133 | دے | 183 | جنگ
+34 | کچھ | 84 | کرتے | 134 | لیے | 184 | والد
+35 | کوئی | 85 | اگر | 135 | لیا | 185 | معلوم
+36 | رہا | 86 | کیوں | 136 | ظ | 186 | گئے
+37 | سب | 87 | یا | 137 | خ | 187 | سال
+38 | یہاں | 88 | کرو | 138 | گی | 188 | واقعی
+39 | ساتھ | 89 | آ | 139 | اوہ | 189 | ّ
+40 | ہاں | 90 | تک | 140 | جانا | 190 | آج
+41 | ان | 91 | کس | 141 | والا | 191 | بغیر
+42 | گیا | 92 | چاہتا | 142 | کوشش | 192 | شاید
+43 | اسے | 93 | کبھی | 143 | ہوگا | 193 | زندگی
+44 | اب | 94 | لے | 144 | ماں | 194 | رکو
+45 | طرح | 95 | انہوں | 145 | ہوا | 195 | یاد
+46 | لیکن | 96 | پہلے | 146 | تلاش | 196 | دیں
+47 | سکتے | 97 | جب | 147 | خیال | 197 | کیونکہ
+48 | صرف | 98 | ہمارے | 148 | جاتا | 198 | ہماری
+49 | میرے | 99 | کہاں | 149 | چھوڑ | 199 | کم
+50 | بہت | 100 | واپس | 150 | ہج | 200 | سر
+## Why drill the top Urdu words
+In almost every language, a few hundred words cover most of what people actually write. Urdu is no exception: these 200 words appear again and again in messages, documents, subtitles and web pages. If your fingers can produce them without thinking, your real-world Urdu typing speed rises immediately — long before you memorise any larger vocabulary.
+Urdu high-frequency words use the special letters (ٹ ڈ ڑ ں ہ ے) that distinguish Urdu from Arabic script. Drilling these 200 words builds speed exactly where Urdu typists lose it.
+## How to practise Urdu typing with this list
+Start the test above — it draws words from this very list, so every round drills the words that matter. Type a short round every day, aim for accuracy first (97%+), and only then push for speed. Watch the weak-key report after each round: it shows exactly which letters slow you down, so you can target them instead of re-typing words you already know.
+When you want full sentences instead of single words, switch to the Urdu typing test, or benchmark yourself against the classic 1 minute typing test.
+## Word lists in other languages
+The same top-200 frequency list is available for: English · Spanish · Hindi · Japanese · Korean. Each list is built from the same open subtitle-frequency dataset, so the lists are directly comparable across languages.
+## Top Urdu words FAQ
+From the open FrequencyWords dataset (MIT license), which counts word frequencies in OpenSubtitles transcripts. We filtered the raw ranking to native-script words and took the top 200.
+They are the most frequent words in subtitle transcripts — everyday spoken-style language. That makes them the most useful 200 words for typing practice, though formal written text has a slightly different profile.
+Practise with the built-in test above: it serves these exact words in timed rounds. Short daily rounds with an accuracy-first approach build speed fastest.
+Yes. The word list and the typing practice test are free with no sign up.

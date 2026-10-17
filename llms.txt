@@ -62,6 +62,14 @@
 - [Typing Practice for Programmers](https://typing.rerivo.com/typing-practice-for-programmers.html): Code-focused typing practice — symbols, brackets, camelCase, and pasting your own code as custom text.
 - [How to Type Without Looking](https://typing.rerivo.com/how-to-type-without-looking.html): Home-row touch-typing guide — type by feel, train muscle memory, stop looking at the keyboard.
 
+## Word Lists (Top 200 by Frequency)
+- [Top English Words](https://typing.rerivo.com/top-en-words.html): The 200 most common English words from open subtitle-frequency data, with a built-in typing practice test.
+- [Top Spanish Words](https://typing.rerivo.com/top-es-words.html): The 200 most common Spanish words from open subtitle-frequency data, with a built-in typing practice test.
+- [Top Hindi Words](https://typing.rerivo.com/top-hi-words.html): The 200 most common Hindi words from open subtitle-frequency data, with a built-in typing practice test.
+- [Top Japanese Words](https://typing.rerivo.com/top-ja-words.html): The 200 most common Japanese words from open subtitle-frequency data, with a built-in typing practice test.
+- [Top Korean Words](https://typing.rerivo.com/top-ko-words.html): The 200 most common Korean words from open subtitle-frequency data, with a built-in typing practice test.
+- [Top Urdu Words](https://typing.rerivo.com/top-ur-words.html): The 200 most common Urdu words from open subtitle-frequency data, with a built-in typing practice test.
+
 ## About
 - Free, no registration, privacy-friendly (runs fully in the browser).
 - Features: live WPM/CPM, accuracy %, error highlighting, adjustable virtual keyboard with next-key highlight, on-screen hands finger guide, 8 languages, 3 color themes.

@@ -6823,6 +6823,564 @@
     }
    ],
    "ldPretty": []
+  },
+  {
+   "file": "top-en-words.html",
+   "title": "Top 200 Most Common English Words (with Typing Practice)",
+   "metaDesc": "The 200 most common English words from real frequency data, with a free typing practice test built in. Learn the words that make up most everyday English text.",
+   "canonical": "https://typing.rerivo.com/top-en-words.html",
+   "dur": 60,
+   "mode": "words",
+   "variant": null,
+   "lang": "en",
+   "nav": [
+    {
+     "href": "english-typing-test.html",
+     "text": "English Typing Test"
+    },
+    {
+     "href": "typing-practice.html",
+     "text": "Typing Practice"
+    },
+    {
+     "href": "words-per-minute-test.html",
+     "text": "WPM Test"
+    }
+   ],
+   "crumbs": [
+    "Home",
+    "Top English Words"
+   ],
+   "h1": "Top 200 Most Common English Words",
+   "heroP": "The 200 most common <strong>English words</strong> from real frequency data, with a free typing practice test above. Master these and you cover the bulk of everyday English text.",
+   "seo": [
+    {
+     "h2": "The 200 most common English words",
+     "p": [
+      "The 200 most common English words below come from real subtitle frequency data, so they are the words you actually type every day — not a textbook list. The list is drawn from the FrequencyWords open dataset (MIT license), built from OpenSubtitles transcripts, and filtered to words in the native script only.",
+      "<div class=\"tbl\"><table><thead><tr><th>#</th><th>Word</th><th>#</th><th>Word</th><th>#</th><th>Word</th><th>#</th><th>Word</th></tr></thead><tbody>\n    <tr><td>1</td><td>you</td><td>51</td><td>oh</td><td>101</td><td>something</td><td>151</td><td>other</td></tr>\n    <tr><td>2</td><td>i</td><td>52</td><td>one</td><td>102</td><td>has</td><td>152</td><td>wait</td></tr>\n    <tr><td>3</td><td>the</td><td>53</td><td>come</td><td>103</td><td>too</td><td>153</td><td>stop</td></tr>\n    <tr><td>4</td><td>to</td><td>54</td><td>well</td><td>104</td><td>more</td><td>154</td><td>call</td></tr>\n    <tr><td>5</td><td>a</td><td>55</td><td>her</td><td>105</td><td>way</td><td>155</td><td>after</td></tr>\n    <tr><td>6</td><td>it</td><td>56</td><td>how</td><td>106</td><td>down</td><td>156</td><td>won</td></tr>\n    <tr><td>7</td><td>and</td><td>57</td><td>yeah</td><td>107</td><td>make</td><td>157</td><td>talk</td></tr>\n    <tr><td>8</td><td>that</td><td>58</td><td>will</td><td>108</td><td>very</td><td>158</td><td>away</td></tr>\n    <tr><td>9</td><td>of</td><td>59</td><td>got</td><td>109</td><td>never</td><td>159</td><td>than</td></tr>\n    <tr><td>10</td><td>is</td><td>60</td><td>want</td><td>110</td><td>only</td><td>160</td><td>thought</td></tr>\n    <tr><td>11</td><td>in</td><td>61</td><td>think</td><td>111</td><td>people</td><td>161</td><td>home</td></tr>\n    <tr><td>12</td><td>what</td><td>62</td><td>as</td><td>112</td><td>over</td><td>162</td><td>night</td></tr>\n    <tr><td>13</td><td>we</td><td>63</td><td>see</td><td>113</td><td>because</td><td>163</td><td>put</td></tr>\n    <tr><td>14</td><td>me</td><td>64</td><td>did</td><td>114</td><td>little</td><td>164</td><td>great</td></tr>\n    <tr><td>15</td><td>this</td><td>65</td><td>good</td><td>115</td><td>please</td><td>165</td><td>those</td></tr>\n    <tr><td>16</td><td>he</td><td>66</td><td>who</td><td>116</td><td>love</td><td>166</td><td>last</td></tr>\n    <tr><td>17</td><td>for</td><td>67</td><td>why</td><td>117</td><td>should</td><td>167</td><td>better</td></tr>\n    <tr><td>18</td><td>my</td><td>68</td><td>from</td><td>118</td><td>mean</td><td>168</td><td>everything</td></tr>\n    <tr><td>19</td><td>on</td><td>69</td><td>let</td><td>119</td><td>said</td><td>169</td><td>told</td></tr>\n    <tr><td>20</td><td>have</td><td>70</td><td>his</td><td>120</td><td>sorry</td><td>170</td><td>new</td></tr>\n    <tr><td>21</td><td>your</td><td>71</td><td>yes</td><td>121</td><td>give</td><td>171</td><td>things</td></tr>\n    <tr><td>22</td><td>do</td><td>72</td><td>when</td><td>122</td><td>off</td><td>172</td><td>always</td></tr>\n    <tr><td>23</td><td>was</td><td>73</td><td>going</td><td>123</td><td>am</td><td>173</td><td>keep</td></tr>\n    <tr><td>24</td><td>no</td><td>74</td><td>time</td><td>124</td><td>thank</td><td>174</td><td>long</td></tr>\n    <tr><td>25</td><td>not</td><td>75</td><td>an</td><td>125</td><td>any</td><td>175</td><td>years</td></tr>\n    <tr><td>26</td><td>be</td><td>76</td><td>okay</td><td>126</td><td>two</td><td>176</td><td>leave</td></tr>\n    <tr><td>27</td><td>are</td><td>77</td><td>back</td><td>127</td><td>even</td><td>177</td><td>does</td></tr>\n    <tr><td>28</td><td>don</td><td>78</td><td>look</td><td>128</td><td>much</td><td>178</td><td>money</td></tr>\n    <tr><td>29</td><td>know</td><td>79</td><td>us</td><td>129</td><td>doing</td><td>179</td><td>around</td></tr>\n    <tr><td>30</td><td>can</td><td>80</td><td>would</td><td>130</td><td>sure</td><td>180</td><td>doesn</td></tr>\n    <tr><td>31</td><td>with</td><td>81</td><td>them</td><td>131</td><td>thing</td><td>181</td><td>name</td></tr>\n    <tr><td>32</td><td>but</td><td>82</td><td>where</td><td>132</td><td>these</td><td>182</td><td>place</td></tr>\n    <tr><td>33</td><td>all</td><td>83</td><td>were</td><td>133</td><td>help</td><td>183</td><td>ever</td></tr>\n    <tr><td>34</td><td>so</td><td>84</td><td>take</td><td>134</td><td>first</td><td>184</td><td>feel</td></tr>\n    <tr><td>35</td><td>just</td><td>85</td><td>then</td><td>135</td><td>into</td><td>185</td><td>guys</td></tr>\n    <tr><td>36</td><td>there</td><td>86</td><td>had</td><td>136</td><td>anything</td><td>186</td><td>father</td></tr>\n    <tr><td>37</td><td>here</td><td>87</td><td>or</td><td>137</td><td>still</td><td>187</td><td>guy</td></tr>\n    <tr><td>38</td><td>they</td><td>88</td><td>been</td><td>138</td><td>find</td><td>188</td><td>made</td></tr>\n    <tr><td>39</td><td>like</td><td>89</td><td>our</td><td>139</td><td>life</td><td>189</td><td>old</td></tr>\n    <tr><td>40</td><td>get</td><td>90</td><td>gonna</td><td>140</td><td>nothing</td><td>190</td><td>isn</td></tr>\n    <tr><td>41</td><td>she</td><td>91</td><td>tell</td><td>141</td><td>sir</td><td>191</td><td>which</td></tr>\n    <tr><td>42</td><td>go</td><td>92</td><td>really</td><td>142</td><td>day</td><td>192</td><td>big</td></tr>\n    <tr><td>43</td><td>if</td><td>93</td><td>man</td><td>143</td><td>god</td><td>193</td><td>lot</td></tr>\n    <tr><td>44</td><td>right</td><td>94</td><td>some</td><td>144</td><td>work</td><td>194</td><td>done</td></tr>\n    <tr><td>45</td><td>out</td><td>95</td><td>say</td><td>145</td><td>their</td><td>195</td><td>hello</td></tr>\n    <tr><td>46</td><td>about</td><td>96</td><td>hey</td><td>146</td><td>uh</td><td>196</td><td>nice</td></tr>\n    <tr><td>47</td><td>up</td><td>97</td><td>could</td><td>147</td><td>again</td><td>197</td><td>believe</td></tr>\n    <tr><td>48</td><td>at</td><td>98</td><td>didn</td><td>148</td><td>maybe</td><td>198</td><td>girl</td></tr>\n    <tr><td>49</td><td>him</td><td>99</td><td>by</td><td>149</td><td>must</td><td>199</td><td>someone</td></tr>\n    <tr><td>50</td><td>now</td><td>100</td><td>need</td><td>150</td><td>before</td><td>200</td><td>fine</td></tr>\n  </tbody></table></div>"
+     ]
+    },
+    {
+     "h2": "Why drill the top English words",
+     "p": [
+      "In almost every language, a few hundred words cover most of what people actually write. English is no exception: these 200 words appear again and again in messages, documents, subtitles and web pages. If your fingers can produce them without thinking, your real-world English typing speed rises immediately — long before you memorise any larger vocabulary.",
+      "English high-frequency words are mostly short function words (the, of, and) mixed with everyday verbs and nouns. They are the words where touch-typing muscle memory pays off fastest, because you type them thousands of times a day."
+     ]
+    },
+    {
+     "h2": "How to practise English typing with this list",
+     "p": [
+      "Start the test above — it draws words from this very list, so every round drills the words that matter. Type a short round every day, aim for accuracy first (97%+), and only then push for speed. Watch the weak-key report after each round: it shows exactly which letters slow you down, so you can target them instead of re-typing words you already know.",
+      "When you want full sentences instead of single words, switch to the <a href=\"english-typing-test.html\">English typing test</a>, or benchmark yourself against the classic <a href=\"1-minute-typing-test.html\">1 minute typing test</a>."
+     ]
+    },
+    {
+     "h2": "Word lists in other languages",
+     "p": [
+      "The same top-200 frequency list is available for: <a href=\"top-es-words.html\">Spanish</a> · <a href=\"top-hi-words.html\">Hindi</a> · <a href=\"top-ja-words.html\">Japanese</a> · <a href=\"top-ko-words.html\">Korean</a> · <a href=\"top-ur-words.html\">Urdu</a>. Each list is built from the same open subtitle-frequency dataset, so the lists are directly comparable across languages."
+     ]
+    }
+   ],
+   "faqFirstOpen": true,
+   "faqH2": "Top English words FAQ",
+   "faq": [
+    {
+     "q": "Where does this English word list come from?",
+     "a": "From the open FrequencyWords dataset (MIT license), which counts word frequencies in OpenSubtitles transcripts. We filtered the raw ranking to native-script words and took the top 200."
+    },
+    {
+     "q": "Are these really the most common English words?",
+     "a": "They are the most frequent words in subtitle transcripts — everyday spoken-style language. That makes them the most useful 200 words for typing practice, though formal written text has a slightly different profile."
+    },
+    {
+     "q": "How should I use this list to get faster at English typing?",
+     "a": "Practise with the built-in test above: it serves these exact words in timed rounds. Short daily rounds with an accuracy-first approach build speed fastest."
+    },
+    {
+     "q": "Is this page free?",
+     "a": "Yes. The word list and the typing practice test are free with no sign up."
+    }
+   ],
+   "tldr": "This page lists the 200 most common English words from the open FrequencyWords subtitle-frequency dataset (MIT license), with a free built-in typing test that drills these exact words. A few hundred high-frequency words cover most everyday English text, so mastering this list is the fastest route to real-world English typing speed.",
+   "webAppName": "Typing Speed Test",
+   "webAppUrl": "https://typing.rerivo.com/top-en-words.html",
+   "bcItems": [
+    {
+     "name": "Home",
+     "item": "https://typing.rerivo.com/"
+    },
+    {
+     "name": "Top English Words",
+     "item": "https://typing.rerivo.com/top-en-words.html"
+    }
+   ],
+   "ldPretty": []
+  },
+  {
+   "file": "top-es-words.html",
+   "title": "Top 200 Most Common Spanish Words (with Typing Practice)",
+   "metaDesc": "The 200 most common Spanish words from real frequency data, with a free typing practice test built in. Learn the words that make up most everyday Spanish text.",
+   "canonical": "https://typing.rerivo.com/top-es-words.html",
+   "dur": 60,
+   "mode": "words",
+   "variant": null,
+   "lang": "es",
+   "nav": [
+    {
+     "href": "spanish-typing-test.html",
+     "text": "Spanish Typing Test"
+    },
+    {
+     "href": "typing-practice.html",
+     "text": "Typing Practice"
+    },
+    {
+     "href": "words-per-minute-test.html",
+     "text": "WPM Test"
+    }
+   ],
+   "crumbs": [
+    "Home",
+    "Top Spanish Words"
+   ],
+   "h1": "Top 200 Most Common Spanish Words",
+   "heroP": "The 200 most common <strong>Spanish words</strong> from real frequency data, with a free typing practice test above. Master these and you cover the bulk of everyday Spanish text.",
+   "seo": [
+    {
+     "h2": "The 200 most common Spanish words",
+     "p": [
+      "The 200 most common Spanish words below come from real subtitle frequency data — the words native speakers actually read and type daily. The list is drawn from the FrequencyWords open dataset (MIT license), built from OpenSubtitles transcripts, and filtered to words in the native script only.",
+      "<div class=\"tbl\"><table><thead><tr><th>#</th><th>Word</th><th>#</th><th>Word</th><th>#</th><th>Word</th><th>#</th><th>Word</th></tr></thead><tbody>\n    <tr><td>1</td><td>de</td><td>51</td><td>tengo</td><td>101</td><td>oh</td><td>151</td><td>nadie</td></tr>\n    <tr><td>2</td><td>que</td><td>52</td><td>él</td><td>102</td><td>favor</td><td>152</td><td>quiere</td></tr>\n    <tr><td>3</td><td>no</td><td>53</td><td>cuando</td><td>103</td><td>mucho</td><td>153</td><td>podría</td></tr>\n    <tr><td>4</td><td>a</td><td>54</td><td>estás</td><td>104</td><td>mí</td><td>154</td><td>hablar</td></tr>\n    <tr><td>5</td><td>la</td><td>55</td><td>sé</td><td>105</td><td>quieres</td><td>155</td><td>vas</td></tr>\n    <tr><td>6</td><td>el</td><td>56</td><td>tú</td><td>106</td><td>siento</td><td>156</td><td>ellos</td></tr>\n    <tr><td>7</td><td>y</td><td>57</td><td>nos</td><td>107</td><td>señor</td><td>157</td><td>tal</td></tr>\n    <tr><td>8</td><td>es</td><td>58</td><td>nada</td><td>108</td><td>mejor</td><td>158</td><td>pasa</td></tr>\n    <tr><td>9</td><td>en</td><td>59</td><td>cómo</td><td>109</td><td>hace</td><td>159</td><td>fuera</td></tr>\n    <tr><td>10</td><td>lo</td><td>60</td><td>este</td><td>110</td><td>has</td><td>160</td><td>después</td></tr>\n    <tr><td>11</td><td>un</td><td>61</td><td>o</td><td>111</td><td>decir</td><td>161</td><td>han</td></tr>\n    <tr><td>12</td><td>por</td><td>62</td><td>he</td><td>112</td><td>también</td><td>162</td><td>desde</td></tr>\n    <tr><td>13</td><td>qué</td><td>63</td><td>ser</td><td>113</td><td>sobre</td><td>163</td><td>dinero</td></tr>\n    <tr><td>14</td><td>me</td><td>64</td><td>tiene</td><td>114</td><td>dios</td><td>164</td><td>mundo</td></tr>\n    <tr><td>15</td><td>una</td><td>65</td><td>puedo</td><td>115</td><td>sin</td><td>165</td><td>claro</td></tr>\n    <tr><td>16</td><td>los</td><td>66</td><td>ella</td><td>116</td><td>tenemos</td><td>166</td><td>momento</td></tr>\n    <tr><td>17</td><td>se</td><td>67</td><td>quiero</td><td>117</td><td>están</td><td>167</td><td>les</td></tr>\n    <tr><td>18</td><td>te</td><td>68</td><td>hacer</td><td>118</td><td>ti</td><td>168</td><td>tener</td></tr>\n    <tr><td>19</td><td>con</td><td>69</td><td>fue</td><td>119</td><td>puedes</td><td>169</td><td>estado</td></tr>\n    <tr><td>20</td><td>para</td><td>70</td><td>gracias</td><td>120</td><td>ver</td><td>170</td><td>otro</td></tr>\n    <tr><td>21</td><td>está</td><td>71</td><td>vez</td><td>121</td><td>hombre</td><td>171</td><td>había</td></tr>\n    <tr><td>22</td><td>mi</td><td>72</td><td>era</td><td>122</td><td>vida</td><td>172</td><td>mañana</td></tr>\n    <tr><td>23</td><td>pero</td><td>73</td><td>soy</td><td>123</td><td>alguien</td><td>173</td><td>tenía</td></tr>\n    <tr><td>24</td><td>sí</td><td>74</td><td>sólo</td><td>124</td><td>cosas</td><td>174</td><td>madre</td></tr>\n    <tr><td>25</td><td>si</td><td>75</td><td>todos</td><td>125</td><td>siempre</td><td>175</td><td>vale</td></tr>\n    <tr><td>26</td><td>bien</td><td>76</td><td>porque</td><td>126</td><td>hasta</td><td>176</td><td>lugar</td></tr>\n    <tr><td>27</td><td>eso</td><td>77</td><td>son</td><td>127</td><td>ahí</td><td>177</td><td>haciendo</td></tr>\n    <tr><td>28</td><td>su</td><td>78</td><td>tienes</td><td>128</td><td>ir</td><td>178</td><td>donde</td></tr>\n    <tr><td>29</td><td>las</td><td>79</td><td>creo</td><td>129</td><td>años</td><td>179</td><td>seguro</td></tr>\n    <tr><td>30</td><td>yo</td><td>80</td><td>voy</td><td>130</td><td>antes</td><td>180</td><td>sabe</td></tr>\n    <tr><td>31</td><td>del</td><td>81</td><td>sabes</td><td>131</td><td>estar</td><td>181</td><td>podemos</td></tr>\n    <tr><td>32</td><td>como</td><td>82</td><td>estaba</td><td>132</td><td>ni</td><td>182</td><td>tus</td></tr>\n    <tr><td>33</td><td>aquí</td><td>83</td><td>puede</td><td>133</td><td>poco</td><td>183</td><td>espera</td></tr>\n    <tr><td>34</td><td>tu</td><td>84</td><td>eres</td><td>134</td><td>día</td><td>184</td><td>nuevo</td></tr>\n    <tr><td>35</td><td>al</td><td>85</td><td>ese</td><td>135</td><td>uno</td><td>185</td><td>sido</td></tr>\n    <tr><td>36</td><td>más</td><td>86</td><td>usted</td><td>136</td><td>noche</td><td>186</td><td>cosa</td></tr>\n    <tr><td>37</td><td>le</td><td>87</td><td>entonces</td><td>137</td><td>hecho</td><td>187</td><td>hijo</td></tr>\n    <tr><td>38</td><td>esto</td><td>88</td><td>hola</td><td>138</td><td>mis</td><td>188</td><td>allí</td></tr>\n    <tr><td>39</td><td>todo</td><td>89</td><td>solo</td><td>139</td><td>estamos</td><td>189</td><td>menos</td></tr>\n    <tr><td>40</td><td>ya</td><td>90</td><td>verdad</td><td>140</td><td>otra</td><td>190</td><td>tipo</td></tr>\n    <tr><td>41</td><td>estoy</td><td>91</td><td>casa</td><td>141</td><td>acuerdo</td><td>191</td><td>amigo</td></tr>\n    <tr><td>42</td><td>ahora</td><td>92</td><td>tan</td><td>142</td><td>trabajo</td><td>192</td><td>gran</td></tr>\n    <tr><td>43</td><td>muy</td><td>93</td><td>quién</td><td>143</td><td>nosotros</td><td>193</td><td>nuestro</td></tr>\n    <tr><td>44</td><td>ha</td><td>94</td><td>sus</td><td>144</td><td>parece</td><td>194</td><td>mujer</td></tr>\n    <tr><td>45</td><td>esta</td><td>95</td><td>tiempo</td><td>145</td><td>gente</td><td>195</td><td>mamá</td></tr>\n    <tr><td>46</td><td>así</td><td>96</td><td>dos</td><td>146</td><td>sea</td><td>196</td><td>luego</td></tr>\n    <tr><td>47</td><td>vamos</td><td>97</td><td>esa</td><td>147</td><td>padre</td><td>197</td><td>papá</td></tr>\n    <tr><td>48</td><td>algo</td><td>98</td><td>nunca</td><td>148</td><td>mira</td><td>198</td><td>días</td></tr>\n    <tr><td>49</td><td>hay</td><td>99</td><td>dónde</td><td>149</td><td>mismo</td><td>199</td><td>dice</td></tr>\n    <tr><td>50</td><td>bueno</td><td>100</td><td>va</td><td>150</td><td>dijo</td><td>200</td><td>hoy</td></tr>\n  </tbody></table></div>"
+     ]
+    },
+    {
+     "h2": "Why drill the top Spanish words",
+     "p": [
+      "In almost every language, a few hundred words cover most of what people actually write. Spanish is no exception: these 200 words appear again and again in messages, documents, subtitles and web pages. If your fingers can produce them without thinking, your real-world Spanish typing speed rises immediately — long before you memorise any larger vocabulary.",
+      "Spanish high-frequency words include the accented vowels (qué, más, está) and the ñ that make Spanish typing distinct. Getting fast at these 200 words means your fingers stop hesitating at the accent keys."
+     ]
+    },
+    {
+     "h2": "How to practise Spanish typing with this list",
+     "p": [
+      "Start the test above — it draws words from this very list, so every round drills the words that matter. Type a short round every day, aim for accuracy first (97%+), and only then push for speed. Watch the weak-key report after each round: it shows exactly which letters slow you down, so you can target them instead of re-typing words you already know.",
+      "When you want full sentences instead of single words, switch to the <a href=\"spanish-typing-test.html\">Spanish typing test</a>, or benchmark yourself against the classic <a href=\"1-minute-typing-test.html\">1 minute typing test</a>."
+     ]
+    },
+    {
+     "h2": "Word lists in other languages",
+     "p": [
+      "The same top-200 frequency list is available for: <a href=\"top-en-words.html\">English</a> · <a href=\"top-hi-words.html\">Hindi</a> · <a href=\"top-ja-words.html\">Japanese</a> · <a href=\"top-ko-words.html\">Korean</a> · <a href=\"top-ur-words.html\">Urdu</a>. Each list is built from the same open subtitle-frequency dataset, so the lists are directly comparable across languages."
+     ]
+    }
+   ],
+   "faqFirstOpen": true,
+   "faqH2": "Top Spanish words FAQ",
+   "faq": [
+    {
+     "q": "Where does this Spanish word list come from?",
+     "a": "From the open FrequencyWords dataset (MIT license), which counts word frequencies in OpenSubtitles transcripts. We filtered the raw ranking to native-script words and took the top 200."
+    },
+    {
+     "q": "Are these really the most common Spanish words?",
+     "a": "They are the most frequent words in subtitle transcripts — everyday spoken-style language. That makes them the most useful 200 words for typing practice, though formal written text has a slightly different profile."
+    },
+    {
+     "q": "How should I use this list to get faster at Spanish typing?",
+     "a": "Practise with the built-in test above: it serves these exact words in timed rounds. Short daily rounds with an accuracy-first approach build speed fastest."
+    },
+    {
+     "q": "Is this page free?",
+     "a": "Yes. The word list and the typing practice test are free with no sign up."
+    }
+   ],
+   "tldr": "This page lists the 200 most common Spanish words from the open FrequencyWords subtitle-frequency dataset (MIT license), with a free built-in typing test that drills these exact words. A few hundred high-frequency words cover most everyday Spanish text, so mastering this list is the fastest route to real-world Spanish typing speed.",
+   "webAppName": "Typing Speed Test",
+   "webAppUrl": "https://typing.rerivo.com/top-es-words.html",
+   "bcItems": [
+    {
+     "name": "Home",
+     "item": "https://typing.rerivo.com/"
+    },
+    {
+     "name": "Top Spanish Words",
+     "item": "https://typing.rerivo.com/top-es-words.html"
+    }
+   ],
+   "ldPretty": []
+  },
+  {
+   "file": "top-hi-words.html",
+   "title": "Top 200 Most Common Hindi Words (with Typing Practice)",
+   "metaDesc": "The 200 most common Hindi words from real frequency data, with a free typing practice test built in. Learn the words that make up most everyday Hindi text.",
+   "canonical": "https://typing.rerivo.com/top-hi-words.html",
+   "dur": 60,
+   "mode": "words",
+   "variant": null,
+   "lang": "hi",
+   "nav": [
+    {
+     "href": "hindi-typing-test.html",
+     "text": "Hindi Typing Test"
+    },
+    {
+     "href": "typing-practice.html",
+     "text": "Typing Practice"
+    },
+    {
+     "href": "words-per-minute-test.html",
+     "text": "WPM Test"
+    }
+   ],
+   "crumbs": [
+    "Home",
+    "Top Hindi Words"
+   ],
+   "h1": "Top 200 Most Common Hindi Words",
+   "heroP": "The 200 most common <strong>Hindi words</strong> from real frequency data, with a free typing practice test above. Master these and you cover the bulk of everyday Hindi text.",
+   "seo": [
+    {
+     "h2": "The 200 most common Hindi words",
+     "p": [
+      "The 200 most common Hindi words below come from real subtitle frequency data — everyday Devanagari words, not dictionary entries. The list is drawn from the FrequencyWords open dataset (MIT license), built from OpenSubtitles transcripts, and filtered to words in the native script only.",
+      "<div class=\"tbl\"><table><thead><tr><th>#</th><th>Word</th><th>#</th><th>Word</th><th>#</th><th>Word</th><th>#</th><th>Word</th></tr></thead><tbody>\n    <tr><td>1</td><td>एक</td><td>51</td><td>आग</td><td>101</td><td>असल</td><td>151</td><td>पहन</td></tr>\n    <tr><td>2</td><td>आप</td><td>52</td><td>शहर</td><td>102</td><td>आई</td><td>152</td><td>एह</td></tr>\n    <tr><td>3</td><td>और</td><td>53</td><td>डर</td><td>103</td><td>शक</td><td>153</td><td>असफल</td></tr>\n    <tr><td>4</td><td>यह</td><td>54</td><td>नरक</td><td>104</td><td>दल</td><td>154</td><td>लक</td></tr>\n    <tr><td>5</td><td>कर</td><td>55</td><td>तब</td><td>105</td><td>नजर</td><td>155</td><td>हरमन</td></tr>\n    <tr><td>6</td><td>हम</td><td>56</td><td>बदल</td><td>106</td><td>डबल</td><td>156</td><td>बकबक</td></tr>\n    <tr><td>7</td><td>वह</td><td>57</td><td>औरत</td><td>107</td><td>बह</td><td>157</td><td>उपर</td></tr>\n    <tr><td>8</td><td>पर</td><td>58</td><td>अलग</td><td>108</td><td>इधर</td><td>158</td><td>वजन</td></tr>\n    <tr><td>9</td><td>इस</td><td>59</td><td>नए</td><td>109</td><td>आम</td><td>159</td><td>मऊ</td></tr>\n    <tr><td>10</td><td>अब</td><td>60</td><td>मन</td><td>110</td><td>बच</td><td>160</td><td>रस</td></tr>\n    <tr><td>11</td><td>तरह</td><td>61</td><td>कदम</td><td>111</td><td>ऋण</td><td>161</td><td>बचत</td></tr>\n    <tr><td>12</td><td>सब</td><td>62</td><td>रह</td><td>112</td><td>सरल</td><td>162</td><td>वचन</td></tr>\n    <tr><td>13</td><td>जब</td><td>63</td><td>आए</td><td>113</td><td>जल</td><td>163</td><td>जय</td></tr>\n    <tr><td>14</td><td>बस</td><td>64</td><td>लगभग</td><td>114</td><td>मई</td><td>164</td><td>ऊह</td></tr>\n    <tr><td>15</td><td>अगर</td><td>65</td><td>नफरत</td><td>115</td><td>दफन</td><td>165</td><td>ऐ</td></tr>\n    <tr><td>16</td><td>तक</td><td>66</td><td>बन</td><td>116</td><td>सफल</td><td>166</td><td>उलमन</td></tr>\n    <tr><td>17</td><td>समय</td><td>67</td><td>छह</td><td>117</td><td>बल</td><td>167</td><td>शरण</td></tr>\n    <tr><td>18</td><td>ओह</td><td>68</td><td>भर</td><td>118</td><td>दर</td><td>168</td><td>आकर</td></tr>\n    <tr><td>19</td><td>आ</td><td>69</td><td>तरफ</td><td>119</td><td>बदतर</td><td>169</td><td>रन</td></tr>\n    <tr><td>20</td><td>उस</td><td>70</td><td>कब</td><td>120</td><td>तट</td><td>170</td><td>ल</td></tr>\n    <tr><td>21</td><td>मत</td><td>71</td><td>रख</td><td>121</td><td>ऊ</td><td>171</td><td>द</td></tr>\n    <tr><td>22</td><td>घर</td><td>72</td><td>एन</td><td>122</td><td>बगल</td><td>172</td><td>हक</td></tr>\n    <tr><td>23</td><td>एम</td><td>73</td><td>एलन</td><td>123</td><td>दम</td><td>173</td><td>अल</td></tr>\n    <tr><td>24</td><td>हर</td><td>74</td><td>पल</td><td>124</td><td>गरम</td><td>174</td><td>रथ</td></tr>\n    <tr><td>25</td><td>मतलब</td><td>75</td><td>दस</td><td>125</td><td>फल</td><td>175</td><td>एकदम</td></tr>\n    <tr><td>26</td><td>मदद</td><td>76</td><td>बज</td><td>126</td><td>हट</td><td>176</td><td>उधर</td></tr>\n    <tr><td>27</td><td>आज</td><td>77</td><td>नई</td><td>127</td><td>एस</td><td>177</td><td>ओउ</td></tr>\n    <tr><td>28</td><td>आओ</td><td>78</td><td>एल</td><td>128</td><td>सह</td><td>178</td><td>उदयगढ</td></tr>\n    <tr><td>29</td><td>न</td><td>79</td><td>वजह</td><td>129</td><td>गबन</td><td>179</td><td>लव</td></tr>\n    <tr><td>30</td><td>इन</td><td>80</td><td>खबर</td><td>130</td><td>सबक</td><td>180</td><td>डटकर</td></tr>\n    <tr><td>31</td><td>सर</td><td>81</td><td>उम</td><td>131</td><td>नमक</td><td>181</td><td>चमक</td></tr>\n    <tr><td>32</td><td>जगह</td><td>82</td><td>तय</td><td>132</td><td>अवसर</td><td>182</td><td>ओय</td></tr>\n    <tr><td>33</td><td>लग</td><td>83</td><td>कवर</td><td>133</td><td>ओवर</td><td>183</td><td>अरब</td></tr>\n    <tr><td>34</td><td>कम</td><td>84</td><td>बहन</td><td>134</td><td>अचल</td><td>184</td><td>सतह</td></tr>\n    <tr><td>35</td><td>सच</td><td>85</td><td>ओ</td><td>135</td><td>फसल</td><td>185</td><td>कवच</td></tr>\n    <tr><td>36</td><td>मर</td><td>86</td><td>छत</td><td>136</td><td>कप</td><td>186</td><td>ऑफ</td></tr>\n    <tr><td>37</td><td>उन</td><td>87</td><td>जनरल</td><td>137</td><td>जहर</td><td>187</td><td>जज</td></tr>\n    <tr><td>38</td><td>गए</td><td>88</td><td>धन</td><td>138</td><td>गठन</td><td>188</td><td>पवन</td></tr>\n    <tr><td>39</td><td>ऊपर</td><td>89</td><td>अप</td><td>139</td><td>नकद</td><td>189</td><td>उलझन</td></tr>\n    <tr><td>40</td><td>कल</td><td>90</td><td>सहमत</td><td>140</td><td>बचपन</td><td>190</td><td>कट</td></tr>\n    <tr><td>41</td><td>कह</td><td>91</td><td>कसम</td><td>141</td><td>बहस</td><td>191</td><td>लहर</td></tr>\n    <tr><td>42</td><td>आह</td><td>92</td><td>मम</td><td>142</td><td>चयन</td><td>192</td><td>एवन</td></tr>\n    <tr><td>43</td><td>उह</td><td>93</td><td>बम</td><td>143</td><td>टन</td><td>193</td><td>सहन</td></tr>\n    <tr><td>44</td><td>चल</td><td>94</td><td>आठ</td><td>144</td><td>सटन</td><td>194</td><td>उप</td></tr>\n    <tr><td>45</td><td>आर</td><td>95</td><td>चकमक</td><td>145</td><td>भय</td><td>195</td><td>नकल</td></tr>\n    <tr><td>46</td><td>ओर</td><td>96</td><td>थक</td><td>146</td><td>शहद</td><td>196</td><td>ख</td></tr>\n    <tr><td>47</td><td>गई</td><td>97</td><td>तहत</td><td>147</td><td>ई</td><td>197</td><td>ग़लत</td></tr>\n    <tr><td>48</td><td>गलत</td><td>98</td><td>वन</td><td>148</td><td>उपकरण</td><td>198</td><td>ऑफ़</td></tr>\n    <tr><td>49</td><td>समझ</td><td>99</td><td>ए</td><td>149</td><td>उठ</td><td>199</td><td>नल</td></tr>\n    <tr><td>50</td><td>कई</td><td>100</td><td>हल</td><td>150</td><td>आदत</td><td>200</td><td>ईआर</td></tr>\n  </tbody></table></div>"
+     ]
+    },
+    {
+     "h2": "Why drill the top Hindi words",
+     "p": [
+      "In almost every language, a few hundred words cover most of what people actually write. Hindi is no exception: these 200 words appear again and again in messages, documents, subtitles and web pages. If your fingers can produce them without thinking, your real-world Hindi typing speed rises immediately — long before you memorise any larger vocabulary.",
+      "Hindi high-frequency words are rich in matras and the conjunct consonants (क्ष, त्र, ज्ञ) that slow most typists down. Drilling these 200 words builds automaticity exactly where Hindi typing needs it."
+     ]
+    },
+    {
+     "h2": "How to practise Hindi typing with this list",
+     "p": [
+      "Start the test above — it draws words from this very list, so every round drills the words that matter. Type a short round every day, aim for accuracy first (97%+), and only then push for speed. Watch the weak-key report after each round: it shows exactly which letters slow you down, so you can target them instead of re-typing words you already know.",
+      "When you want full sentences instead of single words, switch to the <a href=\"hindi-typing-test.html\">Hindi typing test</a>, or benchmark yourself against the classic <a href=\"1-minute-typing-test.html\">1 minute typing test</a>."
+     ]
+    },
+    {
+     "h2": "Word lists in other languages",
+     "p": [
+      "The same top-200 frequency list is available for: <a href=\"top-en-words.html\">English</a> · <a href=\"top-es-words.html\">Spanish</a> · <a href=\"top-ja-words.html\">Japanese</a> · <a href=\"top-ko-words.html\">Korean</a> · <a href=\"top-ur-words.html\">Urdu</a>. Each list is built from the same open subtitle-frequency dataset, so the lists are directly comparable across languages."
+     ]
+    }
+   ],
+   "faqFirstOpen": true,
+   "faqH2": "Top Hindi words FAQ",
+   "faq": [
+    {
+     "q": "Where does this Hindi word list come from?",
+     "a": "From the open FrequencyWords dataset (MIT license), which counts word frequencies in OpenSubtitles transcripts. We filtered the raw ranking to native-script words and took the top 200."
+    },
+    {
+     "q": "Are these really the most common Hindi words?",
+     "a": "They are the most frequent words in subtitle transcripts — everyday spoken-style language. That makes them the most useful 200 words for typing practice, though formal written text has a slightly different profile."
+    },
+    {
+     "q": "How should I use this list to get faster at Hindi typing?",
+     "a": "Practise with the built-in test above: it serves these exact words in timed rounds. Short daily rounds with an accuracy-first approach build speed fastest."
+    },
+    {
+     "q": "Is this page free?",
+     "a": "Yes. The word list and the typing practice test are free with no sign up."
+    }
+   ],
+   "tldr": "This page lists the 200 most common Hindi words from the open FrequencyWords subtitle-frequency dataset (MIT license), with a free built-in typing test that drills these exact words. A few hundred high-frequency words cover most everyday Hindi text, so mastering this list is the fastest route to real-world Hindi typing speed.",
+   "webAppName": "Typing Speed Test",
+   "webAppUrl": "https://typing.rerivo.com/top-hi-words.html",
+   "bcItems": [
+    {
+     "name": "Home",
+     "item": "https://typing.rerivo.com/"
+    },
+    {
+     "name": "Top Hindi Words",
+     "item": "https://typing.rerivo.com/top-hi-words.html"
+    }
+   ],
+   "ldPretty": []
+  },
+  {
+   "file": "top-ja-words.html",
+   "title": "Top 200 Most Common Japanese Words (with Typing Practice)",
+   "metaDesc": "The 200 most common Japanese words from real frequency data, with a free typing practice test built in. Learn the words that make up most everyday Japanese text.",
+   "canonical": "https://typing.rerivo.com/top-ja-words.html",
+   "dur": 60,
+   "mode": "words",
+   "variant": null,
+   "lang": "ja",
+   "nav": [
+    {
+     "href": "japanese-typing-test.html",
+     "text": "Japanese Typing Test"
+    },
+    {
+     "href": "typing-practice.html",
+     "text": "Typing Practice"
+    },
+    {
+     "href": "words-per-minute-test.html",
+     "text": "WPM Test"
+    }
+   ],
+   "crumbs": [
+    "Home",
+    "Top Japanese Words"
+   ],
+   "h1": "Top 200 Most Common Japanese Words",
+   "heroP": "The 200 most common <strong>Japanese words</strong> from real frequency data, with a free typing practice test above. Master these and you cover the bulk of everyday Japanese text.",
+   "seo": [
+    {
+     "h2": "The 200 most common Japanese words",
+     "p": [
+      "The 200 most common Japanese words below come from real subtitle frequency data, segmented the way Japanese text is actually written. The list is drawn from the FrequencyWords open dataset (MIT license), built from OpenSubtitles transcripts, and filtered to words in the native script only.",
+      "<div class=\"tbl\"><table><thead><tr><th>#</th><th>Word</th><th>#</th><th>Word</th><th>#</th><th>Word</th><th>#</th><th>Word</th></tr></thead><tbody>\n    <tr><td>1</td><td>い</td><td>51</td><td>よう</td><td>101</td><td>ため</td><td>151</td><td>目</td></tr>\n    <tr><td>2</td><td>の</td><td>52</td><td>くれ</td><td>102</td><td>もの</td><td>152</td><td>所</td></tr>\n    <tr><td>3</td><td>は</td><td>53</td><td>これ</td><td>103</td><td>あの</td><td>153</td><td>やめ</td></tr>\n    <tr><td>4</td><td>て</td><td>54</td><td>この</td><td>104</td><td>待</td><td>154</td><td>車</td></tr>\n    <tr><td>5</td><td>た</td><td>55</td><td>事</td><td>105</td><td>奴</td><td>155</td><td>居</td></tr>\n    <tr><td>6</td><td>に</td><td>56</td><td>ここ</td><td>106</td><td>気</td><td>156</td><td>分</td></tr>\n    <tr><td>7</td><td>な</td><td>57</td><td>人</td><td>107</td><td>無</td><td>157</td><td>なん</td></tr>\n    <tr><td>8</td><td>を</td><td>58</td><td>知</td><td>108</td><td>良</td><td>158</td><td>みたい</td></tr>\n    <tr><td>9</td><td>る</td><td>59</td><td>き</td><td>109</td><td>大丈夫</td><td>159</td><td>より</td></tr>\n    <tr><td>10</td><td>だ</td><td>60</td><td>ば</td><td>110</td><td>自分</td><td>160</td><td>様</td></tr>\n    <tr><td>11</td><td>が</td><td>61</td><td>その</td><td>111</td><td>持</td><td>161</td><td>あんた</td></tr>\n    <tr><td>12</td><td>で</td><td>62</td><td>誰</td><td>112</td><td>時間</td><td>162</td><td>こ</td></tr>\n    <tr><td>13</td><td>し</td><td>63</td><td>彼女</td><td>113</td><td>一</td><td>163</td><td>また</td></tr>\n    <tr><td>14</td><td>っ</td><td>64</td><td>思</td><td>114</td><td>なぜ</td><td>164</td><td>場所</td></tr>\n    <tr><td>15</td><td>か</td><td>65</td><td>見</td><td>115</td><td>家</td><td>165</td><td>みんな</td></tr>\n    <tr><td>16</td><td>と</td><td>66</td><td>って</td><td>116</td><td>本当</td><td>166</td><td>父</td></tr>\n    <tr><td>17</td><td>も</td><td>67</td><td>お前</td><td>117</td><td>まだ</td><td>167</td><td>度</td></tr>\n    <tr><td>18</td><td>ん</td><td>68</td><td>話</td><td>118</td><td>そんな</td><td>168</td><td>べ</td></tr>\n    <tr><td>19</td><td>す</td><td>69</td><td>だっ</td><td>119</td><td>的</td><td>169</td><td>欲し</td></tr>\n    <tr><td>20</td><td>よ</td><td>70</td><td>つ</td><td>120</td><td>む</td><td>170</td><td>同じ</td></tr>\n    <tr><td>21</td><td>う</td><td>71</td><td>ぞ</td><td>121</td><td>戻</td><td>171</td><td>金</td></tr>\n    <tr><td>22</td><td>ま</td><td>72</td><td>さん</td><td>122</td><td>ありがとう</td><td>172</td><td>しろ</td></tr>\n    <tr><td>23</td><td>私</td><td>73</td><td>もう</td><td>123</td><td>いや</td><td>173</td><td>問題</td></tr>\n    <tr><td>24</td><td>ら</td><td>74</td><td>来</td><td>124</td><td>男</td><td>174</td><td>こんな</td></tr>\n    <tr><td>25</td><td>く</td><td>75</td><td>僕</td><td>125</td><td>考え</td><td>175</td><td>おい</td></tr>\n    <tr><td>26</td><td>何</td><td>76</td><td>しょ</td><td>126</td><td>会</td><td>176</td><td>え</td></tr>\n    <tr><td>27</td><td>わ</td><td>77</td><td>でき</td><td>127</td><td>年</td><td>177</td><td>子供</td></tr>\n    <tr><td>28</td><td>から</td><td>78</td><td>だけ</td><td>128</td><td>日</td><td>178</td><td>愛</td></tr>\n    <tr><td>29</td><td>あ</td><td>79</td><td>なら</td><td>129</td><td>方</td><td>179</td><td>名前</td></tr>\n    <tr><td>30</td><td>れ</td><td>80</td><td>者</td><td>130</td><td>そして</td><td>180</td><td>帰</td></tr>\n    <tr><td>31</td><td>ね</td><td>81</td><td>わか</td><td>131</td><td>仕事</td><td>181</td><td>子</td></tr>\n    <tr><td>32</td><td>する</td><td>82</td><td>今</td><td>132</td><td>手</td><td>182</td><td>もし</td></tr>\n    <tr><td>33</td><td>それ</td><td>83</td><td>分か</td><td>133</td><td>見つけ</td><td>183</td><td>ただ</td></tr>\n    <tr><td>34</td><td>彼</td><td>84</td><td>たち</td><td>134</td><td>ちょっと</td><td>184</td><td>はず</td></tr>\n    <tr><td>35</td><td>さ</td><td>85</td><td>聞</td><td>135</td><td>じ</td><td>185</td><td>信</td></tr>\n    <tr><td>36</td><td>ろ</td><td>86</td><td>出</td><td>136</td><td>いつ</td><td>186</td><td>全て</td></tr>\n    <tr><td>37</td><td>こと</td><td>87</td><td>まで</td><td>137</td><td>出来</td><td>187</td><td>けれ</td></tr>\n    <tr><td>38</td><td>そう</td><td>88</td><td>けど</td><td>138</td><td>違</td><td>188</td><td>好き</td></tr>\n    <tr><td>39</td><td>あなた</td><td>89</td><td>どこ</td><td>139</td><td>後</td><td>189</td><td>ご</td></tr>\n    <tr><td>40</td><td>お</td><td>90</td><td>られ</td><td>140</td><td>他</td><td>190</td><td>使</td></tr>\n    <tr><td>41</td><td>どう</td><td>91</td><td>死</td><td>141</td><td>そこ</td><td>191</td><td>少し</td></tr>\n    <tr><td>42</td><td>君</td><td>92</td><td>へ</td><td>142</td><td>一緒</td><td>192</td><td>くださ</td></tr>\n    <tr><td>43</td><td>せ</td><td>93</td><td>時</td><td>143</td><td>電話</td><td>193</td><td>さあ</td></tr>\n    <tr><td>44</td><td>言</td><td>94</td><td>殺</td><td>144</td><td>すぐ</td><td>194</td><td>見え</td></tr>\n    <tr><td>45</td><td>俺</td><td>95</td><td>達</td><td>145</td><td>悪</td><td>195</td><td>通り</td></tr>\n    <tr><td>46</td><td>や</td><td>96</td><td>ああ</td><td>146</td><td>なさ</td><td>196</td><td>教え</td></tr>\n    <tr><td>47</td><td>じゃ</td><td>97</td><td>前</td><td>147</td><td>入</td><td>197</td><td>皆</td></tr>\n    <tr><td>48</td><td>り</td><td>98</td><td>中</td><td>148</td><td>助け</td><td>198</td><td>ー</td></tr>\n    <tr><td>49</td><td>かっ</td><td>99</td><td>必要</td><td>149</td><td>ええ</td><td>199</td><td>為</td></tr>\n    <tr><td>50</td><td>行</td><td>100</td><td>み</td><td>150</td><td>なんて</td><td>200</td><td>入れ</td></tr>\n  </tbody></table></div>"
+     ]
+    },
+    {
+     "h2": "Why drill the top Japanese words",
+     "p": [
+      "In almost every language, a few hundred words cover most of what people actually write. Japanese is no exception: these 200 words appear again and again in messages, documents, subtitles and web pages. If your fingers can produce them without thinking, your real-world Japanese typing speed rises immediately — long before you memorise any larger vocabulary.",
+      "Japanese high-frequency words are dominated by particles (は, が, を, に) and the most common verbs and auxiliaries. Because Japanese has no spaces between words, learning to type these fragments instantly is what makes full-sentence typing feel fluent."
+     ]
+    },
+    {
+     "h2": "How to practise Japanese typing with this list",
+     "p": [
+      "Start the test above — it draws words from this very list, so every round drills the words that matter. Type a short round every day, aim for accuracy first (97%+), and only then push for speed. Watch the weak-key report after each round: it shows exactly which letters slow you down, so you can target them instead of re-typing words you already know.",
+      "When you want full sentences instead of single words, switch to the <a href=\"japanese-typing-test.html\">Japanese typing test</a>, or benchmark yourself against the classic <a href=\"1-minute-typing-test.html\">1 minute typing test</a>."
+     ]
+    },
+    {
+     "h2": "Word lists in other languages",
+     "p": [
+      "The same top-200 frequency list is available for: <a href=\"top-en-words.html\">English</a> · <a href=\"top-es-words.html\">Spanish</a> · <a href=\"top-hi-words.html\">Hindi</a> · <a href=\"top-ko-words.html\">Korean</a> · <a href=\"top-ur-words.html\">Urdu</a>. Each list is built from the same open subtitle-frequency dataset, so the lists are directly comparable across languages."
+     ]
+    }
+   ],
+   "faqFirstOpen": true,
+   "faqH2": "Top Japanese words FAQ",
+   "faq": [
+    {
+     "q": "Where does this Japanese word list come from?",
+     "a": "From the open FrequencyWords dataset (MIT license), which counts word frequencies in OpenSubtitles transcripts. We filtered the raw ranking to native-script words and took the top 200."
+    },
+    {
+     "q": "Are these really the most common Japanese words?",
+     "a": "They are the most frequent words in subtitle transcripts — everyday spoken-style language. That makes them the most useful 200 words for typing practice, though formal written text has a slightly different profile."
+    },
+    {
+     "q": "How should I use this list to get faster at Japanese typing?",
+     "a": "Practise with the built-in test above: it serves these exact words in timed rounds. Short daily rounds with an accuracy-first approach build speed fastest."
+    },
+    {
+     "q": "Is this page free?",
+     "a": "Yes. The word list and the typing practice test are free with no sign up."
+    }
+   ],
+   "tldr": "This page lists the 200 most common Japanese words from the open FrequencyWords subtitle-frequency dataset (MIT license), with a free built-in typing test that drills these exact words. A few hundred high-frequency words cover most everyday Japanese text, so mastering this list is the fastest route to real-world Japanese typing speed.",
+   "webAppName": "Typing Speed Test",
+   "webAppUrl": "https://typing.rerivo.com/top-ja-words.html",
+   "bcItems": [
+    {
+     "name": "Home",
+     "item": "https://typing.rerivo.com/"
+    },
+    {
+     "name": "Top Japanese Words",
+     "item": "https://typing.rerivo.com/top-ja-words.html"
+    }
+   ],
+   "ldPretty": []
+  },
+  {
+   "file": "top-ko-words.html",
+   "title": "Top 200 Most Common Korean Words (with Typing Practice)",
+   "metaDesc": "The 200 most common Korean words from real frequency data, with a free typing practice test built in. Learn the words that make up most everyday Korean text.",
+   "canonical": "https://typing.rerivo.com/top-ko-words.html",
+   "dur": 60,
+   "mode": "words",
+   "variant": null,
+   "lang": "ko",
+   "nav": [
+    {
+     "href": "korean-typing-test.html",
+     "text": "Korean Typing Test"
+    },
+    {
+     "href": "typing-practice.html",
+     "text": "Typing Practice"
+    },
+    {
+     "href": "words-per-minute-test.html",
+     "text": "WPM Test"
+    }
+   ],
+   "crumbs": [
+    "Home",
+    "Top Korean Words"
+   ],
+   "h1": "Top 200 Most Common Korean Words",
+   "heroP": "The 200 most common <strong>Korean words</strong> from real frequency data, with a free typing practice test above. Master these and you cover the bulk of everyday Korean text.",
+   "seo": [
+    {
+     "h2": "The 200 most common Korean words",
+     "p": [
+      "The 200 most common Korean words below come from real subtitle frequency data — the spoken-style words that dominate everyday Korean typing. The list is drawn from the FrequencyWords open dataset (MIT license), built from OpenSubtitles transcripts, and filtered to words in the native script only.",
+      "<div class=\"tbl\"><table><thead><tr><th>#</th><th>Word</th><th>#</th><th>Word</th><th>#</th><th>Word</th><th>#</th><th>Word</th></tr></thead><tbody>\n    <tr><td>1</td><td>내가</td><td>51</td><td>못</td><td>101</td><td>어서</td><td>151</td><td>집에</td></tr>\n    <tr><td>2</td><td>그</td><td>52</td><td>좋아</td><td>102</td><td>그는</td><td>152</td><td>거지</td></tr>\n    <tr><td>3</td><td>난</td><td>53</td><td>당신이</td><td>103</td><td>위해</td><td>153</td><td>일을</td></tr>\n    <tr><td>4</td><td>내</td><td>54</td><td>다른</td><td>104</td><td>해요</td><td>154</td><td>저는</td></tr>\n    <tr><td>5</td><td>안</td><td>55</td><td>나</td><td>105</td><td>일이</td><td>155</td><td>음</td></tr>\n    <tr><td>6</td><td>수</td><td>56</td><td>그런</td><td>106</td><td>하지</td><td>156</td><td>그렇지</td></tr>\n    <tr><td>7</td><td>이</td><td>57</td><td>그건</td><td>107</td><td>엄마</td><td>157</td><td>함께</td></tr>\n    <tr><td>8</td><td>네</td><td>58</td><td>너무</td><td>108</td><td>바로</td><td>158</td><td>만약</td></tr>\n    <tr><td>9</td><td>거야</td><td>59</td><td>그래서</td><td>109</td><td>가</td><td>159</td><td>하나</td></tr>\n    <tr><td>10</td><td>좀</td><td>60</td><td>그렇게</td><td>110</td><td>근데</td><td>160</td><td>저기</td></tr>\n    <tr><td>11</td><td>그래</td><td>61</td><td>다시</td><td>111</td><td>알고</td><td>161</td><td>고마워요</td></tr>\n    <tr><td>12</td><td>있어</td><td>62</td><td>이건</td><td>112</td><td>이렇게</td><td>162</td><td>항상</td></tr>\n    <tr><td>13</td><td>왜</td><td>63</td><td>이런</td><td>113</td><td>빨리</td><td>163</td><td>나한테</td></tr>\n    <tr><td>14</td><td>더</td><td>64</td><td>나도</td><td>114</td><td>있습니다</td><td>164</td><td>잠깐</td></tr>\n    <tr><td>15</td><td>그리고</td><td>65</td><td>모든</td><td>115</td><td>이거</td><td>165</td><td>가서</td></tr>\n    <tr><td>16</td><td>우리</td><td>66</td><td>당신</td><td>116</td><td>전에</td><td>166</td><td>가장</td></tr>\n    <tr><td>17</td><td>다</td><td>67</td><td>거예요</td><td>117</td><td>어</td><td>167</td><td>돼요</td></tr>\n    <tr><td>18</td><td>무슨</td><td>68</td><td>당신은</td><td>118</td><td>아뇨</td><td>168</td><td>거죠</td></tr>\n    <tr><td>19</td><td>한</td><td>69</td><td>아</td><td>119</td><td>계속</td><td>169</td><td>가자</td></tr>\n    <tr><td>20</td><td>하지만</td><td>70</td><td>좋은</td><td>120</td><td>닥터</td><td>170</td><td>맞아</td></tr>\n    <tr><td>21</td><td>잘</td><td>71</td><td>오</td><td>121</td><td>얼마나</td><td>171</td><td>보고</td></tr>\n    <tr><td>22</td><td>어떻게</td><td>72</td><td>때</td><td>122</td><td>될</td><td>172</td><td>와</td></tr>\n    <tr><td>23</td><td>할</td><td>73</td><td>너</td><td>123</td><td>알았어</td><td>173</td><td>그거</td></tr>\n    <tr><td>24</td><td>그냥</td><td>74</td><td>하는</td><td>124</td><td>않아</td><td>174</td><td>말을</td></tr>\n    <tr><td>25</td><td>정말</td><td>75</td><td>하고</td><td>125</td><td>제발</td><td>175</td><td>괜찮아요</td></tr>\n    <tr><td>26</td><td>그럼</td><td>76</td><td>아냐</td><td>126</td><td>있지</td><td>176</td><td>아무도</td></tr>\n    <tr><td>27</td><td>것</td><td>77</td><td>나는</td><td>127</td><td>겁니다</td><td>177</td><td>없는</td></tr>\n    <tr><td>28</td><td>게</td><td>78</td><td>아니야</td><td>128</td><td>어디</td><td>178</td><td>안녕하세요</td></tr>\n    <tr><td>29</td><td>있어요</td><td>79</td><td>알아</td><td>129</td><td>사람이</td><td>179</td><td>몰라</td></tr>\n    <tr><td>30</td><td>있는</td><td>80</td><td>같이</td><td>130</td><td>그가</td><td>180</td><td>일</td></tr>\n    <tr><td>31</td><td>해</td><td>81</td><td>응</td><td>131</td><td>안녕</td><td>181</td><td>많은</td></tr>\n    <tr><td>32</td><td>여기</td><td>82</td><td>이게</td><td>132</td><td>좋아요</td><td>182</td><td>당신의</td></tr>\n    <tr><td>33</td><td>넌</td><td>83</td><td>없어요</td><td>133</td><td>같아</td><td>183</td><td>아무것도</td></tr>\n    <tr><td>34</td><td>제가</td><td>84</td><td>괜찮아</td><td>134</td><td>우리는</td><td>184</td><td>그러니까</td></tr>\n    <tr><td>35</td><td>날</td><td>85</td><td>오늘</td><td>135</td><td>그래요</td><td>185</td><td>큰</td></tr>\n    <tr><td>36</td><td>우리가</td><td>86</td><td>말이야</td><td>136</td><td>당신을</td><td>186</td><td>알아요</td></tr>\n    <tr><td>37</td><td>건</td><td>87</td><td>줄</td><td>137</td><td>자</td><td>187</td><td>그의</td></tr>\n    <tr><td>38</td><td>전</td><td>88</td><td>또</td><td>138</td><td>그걸</td><td>188</td><td>뭐가</td></tr>\n    <tr><td>39</td><td>이제</td><td>89</td><td>널</td><td>139</td><td>두</td><td>189</td><td>고마워</td></tr>\n    <tr><td>40</td><td>지금</td><td>90</td><td>누가</td><td>140</td><td>아니에요</td><td>190</td><td>그만</td></tr>\n    <tr><td>41</td><td>그게</td><td>91</td><td>어떤</td><td>141</td><td>있을</td><td>191</td><td>했어요</td></tr>\n    <tr><td>42</td><td>걸</td><td>92</td><td>아주</td><td>142</td><td>때문에</td><td>192</td><td>젠장</td></tr>\n    <tr><td>43</td><td>거</td><td>93</td><td>말</td><td>143</td><td>대해</td><td>193</td><td>사람들이</td></tr>\n    <tr><td>44</td><td>아니</td><td>94</td><td>아직</td><td>144</td><td>아빠</td><td>194</td><td>거에요</td></tr>\n    <tr><td>45</td><td>네가</td><td>95</td><td>안돼</td><td>145</td><td>몇</td><td>195</td><td>이걸</td></tr>\n    <tr><td>46</td><td>없어</td><td>96</td><td>진짜</td><td>146</td><td>사람</td><td>196</td><td>그럴</td></tr>\n    <tr><td>47</td><td>돼</td><td>97</td><td>모두</td><td>147</td><td>했어</td><td>197</td><td>것도</td></tr>\n    <tr><td>48</td><td>저</td><td>98</td><td>마</td><td>148</td><td>뭐야</td><td>198</td><td>말이</td></tr>\n    <tr><td>49</td><td>우린</td><td>99</td><td>같은</td><td>149</td><td>수도</td><td>199</td><td>이미</td></tr>\n    <tr><td>50</td><td>제</td><td>100</td><td>여기서</td><td>150</td><td>많이</td><td>200</td><td>야</td></tr>\n  </tbody></table></div>"
+     ]
+    },
+    {
+     "h2": "Why drill the top Korean words",
+     "p": [
+      "In almost every language, a few hundred words cover most of what people actually write. Korean is no exception: these 200 words appear again and again in messages, documents, subtitles and web pages. If your fingers can produce them without thinking, your real-world Korean typing speed rises immediately — long before you memorise any larger vocabulary.",
+      "Korean high-frequency words are short, particle-heavy forms (내가, 그리고, 있어) built from a small set of jamo. Drilling them trains the even syllable-block rhythm that real Korean typing speed is made of."
+     ]
+    },
+    {
+     "h2": "How to practise Korean typing with this list",
+     "p": [
+      "Start the test above — it draws words from this very list, so every round drills the words that matter. Type a short round every day, aim for accuracy first (97%+), and only then push for speed. Watch the weak-key report after each round: it shows exactly which letters slow you down, so you can target them instead of re-typing words you already know.",
+      "When you want full sentences instead of single words, switch to the <a href=\"korean-typing-test.html\">Korean typing test</a>, or benchmark yourself against the classic <a href=\"1-minute-typing-test.html\">1 minute typing test</a>."
+     ]
+    },
+    {
+     "h2": "Word lists in other languages",
+     "p": [
+      "The same top-200 frequency list is available for: <a href=\"top-en-words.html\">English</a> · <a href=\"top-es-words.html\">Spanish</a> · <a href=\"top-hi-words.html\">Hindi</a> · <a href=\"top-ja-words.html\">Japanese</a> · <a href=\"top-ur-words.html\">Urdu</a>. Each list is built from the same open subtitle-frequency dataset, so the lists are directly comparable across languages."
+     ]
+    }
+   ],
+   "faqFirstOpen": true,
+   "faqH2": "Top Korean words FAQ",
+   "faq": [
+    {
+     "q": "Where does this Korean word list come from?",
+     "a": "From the open FrequencyWords dataset (MIT license), which counts word frequencies in OpenSubtitles transcripts. We filtered the raw ranking to native-script words and took the top 200."
+    },
+    {
+     "q": "Are these really the most common Korean words?",
+     "a": "They are the most frequent words in subtitle transcripts — everyday spoken-style language. That makes them the most useful 200 words for typing practice, though formal written text has a slightly different profile."
+    },
+    {
+     "q": "How should I use this list to get faster at Korean typing?",
+     "a": "Practise with the built-in test above: it serves these exact words in timed rounds. Short daily rounds with an accuracy-first approach build speed fastest."
+    },
+    {
+     "q": "Is this page free?",
+     "a": "Yes. The word list and the typing practice test are free with no sign up."
+    }
+   ],
+   "tldr": "This page lists the 200 most common Korean words from the open FrequencyWords subtitle-frequency dataset (MIT license), with a free built-in typing test that drills these exact words. A few hundred high-frequency words cover most everyday Korean text, so mastering this list is the fastest route to real-world Korean typing speed.",
+   "webAppName": "Typing Speed Test",
+   "webAppUrl": "https://typing.rerivo.com/top-ko-words.html",
+   "bcItems": [
+    {
+     "name": "Home",
+     "item": "https://typing.rerivo.com/"
+    },
+    {
+     "name": "Top Korean Words",
+     "item": "https://typing.rerivo.com/top-ko-words.html"
+    }
+   ],
+   "ldPretty": []
+  },
+  {
+   "file": "top-ur-words.html",
+   "title": "Top 200 Most Common Urdu Words (with Typing Practice)",
+   "metaDesc": "The 200 most common Urdu words from real frequency data, with a free typing practice test built in. Learn the words that make up most everyday Urdu text.",
+   "canonical": "https://typing.rerivo.com/top-ur-words.html",
+   "dur": 60,
+   "mode": "words",
+   "variant": null,
+   "lang": "ur",
+   "nav": [
+    {
+     "href": "urdu-typing-test.html",
+     "text": "Urdu Typing Test"
+    },
+    {
+     "href": "typing-practice.html",
+     "text": "Typing Practice"
+    },
+    {
+     "href": "words-per-minute-test.html",
+     "text": "WPM Test"
+    }
+   ],
+   "crumbs": [
+    "Home",
+    "Top Urdu Words"
+   ],
+   "h1": "Top 200 Most Common Urdu Words",
+   "heroP": "The 200 most common <strong>Urdu words</strong> from real frequency data, with a free typing practice test above. Master these and you cover the bulk of everyday Urdu text.",
+   "seo": [
+    {
+     "h2": "The 200 most common Urdu words",
+     "p": [
+      "The 200 most common Urdu words below come from real subtitle frequency data — the everyday words of spoken and written Urdu. The list is drawn from the FrequencyWords open dataset (MIT license), built from OpenSubtitles transcripts, and filtered to words in the native script only.",
+      "<div class=\"tbl\"><table><thead><tr><th>#</th><th>Word</th><th>#</th><th>Word</th><th>#</th><th>Word</th><th>#</th><th>Word</th></tr></thead><tbody>\n    <tr><td>1</td><td>ہے</td><td>51</td><td>گے</td><td>101</td><td>لگتا</td><td>151</td><td>رات</td></tr>\n    <tr><td>2</td><td>میں</td><td>52</td><td>بات</td><td>102</td><td>کرتا</td><td>152</td><td>ش</td></tr>\n    <tr><td>3</td><td>کے</td><td>53</td><td>سکتا</td><td>103</td><td>ء</td><td>153</td><td>وجہ</td></tr>\n    <tr><td>4</td><td>نہیں</td><td>54</td><td>اپنے</td><td>104</td><td>مل</td><td>154</td><td>دن</td></tr>\n    <tr><td>5</td><td>آپ</td><td>55</td><td>زیادہ</td><td>105</td><td>ہمیں</td><td>155</td><td>بار</td></tr>\n    <tr><td>6</td><td>کی</td><td>56</td><td>جی</td><td>106</td><td>ن</td><td>156</td><td>بس</td></tr>\n    <tr><td>7</td><td>ایک</td><td>57</td><td>کسی</td><td>107</td><td>نہ</td><td>157</td><td>دیکھو</td></tr>\n    <tr><td>8</td><td>سے</td><td>58</td><td>دیا</td><td>108</td><td>ہر</td><td>158</td><td>ي</td></tr>\n    <tr><td>9</td><td>ہیں</td><td>59</td><td>جاؤ</td><td>109</td><td>مجھ</td><td>159</td><td>نیچے</td></tr>\n    <tr><td>10</td><td>کو</td><td>60</td><td>بارے</td><td>110</td><td>پاس</td><td>160</td><td>خدا</td></tr>\n    <tr><td>11</td><td>اس</td><td>61</td><td>دو</td><td>111</td><td>طرف</td><td>161</td><td>چاہئے</td></tr>\n    <tr><td>12</td><td>نے</td><td>62</td><td>کرنا</td><td>112</td><td>لوگوں</td><td>162</td><td>کیلئے</td></tr>\n    <tr><td>13</td><td>یہ</td><td>63</td><td>چلو</td><td>113</td><td>تمام</td><td>163</td><td>جانے</td></tr>\n    <tr><td>14</td><td>کیا</td><td>64</td><td>تھے</td><td>114</td><td>ئ</td><td>164</td><td>تمہارے</td></tr>\n    <tr><td>15</td><td>تم</td><td>65</td><td>جا</td><td>115</td><td>اپنی</td><td>165</td><td>دور</td></tr>\n    <tr><td>16</td><td>اور</td><td>66</td><td>میری</td><td>116</td><td>آدمی</td><td>166</td><td>جگہ</td></tr>\n    <tr><td>17</td><td>وہ</td><td>67</td><td>باہر</td><td>117</td><td>تھی</td><td>167</td><td>دیکھا</td></tr>\n    <tr><td>18</td><td>ہو</td><td>68</td><td>تمہیں</td><td>118</td><td>کون</td><td>168</td><td>رہی</td></tr>\n    <tr><td>19</td><td>کر</td><td>69</td><td>ضرورت</td><td>119</td><td>میرا</td><td>169</td><td>انتظار</td></tr>\n    <tr><td>20</td><td>ہم</td><td>70</td><td>کہا</td><td>120</td><td>ایسا</td><td>170</td><td>مطلب</td></tr>\n    <tr><td>21</td><td>کہ</td><td>71</td><td>ہی</td><td>121</td><td>پتہ</td><td>171</td><td>دنیا</td></tr>\n    <tr><td>22</td><td>لئے</td><td>72</td><td>حاصل</td><td>122</td><td>بعد</td><td>172</td><td>تیار</td></tr>\n    <tr><td>23</td><td>پر</td><td>73</td><td>کریں</td><td>123</td><td>ہ</td><td>173</td><td>صاحب</td></tr>\n    <tr><td>24</td><td>تھا</td><td>74</td><td>جو</td><td>124</td><td>لوگ</td><td>174</td><td>جانتا</td></tr>\n    <tr><td>25</td><td>ہوں</td><td>75</td><td>طور</td><td>125</td><td>دیکھ</td><td>175</td><td>کرے</td></tr>\n    <tr><td>26</td><td>کا</td><td>76</td><td>جانتے</td><td>126</td><td>مدد</td><td>176</td><td>ابھی</td></tr>\n    <tr><td>27</td><td>مجھے</td><td>77</td><td>وہاں</td><td>127</td><td>شکریہ</td><td>177</td><td>استعمال</td></tr>\n    <tr><td>28</td><td>بھی</td><td>78</td><td>چاہتے</td><td>128</td><td>گھر</td><td>178</td><td>ہمیشہ</td></tr>\n    <tr><td>29</td><td>تو</td><td>79</td><td>وقت</td><td>129</td><td>بند</td><td>179</td><td>بالکل</td></tr>\n    <tr><td>30</td><td>کرنے</td><td>80</td><td>جائے</td><td>130</td><td>ارے</td><td>180</td><td>ہونا</td></tr>\n    <tr><td>31</td><td>رہے</td><td>81</td><td>پھر</td><td>131</td><td>یقین</td><td>181</td><td>پاگل</td></tr>\n    <tr><td>32</td><td>ٹھیک</td><td>82</td><td>اچھا</td><td>132</td><td>نام</td><td>182</td><td>ك</td></tr>\n    <tr><td>33</td><td>گا</td><td>83</td><td>کام</td><td>133</td><td>دے</td><td>183</td><td>جنگ</td></tr>\n    <tr><td>34</td><td>کچھ</td><td>84</td><td>کرتے</td><td>134</td><td>لیے</td><td>184</td><td>والد</td></tr>\n    <tr><td>35</td><td>کوئی</td><td>85</td><td>اگر</td><td>135</td><td>لیا</td><td>185</td><td>معلوم</td></tr>\n    <tr><td>36</td><td>رہا</td><td>86</td><td>کیوں</td><td>136</td><td>ظ</td><td>186</td><td>گئے</td></tr>\n    <tr><td>37</td><td>سب</td><td>87</td><td>یا</td><td>137</td><td>خ</td><td>187</td><td>سال</td></tr>\n    <tr><td>38</td><td>یہاں</td><td>88</td><td>کرو</td><td>138</td><td>گی</td><td>188</td><td>واقعی</td></tr>\n    <tr><td>39</td><td>ساتھ</td><td>89</td><td>آ</td><td>139</td><td>اوہ</td><td>189</td><td>ّ</td></tr>\n    <tr><td>40</td><td>ہاں</td><td>90</td><td>تک</td><td>140</td><td>جانا</td><td>190</td><td>آج</td></tr>\n    <tr><td>41</td><td>ان</td><td>91</td><td>کس</td><td>141</td><td>والا</td><td>191</td><td>بغیر</td></tr>\n    <tr><td>42</td><td>گیا</td><td>92</td><td>چاہتا</td><td>142</td><td>کوشش</td><td>192</td><td>شاید</td></tr>\n    <tr><td>43</td><td>اسے</td><td>93</td><td>کبھی</td><td>143</td><td>ہوگا</td><td>193</td><td>زندگی</td></tr>\n    <tr><td>44</td><td>اب</td><td>94</td><td>لے</td><td>144</td><td>ماں</td><td>194</td><td>رکو</td></tr>\n    <tr><td>45</td><td>طرح</td><td>95</td><td>انہوں</td><td>145</td><td>ہوا</td><td>195</td><td>یاد</td></tr>\n    <tr><td>46</td><td>لیکن</td><td>96</td><td>پہلے</td><td>146</td><td>تلاش</td><td>196</td><td>دیں</td></tr>\n    <tr><td>47</td><td>سکتے</td><td>97</td><td>جب</td><td>147</td><td>خیال</td><td>197</td><td>کیونکہ</td></tr>\n    <tr><td>48</td><td>صرف</td><td>98</td><td>ہمارے</td><td>148</td><td>جاتا</td><td>198</td><td>ہماری</td></tr>\n    <tr><td>49</td><td>میرے</td><td>99</td><td>کہاں</td><td>149</td><td>چھوڑ</td><td>199</td><td>کم</td></tr>\n    <tr><td>50</td><td>بہت</td><td>100</td><td>واپس</td><td>150</td><td>ہج</td><td>200</td><td>سر</td></tr>\n  </tbody></table></div>"
+     ]
+    },
+    {
+     "h2": "Why drill the top Urdu words",
+     "p": [
+      "In almost every language, a few hundred words cover most of what people actually write. Urdu is no exception: these 200 words appear again and again in messages, documents, subtitles and web pages. If your fingers can produce them without thinking, your real-world Urdu typing speed rises immediately — long before you memorise any larger vocabulary.",
+      "Urdu high-frequency words use the special letters (ٹ ڈ ڑ ں ہ ے) that distinguish Urdu from Arabic script. Drilling these 200 words builds speed exactly where Urdu typists lose it."
+     ]
+    },
+    {
+     "h2": "How to practise Urdu typing with this list",
+     "p": [
+      "Start the test above — it draws words from this very list, so every round drills the words that matter. Type a short round every day, aim for accuracy first (97%+), and only then push for speed. Watch the weak-key report after each round: it shows exactly which letters slow you down, so you can target them instead of re-typing words you already know.",
+      "When you want full sentences instead of single words, switch to the <a href=\"urdu-typing-test.html\">Urdu typing test</a>, or benchmark yourself against the classic <a href=\"1-minute-typing-test.html\">1 minute typing test</a>."
+     ]
+    },
+    {
+     "h2": "Word lists in other languages",
+     "p": [
+      "The same top-200 frequency list is available for: <a href=\"top-en-words.html\">English</a> · <a href=\"top-es-words.html\">Spanish</a> · <a href=\"top-hi-words.html\">Hindi</a> · <a href=\"top-ja-words.html\">Japanese</a> · <a href=\"top-ko-words.html\">Korean</a>. Each list is built from the same open subtitle-frequency dataset, so the lists are directly comparable across languages."
+     ]
+    }
+   ],
+   "faqFirstOpen": true,
+   "faqH2": "Top Urdu words FAQ",
+   "faq": [
+    {
+     "q": "Where does this Urdu word list come from?",
+     "a": "From the open FrequencyWords dataset (MIT license), which counts word frequencies in OpenSubtitles transcripts. We filtered the raw ranking to native-script words and took the top 200."
+    },
+    {
+     "q": "Are these really the most common Urdu words?",
+     "a": "They are the most frequent words in subtitle transcripts — everyday spoken-style language. That makes them the most useful 200 words for typing practice, though formal written text has a slightly different profile."
+    },
+    {
+     "q": "How should I use this list to get faster at Urdu typing?",
+     "a": "Practise with the built-in test above: it serves these exact words in timed rounds. Short daily rounds with an accuracy-first approach build speed fastest."
+    },
+    {
+     "q": "Is this page free?",
+     "a": "Yes. The word list and the typing practice test are free with no sign up."
+    }
+   ],
+   "tldr": "This page lists the 200 most common Urdu words from the open FrequencyWords subtitle-frequency dataset (MIT license), with a free built-in typing test that drills these exact words. A few hundred high-frequency words cover most everyday Urdu text, so mastering this list is the fastest route to real-world Urdu typing speed.",
+   "webAppName": "Typing Speed Test",
+   "webAppUrl": "https://typing.rerivo.com/top-ur-words.html",
+   "bcItems": [
+    {
+     "name": "Home",
+     "item": "https://typing.rerivo.com/"
+    },
+    {
+     "name": "Top Urdu Words",
+     "item": "https://typing.rerivo.com/top-ur-words.html"
+    }
+   ],
+   "ldPretty": []
   }
  ]
 }
