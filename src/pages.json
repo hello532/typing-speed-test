@@ -12078,8 +12078,8 @@
   },
   {
    "file": "indonesian-typing-test.html",
-   "title": "Indonesian Typing Test - Free Online Indonesian WPM Test",
-   "metaDesc": "Free Indonesian typing test online. Type real Bahasa Indonesia sentences and check your typing speed and accuracy with instant results. No sign up.",
+   "title": "Tes Mengetik Online Gratis - Ukur Kecepatan WPM | Typing.Rerivo",
+   "metaDesc": "Tes mengetik online gratis dalam Bahasa Indonesia. Ukur kecepatan dan akurasi mengetik WPM dengan hasil instan. Latihan mengetik, tanpa daftar.",
    "canonical": "https://typing.rerivo.com/indonesian-typing-test.html",
    "dur": 60,
    "mode": "sentences",
@@ -12104,9 +12104,16 @@
     "Home",
     "Indonesian Typing Test"
    ],
-   "h1": "Indonesian Typing Test",
-   "heroP": "Test your <strong>Indonesian typing speed</strong> with real Bahasa Indonesia sentences. Instant WPM and accuracy results. Free, no sign up.",
+   "h1": "Tes Mengetik Online",
+   "heroP": "Uji <strong>kecepatan mengetik</strong> Bahasa Indonesia dengan kalimat nyata. Hasil WPM dan akurasi langsum muncul. Gratis, tanpa daftar.",
    "seo": [
+    {
+     "h2": "Cara menggunakan tes mengetik ini",
+     "p": [
+      "Pilih durasi (15 detik sampai 10 menit), klik area teks, dan mulailah mengetik kalimat yang muncul di layar. Timer dimulai dari keystroke pertama, bukan sebelumnya. Setelah selesai, Anda melihat WPM, akurasi, CPM, dan laporan tombol lemah — huruf yang paling sering salah dan paling lambat.",
+      "Untuk meningkatkan kecepatan: latih akurasi dulu (target 97-98%), lalu naikkan tempo secara bertahap. Kata-kata dengan awalan me-, di-, ber- dan akhiran -kan, -nya muncul berulang-ulang dalam setiap kalimat, sehingga latihan kalimat nyata membangun otomatisasi tepat di tempat yang dibutuhkan. Latihan harian sepuluh menit lebih efektif daripada satu jam sekali seminggu."
+     ]
+    },
     {
      "h2": "Indonesian typing test",
      "p": [
@@ -12150,9 +12157,13 @@
     {
      "q": "Will this help with Indonesian office typing tests?",
      "a": "Yes. Timed sentence practice in Bahasa Indonesia builds the same speed and accuracy that office, administrative and data-entry roles measure."
+    },
+    {
+     "q": "Apakah tes mengetik ini gratis?",
+     "a": "Ya, sepenuhnya gratis tanpa pendaftaran. Riwayat latihan Anda tersimpan di perangkat sendiri."
     }
    ],
-   "tldr": "An Indonesian typing test measures WPM and accuracy on real Bahasa Indonesia sentences. Because Indonesian uses the plain Latin alphabet, any standard keyboard works with no special input method — speed depends purely on technique. Free, timed 15 seconds to 10 minutes, no sign up.",
+   "tldr": "Tes mengetik online gratis dalam Bahasa Indonesia: ukur WPM dan akurasi dengan kalimat nyata setiap hari. Latihan mengetik 15 detik sampai 10 menit, tanpa daftar, riwayat tersimpan di perangkat Anda.",
    "webAppName": "Typing Speed Test",
    "webAppUrl": "https://typing.rerivo.com/indonesian-typing-test.html",
    "bcItems": [

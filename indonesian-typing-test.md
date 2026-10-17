@@ -1,8 +1,14 @@
-# Indonesian Typing Test
+# Tes Mengetik Online
 
 Source: https://typing.rerivo.com/indonesian-typing-test.html
 
-Test your Indonesian typing speed with real Bahasa Indonesia sentences. Instant WPM and accuracy results. Free, no sign up.
+Uji kecepatan mengetik Bahasa Indonesia dengan kalimat nyata. Hasil WPM dan akurasi langsum muncul. Gratis, tanpa daftar.
+
+## Cara menggunakan tes mengetik ini
+
+Pilih durasi (15 detik sampai 10 menit), klik area teks, dan mulailah mengetik kalimat yang muncul di layar. Timer dimulai dari keystroke pertama, bukan sebelumnya. Setelah selesai, Anda melihat WPM, akurasi, CPM, dan laporan tombol lemah — huruf yang paling sering salah dan paling lambat.
+
+Untuk meningkatkan kecepatan: latih akurasi dulu (target 97-98%), lalu naikkan tempo secara bertahap. Kata-kata dengan awalan me-, di-, ber- dan akhiran -kan, -nya muncul berulang-ulang dalam setiap kalimat, sehingga latihan kalimat nyata membangun otomatisasi tepat di tempat yang dibutuhkan. Latihan harian sepuluh menit lebih efektif daripada satu jam sekali seminggu.
 
 ## Indonesian typing test
 
@@ -37,3 +43,7 @@ Yes. The practice sentences are natural everyday Indonesian with the common affi
 ### Will this help with Indonesian office typing tests?
 
 Yes. Timed sentence practice in Bahasa Indonesia builds the same speed and accuracy that office, administrative and data-entry roles measure.
+
+### Apakah tes mengetik ini gratis?
+
+Ya, sepenuhnya gratis tanpa pendaftaran. Riwayat latihan Anda tersimpan di perangkat sendiri.

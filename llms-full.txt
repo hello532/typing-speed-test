@@ -3527,11 +3527,14 @@ Only one thing is harder: unlearning decades of hunt-and-peck. The fix is a hard
 Ten minutes daily attached to a workday habit: one measured minute, weak-key drilling, then 5 minutes on real work text in perfect form. Weekly logged measurement. Micro-sessions (3×3 min) work when blocks are impossible.
 40–60 WPM within a few months of daily practice — above the working average — with continued slow climbs afterward. Age changes where the curve starts, never how high it goes.
 
-## Indonesian Typing Test
+## Tes Mengetik Online
 Source: https://typing.rerivo.com/indonesian-typing-test.html
 
-Test your Indonesian typing speed with real Bahasa Indonesia sentences. Instant WPM and accuracy results. Free, no sign up.
+Uji kecepatan mengetik Bahasa Indonesia dengan kalimat nyata. Hasil WPM dan akurasi langsum muncul. Gratis, tanpa daftar.
 
+## Cara menggunakan tes mengetik ini
+Pilih durasi (15 detik sampai 10 menit), klik area teks, dan mulailah mengetik kalimat yang muncul di layar. Timer dimulai dari keystroke pertama, bukan sebelumnya. Setelah selesai, Anda melihat WPM, akurasi, CPM, dan laporan tombol lemah — huruf yang paling sering salah dan paling lambat.
+Untuk meningkatkan kecepatan: latih akurasi dulu (target 97-98%), lalu naikkan tempo secara bertahap. Kata-kata dengan awalan me-, di-, ber- dan akhiran -kan, -nya muncul berulang-ulang dalam setiap kalimat, sehingga latihan kalimat nyata membangun otomatisasi tepat di tempat yang dibutuhkan. Latihan harian sepuluh menit lebih efektif daripada satu jam sekali seminggu.
 ## Indonesian typing test
 An Indonesian typing test measures how fast and accurately you type real Bahasa Indonesia sentences — everyday text with the me-, di- and ber- prefixes and -kan/-nya suffixes that make up most written Indonesian. Your result shows in words per minute, where every 5 characters counts as one word.
 ## Bahasa Indonesia on a standard keyboard
@@ -3545,6 +3548,7 @@ Yes. It is free with no sign up, and your practice history stays on your own dev
 No. Bahasa Indonesia uses the plain Latin alphabet with no diacritics, so any standard QWERTY keyboard works with no special input method.
 Yes. The practice sentences are natural everyday Indonesian with the common affixes (me-, di-, ber-, -kan, -nya) that dominate real written text.
 Yes. Timed sentence practice in Bahasa Indonesia builds the same speed and accuracy that office, administrative and data-entry roles measure.
+Ya, sepenuhnya gratis tanpa pendaftaran. Riwayat latihan Anda tersimpan di perangkat sendiri.
 
 ## Vietnamese Typing Test
 Source: https://typing.rerivo.com/vietnamese-typing-test.html
