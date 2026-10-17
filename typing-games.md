@@ -26,6 +26,10 @@ Watch for bad habits - some games reward speed over accuracy; ignore the score a
 
 A practical split: games or typing race for 5-10 minutes of warm-up, then a timed round for the score that actually counts.
 
+## Games that teach
+
+For the method behind kid-friendly game practice, see typing games for kids — 5-minute game-feeling sessions that build the keyboard map without nagging.
+
 ## Typing games FAQ
 
 ### What are typing games?

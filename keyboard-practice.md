@@ -24,6 +24,10 @@ Ten focused minutes a day beats one long weekly session. Keep accuracy above 97%
 
 Build the map correctly: typing finger chart for every key, and finger placement typing with per-finger drills.
 
+## Kid-first keyboard practice
+
+Turn keyboard drills into the game that lands: typing games for kids — letter-hunt, word-collection, and the 5-minute session template.
+
 ## Keyboard Practice FAQ
 
 ### How do I practise typing on a keyboard?

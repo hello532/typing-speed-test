@@ -1618,6 +1618,12 @@
       "<ul><li><strong>Use games for volume</strong> - they are good for extra repetitions, not for measuring progress.</li><li><strong>Measure with a test, not a game</strong> - use the <a href=\"1-minute-typing-test.html\">1 minute typing test</a> to track real speed.</li><li><strong>Watch for bad habits</strong> - some games reward speed over accuracy; ignore the score and keep form.</li></ul>",
       "A practical split: games or <a href=\"typing-race.html\">typing race</a> for 5-10 minutes of warm-up, then a timed round for the score that actually counts."
      ]
+    },
+    {
+     "h2": "Games that teach",
+     "p": [
+      "For the method behind kid-friendly game practice, see <a href=\"typing-games-for-kids.html\">typing games for kids</a> — 5-minute game-feeling sessions that build the keyboard map without nagging."
+     ]
     }
    ],
    "faqFirstOpen": true,
@@ -4340,6 +4346,12 @@
      "p": [
       "Keep sessions short and playful: 10–15 minutes a day beats one long session. Start with the home row (ASDF and JKL;), use the on-screen hands below so your child never has to look down, and praise accuracy over speed. Turn it into a race against their own best score with the <a href=\"typing-race.html\">typing race</a> or the <a href=\"typing-games.html\">typing games</a>. Framed as <strong>typing games for kids</strong>, the same drills work: short rounds, immediate feedback and a score to beat keep children coming back without turning practice into a chore."
      ]
+    },
+    {
+     "h2": "How to use the kids test",
+     "p": [
+      "The right way to run short rounds: <a href=\"typing-games-for-kids.html\">typing games for kids</a> explains the 5-10 minute cadence, letter-hunt starts and the accuracy-first rule."
+     ]
     }
    ],
    "faqFirstOpen": true,
@@ -6855,6 +6867,12 @@
      "h2": "Placement and finger training guides",
      "p": [
       "Build the map correctly: <a href=\"typing-finger-chart.html\">typing finger chart</a> for every key, and <a href=\"finger-placement-typing.html\">finger placement typing</a> with per-finger drills."
+     ]
+    },
+    {
+     "h2": "Kid-first keyboard practice",
+     "p": [
+      "Turn keyboard drills into the game that lands: <a href=\"typing-games-for-kids.html\">typing games for kids</a> — letter-hunt, word-collection, and the 5-minute session template."
      ]
     }
    ],
@@ -13019,6 +13037,238 @@
     {
      "name": "Online Typing Practice",
      "item": "https://typing.rerivo.com/online-typing-practice.html"
+    }
+   ],
+   "ldPretty": []
+  },
+  {
+   "file": "top-1000-english-words.html",
+   "title": "1000 Most Common English Words (with Typing Practice)",
+   "metaDesc": "The 1000 most common English words from real frequency data, in one page, with a free typing practice test. Learn the words that make up most everyday English.",
+   "canonical": "https://typing.rerivo.com/top-1000-english-words.html",
+   "dur": 60,
+   "mode": "words",
+   "variant": null,
+   "nav": [
+    {
+     "href": "english-typing-test.html",
+     "text": "English Typing Test"
+    },
+    {
+     "href": "words-per-minute-test.html",
+     "text": "WPM Test"
+    },
+    {
+     "href": "typing-practice.html",
+     "text": "Typing Practice"
+    }
+   ],
+   "crumbs": [
+    "Home",
+    "1000 Most Common English Words"
+   ],
+   "h1": "1000 Most Common English Words",
+   "heroP": "The <strong>1000 most common English words</strong> in one page — frequency-ranked from real subtitle data, with a free typing practice test built in. No sign up.",
+   "seo": [
+    {
+     "h2": "The 1000 most common English words",
+     "p": [
+      "This page lists the 1000 most common English words in frequency order, drawn from the open FrequencyWords dataset (MIT license), built from OpenSubtitles transcripts and filtered to plain alphabetic words. The first two hundred are the words you meet in every sentence; the next eight hundred fill in the rest of everyday conversation and writing.",
+      "<div class=\"tbl\"><table><thead><tr><th>#</th><th>Word</th><th>#</th><th>Word</th><th>#</th><th>Word</th><th>#</th><th>Word</th></tr></thead><tbody>\n    <tr><td>1</td><td>you</td><td>251</td><td>wasn</td><td>501</td><td>bye</td><td>751</td><td>watching</td></tr>\n    <tr><td>2</td><td>i</td><td>252</td><td>friend</td><td>502</td><td>buy</td><td>752</td><td>system</td></tr>\n    <tr><td>3</td><td>the</td><td>253</td><td>best</td><td>503</td><td>telling</td><td>753</td><td>suppose</td></tr>\n    <tr><td>4</td><td>to</td><td>254</td><td>mom</td><td>504</td><td>honey</td><td>754</td><td>evidence</td></tr>\n    <tr><td>5</td><td>a</td><td>255</td><td>hell</td><td>505</td><td>tried</td><td>755</td><td>movie</td></tr>\n    <tr><td>6</td><td>it</td><td>256</td><td>morning</td><td>506</td><td>front</td><td>756</td><td>ride</td></tr>\n    <tr><td>7</td><td>and</td><td>257</td><td>trying</td><td>507</td><td>team</td><td>757</td><td>t</td></tr>\n    <tr><td>8</td><td>that</td><td>258</td><td>boy</td><td>508</td><td>answer</td><td>758</td><td>completely</td></tr>\n    <tr><td>9</td><td>of</td><td>259</td><td>together</td><td>509</td><td>gun</td><td>759</td><td>mouth</td></tr>\n    <tr><td>10</td><td>is</td><td>260</td><td>yourself</td><td>510</td><td>boys</td><td>760</td><td>totally</td></tr>\n    <tr><td>11</td><td>in</td><td>261</td><td>job</td><td>511</td><td>line</td><td>761</td><td>birthday</td></tr>\n    <tr><td>12</td><td>what</td><td>262</td><td>saw</td><td>512</td><td>send</td><td>762</td><td>tv</td></tr>\n    <tr><td>13</td><td>we</td><td>263</td><td>family</td><td>513</td><td>news</td><td>763</td><td>forgive</td></tr>\n    <tr><td>14</td><td>me</td><td>264</td><td>real</td><td>514</td><td>stupid</td><td>764</td><td>born</td></tr>\n    <tr><td>15</td><td>this</td><td>265</td><td>without</td><td>515</td><td>bed</td><td>765</td><td>imagine</td></tr>\n    <tr><td>16</td><td>he</td><td>266</td><td>baby</td><td>516</td><td>hurry</td><td>766</td><td>information</td></tr>\n    <tr><td>17</td><td>for</td><td>267</td><td>room</td><td>517</td><td>full</td><td>767</td><td>instead</td></tr>\n    <tr><td>18</td><td>my</td><td>268</td><td>wouldn</td><td>518</td><td>months</td><td>768</td><td>definitely</td></tr>\n    <tr><td>19</td><td>on</td><td>269</td><td>already</td><td>519</td><td>save</td><td>769</td><td>security</td></tr>\n    <tr><td>20</td><td>have</td><td>270</td><td>move</td><td>520</td><td>sometimes</td><td>770</td><td>certainly</td></tr>\n    <tr><td>21</td><td>your</td><td>271</td><td>most</td><td>521</td><td>become</td><td>771</td><td>film</td></tr>\n    <tr><td>22</td><td>do</td><td>272</td><td>seen</td><td>522</td><td>along</td><td>772</td><td>month</td></tr>\n    <tr><td>23</td><td>was</td><td>273</td><td>live</td><td>523</td><td>hate</td><td>773</td><td>lying</td></tr>\n    <tr><td>24</td><td>no</td><td>274</td><td>miss</td><td>524</td><td>food</td><td>774</td><td>unless</td></tr>\n    <tr><td>25</td><td>not</td><td>275</td><td>actually</td><td>525</td><td>outside</td><td>775</td><td>train</td></tr>\n    <tr><td>26</td><td>be</td><td>276</td><td>huh</td><td>526</td><td>light</td><td>776</td><td>seven</td></tr>\n    <tr><td>27</td><td>are</td><td>277</td><td>shit</td><td>527</td><td>l</td><td>777</td><td>wear</td></tr>\n    <tr><td>28</td><td>don</td><td>278</td><td>both</td><td>528</td><td>needs</td><td>778</td><td>clothes</td></tr>\n    <tr><td>29</td><td>know</td><td>279</td><td>heard</td><td>529</td><td>dog</td><td>779</td><td>michael</td></tr>\n    <tr><td>30</td><td>can</td><td>280</td><td>once</td><td>530</td><td>country</td><td>780</td><td>hotel</td></tr>\n    <tr><td>31</td><td>with</td><td>281</td><td>ready</td><td>531</td><td>clear</td><td>781</td><td>christmas</td></tr>\n    <tr><td>32</td><td>but</td><td>282</td><td>head</td><td>532</td><td>order</td><td>782</td><td>attack</td></tr>\n    <tr><td>33</td><td>all</td><td>283</td><td>called</td><td>533</td><td>em</td><td>783</td><td>hasn</td></tr>\n    <tr><td>34</td><td>so</td><td>284</td><td>used</td><td>534</td><td>fact</td><td>784</td><td>round</td></tr>\n    <tr><td>35</td><td>just</td><td>285</td><td>idea</td><td>535</td><td>lord</td><td>785</td><td>expect</td></tr>\n    <tr><td>36</td><td>there</td><td>286</td><td>knew</td><td>536</td><td>captain</td><td>786</td><td>sing</td></tr>\n    <tr><td>37</td><td>here</td><td>287</td><td>hold</td><td>537</td><td>six</td><td>787</td><td>terrible</td></tr>\n    <tr><td>38</td><td>they</td><td>288</td><td>happy</td><td>538</td><td>hot</td><td>788</td><td>george</td></tr>\n    <tr><td>39</td><td>like</td><td>289</td><td>door</td><td>539</td><td>funny</td><td>789</td><td>bag</td></tr>\n    <tr><td>40</td><td>get</td><td>290</td><td>such</td><td>540</td><td>black</td><td>790</td><td>history</td></tr>\n    <tr><td>41</td><td>she</td><td>291</td><td>fuck</td><td>541</td><td>alive</td><td>791</td><td>blue</td></tr>\n    <tr><td>42</td><td>go</td><td>292</td><td>brother</td><td>542</td><td>pick</td><td>792</td><td>near</td></tr>\n    <tr><td>43</td><td>if</td><td>293</td><td>also</td><td>543</td><td>feeling</td><td>793</td><td>broke</td></tr>\n    <tr><td>44</td><td>right</td><td>294</td><td>pretty</td><td>544</td><td>living</td><td>794</td><td>station</td></tr>\n    <tr><td>45</td><td>out</td><td>295</td><td>bit</td><td>545</td><td>cause</td><td>795</td><td>seriously</td></tr>\n    <tr><td>46</td><td>about</td><td>296</td><td>took</td><td>546</td><td>ahead</td><td>796</td><td>forever</td></tr>\n    <tr><td>47</td><td>up</td><td>297</td><td>haven</td><td>547</td><td>lose</td><td>797</td><td>david</td></tr>\n    <tr><td>48</td><td>at</td><td>298</td><td>yet</td><td>548</td><td>king</td><td>798</td><td>frank</td></tr>\n    <tr><td>49</td><td>him</td><td>299</td><td>men</td><td>549</td><td>plan</td><td>799</td><td>except</td></tr>\n    <tr><td>50</td><td>now</td><td>300</td><td>whole</td><td>550</td><td>dinner</td><td>800</td><td>thinks</td></tr>\n    <tr><td>51</td><td>oh</td><td>301</td><td>start</td><td>551</td><td>sighs</td><td>801</td><td>message</td></tr>\n    <tr><td>52</td><td>one</td><td>302</td><td>use</td><td>552</td><td>sort</td><td>802</td><td>entire</td></tr>\n    <tr><td>53</td><td>come</td><td>303</td><td>while</td><td>553</td><td>leaving</td><td>803</td><td>joe</td></tr>\n    <tr><td>54</td><td>well</td><td>304</td><td>since</td><td>554</td><td>shouldn</td><td>804</td><td>table</td></tr>\n    <tr><td>55</td><td>her</td><td>305</td><td>wife</td><td>555</td><td>running</td><td>805</td><td>talked</td></tr>\n    <tr><td>56</td><td>how</td><td>306</td><td>days</td><td>556</td><td>boss</td><td>806</td><td>across</td></tr>\n    <tr><td>57</td><td>yeah</td><td>307</td><td>guess</td><td>557</td><td>alright</td><td>807</td><td>rock</td></tr>\n    <tr><td>58</td><td>will</td><td>308</td><td>tomorrow</td><td>558</td><td>promise</td><td>808</td><td>lovely</td></tr>\n    <tr><td>59</td><td>got</td><td>309</td><td>matter</td><td>559</td><td>taken</td><td>809</td><td>handle</td></tr>\n    <tr><td>60</td><td>want</td><td>310</td><td>meet</td><td>560</td><td>safe</td><td>810</td><td>middle</td></tr>\n    <tr><td>61</td><td>think</td><td>311</td><td>bring</td><td>561</td><td>ma</td><td>811</td><td>buddy</td></tr>\n    <tr><td>62</td><td>as</td><td>312</td><td>tonight</td><td>562</td><td>book</td><td>812</td><td>paid</td></tr>\n    <tr><td>63</td><td>see</td><td>313</td><td>everyone</td><td>563</td><td>sent</td><td>813</td><td>protect</td></tr>\n    <tr><td>64</td><td>did</td><td>314</td><td>run</td><td>564</td><td>white</td><td>814</td><td>using</td></tr>\n    <tr><td>65</td><td>good</td><td>315</td><td>wanna</td><td>565</td><td>hour</td><td>815</td><td>floor</td></tr>\n    <tr><td>66</td><td>who</td><td>316</td><td>hard</td><td>566</td><td>anybody</td><td>816</td><td>ran</td></tr>\n    <tr><td>67</td><td>why</td><td>317</td><td>ah</td><td>567</td><td>small</td><td>817</td><td>swear</td></tr>\n    <tr><td>68</td><td>from</td><td>318</td><td>alone</td><td>568</td><td>perfect</td><td>818</td><td>spend</td></tr>\n    <tr><td>69</td><td>let</td><td>319</td><td>myself</td><td>569</td><td>lives</td><td>819</td><td>situation</td></tr>\n    <tr><td>70</td><td>his</td><td>320</td><td>school</td><td>570</td><td>special</td><td>820</td><td>ring</td></tr>\n    <tr><td>71</td><td>yes</td><td>321</td><td>gone</td><td>571</td><td>parents</td><td>821</td><td>anywhere</td></tr>\n    <tr><td>72</td><td>when</td><td>322</td><td>um</td><td>572</td><td>s</td><td>822</td><td>dangerous</td></tr>\n    <tr><td>73</td><td>going</td><td>323</td><td>end</td><td>573</td><td>john</td><td>823</td><td>bill</td></tr>\n    <tr><td>74</td><td>time</td><td>324</td><td>saying</td><td>574</td><td>himself</td><td>824</td><td>york</td></tr>\n    <tr><td>75</td><td>an</td><td>325</td><td>phone</td><td>575</td><td>perhaps</td><td>825</td><td>army</td></tr>\n    <tr><td>76</td><td>okay</td><td>326</td><td>play</td><td>576</td><td>sounds</td><td>826</td><td>lead</td></tr>\n    <tr><td>77</td><td>back</td><td>327</td><td>looks</td><td>577</td><td>serious</td><td>827</td><td>bought</td></tr>\n    <tr><td>78</td><td>look</td><td>328</td><td>couldn</td><td>578</td><td>sick</td><td>828</td><td>finished</td></tr>\n    <tr><td>79</td><td>us</td><td>329</td><td>fucking</td><td>579</td><td>company</td><td>829</td><td>fair</td></tr>\n    <tr><td>80</td><td>would</td><td>330</td><td>problem</td><td>580</td><td>ha</td><td>830</td><td>sun</td></tr>\n    <tr><td>81</td><td>them</td><td>331</td><td>few</td><td>581</td><td>scared</td><td>831</td><td>letter</td></tr>\n    <tr><td>82</td><td>where</td><td>332</td><td>friends</td><td>582</td><td>uncle</td><td>832</td><td>fool</td></tr>\n    <tr><td>83</td><td>were</td><td>333</td><td>gotta</td><td>583</td><td>poor</td><td>833</td><td>attention</td></tr>\n    <tr><td>84</td><td>take</td><td>334</td><td>ago</td><td>584</td><td>red</td><td>834</td><td>club</td></tr>\n    <tr><td>85</td><td>then</td><td>335</td><td>open</td><td>585</td><td>past</td><td>835</td><td>simple</td></tr>\n    <tr><td>86</td><td>had</td><td>336</td><td>anyone</td><td>586</td><td>earth</td><td>836</td><td>interesting</td></tr>\n    <tr><td>87</td><td>or</td><td>337</td><td>killed</td><td>587</td><td>possible</td><td>837</td><td>space</td></tr>\n    <tr><td>88</td><td>been</td><td>338</td><td>hope</td><td>588</td><td>shoot</td><td>838</td><td>test</td></tr>\n    <tr><td>89</td><td>our</td><td>339</td><td>face</td><td>589</td><td>touch</td><td>839</td><td>box</td></tr>\n    <tr><td>90</td><td>gonna</td><td>340</td><td>until</td><td>590</td><td>sound</td><td>840</td><td>group</td></tr>\n    <tr><td>91</td><td>tell</td><td>341</td><td>lost</td><td>591</td><td>top</td><td>841</td><td>single</td></tr>\n    <tr><td>92</td><td>really</td><td>342</td><td>police</td><td>592</td><td>ass</td><td>842</td><td>sitting</td></tr>\n    <tr><td>93</td><td>man</td><td>343</td><td>excuse</td><td>593</td><td>laughs</td><td>843</td><td>marriage</td></tr>\n    <tr><td>94</td><td>some</td><td>344</td><td>turn</td><td>594</td><td>cannot</td><td>844</td><td>join</td></tr>\n    <tr><td>95</td><td>say</td><td>345</td><td>business</td><td>595</td><td>asking</td><td>845</td><td>fear</td></tr>\n    <tr><td>96</td><td>hey</td><td>346</td><td>case</td><td>596</td><td>win</td><td>846</td><td>d</td></tr>\n    <tr><td>97</td><td>could</td><td>347</td><td>wants</td><td>597</td><td>glad</td><td>847</td><td>peace</td></tr>\n    <tr><td>98</td><td>didn</td><td>348</td><td>says</td><td>598</td><td>control</td><td>848</td><td>forgot</td></tr>\n    <tr><td>99</td><td>by</td><td>349</td><td>true</td><td>599</td><td>hmm</td><td>849</td><td>force</td></tr>\n    <tr><td>100</td><td>need</td><td>350</td><td>die</td><td>600</td><td>human</td><td>850</td><td>short</td></tr>\n    <tr><td>101</td><td>something</td><td>351</td><td>heart</td><td>601</td><td>drive</td><td>851</td><td>normal</td></tr>\n    <tr><td>102</td><td>has</td><td>352</td><td>soon</td><td>602</td><td>hair</td><td>852</td><td>charlie</td></tr>\n    <tr><td>103</td><td>too</td><td>353</td><td>each</td><td>603</td><td>jack</td><td>853</td><td>present</td></tr>\n    <tr><td>104</td><td>more</td><td>354</td><td>worry</td><td>604</td><td>bitch</td><td>854</td><td>enjoy</td></tr>\n    <tr><td>105</td><td>way</td><td>355</td><td>later</td><td>605</td><td>luck</td><td>855</td><td>mike</td></tr>\n    <tr><td>106</td><td>down</td><td>356</td><td>year</td><td>606</td><td>murder</td><td>856</td><td>crime</td></tr>\n    <tr><td>107</td><td>make</td><td>357</td><td>watch</td><td>607</td><td>happens</td><td>857</td><td>horse</td></tr>\n    <tr><td>108</td><td>very</td><td>358</td><td>music</td><td>608</td><td>air</td><td>858</td><td>ground</td></tr>\n    <tr><td>109</td><td>never</td><td>359</td><td>hand</td><td>609</td><td>ten</td><td>859</td><td>american</td></tr>\n    <tr><td>110</td><td>only</td><td>360</td><td>having</td><td>610</td><td>daddy</td><td>860</td><td>count</td></tr>\n    <tr><td>111</td><td>people</td><td>361</td><td>probably</td><td>611</td><td>finally</td><td>861</td><td>area</td></tr>\n    <tr><td>112</td><td>over</td><td>362</td><td>beautiful</td><td>612</td><td>chuckles</td><td>862</td><td>charge</td></tr>\n    <tr><td>113</td><td>because</td><td>363</td><td>doctor</td><td>613</td><td>fast</td><td>863</td><td>honor</td></tr>\n    <tr><td>114</td><td>little</td><td>364</td><td>sit</td><td>614</td><td>cold</td><td>864</td><td>lunch</td></tr>\n    <tr><td>115</td><td>please</td><td>365</td><td>eat</td><td>615</td><td>seem</td><td>865</td><td>miles</td></tr>\n    <tr><td>116</td><td>love</td><td>366</td><td>thinking</td><td>616</td><td>laughing</td><td>866</td><td>radio</td></tr>\n    <tr><td>117</td><td>should</td><td>367</td><td>young</td><td>617</td><td>words</td><td>867</td><td>idiot</td></tr>\n    <tr><td>118</td><td>mean</td><td>368</td><td>second</td><td>618</td><td>hospital</td><td>868</td><td>ball</td></tr>\n    <tr><td>119</td><td>said</td><td>369</td><td>working</td><td>619</td><td>street</td><td>869</td><td>surprise</td></tr>\n    <tr><td>120</td><td>sorry</td><td>370</td><td>water</td><td>620</td><td>hang</td><td>870</td><td>paper</td></tr>\n    <tr><td>121</td><td>give</td><td>371</td><td>person</td><td>621</td><td>dance</td><td>871</td><td>key</td></tr>\n    <tr><td>122</td><td>off</td><td>372</td><td>part</td><td>622</td><td>meeting</td><td>872</td><td>boat</td></tr>\n    <tr><td>123</td><td>am</td><td>373</td><td>kids</td><td>623</td><td>till</td><td>873</td><td>quickly</td></tr>\n    <tr><td>124</td><td>thank</td><td>374</td><td>late</td><td>624</td><td>others</td><td>874</td><td>gold</td></tr>\n    <tr><td>125</td><td>any</td><td>375</td><td>stuff</td><td>625</td><td>catch</td><td>875</td><td>bar</td></tr>\n    <tr><td>126</td><td>two</td><td>376</td><td>exactly</td><td>626</td><td>follow</td><td>876</td><td>fish</td></tr>\n    <tr><td>127</td><td>even</td><td>377</td><td>under</td><td>627</td><td>sense</td><td>877</td><td>mark</td></tr>\n    <tr><td>128</td><td>much</td><td>378</td><td>death</td><td>628</td><td>sex</td><td>878</td><td>tom</td></tr>\n    <tr><td>129</td><td>doing</td><td>379</td><td>minute</td><td>629</td><td>lie</td><td>879</td><td>wearing</td></tr>\n    <tr><td>130</td><td>sure</td><td>380</td><td>pay</td><td>630</td><td>evening</td><td>880</td><td>crying</td></tr>\n    <tr><td>131</td><td>thing</td><td>381</td><td>crazy</td><td>631</td><td>master</td><td>881</td><td>accident</td></tr>\n    <tr><td>132</td><td>these</td><td>382</td><td>forget</td><td>632</td><td>known</td><td>882</td><td>government</td></tr>\n    <tr><td>133</td><td>help</td><td>383</td><td>everybody</td><td>633</td><td>dream</td><td>883</td><td>eight</td></tr>\n    <tr><td>134</td><td>first</td><td>384</td><td>kid</td><td>634</td><td>write</td><td>884</td><td>fell</td></tr>\n    <tr><td>135</td><td>into</td><td>385</td><td>change</td><td>635</td><td>million</td><td>885</td><td>cover</td></tr>\n    <tr><td>136</td><td>anything</td><td>386</td><td>gave</td><td>636</td><td>voice</td><td>886</td><td>certain</td></tr>\n    <tr><td>137</td><td>still</td><td>387</td><td>happen</td><td>637</td><td>sweet</td><td>887</td><td>interested</td></tr>\n    <tr><td>138</td><td>find</td><td>388</td><td>damn</td><td>638</td><td>rather</td><td>888</td><td>deep</td></tr>\n    <tr><td>139</td><td>life</td><td>389</td><td>five</td><td>639</td><td>felt</td><td>889</td><td>star</td></tr>\n    <tr><td>140</td><td>nothing</td><td>390</td><td>drink</td><td>640</td><td>sign</td><td>890</td><td>sea</td></tr>\n    <tr><td>141</td><td>sir</td><td>391</td><td>far</td><td>641</td><td>lucky</td><td>891</td><td>agree</td></tr>\n    <tr><td>142</td><td>day</td><td>392</td><td>knows</td><td>642</td><td>somewhere</td><td>892</td><td>problems</td></tr>\n    <tr><td>143</td><td>god</td><td>393</td><td>its</td><td>643</td><td>bet</td><td>893</td><td>detective</td></tr>\n    <tr><td>144</td><td>work</td><td>394</td><td>whatever</td><td>644</td><td>o</td><td>894</td><td>prison</td></tr>\n    <tr><td>145</td><td>their</td><td>395</td><td>eyes</td><td>645</td><td>jesus</td><td>895</td><td>major</td></tr>\n    <tr><td>146</td><td>uh</td><td>396</td><td>shut</td><td>646</td><td>longer</td><td>896</td><td>stick</td></tr>\n    <tr><td>147</td><td>again</td><td>397</td><td>aren</td><td>647</td><td>calling</td><td>897</td><td>offer</td></tr>\n    <tr><td>148</td><td>maybe</td><td>398</td><td>hit</td><td>648</td><td>worked</td><td>898</td><td>difficult</td></tr>\n    <tr><td>149</td><td>must</td><td>399</td><td>taking</td><td>649</td><td>quiet</td><td>899</td><td>smart</td></tr>\n    <tr><td>150</td><td>before</td><td>400</td><td>easy</td><td>650</td><td>looked</td><td>900</td><td>personal</td></tr>\n    <tr><td>151</td><td>other</td><td>401</td><td>times</td><td>651</td><td>less</td><td>901</td><td>record</td></tr>\n    <tr><td>152</td><td>wait</td><td>402</td><td>check</td><td>652</td><td>pull</td><td>902</td><td>stopped</td></tr>\n    <tr><td>153</td><td>stop</td><td>403</td><td>hands</td><td>653</td><td>beat</td><td>903</td><td>hide</td></tr>\n    <tr><td>154</td><td>call</td><td>404</td><td>minutes</td><td>654</td><td>careful</td><td>904</td><td>whether</td></tr>\n    <tr><td>155</td><td>after</td><td>405</td><td>deal</td><td>655</td><td>coffee</td><td>905</td><td>bank</td></tr>\n    <tr><td>156</td><td>won</td><td>406</td><td>different</td><td>656</td><td>return</td><td>906</td><td>trip</td></tr>\n    <tr><td>157</td><td>talk</td><td>407</td><td>means</td><td>657</td><td>secret</td><td>907</td><td>relax</td></tr>\n    <tr><td>158</td><td>away</td><td>408</td><td>point</td><td>658</td><td>weeks</td><td>908</td><td>america</td></tr>\n    <tr><td>159</td><td>than</td><td>409</td><td>inside</td><td>659</td><td>weren</td><td>909</td><td>public</td></tr>\n    <tr><td>160</td><td>thought</td><td>410</td><td>makes</td><td>660</td><td>date</td><td>910</td><td>list</td></tr>\n    <tr><td>161</td><td>home</td><td>411</td><td>asked</td><td>661</td><td>seeing</td><td>911</td><td>afternoon</td></tr>\n    <tr><td>162</td><td>night</td><td>412</td><td>somebody</td><td>662</td><td>fall</td><td>912</td><td>brain</td></tr>\n    <tr><td>163</td><td>put</td><td>413</td><td>mine</td><td>663</td><td>given</td><td>913</td><td>fix</td></tr>\n    <tr><td>164</td><td>great</td><td>414</td><td>making</td><td>664</td><td>ooh</td><td>914</td><td>bastard</td></tr>\n    <tr><td>165</td><td>those</td><td>415</td><td>body</td><td>665</td><td>fault</td><td>915</td><td>proud</td></tr>\n    <tr><td>166</td><td>last</td><td>416</td><td>afraid</td><td>666</td><td>straight</td><td>916</td><td>tea</td></tr>\n    <tr><td>167</td><td>better</td><td>417</td><td>sleep</td><td>667</td><td>takes</td><td>917</td><td>service</td></tr>\n    <tr><td>168</td><td>everything</td><td>418</td><td>chance</td><td>668</td><td>song</td><td>918</td><td>screaming</td></tr>\n    <tr><td>169</td><td>told</td><td>419</td><td>dear</td><td>669</td><td>future</td><td>919</td><td>forward</td></tr>\n    <tr><td>170</td><td>new</td><td>420</td><td>quite</td><td>670</td><td>gentlemen</td><td>920</td><td>angry</td></tr>\n    <tr><td>171</td><td>things</td><td>421</td><td>four</td><td>671</td><td>loved</td><td>921</td><td>park</td></tr>\n    <tr><td>172</td><td>always</td><td>422</td><td>anyway</td><td>672</td><td>changed</td><td>922</td><td>soul</td></tr>\n    <tr><td>173</td><td>keep</td><td>423</td><td>close</td><td>673</td><td>road</td><td>923</td><td>fighting</td></tr>\n    <tr><td>174</td><td>long</td><td>424</td><td>ain</td><td>674</td><td>calm</td><td>924</td><td>peter</td></tr>\n    <tr><td>175</td><td>years</td><td>425</td><td>party</td><td>675</td><td>wonderful</td><td>925</td><td>rich</td></tr>\n    <tr><td>176</td><td>leave</td><td>426</td><td>fun</td><td>676</td><td>mad</td><td>926</td><td>agent</td></tr>\n    <tr><td>177</td><td>does</td><td>427</td><td>against</td><td>677</td><td>turned</td><td>927</td><td>blow</td></tr>\n    <tr><td>178</td><td>money</td><td>428</td><td>word</td><td>678</td><td>drop</td><td>928</td><td>paul</td></tr>\n    <tr><td>179</td><td>around</td><td>429</td><td>comes</td><td>679</td><td>ladies</td><td>929</td><td>dress</td></tr>\n    <tr><td>180</td><td>doesn</td><td>430</td><td>important</td><td>680</td><td>learn</td><td>930</td><td>mary</td></tr>\n    <tr><td>181</td><td>name</td><td>431</td><td>set</td><td>681</td><td>step</td><td>931</td><td>missed</td></tr>\n    <tr><td>182</td><td>place</td><td>432</td><td>shall</td><td>682</td><td>absolutely</td><td>932</td><td>scene</td></tr>\n    <tr><td>183</td><td>ever</td><td>433</td><td>story</td><td>683</td><td>early</td><td>933</td><td>killing</td></tr>\n    <tr><td>184</td><td>feel</td><td>434</td><td>number</td><td>684</td><td>explain</td><td>934</td><td>standing</td></tr>\n    <tr><td>185</td><td>guys</td><td>435</td><td>daughter</td><td>685</td><td>clean</td><td>935</td><td>saved</td></tr>\n    <tr><td>186</td><td>father</td><td>436</td><td>least</td><td>686</td><td>piece</td><td>936</td><td>mm</td></tr>\n    <tr><td>187</td><td>guy</td><td>437</td><td>waiting</td><td>687</td><td>yesterday</td><td>937</td><td>respect</td></tr>\n    <tr><td>188</td><td>made</td><td>438</td><td>hurt</td><td>688</td><td>throw</td><td>938</td><td>killer</td></tr>\n    <tr><td>189</td><td>old</td><td>439</td><td>wish</td><td>689</td><td>picture</td><td>939</td><td>ice</td></tr>\n    <tr><td>190</td><td>isn</td><td>440</td><td>moment</td><td>690</td><td>land</td><td>940</td><td>mess</td></tr>\n    <tr><td>191</td><td>which</td><td>441</td><td>fight</td><td>691</td><td>feet</td><td>941</td><td>tough</td></tr>\n    <tr><td>192</td><td>big</td><td>442</td><td>week</td><td>692</td><td>wonder</td><td>942</td><td>feels</td></tr>\n    <tr><td>193</td><td>lot</td><td>443</td><td>husband</td><td>693</td><td>questions</td><td>943</td><td>church</td></tr>\n    <tr><td>194</td><td>done</td><td>444</td><td>girls</td><td>694</td><td>speaking</td><td>944</td><td>sad</td></tr>\n    <tr><td>195</td><td>hello</td><td>445</td><td>rest</td><td>695</td><td>worth</td><td>945</td><td>cell</td></tr>\n    <tr><td>196</td><td>nice</td><td>446</td><td>married</td><td>696</td><td>darling</td><td>946</td><td>drunk</td></tr>\n    <tr><td>197</td><td>believe</td><td>447</td><td>fire</td><td>697</td><td>dude</td><td>947</td><td>share</td></tr>\n    <tr><td>198</td><td>girl</td><td>448</td><td>game</td><td>698</td><td>giving</td><td>948</td><td>camera</td></tr>\n    <tr><td>199</td><td>someone</td><td>449</td><td>nobody</td><td>699</td><td>president</td><td>949</td><td>within</td></tr>\n    <tr><td>200</td><td>fine</td><td>450</td><td>mr</td><td>700</td><td>eye</td><td>950</td><td>card</td></tr>\n    <tr><td>201</td><td>thanks</td><td>451</td><td>children</td><td>701</td><td>quick</td><td>951</td><td>fly</td></tr>\n    <tr><td>202</td><td>wanted</td><td>452</td><td>side</td><td>702</td><td>moving</td><td>952</td><td>ben</td></tr>\n    <tr><td>203</td><td>kind</td><td>453</td><td>stand</td><td>703</td><td>figure</td><td>953</td><td>girlfriend</td></tr>\n    <tr><td>204</td><td>coming</td><td>454</td><td>read</td><td>704</td><td>state</td><td>954</td><td>laugh</td></tr>\n    <tr><td>205</td><td>house</td><td>455</td><td>though</td><td>705</td><td>strong</td><td>955</td><td>smell</td></tr>\n    <tr><td>206</td><td>every</td><td>456</td><td>cut</td><td>706</td><td>sam</td><td>956</td><td>broken</td></tr>\n    <tr><td>207</td><td>ok</td><td>457</td><td>started</td><td>707</td><td>none</td><td>957</td><td>mum</td></tr>\n    <tr><td>208</td><td>through</td><td>458</td><td>sister</td><td>708</td><td>amazing</td><td>958</td><td>honest</td></tr>\n    <tr><td>209</td><td>being</td><td>459</td><td>supposed</td><td>709</td><td>ones</td><td>959</td><td>often</td></tr>\n    <tr><td>210</td><td>course</td><td>460</td><td>between</td><td>710</td><td>works</td><td>960</td><td>starting</td></tr>\n    <tr><td>211</td><td>stay</td><td>461</td><td>child</td><td>711</td><td>act</td><td>961</td><td>calls</td></tr>\n    <tr><td>212</td><td>left</td><td>462</td><td>goes</td><td>712</td><td>needed</td><td>962</td><td>y</td></tr>\n    <tr><td>213</td><td>dad</td><td>463</td><td>hours</td><td>713</td><td>weird</td><td>963</td><td>spent</td></tr>\n    <tr><td>214</td><td>enough</td><td>464</td><td>speak</td><td>714</td><td>law</td><td>964</td><td>third</td></tr>\n    <tr><td>215</td><td>happened</td><td>465</td><td>women</td><td>715</td><td>worried</td><td>965</td><td>english</td></tr>\n    <tr><td>216</td><td>came</td><td>466</td><td>behind</td><td>716</td><td>report</td><td>966</td><td>visit</td></tr>\n    <tr><td>217</td><td>may</td><td>467</td><td>almost</td><td>717</td><td>goodbye</td><td>967</td><td>mama</td></tr>\n    <tr><td>218</td><td>mother</td><td>468</td><td>truth</td><td>718</td><td>missing</td><td>968</td><td>judge</td></tr>\n    <tr><td>219</td><td>wrong</td><td>469</td><td>blood</td><td>719</td><td>choice</td><td>969</td><td>window</td></tr>\n    <tr><td>220</td><td>world</td><td>470</td><td>able</td><td>720</td><td>happening</td><td>970</td><td>hungry</td></tr>\n    <tr><td>221</td><td>bad</td><td>471</td><td>lady</td><td>721</td><td>chief</td><td>971</td><td>dare</td></tr>\n    <tr><td>222</td><td>might</td><td>472</td><td>anymore</td><td>722</td><td>wedding</td><td>972</td><td>relationship</td></tr>\n    <tr><td>223</td><td>three</td><td>473</td><td>playing</td><td>723</td><td>strange</td><td>973</td><td>moved</td></tr>\n    <tr><td>224</td><td>today</td><td>474</td><td>gets</td><td>724</td><td>general</td><td>974</td><td>prove</td></tr>\n    <tr><td>225</td><td>listen</td><td>475</td><td>shot</td><td>725</td><td>pain</td><td>975</td><td>private</td></tr>\n    <tr><td>226</td><td>another</td><td>476</td><td>reason</td><td>726</td><td>kidding</td><td>976</td><td>wall</td></tr>\n    <tr><td>227</td><td>understand</td><td>477</td><td>trouble</td><td>727</td><td>decided</td><td>977</td><td>seat</td></tr>\n    <tr><td>228</td><td>hear</td><td>478</td><td>break</td><td>728</td><td>ya</td><td>978</td><td>position</td></tr>\n    <tr><td>229</td><td>remember</td><td>479</td><td>war</td><td>729</td><td>pass</td><td>979</td><td>lieutenant</td></tr>\n    <tr><td>230</td><td>ask</td><td>480</td><td>city</td><td>730</td><td>tired</td><td>980</td><td>realize</td></tr>\n    <tr><td>231</td><td>own</td><td>481</td><td>walk</td><td>731</td><td>class</td><td>981</td><td>lt</td></tr>\n    <tr><td>232</td><td>same</td><td>482</td><td>town</td><td>732</td><td>officer</td><td>982</td><td>especially</td></tr>\n    <tr><td>233</td><td>show</td><td>483</td><td>trust</td><td>733</td><td>kept</td><td>983</td><td>machine</td></tr>\n    <tr><td>234</td><td>else</td><td>484</td><td>met</td><td>734</td><td>wake</td><td>984</td><td>walking</td></tr>\n    <tr><td>235</td><td>kill</td><td>485</td><td>office</td><td>735</td><td>worse</td><td>985</td><td>art</td></tr>\n    <tr><td>236</td><td>talking</td><td>486</td><td>question</td><td>736</td><td>busy</td><td>986</td><td>pleasure</td></tr>\n    <tr><td>237</td><td>found</td><td>487</td><td>brought</td><td>737</td><td>eh</td><td>987</td><td>bloody</td></tr>\n    <tr><td>238</td><td>next</td><td>488</td><td>yours</td><td>738</td><td>mistake</td><td>988</td><td>college</td></tr>\n    <tr><td>239</td><td>getting</td><td>489</td><td>welcome</td><td>739</td><td>kiss</td><td>989</td><td>french</td></tr>\n    <tr><td>240</td><td>care</td><td>490</td><td>high</td><td>740</td><td>court</td><td>990</td><td>involved</td></tr>\n    <tr><td>241</td><td>car</td><td>491</td><td>wow</td><td>741</td><td>building</td><td>991</td><td>cry</td></tr>\n    <tr><td>242</td><td>looking</td><td>492</td><td>couple</td><td>742</td><td>finish</td><td>992</td><td>became</td></tr>\n    <tr><td>243</td><td>son</td><td>493</td><td>half</td><td>743</td><td>during</td><td>993</td><td>lived</td></tr>\n    <tr><td>244</td><td>try</td><td>494</td><td>died</td><td>744</td><td>age</td><td>994</td><td>impossible</td></tr>\n    <tr><td>245</td><td>woman</td><td>495</td><td>cool</td><td>745</td><td>ship</td><td>995</td><td>obviously</td></tr>\n    <tr><td>246</td><td>went</td><td>496</td><td>free</td><td>746</td><td>caught</td><td>996</td><td>neither</td></tr>\n    <tr><td>247</td><td>hi</td><td>497</td><td>either</td><td>747</td><td>marry</td><td>997</td><td>accept</td></tr>\n    <tr><td>248</td><td>dead</td><td>498</td><td>seems</td><td>748</td><td>meant</td><td>998</td><td>boyfriend</td></tr>\n    <tr><td>249</td><td>many</td><td>499</td><td>power</td><td>749</td><td>sell</td><td>999</td><td>besides</td></tr>\n    <tr><td>250</td><td>mind</td><td>500</td><td>whoa</td><td>750</td><td>dark</td><td>1000</td><td>queen</td></tr>\n  </tbody></table></div>"
+     ]
+    },
+    {
+     "h2": "Why 1000 words covers most of what you read",
+     "p": [
+      "English follows a steep frequency curve: a few hundred words account for the overwhelming majority of everything written and spoken, and the first thousand take that coverage further still. That is why learners are told to master high-frequency words before anything else — and why typists should drill them too. These are the words your fingers will type thousands of times, so making them automatic pays back on every sentence you ever write.",
+      "The practical version: if you can type these thousand words without thinking, ordinary English prose stops being a typing challenge. Unusual words are rare by definition — when one appears, you have time to handle it."
+     ]
+    },
+    {
+     "h2": "How to use this list for typing practice",
+     "p": [
+      "Start the test above — it draws from this exact frequency list, so every round drills the words that matter. Type a short round daily, accuracy first (97%+), and only then push for speed. The weak-key report after each round tells you which letters are actually slowing you down; drill those, not the words you already know.",
+      "For a shorter daily set, the <a href=\"top-en-words.html\">top 200 English words</a> page covers the highest-value core. When you want full sentences instead of single words, switch to the <a href=\"english-typing-test.html\">English typing test</a>."
+     ]
+    },
+    {
+     "h2": "Where this list comes from",
+     "p": [
+      "The FrequencyWords dataset counts word occurrences across millions of subtitle lines, which makes it a good proxy for everyday spoken-style English. We filtered the raw ranking to plain alphabetic words (dropping numbers, punctuation fragments and proper-noun noise) and kept the top thousand in order.",
+      "Frequency lists differ slightly by source — a news corpus will over-rank formal vocabulary, a subtitle corpus over-ranks conversational words. For typing practice, the conversational bias is a feature: these are the words you actually type."
+     ]
+    },
+    {
+     "h2": "The next step after the top 1000",
+     "p": [
+      "Once these words are automatic, progress comes from three places: longer texts for stamina (the <a href=\"5-minute-typing-test.html\">5 minute typing test</a>), symbol-heavy text for punctuation speed (numbers and quotes modes), and your own real writing — emails, documents, notes — typed with deliberate accuracy.",
+      "And if you type in more than one language, the same frequency-first method works there: see the <a href=\"typing-tests-in-other-languages.html\">typing tests in other languages</a> for word lists and practice pools in eleven more languages."
+     ]
+    }
+   ],
+   "faqFirstOpen": true,
+   "faqH2": "1000 Most Common English Words FAQ",
+   "faq": [
+    {
+     "q": "What are the 1000 most common English words?",
+     "a": "The thousand most frequent words in everyday English, ranked from the open FrequencyWords subtitle corpus (MIT license) and filtered to plain alphabetic words. This page lists all 1000 in order with a free typing practice test."
+    },
+    {
+     "q": "How many words do I need to know to type English fluently?",
+     "a": "For typing, the first few hundred cover most of what you type; the full thousand makes ordinary prose effortless. Unusual words are rare by definition, so the frequency core is where automaticity pays off."
+    },
+    {
+     "q": "Is this word list free?",
+     "a": "Yes — the list and the typing practice test are free with no sign up, and the practice history stays on your own device."
+    },
+    {
+     "q": "How should I practise with this list?",
+     "a": "Short daily rounds on the built-in test, accuracy first (97%+), plus weak-key drills from the result report. Move to sentences on the English typing test once the words feel automatic."
+    }
+   ],
+   "tldr": "The 1000 most common English words, frequency-ranked from the open FrequencyWords subtitle dataset (MIT license), in one page with a free typing practice test. A few hundred words cover most everyday English and the first thousand make ordinary prose effortless — so mastering them is the fastest route to real-world English typing speed.",
+   "webAppName": "Typing Speed Test",
+   "webAppUrl": "https://typing.rerivo.com/top-1000-english-words.html",
+   "bcItems": [
+    {
+     "name": "Home",
+     "item": "https://typing.rerivo.com/"
+    },
+    {
+     "name": "1000 Most Common English Words",
+     "item": "https://typing.rerivo.com/top-1000-english-words.html"
+    }
+   ],
+   "ldPretty": []
+  },
+  {
+   "file": "typing-games-for-kids.html",
+   "title": "Typing Games for Kids - Fun Short Sessions That Teach",
+   "metaDesc": "Typing games for kids that actually teach: 5-10 minute game-style rounds, letter-hunt drills, word-collection challenges, and how to keep kids practising without nagging.",
+   "canonical": "https://typing.rerivo.com/typing-games-for-kids.html",
+   "dur": 60,
+   "mode": "words",
+   "variant": null,
+   "nav": [
+    {
+     "href": "english-typing-test.html",
+     "text": "English Typing Test"
+    },
+    {
+     "href": "words-per-minute-test.html",
+     "text": "WPM Test"
+    },
+    {
+     "href": "typing-practice.html",
+     "text": "Typing Practice"
+    }
+   ],
+   "crumbs": [
+    "Home",
+    "Typing Games for Kids"
+   ],
+   "h1": "Typing Games for Kids",
+   "heroP": "<strong>Typing games for kids</strong> work best as short, game-feeling sessions — five to ten minutes, instant feedback, always stopping before boredom hits. Here is the method and why it beats formal drills.",
+   "seo": [
+    {
+     "h2": "Why games beat drills for kids",
+     "p": [
+      "Children learn typing fastest through play, not repetition. A five-minute game with instant feedback trains the same letter-location habit a worksheet drills over twenty minutes — but the child finishes the game wanting more, and coming back tomorrow is how motor memory actually forms. Boredom is the killer, and games are the antidote; drudgery is the reason most learn-to-type programs lose kids by week three.",
+      "The rule that makes it work: stop while it is fun. A child who quits a game asking for one more round will come back; a child who is forced through a full drill session will find reasons not to. Five to ten minutes, always, is the ceiling for young children."
+     ]
+    },
+    {
+     "h2": "Letter-hunt games: the fastest way to the keyboard map",
+     "p": [
+      "Letter-hunt games — spot the word, find the key, type it — build spatial memory, which is the foundation of touch typing. The child learns where the letters live without it feeling like work. Two rounds of letter-hunt a day beats a week of staring at a finger chart.",
+      "Start with the home row (A-S-D-F / J-K-L-;) and the child's own name — names are the highest-motivation text there is. Then expand to short familiar words, then the words they read in daily life."
+     ]
+    },
+    {
+     "h2": "Word-collection and mini-challenges",
+     "p": [
+      "Once letter locations are automatic, game-style word tasks take over: type the word to collect it, spell the sight word to burst it, type a whole short sentence to earn a badge. The key is the reward timing — instant, visual, and one round long. Kids respond to 'got it' feedback every five seconds far more than to a prize at the end of a month.",
+      "Keep the words at reading level. A six-year-old should type the words they read, not the words they are learning to spell — reading and typing develop together, and the text should stay comfortably easy."
+     ]
+    },
+    {
+     "h2": "The right duration and cadence",
+     "p": [
+      "Five minutes a day for young children, up to ten for older ones, and always before fatigue or frustration. Short daily sessions out-teach long weekly ones, because typing is motor memory and motor memory forms in the gaps between practices. The cadence that works: two short rounds most days, a longer challenge on the weekend, and immediate stop when accuracy collapses.",
+      "Watch the error rate as your signal: accuracy slipping below 90% mid-round means the material is too hard, not that the child is failing. Drop the difficulty, not the motivation."
+     ]
+    },
+    {
+     "h2": "How to keep kids practising without nagging",
+     "p": [
+      "The single best motivator is visible progress. A small chart of words-per-minute rising over weeks — or in this case, a personal-best saved in the browser the child can beat — turns practice into a game they run themselves. Framing it as 'beat your last score' rather than 'type faster' converts external pressure into a self-run challenge.",
+      "The second motivator is control: let the child pick the text (their favourite words, a story they like, their own name). Owning the choice is the difference between practice and homework, and it is the difference between a child who persists and one who quits."
+     ]
+    },
+    {
+     "h2": "Games that help with specific skills",
+     "p": [
+      "Keyboard-familiarity games (letter hunt, name typing) build the map. Accuracy games (type the word perfectly to collect it) build clean habits — the thing that actually predicts real-world speed. Speed games (beat your last time) build confidence once accuracy is solid. Introduce speed only after accuracy holds, exactly like adult training.",
+      "Punctuation and capitals come later and are best learned last for kids; start with lowercase words and short sentences. The <a href=\"typing-test-for-kids.html\">typing test for kids</a> on this site is tuned for exactly these short, friendly, game-like rounds."
+     ]
+    },
+    {
+     "h2": "A sample 5-minute session",
+     "p": [
+      "Minute one: letter-hunt on the child's name. Minute two: home-row words. Minute three: the sight words they are learning at school. Minute four: a 'beat your last score' round. Minute five: one short, easy sentence to finish on a win. Five minutes, five wins, and the child asks for another round tomorrow.",
+      "The whole session runs on the free test above — short durations, instant results, no account, and for a longer library of classic finger-drill games there is <a href=\"typing-games.html\">typing games</a> and the <a href=\"keyboard-practice.html\">keyboard practice</a> page."
+     ]
+    },
+    {
+     "h2": "Games that help with specific skills",
+     "p": [
+      "Keyboard-familiarity games (letter hunt, name typing) build the map. Accuracy games (type the word perfectly to collect it) build clean habits — the thing that actually predicts real-world speed. Speed games (beat your last time) build confidence once accuracy is solid. Introduce speed only after accuracy holds, exactly like adult training.",
+      "Punctuation and capitals come later and are best learned last for kids; start with lowercase words and short sentences. The <a href=\"typing-test-for-kids.html\">typing test for kids</a> on this site is tuned for exactly these short, friendly, game-like rounds."
+     ]
+    },
+    {
+     "h2": "A sample 5-minute session",
+     "p": [
+      "Minute one: letter-hunt on the child's name. Minute two: home-row words. Minute three: the sight words they are learning at school. Minute four: a 'beat your last score' round. Minute five: one short, easy sentence to finish on a win. Five minutes, five wins, and the child asks for another round tomorrow.",
+      "The whole session runs on the free test above — short durations, instant results, no account, and for a longer library of classic finger-drill games there is <a href=\"typing-games.html\">typing games</a> and the <a href=\"keyboard-practice.html\">keyboard practice</a> page."
+     ]
+    }
+   ],
+   "faqFirstOpen": true,
+   "faqH2": "Typing Games for Kids FAQ",
+   "faq": [
+    {
+     "q": "Are typing games good for kids?",
+     "a": "Yes — short game-style sessions train the same letter-location habits as drills, but children stay engaged and come back. Five to ten minutes, with instant feedback and always stopping before boredom, beats longer forced sessions every time."
+    },
+    {
+     "q": "What age should kids start typing games?",
+     "a": "Around five to seven, with letter-hunt and name typing. The text must stay at the child's reading level, and sessions should be five minutes maximum until concentration grows."
+    },
+    {
+     "q": "How do I keep my child practising without nagging?",
+     "a": "Make progress visible: a personal-best the child can beat, and letting them pick the text. 'Beat your last score' turns practice into a self-run challenge instead of homework."
+    },
+    {
+     "q": "How long should a kid play typing games each day?",
+     "a": "Five to ten minutes a day. Motor memory forms in the gaps between sessions, so short daily practice out-teaches long weekly sessions. Stop before fatigue or frustration sets in."
+    },
+    {
+     "q": "Is speed or accuracy more important for kids?",
+     "a": "Accuracy first, always. Speed games only after accuracy holds. The habit that predicts real-world typing speed is clean keys, and you build it from day one with perfectly-typed words."
+    }
+   ],
+   "tldr": "Typing games for kids work best as short, game-feeling sessions: 5-10 minutes with instant feedback, always stopping before boredom. Letter-hunt games build the keyboard map fastest, word-collection games build clean habits, and progress is the motivator — beat-your-last-score beats 'type faster'. Accuracy first; speed only after it holds.",
+   "webAppName": "Typing Speed Test",
+   "webAppUrl": "https://typing.rerivo.com/typing-games-for-kids.html",
+   "bcItems": [
+    {
+     "name": "Home",
+     "item": "https://typing.rerivo.com/"
+    },
+    {
+     "name": "Typing Games for Kids",
+     "item": "https://typing.rerivo.com/typing-games-for-kids.html"
     }
    ],
    "ldPretty": []

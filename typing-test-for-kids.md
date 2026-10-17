@@ -22,6 +22,10 @@ Under 8 | 8-15 WPM | First letters; still finding keys
 
 Keep sessions short and playful: 10–15 minutes a day beats one long session. Start with the home row (ASDF and JKL;), use the on-screen hands below so your child never has to look down, and praise accuracy over speed. Turn it into a race against their own best score with the typing race or the typing games. Framed as typing games for kids, the same drills work: short rounds, immediate feedback and a score to beat keep children coming back without turning practice into a chore.
 
+## How to use the kids test
+
+The right way to run short rounds: typing games for kids explains the 5-10 minute cadence, letter-hunt starts and the accuracy-first rule.
+
 ## Typing test FAQ
 
 ### What is a good typing speed for a child?
