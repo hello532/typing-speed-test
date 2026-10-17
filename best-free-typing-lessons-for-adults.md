@@ -16,6 +16,12 @@ Week one: home row only. A-S-D-F / J-K-L-;, eyes up no matter what. One 1 minute
 
 Week four: speed work. Two 15-second sprints before every measured round. Retest on the 1 minute typing test and compare against week one. Most people gain 10-15 WPM in four weeks - enough to clear every office benchmark in the typing speed requirements table.
 
+Week | Focus | Daily routine | Metric
+1 | Home row + accuracy 98% | 1 min + 5 min drills | Accuracy %
+2 | Numbers + capitals | 2 sprints + 1 min + symbols | Accuracy 98%
+3 | Full sentences | 1 min + trainer drills | Net WPM
+4 | Sprint + speed work | 2 sprints + 1 min + weak keys | Net WPM vs baseline
+
 ## The tools you need (all free)
 
 A browser is the only requirement. This site provides the timed test, the practice text in 12 languages, the word lists, the trainer, the lessons and the certificate - all free with no account. The learn to type page has the full beginner course. The typing lessons page structures the drills as progressive lessons.
@@ -69,3 +75,15 @@ Yes. Adults reach the same automaticity as teens in 1-3 months of daily practice
 ### Are free typing lessons as good as paid courses?
 
 Yes. Typing is motor memory and motor memory responds to frequent measured practice - free in any browser. Courses package the same drills with a login screen.
+
+### How do I stay motivated during the 4-week plan?
+
+Use the weekly trend line as motivation - a visible rising score is the best reminder that the practice is working. One minute on a bad day keeps the chain alive.
+
+### Can I use a different keyboard for practice and work?
+
+Consistency matters. The keyboard you practised on will always outperform a theoretically better one that you bought yesterday.
+
+### Does the test work offline?
+
+Yes. The test runs in your browser with no account and no data leaving your device.

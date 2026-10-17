@@ -4372,6 +4372,11 @@ Most adults reach 40-50 WPM within one month, 60 WPM within three months, and 80
 ## A 4-week free plan that works
 Week one: home row only. A-S-D-F / J-K-L-;, eyes up no matter what. One 1 minute typing test daily to record your baseline. Week two: add numbers and capitals with opposite-side shift. Accuracy floor 98%. Week three: full-sentence practice with punctuation and real email text. Use the typing trainer for structured drills.
 Week four: speed work. Two 15-second sprints before every measured round. Retest on the 1 minute typing test and compare against week one. Most people gain 10-15 WPM in four weeks - enough to clear every office benchmark in the typing speed requirements table.
+Week | Focus | Daily routine | Metric
+1 | Home row + accuracy 98% | 1 min + 5 min drills | Accuracy %
+2 | Numbers + capitals | 2 sprints + 1 min + symbols | Accuracy 98%
+3 | Full sentences | 1 min + trainer drills | Net WPM
+4 | Sprint + speed work | 2 sprints + 1 min + weak keys | Net WPM vs baseline
 ## The tools you need (all free)
 A browser is the only requirement. This site provides the timed test, the practice text in 12 languages, the word lists, the trainer, the lessons and the certificate - all free with no account. The learn to type page has the full beginner course. The typing lessons page structures the drills as progressive lessons.
 ## Measuring progress without a paid subscription
@@ -4396,6 +4401,9 @@ The other answer is to make the practice itself shorter rather than longer. One 
 Yes. Adults reach the same automaticity as teens in 1-3 months of daily practice. The one complication is unlearning old habits, which takes a hard 3-week boundary.
 40-50 WPM in one month, 60 WPM in three months, 80 WPM in a year. Almost all early gains come from accuracy, not raw speed.
 Yes. Typing is motor memory and motor memory responds to frequent measured practice - free in any browser. Courses package the same drills with a login screen.
+Use the weekly trend line as motivation - a visible rising score is the best reminder that the practice is working. One minute on a bad day keeps the chain alive.
+Consistency matters. The keyboard you practised on will always outperform a theoretically better one that you bought yesterday.
+Yes. The test runs in your browser with no account and no data leaving your device.
 
 ## Typing Speed Test for Government Jobs
 Source: https://typing.rerivo.com/typing-test-government-jobs.html
@@ -4435,6 +4443,8 @@ Typically 30-35 WPM in English or the KPH equivalent, with a mistake cap and a s
 It depends on the post and state. Many SSC, court and administrative exams accept English or Hindi. This site has both.
 Week one: accuracy base at 90% pace with a 98% floor. Week two: pace and simulation. Take a full simulation daily under exact exam conditions.
 Most use a qualifying bar around 25-35 WPM with capped errors, where one mark is deducted per mistake. Numbers vary by post and state.
+KPH divided by 300 equals WPM using the standard 5 characters per word. For example, 10,000 KPH is about 33 WPM.
+Yes, one mark per mistake. Accuracy gates fail more candidates than speed limits.
 
 ## Programmer Typing Speed
 Source: https://typing.rerivo.com/programmer-typing-speed.html
@@ -4452,6 +4462,13 @@ The most valuable typing routine targets three code-heavy reaches: brackets and 
 See typing practice for programmers for the full technique guide.
 ## Three code-heavy reaches that slow every developer
 First: brackets and braces on the shift row. These appear in nearly every line of code and require either a shift hold or a dedicated finger from home row. Second: underscore and hyphen on the bottom row, which is the least accessible key group. Third: backtick-shift and dollar-sign-brace combinations in template strings.
+Symbol | Keypress | Frequency in code
+() | Shift+9/0 | Every function call
+{} | Shift+[ / Shift+] | Every block and object
+_ | Shift+- | Python naming
+: | Shift+; | Python blocks
+= | Direct | Assignment every line
+> | Shift+. | Arrow functions
 ## What senior developers know about typing that juniors do not
 Senior developers who are fast coders share this specific belief: typing is a tool they have made invisible so the keyboard never competes with the thought. The focus is not how fast they type but whether every symbol reaches the screen without conscious thought about fingers or keys.
 ## How to choose which language code drill to start with
@@ -4474,3 +4491,5 @@ Yes - not for the speed itself, but for removing the keyboard as a speed limit. 
 There is no formal bar. Developers comfortable at 50-70 WPM with symbol fluency have removed the keyboard bottleneck.
 Use a code-specific typing test (this site has Python and JavaScript pools), run daily 60-second rounds, and drill your weakest symbol from the result report. Symbol speed is trained in the same way as prose speed.
 Yes - the Python code typing test at typing.rerivo.com serves real Python lines from the official keyword list, free with no sign up.
+Modestly and indirectly, through consistent actuation. Technique still does the lifting.
+Only if you type heavily every day with discomfort. For most developers, technique work on the current layout delivers bigger gains with no retraining cost.

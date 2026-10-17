@@ -77,3 +77,11 @@ Week one: accuracy base at 90% pace with a 98% floor. Week two: pace and simulat
 ### What is the passing score for government typing tests?
 
 Most use a qualifying bar around 25-35 WPM with capped errors, where one mark is deducted per mistake. Numbers vary by post and state.
+
+### What is the KPH to WPM conversion for government exams?
+
+KPH divided by 300 equals WPM using the standard 5 characters per word. For example, 10,000 KPH is about 33 WPM.
+
+### Is there a penalty for mistakes in the test?
+
+Yes, one mark per mistake. Accuracy gates fail more candidates than speed limits.

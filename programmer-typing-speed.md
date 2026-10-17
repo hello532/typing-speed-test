@@ -26,6 +26,14 @@ See typing practice for programmers for the full technique guide.
 
 First: brackets and braces on the shift row. These appear in nearly every line of code and require either a shift hold or a dedicated finger from home row. Second: underscore and hyphen on the bottom row, which is the least accessible key group. Third: backtick-shift and dollar-sign-brace combinations in template strings.
 
+Symbol | Keypress | Frequency in code
+() | Shift+9/0 | Every function call
+{} | Shift+[ / Shift+] | Every block and object
+_ | Shift+- | Python naming
+: | Shift+; | Python blocks
+= | Direct | Assignment every line
+> | Shift+. | Arrow functions
+
 ## What senior developers know about typing that juniors do not
 
 Senior developers who are fast coders share this specific belief: typing is a tool they have made invisible so the keyboard never competes with the thought. The focus is not how fast they type but whether every symbol reaches the screen without conscious thought about fingers or keys.
@@ -77,3 +85,11 @@ Use a code-specific typing test (this site has Python and JavaScript pools), run
 ### Can I practice typing Python code online?
 
 Yes - the Python code typing test at typing.rerivo.com serves real Python lines from the official keyword list, free with no sign up.
+
+### Does a mechanical keyboard improve code typing speed?
+
+Modestly and indirectly, through consistent actuation. Technique still does the lifting.
+
+### Should developers use Dvorak or another layout?
+
+Only if you type heavily every day with discomfort. For most developers, technique work on the current layout delivers bigger gains with no retraining cost.
