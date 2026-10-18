@@ -18,7 +18,7 @@ The text you type never leaves your browser, and there is no server-side scoring
 
 ## Contact
 
-Questions, corrections to a practice text, or ideas for the next typing drill are welcome at hello@rerivo.com. If you would like the site in your language, that is the fastest way to make it happen.
+Questions, corrections to a practice text, or ideas for the next typing drill are welcome at hello@rerivo.com. If you would like the site in your language, that is the fastest way to make it happen. What we store and why is set out in the privacy policy.
 
 ## About FAQ
 

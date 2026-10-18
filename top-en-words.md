@@ -70,7 +70,7 @@ English high-frequency words are mostly short function words (the, of, and) mixe
 
 Start the test above — it draws words from this very list, so every round drills the words that matter. Type a short round every day, aim for accuracy first (97%+), and only then push for speed. Watch the weak-key report after each round: it shows exactly which letters slow you down, so you can target them instead of re-typing words you already know.
 
-When you want full sentences instead of single words, switch to the English typing test, or benchmark yourself against the classic 1 minute typing test.
+When you want full sentences instead of single words, switch to the English typing test, or benchmark yourself against the classic 1 minute typing test. When 200 words stop being enough, the 1000 most common English words list extends the same frequency-first method.
 
 ## Word lists in other languages
 

@@ -305,7 +305,7 @@
     {
      "h2": "Build typing endurance",
      "p": [
-      "A five-minute test measures something a quick sprint can't: how well you hold speed and accuracy as your hands tire. Pace yourself, keep your posture relaxed and your wrists level, and breathe. Finishing strong on the five-minute test is a reliable sign your typing is ready for long real-world sessions of writing, coding or data entry."
+      "A five-minute test measures something a quick sprint can't: how well you hold speed and accuracy as your hands tire. Pace yourself, keep your posture relaxed and your wrists level, and breathe. Finishing strong on the five-minute test is a reliable sign your typing is ready for long real-world sessions of writing, coding or data entry. If you want to see how far that endurance goes, run the <a href=\"10-minute-typing-test.html\">10 minute typing test</a> once a month and compare how much of your speed survives to the final minute."
      ]
     },
     {
@@ -874,7 +874,7 @@
     {
      "h2": "Track your typing progress over time",
      "p": [
-      "Improvement is easier to see when you measure it. After each typing speed test your result is saved in your own browser, building a private history of WPM, accuracy and error counts. Watching those numbers climb week by week is motivating and tells you whether to push for raw speed or to slow down and tighten up accuracy. Your typing history stays private in your browser."
+      "Improvement is easier to see when you measure it. After each typing speed test your result is saved in your own browser, building a private history of WPM, accuracy and error counts. Watching those numbers climb week by week is motivating and tells you whether to push for raw speed or to slow down and tighten up accuracy. Your typing history stays private in your browser. How the score is computed, and what stays in your browser, is explained on the <a href=\"about.html\">about page</a>."
      ]
     },
     {
@@ -1482,7 +1482,7 @@
     {
      "h2": "More ways to practise online",
      "p": [
-      "For structured browser-based practice with per-language text and per-key analysis, see <a href=\"online-typing-practice.html\">online typing practice</a> — a daily 10-minute plan by goal, no sign up."
+      "For structured browser-based practice with per-language text and per-key analysis, see <a href=\"online-typing-practice.html\">online typing practice</a> — a daily 10-minute plan by goal, no sign up. Want a plain timed score instead of a structured plan? Use the <a href=\"online-typing-test.html\">online typing test</a>."
      ]
     },
     {
@@ -1708,7 +1708,7 @@
     {
      "h2": "A free four week typing lesson plan",
      "p": [
-      "Week one: home row only, short one minute lessons, accuracy over speed. Week two: add the top row and the shift keys for capitals, two minute lessons. Week three: cover the bottom row and the number row, then try the number text set. Week four: mix sentences, quotes and punctuation, and test your WPM against week one. Ten to fifteen minutes a day is enough; most learners reach 40 to 60 WPM within a month of daily lessons."
+      "Week one: home row only, short one minute lessons, accuracy over speed. Week two: add the top row and the shift keys for capitals, two minute lessons. Week three: cover the bottom row and the number row, then try the number text set. Week four: mix sentences, quotes and punctuation, and test your WPM against week one. Ten to fifteen minutes a day is enough; most learners reach 40 to 60 WPM within a month of daily lessons. If you want a full curriculum rather than a weekly plan, the <a href=\"best-free-typing-lessons-for-adults.html\">free typing lessons for adults</a> page lays the four weeks out lesson by lesson."
      ]
     },
     {
@@ -1907,7 +1907,7 @@
     {
      "h2": "Guides for specific speed goals",
      "p": [
-      "Beyond general tips: <a href=\"typing-speed-improvement-tips.html\">typing speed improvement tips</a> ranked by impact, <a href=\"how-to-type-faster-and-more-accurately.html\">how to type faster and more accurately</a> with the dual-metric method, and <a href=\"how-to-type-100-wpm.html\">how to type 100 WPM</a> for the elite path."
+      "Beyond general tips: <a href=\"typing-speed-improvement-tips.html\">typing speed improvement tips</a> ranked by impact, <a href=\"how-to-type-faster-and-more-accurately.html\">how to type faster and more accurately</a> with the dual-metric method, and <a href=\"how-to-type-100-wpm.html\">how to type 100 WPM</a> for the elite path. Still deciding where to measure? The <a href=\"best-typing-test-online.html\">best free typing tests compared</a> page covers the alternatives honestly, including this one."
      ]
     }
    ],
@@ -2138,7 +2138,7 @@
   },
   {
    "file": "wpm-test-online.html",
-   "title": "WPM Test Online - Check Your WPM Free, Words Per Minute Checker",
+   "title": "WPM Test Online - Check Your Words Per Minute Free",
    "metaDesc": "Free WPM test online. Check WPM and accuracy instantly. Pick 15 seconds to 10 minutes, type, get words per minute. No sign up.",
    "canonical": "https://typing.rerivo.com/wpm-test-online.html",
    "dur": 60,
@@ -2932,7 +2932,7 @@
   },
   {
    "file": "typing-race.html",
-   "title": "Typing Race - Free Competitive Typing Game & Speed Race Online",
+   "title": "Typing Race - Free Competitive Typing Speed Game",
    "metaDesc": "Free typing race, the competitive typing game online. Race the clock, beat your best WPM with instant results. No sign up.",
    "canonical": "https://typing.rerivo.com/typing-race.html",
    "dur": 60,
@@ -3058,7 +3058,7 @@
     {
      "h2": "typing tutorial",
      "p": [
-      "A good <strong>typing tutorial</strong> explains why each finger owns certain keys, not just which key to press. This free online typing tutor works the same way: every practice sentence is a lesson in itself, so while you type you absorb the home row, the finger map, and the posture rules at the same time. Sixty seconds of guided practice, live WPM and accuracy feedback, and no sign up, no download, and no cost."
+      "A good <strong>typing tutorial</strong> explains why each finger owns certain keys, not just which key to press. This free online typing tutor works the same way: every practice sentence is a lesson in itself, so while you type you absorb the home row, the finger map, and the posture rules at the same time. Sixty seconds of guided practice, live WPM and accuracy feedback, and no sign up, no download, and no cost. For a paced trainer view with a saved drill log, open the <a href=\"typing-tutor.html\">typing tutor</a>."
      ]
     },
     {
@@ -3294,7 +3294,7 @@
   },
   {
    "file": "typing-trainer.html",
-   "title": "Typing Trainer - Free Typing Training Drills & Practice Plans",
+   "title": "Typing Trainer - Free Typing Drills & Practice Plans",
    "metaDesc": "Free typing trainer with drills and practice plans. Build muscle memory with timed drills and log your WPM. No sign up.",
    "canonical": "https://typing.rerivo.com/typing-trainer.html",
    "dur": 60,
@@ -3793,7 +3793,7 @@
    "webAppUrl": "https://typing.rerivo.com/",
    "ldPretty": [],
    "file": "one-hand-typing.html",
-   "title": "One Hand Typing - Practice & Speed Test for Single-Handed Typists",
+   "title": "One Hand Typing - Free Single-Handed Speed Test",
    "metaDesc": "Free one hand typing practice and speed test. Type with one hand using the standard keyboard, with drills and a WPM test. No sign up.",
    "canonical": "https://typing.rerivo.com/one-hand-typing.html",
    "crumbs": [
@@ -4002,7 +4002,7 @@
     {
      "h2": "Contact",
      "p": [
-      "Questions, corrections to a practice text, or ideas for the next typing drill are welcome at hello@rerivo.com. If you would like the site in your language, that is the fastest way to make it happen."
+      "Questions, corrections to a practice text, or ideas for the next typing drill are welcome at hello@rerivo.com. If you would like the site in your language, that is the fastest way to make it happen. What we store and why is set out in the <a href=\"privacy-policy.html\">privacy policy</a>."
      ]
     }
    ],
@@ -4523,7 +4523,7 @@
     {
      "h2": "Why typing speed matters for programmers",
      "p": [
-      "A good typing speed for a programmer is <strong>50&ndash;70 WPM</strong>, but coding is not a typing race &mdash; you spend far more time thinking than typing. Speed matters where it removes friction: the faster your fingers find brackets, operators and names, the less a thought is interrupted on its way to the screen. Accuracy matters even more, because a mistyped symbol is a syntax error you have to hunt down."
+      "A good typing speed for a programmer is <strong>50&ndash;70 WPM</strong>, but coding is not a typing race &mdash; you spend far more time thinking than typing. Speed matters where it removes friction: the faster your fingers find brackets, operators and names, the less a thought is interrupted on its way to the screen. Accuracy matters even more, because a mistyped symbol is a syntax error you have to hunt down. For why that friction compounds across a whole codebase, see <a href=\"programmer-typing-speed.html\">programmer typing speed</a>."
      ]
     },
     {
@@ -5764,7 +5764,7 @@
     {
      "h2": "What typing speed do government exams require?",
      "p": [
-      "Government clerk and assistant exams usually qualify on a short timed passage around 25–35 WPM with capped errors. For the complete scenario-by-scenario table with conversions, see <a href=\"typing-speed-requirements.html\">typing speed requirements by job and exam</a>."
+      "Government clerk and assistant exams usually qualify on a short timed passage around 25–35 WPM with capped errors. For the complete scenario-by-scenario table with conversions, see <a href=\"typing-speed-requirements.html\">typing speed requirements by job and exam</a>. For country-specific exam formats such as SSC, IBPS and court clerk tests, see the <a href=\"typing-test-government-jobs.html\">government jobs typing test</a> guide."
      ]
     }
    ],
@@ -5934,7 +5934,7 @@
     {
      "h2": "Where should a beginner start?",
      "p": [
-      "Begin with the home row — A, S, D, F for the left hand and J, K, L, ; for the right. Learn to reach each key with the correct finger instead of hunting with two fingers, even if it feels slower for the first few days. Speed is a by-product of accuracy; accuracy is a by-product of good technique."
+      "Begin with the home row — A, S, D, F for the left hand and J, K, L, ; for the right. Learn to reach each key with the correct finger instead of hunting with two fingers, even if it feels slower for the first few days. Speed is a by-product of accuracy; accuracy is a by-product of good technique. If the home row is already automatic, the <a href=\"home-row-typing-test.html\">home row typing test</a> turns that placement into a timed check."
      ]
     },
     {
@@ -5946,7 +5946,7 @@
     {
      "h2": "Your first realistic targets",
      "p": [
-      "Most complete beginners sit around 20 to 30 WPM. Getting to 40 WPM is a realistic first goal within a few weeks of ten minutes a day. Kids and occasional typists may take longer; there is no rush and no score to beat but your own."
+      "Most complete beginners sit around 20 to 30 WPM. Getting to 40 WPM is a realistic first goal within a few weeks of ten minutes a day. Kids and occasional typists may take longer; there is no rush and no score to beat but your own. Once the beginner text starts to feel slow, step up to the <a href=\"easy-typing-test.html\">easy typing test</a> for a slightly harder passage at the same pace."
      ]
     }
    ],
@@ -7199,7 +7199,7 @@
   {
    "file": "top-en-words.html",
    "title": "Top 200 Most Common English Words (with Typing Practice)",
-   "metaDesc": "The 200 most common English words from real frequency data, with a free typing practice test built in. Learn the words that make up most everyday English text.",
+   "metaDesc": "The 200 most common English words from real frequency data, with free typing practice built in. Drill the words behind everyday English text.",
    "canonical": "https://typing.rerivo.com/top-en-words.html",
    "dur": 60,
    "mode": "words",
@@ -7244,7 +7244,7 @@
      "h2": "How to practise English typing with this list",
      "p": [
       "Start the test above — it draws words from this very list, so every round drills the words that matter. Type a short round every day, aim for accuracy first (97%+), and only then push for speed. Watch the weak-key report after each round: it shows exactly which letters slow you down, so you can target them instead of re-typing words you already know.",
-      "When you want full sentences instead of single words, switch to the <a href=\"english-typing-test.html\">English typing test</a>, or benchmark yourself against the classic <a href=\"1-minute-typing-test.html\">1 minute typing test</a>."
+      "When you want full sentences instead of single words, switch to the <a href=\"english-typing-test.html\">English typing test</a>, or benchmark yourself against the classic <a href=\"1-minute-typing-test.html\">1 minute typing test</a>. When 200 words stop being enough, the <a href=\"top-1000-english-words.html\">1000 most common English words</a> list extends the same frequency-first method."
      ]
     },
     {
@@ -7292,7 +7292,7 @@
   {
    "file": "top-es-words.html",
    "title": "Top 200 Most Common Spanish Words (with Typing Practice)",
-   "metaDesc": "The 200 most common Spanish words from real frequency data, with a free typing practice test built in. Learn the words that make up most everyday Spanish text.",
+   "metaDesc": "The 200 most common Spanish words from real frequency data, with free typing practice built in. Drill the words behind everyday Spanish text.",
    "canonical": "https://typing.rerivo.com/top-es-words.html",
    "dur": 60,
    "mode": "words",
@@ -7422,14 +7422,14 @@
     {
      "h2": "Why drill the top Hindi words",
      "p": [
-      "In almost every language, a few hundred words cover most of what people actually write. Hindi is no exception: these 200 words appear again and again in messages, documents, subtitles and web pages. If your fingers can produce them without thinking, your real-world Hindi typing speed rises immediately — long before you memorise any larger vocabulary.",
+      "Hindi subtitles lean on a small set of function words — है, और, का, में, नहीं — and those same forms recur in WhatsApp messages, news captions and everyday documents. Once your fingers can produce them without hunting for a key, every sentence you type speeds up, because you stop breaking rhythm on the words that appear in almost every line.",
       "Hindi high-frequency words are rich in matras and the conjunct consonants (क्ष, त्र, ज्ञ) that slow most typists down. Drilling these 200 words builds automaticity exactly where Hindi typing needs it."
      ]
     },
     {
      "h2": "How to practise Hindi typing with this list",
      "p": [
-      "Start the test above — it draws words from this very list, so every round drills the words that matter. Type a short round every day, aim for accuracy first (97%+), and only then push for speed. Watch the weak-key report after each round: it shows exactly which letters slow you down, so you can target them instead of re-typing words you already know.",
+      "Ten to fifteen minutes a day, all of it on this list, beats an hour of random Devanagari text. Type a round, then read the weak-key report and spend the next two minutes on the matras and conjuncts it names — क्ष, त्र, ज्ञ and the vowel signs that pull your fingers apart. Accuracy above 97% first; only add speed once the conjuncts stop breaking your rhythm.",
       "When you want full sentences instead of single words, switch to the <a href=\"hindi-typing-test.html\">Hindi typing test</a>, or benchmark yourself against the classic <a href=\"1-minute-typing-test.html\">1 minute typing test</a>."
      ]
     },
@@ -7478,7 +7478,7 @@
   {
    "file": "top-ja-words.html",
    "title": "Top 200 Most Common Japanese Words (with Typing Practice)",
-   "metaDesc": "The 200 most common Japanese words from real frequency data, with a free typing practice test built in. Learn the words that make up most everyday Japanese text.",
+   "metaDesc": "The 200 most common Japanese words from real frequency data, with free typing practice built in. Drill the words behind everyday Japanese text.",
    "canonical": "https://typing.rerivo.com/top-ja-words.html",
    "dur": 60,
    "mode": "words",
@@ -7515,14 +7515,14 @@
     {
      "h2": "Why drill the top Japanese words",
      "p": [
-      "In almost every language, a few hundred words cover most of what people actually write. Japanese is no exception: these 200 words appear again and again in messages, documents, subtitles and web pages. If your fingers can produce them without thinking, your real-world Japanese typing speed rises immediately — long before you memorise any larger vocabulary.",
+      "Japanese frequency lists are dominated by particles and auxiliaries — の, は, に, を, が — plus a small set of very common verbs and sentence-final forms. Since Japanese is typed through romaji-to-kana conversion with no spaces between words, knowing these fragments by reflex is what lets you convert long strings without checking the candidate list every few characters.",
       "Japanese high-frequency words are dominated by particles (は, が, を, に) and the most common verbs and auxiliaries. Because Japanese has no spaces between words, learning to type these fragments instantly is what makes full-sentence typing feel fluent."
      ]
     },
     {
      "h2": "How to practise Japanese typing with this list",
      "p": [
-      "Start the test above — it draws words from this very list, so every round drills the words that matter. Type a short round every day, aim for accuracy first (97%+), and only then push for speed. Watch the weak-key report after each round: it shows exactly which letters slow you down, so you can target them instead of re-typing words you already know.",
+      "Because romaji input converts to kana in bursts, practise in short rounds of single words rather than long passages. After each round check the weak-key report: if the same kana pair keeps misfiring, retype the words containing it slowly until conversion needs no correction. Keep accuracy above 97% while you learn, then add time pressure with the longer durations above.",
       "When you want full sentences instead of single words, switch to the <a href=\"japanese-typing-test.html\">Japanese typing test</a>, or benchmark yourself against the classic <a href=\"1-minute-typing-test.html\">1 minute typing test</a>."
      ]
     },
@@ -7608,14 +7608,14 @@
     {
      "h2": "Why drill the top Korean words",
      "p": [
-      "In almost every language, a few hundred words cover most of what people actually write. Korean is no exception: these 200 words appear again and again in messages, documents, subtitles and web pages. If your fingers can produce them without thinking, your real-world Korean typing speed rises immediately — long before you memorise any larger vocabulary.",
+      "Korean subtitles repeat a compact set of pronouns, particles and verb stems — 내가, 그, 그리고, 있어 — all built from the same 24 jamo. Because Hangul is composed block by block, the bottleneck is usually one or two vowel-consonant combinations, not vocabulary. Drilling the top words isolates those blocks until syllable assembly becomes one motion instead of several.",
       "Korean high-frequency words are short, particle-heavy forms (내가, 그리고, 있어) built from a small set of jamo. Drilling them trains the even syllable-block rhythm that real Korean typing speed is made of."
      ]
     },
     {
      "h2": "How to practise Korean typing with this list",
      "p": [
-      "Start the test above — it draws words from this very list, so every round drills the words that matter. Type a short round every day, aim for accuracy first (97%+), and only then push for speed. Watch the weak-key report after each round: it shows exactly which letters slow you down, so you can target them instead of re-typing words you already know.",
+      "Two 5-minute rounds a day, each followed by a look at the weak-key report, is the whole programme. If a particular syllable block keeps slowing you, retype that word slowly five times before continuing — accuracy in the block comes first, and speed in Hangul follows almost by itself once the block is automatic. Push for pace only when a round lands above 97%.",
       "When you want full sentences instead of single words, switch to the <a href=\"korean-typing-test.html\">Korean typing test</a>, or benchmark yourself against the classic <a href=\"1-minute-typing-test.html\">1 minute typing test</a>."
      ]
     },
@@ -7701,14 +7701,14 @@
     {
      "h2": "Why drill the top Urdu words",
      "p": [
-      "In almost every language, a few hundred words cover most of what people actually write. Urdu is no exception: these 200 words appear again and again in messages, documents, subtitles and web pages. If your fingers can produce them without thinking, your real-world Urdu typing speed rises immediately — long before you memorise any larger vocabulary.",
+      "Urdu frequency data is dominated by particles and verb endings — ہے, کی, میں, کا, نہیں — written in Nastaliq, where letters change shape depending on what joins them. That shaping is exactly what makes Urdu typing feel slow at first: drilling the top 200 words trains the joining forms you meet in nearly every sentence, so context switches stop costing you keystrokes.",
       "Urdu high-frequency words use the special letters (ٹ ڈ ڑ ں ہ ے) that distinguish Urdu from Arabic script. Drilling these 200 words builds speed exactly where Urdu typists lose it."
      ]
     },
     {
      "h2": "How to practise Urdu typing with this list",
      "p": [
-      "Start the test above — it draws words from this very list, so every round drills the words that matter. Type a short round every day, aim for accuracy first (97%+), and only then push for speed. Watch the weak-key report after each round: it shows exactly which letters slow you down, so you can target them instead of re-typing words you already know.",
+      "Short daily rounds on this exact list work better than long occasional sessions, because Nastaliq typing is a joining-shape skill: repetition is what makes ڑ, ں, ے and their neighbours come out without a pause. After each round, use the weak-key report to find which joining forms cost you time, then drill just those for two minutes before your next round.",
       "When you want full sentences instead of single words, switch to the <a href=\"urdu-typing-test.html\">Urdu typing test</a>, or benchmark yourself against the classic <a href=\"1-minute-typing-test.html\">1 minute typing test</a>."
      ]
     },
@@ -8116,7 +8116,7 @@
   {
    "file": "typing-speed-requirements.html",
    "title": "Typing Speed Requirements by Job and Exam (WPM, CPM, KPH)",
-   "metaDesc": "Typing speed requirements for data entry, transcription, clerk and government exams, office and programming work — with WPM, CPM and KPH conversions. Free checklist.",
+   "metaDesc": "Typing speed requirements for data entry, transcription, clerk, government and office jobs - with WPM, CPM and KPH conversions. Free checklist.",
    "canonical": "https://typing.rerivo.com/typing-speed-requirements.html",
    "dur": 60,
    "mode": "sentences",
@@ -8215,7 +8215,7 @@
   {
    "file": "how-to-get-better-at-typing.html",
    "title": "How to Get Better at Typing - A Practical 4-Week System",
-   "metaDesc": "How to get better at typing with a simple daily system: measure your baseline, fix accuracy first, drill weak keys and track real progress. Free tools included.",
+   "metaDesc": "How to get better at typing with a simple daily system: measure your baseline, fix accuracy first, drill weak keys, track real progress. Free tools.",
    "canonical": "https://typing.rerivo.com/how-to-get-better-at-typing.html",
    "dur": 60,
    "mode": "words",
@@ -8702,7 +8702,7 @@
   },
   {
    "file": "how-to-type-faster-and-more-accurately.html",
-   "title": "How to Type Faster and More Accurately - The Dual-Metric Method",
+   "title": "How to Type Faster and More Accurately - Dual-Metric Method",
    "metaDesc": "How to type faster and more accurately at the same time: the error-cost math, the accuracy-first protocol, and how to train both metrics together.",
    "canonical": "https://typing.rerivo.com/how-to-type-faster-and-more-accurately.html",
    "dur": 60,
@@ -8824,7 +8824,7 @@
   {
    "file": "typing-speed-exercises.html",
    "title": "Typing Speed Exercises - 8 Drills That Actually Work",
-   "metaDesc": "Typing speed exercises that actually work: sprint drills, weak-key elimination, symbol rounds, endurance sets and the daily 10-minute structure to use them in.",
+   "metaDesc": "Typing speed exercises that work: sprint drills, weak-key elimination, symbol rounds and endurance sets in a daily 10-minute structure.",
    "canonical": "https://typing.rerivo.com/typing-speed-exercises.html",
    "dur": 60,
    "mode": "words",
@@ -8861,7 +8861,7 @@
      "h2": "Weak-key elimination",
      "p": [
       "After any round, the result panel lists your most-missed and slowest keys. Take the two worst and drill them in 15-second bursts until they stop appearing in the report — then take the next two. This is the highest-ROI exercise in typing, because one hesitant key taxes every word that contains it.",
-      "Most people discover a pattern: a specific finger, a specific row, or a specific symbol family. Fix the pattern, not just the key."
+      "Most people discover a pattern: a specific finger, a specific row, or a specific symbol family. Fix the pattern, not just the key. When the pattern is a letter pair rather than a finger, <a href=\"bigram-typing-practice.html\">bigram typing practice</a> drills those combinations directly."
      ]
     },
     {
@@ -9079,7 +9079,7 @@
   {
    "file": "fastest-typing-speed-record.html",
    "title": "Fastest Typing Speed Records - and What They Are Made Of",
-   "metaDesc": "The fastest typing speed records ever measured, from 200+ WPM champions to modern competitive typists — and the four trainable things elite speed is built from.",
+   "metaDesc": "The fastest typing speed records ever measured, from 200+ WPM champions to modern competitive typists - and the four things elite speed is built from.",
    "canonical": "https://typing.rerivo.com/fastest-typing-speed-record.html",
    "dur": 60,
    "mode": "words",
@@ -9864,7 +9864,7 @@
      "h2": "The speed and accuracy reality",
      "p": [
       "The working benchmark is 300+ CPM (60+ WPM) sustained over long audio — not sprint speed. Because audio continues while you type, the real constraint is the listen-type pipeline: holding several seconds of speech in memory while your fingers finish the previous phrase. That skill is trainable, and it improves fastest with actual audio practice rather than plain typing drills.",
-      "Accuracy expectations are stricter than almost any other typing job: 99%+ is the professional norm, because errors change meaning. Measure your baseline on the <a href=\"cpm-typing-test.html\">CPM typing test</a>, which shows both CPM and accuracy after every round."
+      "Accuracy expectations are stricter than almost any other typing job: 99%+ is the professional norm, because errors change meaning. Measure your baseline on the <a href=\"cpm-typing-test.html\">CPM typing test</a>, which shows both CPM and accuracy after every round. For the listening-side habits that lift accuracy under real audio, see <a href=\"audio-typing-tips.html\">audio typing tips</a>."
      ]
     },
     {
@@ -10866,7 +10866,7 @@
   {
    "file": "touch-typing-tips.html",
    "title": "Touch Typing Tips - Technique Fixes That Actually Work",
-   "metaDesc": "Touch typing tips that fix technique, not just speed: finger discipline, the return-to-home-row habit, rhythm training, and the drills that make touch typing automatic.",
+   "metaDesc": "Touch typing tips that fix technique, not just speed: finger discipline, the return-to-home-row habit, rhythm, and drills that make it automatic.",
    "canonical": "https://typing.rerivo.com/touch-typing-tips.html",
    "dur": 60,
    "mode": "words",
@@ -11001,7 +11001,7 @@
   {
    "file": "how-long-to-learn-touch-typing.html",
    "title": "How Long Does It Take to Learn Touch Typing?",
-   "metaDesc": "How long to learn touch typing: 2-4 weeks to basic fluency, 1-3 months to automaticity, with a week-by-week timeline and the factors that speed it up or slow it down.",
+   "metaDesc": "How long to learn touch typing: 2-4 weeks to basic fluency, 1-3 months to automaticity - with a week-by-week timeline and what speeds it up.",
    "canonical": "https://typing.rerivo.com/how-long-to-learn-touch-typing.html",
    "dur": 60,
    "mode": "words",
@@ -11136,7 +11136,7 @@
   {
    "file": "proper-hand-position-for-typing.html",
    "title": "Proper Hand Position for Typing - Setup That Prevents Pain",
-   "metaDesc": "Proper hand position for typing: home row placement, wrist angle, the posture chain from chair to screen, and the position mistakes that cause fatigue and slow you down.",
+   "metaDesc": "Proper hand position for typing: home row placement, wrist angle, the posture chain from chair to screen, and the mistakes that cause fatigue.",
    "canonical": "https://typing.rerivo.com/proper-hand-position-for-typing.html",
    "dur": 60,
    "mode": "words",
@@ -11200,7 +11200,7 @@
     {
      "h2": "Position for different keyboards and situations",
      "p": [
-      "On laptops: the same principles, harder geometry — raise the rear, use an external keyboard for long sessions. On mechanical keyboards: higher key travel invites bottoming out hard; lighten the press. On the numeric keypad: same home logic, middle finger on the 5 bump, wrist floating.",
+      "On laptops: the same principles, harder geometry — raise the rear, use an external keyboard for long sessions. On mechanical keyboards: higher key travel invites bottoming out hard; lighten the press. On the numeric keypad: same home logic, middle finger on the 5 bump, wrist floating. If you are weighing an upgrade, the <a href=\"mechanical-keyboard-for-typing.html\">mechanical keyboard for typing</a> guide covers switch types and when the change actually helps.",
       "On phones and tablets, forget all of it — different device, different mechanics. Everything here is about full-size keyboards, where touch typing physics apply."
      ]
     },
@@ -11271,7 +11271,7 @@
   {
    "file": "is-it-hard-to-learn-touch-typing.html",
    "title": "Is It Hard to Learn Touch Typing? An Honest Answer",
-   "metaDesc": "Is it hard to learn touch typing? Honestly: the first week is frustrating, the rest is just consistency. What makes it feel hard, what actually is hard, and how to make it easy.",
+   "metaDesc": "Is it hard to learn touch typing? The first week is frustrating, the rest is consistency. What makes it feel hard - and how to make it easy.",
    "canonical": "https://typing.rerivo.com/is-it-hard-to-learn-touch-typing.html",
    "dur": 60,
    "mode": "words",
@@ -11406,7 +11406,7 @@
   {
    "file": "easy-way-to-learn-touch-typing.html",
    "title": "Easy Way to Learn Touch Typing - The Lazy Person's Method",
-   "metaDesc": "The easy way to learn touch typing: 10 lazy-proof minutes a day, the keyboard-cover trick, enjoyment-based practice, and the no-willpower system that works in 3 weeks.",
+   "metaDesc": "The easy way to learn touch typing: 10 lazy-proof minutes a day, the keyboard-cover trick, and the no-willpower system that works in 3 weeks.",
    "canonical": "https://typing.rerivo.com/easy-way-to-learn-touch-typing.html",
    "dur": 60,
    "mode": "words",
@@ -11541,7 +11541,7 @@
   {
    "file": "typing-finger-chart.html",
    "title": "Typing Finger Chart - Which Finger for Which Key",
-   "metaDesc": "Typing finger chart explained: the exact finger assignment for every key, how to learn the chart in a week, common assignment mistakes, and printable practice guidance.",
+   "metaDesc": "Typing finger chart: the exact finger assignment for every key, how to learn it in a week, common mistakes, and printable practice guidance.",
    "canonical": "https://typing.rerivo.com/typing-finger-chart.html",
    "dur": 60,
    "mode": "words",
@@ -11676,7 +11676,7 @@
   {
    "file": "mechanical-keyboard-for-typing.html",
    "title": "Mechanical Keyboard for Typing - Does It Make You Faster?",
-   "metaDesc": "Mechanical keyboard for typing: do mechanical keyboards make you faster, which switch types suit typing, the real benefits, and when an upgrade is actually worth it.",
+   "metaDesc": "Mechanical keyboard for typing: do they really make you faster, which switch types suit typing, the real benefits, and when an upgrade is worth it.",
    "canonical": "https://typing.rerivo.com/mechanical-keyboard-for-typing.html",
    "dur": 60,
    "mode": "words",
@@ -11811,7 +11811,7 @@
   {
    "file": "finger-placement-typing.html",
    "title": "Finger Placement Typing - Train Each Finger Correctly",
-   "metaDesc": "Finger placement typing: how to train correct finger placement from day one, per-finger drills for weak fingers, and how placement errors become speed ceilings.",
+   "metaDesc": "Finger placement typing: how to train correct placement from day one, per-finger drills for weak fingers, and how errors become speed ceilings.",
    "canonical": "https://typing.rerivo.com/finger-placement-typing.html",
    "dur": 60,
    "mode": "words",
@@ -11946,7 +11946,7 @@
   {
    "file": "touch-typing-for-adults.html",
    "title": "Touch Typing for Adults - Learning Later in Life",
-   "metaDesc": "Touch typing for adults: why adults actually learn well, the unlearning problem and its fix, realistic expectations, and the adult-specific practice plan that works.",
+   "metaDesc": "Touch typing for adults: why adults learn well, the unlearning problem and its fix, realistic expectations, and the practice plan that works.",
    "canonical": "https://typing.rerivo.com/touch-typing-for-adults.html",
    "dur": 60,
    "mode": "words",
@@ -12080,7 +12080,7 @@
   },
   {
    "file": "indonesian-typing-test.html",
-   "title": "Tes Mengetik Online Gratis - Ukur Kecepatan WPM | Typing.Rerivo",
+   "title": "Tes Mengetik Online Gratis - Ukur Kecepatan WPM",
    "metaDesc": "Tes mengetik online gratis dalam Bahasa Indonesia. Ukur kecepatan dan akurasi mengetik WPM dengan hasil instan. Latihan mengetik, tanpa daftar.",
    "canonical": "https://typing.rerivo.com/indonesian-typing-test.html",
    "dur": 60,
@@ -12813,14 +12813,14 @@
     {
      "h2": "Why drill the top Thai words",
      "p": [
-      "In almost every language, a few hundred words cover most of what people actually write. Thai is no exception: these 200 words appear again and again in messages, documents, subtitles and web pages. If your fingers can produce them without thinking, your real-world Thai typing speed rises immediately.",
+      "Thai writes without spaces between words and stacks vowels before, after, above and below the consonant, so most characters sit on several vertical levels. The top 200 words concentrate the consonant-plus-vowel-plus-tone-mark shapes that repeat in every sentence — and those stacked shapes, not raw vocabulary, are what decide your speed once you know the alphabet.",
       "Thai high-frequency words mix consonants, preposed vowels and tone marks on almost every word. Drilling these 200 words builds the syllable-shape automaticity that real Thai typing speed is made of."
      ]
     },
     {
      "h2": "How to practise Thai typing with this list",
      "p": [
-      "Start the test above — it draws words from this very list, so every round drills the words that matter. Type a short round every day, aim for accuracy first (97%+), and only then push for speed. Watch the weak-key report after each round: it shows exactly which letters slow you down.",
+      "Rounds on these 200 words train the stacked consonant-vowel-tone shapes that Thai typing depends on. Check the weak-key report after each round and spend two minutes retyping the shapes it flags — usually a specific vowel position rather than a consonant. Hold 97% accuracy before chasing speed; on a system where one misplaced mark changes the word, accuracy is the speed multiplier.",
       "When you want full sentences instead of single words, switch to the <a href=\"thai-typing-test.html\">Thai typing test</a>, or benchmark yourself against the classic <a href=\"1-minute-typing-test.html\">1 minute typing test</a>."
      ]
     },
@@ -12865,7 +12865,7 @@
   {
    "file": "best-typing-test-online.html",
    "title": "Best Free Typing Tests Online (2026) - Honest Comparison",
-   "metaDesc": "Best free typing tests online compared honestly: monkeytype, 10fastfingers, typing.com, keybr, TypingTest.com and Typing.Rerivo. Features, languages, no-sign-up options.",
+   "metaDesc": "Best free typing tests compared honestly: monkeytype, 10fastfingers, typing.com, keybr and TypingTest.com - features, languages, no-sign-up options.",
    "canonical": "https://typing.rerivo.com/best-typing-test-online.html",
    "dur": 60,
    "mode": "sentences",
@@ -12982,8 +12982,8 @@
   },
   {
    "file": "online-typing-practice.html",
-   "title": "Online Typing Practice - Free Structured Practice, No Sign Up",
-   "metaDesc": "Online typing practice that actually improves you: free browser-based structured practice with weak-key analysis, 12 languages, and a daily 10-minute plan. No sign up.",
+   "title": "Online Typing Practice - Free Structured Drills, No Sign Up",
+   "metaDesc": "Online typing practice that improves you: free browser-based structured drills with weak-key analysis, 12 languages, and a daily 10-minute plan.",
    "canonical": "https://typing.rerivo.com/online-typing-practice.html",
    "dur": 60,
    "mode": "words",
@@ -13110,7 +13110,7 @@
   {
    "file": "top-1000-english-words.html",
    "title": "1000 Most Common English Words (with Typing Practice)",
-   "metaDesc": "The 1000 most common English words from real frequency data, in one page, with a free typing practice test. Learn the words that make up most everyday English.",
+   "metaDesc": "The 1000 most common English words from real frequency data, on one page, with a free typing practice test. Learn the words behind everyday English.",
    "canonical": "https://typing.rerivo.com/top-1000-english-words.html",
    "dur": 60,
    "mode": "words",
@@ -13210,7 +13210,7 @@
   {
    "file": "typing-games-for-kids.html",
    "title": "Typing Games for Kids - Fun Short Sessions That Teach",
-   "metaDesc": "Typing games for kids that actually teach: 5-10 minute game-style rounds, letter-hunt drills, word-collection challenges, and how to keep kids practising without nagging.",
+   "metaDesc": "Typing games for kids that actually teach: 5-10 minute rounds, letter-hunt drills and word-collection challenges that keep kids practising.",
    "canonical": "https://typing.rerivo.com/typing-games-for-kids.html",
    "dur": 60,
    "mode": "words",
@@ -13619,7 +13619,7 @@
   },
   {
    "file": "typing-test-government-jobs.html",
-   "title": "Typing Speed Test for Government Jobs - SSC, IBPS, Court Clerk",
+   "title": "Typing Speed Test for Government Jobs - SSC, IBPS, Clerk",
    "metaDesc": "Typing speed requirements and practice for government jobs: SSC CHSL, IBPS clerk, court clerk, and data-entry roles. KPH/WPM targets with conversion tables.",
    "canonical": "https://typing.rerivo.com/typing-test-government-jobs.html",
    "dur": 60,

@@ -6,7 +6,7 @@ Free typing tutorial for beginners. Step by step touch typing lessons in your br
 
 ## typing tutorial
 
-A good typing tutorial explains why each finger owns certain keys, not just which key to press. This free online typing tutor works the same way: every practice sentence is a lesson in itself, so while you type you absorb the home row, the finger map, and the posture rules at the same time. Sixty seconds of guided practice, live WPM and accuracy feedback, and no sign up, no download, and no cost.
+A good typing tutorial explains why each finger owns certain keys, not just which key to press. This free online typing tutor works the same way: every practice sentence is a lesson in itself, so while you type you absorb the home row, the finger map, and the posture rules at the same time. Sixty seconds of guided practice, live WPM and accuracy feedback, and no sign up, no download, and no cost. For a paced trainer view with a saved drill log, open the typing tutor.
 
 ## What this typing tutor teaches first
 

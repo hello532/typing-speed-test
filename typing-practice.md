@@ -34,7 +34,7 @@ Turn practice sessions into progress: how to get better at typing, learn to type
 
 ## More ways to practise online
 
-For structured browser-based practice with per-language text and per-key analysis, see online typing practice — a daily 10-minute plan by goal, no sign up.
+For structured browser-based practice with per-language text and per-key analysis, see online typing practice — a daily 10-minute plan by goal, no sign up. Want a plain timed score instead of a structured plan? Use the online typing test.
 
 ## The four bottlenecks practice must target
 

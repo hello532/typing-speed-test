@@ -14,7 +14,7 @@ Use the typing trainer for these, and note your sprint WPM separately. The gap b
 
 After any round, the result panel lists your most-missed and slowest keys. Take the two worst and drill them in 15-second bursts until they stop appearing in the report — then take the next two. This is the highest-ROI exercise in typing, because one hesitant key taxes every word that contains it.
 
-Most people discover a pattern: a specific finger, a specific row, or a specific symbol family. Fix the pattern, not just the key.
+Most people discover a pattern: a specific finger, a specific row, or a specific symbol family. Fix the pattern, not just the key. When the pattern is a letter pair rather than a finger, bigram typing practice drills those combinations directly.
 
 ## Symbol and number rounds
 

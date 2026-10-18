@@ -36,7 +36,7 @@ Each mistake has the same fix pattern: adjust one variable, type five minutes, a
 
 ## Position for different keyboards and situations
 
-On laptops: the same principles, harder geometry — raise the rear, use an external keyboard for long sessions. On mechanical keyboards: higher key travel invites bottoming out hard; lighten the press. On the numeric keypad: same home logic, middle finger on the 5 bump, wrist floating.
+On laptops: the same principles, harder geometry — raise the rear, use an external keyboard for long sessions. On mechanical keyboards: higher key travel invites bottoming out hard; lighten the press. On the numeric keypad: same home logic, middle finger on the 5 bump, wrist floating. If you are weighing an upgrade, the mechanical keyboard for typing guide covers switch types and when the change actually helps.
 
 On phones and tablets, forget all of it — different device, different mechanics. Everything here is about full-size keyboards, where touch typing physics apply.
 

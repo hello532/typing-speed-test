@@ -6,7 +6,7 @@ Programmers type a lot of symbols, brackets and camelCase &mdash; the exact char
 
 ## Why typing speed matters for programmers
 
-A good typing speed for a programmer is 50-70 WPM, but coding is not a typing race - you spend far more time thinking than typing. Speed matters where it removes friction: the faster your fingers find brackets, operators and names, the less a thought is interrupted on its way to the screen. Accuracy matters even more, because a mistyped symbol is a syntax error you have to hunt down.
+A good typing speed for a programmer is 50-70 WPM, but coding is not a typing race - you spend far more time thinking than typing. Speed matters where it removes friction: the faster your fingers find brackets, operators and names, the less a thought is interrupted on its way to the screen. Accuracy matters even more, because a mistyped symbol is a syntax error you have to hunt down. For why that friction compounds across a whole codebase, see programmer typing speed.
 
 ## What slows programmers down
 

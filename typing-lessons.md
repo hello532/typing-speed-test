@@ -14,7 +14,7 @@ Every typing lesson plan starts in the same place: the home row. Rest your left 
 
 ## A free four week typing lesson plan
 
-Week one: home row only, short one minute lessons, accuracy over speed. Week two: add the top row and the shift keys for capitals, two minute lessons. Week three: cover the bottom row and the number row, then try the number text set. Week four: mix sentences, quotes and punctuation, and test your WPM against week one. Ten to fifteen minutes a day is enough; most learners reach 40 to 60 WPM within a month of daily lessons.
+Week one: home row only, short one minute lessons, accuracy over speed. Week two: add the top row and the shift keys for capitals, two minute lessons. Week three: cover the bottom row and the number row, then try the number text set. Week four: mix sentences, quotes and punctuation, and test your WPM against week one. Ten to fifteen minutes a day is enough; most learners reach 40 to 60 WPM within a month of daily lessons. If you want a full curriculum rather than a weekly plan, the free typing lessons for adults page lays the four weeks out lesson by lesson.
 
 ## Typing lessons order: what to learn first
 

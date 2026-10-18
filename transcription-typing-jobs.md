@@ -14,7 +14,7 @@ Pay is usually per audio minute or per project, so your effective hourly rate is
 
 The working benchmark is 300+ CPM (60+ WPM) sustained over long audio — not sprint speed. Because audio continues while you type, the real constraint is the listen-type pipeline: holding several seconds of speech in memory while your fingers finish the previous phrase. That skill is trainable, and it improves fastest with actual audio practice rather than plain typing drills.
 
-Accuracy expectations are stricter than almost any other typing job: 99%+ is the professional norm, because errors change meaning. Measure your baseline on the CPM typing test, which shows both CPM and accuracy after every round.
+Accuracy expectations are stricter than almost any other typing job: 99%+ is the professional norm, because errors change meaning. Measure your baseline on the CPM typing test, which shows both CPM and accuracy after every round. For the listening-side habits that lift accuracy under real audio, see audio typing tips.
 
 ## General, legal and medical transcription
 

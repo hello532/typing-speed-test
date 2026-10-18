@@ -62,13 +62,13 @@ The 200 most common Hindi words below come from real subtitle frequency data —
 
 ## Why drill the top Hindi words
 
-In almost every language, a few hundred words cover most of what people actually write. Hindi is no exception: these 200 words appear again and again in messages, documents, subtitles and web pages. If your fingers can produce them without thinking, your real-world Hindi typing speed rises immediately — long before you memorise any larger vocabulary.
+Hindi subtitles lean on a small set of function words — है, और, का, में, नहीं — and those same forms recur in WhatsApp messages, news captions and everyday documents. Once your fingers can produce them without hunting for a key, every sentence you type speeds up, because you stop breaking rhythm on the words that appear in almost every line.
 
 Hindi high-frequency words are rich in matras and the conjunct consonants (क्ष, त्र, ज्ञ) that slow most typists down. Drilling these 200 words builds automaticity exactly where Hindi typing needs it.
 
 ## How to practise Hindi typing with this list
 
-Start the test above — it draws words from this very list, so every round drills the words that matter. Type a short round every day, aim for accuracy first (97%+), and only then push for speed. Watch the weak-key report after each round: it shows exactly which letters slow you down, so you can target them instead of re-typing words you already know.
+Ten to fifteen minutes a day, all of it on this list, beats an hour of random Devanagari text. Type a round, then read the weak-key report and spend the next two minutes on the matras and conjuncts it names — क्ष, त्र, ज्ञ and the vowel signs that pull your fingers apart. Accuracy above 97% first; only add speed once the conjuncts stop breaking your rhythm.
 
 When you want full sentences instead of single words, switch to the Hindi typing test, or benchmark yourself against the classic 1 minute typing test.
 

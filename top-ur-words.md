@@ -62,13 +62,13 @@ The 200 most common Urdu words below come from real subtitle frequency data — 
 
 ## Why drill the top Urdu words
 
-In almost every language, a few hundred words cover most of what people actually write. Urdu is no exception: these 200 words appear again and again in messages, documents, subtitles and web pages. If your fingers can produce them without thinking, your real-world Urdu typing speed rises immediately — long before you memorise any larger vocabulary.
+Urdu frequency data is dominated by particles and verb endings — ہے, کی, میں, کا, نہیں — written in Nastaliq, where letters change shape depending on what joins them. That shaping is exactly what makes Urdu typing feel slow at first: drilling the top 200 words trains the joining forms you meet in nearly every sentence, so context switches stop costing you keystrokes.
 
 Urdu high-frequency words use the special letters (ٹ ڈ ڑ ں ہ ے) that distinguish Urdu from Arabic script. Drilling these 200 words builds speed exactly where Urdu typists lose it.
 
 ## How to practise Urdu typing with this list
 
-Start the test above — it draws words from this very list, so every round drills the words that matter. Type a short round every day, aim for accuracy first (97%+), and only then push for speed. Watch the weak-key report after each round: it shows exactly which letters slow you down, so you can target them instead of re-typing words you already know.
+Short daily rounds on this exact list work better than long occasional sessions, because Nastaliq typing is a joining-shape skill: repetition is what makes ڑ, ں, ے and their neighbours come out without a pause. After each round, use the weak-key report to find which joining forms cost you time, then drill just those for two minutes before your next round.
 
 When you want full sentences instead of single words, switch to the Urdu typing test, or benchmark yourself against the classic 1 minute typing test.
 

@@ -34,7 +34,7 @@ Everyone types differently, so this typing speed test lets you pick the length a
 
 ## Track your typing progress over time
 
-Improvement is easier to see when you measure it. After each typing speed test your result is saved in your own browser, building a private history of WPM, accuracy and error counts. Watching those numbers climb week by week is motivating and tells you whether to push for raw speed or to slow down and tighten up accuracy. Your typing history stays private in your browser.
+Improvement is easier to see when you measure it. After each typing speed test your result is saved in your own browser, building a private history of WPM, accuracy and error counts. Watching those numbers climb week by week is motivating and tells you whether to push for raw speed or to slow down and tighten up accuracy. Your typing history stays private in your browser. How the score is computed, and what stays in your browser, is explained on the about page.
 
 ## Tips to type faster and more accurately
 

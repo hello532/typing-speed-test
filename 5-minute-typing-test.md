@@ -14,7 +14,7 @@ If you type for a living — data entry, transcription, programming, customer su
 
 ## Build typing endurance
 
-A five-minute test measures something a quick sprint can't: how well you hold speed and accuracy as your hands tire. Pace yourself, keep your posture relaxed and your wrists level, and breathe. Finishing strong on the five-minute test is a reliable sign your typing is ready for long real-world sessions of writing, coding or data entry.
+A five-minute test measures something a quick sprint can't: how well you hold speed and accuracy as your hands tire. Pace yourself, keep your posture relaxed and your wrists level, and breathe. Finishing strong on the five-minute test is a reliable sign your typing is ready for long real-world sessions of writing, coding or data entry. If you want to see how far that endurance goes, run the 10 minute typing test once a month and compare how much of your speed survives to the final minute.
 
 ## How to prepare for the 5 minute test
 

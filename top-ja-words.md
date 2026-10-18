@@ -62,13 +62,13 @@ The 200 most common Japanese words below come from real subtitle frequency data,
 
 ## Why drill the top Japanese words
 
-In almost every language, a few hundred words cover most of what people actually write. Japanese is no exception: these 200 words appear again and again in messages, documents, subtitles and web pages. If your fingers can produce them without thinking, your real-world Japanese typing speed rises immediately — long before you memorise any larger vocabulary.
+Japanese frequency lists are dominated by particles and auxiliaries — の, は, に, を, が — plus a small set of very common verbs and sentence-final forms. Since Japanese is typed through romaji-to-kana conversion with no spaces between words, knowing these fragments by reflex is what lets you convert long strings without checking the candidate list every few characters.
 
 Japanese high-frequency words are dominated by particles (は, が, を, に) and the most common verbs and auxiliaries. Because Japanese has no spaces between words, learning to type these fragments instantly is what makes full-sentence typing feel fluent.
 
 ## How to practise Japanese typing with this list
 
-Start the test above — it draws words from this very list, so every round drills the words that matter. Type a short round every day, aim for accuracy first (97%+), and only then push for speed. Watch the weak-key report after each round: it shows exactly which letters slow you down, so you can target them instead of re-typing words you already know.
+Because romaji input converts to kana in bursts, practise in short rounds of single words rather than long passages. After each round check the weak-key report: if the same kana pair keeps misfiring, retype the words containing it slowly until conversion needs no correction. Keep accuracy above 97% while you learn, then add time pressure with the longer durations above.
 
 When you want full sentences instead of single words, switch to the Japanese typing test, or benchmark yourself against the classic 1 minute typing test.
 

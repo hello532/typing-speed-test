@@ -95,7 +95,7 @@ The 5 minute typing test is the best way to measure your real, sustained typing 
 ## Who should use a 5 minute test?
 If you type for a living — data entry, transcription, programming, customer support — the 5 minute test reflects your working speed far better than a short burst. Take it a few times a week and watch your WPM and accuracy trend in the saved history below.
 ## Build typing endurance
-A five-minute test measures something a quick sprint can't: how well you hold speed and accuracy as your hands tire. Pace yourself, keep your posture relaxed and your wrists level, and breathe. Finishing strong on the five-minute test is a reliable sign your typing is ready for long real-world sessions of writing, coding or data entry.
+A five-minute test measures something a quick sprint can't: how well you hold speed and accuracy as your hands tire. Pace yourself, keep your posture relaxed and your wrists level, and breathe. Finishing strong on the five-minute test is a reliable sign your typing is ready for long real-world sessions of writing, coding or data entry. If you want to see how far that endurance goes, run the 10 minute typing test once a month and compare how much of your speed survives to the final minute.
 ## How to prepare for the 5 minute test
 Treat a five-minute attempt like a short workout: sit with feet flat and wrists floating level with the keyboard, roll your shoulders once, then run a 1 minute typing test as a warm-up. Keep water nearby but skip coffee right before — caffeine jitters tend to show up as extra errors around minute three. During the round, breathe steadily and use sentence breaks as micro-rests for your eyes. Two prepared attempts a week beat seven tired ones.
 ## 5 minute typing test: what a longer round reveals
@@ -227,7 +227,7 @@ An online typing speed test gives you an instant, objective picture of how well 
 ## Choose your typing test duration and text
 Everyone types differently, so this typing speed test lets you pick the length and style that suit you. Short 15 or 30 second rounds are great for a quick warm up, while a 1 minute typing test is the classic benchmark. Longer 3, 5 and 10 minute tests reveal your stamina and give a steadier WPM result. You can also switch between sentences, famous quotes, numbers and common words, so you train exactly the keys you struggle with most.
 ## Track your typing progress over time
-Improvement is easier to see when you measure it. After each typing speed test your result is saved in your own browser, building a private history of WPM, accuracy and error counts. Watching those numbers climb week by week is motivating and tells you whether to push for raw speed or to slow down and tighten up accuracy. Your typing history stays private in your browser.
+Improvement is easier to see when you measure it. After each typing speed test your result is saved in your own browser, building a private history of WPM, accuracy and error counts. Watching those numbers climb week by week is motivating and tells you whether to push for raw speed or to slow down and tighten up accuracy. Your typing history stays private in your browser. How the score is computed, and what stays in your browser, is explained on the about page.
 ## Tips to type faster and more accurately
 Fast typing is built on good habits. Keep your fingers on the home row, use all ten fingers, and glance at the screen rather than the keyboard. Take a typing test every day for ten to fifteen minutes and always value accuracy over raw speed, because fixing mistakes costs more time than typing a little slower. Numbers and punctuation are the most common slowdowns, so practise them in the dedicated modes until they feel automatic.
 ## Who should take a typing speed test?
@@ -371,7 +371,7 @@ Ready-made exercise sets cover sentences, quotes, numbers and words, and every l
 ## Structured practice plans
 Turn practice sessions into progress: how to get better at typing, learn to type faster free, and typing speed exercises with a daily 10-minute structure.
 ## More ways to practise online
-For structured browser-based practice with per-language text and per-key analysis, see online typing practice — a daily 10-minute plan by goal, no sign up.
+For structured browser-based practice with per-language text and per-key analysis, see online typing practice — a daily 10-minute plan by goal, no sign up. Want a plain timed score instead of a structured plan? Use the online typing test.
 ## The four bottlenecks practice must target
 Every slow typist is slow for one of four reasons, and each needs a different drill. Accuracy bottlenecks show as a wide gap between net and raw speed — fix them with controlled rounds at a 98% floor. Speed bottlenecks show as clean but slow rounds — fix them with 15-second sprints that stretch the ceiling. Symbol bottlenecks show as collapses on numbers and punctuation — fix them with dedicated numbers and quotes rounds, because everyday prose never trains those keys.
 Stamina bottlenecks show as accuracy decaying in the final third of a long test — fix them with weekly three-to-five-minute endurance rounds. Read your result panel in that order and the panel tells you which bottleneck you have this week. Practice without this diagnosis is just repetition.
@@ -437,7 +437,7 @@ Good typing lessons build speed the safe way: one habit at a time. Touch typing 
 ## Start every lesson with the home row
 Every typing lesson plan starts in the same place: the home row. Rest your left fingers on A S D F and your right fingers on J K L ; with your thumbs on the space bar. Feel for the small bumps on F and J; they tell your index fingers where to land without looking. Practice typing words made only of home row letters until you never have to think about it, because every other key is reached from this position.
 ## A free four week typing lesson plan
-Week one: home row only, short one minute lessons, accuracy over speed. Week two: add the top row and the shift keys for capitals, two minute lessons. Week three: cover the bottom row and the number row, then try the number text set. Week four: mix sentences, quotes and punctuation, and test your WPM against week one. Ten to fifteen minutes a day is enough; most learners reach 40 to 60 WPM within a month of daily lessons.
+Week one: home row only, short one minute lessons, accuracy over speed. Week two: add the top row and the shift keys for capitals, two minute lessons. Week three: cover the bottom row and the number row, then try the number text set. Week four: mix sentences, quotes and punctuation, and test your WPM against week one. Ten to fifteen minutes a day is enough; most learners reach 40 to 60 WPM within a month of daily lessons. If you want a full curriculum rather than a weekly plan, the free typing lessons for adults page lays the four weeks out lesson by lesson.
 ## Typing lessons order: what to learn first
 Lessons only work in the right order. Learning speed before home row is the most common way people stall.
 1. Home row - asdf jkl; until you can find each key without looking.
@@ -492,7 +492,7 @@ Day 6: weak keys. Identify the two or three letters that cost you most and drill
 Day 7: rest. Progress in typing is consolidated between sessions.
 Two things reliably hold people back: looking at the keyboard, and chasing WPM while accuracy is still below 95%. Fix the second one first, with how to type without looking and typing accuracy test.
 ## Guides for specific speed goals
-Beyond general tips: typing speed improvement tips ranked by impact, how to type faster and more accurately with the dual-metric method, and how to type 100 WPM for the elite path.
+Beyond general tips: typing speed improvement tips ranked by impact, how to type faster and more accurately with the dual-metric method, and how to type 100 WPM for the elite path. Still deciding where to measure? The best free typing tests compared page covers the alternatives honestly, including this one.
 ## Typing tips FAQ
 Keep your fingers on the home row and look only at the screen. Once your hands learn where the keys are, speed becomes a matter of practice instead of searching.
 Cover your hands with a cloth or dim the room light for a few minutes a day, and use the on-screen keyboard to check positions. The bumps on F and J give your index fingers a landmark, so trust them and keep your eyes on the text.
@@ -765,7 +765,7 @@ Source: https://typing.rerivo.com/typing-tutorial.html
 Free typing tutorial for beginners. Step by step touch typing lessons in your browser: home row first, then every finger, then real speed. Each tutorial sentence is also your practice text, so reading the lesson is doing the lesson. No sign up, no cost.
 
 ## typing tutorial
-A good typing tutorial explains why each finger owns certain keys, not just which key to press. This free online typing tutor works the same way: every practice sentence is a lesson in itself, so while you type you absorb the home row, the finger map, and the posture rules at the same time. Sixty seconds of guided practice, live WPM and accuracy feedback, and no sign up, no download, and no cost.
+A good typing tutorial explains why each finger owns certain keys, not just which key to press. This free online typing tutor works the same way: every practice sentence is a lesson in itself, so while you type you absorb the home row, the finger map, and the posture rules at the same time. Sixty seconds of guided practice, live WPM and accuracy feedback, and no sign up, no download, and no cost. For a paced trainer view with a saved drill log, open the typing tutor.
 ## What this typing tutor teaches first
 The tutorial starts where every typing tutor must: the home row. Your left fingers rest on A S D F and your right fingers on J K L ;, with thumbs on the space bar and index fingers on the small bumps of F and J. From there the lessons add the upper and lower rows one at a time, then the shift key, then punctuation. Each step is short on purpose, because a tutorial only works when you can finish it without rushing.
 ## Practice schedule for a typing tutorial
@@ -976,7 +976,7 @@ It started as a single page and grew by listening to what people actually search
 WPM uses the industry standard of five characters per word, counted from correctly typed characters divided by elapsed minutes. Accuracy is the share of correct keystrokes, and raw WPM counts every keystroke including mistakes, so the gap between the two shows how much correcting you do. Consistency measures how stable your speed was across the whole test rather than just the peak.
 The text you type never leaves your browser, and there is no server-side scoring because there is no need for one: JavaScript on this page does all of it.
 ## Contact
-Questions, corrections to a practice text, or ideas for the next typing drill are welcome at hello@rerivo.com. If you would like the site in your language, that is the fastest way to make it happen.
+Questions, corrections to a practice text, or ideas for the next typing drill are welcome at hello@rerivo.com. If you would like the site in your language, that is the fastest way to make it happen. What we store and why is set out in the privacy policy.
 ## About FAQ
 Yes, completely free with no account, no paywall and no advertising on the test pages.
 A small independent project. The source code is public on GitHub at github.com/hello532/typing-speed-test.
@@ -1156,7 +1156,7 @@ Source: https://typing.rerivo.com/typing-practice-for-programmers.html
 Programmers type a lot of symbols, brackets and camelCase &mdash; the exact characters most typing tests skip. Most developers type 50&ndash;70 WPM on prose, but what really matters is fluent symbols and a low error rate. Practise the way you code: paste your own code with custom text, or drill punctuation and numbers below.
 
 ## Why typing speed matters for programmers
-A good typing speed for a programmer is 50-70 WPM, but coding is not a typing race - you spend far more time thinking than typing. Speed matters where it removes friction: the faster your fingers find brackets, operators and names, the less a thought is interrupted on its way to the screen. Accuracy matters even more, because a mistyped symbol is a syntax error you have to hunt down.
+A good typing speed for a programmer is 50-70 WPM, but coding is not a typing race - you spend far more time thinking than typing. Speed matters where it removes friction: the faster your fingers find brackets, operators and names, the less a thought is interrupted on its way to the screen. Accuracy matters even more, because a mistyped symbol is a syntax error you have to hunt down. For why that friction compounds across a whole codebase, see programmer typing speed.
 ## What slows programmers down
 Code is dense with characters that ordinary typing practice never covers - brackets, semicolons, operators, and numbers - plus naming styles like camelCase and snake_case that break your rhythm. The fix is to practise those specific characters, not more prose.
 What you type in code | Why it is slow | Practise it here
@@ -1503,7 +1503,7 @@ Practise at the exam length. Warm up with a 1 minute test, then run 3 and 5 minu
 ## How to prepare for a government typing test
 Work on accuracy until you can complete a passage cleanly, then raise speed. Train the home row and touch typing so you are not watching your hands, and if the post is data entry, drill the keypad with the 10 key typing test. Test yourself under the same conditions as the exam - same length, no restarts - and check your standing against the average typing speed. Your practice history stays in your browser.
 ## What typing speed do government exams require?
-Government clerk and assistant exams usually qualify on a short timed passage around 25–35 WPM with capped errors. For the complete scenario-by-scenario table with conversions, see typing speed requirements by job and exam.
+Government clerk and assistant exams usually qualify on a short timed passage around 25–35 WPM with capped errors. For the complete scenario-by-scenario table with conversions, see typing speed requirements by job and exam. For country-specific exam formats such as SSC, IBPS and court clerk tests, see the government jobs typing test guide.
 ## Government typing test FAQ
 Entry-level government and clerical roles commonly require 30 to 40 WPM, while clerical, secretarial and data roles ask for 40 to 70 WPM with high accuracy. Check the official notification for your specific exam.
 Government typing tests are typically 3 to 5 minutes long and are scored on net words per minute after errors are deducted.
@@ -1538,11 +1538,11 @@ New to typing? Start here: an easy, forgiving test that measures where you are t
 ## A friendly first test
 Most typing tests throw long words and heavy punctuation at you from the first keystroke. This beginner version keeps the text short and the words common, so you can finish a passage and actually see a score instead of drowning in errors.
 ## Where should a beginner start?
-Begin with the home row — A, S, D, F for the left hand and J, K, L, ; for the right. Learn to reach each key with the correct finger instead of hunting with two fingers, even if it feels slower for the first few days. Speed is a by-product of accuracy; accuracy is a by-product of good technique.
+Begin with the home row — A, S, D, F for the left hand and J, K, L, ; for the right. Learn to reach each key with the correct finger instead of hunting with two fingers, even if it feels slower for the first few days. Speed is a by-product of accuracy; accuracy is a by-product of good technique. If the home row is already automatic, the home row typing test turns that placement into a timed check.
 ## Don't chase speed yet
 Aim for accuracy above 95% before you worry about words per minute. A beginner who types 25 WPM at 98% accuracy will outpace someone who types 40 WPM at 85% once corrections and real work are counted.
 ## Your first realistic targets
-Most complete beginners sit around 20 to 30 WPM. Getting to 40 WPM is a realistic first goal within a few weeks of ten minutes a day. Kids and occasional typists may take longer; there is no rush and no score to beat but your own.
+Most complete beginners sit around 20 to 30 WPM. Getting to 40 WPM is a realistic first goal within a few weeks of ten minutes a day. Kids and occasional typists may take longer; there is no rush and no score to beat but your own. Once the beginner text starts to feel slow, step up to the easy typing test for a slightly harder passage at the same pace.
 ## Beginner Typing Test FAQ
 Between 20 and 30 words per minute is normal for a beginner. Reaching 40 WPM within a few weeks of daily practice is a realistic first goal.
 Accuracy. Aim for 95% or higher before pushing for speed — clean typing is faster in the long run because you spend less time fixing mistakes.
@@ -1874,7 +1874,7 @@ In almost every language, a few hundred words cover most of what people actually
 English high-frequency words are mostly short function words (the, of, and) mixed with everyday verbs and nouns. They are the words where touch-typing muscle memory pays off fastest, because you type them thousands of times a day.
 ## How to practise English typing with this list
 Start the test above — it draws words from this very list, so every round drills the words that matter. Type a short round every day, aim for accuracy first (97%+), and only then push for speed. Watch the weak-key report after each round: it shows exactly which letters slow you down, so you can target them instead of re-typing words you already know.
-When you want full sentences instead of single words, switch to the English typing test, or benchmark yourself against the classic 1 minute typing test.
+When you want full sentences instead of single words, switch to the English typing test, or benchmark yourself against the classic 1 minute typing test. When 200 words stop being enough, the 1000 most common English words list extends the same frequency-first method.
 ## Word lists in other languages
 The same top-200 frequency list is available for: Spanish · Hindi · Japanese · Korean · Urdu. Each list is built from the same open subtitle-frequency dataset, so the lists are directly comparable across languages.
 ## Top English words FAQ
@@ -2014,10 +2014,10 @@ The 200 most common Hindi words below come from real subtitle frequency data —
 49 | समझ | 99 | ए | 149 | उठ | 199 | नल
 50 | कई | 100 | हल | 150 | आदत | 200 | ईआर
 ## Why drill the top Hindi words
-In almost every language, a few hundred words cover most of what people actually write. Hindi is no exception: these 200 words appear again and again in messages, documents, subtitles and web pages. If your fingers can produce them without thinking, your real-world Hindi typing speed rises immediately — long before you memorise any larger vocabulary.
+Hindi subtitles lean on a small set of function words — है, और, का, में, नहीं — and those same forms recur in WhatsApp messages, news captions and everyday documents. Once your fingers can produce them without hunting for a key, every sentence you type speeds up, because you stop breaking rhythm on the words that appear in almost every line.
 Hindi high-frequency words are rich in matras and the conjunct consonants (क्ष, त्र, ज्ञ) that slow most typists down. Drilling these 200 words builds automaticity exactly where Hindi typing needs it.
 ## How to practise Hindi typing with this list
-Start the test above — it draws words from this very list, so every round drills the words that matter. Type a short round every day, aim for accuracy first (97%+), and only then push for speed. Watch the weak-key report after each round: it shows exactly which letters slow you down, so you can target them instead of re-typing words you already know.
+Ten to fifteen minutes a day, all of it on this list, beats an hour of random Devanagari text. Type a round, then read the weak-key report and spend the next two minutes on the matras and conjuncts it names — क्ष, त्र, ज्ञ and the vowel signs that pull your fingers apart. Accuracy above 97% first; only add speed once the conjuncts stop breaking your rhythm.
 When you want full sentences instead of single words, switch to the Hindi typing test, or benchmark yourself against the classic 1 minute typing test.
 ## Word lists in other languages
 The same top-200 frequency list is available for: English · Spanish · Japanese · Korean · Urdu. Each list is built from the same open subtitle-frequency dataset, so the lists are directly comparable across languages.
@@ -2086,10 +2086,10 @@ The 200 most common Japanese words below come from real subtitle frequency data,
 49 | かっ | 99 | 必要 | 149 | ええ | 199 | 為
 50 | 行 | 100 | み | 150 | なんて | 200 | 入れ
 ## Why drill the top Japanese words
-In almost every language, a few hundred words cover most of what people actually write. Japanese is no exception: these 200 words appear again and again in messages, documents, subtitles and web pages. If your fingers can produce them without thinking, your real-world Japanese typing speed rises immediately — long before you memorise any larger vocabulary.
+Japanese frequency lists are dominated by particles and auxiliaries — の, は, に, を, が — plus a small set of very common verbs and sentence-final forms. Since Japanese is typed through romaji-to-kana conversion with no spaces between words, knowing these fragments by reflex is what lets you convert long strings without checking the candidate list every few characters.
 Japanese high-frequency words are dominated by particles (は, が, を, に) and the most common verbs and auxiliaries. Because Japanese has no spaces between words, learning to type these fragments instantly is what makes full-sentence typing feel fluent.
 ## How to practise Japanese typing with this list
-Start the test above — it draws words from this very list, so every round drills the words that matter. Type a short round every day, aim for accuracy first (97%+), and only then push for speed. Watch the weak-key report after each round: it shows exactly which letters slow you down, so you can target them instead of re-typing words you already know.
+Because romaji input converts to kana in bursts, practise in short rounds of single words rather than long passages. After each round check the weak-key report: if the same kana pair keeps misfiring, retype the words containing it slowly until conversion needs no correction. Keep accuracy above 97% while you learn, then add time pressure with the longer durations above.
 When you want full sentences instead of single words, switch to the Japanese typing test, or benchmark yourself against the classic 1 minute typing test.
 ## Word lists in other languages
 The same top-200 frequency list is available for: English · Spanish · Hindi · Korean · Urdu. Each list is built from the same open subtitle-frequency dataset, so the lists are directly comparable across languages.
@@ -2158,10 +2158,10 @@ The 200 most common Korean words below come from real subtitle frequency data �
 49 | 우린 | 99 | 같은 | 149 | 수도 | 199 | 이미
 50 | 제 | 100 | 여기서 | 150 | 많이 | 200 | 야
 ## Why drill the top Korean words
-In almost every language, a few hundred words cover most of what people actually write. Korean is no exception: these 200 words appear again and again in messages, documents, subtitles and web pages. If your fingers can produce them without thinking, your real-world Korean typing speed rises immediately — long before you memorise any larger vocabulary.
+Korean subtitles repeat a compact set of pronouns, particles and verb stems — 내가, 그, 그리고, 있어 — all built from the same 24 jamo. Because Hangul is composed block by block, the bottleneck is usually one or two vowel-consonant combinations, not vocabulary. Drilling the top words isolates those blocks until syllable assembly becomes one motion instead of several.
 Korean high-frequency words are short, particle-heavy forms (내가, 그리고, 있어) built from a small set of jamo. Drilling them trains the even syllable-block rhythm that real Korean typing speed is made of.
 ## How to practise Korean typing with this list
-Start the test above — it draws words from this very list, so every round drills the words that matter. Type a short round every day, aim for accuracy first (97%+), and only then push for speed. Watch the weak-key report after each round: it shows exactly which letters slow you down, so you can target them instead of re-typing words you already know.
+Two 5-minute rounds a day, each followed by a look at the weak-key report, is the whole programme. If a particular syllable block keeps slowing you, retype that word slowly five times before continuing — accuracy in the block comes first, and speed in Hangul follows almost by itself once the block is automatic. Push for pace only when a round lands above 97%.
 When you want full sentences instead of single words, switch to the Korean typing test, or benchmark yourself against the classic 1 minute typing test.
 ## Word lists in other languages
 The same top-200 frequency list is available for: English · Spanish · Hindi · Japanese · Urdu. Each list is built from the same open subtitle-frequency dataset, so the lists are directly comparable across languages.
@@ -2230,10 +2230,10 @@ The 200 most common Urdu words below come from real subtitle frequency data — 
 49 | میرے | 99 | کہاں | 149 | چھوڑ | 199 | کم
 50 | بہت | 100 | واپس | 150 | ہج | 200 | سر
 ## Why drill the top Urdu words
-In almost every language, a few hundred words cover most of what people actually write. Urdu is no exception: these 200 words appear again and again in messages, documents, subtitles and web pages. If your fingers can produce them without thinking, your real-world Urdu typing speed rises immediately — long before you memorise any larger vocabulary.
+Urdu frequency data is dominated by particles and verb endings — ہے, کی, میں, کا, نہیں — written in Nastaliq, where letters change shape depending on what joins them. That shaping is exactly what makes Urdu typing feel slow at first: drilling the top 200 words trains the joining forms you meet in nearly every sentence, so context switches stop costing you keystrokes.
 Urdu high-frequency words use the special letters (ٹ ڈ ڑ ں ہ ے) that distinguish Urdu from Arabic script. Drilling these 200 words builds speed exactly where Urdu typists lose it.
 ## How to practise Urdu typing with this list
-Start the test above — it draws words from this very list, so every round drills the words that matter. Type a short round every day, aim for accuracy first (97%+), and only then push for speed. Watch the weak-key report after each round: it shows exactly which letters slow you down, so you can target them instead of re-typing words you already know.
+Short daily rounds on this exact list work better than long occasional sessions, because Nastaliq typing is a joining-shape skill: repetition is what makes ڑ, ں, ے and their neighbours come out without a pause. After each round, use the weak-key report to find which joining forms cost you time, then drill just those for two minutes before your next round.
 When you want full sentences instead of single words, switch to the Urdu typing test, or benchmark yourself against the classic 1 minute typing test.
 ## Word lists in other languages
 The same top-200 frequency list is available for: English · Spanish · Hindi · Japanese · Korean. Each list is built from the same open subtitle-frequency dataset, so the lists are directly comparable across languages.
@@ -2553,7 +2553,7 @@ Two or three 15-second rounds at absolute maximum effort, accuracy be damned. Sp
 Use the typing trainer for these, and note your sprint WPM separately. The gap between sprint speed and working speed is your available headroom.
 ## Weak-key elimination
 After any round, the result panel lists your most-missed and slowest keys. Take the two worst and drill them in 15-second bursts until they stop appearing in the report — then take the next two. This is the highest-ROI exercise in typing, because one hesitant key taxes every word that contains it.
-Most people discover a pattern: a specific finger, a specific row, or a specific symbol family. Fix the pattern, not just the key.
+Most people discover a pattern: a specific finger, a specific row, or a specific symbol family. Fix the pattern, not just the key. When the pattern is a letter pair rather than a finger, bigram typing practice drills those combinations directly.
 ## Symbol and number rounds
 Digits and punctuation break more rhythms than letters do, because everyday typing barely uses them. Two rounds a week in numbers or quotes mode keeps them from ambushing you in real documents. If your work is symbol-heavy — code, spreadsheets, chat with emoji — make it three rounds.
 The pangram typing test complements this by forcing all 26 letters into a single sentence, including the rare q, z, x and j that normal prose skips.
@@ -2853,7 +2853,7 @@ You listen to audio — interviews, meetings, lectures, dictation — and produc
 Pay is usually per audio minute or per project, so your effective hourly rate is speed times accuracy. A typist at 70 WPM with 99% accuracy out-earns a 90 WPM typist who proofreads twice, every time.
 ## The speed and accuracy reality
 The working benchmark is 300+ CPM (60+ WPM) sustained over long audio — not sprint speed. Because audio continues while you type, the real constraint is the listen-type pipeline: holding several seconds of speech in memory while your fingers finish the previous phrase. That skill is trainable, and it improves fastest with actual audio practice rather than plain typing drills.
-Accuracy expectations are stricter than almost any other typing job: 99%+ is the professional norm, because errors change meaning. Measure your baseline on the CPM typing test, which shows both CPM and accuracy after every round.
+Accuracy expectations are stricter than almost any other typing job: 99%+ is the professional norm, because errors change meaning. Measure your baseline on the CPM typing test, which shows both CPM and accuracy after every round. For the listening-side habits that lift accuracy under real audio, see audio typing tips.
 ## General, legal and medical transcription
 General transcription — podcasts, interviews, lectures — has the lowest barrier: good English, good speed, no special background. Legal transcription adds courtroom and legal-document terminology, formatting conventions and often confidentiality requirements. Medical transcription is the most specialised: clinical vocabulary, drug names and report formats, usually requiring dedicated training and carrying strict privacy obligations.
 The pay ladder follows the specialisation: general work is the entry point, and the specialist fields reward the terminology investment. For the medical branch specifically, see medical transcription typing.
@@ -3261,7 +3261,7 @@ The fix is awareness plus lightness: type for one minute deliberately softly, ke
 Wrist-drop on the desk: slow reaches plus wrist ache. Elbows winged out: shoulder tension by mid-afternoon. Keyboard pushed too far away: extended arms and floating-finger inaccuracy. Keyboard too close: cramped wrists and bent-back fingers missing home row.
 Each mistake has the same fix pattern: adjust one variable, type five minutes, and check the symptom. The body reports position errors faster and more honestly than any checklist — learn to read it early, before ache becomes injury.
 ## Position for different keyboards and situations
-On laptops: the same principles, harder geometry — raise the rear, use an external keyboard for long sessions. On mechanical keyboards: higher key travel invites bottoming out hard; lighten the press. On the numeric keypad: same home logic, middle finger on the 5 bump, wrist floating.
+On laptops: the same principles, harder geometry — raise the rear, use an external keyboard for long sessions. On mechanical keyboards: higher key travel invites bottoming out hard; lighten the press. On the numeric keypad: same home logic, middle finger on the 5 bump, wrist floating. If you are weighing an upgrade, the mechanical keyboard for typing guide covers switch types and when the change actually helps.
 On phones and tablets, forget all of it — different device, different mechanics. Everything here is about full-size keyboards, where touch typing physics apply.
 ## Making the position automatic
 New positions feel wrong for about two weeks; that is not proof they are wrong, it is proof they are new. Reset your position at the start of every session deliberately for those two weeks — feet, back, elbows, wrists, home row — until the setup happens without thought.
@@ -3899,10 +3899,10 @@ The 200 most common Thai words below are a curated everyday-vocabulary list — 
 49 | เวลา | 99 | ปิด | 149 | เก่า | 199 | หน่อย
 50 | ปี | 100 | เริ่ม | 150 | สวย | 200 | สุด
 ## Why drill the top Thai words
-In almost every language, a few hundred words cover most of what people actually write. Thai is no exception: these 200 words appear again and again in messages, documents, subtitles and web pages. If your fingers can produce them without thinking, your real-world Thai typing speed rises immediately.
+Thai writes without spaces between words and stacks vowels before, after, above and below the consonant, so most characters sit on several vertical levels. The top 200 words concentrate the consonant-plus-vowel-plus-tone-mark shapes that repeat in every sentence — and those stacked shapes, not raw vocabulary, are what decide your speed once you know the alphabet.
 Thai high-frequency words mix consonants, preposed vowels and tone marks on almost every word. Drilling these 200 words builds the syllable-shape automaticity that real Thai typing speed is made of.
 ## How to practise Thai typing with this list
-Start the test above — it draws words from this very list, so every round drills the words that matter. Type a short round every day, aim for accuracy first (97%+), and only then push for speed. Watch the weak-key report after each round: it shows exactly which letters slow you down.
+Rounds on these 200 words train the stacked consonant-vowel-tone shapes that Thai typing depends on. Check the weak-key report after each round and spend two minutes retyping the shapes it flags — usually a specific vowel position rather than a consonant. Hold 97% accuracy before chasing speed; on a system where one misplaced mark changes the word, accuracy is the speed multiplier.
 When you want full sentences instead of single words, switch to the Thai typing test, or benchmark yourself against the classic 1 minute typing test.
 ## Word lists in other languages
 The same top-200 list is available for: Indonesian · Vietnamese · Turkish. Each list is built from the same frequency-based approach, so the lists are directly comparable across languages.

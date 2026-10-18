@@ -28,7 +28,7 @@ Work on accuracy until you can complete a passage cleanly, then raise speed. Tra
 
 ## What typing speed do government exams require?
 
-Government clerk and assistant exams usually qualify on a short timed passage around 25–35 WPM with capped errors. For the complete scenario-by-scenario table with conversions, see typing speed requirements by job and exam.
+Government clerk and assistant exams usually qualify on a short timed passage around 25–35 WPM with capped errors. For the complete scenario-by-scenario table with conversions, see typing speed requirements by job and exam. For country-specific exam formats such as SSC, IBPS and court clerk tests, see the government jobs typing test guide.
 
 ## Government typing test FAQ
 

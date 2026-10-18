@@ -5,7 +5,8 @@
 import json
 from pathlib import Path
 
-ROOT = Path(__file__).resolve().parent
+# 本脚本位于 src/tools/，产物必须写到仓库根（与 sitemap/HTML 同级），不是脚本目录
+ROOT = Path(__file__).resolve().parents[2]
 SITE = "https://typing.rerivo.com"
 
 TIERS = {
@@ -81,7 +82,8 @@ def page(tier, info, slug=None):
 """
 
 for tier, info in TIERS.items():
-    (ROOT / f"share-{tier}.html").write_text(page(tier, info), encoding="utf-8")
+    # canonical/og:url 必须指向本页真实地址（share-<tier>.html），否则指向不存在的 /<tier>.html
+    (ROOT / f"share-{tier}.html").write_text(page(tier, info, slug=f"share-{tier}"), encoding="utf-8")
     print(f"share-{tier}.html 写出")
 (ROOT / "share.html").write_text(page("generic", GENERIC, slug="share"), encoding="utf-8")
 print("share.html 写出（generic 兜底）")

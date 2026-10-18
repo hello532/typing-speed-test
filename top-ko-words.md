@@ -62,13 +62,13 @@ The 200 most common Korean words below come from real subtitle frequency data �
 
 ## Why drill the top Korean words
 
-In almost every language, a few hundred words cover most of what people actually write. Korean is no exception: these 200 words appear again and again in messages, documents, subtitles and web pages. If your fingers can produce them without thinking, your real-world Korean typing speed rises immediately — long before you memorise any larger vocabulary.
+Korean subtitles repeat a compact set of pronouns, particles and verb stems — 내가, 그, 그리고, 있어 — all built from the same 24 jamo. Because Hangul is composed block by block, the bottleneck is usually one or two vowel-consonant combinations, not vocabulary. Drilling the top words isolates those blocks until syllable assembly becomes one motion instead of several.
 
 Korean high-frequency words are short, particle-heavy forms (내가, 그리고, 있어) built from a small set of jamo. Drilling them trains the even syllable-block rhythm that real Korean typing speed is made of.
 
 ## How to practise Korean typing with this list
 
-Start the test above — it draws words from this very list, so every round drills the words that matter. Type a short round every day, aim for accuracy first (97%+), and only then push for speed. Watch the weak-key report after each round: it shows exactly which letters slow you down, so you can target them instead of re-typing words you already know.
+Two 5-minute rounds a day, each followed by a look at the weak-key report, is the whole programme. If a particular syllable block keeps slowing you, retype that word slowly five times before continuing — accuracy in the block comes first, and speed in Hangul follows almost by itself once the block is automatic. Push for pace only when a round lands above 97%.
 
 When you want full sentences instead of single words, switch to the Korean typing test, or benchmark yourself against the classic 1 minute typing test.
 

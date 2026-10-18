@@ -30,7 +30,7 @@ Two things reliably hold people back: looking at the keyboard, and chasing WPM w
 
 ## Guides for specific speed goals
 
-Beyond general tips: typing speed improvement tips ranked by impact, how to type faster and more accurately with the dual-metric method, and how to type 100 WPM for the elite path.
+Beyond general tips: typing speed improvement tips ranked by impact, how to type faster and more accurately with the dual-metric method, and how to type 100 WPM for the elite path. Still deciding where to measure? The best free typing tests compared page covers the alternatives honestly, including this one.
 
 ## Typing tips FAQ
 
