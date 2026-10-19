@@ -53,6 +53,10 @@ If you are below the speed you want, the fastest way up is touch typing: use all
 
 See also: average typing speed by age from kids to seniors, how many words per minute is fast, and the fastest typing speed records ever measured.
 
+## Test yourself against these benchmarks
+
+Benchmarks are only useful next to your own number. Take a words per minute test with the standard five-character formula, then compare the result with the bands above and with the requirements table for the job you are targeting.
+
 ## Typing test FAQ
 
 ### What is the average typing speed?

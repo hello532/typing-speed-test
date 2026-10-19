@@ -113,6 +113,12 @@
       "That comparability is why schools, employers and typing benchmarks settled on the minute as the default unit of account. When a job posting says 'types 60 WPM', it almost always means sixty WPM measured over a one-minute passage at high accuracy. Practising in exactly that format means the number you quote and the number they test are the same number.",
       "There is a practical benefit for training too. Because a run costs only a minute, it survives as a habit: before work, after lunch, between tasks. Skill in typing compounds through exactly that kind of frequent, measurable repetition, and no other duration makes measurement this cheap."
      ]
+    },
+    {
+     "h2": "What to do after a one minute test",
+     "p": [
+      "A single number is not progress. Log the score, then use the <a href=\"typing-practice.html\">typing practice plan</a> for a week and retake the same length under the same conditions. If the score moves, keep the routine; if it stalls, the <a href=\"how-to-get-better-at-typing.html\">how to get better at typing</a> guide explains which drill matches which bottleneck."
+     ]
     }
    ],
    "faqFirstOpen": true,
@@ -221,6 +227,19 @@
       "<ul><li><strong>1 minute</strong> - good for daily speed checks and quick warm-ups.</li><li><strong>2 minutes</strong> - the sweet spot for a repeatable score you can track week to week.</li><li><strong><a href=\"3-minute-typing-test.html\">3 minute</a> / <a href=\"5-minute-typing-test.html\">5 minute</a></strong> - endurance and technique, used for screening.</li></ul>",
       "If you are tracking progress, keep the length fixed. Comparing a 2 minute score against a 5 minute score tells you about endurance, not improvement."
      ]
+    },
+    {
+     "h2": "How to pace a two minute round",
+     "p": [
+      "Open slightly under your target speed and let the first sentence calibrate you. Most typists gain 3-6 WPM in the second minute simply by relaxing into rhythm; the ones who lose points are those who sprint the first twenty seconds and spend the rest recovering. Keep your eyes one word ahead of the cursor and your hands still between keystrokes.",
+      "If you want a stricter reading of the same two minutes, switch the text mode to quotes: capitals and punctuation are where accuracy quietly leaks away, and the result screen will show it."
+     ]
+    },
+    {
+     "h2": "2 minute typing test for employment",
+     "p": [
+      "Two-minute formats appear in clerical and customer-service screening because they fit inside a short interview slot. The format that matters is unfamiliar text, one take, and an accuracy floor of 95%. Practise with a passage you have not seen and resist the urge to retake — employers do not offer one. The <a href=\"typing-test-for-jobs.html\">typing test for jobs</a> page lists the common thresholds by role."
+     ]
     }
    ],
    "faqFirstOpen": true,
@@ -241,6 +260,10 @@
     {
      "q": "Can I retry as many times as I want?",
      "a": "Yes, there is no limit. Click “Test again” for a fresh passage and your history keeps the last results."
+    },
+    {
+     "q": "Should I use a 2 minute or 3 minute test for job practice?",
+     "a": "Use the length your employer uses. If the posting does not say, practise on 3 minutes: it is the stricter of the two because endurance decay has time to show up, and a good three-minute score transfers down to a two-minute format."
     }
    ],
    "webAppName": "Typing Speed Test",
@@ -753,25 +776,54 @@
     {
      "h2": "Free typing test, no sign up",
      "p": [
-      "Many typing sites hide results behind an account or bury the test under ads. This free typing test does neither: you land on the page, start typing, and get your WPM and accuracy the moment the timer ends. Nothing is locked and nothing is uploaded to a server."
+      "Many typing sites hide your result behind an account or bury the test under ads. This one does neither: you land on the page, start typing, and see your WPM and accuracy the moment the timer ends. Nothing is locked and nothing is uploaded to a server, so a free typing test here costs you the same ten seconds it costs a paid one.",
+      "The test runs entirely in your browser. There is no queue, no trial countdown and no email step between you and the number you came for."
+     ]
+    },
+    {
+     "h2": "What a free typing test measures",
+     "p": [
+      "Every round returns four numbers. <strong>Net WPM</strong> is words per minute after errors are deducted — the score employers and benchmarks quote. <strong>Raw WPM</strong> is your unadjusted finger speed, useful for seeing how much accuracy is costing you. <strong>Accuracy</strong> is correct keystrokes as a percentage of all keystrokes. <strong>CPM</strong> (characters per minute) is the same effort counted in keystrokes, which is how most Asian and some government tests score.",
+      "The gap between net and raw WPM is the single most useful signal on the result screen. A wide gap means speed is outrunning control; a narrow gap means you can safely push the pace. Read that gap before you read either score on its own."
+     ]
+    },
+    {
+     "h2": "Free typing test in 60 seconds",
+     "p": [
+      "Sixty seconds is the standard length for a quick check: long enough that one lucky or unlucky sentence does not decide the score, short enough to repeat whenever you like. Use the <a href=\"1-minute-typing-test.html\">1 minute typing test</a> when you want the most comparable single number, or take a <a href=\"words-per-minute-test.html\">words per minute test</a> if you want the scoring formula explained alongside the timer."
+     ]
+    },
+    {
+     "h2": "Typing tests from 15 seconds to 10 minutes",
+     "p": [
+      "Length changes what you measure. A <a href=\"30-second-typing-test.html\">30 second typing test</a> is a snapshot of peak speed. A <a href=\"2-minute-typing-test.html\">2 minute typing test</a> averages out a shaky start. The <a href=\"3-minute-typing-test.html\">3 minute</a> and <a href=\"5-minute-typing-test.html\">5 minute typing test</a> expose endurance, which is what pre-employment screening tends to check. The <a href=\"10-minute-typing-test.html\">10 minute typing test</a> is the long-form version for transcription-style stamina.",
+      "Keep the length fixed when you track progress. Comparing a 30 second score with a 10 minute score tells you about endurance, not improvement."
+     ]
+    },
+    {
+     "h2": "Free typing test for adults, students and job seekers",
+     "p": [
+      "Adults returning to typing after years of hunt-and-peck usually sit between 25 and 40 WPM; the <a href=\"average-typing-speed.html\">average typing speed</a> table breaks the bands down by age and profession. Students mostly need 40 WPM at 95% accuracy for coursework. Job seekers need to hit the employer's gate, which is usually 40–60 WPM for data entry and 60–80 for transcription — the <a href=\"typing-speed-requirements.html\">typing speed requirements</a> page lists the common thresholds.",
+      "If you are testing for a specific application, take the <a href=\"typing-test-for-jobs.html\">typing test for jobs</a> format: unfamiliar text, one take, no retry."
+     ]
+    },
+    {
+     "h2": "A free typing assessment without the paywall",
+     "p": [
+      "If you searched for a free typing assessment test, what you probably need is a score you can trust enough to report. That means a fixed passage bank, a clear WPM formula (five characters counted as one word) and an accuracy figure that does not quietly exclude corrections. This page uses the standard formula and counts corrected errors against you, which is the stricter and more honest reading.",
+      "You can screenshot the result screen, or open the printable <a href=\"typing-certificate.html\">typing certificate</a> if a form asks for evidence of your speed."
      ]
     },
     {
      "h2": "Practise as much as you want",
      "p": [
-      "Because the test is free forever, you can run it every day to build speed and accuracy. Pick any length from 15 seconds to 10 minutes and switch between sentences, quotes, numbers and words to train your weak spots."
-     ]
-    },
-    {
-     "h2": "Completely free, no sign-up required",
-     "p": [
-      "There's no account, no email, no paywall and no trial that quietly expires. Open the page and start typing — every duration, text mode, language and theme is available immediately and forever. Your results stay on your own device, so practising costs you nothing and shares nothing."
+      "Because the test is free forever, you can run it every day. Pick any length from 15 seconds to 10 minutes and switch between sentences, quotes, numbers and words to train weak spots — the <a href=\"typing-practice.html\">typing practice</a> page lays out a four-week plan that uses each mode in turn."
      ]
     },
     {
      "h2": "Everything you get for free",
      "p": [
-      "Free here means the full tool: timed tests from 15 seconds to 10 minutes, real sentences, quotes, numbers and word drills, live WPM and accuracy, an on-screen keyboard, a results graph and locally saved history. It's the complete typing test experience without a single hidden cost."
+      "Free here means the full tool: timed tests from 15 seconds to 10 minutes, real sentences, quotes, numbers and word drills, live WPM and accuracy, an on-screen keyboard, a results graph and locally saved history. Twelve practice languages are available, and every theme is unlocked. It is the complete typing test experience without a hidden cost."
      ]
     }
    ],
@@ -788,7 +840,15 @@
     },
     {
      "q": "What can I measure?",
-     "a": "You get words per minute (WPM), accuracy, characters per minute and error counts after every attempt."
+     "a": "You get words per minute (WPM), raw WPM, accuracy, characters per minute (CPM) and error counts after every attempt."
+    },
+    {
+     "q": "How is WPM calculated?",
+     "a": "One word is five characters, including spaces. Net WPM deducts uncorrected and corrected errors, which is the stricter and more comparable formula."
+    },
+    {
+     "q": "Is a free typing test as accurate as a paid one?",
+     "a": "For self-measurement, yes: the passage bank is fixed and the formula is the same five-character standard. Paid tools mostly charge for storage, certificates or bulk reporting, not for a different measurement."
     },
     {
      "q": "Is there a catch — why is it free?",
@@ -2290,6 +2350,19 @@
      "p": [
       "The 30 second round shines in three situations: a rapid self-check before a job application asks for your WPM, a warm-up lap before a <a href=\"5-minute-typing-test.html\">5 minute typing test</a>, and a low-pressure daily streak you can keep even on busy days. Because one round takes less than a minute including the result screen, it is also the easiest length to repeat — take three back-to-back sprints and average them for a steadier number than any single attempt. Pair it with structured <a href=\"typing-practice.html\">typing practice</a> when one weak key keeps dragging your score down."
      ]
+    },
+    {
+     "h2": "What a 30 second score tells you",
+     "p": [
+      "A 30 second round measures peak speed, not sustainable speed. Expect it to land 5-10 WPM above a one-minute result and 10-15 above a five-minute one. That gap is not a flaw in the test — it is the useful part: compare the gap across weeks and you can see whether your endurance is catching up with your top speed.",
+      "Use the <a href=\"1-minute-typing-test.html\">1 minute typing test</a> as the reference score and the thirty-second sprint as the check on it. If the two converge, your sustained speed is improving."
+     ]
+    },
+    {
+     "h2": "The 30 second test as a warm-up",
+     "p": [
+      "Cold starts cost real WPM in the first fifteen seconds. One thirty-second round before a longer attempt raises the score of the round that follows without adding fatigue, which makes this the cheapest warm-up in the set. Pair it with the <a href=\"typing-test-tips.html\">typing test tips</a> checklist for a repeatable routine."
+     ]
     }
    ],
    "faqFirstOpen": true,
@@ -2391,6 +2464,27 @@
       "A 3 minute round is the shortest length that still exposes endurance: typists who peak at 90 WPM for 30 seconds often settle near 60 WPM across three minutes. If your 3 minute score sits well below your <a href=\"30-second-typing-test.html\">30 second typing test</a> score, the gap is stamina, not raw speed.",
       "Compare against your own history rather than the table. The score that matters is the one you can repeat tomorrow."
      ]
+    },
+    {
+     "h2": "How to pace a 3 minute round",
+     "p": [
+      "Divide the round into three blocks of sixty seconds. In the first block, settle at about 5% under your one-minute speed and let accuracy lead. In the second, hold that pace — this is where most typists drift upward and start making correctable errors. In the final block, spend the last twenty seconds on whatever is left rather than accelerating; a clean finish usually beats a fast fade by several WPM.",
+      "Take a <a href=\"30-second-typing-test.html\">30 second typing test</a> as a warm-up before the round. Cold hands cost more in the first block than most typists realise, and a warm-up sprint removes that penalty without tiring you out."
+     ]
+    },
+    {
+     "h2": "3 minute typing test for job screening",
+     "p": [
+      "Screening tests rarely ask for a 3 minute round in isolation; they use one take on unfamiliar text with no retry, and they care about the accuracy floor more than the headline WPM. Practise in exactly that shape: a passage you have not seen, one attempt, and a result you do not delete. The <a href=\"typing-test-for-interview.html\">typing test for interview</a> page walks through the format HR teams commonly use.",
+      "The <a href=\"government-typing-test.html\">government typing test</a> and <a href=\"bank-typing-test.html\">bank typing test</a> pages cover the specific gates used in SSC, IBPS and clerical recruitment, which often score in keystrokes rather than words."
+     ]
+    },
+    {
+     "h2": "3 minute vs 5 minute vs 10 minute",
+     "p": [
+      "Three minutes is the shortest length that still shows endurance decay; five minutes makes the decay obvious; ten minutes is a transcription-grade stamina test. If your <a href=\"5-minute-typing-test.html\">5 minute typing test</a> score sits more than 8 WPM below your three-minute score, stamina is the bottleneck — train it with weekly long rounds rather than daily short ones.",
+      "For daily practice, the <a href=\"2-minute-typing-test.html\">2 minute typing test</a> is easier to repeat. Reserve the three-minute round for weekly measurement so the number stays comparable."
+     ]
     }
    ],
    "faqFirstOpen": true,
@@ -2411,6 +2505,10 @@
     {
      "q": "Does it track my accuracy too?",
      "a": "Yes. Alongside WPM you get accuracy, error count and character-level stats for every round."
+    },
+    {
+     "q": "How does a 3 minute test compare with a 1 minute test?",
+     "a": "A 1 minute test measures peak speed and swings 10-15 WPM on an unfamiliar sentence. Three minutes averages that noise out and exposes whether you can hold speed with accuracy, which is why screening tests prefer it."
     }
    ],
    "webAppName": "Typing Speed Test",
@@ -3248,6 +3346,25 @@
      "p": [
       "Most people own the home row in a week and reach a comfortable 40 to 60 words per minute in three to four weeks of daily practice. The mistake beginners make is chasing speed early; accuracy is the foundation and speed is the building that arrives later. End every session on your slowest, most careful line, and your hands will learn faster than you expect."
      ]
+    },
+    {
+     "h2": "Learn to type without looking",
+     "p": [
+      "Looking at your hands feels faster for about a week and caps you near 30 WPM forever, because every glance breaks the loop between what your eyes read and what your fingers do. Break the habit deliberately: cover your hands with a cloth for one short round a day, accept the slower score, and let the home row do the work. The full method is on the <a href=\"how-to-type-without-looking.html\">how to type without looking</a> page."
+     ]
+    },
+    {
+     "h2": "A one-week learn-to-type plan",
+     "p": [
+      "Day one: home row only, slow, eyes on the screen. Day two: add the top row with the correct fingers. Day three: bottom row and the shift key. Day four: short common words. Day five: full sentences at a comfortable pace. Day six: numbers and punctuation. Day seven: one timed round to see where you are — not to pass a target. Fifteen minutes a day is enough; the schedule matters more than the minutes.",
+      "When the week ends, move to structured <a href=\"typing-practice.html\">typing practice</a> and check the result panel for the keys that are slowing you down."
+     ]
+    },
+    {
+     "h2": "Learn to type on a laptop keyboard",
+     "p": [
+      "Laptop keys have shorter travel, which makes light, quick presses easier and heavy presses slower. The home row is the same, but the keyboard is often narrower, so your hands sit closer to centre. If the built-in keyboard is uncomfortable, the <a href=\"mechanical-keyboard-for-typing.html\">mechanical keyboard for typing</a> guide covers what actually matters — key travel and actuation force — without the marketing."
+     ]
     }
    ],
    "faq": [
@@ -3274,6 +3391,10 @@
     {
      "q": "How many minutes a day should I practice?",
      "a": "Ten to fifteen minutes every day. Short daily practice builds muscle memory far better than one long weekly session, because the hands learn by frequency, not by total minutes."
+    },
+    {
+     "q": "Can I learn to type in a week?",
+     "a": "You can learn the correct finger positions in a week, and most people reach a usable 30-40 WPM within three to four weeks of daily practice. Reaching 60 WPM usually takes two to three months of consistent short sessions."
     }
    ],
    "faqH2": "Learn to type FAQ",
@@ -3487,7 +3608,7 @@
   {
    "file": "typing-tests-in-other-languages.html",
    "title": "Typing Tests in Other Languages - Free in 8 Languages",
-   "metaDesc": "Free typing tests in English, Spanish, Chinese, Hindi, Arabic, Japanese, Korean and Urdu. Timed multilingual tests with instant WPM and accuracy. No sign up.",
+   "metaDesc": "Free typing tests in English, Spanish, Chinese, Hindi, Arabic, Japanese, Korean and more. Pick a language and check your WPM instantly.",
    "canonical": "https://typing.rerivo.com/typing-tests-in-other-languages.html",
    "dur": 60,
    "mode": "sentences",
@@ -4099,6 +4220,12 @@
      "h2": "Benchmarks by age and goals",
      "p": [
       "See also: <a href=\"average-typing-speed-by-age.html\">average typing speed by age</a> from kids to seniors, <a href=\"how-many-words-per-minute-is-fast.html\">how many words per minute is fast</a>, and the <a href=\"fastest-typing-speed-record.html\">fastest typing speed records</a> ever measured."
+     ]
+    },
+    {
+     "h2": "Test yourself against these benchmarks",
+     "p": [
+      "Benchmarks are only useful next to your own number. Take a <a href=\"words-per-minute-test.html\">words per minute test</a> with the standard five-character formula, then compare the result with the bands above and with the <a href=\"typing-speed-requirements.html\">requirements table</a> for the job you are targeting."
      ]
     }
    ],
@@ -7571,7 +7698,7 @@
   {
    "file": "top-ko-words.html",
    "title": "Top 200 Most Common Korean Words (with Typing Practice)",
-   "metaDesc": "The 200 most common Korean words from real frequency data, with a free typing practice test built in. Learn the words that make up most everyday Korean text.",
+   "metaDesc": "The 200 most common Korean words from real frequency data, with free typing practice and instant WPM and accuracy feedback.",
    "canonical": "https://typing.rerivo.com/top-ko-words.html",
    "dur": 60,
    "mode": "words",
@@ -8335,7 +8462,7 @@
   {
    "file": "how-many-words-per-minute-is-fast.html",
    "title": "How Many Words Per Minute Is Fast? (WPM Benchmarks)",
-   "metaDesc": "How many words per minute is fast? 40 WPM is average, 60-80 is good, 80-100 is fast and 100+ is elite. Full WPM benchmarks by goal, plus how to measure yours.",
+   "metaDesc": "How many words per minute is fast? 40 WPM is average, 60-80 is good, 80-100 is fast. Benchmarks by level and age, then test free.",
    "canonical": "https://typing.rerivo.com/how-many-words-per-minute-is-fast.html",
    "dur": 60,
    "mode": "words",
@@ -8461,7 +8588,7 @@
   {
    "file": "how-to-type-faster-for-beginners.html",
    "title": "How to Type Faster for Beginners - A No-Jargon Starter Guide",
-   "metaDesc": "How to type faster for beginners: learn home row first, stop looking at the keyboard, practice 10 minutes daily, and fix the 5 mistakes every beginner makes.",
+   "metaDesc": "How to type faster for beginners: learn home row first, stop looking at the keys, and build accuracy before speed. Free drills, no sign up.",
    "canonical": "https://typing.rerivo.com/how-to-type-faster-for-beginners.html",
    "dur": 60,
    "mode": "words",
@@ -9200,7 +9327,7 @@
   {
    "file": "learn-to-type-faster-free.html",
    "title": "Learn to Type Faster for Free - No Course Required",
-   "metaDesc": "Learn to type faster free with a simple daily structure and free online tools. No paid course needed: baseline, home row, daily drills and weekly measurement.",
+   "metaDesc": "Learn to type faster free with a simple daily structure and free online tools. No course, no account, no paywall — just timed drills.",
    "canonical": "https://typing.rerivo.com/learn-to-type-faster-free.html",
    "dur": 60,
    "mode": "words",
@@ -9322,7 +9449,7 @@
   {
    "file": "typing-speed-improvement-tips.html",
    "title": "Typing Speed Improvement Tips - 10 That Move the Number",
-   "metaDesc": "Typing speed improvement tips that actually move the number: accuracy-first practice, weak-key drills, sprint structure, posture fixes and measurement habits.",
+   "metaDesc": "Typing speed improvement tips that move the number: accuracy-first practice, weak-key drills, pacing and a weekly measurement routine.",
    "canonical": "https://typing.rerivo.com/typing-speed-improvement-tips.html",
    "dur": 60,
    "mode": "words",
@@ -9571,7 +9698,7 @@
   {
    "file": "work-from-home-typing-jobs.html",
    "title": "Work From Home Typing Jobs - The Realistic Guide",
-   "metaDesc": "Work from home typing jobs: which roles are real, the equipment you need, speed benchmarks by role, scam red flags, and how to build a track record from zero.",
+   "metaDesc": "Work from home typing jobs: which roles are real, the equipment you need, speed requirements and how to avoid the scams. Honest guide.",
    "canonical": "https://typing.rerivo.com/work-from-home-typing-jobs.html",
    "dur": 60,
    "mode": "words",
@@ -10083,7 +10210,7 @@
   {
    "file": "typing-test-tips.html",
    "title": "Typing Test Tips - Before, During and After the Test",
-   "metaDesc": "Typing test tips that actually raise your score: the pre-test checklist, during-test tactics for accuracy and pacing, and the post-test review that compounds.",
+   "metaDesc": "Typing test tips that raise your score: the pre-test checklist, pacing during the round, and how to read the result panel afterwards.",
    "canonical": "https://typing.rerivo.com/typing-test-tips.html",
    "dur": 60,
    "mode": "words",
@@ -10211,7 +10338,7 @@
   {
    "file": "medical-transcription-typing.html",
    "title": "Medical Transcription Typing - Skills and Training Path",
-   "metaDesc": "Medical transcription typing: what the work involves, the terminology barrier, speed and accuracy requirements, privacy obligations, and the training path in.",
+   "metaDesc": "Medical transcription typing: what the work involves, the terminology barrier, speed requirements and how to train for the role.",
    "canonical": "https://typing.rerivo.com/medical-transcription-typing.html",
    "dur": 60,
    "mode": "words",
@@ -10341,7 +10468,7 @@
   {
    "file": "how-to-get-a-typing-job.html",
    "title": "How to Get a Typing Job - From Zero to Hired",
-   "metaDesc": "How to get a typing job: where typing jobs are posted, how to present your WPM on a resume, proof that beats claims, interview test prep, and the 30-day plan.",
+   "metaDesc": "How to get a typing job: where typing jobs are posted, how to present your WPM on a CV, and the tests you will be asked to pass.",
    "canonical": "https://typing.rerivo.com/how-to-get-a-typing-job.html",
    "dur": 60,
    "mode": "words",
@@ -10471,7 +10598,7 @@
   {
    "file": "audio-typing-tips.html",
    "title": "Audio Typing Tips - Transcription Skills That Pay",
-   "metaDesc": "Audio typing tips for transcription work: building the listen-type pipeline, chunking audio, playback control, text expansion, and accuracy habits that pay.",
+   "metaDesc": "Audio typing tips for transcription work: building the listen-type pipeline, chunking speech, custom hotkeys and accuracy habits.",
    "canonical": "https://typing.rerivo.com/audio-typing-tips.html",
    "dur": 60,
    "mode": "words",
@@ -10731,7 +10858,7 @@
   {
    "file": "dvorak-vs-qwerty.html",
    "title": "Dvorak vs QWERTY - Which Layout Is Actually Worth It",
-   "metaDesc": "Dvorak vs QWERTY compared honestly: the speed claims, the evidence, the retraining cost, who should switch, and why technique beats layout for most typists.",
+   "metaDesc": "Dvorak vs QWERTY compared honestly: the speed claims, the evidence behind them, the retraining cost and when switching is worth it.",
    "canonical": "https://typing.rerivo.com/dvorak-vs-qwerty.html",
    "dur": 60,
    "mode": "words",
@@ -13620,7 +13747,7 @@
   {
    "file": "typing-test-government-jobs.html",
    "title": "Typing Speed Test for Government Jobs - SSC, IBPS, Clerk",
-   "metaDesc": "Typing speed requirements and practice for government jobs: SSC CHSL, IBPS clerk, court clerk, and data-entry roles. KPH/WPM targets with conversion tables.",
+   "metaDesc": "Typing speed requirements and practice for government jobs: SSC CHSL, IBPS clerk, bank and clerical tests, with free timed rounds.",
    "canonical": "https://typing.rerivo.com/typing-test-government-jobs.html",
    "dur": 60,
    "mode": "words",

@@ -35,6 +35,24 @@ A 3 minute round is the shortest length that still exposes endurance: typists wh
 
 Compare against your own history rather than the table. The score that matters is the one you can repeat tomorrow.
 
+## How to pace a 3 minute round
+
+Divide the round into three blocks of sixty seconds. In the first block, settle at about 5% under your one-minute speed and let accuracy lead. In the second, hold that pace — this is where most typists drift upward and start making correctable errors. In the final block, spend the last twenty seconds on whatever is left rather than accelerating; a clean finish usually beats a fast fade by several WPM.
+
+Take a 30 second typing test as a warm-up before the round. Cold hands cost more in the first block than most typists realise, and a warm-up sprint removes that penalty without tiring you out.
+
+## 3 minute typing test for job screening
+
+Screening tests rarely ask for a 3 minute round in isolation; they use one take on unfamiliar text with no retry, and they care about the accuracy floor more than the headline WPM. Practise in exactly that shape: a passage you have not seen, one attempt, and a result you do not delete. The typing test for interview page walks through the format HR teams commonly use.
+
+The government typing test and bank typing test pages cover the specific gates used in SSC, IBPS and clerical recruitment, which often score in keystrokes rather than words.
+
+## 3 minute vs 5 minute vs 10 minute
+
+Three minutes is the shortest length that still shows endurance decay; five minutes makes the decay obvious; ten minutes is a transcription-grade stamina test. If your 5 minute typing test score sits more than 8 WPM below your three-minute score, stamina is the bottleneck — train it with weekly long rounds rather than daily short ones.
+
+For daily practice, the 2 minute typing test is easier to repeat. Reserve the three-minute round for weekly measurement so the number stays comparable.
+
 ## 3 minute typing test FAQ
 
 ### Why do employers use 3 minute typing tests?
@@ -52,3 +70,7 @@ Yes - free, no sign up, no ads in the typing area, and results are stored only i
 ### Does it track my accuracy too?
 
 Yes. Alongside WPM you get accuracy, error count and character-level stats for every round.
+
+### How does a 3 minute test compare with a 1 minute test?
+
+A 1 minute test measures peak speed and swings 10-15 WPM on an unfamiliar sentence. Three minutes averages that noise out and exposes whether you can hold speed with accuracy, which is why screening tests prefer it.

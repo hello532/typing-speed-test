@@ -30,6 +30,16 @@ Two minutes is the shortest round where a single bad sentence stops dominating t
 
 If you are tracking progress, keep the length fixed. Comparing a 2 minute score against a 5 minute score tells you about endurance, not improvement.
 
+## How to pace a two minute round
+
+Open slightly under your target speed and let the first sentence calibrate you. Most typists gain 3-6 WPM in the second minute simply by relaxing into rhythm; the ones who lose points are those who sprint the first twenty seconds and spend the rest recovering. Keep your eyes one word ahead of the cursor and your hands still between keystrokes.
+
+If you want a stricter reading of the same two minutes, switch the text mode to quotes: capitals and punctuation are where accuracy quietly leaks away, and the result screen will show it.
+
+## 2 minute typing test for employment
+
+Two-minute formats appear in clerical and customer-service screening because they fit inside a short interview slot. The format that matters is unfamiliar text, one take, and an accuracy floor of 95%. Practise with a passage you have not seen and resist the urge to retake — employers do not offer one. The typing test for jobs page lists the common thresholds by role.
+
 ## Typing test FAQ
 
 ### How long is a 2 minute typing test?
@@ -47,3 +57,7 @@ Yes. Free with no sign up; retake the full two minutes as often as you like and 
 ### Can I retry as many times as I want?
 
 Yes, there is no limit. Click “Test again” for a fresh passage and your history keeps the last results.
+
+### Should I use a 2 minute or 3 minute test for job practice?
+
+Use the length your employer uses. If the posting does not say, practise on 3 minutes: it is the stricter of the two because endurance decay has time to show up, and a good three-minute score transfers down to a two-minute format.

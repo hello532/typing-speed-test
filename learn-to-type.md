@@ -16,6 +16,20 @@ Rest your left fingers on A S D F and your right fingers on J K L ;, thumbs on t
 
 Most people own the home row in a week and reach a comfortable 40 to 60 words per minute in three to four weeks of daily practice. The mistake beginners make is chasing speed early; accuracy is the foundation and speed is the building that arrives later. End every session on your slowest, most careful line, and your hands will learn faster than you expect.
 
+## Learn to type without looking
+
+Looking at your hands feels faster for about a week and caps you near 30 WPM forever, because every glance breaks the loop between what your eyes read and what your fingers do. Break the habit deliberately: cover your hands with a cloth for one short round a day, accept the slower score, and let the home row do the work. The full method is on the how to type without looking page.
+
+## A one-week learn-to-type plan
+
+Day one: home row only, slow, eyes on the screen. Day two: add the top row with the correct fingers. Day three: bottom row and the shift key. Day four: short common words. Day five: full sentences at a comfortable pace. Day six: numbers and punctuation. Day seven: one timed round to see where you are — not to pass a target. Fifteen minutes a day is enough; the schedule matters more than the minutes.
+
+When the week ends, move to structured typing practice and check the result panel for the keys that are slowing you down.
+
+## Learn to type on a laptop keyboard
+
+Laptop keys have shorter travel, which makes light, quick presses easier and heavy presses slower. The home row is the same, but the keyboard is often narrower, so your hands sit closer to centre. If the built-in keyboard is uncomfortable, the mechanical keyboard for typing guide covers what actually matters — key travel and actuation force — without the marketing.
+
 ## Learn to type FAQ
 
 ### Can I learn to type for free?
@@ -41,3 +55,7 @@ Accuracy, always. Speed is a byproduct of accurate repetition. A fast wrong keys
 ### How many minutes a day should I practice?
 
 Ten to fifteen minutes every day. Short daily practice builds muscle memory far better than one long weekly session, because the hands learn by frequency, not by total minutes.
+
+### Can I learn to type in a week?
+
+You can learn the correct finger positions in a week, and most people reach a usable 30-40 WPM within three to four weeks of daily practice. Reaching 60 WPM usually takes two to three months of consistent short sessions.

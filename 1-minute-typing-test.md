@@ -85,6 +85,10 @@ That comparability is why schools, employers and typing benchmarks settled on th
 
 There is a practical benefit for training too. Because a run costs only a minute, it survives as a habit: before work, after lunch, between tasks. Skill in typing compounds through exactly that kind of frequent, measurable repetition, and no other duration makes measurement this cheap.
 
+## What to do after a one minute test
+
+A single number is not progress. Log the score, then use the typing practice plan for a week and retake the same length under the same conditions. If the score moves, keep the routine; if it stalls, the how to get better at typing guide explains which drill matches which bottleneck.
+
 ## Typing test FAQ
 
 ### What is a 1 minute typing test?
