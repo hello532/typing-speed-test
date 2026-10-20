@@ -111,6 +111,24 @@ def main():
             bad_ld.append((n, f"types={types}"))
     check("6. 每页 JSON-LD 合法且类型顺序正确（首页 5 块含 Org/Site）", not bad_ld, str(bad_ld[:3]) if bad_ld else f"{len(htmls)*3+2} 块")
 
+    # 6b. CTR 门禁：标题/描述长度 + 描述不得互相重复（否则 Google 重写，CTR 归零）
+    #   教训：时长线 2/3/5/10 分钟的 metaDesc 曾高达 88–91% 相似，而这几个页占
+    #   GSC 曝光 45%。位置 60+ 时描述是唯一能碰的杠杆，模板化等于放弃它。
+    import difflib
+    long_t = [(p["file"], len(p["title"])) for p in pages if len(p["title"]) > 62]
+    long_d = [(p["file"], len(p["metaDesc"])) for p in pages if len(p["metaDesc"]) > 158]
+    dup_d = []
+    for i, a in enumerate(pages):
+        for b in pages[i + 1:]:
+            ratio = difflib.SequenceMatcher(None, a["metaDesc"], b["metaDesc"]).ratio()
+            if ratio > 0.70:
+                dup_d.append((a["file"], b["file"], round(ratio, 2)))
+    check("6b. 标题/描述长度合规且描述互不雷同（CTR 门禁）",
+          not long_t and not long_d and not dup_d,
+          f"超长title {long_t[:2]} 超长desc {long_d[:2]} 雷同 {dup_d[:2]}"
+          if (long_t or long_d or dup_d)
+          else f"title≤62 / desc≤158，{len(pages)} 页描述两两相似度均 ≤0.70")
+
     # 7. sitemap 与实际页面一致
     sm = ROOT / "sitemap.xml"
     if sm.exists():

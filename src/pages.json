@@ -171,7 +171,7 @@
   {
    "file": "2-minute-typing-test.html",
    "title": "2 Minute Typing Test - Free Typing Test 2 Minutes WPM",
-   "metaDesc": "Free 2 minute typing test. Check your typing speed and accuracy over 2 minutes with instant WPM results. No sign up, unlimited retries.",
+   "metaDesc": "A 2 minute typing test shows whether speed holds after the first rush. Type for 120 seconds, then compare with your one minute score.",
    "canonical": "https://typing.rerivo.com/2-minute-typing-test.html",
    "dur": 120,
    "mode": "sentences",
@@ -300,7 +300,7 @@
   {
    "file": "5-minute-typing-test.html",
    "title": "5 Minute Typing Test - Free 5 Min WPM Test",
-   "metaDesc": "Free 5 minute typing test. Measure your sustained typing speed and accuracy over 5 minutes with instant WPM results. No sign up.",
+   "metaDesc": "Five minutes of continuous typing in net WPM with accuracy beside it. Most people sit 5 to 15 percent below their one minute sprint here.",
    "canonical": "https://typing.rerivo.com/5-minute-typing-test.html",
    "dur": 300,
    "mode": "sentences",
@@ -408,7 +408,7 @@
   {
    "file": "capital-letter-typing-test.html",
    "title": "Capital Letter Typing Test - Shift Key Practice",
-   "metaDesc": "Free capital letter typing test. Practise the Shift key and uppercase letters, and measure your WPM and accuracy with instant results. No sign up.",
+   "metaDesc": "Capital letter typing test built on shift-key pairs and sentence case, so you can see whether the pinky shift is costing you words.",
    "canonical": "https://typing.rerivo.com/capital-letter-typing-test.html",
    "dur": 60,
    "mode": "sentences",
@@ -590,7 +590,7 @@
   {
    "file": "english-typing-test.html",
    "title": "English Typing Test - Free Online Typing Test",
-   "metaDesc": "Free English typing test online. Type English sentences and check your words per minute (WPM) and accuracy with instant results. No sign up.",
+   "metaDesc": "English typing test on 200 common words plus full sentences, scored in net WPM and accuracy. No sign up and no ads in the typing area.",
    "canonical": "https://typing.rerivo.com/english-typing-test.html",
    "dur": 60,
    "mode": "sentences",
@@ -681,7 +681,7 @@
   {
    "file": "spanish-typing-test.html",
    "title": "Spanish Typing Test - Free Online Spanish WPM Test",
-   "metaDesc": "Free Spanish typing test online. Type real Spanish sentences and check your words per minute and accuracy with instant results. No sign up.",
+   "metaDesc": "Practica mecanografía con frases reales en español, incluidas ñ, tildes y signos de apertura ¿¡. Resultado instantáneo de WPM y precisión.",
    "canonical": "https://typing.rerivo.com/spanish-typing-test.html",
    "dur": 60,
    "mode": "sentences",
@@ -771,7 +771,7 @@
   {
    "file": "free-typing-test.html",
    "title": "Free Typing Test With WPM - No Sign Up, Instant Results",
-   "metaDesc": "A free typing test with WPM and accuracy, no sign up and no ads in the typing area. Test typing speed from 15 seconds to 10 minutes. Free forever.",
+   "metaDesc": "A free typing test with WPM and accuracy, no sign up and no ads in the typing area. Rounds from 15 seconds to 10 minutes, free forever.",
    "canonical": "https://typing.rerivo.com/free-typing-test.html",
    "dur": 60,
    "mode": "sentences",
@@ -899,8 +899,8 @@
   },
   {
    "file": "index.html",
-   "title": "Typing Speed Test - Free Online WPM Test (60s)",
-   "metaDesc": "Free typing speed test online. Check your WPM in 60 seconds with instant results. Practice typing with sentences, quotes, numbers and words.",
+   "title": "Typing.Rerivo — Free Typing Speed Test, WPM in 60s",
+   "metaDesc": "Free typing speed test from Typing.Rerivo. Check WPM and accuracy in 60 seconds, no sign up, no ads in the typing area. Tests from 15s to 10 min.",
    "canonical": "https://typing.rerivo.com/",
    "dur": 60,
    "mode": "sentences",
@@ -1313,7 +1313,7 @@
   {
    "file": "punctuation-typing-test.html",
    "title": "Punctuation Typing Test - Symbols & Marks Practice",
-   "metaDesc": "Free punctuation typing test. Practise commas, periods, quotes and symbols, and measure your WPM and accuracy with instant results. No sign up.",
+   "metaDesc": "Punctuation typing test with quotes, commas, brackets and symbols at real density. Where most fast typists quietly lose characters.",
    "canonical": "https://typing.rerivo.com/punctuation-typing-test.html",
    "dur": 60,
    "mode": "sentences",
@@ -2124,8 +2124,8 @@
   },
   {
    "file": "words-per-minute-test.html",
-   "title": "Typing Words Per Minute Test - Free WPM Test Online",
-   "metaDesc": "Free typing words per minute test: type for 60 seconds and see your WPM instantly. 300 correct characters equals 60 WPM. No sign up, unlimited rounds.",
+   "title": "Typing Words Per Minute Test — Free WPM Test, Instant Score",
+   "metaDesc": "A typing words per minute test scored the standard way: five correct characters equal one word, so 300 characters is 60 WPM. Instant result.",
    "canonical": "https://typing.rerivo.com/words-per-minute-test.html",
    "dur": 60,
    "mode": "sentences",
@@ -2340,7 +2340,7 @@
   {
    "file": "30-second-typing-test.html",
    "title": "30 Second Typing Test - Free 30s WPM Test",
-   "metaDesc": "Free 30 second typing test. A quick 30s WPM check to test your typing speed fast. Instant results, no sign up, unlimited tries.",
+   "metaDesc": "Thirty seconds, one number: your cold-start WPM before warming up. A quick baseline between longer rounds, with instant results and no sign up.",
    "canonical": "https://typing.rerivo.com/30-second-typing-test.html",
    "dur": 30,
    "mode": "sentences",
@@ -2445,7 +2445,7 @@
   {
    "file": "3-minute-typing-test.html",
    "title": "3 Minute Typing Test - Free 3 Min WPM Test",
-   "metaDesc": "Free 3 minute typing test. Measure your typing speed and accuracy over 3 minutes with instant WPM results. No sign up required.",
+   "metaDesc": "180 seconds of typing exposes whether you hold accuracy once the easy words are gone. Run a 3 minute test, then read your slowest keys.",
    "canonical": "https://typing.rerivo.com/3-minute-typing-test.html",
    "dur": 180,
    "mode": "sentences",
@@ -2583,7 +2583,7 @@
   {
    "file": "10-minute-typing-test.html",
    "title": "10 Minute Typing Test - Free 10 Min WPM Test",
-   "metaDesc": "Free 10 minute typing test. Test your long-form typing endurance and accuracy over 10 minutes with instant WPM results. No sign up.",
+   "metaDesc": "Ten minutes of unbroken typing measures endurance, not finger speed. Expect to sit 5 to 15 percent below your one minute score at first.",
    "canonical": "https://typing.rerivo.com/10-minute-typing-test.html",
    "dur": 600,
    "mode": "sentences",
@@ -2733,7 +2733,7 @@
   {
    "file": "chinese-typing-test.html",
    "title": "Chinese Typing Test - Free Online Chinese WPM Test",
-   "metaDesc": "Free Chinese typing test online. Type real Chinese sentences and check your words per minute and accuracy with instant results. No sign up.",
+   "metaDesc": "Chinese typing test on real sentences in simplified and traditional characters. Instant WPM, characters per minute and accuracy, no sign up.",
    "canonical": "https://typing.rerivo.com/chinese-typing-test.html",
    "dur": 60,
    "mode": "sentences",
@@ -2823,7 +2823,7 @@
   {
    "file": "hindi-typing-test.html",
    "title": "Hindi Typing Test - Free Online Hindi WPM Test",
-   "metaDesc": "Free Hindi typing test online. Type real Hindi sentences in Devanagari and check your words per minute and accuracy with instant results. No sign up.",
+   "metaDesc": "Hindi typing test in Devanagari, including matras and conjuncts where most errors happen. Get WPM, accuracy and your weakest keys at once.",
    "canonical": "https://typing.rerivo.com/hindi-typing-test.html",
    "dur": 60,
    "mode": "sentences",
@@ -2913,7 +2913,7 @@
   {
    "file": "arabic-typing-test.html",
    "title": "Arabic Typing Test - Free Online Arabic WPM Test",
-   "metaDesc": "Free Arabic typing test online. Type real Arabic sentences and check your words per minute and accuracy with instant results. No sign up.",
+   "metaDesc": "Arabic typing test with right-to-left rendering and real sentences. Live WPM, accuracy and characters per minute as you type.",
    "canonical": "https://typing.rerivo.com/arabic-typing-test.html",
    "dur": 60,
    "mode": "sentences",
@@ -4363,8 +4363,8 @@
   },
   {
    "file": "cpm-typing-test.html",
-   "title": "CPM Typing Test - Characters Per Minute Speed Test",
-   "metaDesc": "Free CPM typing test. Measure your speed in characters per minute (CPM = WPM × 5) with live CPM, WPM and accuracy. No sign-up, instant results.",
+   "title": "CPM Test — Characters Per Minute Typing Test, Free",
+   "metaDesc": "Take a CPM test to see characters per minute beside WPM from the same one-minute round. 200 CPM equals 40 WPM. Built for data entry and exams.",
    "canonical": "https://typing.rerivo.com/cpm-typing-test.html",
    "dur": 60,
    "mode": "sentences",
@@ -7173,7 +7173,7 @@
   {
    "file": "japanese-typing-test.html",
    "title": "Japanese Typing Test - Free Online Japanese WPM Test",
-   "metaDesc": "Free Japanese typing test online. Type real Japanese sentences with kanji and kana and check your speed and accuracy with instant results. No sign up.",
+   "metaDesc": "Japanese typing test mixing kanji, hiragana and katakana in real sentences. See whether conversion or finger speed is the limit.",
    "canonical": "https://typing.rerivo.com/japanese-typing-test.html",
    "dur": 60,
    "mode": "sentences",
@@ -7268,7 +7268,7 @@
   {
    "file": "korean-typing-test.html",
    "title": "Korean Typing Test - Free Online Korean WPM Test",
-   "metaDesc": "Free Korean typing test online. Type real Korean Hangul sentences and check your typing speed and accuracy with instant results. No sign up.",
+   "metaDesc": "Korean typing test on real Hangul sentences, including batchim and compound vowels. Live WPM, accuracy and a weak-key report.",
    "canonical": "https://typing.rerivo.com/korean-typing-test.html",
    "dur": 60,
    "mode": "sentences",
@@ -7363,7 +7363,7 @@
   {
    "file": "urdu-typing-test.html",
    "title": "Urdu Typing Test - Free Online Urdu WPM Test",
-   "metaDesc": "Free Urdu typing test online. Type real Urdu sentences right to left in Nastaliq script and check your speed and accuracy instantly. No sign up.",
+   "metaDesc": "Urdu typing test written right to left in Nastaliq, using real sentences rather than isolated words. WPM and accuracy the moment time stops.",
    "canonical": "https://typing.rerivo.com/urdu-typing-test.html",
    "dur": 60,
    "mode": "sentences",
@@ -7458,7 +7458,7 @@
   {
    "file": "top-en-words.html",
    "title": "Top 200 Most Common English Words (with Typing Practice)",
-   "metaDesc": "The 200 most common English words from real frequency data, with free typing practice built in. Drill the words behind everyday English text.",
+   "metaDesc": "The 200 highest-frequency English words, ready to drill as a typing test. Short common words are where speed is won or lost.",
    "canonical": "https://typing.rerivo.com/top-en-words.html",
    "dur": 60,
    "mode": "words",
@@ -7551,7 +7551,7 @@
   {
    "file": "top-es-words.html",
    "title": "Top 200 Most Common Spanish Words (with Typing Practice)",
-   "metaDesc": "The 200 most common Spanish words from real frequency data, with free typing practice built in. Drill the words behind everyday Spanish text.",
+   "metaDesc": "Las 200 palabras más frecuentes del español para practicar mecanografía. Incluye ñ, tildes y signos de apertura, que son donde más se pierde precisión.",
    "canonical": "https://typing.rerivo.com/top-es-words.html",
    "dur": 60,
    "mode": "words",
@@ -7644,7 +7644,7 @@
   {
    "file": "top-hi-words.html",
    "title": "Top 200 Most Common Hindi Words (with Typing Practice)",
-   "metaDesc": "The 200 most common Hindi words from real frequency data, with a free typing practice test built in. Learn the words that make up most everyday Hindi text.",
+   "metaDesc": "200 सबसे आम हिंदी शब्द, देवनागरी में टाइपिंग अभ्यास के लिए। मात्राएँ और संयुक्ताक्षर वहीं हैं जहाँ सबसे ज़्यादा गलती होती है।",
    "canonical": "https://typing.rerivo.com/top-hi-words.html",
    "dur": 60,
    "mode": "words",
@@ -7737,7 +7737,7 @@
   {
    "file": "top-ja-words.html",
    "title": "Top 200 Most Common Japanese Words (with Typing Practice)",
-   "metaDesc": "The 200 most common Japanese words from real frequency data, with free typing practice built in. Drill the words behind everyday Japanese text.",
+   "metaDesc": "よく使う日本語200語をタイピング練習用に。ひらがな・カタカナ・漢字の変換でどこに時間がかかるかが見えます。",
    "canonical": "https://typing.rerivo.com/top-ja-words.html",
    "dur": 60,
    "mode": "words",
@@ -7830,7 +7830,7 @@
   {
    "file": "top-ko-words.html",
    "title": "Top 200 Most Common Korean Words (with Typing Practice)",
-   "metaDesc": "The 200 most common Korean words from real frequency data, with free typing practice and instant WPM and accuracy feedback.",
+   "metaDesc": "자주 쓰는 한국어 단어 200개로 타이핑 연습. 받침과 복모음에서 시간이 새는지 바로 확인할 수 있습니다.",
    "canonical": "https://typing.rerivo.com/top-ko-words.html",
    "dur": 60,
    "mode": "words",
@@ -7923,7 +7923,7 @@
   {
    "file": "top-ur-words.html",
    "title": "Top 200 Most Common Urdu Words (with Typing Practice)",
-   "metaDesc": "The 200 most common Urdu words from real frequency data, with a free typing practice test built in. Learn the words that make up most everyday Urdu text.",
+   "metaDesc": "روزمرہ اردو کے 200 عام الفاظ، نستعلیق میں ٹائپنگ مشق کے لیے۔ دائیں سے بائیں لکھائی اور ملا کر لکھنے کی مشق۔",
    "canonical": "https://typing.rerivo.com/top-ur-words.html",
    "dur": 60,
    "mode": "words",
@@ -8016,7 +8016,7 @@
   {
    "file": "quotes-typing-test.html",
    "title": "Quotes Typing Test - Type Famous Quotes, Free WPM Test",
-   "metaDesc": "Free quotes typing test. Type real famous quotes from history's greatest minds and measure your WPM and accuracy with instant results. No sign up.",
+   "metaDesc": "Type famous quotes with punctuation and capitals intact, then get WPM and accuracy. A better test than plain prose for real-world typing.",
    "canonical": "https://typing.rerivo.com/quotes-typing-test.html",
    "dur": 60,
    "mode": "quotes",
@@ -12340,7 +12340,7 @@
   {
    "file": "indonesian-typing-test.html",
    "title": "Tes Mengetik Online Gratis - Ukur Kecepatan WPM",
-   "metaDesc": "Tes mengetik online gratis dalam Bahasa Indonesia. Ukur kecepatan dan akurasi mengetik WPM dengan hasil instan. Latihan mengetik, tanpa daftar.",
+   "metaDesc": "Tes mengetik bahasa Indonesia dengan kalimat asli. Kecepatan WPM, akurasi dan huruf yang sering salah muncul langsung, tanpa pendaftaran.",
    "canonical": "https://typing.rerivo.com/indonesian-typing-test.html",
    "dur": 60,
    "mode": "sentences",
@@ -12442,7 +12442,7 @@
   {
    "file": "vietnamese-typing-test.html",
    "title": "Kiểm tra tốc độ gõ phím tiếng Việt miễn phí - Đo WPM",
-   "metaDesc": "Kiểm tra tốc độ gõ phím tiếng Việt online miễn phí. Đánh máy câu tiếng Việt thật với dấu thanh và chữ hoa. Kết quả WPM và độ chính xác tức thì.",
+   "metaDesc": "Kiểm tra tốc độ gõ tiếng Việt với câu thật, đủ dấu thanh. Kết quả WPM, độ chính xác hiện ngay, không cần đăng ký.",
    "canonical": "https://typing.rerivo.com/vietnamese-typing-test.html",
    "dur": 60,
    "mode": "sentences",
@@ -12551,7 +12551,7 @@
   {
    "file": "turkish-typing-test.html",
    "title": "Türkçe Klavye Hız Testi - Ücretsiz Online Yazma Testi",
-   "metaDesc": "Ücretsiz Türkçe yazma testi online. Gerçek Türkçe cümleler yazarak hızınızı ve doğruluğunuzu anında ölçün. Kayıt gerekmez.",
+   "metaDesc": "Türkçe yazma testi; ğ, ş, ı, İ ve ç dahil gerçek cümlelerle. Anında WPM, doğruluk ve en çok hata yapılan tuşlar.",
    "canonical": "https://typing.rerivo.com/turkish-typing-test.html",
    "dur": 60,
    "mode": "sentences",
@@ -12660,7 +12660,7 @@
   {
    "file": "thai-typing-test.html",
    "title": "ทดสอบการพิมพ์ภาษาไทย - ทดสอบ WPM ออนไลน์ฟรี",
-   "metaDesc": "ทดสอบการพิมพ์ภาษาไทยออนไลน์ฟรี พิมพ์ประโยคภาษาไทยจริง ตรวจสอบความเร็วและความแม่นยำทันที ไม่ต้องสมัคร",
+   "metaDesc": "ทดสอบพิมพ์ภาษาไทยด้วยประโยคจริง วัด WPM ความแม่นยำ และปุ่มที่พิมพ์ผิดบ่อยทันที ไม่ต้องสมัครสมาชิก",
    "canonical": "https://typing.rerivo.com/thai-typing-test.html",
    "dur": 60,
    "mode": "sentences",
@@ -12768,7 +12768,7 @@
   {
    "file": "top-id-words.html",
    "title": "Top 200 Most Common Indonesian Words (with Typing Practice)",
-   "metaDesc": "The 200 most common Indonesian words with a free typing practice test built in. Master the words that make up most everyday Indonesian text.",
+   "metaDesc": "200 kata bahasa Indonesia yang paling sering dipakai, untuk latihan mengetik. Cocok sebagai pemanasan sebelum tes satu menit.",
    "canonical": "https://typing.rerivo.com/top-id-words.html",
    "dur": 60,
    "mode": "words",
@@ -12857,7 +12857,7 @@
   {
    "file": "top-vi-words.html",
    "title": "Top 200 Most Common Vietnamese Words (with Typing Practice)",
-   "metaDesc": "The 200 most common Vietnamese words with a free typing practice test built in. Master the words that make up most everyday Vietnamese text.",
+   "metaDesc": "200 từ tiếng Việt thông dụng nhất để luyện gõ. Dấu thanh là phần dễ mất thời gian nhất, nên danh sách này tập trung vào đó.",
    "canonical": "https://typing.rerivo.com/top-vi-words.html",
    "dur": 60,
    "mode": "words",
@@ -12946,7 +12946,7 @@
   {
    "file": "top-tr-words.html",
    "title": "Top 200 Most Common Turkish Words (with Typing Practice)",
-   "metaDesc": "The 200 most common Turkish words with a free typing practice test built in. Master the words that make up most everyday Turkish text.",
+   "metaDesc": "En sık kullanılan 200 Türkçe kelime ile yazma alıştırması. Ğ, ş, ı ve ç harfleri hızın nerede düştüğünü gösterir.",
    "canonical": "https://typing.rerivo.com/top-tr-words.html",
    "dur": 60,
    "mode": "words",
@@ -13035,7 +13035,7 @@
   {
    "file": "top-th-words.html",
    "title": "Top 200 Most Common Thai Words (with Typing Practice)",
-   "metaDesc": "The 200 most common Thai words with a free typing practice test built in. Master the words that make up most everyday Thai text.",
+   "metaDesc": "คำไทยที่ใช้บ่อย 200 คำ สำหรับฝึกพิมพ์ วัดว่าปุ่มไหนทำให้ความเร็วตก และใช้เป็นวอร์มอัปก่อนทดสอบหนึ่งนาที",
    "canonical": "https://typing.rerivo.com/top-th-words.html",
    "dur": 60,
    "mode": "words",
@@ -13369,7 +13369,7 @@
   {
    "file": "top-1000-english-words.html",
    "title": "1000 Most Common English Words (with Typing Practice)",
-   "metaDesc": "The 1000 most common English words from real frequency data, on one page, with a free typing practice test. Learn the words behind everyday English.",
+   "metaDesc": "All 1000 most common English words on one page with typing practice attached. Use it as a warm-up or a five-minute drill.",
    "canonical": "https://typing.rerivo.com/top-1000-english-words.html",
    "dur": 60,
    "mode": "words",
