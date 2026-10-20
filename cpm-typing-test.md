@@ -103,6 +103,10 @@ CPM is the fairer unit when your language or your work is not English prose. WPM
 
 The five-character word is a convention, not a measurement: words per minute standardises a word to five characters including spaces and punctuation precisely so that different passages produce comparable numbers. Character counts skip the convention entirely, which is why a CPM score travels across languages and across numeric keypad work, where the numeric keypad contributes most of the keystrokes.
 
+## About this page
+
+Last updated 2026-10-20. Written and maintained by the Typing.Rerivo team; scoring formulas, sources and corrections policy are documented on the about page.
+
 ## Typing test FAQ
 
 ### What does CPM mean in typing?

@@ -33,6 +33,10 @@ O*NET 43-9021.00, Data Entry Keyers - the occupational profile we point to when 
 
 Benchmarks that come from commercial assessment vendors are linked with rel="nofollow" because we are not endorsing their paid tests; the free references above carry ordinary links.
 
+## About this page
+
+Last updated 2026-10-20. This page documents the methodology behind every benchmark on the site.
+
 ## About FAQ
 
 ### Is Typing.Rerivo really free?

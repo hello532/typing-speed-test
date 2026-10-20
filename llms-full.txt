@@ -35,9 +35,11 @@ Every result is saved privately in your browser, so the one-minute run doubles a
 Warm up with a 15-second sprint, then take the full minute seriously — your second run of the day is usually your best. Keep your eyes on the screen and your fingers on the home row; every glance at the keyboard costs you several words over sixty seconds. Type slightly below your panic speed: the single biggest score killer is the error-and-backspace cycle.
 Train the text types that slow you down. If numbers and punctuation break your rhythm, run a few rounds in numbers or quotes mode until they feel automatic — symbols are the most common slowdown in any timed run. Use the weak-key report after each test and drill those letters specifically instead of re-typing whole passages you already handle well. Ten focused minutes a day beats an occasional hour.
 ## Five mistakes that cap your 1 minute score
-The first is typing at panic speed: pushing past the point where your accuracy holds, then donating the gains back through corrections. The fix feels backwards but works — slow down five percent and the net score climbs. The second is looking at the keyboard. Every glance breaks rhythm and costs several words over sixty seconds; if you still need to look, spend a week on home-row drills before chasing speed.
-The third is ignoring symbols. Digits and punctuation are where otherwise-fast typists hemorrhage time, because practice usually means plain prose. A few rounds a week in numbers or quotes mode closes that gap quickly. The fourth is retaking the test immediately without reading the weak-key report — you rehearse the same errors and they set deeper. Look at the report, drill the two worst keys, then retest.
-The fifth is practising in rare long sessions. Skill in typing is motor memory, and motor memory consolidates with daily repetition. Ten focused minutes every day moves the score more than an occasional hour, and the daily run itself takes less time than making coffee.
+Typing at panic speed. Pushing past the point where your accuracy holds, then donating the gains back through corrections. The fix feels backwards but works: slow down five percent and the net score climbs.
+Looking at the keyboard. Every glance breaks rhythm and costs several words over sixty seconds. If you still need to look, spend a week on home-row drills before chasing speed.
+Ignoring symbols. Digits and punctuation are where otherwise-fast typists lose the most time, because practice usually means plain prose. A few rounds a week in numbers or quotes mode closes that gap quickly.
+Retaking immediately without reading the weak-key report. You rehearse the same errors and they set deeper. Read the report, drill the two worst keys, then retest.
+Practising in rare long sessions. Typing skill is motor memory, and motor memory consolidates with daily repetition. Ten focused minutes every day moves the score more than an occasional hour.
 ## A simple 7-day plan for a higher 1 minute score
 Day one: take the test once, note your net WPM and accuracy, and read the weak-key report carefully — that is your baseline. Day two: accuracy day. Type slower than feels natural and finish above 98%; the number does not matter today. Day three: symbols day, in numbers and quotes modes, because symbols are the most common rhythm-breaker.
 Day four: weak-key day. Take the two keys the report flagged and drill them with short 15-second rounds until the reach is automatic. Day five: speed day — warm up with two 15-second sprints, then give the full minute everything you have; sprint-warmed fingers reliably score higher. Day six: stamina day, one two-minute run. If it lands far below your sixty-second score, consistency — not speed — is what to train next.
@@ -55,6 +57,8 @@ There is a practical benefit for training too. Because a run costs only a minute
 ## What to do after a one minute test
 A single number is not progress. Log the score, then use the typing practice plan for a week and retake the same length under the same conditions. If the score moves, keep the routine; if it stalls, the how to get better at typing guide explains which drill matches which bottleneck.
 If you are still looking at the keyboard while you type, the ceiling on this score is technique rather than finger speed: the home-row method behind touch typing is what lets a sixty-second round be read from the screen instead of copied from the keys.
+## About this page
+Last updated 2026-10-20. Written and maintained by the Typing.Rerivo team; scoring formulas, sources and corrections policy are documented on the about page.
 ## Typing test FAQ
 A 60-second timed round: type the passage shown for exactly one minute, then get your WPM, accuracy and error breakdown instantly. One minute is the most-quoted test length, so scores compare directly across sites and job requirements.
 Correct characters divided by 5, divided by the one elapsed minute. Because the test lasts exactly sixty seconds the maths is simple: 300 correct characters equals 60 WPM. The results panel shows both raw WPM and net WPM with errors subtracted.
@@ -573,6 +577,8 @@ Prefer characters per minute? Try the CPM typing test, where CPM = WPM &times; 5
 A typing words per minute test reports one number for one minute of typing, using a convention rather than a literal word count: every five characters typed counts as one word, whether those characters formed short words, long words, numbers or punctuation. The Wikipedia entry for words per minute documents the same five-character standard and the reference bands that most tests still quote: professional typists sit around 43 to 80 WPM, and advanced typists go above 120 WPM.
 Two numbers come out of a typing words per minute test and they are not interchangeable. Gross (raw) WPM counts every keystroke, including the ones you had to correct. Net WPM deducts those errors, which is why a fast, careless run can post a high raw score and still be the slower run. When a job application or a certificate asks for your speed, the figure they want is net WPM with accuracy reported next to it - anything under about 95 percent accuracy means the speed is not yet usable in real work.
 If your target is quoted in keystrokes rather than words - common for data entry and for exam scoring - measure it directly with the CPM typing test, which reports characters per minute and keystrokes per hour from the same round.
+## About this page
+Last updated 2026-10-20. Written and maintained by the Typing.Rerivo team; scoring formulas, sources and corrections policy are documented on the about page.
 ## Typing test FAQ
 It converts everything you type into a WPM score using the 5-characters-per-word standard, alongside accuracy and error counts. This page runs the test at 60 seconds, the standard length employers quote.
 WPM = (correct characters ÷ 5) ÷ minutes elapsed. The industry standard treats every 5 characters as one word, so longer words count more. Raw WPM ignores errors, while net WPM subtracts them.
@@ -1054,6 +1060,8 @@ Colemak - the 2006 layout and its home-row share, used for the Colemak practice 
 Numeric keypad - the ten-key layout behind the ten key and number typing tests.
 O*NET 43-9021.00, Data Entry Keyers - the occupational profile we point to when describing data entry job requirements.
 Benchmarks that come from commercial assessment vendors are linked with rel="nofollow" because we are not endorsing their paid tests; the free references above carry ordinary links.
+## About this page
+Last updated 2026-10-20. This page documents the methodology behind every benchmark on the site.
 ## About FAQ
 Yes, completely free with no account, no paywall and no advertising on the test pages.
 A small independent project. The source code is public on GitHub at github.com/hello532/typing-speed-test.
@@ -1172,6 +1180,8 @@ A CPM test scores the same one-minute round as a WPM test, but reports character
 CPM is the fairer unit when your language or your work is not English prose. WPM depends on an arbitrary five-character word, so scripts that write without spaces, and data entry that is mostly digits and symbols, produce WPM numbers that cannot be compared across languages. Character counts have no such convention: 200 CPM means 200 characters typed correctly, in Tokyo, Berlin or Bangalore alike.
 ## Why characters are the more portable unit
 The five-character word is a convention, not a measurement: words per minute standardises a word to five characters including spaces and punctuation precisely so that different passages produce comparable numbers. Character counts skip the convention entirely, which is why a CPM score travels across languages and across numeric keypad work, where the numeric keypad contributes most of the keystrokes.
+## About this page
+Last updated 2026-10-20. Written and maintained by the Typing.Rerivo team; scoring formulas, sources and corrections policy are documented on the about page.
 ## Typing test FAQ
 CPM stands for characters per minute - the number of correct characters you type in one minute, counting letters, numbers, spaces and symbols. It is a finer-grained measure of typing speed than WPM.
 Divide CPM by 5, because a word is defined as five characters. So 300 CPM equals 60 WPM and 200 CPM equals 40 WPM. To go the other way, WPM × 5 = CPM.

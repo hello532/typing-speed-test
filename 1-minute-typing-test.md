@@ -51,11 +51,11 @@ Train the text types that slow you down. If numbers and punctuation break your r
 
 ## Five mistakes that cap your 1 minute score
 
-The first is typing at panic speed: pushing past the point where your accuracy holds, then donating the gains back through corrections. The fix feels backwards but works — slow down five percent and the net score climbs. The second is looking at the keyboard. Every glance breaks rhythm and costs several words over sixty seconds; if you still need to look, spend a week on home-row drills before chasing speed.
-
-The third is ignoring symbols. Digits and punctuation are where otherwise-fast typists hemorrhage time, because practice usually means plain prose. A few rounds a week in numbers or quotes mode closes that gap quickly. The fourth is retaking the test immediately without reading the weak-key report — you rehearse the same errors and they set deeper. Look at the report, drill the two worst keys, then retest.
-
-The fifth is practising in rare long sessions. Skill in typing is motor memory, and motor memory consolidates with daily repetition. Ten focused minutes every day moves the score more than an occasional hour, and the daily run itself takes less time than making coffee.
+Typing at panic speed. Pushing past the point where your accuracy holds, then donating the gains back through corrections. The fix feels backwards but works: slow down five percent and the net score climbs.
+Looking at the keyboard. Every glance breaks rhythm and costs several words over sixty seconds. If you still need to look, spend a week on home-row drills before chasing speed.
+Ignoring symbols. Digits and punctuation are where otherwise-fast typists lose the most time, because practice usually means plain prose. A few rounds a week in numbers or quotes mode closes that gap quickly.
+Retaking immediately without reading the weak-key report. You rehearse the same errors and they set deeper. Read the report, drill the two worst keys, then retest.
+Practising in rare long sessions. Typing skill is motor memory, and motor memory consolidates with daily repetition. Ten focused minutes every day moves the score more than an occasional hour.
 
 ## A simple 7-day plan for a higher 1 minute score
 
@@ -90,6 +90,10 @@ There is a practical benefit for training too. Because a run costs only a minute
 A single number is not progress. Log the score, then use the typing practice plan for a week and retake the same length under the same conditions. If the score moves, keep the routine; if it stalls, the how to get better at typing guide explains which drill matches which bottleneck.
 
 If you are still looking at the keyboard while you type, the ceiling on this score is technique rather than finger speed: the home-row method behind touch typing is what lets a sixty-second round be read from the screen instead of copied from the keys.
+
+## About this page
+
+Last updated 2026-10-20. Written and maintained by the Typing.Rerivo team; scoring formulas, sources and corrections policy are documented on the about page.
 
 ## Typing test FAQ
 

@@ -36,6 +36,10 @@ Two numbers come out of a typing words per minute test and they are not intercha
 
 If your target is quoted in keystrokes rather than words - common for data entry and for exam scoring - measure it directly with the CPM typing test, which reports characters per minute and keystrokes per hour from the same round.
 
+## About this page
+
+Last updated 2026-10-20. Written and maintained by the Typing.Rerivo team; scoring formulas, sources and corrections policy are documented on the about page.
+
 ## Typing test FAQ
 
 ### What does a words-per-minute test measure?

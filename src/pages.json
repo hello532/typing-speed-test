@@ -79,9 +79,7 @@
     {
      "h2": "Five mistakes that cap your 1 minute score",
      "p": [
-      "The first is typing at panic speed: pushing past the point where your accuracy holds, then donating the gains back through corrections. The fix feels backwards but works — slow down five percent and the net score climbs. The second is looking at the keyboard. Every glance breaks rhythm and costs several words over sixty seconds; if you still need to look, spend a week on home-row drills before chasing speed.",
-      "The third is ignoring symbols. Digits and punctuation are where otherwise-fast typists hemorrhage time, because practice usually means plain prose. A few rounds a week in numbers or quotes mode closes that gap quickly. The fourth is retaking the test immediately without reading the weak-key report — you rehearse the same errors and they set deeper. Look at the report, drill the two worst keys, then retest.",
-      "The fifth is practising in rare long sessions. Skill in typing is motor memory, and motor memory consolidates with daily repetition. Ten focused minutes every day moves the score more than an occasional hour, and the daily run itself takes less time than making coffee."
+      "<ul><li><strong>Typing at panic speed.</strong> Pushing past the point where your accuracy holds, then donating the gains back through corrections. The fix feels backwards but works: slow down five percent and the net score climbs.</li><li><strong>Looking at the keyboard.</strong> Every glance breaks rhythm and costs several words over sixty seconds. If you still need to look, spend a week on home-row drills before chasing speed.</li><li><strong>Ignoring symbols.</strong> Digits and punctuation are where otherwise-fast typists lose the most time, because practice usually means plain prose. A few rounds a week in numbers or quotes mode closes that gap quickly.</li><li><strong>Retaking immediately without reading the weak-key report.</strong> You rehearse the same errors and they set deeper. Read the report, drill the two worst keys, then retest.</li><li><strong>Practising in rare long sessions.</strong> Typing skill is motor memory, and motor memory consolidates with daily repetition. Ten focused minutes every day moves the score more than an occasional hour.</li></ul>"
      ]
     },
     {
@@ -119,6 +117,12 @@
      "p": [
       "A single number is not progress. Log the score, then use the <a href=\"typing-practice.html\">typing practice plan</a> for a week and retake the same length under the same conditions. If the score moves, keep the routine; if it stalls, the <a href=\"how-to-get-better-at-typing.html\">how to get better at typing</a> guide explains which drill matches which bottleneck.",
       "If you are still looking at the keyboard while you type, the ceiling on this score is technique rather than finger speed: the <a href=\"https://en.wikipedia.org/wiki/Touch_typing\" rel=\"noopener\">home-row method behind touch typing</a> is what lets a sixty-second round be read from the screen instead of copied from the keys."
+     ]
+    },
+    {
+     "h2": "About this page",
+     "p": [
+      "Last updated 2026-10-20. Written and maintained by the Typing.Rerivo team; scoring formulas, sources and corrections policy are documented on the <a href=\"about.html\">about page</a>."
      ]
     }
    ],
@@ -2177,6 +2181,12 @@
       "Two numbers come out of a typing words per minute test and they are not interchangeable. Gross (raw) WPM counts every keystroke, including the ones you had to correct. Net WPM deducts those errors, which is why a fast, careless run can post a high raw score and still be the slower run. When a job application or a certificate asks for your speed, the figure they want is net WPM with accuracy reported next to it &mdash; anything under about 95 percent accuracy means the speed is not yet usable in real work.",
       "If your target is quoted in keystrokes rather than words &mdash; common for data entry and for exam scoring &mdash; measure it directly with the <a href=\"cpm-typing-test.html\">CPM typing test</a>, which reports characters per minute and keystrokes per hour from the same round."
      ]
+    },
+    {
+     "h2": "About this page",
+     "p": [
+      "Last updated 2026-10-20. Written and maintained by the Typing.Rerivo team; scoring formulas, sources and corrections policy are documented on the <a href=\"about.html\">about page</a>."
+     ]
     }
    ],
    "faqFirstOpen": true,
@@ -4191,6 +4201,12 @@
       "<ul><li><a href=\"https://en.wikipedia.org/wiki/Words_per_minute\" rel=\"noopener\">Words per minute</a> &mdash; the five-character word convention and the reference bands used on our benchmark pages.</li><li><a href=\"https://en.wikipedia.org/wiki/Touch_typing\" rel=\"noopener\">Touch typing</a> &mdash; the home-row method and its history, which underpins the finger charts and hand-position guides.</li><li><a href=\"https://en.wikipedia.org/wiki/Dvorak_keyboard_layout\" rel=\"noopener\">Dvorak keyboard layout</a> &mdash; the 1936 patent and layout design, used for the Dvorak practice page.</li><li><a href=\"https://en.wikipedia.org/wiki/Colemak\" rel=\"noopener\">Colemak</a> &mdash; the 2006 layout and its home-row share, used for the Colemak practice page.</li><li><a href=\"https://en.wikipedia.org/wiki/Numeric_keypad\" rel=\"noopener\">Numeric keypad</a> &mdash; the ten-key layout behind the ten key and number typing tests.</li><li><a href=\"https://www.onetonline.org/link/summary/43-9021.00\" rel=\"noopener\">O*NET 43-9021.00, Data Entry Keyers</a> &mdash; the occupational profile we point to when describing data entry job requirements.</li></ul>",
       "Benchmarks that come from commercial assessment vendors are linked with <code>rel=\"nofollow\"</code> because we are not endorsing their paid tests; the free references above carry ordinary links."
      ]
+    },
+    {
+     "h2": "About this page",
+     "p": [
+      "Last updated 2026-10-20. This page documents the methodology behind every benchmark on the site."
+     ]
     }
    ],
    "faqH2": "About FAQ",
@@ -4467,6 +4483,12 @@
      "h2": "Why characters are the more portable unit",
      "p": [
       "The five-character word is a convention, not a measurement: <a href=\"https://en.wikipedia.org/wiki/Words_per_minute\" rel=\"noopener\">words per minute</a> standardises a word to five characters including spaces and punctuation precisely so that different passages produce comparable numbers. Character counts skip the convention entirely, which is why a CPM score travels across languages and across numeric keypad work, where the <a href=\"https://en.wikipedia.org/wiki/Numeric_keypad\" rel=\"noopener\">numeric keypad</a> contributes most of the keystrokes."
+     ]
+    },
+    {
+     "h2": "About this page",
+     "p": [
+      "Last updated 2026-10-20. Written and maintained by the Typing.Rerivo team; scoring formulas, sources and corrections policy are documented on the <a href=\"about.html\">about page</a>."
      ]
     }
    ],
