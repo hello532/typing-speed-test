@@ -851,6 +851,26 @@
    "status": "submitted",
    "date": "2026-10-20",
    "note": "替换冲突的 PR#7；基于 upstream master rebase，+2/-0，mergeable。目标页 1-minute + programmer-practice"
+  },
+  {
+   "name": "GitHub PR #1204 — awesome-remote-job (49.7k★)",
+   "url": "https://github.com/lukasz-madon/awesome-remote-job/pull/1204",
+   "kind": "awesome-list-pr",
+   "dofollow": "yes",
+   "dr": null,
+   "status": "submitted",
+   "date": "2026-10-20",
+   "note": "最高价值目标（49,719★）。Tools > Others 区，+1/-0 mergeable。切入点：data entry/transcription/support 是远程岗位且打字速度是明确招聘项"
+  },
+  {
+   "name": "GitHub fork 推送踩坑（记录）",
+   "url": "https://github.com/lukasz-madon/awesome-remote-job/pull/1204",
+   "kind": "note",
+   "dofollow": null,
+   "dr": null,
+   "status": "skipped",
+   "date": "2026-10-20",
+   "note": "gh repo fork --clone 得到的是「fork 自己的 master」而非 upstream master；直接改再 push 会把整文件换行/内容 diff 成 +634/-633。正确做法：git fetch upstream master && git reset --hard upstream/master 再改。"
   }
  ]
 }
