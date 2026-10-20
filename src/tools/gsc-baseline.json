@@ -1,12 +1,12 @@
 {
- "captured": "2026-10-14",
- "note": "Round-7 起点（服务账号获 GSC 完整权限当日）。growth 子命令以此为对比基线。",
+ "captured": "2026-10-19",
+ "note": "Round-17/18 结束后重置（E-E-A-T + 描述去重 + 品牌词 + 外链）。此前所有改动已上线，仍无排名改善——pos 仍 60+。下一轮 growth 以此对比。",
  "days": 28,
- "clicks": 4,
- "impressions": 1197,
- "ctr": 0.0033,
- "position": 56.6,
- "indexed": 23,
- "not_indexed": 13,
- "not_indexed_reasons": {"crawled_not_indexed": 11, "discovered_not_indexed": 2}
+ "clicks": 5,
+ "impressions": 2253,
+ "ctr": 0.002219,
+ "position": 61.2,
+ "indexed": null,
+ "not_indexed": null,
+ "context": "GSC 793 impr(43%) 在 pos 51-100；pos<=20 合计仅 25 impr。位置而非 CTR 是瓶颈。"
 }
