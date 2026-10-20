@@ -1,6 +1,6 @@
 {
  "site": "https://typing.rerivo.com",
- "updated": "2026-10-13",
+ "updated": "2026-10-20",
  "directories": [
   {
    "name": "IndexNow (Bing/Yandex/Seznam/Naver)",
@@ -28,9 +28,9 @@
    "kind": "awesome-list-pr",
    "dofollow": "yes",
    "dr": null,
-   "status": "submitted",
-   "date": "2026-10-12",
-   "note": "打字测试 webapp 清单，主站+程序员练习页 2 条"
+   "status": "skipped",
+   "date": "2026-10-20",
+   "note": "PR#7 分支落后 master 无法合并 → 已关闭，改为 PR#10（rebase 后 +2/-0，mergeable），2026-10-20"
   },
   {
    "name": "Launch Llama",
@@ -841,6 +841,16 @@
    "status": "candidate",
    "date": "2026-10-17",
    "note": "R9 本地化分发；草稿 ops-r6/ 人审后人工发"
+  },
+  {
+   "name": "GitHub PR #10 — Awesome-keyboard-typing (rebase)",
+   "url": "https://github.com/osufiles/Awesome-keyboard-typing/pull/10",
+   "kind": "awesome-list-pr",
+   "dofollow": "yes",
+   "dr": null,
+   "status": "submitted",
+   "date": "2026-10-20",
+   "note": "替换冲突的 PR#7；基于 upstream master rebase，+2/-0，mergeable。目标页 1-minute + programmer-practice"
   }
  ]
 }

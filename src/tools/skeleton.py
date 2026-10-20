@@ -13,6 +13,7 @@
   {{TITLE}} {{DESC}} {{KEYWORDS}} {{CANONICAL}} {{OG}} {{TW}}   —— head 元信息（TDK）
   {{ALT}}      —— hreflang alternate 引用
   {{HEADJS}}   —— 首屏主题/语言内联脚本
+  {{HLANG}}    —— <html lang/dir>（RTL 语种页需要 dir="rtl"）
   {{NAV}}      —— 顶栏导航链接
   {{CRUMBS}}   —— 面包屑
   {{HERO}}     —— H1 + 导语
@@ -39,6 +40,7 @@ _RULES = [
     # 首屏内联脚本（主题/语言 + 可选页面语言）
     (re.compile(r"<script>try\{var _t=localStorage.*?</script>", re.S), "<script>{{HEADJS}}</script>"),
     # TDK / 社交元信息
+    (re.compile(r'<html lang="[^"]*"(?: dir="[^"]*")?>'), '<html lang="{{HLANG}}">'),
     (re.compile(r"<title>.*?</title>", re.S), "<title>{{TITLE}}</title>"),
     (re.compile(r'<meta name="description" content=".*?">', re.S), '<meta name="description" content="{{DESC}}">'),
     (re.compile(r'<meta name="keywords" content=".*?">', re.S), '<meta name="keywords" content="{{KEYWORDS}}">'),

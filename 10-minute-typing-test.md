@@ -59,6 +59,16 @@ Short tests dominate hiring screens, but the long formats show up wherever the j
 
 If your target role involves continuous typing, your ten-minute score matters more than your one-minute best — and the typing speed requirements table shows which roles weight endurance heavily. Practise the format you will be tested on: the 5 minute typing test is the natural stepping stone if ten minutes still breaks you today.
 
+## Taking a ten minute typing test online
+
+This ten minute typing test runs the full 600 seconds in the browser with no sign-up and no round limit, so you can repeat it as often as you like and keep every result in your own local history. Ten minutes is long enough that pacing, posture and fatigue decide the score more than raw finger speed does, which makes it the honest format for testing whether a speed you hit in one minute survives real work.
+
+Use it as an endurance check rather than a daily drill: one ten minute run after a warm-up, compared against your own one minute result from the same week. A gap of 5 to 15 percent below your short-round speed is normal. A gap wider than that is a posture or tension problem, not a speed problem, and the fix is a slower pace with relaxed wrists rather than more force.
+
+## Why the five-character word matters for endurance scores
+
+Long rounds are only comparable if the unit is fixed. This test scores every five characters as one word, the convention documented for words per minute, so a ten minute result can be set against a one minute result from any other test that uses the same rule. Change the unit and the drop you are measuring stops being fatigue - it becomes an artefact of the formula.
+
 ## 10 minute typing test FAQ
 
 ### Will I slow down over 10 minutes?

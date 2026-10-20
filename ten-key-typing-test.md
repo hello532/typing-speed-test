@@ -34,6 +34,10 @@ The top number row and the numeric keypad use completely different muscle memory
 
 If you need both, warm up with this 10 key typing test and then check your general speed on the number typing test or the main typing speed test.
 
+## Keystrokes, characters and words are three units
+
+Numeric keypad work is usually scored in keystrokes per hour, but the same minute of typing can be read three ways: keystrokes per hour, characters per minute, and the five-character words per minute used by general typing tests. Because digits and operators are single characters, ten key speeds look far higher in KPH than the same effort looks in WPM - convert before comparing yourself with anyone quoting a different unit.
+
 ## 10 key typing FAQ
 
 ### What is a 10 key typing test?

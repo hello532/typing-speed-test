@@ -89,6 +89,8 @@ There is a practical benefit for training too. Because a run costs only a minute
 
 A single number is not progress. Log the score, then use the typing practice plan for a week and retake the same length under the same conditions. If the score moves, keep the routine; if it stalls, the how to get better at typing guide explains which drill matches which bottleneck.
 
+If you are still looking at the keyboard while you type, the ceiling on this score is technique rather than finger speed: the home-row method behind touch typing is what lets a sixty-second round be read from the screen instead of copied from the keys.
+
 ## Typing test FAQ
 
 ### What is a 1 minute typing test?

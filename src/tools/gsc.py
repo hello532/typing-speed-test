@@ -40,6 +40,8 @@ SITE = "https://typing.rerivo.com/"
 SITEMAP = "https://typing.rerivo.com/sitemap.xml"
 DEFAULT_CRED = Path.home() / ".config" / "google-seo-mcp" / "kinx-seo-credentials.json"
 DEFAULT_CA = Path.home() / ".config" / "google-seo-mcp" / "ca" / "surge-all.pem"
+# 与 ~/.config/google-seo-mcp/gseo.sh 一致：未显式设置代理时，若本地 Surge 在听就用它
+DEFAULT_PROXY = "http://127.0.0.1:6152"
 SCOPES = "https://www.googleapis.com/auth/webmasters.readonly"
 API = "https://www.googleapis.com/webmasters/v3"
 BASELINE = Path(__file__).resolve().parent / "gsc-baseline.json"
@@ -55,12 +57,46 @@ def cred_path() -> Path:
 
 
 def build_ctx() -> ssl.SSLContext:
+    """系统根证书 + 本地代理 MITM 根证书（追加，不替换）。
+
+    旧实现在 ca 存在时用 cafile= 传入，等于**替换**系统信任库：一旦该 PEM 不含
+    公网根证书（或本地代理未接管），对 googleapis 的校验必然失败。改为先加载
+    系统默认信任，再把代理根证书作为额外信任来源叠加。
+    """
+    ctx = ssl.create_default_context()
     ca = Path(os.environ.get("GSC_CA") or DEFAULT_CA)
-    ctx = ssl.create_default_context(cafile=str(ca) if ca.exists() else None)
-    # 本地代理的 MITM 根证书缺 AKI，被 3.13+ 的严格模式拒收
+    if ca.exists():
+        try:
+            ctx.load_verify_locations(cafile=str(ca))
+        except ssl.SSLError:
+            pass
     if hasattr(ssl, "VERIFY_X509_STRICT"):
         ctx.verify_flags &= ~ssl.VERIFY_X509_STRICT
     return ctx
+
+
+def _proxy() -> str | None:
+    explicit = (os.environ.get("https_proxy") or os.environ.get("HTTPS_PROXY")
+                or os.environ.get("ALL_PROXY") or os.environ.get("all_proxy"))
+    if explicit:
+        return None if explicit.lower() in ("none", "off") else explicit
+    if os.environ.get("GSC_NOPROXY"):
+        return None
+    import socket
+    try:
+        with socket.create_connection(("127.0.0.1", 6152), timeout=0.6):
+            return DEFAULT_PROXY
+    except OSError:
+        return None
+
+
+def _opener() -> urllib.request.OpenerDirector:
+    """走环境代理（或在听着的本地 Surge），无代理则直连。"""
+    handlers = [urllib.request.HTTPSHandler(context=build_ctx())]
+    proxy = _proxy()
+    if proxy:
+        handlers.append(urllib.request.ProxyHandler({"http": proxy, "https": proxy}))
+    return urllib.request.build_opener(*handlers)
 
 
 def _b64(o: dict) -> str:
@@ -93,7 +129,7 @@ def get_token(cred: dict) -> str:
         "assertion": sign_jwt(cred)}).encode()
     req = urllib.request.Request(cred["token_uri"], data=data,
                                  headers={"Content-Type": "application/x-www-form-urlencoded"})
-    with urllib.request.urlopen(req, timeout=30, context=build_ctx()) as r:
+    with _opener().open(req, timeout=30) as r:
         return json.load(r)["access_token"]
 
 
@@ -106,7 +142,7 @@ def api(path: str, token: str, body: dict | None = None, method: str | None = No
                                  headers={"Authorization": f"Bearer {token}",
                                           "Content-Type": "application/json"})
     try:
-        with urllib.request.urlopen(req, timeout=45, context=build_ctx()) as r:
+        with _opener().open(req, timeout=45) as r:
             raw = r.read().decode()
             return json.loads(raw) if raw.strip() else {}
     except urllib.error.HTTPError as e:

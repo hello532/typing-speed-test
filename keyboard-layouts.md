@@ -14,7 +14,7 @@ Dvorak | 1936 | 88 m (&minus;42%) | 71% | 3.2%
 Colemak | 2006 | 89 m (&minus;42%) | 73% | 1.5%
 Workman | 2010 | 84 m (&minus;45%) | 67% | 2.0%
 
-*Modeled finger travel for the same 5,847-character English passage on a standard keyboard, with the share of letters typed without leaving the home row and the share of consecutive keys pressed by the same finger. Figures from the Typing Cat layout comparison lab; they are estimates of movement, not measured typing speeds.
+Home-row share and same-finger figures below are modelled from a fixed English passage. For the documented history and design intent of each layout, see keyboard layout, Dvorak keyboard layout (patented 1936) and Colemak (released 2006, 74% of typing on the home row against 32% for QWERTY).
 
 ## Which keyboard layout is best?
 

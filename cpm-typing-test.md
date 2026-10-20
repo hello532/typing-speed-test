@@ -93,6 +93,16 @@ Characters never have this problem. A keystroke is a keystroke in every script a
 
 The same logic applies to accuracy. One mistyped character costs exactly one character of net score whether it sits in English prose, a Hindi conjunct or a line of figures — so the accuracy habits that raise your CPM transfer to every script you type.
 
+## CPM test: take a characters-per-minute test in one minute
+
+A CPM test scores the same one-minute round as a WPM test, but reports characters instead of words - which is why CPM appears roughly five times larger than the equivalent WPM figure. Take the test above, type for sixty seconds, and the result panel shows characters per minute, words per minute and accuracy side by side so you never have to convert by hand.
+
+CPM is the fairer unit when your language or your work is not English prose. WPM depends on an arbitrary five-character word, so scripts that write without spaces, and data entry that is mostly digits and symbols, produce WPM numbers that cannot be compared across languages. Character counts have no such convention: 200 CPM means 200 characters typed correctly, in Tokyo, Berlin or Bangalore alike.
+
+## Why characters are the more portable unit
+
+The five-character word is a convention, not a measurement: words per minute standardises a word to five characters including spaces and punctuation precisely so that different passages produce comparable numbers. Character counts skip the convention entirely, which is why a CPM score travels across languages and across numeric keypad work, where the numeric keypad contributes most of the keystrokes.
+
 ## Typing test FAQ
 
 ### What does CPM mean in typing?
@@ -118,3 +128,7 @@ Neither is better &mdash; they measure the same thing on different scales (CPM =
 ### Does this site count errors in CPM?
 
 Yes. The headline CPM is a net figure with errors deducted, so it matches what an employer measures. Your raw keystroke rate is shown separately, and the gap between the two tells you whether to push speed or accuracy.
+
+### Is a CPM test the same as a WPM test?
+
+It is the same one-minute test reported in different units. CPM counts every correct character; WPM divides that count by five and by the elapsed minutes. A 300 CPM result equals 60 WPM, so neither number is more accurate &mdash; only differently scaled.

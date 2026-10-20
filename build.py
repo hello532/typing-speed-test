@@ -43,6 +43,17 @@ ORG_OBJ = {"@context": "https://schema.org", "@type": "Organization",
 SITE_OBJ = {"@context": "https://schema.org", "@type": "WebSite",
             "name": "Rerivo Typing Speed Test", "url": SITE + "/"}
 
+# ── E-E-A-T（r17）：可核验的作者/发布者实体，全站同一（→ 不破坏骨架唯一）──
+# 只用真实存在的实体：Rerivo 站 + 它自己的 about 页。不要编造人名、资历或机构。
+ORG_ID = SITE + "/#organization"
+AUTHOR_OBJ = {"@type": "Organization", "@id": ORG_ID, "name": "Typing.Rerivo",
+              "url": SITE + "/about.html"}
+AUTHOR_BOX = (
+    '<p class="byline">By <a href="about.html">the Typing.Rerivo team</a> &mdash; '
+    'we build and maintain this typing test. Scoring formulas and the benchmarks used on our pages '
+    'are documented in the methodology notes on our <a href="about.html">about page</a>, along with the '
+    'sources we cite. </p>')
+
 
 def esc_attr(s):
     """属性值转义：& → &amp;（原文 <title> 保留裸 &，故 title 不走这里）。"""
@@ -103,6 +114,8 @@ def build_seo(page):
                 parts.append(f"    {p}")
             else:
                 parts.append(f"    <p>{p}</p>")
+    # E-E-A-T：可见署名 + 方法说明入口（全站同一字符串 → 落在 {{SEO}} 槽内，骨架不变）
+    parts.append("    " + AUTHOR_BOX)
     parts.append("  </section>")
     return "\n".join(parts)
 
@@ -136,6 +149,8 @@ def build_jsonld(page, cfg):
     wa = {"@context": wa["@context"], "@type": wa["@type"], "name": wa["name"], "url": wa["url"],
           "applicationCategory": wa["applicationCategory"], "operatingSystem": wa["operatingSystem"],
           "description": cfg["webAppDesc"], "offers": wa["offers"], "featureList": wa["featureList"],
+          # E-E-A-T：作者/发布者（Organization 实体，指向 about 页）
+          "author": AUTHOR_OBJ, "publisher": AUTHOR_OBJ,
           "datePublished": "2026-10-01", "dateModified": "2026-10-14"}
     faq = {"@context": "https://schema.org", "@type": "FAQPage",
            "mainEntity": [{"@type": "Question", "name": f["q"],
@@ -186,7 +201,6 @@ def render(page, cfg, tpl, css, engine, head_snippet, footer, result, variants, 
     pl = page.get("lang")
     if pl:
         hs = hs + "\nwindow.__trPageLang=" + json.dumps(pl) + ";"
-
     title = page["title"]
     desc = page["metaDesc"]
     # hreflang 聚类：只有 alts:true 的语种落地页互相声明 alternate（含 x-default），
@@ -225,6 +239,12 @@ def render(page, cfg, tpl, css, engine, head_snippet, footer, result, variants, 
         **build_chips(page),
     }
     out = tpl
+    # r17 语言信号：12 个非英语语言落地页静态声明 <html lang> + dir（RTL 为 ar/ur）。
+    # 此前全站一律 lang="en"，但这些页是**英语本地化搜索落地页**（标题/正文为英文，
+    # 只有练习池是目标语），所以标成 ja/ar 会把语言信号与可见内容搞反——仍保持 en。
+    # 真正修的是方向：阿拉伯语/乌尔都语练习文本需要 RTL 渲染，由 dir 静态声明。
+    if pl in ("ar", "ur"):
+        out = out.replace('<html lang="en">', '<html lang="en" dir="rtl">', 1)
     for k, v in subs.items():
         out = out.replace(k, v)
     left = sorted(set(re.findall(r"\{\{[A-Z0-9_]+\}\}", out)))

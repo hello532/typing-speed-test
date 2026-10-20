@@ -53,6 +53,14 @@ Three minutes is the shortest length that still shows endurance decay; five minu
 
 For daily practice, the 2 minute typing test is easier to repeat. Reserve the three-minute round for weekly measurement so the number stays comparable.
 
+## Moving between test lengths
+
+Length changes what a score means. A sixty-second round is the format schools, employers and certificates quote most, so it is the number to keep as your baseline: the 1 minute typing test is the reference point every other duration on this site is compared against. Longer rounds then measure how much of that baseline survives, and shorter rounds measure how quickly you can reach it cold.
+
+## How this round is scored
+
+Each round scores correct characters using the five-character word convention described for words per minute: five characters, spaces and punctuation included, count as one word. A clean round also reports accuracy next to net WPM, because the two numbers answer different questions - how fast your fingers move, and how much of that speed survived contact with the keyboard.
+
 ## 3 minute typing test FAQ
 
 ### Why do employers use 3 minute typing tests?

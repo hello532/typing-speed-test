@@ -20,6 +20,19 @@ The text you type never leaves your browser, and there is no server-side scoring
 
 Questions, corrections to a practice text, or ideas for the next typing drill are welcome at hello@rerivo.com. If you would like the site in your language, that is the fastest way to make it happen. What we store and why is set out in the privacy policy.
 
+## Sources and standards we use
+
+Where a page on this site makes a factual claim about typing speed, the claim traces to one of these references. We cite them so you can check the numbers rather than trust a test page.
+
+Words per minute - the five-character word convention and the reference bands used on our benchmark pages.
+Touch typing - the home-row method and its history, which underpins the finger charts and hand-position guides.
+Dvorak keyboard layout - the 1936 patent and layout design, used for the Dvorak practice page.
+Colemak - the 2006 layout and its home-row share, used for the Colemak practice page.
+Numeric keypad - the ten-key layout behind the ten key and number typing tests.
+O*NET 43-9021.00, Data Entry Keyers - the occupational profile we point to when describing data entry job requirements.
+
+Benchmarks that come from commercial assessment vendors are linked with rel="nofollow" because we are not endorsing their paid tests; the free references above carry ordinary links.
+
 ## About FAQ
 
 ### Is Typing.Rerivo really free?
@@ -37,3 +50,11 @@ Thirty nine timed and themed variants across eight languages, plus timed modes f
 ### Can I suggest a feature or a language?
 
 Yes, email hello@rerivo.com. Several existing pages started as a single request.
+
+### Where do the speed benchmarks on this site come from?
+
+From the five-character WPM convention documented for words per minute, plus public occupational profiles such as O*NET 43-9021.00 for data entry roles. Every benchmark page links its source, and the full list sits in the Sources and standards section of this page.
+
+### Who writes and maintains this site?
+
+The site is built and maintained by the Typing.Rerivo team, which is the author declared in the structured data on every page. Contact is hello@rerivo.com; corrections to practice texts are welcome and are usually fixed in the next build.

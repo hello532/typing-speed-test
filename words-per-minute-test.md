@@ -28,6 +28,14 @@ CPM means characters per minute. Some sites show CPM instead of WPM. Because one
 
 Prefer characters per minute? Try the CPM typing test, where CPM = WPM &times; 5.
 
+## Typing words per minute test: what the number means
+
+A typing words per minute test reports one number for one minute of typing, using a convention rather than a literal word count: every five characters typed counts as one word, whether those characters formed short words, long words, numbers or punctuation. The Wikipedia entry for words per minute documents the same five-character standard and the reference bands that most tests still quote: professional typists sit around 43 to 80 WPM, and advanced typists go above 120 WPM.
+
+Two numbers come out of a typing words per minute test and they are not interchangeable. Gross (raw) WPM counts every keystroke, including the ones you had to correct. Net WPM deducts those errors, which is why a fast, careless run can post a high raw score and still be the slower run. When a job application or a certificate asks for your speed, the figure they want is net WPM with accuracy reported next to it - anything under about 95 percent accuracy means the speed is not yet usable in real work.
+
+If your target is quoted in keystrokes rather than words - common for data entry and for exam scoring - measure it directly with the CPM typing test, which reports characters per minute and keystrokes per hour from the same round.
+
 ## Typing test FAQ
 
 ### What does a words-per-minute test measure?
@@ -57,3 +65,7 @@ It is a timed typing test that reports your speed in words per minute. You type 
 ### How many words per minute should I type?
 
 Most adults land between 40 and 60 WPM. Office and writing roles usually ask for 60 to 80, data entry and transcription posts 80-plus, and 90 to 120 is professional territory. Anything under 30 WPM is a beginner still building touch typing foundations. Check the average typing speed bands before judging a single round.
+
+### What is a typing words per minute test?
+
+A typing words per minute test measures how many five-character words you type correctly in sixty seconds. Every five keystrokes count as one word regardless of real word length, so the score stays comparable across different passages. Net WPM deducts errors and is the figure to quote; raw WPM ignores them.

@@ -54,6 +54,7 @@ That comparability is why schools, employers and typing benchmarks settled on th
 There is a practical benefit for training too. Because a run costs only a minute, it survives as a habit: before work, after lunch, between tasks. Skill in typing compounds through exactly that kind of frequent, measurable repetition, and no other duration makes measurement this cheap.
 ## What to do after a one minute test
 A single number is not progress. Log the score, then use the typing practice plan for a week and retake the same length under the same conditions. If the score moves, keep the routine; if it stalls, the how to get better at typing guide explains which drill matches which bottleneck.
+If you are still looking at the keyboard while you type, the ceiling on this score is technique rather than finger speed: the home-row method behind touch typing is what lets a sixty-second round be read from the screen instead of copied from the keys.
 ## Typing test FAQ
 A 60-second timed round: type the passage shown for exactly one minute, then get your WPM, accuracy and error breakdown instantly. One minute is the most-quoted test length, so scores compare directly across sites and job requirements.
 Correct characters divided by 5, divided by the one elapsed minute. Because the test lasts exactly sixty seconds the maths is simple: 300 correct characters equals 60 WPM. The results panel shows both raw WPM and net WPM with errors subtracted.
@@ -86,6 +87,10 @@ Open slightly under your target speed and let the first sentence calibrate you. 
 If you want a stricter reading of the same two minutes, switch the text mode to quotes: capitals and punctuation are where accuracy quietly leaks away, and the result screen will show it.
 ## 2 minute typing test for employment
 Two-minute formats appear in clerical and customer-service screening because they fit inside a short interview slot. The format that matters is unfamiliar text, one take, and an accuracy floor of 95%. Practise with a passage you have not seen and resist the urge to retake — employers do not offer one. The typing test for jobs page lists the common thresholds by role.
+## Moving between test lengths
+Length changes what a score means. A sixty-second round is the format schools, employers and certificates quote most, so it is the number to keep as your baseline: the 1 minute typing test is the reference point every other duration on this site is compared against. Longer rounds then measure how much of that baseline survives, and shorter rounds measure how quickly you can reach it cold.
+## How this round is scored
+Each round scores correct characters using the five-character word convention described for words per minute: five characters, spaces and punctuation included, count as one word. A clean round also reports accuracy next to net WPM, because the two numbers answer different questions - how fast your fingers move, and how much of that speed survived contact with the keyboard.
 ## Typing test FAQ
 Exactly 120 seconds. When the timer runs out your WPM, accuracy, characters per minute and error count appear instantly.
 Around 40 WPM is average, 60+ is good and 80+ is professional. Accuracy above 95% is just as important as raw speed.
@@ -112,6 +117,9 @@ Speed decay - the WPM you hold at minute four is your working speed. Warm-up spe
 Accuracy drift - watch whether accuracy falls over time. If it does, slow down rather than push.
 Rhythm breaks - long pauses cluster around punctuation and capitals, which is where drills pay off most.
 Best practice once you have a baseline: run 1 minute typing tests daily for speed, and a 5 minute round weekly to confirm the speed is sustainable.
+## Where the five-character rule comes from
+Every five-minute score on this page uses the standard five-character word, the same convention summarised by words per minute: a word is five characters, including spaces and punctuation. That is what makes a five minute result comparable with a one minute result taken on a different site - and what makes the endurance drop between the two formats measurable at all.
+If you need to know how the speed holds over a real work session rather than a five-minute block, the 10 minute typing test stretches the same measurement to the point where fatigue, posture and pacing dominate the score.
 ## Typing test FAQ
 Yes. Longer tests average out short bursts of speed and moments of fatigue, so a 5 minute result is more stable and representative of your true typing speed than a 15 or 60 second test.
 40 WPM is average, 60+ WPM is good, and 80+ WPM is professional level. Maintaining high accuracy over 5 minutes matters more than peak speed.
@@ -561,6 +569,10 @@ Compare yourself properly on the average typing speed benchmarks, broken down by
 ## WPM vs CPM
 CPM means characters per minute. Some sites show CPM instead of WPM. Because one word equals five characters, you can convert easily: WPM = CPM / 5. This test shows you both numbers on the result panel so you can compare with any other typing test.
 Prefer characters per minute? Try the CPM typing test, where CPM = WPM &times; 5.
+## Typing words per minute test: what the number means
+A typing words per minute test reports one number for one minute of typing, using a convention rather than a literal word count: every five characters typed counts as one word, whether those characters formed short words, long words, numbers or punctuation. The Wikipedia entry for words per minute documents the same five-character standard and the reference bands that most tests still quote: professional typists sit around 43 to 80 WPM, and advanced typists go above 120 WPM.
+Two numbers come out of a typing words per minute test and they are not interchangeable. Gross (raw) WPM counts every keystroke, including the ones you had to correct. Net WPM deducts those errors, which is why a fast, careless run can post a high raw score and still be the slower run. When a job application or a certificate asks for your speed, the figure they want is net WPM with accuracy reported next to it - anything under about 95 percent accuracy means the speed is not yet usable in real work.
+If your target is quoted in keystrokes rather than words - common for data entry and for exam scoring - measure it directly with the CPM typing test, which reports characters per minute and keystrokes per hour from the same round.
 ## Typing test FAQ
 It converts everything you type into a WPM score using the 5-characters-per-word standard, alongside accuracy and error counts. This page runs the test at 60 seconds, the standard length employers quote.
 WPM = (correct characters ÷ 5) ÷ minutes elapsed. The industry standard treats every 5 characters as one word, so longer words count more. Raw WPM ignores errors, while net WPM subtracts them.
@@ -569,6 +581,7 @@ Yes. Unlimited free WPM tests with no sign up and no ads in the typing area; res
 Push accuracy above 95% first — errors hurt net WPM twice, once in speed and once in the penalty. Then build speed with daily practice rounds and retest weekly.
 It is a timed typing test that reports your speed in words per minute. You type for 60 seconds (or another length), the test divides your correct characters by five to get words, then divides by the elapsed minutes. A 300-character round is 60 WPM.
 Most adults land between 40 and 60 WPM. Office and writing roles usually ask for 60 to 80, data entry and transcription posts 80-plus, and 90 to 120 is professional territory. Anything under 30 WPM is a beginner still building touch typing foundations. Check the average typing speed bands before judging a single round.
+A typing words per minute test measures how many five-character words you type correctly in sixty seconds. Every five keystrokes count as one word regardless of real word length, so the score stays comparable across different passages. Net WPM deducts errors and is the figure to quote; raw WPM ignores them.
 
 ## WPM Test Online
 Source: https://typing.rerivo.com/wpm-test-online.html
@@ -647,6 +660,10 @@ The government typing test and bank typing test pages cover the specific gates u
 ## 3 minute vs 5 minute vs 10 minute
 Three minutes is the shortest length that still shows endurance decay; five minutes makes the decay obvious; ten minutes is a transcription-grade stamina test. If your 5 minute typing test score sits more than 8 WPM below your three-minute score, stamina is the bottleneck — train it with weekly long rounds rather than daily short ones.
 For daily practice, the 2 minute typing test is easier to repeat. Reserve the three-minute round for weekly measurement so the number stays comparable.
+## Moving between test lengths
+Length changes what a score means. A sixty-second round is the format schools, employers and certificates quote most, so it is the number to keep as your baseline: the 1 minute typing test is the reference point every other duration on this site is compared against. Longer rounds then measure how much of that baseline survives, and shorter rounds measure how quickly you can reach it cold.
+## How this round is scored
+Each round scores correct characters using the five-character word convention described for words per minute: five characters, spaces and punctuation included, count as one word. A clean round also reports accuracy next to net WPM, because the two numbers answer different questions - how fast your fingers move, and how much of that speed survived contact with the keyboard.
 ## 3 minute typing test FAQ
 Three minutes is long enough to reflect sustained real-world typing speed yet short enough for screening, so many hiring tests use a 3-5 minute window.
 Most data entry and transcription roles ask for 40-60 WPM with 90% or higher accuracy; specialised roles may want 70+ WPM.
@@ -690,6 +707,11 @@ Two supporting habits matter more than extra rounds. Posture checks at minute fi
 ## When employers and exams use long tests
 Short tests dominate hiring screens, but the long formats show up wherever the job itself is long: transcription and captioning assessments (sustained audio work), data-entry simulations for volume roles, and court or administrative exams in several countries that set five-to-ten-minute passages specifically to measure endurance.
 If your target role involves continuous typing, your ten-minute score matters more than your one-minute best — and the typing speed requirements table shows which roles weight endurance heavily. Practise the format you will be tested on: the 5 minute typing test is the natural stepping stone if ten minutes still breaks you today.
+## Taking a ten minute typing test online
+This ten minute typing test runs the full 600 seconds in the browser with no sign-up and no round limit, so you can repeat it as often as you like and keep every result in your own local history. Ten minutes is long enough that pacing, posture and fatigue decide the score more than raw finger speed does, which makes it the honest format for testing whether a speed you hit in one minute survives real work.
+Use it as an endurance check rather than a daily drill: one ten minute run after a warm-up, compared against your own one minute result from the same week. A gap of 5 to 15 percent below your short-round speed is normal. A gap wider than that is a posture or tension problem, not a speed problem, and the fix is a slower pace with relaxed wrists rather than more force.
+## Why the five-character word matters for endurance scores
+Long rounds are only comparable if the unit is fixed. This test scores every five characters as one word, the convention documented for words per minute, so a ten minute result can be set against a one minute result from any other test that uses the same rule. Change the unit and the drop you are measuring stops being fatigue - it becomes an artefact of the formula.
 ## 10 minute typing test FAQ
 Most people type 5-15% slower by the end of a 10 minute test as fatigue sets in. Pacing yourself and staying relaxed helps limit the drop.
 It measures something different: endurance and consistency rather than peak speed. A 1 minute test shows your top speed; a 10 minute test shows what you can sustain.
@@ -1023,11 +1045,22 @@ WPM uses the industry standard of five characters per word, counted from correct
 The text you type never leaves your browser, and there is no server-side scoring because there is no need for one: JavaScript on this page does all of it.
 ## Contact
 Questions, corrections to a practice text, or ideas for the next typing drill are welcome at hello@rerivo.com. If you would like the site in your language, that is the fastest way to make it happen. What we store and why is set out in the privacy policy.
+## Sources and standards we use
+Where a page on this site makes a factual claim about typing speed, the claim traces to one of these references. We cite them so you can check the numbers rather than trust a test page.
+Words per minute - the five-character word convention and the reference bands used on our benchmark pages.
+Touch typing - the home-row method and its history, which underpins the finger charts and hand-position guides.
+Dvorak keyboard layout - the 1936 patent and layout design, used for the Dvorak practice page.
+Colemak - the 2006 layout and its home-row share, used for the Colemak practice page.
+Numeric keypad - the ten-key layout behind the ten key and number typing tests.
+O*NET 43-9021.00, Data Entry Keyers - the occupational profile we point to when describing data entry job requirements.
+Benchmarks that come from commercial assessment vendors are linked with rel="nofollow" because we are not endorsing their paid tests; the free references above carry ordinary links.
 ## About FAQ
 Yes, completely free with no account, no paywall and no advertising on the test pages.
 A small independent project. The source code is public on GitHub at github.com/hello532/typing-speed-test.
 Thirty nine timed and themed variants across eight languages, plus timed modes from 15 seconds to 10 minutes on every page.
 Yes, email hello@rerivo.com. Several existing pages started as a single request.
+From the five-character WPM convention documented for words per minute, plus public occupational profiles such as O*NET 43-9021.00 for data entry roles. Every benchmark page links its source, and the full list sits in the Sources and standards section of this page.
+The site is built and maintained by the Typing.Rerivo team, which is the author declared in the structured data on every page. Contact is hello@rerivo.com; corrections to practice texts are welcome and are usually fixed in the next build.
 
 ## Average Typing Speed
 Source: https://typing.rerivo.com/average-typing-speed.html
@@ -1062,7 +1095,7 @@ Data entry | 60-80 WPM | 98%+
 Medical transcription | 65-75 WPM | 98%+
 Executive assistant | 70-80 WPM | 98%+
 Legal secretary / paralegal | 70-90 WPM | 99%+
-Benchmarks compiled from occupational typing data published by Wonderlic and TypingTest.now (2025-2026). Actual requirements vary by employer, test length, text and keyboard.
+Benchmarks in these tables follow the five-character word convention documented for words per minute, cross-checked against occupational typing data. Actual requirements vary by employer, test software and scoring rule, so treat the bands as a starting point for practice rather than a guarantee of any specific job threshold.
 Want your own number? Take the typing speed test, measure it in characters per minute, or see the speeds employers require for jobs.
 ## How to type faster than average
 If you are below the speed you want, the fastest way up is touch typing: use all ten fingers from the home row (ASDF JKL;) without looking at the keyboard. Prioritise accuracy over speed, practise 10–15 minutes a day, and keep your wrists relaxed. Most people add 10–20 WPM within a few weeks of daily practice.
@@ -1134,6 +1167,11 @@ If you type in more than one language, CPM is also the only fair cross-language 
 Words are a comfortable unit in English, but they get slippery elsewhere. Japanese and Chinese text has no spaces between words, so a 'word count' depends on a segmentation algorithm, not anything a typist can see. Agglutinative languages like Turkish or Finnish pack whole phrases into single long words, pushing WPM down even when finger speed is high. Code and data files invert the problem: brackets, operators and digits are dense with keystrokes but sparse with 'words'.
 Characters never have this problem. A keystroke is a keystroke in every script and every file type, which is why CPM travels where WPM cannot: comparing your speed across languages, across prose and numbers, or across a week that mixed emails with spreadsheets. If you work in more than one language, CPM is the only scoreboard that treats them all fairly.
 The same logic applies to accuracy. One mistyped character costs exactly one character of net score whether it sits in English prose, a Hindi conjunct or a line of figures — so the accuracy habits that raise your CPM transfer to every script you type.
+## CPM test: take a characters-per-minute test in one minute
+A CPM test scores the same one-minute round as a WPM test, but reports characters instead of words - which is why CPM appears roughly five times larger than the equivalent WPM figure. Take the test above, type for sixty seconds, and the result panel shows characters per minute, words per minute and accuracy side by side so you never have to convert by hand.
+CPM is the fairer unit when your language or your work is not English prose. WPM depends on an arbitrary five-character word, so scripts that write without spaces, and data entry that is mostly digits and symbols, produce WPM numbers that cannot be compared across languages. Character counts have no such convention: 200 CPM means 200 characters typed correctly, in Tokyo, Berlin or Bangalore alike.
+## Why characters are the more portable unit
+The five-character word is a convention, not a measurement: words per minute standardises a word to five characters including spaces and punctuation precisely so that different passages produce comparable numbers. Character counts skip the convention entirely, which is why a CPM score travels across languages and across numeric keypad work, where the numeric keypad contributes most of the keystrokes.
 ## Typing test FAQ
 CPM stands for characters per minute - the number of correct characters you type in one minute, counting letters, numbers, spaces and symbols. It is a finer-grained measure of typing speed than WPM.
 Divide CPM by 5, because a word is defined as five characters. So 300 CPM equals 60 WPM and 200 CPM equals 40 WPM. To go the other way, WPM × 5 = CPM.
@@ -1141,6 +1179,7 @@ The average adult types about 200 CPM (40 WPM). A good CPM is 250–300 (50–60
 Numeric data entry is done on the number keypad where whole words do not apply, so speed is measured in characters (or keystrokes) per minute. Employers commonly ask for at least 165 CPM with 95%+ accuracy.
 Neither is better - they measure the same thing on different scales (CPM = WPM × 5). WPM is the standard for prose typing; CPM is more common for numeric and data-entry work.
 Yes. The headline CPM is a net figure with errors deducted, so it matches what an employer measures. Your raw keystroke rate is shown separately, and the gap between the two tells you whether to push speed or accuracy.
+It is the same one-minute test reported in different units. CPM counts every correct character; WPM divides that count by five and by the elapsed minutes. A 300 CPM result equals 60 WPM, so neither number is more accurate - only differently scaled.
 
 ## Typing Test for Kids
 Source: https://typing.rerivo.com/typing-test-for-kids.html
@@ -1272,7 +1311,7 @@ QWERTY | 1870s | 153 m (baseline) | 36% | 7.9%
 Dvorak | 1936 | 88 m (&minus;42%) | 71% | 3.2%
 Colemak | 2006 | 89 m (&minus;42%) | 73% | 1.5%
 Workman | 2010 | 84 m (&minus;45%) | 67% | 2.0%
-*Modeled finger travel for the same 5,847-character English passage on a standard keyboard, with the share of letters typed without leaving the home row and the share of consecutive keys pressed by the same finger. Figures from the Typing Cat layout comparison lab; they are estimates of movement, not measured typing speeds.
+Home-row share and same-finger figures below are modelled from a fixed English passage. For the documented history and design intent of each layout, see keyboard layout, Dvorak keyboard layout (patented 1936) and Colemak (released 2006, 74% of typing on the home row against 32% for QWERTY).
 ## Which keyboard layout is best?
 There is no single best layout, because less finger movement is not the same as faster typing. QWERTY wins on familiarity: it is on every shared computer and every shortcut assumes it. Dvorak alternates hands the most (about 67% of keystrokes), which many typists find rhythmic for long English prose. Colemak keeps the most letters on the home row (73%) and the fewest awkward same-finger presses (1.5%) while leaving Z, X, C, V and most shortcuts in place, so it is the usual pick for QWERTY users who want to switch. Workman trims total finger travel the most by also minimising sideways stretches.
 For almost everyone, practice and accuracy move your WPM far more than the layout does. A fast QWERTY typist will beat a beginner on any layout. Switch for comfort and reduced finger travel, not for a guaranteed speed jump.
@@ -1313,6 +1352,8 @@ This test reports your characters per minute live; multiply by 60 to get an appr
 ## Why practise the number pad separately?
 The top number row and the numeric keypad use completely different muscle memory. Typing letters fast does not make you fast at the number pad, and many people lose a data entry job interview on the 10 key portion alone. Practising the numpad on its own trains the right hand to hit 0-9 and the decimal point without a single glance at the keyboard.
 If you need both, warm up with this 10 key typing test and then check your general speed on the number typing test or the main typing speed test.
+## Keystrokes, characters and words are three units
+Numeric keypad work is usually scored in keystrokes per hour, but the same minute of typing can be read three ways: keystrokes per hour, characters per minute, and the five-character words per minute used by general typing tests. Because digits and operators are single characters, ten key speeds look far higher in KPH than the same effort looks in WPM - convert before comparing yourself with anyone quoting a different unit.
 ## 10 key typing FAQ
 A 10 key typing test measures how quickly you type on the numeric keypad (the number pad on the right of a full-size keyboard) using your right hand, keeping the fingers anchored on the 4, 5 and 6 keys.
 For data entry work, aim for at least 8,000 keystrokes per hour (about 133 characters per minute). Experienced operators reach 12,000 to 15,000 KPH with 99% accuracy or better.
@@ -1372,6 +1413,8 @@ Job postings for data entry and clerical work often ask for 8,000-10,000 KPH wit
 Divide by 300: WPM = KPH ÷ 300, so a 10,000 KPH posting is asking for about 33 WPM. For the complete table of KPH, CPM and WPM requirements by job and exam, see typing speed requirements by job and exam.
 ## Where KPH scores lead
 Put your KPH to work: online typing jobs that quote KPH, and data entry job requirements by the numbers.
+## Keystrokes, characters and words are three units
+Numeric keypad work is usually scored in keystrokes per hour, but the same minute of typing can be read three ways: keystrokes per hour, characters per minute, and the five-character words per minute used by general typing tests. Because digits and operators are single characters, ten key speeds look far higher in KPH than the same effort looks in WPM - convert before comparing yourself with anyone quoting a different unit.
 ## Keystrokes per hour FAQ
 For data entry work, 8,000 to 10,000 KPH is the usual requirement, and fast operators reach 12,000 to 15,000 KPH with 99% accuracy. General office roles often accept lower KPH because typing is only part of the job.
 WPM = KPH ÷ 300. Because 1 word is 5 characters and there are 60 minutes in an hour, 60 WPM equals 18,000 KPH.
@@ -1610,6 +1653,8 @@ Careers and most online tests use one minute, so a 1-minute timed test is the st
 Without a clock it is easy to slow down on hard words or rest on your laurels. A timer forces an even rhythm and gives you a number you can compare week to week — the only way to know whether your practice is actually working.
 ## Beat your own clock
 Start shorter than you think you need: a 30-second timed test you finish cleanly teaches more than a 10-minute slog full of errors. Once you hold your accuracy above 97%, extend the duration and watch net speed stay flat — that is real progress.
+## Moving between test lengths
+Every duration on this page is the same engine with a different clock, which makes the lengths comparable to each other. Start at one minute, the format employers and certificates quote, then use the five minute test to see how much of that speed survives fatigue.
 ## Timed Typing Test FAQ
 A typing test where you type against a countdown clock for a set duration — usually 1, 2, 3, 5 or 10 minutes — and your speed is measured in words per minute.
 One minute is the most common, used by most online tests and employers. Career exams and government tests often use three to five minutes.

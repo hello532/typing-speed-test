@@ -20,6 +20,10 @@ Without a clock it is easy to slow down on hard words or rest on your laurels. A
 
 Start shorter than you think you need: a 30-second timed test you finish cleanly teaches more than a 10-minute slog full of errors. Once you hold your accuracy above 97%, extend the duration and watch net speed stay flat — that is real progress.
 
+## Moving between test lengths
+
+Every duration on this page is the same engine with a different clock, which makes the lengths comparable to each other. Start at one minute, the format employers and certificates quote, then use the five minute test to see how much of that speed survives fatigue.
+
 ## Timed Typing Test FAQ
 
 ### What is a timed typing test?

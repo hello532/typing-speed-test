@@ -34,6 +34,10 @@ Divide by 300: WPM = KPH ÷ 300, so a 10,000 KPH posting is asking for about 33 
 
 Put your KPH to work: online typing jobs that quote KPH, and data entry job requirements by the numbers.
 
+## Keystrokes, characters and words are three units
+
+Numeric keypad work is usually scored in keystrokes per hour, but the same minute of typing can be read three ways: keystrokes per hour, characters per minute, and the five-character words per minute used by general typing tests. Because digits and operators are single characters, ten key speeds look far higher in KPH than the same effort looks in WPM - convert before comparing yourself with anyone quoting a different unit.
+
 ## Keystrokes per hour FAQ
 
 ### What is a good keystrokes per hour score?

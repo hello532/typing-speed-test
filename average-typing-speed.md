@@ -41,7 +41,7 @@ Medical transcription | 65-75 WPM | 98%+
 Executive assistant | 70-80 WPM | 98%+
 Legal secretary / paralegal | 70-90 WPM | 99%+
 
-Benchmarks compiled from occupational typing data published by Wonderlic and TypingTest.now (2025-2026). Actual requirements vary by employer, test length, text and keyboard.
+Benchmarks in these tables follow the five-character word convention documented for words per minute, cross-checked against occupational typing data. Actual requirements vary by employer, test software and scoring rule, so treat the bands as a starting point for practice rather than a guarantee of any specific job threshold.
 
 Want your own number? Take the typing speed test, measure it in characters per minute, or see the speeds employers require for jobs.
 

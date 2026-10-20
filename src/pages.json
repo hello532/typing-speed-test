@@ -117,7 +117,8 @@
     {
      "h2": "What to do after a one minute test",
      "p": [
-      "A single number is not progress. Log the score, then use the <a href=\"typing-practice.html\">typing practice plan</a> for a week and retake the same length under the same conditions. If the score moves, keep the routine; if it stalls, the <a href=\"how-to-get-better-at-typing.html\">how to get better at typing</a> guide explains which drill matches which bottleneck."
+      "A single number is not progress. Log the score, then use the <a href=\"typing-practice.html\">typing practice plan</a> for a week and retake the same length under the same conditions. If the score moves, keep the routine; if it stalls, the <a href=\"how-to-get-better-at-typing.html\">how to get better at typing</a> guide explains which drill matches which bottleneck.",
+      "If you are still looking at the keyboard while you type, the ceiling on this score is technique rather than finger speed: the <a href=\"https://en.wikipedia.org/wiki/Touch_typing\" rel=\"noopener\">home-row method behind touch typing</a> is what lets a sixty-second round be read from the screen instead of copied from the keys."
      ]
     }
    ],
@@ -240,6 +241,18 @@
      "p": [
       "Two-minute formats appear in clerical and customer-service screening because they fit inside a short interview slot. The format that matters is unfamiliar text, one take, and an accuracy floor of 95%. Practise with a passage you have not seen and resist the urge to retake — employers do not offer one. The <a href=\"typing-test-for-jobs.html\">typing test for jobs</a> page lists the common thresholds by role."
      ]
+    },
+    {
+     "h2": "Moving between test lengths",
+     "p": [
+      "Length changes what a score means. A sixty-second round is the format schools, employers and certificates quote most, so it is the number to keep as your baseline: the <a href=\"1-minute-typing-test.html\">1 minute typing test</a> is the reference point every other duration on this site is compared against. Longer rounds then measure how much of that baseline survives, and shorter rounds measure how quickly you can reach it cold."
+     ]
+    },
+    {
+     "h2": "How this round is scored",
+     "p": [
+      "Each round scores correct characters using the five-character word convention described for <a href=\"https://en.wikipedia.org/wiki/Words_per_minute\" rel=\"noopener\">words per minute</a>: five characters, spaces and punctuation included, count as one word. A clean round also reports accuracy next to net WPM, because the two numbers answer different questions &mdash; how fast your fingers move, and how much of that speed survived contact with the keyboard."
+     ]
     }
    ],
    "faqFirstOpen": true,
@@ -344,6 +357,13 @@
       "<ul><li><strong>Speed decay</strong> - the WPM you hold at minute four is your working speed. Warm-up speed is not.</li><li><strong>Accuracy drift</strong> - watch whether accuracy falls over time. If it does, slow down rather than push.</li><li><strong>Rhythm breaks</strong> - long pauses cluster around punctuation and capitals, which is where drills pay off most.</li></ul>",
       "Best practice once you have a baseline: run <a href=\"1-minute-typing-test.html\">1 minute typing tests</a> daily for speed, and a 5 minute round weekly to confirm the speed is sustainable."
      ]
+    },
+    {
+     "h2": "Where the five-character rule comes from",
+     "p": [
+      "Every five-minute score on this page uses the standard five-character word, the same convention summarised by <a href=\"https://en.wikipedia.org/wiki/Words_per_minute\" rel=\"noopener\">words per minute</a>: a word is five characters, including spaces and punctuation. That is what makes a five minute result comparable with a one minute result taken on a different site &mdash; and what makes the endurance drop between the two formats measurable at all.",
+      "If you need to know how the speed holds over a real work session rather than a five-minute block, the <a href=\"10-minute-typing-test.html\">10 minute typing test</a> stretches the same measurement to the point where fatigue, posture and pacing dominate the score."
+     ]
     }
    ],
    "faqFirstOpen": true,
@@ -378,7 +398,8 @@
      "item": "https://typing.rerivo.com/5-minute-typing-test.html"
     }
    ],
-   "ldPretty": []
+   "ldPretty": [],
+   "tldr": "A 5 minute typing test measures sustained speed rather than a sprint: most people type 5 to 15 percent slower over five minutes than over one, and that gap is the number worth tracking. Five minutes is long enough for pacing and fatigue to show, short enough to repeat weekly. Run it after a one minute warm-up, keep wrists level, and compare the result with your own one minute score rather than with someone else's."
   },
   {
    "file": "capital-letter-typing-test.html",
@@ -2124,7 +2145,7 @@
     "Words Per Minute Test"
    ],
    "h1": "Words Per Minute Test",
-   "tldr": "Words per minute (WPM) is the standard unit of typing speed, defined as correct characters divided by 5 divided by minutes, so every 5 keystrokes count as one word regardless of actual word length. Net WPM subtracts errors while raw WPM ignores them; always quote net WPM with accuracy above 95 percent for an honest number. Typical benchmarks run 40 to 50 WPM for average adults, 60 to 80 for good office typists, 80 to 100 for the top 10 percent, and 100-plus for the top 1 percent. This free WPM test measures both figures instantly across 15 seconds to 10 minutes.",
+   "tldr": "Words per minute (WPM) is the standard unit of typing speed, defined as correct characters divided by 5 divided by minutes, so every 5 keystrokes count as one word regardless of actual word length. Net WPM subtracts errors while raw WPM ignores them; always quote net WPM with accuracy above 95 percent for an honest number. Typical benchmarks run 40 to 50 WPM for average adults, 60 to 80 for good office typists, 80 to 100 for the top 10 percent, and 100-plus for the top 1 percent. This free WPM test measures both figures instantly across 15 seconds to 10 minutes. A typing words per minute test reports net WPM, which deducts errors; quote it with accuracy beside it.",
    "heroP": "Measure your <strong>words per minute (WPM)</strong> with a free online speed test. Type for one minute or choose 15 seconds up to 10 minutes and get your WPM and accuracy instantly.",
    "seo": [
     {
@@ -2147,6 +2168,14 @@
      "p": [
       "CPM means characters per minute. Some sites show CPM instead of WPM. Because one word equals five characters, you can convert easily: WPM = CPM / 5. This test shows you both numbers on the result panel so you can compare with any other typing test.",
       "Prefer characters per minute? Try the <a href=\"cpm-typing-test.html\">CPM typing test</a>, where CPM = WPM &times; 5."
+     ]
+    },
+    {
+     "h2": "Typing words per minute test: what the number means",
+     "p": [
+      "A <strong>typing words per minute test</strong> reports one number for one minute of typing, using a convention rather than a literal word count: every five characters typed counts as one word, whether those characters formed short words, long words, numbers or punctuation. The Wikipedia entry for <a href=\"https://en.wikipedia.org/wiki/Words_per_minute\" rel=\"noopener\">words per minute</a> documents the same five-character standard and the reference bands that most tests still quote: professional typists sit around 43 to 80 WPM, and advanced typists go above 120 WPM.",
+      "Two numbers come out of a typing words per minute test and they are not interchangeable. Gross (raw) WPM counts every keystroke, including the ones you had to correct. Net WPM deducts those errors, which is why a fast, careless run can post a high raw score and still be the slower run. When a job application or a certificate asks for your speed, the figure they want is net WPM with accuracy reported next to it &mdash; anything under about 95 percent accuracy means the speed is not yet usable in real work.",
+      "If your target is quoted in keystrokes rather than words &mdash; common for data entry and for exam scoring &mdash; measure it directly with the <a href=\"cpm-typing-test.html\">CPM typing test</a>, which reports characters per minute and keystrokes per hour from the same round."
      ]
     }
    ],
@@ -2180,6 +2209,10 @@
     {
      "q": "How many words per minute should I type?",
      "a": "Most adults land between 40 and 60 WPM. Office and writing roles usually ask for 60 to 80, data entry and transcription posts 80-plus, and 90 to 120 is professional territory. Anything under 30 WPM is a beginner still building touch typing foundations. Check the <a href=\"average-typing-speed.html\">average typing speed</a> bands before judging a single round."
+    },
+    {
+     "q": "What is a typing words per minute test?",
+     "a": "A typing words per minute test measures how many five-character words you type correctly in sixty seconds. Every five keystrokes count as one word regardless of real word length, so the score stays comparable across different passages. Net WPM deducts errors and is the figure to quote; raw WPM ignores them."
     }
    ],
    "webAppName": "Typing Speed Test",
@@ -2485,6 +2518,18 @@
       "Three minutes is the shortest length that still shows endurance decay; five minutes makes the decay obvious; ten minutes is a transcription-grade stamina test. If your <a href=\"5-minute-typing-test.html\">5 minute typing test</a> score sits more than 8 WPM below your three-minute score, stamina is the bottleneck — train it with weekly long rounds rather than daily short ones.",
       "For daily practice, the <a href=\"2-minute-typing-test.html\">2 minute typing test</a> is easier to repeat. Reserve the three-minute round for weekly measurement so the number stays comparable."
      ]
+    },
+    {
+     "h2": "Moving between test lengths",
+     "p": [
+      "Length changes what a score means. A sixty-second round is the format schools, employers and certificates quote most, so it is the number to keep as your baseline: the <a href=\"1-minute-typing-test.html\">1 minute typing test</a> is the reference point every other duration on this site is compared against. Longer rounds then measure how much of that baseline survives, and shorter rounds measure how quickly you can reach it cold."
+     ]
+    },
+    {
+     "h2": "How this round is scored",
+     "p": [
+      "Each round scores correct characters using the five-character word convention described for <a href=\"https://en.wikipedia.org/wiki/Words_per_minute\" rel=\"noopener\">words per minute</a>: five characters, spaces and punctuation included, count as one word. A clean round also reports accuracy next to net WPM, because the two numbers answer different questions &mdash; how fast your fingers move, and how much of that speed survived contact with the keyboard."
+     ]
     }
    ],
    "faqFirstOpen": true,
@@ -2617,6 +2662,19 @@
       "Short tests dominate hiring screens, but the long formats show up wherever the job itself is long: transcription and captioning assessments (sustained audio work), data-entry simulations for volume roles, and court or administrative exams in several countries that set five-to-ten-minute passages specifically to measure endurance.",
       "If your target role involves continuous typing, your ten-minute score matters more than your one-minute best — and the <a href=\"typing-speed-requirements.html\">typing speed requirements</a> table shows which roles weight endurance heavily. Practise the format you will be tested on: the <a href=\"5-minute-typing-test.html\">5 minute typing test</a> is the natural stepping stone if ten minutes still breaks you today."
      ]
+    },
+    {
+     "h2": "Taking a ten minute typing test online",
+     "p": [
+      "This <strong>ten minute typing test</strong> runs the full 600 seconds in the browser with no sign-up and no round limit, so you can repeat it as often as you like and keep every result in your own local history. Ten minutes is long enough that pacing, posture and fatigue decide the score more than raw finger speed does, which makes it the honest format for testing whether a speed you hit in one minute survives real work.",
+      "Use it as an endurance check rather than a daily drill: one ten minute run after a warm-up, compared against your own one minute result from the same week. A gap of 5 to 15 percent below your short-round speed is normal. A gap wider than that is a posture or tension problem, not a speed problem, and the fix is a slower pace with relaxed wrists rather than more force."
+     ]
+    },
+    {
+     "h2": "Why the five-character word matters for endurance scores",
+     "p": [
+      "Long rounds are only comparable if the unit is fixed. This test scores every five characters as one word, the convention documented for <a href=\"https://en.wikipedia.org/wiki/Words_per_minute\" rel=\"noopener\">words per minute</a>, so a ten minute result can be set against a one minute result from any other test that uses the same rule. Change the unit and the drop you are measuring stops being fatigue &mdash; it becomes an artefact of the formula."
+     ]
     }
    ],
    "faqFirstOpen": true,
@@ -2660,7 +2718,7 @@
     }
    ],
    "ldPretty": [],
-   "tldr": "A 10 minute typing test measures endurance, not just speed: expect 5–15% below your one-minute score — that gap is your fatigue profile. The test has a shape: warm up in minutes 1–2, cruise 3–6, downshift 5% at the 7–8 fatigue wall, and finish clean. Train with one weekly long round and posture checks at minute five. Long formats appear in transcription, data-entry and administrative exams where sustained accuracy is the actual job."
+   "tldr": "A 10 minute typing test measures endurance, not just speed: expect 5–15% below your one-minute score — that gap is your fatigue profile. The test has a shape: warm up in minutes 1–2, cruise 3–6, downshift 5% at the 7–8 fatigue wall, and finish clean. Train with one weekly long round and posture checks at minute five. Long formats appear in transcription, data-entry and administrative exams where sustained accuracy is the actual job. Results save to your browser only, so you can repeat the ten minute round and compare against your own one minute score."
   },
   {
    "file": "chinese-typing-test.html",
@@ -4125,6 +4183,14 @@
      "p": [
       "Questions, corrections to a practice text, or ideas for the next typing drill are welcome at hello@rerivo.com. If you would like the site in your language, that is the fastest way to make it happen. What we store and why is set out in the <a href=\"privacy-policy.html\">privacy policy</a>."
      ]
+    },
+    {
+     "h2": "Sources and standards we use",
+     "p": [
+      "Where a page on this site makes a factual claim about typing speed, the claim traces to one of these references. We cite them so you can check the numbers rather than trust a test page.",
+      "<ul><li><a href=\"https://en.wikipedia.org/wiki/Words_per_minute\" rel=\"noopener\">Words per minute</a> &mdash; the five-character word convention and the reference bands used on our benchmark pages.</li><li><a href=\"https://en.wikipedia.org/wiki/Touch_typing\" rel=\"noopener\">Touch typing</a> &mdash; the home-row method and its history, which underpins the finger charts and hand-position guides.</li><li><a href=\"https://en.wikipedia.org/wiki/Dvorak_keyboard_layout\" rel=\"noopener\">Dvorak keyboard layout</a> &mdash; the 1936 patent and layout design, used for the Dvorak practice page.</li><li><a href=\"https://en.wikipedia.org/wiki/Colemak\" rel=\"noopener\">Colemak</a> &mdash; the 2006 layout and its home-row share, used for the Colemak practice page.</li><li><a href=\"https://en.wikipedia.org/wiki/Numeric_keypad\" rel=\"noopener\">Numeric keypad</a> &mdash; the ten-key layout behind the ten key and number typing tests.</li><li><a href=\"https://www.onetonline.org/link/summary/43-9021.00\" rel=\"noopener\">O*NET 43-9021.00, Data Entry Keyers</a> &mdash; the occupational profile we point to when describing data entry job requirements.</li></ul>",
+      "Benchmarks that come from commercial assessment vendors are linked with <code>rel=\"nofollow\"</code> because we are not endorsing their paid tests; the free references above carry ordinary links."
+     ]
     }
    ],
    "faqH2": "About FAQ",
@@ -4144,6 +4210,14 @@
     {
      "q": "Can I suggest a feature or a language?",
      "a": "Yes, email hello@rerivo.com. Several existing pages started as a single request."
+    },
+    {
+     "q": "Where do the speed benchmarks on this site come from?",
+     "a": "From the five-character WPM convention documented for words per minute, plus public occupational profiles such as O*NET 43-9021.00 for data entry roles. Every benchmark page links its source, and the full list sits in the Sources and standards section of this page."
+    },
+    {
+     "q": "Who writes and maintains this site?",
+     "a": "The site is built and maintained by the Typing.Rerivo team, which is the author declared in the structured data on every page. Contact is hello@rerivo.com; corrections to practice texts are welcome and are usually fixed in the next build."
     }
    ],
    "bcItems": [
@@ -4206,7 +4280,7 @@
      "p": [
       "Different jobs demand very different typing speeds. Roles where typing is the job &mdash; data entry, transcription, legal and executive support &mdash; expect well above average, while general office work is fine around 40–55 WPM. Accuracy usually matters as much as raw speed.",
       "<div class=\"tbl\"><table><thead><tr><th>Job / role</th><th>Typing speed expected</th><th>Typical accuracy</th></tr></thead><tbody><tr><td>General office work</td><td>40&ndash;55 WPM</td><td>95%+</td></tr><tr><td>Customer support / chat</td><td>50&ndash;65 WPM</td><td>97%+</td></tr><tr><td>Administrative assistant</td><td>50&ndash;70 WPM</td><td>97%+</td></tr><tr><td>Data entry</td><td>60&ndash;80 WPM</td><td>98%+</td></tr><tr><td>Medical transcription</td><td>65&ndash;75 WPM</td><td>98%+</td></tr><tr><td>Executive assistant</td><td>70&ndash;80 WPM</td><td>98%+</td></tr><tr><td>Legal secretary / paralegal</td><td>70&ndash;90 WPM</td><td>99%+</td></tr></tbody></table></div>",
-      "Benchmarks compiled from occupational typing data published by <a href=\"https://wonderlic.com/blog/assessments/skills/what-is-a-good-typing-speed-by-profession/\" rel=\"nofollow\">Wonderlic</a> and TypingTest.now (2025&ndash;2026). Actual requirements vary by employer, test length, text and keyboard.",
+      "Benchmarks in these tables follow the five-character word convention documented for <a href=\"https://en.wikipedia.org/wiki/Words_per_minute\" rel=\"noopener\">words per minute</a>, cross-checked against occupational typing data. Actual requirements vary by employer, test software and scoring rule, so treat the bands as a starting point for practice rather than a guarantee of any specific job threshold.",
       "Want your own number? Take the <a href=\"/\">typing speed test</a>, measure it in <a href=\"cpm-typing-test.html\">characters per minute</a>, or see the speeds <a href=\"typing-test-for-jobs.html\">employers require for jobs</a>."
      ]
     },
@@ -4381,6 +4455,19 @@
       "Characters never have this problem. A keystroke is a keystroke in every script and every file type, which is why CPM travels where WPM cannot: comparing your speed across languages, across prose and numbers, or across a week that mixed emails with spreadsheets. If you work in more than one language, CPM is the only scoreboard that treats them all fairly.",
       "The same logic applies to accuracy. One mistyped character costs exactly one character of net score whether it sits in English prose, a Hindi conjunct or a line of figures — so the accuracy habits that raise your CPM transfer to every script you type."
      ]
+    },
+    {
+     "h2": "CPM test: take a characters-per-minute test in one minute",
+     "p": [
+      "A <strong>CPM test</strong> scores the same one-minute round as a WPM test, but reports characters instead of words &mdash; which is why CPM appears roughly five times larger than the equivalent WPM figure. Take the test above, type for sixty seconds, and the result panel shows characters per minute, words per minute and accuracy side by side so you never have to convert by hand.",
+      "CPM is the fairer unit when your language or your work is not English prose. WPM depends on an arbitrary five-character word, so scripts that write without spaces, and data entry that is mostly digits and symbols, produce WPM numbers that cannot be compared across languages. Character counts have no such convention: 200 CPM means 200 characters typed correctly, in Tokyo, Berlin or Bangalore alike."
+     ]
+    },
+    {
+     "h2": "Why characters are the more portable unit",
+     "p": [
+      "The five-character word is a convention, not a measurement: <a href=\"https://en.wikipedia.org/wiki/Words_per_minute\" rel=\"noopener\">words per minute</a> standardises a word to five characters including spaces and punctuation precisely so that different passages produce comparable numbers. Character counts skip the convention entirely, which is why a CPM score travels across languages and across numeric keypad work, where the <a href=\"https://en.wikipedia.org/wiki/Numeric_keypad\" rel=\"noopener\">numeric keypad</a> contributes most of the keystrokes."
+     ]
     }
    ],
    "faqFirstOpen": true,
@@ -4409,6 +4496,10 @@
     {
      "q": "Does this site count errors in CPM?",
      "a": "Yes. The headline CPM is a net figure with errors deducted, so it matches what an employer measures. Your raw keystroke rate is shown separately, and the gap between the two tells you whether to push speed or accuracy."
+    },
+    {
+     "q": "Is a CPM test the same as a WPM test?",
+     "a": "It is the same one-minute test reported in different units. CPM counts every correct character; WPM divides that count by five and by the elapsed minutes. A 300 CPM result equals 60 WPM, so neither number is more accurate &mdash; only differently scaled."
     }
    ],
    "webAppName": "Typing Speed Test",
@@ -4919,7 +5010,7 @@
      "p": [
       "A <strong>keyboard layout</strong> is just the map of which letter sits under each key. QWERTY has been the default since the 1870s, but alternative layouts rearrange the letters so the most common ones sit on the home row, cutting finger travel. Here is how the four best-known layouts compare on the same English text.",
       "<div class=\"tbl\"><table><thead><tr><th>Layout</th><th>Introduced</th><th>Finger travel*</th><th>Home-row use</th><th>Same-finger</th></tr></thead><tbody><tr><td>QWERTY</td><td>1870s</td><td>153 m (baseline)</td><td>36%</td><td>7.9%</td></tr><tr><td>Dvorak</td><td>1936</td><td>88 m (&minus;42%)</td><td>71%</td><td>3.2%</td></tr><tr><td>Colemak</td><td>2006</td><td>89 m (&minus;42%)</td><td><strong>73%</strong></td><td><strong>1.5%</strong></td></tr><tr><td>Workman</td><td>2010</td><td><strong>84 m (&minus;45%)</strong></td><td>67%</td><td>2.0%</td></tr></tbody></table></div>",
-      "*Modeled finger travel for the same 5,847-character English passage on a standard keyboard, with the share of letters typed without leaving the home row and the share of consecutive keys pressed by the same finger. Figures from the <a href=\"https://thetypingcat.com/blog/qwerty-vs-dvorak-vs-colemak-vs-workman\" rel=\"nofollow\">Typing Cat layout comparison lab</a>; they are estimates of movement, not measured typing speeds."
+      "Home-row share and same-finger figures below are modelled from a fixed English passage. For the documented history and design intent of each layout, see <a href=\"https://en.wikipedia.org/wiki/Keyboard_layout\" rel=\"noopener\">keyboard layout</a>, <a href=\"https://en.wikipedia.org/wiki/Dvorak_keyboard_layout\" rel=\"noopener\">Dvorak keyboard layout</a> (patented 1936) and <a href=\"https://en.wikipedia.org/wiki/Colemak\" rel=\"noopener\">Colemak</a> (released 2006, 74% of typing on the home row against 32% for QWERTY)."
      ]
     },
     {
@@ -4989,7 +5080,8 @@
      "item": "https://typing.rerivo.com/keyboard-layouts.html"
     }
    ],
-   "ldPretty": []
+   "ldPretty": [],
+   "tldr": "Keyboard layouts trade finger travel against retraining cost. QWERTY puts about 32 percent of typing on the home row; Colemak puts about 74 percent there and Dvorak a little less, while keeping most shortcuts where your hands already expect them. Layout changes rarely beat consistent practice in the short term, so switch only if the travel figures matter more to you than the three to six weeks of slower typing a switch costs."
   },
   {
    "file": "ten-key-typing-test.html",
@@ -5047,6 +5139,12 @@
      "p": [
       "The top number row and the numeric keypad use completely different muscle memory. Typing letters fast does not make you fast at the number pad, and many people lose a data entry job interview on the 10 key portion alone. Practising the <strong>numpad</strong> on its own trains the right hand to hit 0&ndash;9 and the decimal point without a single glance at the keyboard.",
       "If you need both, warm up with this <strong>10 key typing test</strong> and then check your general speed on the <a href=\"number-typing-test.html\">number typing test</a> or the main <a href=\"/\">typing speed test</a>."
+     ]
+    },
+    {
+     "h2": "Keystrokes, characters and words are three units",
+     "p": [
+      "Numeric keypad work is usually scored in keystrokes per hour, but the same minute of typing can be read three ways: keystrokes per hour, <a href=\"cpm-typing-test.html\">characters per minute</a>, and the five-character words per minute used by general typing tests. Because digits and operators are single characters, ten key speeds look far higher in KPH than the same effort looks in WPM &mdash; convert before comparing yourself with anyone quoting a different unit."
      ]
     }
    ],
@@ -5252,6 +5350,12 @@
      "h2": "Where KPH scores lead",
      "p": [
       "Put your KPH to work: <a href=\"online-typing-jobs.html\">online typing jobs</a> that quote KPH, and <a href=\"data-entry-job-requirements.html\">data entry job requirements</a> by the numbers."
+     ]
+    },
+    {
+     "h2": "Keystrokes, characters and words are three units",
+     "p": [
+      "Numeric keypad work is usually scored in keystrokes per hour, but the same minute of typing can be read three ways: keystrokes per hour, <a href=\"cpm-typing-test.html\">characters per minute</a>, and the five-character words per minute used by general typing tests. Because digits and operators are single characters, ten key speeds look far higher in KPH than the same effort looks in WPM &mdash; convert before comparing yourself with anyone quoting a different unit."
      ]
     }
    ],
@@ -6163,6 +6267,12 @@
      "h2": "Beat your own clock",
      "p": [
       "Start shorter than you think you need: a 30-second timed test you finish cleanly teaches more than a 10-minute slog full of errors. Once you hold your accuracy above 97%, extend the duration and watch net speed stay flat — that is real progress."
+     ]
+    },
+    {
+     "h2": "Moving between test lengths",
+     "p": [
+      "Every duration on this page is the same engine with a different clock, which makes the lengths comparable to each other. Start at <a href=\"1-minute-typing-test.html\">one minute</a>, the format employers and certificates quote, then use the <a href=\"5-minute-typing-test.html\">five minute test</a> to see how much of that speed survives fatigue."
      ]
     }
    ],

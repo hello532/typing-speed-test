@@ -40,6 +40,14 @@ If you want a stricter reading of the same two minutes, switch the text mode to 
 
 Two-minute formats appear in clerical and customer-service screening because they fit inside a short interview slot. The format that matters is unfamiliar text, one take, and an accuracy floor of 95%. Practise with a passage you have not seen and resist the urge to retake — employers do not offer one. The typing test for jobs page lists the common thresholds by role.
 
+## Moving between test lengths
+
+Length changes what a score means. A sixty-second round is the format schools, employers and certificates quote most, so it is the number to keep as your baseline: the 1 minute typing test is the reference point every other duration on this site is compared against. Longer rounds then measure how much of that baseline survives, and shorter rounds measure how quickly you can reach it cold.
+
+## How this round is scored
+
+Each round scores correct characters using the five-character word convention described for words per minute: five characters, spaces and punctuation included, count as one word. A clean round also reports accuracy next to net WPM, because the two numbers answer different questions - how fast your fingers move, and how much of that speed survived contact with the keyboard.
+
 ## Typing test FAQ
 
 ### How long is a 2 minute typing test?

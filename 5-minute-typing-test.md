@@ -30,6 +30,12 @@ Rhythm breaks - long pauses cluster around punctuation and capitals, which is wh
 
 Best practice once you have a baseline: run 1 minute typing tests daily for speed, and a 5 minute round weekly to confirm the speed is sustainable.
 
+## Where the five-character rule comes from
+
+Every five-minute score on this page uses the standard five-character word, the same convention summarised by words per minute: a word is five characters, including spaces and punctuation. That is what makes a five minute result comparable with a one minute result taken on a different site - and what makes the endurance drop between the two formats measurable at all.
+
+If you need to know how the speed holds over a real work session rather than a five-minute block, the 10 minute typing test stretches the same measurement to the point where fatigue, posture and pacing dominate the score.
+
 ## Typing test FAQ
 
 ### Is a 5 minute typing test more accurate?
