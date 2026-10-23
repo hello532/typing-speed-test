@@ -6,7 +6,7 @@ The average typing speed is about 40 to 50 words per minute (WPM) with roughly 9
 
 ## What is the average typing speed?
 
-The average typing speed is about 40 to 50 words per minute (WPM) with roughly 92% accuracy - that is where most adults land without deliberate practice. A speed of 45–60 WPM is considered good, 60–80 WPM is above average, and only about 1% of people type faster than 100 WPM. The table below shows how typing speeds are usually classified.
+The average typing speed is about 52 words per minute (WPM) in the largest published sample of everyday typists, with a wide spread: the standard deviation is 20 WPM, so a large share of adults sit between 30 and 70. The familiar “40–50 WPM” band comes from older office-work benchmarks and still describes what many jobs ask for; it is a floor, not the middle. A speed of 45–60 WPM is considered good for office work, 60–80 WPM is above average, and roughly the top 10% clear 78 WPM. The table below shows the bands, and the sources section shows the study behind the headline number.
 
 Skill level | Speed (WPM) | What it means
 Beginner | Under 30 WPM | Still learning; hunt-and-peck on many keys
@@ -52,6 +52,12 @@ If you are below the speed you want, the fastest way up is touch typing: use all
 ## Benchmarks by age and goals
 
 See also: average typing speed by age from kids to seniors, how many words per minute is fast, and the fastest typing speed records ever measured.
+
+The headline figure on this page — a mean of about 52 WPM across a large sample of everyday typists — matches the largest published study of modern typing: Dhakal, Feit, Kristensson and Oulasvirta, Observations on Typing from 136 Million Keystrokes (CHI 2018), which recorded 136,857,600 keystrokes from 168,960 volunteers and reports a mean of 51.56 WPM (SD 20.2) and a mean uncorrected error rate of 1.17%. The full paper is open at doi.org/10.1145/3173574.3174220.
+
+That study also explains why the common “40–50 WPM” band understates the middle of the distribution: its sample is self-selected people who care about typing, and its mean sits above the office-work band that older textbook figures quote. Where this page gives a narrower band for a job or an age group, it is an estimate from the ranges those roles advertise, not a measured sample — and it is labelled as such.
+
+Two other sources shape the advice here. The claim that finger consistency and keypress preparation predict speed, rather than which finger presses which key, comes from Feit, Weir and Oulasvirta’s motion-capture work on 36 typists (CHI 2018, discussed alongside the dataset above). The historical claim that alternative layouts such as Dvorak produce only modest gains after retraining comes from the published layout comparisons summarised on our keyboard layouts page.
 
 ## Test yourself against these benchmarks
 

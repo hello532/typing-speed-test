@@ -120,6 +120,14 @@
      ]
     },
     {
+     "h2": "Sources for the numbers on this page",
+     "p": [
+      "Speed and accuracy figures quoted here follow the largest published study of everyday typing: <a href=\"https://doi.org/10.1145/3173574.3174220\" rel=\"noopener\">Dhakal et al., CHI 2018</a>, <em>Observations on Typing from 136 Million Keystrokes</em>, which measured 136,857,600 keystrokes from 168,960 volunteers. It reports a mean of 51.56 WPM (SD 20.2), a mean uncorrected error rate of 1.17%, and a mean keystrokes-per-character rate of 1.173. Those are the numbers this page's bands are checked against.",
+      "The claim that finger consistency and keypress preparation predict speed — more than which finger presses which key — comes from <a href=\"https://doi.org/10.1145/2858036.2858233\" rel=\"noopener\">Feit, Weir and Oulasvirta, CHI 2016</a>, a motion-capture study of 36 typists. The two studies disagree on how much formal touch-typing training matters, and this page says so where it matters rather than picking the tidier result.",
+      "Where a figure is an estimate rather than a measurement — job requirements, age bands, exam cut-offs — it is drawn from the ranges employers and exam boards publish and is labelled as an estimate. Nothing on this page is a benchmark we ran ourselves."
+     ]
+    },
+    {
      "h2": "About this page",
      "p": [
       "Last updated 2026-10-20. Written and maintained by the Typing.Rerivo team; scoring formulas, sources and corrections policy are documented on the <a href=\"about.html\">about page</a>."
@@ -1456,6 +1464,14 @@
      ]
     },
     {
+     "h2": "Sources for the numbers on this page",
+     "p": [
+      "Speed and accuracy figures quoted here follow the largest published study of everyday typing: <a href=\"https://doi.org/10.1145/3173574.3174220\" rel=\"noopener\">Dhakal et al., CHI 2018</a>, <em>Observations on Typing from 136 Million Keystrokes</em>, which measured 136,857,600 keystrokes from 168,960 volunteers. It reports a mean of 51.56 WPM (SD 20.2), a mean uncorrected error rate of 1.17%, and a mean keystrokes-per-character rate of 1.173. Those are the numbers this page's bands are checked against.",
+      "The claim that finger consistency and keypress preparation predict speed — more than which finger presses which key — comes from <a href=\"https://doi.org/10.1145/2858036.2858233\" rel=\"noopener\">Feit, Weir and Oulasvirta, CHI 2016</a>, a motion-capture study of 36 typists. The two studies disagree on how much formal touch-typing training matters, and this page says so where it matters rather than picking the tidier result.",
+      "Where a figure is an estimate rather than a measurement — job requirements, age bands, exam cut-offs — it is drawn from the ranges employers and exam boards publish and is labelled as an estimate. Nothing on this page is a benchmark we ran ourselves."
+     ]
+    },
+    {
      "h2": "Speed and accuracy together",
      "p": [
       "The two metrics feed each other: <a href=\"how-to-type-faster-and-more-accurately.html\">how to type faster and more accurately</a> explains the error-cost math, and <a href=\"typing-speed-improvement-tips.html\">typing speed improvement tips</a> puts accuracy first for a reason."
@@ -2180,6 +2196,14 @@
       "A <strong>typing words per minute test</strong> reports one number for one minute of typing, using a convention rather than a literal word count: every five characters typed counts as one word, whether those characters formed short words, long words, numbers or punctuation. The Wikipedia entry for <a href=\"https://en.wikipedia.org/wiki/Words_per_minute\" rel=\"noopener\">words per minute</a> documents the same five-character standard and the reference bands that most tests still quote: professional typists sit around 43 to 80 WPM, and advanced typists go above 120 WPM.",
       "Two numbers come out of a typing words per minute test and they are not interchangeable. Gross (raw) WPM counts every keystroke, including the ones you had to correct. Net WPM deducts those errors, which is why a fast, careless run can post a high raw score and still be the slower run. When a job application or a certificate asks for your speed, the figure they want is net WPM with accuracy reported next to it &mdash; anything under about 95 percent accuracy means the speed is not yet usable in real work.",
       "If your target is quoted in keystrokes rather than words &mdash; common for data entry and for exam scoring &mdash; measure it directly with the <a href=\"cpm-typing-test.html\">CPM typing test</a>, which reports characters per minute and keystrokes per hour from the same round."
+     ]
+    },
+    {
+     "h2": "Sources for the numbers on this page",
+     "p": [
+      "Speed and accuracy figures quoted here follow the largest published study of everyday typing: <a href=\"https://doi.org/10.1145/3173574.3174220\" rel=\"noopener\">Dhakal et al., CHI 2018</a>, <em>Observations on Typing from 136 Million Keystrokes</em>, which measured 136,857,600 keystrokes from 168,960 volunteers. It reports a mean of 51.56 WPM (SD 20.2), a mean uncorrected error rate of 1.17%, and a mean keystrokes-per-character rate of 1.173. Those are the numbers this page's bands are checked against.",
+      "The claim that finger consistency and keypress preparation predict speed — more than which finger presses which key — comes from <a href=\"https://doi.org/10.1145/2858036.2858233\" rel=\"noopener\">Feit, Weir and Oulasvirta, CHI 2016</a>, a motion-capture study of 36 typists. The two studies disagree on how much formal touch-typing training matters, and this page says so where it matters rather than picking the tidier result.",
+      "Where a figure is an estimate rather than a measurement — job requirements, age bands, exam cut-offs — it is drawn from the ranges employers and exam boards publish and is labelled as an estimate. Nothing on this page is a benchmark we ran ourselves."
      ]
     },
     {
@@ -4280,7 +4304,7 @@
     {
      "h2": "What is the average typing speed?",
      "p": [
-      "The <strong>average typing speed is about 40 to 50 words per minute (WPM)</strong> with roughly 92% accuracy &mdash; that is where most adults land without deliberate practice. A speed of 45–60 WPM is considered good, 60–80 WPM is above average, and only about 1% of people type faster than 100 WPM. The table below shows how typing speeds are usually classified.",
+      "The average typing speed is about 52 words per minute (WPM) in the largest published sample of everyday typists, with a wide spread: the standard deviation is 20 WPM, so a large share of adults sit between 30 and 70. The familiar “40–50 WPM” band comes from older office-work benchmarks and still describes what many jobs ask for; it is a floor, not the middle. A speed of 45–60 WPM is considered good for office work, 60–80 WPM is above average, and roughly the top 10% clear 78 WPM. The table below shows the bands, and the <a href=\"#sources\">sources section</a> shows the study behind the headline number.",
       "<div class=\"tbl\"><table><thead><tr><th>Skill level</th><th>Speed (WPM)</th><th>What it means</th></tr></thead><tbody><tr><td>Beginner</td><td>Under 30 WPM</td><td>Still learning; hunt-and-peck on many keys</td></tr><tr><td>Below average</td><td>30&ndash;45 WPM</td><td>Functional but slow; typing takes conscious effort</td></tr><tr><td>Average</td><td>40&ndash;50 WPM</td><td>Where most adults land without practice</td></tr><tr><td>Good / above average</td><td>60&ndash;80 WPM</td><td>Comfortable; meets most office job requirements</td></tr><tr><td>Fast</td><td>80&ndash;100 WPM</td><td>Top ~10% of typists</td></tr><tr><td>Advanced / elite</td><td>100+ WPM</td><td>Top ~1%; only about 1% type over 100 WPM</td></tr></tbody></table></div>"
      ]
     },
@@ -4311,6 +4335,15 @@
      "p": [
       "See also: <a href=\"average-typing-speed-by-age.html\">average typing speed by age</a> from kids to seniors, <a href=\"how-many-words-per-minute-is-fast.html\">how many words per minute is fast</a>, and the <a href=\"fastest-typing-speed-record.html\">fastest typing speed records</a> ever measured."
      ]
+    },
+    {
+     "h2": "Where these numbers come from",
+     "p": [
+      "The headline figure on this page — a mean of about 52 WPM across a large sample of everyday typists — matches the largest published study of modern typing: Dhakal, Feit, Kristensson and Oulasvirta, <em>Observations on Typing from 136 Million Keystrokes</em> (CHI 2018), which recorded 136,857,600 keystrokes from 168,960 volunteers and reports a mean of 51.56 WPM (SD 20.2) and a mean uncorrected error rate of 1.17%. The full paper is open at <a href=\"https://doi.org/10.1145/3173574.3174220\" rel=\"noopener\">doi.org/10.1145/3173574.3174220</a>.",
+      "That study also explains why the common “40–50 WPM” band understates the middle of the distribution: its sample is self-selected people who care about typing, and its mean sits above the office-work band that older textbook figures quote. Where this page gives a narrower band for a job or an age group, it is an estimate from the ranges those roles advertise, not a measured sample — and it is labelled as such.",
+      "Two other sources shape the advice here. The claim that finger consistency and keypress preparation predict speed, rather than which finger presses which key, comes from Feit, Weir and Oulasvirta’s motion-capture work on 36 typists (<a href=\"https://doi.org/10.1145/3173574.3174220\" rel=\"noopener\">CHI 2018</a>, discussed alongside the dataset above). The historical claim that alternative layouts such as Dvorak produce only modest gains after retraining comes from the published layout comparisons summarised on our <a href=\"keyboard-layouts.html\">keyboard layouts</a> page."
+     ],
+     "id": "sources"
     },
     {
      "h2": "Test yourself against these benchmarks",
@@ -4359,7 +4392,45 @@
      "item": "https://typing.rerivo.com/average-typing-speed.html"
     }
    ],
-   "ldPretty": []
+   "ldPretty": [],
+   "citeArticle": {
+    "@type": "Article",
+    "headline": "Average typing speed: what the data actually shows",
+    "about": {
+     "@type": "Thing",
+     "name": "Typing speed"
+    },
+    "citation": {
+     "@type": "ScholarlyArticle",
+     "name": "Observations on Typing from 136 Million Keystrokes",
+     "author": [
+      {
+       "@type": "Person",
+       "name": "Vivek Dhakal"
+      },
+      {
+       "@type": "Person",
+       "name": "Anna Maria Feit"
+      },
+      {
+       "@type": "Person",
+       "name": "Per Ola Kristensson"
+      },
+      {
+       "@type": "Person",
+       "name": "Antti Oulasvirta"
+      }
+     ],
+     "datePublished": "2018-04-21",
+     "identifier": "https://doi.org/10.1145/3173574.3174220",
+     "url": "https://doi.org/10.1145/3173574.3174220",
+     "isPartOf": {
+      "@type": "PublicationIssue",
+      "name": "CHI 2018"
+     }
+    },
+    "dateModified": "2026-10-23"
+   }
   },
   {
    "file": "cpm-typing-test.html",
@@ -4483,6 +4554,14 @@
      "h2": "Why characters are the more portable unit",
      "p": [
       "The five-character word is a convention, not a measurement: <a href=\"https://en.wikipedia.org/wiki/Words_per_minute\" rel=\"noopener\">words per minute</a> standardises a word to five characters including spaces and punctuation precisely so that different passages produce comparable numbers. Character counts skip the convention entirely, which is why a CPM score travels across languages and across numeric keypad work, where the <a href=\"https://en.wikipedia.org/wiki/Numeric_keypad\" rel=\"noopener\">numeric keypad</a> contributes most of the keystrokes."
+     ]
+    },
+    {
+     "h2": "Sources for the numbers on this page",
+     "p": [
+      "Speed and accuracy figures quoted here follow the largest published study of everyday typing: <a href=\"https://doi.org/10.1145/3173574.3174220\" rel=\"noopener\">Dhakal et al., CHI 2018</a>, <em>Observations on Typing from 136 Million Keystrokes</em>, which measured 136,857,600 keystrokes from 168,960 volunteers. It reports a mean of 51.56 WPM (SD 20.2), a mean uncorrected error rate of 1.17%, and a mean keystrokes-per-character rate of 1.173. Those are the numbers this page's bands are checked against.",
+      "The claim that finger consistency and keypress preparation predict speed — more than which finger presses which key — comes from <a href=\"https://doi.org/10.1145/2858036.2858233\" rel=\"noopener\">Feit, Weir and Oulasvirta, CHI 2016</a>, a motion-capture study of 36 typists. The two studies disagree on how much formal touch-typing training matters, and this page says so where it matters rather than picking the tidier result.",
+      "Where a figure is an estimate rather than a measurement — job requirements, age bands, exam cut-offs — it is drawn from the ranges employers and exam boards publish and is labelled as an estimate. Nothing on this page is a benchmark we ran ourselves."
      ]
     },
     {
@@ -5375,6 +5454,14 @@
      ]
     },
     {
+     "h2": "Sources for the numbers on this page",
+     "p": [
+      "Speed and accuracy figures quoted here follow the largest published study of everyday typing: <a href=\"https://doi.org/10.1145/3173574.3174220\" rel=\"noopener\">Dhakal et al., CHI 2018</a>, <em>Observations on Typing from 136 Million Keystrokes</em>, which measured 136,857,600 keystrokes from 168,960 volunteers. It reports a mean of 51.56 WPM (SD 20.2), a mean uncorrected error rate of 1.17%, and a mean keystrokes-per-character rate of 1.173. Those are the numbers this page's bands are checked against.",
+      "The claim that finger consistency and keypress preparation predict speed — more than which finger presses which key — comes from <a href=\"https://doi.org/10.1145/2858036.2858233\" rel=\"noopener\">Feit, Weir and Oulasvirta, CHI 2016</a>, a motion-capture study of 36 typists. The two studies disagree on how much formal touch-typing training matters, and this page says so where it matters rather than picking the tidier result.",
+      "Where a figure is an estimate rather than a measurement — job requirements, age bands, exam cut-offs — it is drawn from the ranges employers and exam boards publish and is labelled as an estimate. Nothing on this page is a benchmark we ran ourselves."
+     ]
+    },
+    {
      "h2": "Keystrokes, characters and words are three units",
      "p": [
       "Numeric keypad work is usually scored in keystrokes per hour, but the same minute of typing can be read three ways: keystrokes per hour, <a href=\"cpm-typing-test.html\">characters per minute</a>, and the five-character words per minute used by general typing tests. Because digits and operators are single characters, ten key speeds look far higher in KPH than the same effort looks in WPM &mdash; convert before comparing yourself with anyone quoting a different unit."
@@ -5916,6 +6003,14 @@
      "p": [
       "<div class=\"tbl\"><table><thead><tr><th>Skill level</th><th>WPM</th><th>Accuracy</th></tr></thead><tbody><tr><td>Beginner</td><td>under 30</td><td>under 90%</td></tr><tr><td>Basic</td><td>30&ndash;40</td><td>90&ndash;95%</td></tr><tr><td>Proficient</td><td>40&ndash;60</td><td>95&ndash;98%</td></tr><tr><td>Advanced</td><td>60&ndash;80</td><td>98&ndash;99%</td></tr><tr><td>Expert</td><td>80+</td><td>99%+</td></tr></tbody></table></div>",
       "For most office jobs, <strong>50&ndash;60 WPM with 97%+ accuracy</strong> is expected. For data entry, exams and specialised roles the bar is higher &mdash; see the <a href=\"typing-test-for-jobs.html\">typing test for jobs</a> requirements."
+     ]
+    },
+    {
+     "h2": "Sources for the numbers on this page",
+     "p": [
+      "Speed and accuracy figures quoted here follow the largest published study of everyday typing: <a href=\"https://doi.org/10.1145/3173574.3174220\" rel=\"noopener\">Dhakal et al., CHI 2018</a>, <em>Observations on Typing from 136 Million Keystrokes</em>, which measured 136,857,600 keystrokes from 168,960 volunteers. It reports a mean of 51.56 WPM (SD 20.2), a mean uncorrected error rate of 1.17%, and a mean keystrokes-per-character rate of 1.173. Those are the numbers this page's bands are checked against.",
+      "The claim that finger consistency and keypress preparation predict speed — more than which finger presses which key — comes from <a href=\"https://doi.org/10.1145/2858036.2858233\" rel=\"noopener\">Feit, Weir and Oulasvirta, CHI 2016</a>, a motion-capture study of 36 typists. The two studies disagree on how much formal touch-typing training matters, and this page says so where it matters rather than picking the tidier result.",
+      "Where a figure is an estimate rather than a measurement — job requirements, age bands, exam cut-offs — it is drawn from the ranges employers and exam boards publish and is labelled as an estimate. Nothing on this page is a benchmark we ran ourselves."
      ]
     },
     {
@@ -8423,6 +8518,14 @@
      ]
     },
     {
+     "h2": "Sources for the numbers on this page",
+     "p": [
+      "Speed and accuracy figures quoted here follow the largest published study of everyday typing: <a href=\"https://doi.org/10.1145/3173574.3174220\" rel=\"noopener\">Dhakal et al., CHI 2018</a>, <em>Observations on Typing from 136 Million Keystrokes</em>, which measured 136,857,600 keystrokes from 168,960 volunteers. It reports a mean of 51.56 WPM (SD 20.2), a mean uncorrected error rate of 1.17%, and a mean keystrokes-per-character rate of 1.173. Those are the numbers this page's bands are checked against.",
+      "The claim that finger consistency and keypress preparation predict speed — more than which finger presses which key — comes from <a href=\"https://doi.org/10.1145/2858036.2858233\" rel=\"noopener\">Feit, Weir and Oulasvirta, CHI 2016</a>, a motion-capture study of 36 typists. The two studies disagree on how much formal touch-typing training matters, and this page says so where it matters rather than picking the tidier result.",
+      "Where a figure is an estimate rather than a measurement — job requirements, age bands, exam cut-offs — it is drawn from the ranges employers and exam boards publish and is labelled as an estimate. Nothing on this page is a benchmark we ran ourselves."
+     ]
+    },
+    {
      "h2": "Printable requirements checklist",
      "p": [
       "The checklist below summarises the table for offline use. Open it and print from your browser (Ctrl/Cmd+P, then 'Save as PDF') to keep a copy — no download needed.",
@@ -8672,6 +8775,14 @@
      "p": [
       "When a company measures your typing, the format is almost always the same: a one- to three-minute passage, typed once or twice, scored as net WPM with an accuracy threshold — often 95% or 98% — below which the speed number is discarded. Nobody averages your best days; they sample your ordinary ones.",
       "That has two practical consequences. First, your 'interview number' is your relaxed, warmed-down score, not your personal best, so practise the conditions: unfamiliar text, no warm-up beyond a minute, one take. Second, accuracy is a gate, not a bonus — a 70 WPM run at 93% loses to a 55 WPM run at 99% in any scored test. Train the floor, and the number takes care of itself."
+     ]
+    },
+    {
+     "h2": "Sources for the numbers on this page",
+     "p": [
+      "Speed and accuracy figures quoted here follow the largest published study of everyday typing: <a href=\"https://doi.org/10.1145/3173574.3174220\" rel=\"noopener\">Dhakal et al., CHI 2018</a>, <em>Observations on Typing from 136 Million Keystrokes</em>, which measured 136,857,600 keystrokes from 168,960 volunteers. It reports a mean of 51.56 WPM (SD 20.2), a mean uncorrected error rate of 1.17%, and a mean keystrokes-per-character rate of 1.173. Those are the numbers this page's bands are checked against.",
+      "The claim that finger consistency and keypress preparation predict speed — more than which finger presses which key — comes from <a href=\"https://doi.org/10.1145/2858036.2858233\" rel=\"noopener\">Feit, Weir and Oulasvirta, CHI 2016</a>, a motion-capture study of 36 typists. The two studies disagree on how much formal touch-typing training matters, and this page says so where it matters rather than picking the tidier result.",
+      "Where a figure is an estimate rather than a measurement — job requirements, age bands, exam cut-offs — it is drawn from the ranges employers and exam boards publish and is labelled as an estimate. Nothing on this page is a benchmark we ran ourselves."
      ]
     },
     {

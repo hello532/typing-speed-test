@@ -21,6 +21,14 @@ Expert | 80+ | 99%+
 
 For most office jobs, 50-60 WPM with 97%+ accuracy is expected. For data entry, exams and specialised roles the bar is higher - see the typing test for jobs requirements.
 
+## Sources for the numbers on this page
+
+Speed and accuracy figures quoted here follow the largest published study of everyday typing: Dhakal et al., CHI 2018, Observations on Typing from 136 Million Keystrokes, which measured 136,857,600 keystrokes from 168,960 volunteers. It reports a mean of 51.56 WPM (SD 20.2), a mean uncorrected error rate of 1.17%, and a mean keystrokes-per-character rate of 1.173. Those are the numbers this page's bands are checked against.
+
+The claim that finger consistency and keypress preparation predict speed — more than which finger presses which key — comes from Feit, Weir and Oulasvirta, CHI 2016, a motion-capture study of 36 typists. The two studies disagree on how much formal touch-typing training matters, and this page says so where it matters rather than picking the tidier result.
+
+Where a figure is an estimate rather than a measurement — job requirements, age bands, exam cut-offs — it is drawn from the ranges employers and exam boards publish and is labelled as an estimate. Nothing on this page is a benchmark we ran ourselves.
+
 ## How to improve your typing skill score
 
 Improvement comes from accuracy first, speed second. Slow down until you can type a full minute without errors, keep the fingers on the home row, and look at the screen rather than the keyboard. Practise daily for ten to fifteen minutes, mixing a general typing practice run with a targeted accuracy test. Boost weak spots with the weak-key drill, and check your standing against the average typing speed.

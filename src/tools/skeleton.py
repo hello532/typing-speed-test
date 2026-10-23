@@ -64,6 +64,11 @@ _RULES = [
     (re.compile(r'<header class="top">.*?</header>', re.S), '<header class="top">{{NAV}}</header>'),
     (re.compile(r'<nav class="crumbs"[^>]*>.*?</nav>\n?', re.S), "{{CRUMBS}}\n"),
     (re.compile(r'<section class="hero">.*?</section>', re.S), '<section class="hero">{{HERO}}</section>'),
+    # Round-20: TL;DR moved out of the hero into its own block below the test.
+    # Declared as a slot because its content is per-page (and absent on 35 pages).
+    (re.compile(r'<div class="tldr-wrap">.*?</div>\n?', re.S), '{{TLDR}}\n'),
+    # Round-20: body-level related links, one block per page from its cluster.
+    (re.compile(r'<nav class="related"[^>]*>.*?</nav>\n?', re.S), '{{RELATED}}\n'),
     (re.compile(r'<section class="seo">.*?</section>\n?', re.S), '<section class="seo">{{SEO}}</section>\n'),
     (re.compile(r'<section class="seo faq">.*?</section>\n?', re.S), '<section class="seo faq">{{FAQ}}</section>\n'),
     (re.compile(r"<footer>.*?</footer>", re.S), "<footer>{{FOOT}}</footer>"),

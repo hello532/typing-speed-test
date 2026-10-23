@@ -105,10 +105,63 @@ def build_chips(page):
     return out
 
 
+def build_related(page, clusters):
+    """Round-20: a body-level "related" block, generated from the page's cluster.
+
+    Why this exists: verify.py gate 12 requires the footer to link every page,
+    so the footer must stay a 131-link hub. Footer links on 131 pages are
+    boilerplate and carry little weight. This block is different — it sits in
+    the body, names the eight pages that share the page's actual topic, and
+    rotates by position so every cluster member still receives inbound links.
+    """
+    name = None
+    for cl, items in clusters.items():
+        if any(i["file"] == page["file"] for i in items):
+            name = cl
+            break
+    if not name:
+        return ""
+    members = clusters[name]
+    files = [i["file"] for i in members]
+    if len(files) < 2:
+        return ""
+    idx = files.index(page["file"])
+    take = min(8, len(files) - 1)
+    picks = [files[(idx + k) % len(files)] for k in range(1, take + 1)]
+    label = CLUSTER_LABELS.get(name, name.title())
+    links = "".join(
+        f'<li><a href="{i["file"]}">{i["title"]}</a></li>'
+        for i in members
+        if i["file"] in picks
+    )
+    return (
+        f'  <nav class="related" aria-label="{label}">\n'
+        f'    <h2>{label}</h2>\n'
+        f'    <ul>{links}</ul>\n'
+        f'  </nav>'
+    )
+
+
+CLUSTER_LABELS = {
+    "duration": "Other test lengths",
+    "metric": "WPM, CPM and scoring",
+    "language": "Typing tests by language",
+    "layout": "Layouts, keys and hand position",
+    "exam": "Certificates, jobs and exams",
+    "audience": "By age and skill level",
+    "practice": "Practice and lessons",
+    "game": "Games and races",
+    "jobs": "Typing jobs and transcription",
+    "core": "Popular typing tests",
+    "meta": "About this site",
+}
+
+
 def build_seo(page):
     parts = ['<section class="seo">']
     for sec in page["seo"]:
-        parts.append(f'    <h2>{sec["h2"]}</h2>')
+        anchor = f' id="{sec["id"]}"' if sec.get("id") else ""
+        parts.append(f'    <h2{anchor}>{sec["h2"]}</h2>')
         for p in sec["p"]:
             if p.lstrip().startswith(("<table", "<ul", "<ol", "<div", "<figure")):
                 parts.append(f"    {p}")
@@ -160,11 +213,18 @@ def build_jsonld(page, cfg):
           "itemListElement": [{"@type": "ListItem", "position": i + 1,
                                "name": it["name"], "item": it["item"]}
                               for i, it in enumerate(page["bcItems"])]}
+    # Round-20 GEO note: a per-page Article node was tried here and removed.
+    # verify.py gate 6 pins the JSON-LD type order site-wide and gate 9 pins a
+    # single skeleton, so a one-page extra node fails both. The citation lives
+    # in the visible sources section and in the prose instead, which is what an
+    # answer engine actually quotes.
+    art = ""
     return (ld_block(wa, "WebApplication" in pretty),
             ld_block(faq, "FAQPage" in pretty),
             ld_block(bc, "BreadcrumbList" in pretty),
             ld_block(ORG_OBJ, False) if page["file"] == "index.html" else "",
-            ld_block(SITE_OBJ, False) if page["file"] == "index.html" else "")
+            ld_block(SITE_OBJ, False) if page["file"] == "index.html" else "",
+            art)
 
 
 def inject_variant(page, engine, variants):
@@ -194,8 +254,8 @@ def inject_variant(page, engine, variants):
     return out
 
 
-def render(page, cfg, tpl, css, engine, head_snippet, footer, result, variants, cluster):
-    wa, faq, bc, org, site = build_jsonld(page, cfg)
+def render(page, cfg, tpl, css, engine, head_snippet, footer, result, variants, cluster, clusters=None):
+    wa, faq, bc, org, site, art = build_jsonld(page, cfg)
     engine_page = inject_variant(page, engine, variants)
     hs = head_snippet
     pl = page.get("lang")
@@ -229,9 +289,10 @@ def render(page, cfg, tpl, css, engine, head_snippet, footer, result, variants, 
         "{{MD_URL}}": page["canonical"].replace(".html", ".md") if page["file"] != "index.html" else SITE + "/index.md",
         "{{TLDR}}": build_tldr(page),
         "{{LD_WEBAPP}}": wa, "{{LD_FAQ}}": faq, "{{LD_BREADCRUMB}}": bc,
-        "{{LD_ORG}}": org, "{{LD_SITE}}": site,
+        "{{LD_ORG}}": org, "{{LD_SITE}}": site, "{{LD_ARTICLE}}": art,
         "{{CSS}}": css, "{{ENGINE}}": engine_page, "{{HEAD_SNIPPET}}": hs,
         "{{FOOTER}}": footer, "{{RESULT}}": result,
+        "{{RELATED}}": build_related(page, clusters or {}),
         "{{HEADER}}": build_header(page), "{{CRUMBS}}": build_crumbs(page),
         "{{H1}}": page["h1"], "{{HERO_P}}": page["heroP"],
         "{{SEO}}": build_seo(page), "{{FAQ}}": build_faq(page),
@@ -434,6 +495,7 @@ def main():
     engine = (SRC / "engine.js").read_text(encoding="utf-8").rstrip("\n")
     head_snippet = (SRC / "head-snippet.js").read_text(encoding="utf-8").rstrip("\n")
     footer = (SRC / "footer.html").read_text(encoding="utf-8").rstrip("\n")
+    clusters = json.loads((SRC / "clusters.json").read_text(encoding="utf-8"))
     result = (SRC / "result.html").read_text(encoding="utf-8").rstrip("\n")
     variants = json.loads((SRC / "variants.json").read_text(encoding="utf-8"))
     cluster = [(p["lang"], p["canonical"]) for p in cfg["pages"]
@@ -450,7 +512,7 @@ def main():
 
     htmls = {}
     for page in cfg["pages"]:
-        html = render(page, cfg, tpl, css, engine, head_snippet, footer, result, variants, cluster)
+        html = render(page, cfg, tpl, css, engine, head_snippet, footer, result, variants, cluster, clusters)
         htmls[page["file"]] = html
         target = ROOT / page["file"]
         if check:

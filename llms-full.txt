@@ -57,6 +57,10 @@ There is a practical benefit for training too. Because a run costs only a minute
 ## What to do after a one minute test
 A single number is not progress. Log the score, then use the typing practice plan for a week and retake the same length under the same conditions. If the score moves, keep the routine; if it stalls, the how to get better at typing guide explains which drill matches which bottleneck.
 If you are still looking at the keyboard while you type, the ceiling on this score is technique rather than finger speed: the home-row method behind touch typing is what lets a sixty-second round be read from the screen instead of copied from the keys.
+## Sources for the numbers on this page
+Speed and accuracy figures quoted here follow the largest published study of everyday typing: Dhakal et al., CHI 2018, Observations on Typing from 136 Million Keystrokes, which measured 136,857,600 keystrokes from 168,960 volunteers. It reports a mean of 51.56 WPM (SD 20.2), a mean uncorrected error rate of 1.17%, and a mean keystrokes-per-character rate of 1.173. Those are the numbers this page's bands are checked against.
+The claim that finger consistency and keypress preparation predict speed — more than which finger presses which key — comes from Feit, Weir and Oulasvirta, CHI 2016, a motion-capture study of 36 typists. The two studies disagree on how much formal touch-typing training matters, and this page says so where it matters rather than picking the tidier result.
+Where a figure is an estimate rather than a measurement — job requirements, age bands, exam cut-offs — it is drawn from the ranges employers and exam boards publish and is labelled as an estimate. Nothing on this page is a benchmark we ran ourselves.
 ## About this page
 Last updated 2026-10-20. Written and maintained by the Typing.Rerivo team; scoring formulas, sources and corrections policy are documented on the about page.
 ## Typing test FAQ
@@ -378,6 +382,10 @@ Slow down slightly and aim for zero errors first; speed follows naturally once y
 A blazing WPM means little if half your words need fixing. Every mistake costs a backspace and a retype, so real-world typing speed depends far more on accuracy than on peak pace. This test shows accuracy next to WPM and counts your errors, so you can see exactly where clean typing is quietly slowing you down.
 ## How to type more accurately
 Start slower than feels natural and let correct keystrokes build muscle memory — rushing only teaches your fingers the wrong moves. Watch for your personal problem keys (often the top row and punctuation), keep a light, even rhythm, and resist the urge to glance at the keyboard. Aim to hold accuracy above 97% before you push for speed.
+## Sources for the numbers on this page
+Speed and accuracy figures quoted here follow the largest published study of everyday typing: Dhakal et al., CHI 2018, Observations on Typing from 136 Million Keystrokes, which measured 136,857,600 keystrokes from 168,960 volunteers. It reports a mean of 51.56 WPM (SD 20.2), a mean uncorrected error rate of 1.17%, and a mean keystrokes-per-character rate of 1.173. Those are the numbers this page's bands are checked against.
+The claim that finger consistency and keypress preparation predict speed — more than which finger presses which key — comes from Feit, Weir and Oulasvirta, CHI 2016, a motion-capture study of 36 typists. The two studies disagree on how much formal touch-typing training matters, and this page says so where it matters rather than picking the tidier result.
+Where a figure is an estimate rather than a measurement — job requirements, age bands, exam cut-offs — it is drawn from the ranges employers and exam boards publish and is labelled as an estimate. Nothing on this page is a benchmark we ran ourselves.
 ## Speed and accuracy together
 The two metrics feed each other: how to type faster and more accurately explains the error-cost math, and typing speed improvement tips puts accuracy first for a reason.
 ## Typing test FAQ
@@ -577,6 +585,10 @@ Prefer characters per minute? Try the CPM typing test, where CPM = WPM &times; 5
 A typing words per minute test reports one number for one minute of typing, using a convention rather than a literal word count: every five characters typed counts as one word, whether those characters formed short words, long words, numbers or punctuation. The Wikipedia entry for words per minute documents the same five-character standard and the reference bands that most tests still quote: professional typists sit around 43 to 80 WPM, and advanced typists go above 120 WPM.
 Two numbers come out of a typing words per minute test and they are not interchangeable. Gross (raw) WPM counts every keystroke, including the ones you had to correct. Net WPM deducts those errors, which is why a fast, careless run can post a high raw score and still be the slower run. When a job application or a certificate asks for your speed, the figure they want is net WPM with accuracy reported next to it - anything under about 95 percent accuracy means the speed is not yet usable in real work.
 If your target is quoted in keystrokes rather than words - common for data entry and for exam scoring - measure it directly with the CPM typing test, which reports characters per minute and keystrokes per hour from the same round.
+## Sources for the numbers on this page
+Speed and accuracy figures quoted here follow the largest published study of everyday typing: Dhakal et al., CHI 2018, Observations on Typing from 136 Million Keystrokes, which measured 136,857,600 keystrokes from 168,960 volunteers. It reports a mean of 51.56 WPM (SD 20.2), a mean uncorrected error rate of 1.17%, and a mean keystrokes-per-character rate of 1.173. Those are the numbers this page's bands are checked against.
+The claim that finger consistency and keypress preparation predict speed — more than which finger presses which key — comes from Feit, Weir and Oulasvirta, CHI 2016, a motion-capture study of 36 typists. The two studies disagree on how much formal touch-typing training matters, and this page says so where it matters rather than picking the tidier result.
+Where a figure is an estimate rather than a measurement — job requirements, age bands, exam cut-offs — it is drawn from the ranges employers and exam boards publish and is labelled as an estimate. Nothing on this page is a benchmark we ran ourselves.
 ## About this page
 Last updated 2026-10-20. Written and maintained by the Typing.Rerivo team; scoring formulas, sources and corrections policy are documented on the about page.
 ## Typing test FAQ
@@ -1076,7 +1088,7 @@ Source: https://typing.rerivo.com/average-typing-speed.html
 The average typing speed is about 40 to 50 words per minute (WPM) with roughly 92% accuracy. 45–60 WPM is good, 60–80 WPM is above average, and only about 1% of people type faster than 100 WPM. Test your own speed below, then compare it with the benchmarks.
 
 ## What is the average typing speed?
-The average typing speed is about 40 to 50 words per minute (WPM) with roughly 92% accuracy - that is where most adults land without deliberate practice. A speed of 45–60 WPM is considered good, 60–80 WPM is above average, and only about 1% of people type faster than 100 WPM. The table below shows how typing speeds are usually classified.
+The average typing speed is about 52 words per minute (WPM) in the largest published sample of everyday typists, with a wide spread: the standard deviation is 20 WPM, so a large share of adults sit between 30 and 70. The familiar “40–50 WPM” band comes from older office-work benchmarks and still describes what many jobs ask for; it is a floor, not the middle. A speed of 45–60 WPM is considered good for office work, 60–80 WPM is above average, and roughly the top 10% clear 78 WPM. The table below shows the bands, and the sources section shows the study behind the headline number.
 Skill level | Speed (WPM) | What it means
 Beginner | Under 30 WPM | Still learning; hunt-and-peck on many keys
 Below average | 30-45 WPM | Functional but slow; typing takes conscious effort
@@ -1109,6 +1121,9 @@ Want your own number? Take the typing speed test, measure it in characters per m
 If you are below the speed you want, the fastest way up is touch typing: use all ten fingers from the home row (ASDF JKL;) without looking at the keyboard. Prioritise accuracy over speed, practise 10–15 minutes a day, and keep your wrists relaxed. Most people add 10–20 WPM within a few weeks of daily practice.
 ## Benchmarks by age and goals
 See also: average typing speed by age from kids to seniors, how many words per minute is fast, and the fastest typing speed records ever measured.
+The headline figure on this page — a mean of about 52 WPM across a large sample of everyday typists — matches the largest published study of modern typing: Dhakal, Feit, Kristensson and Oulasvirta, Observations on Typing from 136 Million Keystrokes (CHI 2018), which recorded 136,857,600 keystrokes from 168,960 volunteers and reports a mean of 51.56 WPM (SD 20.2) and a mean uncorrected error rate of 1.17%. The full paper is open at doi.org/10.1145/3173574.3174220.
+That study also explains why the common “40–50 WPM” band understates the middle of the distribution: its sample is self-selected people who care about typing, and its mean sits above the office-work band that older textbook figures quote. Where this page gives a narrower band for a job or an age group, it is an estimate from the ranges those roles advertise, not a measured sample — and it is labelled as such.
+Two other sources shape the advice here. The claim that finger consistency and keypress preparation predict speed, rather than which finger presses which key, comes from Feit, Weir and Oulasvirta’s motion-capture work on 36 typists (CHI 2018, discussed alongside the dataset above). The historical claim that alternative layouts such as Dvorak produce only modest gains after retraining comes from the published layout comparisons summarised on our keyboard layouts page.
 ## Test yourself against these benchmarks
 Benchmarks are only useful next to your own number. Take a words per minute test with the standard five-character formula, then compare the result with the bands above and with the requirements table for the job you are targeting.
 ## Typing test FAQ
@@ -1180,6 +1195,10 @@ A CPM test scores the same one-minute round as a WPM test, but reports character
 CPM is the fairer unit when your language or your work is not English prose. WPM depends on an arbitrary five-character word, so scripts that write without spaces, and data entry that is mostly digits and symbols, produce WPM numbers that cannot be compared across languages. Character counts have no such convention: 200 CPM means 200 characters typed correctly, in Tokyo, Berlin or Bangalore alike.
 ## Why characters are the more portable unit
 The five-character word is a convention, not a measurement: words per minute standardises a word to five characters including spaces and punctuation precisely so that different passages produce comparable numbers. Character counts skip the convention entirely, which is why a CPM score travels across languages and across numeric keypad work, where the numeric keypad contributes most of the keystrokes.
+## Sources for the numbers on this page
+Speed and accuracy figures quoted here follow the largest published study of everyday typing: Dhakal et al., CHI 2018, Observations on Typing from 136 Million Keystrokes, which measured 136,857,600 keystrokes from 168,960 volunteers. It reports a mean of 51.56 WPM (SD 20.2), a mean uncorrected error rate of 1.17%, and a mean keystrokes-per-character rate of 1.173. Those are the numbers this page's bands are checked against.
+The claim that finger consistency and keypress preparation predict speed — more than which finger presses which key — comes from Feit, Weir and Oulasvirta, CHI 2016, a motion-capture study of 36 typists. The two studies disagree on how much formal touch-typing training matters, and this page says so where it matters rather than picking the tidier result.
+Where a figure is an estimate rather than a measurement — job requirements, age bands, exam cut-offs — it is drawn from the ranges employers and exam boards publish and is labelled as an estimate. Nothing on this page is a benchmark we ran ourselves.
 ## About this page
 Last updated 2026-10-20. Written and maintained by the Typing.Rerivo team; scoring formulas, sources and corrections policy are documented on the about page.
 ## Typing test FAQ
@@ -1423,6 +1442,10 @@ Job postings for data entry and clerical work often ask for 8,000-10,000 KPH wit
 Divide by 300: WPM = KPH ÷ 300, so a 10,000 KPH posting is asking for about 33 WPM. For the complete table of KPH, CPM and WPM requirements by job and exam, see typing speed requirements by job and exam.
 ## Where KPH scores lead
 Put your KPH to work: online typing jobs that quote KPH, and data entry job requirements by the numbers.
+## Sources for the numbers on this page
+Speed and accuracy figures quoted here follow the largest published study of everyday typing: Dhakal et al., CHI 2018, Observations on Typing from 136 Million Keystrokes, which measured 136,857,600 keystrokes from 168,960 volunteers. It reports a mean of 51.56 WPM (SD 20.2), a mean uncorrected error rate of 1.17%, and a mean keystrokes-per-character rate of 1.173. Those are the numbers this page's bands are checked against.
+The claim that finger consistency and keypress preparation predict speed — more than which finger presses which key — comes from Feit, Weir and Oulasvirta, CHI 2016, a motion-capture study of 36 typists. The two studies disagree on how much formal touch-typing training matters, and this page says so where it matters rather than picking the tidier result.
+Where a figure is an estimate rather than a measurement — job requirements, age bands, exam cut-offs — it is drawn from the ranges employers and exam boards publish and is labelled as an estimate. Nothing on this page is a benchmark we ran ourselves.
 ## Keystrokes, characters and words are three units
 Numeric keypad work is usually scored in keystrokes per hour, but the same minute of typing can be read three ways: keystrokes per hour, characters per minute, and the five-character words per minute used by general typing tests. Because digits and operators are single characters, ten key speeds look far higher in KPH than the same effort looks in WPM - convert before comparing yourself with anyone quoting a different unit.
 ## Keystrokes per hour FAQ
@@ -1576,6 +1599,10 @@ Proficient | 40-60 | 95-98%
 Advanced | 60-80 | 98-99%
 Expert | 80+ | 99%+
 For most office jobs, 50-60 WPM with 97%+ accuracy is expected. For data entry, exams and specialised roles the bar is higher - see the typing test for jobs requirements.
+## Sources for the numbers on this page
+Speed and accuracy figures quoted here follow the largest published study of everyday typing: Dhakal et al., CHI 2018, Observations on Typing from 136 Million Keystrokes, which measured 136,857,600 keystrokes from 168,960 volunteers. It reports a mean of 51.56 WPM (SD 20.2), a mean uncorrected error rate of 1.17%, and a mean keystrokes-per-character rate of 1.173. Those are the numbers this page's bands are checked against.
+The claim that finger consistency and keypress preparation predict speed — more than which finger presses which key — comes from Feit, Weir and Oulasvirta, CHI 2016, a motion-capture study of 36 typists. The two studies disagree on how much formal touch-typing training matters, and this page says so where it matters rather than picking the tidier result.
+Where a figure is an estimate rather than a measurement — job requirements, age bands, exam cut-offs — it is drawn from the ranges employers and exam boards publish and is labelled as an estimate. Nothing on this page is a benchmark we ran ourselves.
 ## How to improve your typing skill score
 Improvement comes from accuracy first, speed second. Slow down until you can type a full minute without errors, keep the fingers on the home row, and look at the screen rather than the keyboard. Practise daily for ten to fifteen minutes, mixing a general typing practice run with a targeted accuracy test. Boost weak spots with the weak-key drill, and check your standing against the average typing speed.
 ## Typing skill test FAQ
@@ -2447,6 +2474,10 @@ The conversion used throughout is the industry standard: one word equals five ch
 ## Preparing for a specific requirement
 Work backwards from the format, not just the number. KPH-quoted data-entry tests are usually numeric-heavy, so numbers-mode practice pays off most. Clerk and government exams use short prose passages with a mistake cap, so timed one-minute accuracy runs are the closest rehearsal. Transcription expects sustained speed over minutes, which is a stamina problem — train with three- and five-minute rounds.
 Whatever the target, measure yourself in the same unit the employer uses. This site shows WPM, CPM and accuracy after every round, and the keystrokes per hour test expresses the same run in KPH, so you can practise against the exact figure on the job posting.
+## Sources for the numbers on this page
+Speed and accuracy figures quoted here follow the largest published study of everyday typing: Dhakal et al., CHI 2018, Observations on Typing from 136 Million Keystrokes, which measured 136,857,600 keystrokes from 168,960 volunteers. It reports a mean of 51.56 WPM (SD 20.2), a mean uncorrected error rate of 1.17%, and a mean keystrokes-per-character rate of 1.173. Those are the numbers this page's bands are checked against.
+The claim that finger consistency and keypress preparation predict speed — more than which finger presses which key — comes from Feit, Weir and Oulasvirta, CHI 2016, a motion-capture study of 36 typists. The two studies disagree on how much formal touch-typing training matters, and this page says so where it matters rather than picking the tidier result.
+Where a figure is an estimate rather than a measurement — job requirements, age bands, exam cut-offs — it is drawn from the ranges employers and exam boards publish and is labelled as an estimate. Nothing on this page is a benchmark we ran ourselves.
 ## Printable requirements checklist
 The checklist below summarises the table for offline use. Open it and print from your browser (Ctrl/Cmd+P, then 'Save as PDF') to keep a copy — no download needed.
 Open the printable checklistData entry (KPH-quoted): 8,000–12,000 KPH ≈ 27–40 WPM, ~98% accuracy
@@ -2532,6 +2563,10 @@ The pattern to notice: each band takes longer than the last, and each is broken 
 ## How employers actually test WPM
 When a company measures your typing, the format is almost always the same: a one- to three-minute passage, typed once or twice, scored as net WPM with an accuracy threshold — often 95% or 98% — below which the speed number is discarded. Nobody averages your best days; they sample your ordinary ones.
 That has two practical consequences. First, your 'interview number' is your relaxed, warmed-down score, not your personal best, so practise the conditions: unfamiliar text, no warm-up beyond a minute, one take. Second, accuracy is a gate, not a bonus — a 70 WPM run at 93% loses to a 55 WPM run at 99% in any scored test. Train the floor, and the number takes care of itself.
+## Sources for the numbers on this page
+Speed and accuracy figures quoted here follow the largest published study of everyday typing: Dhakal et al., CHI 2018, Observations on Typing from 136 Million Keystrokes, which measured 136,857,600 keystrokes from 168,960 volunteers. It reports a mean of 51.56 WPM (SD 20.2), a mean uncorrected error rate of 1.17%, and a mean keystrokes-per-character rate of 1.173. Those are the numbers this page's bands are checked against.
+The claim that finger consistency and keypress preparation predict speed — more than which finger presses which key — comes from Feit, Weir and Oulasvirta, CHI 2016, a motion-capture study of 36 typists. The two studies disagree on how much formal touch-typing training matters, and this page says so where it matters rather than picking the tidier result.
+Where a figure is an estimate rather than a measurement — job requirements, age bands, exam cut-offs — it is drawn from the ranges employers and exam boards publish and is labelled as an estimate. Nothing on this page is a benchmark we ran ourselves.
 ## WPM on phones vs physical keyboards
 Everything on this page refers to physical keyboards. Phone typing runs on different mechanics — two thumbs, autocorrect, predictive text — and good mobile typists reach 35–50 WPM equivalent, with the very fastest measured higher under test conditions. Comparing phone WPM to keyboard WPM is meaningless because the error profile differs: autocorrect silently fixes some mistakes and invents others.
 If most of your writing happens on a phone, train that separately. If it happens on a computer, the keyboard bands above are your reference. The crossover skill that helps both is the same one: accuracy first, because corrections are the most expensive keystrokes on any device.

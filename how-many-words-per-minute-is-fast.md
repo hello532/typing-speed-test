@@ -53,6 +53,14 @@ When a company measures your typing, the format is almost always the same: a one
 
 That has two practical consequences. First, your 'interview number' is your relaxed, warmed-down score, not your personal best, so practise the conditions: unfamiliar text, no warm-up beyond a minute, one take. Second, accuracy is a gate, not a bonus — a 70 WPM run at 93% loses to a 55 WPM run at 99% in any scored test. Train the floor, and the number takes care of itself.
 
+## Sources for the numbers on this page
+
+Speed and accuracy figures quoted here follow the largest published study of everyday typing: Dhakal et al., CHI 2018, Observations on Typing from 136 Million Keystrokes, which measured 136,857,600 keystrokes from 168,960 volunteers. It reports a mean of 51.56 WPM (SD 20.2), a mean uncorrected error rate of 1.17%, and a mean keystrokes-per-character rate of 1.173. Those are the numbers this page's bands are checked against.
+
+The claim that finger consistency and keypress preparation predict speed — more than which finger presses which key — comes from Feit, Weir and Oulasvirta, CHI 2016, a motion-capture study of 36 typists. The two studies disagree on how much formal touch-typing training matters, and this page says so where it matters rather than picking the tidier result.
+
+Where a figure is an estimate rather than a measurement — job requirements, age bands, exam cut-offs — it is drawn from the ranges employers and exam boards publish and is labelled as an estimate. Nothing on this page is a benchmark we ran ourselves.
+
 ## WPM on phones vs physical keyboards
 
 Everything on this page refers to physical keyboards. Phone typing runs on different mechanics — two thumbs, autocorrect, predictive text — and good mobile typists reach 35–50 WPM equivalent, with the very fastest measured higher under test conditions. Comparing phone WPM to keyboard WPM is meaningless because the error profile differs: autocorrect silently fixes some mistakes and invents others.

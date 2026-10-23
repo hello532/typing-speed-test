@@ -57,6 +57,8 @@ crossorigin="anonymous"></script>
 <button type="button" class="chip mode" data-m="numbers" data-i18n="m_numbers" aria-pressed="{{PR}}">Numbers</button>
 <button type="button" class="chip mode" data-m="words" data-i18n="m_words" aria-pressed="{{PR}}">Words</button>
 </div>
+<details class="ctrl-more">
+<summary>Options</summary>
 <div class="ctrl-group">
 <span class="ctrl-label" data-i18n="practice">Practice</span>
 <a class="chip link" href="dvorak-typing.html" data-i18n="p_dvorak">Dvorak</a>
@@ -70,6 +72,7 @@ crossorigin="anonymous"></script>
 <button type="button" class="chip width" data-w="xwide" data-i18n="w_xwide" aria-pressed="{{PR}}">X-Wide</button>
 <button type="button" class="chip width" data-w="fluid" data-i18n="w_fluid" aria-pressed="{{PR}}">Full</button>
 </div>
+</details>
 </div>
 <details class="custombox">
 <summary data-i18n="custom_text">Custom text</summary>
@@ -131,6 +134,8 @@ crossorigin="anonymous"></script>
 </table>
 </div>
 </div>
+{{TLDR}}
+{{RELATED}}
 <section class="seo">{{SEO}}</section>
 <section class="seo faq">{{FAQ}}</section>
 <footer>{{FOOT}}</footer>

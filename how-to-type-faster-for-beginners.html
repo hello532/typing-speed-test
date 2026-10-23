@@ -40,6 +40,7 @@
 </script>
 
 
+
 <style>
 :root{
   --bg:#0b0c10; --bg2:#0e1016; --panel:#15171f; --panel2:#1c1f29; --panelhi:#222634;
@@ -82,16 +83,26 @@ nav.crumbs a{color:var(--soft); text-decoration:none;}
 nav.crumbs a:hover{color:var(--accent);}
 nav.crumbs span{color:var(--dim);}
 
-.hero{text-align:center; margin:34px 0 26px;}
-.hero h1{font-size:clamp(2.1rem,5.6vw,3.3rem); font-weight:800; letter-spacing:-1.2px; line-height:1.08;
+.hero{text-align:center; margin:18px 0 14px;}
+.hero h1{font-size:clamp(1.75rem,4.2vw,2.6rem); font-weight:800; letter-spacing:-1.2px; line-height:1.08;
   background:linear-gradient(180deg,var(--h1a) 30%,var(--h1b)); -webkit-background-clip:text; background-clip:text; -webkit-text-fill-color:transparent;}
-.hero p{color:var(--soft); margin:14px auto 0; font-size:clamp(1rem,1.6vw,1.12rem); max-width:60ch; line-height:1.8;}
+.hero p{color:var(--soft); margin:10px auto 0; font-size:clamp(.95rem,1.4vw,1.05rem); max-width:60ch; line-height:1.7;}
 .hero strong{color:var(--text); font-weight:600;}
 
 .panel{background:linear-gradient(180deg,var(--panel),var(--bg2)); border:1px solid var(--line); border-radius:var(--radius); padding:18px; margin-bottom:18px; box-shadow:var(--shadow);}
-.controls{display:flex; flex-wrap:wrap; gap:16px 22px; justify-content:center; align-items:center; padding-bottom:4px;}
-.ctrl-group{display:flex; align-items:center; gap:8px; flex-wrap:wrap; justify-content:center;}
-.ctrl-label{font-size:.72rem; color:var(--soft); text-transform:uppercase; letter-spacing:1.4px; font-weight:700; margin-right:5px;}
+.controls{display:flex; flex-wrap:wrap; gap:8px 14px; justify-content:center; align-items:center; padding-bottom:2px;}
+.ctrl-group{display:flex; align-items:center; gap:6px; flex-wrap:wrap; justify-content:center;}
+.ctrl-label{font-size:.7rem; color:var(--soft); text-transform:uppercase; letter-spacing:1.2px; font-weight:700; margin-right:2px;}
+/* Round-20: Time and Text stay visible; Practice, Width and Custom are settings
+   people change after they have typed once, so they collapse into one row.
+   Four visible rows of chips cost 228px and pushed the first typeable word
+   below the fold on a 1280x800 laptop. */
+.ctrl-more{display:flex; align-items:center; gap:8px; flex-wrap:wrap; justify-content:center;}
+.ctrl-more>summary{cursor:pointer; list-style:none; background:var(--panel2); border:1px solid var(--line); color:var(--soft);
+  border-radius:999px; padding:9px 16px; min-height:44px; display:inline-flex; align-items:center; font-size:.82rem; font-weight:600;}
+.ctrl-more>summary::-webkit-details-marker{display:none;}
+.ctrl-more>summary::before{content:"\2699  ";}
+.ctrl-more[open]>summary{margin-bottom:8px;}
 .chip{background:var(--panel2); border:1px solid var(--line); color:var(--soft); border-radius:999px;
   padding:9px 18px; min-height:44px; display:inline-flex; align-items:center; font-size:.86rem; cursor:pointer; font-weight:600; transition:background .12s ease-in-out, color .12s ease-in-out, border-color .12s ease-in-out, box-shadow .12s ease-in-out;}
 .chip:hover{color:var(--text); border-color:var(--borderhi); background:var(--panelhi); box-shadow:0 0 0 2px rgba(255,201,60,.12);}
@@ -186,6 +197,23 @@ footer a:hover{color:var(--accent); text-decoration:underline;}
   .controls{gap:16px;}
   .panel{padding:17px;}
   #text{padding:17px 16px;}
+  /* Round-20: on a phone the chip rows alone cost 316px, which put the first
+     typeable word at 863px in an 844px viewport. Shrink the chips instead of
+     hiding the text-mode row — Quotes/Numbers/Words are primary controls, and
+     hiding them behind Options made the mode unreachable without a tap. */
+  .controls{gap:6px;}
+  .chip{min-height:36px;padding:6px 12px;font-size:.78rem;}
+  .ctrl-label{font-size:.62rem;letter-spacing:.8px;}
+  .controls>.ctrl-more{flex:1 1 100%;justify-content:center;}
+  .ctrl-more>summary{font-size:.78rem;min-height:36px;padding:6px 12px;}
+  .ctrl-more .ctrl-group{display:flex;flex-wrap:wrap;justify-content:center;gap:6px;}
+  .hero h1{font-size:1.55rem;}
+  .hero p{font-size:.9rem;line-height:1.55;}
+  .stats{margin:12px 0 4px;padding-top:12px;}
+  .stat .num{font-size:1.35rem;}
+  .custombox{margin-top:8px;}
+  header.top{padding-bottom:6px;}
+  .tr-bar{margin-top:4px;}
 }
 
 html[data-theme="light"]{
@@ -346,6 +374,11 @@ body.typing-active footer{opacity:.26;filter:saturate(.72);pointer-events:none;}
 #customInput:focus{outline:none;border-color:var(--accent);}
 .custom-actions{display:flex;gap:8px;margin-top:9px;}
 .tldr{max-width:60ch;border-left:3px solid var(--accent);padding:8px 14px;background:var(--panel2);border-radius:0 8px 8px 0;text-align:left;margin-left:auto;margin-right:auto;}
+/* Round-20: the TL;DR used to sit between the h1 and the test, pushing the
+   first typeable word to 1049px on a 1280x800 viewport. It keeps its GEO value
+   below the tool instead of in front of it. */
+.tldr-wrap{max-width:900px;margin:0 auto 18px;}
+.tldr-wrap .tldr{margin:0 auto;font-size:.92rem;line-height:1.75;}
 /* ---------- R11: 工具聚焦 + SEO 折叠 ---------- */
 .seo{transition:max-height .35s ease-in-out, padding .35s ease-in-out, margin .35s ease-in-out, opacity .25s ease-in-out;}
 .faq{transition:max-height .35s ease-in-out, padding .35s ease-in-out, margin .35s ease-in-out, opacity .25s ease-in-out;}
@@ -357,6 +390,18 @@ body.typing-active footer{opacity:.26;filter:saturate(.72);pointer-events:none;}
 /* ---------- R9: footer 分组折叠 ---------- */
 .foot-more-toggle{cursor:pointer;transition:color .15s;}
 .foot-more-toggle:hover{color:var(--text);}
+
+/* Round-20: body-level related block. The footer already links every page
+   (gate 12), so this block is where topic-relevant links live — in the body,
+   where they carry weight and where a reader can actually use them. */
+.related{max-width:900px;margin:26px auto 8px;padding-top:18px;border-top:1px solid var(--line);}
+.related h2{font-size:1rem;font-weight:700;color:var(--soft);text-transform:uppercase;letter-spacing:1.1px;margin:0 0 10px;}
+.related ul{list-style:none;margin:0;padding:0;display:flex;flex-wrap:wrap;gap:8px;}
+.related li{margin:0;}
+.related a{display:inline-flex;align-items:center;min-height:38px;padding:7px 14px;border:1px solid var(--line);
+  border-radius:999px;background:var(--panel2);color:var(--soft);font-size:.84rem;font-weight:600;text-decoration:none;}
+.related a:hover{color:var(--text);border-color:var(--borderhi);background:var(--panelhi);}
+@media(max-width:560px){.related a{min-height:34px;padding:6px 12px;font-size:.8rem;}}
 </style>
 <script>try{var _t=localStorage.getItem("trTheme");if(_t&&_t!=="dark")document.documentElement.setAttribute("data-theme",_t);var _l=localStorage.getItem("trLang");if(_l&&_l!=="en"){document.documentElement.lang=_l;if(_l==="ar")document.documentElement.dir="rtl";}}catch(e){}</script>
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1401237223139327"
@@ -378,7 +423,6 @@ body.typing-active footer{opacity:.26;filter:saturate(.72);pointer-events:none;}
 
   <section class="hero">
     <h1>How to Type Faster for Beginners</h1>
-    <p class="tldr"><strong>TL;DR:</strong> How to type faster for beginners: learn home row first (ASDF/JKL;), stop looking at the keyboard no matter what, practise 10 focused minutes daily, and avoid the five beginner mistakes — speed before accuracy, peeking, rare long sessions, ignoring the weak-key report, and bad posture. Most beginners double their speed in a month.</p>
     <p><strong>How to type faster for beginners</strong> comes down to four habits learned in the right order. Skip the hacks — this is the path that actually works, in 10 minutes a day.</p>
   </section>
 
@@ -401,6 +445,8 @@ body.typing-active footer{opacity:.26;filter:saturate(.72);pointer-events:none;}
         <button type="button" class="chip mode" data-m="numbers" data-i18n="m_numbers" aria-pressed="false">Numbers</button>
         <button type="button" class="chip mode on" data-m="words" data-i18n="m_words" aria-pressed="true">Words</button>
       </div>
+      <details class="ctrl-more">
+        <summary>Options</summary>
       <div class="ctrl-group">
         <span class="ctrl-label" data-i18n="practice">Practice</span>
         <a class="chip link" href="dvorak-typing.html" data-i18n="p_dvorak">Dvorak</a>
@@ -414,6 +460,7 @@ body.typing-active footer{opacity:.26;filter:saturate(.72);pointer-events:none;}
         <button type="button" class="chip width" data-w="xwide" data-i18n="w_xwide" aria-pressed="false">X-Wide</button>
         <button type="button" class="chip width" data-w="fluid" data-i18n="w_fluid" aria-pressed="false">Full</button>
       </div>
+      </details>
     </div>
     <details class="custombox">
       <summary data-i18n="custom_text">Custom text</summary>
@@ -478,6 +525,15 @@ body.typing-active footer{opacity:.26;filter:saturate(.72);pointer-events:none;}
       </table>
     </div>
   </div>
+
+  <div class="tldr-wrap">
+    <p class="tldr"><strong>TL;DR:</strong> How to type faster for beginners: learn home row first (ASDF/JKL;), stop looking at the keyboard no matter what, practise 10 focused minutes daily, and avoid the five beginner mistakes — speed before accuracy, peeking, rare long sessions, ignoring the weak-key report, and bad posture. Most beginners double their speed in a month.</p>
+  </div>
+
+  <nav class="related" aria-label="By age and skill level">
+    <h2>By age and skill level</h2>
+    <ul><li><a href="programmer-typing-speed.html">Programmer Typing Speed</a></li><li><a href="touch-typing-for-adults.html">Touch Typing for Adults</a></li><li><a href="typing-games-for-kids.html">Typing Games for Kids</a></li><li><a href="typing-practice-for-programmers.html">Typing Practice for Programmers</a></li><li><a href="typing-test-for-adults.html">Typing Test for Adults</a></li><li><a href="typing-test-for-kids.html">Typing Test for Kids</a></li><li><a href="typing-test-for-students.html">Typing Test for Students</a></li><li><a href="typing-test-for-teachers.html">Typing Test for Teachers</a></li></ul>
+  </nav>
 
   <section class="seo">
     <h2>Step one: home row before speed</h2>

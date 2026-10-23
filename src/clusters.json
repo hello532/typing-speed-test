@@ -1,0 +1,548 @@
+{
+ "duration": [
+  {
+   "file": "1-minute-typing-test.html",
+   "title": "1 Minute Typing Test"
+  },
+  {
+   "file": "10-minute-typing-test.html",
+   "title": "10 Minute Typing Test"
+  },
+  {
+   "file": "2-minute-typing-test.html",
+   "title": "2 Minute Typing Test"
+  },
+  {
+   "file": "3-minute-typing-test.html",
+   "title": "3 Minute Typing Test"
+  },
+  {
+   "file": "30-second-typing-test.html",
+   "title": "30 Second Typing Test"
+  },
+  {
+   "file": "5-minute-typing-test.html",
+   "title": "5 Minute Typing Test"
+  },
+  {
+   "file": "timed-typing-test.html",
+   "title": "Timed Typing Test"
+  }
+ ],
+ "practice": [
+  {
+   "file": "audio-typing-tips.html",
+   "title": "Audio Typing Tips"
+  },
+  {
+   "file": "bigram-typing-practice.html",
+   "title": "Bigram Typing Practice"
+  },
+  {
+   "file": "capital-letter-typing-test.html",
+   "title": "Capital Letter Typing Test"
+  },
+  {
+   "file": "easy-typing-test.html",
+   "title": "Easy Typing Test"
+  },
+  {
+   "file": "easy-way-to-learn-touch-typing.html",
+   "title": "Easy Way to Learn Touch Typing"
+  },
+  {
+   "file": "fast-typing-test.html",
+   "title": "Fast Typing Test"
+  },
+  {
+   "file": "fastest-typing-speed-record.html",
+   "title": "Fastest Typing Speed Records"
+  },
+  {
+   "file": "hard-typing-test.html",
+   "title": "Hard Typing Test"
+  },
+  {
+   "file": "how-long-to-learn-touch-typing.html",
+   "title": "How Long to Learn Touch Typing"
+  },
+  {
+   "file": "how-to-get-a-typing-job.html",
+   "title": "How to Get a Typing Job"
+  },
+  {
+   "file": "how-to-get-better-at-typing.html",
+   "title": "How to Get Better at Typing"
+  },
+  {
+   "file": "how-to-pass-a-typing-test.html",
+   "title": "How to Pass a Typing Test"
+  },
+  {
+   "file": "how-to-type-faster-and-more-accurately.html",
+   "title": "How to Type Faster and More Accurately"
+  },
+  {
+   "file": "how-to-type-without-looking.html",
+   "title": "How to Type Without Looking at the Keyboard"
+  },
+  {
+   "file": "is-it-hard-to-learn-touch-typing.html",
+   "title": "Is It Hard to Learn Touch Typing?"
+  },
+  {
+   "file": "javascript-code-typing.html",
+   "title": "JavaScript Code Typing Test"
+  },
+  {
+   "file": "learn-to-type-faster-free.html",
+   "title": "Learn to Type Faster for Free"
+  },
+  {
+   "file": "learn-to-type-faster.html",
+   "title": "Learn to Type Faster"
+  },
+  {
+   "file": "learn-to-type.html",
+   "title": "Learn to Type"
+  },
+  {
+   "file": "number-typing-test.html",
+   "title": "Number Typing Test"
+  },
+  {
+   "file": "online-typing-practice.html",
+   "title": "Online Typing Practice"
+  },
+  {
+   "file": "pangram-typing-test.html",
+   "title": "Pangram Typing Test"
+  },
+  {
+   "file": "paragraph-typing-test.html",
+   "title": "Paragraph Typing Test"
+  },
+  {
+   "file": "punctuation-typing-test.html",
+   "title": "Punctuation Typing Test"
+  },
+  {
+   "file": "python-code-typing.html",
+   "title": "Python Code Typing Test"
+  },
+  {
+   "file": "quick-brown-fox-typing-test.html",
+   "title": "Quick Brown Fox Typing Test"
+  },
+  {
+   "file": "quotes-typing-test.html",
+   "title": "Quotes Typing Test"
+  },
+  {
+   "file": "top-1000-english-words.html",
+   "title": "1000 Most Common English Words"
+  },
+  {
+   "file": "touch-typing-test.html",
+   "title": "Touch Typing Test"
+  },
+  {
+   "file": "touch-typing-tips.html",
+   "title": "Touch Typing Tips"
+  },
+  {
+   "file": "typing-lessons.html",
+   "title": "Typing Lessons"
+  },
+  {
+   "file": "typing-practice.html",
+   "title": "Typing Practice"
+  },
+  {
+   "file": "typing-speed-exercises.html",
+   "title": "Typing Speed Exercises"
+  },
+  {
+   "file": "typing-speed-improvement-tips.html",
+   "title": "Typing Speed Improvement Tips"
+  },
+  {
+   "file": "typing-test-tips.html",
+   "title": "Typing Test Tips"
+  },
+  {
+   "file": "typing-tips.html",
+   "title": "Typing Tips"
+  },
+  {
+   "file": "typing-tutor.html",
+   "title": "Typing Tutor"
+  },
+  {
+   "file": "typing-tutorial.html",
+   "title": "Typing Tutorial"
+  }
+ ],
+ "language": [
+  {
+   "file": "arabic-typing-test.html",
+   "title": "Arabic Typing Test"
+  },
+  {
+   "file": "chinese-typing-test.html",
+   "title": "Chinese Typing Test"
+  },
+  {
+   "file": "english-typing-test.html",
+   "title": "English Typing Test"
+  },
+  {
+   "file": "hindi-typing-test.html",
+   "title": "Hindi Typing Test"
+  },
+  {
+   "file": "indonesian-typing-test.html",
+   "title": "Tes Mengetik Online"
+  },
+  {
+   "file": "japanese-typing-test.html",
+   "title": "Japanese Typing Test"
+  },
+  {
+   "file": "korean-typing-test.html",
+   "title": "Korean Typing Test"
+  },
+  {
+   "file": "spanish-typing-test.html",
+   "title": "Spanish Typing Test"
+  },
+  {
+   "file": "thai-typing-test.html",
+   "title": "ทดสอบการพิมพ์ภาษาไทย"
+  },
+  {
+   "file": "top-en-words.html",
+   "title": "Top 200 Most Common English Words"
+  },
+  {
+   "file": "top-es-words.html",
+   "title": "Top 200 Most Common Spanish Words"
+  },
+  {
+   "file": "top-hi-words.html",
+   "title": "Top 200 Most Common Hindi Words"
+  },
+  {
+   "file": "top-id-words.html",
+   "title": "Top 200 Most Common Indonesian Words"
+  },
+  {
+   "file": "top-ja-words.html",
+   "title": "Top 200 Most Common Japanese Words"
+  },
+  {
+   "file": "top-ko-words.html",
+   "title": "Top 200 Most Common Korean Words"
+  },
+  {
+   "file": "top-th-words.html",
+   "title": "Top 200 Most Common Thai Words"
+  },
+  {
+   "file": "top-tr-words.html",
+   "title": "Top 200 Most Common Turkish Words"
+  },
+  {
+   "file": "top-ur-words.html",
+   "title": "Top 200 Most Common Urdu Words"
+  },
+  {
+   "file": "top-vi-words.html",
+   "title": "Top 200 Most Common Vietnamese Words"
+  },
+  {
+   "file": "turkish-typing-test.html",
+   "title": "Türkçe Klavye Hız Testi"
+  },
+  {
+   "file": "typing-tests-in-other-languages.html",
+   "title": "Typing Tests in Other Languages"
+  },
+  {
+   "file": "urdu-typing-test.html",
+   "title": "Urdu Typing Test"
+  },
+  {
+   "file": "vietnamese-typing-test.html",
+   "title": "Kiểm Tra Tốc Độ Gõ Phím Tiếng Việt"
+  }
+ ],
+ "core": [
+  {
+   "file": "best-typing-test-online.html",
+   "title": "Best Free Typing Tests Online"
+  },
+  {
+   "file": "custom-typing-test.html",
+   "title": "Custom Typing Test"
+  },
+  {
+   "file": "free-typing-test.html",
+   "title": "Free Typing Test"
+  },
+  {
+   "file": "index.html",
+   "title": "Free Typing Speed Test"
+  },
+  {
+   "file": "online-typing-test.html",
+   "title": "Online Typing Test"
+  }
+ ],
+ "layout": [
+  {
+   "file": "colemak-typing.html",
+   "title": "Colemak Typing Test"
+  },
+  {
+   "file": "dvorak-typing.html",
+   "title": "Dvorak Typing Test"
+  },
+  {
+   "file": "dvorak-vs-qwerty.html",
+   "title": "Dvorak vs QWERTY"
+  },
+  {
+   "file": "finger-placement-typing.html",
+   "title": "Finger Placement Typing"
+  },
+  {
+   "file": "home-row-typing-test.html",
+   "title": "Home Row Typing Test"
+  },
+  {
+   "file": "keyboard-layouts.html",
+   "title": "Keyboard Layouts Compared"
+  },
+  {
+   "file": "keyboard-practice.html",
+   "title": "Keyboard Practice"
+  },
+  {
+   "file": "keyboard-typing-test.html",
+   "title": "Keyboard Typing Test"
+  },
+  {
+   "file": "mechanical-keyboard-for-typing.html",
+   "title": "Mechanical Keyboard for Typing"
+  },
+  {
+   "file": "one-hand-typing.html",
+   "title": "One Hand Typing"
+  },
+  {
+   "file": "proper-hand-position-for-typing.html",
+   "title": "Proper Hand Position for Typing"
+  },
+  {
+   "file": "ten-key-typing-test.html",
+   "title": "10 Key Typing Test"
+  },
+  {
+   "file": "typing-finger-chart.html",
+   "title": "Typing Finger Chart"
+  }
+ ],
+ "metric": [
+  {
+   "file": "average-typing-speed-by-age.html",
+   "title": "Average Typing Speed by Age"
+  },
+  {
+   "file": "average-typing-speed.html",
+   "title": "Average Typing Speed"
+  },
+  {
+   "file": "cpm-typing-test.html",
+   "title": "CPM Typing Test"
+  },
+  {
+   "file": "how-fast-can-i-type.html",
+   "title": "How Fast Can I Type?"
+  },
+  {
+   "file": "how-many-words-per-minute-is-fast.html",
+   "title": "How Many Words Per Minute Is Fast?"
+  },
+  {
+   "file": "how-to-type-100-wpm.html",
+   "title": "How to Type 100 WPM"
+  },
+  {
+   "file": "keystrokes-per-hour-test.html",
+   "title": "Keystrokes Per Hour Test"
+  },
+  {
+   "file": "typing-accuracy-test.html",
+   "title": "Typing Accuracy Test"
+  },
+  {
+   "file": "typing-skill-test.html",
+   "title": "Typing Skill Test"
+  },
+  {
+   "file": "typing-speed-calculator.html",
+   "title": "Typing Speed Calculator"
+  },
+  {
+   "file": "typing-speed-requirements.html",
+   "title": "Typing Speed Requirements by Job and Exam"
+  },
+  {
+   "file": "words-per-minute-test.html",
+   "title": "Words Per Minute Test"
+  },
+  {
+   "file": "wpm-test-online.html",
+   "title": "WPM Test Online"
+  }
+ ],
+ "game": [
+  {
+   "file": "typing-games.html",
+   "title": "Typing Games"
+  },
+  {
+   "file": "typing-race.html",
+   "title": "Typing Race"
+  },
+  {
+   "file": "typing-test-game.html",
+   "title": "Typing Test Game"
+  },
+  {
+   "file": "typing-trainer.html",
+   "title": "Typing Trainer"
+  }
+ ],
+ "exam": [
+  {
+   "file": "bank-typing-test.html",
+   "title": "Bank Typing Test"
+  },
+  {
+   "file": "data-entry-job-requirements.html",
+   "title": "Data Entry Job Requirements"
+  },
+  {
+   "file": "data-entry-practice.html",
+   "title": "Data Entry Practice"
+  },
+  {
+   "file": "data-entry-typing-test.html",
+   "title": "Data Entry Typing Test"
+  },
+  {
+   "file": "government-typing-test.html",
+   "title": "Government Typing Test"
+  },
+  {
+   "file": "ssc-typing-test.html",
+   "title": "SSC Typing Test"
+  },
+  {
+   "file": "typing-certificate.html",
+   "title": "Typing Certificate"
+  },
+  {
+   "file": "typing-test-for-interview.html",
+   "title": "Typing Test for Interview"
+  },
+  {
+   "file": "typing-test-for-jobs.html",
+   "title": "Typing Test for Jobs"
+  },
+  {
+   "file": "typing-test-government-jobs.html",
+   "title": "Typing Speed Test for Government Jobs"
+  }
+ ],
+ "meta": [
+  {
+   "file": "about.html",
+   "title": "About Typing.Rerivo"
+  },
+  {
+   "file": "privacy-policy.html",
+   "title": "Privacy Policy"
+  }
+ ],
+ "audience": [
+  {
+   "file": "advanced-typing-test.html",
+   "title": "Advanced Typing Test"
+  },
+  {
+   "file": "beginner-typing-test.html",
+   "title": "Beginner Typing Test"
+  },
+  {
+   "file": "best-free-typing-lessons-for-adults.html",
+   "title": "Best Free Typing Lessons for Adults"
+  },
+  {
+   "file": "how-to-type-faster-for-beginners.html",
+   "title": "How to Type Faster for Beginners"
+  },
+  {
+   "file": "programmer-typing-speed.html",
+   "title": "Programmer Typing Speed"
+  },
+  {
+   "file": "touch-typing-for-adults.html",
+   "title": "Touch Typing for Adults"
+  },
+  {
+   "file": "typing-games-for-kids.html",
+   "title": "Typing Games for Kids"
+  },
+  {
+   "file": "typing-practice-for-programmers.html",
+   "title": "Typing Practice for Programmers"
+  },
+  {
+   "file": "typing-test-for-adults.html",
+   "title": "Typing Test for Adults"
+  },
+  {
+   "file": "typing-test-for-kids.html",
+   "title": "Typing Test for Kids"
+  },
+  {
+   "file": "typing-test-for-students.html",
+   "title": "Typing Test for Students"
+  },
+  {
+   "file": "typing-test-for-teachers.html",
+   "title": "Typing Test for Teachers"
+  }
+ ],
+ "jobs": [
+  {
+   "file": "medical-transcription-typing.html",
+   "title": "Medical Transcription Typing"
+  },
+  {
+   "file": "online-typing-jobs.html",
+   "title": "Online Typing Jobs"
+  },
+  {
+   "file": "transcription-typing-jobs.html",
+   "title": "Transcription Typing Jobs"
+  },
+  {
+   "file": "work-from-home-typing-jobs.html",
+   "title": "Work From Home Typing Jobs"
+  }
+ ]
+}

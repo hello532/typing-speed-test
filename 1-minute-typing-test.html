@@ -40,6 +40,7 @@
 </script>
 
 
+
 <style>
 :root{
   --bg:#0b0c10; --bg2:#0e1016; --panel:#15171f; --panel2:#1c1f29; --panelhi:#222634;
@@ -82,16 +83,26 @@ nav.crumbs a{color:var(--soft); text-decoration:none;}
 nav.crumbs a:hover{color:var(--accent);}
 nav.crumbs span{color:var(--dim);}
 
-.hero{text-align:center; margin:34px 0 26px;}
-.hero h1{font-size:clamp(2.1rem,5.6vw,3.3rem); font-weight:800; letter-spacing:-1.2px; line-height:1.08;
+.hero{text-align:center; margin:18px 0 14px;}
+.hero h1{font-size:clamp(1.75rem,4.2vw,2.6rem); font-weight:800; letter-spacing:-1.2px; line-height:1.08;
   background:linear-gradient(180deg,var(--h1a) 30%,var(--h1b)); -webkit-background-clip:text; background-clip:text; -webkit-text-fill-color:transparent;}
-.hero p{color:var(--soft); margin:14px auto 0; font-size:clamp(1rem,1.6vw,1.12rem); max-width:60ch; line-height:1.8;}
+.hero p{color:var(--soft); margin:10px auto 0; font-size:clamp(.95rem,1.4vw,1.05rem); max-width:60ch; line-height:1.7;}
 .hero strong{color:var(--text); font-weight:600;}
 
 .panel{background:linear-gradient(180deg,var(--panel),var(--bg2)); border:1px solid var(--line); border-radius:var(--radius); padding:18px; margin-bottom:18px; box-shadow:var(--shadow);}
-.controls{display:flex; flex-wrap:wrap; gap:16px 22px; justify-content:center; align-items:center; padding-bottom:4px;}
-.ctrl-group{display:flex; align-items:center; gap:8px; flex-wrap:wrap; justify-content:center;}
-.ctrl-label{font-size:.72rem; color:var(--soft); text-transform:uppercase; letter-spacing:1.4px; font-weight:700; margin-right:5px;}
+.controls{display:flex; flex-wrap:wrap; gap:8px 14px; justify-content:center; align-items:center; padding-bottom:2px;}
+.ctrl-group{display:flex; align-items:center; gap:6px; flex-wrap:wrap; justify-content:center;}
+.ctrl-label{font-size:.7rem; color:var(--soft); text-transform:uppercase; letter-spacing:1.2px; font-weight:700; margin-right:2px;}
+/* Round-20: Time and Text stay visible; Practice, Width and Custom are settings
+   people change after they have typed once, so they collapse into one row.
+   Four visible rows of chips cost 228px and pushed the first typeable word
+   below the fold on a 1280x800 laptop. */
+.ctrl-more{display:flex; align-items:center; gap:8px; flex-wrap:wrap; justify-content:center;}
+.ctrl-more>summary{cursor:pointer; list-style:none; background:var(--panel2); border:1px solid var(--line); color:var(--soft);
+  border-radius:999px; padding:9px 16px; min-height:44px; display:inline-flex; align-items:center; font-size:.82rem; font-weight:600;}
+.ctrl-more>summary::-webkit-details-marker{display:none;}
+.ctrl-more>summary::before{content:"\2699  ";}
+.ctrl-more[open]>summary{margin-bottom:8px;}
 .chip{background:var(--panel2); border:1px solid var(--line); color:var(--soft); border-radius:999px;
   padding:9px 18px; min-height:44px; display:inline-flex; align-items:center; font-size:.86rem; cursor:pointer; font-weight:600; transition:background .12s ease-in-out, color .12s ease-in-out, border-color .12s ease-in-out, box-shadow .12s ease-in-out;}
 .chip:hover{color:var(--text); border-color:var(--borderhi); background:var(--panelhi); box-shadow:0 0 0 2px rgba(255,201,60,.12);}
@@ -186,6 +197,23 @@ footer a:hover{color:var(--accent); text-decoration:underline;}
   .controls{gap:16px;}
   .panel{padding:17px;}
   #text{padding:17px 16px;}
+  /* Round-20: on a phone the chip rows alone cost 316px, which put the first
+     typeable word at 863px in an 844px viewport. Shrink the chips instead of
+     hiding the text-mode row — Quotes/Numbers/Words are primary controls, and
+     hiding them behind Options made the mode unreachable without a tap. */
+  .controls{gap:6px;}
+  .chip{min-height:36px;padding:6px 12px;font-size:.78rem;}
+  .ctrl-label{font-size:.62rem;letter-spacing:.8px;}
+  .controls>.ctrl-more{flex:1 1 100%;justify-content:center;}
+  .ctrl-more>summary{font-size:.78rem;min-height:36px;padding:6px 12px;}
+  .ctrl-more .ctrl-group{display:flex;flex-wrap:wrap;justify-content:center;gap:6px;}
+  .hero h1{font-size:1.55rem;}
+  .hero p{font-size:.9rem;line-height:1.55;}
+  .stats{margin:12px 0 4px;padding-top:12px;}
+  .stat .num{font-size:1.35rem;}
+  .custombox{margin-top:8px;}
+  header.top{padding-bottom:6px;}
+  .tr-bar{margin-top:4px;}
 }
 
 html[data-theme="light"]{
@@ -346,6 +374,11 @@ body.typing-active footer{opacity:.26;filter:saturate(.72);pointer-events:none;}
 #customInput:focus{outline:none;border-color:var(--accent);}
 .custom-actions{display:flex;gap:8px;margin-top:9px;}
 .tldr{max-width:60ch;border-left:3px solid var(--accent);padding:8px 14px;background:var(--panel2);border-radius:0 8px 8px 0;text-align:left;margin-left:auto;margin-right:auto;}
+/* Round-20: the TL;DR used to sit between the h1 and the test, pushing the
+   first typeable word to 1049px on a 1280x800 viewport. It keeps its GEO value
+   below the tool instead of in front of it. */
+.tldr-wrap{max-width:900px;margin:0 auto 18px;}
+.tldr-wrap .tldr{margin:0 auto;font-size:.92rem;line-height:1.75;}
 /* ---------- R11: 工具聚焦 + SEO 折叠 ---------- */
 .seo{transition:max-height .35s ease-in-out, padding .35s ease-in-out, margin .35s ease-in-out, opacity .25s ease-in-out;}
 .faq{transition:max-height .35s ease-in-out, padding .35s ease-in-out, margin .35s ease-in-out, opacity .25s ease-in-out;}
@@ -357,6 +390,18 @@ body.typing-active footer{opacity:.26;filter:saturate(.72);pointer-events:none;}
 /* ---------- R9: footer 分组折叠 ---------- */
 .foot-more-toggle{cursor:pointer;transition:color .15s;}
 .foot-more-toggle:hover{color:var(--text);}
+
+/* Round-20: body-level related block. The footer already links every page
+   (gate 12), so this block is where topic-relevant links live — in the body,
+   where they carry weight and where a reader can actually use them. */
+.related{max-width:900px;margin:26px auto 8px;padding-top:18px;border-top:1px solid var(--line);}
+.related h2{font-size:1rem;font-weight:700;color:var(--soft);text-transform:uppercase;letter-spacing:1.1px;margin:0 0 10px;}
+.related ul{list-style:none;margin:0;padding:0;display:flex;flex-wrap:wrap;gap:8px;}
+.related li{margin:0;}
+.related a{display:inline-flex;align-items:center;min-height:38px;padding:7px 14px;border:1px solid var(--line);
+  border-radius:999px;background:var(--panel2);color:var(--soft);font-size:.84rem;font-weight:600;text-decoration:none;}
+.related a:hover{color:var(--text);border-color:var(--borderhi);background:var(--panelhi);}
+@media(max-width:560px){.related a{min-height:34px;padding:6px 12px;font-size:.8rem;}}
 </style>
 <script>try{var _t=localStorage.getItem("trTheme");if(_t&&_t!=="dark")document.documentElement.setAttribute("data-theme",_t);var _l=localStorage.getItem("trLang");if(_l&&_l!=="en"){document.documentElement.lang=_l;if(_l==="ar")document.documentElement.dir="rtl";}}catch(e){}</script>
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1401237223139327"
@@ -378,7 +423,6 @@ body.typing-active footer{opacity:.26;filter:saturate(.72);pointer-events:none;}
 
   <section class="hero">
     <h1>1 Minute Typing Test</h1>
-    <p class="tldr"><strong>TL;DR:</strong> A 1 minute typing test is the standard 60-second check of typing speed: type the passage for exactly one minute, then get instant WPM, accuracy, and error counts. WPM is scored as correct characters divided by 5 divided by 1 minute, so 300 correct characters equals 60 WPM, with both raw and net (errors subtracted) scores shown. Under 30 WPM marks a beginner, 40 to 60 WPM covers the average adult range, 60-plus beats roughly three-quarters of test takers, and 80-plus is professional level. One minute is the length employers and certificates use most, making scores directly comparable.</p>
     <p>Test your typing speed in exactly <strong>60 seconds</strong>. This one minute typing test measures your words per minute (WPM) and accuracy — the standard quick check most typing sites use.</p>
   </section>
 
@@ -401,6 +445,8 @@ body.typing-active footer{opacity:.26;filter:saturate(.72);pointer-events:none;}
         <button type="button" class="chip mode" data-m="numbers" data-i18n="m_numbers" aria-pressed="false">Numbers</button>
         <button type="button" class="chip mode" data-m="words" data-i18n="m_words" aria-pressed="false">Words</button>
       </div>
+      <details class="ctrl-more">
+        <summary>Options</summary>
       <div class="ctrl-group">
         <span class="ctrl-label" data-i18n="practice">Practice</span>
         <a class="chip link" href="dvorak-typing.html" data-i18n="p_dvorak">Dvorak</a>
@@ -414,6 +460,7 @@ body.typing-active footer{opacity:.26;filter:saturate(.72);pointer-events:none;}
         <button type="button" class="chip width" data-w="xwide" data-i18n="w_xwide" aria-pressed="false">X-Wide</button>
         <button type="button" class="chip width" data-w="fluid" data-i18n="w_fluid" aria-pressed="false">Full</button>
       </div>
+      </details>
     </div>
     <details class="custombox">
       <summary data-i18n="custom_text">Custom text</summary>
@@ -479,6 +526,15 @@ body.typing-active footer{opacity:.26;filter:saturate(.72);pointer-events:none;}
     </div>
   </div>
 
+  <div class="tldr-wrap">
+    <p class="tldr"><strong>TL;DR:</strong> A 1 minute typing test is the standard 60-second check of typing speed: type the passage for exactly one minute, then get instant WPM, accuracy, and error counts. WPM is scored as correct characters divided by 5 divided by 1 minute, so 300 correct characters equals 60 WPM, with both raw and net (errors subtracted) scores shown. Under 30 WPM marks a beginner, 40 to 60 WPM covers the average adult range, 60-plus beats roughly three-quarters of test takers, and 80-plus is professional level. One minute is the length employers and certificates use most, making scores directly comparable.</p>
+  </div>
+
+  <nav class="related" aria-label="Other test lengths">
+    <h2>Other test lengths</h2>
+    <ul><li><a href="10-minute-typing-test.html">10 Minute Typing Test</a></li><li><a href="2-minute-typing-test.html">2 Minute Typing Test</a></li><li><a href="3-minute-typing-test.html">3 Minute Typing Test</a></li><li><a href="30-second-typing-test.html">30 Second Typing Test</a></li><li><a href="5-minute-typing-test.html">5 Minute Typing Test</a></li><li><a href="timed-typing-test.html">Timed Typing Test</a></li></ul>
+  </nav>
+
   <section class="seo">
     <h2>1 minute typing test</h2>
     <p>A <strong>1 minute typing test</strong> is the standard way to measure typing speed: you type a passage for exactly sixty seconds, then read your score in words per minute (WPM) and accuracy. One minute is long enough to smooth out a lucky or unlucky burst, and short enough that you can retake it every day without thinking about it. Most schools, employers and online benchmarks quote speed from a sixty-second run, which makes this the most comparable single measurement in typing.</p>
@@ -526,6 +582,10 @@ body.typing-active footer{opacity:.26;filter:saturate(.72);pointer-events:none;}
     <h2>What to do after a one minute test</h2>
     <p>A single number is not progress. Log the score, then use the <a href="typing-practice.html">typing practice plan</a> for a week and retake the same length under the same conditions. If the score moves, keep the routine; if it stalls, the <a href="how-to-get-better-at-typing.html">how to get better at typing</a> guide explains which drill matches which bottleneck.</p>
     <p>If you are still looking at the keyboard while you type, the ceiling on this score is technique rather than finger speed: the <a href="https://en.wikipedia.org/wiki/Touch_typing" rel="noopener">home-row method behind touch typing</a> is what lets a sixty-second round be read from the screen instead of copied from the keys.</p>
+    <h2>Sources for the numbers on this page</h2>
+    <p>Speed and accuracy figures quoted here follow the largest published study of everyday typing: <a href="https://doi.org/10.1145/3173574.3174220" rel="noopener">Dhakal et al., CHI 2018</a>, <em>Observations on Typing from 136 Million Keystrokes</em>, which measured 136,857,600 keystrokes from 168,960 volunteers. It reports a mean of 51.56 WPM (SD 20.2), a mean uncorrected error rate of 1.17%, and a mean keystrokes-per-character rate of 1.173. Those are the numbers this page's bands are checked against.</p>
+    <p>The claim that finger consistency and keypress preparation predict speed — more than which finger presses which key — comes from <a href="https://doi.org/10.1145/2858036.2858233" rel="noopener">Feit, Weir and Oulasvirta, CHI 2016</a>, a motion-capture study of 36 typists. The two studies disagree on how much formal touch-typing training matters, and this page says so where it matters rather than picking the tidier result.</p>
+    <p>Where a figure is an estimate rather than a measurement — job requirements, age bands, exam cut-offs — it is drawn from the ranges employers and exam boards publish and is labelled as an estimate. Nothing on this page is a benchmark we ran ourselves.</p>
     <h2>About this page</h2>
     <p>Last updated 2026-10-20. Written and maintained by the Typing.Rerivo team; scoring formulas, sources and corrections policy are documented on the <a href="about.html">about page</a>.</p>
     <p class="byline">By <a href="about.html">the Typing.Rerivo team</a> &mdash; we build and maintain this typing test. Scoring formulas and the benchmarks used on our pages are documented in the methodology notes on our <a href="about.html">about page</a>, along with the sources we cite. </p>

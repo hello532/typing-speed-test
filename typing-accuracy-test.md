@@ -20,6 +20,14 @@ A blazing WPM means little if half your words need fixing. Every mistake costs a
 
 Start slower than feels natural and let correct keystrokes build muscle memory — rushing only teaches your fingers the wrong moves. Watch for your personal problem keys (often the top row and punctuation), keep a light, even rhythm, and resist the urge to glance at the keyboard. Aim to hold accuracy above 97% before you push for speed.
 
+## Sources for the numbers on this page
+
+Speed and accuracy figures quoted here follow the largest published study of everyday typing: Dhakal et al., CHI 2018, Observations on Typing from 136 Million Keystrokes, which measured 136,857,600 keystrokes from 168,960 volunteers. It reports a mean of 51.56 WPM (SD 20.2), a mean uncorrected error rate of 1.17%, and a mean keystrokes-per-character rate of 1.173. Those are the numbers this page's bands are checked against.
+
+The claim that finger consistency and keypress preparation predict speed — more than which finger presses which key — comes from Feit, Weir and Oulasvirta, CHI 2016, a motion-capture study of 36 typists. The two studies disagree on how much formal touch-typing training matters, and this page says so where it matters rather than picking the tidier result.
+
+Where a figure is an estimate rather than a measurement — job requirements, age bands, exam cut-offs — it is drawn from the ranges employers and exam boards publish and is labelled as an estimate. Nothing on this page is a benchmark we ran ourselves.
+
 ## Speed and accuracy together
 
 The two metrics feed each other: how to type faster and more accurately explains the error-cost math, and typing speed improvement tips puts accuracy first for a reason.

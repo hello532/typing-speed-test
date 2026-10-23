@@ -34,6 +34,7 @@
 {{LD_BREADCRUMB}}
 {{LD_ORG}}
 {{LD_SITE}}
+{{LD_ARTICLE}}
 <style>
 {{CSS}}
 </style>
@@ -48,7 +49,6 @@
 {{CRUMBS}}
   <section class="hero">
     <h1>{{H1}}</h1>
-{{TLDR}}
     <p>{{HERO_P}}</p>
   </section>
 
@@ -71,6 +71,8 @@
         {{CHIP_MODE_NUMBERS}}
         {{CHIP_MODE_WORDS}}
       </div>
+      <details class="ctrl-more">
+        <summary>Options</summary>
       <div class="ctrl-group">
         <span class="ctrl-label" data-i18n="practice">Practice</span>
         <a class="chip link" href="dvorak-typing.html" data-i18n="p_dvorak">Dvorak</a>
@@ -84,6 +86,7 @@
         <button type="button" class="chip width" data-w="xwide" data-i18n="w_xwide" aria-pressed="false">X-Wide</button>
         <button type="button" class="chip width" data-w="fluid" data-i18n="w_fluid" aria-pressed="false">Full</button>
       </div>
+      </details>
     </div>
     <details class="custombox">
       <summary data-i18n="custom_text">Custom text</summary>
@@ -114,6 +117,12 @@
   </div>
 
   {{RESULT}}
+
+  <div class="tldr-wrap">
+{{TLDR}}
+  </div>
+
+{{RELATED}}
 
   {{SEO}}
 
