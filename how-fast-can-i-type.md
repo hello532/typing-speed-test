@@ -4,28 +4,47 @@ Source: https://typing.rerivo.com/how-fast-can-i-type.html
 
 One minute is all it takes to answer the question. Type the passage and get your words per minute and accuracy instantly.
 
-Words per minute, or WPM, is the standard measure of typing speed. It is calculated from the number of correctly typed characters divided by five — the average length of an English word — over the time you typed. This page gives you a clean one-minute reading.
+Take the 60-second test on this page and read net WPM from the results panel. That number is your current speed on this text at this length - not a permanent trait, and not directly comparable to a five-minute score.
 
-The average adult types around 40 WPM. Under 30 WPM is below average, 40 to 60 WPM is exactly average to comfortable, 60 to 80 WPM is fast, and above 100 WPM is rare and professional-level. These figures are for typing on a keyboard in your own language.
+If you need a number to quote to an employer or on a form, run a five-minute test instead. It reads 5-10 WPM lower and it is the figure that can be reproduced.
 
-Speed without accuracy is misleading. A 70 WPM score at 88% accuracy is worth less than 55 WPM at 99%, because in real typing you have to fix every error. Always read the two numbers together.
+Your WPM | Percentile (approx.) | Reading
+under 26 | bottom 10% | Hunting for keys; typing is the bottleneck
+26-40 | 10th-28th | Two-finger or untrained touch typing
+40-52 | 28th-50% | Average adult; enough for most office work
+52-65 | 50th-75th | Comfortable all-day typing
+65-78 | 75th-90th | Above almost every job requirement
+78+ | top 10% | Professional typists, transcribers, developers
 
-Almost certainly yes. Almost everyone can gain ten to twenty words per minute by learning to touch type with all ten fingers and by drilling the specific keys that make them hesitate. Ten focused minutes a day is enough.
+Percentiles come from the CHI 2018 sample of 168,960 volunteers (mean 51.56 WPM, SD 20.2), approximated as a normal distribution. The percentile page converts any score exactly.
+
+Length. A 15-second burst reads 5-10 WPM above a five-minute run.
+Text. Random words score lower than sentences; code and digits lower again.
+Scoring. Gross WPM counts every character; net subtracts errors.
+Keyboard. A laptop chiclet board is slower than a mechanical one for most people, and a phone is about 15 WPM slower again.
+
+If you are under 40 WPM, the fastest gain is stopping the look-at-keyboard habit: one covered round a day for two weeks typically adds 5-8 WPM. If you are between 40 and 60, work on accuracy at speed - 30-second sprints at 90% of your maximum, checked every round. Above 60, the limiting factor becomes consistency and look-ahead reading rather than force.
+
+Then re-test at the same length and time of day. Comparing a 9am five-minute score with a midnight one-minute score tells you nothing except that you were tired.
 
 ## How Fast Can I Type FAQ
 
-### How fast can the average person type?
+### How fast can I type?
 
-The average adult types about 40 words per minute. Anything above 60 WPM is considered fast and 80 WPM or more is top-tier.
+Take the 60-second test on this page and read net WPM. For a number to quote, use a five-minute test - it reads 5-10 WPM lower and is reproducible.
 
-### How is typing speed measured?
+### What is the average typing speed?
 
-In words per minute, where one word equals five typed characters. Your WPM is the correct characters divided by five, per minute.
+51.56 WPM from the CHI 2018 study of 168,960 volunteers, with a standard deviation of 20.2. Older sources quoting 40 WPM describe office-worker samples instead.
 
-### How fast can I type in a minute?
+### Why is my score different on different sites?
 
-Take the one-minute test on this page — it gives you your exact words-per-minute score plus an accuracy percentage in sixty seconds.
+Test length, text type and scoring method all move the result by 5-10 WPM. A 15-second gross score and a five-minute net score are not the same measurement.
 
-### Is there a way to type faster?
+### Can I type faster with two fingers?
 
-Yes: learn to touch type with all ten fingers, keep accuracy above 97%, and practise deliberately for about ten minutes a day. Most people can add 10 to 20 WPM.
+You can reach about 35-40 WPM, then it plateaus. Two-finger typing needs a visual target for every keystroke, which caps the speed regardless of practice.
+
+### How quickly can I improve?
+
+5-8 WPM in two weeks is typical at the start, mostly from removing bad habits. Gains slow above 60 WPM, where months of consistency work replace quick fixes.

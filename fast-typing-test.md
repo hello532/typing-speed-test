@@ -4,28 +4,41 @@ Source: https://typing.rerivo.com/fast-typing-test.html
 
 Already comfortable on the keyboard? Measure just how fast you really are — and find the ceiling you can push past.
 
-The average person types around 40 words per minute. Above 60 WPM you are quicker than most people you will meet, and 80 WPM or more puts you in the top few percent of typists. Professional transcriptionists and programmers often sit between 80 and 120 WPM.
+Fast is relative but the bands are stable: 60 WPM is the 66th percentile, 78 WPM starts the top 10%, and 100 WPM is roughly the top 1%. Anything above 60 clears every clerical job requirement; above 80, extra speed is a personal project rather than an employability gain.
 
-Fast typists are not just fast — they are accurate. They touch type all ten fingers on the home row, keep their hands anchored, and read a few words ahead so their eyes never stall on a hard word. Raw finger speed matters far less than never breaking rhythm.
+Be careful with the word "fast" on a test that runs 60 seconds. A one-minute score reads 5-10 WPM higher than a five-minute score for the same typist, so a "fast" one-minute number can sit at average on a real working test.
 
-Once you are fast, big gains come from fixing the few keys that cost you time. Turn on the on-screen keyboard highlight and notice which letters make you hesitate — then drill those. A single problem key fixed can add several words per minute.
+Three factors, in order: whether they were ever taught to touch type, how much they type daily, and how they handle errors. Finger strength and keyboard quality matter far less than most people assume.
 
-A fast typing test is also a pressure test. Type for one minute at maximum effort, then look at the accuracy figure: if it dropped below 90%, you are typing beyond your control and would score higher by easing off slightly.
+The error-handling difference is the one people miss. Fast typists let minor slips go in throwaway words and fix the ones that matter; slower typists backspace through both, which costs the time they just gained.
+
+Covered rounds: one a day, hands hidden. Removes the look-down cycle that caps most people at 35-40.
+15-second bursts: maximum speed, ten per session, twice a week. Trains the top end you cannot reach in a minute.
+Bigram work: the twenty most common letter pairs (th, he, in, er, an, re). Practising transitions moves 50-65 faster than practising words.
+Accuracy rounds: 90% of your pace with zero tolerance. The gains compound into the longer tests where numbers actually live.
+
+Run the test in the conditions you will be judged in: same length, same time of day, an unfamiliar keyboard if an interview is coming. Then quote the number you can reproduce, not your best.
+
+If a test shows a sudden 10 WPM jump, check whether the text was unusually easy or the length unusually short before believing it. Most "breakthroughs" are measurement changes.
 
 ## Fast Typing Test FAQ
 
-### What is considered fast typing?
+### What is a fast typing speed?
 
-Anything above 60 words per minute is fast for a general typist. 80 WPM or more is top-tier, and professional typists often reach 100 to 120 WPM.
+60 WPM is above two thirds of measured typists, 78 WPM is the top 10%, and 100 WPM is about the top 1%. Above 80, no ordinary job asks for more.
 
-### What is the fastest typing speed ever?
+### Why is my one-minute score higher than my five-minute score?
 
-The all-time English record is above 200 words per minute, but that is a specialised achievement. For everyday users, 80 to 100 WPM already puts you in the top 1%.
+The first thirty seconds are warm-up pace you cannot hold. A one-minute test reads 5-10 WPM above a five-minute test for the same typist.
 
-### How can I type faster?
+### Can I become a fast typist with two fingers?
 
-Touch type with all ten fingers, keep accuracy above 97%, and drill the specific keys that make you hesitate. Speed follows clean technique, not rushing.
+No. Two-finger typing plateaus around 35-40 WPM because each keystroke needs a visual target. Past that, ten fingers and no looking are the requirement.
 
-### Is this fast typing test free?
+### How long does it take to get fast?
 
-Yes, free and no sign-up.
+From 30 to 50 WPM usually takes one to three months of short daily practice; 50 to 70 takes longer; 70 to 90 is typically measured in months to years.
+
+### Does a mechanical keyboard make you faster?
+
+Slightly, for most people - shorter travel and clearer feedback. It is worth 3-8 WPM at best, well behind touch typing and error handling.

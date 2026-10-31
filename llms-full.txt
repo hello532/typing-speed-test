@@ -1486,15 +1486,23 @@ Source: https://typing.rerivo.com/paragraph-typing-test.html
 
 Practise with full paragraphs instead of single words — the format real typing exams and job tests use.
 
-A word test flashes a list of common words, which rewards pure finger speed. A paragraph typing test gives you connected sentences with spaces, capitals and punctuation — closer to what you actually type at work, and to what most exams and employers set.
-Paragraphs make you hold rhythm across long familiar phrases, returning to the home row for capitals and reaching for the comma and full stop without breaking flow. Because the text is real language, you also cannot autopilot a short list of repeated words — you have to read ahead.
-Use the timer chips to sit a 1-minute paragraph for a quick check, a 5-minute paragraph for practice, or a 10-minute paragraph for full exam stamina. Longer passages expose the speed decay that short bursts hide.
-Start typing and keep going until the timer runs out. Your WPM, accuracy and a per-second speed chart appear straight away. Practise two or three passages a day and review where your accuracy drops — that is where the lost words per minute hide.
+A word-list test (the monkeytype style) shows one word at a time and rewards raw reaction. A paragraph test shows continuous prose, so it also measures reading ahead, punctuation, capitals, and the ability to hold a rhythm across sentences.
+Employers test with paragraphs because that is what the job looks like: continuous text with full stops, names, commas and the occasional number. A word-list score is a training metric; a paragraph score is a work metric.
+Three reasons. Punctuation and capitals add keystrokes that a word list omits. Sentence structure means the next word is predictable, but only if you read ahead - which most typists do not. And length means fatigue enters: errors in the fourth minute are usually attention, not technique.
+The result is a score typically 5-15% lower than the same typist's word-list number, and 5-10 WPM lower than a one-minute burst on the same text.
+Length | What it measures | Use it when
+1 minute | Burst speed | Daily warm-up, quick comparison
+3 minutes | Common screening length | Interview practice, exam rehearsal
+5 minutes | Working pace | The number you quote; matches most job standards
+10 minutes | Endurance | Transcription, data entry, long document work
+Start with one minute to warm up, then run a five-minute round and record net WPM plus accuracy. If accuracy is under 96%, stop chasing speed and run accuracy rounds for a week - it is the cheaper fix.
+For exam-style practice, use the same length as the exam and include punctuation. For a written job test, add one round of the quotes test, which is the closest thing to real document text. A paragraph score is only useful if you can reproduce it on a second attempt, at a different time of day, on a keyboard you have not warmed up on.
 ## Paragraph Typing Test FAQ
-It is a typing test where you copy a full passage of connected sentences rather than a list of single words, so capitals, spaces and punctuation count just as they do in real writing.
-Exam passages are usually 300 to 500 words. On this page you choose 1, 2, 3, 5 or 10 minutes so you can practise the exact length your exam or employer uses.
-Yes. Real sentences add capitals, punctuation and reading ahead, so scores are typically a little lower than a pure word-list test — but far closer to your true working speed.
-Yes. This page is free, needs no sign-up, stores results only in your browser, and works on desktop and mobile.
+A test using continuous prose rather than a word list, so it measures reading ahead, punctuation and capitals alongside raw speed.
+Punctuation and capitals add keystrokes, sentence structure requires reading ahead, and length introduces fatigue. A 5-15% lower score is normal.
+Five minutes for a number you can quote, three minutes to match most screening tests, ten minutes for transcription and data-entry work.
+Paragraphs, because that is what the work looks like. Word-list scores are useful for training but they are not what screening tools measure.
+Yes. Paragraph, passage and prose tests all mean continuous text; the differences are length and difficulty, not format.
 
 ## Beginner Typing Test
 Source: https://typing.rerivo.com/beginner-typing-test.html
@@ -1532,60 +1540,94 @@ Source: https://typing.rerivo.com/fast-typing-test.html
 
 Already comfortable on the keyboard? Measure just how fast you really are — and find the ceiling you can push past.
 
-The average person types around 40 words per minute. Above 60 WPM you are quicker than most people you will meet, and 80 WPM or more puts you in the top few percent of typists. Professional transcriptionists and programmers often sit between 80 and 120 WPM.
-Fast typists are not just fast — they are accurate. They touch type all ten fingers on the home row, keep their hands anchored, and read a few words ahead so their eyes never stall on a hard word. Raw finger speed matters far less than never breaking rhythm.
-Once you are fast, big gains come from fixing the few keys that cost you time. Turn on the on-screen keyboard highlight and notice which letters make you hesitate — then drill those. A single problem key fixed can add several words per minute.
-A fast typing test is also a pressure test. Type for one minute at maximum effort, then look at the accuracy figure: if it dropped below 90%, you are typing beyond your control and would score higher by easing off slightly.
+Fast is relative but the bands are stable: 60 WPM is the 66th percentile, 78 WPM starts the top 10%, and 100 WPM is roughly the top 1%. Anything above 60 clears every clerical job requirement; above 80, extra speed is a personal project rather than an employability gain.
+Be careful with the word "fast" on a test that runs 60 seconds. A one-minute score reads 5-10 WPM higher than a five-minute score for the same typist, so a "fast" one-minute number can sit at average on a real working test.
+Three factors, in order: whether they were ever taught to touch type, how much they type daily, and how they handle errors. Finger strength and keyboard quality matter far less than most people assume.
+The error-handling difference is the one people miss. Fast typists let minor slips go in throwaway words and fix the ones that matter; slower typists backspace through both, which costs the time they just gained.
+Covered rounds: one a day, hands hidden. Removes the look-down cycle that caps most people at 35-40.
+15-second bursts: maximum speed, ten per session, twice a week. Trains the top end you cannot reach in a minute.
+Bigram work: the twenty most common letter pairs (th, he, in, er, an, re). Practising transitions moves 50-65 faster than practising words.
+Accuracy rounds: 90% of your pace with zero tolerance. The gains compound into the longer tests where numbers actually live.
+Run the test in the conditions you will be judged in: same length, same time of day, an unfamiliar keyboard if an interview is coming. Then quote the number you can reproduce, not your best.
+If a test shows a sudden 10 WPM jump, check whether the text was unusually easy or the length unusually short before believing it. Most "breakthroughs" are measurement changes.
 ## Fast Typing Test FAQ
-Anything above 60 words per minute is fast for a general typist. 80 WPM or more is top-tier, and professional typists often reach 100 to 120 WPM.
-The all-time English record is above 200 words per minute, but that is a specialised achievement. For everyday users, 80 to 100 WPM already puts you in the top 1%.
-Touch type with all ten fingers, keep accuracy above 97%, and drill the specific keys that make you hesitate. Speed follows clean technique, not rushing.
-Yes, free and no sign-up.
+60 WPM is above two thirds of measured typists, 78 WPM is the top 10%, and 100 WPM is about the top 1%. Above 80, no ordinary job asks for more.
+The first thirty seconds are warm-up pace you cannot hold. A one-minute test reads 5-10 WPM above a five-minute test for the same typist.
+No. Two-finger typing plateaus around 35-40 WPM because each keystroke needs a visual target. Past that, ten fingers and no looking are the requirement.
+From 30 to 50 WPM usually takes one to three months of short daily practice; 50 to 70 takes longer; 70 to 90 is typically measured in months to years.
+Slightly, for most people - shorter travel and clearer feedback. It is worth 3-8 WPM at best, well behind touch typing and error handling.
 
 ## Hard Typing Test
 Source: https://typing.rerivo.com/hard-typing-test.html
 
 Easy text hides weak fingers. This hard test adds capitals, symbols and numbers so every part of the keyboard gets a workout.
 
-Real documents are not lists of clean short words. They contain capital letters, commas, apostrophes, dashes, numbers and long multi-syllable words. This hard test mixes all of them so you practise the reaches that a simple word test never touches.
-A sudden shift to a capital sends your hand away from the home row; a number row stretch breaks your rhythm; heavy punctuation makes you hunt for a key you rarely use. Those are exactly the moments where speed and accuracy leak away in real work.
-Slow your overall rate just enough to keep accuracy high, and use the correct fingers even for the awkward keys — the number row and both little fingers are the usual weak spots. Practising hard text on purpose is how easy text becomes effortless.
-If you already hold 90%+ accuracy on normal passages and want to keep improving, hard mixed text is your next challenge. Expect your WPM to dip at first; that is the point — you are training new reaches, and speed returns higher.
+Four things, in order of impact: mixed capitals (Shift with the opposite hand, every time), digits (extended reaches with no tactile landmark), punctuation (often a two-key combination), and long words (more consecutive keystrokes with no space to reset).
+A fifth factor is unfamiliar vocabulary. You cannot predict the next letters of a word you have never seen, so reading slows and the hands wait. That is why technical passages feel harder than their letter count suggests.
+On easy text, speed is mostly finger speed. On hard text it is mostly error economy: typists at the same WPM diverge by 10-15% because one group backspaces through every slip and the other lets a throwaway word go.
+It also exposes Shift discipline. Watch your accuracy fall on proper nouns and sentence starts: if it drops more than elsewhere, the opposite-hand rule is not yet automatic.
+Slow to the pace where errors stay under 2%, and hold it for the full round. A clean 45 on hard text is a better signal than a sloppy 60, because the second number cannot be reproduced on a document that matters.
+Do not skip capitals or punctuation to type faster. On every mainstream test an omitted character counts as an error, and in real work - a legal filing, an invoice, an email - it is worse than slow.
+Move up when you can hold 97% accuracy on sentences at your target speed. If you are below that, hard text will only teach you to make errors faster.
+Use hard mode as a weekly check rather than a daily drill: it is diagnostic, not a routine. The daily work stays on the specific weakness it reveals - digits, capitals, or punctuation. Run the same hard passage twice a month: the score that matters is the second one, because it is the only one you have practised for.
 ## Hard Typing Test FAQ
-Difficult tests include capital letters, numbers, symbols, uncommon words and punctuation, forcing reaches far from the home row instead of simple repeated words.
-Because your hand has to leave the home row for capitals and the number row, and unusual words slow your reading ahead. A lower score on hard text is normal.
-Yes, if you already type normal text accurately. Hard passages train the reaches that ordinary practice ignores, which raises your ceiling.
-Yes, free and with no sign-up.
+A test using text with mixed capitals, digits, punctuation and long or unfamiliar words, so the score reflects accuracy and control rather than speed on easy sentences.
+45-55 WPM net with 97% accuracy is strong. Expect 10-20% below your easy-text score; the gap is the measure of how much your speed depends on predictable words.
+Each capital needs Shift pressed with the opposite hand plus a quick return to the home row. Untrained typists use one hand for both, which breaks the hand position.
+No. Use it weekly as a diagnostic, then spend the daily sessions on the specific weakness it exposes - digits, capitals or punctuation.
+Yes. An omitted capital or full stop is an error on every mainstream typing test, and in real documents it is worse than being slow.
 
 ## Advanced Typing Test
 Source: https://typing.rerivo.com/advanced-typing-test.html
 
 For people who already type well: a demanding passage and honest scoring to see whether you belong in the top percentile.
 
-If you already clear 60 WPM comfortably, an easy test tells you nothing. This advanced test uses longer, richer passages and expects full command of capitals, punctuation and the number row — a genuine stretch for a practised touch typist.
-Professional transcriptionists, programmers and typists working from dictation live between 80 and 120 WPM. An advanced target is 80 WPM or more at 98% accuracy; anything above 100 WPM is elite and rare.
-At this level you are not limited by finger speed but by attention: reading far ahead, holding rhythm through difficult phrases, and never looking at your hands. Small reductions in hesitation, not faster fingers, are what move an advanced score upward.
-Take this test monthly and record your net WPM. Because the passages are demanding and consistent, a rising score here is a far better signal of genuine progress than a lucky 10-second sprint.
+Advanced starts around 70 WPM net on a five-minute test, which is roughly the 82nd percentile of the largest published sample (mean 51.56, SD 20.2). At 80 WPM you are in the top decile; at 100 WPM, the top 1%.
+This page uses longer passages, mixed vocabulary and heavier punctuation so the score reflects sustained control rather than a lucky burst. A one-minute round on easy words will read 8-12 WPM higher than this test, and that difference is the point.
+Look-ahead. At 70 WPM you read the word you are typing; at 90 you are two to four words ahead and the hands run on a buffer. This is the single biggest difference and the hardest to train.
+Error economy. Advanced typists do not avoid errors, they avoid costly errors. They let a wrong letter go in a throwaway word and fix the ones that matter, instead of backspacing through both.
+Consistency. A 90 WPM typist's ten rounds sit within a 5 WPM band; a 70 WPM typist's swing by 15. Narrowing the spread raises the average faster than sprinting raises the peak.
+Short maximum-speed bursts: ten rounds of 15 seconds, three times a week. Long rounds teach endurance you already have; bursts train the top end you cannot currently reach.
+Hard-text rounds: quotes with punctuation, pangrams, numbers. Speed on plain sentences does not transfer to a document with full stops and capitals, and most real work is the second kind.
+One ten-minute round per week, scored on the lowest of three attempts. That number is what an employer would see on a tired afternoon.
+Quote net WPM, the test length and the accuracy together: "78 WPM net, 98.5%, ten minutes". A bare number invites the assumption that it came from a fifteen-second sprint on easy words.
+Compare like with like. Published averages are five-minute net scores on sentences; a one-minute gross score on random words is not comparable, and neither is a code-typing score, which runs 10-20 WPM lower for the same typist.
+Above about 80 WPM, no clerical job asks for more. The returns are personal - competitive typing, live captioning, heavy code work - rather than employability. If your goal is a job, the next 20 WPM are worth less than a certificate and a clean CV line.
+If your goal is the score itself, accept the timeline: 70 to 80 is months, 80 to 100 is usually years, and the last ten points are mostly consistency rather than technique.
 ## Advanced Typing Test FAQ
-Around 80 words per minute with 98% accuracy or better is advanced. Above 100 WPM is elite; professional transcriptionists and programmers often sit in the 80 to 120 WPM range.
-The passages are longer and richer in capitals, punctuation and vocabulary, with number-row reaches, so it demands real technique rather than fast fingers alone.
-Once a month is enough. Advanced skill changes slowly, and a monthly net-WPM reading gives a stable, meaningful benchmark.
-Yes, free with no sign-up.
+Around 70 WPM net and above, which is roughly the 82nd percentile. 80 WPM is the top decile and 100 WPM is about the top 1% of measured typists.
+The passages are longer with heavier punctuation and mixed vocabulary. A one-minute test on easy words typically reads 8-12 WPM higher for the same typist.
+Look-ahead reading, 15-second maximum-speed bursts, and hard-text rounds. Progress is measured by narrowing the spread across ten rounds, not by the best single round.
+Yes. No clerical role requires more than about 75-80 WPM. Above that, extra speed matters only for transcription, captioning, competitive typing or heavy coding.
+Net, with the test length and accuracy. Gross scores without a stated method read as the flattering version and invite a live re-test that reads lower.
 
 ## How Fast Can I Type?
 Source: https://typing.rerivo.com/how-fast-can-i-type.html
 
 One minute is all it takes to answer the question. Type the passage and get your words per minute and accuracy instantly.
 
-Words per minute, or WPM, is the standard measure of typing speed. It is calculated from the number of correctly typed characters divided by five — the average length of an English word — over the time you typed. This page gives you a clean one-minute reading.
-The average adult types around 40 WPM. Under 30 WPM is below average, 40 to 60 WPM is exactly average to comfortable, 60 to 80 WPM is fast, and above 100 WPM is rare and professional-level. These figures are for typing on a keyboard in your own language.
-Speed without accuracy is misleading. A 70 WPM score at 88% accuracy is worth less than 55 WPM at 99%, because in real typing you have to fix every error. Always read the two numbers together.
-Almost certainly yes. Almost everyone can gain ten to twenty words per minute by learning to touch type with all ten fingers and by drilling the specific keys that make them hesitate. Ten focused minutes a day is enough.
+Take the 60-second test on this page and read net WPM from the results panel. That number is your current speed on this text at this length - not a permanent trait, and not directly comparable to a five-minute score.
+If you need a number to quote to an employer or on a form, run a five-minute test instead. It reads 5-10 WPM lower and it is the figure that can be reproduced.
+Your WPM | Percentile (approx.) | Reading
+under 26 | bottom 10% | Hunting for keys; typing is the bottleneck
+26-40 | 10th-28th | Two-finger or untrained touch typing
+40-52 | 28th-50% | Average adult; enough for most office work
+52-65 | 50th-75th | Comfortable all-day typing
+65-78 | 75th-90th | Above almost every job requirement
+78+ | top 10% | Professional typists, transcribers, developers
+Percentiles come from the CHI 2018 sample of 168,960 volunteers (mean 51.56 WPM, SD 20.2), approximated as a normal distribution. The percentile page converts any score exactly.
+Length. A 15-second burst reads 5-10 WPM above a five-minute run.
+Text. Random words score lower than sentences; code and digits lower again.
+Scoring. Gross WPM counts every character; net subtracts errors.
+Keyboard. A laptop chiclet board is slower than a mechanical one for most people, and a phone is about 15 WPM slower again.
+If you are under 40 WPM, the fastest gain is stopping the look-at-keyboard habit: one covered round a day for two weeks typically adds 5-8 WPM. If you are between 40 and 60, work on accuracy at speed - 30-second sprints at 90% of your maximum, checked every round. Above 60, the limiting factor becomes consistency and look-ahead reading rather than force.
+Then re-test at the same length and time of day. Comparing a 9am five-minute score with a midnight one-minute score tells you nothing except that you were tired.
 ## How Fast Can I Type FAQ
-The average adult types about 40 words per minute. Anything above 60 WPM is considered fast and 80 WPM or more is top-tier.
-In words per minute, where one word equals five typed characters. Your WPM is the correct characters divided by five, per minute.
-Take the one-minute test on this page — it gives you your exact words-per-minute score plus an accuracy percentage in sixty seconds.
-Yes: learn to touch type with all ten fingers, keep accuracy above 97%, and practise deliberately for about ten minutes a day. Most people can add 10 to 20 WPM.
+Take the 60-second test on this page and read net WPM. For a number to quote, use a five-minute test - it reads 5-10 WPM lower and is reproducible.
+51.56 WPM from the CHI 2018 study of 168,960 volunteers, with a standard deviation of 20.2. Older sources quoting 40 WPM describe office-worker samples instead.
+Test length, text type and scoring method all move the result by 5-10 WPM. A 15-second gross score and a five-minute net score are not the same measurement.
+You can reach about 35-40 WPM, then it plateaus. Two-finger typing needs a visual target for every keystroke, which caps the speed regardless of practice.
+5-8 WPM in two weeks is typical at the start, mostly from removing bad habits. Gains slow above 60 WPM, where months of consistency work replace quick fixes.
 
 ## Typing Test for Interview
 Source: https://typing.rerivo.com/typing-test-for-interview.html
@@ -1648,15 +1690,40 @@ Source: https://typing.rerivo.com/typing-test-for-teachers.html
 
 Teachers type constantly — lesson plans, reports, marking, emails. See where your speed sits against what the job demands.
 
-Teaching involves a constant stream of typed work: lesson plans, schemes of work, reports, feedback and parent emails. Being a comfortable typist saves hours every week and leaves more energy for the classroom.
-Teaching itself rarely sets a formal typing test, but the admin side rewards 45 WPM or more with good accuracy. Office-based education roles and school administrators often expect the same 40 to 55 WPM range as other admin jobs, and support-staff interviews may include a short timed test.
-Mark and feedback, online portals and shared documents all reward fast, accurate typing. Keeping accuracy high means fewer corrections in reports that others will read, which matters as much as speed.
-You do not need a big block of time. A one-minute test between lessons, repeated daily, is enough to lift your speed steadily. Watch the accuracy figure and aim to hold it above 96% as your WPM rises.
+On this page
+Why teachers end up typing more than they expected
+What speed is actually expected
+Running a class typing test without accounts
+Grade bands, and why they should not become a test
+Ten-minute routines that fit a school day
+The admin tasks worth automating first
+A teacher's day produces text constantly: lesson plans, differentiated worksheets, parent emails, marking comments, reports. None of it is billed as typing work, and all of it competes for the same hours as preparation and feedback.
+That is why the useful question is not "do teachers need to type fast" but "which of these tasks can be made cheap". Marking comments and parent emails are repetitive; lesson plans and feedback are not. Speed helps the first category, templates and text expansion help it more.
+No teaching qualification specifies a typing speed. The bands below come from the clerical and administrative side of education - school office, exams office, cover coordination - where postings do quote numbers.
+Role | Typical advertised band | What it is based on
+Classroom teacher (no formal requirement) | 40+ WPM comfortable | Lesson planning, marking comments, emails
+School administrator / exams officer | 45-55 WPM | Clerical postings, data entry of results
+Teaching assistant with admin duties | 40-50 WPM | Records, reports, correspondence
+Online tutoring (written feedback) | 50+ WPM | Written feedback volume per session
+If you are already at 45-50 WPM, typing is not your bottleneck and further speed work will not buy back time. The bigger wins are templates, text expansion and a marking comment bank.
+Any tool that requires student accounts creates a data-protection question, which is why this site stores results only in the browser and never server-side. For classroom use that has two practical consequences: no pupil data leaves the device, and results are not visible to you remotely.
+The workaround is simple. Pupils take a one-minute test and report the number; you record it on paper or in your own sheet. It takes about three minutes of a lesson and gives you a baseline you can compare in six weeks.
+If you want a shared record, the on-screen result can be photographed on the device rather than uploaded anywhere.
+Published classroom benchmarks put grade 3 at roughly 10-20 WPM, grade 5 at 25-35 and grade 8 at 35-45, with wide variation by school and by how much keyboarding instruction pupils actually receive.
+The risk of quoting these bands to children is that speed becomes the goal. A pupil pushed to 35 WPM with two fingers has hit a ceiling that costs years later; a pupil at 22 WPM with the home row habit will pass them inside a year. Score accuracy first, and only mention speed once the fingers are right.
+Starter (3 min): one timed round, accuracy reported before speed.
+Drill (5 min): one row or one punctuation set, typed slowly enough to be correct.
+Record (2 min): pupil writes the number down. Visible progress is the motivation; a leaderboard is not needed.
+Three sessions a week for a term is enough for most classes to move a full grade band, and it costs less curriculum time than a single extended project.
+Before chasing speed, look at what you type most often. Parent emails about the same three issues, marking comments that repeat, report phrases that differ by one clause - those are template work, and a template removes the typing entirely rather than making it faster.
+Keep the speed work for the genuinely new text: feedback that has to be specific, and plans that have to fit this class. That is where a higher WPM actually converts into time.
 ## Typing Test for Teachers FAQ
-Usually not to teach, but office-based education roles and support-staff interviews may include a short timed typing test like other administrative jobs.
-Around 45 words per minute or more with good accuracy is comfortable for the heavy admin load of teaching. Administrative roles often expect 40 to 55 WPM.
-Use short one-minute tests in spare moments during the day. Daily short sessions raise speed faster than occasional long ones.
-Yes, free with no sign-up.
+No. Teaching qualifications do not specify typing speed. School administrator and exams officer postings sometimes quote 45-55 WPM, but classroom roles do not.
+Around 40-50 WPM covers lesson planning, marking comments and parent emails. Above that, the limit is usually thinking and templates rather than keyboard speed.
+Yes. Nothing is stored server-side and results stay in the browser on the device, which is why there is no teacher dashboard and no pupil data to protect.
+Roughly 15-25 WPM at grade 4-5, with 90%+ accuracy, though bands vary widely by school. Accuracy and home-row habit matter more than the number at that age.
+Ten minutes, three times a week. Short frequent sessions build the motor pattern; a single long session mostly builds fatigue.
+Usually no. Leaderboards reward speed over accuracy, which is the opposite of what beginners need. A private record of each pupil's own number works better.
 
 ## Keyboard Practice
 Source: https://typing.rerivo.com/keyboard-practice.html
