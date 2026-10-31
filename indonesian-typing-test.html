@@ -447,6 +447,14 @@ body.typing-active footer{opacity:.26;filter:saturate(.72);pointer-events:none;}
 .finder input{width:100%;min-height:44px;padding:8px 12px;border:1px solid var(--line);border-radius:10px;background:var(--panelhi);color:var(--text);font-size:1rem;}
 .finder input:focus{outline:2px solid var(--borderhi);outline-offset:1px;}
 .finder-out{margin:10px 0 0;font-size:.88rem;color:var(--soft);}
+
+/* Round-73: wide tables must scroll, not get clipped.
+   Six-column benchmark tables exceed a 390px viewport even at width:100%,
+   because cell content sets a minimum width; the container has to scroll. */
+.tblwrap{overflow-x:auto;-webkit-overflow-scrolling:touch;margin:0 0 14px;border-radius:8px;}
+.tblwrap table{width:100%;min-width:520px;margin:0;}
+@media(max-width:560px){.tblwrap{position:relative;}
+  .tblwrap::after{content:"";display:block;height:1px;}}
 </style>
 <script>try{var _t=localStorage.getItem("trTheme");if(_t&&_t!=="dark")document.documentElement.setAttribute("data-theme",_t);var _l=localStorage.getItem("trLang");if(_l&&_l!=="en"){document.documentElement.lang=_l;if(_l==="ar")document.documentElement.dir="rtl";}}catch(e){}
 window.__trPageLang="id";</script>

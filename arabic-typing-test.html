@@ -447,6 +447,14 @@ body.typing-active footer{opacity:.26;filter:saturate(.72);pointer-events:none;}
 .finder input{width:100%;min-height:44px;padding:8px 12px;border:1px solid var(--line);border-radius:10px;background:var(--panelhi);color:var(--text);font-size:1rem;}
 .finder input:focus{outline:2px solid var(--borderhi);outline-offset:1px;}
 .finder-out{margin:10px 0 0;font-size:.88rem;color:var(--soft);}
+
+/* Round-73: wide tables must scroll, not get clipped.
+   Six-column benchmark tables exceed a 390px viewport even at width:100%,
+   because cell content sets a minimum width; the container has to scroll. */
+.tblwrap{overflow-x:auto;-webkit-overflow-scrolling:touch;margin:0 0 14px;border-radius:8px;}
+.tblwrap table{width:100%;min-width:520px;margin:0;}
+@media(max-width:560px){.tblwrap{position:relative;}
+  .tblwrap::after{content:"";display:block;height:1px;}}
 </style>
 <script>try{var _t=localStorage.getItem("trTheme");if(_t&&_t!=="dark")document.documentElement.setAttribute("data-theme",_t);var _l=localStorage.getItem("trLang");if(_l&&_l!=="en"){document.documentElement.lang=_l;if(_l==="ar")document.documentElement.dir="rtl";}}catch(e){}
 window.__trPageLang="ar";</script>
@@ -590,7 +598,7 @@ window.__trPageLang="ar";</script>
     <p>The part that catches people is direction. In a right-to-left field the cursor moves left as you type, and mixing Arabic with Latin words or numbers reverses the visual order of the run. If your accuracy collapses when a sentence contains a number or an English product name, that is bidi handling, not typing speed.</p>
     <h2 id="how-arabic-speed-is-measured">How Arabic speed is measured</h2>
     <p>Most Arabic typing tests report words per minute using the same five-characters-per-word convention as English, so the two numbers are broadly comparable - with one caveat: Arabic words are shorter on average than English words, so a text of equal character count contains more words. Compare CPM rather than WPM when you are comparing across languages.</p>
-    <table><tr><th>CPM</th><th>WPM (÷5)</th><th>Reading</th></tr><tr><td>150</td><td>30</td><td>Beginner, hunt-and-peck</td></tr><tr><td>200</td><td>40</td><td>Comfortable office speed</td></tr><tr><td>250</td><td>50</td><td>Fast for Arabic formal text</td></tr><tr><td>300+</td><td>60+</td><td>Professional, transcription level</td></tr></table>
+    <div class="tblwrap"><table><tr><th>CPM</th><th>WPM (÷5)</th><th>Reading</th></tr><tr><td>150</td><td>30</td><td>Beginner, hunt-and-peck</td></tr><tr><td>200</td><td>40</td><td>Comfortable office speed</td></tr><tr><td>250</td><td>50</td><td>Fast for Arabic formal text</td></tr><tr><td>300+</td><td>60+</td><td>Professional, transcription level</td></tr></table></div>
     <h2 id="practising-for-real-arabic-text">Practising for real Arabic text</h2>
     <p>Start with sentences without tashkeel (diacritics), because everyday writing omits them and typing them slows you down for no gain. Add them only if your work requires vocalised text - religious, educational or children's material.</p>
     <p>Then practise the pairs that cause errors: ة versus ه at word ends, ى versus ي, and the hamza carriers. Ten repetitions of one word beat one pass through ten words, because the goal is a corrected reflex rather than exposure.</p>

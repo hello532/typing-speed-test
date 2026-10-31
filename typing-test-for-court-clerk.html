@@ -432,6 +432,14 @@ body.typing-active footer{opacity:.26;filter:saturate(.72);pointer-events:none;}
 .finder input{width:100%;min-height:44px;padding:8px 12px;border:1px solid var(--line);border-radius:10px;background:var(--panelhi);color:var(--text);font-size:1rem;}
 .finder input:focus{outline:2px solid var(--borderhi);outline-offset:1px;}
 .finder-out{margin:10px 0 0;font-size:.88rem;color:var(--soft);}
+
+/* Round-73: wide tables must scroll, not get clipped.
+   Six-column benchmark tables exceed a 390px viewport even at width:100%,
+   because cell content sets a minimum width; the container has to scroll. */
+.tblwrap{overflow-x:auto;-webkit-overflow-scrolling:touch;margin:0 0 14px;border-radius:8px;}
+.tblwrap table{width:100%;min-width:520px;margin:0;}
+@media(max-width:560px){.tblwrap{position:relative;}
+  .tblwrap::after{content:"";display:block;height:1px;}}
 </style>
 <script>try{var _t=localStorage.getItem("trTheme");if(_t&&_t!=="dark")document.documentElement.setAttribute("data-theme",_t);var _l=localStorage.getItem("trLang");if(_l&&_l!=="en"){document.documentElement.lang=_l;if(_l==="ar")document.documentElement.dir="rtl";}}catch(e){}</script>
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1401237223139327"
@@ -576,7 +584,7 @@ body.typing-active footer{opacity:.26;filter:saturate(.72);pointer-events:none;}
     <p>Type a case number, check it character by character, then type the next one. Ten repetitions of the same number beat one pass through ten different numbers, because the goal is a verification habit rather than exposure to variety.</p>
     <p>Then add the field-switching behaviour: case number, Tab, filing type, Tab, date, Enter. Real docket systems move between fields, and typing a clean number followed by a wrong Tab is a lost record just the same.</p>
     <h2 id="speed-bands-and-what-they-clear">Speed bands and what they clear</h2>
-    <table><tr><th>Band</th><th>Clears</th><th>Notes</th></tr><tr><td>35-45 WPM</td><td>Entry-level clerk-typist titles</td><td>Usually paired with a data-entry exercise</td></tr><tr><td>45-55 WPM</td><td>Most court clerk and deputy clerk postings</td><td>The common advertised band</td></tr><tr><td>55+ WPM</td><td>High-volume filing desks</td><td>Accuracy floor matters more than the extra speed</td></tr></table>
+    <div class="tblwrap"><table><tr><th>Band</th><th>Clears</th><th>Notes</th></tr><tr><td>35-45 WPM</td><td>Entry-level clerk-typist titles</td><td>Usually paired with a data-entry exercise</td></tr><tr><td>45-55 WPM</td><td>Most court clerk and deputy clerk postings</td><td>The common advertised band</td></tr><tr><td>55+ WPM</td><td>High-volume filing desks</td><td>Accuracy floor matters more than the extra speed</td></tr></table></div>
     <p>Public-sector postings often state the requirement in net WPM on a five-minute sample, and some require a proctored certificate. Check the notice: the wording tells you which document they will accept.</p>
     <p class="byline">By <a href="about.html">the Typing.Rerivo team</a> &mdash; we build and maintain this typing test. Scoring formulas and the benchmarks used on our pages are documented in the methodology notes on our <a href="about.html">about page</a>, along with the sources we cite. Page last updated 2026-11-01.</p>
   </section>

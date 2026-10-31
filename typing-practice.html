@@ -432,6 +432,14 @@ body.typing-active footer{opacity:.26;filter:saturate(.72);pointer-events:none;}
 .finder input{width:100%;min-height:44px;padding:8px 12px;border:1px solid var(--line);border-radius:10px;background:var(--panelhi);color:var(--text);font-size:1rem;}
 .finder input:focus{outline:2px solid var(--borderhi);outline-offset:1px;}
 .finder-out{margin:10px 0 0;font-size:.88rem;color:var(--soft);}
+
+/* Round-73: wide tables must scroll, not get clipped.
+   Six-column benchmark tables exceed a 390px viewport even at width:100%,
+   because cell content sets a minimum width; the container has to scroll. */
+.tblwrap{overflow-x:auto;-webkit-overflow-scrolling:touch;margin:0 0 14px;border-radius:8px;}
+.tblwrap table{width:100%;min-width:520px;margin:0;}
+@media(max-width:560px){.tblwrap{position:relative;}
+  .tblwrap::after{content:"";display:block;height:1px;}}
 </style>
 <script>try{var _t=localStorage.getItem("trTheme");if(_t&&_t!=="dark")document.documentElement.setAttribute("data-theme",_t);var _l=localStorage.getItem("trLang");if(_l&&_l!=="en"){document.documentElement.lang=_l;if(_l==="ar")document.documentElement.dir="rtl";}}catch(e){}</script>
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1401237223139327"
@@ -574,7 +582,7 @@ body.typing-active footer{opacity:.26;filter:saturate(.72);pointer-events:none;}
     <p>If you have no idea where you are weak, take one <a href="typing-accuracy-test.html">accuracy test</a> and look at the error list rather than the score. The errors name the drill you need.</p>
     <p>This is deliberately short. Ten minutes, done daily, beats an hour on Sunday - the skill is motor memory and it consolidates between sessions, not during them.</p>
     <h2 id="a-four-week-practice-plan">A four-week practice plan</h2>
-    <table><tr><th>Week</th><th>Daily 10 minutes</th><th>Checkpoint (Friday)</th></tr><tr><td>1 - Remove the cap</td><td>2 min warm-up, 5 min <a href="home-row-typing-test.html">home row</a> or covered round, 3 min normal text</td><td>Accuracy above 92% without looking down</td></tr><tr><td>2 - Accuracy</td><td>2 min warm-up, 5 min <a href="typing-accuracy-test.html">accuracy</a> at 85% pace, 3 min normal text</td><td>Three consecutive rounds above 97%</td></tr><tr><td>3 - Digits and punctuation</td><td>2 min <a href="number-typing-test.html">numbers</a>, 3 min <a href="punctuation-typing-test.html">punctuation</a>, 5 min sentences</td><td>Digits at 97% accuracy, punctuation intact</td></tr><tr><td>4 - Length and pace</td><td>2 min warm-up, two 3-minute rounds, one 5-minute round</td><td>A five-minute net score you can reproduce</td></tr></table>
+    <div class="tblwrap"><table><tr><th>Week</th><th>Daily 10 minutes</th><th>Checkpoint (Friday)</th></tr><tr><td>1 - Remove the cap</td><td>2 min warm-up, 5 min <a href="home-row-typing-test.html">home row</a> or covered round, 3 min normal text</td><td>Accuracy above 92% without looking down</td></tr><tr><td>2 - Accuracy</td><td>2 min warm-up, 5 min <a href="typing-accuracy-test.html">accuracy</a> at 85% pace, 3 min normal text</td><td>Three consecutive rounds above 97%</td></tr><tr><td>3 - Digits and punctuation</td><td>2 min <a href="number-typing-test.html">numbers</a>, 3 min <a href="punctuation-typing-test.html">punctuation</a>, 5 min sentences</td><td>Digits at 97% accuracy, punctuation intact</td></tr><tr><td>4 - Length and pace</td><td>2 min warm-up, two 3-minute rounds, one 5-minute round</td><td>A five-minute net score you can reproduce</td></tr></table></div>
     <p>Each week changes exactly one variable. That is why the plan works: if you change the drill and the length and the text mode at once, a better score tells you nothing about what caused it.</p>
     <h2 id="the-four-bottlenecks-practice-must-target">The four bottlenecks practice must target</h2>
     <p>Every slow typist is slow for one of four reasons, and each needs a different drill. Accuracy bottlenecks show as a wide gap between net and raw speed — fix them with controlled rounds at a 98% floor. Speed bottlenecks show as clean but slow rounds — fix them with 15-second sprints that stretch the ceiling. Symbol bottlenecks show as collapses on numbers and punctuation — fix them with dedicated numbers and quotes rounds, because everyday prose never trains those keys.</p>

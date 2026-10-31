@@ -432,6 +432,14 @@ body.typing-active footer{opacity:.26;filter:saturate(.72);pointer-events:none;}
 .finder input{width:100%;min-height:44px;padding:8px 12px;border:1px solid var(--line);border-radius:10px;background:var(--panelhi);color:var(--text);font-size:1rem;}
 .finder input:focus{outline:2px solid var(--borderhi);outline-offset:1px;}
 .finder-out{margin:10px 0 0;font-size:.88rem;color:var(--soft);}
+
+/* Round-73: wide tables must scroll, not get clipped.
+   Six-column benchmark tables exceed a 390px viewport even at width:100%,
+   because cell content sets a minimum width; the container has to scroll. */
+.tblwrap{overflow-x:auto;-webkit-overflow-scrolling:touch;margin:0 0 14px;border-radius:8px;}
+.tblwrap table{width:100%;min-width:520px;margin:0;}
+@media(max-width:560px){.tblwrap{position:relative;}
+  .tblwrap::after{content:"";display:block;height:1px;}}
 </style>
 <script>try{var _t=localStorage.getItem("trTheme");if(_t&&_t!=="dark")document.documentElement.setAttribute("data-theme",_t);var _l=localStorage.getItem("trLang");if(_l&&_l!=="en"){document.documentElement.lang=_l;if(_l==="ar")document.documentElement.dir="rtl";}}catch(e){}</script>
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1401237223139327"
@@ -570,7 +578,7 @@ body.typing-active footer{opacity:.26;filter:saturate(.72);pointer-events:none;}
     <p>A stenotype writes syllables, not letters: multiple keys are pressed together and a chord resolves into a word or phrase. That is how 225 WPM is reachable at all. A QWERTY keyboard writes letter by letter, and the fastest competitive typists in the world top out around 200 WPM in short bursts on text they can see.</p>
     <p>So the 225 WPM requirement is not a claim that court reporters can type 225 WPM on a laptop. It is a test of realtime dictation capture through a machine built for it.</p>
     <h2 id="speed-tiers-and-what-they-qualify-you-for">Speed tiers and what they qualify you for</h2>
-    <table><tr><th>Speed</th><th>Machine</th><th>Typical meaning</th></tr><tr><td>180 WPM</td><td>Stenotype</td><td>Often the floor for graduation from a reporting program</td></tr><tr><td>200 WPM</td><td>Stenotype</td><td>Entry-level freelance work in many markets</td></tr><tr><td>225 WPM</td><td>Stenotype</td><td>The certified reporter standard, tested on live dictation</td></tr><tr><td>260 WPM</td><td>Voice or stenotype</td><td>Higher-tier certification for fast proceedings</td></tr><tr><td>60–90 WPM</td><td>QWERTY</td><td>Transcript editing, scoping, proofreading support roles</td></tr></table>
+    <div class="tblwrap"><table><tr><th>Speed</th><th>Machine</th><th>Typical meaning</th></tr><tr><td>180 WPM</td><td>Stenotype</td><td>Often the floor for graduation from a reporting program</td></tr><tr><td>200 WPM</td><td>Stenotype</td><td>Entry-level freelance work in many markets</td></tr><tr><td>225 WPM</td><td>Stenotype</td><td>The certified reporter standard, tested on live dictation</td></tr><tr><td>260 WPM</td><td>Voice or stenotype</td><td>Higher-tier certification for fast proceedings</td></tr><tr><td>60–90 WPM</td><td>QWERTY</td><td>Transcript editing, scoping, proofreading support roles</td></tr></table></div>
     <p>The lower bands are programme requirements rather than universal law: schools and states vary. Check the specific certification body before planning a timeline around one number.</p>
     <h2 id="why-a-keyboard-test-still-matters">Why a keyboard test still matters</h2>
     <p>Most working hours are not spent on the machine. They are spent editing: correcting names, fixing speaker attribution, verifying exhibit numbers and formatting the transcript. That work happens on a keyboard, and it is where a reporter's day actually goes.</p>

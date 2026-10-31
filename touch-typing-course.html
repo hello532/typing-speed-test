@@ -432,6 +432,14 @@ body.typing-active footer{opacity:.26;filter:saturate(.72);pointer-events:none;}
 .finder input{width:100%;min-height:44px;padding:8px 12px;border:1px solid var(--line);border-radius:10px;background:var(--panelhi);color:var(--text);font-size:1rem;}
 .finder input:focus{outline:2px solid var(--borderhi);outline-offset:1px;}
 .finder-out{margin:10px 0 0;font-size:.88rem;color:var(--soft);}
+
+/* Round-73: wide tables must scroll, not get clipped.
+   Six-column benchmark tables exceed a 390px viewport even at width:100%,
+   because cell content sets a minimum width; the container has to scroll. */
+.tblwrap{overflow-x:auto;-webkit-overflow-scrolling:touch;margin:0 0 14px;border-radius:8px;}
+.tblwrap table{width:100%;min-width:520px;margin:0;}
+@media(max-width:560px){.tblwrap{position:relative;}
+  .tblwrap::after{content:"";display:block;height:1px;}}
 </style>
 <script>try{var _t=localStorage.getItem("trTheme");if(_t&&_t!=="dark")document.documentElement.setAttribute("data-theme",_t);var _l=localStorage.getItem("trLang");if(_l&&_l!=="en"){document.documentElement.lang=_l;if(_l==="ar")document.documentElement.dir="rtl";}}catch(e){}</script>
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1401237223139327"
@@ -571,13 +579,13 @@ body.typing-active footer{opacity:.26;filter:saturate(.72);pointer-events:none;}
     <p>Sit so your elbows are near 90 degrees, feet flat, screen at eye level. Put the keyboard flat, not tilted. Find the two bumps on F and J with your index fingers, and rest your thumbs on the spacebar.</p>
     <p>Expect to get slower for the first week. Typing with ten fingers means abandoning a system that already works, and the new one takes about 300-500 repetitions per key before it stops needing attention. That dip is the cost of the ceiling you are removing, not a sign that it is not working.</p>
     <h2 id="lessons-1-4-the-rows">Lessons 1-4: the rows</h2>
-    <table><tr><th>Lesson</th><th>Drill</th><th>Pass criterion</th></tr><tr><td>1. Home row</td><td>asdf jkl; repeated, hands covered for the last two rounds</td><td>95% accuracy, no looking down</td></tr><tr><td>2. Home row + G, H</td><td>Words built only from asdfghjkl;</td><td>95% accuracy at 20 WPM</td></tr><tr><td>3. Top row</td><td>qwerty uiop added, one minute at a time</td><td>95% accuracy, 25 WPM</td></tr><tr><td>4. Bottom row</td><td>zxcvbnm added, then full alphabet words</td><td>95% accuracy, 30 WPM</td></tr></table>
+    <div class="tblwrap"><table><tr><th>Lesson</th><th>Drill</th><th>Pass criterion</th></tr><tr><td>1. Home row</td><td>asdf jkl; repeated, hands covered for the last two rounds</td><td>95% accuracy, no looking down</td></tr><tr><td>2. Home row + G, H</td><td>Words built only from asdfghjkl;</td><td>95% accuracy at 20 WPM</td></tr><tr><td>3. Top row</td><td>qwerty uiop added, one minute at a time</td><td>95% accuracy, 25 WPM</td></tr><tr><td>4. Bottom row</td><td>zxcvbnm added, then full alphabet words</td><td>95% accuracy, 30 WPM</td></tr></table></div>
     <p>Cover your hands for at least one round per lesson. Looking down is the habit that caps most people at 35-40 WPM, and it is far easier to prevent now than to break at 60.</p>
     <h2 id="lessons-5-8-capitals-punctuation-digits-letter-p">Lessons 5-8: capitals, punctuation, digits, letter pairs</h2>
     <ul><li><strong>5. Capitals.</strong> Shift with the hand that is not typing the letter. Drill sentence case until the Shift press stops breaking rhythm.</li><li><strong>6. Punctuation.</strong> Full stops, commas, apostrophes and question marks in real sentences, not lists of symbols.</li><li><strong>7. Digits.</strong> Reach the number row with the correct finger. This is the slowest lesson for most adults and the one data-entry work actually needs.</li><li><strong>8. Letter pairs.</strong> th, he, in, er, an, re, on, at. Practising transitions moves 40-60 WPM faster than practising words, because that is where the hand movement lives.</li></ul>
     <p>Pass criteria for this block: 96% accuracy on a two-minute round with capitals and punctuation intact, and 97% on a one-minute numbers round.</p>
     <h2 id="lessons-9-12-words-sentences-control-test">Lessons 9-12: words, sentences, control, test</h2>
-    <table><tr><th>Lesson</th><th>Drill</th><th>Pass criterion</th></tr><tr><td>9. Words</td><td>Top 200 common words, typed as whole units</td><td>40 WPM at 97%</td></tr><tr><td>10. Sentences</td><td>Three-minute rounds, normal text</td><td>45 WPM at 97%</td></tr><tr><td>11. Speed control</td><td>30-second sprints at maximum, then a slow accuracy round</td><td>Sprint peak 10-15 WPM above your sustainable pace</td></tr><tr><td>12. Full test</td><td>Five-minute net score, unfamiliar keyboard if possible</td><td>A number you can reproduce twice</td></tr></table>
+    <div class="tblwrap"><table><tr><th>Lesson</th><th>Drill</th><th>Pass criterion</th></tr><tr><td>9. Words</td><td>Top 200 common words, typed as whole units</td><td>40 WPM at 97%</td></tr><tr><td>10. Sentences</td><td>Three-minute rounds, normal text</td><td>45 WPM at 97%</td></tr><tr><td>11. Speed control</td><td>30-second sprints at maximum, then a slow accuracy round</td><td>Sprint peak 10-15 WPM above your sustainable pace</td></tr><tr><td>12. Full test</td><td>Five-minute net score, unfamiliar keyboard if possible</td><td>A number you can reproduce twice</td></tr></table></div>
     <p>Lesson 12 is not about hitting a target. It is about being able to reproduce a score, because that is what an employer's test will ask of you.</p>
     <h2 id="how-long-this-actually-takes">How long this actually takes</h2>
     <p>For an adult starting from two-finger typing: home row secure in one to two weeks, all rows in three to four, and full sentences without looking in four to six. Reaching 60 WPM usually takes two to four months after that, because speed comes from accuracy plus repetition rather than from pushing.</p>

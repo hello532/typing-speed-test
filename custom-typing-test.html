@@ -432,6 +432,14 @@ body.typing-active footer{opacity:.26;filter:saturate(.72);pointer-events:none;}
 .finder input{width:100%;min-height:44px;padding:8px 12px;border:1px solid var(--line);border-radius:10px;background:var(--panelhi);color:var(--text);font-size:1rem;}
 .finder input:focus{outline:2px solid var(--borderhi);outline-offset:1px;}
 .finder-out{margin:10px 0 0;font-size:.88rem;color:var(--soft);}
+
+/* Round-73: wide tables must scroll, not get clipped.
+   Six-column benchmark tables exceed a 390px viewport even at width:100%,
+   because cell content sets a minimum width; the container has to scroll. */
+.tblwrap{overflow-x:auto;-webkit-overflow-scrolling:touch;margin:0 0 14px;border-radius:8px;}
+.tblwrap table{width:100%;min-width:520px;margin:0;}
+@media(max-width:560px){.tblwrap{position:relative;}
+  .tblwrap::after{content:"";display:block;height:1px;}}
 </style>
 <script>try{var _t=localStorage.getItem("trTheme");if(_t&&_t!=="dark")document.documentElement.setAttribute("data-theme",_t);var _l=localStorage.getItem("trLang");if(_l&&_l!=="en"){document.documentElement.lang=_l;if(_l==="ar")document.documentElement.dir="rtl";}}catch(e){}</script>
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1401237223139327"
@@ -573,7 +581,7 @@ body.typing-active footer{opacity:.26;filter:saturate(.72);pointer-events:none;}
     <p>Paste plain text. Formatting, smart quotes and non-breaking spaces can all produce characters your keyboard cannot type, which turns a practice round into a hunt for a Unicode symbol.</p>
     <p>Keep it between 100 and 400 words. Shorter and the round repeats, which makes memorisation inflate your score; longer and you will never finish a five-minute round.</p>
     <h2 id="settings-that-matter">Settings that matter</h2>
-    <table><tr><th>Setting</th><th>Use it when</th></tr><tr><td>Duration</td><td>Match the real test length; use 60 seconds for warm-ups only</td></tr><tr><td>Text mode</td><td>Sentences for prose, Numbers for codes and amounts</td></tr><tr><td>Layout</td><td>QWERTY by default; change it if you actually type on Dvorak or Colemak</td></tr><tr><td>Theme and width</td><td>Comfort only - they do not change the score</td></tr></table>
+    <div class="tblwrap"><table><tr><th>Setting</th><th>Use it when</th></tr><tr><td>Duration</td><td>Match the real test length; use 60 seconds for warm-ups only</td></tr><tr><td>Text mode</td><td>Sentences for prose, Numbers for codes and amounts</td></tr><tr><td>Layout</td><td>QWERTY by default; change it if you actually type on Dvorak or Colemak</td></tr><tr><td>Theme and width</td><td>Comfort only - they do not change the score</td></tr></table></div>
     <h2 id="limits-worth-knowing">Limits worth knowing</h2>
     <p>A custom test cannot tell you whether the passage is representative. If you paste easy words, you will score higher than on an employer's test and believe you are ready.</p>
     <p>Use it for targeted practice, and the standard tests for benchmarking. For the benchmark itself, see the <a href="1-minute-typing-test.html">one-minute test</a> or the <a href="5-minute-typing-test.html">five-minute test</a>.</p>

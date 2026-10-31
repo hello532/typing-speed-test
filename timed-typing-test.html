@@ -432,6 +432,14 @@ body.typing-active footer{opacity:.26;filter:saturate(.72);pointer-events:none;}
 .finder input{width:100%;min-height:44px;padding:8px 12px;border:1px solid var(--line);border-radius:10px;background:var(--panelhi);color:var(--text);font-size:1rem;}
 .finder input:focus{outline:2px solid var(--borderhi);outline-offset:1px;}
 .finder-out{margin:10px 0 0;font-size:.88rem;color:var(--soft);}
+
+/* Round-73: wide tables must scroll, not get clipped.
+   Six-column benchmark tables exceed a 390px viewport even at width:100%,
+   because cell content sets a minimum width; the container has to scroll. */
+.tblwrap{overflow-x:auto;-webkit-overflow-scrolling:touch;margin:0 0 14px;border-radius:8px;}
+.tblwrap table{width:100%;min-width:520px;margin:0;}
+@media(max-width:560px){.tblwrap{position:relative;}
+  .tblwrap::after{content:"";display:block;height:1px;}}
 </style>
 <script>try{var _t=localStorage.getItem("trTheme");if(_t&&_t!=="dark")document.documentElement.setAttribute("data-theme",_t);var _l=localStorage.getItem("trLang");if(_l&&_l!=="en"){document.documentElement.lang=_l;if(_l==="ar")document.documentElement.dir="rtl";}}catch(e){}</script>
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1401237223139327"
@@ -570,7 +578,7 @@ body.typing-active footer{opacity:.26;filter:saturate(.72);pointer-events:none;}
     <p>A timed test adds two things a free practice session does not: a fixed end point, and a score you can compare with someone else's. That is why employers use them and why practice rounds so often do not transfer - the pressure is part of the task.</p>
     <p>The practical consequence is that you should practise under the same clock. A typist who only practises untimed will underperform by 5-10 WPM the first time a countdown appears.</p>
     <h2 id="choosing-a-duration-that-measures-what-you-need">Choosing a duration that measures what you need</h2>
-    <table><tr><th>Duration</th><th>What it measures</th><th>Typical use</th></tr><tr><td>15-30 seconds</td><td>Burst speed</td><td>Warm-up, key drills</td></tr><tr><td>1 minute</td><td>Short-form benchmark</td><td>Daily check, casual comparison</td></tr><tr><td>3 minutes</td><td>Screening length</td><td>Interview and exam rehearsal</td></tr><tr><td>5 minutes</td><td>Working pace</td><td>The number you quote; federal standard</td></tr><tr><td>10 minutes</td><td>Endurance</td><td>Transcription, data entry, long documents</td></tr></table>
+    <div class="tblwrap"><table><tr><th>Duration</th><th>What it measures</th><th>Typical use</th></tr><tr><td>15-30 seconds</td><td>Burst speed</td><td>Warm-up, key drills</td></tr><tr><td>1 minute</td><td>Short-form benchmark</td><td>Daily check, casual comparison</td></tr><tr><td>3 minutes</td><td>Screening length</td><td>Interview and exam rehearsal</td></tr><tr><td>5 minutes</td><td>Working pace</td><td>The number you quote; federal standard</td></tr><tr><td>10 minutes</td><td>Endurance</td><td>Transcription, data entry, long documents</td></tr></table></div>
     <h2 id="how-the-clock-changes-your-errors">How the clock changes your errors</h2>
     <p>Short rounds produce errors of haste: a skipped letter, a wrong key under speed. Long rounds produce errors of attention: a dropped capital in minute six, a comma missed when the sentence changes direction.</p>
     <p>That is why the same typist can have 98% accuracy on a one-minute test and 94% on a ten-minute one. If your job involves sustained typing, the ten-minute number is the honest one.</p>

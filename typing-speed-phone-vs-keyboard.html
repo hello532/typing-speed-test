@@ -432,6 +432,14 @@ body.typing-active footer{opacity:.26;filter:saturate(.72);pointer-events:none;}
 .finder input{width:100%;min-height:44px;padding:8px 12px;border:1px solid var(--line);border-radius:10px;background:var(--panelhi);color:var(--text);font-size:1rem;}
 .finder input:focus{outline:2px solid var(--borderhi);outline-offset:1px;}
 .finder-out{margin:10px 0 0;font-size:.88rem;color:var(--soft);}
+
+/* Round-73: wide tables must scroll, not get clipped.
+   Six-column benchmark tables exceed a 390px viewport even at width:100%,
+   because cell content sets a minimum width; the container has to scroll. */
+.tblwrap{overflow-x:auto;-webkit-overflow-scrolling:touch;margin:0 0 14px;border-radius:8px;}
+.tblwrap table{width:100%;min-width:520px;margin:0;}
+@media(max-width:560px){.tblwrap{position:relative;}
+  .tblwrap::after{content:"";display:block;height:1px;}}
 </style>
 <script>try{var _t=localStorage.getItem("trTheme");if(_t&&_t!=="dark")document.documentElement.setAttribute("data-theme",_t);var _l=localStorage.getItem("trLang");if(_l&&_l!=="en"){document.documentElement.lang=_l;if(_l==="ar")document.documentElement.dir="rtl";}}catch(e){}</script>
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1401237223139327"
@@ -567,13 +575,13 @@ body.typing-active footer{opacity:.26;filter:saturate(.72);pointer-events:none;}
 
   <section class="seo">
     <h2 id="the-two-measurements-side-by-side">The two measurements, side by side</h2>
-    <table><tr><th>Measure</th><th>Phone (touchscreen)</th><th>Desktop keyboard</th></tr><tr><td>Average speed</td><td>36.17 WPM (SD 13.22)</td><td>51.56 WPM (SD 20.2)</td></tr><tr><td>Uncorrected error rate</td><td>2.34%</td><td>1.17%</td></tr><tr><td>Keystrokes per character</td><td>1.18</td><td>1.173</td></tr><tr><td>Volunteers</td><td>37,370</td><td>168,960</td></tr><tr><td>Source</td><td>Palin, Feit, Kim, Kristensson &amp; Oulasvirta, MobileHCI 2019, doi.org/10.1145/3338286.3340120</td><td>Dhakal, Feit, Kristensson &amp; Oulasvirta, CHI 2018, doi.org/10.1145/3173574.3174220</td></tr></table>
+    <div class="tblwrap"><table><tr><th>Measure</th><th>Phone (touchscreen)</th><th>Desktop keyboard</th></tr><tr><td>Average speed</td><td>36.17 WPM (SD 13.22)</td><td>51.56 WPM (SD 20.2)</td></tr><tr><td>Uncorrected error rate</td><td>2.34%</td><td>1.17%</td></tr><tr><td>Keystrokes per character</td><td>1.18</td><td>1.173</td></tr><tr><td>Volunteers</td><td>37,370</td><td>168,960</td></tr><tr><td>Source</td><td>Palin, Feit, Kim, Kristensson &amp; Oulasvirta, MobileHCI 2019, doi.org/10.1145/3338286.3340120</td><td>Dhakal, Feit, Kristensson &amp; Oulasvirta, CHI 2018, doi.org/10.1145/3173574.3174220</td></tr></table></div>
     <p>Both studies used the same method - transcribe a displayed English sentence - so the comparison is unusually clean. The mobile study explicitly compares itself to the desktop one and reports that average performance is about 15 WPM slower on a phone.</p>
     <h2 id="where-the-gap-comes-from">Where the gap comes from</h2>
     <ul><li><strong>Fewer fingers.</strong> Over 74% of phone typists use both thumbs, and two thumbs are faster than one thumb or one index finger - but still nowhere near ten fingers on a physical keyboard.</li><li><strong>No tactile feedback.</strong> You cannot feel the key boundary, so every press carries a small positional uncertainty that a keyboard removes.</li><li><strong>Correction cost.</strong> Fixing a mistake on glass takes more gestures, which is why phone typists leave more errors uncorrected (2.34% versus 1.17%) rather than fixing them.</li><li><strong>Layout.</strong> A QWERTY touchscreen is a compromise; physical keyboards can be swapped for whatever suits your hands.</li></ul>
     <h2 id="phone-typing-percentiles">Phone typing percentiles</h2>
     <p>Using the mobile distribution (mean 36.2, SD 13.2), a normal approximation gives a rough position:</p>
-    <table><tr><th>Phone WPM</th><th>Approx. percentile</th><th>Reading</th></tr><tr><td>20</td><td>11th</td><td>Slow thumb typing</td></tr><tr><td>30</td><td>32nd</td><td>Below the phone average</td></tr><tr><td>36</td><td>50th</td><td>Exactly average for phone users</td></tr><tr><td>45</td><td>75th</td><td>Fast for a phone</td></tr><tr><td>60</td><td>97th</td><td>Exceptional on glass</td></tr></table>
+    <div class="tblwrap"><table><tr><th>Phone WPM</th><th>Approx. percentile</th><th>Reading</th></tr><tr><td>20</td><td>11th</td><td>Slow thumb typing</td></tr><tr><td>30</td><td>32nd</td><td>Below the phone average</td></tr><tr><td>36</td><td>50th</td><td>Exactly average for phone users</td></tr><tr><td>45</td><td>75th</td><td>Fast for a phone</td></tr><tr><td>60</td><td>97th</td><td>Exceptional on glass</td></tr></table></div>
     <p>The approximation is labelled as such: the mobile distribution is right-skewed, so the far tail is less reliable than the middle.</p>
     <h2 id="what-this-means-for-a-typing-test">What this means for a typing test</h2>
     <p>Most online typing tests and every job screening test assume a physical keyboard. A 36 WPM phone score is not evidence that you would score 36 WPM at a desk - the desk number is usually higher, often by 10-15 WPM if you touch type.</p>

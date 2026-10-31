@@ -432,6 +432,14 @@ body.typing-active footer{opacity:.26;filter:saturate(.72);pointer-events:none;}
 .finder input{width:100%;min-height:44px;padding:8px 12px;border:1px solid var(--line);border-radius:10px;background:var(--panelhi);color:var(--text);font-size:1rem;}
 .finder input:focus{outline:2px solid var(--borderhi);outline-offset:1px;}
 .finder-out{margin:10px 0 0;font-size:.88rem;color:var(--soft);}
+
+/* Round-73: wide tables must scroll, not get clipped.
+   Six-column benchmark tables exceed a 390px viewport even at width:100%,
+   because cell content sets a minimum width; the container has to scroll. */
+.tblwrap{overflow-x:auto;-webkit-overflow-scrolling:touch;margin:0 0 14px;border-radius:8px;}
+.tblwrap table{width:100%;min-width:520px;margin:0;}
+@media(max-width:560px){.tblwrap{position:relative;}
+  .tblwrap::after{content:"";display:block;height:1px;}}
 </style>
 <script>try{var _t=localStorage.getItem("trTheme");if(_t&&_t!=="dark")document.documentElement.setAttribute("data-theme",_t);var _l=localStorage.getItem("trLang");if(_l&&_l!=="en"){document.documentElement.lang=_l;if(_l==="ar")document.documentElement.dir="rtl";}}catch(e){}</script>
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1401237223139327"
@@ -573,7 +581,7 @@ body.typing-active footer{opacity:.26;filter:saturate(.72);pointer-events:none;}
     <p>Three reasons. Punctuation and capitals add keystrokes that a word list omits. Sentence structure means the next word is predictable, but only if you read ahead - which most typists do not. And length means fatigue enters: errors in the fourth minute are usually attention, not technique.</p>
     <p>The result is a score typically 5-15% lower than the same typist's word-list number, and 5-10 WPM lower than a one-minute burst on the same text.</p>
     <h2 id="choosing-a-length">Choosing a length</h2>
-    <table><tr><th>Length</th><th>What it measures</th><th>Use it when</th></tr><tr><td>1 minute</td><td>Burst speed</td><td>Daily warm-up, quick comparison</td></tr><tr><td>3 minutes</td><td>Common screening length</td><td>Interview practice, exam rehearsal</td></tr><tr><td>5 minutes</td><td>Working pace</td><td>The number you quote; matches most job standards</td></tr><tr><td>10 minutes</td><td>Endurance</td><td>Transcription, data entry, long document work</td></tr></table>
+    <div class="tblwrap"><table><tr><th>Length</th><th>What it measures</th><th>Use it when</th></tr><tr><td>1 minute</td><td>Burst speed</td><td>Daily warm-up, quick comparison</td></tr><tr><td>3 minutes</td><td>Common screening length</td><td>Interview practice, exam rehearsal</td></tr><tr><td>5 minutes</td><td>Working pace</td><td>The number you quote; matches most job standards</td></tr><tr><td>10 minutes</td><td>Endurance</td><td>Transcription, data entry, long document work</td></tr></table></div>
     <h2 id="how-to-use-this-page">How to use this page</h2>
     <p>Start with one minute to warm up, then run a five-minute round and record net WPM plus accuracy. If accuracy is under 96%, stop chasing speed and run accuracy rounds for a week - it is the cheaper fix.</p>
     <p>For exam-style practice, use the same length as the exam and include punctuation. For a written job test, add one round of the <a href="quotes-typing-test.html">quotes test</a>, which is the closest thing to real document text. A paragraph score is only useful if you can reproduce it on a second attempt, at a different time of day, on a keyboard you have not warmed up on.</p>

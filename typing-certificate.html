@@ -432,6 +432,14 @@ body.typing-active footer{opacity:.26;filter:saturate(.72);pointer-events:none;}
 .finder input{width:100%;min-height:44px;padding:8px 12px;border:1px solid var(--line);border-radius:10px;background:var(--panelhi);color:var(--text);font-size:1rem;}
 .finder input:focus{outline:2px solid var(--borderhi);outline-offset:1px;}
 .finder-out{margin:10px 0 0;font-size:.88rem;color:var(--soft);}
+
+/* Round-73: wide tables must scroll, not get clipped.
+   Six-column benchmark tables exceed a 390px viewport even at width:100%,
+   because cell content sets a minimum width; the container has to scroll. */
+.tblwrap{overflow-x:auto;-webkit-overflow-scrolling:touch;margin:0 0 14px;border-radius:8px;}
+.tblwrap table{width:100%;min-width:520px;margin:0;}
+@media(max-width:560px){.tblwrap{position:relative;}
+  .tblwrap::after{content:"";display:block;height:1px;}}
 </style>
 <script>try{var _t=localStorage.getItem("trTheme");if(_t&&_t!=="dark")document.documentElement.setAttribute("data-theme",_t);var _l=localStorage.getItem("trLang");if(_l&&_l!=="en"){document.documentElement.lang=_l;if(_l==="ar")document.documentElement.dir="rtl";}}catch(e){}</script>
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1401237223139327"
@@ -571,7 +579,7 @@ body.typing-active footer{opacity:.26;filter:saturate(.72);pointer-events:none;}
     <p>This page generates a typing certificate from your most recent round. It is free, needs no account, and is produced entirely in your browser - nothing is uploaded, which is also why there is no verification code on it.</p>
     <p>The certificate is a printable record of one test: who typed, when, at what speed and accuracy, on what test length. It is a convenience for applications that want a number, not an accredited credential. The honest version of that distinction is spelled out on the <a href="typing-certificate-acceptance.html">certificate acceptance</a> page.</p>
     <h2 id="what-is-printed-on-it">What is printed on it</h2>
-    <table><tr><th>Field</th><th>Content</th><th>Why it is there</th></tr><tr><td>Name</td><td>Whatever you type in the name field</td><td>An employer needs to attach the number to a person</td></tr><tr><td>Date</td><td>The date you generated it</td><td>Typing speed drifts; a dated result is checkable</td></tr><tr><td>WPM</td><td>Net words per minute from that round</td><td>The number most postings quote</td></tr><tr><td>CPM</td><td>Characters per minute</td><td>Data-entry roles quote characters, not words</td></tr><tr><td>Accuracy</td><td>Percentage of correct characters</td><td>The part employers actually weight</td></tr><tr><td>Length and mode</td><td>e.g. 5 minutes, sentences</td><td>Makes the score comparable - a 15-second burst is not</td></tr></table>
+    <div class="tblwrap"><table><tr><th>Field</th><th>Content</th><th>Why it is there</th></tr><tr><td>Name</td><td>Whatever you type in the name field</td><td>An employer needs to attach the number to a person</td></tr><tr><td>Date</td><td>The date you generated it</td><td>Typing speed drifts; a dated result is checkable</td></tr><tr><td>WPM</td><td>Net words per minute from that round</td><td>The number most postings quote</td></tr><tr><td>CPM</td><td>Characters per minute</td><td>Data-entry roles quote characters, not words</td></tr><tr><td>Accuracy</td><td>Percentage of correct characters</td><td>The part employers actually weight</td></tr><tr><td>Length and mode</td><td>e.g. 5 minutes, sentences</td><td>Makes the score comparable - a 15-second burst is not</td></tr></table></div>
     <h2 id="printing-it-properly">Printing it properly</h2>
     <ul><li><strong>Paper:</strong> A4 or US Letter both work; the layout uses standard margins and no bleed.</li><li><strong>Colour:</strong> it prints correctly in black and white, which is what most offices will do anyway.</li><li><strong>Browser print settings:</strong> turn off headers and footers so the URL and date stamps do not appear over the artwork.</li><li><strong>Digital copy:</strong> print to PDF rather than photographing the screen - the text stays selectable and the file stays small.</li></ul>
     <p>If the result panel is still open, the certificate uses that round. If you have closed it, take a new round first: the certificate is generated from the round in the current session, not from your history.</p>

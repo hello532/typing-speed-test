@@ -432,6 +432,14 @@ body.typing-active footer{opacity:.26;filter:saturate(.72);pointer-events:none;}
 .finder input{width:100%;min-height:44px;padding:8px 12px;border:1px solid var(--line);border-radius:10px;background:var(--panelhi);color:var(--text);font-size:1rem;}
 .finder input:focus{outline:2px solid var(--borderhi);outline-offset:1px;}
 .finder-out{margin:10px 0 0;font-size:.88rem;color:var(--soft);}
+
+/* Round-73: wide tables must scroll, not get clipped.
+   Six-column benchmark tables exceed a 390px viewport even at width:100%,
+   because cell content sets a minimum width; the container has to scroll. */
+.tblwrap{overflow-x:auto;-webkit-overflow-scrolling:touch;margin:0 0 14px;border-radius:8px;}
+.tblwrap table{width:100%;min-width:520px;margin:0;}
+@media(max-width:560px){.tblwrap{position:relative;}
+  .tblwrap::after{content:"";display:block;height:1px;}}
 </style>
 <script>try{var _t=localStorage.getItem("trTheme");if(_t&&_t!=="dark")document.documentElement.setAttribute("data-theme",_t);var _l=localStorage.getItem("trLang");if(_l&&_l!=="en"){document.documentElement.lang=_l;if(_l==="ar")document.documentElement.dir="rtl";}}catch(e){}</script>
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1401237223139327"
@@ -572,7 +580,7 @@ body.typing-active footer{opacity:.26;filter:saturate(.72);pointer-events:none;}
     <h2 id="what-a-beginner-should-actually-practise">What a beginner should actually practise</h2>
     <ul><li><strong>Home row first.</strong> asdf jkl; until the fingers return without looking.</li><li><strong>No looking down.</strong> One covered round a day. This is the single largest gain available at this stage.</li><li><strong>No backspace.</strong> Finish rounds with mistakes in them. Corrections cost more than errors at beginner speed.</li><li><strong>Ten minutes daily.</strong> Short and frequent beats a long weekly session, because the skill is motor memory.</li></ul>
     <h2 id="your-first-realistic-targets">Your first realistic targets</h2>
-    <table><tr><th>Stage</th><th>WPM</th><th>Accuracy</th><th>What it unlocks</th></tr><tr><td>First week</td><td>15-25</td><td>90%+</td><td>Finishing a round without panic</td></tr><tr><td>First month</td><td>25-35</td><td>95%</td><td>Comfortable email and messaging</td></tr><tr><td>Three months</td><td>35-45</td><td>96-97%</td><td>Entry-level office requirements</td></tr><tr><td>Six months</td><td>45-60</td><td>97%+</td><td>Most clerical job floors</td></tr></table>
+    <div class="tblwrap"><table><tr><th>Stage</th><th>WPM</th><th>Accuracy</th><th>What it unlocks</th></tr><tr><td>First week</td><td>15-25</td><td>90%+</td><td>Finishing a round without panic</td></tr><tr><td>First month</td><td>25-35</td><td>95%</td><td>Comfortable email and messaging</td></tr><tr><td>Three months</td><td>35-45</td><td>96-97%</td><td>Entry-level office requirements</td></tr><tr><td>Six months</td><td>45-60</td><td>97%+</td><td>Most clerical job floors</td></tr></table></div>
     <p>These are typical progressions for someone practising ten minutes a day, not guarantees. The variable that matters is consistency, not talent.</p>
     <h2 id="what-to-do-after-your-first-month">What to do after your first month</h2>
     <p>Move to the <a href="1-minute-typing-test.html">one-minute test</a> for the classic benchmark, and add the <a href="home-row-typing-test.html">home row test</a> as a weekly check on technique. When you can hold 95% accuracy at 35 WPM, the <a href="40-wpm-typing-test.html">40 WPM plan</a> is the next step.</p>

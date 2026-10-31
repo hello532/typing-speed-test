@@ -432,6 +432,14 @@ body.typing-active footer{opacity:.26;filter:saturate(.72);pointer-events:none;}
 .finder input{width:100%;min-height:44px;padding:8px 12px;border:1px solid var(--line);border-radius:10px;background:var(--panelhi);color:var(--text);font-size:1rem;}
 .finder input:focus{outline:2px solid var(--borderhi);outline-offset:1px;}
 .finder-out{margin:10px 0 0;font-size:.88rem;color:var(--soft);}
+
+/* Round-73: wide tables must scroll, not get clipped.
+   Six-column benchmark tables exceed a 390px viewport even at width:100%,
+   because cell content sets a minimum width; the container has to scroll. */
+.tblwrap{overflow-x:auto;-webkit-overflow-scrolling:touch;margin:0 0 14px;border-radius:8px;}
+.tblwrap table{width:100%;min-width:520px;margin:0;}
+@media(max-width:560px){.tblwrap{position:relative;}
+  .tblwrap::after{content:"";display:block;height:1px;}}
 </style>
 <script>try{var _t=localStorage.getItem("trTheme");if(_t&&_t!=="dark")document.documentElement.setAttribute("data-theme",_t);var _l=localStorage.getItem("trLang");if(_l&&_l!=="en"){document.documentElement.lang=_l;if(_l==="ar")document.documentElement.dir="rtl";}}catch(e){}</script>
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1401237223139327"
@@ -568,7 +576,7 @@ body.typing-active footer{opacity:.26;filter:saturate(.72);pointer-events:none;}
   <section class="seo">
     <h2 id="what-wpm-is-and-the-three-ways-it-is-counted">What WPM is, and the three ways it is counted</h2>
     <p><strong>WPM</strong> is words per minute, where one word is five characters including spaces. That convention exists so a score on a long-word passage and a short-word passage can be compared. Three variants then diverge:</p>
-    <table><tr><th>Method</th><th>Formula</th><th>Reads</th></tr><tr><td>Gross (raw)</td><td>all characters ÷ 5 ÷ minutes</td><td>Highest - counts mistakes</td></tr><tr><td>Net</td><td>(characters − errors) ÷ 5 ÷ minutes</td><td>What employers test</td></tr><tr><td>Adjusted (AWPM)</td><td>all characters ÷ 5 ÷ minutes, errors counted</td><td>School and exam scoring</td></tr></table>
+    <div class="tblwrap"><table><tr><th>Method</th><th>Formula</th><th>Reads</th></tr><tr><td>Gross (raw)</td><td>all characters ÷ 5 ÷ minutes</td><td>Highest - counts mistakes</td></tr><tr><td>Net</td><td>(characters − errors) ÷ 5 ÷ minutes</td><td>What employers test</td></tr><tr><td>Adjusted (AWPM)</td><td>all characters ÷ 5 ÷ minutes, errors counted</td><td>School and exam scoring</td></tr></table></div>
     <p>This page reports net WPM and raw WPM separately, so you can see which one a posting is quoting. A 60 WPM gross score at 94% accuracy nets about 56.</p>
     <h2 id="why-an-online-wpm-test-is-a-snapshot-not-a-verdi">Why an online WPM test is a snapshot, not a verdict</h2>
     <p>One round measures one attempt under one set of conditions: your keyboard, your alertness, the passage you got. The number moves 5-10 WPM between a 15-second burst and a five-minute round, and by a similar margin between morning and end of day.</p>

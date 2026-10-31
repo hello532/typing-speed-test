@@ -432,6 +432,14 @@ body.typing-active footer{opacity:.26;filter:saturate(.72);pointer-events:none;}
 .finder input{width:100%;min-height:44px;padding:8px 12px;border:1px solid var(--line);border-radius:10px;background:var(--panelhi);color:var(--text);font-size:1rem;}
 .finder input:focus{outline:2px solid var(--borderhi);outline-offset:1px;}
 .finder-out{margin:10px 0 0;font-size:.88rem;color:var(--soft);}
+
+/* Round-73: wide tables must scroll, not get clipped.
+   Six-column benchmark tables exceed a 390px viewport even at width:100%,
+   because cell content sets a minimum width; the container has to scroll. */
+.tblwrap{overflow-x:auto;-webkit-overflow-scrolling:touch;margin:0 0 14px;border-radius:8px;}
+.tblwrap table{width:100%;min-width:520px;margin:0;}
+@media(max-width:560px){.tblwrap{position:relative;}
+  .tblwrap::after{content:"";display:block;height:1px;}}
 </style>
 <script>try{var _t=localStorage.getItem("trTheme");if(_t&&_t!=="dark")document.documentElement.setAttribute("data-theme",_t);var _l=localStorage.getItem("trLang");if(_l&&_l!=="en"){document.documentElement.lang=_l;if(_l==="ar")document.documentElement.dir="rtl";}}catch(e){}</script>
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1401237223139327"
@@ -568,7 +576,7 @@ body.typing-active footer{opacity:.26;filter:saturate(.72);pointer-events:none;}
   <section class="seo">
     <h2 id="grade-bands-with-a-caveat">Grade bands, with a caveat</h2>
     <p>Classroom benchmarks vary by district and by how much keyboarding time a school actually provides, so treat any table as a rough band rather than a standard. The pattern that holds across published curricula is steady growth of roughly 5 WPM per grade once formal instruction begins.</p>
-    <table><tr><th>Grade</th><th>Typical range</th><th>What to focus on</th></tr><tr><td>3rd</td><td>10–20 WPM</td><td>Home row, not looking down</td></tr><tr><td>4th</td><td>15–25 WPM</td><td>All letters, capitals with Shift</td></tr><tr><td>5th</td><td>25–35 WPM</td><td>Accuracy above 90%, punctuation</td></tr><tr><td>6th–8th</td><td>30–45 WPM</td><td>Sustained paragraphs, editing</td></tr></table>
+    <div class="tblwrap"><table><tr><th>Grade</th><th>Typical range</th><th>What to focus on</th></tr><tr><td>3rd</td><td>10–20 WPM</td><td>Home row, not looking down</td></tr><tr><td>4th</td><td>15–25 WPM</td><td>All letters, capitals with Shift</td></tr><tr><td>5th</td><td>25–35 WPM</td><td>Accuracy above 90%, punctuation</td></tr><tr><td>6th–8th</td><td>30–45 WPM</td><td>Sustained paragraphs, editing</td></tr></table></div>
     <h2 id="why-accuracy-is-the-only-goal-at-this-age">Why accuracy is the only goal at this age</h2>
     <p>A child who types 35 WPM by hunting for keys with two fingers has hit a ceiling that will cost years later. A child at 22 WPM with all ten fingers on the home row is on a curve that reaches 50 by secondary school with no extra lessons.</p>
     <p>So score the round on errors, not words per minute. If accuracy is below 90%, the speed number is fiction — it is measuring how fast the child can produce text that has to be retyped.</p>

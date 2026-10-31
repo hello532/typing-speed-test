@@ -432,6 +432,14 @@ body.typing-active footer{opacity:.26;filter:saturate(.72);pointer-events:none;}
 .finder input{width:100%;min-height:44px;padding:8px 12px;border:1px solid var(--line);border-radius:10px;background:var(--panelhi);color:var(--text);font-size:1rem;}
 .finder input:focus{outline:2px solid var(--borderhi);outline-offset:1px;}
 .finder-out{margin:10px 0 0;font-size:.88rem;color:var(--soft);}
+
+/* Round-73: wide tables must scroll, not get clipped.
+   Six-column benchmark tables exceed a 390px viewport even at width:100%,
+   because cell content sets a minimum width; the container has to scroll. */
+.tblwrap{overflow-x:auto;-webkit-overflow-scrolling:touch;margin:0 0 14px;border-radius:8px;}
+.tblwrap table{width:100%;min-width:520px;margin:0;}
+@media(max-width:560px){.tblwrap{position:relative;}
+  .tblwrap::after{content:"";display:block;height:1px;}}
 </style>
 <script>try{var _t=localStorage.getItem("trTheme");if(_t&&_t!=="dark")document.documentElement.setAttribute("data-theme",_t);var _l=localStorage.getItem("trLang");if(_l&&_l!=="en"){document.documentElement.lang=_l;if(_l==="ar")document.documentElement.dir="rtl";}}catch(e){}</script>
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1401237223139327"
@@ -570,7 +578,7 @@ body.typing-active footer{opacity:.26;filter:saturate(.72);pointer-events:none;}
     <p>Three figures, not one. <strong>Net speed</strong> is the number employers quote. <strong>Accuracy</strong> is what they weight when the job involves records, codes or names. <strong>Consistency</strong> - how much your speed varies second to second - predicts whether the speed survives a five-minute test.</p>
     <p>A single WPM number hides all of that. Two typists at 60 WPM can be a careful 99% accuracy operator and a 91% risky one, and the second is a liability in any role where a wrong digit matters.</p>
     <h2 id="skill-bands-and-what-each-one-opens">Skill bands, and what each one opens</h2>
-    <table><tr><th>Band</th><th>Net WPM</th><th>Accuracy</th><th>What it clears</th></tr><tr><td>Entry</td><td>25-35</td><td>92-95%</td><td>Some dispatch and call-centre floors; personal use</td></tr><tr><td>Clerical</td><td>35-45</td><td>95-97%</td><td>Data entry at 8,000-12,000 KPH; county clerk roles</td></tr><tr><td>Office standard</td><td>45-55</td><td>97%</td><td>Reception, admin, general office postings</td></tr><tr><td>Fast</td><td>55-70</td><td>98%</td><td>Legal secretary, medical admin, transcription entry</td></tr><tr><td>Professional</td><td>70-85</td><td>98-99%</td><td>Transcription upper band, dispatch supervisor, court support</td></tr></table>
+    <div class="tblwrap"><table><tr><th>Band</th><th>Net WPM</th><th>Accuracy</th><th>What it clears</th></tr><tr><td>Entry</td><td>25-35</td><td>92-95%</td><td>Some dispatch and call-centre floors; personal use</td></tr><tr><td>Clerical</td><td>35-45</td><td>95-97%</td><td>Data entry at 8,000-12,000 KPH; county clerk roles</td></tr><tr><td>Office standard</td><td>45-55</td><td>97%</td><td>Reception, admin, general office postings</td></tr><tr><td>Fast</td><td>55-70</td><td>98%</td><td>Legal secretary, medical admin, transcription entry</td></tr><tr><td>Professional</td><td>70-85</td><td>98-99%</td><td>Transcription upper band, dispatch supervisor, court support</td></tr></table></div>
     <p>These bands come from advertised requirements, not from a certification body - no one certifies a typing skill level. They are useful because they match the numbers employers actually print.</p>
     <h2 id="how-to-test-your-skill-fairly">How to test your skill fairly</h2>
     <p>Use a five-minute round on sentences, in one sitting, at the same time of day each time. Then repeat it on a second day before you believe the number: single-round scores move by 5-10 WPM for reasons that have nothing to do with skill.</p>

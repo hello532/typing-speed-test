@@ -432,6 +432,14 @@ body.typing-active footer{opacity:.26;filter:saturate(.72);pointer-events:none;}
 .finder input{width:100%;min-height:44px;padding:8px 12px;border:1px solid var(--line);border-radius:10px;background:var(--panelhi);color:var(--text);font-size:1rem;}
 .finder input:focus{outline:2px solid var(--borderhi);outline-offset:1px;}
 .finder-out{margin:10px 0 0;font-size:.88rem;color:var(--soft);}
+
+/* Round-73: wide tables must scroll, not get clipped.
+   Six-column benchmark tables exceed a 390px viewport even at width:100%,
+   because cell content sets a minimum width; the container has to scroll. */
+.tblwrap{overflow-x:auto;-webkit-overflow-scrolling:touch;margin:0 0 14px;border-radius:8px;}
+.tblwrap table{width:100%;min-width:520px;margin:0;}
+@media(max-width:560px){.tblwrap{position:relative;}
+  .tblwrap::after{content:"";display:block;height:1px;}}
 </style>
 <script>try{var _t=localStorage.getItem("trTheme");if(_t&&_t!=="dark")document.documentElement.setAttribute("data-theme",_t);var _l=localStorage.getItem("trLang");if(_l&&_l!=="en"){document.documentElement.lang=_l;if(_l==="ar")document.documentElement.dir="rtl";}}catch(e){}</script>
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1401237223139327"
@@ -572,7 +580,7 @@ body.typing-active footer{opacity:.26;filter:saturate(.72);pointer-events:none;}
     <h2 id="what-to-practise-in-order">What to practise, in order</h2>
     <ul><li><strong>Number row reaches</strong> - 1 to 0 with the correct finger, without looking down. Two minutes a day.</li><li><strong>Alternating patterns</strong> - strings like AB12CD34, which force a shift between letter and digit clusters.</li><li><strong>Numeric keypad</strong> - if the job is invoice or order entry, the ten-key pad is faster than the number row and worth learning separately.</li><li><strong>Verification</strong> - read your own output against the source, character by character, once per round. This is the step that separates 97% from 99.5%.</li></ul>
     <h2 id="how-alphanumeric-work-is-scored">How alphanumeric work is scored</h2>
-    <table><tr><th>Unit</th><th>Formula</th><th>Typical requirement</th></tr><tr><td>Keystrokes per hour (KPH)</td><td>characters per minute × 60</td><td>8,000-12,000</td></tr><tr><td>Key depressions per hour (KDPH)</td><td>all keys pressed, corrections included</td><td>8,000 (SSC DEO)</td></tr><tr><td>Fields per hour</td><td>completed records, not characters</td><td>role-specific</td></tr><tr><td>Accuracy</td><td>correct fields ÷ total fields</td><td>97-98%</td></tr></table>
+    <div class="tblwrap"><table><tr><th>Unit</th><th>Formula</th><th>Typical requirement</th></tr><tr><td>Keystrokes per hour (KPH)</td><td>characters per minute × 60</td><td>8,000-12,000</td></tr><tr><td>Key depressions per hour (KDPH)</td><td>all keys pressed, corrections included</td><td>8,000 (SSC DEO)</td></tr><tr><td>Fields per hour</td><td>completed records, not characters</td><td>role-specific</td></tr><tr><td>Accuracy</td><td>correct fields ÷ total fields</td><td>97-98%</td></tr></table></div>
     <p>Field accuracy is the metric that matters in practice. A record with one wrong digit is a failed record regardless of how fast the other nineteen fields were typed.</p>
     <h2 id="a-two-week-drill">A two-week drill</h2>
     <p>Week one: two minutes of Numbers mode, twice a day, graded on errors. Add one round of alternating letter-digit strings. Week two: move to five-minute blocks and score fields, not characters - type a real form layout (name, reference, date, amount) repeatedly and count how many records come out clean.</p>

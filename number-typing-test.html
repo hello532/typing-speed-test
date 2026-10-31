@@ -432,6 +432,14 @@ body.typing-active footer{opacity:.26;filter:saturate(.72);pointer-events:none;}
 .finder input{width:100%;min-height:44px;padding:8px 12px;border:1px solid var(--line);border-radius:10px;background:var(--panelhi);color:var(--text);font-size:1rem;}
 .finder input:focus{outline:2px solid var(--borderhi);outline-offset:1px;}
 .finder-out{margin:10px 0 0;font-size:.88rem;color:var(--soft);}
+
+/* Round-73: wide tables must scroll, not get clipped.
+   Six-column benchmark tables exceed a 390px viewport even at width:100%,
+   because cell content sets a minimum width; the container has to scroll. */
+.tblwrap{overflow-x:auto;-webkit-overflow-scrolling:touch;margin:0 0 14px;border-radius:8px;}
+.tblwrap table{width:100%;min-width:520px;margin:0;}
+@media(max-width:560px){.tblwrap{position:relative;}
+  .tblwrap::after{content:"";display:block;height:1px;}}
 </style>
 <script>try{var _t=localStorage.getItem("trTheme");if(_t&&_t!=="dark")document.documentElement.setAttribute("data-theme",_t);var _l=localStorage.getItem("trLang");if(_l&&_l!=="en"){document.documentElement.lang=_l;if(_l==="ar")document.documentElement.dir="rtl";}}catch(e){}</script>
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1401237223139327"
@@ -571,7 +579,7 @@ body.typing-active footer{opacity:.26;filter:saturate(.72);pointer-events:none;}
     <p>Letters sit under your fingers. Digits sit on the row above, reached by an extended finger with no tactile landmark to confirm the position. That is why someone who types prose at 60 WPM often drops to 30-35 WPM on numbers, and why data-entry employers test digits separately.</p>
     <p>There are two ways to enter numbers and they are not interchangeable. The number row is right when digits are mixed into text (an address, a reference code). The numeric keypad is right when the work is amounts, quantities or codes entered field by field.</p>
     <h2 id="what-employers-actually-measure">What employers actually measure</h2>
-    <table><tr><th>Unit</th><th>Formula</th><th>Typical requirement</th></tr><tr><td>Keystrokes per hour (KPH)</td><td>characters per minute × 60</td><td>8,000-12,000 for data entry</td></tr><tr><td>Key depressions per hour (KDPH)</td><td>all keys, corrections included</td><td>8,000 for SSC DEO</td></tr><tr><td>Fields per hour</td><td>completed records</td><td>role-specific</td></tr><tr><td>Accuracy</td><td>correct fields ÷ total</td><td>97-99%</td></tr></table>
+    <div class="tblwrap"><table><tr><th>Unit</th><th>Formula</th><th>Typical requirement</th></tr><tr><td>Keystrokes per hour (KPH)</td><td>characters per minute × 60</td><td>8,000-12,000 for data entry</td></tr><tr><td>Key depressions per hour (KDPH)</td><td>all keys, corrections included</td><td>8,000 for SSC DEO</td></tr><tr><td>Fields per hour</td><td>completed records</td><td>role-specific</td></tr><tr><td>Accuracy</td><td>correct fields ÷ total</td><td>97-99%</td></tr></table></div>
     <p>A correction costs you twice: once as a keystroke against the hour, and once as a field that has to be re-checked. That is why digit accuracy is worth more than digit speed.</p>
     <h2 id="how-to-practise-without-a-spreadsheet">How to practise without a spreadsheet</h2>
     <p>Two minutes of Numbers mode, twice a day, graded on errors rather than speed. Then add the parts that break in real work: decimals, negative signs, and the Tab key between fields.</p>

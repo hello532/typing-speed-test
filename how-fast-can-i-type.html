@@ -432,6 +432,14 @@ body.typing-active footer{opacity:.26;filter:saturate(.72);pointer-events:none;}
 .finder input{width:100%;min-height:44px;padding:8px 12px;border:1px solid var(--line);border-radius:10px;background:var(--panelhi);color:var(--text);font-size:1rem;}
 .finder input:focus{outline:2px solid var(--borderhi);outline-offset:1px;}
 .finder-out{margin:10px 0 0;font-size:.88rem;color:var(--soft);}
+
+/* Round-73: wide tables must scroll, not get clipped.
+   Six-column benchmark tables exceed a 390px viewport even at width:100%,
+   because cell content sets a minimum width; the container has to scroll. */
+.tblwrap{overflow-x:auto;-webkit-overflow-scrolling:touch;margin:0 0 14px;border-radius:8px;}
+.tblwrap table{width:100%;min-width:520px;margin:0;}
+@media(max-width:560px){.tblwrap{position:relative;}
+  .tblwrap::after{content:"";display:block;height:1px;}}
 </style>
 <script>try{var _t=localStorage.getItem("trTheme");if(_t&&_t!=="dark")document.documentElement.setAttribute("data-theme",_t);var _l=localStorage.getItem("trLang");if(_l&&_l!=="en"){document.documentElement.lang=_l;if(_l==="ar")document.documentElement.dir="rtl";}}catch(e){}</script>
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1401237223139327"
@@ -570,7 +578,7 @@ body.typing-active footer{opacity:.26;filter:saturate(.72);pointer-events:none;}
     <p>Take the 60-second test on this page and read net WPM from the results panel. That number is your current speed on this text at this length - not a permanent trait, and not directly comparable to a five-minute score.</p>
     <p>If you need a number to quote to an employer or on a form, run a five-minute test instead. It reads 5-10 WPM lower and it is the figure that can be reproduced.</p>
     <h2 id="how-you-compare">How you compare</h2>
-    <table><tr><th>Your WPM</th><th>Percentile (approx.)</th><th>Reading</th></tr><tr><td>under 26</td><td>bottom 10%</td><td>Hunting for keys; typing is the bottleneck</td></tr><tr><td>26-40</td><td>10th-28th</td><td>Two-finger or untrained touch typing</td></tr><tr><td>40-52</td><td>28th-50%</td><td>Average adult; enough for most office work</td></tr><tr><td>52-65</td><td>50th-75th</td><td>Comfortable all-day typing</td></tr><tr><td>65-78</td><td>75th-90th</td><td>Above almost every job requirement</td></tr><tr><td>78+</td><td>top 10%</td><td>Professional typists, transcribers, developers</td></tr></table>
+    <div class="tblwrap"><table><tr><th>Your WPM</th><th>Percentile (approx.)</th><th>Reading</th></tr><tr><td>under 26</td><td>bottom 10%</td><td>Hunting for keys; typing is the bottleneck</td></tr><tr><td>26-40</td><td>10th-28th</td><td>Two-finger or untrained touch typing</td></tr><tr><td>40-52</td><td>28th-50%</td><td>Average adult; enough for most office work</td></tr><tr><td>52-65</td><td>50th-75th</td><td>Comfortable all-day typing</td></tr><tr><td>65-78</td><td>75th-90th</td><td>Above almost every job requirement</td></tr><tr><td>78+</td><td>top 10%</td><td>Professional typists, transcribers, developers</td></tr></table></div>
     <p>Percentiles come from the CHI 2018 sample of 168,960 volunteers (mean 51.56 WPM, SD 20.2), approximated as a normal distribution. The <a href="typing-speed-percentile.html">percentile page</a> converts any score exactly.</p>
     <h2 id="four-things-that-change-your-number">Four things that change your number</h2>
     <ul><li><strong>Length.</strong> A 15-second burst reads 5-10 WPM above a five-minute run.</li><li><strong>Text.</strong> Random words score lower than sentences; code and digits lower again.</li><li><strong>Scoring.</strong> Gross WPM counts every character; net subtracts errors.</li><li><strong>Keyboard.</strong> A laptop chiclet board is slower than a mechanical one for most people, and a phone is about 15 WPM slower again.</li></ul>

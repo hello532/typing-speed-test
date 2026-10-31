@@ -447,6 +447,14 @@ body.typing-active footer{opacity:.26;filter:saturate(.72);pointer-events:none;}
 .finder input{width:100%;min-height:44px;padding:8px 12px;border:1px solid var(--line);border-radius:10px;background:var(--panelhi);color:var(--text);font-size:1rem;}
 .finder input:focus{outline:2px solid var(--borderhi);outline-offset:1px;}
 .finder-out{margin:10px 0 0;font-size:.88rem;color:var(--soft);}
+
+/* Round-73: wide tables must scroll, not get clipped.
+   Six-column benchmark tables exceed a 390px viewport even at width:100%,
+   because cell content sets a minimum width; the container has to scroll. */
+.tblwrap{overflow-x:auto;-webkit-overflow-scrolling:touch;margin:0 0 14px;border-radius:8px;}
+.tblwrap table{width:100%;min-width:520px;margin:0;}
+@media(max-width:560px){.tblwrap{position:relative;}
+  .tblwrap::after{content:"";display:block;height:1px;}}
 </style>
 <script>try{var _t=localStorage.getItem("trTheme");if(_t&&_t!=="dark")document.documentElement.setAttribute("data-theme",_t);var _l=localStorage.getItem("trLang");if(_l&&_l!=="en"){document.documentElement.lang=_l;if(_l==="ar")document.documentElement.dir="rtl";}}catch(e){}
 window.__trPageLang="es";</script>
@@ -589,7 +597,7 @@ window.__trPageLang="es";</script>
     <p>Accents change meaning, not just spelling: si (if) and sí (yes), el (the) and él (he), esta and está. Omitting one is a real error in the language, not a typo, which is why Spanish typing tests treat a missing accent as a mistake.</p>
     <p>The inverted question and exclamation marks are typed at the start of the sentence, so they require a look-ahead: you have to decide the sentence is a question before you begin it. That is why they show up in error reports.</p>
     <h2 id="qwerty-azerty-and-the-latin-american-layout">QWERTY, AZERTY and the Latin American layout</h2>
-    <table><tr><th>Layout</th><th>Where</th><th>What changes</th></tr><tr><td>Spanish QWERTY</td><td>Spain</td><td>Ñ next to L; accents on dedicated keys</td></tr><tr><td>Latin American QWERTY</td><td>Most of Latin America</td><td>Similar to Spain's, with differences in symbol placement</td></tr><tr><td>AZERTY</td><td>Not used for Spanish</td><td>Different letter order; avoid for Spanish practice</td></tr></table>
+    <div class="tblwrap"><table><tr><th>Layout</th><th>Where</th><th>What changes</th></tr><tr><td>Spanish QWERTY</td><td>Spain</td><td>Ñ next to L; accents on dedicated keys</td></tr><tr><td>Latin American QWERTY</td><td>Most of Latin America</td><td>Similar to Spain's, with differences in symbol placement</td></tr><tr><td>AZERTY</td><td>Not used for Spanish</td><td>Different letter order; avoid for Spanish practice</td></tr></table></div>
     <p>The differences are small but they cost accuracy for the first week. Practise on the layout you will be tested on.</p>
     <h2 id="practising-for-real-spanish-text">Practising for real Spanish text</h2>
     <p>Start with sentences that include at least one accent and one punctuation mark per line - that is what ordinary Spanish looks like. Then add a numbers round, because dates and amounts are where Spanish-language office work actually lives.</p>

@@ -432,6 +432,14 @@ body.typing-active footer{opacity:.26;filter:saturate(.72);pointer-events:none;}
 .finder input{width:100%;min-height:44px;padding:8px 12px;border:1px solid var(--line);border-radius:10px;background:var(--panelhi);color:var(--text);font-size:1rem;}
 .finder input:focus{outline:2px solid var(--borderhi);outline-offset:1px;}
 .finder-out{margin:10px 0 0;font-size:.88rem;color:var(--soft);}
+
+/* Round-73: wide tables must scroll, not get clipped.
+   Six-column benchmark tables exceed a 390px viewport even at width:100%,
+   because cell content sets a minimum width; the container has to scroll. */
+.tblwrap{overflow-x:auto;-webkit-overflow-scrolling:touch;margin:0 0 14px;border-radius:8px;}
+.tblwrap table{width:100%;min-width:520px;margin:0;}
+@media(max-width:560px){.tblwrap{position:relative;}
+  .tblwrap::after{content:"";display:block;height:1px;}}
 </style>
 <script>try{var _t=localStorage.getItem("trTheme");if(_t&&_t!=="dark")document.documentElement.setAttribute("data-theme",_t);var _l=localStorage.getItem("trLang");if(_l&&_l!=="en"){document.documentElement.lang=_l;if(_l==="ar")document.documentElement.dir="rtl";}}catch(e){}</script>
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1401237223139327"
@@ -572,7 +580,7 @@ body.typing-active footer{opacity:.26;filter:saturate(.72);pointer-events:none;}
     <p>That is why the useful question is not "do teachers need to type fast" but "which of these tasks can be made cheap". Marking comments and parent emails are repetitive; lesson plans and feedback are not. Speed helps the first category, templates and text expansion help it more.</p>
     <h2 id="what-speed-is-actually-expected">What speed is actually expected</h2>
     <p>No teaching qualification specifies a typing speed. The bands below come from the clerical and administrative side of education - school office, exams office, cover coordination - where postings do quote numbers.</p>
-    <table><tr><th>Role</th><th>Typical advertised band</th><th>What it is based on</th></tr><tr><td>Classroom teacher (no formal requirement)</td><td>40+ WPM comfortable</td><td>Lesson planning, marking comments, emails</td></tr><tr><td>School administrator / exams officer</td><td>45-55 WPM</td><td>Clerical postings, data entry of results</td></tr><tr><td>Teaching assistant with admin duties</td><td>40-50 WPM</td><td>Records, reports, correspondence</td></tr><tr><td>Online tutoring (written feedback)</td><td>50+ WPM</td><td>Written feedback volume per session</td></tr></table>
+    <div class="tblwrap"><table><tr><th>Role</th><th>Typical advertised band</th><th>What it is based on</th></tr><tr><td>Classroom teacher (no formal requirement)</td><td>40+ WPM comfortable</td><td>Lesson planning, marking comments, emails</td></tr><tr><td>School administrator / exams officer</td><td>45-55 WPM</td><td>Clerical postings, data entry of results</td></tr><tr><td>Teaching assistant with admin duties</td><td>40-50 WPM</td><td>Records, reports, correspondence</td></tr><tr><td>Online tutoring (written feedback)</td><td>50+ WPM</td><td>Written feedback volume per session</td></tr></table></div>
     <p>If you are already at 45-50 WPM, typing is not your bottleneck and further speed work will not buy back time. The bigger wins are templates, text expansion and a marking comment bank.</p>
     <h2 id="running-a-class-typing-test-without-accounts">Running a class typing test without accounts</h2>
     <p>Any tool that requires student accounts creates a data-protection question, which is why this site stores results only in the browser and never server-side. For classroom use that has two practical consequences: no pupil data leaves the device, and results are not visible to you remotely.</p>

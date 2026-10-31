@@ -432,6 +432,14 @@ body.typing-active footer{opacity:.26;filter:saturate(.72);pointer-events:none;}
 .finder input{width:100%;min-height:44px;padding:8px 12px;border:1px solid var(--line);border-radius:10px;background:var(--panelhi);color:var(--text);font-size:1rem;}
 .finder input:focus{outline:2px solid var(--borderhi);outline-offset:1px;}
 .finder-out{margin:10px 0 0;font-size:.88rem;color:var(--soft);}
+
+/* Round-73: wide tables must scroll, not get clipped.
+   Six-column benchmark tables exceed a 390px viewport even at width:100%,
+   because cell content sets a minimum width; the container has to scroll. */
+.tblwrap{overflow-x:auto;-webkit-overflow-scrolling:touch;margin:0 0 14px;border-radius:8px;}
+.tblwrap table{width:100%;min-width:520px;margin:0;}
+@media(max-width:560px){.tblwrap{position:relative;}
+  .tblwrap::after{content:"";display:block;height:1px;}}
 </style>
 <script>try{var _t=localStorage.getItem("trTheme");if(_t&&_t!=="dark")document.documentElement.setAttribute("data-theme",_t);var _l=localStorage.getItem("trLang");if(_l&&_l!=="en"){document.documentElement.lang=_l;if(_l==="ar")document.documentElement.dir="rtl";}}catch(e){}</script>
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1401237223139327"
@@ -567,7 +575,7 @@ body.typing-active footer{opacity:.26;filter:saturate(.72);pointer-events:none;}
 
   <section class="seo">
     <h2 id="the-chart">The chart</h2>
-    <table><tr><th>WPM</th><th>Percentile</th><th>Verdict</th><th>What it opens</th></tr><tr><td>20</td><td>6th</td><td>Slow — hunting for keys</td><td>Nothing that screens; fine for personal use</td></tr><tr><td>26</td><td>10th</td><td>Below average</td><td>Entry data entry at 7,000-8,000 KPH if accuracy is high</td></tr><tr><td>30</td><td>14th</td><td>Below average but workable</td><td>Some dispatch and call-centre floors</td></tr><tr><td>40</td><td>28th</td><td>Good enough — the standard floor</td><td>Most clerical, receptionist and county government roles</td></tr><tr><td>50</td><td>47th</td><td>Average adult</td><td>Office, admin and customer service bands</td></tr><tr><td>60</td><td>66th</td><td>Fast</td><td>Legal secretary entry, transcription entry</td></tr><tr><td>70</td><td>82nd</td><td>Very fast</td><td>General transcription, medical admin</td></tr><tr><td>80</td><td>92nd</td><td>Top decile</td><td>Medical transcription upper band, competitive typing</td></tr><tr><td>100</td><td>99th</td><td>Top 1%</td><td>No job requires it; it removes typing as a bottleneck</td></tr><tr><td>120</td><td>99.9th</td><td>Exceptional</td><td>Competition level on short bursts</td></tr></table>
+    <div class="tblwrap"><table><tr><th>WPM</th><th>Percentile</th><th>Verdict</th><th>What it opens</th></tr><tr><td>20</td><td>6th</td><td>Slow — hunting for keys</td><td>Nothing that screens; fine for personal use</td></tr><tr><td>26</td><td>10th</td><td>Below average</td><td>Entry data entry at 7,000-8,000 KPH if accuracy is high</td></tr><tr><td>30</td><td>14th</td><td>Below average but workable</td><td>Some dispatch and call-centre floors</td></tr><tr><td>40</td><td>28th</td><td>Good enough — the standard floor</td><td>Most clerical, receptionist and county government roles</td></tr><tr><td>50</td><td>47th</td><td>Average adult</td><td>Office, admin and customer service bands</td></tr><tr><td>60</td><td>66th</td><td>Fast</td><td>Legal secretary entry, transcription entry</td></tr><tr><td>70</td><td>82nd</td><td>Very fast</td><td>General transcription, medical admin</td></tr><tr><td>80</td><td>92nd</td><td>Top decile</td><td>Medical transcription upper band, competitive typing</td></tr><tr><td>100</td><td>99th</td><td>Top 1%</td><td>No job requires it; it removes typing as a bottleneck</td></tr><tr><td>120</td><td>99.9th</td><td>Exceptional</td><td>Competition level on short bursts</td></tr></table></div>
     <p>Percentiles are a normal approximation of the study distribution; it reproduces the paper's reported deciles (about 26 and 78 WPM) to within a point. The <a href="typing-speed-percentile.html">percentile page</a> computes any score exactly.</p>
     <p>Background on how those figures were measured, and why a 40 WPM figure and a 51.56 WPM figure can both be right, is on the <a href="average-typing-speed.html">average typing speed</a> page.</p>
     <h2 id="how-to-read-the-verdict-column">How to read the verdict column</h2>

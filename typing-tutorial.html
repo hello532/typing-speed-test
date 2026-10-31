@@ -432,6 +432,14 @@ body.typing-active footer{opacity:.26;filter:saturate(.72);pointer-events:none;}
 .finder input{width:100%;min-height:44px;padding:8px 12px;border:1px solid var(--line);border-radius:10px;background:var(--panelhi);color:var(--text);font-size:1rem;}
 .finder input:focus{outline:2px solid var(--borderhi);outline-offset:1px;}
 .finder-out{margin:10px 0 0;font-size:.88rem;color:var(--soft);}
+
+/* Round-73: wide tables must scroll, not get clipped.
+   Six-column benchmark tables exceed a 390px viewport even at width:100%,
+   because cell content sets a minimum width; the container has to scroll. */
+.tblwrap{overflow-x:auto;-webkit-overflow-scrolling:touch;margin:0 0 14px;border-radius:8px;}
+.tblwrap table{width:100%;min-width:520px;margin:0;}
+@media(max-width:560px){.tblwrap{position:relative;}
+  .tblwrap::after{content:"";display:block;height:1px;}}
 </style>
 <script>try{var _t=localStorage.getItem("trTheme");if(_t&&_t!=="dark")document.documentElement.setAttribute("data-theme",_t);var _l=localStorage.getItem("trLang");if(_l&&_l!=="en"){document.documentElement.lang=_l;if(_l==="ar")document.documentElement.dir="rtl";}}catch(e){}</script>
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1401237223139327"
@@ -567,7 +575,7 @@ body.typing-active footer{opacity:.26;filter:saturate(.72);pointer-events:none;}
 
   <section class="seo">
     <h2 id="the-path-and-what-each-stage-is-for">The path, and what each stage is for</h2>
-    <table><tr><th>Stage</th><th>What you do</th><th>Move on when</th></tr><tr><td>1. Home row</td><td>asdf jkl; until the fingers return without looking</td><td>95% accuracy, no glances</td></tr><tr><td>2. All rows</td><td>Top row, then bottom row, one at a time</td><td>30 WPM on ordinary words</td></tr><tr><td>3. Modifiers</td><td>Shift for capitals, punctuation in sentences</td><td>96% accuracy with punctuation intact</td></tr><tr><td>4. Digits</td><td>Number row with correct fingers; keypad if relevant</td><td>97% accuracy on a numbers round</td></tr><tr><td>5. Speed</td><td>30-second sprints plus slow accuracy rounds</td><td>Sprint peak 10-15 WPM above sustained</td></tr></table>
+    <div class="tblwrap"><table><tr><th>Stage</th><th>What you do</th><th>Move on when</th></tr><tr><td>1. Home row</td><td>asdf jkl; until the fingers return without looking</td><td>95% accuracy, no glances</td></tr><tr><td>2. All rows</td><td>Top row, then bottom row, one at a time</td><td>30 WPM on ordinary words</td></tr><tr><td>3. Modifiers</td><td>Shift for capitals, punctuation in sentences</td><td>96% accuracy with punctuation intact</td></tr><tr><td>4. Digits</td><td>Number row with correct fingers; keypad if relevant</td><td>97% accuracy on a numbers round</td></tr><tr><td>5. Speed</td><td>30-second sprints plus slow accuracy rounds</td><td>Sprint peak 10-15 WPM above sustained</td></tr></table></div>
     <h2 id="what-to-skip-and-in-what-order">What to skip, and in what order</h2>
     <p>Skip alternative layouts (Dvorak, Colemak) until you are past 60 WPM on QWERTY. Switching early means paying the learning cost twice and measuring neither. Skip code typing until you can type sentences without looking, because brackets make a hard task harder.</p>
     <p>Do not skip the digits stage even if your job seems prose-only. Every real document contains a date or an amount, and the number row is where untrained typists lose the most accuracy.</p>

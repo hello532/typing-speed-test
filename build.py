@@ -214,7 +214,12 @@ def build_seo(page, clusters=None):
         used.add(sid)
         parts.append(f'    <h2{anchor}>{sec["h2"]}</h2>')
         for p in sec["p"]:
-            if p.lstrip().startswith(("<table", "<ul", "<ol", "<div", "<figure", "<script", "<form")):
+            # R73：宽表格在手机上会被裁掉（.seo table 是 width:100%，但列多时最小宽度
+            # 超过容器，而容器不滚动 → 最后一列看不见）。统一包一层可横向滚动的 div，
+            # 比改 table 的 display 更安全（保留表格语义与圆角描边）。
+            if p.lstrip().startswith("<table"):
+                parts.append(f'    <div class="tblwrap">{p}</div>')
+            elif p.lstrip().startswith(("<ul", "<ol", "<div", "<figure", "<script", "<form")):
                 parts.append(f"    {p}")
             else:
                 parts.append(f"    <p>{p}</p>")

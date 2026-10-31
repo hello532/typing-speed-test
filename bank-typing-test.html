@@ -432,6 +432,14 @@ body.typing-active footer{opacity:.26;filter:saturate(.72);pointer-events:none;}
 .finder input{width:100%;min-height:44px;padding:8px 12px;border:1px solid var(--line);border-radius:10px;background:var(--panelhi);color:var(--text);font-size:1rem;}
 .finder input:focus{outline:2px solid var(--borderhi);outline-offset:1px;}
 .finder-out{margin:10px 0 0;font-size:.88rem;color:var(--soft);}
+
+/* Round-73: wide tables must scroll, not get clipped.
+   Six-column benchmark tables exceed a 390px viewport even at width:100%,
+   because cell content sets a minimum width; the container has to scroll. */
+.tblwrap{overflow-x:auto;-webkit-overflow-scrolling:touch;margin:0 0 14px;border-radius:8px;}
+.tblwrap table{width:100%;min-width:520px;margin:0;}
+@media(max-width:560px){.tblwrap{position:relative;}
+  .tblwrap::after{content:"";display:block;height:1px;}}
 </style>
 <script>try{var _t=localStorage.getItem("trTheme");if(_t&&_t!=="dark")document.documentElement.setAttribute("data-theme",_t);var _l=localStorage.getItem("trLang");if(_l&&_l!=="en"){document.documentElement.lang=_l;if(_l==="ar")document.documentElement.dir="rtl";}}catch(e){}</script>
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1401237223139327"
@@ -570,7 +578,7 @@ body.typing-active footer{opacity:.26;filter:saturate(.72);pointer-events:none;}
     <p>Indian bank clerical recruitment commonly quotes 30 words per minute in English or 25 words per minute in Hindi, tested on a standard keyboard for a fixed period, with a small error allowance. Probationary officer and specialist officer posts generally do not include a typing test; clerical and some office-assistant posts do.</p>
     <p>These figures appear in recruitment notifications rather than in a single national standard, so the notice for your cycle is the authority. Read it before you practise: the language, layout and error allowance all change between years.</p>
     <h2 id="what-the-test-looks-like-on-the-day">What the test looks like on the day</h2>
-    <table><tr><th>Element</th><th>Typical form</th></tr><tr><td>Mode</td><td>Copy typing from a printed or on-screen passage</td></tr><tr><td>Language</td><td>English or Hindi, chosen at application</td></tr><tr><td>Duration</td><td>A fixed period, often around ten minutes</td></tr><tr><td>Scoring</td><td>Words per minute with an error allowance</td></tr><tr><td>Outcome</td><td>Qualifying - it does not add marks to the merit list</td></tr></table>
+    <div class="tblwrap"><table><tr><th>Element</th><th>Typical form</th></tr><tr><td>Mode</td><td>Copy typing from a printed or on-screen passage</td></tr><tr><td>Language</td><td>English or Hindi, chosen at application</td></tr><tr><td>Duration</td><td>A fixed period, often around ten minutes</td></tr><tr><td>Scoring</td><td>Words per minute with an error allowance</td></tr><tr><td>Outcome</td><td>Qualifying - it does not add marks to the merit list</td></tr></table></div>
     <p>Because it is qualifying, the strategy is accuracy at a comfortable pace, not maximum speed. A clean 32 WPM passes; a 45 WPM run with 10% errors does not.</p>
     <h2 id="practising-for-the-format">Practising for the format</h2>
     <p>Use full-length rounds, not one-minute bursts. The error rate at minute eight is what decides the result, and it is invisible in a short round. Type passages with punctuation and capitals, since the actual passage includes them.</p>

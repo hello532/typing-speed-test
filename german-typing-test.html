@@ -447,6 +447,14 @@ body.typing-active footer{opacity:.26;filter:saturate(.72);pointer-events:none;}
 .finder input{width:100%;min-height:44px;padding:8px 12px;border:1px solid var(--line);border-radius:10px;background:var(--panelhi);color:var(--text);font-size:1rem;}
 .finder input:focus{outline:2px solid var(--borderhi);outline-offset:1px;}
 .finder-out{margin:10px 0 0;font-size:.88rem;color:var(--soft);}
+
+/* Round-73: wide tables must scroll, not get clipped.
+   Six-column benchmark tables exceed a 390px viewport even at width:100%,
+   because cell content sets a minimum width; the container has to scroll. */
+.tblwrap{overflow-x:auto;-webkit-overflow-scrolling:touch;margin:0 0 14px;border-radius:8px;}
+.tblwrap table{width:100%;min-width:520px;margin:0;}
+@media(max-width:560px){.tblwrap{position:relative;}
+  .tblwrap::after{content:"";display:block;height:1px;}}
 </style>
 <script>try{var _t=localStorage.getItem("trTheme");if(_t&&_t!=="dark")document.documentElement.setAttribute("data-theme",_t);var _l=localStorage.getItem("trLang");if(_l&&_l!=="en"){document.documentElement.lang=_l;if(_l==="ar")document.documentElement.dir="rtl";}}catch(e){}
 window.__trPageLang="de";</script>
@@ -587,7 +595,7 @@ window.__trPageLang="de";</script>
     <p>The second difference is length. German compounds produce long words (Geschwindigkeitsmessung, Tastaturbelegung), and long words mean more consecutive keystrokes per word with no space to reset the hand. Typists who are comfortable at 60 WPM on English often measure 50-55 on German text at the same accuracy.</p>
     <h2 id="w-rter-pro-minute-und-anschl-ge-pro-minute">Wörter pro Minute und Anschläge pro Minute</h2>
     <p>German-language typing tests usually report two figures. <em>Wörter pro Minute</em> (WPM) counts five characters as one word, the same convention used in English. <em>Anschläge pro Minute</em> (CPM, sometimes Zeichen pro Minute) counts every character, which is what German office job adverts often quote.</p>
-    <table><tr><th>Anschläge/Min</th><th>Wörter/Min</th><th>Einordnung</th></tr><tr><td>150</td><td>30</td><td>Anfangsniveau, Übung nötig</td></tr><tr><td>200</td><td>40</td><td>Solide für Büroarbeit</td></tr><tr><td>250</td><td>50</td><td>Gut, über dem Durchschnitt</td></tr><tr><td>300</td><td>60</td><td>Schnell, für Sekretariat und Datenerfassung</td></tr><tr><td>400</td><td>80</td><td>Sehr schnell, obere 10%</td></tr></table>
+    <div class="tblwrap"><table><tr><th>Anschläge/Min</th><th>Wörter/Min</th><th>Einordnung</th></tr><tr><td>150</td><td>30</td><td>Anfangsniveau, Übung nötig</td></tr><tr><td>200</td><td>40</td><td>Solide für Büroarbeit</td></tr><tr><td>250</td><td>50</td><td>Gut, über dem Durchschnitt</td></tr><tr><td>300</td><td>60</td><td>Schnell, für Sekretariat und Datenerfassung</td></tr><tr><td>400</td><td>80</td><td>Sehr schnell, obere 10%</td></tr></table></div>
     <p>The conversion is arithmetic: WPM = Anschläge ÷ 5. Nothing about German text changes the formula, only the character mix.</p>
     <h2 id="qwertz-and-why-your-layout-matters">QWERTZ, and why your layout matters</h2>
     <p>German-speaking countries use QWERTZ: Y and Z are swapped relative to QWERTY, and the umlauts sit on their own keys. If you type on a QWERTZ keyboard, this test works as-is, because the browser reports the character your operating system produces, not the physical key.</p>

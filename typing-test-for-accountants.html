@@ -432,6 +432,14 @@ body.typing-active footer{opacity:.26;filter:saturate(.72);pointer-events:none;}
 .finder input{width:100%;min-height:44px;padding:8px 12px;border:1px solid var(--line);border-radius:10px;background:var(--panelhi);color:var(--text);font-size:1rem;}
 .finder input:focus{outline:2px solid var(--borderhi);outline-offset:1px;}
 .finder-out{margin:10px 0 0;font-size:.88rem;color:var(--soft);}
+
+/* Round-73: wide tables must scroll, not get clipped.
+   Six-column benchmark tables exceed a 390px viewport even at width:100%,
+   because cell content sets a minimum width; the container has to scroll. */
+.tblwrap{overflow-x:auto;-webkit-overflow-scrolling:touch;margin:0 0 14px;border-radius:8px;}
+.tblwrap table{width:100%;min-width:520px;margin:0;}
+@media(max-width:560px){.tblwrap{position:relative;}
+  .tblwrap::after{content:"";display:block;height:1px;}}
 </style>
 <script>try{var _t=localStorage.getItem("trTheme");if(_t&&_t!=="dark")document.documentElement.setAttribute("data-theme",_t);var _l=localStorage.getItem("trLang");if(_l&&_l!=="en"){document.documentElement.lang=_l;if(_l==="ar")document.documentElement.dir="rtl";}}catch(e){}</script>
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1401237223139327"
@@ -570,7 +578,7 @@ body.typing-active footer{opacity:.26;filter:saturate(.72);pointer-events:none;}
     <p>A ledger entry is a date, an account code, a description and an amount. Three of those four are numeric or alphanumeric, and the amount has a decimal point in a position that matters more than any word you will type all day.</p>
     <p>Firms rarely quote a words-per-minute figure in accounting adverts because prose speed is not the constraint. If they test at all, it is a numeric or 10-key exercise, or an Excel-based work sample.</p>
     <h2 id="the-numbers-to-aim-at">The numbers to aim at</h2>
-    <table><tr><th>Task</th><th>Target</th><th>Why</th></tr><tr><td>10-key numeric entry</td><td>8,000-12,000 KPH</td><td>The band employers quote for numeric data entry</td></tr><tr><td>Accuracy on amounts</td><td>99%+</td><td>A transposed digit is a reconciliation problem</td></tr><tr><td>Alphanumeric codes</td><td>97-98%</td><td>Account and tax codes mix letters and digits</td></tr><tr><td>Prose notes</td><td>40-50 WPM</td><td>Enough for memos and client correspondence</td></tr></table>
+    <div class="tblwrap"><table><tr><th>Task</th><th>Target</th><th>Why</th></tr><tr><td>10-key numeric entry</td><td>8,000-12,000 KPH</td><td>The band employers quote for numeric data entry</td></tr><tr><td>Accuracy on amounts</td><td>99%+</td><td>A transposed digit is a reconciliation problem</td></tr><tr><td>Alphanumeric codes</td><td>97-98%</td><td>Account and tax codes mix letters and digits</td></tr><tr><td>Prose notes</td><td>40-50 WPM</td><td>Enough for memos and client correspondence</td></tr></table></div>
     <p>In practice the accuracy column decides whether you are useful. A 12,000 KPH entry rate with 96% accuracy creates more work than it saves, because every error has to be found later.</p>
     <h2 id="building-10-key-speed-that-transfers">Building 10-key speed that transfers</h2>
     <p>Learn the keypad as a separate instrument: 4-5-6 on the home row, index on 4, middle on 5, ring on 6, thumb on 0. Type without looking, entering a figure and pressing Enter after each, which is how accounting software behaves.</p>

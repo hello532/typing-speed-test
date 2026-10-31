@@ -432,6 +432,14 @@ body.typing-active footer{opacity:.26;filter:saturate(.72);pointer-events:none;}
 .finder input{width:100%;min-height:44px;padding:8px 12px;border:1px solid var(--line);border-radius:10px;background:var(--panelhi);color:var(--text);font-size:1rem;}
 .finder input:focus{outline:2px solid var(--borderhi);outline-offset:1px;}
 .finder-out{margin:10px 0 0;font-size:.88rem;color:var(--soft);}
+
+/* Round-73: wide tables must scroll, not get clipped.
+   Six-column benchmark tables exceed a 390px viewport even at width:100%,
+   because cell content sets a minimum width; the container has to scroll. */
+.tblwrap{overflow-x:auto;-webkit-overflow-scrolling:touch;margin:0 0 14px;border-radius:8px;}
+.tblwrap table{width:100%;min-width:520px;margin:0;}
+@media(max-width:560px){.tblwrap{position:relative;}
+  .tblwrap::after{content:"";display:block;height:1px;}}
 </style>
 <script>try{var _t=localStorage.getItem("trTheme");if(_t&&_t!=="dark")document.documentElement.setAttribute("data-theme",_t);var _l=localStorage.getItem("trLang");if(_l&&_l!=="en"){document.documentElement.lang=_l;if(_l==="ar")document.documentElement.dir="rtl";}}catch(e){}</script>
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1401237223139327"
@@ -570,7 +578,7 @@ body.typing-active footer{opacity:.26;filter:saturate(.72);pointer-events:none;}
     <p>Three adjustments: common short words, no digits or unusual punctuation, and a one-minute default so the round ends before fatigue arrives. The point is to remove everything except the skill being built - finding keys without looking.</p>
     <p>Easy is not the same as slow. Type at the pace where you make almost no errors; if accuracy is below 95%, slow down further rather than pushing. At this stage speed is a side effect of accuracy, not a separate goal.</p>
     <h2 id="a-four-week-starting-plan">A four-week starting plan</h2>
-    <table><tr><th>Week</th><th>Daily drill</th><th>What should change</th></tr><tr><td>1</td><td>Two 60-second easy rounds, hands covered for one</td><td>You stop looking at the keyboard for most words</td></tr><tr><td>2</td><td>Same, plus one home-row-only round</td><td>Accuracy above 95% consistently</td></tr><tr><td>3</td><td>Two-minute rounds, no backspace allowed</td><td>Corrections stop eating your time</td></tr><tr><td>4</td><td>Three-minute rounds, then one five-minute check</td><td>A reproducible number you can quote</td></tr></table>
+    <div class="tblwrap"><table><tr><th>Week</th><th>Daily drill</th><th>What should change</th></tr><tr><td>1</td><td>Two 60-second easy rounds, hands covered for one</td><td>You stop looking at the keyboard for most words</td></tr><tr><td>2</td><td>Same, plus one home-row-only round</td><td>Accuracy above 95% consistently</td></tr><tr><td>3</td><td>Two-minute rounds, no backspace allowed</td><td>Corrections stop eating your time</td></tr><tr><td>4</td><td>Three-minute rounds, then one five-minute check</td><td>A reproducible number you can quote</td></tr></table></div>
     <h2 id="the-three-habits-that-decide-your-ceiling">The three habits that decide your ceiling</h2>
     <ul><li><strong>Looking at the keyboard.</strong> Every glance costs a beat and prevents the mental map from forming. Cover your hands once a day, even if it feels slow.</li><li><strong>Backspacing through every slip.</strong> At beginner speeds, corrections cost more than the errors. Practise finishing rounds without correcting.</li><li><strong>Two-finger typing.</strong> It works to about 35-40 WPM and then stops. If you are under 30 WPM, learning the home row now is cheaper than fixing it later.</li></ul>
     <h2 id="what-to-do-after-the-easy-test">What to do after the easy test</h2>

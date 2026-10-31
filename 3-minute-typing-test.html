@@ -432,6 +432,14 @@ body.typing-active footer{opacity:.26;filter:saturate(.72);pointer-events:none;}
 .finder input{width:100%;min-height:44px;padding:8px 12px;border:1px solid var(--line);border-radius:10px;background:var(--panelhi);color:var(--text);font-size:1rem;}
 .finder input:focus{outline:2px solid var(--borderhi);outline-offset:1px;}
 .finder-out{margin:10px 0 0;font-size:.88rem;color:var(--soft);}
+
+/* Round-73: wide tables must scroll, not get clipped.
+   Six-column benchmark tables exceed a 390px viewport even at width:100%,
+   because cell content sets a minimum width; the container has to scroll. */
+.tblwrap{overflow-x:auto;-webkit-overflow-scrolling:touch;margin:0 0 14px;border-radius:8px;}
+.tblwrap table{width:100%;min-width:520px;margin:0;}
+@media(max-width:560px){.tblwrap{position:relative;}
+  .tblwrap::after{content:"";display:block;height:1px;}}
 </style>
 <script>try{var _t=localStorage.getItem("trTheme");if(_t&&_t!=="dark")document.documentElement.setAttribute("data-theme",_t);var _l=localStorage.getItem("trLang");if(_l&&_l!=="en"){document.documentElement.lang=_l;if(_l==="ar")document.documentElement.dir="rtl";}}catch(e){}</script>
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1401237223139327"
@@ -578,7 +586,7 @@ body.typing-active footer{opacity:.26;filter:saturate(.72);pointer-events:none;}
     <p>The costliest error is opening at sprint pace: typists who blast the first thirty seconds usually fade below their <a href="1-minute-typing-test.html">1 minute</a> average by minute three. Second is glancing at the keyboard after every mistake, which breaks rhythm and adds hesitation errors. Third is chasing raw speed while accuracy slides under 95% — each error costs both the keystroke and the correction. Hold a pace about 5% under your one-minute speed, keep your eyes on the screen, and let accuracy carry the score.</p>
     <h2 id="3-minute-typing-test-scores-by-role">3 minute typing test scores by role</h2>
     <p>Use this table to place a 3 minute result against common benchmarks. Figures are typical ranges employers quote for entry-level screening, not hard cut-offs.</p>
-    <table><thead><tr><th>Role</th><th>Typical WPM ask</th><th>Accuracy floor</th></tr></thead><tbody><tr><td>General office / admin</td><td>35-45 WPM</td><td>90%</td></tr><tr><td>Data entry</td><td>40-60 WPM</td><td>95%</td></tr><tr><td>Transcription</td><td>60-80 WPM</td><td>96%</td></tr><tr><td>Medical / legal transcription</td><td>70-90 WPM</td><td>98%</td></tr><tr><td>Programmer (prose speed only)</td><td>50-70 WPM</td><td>92%</td></tr></tbody></table>
+    <div class="tblwrap"><table><thead><tr><th>Role</th><th>Typical WPM ask</th><th>Accuracy floor</th></tr></thead><tbody><tr><td>General office / admin</td><td>35-45 WPM</td><td>90%</td></tr><tr><td>Data entry</td><td>40-60 WPM</td><td>95%</td></tr><tr><td>Transcription</td><td>60-80 WPM</td><td>96%</td></tr><tr><td>Medical / legal transcription</td><td>70-90 WPM</td><td>98%</td></tr><tr><td>Programmer (prose speed only)</td><td>50-70 WPM</td><td>92%</td></tr></tbody></table></div>
     <p>A 3 minute round is the shortest length that still exposes endurance: typists who peak at 90 WPM for 30 seconds often settle near 60 WPM across three minutes. If your 3 minute score sits well below your <a href="30-second-typing-test.html">30 second typing test</a> score, the gap is stamina, not raw speed.</p>
     <p>Compare against your own history rather than the table. The score that matters is the one you can repeat tomorrow.</p>
     <h2 id="how-to-pace-a-3-minute-round">How to pace a 3 minute round</h2>

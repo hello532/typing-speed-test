@@ -432,6 +432,14 @@ body.typing-active footer{opacity:.26;filter:saturate(.72);pointer-events:none;}
 .finder input{width:100%;min-height:44px;padding:8px 12px;border:1px solid var(--line);border-radius:10px;background:var(--panelhi);color:var(--text);font-size:1rem;}
 .finder input:focus{outline:2px solid var(--borderhi);outline-offset:1px;}
 .finder-out{margin:10px 0 0;font-size:.88rem;color:var(--soft);}
+
+/* Round-73: wide tables must scroll, not get clipped.
+   Six-column benchmark tables exceed a 390px viewport even at width:100%,
+   because cell content sets a minimum width; the container has to scroll. */
+.tblwrap{overflow-x:auto;-webkit-overflow-scrolling:touch;margin:0 0 14px;border-radius:8px;}
+.tblwrap table{width:100%;min-width:520px;margin:0;}
+@media(max-width:560px){.tblwrap{position:relative;}
+  .tblwrap::after{content:"";display:block;height:1px;}}
 </style>
 <script>try{var _t=localStorage.getItem("trTheme");if(_t&&_t!=="dark")document.documentElement.setAttribute("data-theme",_t);var _l=localStorage.getItem("trLang");if(_l&&_l!=="en"){document.documentElement.lang=_l;if(_l==="ar")document.documentElement.dir="rtl";}}catch(e){}</script>
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1401237223139327"
@@ -570,7 +578,7 @@ body.typing-active footer{opacity:.26;filter:saturate(.72);pointer-events:none;}
     <p>Three formats cover most cases: a short online test sent before the interview (one to three minutes, often automated), a timed exercise on the employer's machine during the visit, and a work sample where typing is incidental to a task such as entering records or drafting a reply.</p>
     <p>The first two measure speed and accuracy under a clock. The third measures whether the output is usable, which is why candidates who type fast but sloppily fail work samples even with a good score.</p>
     <h2 id="how-to-prepare-in-a-week">How to prepare in a week</h2>
-    <table><tr><th>Day</th><th>Drill</th><th>Goal</th></tr><tr><td>1-2</td><td>Three five-minute rounds, same conditions</td><td>A baseline you can reproduce</td></tr><tr><td>3-4</td><td>Two rounds on an unfamiliar keyboard</td><td>Remove the hardware surprise</td></tr><tr><td>5</td><td>One timed round with punctuation and capitals</td><td>Accuracy under realistic text</td></tr><tr><td>6</td><td>One work-sample rehearsal: enter ten records cleanly</td><td>Field accuracy, not speed</td></tr><tr><td>7</td><td>Rest; one short warm-up only</td><td>Fresh hands on the day</td></tr></table>
+    <div class="tblwrap"><table><tr><th>Day</th><th>Drill</th><th>Goal</th></tr><tr><td>1-2</td><td>Three five-minute rounds, same conditions</td><td>A baseline you can reproduce</td></tr><tr><td>3-4</td><td>Two rounds on an unfamiliar keyboard</td><td>Remove the hardware surprise</td></tr><tr><td>5</td><td>One timed round with punctuation and capitals</td><td>Accuracy under realistic text</td></tr><tr><td>6</td><td>One work-sample rehearsal: enter ten records cleanly</td><td>Field accuracy, not speed</td></tr><tr><td>7</td><td>Rest; one short warm-up only</td><td>Fresh hands on the day</td></tr></table></div>
     <h2 id="on-the-day">On the day</h2>
     <p>Ask which scoring method and length the test uses before you start. Then type at 90% of your best pace for the first thirty seconds - almost everyone loses more in corrections than they gain in the opening sprint.</p>
     <p>If the test allows a practice sentence, take it. That is where you discover whether the keyboard has a different layout or a stiff spacebar, and it costs ten seconds.</p>

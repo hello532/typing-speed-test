@@ -432,6 +432,14 @@ body.typing-active footer{opacity:.26;filter:saturate(.72);pointer-events:none;}
 .finder input{width:100%;min-height:44px;padding:8px 12px;border:1px solid var(--line);border-radius:10px;background:var(--panelhi);color:var(--text);font-size:1rem;}
 .finder input:focus{outline:2px solid var(--borderhi);outline-offset:1px;}
 .finder-out{margin:10px 0 0;font-size:.88rem;color:var(--soft);}
+
+/* Round-73: wide tables must scroll, not get clipped.
+   Six-column benchmark tables exceed a 390px viewport even at width:100%,
+   because cell content sets a minimum width; the container has to scroll. */
+.tblwrap{overflow-x:auto;-webkit-overflow-scrolling:touch;margin:0 0 14px;border-radius:8px;}
+.tblwrap table{width:100%;min-width:520px;margin:0;}
+@media(max-width:560px){.tblwrap{position:relative;}
+  .tblwrap::after{content:"";display:block;height:1px;}}
 </style>
 <script>try{var _t=localStorage.getItem("trTheme");if(_t&&_t!=="dark")document.documentElement.setAttribute("data-theme",_t);var _l=localStorage.getItem("trLang");if(_l&&_l!=="en"){document.documentElement.lang=_l;if(_l==="ar")document.documentElement.dir="rtl";}}catch(e){}</script>
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1401237223139327"
@@ -570,7 +578,7 @@ body.typing-active footer{opacity:.26;filter:saturate(.72);pointer-events:none;}
     <p>A pangram contains every letter of the alphabet at least once. That makes it the shortest text that touches every key you own, which is exactly what a warm-up should do: no letter gets skipped because the passage happened not to contain it.</p>
     <p>It also exposes weak keys honestly. On ordinary prose you can drift for a minute without pressing Q, X or Z; on a pangram you press all of them, and the error report has something to say.</p>
     <h2 id="the-pangrams-worth-using">The pangrams worth using</h2>
-    <table><tr><th>Pangram</th><th>Why use it</th></tr><tr><td>The quick brown fox jumps over the lazy dog</td><td>The classic - short, all 26 letters, quick to finish</td></tr><tr><td>Sphinx of black quartz, judge my vow</td><td>Shorter, punctuation included, good for a 15-second round</td></tr><tr><td>Pack my box with five dozen liquor jugs</td><td>Letter-dense with unusual letters in the home-row reach</td></tr><tr><td>How vexingly quick daft zebras jump</td><td>Modern, all 26 letters, tests the Z and X reaches</td></tr><tr><td>Waltz, bad nymph, for quick jigs vex</td><td>Short and punctuation-heavy</td></tr></table>
+    <div class="tblwrap"><table><tr><th>Pangram</th><th>Why use it</th></tr><tr><td>The quick brown fox jumps over the lazy dog</td><td>The classic - short, all 26 letters, quick to finish</td></tr><tr><td>Sphinx of black quartz, judge my vow</td><td>Shorter, punctuation included, good for a 15-second round</td></tr><tr><td>Pack my box with five dozen liquor jugs</td><td>Letter-dense with unusual letters in the home-row reach</td></tr><tr><td>How vexingly quick daft zebras jump</td><td>Modern, all 26 letters, tests the Z and X reaches</td></tr><tr><td>Waltz, bad nymph, for quick jigs vex</td><td>Short and punctuation-heavy</td></tr></table></div>
     <p>Use two or three rather than all sixteen. Repetition of the same pangram is what builds the reflex; variety only prevents boredom.</p>
     <h2 id="how-to-use-them-without-fooling-yourself">How to use them without fooling yourself</h2>
     <p>A pangram round is short, so it reads high - typically 5-10 WPM above your five-minute score. Use it as a warm-up and a key check, never as the number you quote.</p>

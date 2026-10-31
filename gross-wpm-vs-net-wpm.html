@@ -432,6 +432,14 @@ body.typing-active footer{opacity:.26;filter:saturate(.72);pointer-events:none;}
 .finder input{width:100%;min-height:44px;padding:8px 12px;border:1px solid var(--line);border-radius:10px;background:var(--panelhi);color:var(--text);font-size:1rem;}
 .finder input:focus{outline:2px solid var(--borderhi);outline-offset:1px;}
 .finder-out{margin:10px 0 0;font-size:.88rem;color:var(--soft);}
+
+/* Round-73: wide tables must scroll, not get clipped.
+   Six-column benchmark tables exceed a 390px viewport even at width:100%,
+   because cell content sets a minimum width; the container has to scroll. */
+.tblwrap{overflow-x:auto;-webkit-overflow-scrolling:touch;margin:0 0 14px;border-radius:8px;}
+.tblwrap table{width:100%;min-width:520px;margin:0;}
+@media(max-width:560px){.tblwrap{position:relative;}
+  .tblwrap::after{content:"";display:block;height:1px;}}
 </style>
 <script>try{var _t=localStorage.getItem("trTheme");if(_t&&_t!=="dark")document.documentElement.setAttribute("data-theme",_t);var _l=localStorage.getItem("trLang");if(_l&&_l!=="en"){document.documentElement.lang=_l;if(_l==="ar")document.documentElement.dir="rtl";}}catch(e){}</script>
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1401237223139327"
@@ -568,7 +576,7 @@ body.typing-active footer{opacity:.26;filter:saturate(.72);pointer-events:none;}
   <section class="seo">
     <h2 id="the-two-formulas">The two formulas</h2>
     <p>Gross WPM: every character you produced, including wrong ones, divided by five and by the minutes elapsed. Net WPM: the same calculation after the incorrect characters are removed. Some tests subtract a fixed penalty per error instead of the characters themselves; both arrive at a lower number, they just describe the penalty differently.</p>
-    <table><tr><th>Method</th><th>Formula</th><th>What it rewards</th></tr><tr><td>Gross (raw) WPM</td><td>characters ÷ 5 ÷ minutes</td><td>Speed alone</td></tr><tr><td>Net WPM</td><td>(characters − errors) ÷ 5 ÷ minutes</td><td>Speed that survives accuracy</td></tr><tr><td>Adjusted WPM (AWPM)</td><td>all characters ÷ 5 ÷ minutes, errors counted as typed</td><td>School and exam scoring, where every keystroke is credited</td></tr></table>
+    <div class="tblwrap"><table><tr><th>Method</th><th>Formula</th><th>What it rewards</th></tr><tr><td>Gross (raw) WPM</td><td>characters ÷ 5 ÷ minutes</td><td>Speed alone</td></tr><tr><td>Net WPM</td><td>(characters − errors) ÷ 5 ÷ minutes</td><td>Speed that survives accuracy</td></tr><tr><td>Adjusted WPM (AWPM)</td><td>all characters ÷ 5 ÷ minutes, errors counted as typed</td><td>School and exam scoring, where every keystroke is credited</td></tr></table></div>
     <h2 id="one-run-three-scores">One run, three scores</h2>
     <p>Suppose you type 300 characters in 60 seconds and 12 of them are wrong. Gross is 300 ÷ 5 ÷ 1 = 60 WPM. Net is (300 − 12) ÷ 5 ÷ 1 = 57.6 WPM. Adjusted WPM stays at 60, because the method credits what you typed and reports accuracy separately.</p>
     <p>That is a 2.4 WPM spread on a single minute at 96% accuracy. At 90% accuracy the spread widens to 6 WPM, and at 85% it is 9 WPM — which is why the same typist can look fast on one site and average on another.</p>

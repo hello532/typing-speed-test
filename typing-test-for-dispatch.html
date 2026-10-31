@@ -432,6 +432,14 @@ body.typing-active footer{opacity:.26;filter:saturate(.72);pointer-events:none;}
 .finder input{width:100%;min-height:44px;padding:8px 12px;border:1px solid var(--line);border-radius:10px;background:var(--panelhi);color:var(--text);font-size:1rem;}
 .finder input:focus{outline:2px solid var(--borderhi);outline-offset:1px;}
 .finder-out{margin:10px 0 0;font-size:.88rem;color:var(--soft);}
+
+/* Round-73: wide tables must scroll, not get clipped.
+   Six-column benchmark tables exceed a 390px viewport even at width:100%,
+   because cell content sets a minimum width; the container has to scroll. */
+.tblwrap{overflow-x:auto;-webkit-overflow-scrolling:touch;margin:0 0 14px;border-radius:8px;}
+.tblwrap table{width:100%;min-width:520px;margin:0;}
+@media(max-width:560px){.tblwrap{position:relative;}
+  .tblwrap::after{content:"";display:block;height:1px;}}
 </style>
 <script>try{var _t=localStorage.getItem("trTheme");if(_t&&_t!=="dark")document.documentElement.setAttribute("data-theme",_t);var _l=localStorage.getItem("trLang");if(_l&&_l!=="en"){document.documentElement.lang=_l;if(_l==="ar")document.documentElement.dir="rtl";}}catch(e){}</script>
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1401237223139327"
@@ -573,7 +581,7 @@ body.typing-active footer{opacity:.26;filter:saturate(.72);pointer-events:none;}
     <p>Prose typing rewards rhythm. Dispatch typing rewards the number row, the ten-key area and the ability to spell an unfamiliar street name correctly the first time. That is a different practice target.</p>
     <ul><li>Numbers mode for two minutes a day, graded on errors not speed.</li><li>Listen to a podcast and type the numbers you hear — times, prices, years — in one pass.</li><li>Type addresses from a map app, including postcodes, without looking down.</li></ul>
     <h2 id="speed-bands-in-context">Speed bands in context</h2>
-    <table><tr><th>Role</th><th>Typical WPM floor</th><th>Added assessment</th></tr><tr><td>Call taker</td><td>35–40</td><td>Structured call interview, data capture</td></tr><tr><td>Dispatcher</td><td>40–45</td><td>Radio simulation, multitasking test</td></tr><tr><td>Supervisor or trainer</td><td>45+</td><td>Quality assurance, report writing</td></tr></table>
+    <div class="tblwrap"><table><tr><th>Role</th><th>Typical WPM floor</th><th>Added assessment</th></tr><tr><td>Call taker</td><td>35–40</td><td>Structured call interview, data capture</td></tr><tr><td>Dispatcher</td><td>40–45</td><td>Radio simulation, multitasking test</td></tr><tr><td>Supervisor or trainer</td><td>45+</td><td>Quality assurance, report writing</td></tr></table></div>
     <p>The typing test is rarely the only gate. Agencies also test hearing, memory, prioritisation and stress tolerance, and a 60 WPM score will not offset a failed call simulation.</p>
     <h2 id="practice-that-transfers">Practice that transfers</h2>
     <p>Two-minute rounds are the right length: long enough to feel the pressure of a call, short enough to repeat. Two minutes at 45 WPM net with 99% accuracy on digits is a stronger signal than five minutes of prose at 55.</p>

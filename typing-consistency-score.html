@@ -432,6 +432,14 @@ body.typing-active footer{opacity:.26;filter:saturate(.72);pointer-events:none;}
 .finder input{width:100%;min-height:44px;padding:8px 12px;border:1px solid var(--line);border-radius:10px;background:var(--panelhi);color:var(--text);font-size:1rem;}
 .finder input:focus{outline:2px solid var(--borderhi);outline-offset:1px;}
 .finder-out{margin:10px 0 0;font-size:.88rem;color:var(--soft);}
+
+/* Round-73: wide tables must scroll, not get clipped.
+   Six-column benchmark tables exceed a 390px viewport even at width:100%,
+   because cell content sets a minimum width; the container has to scroll. */
+.tblwrap{overflow-x:auto;-webkit-overflow-scrolling:touch;margin:0 0 14px;border-radius:8px;}
+.tblwrap table{width:100%;min-width:520px;margin:0;}
+@media(max-width:560px){.tblwrap{position:relative;}
+  .tblwrap::after{content:"";display:block;height:1px;}}
 </style>
 <script>try{var _t=localStorage.getItem("trTheme");if(_t&&_t!=="dark")document.documentElement.setAttribute("data-theme",_t);var _l=localStorage.getItem("trLang");if(_l&&_l!=="en"){document.documentElement.lang=_l;if(_l==="ar")document.documentElement.dir="rtl";}}catch(e){}</script>
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1401237223139327"
@@ -575,7 +583,7 @@ body.typing-active footer{opacity:.26;filter:saturate(.72);pointer-events:none;}
     <p>Average WPM is an average of a curve, and the curve has shape. A typist whose speed collapses in the last ten seconds has a stamina problem; one whose speed spikes at the start and settles has a pacing problem; one whose speed oscillates throughout is reading word by word instead of ahead.</p>
     <p>Consistency separates those cases. It also explains a common frustration: two people with the same one-minute score can have completely different five-minute scores, and the one with the higher consistency usually keeps more of it.</p>
     <h2 id="reading-the-number">Reading the number</h2>
-    <table><tr><th>Consistency</th><th>What it looks like</th><th>What to do</th></tr><tr><td>90-100</td><td>Nearly flat; the average is the truth</td><td>Nothing - work on speed instead</td></tr><tr><td>80-89</td><td>Mild variation, usually around difficult words</td><td>Drill the words that cause the dips</td></tr><tr><td>70-79</td><td>Visible dips; the average overstates your sustainable pace</td><td>Slow down 10% and hold it for a full minute</td></tr><tr><td>under 70</td><td>Large swings, often burst-then-recover</td><td>Accuracy work first; the swings are usually corrections</td></tr></table>
+    <div class="tblwrap"><table><tr><th>Consistency</th><th>What it looks like</th><th>What to do</th></tr><tr><td>90-100</td><td>Nearly flat; the average is the truth</td><td>Nothing - work on speed instead</td></tr><tr><td>80-89</td><td>Mild variation, usually around difficult words</td><td>Drill the words that cause the dips</td></tr><tr><td>70-79</td><td>Visible dips; the average overstates your sustainable pace</td><td>Slow down 10% and hold it for a full minute</td></tr><tr><td>under 70</td><td>Large swings, often burst-then-recover</td><td>Accuracy work first; the swings are usually corrections</td></tr></table></div>
     <h2 id="three-drills-that-raise-it">Three drills that raise it</h2>
     <ol><li><strong>Metronome typing.</strong> Type to a steady rhythm - one word per beat - for 30 seconds. The goal is not speed but flatness; you will feel the urges to sprint and to recover.</li><li><strong>Slow-hold rounds.</strong> Pick a pace you can hold for the entire round without a single sprint, and finish at exactly that pace. Most typists discover their sustainable pace is 10-15% below their peak.</li><li><strong>Dip hunting.</strong> After a round, look at the graph and find the lowest second. Type the words around that point again, slowly. Dips concentrate on the same few sequences - usually one hand doing two awkward reaches.</li></ol>
     <h2 id="where-consistency-is-not-the-right-metric">Where consistency is not the right metric</h2>

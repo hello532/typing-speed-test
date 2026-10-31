@@ -432,6 +432,14 @@ body.typing-active footer{opacity:.26;filter:saturate(.72);pointer-events:none;}
 .finder input{width:100%;min-height:44px;padding:8px 12px;border:1px solid var(--line);border-radius:10px;background:var(--panelhi);color:var(--text);font-size:1rem;}
 .finder input:focus{outline:2px solid var(--borderhi);outline-offset:1px;}
 .finder-out{margin:10px 0 0;font-size:.88rem;color:var(--soft);}
+
+/* Round-73: wide tables must scroll, not get clipped.
+   Six-column benchmark tables exceed a 390px viewport even at width:100%,
+   because cell content sets a minimum width; the container has to scroll. */
+.tblwrap{overflow-x:auto;-webkit-overflow-scrolling:touch;margin:0 0 14px;border-radius:8px;}
+.tblwrap table{width:100%;min-width:520px;margin:0;}
+@media(max-width:560px){.tblwrap{position:relative;}
+  .tblwrap::after{content:"";display:block;height:1px;}}
 </style>
 <script>try{var _t=localStorage.getItem("trTheme");if(_t&&_t!=="dark")document.documentElement.setAttribute("data-theme",_t);var _l=localStorage.getItem("trLang");if(_l&&_l!=="en"){document.documentElement.lang=_l;if(_l==="ar")document.documentElement.dir="rtl";}}catch(e){}</script>
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1401237223139327"
@@ -588,12 +596,12 @@ body.typing-active footer{opacity:.26;filter:saturate(.72);pointer-events:none;}
     <p>Numeric keypad work is usually scored in keystrokes per hour, but the same minute of typing can be read three ways: keystrokes per hour, <a href="cpm-typing-test.html">characters per minute</a>, and the five-character words per minute used by general typing tests. Because digits and operators are single characters, ten key speeds look far higher in KPH than the same effort looks in WPM &mdash; convert before comparing yourself with anyone quoting a different unit.</p>
     <h2 id="what-is-the-average-keystrokes-per-hour">What is the average keystrokes per hour?</h2>
     <p>Around 12,000 KPH is the middle of the working population, because that is what 40 WPM produces and 40 WPM is close to the median office speed. The bands below convert the WPM distribution into keystrokes per hour using KPH = WPM × 300.</p>
-    <table><tr><th>Keystrokes per hour</th><th>WPM equivalent</th><th>Reading</th></tr><tr><td>6,000</td><td>20</td><td>Beginner; hunt-and-peck</td></tr><tr><td>9,000</td><td>30</td><td>Below average, workable for simple entry</td></tr><tr><td>12,000</td><td>40</td><td>The common data-entry floor and close to the median</td></tr><tr><td>15,000</td><td>50</td><td>Above average; comfortable for full-time entry</td></tr><tr><td>18,000</td><td>60</td><td>Fast; upper band for entry work</td></tr><tr><td>24,000</td><td>80</td><td>Top decile; numeric-heavy roles</td></tr></table>
+    <div class="tblwrap"><table><tr><th>Keystrokes per hour</th><th>WPM equivalent</th><th>Reading</th></tr><tr><td>6,000</td><td>20</td><td>Beginner; hunt-and-peck</td></tr><tr><td>9,000</td><td>30</td><td>Below average, workable for simple entry</td></tr><tr><td>12,000</td><td>40</td><td>The common data-entry floor and close to the median</td></tr><tr><td>15,000</td><td>50</td><td>Above average; comfortable for full-time entry</td></tr><tr><td>18,000</td><td>60</td><td>Fast; upper band for entry work</td></tr><tr><td>24,000</td><td>80</td><td>Top decile; numeric-heavy roles</td></tr></table></div>
     <p>The distribution behind those WPM figures is the CHI 2018 sample (mean 51.56 WPM, SD 20.2, n = 168,960), summarised on the <a href="typing-speed-benchmarks.html">benchmarks page</a>. The conversion is arithmetic, so the uncertainties are in the WPM band, not in the multiplication.</p>
     <h2 id="8-000-key-depressions-per-hour-in-wpm">8,000 key depressions per hour in WPM</h2>
     <p>8,000 KPDH ÷ 300 = <strong>26.7 WPM</strong> (or 133 keystrokes per minute). That is the figure Indian SSC DEO posts use, and it is deliberately modest because the scoring counts <em>every</em> keypress - including backspaces.</p>
     <p>That distinction is the whole difficulty. In a keystroke-per-hour test, a correction is another keystroke against your hour, so a typist who produces 35 WPM but backspaces constantly can score below someone at 30 WPM who types it right first time. If you are preparing for a KPDH test, practise without correcting: <a href="alphanumeric-typing-test.html">alphanumeric drills</a> are the closest format.</p>
-    <table><tr><th>Key depressions per hour</th><th>WPM (÷300)</th><th>Keystrokes per minute</th></tr><tr><td>6,000</td><td>20.0</td><td>100</td></tr><tr><td>8,000</td><td>26.7</td><td>133</td></tr><tr><td>10,000</td><td>33.3</td><td>167</td></tr><tr><td>12,000</td><td>40.0</td><td>200</td></tr></table>
+    <div class="tblwrap"><table><tr><th>Key depressions per hour</th><th>WPM (÷300)</th><th>Keystrokes per minute</th></tr><tr><td>6,000</td><td>20.0</td><td>100</td></tr><tr><td>8,000</td><td>26.7</td><td>133</td></tr><tr><td>10,000</td><td>33.3</td><td>167</td></tr><tr><td>12,000</td><td>40.0</td><td>200</td></tr></table></div>
     <h2 id="key-depression-and-keystroke-are-not-always-the-">Key depression and keystroke are not always the same thing</h2>
     <p>A keystroke in this site's measurement means a character typed correctly. A <em>key depression</em> in examination scoring means any key pressed down, including Shift, Tab, Enter and backspace. The two numbers differ most for typists who correct a lot.</p>
     <p>So when a posting says "8,000 key depressions per hour", assume it counts everything, and treat your KPH score from this page as an optimistic version of it. When a posting says "keystrokes per hour" without qualification, ask - the difference is worth several WPM.</p>

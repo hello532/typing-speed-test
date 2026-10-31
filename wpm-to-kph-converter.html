@@ -432,6 +432,14 @@ body.typing-active footer{opacity:.26;filter:saturate(.72);pointer-events:none;}
 .finder input{width:100%;min-height:44px;padding:8px 12px;border:1px solid var(--line);border-radius:10px;background:var(--panelhi);color:var(--text);font-size:1rem;}
 .finder input:focus{outline:2px solid var(--borderhi);outline-offset:1px;}
 .finder-out{margin:10px 0 0;font-size:.88rem;color:var(--soft);}
+
+/* Round-73: wide tables must scroll, not get clipped.
+   Six-column benchmark tables exceed a 390px viewport even at width:100%,
+   because cell content sets a minimum width; the container has to scroll. */
+.tblwrap{overflow-x:auto;-webkit-overflow-scrolling:touch;margin:0 0 14px;border-radius:8px;}
+.tblwrap table{width:100%;min-width:520px;margin:0;}
+@media(max-width:560px){.tblwrap{position:relative;}
+  .tblwrap::after{content:"";display:block;height:1px;}}
 </style>
 <script>try{var _t=localStorage.getItem("trTheme");if(_t&&_t!=="dark")document.documentElement.setAttribute("data-theme",_t);var _l=localStorage.getItem("trLang");if(_l&&_l!=="en"){document.documentElement.lang=_l;if(_l==="ar")document.documentElement.dir="rtl";}}catch(e){}</script>
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1401237223139327"
@@ -573,7 +581,7 @@ body.typing-active footer{opacity:.26;filter:saturate(.72);pointer-events:none;}
     <p>One word is counted as five characters, the convention every typing test uses because it makes speeds comparable across languages and text styles. One minute of typing at W WPM is therefore 5W characters, and an hour is 60 × 5W keystrokes.</p>
     <p>KPH = WPM × 300. The reverse is WPM = KPH ÷ 300. If you prefer to work from CPM, KPH = CPM × 60, and CPM = WPM × 5.</p>
     <h2 id="conversion-chart">Conversion chart</h2>
-    <table><tr><th>WPM</th><th>CPM</th><th>KPH</th><th>Where you see this number</th></tr><tr><td>20</td><td>100</td><td>6,000</td><td>Minimum in general clerical ads</td></tr><tr><td>30</td><td>150</td><td>9,000</td><td>Insurance and billing support</td></tr><tr><td>33</td><td>167</td><td>10,000</td><td>The standard data-entry requirement</td></tr><tr><td>40</td><td>200</td><td>12,000</td><td>Ten-key and order processing</td></tr><tr><td>50</td><td>250</td><td>15,000</td><td>Fast data entry, transcription</td></tr><tr><td>60</td><td>300</td><td>18,000</td><td>Above most clerical requirements</td></tr><tr><td>80</td><td>400</td><td>24,000</td><td>Professional typing, court reporting support</td></tr><tr><td>100</td><td>500</td><td>30,000</td><td>Top decile of typists</td></tr></table>
+    <div class="tblwrap"><table><tr><th>WPM</th><th>CPM</th><th>KPH</th><th>Where you see this number</th></tr><tr><td>20</td><td>100</td><td>6,000</td><td>Minimum in general clerical ads</td></tr><tr><td>30</td><td>150</td><td>9,000</td><td>Insurance and billing support</td></tr><tr><td>33</td><td>167</td><td>10,000</td><td>The standard data-entry requirement</td></tr><tr><td>40</td><td>200</td><td>12,000</td><td>Ten-key and order processing</td></tr><tr><td>50</td><td>250</td><td>15,000</td><td>Fast data entry, transcription</td></tr><tr><td>60</td><td>300</td><td>18,000</td><td>Above most clerical requirements</td></tr><tr><td>80</td><td>400</td><td>24,000</td><td>Professional typing, court reporting support</td></tr><tr><td>100</td><td>500</td><td>30,000</td><td>Top decile of typists</td></tr></table></div>
     <h2 id="the-mistake-almost-everyone-makes">The mistake almost everyone makes</h2>
     <p>WPM × 60 converts minutes to hours but keeps the unit: 50 WPM × 60 is 3,000, and 3,000 is words per hour, not keystrokes. The missing factor of five is the characters-per-word convention. A 50 WPM typist produces 15,000 keystrokes in an hour, not 3,000.</p>
     <p>The second mistake is comparing KPH across text types. A page of digits produces a much higher KPH than a page of long English words at the same effort, because every digit is one keystroke and every long word is eight. KPH requirements are usually quoting alphanumeric data, so test with numbers if the job is numeric.</p>

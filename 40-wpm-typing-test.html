@@ -432,6 +432,14 @@ body.typing-active footer{opacity:.26;filter:saturate(.72);pointer-events:none;}
 .finder input{width:100%;min-height:44px;padding:8px 12px;border:1px solid var(--line);border-radius:10px;background:var(--panelhi);color:var(--text);font-size:1rem;}
 .finder input:focus{outline:2px solid var(--borderhi);outline-offset:1px;}
 .finder-out{margin:10px 0 0;font-size:.88rem;color:var(--soft);}
+
+/* Round-73: wide tables must scroll, not get clipped.
+   Six-column benchmark tables exceed a 390px viewport even at width:100%,
+   because cell content sets a minimum width; the container has to scroll. */
+.tblwrap{overflow-x:auto;-webkit-overflow-scrolling:touch;margin:0 0 14px;border-radius:8px;}
+.tblwrap table{width:100%;min-width:520px;margin:0;}
+@media(max-width:560px){.tblwrap{position:relative;}
+  .tblwrap::after{content:"";display:block;height:1px;}}
 </style>
 <script>try{var _t=localStorage.getItem("trTheme");if(_t&&_t!=="dark")document.documentElement.setAttribute("data-theme",_t);var _l=localStorage.getItem("trLang");if(_l&&_l!=="en"){document.documentElement.lang=_l;if(_l==="ar")document.documentElement.dir="rtl";}}catch(e){}</script>
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1401237223139327"
@@ -570,7 +578,7 @@ body.typing-active footer{opacity:.26;filter:saturate(.72);pointer-events:none;}
     <p>40 WPM is 200 characters per minute, 12,000 keystrokes per hour, and 200 words over a five-minute test. On a standard error rule of one error per ten words, you are allowed about twenty errors across the five minutes — which sounds generous until you watch your score after a bad paragraph.</p>
     <p>The US federal clerical standard is published as 40 WPM over five minutes with no more than three errors, which is far stricter: 98.5% accuracy. Most private employers quote the speed and leave the accuracy floor at 95%.</p>
     <h2 id="who-actually-asks-for-it">Who actually asks for it</h2>
-    <table><tr><th>Role</th><th>Stated requirement</th><th>At 40 WPM</th></tr><tr><td>Receptionist</td><td>40-50 net WPM</td><td>Bottom of the band</td></tr><tr><td>General office / admin</td><td>40-55 WPM</td><td>Bottom of the band</td></tr><tr><td>County clerk-typist</td><td>35-45 net WPM</td><td>Comfortable</td></tr><tr><td>US federal clerk</td><td>40 WPM, ≤3 errors</td><td>Exactly at the line</td></tr><tr><td>Data entry clerk</td><td>45-65 WPM or 13,500+ KPH</td><td>Short</td></tr></table>
+    <div class="tblwrap"><table><tr><th>Role</th><th>Stated requirement</th><th>At 40 WPM</th></tr><tr><td>Receptionist</td><td>40-50 net WPM</td><td>Bottom of the band</td></tr><tr><td>General office / admin</td><td>40-55 WPM</td><td>Bottom of the band</td></tr><tr><td>County clerk-typist</td><td>35-45 net WPM</td><td>Comfortable</td></tr><tr><td>US federal clerk</td><td>40 WPM, ≤3 errors</td><td>Exactly at the line</td></tr><tr><td>Data entry clerk</td><td>45-65 WPM or 13,500+ KPH</td><td>Short</td></tr></table></div>
     <p>Being exactly at the line is risky on a five-minute test, because one bad sentence can drop you under it. Aim for 44-45 before you apply, which gives you the margin that 40 alone does not.</p>
     <h2 id="the-four-weeks-that-actually-work">The four weeks that actually work</h2>
     <p>Week 1 — measure and stop the bleeding. Three five-minute rounds, no backspace rule, accuracy recorded. Most candidates at 40 WPM are correcting 8-12 times a minute; removing that habit alone buys 3-5 WPM.</p>

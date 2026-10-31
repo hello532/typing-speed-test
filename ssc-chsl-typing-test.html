@@ -432,6 +432,14 @@ body.typing-active footer{opacity:.26;filter:saturate(.72);pointer-events:none;}
 .finder input{width:100%;min-height:44px;padding:8px 12px;border:1px solid var(--line);border-radius:10px;background:var(--panelhi);color:var(--text);font-size:1rem;}
 .finder input:focus{outline:2px solid var(--borderhi);outline-offset:1px;}
 .finder-out{margin:10px 0 0;font-size:.88rem;color:var(--soft);}
+
+/* Round-73: wide tables must scroll, not get clipped.
+   Six-column benchmark tables exceed a 390px viewport even at width:100%,
+   because cell content sets a minimum width; the container has to scroll. */
+.tblwrap{overflow-x:auto;-webkit-overflow-scrolling:touch;margin:0 0 14px;border-radius:8px;}
+.tblwrap table{width:100%;min-width:520px;margin:0;}
+@media(max-width:560px){.tblwrap{position:relative;}
+  .tblwrap::after{content:"";display:block;height:1px;}}
 </style>
 <script>try{var _t=localStorage.getItem("trTheme");if(_t&&_t!=="dark")document.documentElement.setAttribute("data-theme",_t);var _l=localStorage.getItem("trLang");if(_l&&_l!=="en"){document.documentElement.lang=_l;if(_l==="ar")document.documentElement.dir="rtl";}}catch(e){}</script>
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1401237223139327"
@@ -567,7 +575,7 @@ body.typing-active footer{opacity:.26;filter:saturate(.72);pointer-events:none;}
 
   <section class="seo">
     <h2 id="the-two-tests-side-by-side">The two tests, side by side</h2>
-    <table><tr><th>Post</th><th>Standard</th><th>Duration</th><th>Scoring</th></tr><tr><td>LDC / JSA</td><td>35 WPM English or 30 WPM Hindi</td><td>10 minutes</td><td>Words per minute with an error allowance</td></tr><tr><td>DEO / DEO Grade A</td><td>8000 key depressions per hour</td><td>15 minutes</td><td>Total key depressions against an 8000/hour rate</td></tr></table>
+    <div class="tblwrap"><table><tr><th>Post</th><th>Standard</th><th>Duration</th><th>Scoring</th></tr><tr><td>LDC / JSA</td><td>35 WPM English or 30 WPM Hindi</td><td>10 minutes</td><td>Words per minute with an error allowance</td></tr><tr><td>DEO / DEO Grade A</td><td>8000 key depressions per hour</td><td>15 minutes</td><td>Total key depressions against an 8000/hour rate</td></tr></table></div>
     <p>8000 key depressions per hour is about 26.7 WPM under the five-character convention, but it is measured as raw keystrokes including corrections you make, so a typist who backspaces constantly loses ground even at a good words-per-minute rate.</p>
     <h2 id="error-allowance-is-where-candidates-fail">Error allowance is where candidates fail</h2>
     <p>The typing test is qualifying: you either clear the standard or you do not, and the score does not add to your merit total. That changes the strategy completely. A candidate chasing 45 WPM with 12% errors fails; a candidate at 37 WPM with 3% errors passes.</p>

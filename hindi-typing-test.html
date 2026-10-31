@@ -447,6 +447,14 @@ body.typing-active footer{opacity:.26;filter:saturate(.72);pointer-events:none;}
 .finder input{width:100%;min-height:44px;padding:8px 12px;border:1px solid var(--line);border-radius:10px;background:var(--panelhi);color:var(--text);font-size:1rem;}
 .finder input:focus{outline:2px solid var(--borderhi);outline-offset:1px;}
 .finder-out{margin:10px 0 0;font-size:.88rem;color:var(--soft);}
+
+/* Round-73: wide tables must scroll, not get clipped.
+   Six-column benchmark tables exceed a 390px viewport even at width:100%,
+   because cell content sets a minimum width; the container has to scroll. */
+.tblwrap{overflow-x:auto;-webkit-overflow-scrolling:touch;margin:0 0 14px;border-radius:8px;}
+.tblwrap table{width:100%;min-width:520px;margin:0;}
+@media(max-width:560px){.tblwrap{position:relative;}
+  .tblwrap::after{content:"";display:block;height:1px;}}
 </style>
 <script>try{var _t=localStorage.getItem("trTheme");if(_t&&_t!=="dark")document.documentElement.setAttribute("data-theme",_t);var _l=localStorage.getItem("trLang");if(_l&&_l!=="en"){document.documentElement.lang=_l;if(_l==="ar")document.documentElement.dir="rtl";}}catch(e){}
 window.__trPageLang="hi";</script>
@@ -587,7 +595,7 @@ window.__trPageLang="hi";</script>
     <p>Add conjuncts (क्ष, त्र, ज्ञ) and the nasal marks (ं ँ) and you have a script where accuracy depends on sequence, not just key location. That is why Hindi typing tests feel different from English ones even at the same WPM.</p>
     <h2 id="krutidev-remington-and-mangal">Krutidev, Remington and Mangal</h2>
     <p>Indian typing exams usually specify a layout, and the three you will meet are Krutidev, Remington (often called the typewriter layout) and Mangal/InScript. They map Devanagari to the keyboard in completely different ways: Krutidev and Remington are legacy layouts built for typewriters and phototypesetting, while InScript follows the script's logical order.</p>
-    <table><tr><th>Layout</th><th>Where you meet it</th><th>Learning cost for a QWERTY typist</th></tr><tr><td>Krutidev</td><td>Many state government exams, court work</td><td>High - keys do not match the script order</td></tr><tr><td>Remington</td><td>Older exams, some typing institutes</td><td>High - typewriter-era mapping</td></tr><tr><td>InScript / Mangal</td><td>Modern government and Unicode work</td><td>Moderate - follows the script logically</td></tr></table>
+    <div class="tblwrap"><table><tr><th>Layout</th><th>Where you meet it</th><th>Learning cost for a QWERTY typist</th></tr><tr><td>Krutidev</td><td>Many state government exams, court work</td><td>High - keys do not match the script order</td></tr><tr><td>Remington</td><td>Older exams, some typing institutes</td><td>High - typewriter-era mapping</td></tr><tr><td>InScript / Mangal</td><td>Modern government and Unicode work</td><td>Moderate - follows the script logically</td></tr></table></div>
     <p>Check the notice before you practise. Learning the wrong layout is worse than not practising, because the reflexes conflict.</p>
     <h2 id="the-exam-requirements">The exam requirements</h2>
     <p>Hindi typing tests commonly ask 25-30 words per minute, with 30 WPM the figure used where English requires 35. Some posts quote key depressions per hour instead, and the mistake allowance is usually around 5%.</p>
