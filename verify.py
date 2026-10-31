@@ -105,8 +105,8 @@ def main():
                 bad_ld.append((n, str(e)[:50]))
         want_types = (["WebApplication", "FAQPage", "BreadcrumbList", "Organization", "WebSite"]
                       if n == "index.html" else ["WebApplication", "FAQPage", "BreadcrumbList"])
-        # R14: HowTo 可选追加（requirements 页），核心类型仍须精确匹配
-        actual_core = [t for t in types if t != "HowTo"]
+        # R14/R86：HowTo 与 Dataset 属可选附加类型，核心三块仍须精确匹配
+        actual_core = [t for t in types if t not in ("HowTo", "Dataset")]
         if actual_core != want_types:
             bad_ld.append((n, f"types={types}"))
     check("6. 每页 JSON-LD 合法且类型顺序正确（首页 5 块含 Org/Site）", not bad_ld, str(bad_ld[:3]) if bad_ld else f"{len(htmls)*3+2} 块")

@@ -39,7 +39,10 @@ OG_IMAGE_ALT = "Rerivo free online typing speed test — measure WPM and accurac
 
 # Round-6 GEO：组织 / 站点实体（仅首页输出 Organization + WebSite，其余页空串）
 ORG_OBJ = {"@context": "https://schema.org", "@type": "Organization",
-           "name": "Rerivo", "url": SITE, "logo": SITE + "/icon-512.png"}
+           "name": "Rerivo", "url": SITE, "logo": SITE + "/icon-512.png",
+           # R86：实体归属，指向我们真正拥有的两个公开仓库（不是买来的资料页）
+           "sameAs": ["https://github.com/hello532/typing-speed-test",
+                      "https://github.com/hello532/typing-speed-benchmarks"]}
 SITE_OBJ = {"@context": "https://schema.org", "@type": "WebSite",
             "name": "Rerivo Typing Speed Test", "url": SITE + "/"}
 
@@ -283,7 +286,22 @@ def build_jsonld(page, cfg):
     # answer engine actually quotes.
     # R44：HowTo（仅配置了 howto 的页输出，附在 BreadcrumbList 之后）。
     # verify 6 号门禁的期望类型里显式排除 HowTo，所以单页附加不会破坏类型顺序锁。
-    art = ""
+    ds = ""
+    if page.get("dataset"):
+        d = page["dataset"]
+        ds = ld_block({"@context": "https://schema.org", "@type": "Dataset",
+                       "name": d["name"], "description": d["description"],
+                       "url": page["canonical"],
+                       "creator": {"@type": "Organization", "name": "Typing.Rerivo", "url": SITE + "/"},
+                       "license": d["license"],
+                       "isAccessibleForFree": True,
+                       "keywords": d["keywords"],
+                       "distribution": [
+                           {"@type": "DataDownload", "encodingFormat": "text/csv",
+                            "contentUrl": SITE + "/typing-speed-benchmarks.csv"},
+                           {"@type": "DataDownload", "encodingFormat": "text/html",
+                            "contentUrl": page["canonical"]}]}, False)
+    art = ds
     if page.get("howto"):
         how = {"@context": "https://schema.org", "@type": "HowTo",
                "name": page["howto"]["name"],
