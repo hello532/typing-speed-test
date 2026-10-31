@@ -156,6 +156,7 @@ Typing Speed: Phone vs Keyboard
 Typing Speed by Grade
 How to Put WPM on a Résumé
 Will Employers Accept a Free Typing Certificate?
+Typing Speed Benchmarks
 
 ## Games and races
 

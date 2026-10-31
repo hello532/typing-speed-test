@@ -30,6 +30,8 @@ For job applications, percentiles are persuasive but not what screeners check: t
 
 For practice targets, aim at the next decile rather than the mean. Moving from the 50th to the 66th is roughly 10 WPM and takes weeks; moving from the 90th to the 99th is 22 WPM and takes months of deliberate practice on specific key sequences.
 
+Every figure on this page, with its source and a downloadable CSV, is collected on the typing speed benchmarks page.
+
 ## Frequently asked questions
 
 ### What percentile is 60 WPM?

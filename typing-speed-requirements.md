@@ -54,6 +54,8 @@ The bands above come from publicly advertised job requirements and published exa
 
 Where a figure has an official source - the federal 40 WPM standard, the SSC CHSL notice, the 225 WPM NCRA stenotype standard - this page names it. Where it is a market range, the page says so. If a recruiter quotes a number that contradicts your test, ask which unit and which scoring method before assuming you failed.
 
+For the measured population behind these thresholds, see the benchmark data page - it separates study measurements from advertised job ranges.
+
 ## Typing speed requirements FAQ
 
 ### What typing speed is required for most jobs?

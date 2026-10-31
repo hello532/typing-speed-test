@@ -34,6 +34,8 @@ If you only have a one-minute score, subtract 5 before reading the table. It is 
 
 Each band has a different cause, which is why generic advice stops working after the first twenty points.
 
+The underlying study figures, the phone-versus-keyboard comparison and a CSV of this curve are on the benchmarks page.
+
 ## Frequently asked questions
 
 ### Is 60 WPM good?

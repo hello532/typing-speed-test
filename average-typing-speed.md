@@ -46,6 +46,8 @@ So before concluding you are below average, check what you measured. A five-minu
 
 Run a five-minute sentence test, then read net WPM and accuracy from the results panel. Compare the net figure against the table above, and check whether accuracy is inside the 97-98% band most employers require - a fast score at 92% accuracy is not the same asset as a slightly slower clean one.
 
+The source table behind these bands, plus the phone average and the raw CSV, is on the typing speed benchmarks page.
+
 ## Typing test FAQ
 
 ### What is the average typing speed?

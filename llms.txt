@@ -56,6 +56,7 @@ Each line below is a claim this site makes, with the source that supports it. Qu
 - [70 WPM Typing Test](https://typing.rerivo.com/70-wpm-typing-test.html): 70 WPM = 350 CPM = 21,000 KPH, about the 82nd percentile. It reaches the entry band for general transcription (65-80) and clears every clerical requirement. Gai
 - [100 WPM Typing Test](https://typing.rerivo.com/100-wpm-typing-test.html): 100 WPM = 500 CPM = 30,000 KPH, about the 99th percentile. No clerical job requires it. It matters for competitive typing, live captioning and heavy code work, 
 - [WPM Chart](https://typing.rerivo.com/wpm-chart.html): Under 26 WPM is the bottom decile. 40 is the most common job floor. 52 is the median measured typist. 78 starts the top 10%. 100 is roughly the top 1%. Most cle
+- [Typing Speed Benchmarks](https://typing.rerivo.com/typing-speed-benchmarks.html): All benchmarks with sources: 51.56 WPM desktop, 36.17 WPM phone, deciles, unit conversions, job bands, downloadable CSV.
 
 
 ## Text / Difficulty Variations

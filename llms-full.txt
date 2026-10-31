@@ -1021,6 +1021,7 @@ Role-by-role figures, in the units employers actually use, are on the typing spe
 Test length: a 15-second burst reads 5-10 WPM higher than a five-minute run. Text type: random words score lower than sentences, code lower again, digits are a different skill. Scoring: gross WPM is higher than net. Keyboard: a laptop chiclet keyboard is slower than a mechanical one for most people.
 So before concluding you are below average, check what you measured. A five-minute net score on sentences is what this page's bands refer to; a one-minute gross score on random words is not comparable.
 Run a five-minute sentence test, then read net WPM and accuracy from the results panel. Compare the net figure against the table above, and check whether accuracy is inside the 97-98% band most employers require - a fast score at 92% accuracy is not the same asset as a slightly slower clean one.
+The source table behind these bands, plus the phone average and the raw CSV, is on the typing speed benchmarks page.
 ## Typing test FAQ
 51.56 WPM in the largest published measurement, from 136,857,600 keystrokes recorded from 168,960 volunteers (Dhakal et al., CHI 2018). The older 40 WPM figure reflects office-worker samples rather than self-selected test takers.
 It is around the 28th percentile of the CHI 2018 distribution and clears the floor for most clerical and reception roles. It is below the 50-70 WPM band that legal, medical and transcription roles ask for.
@@ -2239,6 +2240,7 @@ Week three: length. Move to rounds the same length as the real test. A five-minu
 Week four: simulate. Same time of day, unfamiliar keyboard, no pause. Then re-measure against the band for your target role.
 The bands above come from publicly advertised job requirements and published examination standards across clerical, medical, legal and public-safety postings. They are ranges, not guarantees: two employers in the same sector can differ by ten WPM.
 Where a figure has an official source - the federal 40 WPM standard, the SSC CHSL notice, the 225 WPM NCRA stenotype standard - this page names it. Where it is a market range, the page says so. If a recruiter quotes a number that contradicts your test, ask which unit and which scoring method before assuming you failed.
+For the measured population behind these thresholds, see the benchmark data page - it separates study measurements from advertised job ranges.
 ## Typing speed requirements FAQ
 40 to 55 WPM covers most office, clerical and administrative roles, usually with a 95% accuracy floor. Data entry is quoted differently: 8,000 to 12,000 keystrokes per hour, which is 27 to 40 WPM.
 About 26.7 WPM. 8,000 ÷ 60 = 133 keystrokes per minute, and 133 ÷ 5 = 26.7. Corrections count as key depressions, so backspacing lowers the real figure.
@@ -4551,6 +4553,7 @@ The sample is self-selected: people who choose to take an online typing test are
 The study also measures transcription typing — copying displayed text — on a desktop keyboard in English. Phone typing, dictation, code and non-Latin scripts are different tasks with different distributions, so a percentile from this table describes one specific skill.
 For job applications, percentiles are persuasive but not what screeners check: they check against a fixed threshold such as 40 or 50 WPM. Use the percentile to decide whether you are in the band, and the raw net WPM to report it.
 For practice targets, aim at the next decile rather than the mean. Moving from the 50th to the 66th is roughly 10 WPM and takes weeks; moving from the 90th to the 99th is 22 WPM and takes months of deliberate practice on specific key sequences.
+Every figure on this page, with its source and a downloadable CSV, is collected on the typing speed benchmarks page.
 ## Frequently asked questions
 About the 66th percentile, using the CHI 2018 distribution with mean 51.56 and standard deviation 20.2. In other words, faster than roughly two thirds of the volunteers in that study.
 About the 99th. The study's fastest decile exceeded roughly 78 WPM, so 100 WPM sits well inside the top 1% of that sample.
@@ -5015,6 +5018,7 @@ If you only have a one-minute score, subtract 5 before reading the table. It is 
 50 to 60: read ahead. The bottleneck moves from the fingers to the eyes, and look-ahead practice fixes it.
 60 to 80: consistency. Type ten one-minute rounds and track your worst, not your best.
 Each band has a different cause, which is why generic advice stops working after the first twenty points.
+The underlying study figures, the phone-versus-keyboard comparison and a CSV of this curve are on the benchmarks page.
 ## Frequently asked questions
 Yes — about the 66th percentile, faster than two thirds of measured typists, and the point where job adverts start calling typing fast. It is the entry band for legal secretary and transcription work.
 It is the standard floor: around the 28th percentile and the number most clerical, receptionist and county government postings quote. Aim for 44-45 so a bad sentence cannot drop you under it.
@@ -5281,6 +5285,7 @@ Typing Speed: Phone vs Keyboard
 Typing Speed by Grade
 How to Put WPM on a Résumé
 Will Employers Accept a Free Typing Certificate?
+Typing Speed Benchmarks
 ## Games and races
 Typing Games
 Typing Race
@@ -5673,3 +5678,62 @@ Both matter. Scanning is faster where barcodes exist, but typing is the fallback
 Practise confusable characters (0/O, 1/I, 5/S) deliberately, and verify each SKU against the pick list character by character for the first weeks on the job.
 No. The dock sets the pace, and accuracy determines whether the queue clears. 35-45 WPM with clean codes is enough for most admin roles.
 Numbers and postcodes. They are the fields with real-world consequences, and they are where untrained typists lose accuracy first.
+
+## Typing Speed Benchmarks
+Source: https://typing.rerivo.com/typing-speed-benchmarks.html
+
+Every number this site uses, with where it comes from. 51.56 WPM on a desktop keyboard and 36.17 WPM on a phone are the two measured averages; everything else on this page is either arithmetic or a labelled market range.
+
+On this page
+Measured averages (the only two hard numbers)
+Percentile curve (derived, labelled as an approximation)
+Unit conversions (arithmetic, not measurement)
+Job requirement bands (market ranges, labelled)
+What is not on this page, and why
+How to cite this page
+Measure | Desktop keyboard | Phone (touchscreen)
+Mean speed | 51.56 WPM (SD 20.2) | 36.17 WPM (SD 13.22)
+Uncorrected error rate | 1.17% | 2.34%
+Keystrokes per character | 1.173 | 1.18
+Participants | 168,960 | 37,370
+Keystrokes recorded | 136,857,600 | not reported as a total
+Percentile thresholds reported by the authors | top 10% > ~78 WPM; bottom 10% < ~26 WPM | 75% below 43.98 WPM
+Source | Dhakal, Feit, Kristensson & Oulasvirta, CHI 2018, doi.org/10.1145/3173574.3174220 | Palin, Feit, Kim, Kristensson & Oulasvirta, MobileHCI 2019, doi.org/10.1145/3338286.3340120
+Both studies used the same task - transcribe a displayed English sentence - so the device comparison is unusually clean. The mobile study compares itself to the desktop one directly and reports that average performance is about 15 WPM slower on a phone.
+WPM | Percentile | CPM | Keystrokes per hour
+20 | 6th | 100 | 6,000
+30 | 14th | 150 | 9,000
+40 | 28th | 200 | 12,000
+50 | 47th | 250 | 15,000
+60 | 66th | 300 | 18,000
+70 | 82nd | 350 | 21,000
+80 | 92nd | 400 | 24,000
+90 | 97th | 450 | 27,000
+100 | 99th | 500 | 30,000
+Computed from a normal distribution with mean 51.56 and standard deviation 20.2. It is an approximation - real typing speed is mildly left-skewed - and it is validated by reproducing the study's own reported deciles (about 26 and 78 WPM) to within one percentile point. Enter any score to convert it.
+The full curve at 5 WPM steps is available as typing-speed-benchmarks.csv (columns: wpm, percentile, percentile_rounded, cpm, keystrokes_per_hour). Reuse it with attribution.
+From | To | Formula | Example
+WPM | CPM | × 5 | 40 WPM = 200 CPM
+CPM | KPH | × 60 | 200 CPM = 12,000 KPH
+WPM | KPH | × 300 | 40 WPM = 12,000 KPH
+KPH | WPM | ÷ 300 | 10,000 KPH = 33.3 WPM
+Key depressions/hour | WPM | ÷ 300 (corrections count) | 8,000 KDPH ≈ 26.7 WPM
+The factor of five is the characters-per-word convention, not a physical constant. It exists so that a score on a long-word passage and a short-word passage can be compared.
+Role | Advertised band | Basis
+General office / admin | 40-55 WPM | Range across advertised clerical postings
+US federal clerk | 40 WPM, 5 minutes, ≤3 errors | Published federal clerical standard
+Data entry clerk | 8,000-12,000 KPH | Range across advertised postings
+Legal secretary | 60-75 WPM | Range across advertised postings
+Medical transcription | 65-80 WPM | Range across advertised postings
+Court reporter (stenotype) | 225 WPM | Certification standard, not a keyboard
+These are not measurements of a population; they are what employers and certifying bodies publish. Two employers in the same sector commonly differ by ten WPM, so read the posting rather than the table. Detail per role: typing speed requirements by job.
+There is no average speed by country, no average by gender, and no "average for a 12-year-old" figure here, because we could not find a primary measurement for them that we were willing to cite. Sites that publish those numbers rarely link a study.
+There is also no traffic or leaderboard statistic: this site stores results in the visitor's browser, so it has no server-side dataset to aggregate and will not pretend to have one.
+Preferred form: "Typing.Rerivo, Typing Speed Benchmarks, https://typing.rerivo.com/typing-speed-benchmarks.html (accessed DATE)". The underlying numbers should be cited to the papers above, not to this page - the page is a convenient summary, not the source.
+If you reuse the CSV, keep the column names and note that the percentile column is a normal approximation of the CHI 2018 distribution.
+## Frequently asked questions
+51.56 WPM on a desktop keyboard, from the CHI 2018 study of 168,960 volunteers. On a phone the measured average is 36.17 WPM from a 37,370-person study.
+About the 66th on desktop. The percentile curve here is a normal approximation of the CHI 2018 distribution (mean 51.56, SD 20.2), validated against the study's reported deciles.
+Yes - typing-speed-benchmarks.csv has 25 rows at 5 WPM steps with percentile, CPM and keystrokes per hour. Reuse it with attribution to Typing.Rerivo and the original papers.
+Older sources quote about 40 WPM from small office-worker samples; the 51.56 WPM figure comes from a 168,960-person online sample. Both describe real populations but not the same one.
+Yes, unusually so: both studies used the same transcription task and the mobile paper compares itself to the desktop one directly, reporting about 15 WPM difference.
