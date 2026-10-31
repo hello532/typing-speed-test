@@ -19,6 +19,8 @@ I am stuck at a speed — the WPM chart names the cause for each band, from look
 
 The footer already links every page, but a flat list of 160 links tells a reader nothing about which one to open. This directory groups them by the question they answer, and it is generated from the same configuration that builds the pages, so it cannot drift out of date or link to something that no longer exists.
 
+New to this? The free typing test gives you a sixty-second baseline before you choose a longer test; come back here once you know roughly where you stand.
+
 ## Other test lengths
 
 ## Practice and lessons

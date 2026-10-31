@@ -482,6 +482,7 @@ Most free typing practice sites are free until you want to see your score, then 
 If you searched for online typing practice, the useful question is not which site has the most lessons but which one gives you a number you can trust and compare. Take one 60-second round here as a baseline, note the WPM and accuracy, then pick a single drill type below and repeat it for a week. Accuracy first: a 97% round beats a fast sloppy one for building the muscle memory that raises speed later.
 Ready-made exercise sets cover sentences, quotes, numbers and words, and every length from 15 seconds to 10 minutes is available, so you can practise in the gaps of a normal day. Start with the learn to type faster plan if you want a fixed routine, or jump straight into a round below.
 For structured browser-based practice with per-language text and per-key analysis, see online typing practice — a daily 10-minute plan by goal, no sign up. Want a plain timed score instead of a structured plan? Use the online typing test.
+If you want a number rather than a drill, the free typing test gives you one in sixty seconds, and the practice page is where you go afterwards to move it.
 ## Typing test FAQ
 Untimed, repeatable drills across sentences, quotes, numbers and words modes. Unlike a scored test, practice lets you retry weak keys freely and watch per-key accuracy improve before you take a timed test.
 Practice rounds use the same formula — correct characters divided by 5 and by minutes spent — plus accuracy and slowest-key stats. Scores save locally so you can compare rounds over time.
@@ -1201,6 +1202,7 @@ Test length: a 15-second burst reads 5-10 WPM higher than a five-minute run. Tex
 So before concluding you are below average, check what you measured. A five-minute net score on sentences is what this page's bands refer to; a one-minute gross score on random words is not comparable.
 Run a five-minute sentence test, then read net WPM and accuracy from the results panel. Compare the net figure against the table above, and check whether accuracy is inside the 97-98% band most employers require - a fast score at 92% accuracy is not the same asset as a slightly slower clean one.
 The source table behind these bands, plus the phone average and the raw CSV, is on the typing speed benchmarks page.
+Reading about averages is not the same as measuring yours - a free typing test on this site reports net WPM and accuracy against these bands in one minute.
 ## Typing test FAQ
 51.56 WPM in the largest published measurement, from 136,857,600 keystrokes recorded from 168,960 volunteers (Dhakal et al., CHI 2018). The older 40 WPM figure reflects office-worker samples rather than self-selected test takers.
 It is around the 28th percentile of the CHI 2018 distribution and clears the floor for most clerical and reception roles. It is below the 50-70 WPM band that legal, medical and transcription roles ask for.
@@ -2596,6 +2598,7 @@ Week four: simulate. Same time of day, unfamiliar keyboard, no pause. Then re-me
 The bands above come from publicly advertised job requirements and published examination standards across clerical, medical, legal and public-safety postings. They are ranges, not guarantees: two employers in the same sector can differ by ten WPM.
 Where a figure has an official source - the federal 40 WPM standard, the SSC CHSL notice, the 225 WPM NCRA stenotype standard - this page names it. Where it is a market range, the page says so. If a recruiter quotes a number that contradicts your test, ask which unit and which scoring method before assuming you failed.
 For the measured population behind these thresholds, see the benchmark data page - it separates study measurements from advertised job ranges.
+Before applying, take a free typing test at the length your target role quotes, so you know which side of the threshold you are on.
 ## Typing speed requirements FAQ
 40 to 55 WPM covers most office, clerical and administrative roles, usually with a 95% accuracy floor. Data entry is quoted differently: 8,000 to 12,000 keystrokes per hour, which is 27 to 40 WPM.
 About 26.7 WPM. 8,000 ÷ 60 = 133 keystrokes per minute, and 133 ÷ 5 = 26.7. Corrections count as key depressions, so backspacing lowers the real figure.
@@ -5384,6 +5387,7 @@ If you only have a one-minute score, subtract 5 before reading the table. It is 
 60 to 80: consistency. Type ten one-minute rounds and track your worst, not your best.
 Each band has a different cause, which is why generic advice stops working after the first twenty points.
 The underlying study figures, the phone-versus-keyboard comparison and a CSV of this curve are on the benchmarks page.
+How the count is made - five characters per word, errors subtracted - is set out on the words per minute test page, which reports both raw and net.
 ## Frequently asked questions
 Yes — about the 66th percentile, faster than two thirds of measured typists, and the point where job adverts start calling typing fast. It is the entry band for legal secretary and transcription work.
 It is the standard floor: around the 28th percentile and the number most clerical, receptionist and county government postings quote. Aim for 44-45 so a bad sentence cannot drop you under it.
@@ -5524,6 +5528,7 @@ I want a number to quote — a five-minute net score with accuracy is the reprod
 I am learning from scratch — home row, then beginner, then one-minute rounds. Ten minutes a day beats a weekly marathon.
 I am stuck at a speed — the WPM chart names the cause for each band, from looking at the keyboard at 20 WPM to inconsistency above 70.
 The footer already links every page, but a flat list of 160 links tells a reader nothing about which one to open. This directory groups them by the question they answer, and it is generated from the same configuration that builds the pages, so it cannot drift out of date or link to something that no longer exists.
+New to this? The free typing test gives you a sixty-second baseline before you choose a longer test; come back here once you know roughly where you stand.
 ## Other test lengths
 ## Practice and lessons
 ## Typing tests by language

@@ -76,6 +76,8 @@ Ready-made exercise sets cover sentences, quotes, numbers and words, and every l
 
 For structured browser-based practice with per-language text and per-key analysis, see online typing practice — a daily 10-minute plan by goal, no sign up. Want a plain timed score instead of a structured plan? Use the online typing test.
 
+If you want a number rather than a drill, the free typing test gives you one in sixty seconds, and the practice page is where you go afterwards to move it.
+
 ## Typing test FAQ
 
 ### What is typing practice?

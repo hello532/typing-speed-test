@@ -38,6 +38,8 @@ Each band has a different cause, which is why generic advice stops working after
 
 The underlying study figures, the phone-versus-keyboard comparison and a CSV of this curve are on the benchmarks page.
 
+How the count is made - five characters per word, errors subtracted - is set out on the words per minute test page, which reports both raw and net.
+
 ## Frequently asked questions
 
 ### Is 60 WPM good?

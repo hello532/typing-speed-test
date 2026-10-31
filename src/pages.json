@@ -1694,7 +1694,8 @@
     {
      "h2": "More ways to practise online",
      "p": [
-      "For structured browser-based practice with per-language text and per-key analysis, see <a href=\"online-typing-practice.html\">online typing practice</a> — a daily 10-minute plan by goal, no sign up. Want a plain timed score instead of a structured plan? Use the <a href=\"online-typing-test.html\">online typing test</a>."
+      "For structured browser-based practice with per-language text and per-key analysis, see <a href=\"online-typing-practice.html\">online typing practice</a> — a daily 10-minute plan by goal, no sign up. Want a plain timed score instead of a structured plan? Use the <a href=\"online-typing-test.html\">online typing test</a>.",
+      "If you want a number rather than a drill, the <a href=\"free-typing-test.html\">free typing test</a> gives you one in sixty seconds, and the practice page is where you go afterwards to move it."
      ]
     }
    ],
@@ -4544,7 +4545,8 @@
      "h2": "Test yourself against the bands",
      "p": [
       "Run a five-minute sentence test, then read net WPM and accuracy from the results panel. Compare the net figure against the table above, and check whether accuracy is inside the 97-98% band most employers require - a fast score at 92% accuracy is not the same asset as a slightly slower clean one.",
-      "The source table behind these bands, plus the phone average and the raw CSV, is on the <a href=\"typing-speed-benchmarks.html\">typing speed benchmarks</a> page."
+      "The source table behind these bands, plus the phone average and the raw CSV, is on the <a href=\"typing-speed-benchmarks.html\">typing speed benchmarks</a> page.",
+      "Reading about averages is not the same as measuring yours - a <a href=\"free-typing-test.html\">free typing test</a> on this site reports net WPM and accuracy against these bands in one minute."
      ]
     }
    ],
@@ -8933,7 +8935,8 @@
      "p": [
       "The bands above come from publicly advertised job requirements and published examination standards across clerical, medical, legal and public-safety postings. They are ranges, not guarantees: two employers in the same sector can differ by ten WPM.",
       "Where a figure has an official source - the federal 40 WPM standard, the SSC CHSL notice, the 225 WPM NCRA stenotype standard - this page names it. Where it is a market range, the page says so. If a recruiter quotes a number that contradicts your test, ask which unit and which scoring method before assuming you failed.",
-      "For the measured population behind these thresholds, see the <a href=\"typing-speed-benchmarks.html\">benchmark data page</a> - it separates study measurements from advertised job ranges."
+      "For the measured population behind these thresholds, see the <a href=\"typing-speed-benchmarks.html\">benchmark data page</a> - it separates study measurements from advertised job ranges.",
+      "Before applying, take a <a href=\"free-typing-test.html\">free typing test</a> at the length your target role quotes, so you know which side of the threshold you are on."
      ]
     }
    ],
@@ -17192,7 +17195,8 @@
      "p": [
       "<ul><li><strong>20 to 30:</strong> stop looking at the keyboard. One covered round a day for two weeks. This is the largest single gain available to anyone.</li><li><strong>30 to 40:</strong> stop backspacing during tests. Most people at 30 lose 5-6 WPM to corrections.</li><li><strong>40 to 50:</strong> accuracy at speed. Thirty-second sprints at 90% of maximum, checked every round.</li><li><strong>50 to 60:</strong> read ahead. The bottleneck moves from the fingers to the eyes, and look-ahead practice fixes it.</li><li><strong>60 to 80:</strong> consistency. Type ten one-minute rounds and track your worst, not your best.</li></ul>",
       "Each band has a different cause, which is why generic advice stops working after the first twenty points.",
-      "The underlying study figures, the phone-versus-keyboard comparison and a CSV of this curve are on the <a href=\"typing-speed-benchmarks.html\">benchmarks page</a>."
+      "The underlying study figures, the phone-versus-keyboard comparison and a CSV of this curve are on the <a href=\"typing-speed-benchmarks.html\">benchmarks page</a>.",
+      "How the count is made - five characters per word, errors subtracted - is set out on the <a href=\"words-per-minute-test.html\">words per minute test</a> page, which reports both raw and net."
      ]
     }
    ],
@@ -17719,7 +17723,8 @@
     {
      "h2": "Why this page exists",
      "p": [
-      "The footer already links every page, but a flat list of 160 links tells a reader nothing about which one to open. This directory groups them by the question they answer, and it is generated from the same configuration that builds the pages, so it cannot drift out of date or link to something that no longer exists."
+      "The footer already links every page, but a flat list of 160 links tells a reader nothing about which one to open. This directory groups them by the question they answer, and it is generated from the same configuration that builds the pages, so it cannot drift out of date or link to something that no longer exists.",
+      "New to this? The <a href=\"free-typing-test.html\">free typing test</a> gives you a sixty-second baseline before you choose a longer test; come back here once you know roughly where you stand."
      ]
     }
    ],

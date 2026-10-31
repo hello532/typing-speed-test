@@ -61,6 +61,8 @@ Run a five-minute sentence test, then read net WPM and accuracy from the results
 
 The source table behind these bands, plus the phone average and the raw CSV, is on the typing speed benchmarks page.
 
+Reading about averages is not the same as measuring yours - a free typing test on this site reports net WPM and accuracy against these bands in one minute.
+
 ## Typing test FAQ
 
 ### What is the average typing speed?

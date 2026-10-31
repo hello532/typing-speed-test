@@ -56,6 +56,8 @@ Where a figure has an official source - the federal 40 WPM standard, the SSC CHS
 
 For the measured population behind these thresholds, see the benchmark data page - it separates study measurements from advertised job ranges.
 
+Before applying, take a free typing test at the length your target role quotes, so you know which side of the threshold you are on.
+
 ## Typing speed requirements FAQ
 
 ### What typing speed is required for most jobs?
