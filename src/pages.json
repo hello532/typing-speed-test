@@ -303,7 +303,8 @@
      "item": "https://typing.rerivo.com/2-minute-typing-test.html"
     }
    ],
-   "ldPretty": []
+   "ldPretty": [],
+   "tldr": "Two minutes is the shortest length that shows a stable pace. Most screening tests run one to three minutes, so a two-minute net score is close to what an employer would see."
   },
   {
    "file": "5-minute-typing-test.html",
@@ -502,7 +503,8 @@
    "ldPretty": [
     "FAQPage",
     "BreadcrumbList"
-   ]
+   ],
+   "tldr": "Capitals need Shift with the opposite hand and a quick return to the home row. Drill them separately, because a broken Shift rhythm costs more words than a slow letter."
   },
   {
    "file": "easy-typing-test.html",
@@ -774,7 +776,8 @@
      "item": "https://typing.rerivo.com/spanish-typing-test.html"
     }
    ],
-   "ldPretty": []
+   "ldPretty": [],
+   "tldr": "Spanish practice includes accented vowels, ñ and the inverted ¿ ¡ marks. The accent keys are where most Latin-script typists lose accuracy, not the letters."
   },
   {
    "file": "free-typing-test.html",
@@ -1221,7 +1224,8 @@
      "item": "https://typing.rerivo.com/number-typing-test.html"
     }
    ],
-   "ldPretty": []
+   "ldPretty": [],
+   "tldr": "Numbers are a separate skill: the digit row needs extended reaches with no tactile landmark. Practise in two-minute rounds and score errors, because data-entry work is judged on digit accuracy."
   },
   {
    "file": "online-typing-test.html",
@@ -1415,7 +1419,8 @@
    "ldPretty": [
     "FAQPage",
     "BreadcrumbList"
-   ]
+   ],
+   "tldr": "Punctuation is where fast typists lose accuracy. Run rounds with real sentences and shift-punctuation, then check the error count rather than the speed."
   },
   {
    "file": "typing-accuracy-test.html",
@@ -1864,7 +1869,8 @@
      "item": "https://typing.rerivo.com/typing-lessons.html"
     }
    ],
-   "ldPretty": []
+   "ldPretty": [],
+   "tldr": "Lessons are ordered by row, not by speed: home row first, then top, then bottom, then capitals and punctuation. Ten minutes a day for two weeks is enough to make the key map automatic."
   },
   {
    "file": "learn-to-type-faster.html",
@@ -2056,7 +2062,8 @@
      "item": "https://typing.rerivo.com/typing-tips.html"
     }
    ],
-   "ldPretty": []
+   "ldPretty": [],
+   "tldr": "The four changes that move the number fastest: stop looking at the keyboard, stop correcting during a test, type sentences instead of random words, and practise five minutes daily rather than once a week."
   },
   {
    "file": "typing-test-game.html",
@@ -2472,7 +2479,8 @@
      "item": "https://typing.rerivo.com/30-second-typing-test.html"
     }
    ],
-   "ldPretty": []
+   "ldPretty": [],
+   "tldr": "Thirty seconds measures a burst: expect a score 5-10 WPM above your five-minute pace. Use it for a warm-up, not for a number you quote to an employer."
   },
   {
    "file": "3-minute-typing-test.html",
@@ -2610,7 +2618,8 @@
      "item": "https://typing.rerivo.com/3-minute-typing-test.html"
     }
    ],
-   "ldPretty": []
+   "ldPretty": [],
+   "tldr": "Three minutes is a common pre-employment length: long enough for the first-sentence penalty to fade, short enough to repeat daily. Train here for interview tests."
   },
   {
    "file": "10-minute-typing-test.html",
@@ -2850,7 +2859,8 @@
      "item": "https://typing.rerivo.com/chinese-typing-test.html"
     }
    ],
-   "ldPretty": []
+   "ldPretty": [],
+   "tldr": "Chinese practice uses simplified characters typed through an IME. WPM is reported for the committed text, so the number reflects IME fluency as much as key location."
   },
   {
    "file": "hindi-typing-test.html",
@@ -2940,7 +2950,8 @@
      "item": "https://typing.rerivo.com/hindi-typing-test.html"
     }
    ],
-   "ldPretty": []
+   "ldPretty": [],
+   "tldr": "Hindi practice uses Devanagari with matras and the danda. It is the drill shape used by Indian typing exams; layout conventions differ by test centre, so check which layout your exam uses."
   },
   {
    "file": "arabic-typing-test.html",
@@ -3030,7 +3041,8 @@
      "item": "https://typing.rerivo.com/arabic-typing-test.html"
     }
    ],
-   "ldPretty": []
+   "ldPretty": [],
+   "tldr": "Arabic practice runs right to left with the hamza forms and the ta marbuta. Speed is reported as WPM and CPM; the script is joined, so character counts run differently from Latin text."
   },
   {
    "file": "touch-typing-test.html",
@@ -3126,7 +3138,8 @@
    ],
    "ldPretty": [],
    "webAppName": "Typing Speed Test",
-   "webAppUrl": "https://typing.rerivo.com/"
+   "webAppUrl": "https://typing.rerivo.com/",
+   "tldr": "Touch typing means typing without looking. The test measures what the keyboard cannot tell you: whether your fingers know the keys, scored as net WPM and accuracy, not as technique."
   },
   {
    "file": "typing-race.html",
@@ -3511,7 +3524,8 @@
    ],
    "ldPretty": [],
    "webAppName": "Typing Speed Test",
-   "webAppUrl": "https://typing.rerivo.com/"
+   "webAppUrl": "https://typing.rerivo.com/",
+   "tldr": "Start at the home row and add one row per week. Typing slowly and correctly for ten minutes a day beats an hour of fast, corrected typing, and the habit is what carries over."
   },
   {
    "file": "typing-trainer.html",
