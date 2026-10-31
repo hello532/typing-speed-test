@@ -194,3 +194,27 @@ ui.js 语种池 14 个（de/fr 各 40 句已上线）
 FAQ 页均 5.4 条（新增页强制 ≥5）
 verify 20/20 ｜ structure gate S1/S2/S3 ｜ health 9/9 ｜ CI 4 步全绿
 ```
+
+---
+
+## 十、外链资产（r60，第一次真正的站外动作）
+
+站内已经铺满（184 页），所以这一轮做了一件站外但完全自控的事：把数据做成
+**公开可引用仓库**，而不是继续加页。
+
+**仓库**：<https://github.com/hello532/typing-speed-benchmarks>
+
+| 内容 | 说明 |
+|---|---|
+| README | 两条 DOI（CHI 2018 / MobileHCI 2019）、设备对比表、单位换算表、明确的「不写什么」 |
+| benchmarks.csv | 5 WPM 步长 25 行（wpm/percentile/cpm/kph），与站内同源 |
+| percentile.py | 标准库实现，`python3 percentile.py 40 60 80 100` → 28.4 / 66.2 / 92.0 / 99.2 |
+| percentile.js | 无依赖 ESM，Abramowitz-Stegun erf 近似；与 Python 结果逐位一致（已验证） |
+| LICENSE | 代码 MIT，数字归属原论文（README 里写明） |
+
+为什么这样做：这是唯一一种**不联系任何人、不买链接、不碰 ToS** 就能拿到的、主题相关的
+dofollow 引用（GitHub DR 96，README 内链 benchmarks 页）。同时它给下个月的 awesome-list
+提交提供了「可引用数据」的实体，而不是一句「请收录我的打字网站」。
+
+台账已登记（第 88 条，status=live）。诚实提醒：GitHub 的站内链接权重传递有限，
+它是**引用的起点**，不是排名解药；真正起作用的是有人引用这个数据集。

@@ -1,6 +1,6 @@
 {
  "site": "https://typing.rerivo.com",
- "updated": "2026-10-20",
+ "updated": "2026-11-01",
  "directories": [
   {
    "name": "IndexNow (Bing/Yandex/Seznam/Naver)",
@@ -871,6 +871,16 @@
    "status": "skipped",
    "date": "2026-10-20",
    "note": "gh repo fork --clone 得到的是「fork 自己的 master」而非 upstream master；直接改再 push 会把整文件换行/内容 diff 成 +634/-633。正确做法：git fetch upstream master && git reset --hard upstream/master 再改。"
+  },
+  {
+   "name": "GitHub — typing-speed-benchmarks (数据仓 README dofollow)",
+   "url": "https://github.com/hello532/typing-speed-benchmarks",
+   "kind": "asset",
+   "dofollow": true,
+   "dr": 96,
+   "status": "live",
+   "date": "2026-11-01",
+   "note": "公开数据仓：两条 DOI、CSV 曲线、percentile.py/js；README 内链 benchmarks 页；topics 6 个、homepage 指向该页。可被开发者引用，也可作为下次 awesome-list 提交的引用素材"
   }
  ]
 }
