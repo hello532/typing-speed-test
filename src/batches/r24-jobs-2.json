@@ -1,0 +1,408 @@
+{
+  "footer_group": "By audience and exam",
+  "llms_section": "Skill, Level, Format & Exam Tests",
+  "cluster": "jobs",
+  "pages": [
+    {
+      "file": "typing-test-for-nurse.html",
+      "title": "Typing Test for Nurses — Charting Speed You Need",
+      "metaDesc": "Nursing documentation rewards 35-45 WPM with near-perfect accuracy on drug names and dosages. What to practise, why digits matter, and a shift-length test.",
+      "h1": "Typing Test for Nurses",
+      "heroP": "Nurses do not type fast for a living; they type <strong>accurately under interruption</strong>. Charting notes, medication names and dosages are short, frequent and unforgiving. Practise at 35–45 WPM with accuracy above 98%.",
+      "tldr": "Nursing job ads commonly list 35-45 WPM. The binding constraint is accuracy on medication names, dosages and patient identifiers, not raw speed. Practise 60-second bursts plus one Numbers round daily, and test at five minutes to match a charting session.",
+      "dur": 300,
+      "mode": "sentences",
+      "crumbs": [
+        "Home",
+        "Typing Test for Nurses"
+      ],
+      "seo": [
+        {
+          "h2": "What nursing documentation actually demands",
+          "p": [
+            "A shift note is a few hundred characters typed between tasks: assessment findings, interventions, a time, a signature. The volume is modest. What breaks is the detail — a dose written as 10 instead of 100, a drug name auto-corrected into a different drug, an identifier attached to the wrong patient.",
+            "That is why nursing informatics training emphasises verification over velocity, and why the typing requirement in job ads is usually a modest 35–45 WPM. Speed matters because charting happens at the end of a twelve-hour shift when everyone wants to go home; accuracy matters because the error is clinical."
+          ]
+        },
+        {
+          "h2": "Where the errors come from",
+          "p": [
+            "<ul><li><strong>Digits.</strong> Dosages, vitals, weights and times are numeric. The number row is typed with a different reach than the home row and it is where most slips happen.</li><li><strong>Look-alike drug names.</strong> Hydralazine and hydroxyzine, prednisone and prednisolone. Autocomplete is not your friend here; type the name rather than accepting a suggestion.</li><li><strong>Interruption.</strong> You type half a sentence, answer a call bell, come back and continue in the wrong field. The typing skill is resuming without losing the thread.</li></ul>"
+          ]
+        },
+        {
+          "h2": "A practice routine that fits a shift",
+          "p": [
+            "Five minutes, twice a day. One 60-second sentence round for rhythm, one Numbers round for digits, then stop. Short daily rounds beat a weekly marathon because the skill you are training is availability under fatigue, not peak output.",
+            "Once a week, take one five-minute test and record net WPM and accuracy. Five minutes is roughly the length of a focused charting session, so it is the honest number to compare month to month."
+          ]
+        },
+        {
+          "h2": "Benchmarks to aim at",
+          "p": [
+            "<table><tr><th>Level</th><th>Net WPM</th><th>Accuracy</th><th>What it supports</th></tr><tr><td>Minimum for most postings</td><td>35</td><td>97%</td><td>Short shift notes, care plans</td></tr><tr><td>Comfortable</td><td>45</td><td>98.5%</td><td>Full assessment charting, discharge summaries</td></tr><tr><td>Fast</td><td>55+</td><td>99%</td><td>Admissions, triage notes, telephone orders</td></tr></table>",
+            "These bands come from the ranges printed in nursing and medical-administration job advertisements; they are a target, not a licensure standard. No nursing board certifies a typing speed."
+          ]
+        },
+        {
+          "h2": "If you are switching from paper charting",
+          "p": [
+            "The people who struggle most are usually experienced clinicians, not new typists. Twenty years of handwriting produces efficient note language and a hunt-and-peck relationship with the keyboard. The fix is not a typing course; it is ten minutes a day of copying your own note style, not textbook sentences.",
+            "Type the phrases you actually write — \"alert and oriented\", \"denies chest pain\", \"afebrile\" — until they are automatic. Domain vocabulary is where speed comes from once the keys stop needing attention."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "What typing speed do nurses need?",
+          "a": "Most nursing and medical-administration postings ask for 35–45 WPM with high accuracy. The number is modest because notes are short; the accuracy expectation is high because dosages and identifiers are clinical data."
+        },
+        {
+          "q": "Is typing speed tested when applying for nursing jobs?",
+          "a": "Sometimes, especially for roles with heavy electronic documentation such as triage, admissions or telehealth. More often it is assumed rather than tested, which is why a low speed shows up later as unpaid overtime."
+        },
+        {
+          "q": "Why does accuracy matter more than speed in charting?",
+          "a": "A wrong digit in a dose or a wrong patient identifier is a clinical incident, not a typo. Corrections also cost more time than typing slightly slower, so a 45 WPM run at 99% finishes a shift ahead of 60 WPM at 94%."
+        },
+        {
+          "q": "How should I practise digits?",
+          "a": "Use the Numbers mode for two minutes a day and grade yourself on errors rather than speed. Dosages, vitals and times are the content that matters, so numeric accuracy is the skill to build first."
+        },
+        {
+          "q": "How long should a practice test be?",
+          "a": "Five minutes once a week for the benchmark, plus 60-second bursts daily for rhythm. A five-minute round approximates a charting session; a 15-second round measures a sprint you will never use on a ward."
+        }
+      ]
+    },
+    {
+      "file": "typing-test-for-court-reporter.html",
+      "title": "Typing Test for Court Reporters — 225 WPM Explained",
+      "metaDesc": "Court reporting certification is 225 WPM on a stenotype, not a keyboard. What each tier means, how keyboard rates compare, and how to train for it.",
+      "h1": "Typing Test for Court Reporters",
+      "heroP": "Court reporting certification is <strong>225 words per minute</strong> — on a stenotype machine, not a QWERTY keyboard. The two numbers are not comparable, and confusing them is the most common mistake applicants make.",
+      "tldr": "The NCRA certified reporter exam tests 225 WPM live dictation on a stenotype. A QWERTY typist at 100 WPM is fast but is not training the same skill. Keyboard tests are still useful for transcript editing and scoping work, which is where most keyboard time goes.",
+      "dur": 600,
+      "mode": "sentences",
+      "crumbs": [
+        "Home",
+        "Typing Test for Court Reporters"
+      ],
+      "seo": [
+        {
+          "h2": "Two different skills with two different ceilings",
+          "p": [
+            "A stenotype writes syllables, not letters: multiple keys are pressed together and a chord resolves into a word or phrase. That is how 225 WPM is reachable at all. A QWERTY keyboard writes letter by letter, and the fastest competitive typists in the world top out around 200 WPM in short bursts on text they can see.",
+            "So the 225 WPM requirement is not a claim that court reporters can type 225 WPM on a laptop. It is a test of realtime dictation capture through a machine built for it."
+          ]
+        },
+        {
+          "h2": "Speed tiers and what they qualify you for",
+          "p": [
+            "<table><tr><th>Speed</th><th>Machine</th><th>Typical meaning</th></tr><tr><td>180 WPM</td><td>Stenotype</td><td>Often the floor for graduation from a reporting program</td></tr><tr><td>200 WPM</td><td>Stenotype</td><td>Entry-level freelance work in many markets</td></tr><tr><td>225 WPM</td><td>Stenotype</td><td>The certified reporter standard, tested on live dictation</td></tr><tr><td>260 WPM</td><td>Voice or stenotype</td><td>Higher-tier certification for fast proceedings</td></tr><tr><td>60–90 WPM</td><td>QWERTY</td><td>Transcript editing, scoping, proofreading support roles</td></tr></table>",
+            "The lower bands are programme requirements rather than universal law: schools and states vary. Check the specific certification body before planning a timeline around one number."
+          ]
+        },
+        {
+          "h2": "Why a keyboard test still matters",
+          "p": [
+            "Most working hours are not spent on the machine. They are spent editing: correcting names, fixing speaker attribution, verifying exhibit numbers and formatting the transcript. That work happens on a keyboard, and it is where a reporter's day actually goes.",
+            "Scoping and proofreading roles, which are the usual entry point while certification is pending, are keyboard jobs outright. A 60–80 WPM editing speed with clean accuracy is the practical requirement."
+          ]
+        },
+        {
+          "h2": "Training toward the exam",
+          "p": [
+            "Dictation practice, not typing practice, moves the stenotype number: five minutes at a speed where you can write every word, then a speed where you cannot. The second set is where the growth happens, provided you review the strokes you fumbled.",
+            "Use a keyboard test for the editing half of the job. Ten minutes of 10-minute rounds at 98% accuracy will make transcript cleanup painless, and it is the part candidates neglect because it is not the number they are chasing."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "Do court reporters really type 225 WPM on a keyboard?",
+          "a": "No. 225 WPM is a stenotype standard, achieved by chording syllables on a purpose-built machine. Keyboard typing at that speed is not what the certification measures."
+        },
+        {
+          "q": "What is a good QWERTY speed for a court reporter?",
+          "a": "60–90 WPM is comfortable for transcript editing, scoping and proofreading, which is where most keyboard time goes. Accuracy matters more than speed because transcript corrections are billable work."
+        },
+        {
+          "q": "How long does it take to reach 225 WPM?",
+          "a": "Reporting programmes typically run two to four years, and speed is the usual reason people take longer. The machine skill is built by daily dictation practice at the edge of your current speed."
+        },
+        {
+          "q": "Can I become a court reporter without a stenotype?",
+          "a": "There are voice-writing and digital reporting routes, and some jurisdictions accept them. They have their own certification requirements, so confirm with the body that governs your state or country."
+        },
+        {
+          "q": "Is a 10-minute typing test relevant?",
+          "a": "For the editing side, yes — it measures sustained keyboard accuracy rather than a burst. It will not predict your steno speed, which is a different motor skill."
+        }
+      ]
+    },
+    {
+      "file": "typing-test-for-dispatch.html",
+      "title": "Typing Test for 911 Dispatchers — Speed & Multitasking",
+      "metaDesc": "Dispatcher posts ask for 35-45 WPM with clean digit accuracy while taking a call. What agencies test, why the number row decides it, and how to rehearse.",
+      "h1": "Typing Test for 911 Dispatchers",
+      "heroP": "Dispatch is <strong>typing while talking</strong>, under a clock. Agencies commonly ask for 35–45 WPM, but the deciding factor is whether a plate number, an address or a callback number survives contact with a stressed caller.",
+      "tldr": "Most dispatch postings list 35-45 WPM with high accuracy. The realistic test is capturing digits and addresses in real time while a caller talks, so practise the Numbers mode and audio copying rather than prose speed.",
+      "dur": 120,
+      "mode": "numbers",
+      "crumbs": [
+        "Home",
+        "Typing Test for 911 Dispatchers"
+      ],
+      "seo": [
+        {
+          "h2": "What dispatch agencies screen for",
+          "p": [
+            "A dispatcher enters an address, a name, a phone number and a plate while the caller is still explaining. The typing is short, numeric and immediately consequential. Public postings typically list 35–45 WPM, and the assessment usually adds a multitasking or call-taking simulation on top of the typing score.",
+            "No single national typing standard applies to dispatch; requirements are set per agency. Treat published ranges as the target band and check the specific posting, because a state police dispatch centre and a small municipal one often differ by ten WPM."
+          ]
+        },
+        {
+          "h2": "Digits and addresses are the real test",
+          "p": [
+            "Prose typing rewards rhythm. Dispatch typing rewards the number row, the ten-key area and the ability to spell an unfamiliar street name correctly the first time. That is a different practice target.",
+            "<ul><li>Numbers mode for two minutes a day, graded on errors not speed.</li><li>Listen to a podcast and type the numbers you hear — times, prices, years — in one pass.</li><li>Type addresses from a map app, including postcodes, without looking down.</li></ul>"
+          ]
+        },
+        {
+          "h2": "Speed bands in context",
+          "p": [
+            "<table><tr><th>Role</th><th>Typical WPM floor</th><th>Added assessment</th></tr><tr><td>Call taker</td><td>35–40</td><td>Structured call interview, data capture</td></tr><tr><td>Dispatcher</td><td>40–45</td><td>Radio simulation, multitasking test</td></tr><tr><td>Supervisor or trainer</td><td>45+</td><td>Quality assurance, report writing</td></tr></table>",
+            "The typing test is rarely the only gate. Agencies also test hearing, memory, prioritisation and stress tolerance, and a 60 WPM score will not offset a failed call simulation."
+          ]
+        },
+        {
+          "h2": "Practice that transfers",
+          "p": [
+            "Two-minute rounds are the right length: long enough to feel the pressure of a call, short enough to repeat. Two minutes at 45 WPM net with 99% accuracy on digits is a stronger signal than five minutes of prose at 55.",
+            "Then rehearse the split-attention part. Read a sentence aloud, type it from memory in one pass, and check character by character. Five repetitions a day for two weeks is enough to feel the difference in how you hold digits in working memory."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "What WPM do 911 dispatcher jobs require?",
+          "a": "Usually 35–45 WPM, with accuracy weighted heavily. Requirements are set per agency rather than nationally, so the posting is the authority."
+        },
+        {
+          "q": "Is typing the hardest part of the dispatch test?",
+          "a": "No. The call-taking simulation and multitasking assessment usually eliminate more candidates. Typing is a floor you clear so the rest of the assessment can be scored."
+        },
+        {
+          "q": "Should I practise numbers or sentences?",
+          "a": "Both, but lead with numbers. Plate numbers, addresses and callback numbers are the content that fails in real calls, and the number row is where untrained typists lose the most accuracy."
+        },
+        {
+          "q": "How accurate do I need to be?",
+          "a": "Aim for 99% on digits. A transposed digit in an address sends responders to the wrong place, which is the failure mode agencies screen hardest for."
+        },
+        {
+          "q": "Does the test include typing while listening?",
+          "a": "Often the assessment includes a simulated call where you must enter data as it is spoken. Rehearse that directly: audio in, one-pass typing out, then verify."
+        }
+      ]
+    },
+    {
+      "file": "ssc-chsl-typing-test.html",
+      "title": "SSC CHSL Typing Test — 35 WPM & 8000 KPH Rules",
+      "metaDesc": "SSC CHSL typing rules: 35 WPM English or 30 WPM Hindi for LDC/JSA, 8000 key depressions per hour for DEO, plus the error allowance and a plan.",
+      "h1": "SSC CHSL Typing Test",
+      "heroP": "Two different skill tests sit inside SSC CHSL: <strong>35 WPM English or 30 WPM Hindi</strong> for LDC and JSA posts, and <strong>8000 key depressions per hour</strong> for DEO posts. They are scored differently and rehearsed differently.",
+      "tldr": "LDC/JSA: 35 WPM English, 30 WPM Hindi, 10 minutes, error allowance around 5%. DEO: 8000 key depressions per hour, 15 minutes, on a standard keyboard. Both are qualifying, not merit-ranking, so accuracy beats speed.",
+      "dur": 600,
+      "mode": "sentences",
+      "crumbs": [
+        "Home",
+        "SSC CHSL Typing Test"
+      ],
+      "seo": [
+        {
+          "h2": "The two tests, side by side",
+          "p": [
+            "<table><tr><th>Post</th><th>Standard</th><th>Duration</th><th>Scoring</th></tr><tr><td>LDC / JSA</td><td>35 WPM English or 30 WPM Hindi</td><td>10 minutes</td><td>Words per minute with an error allowance</td></tr><tr><td>DEO / DEO Grade A</td><td>8000 key depressions per hour</td><td>15 minutes</td><td>Total key depressions against an 8000/hour rate</td></tr></table>",
+            "8000 key depressions per hour is about 26.7 WPM under the five-character convention, but it is measured as raw keystrokes including corrections you make, so a typist who backspaces constantly loses ground even at a good words-per-minute rate."
+          ]
+        },
+        {
+          "h2": "Error allowance is where candidates fail",
+          "p": [
+            "The typing test is qualifying: you either clear the standard or you do not, and the score does not add to your merit total. That changes the strategy completely. A candidate chasing 45 WPM with 12% errors fails; a candidate at 37 WPM with 3% errors passes.",
+            "Practise with the error budget in view: type at a pace where you can hold mistakes under the allowance, and never let a correction spree eat the clock. On the 10-minute LDC test, thirty seconds lost to backspacing is roughly 18 words you never typed."
+          ]
+        },
+        {
+          "h2": "Keyboard and layout rules",
+          "p": [
+            "The test is taken on a standard QWERTY keyboard provided at the centre. Hindi candidates may opt for Krutidev or Remington layout depending on the notice in force, and the layout is usually chosen at the application stage — check your admit card and the current notice rather than assuming.",
+            "Because the machine is not yours, rehearse on something other than your laptop at least twice before the exam. Key travel and spacing change your error rate more than practice volume does."
+          ]
+        },
+        {
+          "h2": "A four-week plan",
+          "p": [
+            "Week 1: ten-minute rounds at a comfortable pace, recording accuracy only. Week 2: same length, push until errors cross the allowance, then back off 3 WPM — that is your exam pace. Week 3: alternate sentences and passages with punctuation, because the actual passage includes capitals and full stops. Week 4: full-length simulations at the same time of day as your shift, with no pause button.",
+            "The DEO candidate should add a daily 15-minute numbers round, since key depressions include digits and the numeric reach is the slowest part of the keyboard for most people."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "What is the typing speed required for SSC CHSL?",
+          "a": "35 words per minute in English or 30 words per minute in Hindi for LDC and JSA posts, and 8000 key depressions per hour for DEO posts. Both are qualifying tests."
+        },
+        {
+          "q": "Is the SSC CHSL typing test qualifying or merit?",
+          "a": "Qualifying. It does not add marks to your total; you either meet the standard or you do not. That is why accuracy matters more than a high raw speed."
+        },
+        {
+          "q": "How long is the SSC CHSL typing test?",
+          "a": "Ten minutes for LDC and JSA, fifteen minutes for DEO. Practise at the full length rather than in one-minute bursts, because the error rate at minute nine is what decides the result."
+        },
+        {
+          "q": "How many mistakes are allowed?",
+          "a": "A small error allowance applies, commonly around 5% of the words typed, and it is specified in the notice for that cycle. Check the current notice: the allowance and the passage length change between years."
+        },
+        {
+          "q": "Can I use my own keyboard?",
+          "a": "No. The test is conducted on centre equipment. Rehearse on a different keyboard at least twice so key travel and spacing are not a surprise on the day."
+        }
+      ]
+    },
+    {
+      "file": "typing-test-for-5th-graders.html",
+      "title": "Typing Test for 5th Graders — Target WPM by Grade",
+      "metaDesc": "What a reasonable 5th grade typing speed looks like, how it compares with grades 3 and 8, and a 10-minute routine that does not become homework.",
+      "h1": "Typing Test for 5th Graders",
+      "heroP": "By fifth grade most children can type <strong>25–35 WPM</strong> if they have had regular practice, and accuracy matters far more than the number. Here is what the grade bands look like and how to practise without tears.",
+      "tldr": "Fifth graders who practise regularly typically sit around 25-35 WPM with 90%+ accuracy. The useful goal is accuracy and home-row habit, not speed: children who type accurately at 25 WPM overtake fast, sloppy typists within a year.",
+      "dur": 60,
+      "mode": "sentences",
+      "crumbs": [
+        "Home",
+        "Typing Test for 5th Graders"
+      ],
+      "seo": [
+        {
+          "h2": "Grade bands, with a caveat",
+          "p": [
+            "Classroom benchmarks vary by district and by how much keyboarding time a school actually provides, so treat any table as a rough band rather than a standard. The pattern that holds across published curricula is steady growth of roughly 5 WPM per grade once formal instruction begins.",
+            "<table><tr><th>Grade</th><th>Typical range</th><th>What to focus on</th></tr><tr><td>3rd</td><td>10–20 WPM</td><td>Home row, not looking down</td></tr><tr><td>4th</td><td>15–25 WPM</td><td>All letters, capitals with Shift</td></tr><tr><td>5th</td><td>25–35 WPM</td><td>Accuracy above 90%, punctuation</td></tr><tr><td>6th–8th</td><td>30–45 WPM</td><td>Sustained paragraphs, editing</td></tr></table>"
+          ]
+        },
+        {
+          "h2": "Why accuracy is the only goal at this age",
+          "p": [
+            "A child who types 35 WPM by hunting for keys with two fingers has hit a ceiling that will cost years later. A child at 22 WPM with all ten fingers on the home row is on a curve that reaches 50 by secondary school with no extra lessons.",
+            "So score the round on errors, not words per minute. If accuracy is below 90%, the speed number is fiction — it is measuring how fast the child can produce text that has to be retyped."
+          ]
+        },
+        {
+          "h2": "A routine a ten-year-old will actually do",
+          "p": [
+            "Ten minutes, three times a week, is enough. One minute of warm-up, five minutes of the actual test, then two minutes of the child's own choice — quotes, pangrams, numbers. Stop while it is still fun; the failure mode is a forty-minute session that ends in an argument and no practice for a month.",
+            "Use the on-screen keyboard and finger guide on this site so the child can see which finger owns which key without an adult narrating it. Cover the hands with a light cloth for one round a week if looking down has become a habit — it is uncomfortable for two days and then it works."
+          ]
+        },
+        {
+          "h2": "What to do about games",
+          "p": [
+            "Games are legitimate practice if the child is typing rather than watching. The test that matters: are the fingers moving on the home row, or is one finger stabbing at the keyboard while the other hand rests? If it is the second, the game is entertainment and the drill still has to happen separately.",
+            "A reasonable split for a fifth grader is one game session for every two test sessions. The test gives the number; the game gives the motivation."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "How fast should a 5th grader type?",
+          "a": "Roughly 25–35 WPM with 90% or better accuracy if they have practised regularly. Bands vary by school and by how much keyboarding instruction the child has actually had."
+        },
+        {
+          "q": "Is 20 WPM bad for a 5th grader?",
+          "a": "No. It is normal for a child who has not had formal keyboarding instruction. What matters is whether the fingers are on the home row and whether accuracy is climbing."
+        },
+        {
+          "q": "How long should practice be?",
+          "a": "Ten minutes, three times a week. Short and frequent beats a long weekly session, and it keeps practice from becoming a punishment."
+        },
+        {
+          "q": "Should my child look at the keyboard?",
+          "a": "Not while testing. Looking down is the habit that caps speed. Cover the hands for one round a week so the child is forced to build a mental map of the keys."
+        },
+        {
+          "q": "Do typing games help?",
+          "a": "Yes when the child is genuinely typing with correct fingers. If the game rewards speed with two fingers, it teaches a habit that has to be undone later."
+        }
+      ]
+    },
+    {
+      "file": "typing-test-for-legal-secretary.html",
+      "title": "Typing Test for Legal Secretaries — 60-70 WPM",
+      "metaDesc": "Legal secretarial work screens higher than general office typing: 60-70 WPM with near-perfect accuracy on names, citations and formatting. What to rehearse.",
+      "h1": "Typing Test for Legal Secretaries",
+      "heroP": "Legal support is the top of the clerical typing band: <strong>60–70 WPM</strong> with accuracy high enough for citations, party names and numbered paragraphs. Speed alone will not pass the formatting half.",
+      "tldr": "Legal secretary postings commonly ask for 60-70 WPM and near-perfect accuracy. The differentiator is not raw speed but consistency with capitals, citations and numbered lists, which is what the work is made of.",
+      "dur": 300,
+      "mode": "sentences",
+      "crumbs": [
+        "Home",
+        "Typing Test for Legal Secretaries"
+      ],
+      "seo": [
+        {
+          "h2": "Why the bar is higher than general office work",
+          "p": [
+            "A legal document is read by people who will quote it back. Party names must be exact, citations must be punctuated correctly, and a paragraph number that shifts breaks every cross-reference after it. That combination pushes the requirement to 60–70 WPM in job advertisements, above the 40–50 WPM typical of general clerical roles.",
+            "The speed figure exists because documents are long. A 40-page agreement at 45 WPM is two days of typing; at 65 WPM it is a day and a half with time left for checking."
+          ]
+        },
+        {
+          "h2": "The skills the test does not capture",
+          "p": [
+            "<ul><li><strong>Numbered paragraphs.</strong> Auto-numbering that renumbers on paste is the single most common formatting failure.</li><li><strong>Capitalisation of defined terms.</strong> \"the Company\" is not \"the company\", and a find-and-replace will not fix it safely.</li><li><strong>Citations.</strong> Italics, full stops and abbreviations follow a house style; consistency is the whole job.</li><li><strong>Track changes.</strong> Typing inside a tracked document is slower and less forgiving than typing into a blank page.</li></ul>"
+          ]
+        },
+        {
+          "h2": "Benchmarks by setting",
+          "p": [
+            "<table><tr><th>Setting</th><th>Typical WPM</th><th>Accuracy</th><th>Notes</th></tr><tr><td>Small general practice</td><td>55–65</td><td>98%</td><td>Letters, forms, correspondence</td></tr><tr><td>Corporate legal department</td><td>60–70</td><td>98.5%</td><td>Contracts, board papers</td></tr><tr><td>Litigation support</td><td>65–75</td><td>99%</td><td>Court filings, exhibits, indexes</td></tr><tr><td>Transcription-heavy role</td><td>70+</td><td>99%</td><td>Dictation, hearing notes</td></tr></table>",
+            "Ranges reflect what appears in legal recruitment advertising; a firm that tests will usually set its own floor and tell you before the test."
+          ]
+        },
+        {
+          "h2": "How to rehearse for the real thing",
+          "p": [
+            "Stop practising plain sentences after the first week. Type a real contract clause, complete with defined terms and numbered sub-paragraphs, and check it against the source line by line. That is a slower exercise and a far better predictor.",
+            "Then add the time pressure: five-minute rounds of dense text with punctuation, targeting 98.5% accuracy. If your accuracy falls below that at 70 WPM, work at 60 until it holds — a legal document with two errors per page costs more to check than it saved to type."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "What typing speed do legal secretaries need?",
+          "a": "Commonly 60–70 WPM with accuracy near 98.5%, which is above the 40–50 WPM typical of general clerical roles. Firms that test usually state their own floor."
+        },
+        {
+          "q": "Is 55 WPM enough for legal work?",
+          "a": "For a small general practice handling letters and forms, often yes. Corporate and litigation roles usually screen at 60 and above because documents are long and reference-heavy."
+        },
+        {
+          "q": "Does the test include formatting?",
+          "a": "A plain typing test does not, but the job is mostly formatting. Rehearse numbered paragraphs, defined terms and citations separately, because those are the errors that get noticed."
+        },
+        {
+          "q": "How do I improve accuracy on capitals and citations?",
+          "a": "Type real clauses rather than random sentences, then proof against the source. Capitals, full stops and italics are pattern work, and patterns only build on realistic text."
+        },
+        {
+          "q": "Should I learn to touch type for this role?",
+          "a": "Yes. At 60+ WPM sustained over long documents, looking at the keyboard is the limiting factor. Two weeks of home-row drills typically adds more than months of hunt-and-peck speed work."
+        }
+      ]
+    }
+  ]
+}

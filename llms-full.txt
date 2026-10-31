@@ -4820,3 +4820,176 @@ About the 99th. The study's fastest decile exceeded roughly 78 WPM, so 100 WPM s
 Within about one point across the middle of the distribution, and it reproduces the study's reported 10th and 90th percentile thresholds (about 26 and 78 WPM). Extreme tails above 130 WPM are less reliable.
 It is based on speed as the study measured it, with errors reported separately at 1.17% uncorrected. A net score with heavy corrections would rank lower than the raw WPM suggests.
 No. A percentile describes position in a sample; a ranking in a job test compares you to that employer's applicants. The thresholds employers use — 40, 50, 60 WPM — are usually fixed, not percentile-based.
+
+## Typing Test for Nurses
+Source: https://typing.rerivo.com/typing-test-for-nurse.html
+
+Nurses do not type fast for a living; they type accurately under interruption. Charting notes, medication names and dosages are short, frequent and unforgiving. Practise at 35–45 WPM with accuracy above 98%.
+
+## What nursing documentation actually demands
+A shift note is a few hundred characters typed between tasks: assessment findings, interventions, a time, a signature. The volume is modest. What breaks is the detail — a dose written as 10 instead of 100, a drug name auto-corrected into a different drug, an identifier attached to the wrong patient.
+That is why nursing informatics training emphasises verification over velocity, and why the typing requirement in job ads is usually a modest 35–45 WPM. Speed matters because charting happens at the end of a twelve-hour shift when everyone wants to go home; accuracy matters because the error is clinical.
+## Where the errors come from
+Digits. Dosages, vitals, weights and times are numeric. The number row is typed with a different reach than the home row and it is where most slips happen.
+Look-alike drug names. Hydralazine and hydroxyzine, prednisone and prednisolone. Autocomplete is not your friend here; type the name rather than accepting a suggestion.
+Interruption. You type half a sentence, answer a call bell, come back and continue in the wrong field. The typing skill is resuming without losing the thread.
+## A practice routine that fits a shift
+Five minutes, twice a day. One 60-second sentence round for rhythm, one Numbers round for digits, then stop. Short daily rounds beat a weekly marathon because the skill you are training is availability under fatigue, not peak output.
+Once a week, take one five-minute test and record net WPM and accuracy. Five minutes is roughly the length of a focused charting session, so it is the honest number to compare month to month.
+## Benchmarks to aim at
+Level | Net WPM | Accuracy | What it supports
+Minimum for most postings | 35 | 97% | Short shift notes, care plans
+Comfortable | 45 | 98.5% | Full assessment charting, discharge summaries
+Fast | 55+ | 99% | Admissions, triage notes, telephone orders
+These bands come from the ranges printed in nursing and medical-administration job advertisements; they are a target, not a licensure standard. No nursing board certifies a typing speed.
+## If you are switching from paper charting
+The people who struggle most are usually experienced clinicians, not new typists. Twenty years of handwriting produces efficient note language and a hunt-and-peck relationship with the keyboard. The fix is not a typing course; it is ten minutes a day of copying your own note style, not textbook sentences.
+Type the phrases you actually write — "alert and oriented", "denies chest pain", "afebrile" — until they are automatic. Domain vocabulary is where speed comes from once the keys stop needing attention.
+## Frequently asked questions
+Most nursing and medical-administration postings ask for 35–45 WPM with high accuracy. The number is modest because notes are short; the accuracy expectation is high because dosages and identifiers are clinical data.
+Sometimes, especially for roles with heavy electronic documentation such as triage, admissions or telehealth. More often it is assumed rather than tested, which is why a low speed shows up later as unpaid overtime.
+A wrong digit in a dose or a wrong patient identifier is a clinical incident, not a typo. Corrections also cost more time than typing slightly slower, so a 45 WPM run at 99% finishes a shift ahead of 60 WPM at 94%.
+Use the Numbers mode for two minutes a day and grade yourself on errors rather than speed. Dosages, vitals and times are the content that matters, so numeric accuracy is the skill to build first.
+Five minutes once a week for the benchmark, plus 60-second bursts daily for rhythm. A five-minute round approximates a charting session; a 15-second round measures a sprint you will never use on a ward.
+
+## Typing Test for Court Reporters
+Source: https://typing.rerivo.com/typing-test-for-court-reporter.html
+
+Court reporting certification is 225 words per minute — on a stenotype machine, not a QWERTY keyboard. The two numbers are not comparable, and confusing them is the most common mistake applicants make.
+
+## Two different skills with two different ceilings
+A stenotype writes syllables, not letters: multiple keys are pressed together and a chord resolves into a word or phrase. That is how 225 WPM is reachable at all. A QWERTY keyboard writes letter by letter, and the fastest competitive typists in the world top out around 200 WPM in short bursts on text they can see.
+So the 225 WPM requirement is not a claim that court reporters can type 225 WPM on a laptop. It is a test of realtime dictation capture through a machine built for it.
+## Speed tiers and what they qualify you for
+Speed | Machine | Typical meaning
+180 WPM | Stenotype | Often the floor for graduation from a reporting program
+200 WPM | Stenotype | Entry-level freelance work in many markets
+225 WPM | Stenotype | The certified reporter standard, tested on live dictation
+260 WPM | Voice or stenotype | Higher-tier certification for fast proceedings
+60–90 WPM | QWERTY | Transcript editing, scoping, proofreading support roles
+The lower bands are programme requirements rather than universal law: schools and states vary. Check the specific certification body before planning a timeline around one number.
+## Why a keyboard test still matters
+Most working hours are not spent on the machine. They are spent editing: correcting names, fixing speaker attribution, verifying exhibit numbers and formatting the transcript. That work happens on a keyboard, and it is where a reporter's day actually goes.
+Scoping and proofreading roles, which are the usual entry point while certification is pending, are keyboard jobs outright. A 60–80 WPM editing speed with clean accuracy is the practical requirement.
+## Training toward the exam
+Dictation practice, not typing practice, moves the stenotype number: five minutes at a speed where you can write every word, then a speed where you cannot. The second set is where the growth happens, provided you review the strokes you fumbled.
+Use a keyboard test for the editing half of the job. Ten minutes of 10-minute rounds at 98% accuracy will make transcript cleanup painless, and it is the part candidates neglect because it is not the number they are chasing.
+## Frequently asked questions
+No. 225 WPM is a stenotype standard, achieved by chording syllables on a purpose-built machine. Keyboard typing at that speed is not what the certification measures.
+60–90 WPM is comfortable for transcript editing, scoping and proofreading, which is where most keyboard time goes. Accuracy matters more than speed because transcript corrections are billable work.
+Reporting programmes typically run two to four years, and speed is the usual reason people take longer. The machine skill is built by daily dictation practice at the edge of your current speed.
+There are voice-writing and digital reporting routes, and some jurisdictions accept them. They have their own certification requirements, so confirm with the body that governs your state or country.
+For the editing side, yes — it measures sustained keyboard accuracy rather than a burst. It will not predict your steno speed, which is a different motor skill.
+
+## Typing Test for 911 Dispatchers
+Source: https://typing.rerivo.com/typing-test-for-dispatch.html
+
+Dispatch is typing while talking, under a clock. Agencies commonly ask for 35–45 WPM, but the deciding factor is whether a plate number, an address or a callback number survives contact with a stressed caller.
+
+## What dispatch agencies screen for
+A dispatcher enters an address, a name, a phone number and a plate while the caller is still explaining. The typing is short, numeric and immediately consequential. Public postings typically list 35–45 WPM, and the assessment usually adds a multitasking or call-taking simulation on top of the typing score.
+No single national typing standard applies to dispatch; requirements are set per agency. Treat published ranges as the target band and check the specific posting, because a state police dispatch centre and a small municipal one often differ by ten WPM.
+## Digits and addresses are the real test
+Prose typing rewards rhythm. Dispatch typing rewards the number row, the ten-key area and the ability to spell an unfamiliar street name correctly the first time. That is a different practice target.
+Numbers mode for two minutes a day, graded on errors not speed.
+Listen to a podcast and type the numbers you hear — times, prices, years — in one pass.
+Type addresses from a map app, including postcodes, without looking down.
+## Speed bands in context
+Role | Typical WPM floor | Added assessment
+Call taker | 35–40 | Structured call interview, data capture
+Dispatcher | 40–45 | Radio simulation, multitasking test
+Supervisor or trainer | 45+ | Quality assurance, report writing
+The typing test is rarely the only gate. Agencies also test hearing, memory, prioritisation and stress tolerance, and a 60 WPM score will not offset a failed call simulation.
+## Practice that transfers
+Two-minute rounds are the right length: long enough to feel the pressure of a call, short enough to repeat. Two minutes at 45 WPM net with 99% accuracy on digits is a stronger signal than five minutes of prose at 55.
+Then rehearse the split-attention part. Read a sentence aloud, type it from memory in one pass, and check character by character. Five repetitions a day for two weeks is enough to feel the difference in how you hold digits in working memory.
+## Frequently asked questions
+Usually 35–45 WPM, with accuracy weighted heavily. Requirements are set per agency rather than nationally, so the posting is the authority.
+No. The call-taking simulation and multitasking assessment usually eliminate more candidates. Typing is a floor you clear so the rest of the assessment can be scored.
+Both, but lead with numbers. Plate numbers, addresses and callback numbers are the content that fails in real calls, and the number row is where untrained typists lose the most accuracy.
+Aim for 99% on digits. A transposed digit in an address sends responders to the wrong place, which is the failure mode agencies screen hardest for.
+Often the assessment includes a simulated call where you must enter data as it is spoken. Rehearse that directly: audio in, one-pass typing out, then verify.
+
+## SSC CHSL Typing Test
+Source: https://typing.rerivo.com/ssc-chsl-typing-test.html
+
+Two different skill tests sit inside SSC CHSL: 35 WPM English or 30 WPM Hindi for LDC and JSA posts, and 8000 key depressions per hour for DEO posts. They are scored differently and rehearsed differently.
+
+## The two tests, side by side
+Post | Standard | Duration | Scoring
+LDC / JSA | 35 WPM English or 30 WPM Hindi | 10 minutes | Words per minute with an error allowance
+DEO / DEO Grade A | 8000 key depressions per hour | 15 minutes | Total key depressions against an 8000/hour rate
+8000 key depressions per hour is about 26.7 WPM under the five-character convention, but it is measured as raw keystrokes including corrections you make, so a typist who backspaces constantly loses ground even at a good words-per-minute rate.
+## Error allowance is where candidates fail
+The typing test is qualifying: you either clear the standard or you do not, and the score does not add to your merit total. That changes the strategy completely. A candidate chasing 45 WPM with 12% errors fails; a candidate at 37 WPM with 3% errors passes.
+Practise with the error budget in view: type at a pace where you can hold mistakes under the allowance, and never let a correction spree eat the clock. On the 10-minute LDC test, thirty seconds lost to backspacing is roughly 18 words you never typed.
+## Keyboard and layout rules
+The test is taken on a standard QWERTY keyboard provided at the centre. Hindi candidates may opt for Krutidev or Remington layout depending on the notice in force, and the layout is usually chosen at the application stage — check your admit card and the current notice rather than assuming.
+Because the machine is not yours, rehearse on something other than your laptop at least twice before the exam. Key travel and spacing change your error rate more than practice volume does.
+## A four-week plan
+Week 1: ten-minute rounds at a comfortable pace, recording accuracy only. Week 2: same length, push until errors cross the allowance, then back off 3 WPM — that is your exam pace. Week 3: alternate sentences and passages with punctuation, because the actual passage includes capitals and full stops. Week 4: full-length simulations at the same time of day as your shift, with no pause button.
+The DEO candidate should add a daily 15-minute numbers round, since key depressions include digits and the numeric reach is the slowest part of the keyboard for most people.
+## Frequently asked questions
+35 words per minute in English or 30 words per minute in Hindi for LDC and JSA posts, and 8000 key depressions per hour for DEO posts. Both are qualifying tests.
+Qualifying. It does not add marks to your total; you either meet the standard or you do not. That is why accuracy matters more than a high raw speed.
+Ten minutes for LDC and JSA, fifteen minutes for DEO. Practise at the full length rather than in one-minute bursts, because the error rate at minute nine is what decides the result.
+A small error allowance applies, commonly around 5% of the words typed, and it is specified in the notice for that cycle. Check the current notice: the allowance and the passage length change between years.
+No. The test is conducted on centre equipment. Rehearse on a different keyboard at least twice so key travel and spacing are not a surprise on the day.
+
+## Typing Test for 5th Graders
+Source: https://typing.rerivo.com/typing-test-for-5th-graders.html
+
+By fifth grade most children can type 25–35 WPM if they have had regular practice, and accuracy matters far more than the number. Here is what the grade bands look like and how to practise without tears.
+
+## Grade bands, with a caveat
+Classroom benchmarks vary by district and by how much keyboarding time a school actually provides, so treat any table as a rough band rather than a standard. The pattern that holds across published curricula is steady growth of roughly 5 WPM per grade once formal instruction begins.
+Grade | Typical range | What to focus on
+3rd | 10–20 WPM | Home row, not looking down
+4th | 15–25 WPM | All letters, capitals with Shift
+5th | 25–35 WPM | Accuracy above 90%, punctuation
+6th–8th | 30–45 WPM | Sustained paragraphs, editing
+## Why accuracy is the only goal at this age
+A child who types 35 WPM by hunting for keys with two fingers has hit a ceiling that will cost years later. A child at 22 WPM with all ten fingers on the home row is on a curve that reaches 50 by secondary school with no extra lessons.
+So score the round on errors, not words per minute. If accuracy is below 90%, the speed number is fiction — it is measuring how fast the child can produce text that has to be retyped.
+## A routine a ten-year-old will actually do
+Ten minutes, three times a week, is enough. One minute of warm-up, five minutes of the actual test, then two minutes of the child's own choice — quotes, pangrams, numbers. Stop while it is still fun; the failure mode is a forty-minute session that ends in an argument and no practice for a month.
+Use the on-screen keyboard and finger guide on this site so the child can see which finger owns which key without an adult narrating it. Cover the hands with a light cloth for one round a week if looking down has become a habit — it is uncomfortable for two days and then it works.
+## What to do about games
+Games are legitimate practice if the child is typing rather than watching. The test that matters: are the fingers moving on the home row, or is one finger stabbing at the keyboard while the other hand rests? If it is the second, the game is entertainment and the drill still has to happen separately.
+A reasonable split for a fifth grader is one game session for every two test sessions. The test gives the number; the game gives the motivation.
+## Frequently asked questions
+Roughly 25–35 WPM with 90% or better accuracy if they have practised regularly. Bands vary by school and by how much keyboarding instruction the child has actually had.
+No. It is normal for a child who has not had formal keyboarding instruction. What matters is whether the fingers are on the home row and whether accuracy is climbing.
+Ten minutes, three times a week. Short and frequent beats a long weekly session, and it keeps practice from becoming a punishment.
+Not while testing. Looking down is the habit that caps speed. Cover the hands for one round a week so the child is forced to build a mental map of the keys.
+Yes when the child is genuinely typing with correct fingers. If the game rewards speed with two fingers, it teaches a habit that has to be undone later.
+
+## Typing Test for Legal Secretaries
+Source: https://typing.rerivo.com/typing-test-for-legal-secretary.html
+
+Legal support is the top of the clerical typing band: 60–70 WPM with accuracy high enough for citations, party names and numbered paragraphs. Speed alone will not pass the formatting half.
+
+## Why the bar is higher than general office work
+A legal document is read by people who will quote it back. Party names must be exact, citations must be punctuated correctly, and a paragraph number that shifts breaks every cross-reference after it. That combination pushes the requirement to 60–70 WPM in job advertisements, above the 40–50 WPM typical of general clerical roles.
+The speed figure exists because documents are long. A 40-page agreement at 45 WPM is two days of typing; at 65 WPM it is a day and a half with time left for checking.
+## The skills the test does not capture
+Numbered paragraphs. Auto-numbering that renumbers on paste is the single most common formatting failure.
+Capitalisation of defined terms. "the Company" is not "the company", and a find-and-replace will not fix it safely.
+Citations. Italics, full stops and abbreviations follow a house style; consistency is the whole job.
+Track changes. Typing inside a tracked document is slower and less forgiving than typing into a blank page.
+## Benchmarks by setting
+Setting | Typical WPM | Accuracy | Notes
+Small general practice | 55–65 | 98% | Letters, forms, correspondence
+Corporate legal department | 60–70 | 98.5% | Contracts, board papers
+Litigation support | 65–75 | 99% | Court filings, exhibits, indexes
+Transcription-heavy role | 70+ | 99% | Dictation, hearing notes
+Ranges reflect what appears in legal recruitment advertising; a firm that tests will usually set its own floor and tell you before the test.
+## How to rehearse for the real thing
+Stop practising plain sentences after the first week. Type a real contract clause, complete with defined terms and numbered sub-paragraphs, and check it against the source line by line. That is a slower exercise and a far better predictor.
+Then add the time pressure: five-minute rounds of dense text with punctuation, targeting 98.5% accuracy. If your accuracy falls below that at 70 WPM, work at 60 until it holds — a legal document with two errors per page costs more to check than it saved to type.
+## Frequently asked questions
+Commonly 60–70 WPM with accuracy near 98.5%, which is above the 40–50 WPM typical of general clerical roles. Firms that test usually state their own floor.
+For a small general practice handling letters and forms, often yes. Corporate and litigation roles usually screen at 60 and above because documents are long and reference-heavy.
+A plain typing test does not, but the job is mostly formatting. Rehearse numbered paragraphs, defined terms and citations separately, because those are the errors that get noticed.
+Type real clauses rather than random sentences, then proof against the source. Capitals, full stops and italics are pattern work, and patterns only build on realistic text.
+Yes. At 60+ WPM sustained over long documents, looking at the keyboard is the limiting factor. Two weeks of home-row drills typically adds more than months of hunt-and-peck speed work.
