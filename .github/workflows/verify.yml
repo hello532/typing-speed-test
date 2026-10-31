@@ -9,13 +9,18 @@ jobs:
   verify:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      # fetch-depth: 0 是硬要求：build.py 从 git 历史派生 datePublished/dateModified 与
+      # sitemap lastmod。默认的浅克隆（1 个提交）会让日期塌成"今天"，产物与已提交 HTML
+      # 不一致 → build drift check 必红（2026-10-31 r104/r105 连续失败即此因）。
+      - uses: actions/checkout@v5
+        with:
+          fetch-depth: 0
 
-      - uses: actions/setup-python@v5
+      - uses: actions/setup-python@v6
         with:
           python-version: "3.12"
 
-      - uses: actions/setup-node@v4
+      - uses: actions/setup-node@v5
         with:
           node-version: "20"
 

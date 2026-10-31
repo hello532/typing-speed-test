@@ -614,8 +614,27 @@ def page_dates(names):
     return out
 
 
+def require_full_history():
+    """页面日期与 sitemap lastmod 由 git 历史派生 —— 浅克隆/无 git 会让全站日期塌成今天。
+
+    浅克隆（CI 默认 fetch-depth: 1）下 git log 只看到 1 个提交，本该按真实历史取
+    datePublished/dateModified 的页面全部回落 today，产物必然与已提交的 HTML 不一致，
+    表现为"DRIFT: 176 page(s)"这类噪音。这里直接报出真实原因，不让人去猜。
+    """
+    import subprocess
+    r = subprocess.run(["git", "rev-parse", "--is-shallow-repository"], cwd=ROOT,
+                       capture_output=True, text=True)
+    if r.returncode != 0 or r.stdout.strip() == "true":
+        why = "not a git clone" if r.returncode != 0 else "shallow clone (fetch-depth: 1)"
+        sys.exit(
+            f"ERROR: {why} — page dates and sitemap lastmod come from git history.\n"
+            "       Fix: git fetch --unshallow   (CI: actions/checkout with fetch-depth: 0)"
+        )
+
+
 def main():
     check = "--check" in sys.argv
+    require_full_history()
     cfg = json.loads((SRC / "pages.json").read_text(encoding="utf-8"))
     tpl = (SRC / "template.html").read_text(encoding="utf-8")
     css = (SRC / "style.css").read_text(encoding="utf-8").rstrip("\n")
