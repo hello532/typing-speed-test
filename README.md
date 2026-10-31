@@ -129,6 +129,8 @@ og-cover.png       social preview image
 | `python3 src/tools/expand.py <batch.json>` | adds pages to all four sources at once, with hard metadata gates |
 | `python3 src/tools/gsc.py {report,pages,queries,unindexed,growth,snapshot}` | real Search Console data |
 | `python3 src/tools/indexnow.py` | resubmits every URL to IndexNow (Bing/Yandex/Seznam/Naver) |
+| `python3 src/tools/health.py` | 9 local checks: dead links, duplicate titles, canonicals, h1s, sitemap/llms sync |
+| `python3 src/tools/weekly.py` | last week vs the week before, and what the change means |
 
 Numbers are kept in three separate layers everywhere: **observed** (GSC), **arithmetic**
 (impressions × CTR), **assumption** (industry CTR curve, labelled as such). No tool in this

@@ -35,3 +35,8 @@ jobs:
       #    不设 continue-on-error — retro.py 离线只读，跑不通就该红。
       - name: retrospective snapshot
         run: python3 src/tools/retro.py
+
+      # 5) 站点体检：死链 / 重复 title / canonical 自指 / h1 唯一 / sitemap 与 llms 一致。
+      #    不依赖任何搜索 API，纯本地可判定，所以放在 CI 里当硬门禁。
+      - name: site health
+        run: python3 src/tools/health.py
