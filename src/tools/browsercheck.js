@@ -128,14 +128,14 @@ try {
   await page.cdp("Emulation.setDeviceMetricsOverride",
     { width: 390, height: 844, deviceScaleFactor: 3, mobile: true });
   const mobile = [];
-  for (const path of ["/", "/typing-tests.html", "/average-typing-speed.html"]) {
+  for (const path of ["/", "/typing-tests.html", "/average-typing-speed.html", "/arabic-typing-test.html", "/urdu-typing-test.html"]) {
     await page.goto(SITE + path + BUST);
     mobile.push(await page.evaluate(() => ({
       path: location.pathname,
       overflow: document.documentElement.scrollWidth - window.innerWidth,
     })));
   }
-  record("mobile 390px: no horizontal page overflow",
+  record("mobile 390px: no horizontal page overflow (incl. RTL pages)",
     mobile.every(m => m.overflow <= 2), mobile);
 
   await page.goto(SITE + "/average-typing-speed.html" + BUST);
