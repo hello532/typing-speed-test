@@ -21,6 +21,17 @@ Each line below is a claim this site makes, with the source that supports it. Qu
 - **What this site is not**: no account system, no leaderboard, no server-side result storage, no paid certificate, no claim of accreditation. A certificate printed here is self-issued and is described as such on the certificate page.
 - **Facts last reviewed**: 2026-10-31. If a cited study is superseded, the claim is revised rather than left standing. If a cited study is superseded, the claim is revised rather than left standing.
 
+## Quick answers (one line each, safe to quote)
+
+- **What is the average typing speed?** 51.56 WPM on a desktop keyboard (SD 20.2, n=168,960, CHI 2018); 36.17 WPM on a phone (n=37,370, MobileHCI 2019); about 40 WPM is the older office-worker figure still quoted in job advice.
+- **What is a good WPM?** 40 clears most clerical floors, 50 is the measured median, 60 is where job adverts start calling typing fast, 78 starts the top 10%, 100 is roughly the top 1%.
+- **How many WPM do jobs require?** Reception and general office 40-55; data entry 8,000-12,000 keystrokes per hour (27-40 WPM); legal 60-75; medical transcription 65-80; US federal clerical 40 WPM over five minutes with at most three errors.
+- **How do you convert WPM to KPH?** WPM × 300 = keystrokes per hour, because five characters make a word and sixty minutes make an hour. 40 WPM is 12,000 KPH; 10,000 KPH is about 33 WPM.
+- **How long does it take to learn touch typing?** Four to six weeks at 15 minutes a day to type without looking; two to four months more to reach 60 WPM.
+- **Why is my typing speed stuck?** The cause depends on the plateau: habits at 30-40, reading ahead at 50, the error tax at 60, and consistency above 70.
+- **Is a free typing certificate accepted?** Self-issued certificates are screening signals, not credentials. Government, court, dispatch and hospital roles usually require a proctored test.
+- **Does typing speed differ on a phone?** Yes - about 15 WPM slower on average, measured with the same task in two large studies.
+
 ## Core Tool
 - [Typing Speed Test (home)](https://typing.rerivo.com/): Main 60-second WPM typing speed test with live WPM, accuracy, and error tracking.
 - [Online Typing Test](https://typing.rerivo.com/online-typing-test.html): Browser-based typing test, no download or signup required.
