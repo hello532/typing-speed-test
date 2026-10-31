@@ -880,7 +880,7 @@
    "dr": 96,
    "status": "live",
    "date": "2026-11-01",
-   "note": "公开数据仓：两条 DOI、CSV 曲线、percentile.py/js；README 内链 benchmarks 页；topics 6 个、homepage 指向该页。可被开发者引用，也可作为下次 awesome-list 提交的引用素材"
+   "note": "公开数据仓：两条 DOI、CSV 曲线、percentile.py/js、CITATION.cff（GitHub 会显示 Cite this repository 按钮）；README 内链 benchmarks 页；topics 6 个、homepage 指向该页"
   }
  ]
 }

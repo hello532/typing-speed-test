@@ -416,3 +416,12 @@ header 实测高度：**320→194、360–768→168、900+→95**。此前的预
 
 补后正文入链：keyboard-practice 7→9、typing-tutorial 2→4、calculator 4→6、
 online-typing-test 2→3、comparison 3→5、3-minute 5→7。
+
+### r91：数据仓补 CITATION.cff
+
+GitHub 检测到 `CITATION.cff` 会显示「Cite this repository」按钮，这是**数据类仓库**
+被引用的最低门槛。文件里写清了三件事：论文才是来源、这个仓只是便捷层（CSV + 百分位代码）、
+以及 `preferred-citation` 指向 benchmarks 页。
+
+同时 README 增加 Citing 段，重复同一句话——因为「把二手整理当成原始测量」是这类
+数据页最常见的误用。
