@@ -329,3 +329,33 @@ curl 拿 403 是 ACM 反爬，不是死链。`linkout.py` 因此把 403 与 404 
 Bing 的 `site:` 现在对本 UA 返回 "There are no results"，而开站初期同样的方法能翻到
 3 页分页。这是 Bing 的爬虫缓解在起作用，不是站点被移除（IndexNow 提交一直 200，
 GSC 的 Google 侧数据正常）。**结论：Bing 抓取不可作为收录证据，收录只看 GSC 与 IndexNow 返回。**
+
+---
+
+## 十五、r73–r79：移动端实测带出的三个真问题
+
+这一批全部来自「按真实视口与真实网络逐页量」，而不是看构建产物。
+
+| 轮次 | 问题 | 数据 | 修法 |
+|---|---|---|---|
+| r73 | 宽表格在手机上被裁切（不是排版难看，是丢内容） | 6 列表格实际 426px，容器 390px 且不滚动 | build_seo 统一包 `<div class="tblwrap">`（overflow-x:auto） |
+| r75 | RTL 页面能横拖出 8,796px 空白 | arabic/urdu/top-ur-words 三页溢出量完全一致 | 两处 `left:-9999px` 视觉隐藏改成 clip 式；RTL 下 focus 用 right |
+| r79 | 移动端 CLS 0.14 | 移动端 Slow 4G + 4× CPU 实测，跨 5 页 0.089–0.14 | header 预留 168/95px、#text 预留 60vh；修复后 **0.005–0.006** |
+
+### CLS 的定位过程值得记下来
+
+1. 先在屏蔽 AdSense 的条件下复测 → **CLS 仍在**，排除广告
+2. 关闭 JS 后复测 → **CLS = 0**，确认是自己的脚本
+3. 读 `layout-shift` 的 `sources` 几何信息 → `.hero` 与 `NAV.crumbs` 在 ~2.1s 整体下移 90px、**高度不变**
+4. 由此推出是上方 header 增高：语言/主题控件由 `ui.js`（177KB，含 14 个语种池）事后插入
+5. 预留 header 高度后复测 → 0.006
+
+**结论**：这 90px 不是广告，是「较大脚本晚到 → 插入控件 → 推挤内容」的典型形态。
+根治方案仍是把 14 个语种池从 ui.js 拆出去（能同时改善 FCP/TTI），但会动到
+引擎与 151 条行为断言，本轮选择先做零风险的预留，把方案记在这里。
+
+### 新增可复跑脚本
+
+- `src/tools/mobilesweep.js`：全站 184 页 @390×844 扫横向溢出（有溢出退出 1）
+- `src/tools/cwv.js`：FCP / DCL / 文档体积 / CLS（自有代码 vs 含广告），自有 CLS > 0.05 退出 1
+- `src/tools/browsercheck.js`：9 项真浏览器交互验收（含 RTL 页与移动端）
