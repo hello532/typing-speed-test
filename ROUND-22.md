@@ -247,3 +247,31 @@ page+query 组合维度会因匿名化返回空集，只有 page 维度总量可
 「这一页到底靠哪些词拿到曝光」在低量阶段是**不可知**的，针对它的 CTR 改写只能是盲改。
 这也是为什么本轮没有去改 `online-typing-practice`（p4.2 / 67 曝光 / 1 点击）的标题——
 不知道查询是什么，改了就是赌。
+
+---
+
+## 十二、r62–r66（目标轮 5–6）
+
+| 轮次 | 内容 | 依据 / 验证 |
+|---|---|---|
+| r62 | CPM 页加三向实时换算器；KPH 页 4,000→6,560 字符（平均 KPH、8000 KPD→26.7 WPM、key depression vs keystroke） | 30 天 query 维度："cpm test" 49 曝光 p20.8、"average keystrokes per hour" p18.3、"8000 key depression in wpm" p70.7 |
+| r63 | about 页补「发布与纠错原则」；health.py 第 10 项锚点检查 | 184 页 0 个未解析锚点 |
+| r64 | typing-practice 改成练习枢纽：Start here 三步 + 四周计划表 + 12 节按「开始→计划→诊断→纠错」重排 | "typing practice" 族 608 曝光 p84-94，竞品研究说这一族赢课程/枢纽格式 |
+| r65 | health.py 第 11 项：行内脚本 node --check（去重 55 段，378 段原始） | 0 语法错误；覆盖我这一晚加的 3 处交互 |
+| r66 | quotes 1,706→2,400、typing-skill-test 重排补三节 | 两页分别在 p27.2 / p19.8 |
+
+### 一个必须记住的取证限制
+
+对曝光量小的页面，**GSC 的 page+query 组合维度因匿名化返回空集**。例如
+`online-typing-practice`（67 曝光 / p4.2）在组合维度里查到 0 条查询。
+结论：低量页「靠哪些词拿曝光」不可知，针对它改标题就是赌——这一条写在
+`why` 里，避免下次再花时间试。
+
+### 当前形态
+
+```
+184 页 ｜ 正文 min/median/max = 1,500 / 2,386 / 32,209
+verify 20/20 ｜ health 11/11 ｜ structure gate S1/S2/S3
+线上 184/184 URL 200 ｜ sitemap 184 ｜ llms.txt 覆盖一致
+外链台账 88 条（1 条 live 为新建的 GitHub 数据仓）
+```
