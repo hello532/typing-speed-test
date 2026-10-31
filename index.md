@@ -27,6 +27,8 @@ Every test on the site is listed on the all typing tests directory, grouped by l
 
 Take a short test every day. Start with a 1 minute typing test, then try 2 or 5 minutes as you get faster. Focus on accuracy first — speed follows accuracy. Keep your fingers on the home row and look at the screen, not the keyboard. Switch to quotes or numbers mode to practice punctuation and digits, which are the most common slowdowns.
 
+If you want a sequence rather than a page of tips, the 12-lesson touch typing course gives each lesson one drill and one pass criterion, so you always know whether you are ready for the next.
+
 An average typing speed is about 40 WPM. Typing at 60 WPM is faster than most people and good for most office work. Above 80 WPM is fast, and professional typists and developers often reach 90–120 WPM. Children usually start around 20–30 WPM and improve quickly with a few minutes of daily practice.
 
 Level | Typing speed
@@ -52,6 +54,8 @@ Start with the format: a paragraph typing test, a timed run from 15 seconds to 1
 By audience and skill: adults, students, teachers, plus the skill test and home row drill. Numeric and office work: the 10 key, data entry, speed calculator and keystrokes per hour pages.
 
 Exam and job preparation: rehearse with the interview, government, bank and SSC typing tests, or answer how fast can I type in one minute.
+
+Exam preparation has its own pages, because each test has a different format: the federal clerical standard is 40 WPM on a five-minute sample with at most three errors, the SSC CHSL rules split 35 WPM English or 30 WPM Hindi for LDC/JSA against 8,000 key depressions per hour for DEO, and the CritiCall battery mixes keyboarding with call summarisation and memory recall. If you write code, SQL typing practice drills the bracket-and-quote reaches that slow analysts down; if you want the numbers behind the chart, the benchmark data page carries every figure with its source, and the consistency score explains why two 60 WPM typists are not the same.
 
 ## Typing test FAQ
 
