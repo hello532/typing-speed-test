@@ -12,6 +12,8 @@ Tips for a faster 30 second sprint
 When to choose the 30 second test
 What a 30 second score tells you
 The 30 second test as a warm-up
+What thirty seconds actually measures
+Using sprints to raise the five-minute score
 
 The 30 second typing test is the quickest way to get a WPM estimate. Thirty seconds is enough to type roughly 20-45 words, which gives a usable sample when you are short on time. For a steadier score that averages out fast bursts, try the 1 minute typing test or the 5 minute typing test.
 
@@ -26,6 +28,14 @@ A 30 second round measures peak speed, not sustainable speed. Expect it to land 
 Use the 1 minute typing test as the reference score and the thirty-second sprint as the check on it. If the two converge, your sustained speed is improving.
 
 Cold starts cost real WPM in the first fifteen seconds. One thirty-second round before a longer attempt raises the score of the round that follows without adding fatigue, which makes this the cheapest warm-up in the set. Pair it with the typing test tips checklist for a repeatable routine.
+
+A burst: your top-end keystroke speed before fatigue and before the reading-ahead penalty appears. It reads 5-10 WPM above a five-minute round for the same typist, and that gap is not a flaw - it is the definition of the measurement.
+
+So use it for three things and not for a fourth. Use it to warm up, to train the top end you cannot reach in a longer round, and to compare two keyboards in ten seconds each. Do not use it as the number you quote to an employer.
+
+Ten sprints of 15-30 seconds, twice a week, with a slow accuracy round after each set. The sprints pull the ceiling up; the accuracy round stops the ceiling from arriving with a higher error rate attached.
+
+Then check once a week with a five-minute round. If the sprint score rises while the five-minute score stays flat, the extra speed is not transferring - usually because the errors you make at sprint pace are the ones you then spend the long round correcting.
 
 ## 30 second typing test FAQ
 
@@ -44,3 +54,7 @@ Yes, completely free with no sign up and no ads inside the typing area. Your res
 ### Can I retake the test?
 
 Yes, retake it as many times as you like. Each round saves locally so you can compare your results over time.
+
+### Is a 30-second typing test accurate?
+
+It is accurate for burst speed, which reads 5-10 WPM above a five-minute round. Use it to warm up, train your top end or compare keyboards; use a five-minute round for a number you quote.

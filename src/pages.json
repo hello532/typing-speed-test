@@ -2609,6 +2609,20 @@
      "p": [
       "Cold starts cost real WPM in the first fifteen seconds. One thirty-second round before a longer attempt raises the score of the round that follows without adding fatigue, which makes this the cheapest warm-up in the set. Pair it with the <a href=\"typing-test-tips.html\">typing test tips</a> checklist for a repeatable routine."
      ]
+    },
+    {
+     "h2": "What thirty seconds actually measures",
+     "p": [
+      "A burst: your top-end keystroke speed before fatigue and before the reading-ahead penalty appears. It reads 5-10 WPM above a five-minute round for the same typist, and that gap is not a flaw - it is the definition of the measurement.",
+      "So use it for three things and not for a fourth. Use it to warm up, to train the top end you cannot reach in a longer round, and to compare two keyboards in ten seconds each. Do not use it as the number you quote to an employer."
+     ]
+    },
+    {
+     "h2": "Using sprints to raise the five-minute score",
+     "p": [
+      "Ten sprints of 15-30 seconds, twice a week, with a slow accuracy round after each set. The sprints pull the ceiling up; the accuracy round stops the ceiling from arriving with a higher error rate attached.",
+      "Then check once a week with a five-minute round. If the sprint score rises while the five-minute score stays flat, the extra speed is not transferring - usually because the errors you make at sprint pace are the ones you then spend the long round correcting."
+     ]
     }
    ],
    "faqFirstOpen": true,
@@ -2629,6 +2643,10 @@
     {
      "q": "Can I retake the test?",
      "a": "Yes, retake it as many times as you like. Each round saves locally so you can compare your results over time."
+    },
+    {
+     "q": "Is a 30-second typing test accurate?",
+     "a": "It is accurate for burst speed, which reads 5-10 WPM above a five-minute round. Use it to warm up, train your top end or compare keyboards; use a five-minute round for a number you quote."
     }
    ],
    "webAppName": "Typing Speed Test",
@@ -5741,6 +5759,20 @@
      "p": [
       "Before the real test: <a href=\"data-entry-practice.html\">data entry practice</a> with a two-week KPH plan, and <a href=\"data-entry-job-requirements.html\">data entry job requirements</a> translated into plain numbers."
      ]
+    },
+    {
+     "h2": "Why data entry is measured in keystrokes, not words",
+     "p": [
+      "A data entry record is a set of fields - a name, a reference, a date, an amount - and none of them is a word. Counting characters is the only unit that survives that, which is why postings quote keystrokes per hour or key depressions per hour instead of WPM.",
+      "The conversion is arithmetic: 8,000 KPH ≈ 27 WPM, 12,000 KPH ≈ 40 WPM. But the two numbers measure different things in practice, because a character count includes the digits, punctuation and corrections that a prose test quietly ignores."
+     ]
+    },
+    {
+     "h2": "The drill that matches the job",
+     "p": [
+      "Type records, not passages. A realistic record is four fields and takes about twelve seconds: name, reference, date, amount. Run ten of them, verify each against the source, and count how many are completely clean - that number, not WPM, is what a data entry manager is buying.",
+      "Add the two skills the prose test cannot see: the numeric keypad for amounts (4-5-6 home row, thumb on zero), and Tab to move between fields. Typing a clean record and then pressing the wrong key to advance is a lost record just the same."
+     ]
     }
    ],
    "faqFirstOpen": true,
@@ -5765,6 +5797,10 @@
     {
      "q": "How can I improve my data entry typing speed?",
      "a": "Practise daily with text that includes numbers, punctuation and capitals, prioritise accuracy over speed, and train the number pad separately if the job is numeric."
+    },
+    {
+     "q": "Why is data entry measured in keystrokes rather than WPM?",
+     "a": "Because a record is a set of fields - name, reference, date, amount - and none of them is a word. Characters per hour is the only unit that survives that, which is why postings quote 8,000-12,000 KPH."
     }
    ],
    "webAppName": "Typing Speed Test",
@@ -6637,6 +6673,20 @@
      "p": [
       "Government clerk and assistant exams usually qualify on a short timed passage around 25–35 WPM with capped errors. For the complete scenario-by-scenario table with conversions, see <a href=\"typing-speed-requirements.html\">typing speed requirements by job and exam</a>. For country-specific exam formats such as SSC, IBPS and court clerk tests, see the <a href=\"typing-test-government-jobs.html\">government jobs typing test</a> guide."
      ]
+    },
+    {
+     "h2": "The three formats you will actually meet",
+     "p": [
+      "<table><tr><th>Format</th><th>Where</th><th>What it looks like</th></tr><tr><td>Fixed standard, short sample</td><td>US federal clerical titles</td><td>40 WPM over five minutes with no more than three errors</td></tr><tr><td>Post-specific speed, longer sample</td><td>Indian SSC and state boards</td><td>35 WPM English or 30 WPM Hindi for LDC/JSA; 8,000 key depressions per hour for DEO</td></tr><tr><td>Proctored certificate, employer-set floor</td><td>State, county and municipal clerical</td><td>Usually 40 net WPM, tested at a centre or with remote proctoring, certificate valid 1-4 years</td></tr></table>",
+      "Read the notice rather than a general guide: the same country runs all three formats, and the notice is the only document that states which one applies to you."
+     ]
+    },
+    {
+     "h2": "What the day itself is like",
+     "p": [
+      "You will type on unfamiliar equipment, usually a basic membrane keyboard, with the passage on screen or on paper beside you. The clock starts when the proctor says so, not when you are ready.",
+      "Three practical habits: type one warm-up sentence before the clock if allowed; do not watch the timer, because the countdown costs more accuracy than it buys speed; and if the format allows corrections, fix only the errors that change meaning - a scrawl of backspaces at minute four is how candidates fail a qualifying test."
+     ]
     }
    ],
    "faqFirstOpen": true,
@@ -6661,6 +6711,10 @@
     {
      "q": "How do I pass a government typing test?",
      "a": "Practise at the exam length, prioritise accuracy over raw speed, learn to touch type so you do not look at the keyboard, and train the number pad if the post is data entry."
+    },
+    {
+     "q": "What is the difference between government typing test formats?",
+     "a": "Three: a fixed short standard (US federal, 40 WPM over five minutes with at most three errors), a post-specific speed over a longer sample (SSC 35 WPM English / 30 Hindi, 8,000 key depressions for DEO), and a proctored certificate with an employer-set floor. The notice states which applies."
     }
    ],
    "webAppName": "Typing Speed Test",

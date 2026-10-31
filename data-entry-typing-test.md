@@ -4,6 +4,16 @@ Source: https://typing.rerivo.com/data-entry-typing-test.html
 
 A data entry typing test checks the two things employers screen for: typing speed and accuracy. Data entry roles typically ask for 50&ndash;70 WPM (or 8,000&ndash;10,000 keystrokes per hour) with 97&ndash;99% accuracy. Take the timed test below and see where you stand.
 
+On this page
+
+What speed does data entry require?
+Accuracy matters more than raw speed
+How to prepare for a data entry typing test
+What KPH do data entry jobs require?
+Prepare for data entry hiring tests
+Why data entry is measured in keystrokes, not words
+The drill that matches the job
+
 Data entry and clerical jobs usually expect 50-70 WPM with 97%+ accuracy. Numeric-heavy roles are often measured in keystrokes per hour instead, where the bar is about 8,000-10,000 KPH. Some employers use a 10 key (numeric keypad) test rather than a text passage.
 
 Metric | Typical data entry requirement
@@ -26,6 +36,14 @@ Most data-entry postings quote 8,000–12,000 keystrokes per hour with ~98% accu
 
 Before the real test: data entry practice with a two-week KPH plan, and data entry job requirements translated into plain numbers.
 
+A data entry record is a set of fields - a name, a reference, a date, an amount - and none of them is a word. Counting characters is the only unit that survives that, which is why postings quote keystrokes per hour or key depressions per hour instead of WPM.
+
+The conversion is arithmetic: 8,000 KPH ≈ 27 WPM, 12,000 KPH ≈ 40 WPM. But the two numbers measure different things in practice, because a character count includes the digits, punctuation and corrections that a prose test quietly ignores.
+
+Type records, not passages. A realistic record is four fields and takes about twelve seconds: name, reference, date, amount. Run ten of them, verify each against the source, and count how many are completely clean - that number, not WPM, is what a data entry manager is buying.
+
+Add the two skills the prose test cannot see: the numeric keypad for amounts (4-5-6 home row, thumb on zero), and Tab to move between fields. Typing a clean record and then pressing the wrong key to advance is a lost record just the same.
+
 ## Data entry typing FAQ
 
 ### What is a good speed for data entry?
@@ -47,3 +65,7 @@ Many do. Roles that are mostly numeric use a numeric keypad (10 key) test measur
 ### How can I improve my data entry typing speed?
 
 Practise daily with text that includes numbers, punctuation and capitals, prioritise accuracy over speed, and train the number pad separately if the job is numeric.
+
+### Why is data entry measured in keystrokes rather than WPM?
+
+Because a record is a set of fields - name, reference, date, amount - and none of them is a word. Characters per hour is the only unit that survives that, which is why postings quote 8,000-12,000 KPH.

@@ -4,6 +4,15 @@ Source: https://typing.rerivo.com/government-typing-test.html
 
 Many government and clerical job applications include a typing test &mdash; usually 30&ndash;40 WPM for entry-level posts and higher for clerical and data roles, with strict accuracy requirements. Practise the timed test below and check the levels used by government typing exams. No sign-up, instant results.
 
+On this page
+
+What typing speed do government jobs require?
+How government typing tests are scored
+How to prepare for a government typing test
+What typing speed do government exams require?
+The three formats you will actually meet
+What the day itself is like
+
 Government typing requirements vary by post and country, but the common shape is: a minimum of 30-40 WPM for entry-level administrative roles, and 40-60 WPM with high accuracy for clerical, secretarial and data entry positions. Where the job is mainly data entry, the test may be a numeric one scored in keystrokes per hour instead.
 
 Post type | Typical requirement
@@ -21,6 +30,17 @@ Practise at the exam length. Warm up with a 1 minute test, then run 3 and 5 minu
 Work on accuracy until you can complete a passage cleanly, then raise speed. Train the home row and touch typing so you are not watching your hands, and if the post is data entry, drill the keypad with the 10 key typing test. Test yourself under the same conditions as the exam - same length, no restarts - and check your standing against the average typing speed. Your practice history stays in your browser.
 
 Government clerk and assistant exams usually qualify on a short timed passage around 25–35 WPM with capped errors. For the complete scenario-by-scenario table with conversions, see typing speed requirements by job and exam. For country-specific exam formats such as SSC, IBPS and court clerk tests, see the government jobs typing test guide.
+
+Format | Where | What it looks like
+Fixed standard, short sample | US federal clerical titles | 40 WPM over five minutes with no more than three errors
+Post-specific speed, longer sample | Indian SSC and state boards | 35 WPM English or 30 WPM Hindi for LDC/JSA; 8,000 key depressions per hour for DEO
+Proctored certificate, employer-set floor | State, county and municipal clerical | Usually 40 net WPM, tested at a centre or with remote proctoring, certificate valid 1-4 years
+
+Read the notice rather than a general guide: the same country runs all three formats, and the notice is the only document that states which one applies to you.
+
+You will type on unfamiliar equipment, usually a basic membrane keyboard, with the passage on screen or on paper beside you. The clock starts when the proctor says so, not when you are ready.
+
+Three practical habits: type one warm-up sentence before the clock if allowed; do not watch the timer, because the countdown costs more accuracy than it buys speed; and if the format allows corrections, fix only the errors that change meaning - a scrawl of backspaces at minute four is how candidates fail a qualifying test.
 
 ## Government typing test FAQ
 
@@ -43,3 +63,7 @@ Data entry posts often use a numeric keypad (10 key) test scored in keystrokes p
 ### How do I pass a government typing test?
 
 Practise at the exam length, prioritise accuracy over raw speed, learn to touch type so you do not look at the keyboard, and train the number pad if the post is data entry.
+
+### What is the difference between government typing test formats?
+
+Three: a fixed short standard (US federal, 40 WPM over five minutes with at most three errors), a post-specific speed over a longer sample (SSC 35 WPM English / 30 Hindi, 8,000 key depressions for DEO), and a proctored certificate with an employer-set floor. The notice states which applies.
