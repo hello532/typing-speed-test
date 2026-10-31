@@ -44,3 +44,11 @@ Yes, with no account. Results stay in your browser.
 ### Does the layout matter?
 
 For learning, yes - practise the layout you actually use. QWERTY, QWERTZ, AZERTY and alternative layouts move different keys, and mixing them in one session creates interference.
+
+### How do I practise keyboard typing for beginners?
+
+Ten minutes a day: home row with the on-screen guide, then your weakest row, then normal text, then one round with your hands covered. Log accuracy, not speed.
+
+### What is the fastest way to learn a keyboard layout?
+
+Learn the home row first and cover your hands for one round a day. The look-at-keyboard habit is what caps speed, and preventing it is easier than breaking it later.

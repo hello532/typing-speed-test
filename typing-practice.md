@@ -89,3 +89,11 @@ Practice daily for 10–15 minutes, prioritise accuracy over speed, keep your wr
 ### Can I use this page for typing test practice?
 
 Yes. Every drill runs on the same engine and scoring as the timed tests, so a practice round rehearses exactly what a typing test measures. Run a short quiz-style round to warm up, then switch to a 1 minute typing test when you want a score to report.
+
+### How long should I practise typing each day?
+
+Ten to fifteen minutes. Short daily sessions build the motor pattern; a single long weekly session mostly builds frustration and fatigue.
+
+### What is the best online typing practice?
+
+The one you repeat. A structured plan matters more than the brand: a covered round for the look-down habit, an accuracy round, and one timed test per week.

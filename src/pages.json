@@ -160,6 +160,18 @@
     {
      "q": "Is a 1 minute typing test accurate?",
      "a": "Yes, for a quick check. Sixty seconds is long enough that one lucky sentence does not decide the result, and it is the length employers and typing certificates use, so your score compares directly. Take a 3 or 5 minute test when you want a steadier number."
+    },
+    {
+     "q": "Is a one minute typing test the same as a 60 second typing test?",
+     "a": "Yes - one minute and sixty seconds are the same length, and both mean the standard short benchmark. The label changes by site, the measurement does not."
+    },
+    {
+     "q": "What is a good 1 minute typing speed?",
+     "a": "Around 40 WPM is average, 50-60 is above average, and 70+ on a one-minute round is fast. Because a minute avoids fatigue, expect it to read 5-10 WPM higher than your five-minute score."
+    },
+    {
+     "q": "Can I take a one minute typing test on a phone?",
+     "a": "You can, but the score will not be comparable. Phone typing averages 36 WPM against 52 on a desktop keyboard, so take any test that counts on a physical keyboard."
     }
    ],
    "webAppName": "Typing Speed Test",
@@ -919,6 +931,10 @@
     {
      "q": "Is there a catch — why is it free?",
      "a": "No catch: the test runs entirely in your browser with no accounts, no servers and no ads in the typing area, so there is almost nothing to pay for. Optional display ads outside the test area keep the site running without ever locking features."
+    },
+    {
+     "q": "Do I need to install anything for a free typing test?",
+     "a": "No. It runs in the browser, nothing is installed, and results are stored on your device rather than on a server."
     }
    ],
    "webAppName": "Free Typing Test",
@@ -1703,6 +1719,14 @@
     {
      "q": "Can I use this page for typing test practice?",
      "a": "Yes. Every drill runs on the same engine and scoring as the timed tests, so a practice round rehearses exactly what a typing test measures. Run a short quiz-style round to warm up, then switch to a 1 minute typing test when you want a score to report."
+    },
+    {
+     "q": "How long should I practise typing each day?",
+     "a": "Ten to fifteen minutes. Short daily sessions build the motor pattern; a single long weekly session mostly builds frustration and fatigue."
+    },
+    {
+     "q": "What is the best online typing practice?",
+     "a": "The one you repeat. A structured plan matters more than the brand: a covered round for the look-down habit, an accuracy round, and one timed test per week."
     }
    ],
    "webAppName": "Typing Speed Test",
@@ -2309,6 +2333,18 @@
     {
      "q": "What is a typing words per minute test?",
      "a": "A typing words per minute test measures how many five-character words you type correctly in sixty seconds. Every five keystrokes count as one word regardless of real word length, so the score stays comparable across different passages. Net WPM deducts errors and is the figure to quote; raw WPM ignores them."
+    },
+    {
+     "q": "What does WPM stand for?",
+     "a": "Words per minute, where one word is five characters including spaces. That convention is what makes scores comparable across passages of different word lengths."
+    },
+    {
+     "q": "Is a free WPM test accurate?",
+     "a": "It is accurate for the conditions you took it in. Use net WPM, a five-minute round and sentences, then repeat on another day - one round is a snapshot, not a rating."
+    },
+    {
+     "q": "What is the difference between WPM and CPM?",
+     "a": "CPM counts characters per minute, WPM counts five-character words. CPM = WPM x 5, so 60 WPM is 300 CPM."
     }
    ],
    "webAppName": "Typing Speed Test",
@@ -4494,6 +4530,14 @@
     {
      "q": "How is typing speed measured?",
      "a": "Correct characters divided by five, then divided by the minutes elapsed. Five characters count as one word. Net WPM subtracts errors first; gross WPM does not."
+    },
+    {
+     "q": "What is the average WPM for an adult?",
+     "a": "51.56 WPM in the largest published measurement (168,960 volunteers, CHI 2018). The commonly quoted 40 WPM comes from older office-worker samples rather than self-selected test takers."
+    },
+    {
+     "q": "What is the average typing speed for a beginner?",
+     "a": "20-30 WPM with 90-95% accuracy is typical for an untrained adult. With ten minutes of daily practice, 35-45 WPM within three months is a realistic progression."
     }
    ],
    "webAppName": "Typing Speed Test",
@@ -7452,6 +7496,14 @@
     {
      "q": "Does the layout matter?",
      "a": "For learning, yes - practise the layout you actually use. QWERTY, QWERTZ, AZERTY and alternative layouts move different keys, and mixing them in one session creates interference."
+    },
+    {
+     "q": "How do I practise keyboard typing for beginners?",
+     "a": "Ten minutes a day: home row with the on-screen guide, then your weakest row, then normal text, then one round with your hands covered. Log accuracy, not speed."
+    },
+    {
+     "q": "What is the fastest way to learn a keyboard layout?",
+     "a": "Learn the home row first and cover your hands for one round a day. The look-at-keyboard habit is what caps speed, and preventing it is easier than breaking it later."
     }
    ],
    "webAppName": "Typing Speed Test",

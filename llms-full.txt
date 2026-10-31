@@ -71,6 +71,9 @@ For most people, yes: 60 seconds balances speed bursts against fatigue and match
 Yes — unlimited 1 minute rounds, no sign up, no ads in the typing area. Your history stays in your own browser.
 Warm up with one throwaway round, then focus on accuracy: at 95%+ accuracy speed follows. Keep your fingers on the home row, look at the text not your hands, and practise daily with typing drills.
 Yes, for a quick check. Sixty seconds is long enough that one lucky sentence does not decide the result, and it is the length employers and typing certificates use, so your score compares directly. Take a 3 or 5 minute test when you want a steadier number.
+Yes - one minute and sixty seconds are the same length, and both mean the standard short benchmark. The label changes by site, the measurement does not.
+Around 40 WPM is average, 50-60 is above average, and 70+ on a one-minute round is fast. Because a minute avoids fatigue, expect it to read 5-10 WPM higher than your five-minute score.
+You can, but the score will not be comparable. Phone typing averages 36 WPM against 52 on a desktop keyboard, so take any test that counts on a physical keyboard.
 
 ## 2 Minute Typing Test
 Source: https://typing.rerivo.com/2-minute-typing-test.html
@@ -263,6 +266,7 @@ You get words per minute (WPM), raw WPM, accuracy, characters per minute (CPM) a
 One word is five characters, including spaces. Net WPM deducts uncorrected and corrected errors, which is the stricter and more comparable formula.
 For self-measurement, yes: the passage bank is fixed and the formula is the same five-character standard. Paid tools mostly charge for storage, certificates or bulk reporting, not for a different measurement.
 No catch: the test runs entirely in your browser with no accounts, no servers and no ads in the typing area, so there is almost nothing to pay for. Optional display ads outside the test area keep the site running without ever locking features.
+No. It runs in the browser, nothing is installed, and results are stored on your device rather than on a server.
 
 ## Free Typing Speed Test
 Source: https://typing.rerivo.com/
@@ -474,6 +478,8 @@ Ten to fifteen minutes a day beats an occasional hour. Short daily sessions buil
 Yes, free forever with no account. Every drill, language, theme and duration is unlocked, and nothing uploads to a server.
 Practice daily for 10–15 minutes, prioritise accuracy over speed, keep your wrists relaxed and your fingers anchored on the home row (ASDF JKL;). Learn to use all ten fingers rather than hunting and pecking with two.
 Yes. Every drill runs on the same engine and scoring as the timed tests, so a practice round rehearses exactly what a typing test measures. Run a short quiz-style round to warm up, then switch to a 1 minute typing test when you want a score to report.
+Ten to fifteen minutes. Short daily sessions build the motor pattern; a single long weekly session mostly builds frustration and fatigue.
+The one you repeat. A structured plan matters more than the brand: a covered round for the look-down habit, an accuracy round, and one timed test per week.
 
 ## Typing Games
 Source: https://typing.rerivo.com/typing-games.html
@@ -617,6 +623,9 @@ Push accuracy above 95% first — errors hurt net WPM twice, once in speed and o
 It is a timed typing test that reports your speed in words per minute. You type for 60 seconds (or another length), the test divides your correct characters by five to get words, then divides by the elapsed minutes. A 300-character round is 60 WPM.
 Most adults land between 40 and 60 WPM. Office and writing roles usually ask for 60 to 80, data entry and transcription posts 80-plus, and 90 to 120 is professional territory. Anything under 30 WPM is a beginner still building touch typing foundations. Check the average typing speed bands before judging a single round.
 A typing words per minute test measures how many five-character words you type correctly in sixty seconds. Every five keystrokes count as one word regardless of real word length, so the score stays comparable across different passages. Net WPM deducts errors and is the figure to quote; raw WPM ignores them.
+Words per minute, where one word is five characters including spaces. That convention is what makes scores comparable across passages of different word lengths.
+It is accurate for the conditions you took it in. Use net WPM, a five-minute round and sentences, then repeat on another day - one round is a snapshot, not a rating.
+CPM counts characters per minute, WPM counts five-character words. CPM = WPM x 5, so 60 WPM is 300 CPM.
 
 ## WPM Test Online
 Source: https://typing.rerivo.com/wpm-test-online.html
@@ -1145,6 +1154,8 @@ Above 78 WPM puts you in the top 10% of the measured population. Above 100 WPM i
 Slightly, and far less than the variation between people of the same age. Whether someone was taught touch typing predicts speed much better than age does.
 The first thirty seconds are warm-up pace you cannot hold. A five-minute net score is typically 5-10 WPM below a 15-second burst, and the longer number is the one that reflects a working day.
 Correct characters divided by five, then divided by the minutes elapsed. Five characters count as one word. Net WPM subtracts errors first; gross WPM does not.
+51.56 WPM in the largest published measurement (168,960 volunteers, CHI 2018). The commonly quoted 40 WPM comes from older office-worker samples rather than self-selected test takers.
+20-30 WPM with 90-95% accuracy is typical for an untrained adult. With ten minutes of daily practice, 35-45 WPM within three months is a realistic progression.
 
 ## CPM Typing Test
 Source: https://typing.rerivo.com/cpm-typing-test.html
@@ -1905,6 +1916,8 @@ The middle row of letters - A S D F on the left, J K L ; on the right - where yo
 At first at the on-screen guide, not your hands. Cover your hands for one round per session so the mental map forms rather than a visual dependency.
 Yes, with no account. Results stay in your browser.
 For learning, yes - practise the layout you actually use. QWERTY, QWERTZ, AZERTY and alternative layouts move different keys, and mixing them in one session creates interference.
+Ten minutes a day: home row with the on-screen guide, then your weakest row, then normal text, then one round with your hands covered. Log accuracy, not speed.
+Learn the home row first and cover your hands for one round a day. The look-at-keyboard habit is what caps speed, and preventing it is easier than breaking it later.
 
 ## Japanese Typing Test
 Source: https://typing.rerivo.com/japanese-typing-test.html

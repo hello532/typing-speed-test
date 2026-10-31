@@ -117,3 +117,15 @@ Warm up with one throwaway round, then focus on accuracy: at 95%+ accuracy speed
 ### Is a 1 minute typing test accurate?
 
 Yes, for a quick check. Sixty seconds is long enough that one lucky sentence does not decide the result, and it is the length employers and typing certificates use, so your score compares directly. Take a 3 or 5 minute test when you want a steadier number.
+
+### Is a one minute typing test the same as a 60 second typing test?
+
+Yes - one minute and sixty seconds are the same length, and both mean the standard short benchmark. The label changes by site, the measurement does not.
+
+### What is a good 1 minute typing speed?
+
+Around 40 WPM is average, 50-60 is above average, and 70+ on a one-minute round is fast. Because a minute avoids fatigue, expect it to read 5-10 WPM higher than your five-minute score.
+
+### Can I take a one minute typing test on a phone?
+
+You can, but the score will not be comparable. Phone typing averages 36 WPM against 52 on a desktop keyboard, so take any test that counts on a physical keyboard.

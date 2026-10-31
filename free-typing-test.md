@@ -66,3 +66,7 @@ For self-measurement, yes: the passage bank is fixed and the formula is the same
 ### Is there a catch — why is it free?
 
 No catch: the test runs entirely in your browser with no accounts, no servers and no ads in the typing area, so there is almost nothing to pay for. Optional display ads outside the test area keep the site running without ever locking features.
+
+### Do I need to install anything for a free typing test?
+
+No. It runs in the browser, nothing is installed, and results are stored on your device rather than on a server.

@@ -73,3 +73,11 @@ The first thirty seconds are warm-up pace you cannot hold. A five-minute net sco
 ### How is typing speed measured?
 
 Correct characters divided by five, then divided by the minutes elapsed. Five characters count as one word. Net WPM subtracts errors first; gross WPM does not.
+
+### What is the average WPM for an adult?
+
+51.56 WPM in the largest published measurement (168,960 volunteers, CHI 2018). The commonly quoted 40 WPM comes from older office-worker samples rather than self-selected test takers.
+
+### What is the average typing speed for a beginner?
+
+20-30 WPM with 90-95% accuracy is typical for an untrained adult. With ten minutes of daily practice, 35-45 WPM within three months is a realistic progression.

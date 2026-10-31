@@ -78,3 +78,15 @@ Most adults land between 40 and 60 WPM. Office and writing roles usually ask for
 ### What is a typing words per minute test?
 
 A typing words per minute test measures how many five-character words you type correctly in sixty seconds. Every five keystrokes count as one word regardless of real word length, so the score stays comparable across different passages. Net WPM deducts errors and is the figure to quote; raw WPM ignores them.
+
+### What does WPM stand for?
+
+Words per minute, where one word is five characters including spaces. That convention is what makes scores comparable across passages of different word lengths.
+
+### Is a free WPM test accurate?
+
+It is accurate for the conditions you took it in. Use net WPM, a five-minute round and sentences, then repeat on another day - one round is a snapshot, not a rating.
+
+### What is the difference between WPM and CPM?
+
+CPM counts characters per minute, WPM counts five-character words. CPM = WPM x 5, so 60 WPM is 300 CPM.
