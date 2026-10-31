@@ -14,7 +14,7 @@
   7. 页脚是否覆盖全部页面（verify 12）
   8. .md 镜像是否存在且与页面同源
   9. og:image / twitter 卡片是否有值
- 10. 页内锚点是否全部能解析
+ 10. 页内锚点是否全部能解析（404.html 单独排除，它不带 canonical）
  11. 行内脚本能否通过 node --check（去重后检查唯一脚本）
 
 退出码 1 表示有 FAIL，方便挂 CI。
@@ -37,7 +37,7 @@ SCRIPT_RE = re.compile(r"<script.*?</script>", re.S)
 
 
 def pages() -> list[Path]:
-    return sorted(p for p in ROOT.glob("*.html") if not p.name.startswith(("google", "share")))
+    return sorted(p for p in ROOT.glob("*.html") if not p.name.startswith(("google", "share")) and p.name != "404.html")
 
 
 def check() -> dict:
