@@ -3977,27 +3977,43 @@
    "heroP": "Earn a free <strong>typing certificate</strong> in one minute. Take the test below, then click <strong>Print certificate</strong> in the results panel to print or save a certificate with your WPM, accuracy, raw speed, error count and consistency. No account, no paywall, and the certificate is generated entirely in your browser.",
    "seo": [
     {
-     "h2": "typing certificate",
+     "h2": "Typing certificate",
      "p": [
-      "A <strong>typing certificate</strong> should not cost money or an email address. Here the whole chain is free and instant: take the one minute test, open the results panel, and press Print certificate. Your scores are computed in your own browser and the certificate is generated in the same browser, so nothing is uploaded and nobody has to verify your email. Print it for a class, save it as a PDF for a portfolio, or share it straight from the page. Employers and schools often call the same check a typing assessment, so a certificate from this page and an assessment result off the same run report the same WPM."
+      "This page generates a typing certificate from your most recent round. It is free, needs no account, and is produced entirely in your browser - nothing is uploaded, which is also why there is no verification code on it.",
+      "The certificate is a printable record of one test: who typed, when, at what speed and accuracy, on what test length. It is a convenience for applications that want a number, not an accredited credential. The honest version of that distinction is spelled out on the <a href=\"typing-certificate-acceptance.html\">certificate acceptance</a> page."
      ]
     },
     {
-     "h2": "What is on the certificate",
+     "h2": "What is printed on it",
      "p": [
-      "Six measured fields: <strong>WPM</strong> (net words per minute, the standard 5-character-per-word measure), <strong>accuracy</strong> as a percentage, <strong>chars per minute</strong>, <strong>raw WPM</strong> before errors are subtracted, <strong>errors</strong>, and <strong>consistency</strong>, which is how stable your speed was through the test. The certificate also carries the test date and the test length, so anyone reading it knows exactly what was measured."
+      "<table><tr><th>Field</th><th>Content</th><th>Why it is there</th></tr><tr><td>Name</td><td>Whatever you type in the name field</td><td>An employer needs to attach the number to a person</td></tr><tr><td>Date</td><td>The date you generated it</td><td>Typing speed drifts; a dated result is checkable</td></tr><tr><td>WPM</td><td>Net words per minute from that round</td><td>The number most postings quote</td></tr><tr><td>CPM</td><td>Characters per minute</td><td>Data-entry roles quote characters, not words</td></tr><tr><td>Accuracy</td><td>Percentage of correct characters</td><td>The part employers actually weight</td></tr><tr><td>Length and mode</td><td>e.g. 5 minutes, sentences</td><td>Makes the score comparable - a 15-second burst is not</td></tr></table>"
      ]
     },
     {
-     "h2": "How to use a typing certificate",
+     "h2": "Printing it properly",
      "p": [
-      "Teachers can run a whole class through a one minute test and have every student print a certificate in the same lesson, with no accounts to create and no data leaving the room. Job applicants can attach one to a portfolio to back up a stated typing speed. Track yourself by printing one at the start of a practice month and another at the end; the two certificates on the same wall are the most honest progress report you can make."
+      "<ul><li><strong>Paper:</strong> A4 or US Letter both work; the layout uses standard margins and no bleed.</li><li><strong>Colour:</strong> it prints correctly in black and white, which is what most offices will do anyway.</li><li><strong>Browser print settings:</strong> turn off headers and footers so the URL and date stamps do not appear over the artwork.</li><li><strong>Digital copy:</strong> print to PDF rather than photographing the screen - the text stays selectable and the file stays small.</li></ul>",
+      "If the result panel is still open, the certificate uses that round. If you have closed it, take a new round first: the certificate is generated from the round in the current session, not from your history."
      ]
     },
     {
-     "h2": "Using your certificate",
+     "h2": "What WPM to put on it",
      "p": [
-      "A certificate opens doors when paired with proof of practice: <a href=\"how-to-get-a-typing-job.html\">how to get a typing job</a>, and <a href=\"work-from-home-typing-jobs.html\">work from home typing jobs</a> that value verified scores."
+      "Use a five-minute test and quote the net figure. A one-minute result reads 5-10 WPM higher and is the first thing a careful employer discounts. If you are applying for a role quoted in keystrokes per hour, convert first: 45 WPM is 13,500 KPH, and the <a href=\"wpm-to-kph-converter.html\">converter</a> does it both ways.",
+      "If your accuracy is below 97%, run an accuracy round before generating the certificate. A certificate showing 55 WPM at 92% invites the question of how many of those words were right."
+     ]
+    },
+    {
+     "h2": "How employers treat it",
+     "p": [
+      "Private-sector recruiters commonly accept a dated result as a screening signal and then test you themselves. Public-sector, court, dispatch and hospital roles usually require a proctored test or a certificate from an approved centre, and the posting states the wording.",
+      "Plan for the re-test: if your certificate says 58 and their test reads 52, that is normal and consistent. If it says 70 because you quoted a 15-second burst, it looks like a discrepancy."
+     ]
+    },
+    {
+     "h2": "Where the data goes",
+     "p": [
+      "Nowhere. The round is measured in your browser, the certificate is composed in your browser, and the print dialogue is your operating system's. There is no server-side record, no account, and no way for us to look up a certificate - which is exactly why a verification ID is not printed on it."
      ]
     }
    ],
@@ -4006,27 +4022,27 @@
    "faq": [
     {
      "q": "Is the typing certificate free?",
-     "a": "Yes, completely free with no sign up, no account and no paywall. The test and the certificate are both generated in your browser."
+     "a": "Yes. It is generated in your browser from your last round, with no account, no payment and no watermark."
     },
     {
      "q": "How do I get my typing certificate?",
-     "a": "Finish the test, then click the Print certificate button in the results panel. Your browser's print dialog opens with the certificate ready; choose a printer or Save as PDF."
+     "a": "Finish a round, open the result panel and choose the certificate option. It composes from that round - name, date, WPM, CPM, accuracy, length and mode - and opens the browser print dialogue."
     },
     {
      "q": "What WPM do I need for a typing certificate?",
-     "a": "There is no pass or fail; the certificate records whatever you scored. For office work, 40 to 60 WPM is typical; 70 WPM or above is fast. Accuracy matters more than raw speed, so aim for 95 percent or higher."
+     "a": "There is no minimum: the certificate reports whatever the round measured. For job applications, a five-minute net score of 40+ WPM is the usual useful threshold, with accuracy at 97% or better."
     },
     {
      "q": "Can I use it as proof for a job or school?",
-     "a": "It is self-generated and not notarised, so treat it as evidence of a self-measured result rather than an official credential. Many employers accept it as a supporting document alongside a proctored test."
+     "a": "Some private employers and schools accept a dated, named result. Government, court, dispatch and hospital roles usually require a proctored test or a certificate from an approved centre."
     },
     {
      "q": "Does it work for tests longer than one minute?",
-     "a": "Yes. Take any duration from 15 seconds to 10 minutes and the certificate records the test length along with your scores, so longer tests print an equally valid certificate."
+     "a": "Yes. The certificate records the length and mode of the round, so a five-minute or ten-minute result is reported as such."
     },
     {
      "q": "Where is my typing data stored?",
-     "a": "Nowhere outside your browser. Scores are computed locally and your past results are stored only in localStorage on this device. Nothing is uploaded to any server."
+     "a": "In your browser only. There is no server-side storage, no account and no lookup, which is also why the certificate carries no verification ID."
     }
    ],
    "webAppName": "Typing Speed Test",
@@ -4041,7 +4057,8 @@
      "name": "Typing Certificate"
     }
    ],
-   "ldPretty": []
+   "ldPretty": [],
+   "tldr": "The certificate is generated in your browser from your last round: name, date, WPM, CPM, accuracy, test length and mode. It prints from the browser (A4 or Letter), needs no account, and costs nothing - but it is self-issued, so it proves you took a test, not that anyone watched."
   },
   {
    "dur": 60,
