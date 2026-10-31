@@ -118,6 +118,22 @@ llms-full.txt      generated full-text AI manifest
 og-cover.png       social preview image
 ```
 
+
+## SEO/GEO tooling (this repo)
+
+| command | what it answers |
+|---|---|
+| `python3 src/tools/gauges.py` | which page to fix today — ranks pages by recoverable clicks |
+| `python3 src/tools/roadmap.py` | what 2,000 clicks/28d actually requires (impressions × CTR), lever by lever |
+| `python3 src/tools/linkgraph.py` | body-level internal link graph and click depth from `/` |
+| `python3 src/tools/expand.py <batch.json>` | adds pages to all four sources at once, with hard metadata gates |
+| `python3 src/tools/gsc.py {report,pages,queries,unindexed,growth,snapshot}` | real Search Console data |
+| `python3 src/tools/indexnow.py` | resubmits every URL to IndexNow (Bing/Yandex/Seznam/Naver) |
+
+Numbers are kept in three separate layers everywhere: **observed** (GSC), **arithmetic**
+(impressions × CTR), **assumption** (industry CTR curve, labelled as such). No tool in this
+repo invents traffic, backlink or ranking figures.
+
 ## Links
 
 - Live site — <https://typing.rerivo.com>
