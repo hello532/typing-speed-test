@@ -4279,8 +4279,8 @@
   },
   {
    "file": "average-typing-speed.html",
-   "title": "Average Typing Speed - What Is a Good WPM?",
-   "metaDesc": "Average typing speed is about 40 WPM; 45-60 is good, 70+ advanced. Benchmarks by level, age and profession, then test free.",
+   "title": "Average Typing Speed: What Is a Good WPM in 2026?",
+   "metaDesc": "Average typing speed is 51.56 WPM in the largest published study, not the 40 WPM figure copied everywhere. What good, fast and top-10% mean, by age and job.",
    "canonical": "https://typing.rerivo.com/average-typing-speed.html",
    "dur": 60,
    "mode": "sentences",
@@ -4304,57 +4304,48 @@
     "Average Typing Speed"
    ],
    "h1": "Average Typing Speed",
-   "tldr": "Average typing speed for adults sits at 40 to 50 WPM, the baseline at which most office work feels comfortable. Students and beginners typically start at 20 to 30 WPM, casual typists land at 30 to 40, good office workers reach 60 to 80, fast typists in the top 10 percent hit 80 to 100, and advanced typists above 100 WPM make the top 1 percent. Professional roles like transcription and data entry usually demand 60 to 80 WPM with accuracy above 95 percent. Compare your score against the age and profession tables on this page, and retest over 3 to 5 minutes for a stable benchmark.",
+   "tldr": "The largest measured sample (136 million keystrokes, 168,960 people) puts mean typing speed at 51.56 WPM. The commonly quoted 40 WPM comes from older office-worker samples. Top 10% exceed about 78 WPM; bottom 10% are under 26.",
    "heroP": "The <strong>average typing speed is about 40 to 50 words per minute (WPM)</strong> with roughly 92% accuracy. 45–60 WPM is good, 60–80 WPM is above average, and only about 1% of people type faster than 100 WPM. Test your own speed below, then compare it with the benchmarks.",
    "seo": [
     {
-     "h2": "What is the average typing speed?",
+     "h2": "The number, and where it comes from",
      "p": [
-      "The average typing speed is about 52 words per minute (WPM) in the largest published sample of everyday typists, with a wide spread: the standard deviation is 20 WPM, so a large share of adults sit between 30 and 70. The familiar “40–50 WPM” band comes from older office-work benchmarks and still describes what many jobs ask for; it is a floor, not the middle. A speed of 45–60 WPM is considered good for office work, 60–80 WPM is above average, and roughly the top 10% clear 78 WPM. The table below shows the bands, and the <a href=\"#sources\">sources section</a> shows the study behind the headline number.",
-      "<div class=\"tbl\"><table><thead><tr><th>Skill level</th><th>Speed (WPM)</th><th>What it means</th></tr></thead><tbody><tr><td>Beginner</td><td>Under 30 WPM</td><td>Still learning; hunt-and-peck on many keys</td></tr><tr><td>Below average</td><td>30&ndash;45 WPM</td><td>Functional but slow; typing takes conscious effort</td></tr><tr><td>Average</td><td>40&ndash;50 WPM</td><td>Where most adults land without practice</td></tr><tr><td>Good / above average</td><td>60&ndash;80 WPM</td><td>Comfortable; meets most office job requirements</td></tr><tr><td>Fast</td><td>80&ndash;100 WPM</td><td>Top ~10% of typists</td></tr><tr><td>Advanced / elite</td><td>100+ WPM</td><td>Top ~1%; only about 1% type over 100 WPM</td></tr></tbody></table></div>"
+      "The most-cited modern measurement is Dhakal, Feit, Kristensson and Oulasvirta, \"Observations on Typing from 136 Million Keystrokes\" (CHI 2018). It recorded 136,857,600 keystrokes from 168,960 volunteers and reports a mean of <strong>51.56 WPM</strong> with a standard deviation of 20.2, an uncorrected error rate of 1.17%, and 1.173 keystrokes per character. The paper is open at doi.org/10.1145/3173574.3174220.",
+      "Most pages still quote 40 WPM. That figure comes from older, smaller samples of office workers and students, and it has been copied forward without being re-measured. Both describe real populations: 40 WPM is closer to \"typical office worker on a work task\", 51.56 WPM to \"person who chose to take an online typing test\"."
+     ]
+    },
+    {
+     "h2": "What counts as good, fast and exceptional",
+     "p": [
+      "<table><tr><th>Band</th><th>Net WPM</th><th>Percentile (approx.)</th><th>What it means</th></tr><tr><td>Slow</td><td>under 26</td><td>bottom 10%</td><td>Hunting for keys; typing is the bottleneck</td></tr><tr><td>Below average</td><td>26-40</td><td>10th-28th</td><td>Two-finger or untrained touch typing</td></tr><tr><td>Average</td><td>40-52</td><td>28th-50th</td><td>Enough for most office work</td></tr><tr><td>Good</td><td>52-65</td><td>50th-75th</td><td>Comfortable all-day typing</td></tr><tr><td>Fast</td><td>65-78</td><td>75th-90th</td><td>Above most job requirements</td></tr><tr><td>Top decile</td><td>78-100</td><td>90th-99th</td><td>Professional typists, developers, transcribers</td></tr><tr><td>Exceptional</td><td>100+</td><td>top 1%</td><td>Competitive typing, world-record territory</td></tr></table>",
+      "The percentile column is a normal approximation of that distribution, and it reproduces the study's own reported deciles to within about one point. The <a href=\"typing-speed-percentile.html\">percentile page</a> does the arithmetic for any score."
      ]
     },
     {
      "h2": "Average typing speed by age",
      "p": [
-      "Typing speed is shaped more by how long someone has typed daily than by age itself, but it does follow a rough curve: it climbs through the teens, peaks in the late teens to twenties, then eases slightly later in life. These are approximate averages.",
-      "<div class=\"tbl\"><table><thead><tr><th>Age group</th><th>Average WPM</th><th>Notes</th></tr></thead><tbody><tr><td>Under 13</td><td>15&ndash;30 WPM</td><td>Still building muscle memory; wide variance</td></tr><tr><td>13&ndash;18</td><td>35&ndash;55 WPM</td><td>Heavy phone users are often slower than expected</td></tr><tr><td>18&ndash;30</td><td>50&ndash;65 WPM</td><td>Peak learning years; fastest improvement</td></tr><tr><td>30&ndash;45</td><td>45&ndash;60 WPM</td><td>Stable; reflects accumulated work habits</td></tr><tr><td>45&ndash;60</td><td>40&ndash;55 WPM</td><td>Slight drop in raw speed, often higher accuracy</td></tr><tr><td>60+</td><td>30&ndash;45 WPM</td><td>Motor slowdown; practice still helps</td></tr></tbody></table></div>"
+      "Speed peaks in the late teens to thirties in most published samples and declines slowly after that, but the spread within an age band is far larger than the difference between bands. A 55-year-old who touch types beats a 20-year-old who does not, every time.",
+      "The practical reading: age is a weak predictor compared with whether someone was ever taught to touch type. If they were not, the gap is trainable at any age - the <a href=\"average-typing-speed-by-age.html\">age breakdown</a> has the numbers by decade."
      ]
     },
     {
-     "h2": "Typing speed by profession",
+     "h2": "Average typing speed by profession",
      "p": [
-      "Different jobs demand very different typing speeds. Roles where typing is the job &mdash; data entry, transcription, legal and executive support &mdash; expect well above average, while general office work is fine around 40–55 WPM. Accuracy usually matters as much as raw speed.",
-      "<div class=\"tbl\"><table><thead><tr><th>Job / role</th><th>Typing speed expected</th><th>Typical accuracy</th></tr></thead><tbody><tr><td>General office work</td><td>40&ndash;55 WPM</td><td>95%+</td></tr><tr><td>Customer support / chat</td><td>50&ndash;65 WPM</td><td>97%+</td></tr><tr><td>Administrative assistant</td><td>50&ndash;70 WPM</td><td>97%+</td></tr><tr><td>Data entry</td><td>60&ndash;80 WPM</td><td>98%+</td></tr><tr><td>Medical transcription</td><td>65&ndash;75 WPM</td><td>98%+</td></tr><tr><td>Executive assistant</td><td>70&ndash;80 WPM</td><td>98%+</td></tr><tr><td>Legal secretary / paralegal</td><td>70&ndash;90 WPM</td><td>99%+</td></tr></tbody></table></div>",
-      "Benchmarks in these tables follow the five-character word convention documented for <a href=\"https://en.wikipedia.org/wiki/Words_per_minute\" rel=\"noopener\">words per minute</a>, cross-checked against occupational typing data. Actual requirements vary by employer, test software and scoring rule, so treat the bands as a starting point for practice rather than a guarantee of any specific job threshold.",
-      "Want your own number? Take the <a href=\"/\">typing speed test</a>, measure it in <a href=\"cpm-typing-test.html\">characters per minute</a>, or see the speeds <a href=\"typing-test-for-jobs.html\">employers require for jobs</a>."
+      "<ul><li><strong>Data entry:</strong> 45-65 WPM, often quoted as 13,500-19,500 KPH, with 97-98% accuracy.</li><li><strong>Administrative and secretarial:</strong> 50-70 WPM depending on seniority.</li><li><strong>Transcription:</strong> 65-80 WPM sustained over audio, which is harder than the same speed over visible text.</li><li><strong>Software developers:</strong> no formal requirement; most sit above 70 WPM, and code typing differs because of brackets and symbols.</li><li><strong>Writers and journalists:</strong> 60-80 WPM, where the limit is usually thinking rather than typing.</li></ul>",
+      "Role-by-role figures, in the units employers actually use, are on the <a href=\"typing-speed-requirements.html\">typing speed requirements</a> page."
      ]
     },
     {
-     "h2": "How to type faster than average",
+     "h2": "Why your score differs from these numbers",
      "p": [
-      "If you are below the speed you want, the fastest way up is touch typing: use all ten fingers from the home row (ASDF JKL;) without looking at the keyboard. Prioritise accuracy over speed, practise 10–15 minutes a day, and keep your wrists relaxed. Most people add 10–20 WPM within a few weeks of daily practice."
+      "Test length: a 15-second burst reads 5-10 WPM higher than a five-minute run. Text type: random words score lower than sentences, code lower again, digits are a different skill. Scoring: gross WPM is higher than net. Keyboard: a laptop chiclet keyboard is slower than a mechanical one for most people.",
+      "So before concluding you are below average, check what you measured. A five-minute net score on sentences is what this page's bands refer to; a one-minute gross score on random words is not comparable."
      ]
     },
     {
-     "h2": "Benchmarks by age and goals",
+     "h2": "Test yourself against the bands",
      "p": [
-      "See also: <a href=\"average-typing-speed-by-age.html\">average typing speed by age</a> from kids to seniors, <a href=\"how-many-words-per-minute-is-fast.html\">how many words per minute is fast</a>, and the <a href=\"fastest-typing-speed-record.html\">fastest typing speed records</a> ever measured."
-     ]
-    },
-    {
-     "h2": "Where these numbers come from",
-     "p": [
-      "The headline figure on this page — a mean of about 52 WPM across a large sample of everyday typists — matches the largest published study of modern typing: Dhakal, Feit, Kristensson and Oulasvirta, <em>Observations on Typing from 136 Million Keystrokes</em> (CHI 2018), which recorded 136,857,600 keystrokes from 168,960 volunteers and reports a mean of 51.56 WPM (SD 20.2) and a mean uncorrected error rate of 1.17%. The full paper is open at <a href=\"https://doi.org/10.1145/3173574.3174220\" rel=\"noopener\">doi.org/10.1145/3173574.3174220</a>.",
-      "That study also explains why the common “40–50 WPM” band understates the middle of the distribution: its sample is self-selected people who care about typing, and its mean sits above the office-work band that older textbook figures quote. Where this page gives a narrower band for a job or an age group, it is an estimate from the ranges those roles advertise, not a measured sample — and it is labelled as such.",
-      "Two other sources shape the advice here. The claim that finger consistency and keypress preparation predict speed, rather than which finger presses which key, comes from Feit, Weir and Oulasvirta’s motion-capture work on 36 typists (<a href=\"https://doi.org/10.1145/3173574.3174220\" rel=\"noopener\">CHI 2018</a>, discussed alongside the dataset above). The historical claim that alternative layouts such as Dvorak produce only modest gains after retraining comes from the published layout comparisons summarised on our <a href=\"keyboard-layouts.html\">keyboard layouts</a> page."
-     ],
-     "id": "sources"
-    },
-    {
-     "h2": "Test yourself against these benchmarks",
-     "p": [
-      "Benchmarks are only useful next to your own number. Take a <a href=\"words-per-minute-test.html\">words per minute test</a> with the standard five-character formula, then compare the result with the bands above and with the <a href=\"typing-speed-requirements.html\">requirements table</a> for the job you are targeting."
+      "Run a five-minute sentence test, then read net WPM and accuracy from the results panel. Compare the net figure against the table above, and check whether accuracy is inside the 97-98% band most employers require - a fast score at 92% accuracy is not the same asset as a slightly slower clean one."
      ]
     }
    ],
@@ -4363,27 +4354,27 @@
    "faq": [
     {
      "q": "What is the average typing speed?",
-     "a": "The average typing speed is about 40–50 words per minute (WPM) with roughly 92% accuracy. Most adults who have not practised deliberately settle between 40 and 60 WPM."
-    },
-    {
-     "q": "What is a good typing speed?",
-     "a": "A good typing speed is 45–60 WPM. 60–80 WPM is above average and meets most office job requirements, while over 70 WPM is advanced. Only about 1% of people type faster than 100 WPM."
+     "a": "51.56 WPM in the largest published measurement, from 136,857,600 keystrokes recorded from 168,960 volunteers (Dhakal et al., CHI 2018). The older 40 WPM figure reflects office-worker samples rather than self-selected test takers."
     },
     {
      "q": "Is 40 WPM good?",
-     "a": "40 WPM is right around the adult average and is fine for everyday computer use. If you are accurate at 40 WPM, 60 WPM is a realistic next target with regular touch-typing practice."
+     "a": "It is around the 28th percentile of the CHI 2018 distribution and clears the floor for most clerical and reception roles. It is below the 50-70 WPM band that legal, medical and transcription roles ask for."
     },
     {
-     "q": "What is the fastest typing speed?",
-     "a": "On a normal QWERTY keyboard the fastest typists reach 150+ WPM. The highest reliably recorded speeds belong to Barbara Blackburn, who sustained 212 WPM on a Dvorak keyboard (a Guinness record), and Stella Pajunas, timed at 216 WPM back in 1946. Court reporters exceed 225 WPM, but on a specialised stenotype machine using shorthand chords, not a standard keyboard. For context the average is about 40 WPM, and professional typists aim for 97%+ accuracy."
+     "q": "What is a fast typing speed?",
+     "a": "Above 78 WPM puts you in the top 10% of the measured population. Above 100 WPM is roughly the top 1%, and competitive typists exceed 130 WPM in short bursts on known text."
+    },
+    {
+     "q": "Does typing speed decline with age?",
+     "a": "Slightly, and far less than the variation between people of the same age. Whether someone was taught touch typing predicts speed much better than age does."
+    },
+    {
+     "q": "Why do I score lower on longer tests?",
+     "a": "The first thirty seconds are warm-up pace you cannot hold. A five-minute net score is typically 5-10 WPM below a 15-second burst, and the longer number is the one that reflects a working day."
     },
     {
      "q": "How is typing speed measured?",
-     "a": "Typing speed is measured in words per minute (WPM), where one word equals five characters including spaces. Net WPM subtracts errors, so WPM = (correct characters ÷ 5) ÷ minutes."
-    },
-    {
-     "q": "How can I type faster than average?",
-     "a": "Touch type with all ten fingers from the home row (ASDF JKL;), prioritise accuracy over speed, and practise 10–15 minutes a day. Speed follows once your accuracy is consistently above 95%."
+     "a": "Correct characters divided by five, then divided by the minutes elapsed. Five characters count as one word. Net WPM subtracts errors first; gross WPM does not."
     }
    ],
    "webAppName": "Typing Speed Test",
@@ -8475,8 +8466,8 @@
   },
   {
    "file": "typing-speed-requirements.html",
-   "title": "Typing Speed Requirements by Job and Exam (WPM, CPM, KPH)",
-   "metaDesc": "Typing speed requirements for data entry, transcription, clerk, government and office jobs - with WPM, CPM and KPH conversions. Free checklist.",
+   "title": "Typing Speed Requirements by Job: WPM, KPH and KDPH",
+   "metaDesc": "What typing speed each job asks for, in WPM, keystrokes per hour and key depressions: office 40-55, data entry 8,000-12,000 KPH, legal 60-75.",
    "canonical": "https://typing.rerivo.com/typing-speed-requirements.html",
    "dur": 60,
    "mode": "sentences",
@@ -8499,43 +8490,51 @@
     "Home",
     "Typing Speed Requirements"
    ],
-   "h1": "Typing Speed Requirements by Job and Exam",
-   "heroP": "How fast do you actually need to type? A practical table of <strong>typing speed requirements</strong> for data entry, transcription, clerk and government exams, and everyday office work — in WPM, CPM and KPH.",
+   "h1": "Typing Speed Requirements by Job",
+   "heroP": "Job ads quote speed in three different units - <strong>WPM, keystrokes per hour and key depressions per hour</strong> - and they rarely say which one the test uses. This page converts between them and lists what each role actually screens for.",
    "seo": [
     {
-     "h2": "Typing speed requirements at a glance",
+     "h2": "Requirements at a glance",
      "p": [
-      "Most jobs and exams measure typing in one of three units: WPM (words per minute), CPM (characters per minute, WPM × 5) or KPH (keystrokes per hour, CPM × 60). The table below collects the commonly cited requirement ranges for each scenario, all in one place. Where no universal standard exists, the range is marked as varying by employer.",
-      "<div class=\"tbl\"><table><thead><tr><th>Scenario</th><th>Typical requirement</th><th>In WPM</th><th>Notes</th></tr></thead><tbody>\n    <tr><td>Data entry (KPH-quoted)</td><td>8,000–12,000 KPH</td><td>27–40 WPM</td><td>Usually with ~98% accuracy cutoff</td></tr>\n    <tr><td>Data entry (professional)</td><td>12,000–15,000 KPH</td><td>40–50 WPM</td><td>Numeric-heavy work often scored in KPH</td></tr>\n    <tr><td>Transcription / audio typing</td><td>300+ CPM</td><td>60+ WPM</td><td>Continuous work, near-perfect accuracy expected</td></tr>\n    <tr><td>Court / bank clerk exams</td><td>varies by employer</td><td>25–35 WPM typical</td><td>Short timed passages with accuracy threshold</td></tr>\n    <tr><td>SSC-type government exams</td><td>varies by post</td><td>~30–35 WPM or KPH equivalent</td><td>Qualifying round, mistakes capped</td></tr>\n    <tr><td>Customer service / office</td><td>varies by employer</td><td>40–60 WPM</td><td>Chat and email work rewards accuracy</td></tr>\n    <tr><td>Programming / daily dev work</td><td>no formal bar</td><td>50–70 WPM comfortable</td><td>Symbol speed matters as much as WPM</td></tr>\n    <tr><td>Student coursework</td><td>no formal bar</td><td>30–40 WPM</td><td>Comfort matters more than speed</td></tr>\n  </tbody></table></div>"
+      "<table><tr><th>Role</th><th>Speed quoted</th><th>In WPM</th><th>Accuracy floor</th><th>Test length</th></tr><tr><td>General office / admin</td><td>40-55 WPM</td><td>40-55</td><td>95%</td><td>3-5 min</td></tr><tr><td>Receptionist / front desk</td><td>40-50 WPM</td><td>40-50</td><td>95-98%</td><td>1-5 min</td></tr><tr><td>Data entry clerk</td><td>8,000-12,000 KPH</td><td>27-40</td><td>97-98%</td><td>3-5 min</td></tr><tr><td>10-key / numeric entry</td><td>8,000-12,000 KPH</td><td>27-40</td><td>field-level</td><td>2-5 min</td></tr><tr><td>911 dispatcher</td><td>35-45 WPM</td><td>35-45</td><td>95%</td><td>1-5 min</td></tr><tr><td>Medical transcriptionist</td><td>65-80 WPM</td><td>65-80</td><td>98-99%</td><td>audio file</td></tr><tr><td>Legal secretary</td><td>60-75 WPM</td><td>60-75</td><td>98%</td><td>3-5 min</td></tr><tr><td>US federal clerk</td><td>40 WPM</td><td>40</td><td>3 errors max</td><td>5 min</td></tr><tr><td>SSC CHSL LDC / JSA (India)</td><td>35 WPM English, 30 Hindi</td><td>35 / 30</td><td>~5% allowance</td><td>10 min</td></tr><tr><td>Court reporter</td><td>225 WPM stenotype</td><td>not comparable</td><td>95%</td><td>dictation</td></tr></table>",
+      "The bands overlap because employers set their own floor. Read the posting for the exact figure and the unit it is quoted in."
      ]
     },
     {
-     "h2": "How to read these numbers",
+     "h2": "What 8,000 key depressions per hour means",
      "p": [
-      "Three cautions before you compare yourself to any row. First, every requirement is a net figure — speed with errors deducted — so an accuracy cutoff matters as much as the headline number. Second, KPH-quoted data-entry targets look intimidating until you convert them: 10,000 KPH is only about 33 WPM, well within reach of a few weeks of daily practice. Third, 'varies by employer' rows genuinely vary; treat the range as orientation, not as a rulebook.",
-      "The conversion used throughout is the industry standard: one word equals five characters, so CPM = WPM × 5 and KPH = CPM × 60. The <a href=\"cpm-typing-test.html\">CPM typing test</a> page has the full conversion table, and the <a href=\"typing-speed-calculator.html\">typing speed calculator</a> converts any score between the three units instantly."
+      "A key depression is one keystroke, including the corrections you make. 8,000 KDPH is 8,000 ÷ 60 = 133 keystrokes per minute, about 26.7 WPM at five characters per word. 10,000 KPH is 33 WPM; 12,000 KPH is 40 WPM.",
+      "The correction penalty is what trips people up. Someone who types 40 WPM but backspaces constantly can miss an 8,000 KPH bar, because every correction is another key depression against the same hour. Practise typing it right the first time."
      ]
     },
     {
-     "h2": "Preparing for a specific requirement",
+     "h2": "Government and civil service examples",
      "p": [
-      "Work backwards from the format, not just the number. KPH-quoted data-entry tests are usually numeric-heavy, so numbers-mode practice pays off most. Clerk and government exams use short prose passages with a mistake cap, so timed one-minute accuracy runs are the closest rehearsal. Transcription expects sustained speed over minutes, which is a stamina problem — train with three- and five-minute rounds.",
-      "Whatever the target, measure yourself in the same unit the employer uses. This site shows WPM, CPM and accuracy after every round, and the <a href=\"keystrokes-per-hour-test.html\">keystrokes per hour test</a> expresses the same run in KPH, so you can practise against the exact figure on the job posting."
+      "These are examples from public postings and published standards, not universal rules - always read the notice for the cycle you are applying in.",
+      "<ul><li><strong>US federal clerical and office-automation roles</strong> are commonly published as 40 WPM on a five-minute sample with no more than three errors.</li><li><strong>County and municipal clerical postings</strong> typically quote 40 net WPM, with 50 net WPM for senior reception or HR support roles.</li><li><strong>Public-safety dispatch</strong> ranges from 30 to 45 correct WPM depending on the agency; several run a CritiCall-style battery on top of the typing test.</li><li><strong>India SSC CHSL</strong> separates the posts: 35 WPM English or 30 WPM Hindi for LDC and JSA, and 8,000 key depressions per hour for DEO.</li></ul>"
      ]
     },
     {
-     "h2": "Sources for the numbers on this page",
+     "h2": "Converting between the three units",
      "p": [
-      "Speed and accuracy figures quoted here follow the largest published study of everyday typing: <a href=\"https://doi.org/10.1145/3173574.3174220\" rel=\"noopener\">Dhakal et al., CHI 2018</a>, <em>Observations on Typing from 136 Million Keystrokes</em>, which measured 136,857,600 keystrokes from 168,960 volunteers. It reports a mean of 51.56 WPM (SD 20.2), a mean uncorrected error rate of 1.17%, and a mean keystrokes-per-character rate of 1.173. Those are the numbers this page's bands are checked against.",
-      "The claim that finger consistency and keypress preparation predict speed — more than which finger presses which key — comes from <a href=\"https://doi.org/10.1145/2858036.2858233\" rel=\"noopener\">Feit, Weir and Oulasvirta, CHI 2016</a>, a motion-capture study of 36 typists. The two studies disagree on how much formal touch-typing training matters, and this page says so where it matters rather than picking the tidier result.",
-      "Where a figure is an estimate rather than a measurement — job requirements, age bands, exam cut-offs — it is drawn from the ranges employers and exam boards publish and is labelled as an estimate. Nothing on this page is a benchmark we ran ourselves."
+      "WPM to KPH: multiply by 300 (five characters per word, sixty minutes per hour). WPM to CPM: multiply by 5. KPH to WPM: divide by 300. KDPH to WPM: divide by 300 as well, but corrections count against you.",
+      "So a 45 WPM score is 13,500 KPH, and an 8,000 KPH requirement is about 27 WPM. If a posting quotes a number you have never measured, convert it before deciding whether you qualify - the units exaggerate the gap in both directions."
      ]
     },
     {
-     "h2": "Printable requirements checklist",
+     "h2": "How to close the gap in four weeks",
      "p": [
-      "The checklist below summarises the table for offline use. Open it and print from your browser (Ctrl/Cmd+P, then 'Save as PDF') to keep a copy — no download needed.",
-      "<details><summary>Open the printable checklist</summary><ul><li>Data entry (KPH-quoted): 8,000–12,000 KPH ≈ 27–40 WPM, ~98% accuracy</li><li>Data entry (professional): 12,000–15,000 KPH ≈ 40–50 WPM</li><li>Transcription: 300+ CPM ≈ 60+ WPM, near-perfect accuracy</li><li>Court / bank clerk exams: typically 25–35 WPM, short passages, accuracy threshold</li><li>SSC-type government exams: ~30–35 WPM or KPH equivalent, mistake cap</li><li>Customer service / office: 40–60 WPM, accuracy-first</li><li>Programming: 50–70 WPM comfortable, symbol speed matters</li><li>Student: 30–40 WPM comfortable</li><li>Conversion: CPM = WPM × 5 · KPH = CPM × 60 · 10,000 KPH ≈ 33 WPM</li><li>All figures are net (errors deducted); 'varies by employer' rows are orientation only</li></ul></details>"
+      "Week one: measure honestly. Take a five-minute test in the mode the job uses - sentences for clerical work, numbers for data entry - and record net WPM plus accuracy. That number, not your best one-minute burst, is your starting point.",
+      "Week two: accuracy first. Type at 85% of your best pace until accuracy holds above 98% for three consecutive rounds. Most people gain 4-6 net WPM this way without typing any faster, because they stop paying the correction tax.",
+      "Week three: length. Move to rounds the same length as the real test. A five-minute test at 45 WPM is a different skill from a one-minute test at 55.",
+      "Week four: simulate. Same time of day, unfamiliar keyboard, no pause. Then re-measure against the band for your target role."
+     ]
+    },
+    {
+     "h2": "Sources and how to read them",
+     "p": [
+      "The bands above come from publicly advertised job requirements and published examination standards across clerical, medical, legal and public-safety postings. They are ranges, not guarantees: two employers in the same sector can differ by ten WPM.",
+      "Where a figure has an official source - the federal 40 WPM standard, the SSC CHSL notice, the 225 WPM NCRA stenotype standard - this page names it. Where it is a market range, the page says so. If a recruiter quotes a number that contradicts your test, ask which unit and which scoring method before assuming you failed."
      ]
     }
    ],
@@ -8543,27 +8542,31 @@
    "faqH2": "Typing speed requirements FAQ",
    "faq": [
     {
-     "q": "What typing speed do data entry jobs require?",
-     "a": "Most data-entry postings quote 8,000–12,000 keystrokes per hour (KPH) with about 98% accuracy — roughly 27–40 WPM at the standard conversion. Professional numeric-heavy roles can ask 12,000–15,000 KPH."
+     "q": "What typing speed is required for most jobs?",
+     "a": "40 to 55 WPM covers most office, clerical and administrative roles, usually with a 95% accuracy floor. Data entry is quoted differently: 8,000 to 12,000 keystrokes per hour, which is 27 to 40 WPM."
     },
     {
-     "q": "How do I convert KPH to WPM?",
-     "a": "Divide by 300: KPH = WPM × 5 × 60, so WPM = KPH ÷ 300. For example, 10,000 KPH is about 33 WPM. The site's typing speed calculator converts instantly."
+     "q": "How many WPM is 8,000 key depressions per hour?",
+     "a": "About 26.7 WPM. 8,000 ÷ 60 = 133 keystrokes per minute, and 133 ÷ 5 = 26.7. Corrections count as key depressions, so backspacing lowers the real figure."
     },
     {
-     "q": "Is 40 WPM enough for office work?",
-     "a": "Yes for most everyday office work — 40 WPM is the adult average. Customer-facing chat and heavy email roles are more comfortable at 50–60 WPM with high accuracy."
+     "q": "Is 40 WPM enough for a government job?",
+     "a": "For the US federal clerical standard, yes: it is commonly published as 40 WPM on a five-minute sample with no more than three errors. State and local postings vary, and India's SSC CHSL LDC asks 35 WPM English or 30 WPM Hindi."
     },
     {
-     "q": "How accurate are these requirement figures?",
-     "a": "They are commonly cited industry ranges, not official rules. Where no universal standard exists the table says 'varies by employer' — always check the specific posting or exam notice."
+     "q": "What does 30 WPM typing speed mean?",
+     "a": "Thirty words per minute is 150 characters per minute, or 9,000 keystrokes per hour. It clears the floor for general clerical work and for dispatch in many agencies, but is below the 40-50 WPM band most office postings quote."
     },
     {
-     "q": "How do I get a printable copy of the requirements?",
-     "a": "Open the printable checklist section on this page and print from your browser (Ctrl/Cmd+P, then 'Save as PDF'). No file download is needed."
+     "q": "Do employers count gross or net WPM?",
+     "a": "Net WPM, almost always. Errors are subtracted before the score is reported, which is why a clean 42 beats a sloppy 55 in screening. Ask which method the test uses if the posting only says WPM."
+    },
+    {
+     "q": "What speed does a stenographer need?",
+     "a": "Court reporting certification is 225 WPM on a stenotype machine, not a keyboard, and entry-level programmes often graduate at 180 to 200 WPM. Keyboard speed is a separate skill used for transcript editing."
     }
    ],
-   "tldr": "Typing speed requirements by scenario: data entry 8,000–12,000 KPH (≈27–40 WPM) with ~98% accuracy, transcription 60+ WPM, clerk and SSC-type exams typically 25–35 WPM with a mistake cap, office work 40–60 WPM, programming comfortable at 50–70 WPM plus symbol speed. Convert with CPM = WPM × 5 and KPH = CPM × 60 — so 10,000 KPH is only about 33 WPM. Free printable checklist on this page.",
+   "tldr": "Office and clerical roles ask 40-55 WPM. Data entry is quoted in keystrokes per hour, usually 8,000-12,000 KPH (27-40 WPM). Legal and medical transcription sits at 60-80 WPM. Accuracy floors are 95-98% almost everywhere, and net WPM is what counts.",
    "webAppName": "Typing Speed Test",
    "webAppUrl": "https://typing.rerivo.com/typing-speed-requirements.html",
    "bcItems": [
