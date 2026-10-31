@@ -16,6 +16,7 @@
   9. og:image / twitter 卡片是否有值
  10. 页内锚点是否全部能解析（404.html 单独排除，它不带 canonical）
  11. 行内脚本能否通过 node --check（去重后检查唯一脚本）
+ 12. 标题层级是否跳级（h1→h3 之类）
 
 退出码 1 表示有 FAIL，方便挂 CI。
 """
@@ -123,6 +124,16 @@ def check() -> dict:
             bad_js.append((name, r.stderr.strip().split("\n")[0][:80]))
     (out["fail"] if bad_js else out["ok"]).append(
         f"行内脚本语法错误：{len(bad_js)}" + (f" {bad_js[:2]}" if bad_js else f"（{len(uniq)} 段唯一脚本）"))
+
+    # 12) 标题层级不得跳级（h1→h3 这类），R83 修过一次，加门禁防回归
+    bad_heads = []
+    for p in files:
+        h = SCRIPT_RE.sub("", p.read_text(encoding="utf-8"))
+        lv = [int(x) for x in re.findall(r"<h([1-6])[\s>]", h)]
+        if any(lv[i] - lv[i - 1] > 1 for i in range(1, len(lv))):
+            bad_heads.append(p.name)
+    (out["fail"] if bad_heads else out["ok"]).append(
+        f"标题层级跳级：{len(bad_heads)}" + (f" {bad_heads[:3]}" if bad_heads else ""))
 
     # 描述长度分布（软指标，只报数）
     lens = []
