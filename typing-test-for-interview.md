@@ -4,30 +4,43 @@ Source: https://typing.rerivo.com/typing-test-for-interview.html
 
 Employers often ask you to sit a typing test before or during an interview. Rehearse the exact format here so there are no surprises on the day.
 
-A typing test gives a fast, objective reading of a candidate's real ability. Rather than trusting a CV claim, recruiters sit you at a keyboard, start a clock and watch the score — usually one to three minutes of ordinary business text with capitals and punctuation.
+Three formats cover most cases: a short online test sent before the interview (one to three minutes, often automated), a timed exercise on the employer's machine during the visit, and a work sample where typing is incidental to a task such as entering records or drafting a reply.
 
-Admin, customer-service and support roles typically ask for 40 to 55 WPM with 95% or higher accuracy. Data-entry and transcription roles push to 60 to 70 WPM, or measure keystrokes per hour for numeric work. Government and legal positions often add a formal minimum that you must clear to qualify at all.
+The first two measure speed and accuracy under a clock. The third measures whether the output is usable, which is why candidates who type fast but sloppily fail work samples even with a good score.
 
-Use the timer to simulate the exact length your employer uses, and type business-style passages rather than clean word lists. Practise proofreading on the fly: many tests mark you down for uncorrected errors, so type a little slower and cleaner than you can.
+Day | Drill | Goal
+1-2 | Three five-minute rounds, same conditions | A baseline you can reproduce
+3-4 | Two rounds on an unfamiliar keyboard | Remove the hardware surprise
+5 | One timed round with punctuation and capitals | Accuracy under realistic text
+6 | One work-sample rehearsal: enter ten records cleanly | Field accuracy, not speed
+7 | Rest; one short warm-up only | Fresh hands on the day
 
-Interview pressure costs most candidates five to ten WPM. Because you have practised the format here, the test itself will feel routine — that calm alone is often worth several words per minute.
+Ask which scoring method and length the test uses before you start. Then type at 90% of your best pace for the first thirty seconds - almost everyone loses more in corrections than they gain in the opening sprint.
 
-Pass the interview round: how to pass a typing test with test-day protocol, and typing test tips for before, during and after.
+If the test allows a practice sentence, take it. That is where you discover whether the keyboard has a different layout or a stiff spacebar, and it costs ten seconds.
+
+Quote net WPM, the test length and accuracy: "58 WPM net, 98%, five-minute test". If the interviewer's test then reads 52, the number is consistent; if you had quoted a 15-second burst of 70, it looks like a discrepancy.
+
+For the preparation plans behind those numbers, see the 40 WPM and 60 WPM pages, and the jobs page for role thresholds.
 
 ## Interview Typing Test FAQ
 
-### Do employers really give typing tests at interviews?
+### What typing speed is expected in an interview test?
 
-Many do, especially for administrative, data-entry, customer-service and secretarial roles. It is usually a short timed test of one to three minutes.
+It depends on the role: 40 WPM for clerical and reception, 45-55 for data entry and dispatch, 60+ for legal and medical support. The posting usually states the floor.
 
-### What typing speed do employers expect?
+### Is the interview typing test scored on gross or net WPM?
 
-Most administrative roles ask for 40 to 55 WPM with 95%+ accuracy. Data-entry and transcription roles often want 60 to 70 WPM.
+Net, in almost every case - errors are deducted. Ask before you start if the format is not stated.
 
-### How can I prepare for an interview typing test?
+### Can I use my own laptop?
 
-Practise timed one to three-minute tests on business-style passages, keep accuracy above 95%, and rehearse typing cleanly under mild pressure.
+Rarely. Most tests run on employer equipment, which is why rehearsing on an unfamiliar keyboard matters more than one more practice round.
 
-### Is this interview typing test free?
+### What if I make a mistake during the test?
 
-Yes, free with no sign-up, so you can practise as often as you like.
+Correct it if the correction is quick, otherwise keep going. A single error costs less than thirty seconds of backspacing.
+
+### How should I quote my speed on an application?
+
+Net WPM, accuracy and test length - "58 WPM net, 98%, five-minute test". It is reproducible, and a live test that reads slightly lower is normal.

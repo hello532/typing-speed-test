@@ -4,41 +4,43 @@ Source: https://typing.rerivo.com/keyboard-practice.html
 
 Before speed comes familiarity. Practise finding every key without looking and build the habits that make fast typing possible.
 
-On this page
+Most typing practice gives you text and hopes the keyboard sorts itself out. This page inverts it: the on-screen keyboard highlights the next key and the finger that owns it, so the drill is about where the keys are rather than what the sentence says.
 
-Start with the home row
-Practise, don't hunt
-Use the on-screen keyboard
-Little and often
-Placement and finger training guides
-Kid-first keyboard practice
+That is the right order for a beginner. Learn the map first, then the words. A typist who knows the map can type any text; a typist who has memorised sentences cannot type an unfamiliar word.
 
-Rest your left fingers on A, S, D, F and your right on J, K, L, ; — the home row. The F and J keys have small raised bumps so you can find them by touch. Every finger owns a column of keys and returns to the home row after each reach; that is the whole secret of touch typing.
+Look at the on-screen keyboard for the first few rounds, then at the text, then - eventually - neither. The progression matters: watching the on-screen guide builds the map, watching your hands builds a dependency.
 
-Hunting for keys with two fingers feels fast at first but caps your speed hard. Practising the correct finger for each key, even when it is slower to begin with, builds the muscle memory that makes fast typing automatic later.
+One rule that does most of the work: cover your hands for one round per session. It is uncomfortable for three days and then it stops being an issue, and it is the difference between a ceiling at 40 WPM and no ceiling.
 
-Turn on the virtual keyboard and the next-key highlight so you can see which finger should reach which key. The on-screen hand guide shows the correct finger for the letter you are about to type — follow it closely for the first few sessions.
+QWERTY - the default on most machines; the layout this page uses.
+QWERTZ - German-speaking countries; Y and Z swap, umlauts get their own keys.
+AZERTY - France and Belgium; A/Q and Z/W swap, M moves next to L.
+Dvorak and Colemak - alternative English layouts that reduce finger travel; see Dvorak vs QWERTY before switching.
 
-Ten focused minutes a day beats one long weekly session. Keep accuracy above 97% and let speed rise on its own; rushing before the habits are set just trains mistakes. Return to this page whenever you want a clean, distraction-free practice space.
+If you work across layouts, practise each one separately. Alternating within a session creates interference that slows both.
 
-Build the map correctly: typing finger chart for every key, and finger placement typing with per-finger drills.
+Two minutes on the home row with the guide visible, two minutes on the row you miss most, three minutes on normal text, and three minutes covered. Log one number at the end - the accuracy figure, not the speed.
 
-Turn keyboard drills into the game that lands: typing games for kids — letter-hunt, word-collection, and the 5-minute session template.
+That is the whole session. It is short enough to repeat daily, which is the only variable that reliably matters.
 
 ## Keyboard Practice FAQ
 
 ### How do I practise typing on a keyboard?
 
-Start on the home row, use the correct finger for every key, and keep your eyes on the screen. Practise about ten focused minutes a day with instant feedback.
+Ten minutes a day: home row with the on-screen guide, then your weakest row, then normal text, then one covered round. Log accuracy rather than speed.
 
 ### What is the home row?
 
-The home row is the middle letter row: A, S, D, F for the left hand and J, K, L, ; for the right. F and J have raised bumps to guide your fingers.
+The middle row of letters - A S D F on the left, J K L ; on the right - where your fingers rest between keystrokes. The bumps on F and J let you find it without looking.
 
 ### Should I look at the keyboard while practising?
 
-No. Looking at the keyboard stops you building muscle memory. Use the on-screen keyboard and hand guide instead, and trust your fingers to learn.
+At first at the on-screen guide, not your hands. Cover your hands for one round per session so the mental map forms rather than a visual dependency.
 
 ### Is this keyboard practice free?
 
-Yes, free and no sign-up, on desktop and mobile.
+Yes, with no account. Results stay in your browser.
+
+### Does the layout matter?
+
+For learning, yes - practise the layout you actually use. QWERTY, QWERTZ, AZERTY and alternative layouts move different keys, and mixing them in one session creates interference.

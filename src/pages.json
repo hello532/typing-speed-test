@@ -1186,27 +1186,30 @@
    "heroP": "Practise typing <strong>numbers</strong> fast and accurately. Numeric typing is a separate skill from text — essential for data entry, accounting and finance. This number typing test measures your digit speed and accuracy.",
    "seo": [
     {
-     "h2": "Number typing test",
+     "h2": "The digit row is a separate skill",
      "p": [
-      "The <strong>number typing test</strong> focuses on digits instead of words. Typing numbers quickly is a distinct skill: the top row and numeric keypad use different finger movements than regular text, and most people are far slower at numbers than letters. Regular practice closes that gap — vital for data entry, accounting, finance and spreadsheet work. In offices this same drill is called the <strong>ten key punch test</strong> or ten key test, named after the ten-key numeric pad. The keys and the muscle memory are identical, so scores carry across both names."
+      "Letters sit under your fingers. Digits sit on the row above, reached by an extended finger with no tactile landmark to confirm the position. That is why someone who types prose at 60 WPM often drops to 30-35 WPM on numbers, and why data-entry employers test digits separately.",
+      "There are two ways to enter numbers and they are not interchangeable. The number row is right when digits are mixed into text (an address, a reference code). The numeric keypad is right when the work is amounts, quantities or codes entered field by field."
      ]
     },
     {
-     "h2": "How to type numbers faster",
+     "h2": "What employers actually measure",
      "p": [
-      "Use the numeric keypad on a full keyboard and anchor your fingers on the 4-5-6 home row. On a laptop, practise the top number row until you can hit digits without looking. Prioritise accuracy first — a mistyped number is often worse than a mistyped word — then build speed with daily reps."
+      "<table><tr><th>Unit</th><th>Formula</th><th>Typical requirement</th></tr><tr><td>Keystrokes per hour (KPH)</td><td>characters per minute × 60</td><td>8,000-12,000 for data entry</td></tr><tr><td>Key depressions per hour (KDPH)</td><td>all keys, corrections included</td><td>8,000 for SSC DEO</td></tr><tr><td>Fields per hour</td><td>completed records</td><td>role-specific</td></tr><tr><td>Accuracy</td><td>correct fields ÷ total</td><td>97-99%</td></tr></table>",
+      "A correction costs you twice: once as a keystroke against the hour, and once as a field that has to be re-checked. That is why digit accuracy is worth more than digit speed."
      ]
     },
     {
-     "h2": "Number row versus numeric keypad",
+     "h2": "How to practise without a spreadsheet",
      "p": [
-      "There are two ways to type numbers: the top number row and the dedicated numeric keypad on full-size keyboards. This test drills the number row, which every keyboard has — including laptops. Mastering it means you can enter dates, prices and codes mid-sentence without moving your hands away from the home row."
+      "Two minutes of Numbers mode, twice a day, graded on errors rather than speed. Then add the parts that break in real work: decimals, negative signs, and the Tab key between fields.",
+      "If you are learning the keypad, use the 4-5-6 home row (index on 4, middle on 5, ring on 6, thumb on 0) and press Enter after each figure, because that is how accounting software behaves."
      ]
     },
     {
-     "h2": "Where fast number typing pays off",
+     "h2": "Where numeric speed pays",
      "p": [
-      "Accountants, data-entry clerks, developers and anyone working with spreadsheets type digits constantly. Clean, quick number entry cuts costly transposition errors — typing 1,243 instead of 1,423 — and speeds up any task built on figures. Regular practice turns the number row from a slow reach into automatic muscle memory."
+      "Data entry, accounting, insurance claims, medical billing, warehouse admin and dispatch all live on digits. Each has its own page on this site with the specific thresholds - see <a href=\"10000-keystrokes-per-hour-test.html\">10,000 KPH</a> for the data-entry benchmark and <a href=\"ten-key-typing-test.html\">10-key typing</a> for the keypad version."
      ]
     }
    ],
@@ -1214,24 +1217,24 @@
    "faqH2": "Typing test FAQ",
    "faq": [
     {
-     "q": "What is a number typing test?",
-     "a": "It measures how fast and accurately you type digits (0-9) rather than words. Your speed is still reported in WPM, where every 5 characters counts as one word."
+     "q": "Why is my number typing speed so much lower?",
+     "a": "Digits sit on the row above the home row and have no tactile landmark, so every digit needs a reach and a visual check. A 40-50% drop from prose speed is normal."
     },
     {
-     "q": "Why is typing numbers harder?",
-     "a": "Numbers are typed less often than letters, and the top row or numeric keypad use different finger patterns. Most people type numbers 30-50% slower than text until they practise."
+     "q": "Should I use the number row or the keypad?",
+     "a": "The keypad for amounts and long numeric strings, the number row when digits are mixed into text. Learning ten-key properly takes about a week and pays for itself in data-entry work."
     },
     {
-     "q": "Is this number typing test free?",
-     "a": "Yes, completely free, no sign up and no ads inside the typing area. Your results are saved only in your own browser."
+     "q": "What is a good numeric typing speed?",
+     "a": "8,000-12,000 keystrokes per hour is the band employers quote for data entry. That is roughly 27-40 WPM equivalent, with accuracy at 97% or better."
     },
     {
-     "q": "Does it use the numeric keypad?",
-     "a": "You can use either the number row or the numeric keypad — whichever you want to practise. The test just checks the digits you type against the target."
+     "q": "Do corrections count in a numeric test?",
+     "a": "In key-depression scoring, yes - every backspace is another keystroke against the hour. That is why typing it right the first time matters more than typing fast."
     },
     {
-     "q": "Is this the same as a ten key punch test?",
-     "a": "Yes. A ten key punch test, ten key test and number typing test all measure how fast you key digits on the numeric pad. Some employers use the ten key name for their data entry screening, but the measurement — digits per minute and accuracy — is exactly what this page scores."
+     "q": "How much practice does it take?",
+     "a": "Two minutes twice a day for two to three weeks is enough to see a clear gain, mostly from the digit row ceasing to need a visual check."
     }
    ],
    "webAppName": "Typing Speed Test",
@@ -2345,33 +2348,32 @@
    "heroP": "Check your <strong>words per minute online</strong> in seconds. This WPM test runs in your browser with instant results — no download, no sign up, no account.",
    "seo": [
     {
-     "h2": "WPM test online",
+     "h2": "What WPM is, and the three ways it is counted",
      "p": [
-      "A WPM test online is the quickest way to see how fast you type without installing anything. This test runs entirely in your browser: pick a length, type the text, and your words per minute and accuracy appear the instant the timer stops."
+      "<strong>WPM</strong> is words per minute, where one word is five characters including spaces. That convention exists so a score on a long-word passage and a short-word passage can be compared. Three variants then diverge:",
+      "<table><tr><th>Method</th><th>Formula</th><th>Reads</th></tr><tr><td>Gross (raw)</td><td>all characters ÷ 5 ÷ minutes</td><td>Highest - counts mistakes</td></tr><tr><td>Net</td><td>(characters − errors) ÷ 5 ÷ minutes</td><td>What employers test</td></tr><tr><td>Adjusted (AWPM)</td><td>all characters ÷ 5 ÷ minutes, errors counted</td><td>School and exam scoring</td></tr></table>",
+      "This page reports net WPM and raw WPM separately, so you can see which one a posting is quoting. A 60 WPM gross score at 94% accuracy nets about 56."
      ]
     },
     {
-     "h2": "Check your WPM in 60 seconds",
+     "h2": "Why an online WPM test is a snapshot, not a verdict",
      "p": [
-      "To <strong>check your WPM</strong> you only need one minute. Pick a duration, type the text that appears, and the score panel gives you three numbers: words per minute, accuracy, and errors. Check it Monday, check it again Friday; the gap between the two is your weekly progress. Your best results are stored in this browser, so every visit starts with your last score to beat."
+      "One round measures one attempt under one set of conditions: your keyboard, your alertness, the passage you got. The number moves 5-10 WPM between a 15-second burst and a five-minute round, and by a similar margin between morning and end of day.",
+      "The honest way to use it is as a trend. Run the same length, at the same time of day, three times a week, and watch the average move. A single high score is a good day, not a new level."
      ]
     },
     {
-     "h2": "How WPM is measured",
+     "h2": "What to compare your score against",
      "p": [
-      "WPM is calculated as correct characters divided by five, divided by the minutes elapsed, so every five characters count as one word. Run the test a few times online to get a reliable average rather than relying on a single attempt."
+      "Use five-minute net scores on sentences, and compare against the measured distribution: mean 51.56 WPM, top 10% above about 78, bottom 10% below about 26 (CHI 2018, 168,960 volunteers). Employer floors cluster at 40 WPM for clerical work and 50-60 for legal and medical support.",
+      "Do not compare a one-minute score against a published five-minute average - the difference is systematic, not personal."
      ]
     },
     {
-     "h2": "What counts as a good WPM score",
+     "h2": "Getting a number you can quote",
      "p": [
-      "The average adult types around 40 WPM. Reaching 50–60 WPM is comfortably above average, 70–80 WPM is strong professional speed, and anything past 100 WPM puts you among the fastest typists. For most jobs, a steady 60 WPM with high accuracy is more than enough — consistency matters more than a one-off record."
-     ]
-    },
-    {
-     "h2": "How WPM is calculated",
-     "p": [
-      "Words per minute uses a standard \"word\" of five characters, so your WPM is the number of characters you typed correctly divided by five, scaled to a full minute. This test also shows raw WPM (before mistakes) and net WPM (after errors), so you can see how much your accuracy is helping or hurting your real speed."
+      "Run a five-minute test, read net WPM and accuracy, and keep a screenshot with the date. That is the number to put on a form, a CV or an application - and the one an employer's test will roughly reproduce.",
+      "If a posting quotes keystrokes per hour instead, convert: WPM × 300 = KPH, so 45 WPM is 13,500 KPH. The <a href=\"wpm-to-kph-converter.html\">converter</a> does it in both directions."
      ]
     }
    ],
@@ -2379,20 +2381,24 @@
    "faqH2": "Frequently asked questions",
    "faq": [
     {
-     "q": "What is a WPM test online?",
-     "a": "It is a browser-based test that measures your words per minute and accuracy instantly, with no software download and no account required."
+     "q": "What is a good WPM score?",
+     "a": "Around 50 WPM net is the measured average. 40 WPM clears most clerical floors, 60 is fast, and 78+ is the top 10%."
     },
     {
-     "q": "How many WPM is good?",
-     "a": "Around 40 WPM is average, 60-80 WPM is fast, and over 90 WPM is professional level. Accuracy above 95% matters just as much as raw speed."
+     "q": "Is an online WPM test accurate?",
+     "a": "It is accurate for the conditions you took it in. One round is a snapshot; three rounds of the same length at the same time of day give a number worth quoting."
     },
     {
-     "q": "Can I take the WPM test on my phone?",
-     "a": "Yes, it runs in any modern mobile browser, but a physical keyboard gives the truest score — phone keyboards add autocorrect noise. For a quotable result, retest on a real keyboard."
+     "q": "What is the difference between gross and net WPM?",
+     "a": "Gross counts every character typed; net subtracts errors first. Employers test net, and it always reads equal to or lower than gross."
     },
     {
-     "q": "Raw vs net WPM — which number should I quote?",
-     "a": "Quote net WPM: it subtracts errors, so employers and certificates trust it. Raw WPM (before errors) is useful only as a training gauge — when raw climbs but net stalls, slow down and fix accuracy first."
+     "q": "Why is my score lower on longer tests?",
+     "a": "The first thirty seconds are warm-up pace you cannot hold. Longer rounds also expose attention errors that a short burst hides."
+    },
+    {
+     "q": "How many keystrokes per hour is my WPM?",
+     "a": "Multiply by 300. 40 WPM is 12,000 KPH, 50 WPM is 15,000 KPH, and 10,000 KPH is about 33 WPM."
     }
    ],
    "webAppName": "WPM Test Online",
@@ -3727,21 +3733,30 @@
    "heroP": "A fully <strong>customizable typing test</strong>: pick your duration from 15 seconds to 10 minutes, switch between sentences, quotes, numbers and words, set the language, theme and line width, then type and get instant WPM. Everything is configurable, nothing to sign up for.",
    "seo": [
     {
-     "h2": "custom typing test",
+     "h2": "Four ways people actually use a custom test",
      "p": [
-      "A <strong>custom typing test</strong> is one that fits your practice instead of the other way around. This test is configurable end to end: six durations from 15 seconds to 10 minutes, four text types, eight languages, light and dark themes, and a line width that adapts to your screen. Configure it once, and every result after that is comparable, because you changed nothing but your typing."
+      "<ul><li><strong>Interview rehearsal</strong> - paste a passage in the style of the employer's test (legal clause, medical note, code snippet) and practise at the same length.</li><li><strong>Weak-key drilling</strong> - paste the words you keep missing, twenty times each, and run a minute on them.</li><li><strong>Domain vocabulary</strong> - drug names, part numbers, legal defined terms. Typing your own vocabulary beats typing random sentences.</li><li><strong>Classroom use</strong> - paste a passage from the week's reading so practice reinforces content rather than competing with it.</li></ul>",
+      "The custom text is stored in your browser for the session; nothing is uploaded, which is what makes the classroom use case workable."
      ]
     },
     {
-     "h2": "What you can customize",
+     "h2": "What to paste, and what not to",
      "p": [
-      "<strong>Duration</strong>: 15, 30, 60, 120, 300 or 600 seconds. <strong>Text type</strong>: sentences for everyday fluency, quotes for capitals and punctuation, numbers for the top row, and words for high-frequency vocabulary. <strong>Language</strong>: English, Spanish, Chinese, Hindi and Arabic. <strong>Theme and width</strong>: light or dark, and a text column that fits your screen so your eyes never leave the line you are typing."
+      "Paste plain text. Formatting, smart quotes and non-breaking spaces can all produce characters your keyboard cannot type, which turns a practice round into a hunt for a Unicode symbol.",
+      "Keep it between 100 and 400 words. Shorter and the round repeats, which makes memorisation inflate your score; longer and you will never finish a five-minute round."
      ]
     },
     {
-     "h2": "Build your own typing test routine",
+     "h2": "Settings that matter",
      "p": [
-      "Start with one minute of sentences to get a baseline. Add quotes for two weeks until capitals cost you nothing, then numbers until the top row is no longer slow. Switch to five minutes when you want endurance, and back to one minute when you want to see your top speed. A custom test is the only one that can follow that plan for a month without ever asking you to sign up."
+      "<table><tr><th>Setting</th><th>Use it when</th></tr><tr><td>Duration</td><td>Match the real test length; use 60 seconds for warm-ups only</td></tr><tr><td>Text mode</td><td>Sentences for prose, Numbers for codes and amounts</td></tr><tr><td>Layout</td><td>QWERTY by default; change it if you actually type on Dvorak or Colemak</td></tr><tr><td>Theme and width</td><td>Comfort only - they do not change the score</td></tr></table>"
+     ]
+    },
+    {
+     "h2": "Limits worth knowing",
+     "p": [
+      "A custom test cannot tell you whether the passage is representative. If you paste easy words, you will score higher than on an employer's test and believe you are ready.",
+      "Use it for targeted practice, and the standard tests for benchmarking. For the benchmark itself, see the <a href=\"1-minute-typing-test.html\">one-minute test</a> or the <a href=\"5-minute-typing-test.html\">five-minute test</a>."
      ]
     }
    ],
@@ -3749,28 +3764,24 @@
    "faqH2": "Custom typing test FAQ",
    "faq": [
     {
-     "q": "Is this typing test customizable for free?",
-     "a": "Yes, completely free with no sign up. Duration, text type, language, theme and line width are all configurable in your browser."
+     "q": "What is a custom typing test?",
+     "a": "A test where you supply the text - your own vocabulary, a sample passage or an interview-style document - and the engine measures speed and accuracy on it."
     },
     {
-     "q": "What durations can I choose?",
-     "a": "15, 30, 60, 120, 300 and 600 seconds. Short durations suit quick checks; long ones give a more stable average WPM because they smooth out bursts of speed and fatigue."
+     "q": "How much text should I paste?",
+     "a": "100-400 words. Under 100 the round repeats and memorisation inflates the score; over 400 you will not finish a five-minute round."
     },
     {
-     "q": "Can I change the language of the typing text?",
-     "a": "Yes. The test runs in English, Spanish, Chinese, Hindi and Arabic. Arabic and Hindi also render right-to-left correctly."
+     "q": "Is my pasted text uploaded?",
+     "a": "No. It stays in the browser for the session; there is no server-side storage and no account."
     },
     {
-     "q": "Which text type should I pick?",
-     "a": "Sentences for everyday fluency, quotes to train capitals and punctuation, numbers for the slow top row, and words to drill common vocabulary. If unsure, start with sentences."
+     "q": "Can I practise code in a custom test?",
+     "a": "Yes, though the dedicated code pages (Python, JavaScript, TypeScript, Rust, SQL) have symbol-dense pools written for that purpose."
     },
     {
-     "q": "Is my configuration saved?",
-     "a": "Your past results are stored only in this browser (localStorage). The configuration itself resets on reload, so bookmark a page set to the duration you practice most."
-    },
-    {
-     "q": "Can I use this for a custom typing test at work or school?",
-     "a": "Yes. It is free, needs no account, and works offline once the page is loaded, which makes it easy to run for a group without collecting anyone's data."
+     "q": "Why does my custom score differ from the standard tests?",
+     "a": "Because the text differs. A custom passage with easy words or no punctuation will read higher than a standard sentence test - use the standard tests for benchmarks."
     }
    ],
    "webAppName": "Typing Speed Test",
@@ -5009,21 +5020,31 @@
    "heroP": "To <strong>type without looking</strong>, rest your fingers on the <strong>home row</strong> &mdash; left hand on <strong>ASDF</strong>, right hand on <strong>JKL;</strong> &mdash; feel the small bumps on <strong>F</strong> and <strong>J</strong>, and let each finger own its own keys. The skill is called touch typing, and it comes from short daily practice, not talent. Here is exactly how to build it, then test yourself below.",
    "seo": [
     {
-     "h2": "Start on the home row (ASDF JKL;)",
+     "h2": "The three stages of not looking",
      "p": [
-      "Put your left index finger on <strong>F</strong> and your right index finger on <strong>J</strong> &mdash; both have a raised bump so you can find them without looking. Your other fingers fall onto A S D and K L ; . This is &lsquo;home&rsquo;: every key is reached from here and your fingers return here between keystrokes. Each finger is responsible for the keys directly above and below its home key."
+      "<ol><li><strong>You look because you do not know where the key is.</strong> Fix: the on-screen keyboard and home-row drills, with the guide visible.</li><li><strong>You know the key but look anyway to confirm.</strong> Fix: covered rounds. This is the stage that lasts longest, and the only cure is typing with the hands hidden.</li><li><strong>You look when you make a mistake.</strong> Fix: finish the word before checking. Most \"looks\" happen after errors, not before them.</li></ol>",
+      "Most people are stuck in stage two and believe they are in stage one. The test is simple: type a sentence with your hands under a cloth. If accuracy collapses, you are in stage two and the fix is covered practice, not more key drills."
      ]
     },
     {
-     "h2": "Train muscle memory, not your eyes",
+     "h2": "Why looking is so expensive",
      "p": [
-      "The whole skill is not looking down. Keep your eyes on the screen, use the on-screen keyboard and hand guide below to see the next key, and resist peeking even when it feels slow at first. Practise <strong>10&ndash;15 minutes a day</strong> and prioritise accuracy over speed &mdash; speed is just accurate muscle memory repeated. The <a href=\"touch-typing-test.html\">touch typing test</a> and the <a href=\"keyboard-typing-test.html\">on-screen keyboard test</a> highlight the next key and the correct finger as you go."
+      "Each glance costs an eye movement, a re-focus and a re-orientation - roughly a quarter of a second, plus the risk of losing your place in the text. At one glance per word, that is 15-25 seconds of lost typing per minute.",
+      "It also prevents the mental map from forming. The map is built by reaching for a key and being right, which is exactly what looking replaces with a visual shortcut."
      ]
     },
     {
-     "h2": "How long until you can touch type?",
+     "h2": "A two-week plan",
      "p": [
-      "Most people stop needing to look within a few weeks of daily practice, and return to their old speed within one to two months &mdash; faster after that, because touch typing has no ceiling the way hunt-and-peck does. Check your progress against the <a href=\"average-typing-speed.html\">average typing speed</a> as you go."
+      "Days 1-3: one covered round a day, 30 seconds long, no target. Just get through it. Days 4-7: two covered rounds, 60 seconds. Days 8-11: covered rounds on the words you miss most, then a normal round to compare. Days 12-14: one covered round per session, permanently.",
+      "Expect accuracy to fall by 10-20% during the covered rounds. It recovers within a week and the resulting speed is higher than where you started, because the glance was the ceiling."
+     ]
+    },
+    {
+     "h2": "What to do when you get stuck",
+     "p": [
+      "If a particular key keeps failing, practise that key in isolation for thirty seconds, then return to text. If the whole round collapses, shorten it - a 15-second covered round you finish beats a 60-second one you abandon.",
+      "And keep one normal round per session. The goal is to type without looking, not to type under a cloth forever."
      ]
     }
    ],
@@ -5031,24 +5052,24 @@
    "faqH2": "Typing test FAQ",
    "faq": [
     {
-     "q": "How do I type without looking at the keyboard?",
-     "a": "Rest your fingers on the home row (ASDF for the left hand, JKL; for the right), find the bumps on F and J by feel, keep your eyes on the screen, and let each finger own its keys. Practise a little every day."
+     "q": "How long does it take to stop looking at the keyboard?",
+     "a": "Two to four weeks of covered rounds, at 30-60 seconds a day. Accuracy dips 10-20% for the first week before recovering above where you started."
     },
     {
-     "q": "How long until I stop looking at the keyboard?",
-     "a": "Most people stop peeking within a few weeks of short daily practice, then take another month or two to match their old hunt-and-peck speed. Cover the keys and trust the F and J bumps to go faster."
+     "q": "Why do I look at the keyboard even when I know the key?",
+     "a": "That is the confirmation habit, and it is the longest stage. Key drills do not fix it; only typing with the hands hidden does."
     },
     {
-     "q": "What are the home row keys?",
-     "a": "A, S, D, F for the left hand and J, K, L, ; for the right. F and J have raised bumps so you can locate the home row without looking."
+     "q": "Should I cover my hands completely?",
+     "a": "Yes for the covered rounds - a cloth or a sheet of paper. Partial covering lets you cheat by peeking, which keeps the habit alive."
     },
     {
-     "q": "Why should I not look at the keyboard?",
-     "a": "Looking down breaks your focus on the text and caps your speed. Typing by feel keeps your eyes on the screen and lets muscle memory take over, which is faster and more accurate."
+     "q": "Will covering my hands make me slower permanently?",
+     "a": "No. Accuracy drops for about a week, then speed rises above your previous ceiling because the glance was the limiting factor."
     },
     {
-     "q": "Can I learn touch typing as an adult?",
-     "a": "Yes. Touch typing is muscle memory, not talent or age — short, consistent daily practice works at any age."
+     "q": "I keep losing my place in the text. What helps?",
+     "a": "Shorten the round and read one word ahead rather than one line ahead. Losing place is usually a reading-ahead problem, not a typing problem."
     }
    ],
    "webAppName": "Typing Speed Test",
@@ -6948,33 +6969,30 @@
    "heroP": "Employers often ask you to sit a typing test before or during an interview. Rehearse the exact format here so there are no surprises on the day.",
    "seo": [
     {
-     "h2": "Why employers test typing at interviews",
+     "h2": "What an interview typing test usually looks like",
      "p": [
-      "A typing test gives a fast, objective reading of a candidate's real ability. Rather than trusting a CV claim, recruiters sit you at a keyboard, start a clock and watch the score — usually one to three minutes of ordinary business text with capitals and punctuation."
+      "Three formats cover most cases: a short online test sent before the interview (one to three minutes, often automated), a timed exercise on the employer's machine during the visit, and a work sample where typing is incidental to a task such as entering records or drafting a reply.",
+      "The first two measure speed and accuracy under a clock. The third measures whether the output is usable, which is why candidates who type fast but sloppily fail work samples even with a good score."
      ]
     },
     {
-     "h2": "What employers expect",
+     "h2": "How to prepare in a week",
      "p": [
-      "Admin, customer-service and support roles typically ask for 40 to 55 WPM with 95% or higher accuracy. Data-entry and transcription roles push to 60 to 70 WPM, or measure keystrokes per hour for numeric work. Government and legal positions often add a formal minimum that you must clear to qualify at all."
+      "<table><tr><th>Day</th><th>Drill</th><th>Goal</th></tr><tr><td>1-2</td><td>Three five-minute rounds, same conditions</td><td>A baseline you can reproduce</td></tr><tr><td>3-4</td><td>Two rounds on an unfamiliar keyboard</td><td>Remove the hardware surprise</td></tr><tr><td>5</td><td>One timed round with punctuation and capitals</td><td>Accuracy under realistic text</td></tr><tr><td>6</td><td>One work-sample rehearsal: enter ten records cleanly</td><td>Field accuracy, not speed</td></tr><tr><td>7</td><td>Rest; one short warm-up only</td><td>Fresh hands on the day</td></tr></table>"
      ]
     },
     {
-     "h2": "Rehearse the real thing",
+     "h2": "On the day",
      "p": [
-      "Use the timer to simulate the exact length your employer uses, and type business-style passages rather than clean word lists. Practise proofreading on the fly: many tests mark you down for uncorrected errors, so type a little slower and cleaner than you can."
+      "Ask which scoring method and length the test uses before you start. Then type at 90% of your best pace for the first thirty seconds - almost everyone loses more in corrections than they gain in the opening sprint.",
+      "If the test allows a practice sentence, take it. That is where you discover whether the keyboard has a different layout or a stiff spacebar, and it costs ten seconds."
      ]
     },
     {
-     "h2": "Turn nerves into an advantage",
+     "h2": "What to say about your speed",
      "p": [
-      "Interview pressure costs most candidates five to ten WPM. Because you have practised the format here, the test itself will feel routine — that calm alone is often worth several words per minute."
-     ]
-    },
-    {
-     "h2": "Interview test strategy",
-     "p": [
-      "Pass the interview round: <a href=\"how-to-pass-a-typing-test.html\">how to pass a typing test</a> with test-day protocol, and <a href=\"typing-test-tips.html\">typing test tips</a> for before, during and after."
+      "Quote net WPM, the test length and accuracy: \"58 WPM net, 98%, five-minute test\". If the interviewer's test then reads 52, the number is consistent; if you had quoted a 15-second burst of 70, it looks like a discrepancy.",
+      "For the preparation plans behind those numbers, see the <a href=\"40-wpm-typing-test.html\">40 WPM</a> and <a href=\"60-wpm-typing-test.html\">60 WPM</a> pages, and the <a href=\"typing-test-for-jobs.html\">jobs page</a> for role thresholds."
      ]
     }
    ],
@@ -6982,20 +7000,24 @@
    "faqH2": "Interview Typing Test FAQ",
    "faq": [
     {
-     "q": "Do employers really give typing tests at interviews?",
-     "a": "Many do, especially for administrative, data-entry, customer-service and secretarial roles. It is usually a short timed test of one to three minutes."
+     "q": "What typing speed is expected in an interview test?",
+     "a": "It depends on the role: 40 WPM for clerical and reception, 45-55 for data entry and dispatch, 60+ for legal and medical support. The posting usually states the floor."
     },
     {
-     "q": "What typing speed do employers expect?",
-     "a": "Most administrative roles ask for 40 to 55 WPM with 95%+ accuracy. Data-entry and transcription roles often want 60 to 70 WPM."
+     "q": "Is the interview typing test scored on gross or net WPM?",
+     "a": "Net, in almost every case - errors are deducted. Ask before you start if the format is not stated."
     },
     {
-     "q": "How can I prepare for an interview typing test?",
-     "a": "Practise timed one to three-minute tests on business-style passages, keep accuracy above 95%, and rehearse typing cleanly under mild pressure."
+     "q": "Can I use my own laptop?",
+     "a": "Rarely. Most tests run on employer equipment, which is why rehearsing on an unfamiliar keyboard matters more than one more practice round."
     },
     {
-     "q": "Is this interview typing test free?",
-     "a": "Yes, free with no sign-up, so you can practise as often as you like."
+     "q": "What if I make a mistake during the test?",
+     "a": "Correct it if the correction is quick, otherwise keep going. A single error costs less than thirty seconds of backspacing."
+    },
+    {
+     "q": "How should I quote my speed on an application?",
+     "a": "Net WPM, accuracy and test length - \"58 WPM net, 98%, five-minute test\". It is reproducible, and a live test that reads slightly lower is normal."
     }
    ],
    "webAppName": "Typing Speed Test",
@@ -7356,39 +7378,31 @@
    "heroP": "Before speed comes familiarity. Practise finding every key without looking and build the habits that make fast typing possible.",
    "seo": [
     {
-     "h2": "Start with the home row",
+     "h2": "Practice that targets the keyboard, not the text",
      "p": [
-      "Rest your left fingers on A, S, D, F and your right on J, K, L, ; — the home row. The F and J keys have small raised bumps so you can find them by touch. Every finger owns a column of keys and returns to the home row after each reach; that is the whole secret of touch typing."
+      "Most typing practice gives you text and hopes the keyboard sorts itself out. This page inverts it: the on-screen keyboard highlights the next key and the finger that owns it, so the drill is about where the keys are rather than what the sentence says.",
+      "That is the right order for a beginner. Learn the map first, then the words. A typist who knows the map can type any text; a typist who has memorised sentences cannot type an unfamiliar word."
      ]
     },
     {
-     "h2": "Practise, don't hunt",
+     "h2": "What to look at, and what not to",
      "p": [
-      "Hunting for keys with two fingers feels fast at first but caps your speed hard. Practising the correct finger for each key, even when it is slower to begin with, builds the muscle memory that makes fast typing automatic later."
+      "Look at the on-screen keyboard for the first few rounds, then at the text, then - eventually - neither. The progression matters: watching the on-screen guide builds the map, watching your hands builds a dependency.",
+      "One rule that does most of the work: cover your hands for one round per session. It is uncomfortable for three days and then it stops being an issue, and it is the difference between a ceiling at 40 WPM and no ceiling."
      ]
     },
     {
-     "h2": "Use the on-screen keyboard",
+     "h2": "Layouts and the keys that move",
      "p": [
-      "Turn on the virtual keyboard and the next-key highlight so you can see which finger should reach which key. The on-screen hand guide shows the correct finger for the letter you are about to type — follow it closely for the first few sessions."
+      "<ul><li><strong>QWERTY</strong> - the default on most machines; the layout this page uses.</li><li><strong>QWERTZ</strong> - German-speaking countries; Y and Z swap, umlauts get their own keys.</li><li><strong>AZERTY</strong> - France and Belgium; A/Q and Z/W swap, M moves next to L.</li><li><strong>Dvorak and Colemak</strong> - alternative English layouts that reduce finger travel; see <a href=\"dvorak-vs-qwerty.html\">Dvorak vs QWERTY</a> before switching.</li></ul>",
+      "If you work across layouts, practise each one separately. Alternating within a session creates interference that slows both."
      ]
     },
     {
-     "h2": "Little and often",
+     "h2": "A ten-minute keyboard session",
      "p": [
-      "Ten focused minutes a day beats one long weekly session. Keep accuracy above 97% and let speed rise on its own; rushing before the habits are set just trains mistakes. Return to this page whenever you want a clean, distraction-free practice space."
-     ]
-    },
-    {
-     "h2": "Placement and finger training guides",
-     "p": [
-      "Build the map correctly: <a href=\"typing-finger-chart.html\">typing finger chart</a> for every key, and <a href=\"finger-placement-typing.html\">finger placement typing</a> with per-finger drills."
-     ]
-    },
-    {
-     "h2": "Kid-first keyboard practice",
-     "p": [
-      "Turn keyboard drills into the game that lands: <a href=\"typing-games-for-kids.html\">typing games for kids</a> — letter-hunt, word-collection, and the 5-minute session template."
+      "Two minutes on the home row with the guide visible, two minutes on the row you miss most, three minutes on normal text, and three minutes covered. Log one number at the end - the accuracy figure, not the speed.",
+      "That is the whole session. It is short enough to repeat daily, which is the only variable that reliably matters."
      ]
     }
    ],
@@ -7397,19 +7411,23 @@
    "faq": [
     {
      "q": "How do I practise typing on a keyboard?",
-     "a": "Start on the home row, use the correct finger for every key, and keep your eyes on the screen. Practise about ten focused minutes a day with instant feedback."
+     "a": "Ten minutes a day: home row with the on-screen guide, then your weakest row, then normal text, then one covered round. Log accuracy rather than speed."
     },
     {
      "q": "What is the home row?",
-     "a": "The home row is the middle letter row: A, S, D, F for the left hand and J, K, L, ; for the right. F and J have raised bumps to guide your fingers."
+     "a": "The middle row of letters - A S D F on the left, J K L ; on the right - where your fingers rest between keystrokes. The bumps on F and J let you find it without looking."
     },
     {
      "q": "Should I look at the keyboard while practising?",
-     "a": "No. Looking at the keyboard stops you building muscle memory. Use the on-screen keyboard and hand guide instead, and trust your fingers to learn."
+     "a": "At first at the on-screen guide, not your hands. Cover your hands for one round per session so the mental map forms rather than a visual dependency."
     },
     {
      "q": "Is this keyboard practice free?",
-     "a": "Yes, free and no sign-up, on desktop and mobile."
+     "a": "Yes, with no account. Results stay in your browser."
+    },
+    {
+     "q": "Does the layout matter?",
+     "a": "For learning, yes - practise the layout you actually use. QWERTY, QWERTZ, AZERTY and alternative layouts move different keys, and mixing them in one session creates interference."
     }
    ],
    "webAppName": "Typing Speed Test",

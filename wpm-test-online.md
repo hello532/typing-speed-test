@@ -4,30 +4,45 @@ Source: https://typing.rerivo.com/wpm-test-online.html
 
 Check your words per minute online in seconds. This WPM test runs in your browser with instant results — no download, no sign up, no account.
 
-A WPM test online is the quickest way to see how fast you type without installing anything. This test runs entirely in your browser: pick a length, type the text, and your words per minute and accuracy appear the instant the timer stops.
+WPM is words per minute, where one word is five characters including spaces. That convention exists so a score on a long-word passage and a short-word passage can be compared. Three variants then diverge:
 
-To check your WPM you only need one minute. Pick a duration, type the text that appears, and the score panel gives you three numbers: words per minute, accuracy, and errors. Check it Monday, check it again Friday; the gap between the two is your weekly progress. Your best results are stored in this browser, so every visit starts with your last score to beat.
+Method | Formula | Reads
+Gross (raw) | all characters ÷ 5 ÷ minutes | Highest - counts mistakes
+Net | (characters − errors) ÷ 5 ÷ minutes | What employers test
+Adjusted (AWPM) | all characters ÷ 5 ÷ minutes, errors counted | School and exam scoring
 
-WPM is calculated as correct characters divided by five, divided by the minutes elapsed, so every five characters count as one word. Run the test a few times online to get a reliable average rather than relying on a single attempt.
+This page reports net WPM and raw WPM separately, so you can see which one a posting is quoting. A 60 WPM gross score at 94% accuracy nets about 56.
 
-The average adult types around 40 WPM. Reaching 50–60 WPM is comfortably above average, 70–80 WPM is strong professional speed, and anything past 100 WPM puts you among the fastest typists. For most jobs, a steady 60 WPM with high accuracy is more than enough — consistency matters more than a one-off record.
+One round measures one attempt under one set of conditions: your keyboard, your alertness, the passage you got. The number moves 5-10 WPM between a 15-second burst and a five-minute round, and by a similar margin between morning and end of day.
 
-Words per minute uses a standard "word" of five characters, so your WPM is the number of characters you typed correctly divided by five, scaled to a full minute. This test also shows raw WPM (before mistakes) and net WPM (after errors), so you can see how much your accuracy is helping or hurting your real speed.
+The honest way to use it is as a trend. Run the same length, at the same time of day, three times a week, and watch the average move. A single high score is a good day, not a new level.
+
+Use five-minute net scores on sentences, and compare against the measured distribution: mean 51.56 WPM, top 10% above about 78, bottom 10% below about 26 (CHI 2018, 168,960 volunteers). Employer floors cluster at 40 WPM for clerical work and 50-60 for legal and medical support.
+
+Do not compare a one-minute score against a published five-minute average - the difference is systematic, not personal.
+
+Run a five-minute test, read net WPM and accuracy, and keep a screenshot with the date. That is the number to put on a form, a CV or an application - and the one an employer's test will roughly reproduce.
+
+If a posting quotes keystrokes per hour instead, convert: WPM × 300 = KPH, so 45 WPM is 13,500 KPH. The converter does it in both directions.
 
 ## Frequently asked questions
 
-### What is a WPM test online?
+### What is a good WPM score?
 
-It is a browser-based test that measures your words per minute and accuracy instantly, with no software download and no account required.
+Around 50 WPM net is the measured average. 40 WPM clears most clerical floors, 60 is fast, and 78+ is the top 10%.
 
-### How many WPM is good?
+### Is an online WPM test accurate?
 
-Around 40 WPM is average, 60-80 WPM is fast, and over 90 WPM is professional level. Accuracy above 95% matters just as much as raw speed.
+It is accurate for the conditions you took it in. One round is a snapshot; three rounds of the same length at the same time of day give a number worth quoting.
 
-### Can I take the WPM test on my phone?
+### What is the difference between gross and net WPM?
 
-Yes, it runs in any modern mobile browser, but a physical keyboard gives the truest score — phone keyboards add autocorrect noise. For a quotable result, retest on a real keyboard.
+Gross counts every character typed; net subtracts errors first. Employers test net, and it always reads equal to or lower than gross.
 
-### Raw vs net WPM — which number should I quote?
+### Why is my score lower on longer tests?
 
-Quote net WPM: it subtracts errors, so employers and certificates trust it. Raw WPM (before errors) is useful only as a training gauge — when raw climbs but net stalls, slow down and fix accuracy first.
+The first thirty seconds are warm-up pace you cannot hold. Longer rounds also expose attention errors that a short burst hides.
+
+### How many keystrokes per hour is my WPM?
+
+Multiply by 300. 40 WPM is 12,000 KPH, 50 WPM is 15,000 KPH, and 10,000 KPH is about 33 WPM.

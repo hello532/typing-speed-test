@@ -4,30 +4,42 @@ Source: https://typing.rerivo.com/how-to-type-without-looking.html
 
 To type without looking, rest your fingers on the home row &mdash; left hand on ASDF, right hand on JKL; &mdash; feel the small bumps on F and J, and let each finger own its own keys. The skill is called touch typing, and it comes from short daily practice, not talent. Here is exactly how to build it, then test yourself below.
 
-Put your left index finger on F and your right index finger on J - both have a raised bump so you can find them without looking. Your other fingers fall onto A S D and K L ; . This is &lsquo;home&rsquo;: every key is reached from here and your fingers return here between keystrokes. Each finger is responsible for the keys directly above and below its home key.
+You look because you do not know where the key is. Fix: the on-screen keyboard and home-row drills, with the guide visible.
+You know the key but look anyway to confirm. Fix: covered rounds. This is the stage that lasts longest, and the only cure is typing with the hands hidden.
+You look when you make a mistake. Fix: finish the word before checking. Most "looks" happen after errors, not before them.
 
-The whole skill is not looking down. Keep your eyes on the screen, use the on-screen keyboard and hand guide below to see the next key, and resist peeking even when it feels slow at first. Practise 10-15 minutes a day and prioritise accuracy over speed - speed is just accurate muscle memory repeated. The touch typing test and the on-screen keyboard test highlight the next key and the correct finger as you go.
+Most people are stuck in stage two and believe they are in stage one. The test is simple: type a sentence with your hands under a cloth. If accuracy collapses, you are in stage two and the fix is covered practice, not more key drills.
 
-Most people stop needing to look within a few weeks of daily practice, and return to their old speed within one to two months - faster after that, because touch typing has no ceiling the way hunt-and-peck does. Check your progress against the average typing speed as you go.
+Each glance costs an eye movement, a re-focus and a re-orientation - roughly a quarter of a second, plus the risk of losing your place in the text. At one glance per word, that is 15-25 seconds of lost typing per minute.
+
+It also prevents the mental map from forming. The map is built by reaching for a key and being right, which is exactly what looking replaces with a visual shortcut.
+
+Days 1-3: one covered round a day, 30 seconds long, no target. Just get through it. Days 4-7: two covered rounds, 60 seconds. Days 8-11: covered rounds on the words you miss most, then a normal round to compare. Days 12-14: one covered round per session, permanently.
+
+Expect accuracy to fall by 10-20% during the covered rounds. It recovers within a week and the resulting speed is higher than where you started, because the glance was the ceiling.
+
+If a particular key keeps failing, practise that key in isolation for thirty seconds, then return to text. If the whole round collapses, shorten it - a 15-second covered round you finish beats a 60-second one you abandon.
+
+And keep one normal round per session. The goal is to type without looking, not to type under a cloth forever.
 
 ## Typing test FAQ
 
-### How do I type without looking at the keyboard?
+### How long does it take to stop looking at the keyboard?
 
-Rest your fingers on the home row (ASDF for the left hand, JKL; for the right), find the bumps on F and J by feel, keep your eyes on the screen, and let each finger own its keys. Practise a little every day.
+Two to four weeks of covered rounds, at 30-60 seconds a day. Accuracy dips 10-20% for the first week before recovering above where you started.
 
-### How long until I stop looking at the keyboard?
+### Why do I look at the keyboard even when I know the key?
 
-Most people stop peeking within a few weeks of short daily practice, then take another month or two to match their old hunt-and-peck speed. Cover the keys and trust the F and J bumps to go faster.
+That is the confirmation habit, and it is the longest stage. Key drills do not fix it; only typing with the hands hidden does.
 
-### What are the home row keys?
+### Should I cover my hands completely?
 
-A, S, D, F for the left hand and J, K, L, ; for the right. F and J have raised bumps so you can locate the home row without looking.
+Yes for the covered rounds - a cloth or a sheet of paper. Partial covering lets you cheat by peeking, which keeps the habit alive.
 
-### Why should I not look at the keyboard?
+### Will covering my hands make me slower permanently?
 
-Looking down breaks your focus on the text and caps your speed. Typing by feel keeps your eyes on the screen and lets muscle memory take over, which is faster and more accurate.
+No. Accuracy drops for about a week, then speed rises above your previous ceiling because the glance was the limiting factor.
 
-### Can I learn touch typing as an adult?
+### I keep losing my place in the text. What helps?
 
-Yes. Touch typing is muscle memory, not talent or age — short, consistent daily practice works at any age.
+Shorten the round and read one word ahead rather than one line ahead. Losing place is usually a reading-ahead problem, not a typing problem.

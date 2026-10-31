@@ -4,32 +4,42 @@ Source: https://typing.rerivo.com/number-typing-test.html
 
 Practise typing numbers fast and accurately. Numeric typing is a separate skill from text — essential for data entry, accounting and finance. This number typing test measures your digit speed and accuracy.
 
-The number typing test focuses on digits instead of words. Typing numbers quickly is a distinct skill: the top row and numeric keypad use different finger movements than regular text, and most people are far slower at numbers than letters. Regular practice closes that gap — vital for data entry, accounting, finance and spreadsheet work. In offices this same drill is called the ten key punch test or ten key test, named after the ten-key numeric pad. The keys and the muscle memory are identical, so scores carry across both names.
+Letters sit under your fingers. Digits sit on the row above, reached by an extended finger with no tactile landmark to confirm the position. That is why someone who types prose at 60 WPM often drops to 30-35 WPM on numbers, and why data-entry employers test digits separately.
 
-Use the numeric keypad on a full keyboard and anchor your fingers on the 4-5-6 home row. On a laptop, practise the top number row until you can hit digits without looking. Prioritise accuracy first — a mistyped number is often worse than a mistyped word — then build speed with daily reps.
+There are two ways to enter numbers and they are not interchangeable. The number row is right when digits are mixed into text (an address, a reference code). The numeric keypad is right when the work is amounts, quantities or codes entered field by field.
 
-There are two ways to type numbers: the top number row and the dedicated numeric keypad on full-size keyboards. This test drills the number row, which every keyboard has — including laptops. Mastering it means you can enter dates, prices and codes mid-sentence without moving your hands away from the home row.
+Unit | Formula | Typical requirement
+Keystrokes per hour (KPH) | characters per minute × 60 | 8,000-12,000 for data entry
+Key depressions per hour (KDPH) | all keys, corrections included | 8,000 for SSC DEO
+Fields per hour | completed records | role-specific
+Accuracy | correct fields ÷ total | 97-99%
 
-Accountants, data-entry clerks, developers and anyone working with spreadsheets type digits constantly. Clean, quick number entry cuts costly transposition errors — typing 1,243 instead of 1,423 — and speeds up any task built on figures. Regular practice turns the number row from a slow reach into automatic muscle memory.
+A correction costs you twice: once as a keystroke against the hour, and once as a field that has to be re-checked. That is why digit accuracy is worth more than digit speed.
+
+Two minutes of Numbers mode, twice a day, graded on errors rather than speed. Then add the parts that break in real work: decimals, negative signs, and the Tab key between fields.
+
+If you are learning the keypad, use the 4-5-6 home row (index on 4, middle on 5, ring on 6, thumb on 0) and press Enter after each figure, because that is how accounting software behaves.
+
+Data entry, accounting, insurance claims, medical billing, warehouse admin and dispatch all live on digits. Each has its own page on this site with the specific thresholds - see 10,000 KPH for the data-entry benchmark and 10-key typing for the keypad version.
 
 ## Typing test FAQ
 
-### What is a number typing test?
+### Why is my number typing speed so much lower?
 
-It measures how fast and accurately you type digits (0-9) rather than words. Your speed is still reported in WPM, where every 5 characters counts as one word.
+Digits sit on the row above the home row and have no tactile landmark, so every digit needs a reach and a visual check. A 40-50% drop from prose speed is normal.
 
-### Why is typing numbers harder?
+### Should I use the number row or the keypad?
 
-Numbers are typed less often than letters, and the top row or numeric keypad use different finger patterns. Most people type numbers 30-50% slower than text until they practise.
+The keypad for amounts and long numeric strings, the number row when digits are mixed into text. Learning ten-key properly takes about a week and pays for itself in data-entry work.
 
-### Is this number typing test free?
+### What is a good numeric typing speed?
 
-Yes, completely free, no sign up and no ads inside the typing area. Your results are saved only in your own browser.
+8,000-12,000 keystrokes per hour is the band employers quote for data entry. That is roughly 27-40 WPM equivalent, with accuracy at 97% or better.
 
-### Does it use the numeric keypad?
+### Do corrections count in a numeric test?
 
-You can use either the number row or the numeric keypad — whichever you want to practise. The test just checks the digits you type against the target.
+In key-depression scoring, yes - every backspace is another keystroke against the hour. That is why typing it right the first time matters more than typing fast.
 
-### Is this the same as a ten key punch test?
+### How much practice does it take?
 
-Yes. A ten key punch test, ten key test and number typing test all measure how fast you key digits on the numeric pad. Some employers use the ten key name for their data entry screening, but the measurement — digits per minute and accuracy — is exactly what this page scores.
+Two minutes twice a day for two to three weeks is enough to see a clear gain, mostly from the digit row ceasing to need a visual check.
