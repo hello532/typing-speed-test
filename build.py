@@ -563,8 +563,12 @@ def page_lastmods(names):
     return {n: (today if n in dirty else dates.get(n) or today) for n in names}
 
 
-def build_sitemap(cfg):
-    """sitemap.xml 由构建自动更新（此前手工维护，lastmod 全站同日、与真实修改脱节）。"""
+def render_sitemap(cfg):
+    """sitemap.xml 由构建自动更新（此前手工维护，lastmod 全站同日、与真实修改脱节）。
+
+    返回文本而不是直接落盘 —— --check 也要能比对它（此前 sitemap 是唯一
+    逃过漂移检测的产物，浅克隆重算出的同日 lastmod 曾就这么被提交进去）。
+    """
     names = [p["file"] for p in cfg["pages"]]
     mods = page_lastmods(names)
     lines = ['<?xml version="1.0" encoding="UTF-8"?>',
@@ -575,7 +579,7 @@ def build_sitemap(cfg):
         lines.append(f'  <url><loc>{loc}</loc><lastmod>{mods[n]}</lastmod>'
                      f'<changefreq>{cf}</changefreq><priority>{pr}</priority></url>')
     lines.append('</urlset>')
-    (ROOT / "sitemap.xml").write_text("\n".join(lines) + "\n", encoding="utf-8")
+    return "\n".join(lines) + "\n"
 
 
 def page_dates(names):
@@ -693,15 +697,24 @@ def main():
         else:
             mtarget.write_text(body, encoding="utf-8")
 
+    # sitemap.xml：lastmod 同样来自 git 历史 —— 一样纳入漂移检测
+    sm = render_sitemap(cfg)
+    starget = ROOT / "sitemap.xml"
+    if check:
+        cur = starget.read_text(encoding="utf-8") if starget.exists() else None
+        if cur != sm:
+            bad.append("sitemap.xml")
+    else:
+        starget.write_text(sm, encoding="utf-8")
+
     if check:
         if bad:
-            print(f"DRIFT: {len(bad)} page(s) differ from src/ → run build.py")
+            print(f"DRIFT: {len(bad)} file(s) differ from src/ → run build.py")
             for f in bad:
                 print("  ", f)
             sys.exit(1)
         print(f"OK: all {len(cfg['pages'])} pages match src/")
     else:
-        build_sitemap(cfg)
         print(f"built {len(cfg['pages'])} pages from src/")
 
 
