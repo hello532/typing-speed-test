@@ -17,6 +17,7 @@
  10. 页内锚点是否全部能解析（404.html 单独排除，它不带 canonical）
  11. 行内脚本能否通过 node --check（去重后检查唯一脚本）
  12. 标题层级是否跳级（h1→h3 之类）
+ 13. 结构化数据必填字段是否齐全（按 @type 分别校验）
 
 退出码 1 表示有 FAIL，方便挂 CI。
 """
@@ -134,6 +135,35 @@ def check() -> dict:
             bad_heads.append(p.name)
     (out["fail"] if bad_heads else out["ok"]).append(
         f"标题层级跳级：{len(bad_heads)}" + (f" {bad_heads[:3]}" if bad_heads else ""))
+
+    # 13) 结构化数据必填字段（比"能解析"更强：类型所需的字段必须存在且非空）
+    import json as _json
+    req = {
+        "WebApplication": ["name", "url", "applicationCategory", "operatingSystem", "description", "offers"],
+        "FAQPage": ["mainEntity"],
+        "BreadcrumbList": ["itemListElement"],
+        "Organization": ["name", "url"],
+        "WebSite": ["name", "url"],
+        "HowTo": ["name", "step"],
+        "Dataset": ["name", "description", "distribution"],
+    }
+    ld_bad, ld_types = [], {}
+    for p in files:
+        h = p.read_text(encoding="utf-8")
+        for raw in re.findall(r'<script type="application/ld\+json">\s*(\{.*?\})\s*</script>', h, re.S):
+            try:
+                o = _json.loads(raw)
+            except Exception:
+                ld_bad.append((p.name, "invalid json"))
+                continue
+            t = o.get("@type")
+            ld_types[t] = ld_types.get(t, 0) + 1
+            miss = [k for k in req.get(t, []) if k not in o or o[k] in (None, "", [], {})]
+            if miss:
+                ld_bad.append((p.name, t, "missing " + ",".join(miss)))
+    (out["fail"] if ld_bad else out["ok"]).append(
+        f"结构化数据必填字段缺失：{len(ld_bad)}"
+        + (f" {ld_bad[:2]}" if ld_bad else f"（{sum(ld_types.values())} 块，{len(ld_types)} 种类型）"))
 
     # 描述长度分布（软指标，只报数）
     lens = []
