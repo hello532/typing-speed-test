@@ -4,30 +4,43 @@ Source: https://typing.rerivo.com/timed-typing-test.html
 
 A ticking clock is the fairest way to measure typing speed. Choose your length and see how many words you can type before the buzzer.
 
-You type for a fixed number of seconds or minutes and the test counts every correctly typed character, then converts it to words per minute. Because the clock never pauses for backspacing, a timed test rewards clean, steady typing over burst speed.
+A timed test adds two things a free practice session does not: a fixed end point, and a score you can compare with someone else's. That is why employers use them and why practice rounds so often do not transfer - the pressure is part of the task.
 
-Careers and most online tests use one minute, so a 1-minute timed test is the standard benchmark. Data-entry and government exams often run three or five minutes to test stamina. Sprint-style challenges use 15 or 30 seconds, and typing-race communities favour 10 minutes to expose who holds speed under fatigue.
+The practical consequence is that you should practise under the same clock. A typist who only practises untimed will underperform by 5-10 WPM the first time a countdown appears.
 
-Without a clock it is easy to slow down on hard words or rest on your laurels. A timer forces an even rhythm and gives you a number you can compare week to week — the only way to know whether your practice is actually working.
+Duration | What it measures | Typical use
+15-30 seconds | Burst speed | Warm-up, key drills
+1 minute | Short-form benchmark | Daily check, casual comparison
+3 minutes | Screening length | Interview and exam rehearsal
+5 minutes | Working pace | The number you quote; federal standard
+10 minutes | Endurance | Transcription, data entry, long documents
 
-Start shorter than you think you need: a 30-second timed test you finish cleanly teaches more than a 10-minute slog full of errors. Once you hold your accuracy above 97%, extend the duration and watch net speed stay flat — that is real progress.
+Short rounds produce errors of haste: a skipped letter, a wrong key under speed. Long rounds produce errors of attention: a dropped capital in minute six, a comma missed when the sentence changes direction.
 
-Every duration on this page is the same engine with a different clock, which makes the lengths comparable to each other. Start at one minute, the format employers and certificates quote, then use the five minute test to see how much of that speed survives fatigue.
+That is why the same typist can have 98% accuracy on a one-minute test and 94% on a ten-minute one. If your job involves sustained typing, the ten-minute number is the honest one.
+
+Record the same length every week and compare against yourself. The only useful comparison across people is the same duration, the same text type and the same scoring method - change any of the three and the comparison is noise.
+
+For the standard benchmarks by duration, see the WPM chart; for the length most employers use, the five-minute test.
 
 ## Timed Typing Test FAQ
 
 ### What is a timed typing test?
 
-A typing test where you type against a countdown clock for a set duration — usually 1, 2, 3, 5 or 10 minutes — and your speed is measured in words per minute.
+A test with a fixed countdown, so the score reflects speed under time pressure rather than open-ended practice.
 
 ### What is the most common test length?
 
-One minute is the most common, used by most online tests and employers. Career exams and government tests often use three to five minutes.
+One minute for casual benchmarking, three minutes for screening and five minutes for formal standards such as the US federal clerical test.
 
 ### Does the timer stop when I make a mistake?
 
-No. The clock keeps running so the score reflects your true working speed, including any slowdown caused by corrections.
+No. The clock runs continuously, which is why corrections cost time and uncorrected errors cost accuracy - you choose which penalty to take.
 
 ### Can I choose my own time?
 
-Yes — use the duration chips to pick anything from 15 seconds to 10 minutes.
+Yes, from 15 seconds to 10 minutes. Keep the same length when comparing scores across weeks.
+
+### Why is my accuracy lower on longer tests?
+
+Long rounds produce errors of attention rather than haste - a dropped capital in minute six, a missed comma when the sentence turns. That is the fatigue effect the longer test is designed to reveal.

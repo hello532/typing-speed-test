@@ -444,27 +444,31 @@
    "heroP": "Practise <strong>uppercase letters and the Shift key</strong> with a focused capital letter typing test. Build muscle memory for capitals and symbols while tracking your WPM and accuracy.",
    "seo": [
     {
-     "h2": "Capital letter typing test",
+     "h2": "Capital letters are a two-hand problem",
      "p": [
-      "Capitals slow most people down because they need the Shift key and a return to the home row. This capital letter typing test gives you sentences full of proper nouns and uppercase words so you can drill the motion until it feels natural. Your WPM and accuracy are shown instantly after every run."
+      "A capital needs Shift pressed with the hand that is <em>not</em> typing the letter, then a quick return to the home row. Most people learn to use the same hand for both, which breaks the hand position and costs three keystrokes of rhythm for every capital.",
+      "On a sentence with six capitals in twenty words, that is roughly a 5% speed penalty and a much larger accuracy penalty, because the hand has to find the home row again after each one."
      ]
     },
     {
-     "h2": "How to type capitals faster",
+     "h2": "Shift or Caps Lock",
      "p": [
-      "Use the opposite hand: press the Shift key with the hand that is not typing the letter. Keep your fingers on the home row and avoid using Caps Lock for single capitals. A few minutes of daily practice with this typing test makes the Shift reach automatic."
+      "Shift for a single capital, Caps Lock for a run of them. Anything else mixes habits: Caps Lock for one letter means you press it twice and lose the rhythm either way, and forgetting to turn it off produces a burst of errors.",
+      "If your operating system has a sticky-keys or Shift-lock behaviour, turn it off before practising. It masks the exact reach you are trying to build, and it will not be there on the keyboard an employer hands you."
      ]
     },
     {
-     "h2": "Mastering the Shift key",
+     "h2": "A drill that transfers",
      "p": [
-      "Capital letters are where many typists lose speed. Reaching for Shift with the opposite hand — left Shift for right-hand letters and right Shift for left-hand letters — keeps your typing balanced and quick. This test mixes capitals through natural sentences so the Shift reach becomes second nature instead of a stumble."
+      "Type proper nouns and sentence starts for one minute, then check which hand pressed Shift. If the same hand typed the letter, the error is structural, not speed-related - and it will keep appearing in every exam passage.",
+      "Then run a two-minute round with normal sentence case and compare the accuracy to your all-lowercase score. A drop of more than 3% means capitals are the weak link."
      ]
     },
     {
-     "h2": "Capitalization in real writing",
+     "h2": "Where it matters most",
      "p": [
-      "Every sentence starts with a capital, and names, places and titles add many more. Practising proper capitalization trains the timing of pressing Shift and a letter together smoothly, so your names and sentence starts flow without the tiny pauses that quietly drag down your words-per-minute."
+      "Names, places, product names, legal defined terms and the start of every sentence. In legal and medical documents a wrong capital can change the meaning; in exam passages it is a scored error.",
+      "For the punctuation half of the same skill, see the <a href=\"punctuation-typing-test.html\">punctuation test</a>; for the exam context, <a href=\"typing-test-for-jobs.html\">typing tests for jobs</a>."
      ]
     }
    ],
@@ -473,19 +477,23 @@
    "faq": [
     {
      "q": "What is a capital letter typing test?",
-     "a": "It is a typing test that focuses on uppercase letters and the Shift key, so you can practise capitals, proper nouns and symbols rather than only lowercase words."
+     "a": "A test using sentence case and proper nouns, so it measures how you handle Shift as well as letter location."
     },
     {
      "q": "Why are capital letters hard to type?",
-     "a": "Capitals need a Shift key press with the opposite hand plus a quick return to the home row, which breaks your rhythm until the motion becomes muscle memory."
+     "a": "They need Shift with the opposite hand plus a return to the home row. Using the same hand for both breaks the hand position and costs rhythm on every capital."
     },
     {
      "q": "Is the capital letter test free?",
-     "a": "Yes. Free with no sign up, and your Shift-key drill results stay in your own browser."
+     "a": "Yes, no account needed, results stored in your browser."
     },
     {
-     "q": "Do I use Shift or Caps Lock for capitals?",
-     "a": "Always Shift for single capitals: hold it with the opposite hand's pinky while the other hand strikes the letter. Caps Lock is only for multi-letter acronyms, and reaching for it mid-sentence breaks rhythm and costs accuracy."
+     "q": "Do I use Shift or Caps Lock?",
+     "a": "Shift for a single capital, Caps Lock for a run of them. Mixing the two creates habits that fail under time pressure."
+    },
+    {
+     "q": "How much speed do capitals cost?",
+     "a": "About 3-5% on ordinary sentences, and more on text dense with proper nouns. Accuracy usually drops more than speed."
     }
    ],
    "webAppName": "Capital Letter Typing Test",
@@ -536,27 +544,29 @@
    "heroP": "A simple, <strong>easy typing test</strong> for beginners. Start with short rounds and common words, see your WPM and accuracy instantly, and build confidence at your own pace.",
    "seo": [
     {
-     "h2": "Easy typing test for beginners",
+     "h2": "What makes this easy",
      "p": [
-      "If you are just starting out, long passages and hard words can be discouraging. This easy typing test keeps things simple with short 15 or 30 second rounds and common everyday words, so you can get a quick WPM score and feel progress fast."
+      "Three adjustments: common short words, no digits or unusual punctuation, and a one-minute default so the round ends before fatigue arrives. The point is to remove everything except the skill being built - finding keys without looking.",
+      "Easy is not the same as slow. Type at the pace where you make almost no errors; if accuracy is below 95%, slow down further rather than pushing. At this stage speed is a side effect of accuracy, not a separate goal."
      ]
     },
     {
-     "h2": "Build speed step by step",
+     "h2": "A four-week starting plan",
      "p": [
-      "Begin with the shortest rounds and the words mode, focus on accuracy, and only then stretch to a 1 minute typing test. A few relaxed minutes each day beat one long frustrating session, and your saved history shows every improvement."
+      "<table><tr><th>Week</th><th>Daily drill</th><th>What should change</th></tr><tr><td>1</td><td>Two 60-second easy rounds, hands covered for one</td><td>You stop looking at the keyboard for most words</td></tr><tr><td>2</td><td>Same, plus one home-row-only round</td><td>Accuracy above 95% consistently</td></tr><tr><td>3</td><td>Two-minute rounds, no backspace allowed</td><td>Corrections stop eating your time</td></tr><tr><td>4</td><td>Three-minute rounds, then one five-minute check</td><td>A reproducible number you can quote</td></tr></table>"
      ]
     },
     {
-     "h2": "A gentle starting point for beginners",
+     "h2": "The three habits that decide your ceiling",
      "p": [
-      "If longer tests feel intimidating, start here. Short durations and simple, everyday sentences let you build rhythm without pressure. There's no account, no difficulty spike and no penalty for a slow start — just type at a pace that feels comfortable and watch your numbers climb a little each time."
+      "<ul><li><strong>Looking at the keyboard.</strong> Every glance costs a beat and prevents the mental map from forming. Cover your hands once a day, even if it feels slow.</li><li><strong>Backspacing through every slip.</strong> At beginner speeds, corrections cost more than the errors. Practise finishing rounds without correcting.</li><li><strong>Two-finger typing.</strong> It works to about 35-40 WPM and then stops. If you are under 30 WPM, learning the home row now is cheaper than fixing it later.</li></ul>"
      ]
     },
     {
-     "h2": "Building typing confidence",
+     "h2": "What to do after the easy test",
      "p": [
-      "Confidence comes from repetition. Begin with the 15- or 30-second timer, keep your eyes on the screen, and let the on-screen keyboard guide your next key. As clean runs become routine, stretch to the one-minute test. Small wins stack up fast, and before long the keys you once hunted for will feel automatic."
+      "Once you hold 95% accuracy at 30 WPM on easy text, move to the <a href=\"beginner-typing-test.html\">beginner test</a> with normal sentences, then to the <a href=\"1-minute-typing-test.html\">one-minute test</a>. The easy page is a starting gate, not a home.",
+      "If you are already above 40 WPM, this page will flatter you - switch to the <a href=\"hard-typing-test.html\">hard typing test</a>, which includes capitals, digits and long words."
      ]
     }
    ],
@@ -565,19 +575,23 @@
    "faq": [
     {
      "q": "What makes this an easy typing test?",
-     "a": "It offers short rounds and a simple common-words mode, so beginners get a quick, encouraging WPM result without long or difficult passages."
+     "a": "Common short words, no digits or unusual punctuation, and a one-minute default. It isolates key-finding from everything else."
     },
     {
-     "q": "I am a slow typist — where do I start?",
-     "a": "Start with a 15 or 30 second round in the words mode, aim for accuracy first, and build up to longer tests as you improve."
+     "q": "I am a slow typist - where do I start?",
+     "a": "Two 60-second rounds a day, hands covered for one of them, and no backspacing. That combination removes the two habits that cap beginners at 30-40 WPM."
     },
     {
      "q": "Is it free?",
-     "a": "Yes, completely free with no sign up. Your results stay in your own browser."
+     "a": "Yes, with no account and no ads in the typing area. Results stay in your browser."
     },
     {
-     "q": "How easy is easy — what WPM should I expect first?",
-     "a": "Most beginners score 15 to 25 WPM on their first try with simple words, and that is normal. After a week of short daily rounds most reach 30+, the point where typing starts feeling useful instead of painful."
+     "q": "What WPM should I expect first?",
+     "a": "Most untrained adults start at 20-30 WPM with 90-95% accuracy. Below 20 WPM is usually two-finger typing rather than a lack of ability."
+    },
+    {
+     "q": "When should I move to a harder test?",
+     "a": "When you hold 95% accuracy at 30 WPM on easy text. Moving earlier just moves the errors to harder text."
     }
    ],
    "webAppName": "Easy Typing Test",
@@ -1368,27 +1382,31 @@
    "heroP": "Drill <strong>commas, periods, quotes and symbols</strong> with a punctuation typing test. Punctuation is where accuracy drops most, so train it directly and watch your WPM improve.",
    "seo": [
     {
-     "h2": "Punctuation typing test",
+     "h2": "Why punctuation is where accuracy breaks",
      "p": [
-      "Punctuation marks sit on the hardest-to-reach keys and often need the Shift key, so they are the biggest source of typing errors. This punctuation typing test feeds you real sentences full of commas, full stops, apostrophes, quotes and brackets so you can practise them in context."
+      "Letters sit under your fingers; punctuation does not. The comma, full stop, apostrophe and semicolon need extended reaches and often a Shift press, and none of them appear often enough in normal practice to become automatic.",
+      "There is a second reason: punctuation carries meaning. A missing apostrophe changes a word, a wrong comma changes a clause, and a full stop in the wrong place ends a sentence early. Typists who treat it as decoration produce text that has to be re-read."
      ]
     },
     {
-     "h2": "Tips for accurate punctuation",
+     "h2": "The marks that cost the most time",
      "p": [
-      "Slow down slightly before a punctuation mark, keep your fingers anchored on the home row, and learn the exact reach for each symbol. Accuracy matters more than speed here, because a misplaced comma or bracket is costly to fix."
+      "<table><tr><th>Mark</th><th>Where it is</th><th>Why it slows you down</th></tr><tr><td>Apostrophe '</td><td>Right of the semicolon</td><td>Right little finger, already the weakest, with no Shift</td></tr><tr><td>Comma ,</td><td>Right of M</td><td>Same finger as the apostrophe; frequent in real sentences</td></tr><tr><td>Full stop .</td><td>Right of the comma</td><td>Followed by a capital, so it is a two-key rhythm</td></tr><tr><td>Shifted symbols : ? ! \"</td><td>Top row with Shift</td><td>Two keys at once, opposite hands, and a return to the home row</td></tr></table>",
+      "If your error report concentrates on the right-hand column of the keyboard, that is not a knowledge problem - it is a reach problem, and it responds to short daily drills."
      ]
     },
     {
-     "h2": "Why punctuation is harder to type",
+     "h2": "How to drill punctuation without boredom",
      "p": [
-      "Letters live on the home and middle rows, but commas, apostrophes, quotation marks and brackets force your fingers to the edges of the keyboard — often with the Shift key held down. That reach breaks your rhythm, which is exactly why dedicated punctuation practice pays off for anyone who writes emails, essays or code all day."
+      "Use real sentences, not symbol lists. A list of punctuation marks trains the key but not the rhythm; sentences train the transition from word to mark and back, which is what actually fails under time pressure.",
+      "Then run one round where you deliberately slow to 80% and check every mark. The next round, type normally and see whether the accuracy carried over. Two rounds is a session; ten minutes is enough."
      ]
     },
     {
-     "h2": "Punctuation worth drilling",
+     "h2": "Where punctuation decides a test result",
      "p": [
-      "Focus on the marks you actually use: periods, commas, apostrophes in contractions, question marks, colons and parentheses. Practising sentences full of real punctuation trains the Shift-plus-symbol combinations until they feel automatic, so your writing flows without constant pauses to hunt for the right key."
+      "Exam passages include capitals and punctuation, and an omitted character counts as an error on every mainstream test. Candidates who skip punctuation to gain speed usually lose more in the error allowance than they gain in WPM.",
+      "For the exam-shaped version, see <a href=\"typing-test-for-jobs.html\">typing tests for jobs</a>; for the capitals half of the problem, the <a href=\"capital-letter-typing-test.html\">capital letter test</a>."
      ]
     }
    ],
@@ -1397,19 +1415,23 @@
    "faq": [
     {
      "q": "What is a punctuation typing test?",
-     "a": "It is a typing test that emphasises punctuation marks and symbols, letting you practise commas, periods, quotes, brackets and more in real sentences."
+     "a": "A test using sentences with full punctuation and capitals, so the score reflects how you handle marks rather than only letters."
     },
     {
      "q": "Why do I make so many punctuation errors?",
-     "a": "Punctuation keys are on the edges of the keyboard and many need the Shift key, so they break your home-row rhythm until you practise them."
+     "a": "Punctuation needs extended reaches, often with Shift, and appears too rarely in normal typing to become automatic. Right-hand marks are the usual weak spot."
     },
     {
      "q": "Is the punctuation test free?",
-     "a": "Yes, completely free with no account; punctuation drill results stay on your device."
+     "a": "Yes, no account, and results stay in your browser."
     },
     {
      "q": "Which punctuation marks slow typists down most?",
-     "a": "The apostrophe, comma and hyphen lead because they need a pinky stretch plus a rhythm break; brackets and quotes follow for programmers. Drill them in short bursts rather than full tests — ten focused minutes beats an hour of mixed typing."
+     "a": "The apostrophe and comma, both under the right little finger, and shifted symbols such as : ? ! which need two keys at once."
+    },
+    {
+     "q": "Do punctuation errors count on exams?",
+     "a": "Yes. An omitted or wrong mark is an error, and most tests apply an error allowance that a punctuation-skipping strategy will exhaust."
     }
    ],
    "webAppName": "Punctuation Typing Test",
@@ -2103,27 +2125,29 @@
    "heroP": "Turn typing practice into a <strong>game</strong>. Race the clock, beat your best WPM and track your scores. Free, fun, no sign up.",
    "seo": [
     {
-     "h2": "Typing test game",
+     "h2": "A typing test game, without the gimmicks",
      "p": [
-      "A <strong>typing test game</strong> makes practice fun by turning speed into a challenge: beat the clock, beat your previous best, and watch your WPM climb. The game format keeps you motivated to practise far longer than a plain drill would."
+      "This page runs the same typing engine as every other test here, with a shorter default round and a score you can beat. There is no account, no leaderboard and no reward loop - the game is the number, and the number is honest.",
+      "That matters more than it sounds. Most typing games reward raw speed, so players learn to type fast and sloppily, then plateau at 40 WPM with 90% accuracy. A game that shows accuracy next to speed teaches the habit that actually raises the score."
      ]
     },
     {
-     "h2": "Why games help typing",
+     "h2": "How to play it as a game",
      "p": [
-      "Gamified practice adds goals and instant feedback, which keeps you engaged. Choose the word mode for a fast arcade feel, and use your saved history to compete against your own best scores every day."
+      "<ul><li><strong>Beat your own high score</strong>, not someone else's. The result panel keeps your history in this browser, so the only fair comparison is your last five rounds.</li><li><strong>Play three-round sets.</strong> One warm-up, one scored, one accuracy-only. The third is what stops the first two from teaching bad habits.</li><li><strong>Change one variable per set</strong> - 15 seconds to 60, sentences to quotes, easy to hard. Changing two at once makes the result unreadable.</li></ul>"
      ]
     },
     {
-     "h2": "Why turning practice into a game works",
+     "h2": "Why short rounds feel better than they measure",
      "p": [
-      "Progress you can see is progress you repeat. Treating each round like a mini-game — beat your last WPM, keep accuracy above 97%, clear the text without a single backspace — turns dull drilling into a quick challenge you actually want to retry. The live speed graph and saved history make every attempt a high score to chase."
+      "A 15-second round is fun because it is a sprint: no fatigue, no drift, and the score comes fast. It is also 5-10 WPM higher than the same typist's five-minute score, so a game built only on sprints teaches you to overestimate yourself.",
+      "The fix is simple: use the short round for the fun, and check in with a five-minute round once a week. If the two numbers drift apart by more than 10 WPM, the sprint is flattering you."
      ]
     },
     {
-     "h2": "Fun challenges to try",
+     "h2": "Three challenges worth trying",
      "p": [
-      "Set yourself playful rules: a \"no mistakes\" run where one typo means restart, a sprint on the 15-second timer, or a marathon on the 5-minute setting. Switch the text to quotes or numbers to keep things fresh. Small, varied goals keep practice fun and your fingers learning without it ever feeling like homework."
+      "<ol><li><strong>No-backspace run:</strong> a mistake is not corrected, you just keep going. Most players gain 4-6 WPM immediately and discover how much time they were spending on corrections.</li><li><strong>Same text, three lengths:</strong> run the same text at 15 seconds, 60 seconds and 3 minutes. The spread tells you whether your problem is speed or stamina.</li><li><strong>Accuracy ladder:</strong> three rounds aiming for 100%, 98%, then 95%. You will find that the 95% round is the fastest of the three, which is the whole lesson.</li></ol>"
      ]
     }
    ],
@@ -2132,19 +2156,23 @@
    "faq": [
     {
      "q": "Is this typing game free?",
-     "a": "Yes, completely free with no sign up and no ads inside the typing area."
+     "a": "Yes, and there is no account. Scores are stored in your own browser, which is why there is no public leaderboard to chase."
     },
     {
      "q": "How do I beat my high score?",
-     "a": "Prioritise accuracy — errors cost more than slow typing. Warm up, then push speed on a short 15 or 30 second game."
+     "a": "Play in three-round sets: warm-up, scored, accuracy-only. Shortening the round or switching to easier text raises the score without improving your typing, so change one variable at a time."
     },
     {
      "q": "Are my scores saved?",
-     "a": "Yes, your recent results are saved in your own browser so you can try to beat them."
+     "a": "In this browser only, in localStorage. Nothing is sent to a server, and clearing site data removes the history."
     },
     {
-     "q": "How do I level up fastest in the typing game?",
-     "a": "Play short rounds daily instead of one long session, and replay the mode where your accuracy dips lowest. Speed follows accuracy: once a round stays above 97%, push pace and your high score climbs on its own."
+     "q": "How do I level up fastest?",
+     "a": "Accuracy first. Three rounds at 100%, 98% and 95% accuracy will show you that the 95% round is the fastest - speed follows control, not the other way round."
+    },
+    {
+     "q": "Why is my 15-second score so much higher?",
+     "a": "Sprints avoid fatigue and drift and typically read 5-10 WPM above a five-minute score. Use a five-minute round once a week as the honest number."
     }
    ],
    "webAppName": "Typing Speed Test",
@@ -6335,27 +6363,30 @@
    "heroP": "New to typing? Start here: an easy, forgiving test that measures where you are today so you can watch yourself improve.",
    "seo": [
     {
-     "h2": "A friendly first test",
+     "h2": "A first test that does not punish you",
      "p": [
-      "Most typing tests throw long words and heavy punctuation at you from the first keystroke. This beginner version keeps the text short and the words common, so you can finish a passage and actually see a score instead of drowning in errors."
+      "The default round is short, the words are common, and the score is reported with accuracy beside it. A beginner's first number should be a baseline, not a verdict - most untrained adults start at 20-30 WPM with 90-95% accuracy, and that is normal.",
+      "If your accuracy is below 85%, the speed number is not meaningful yet. Slow down until errors are rare; the speed will follow within two weeks and it will be a real number rather than a lucky one."
      ]
     },
     {
-     "h2": "Where should a beginner start?",
+     "h2": "What a beginner should actually practise",
      "p": [
-      "Begin with the home row — A, S, D, F for the left hand and J, K, L, ; for the right. Learn to reach each key with the correct finger instead of hunting with two fingers, even if it feels slower for the first few days. Speed is a by-product of accuracy; accuracy is a by-product of good technique. If the home row is already automatic, the <a href=\"home-row-typing-test.html\">home row typing test</a> turns that placement into a timed check."
-     ]
-    },
-    {
-     "h2": "Don't chase speed yet",
-     "p": [
-      "Aim for accuracy above 95% before you worry about words per minute. A beginner who types 25 WPM at 98% accuracy will outpace someone who types 40 WPM at 85% once corrections and real work are counted."
+      "<ul><li><strong>Home row first.</strong> asdf jkl; until the fingers return without looking.</li><li><strong>No looking down.</strong> One covered round a day. This is the single largest gain available at this stage.</li><li><strong>No backspace.</strong> Finish rounds with mistakes in them. Corrections cost more than errors at beginner speed.</li><li><strong>Ten minutes daily.</strong> Short and frequent beats a long weekly session, because the skill is motor memory.</li></ul>"
      ]
     },
     {
      "h2": "Your first realistic targets",
      "p": [
-      "Most complete beginners sit around 20 to 30 WPM. Getting to 40 WPM is a realistic first goal within a few weeks of ten minutes a day. Kids and occasional typists may take longer; there is no rush and no score to beat but your own. Once the beginner text starts to feel slow, step up to the <a href=\"easy-typing-test.html\">easy typing test</a> for a slightly harder passage at the same pace."
+      "<table><tr><th>Stage</th><th>WPM</th><th>Accuracy</th><th>What it unlocks</th></tr><tr><td>First week</td><td>15-25</td><td>90%+</td><td>Finishing a round without panic</td></tr><tr><td>First month</td><td>25-35</td><td>95%</td><td>Comfortable email and messaging</td></tr><tr><td>Three months</td><td>35-45</td><td>96-97%</td><td>Entry-level office requirements</td></tr><tr><td>Six months</td><td>45-60</td><td>97%+</td><td>Most clerical job floors</td></tr></table>",
+      "These are typical progressions for someone practising ten minutes a day, not guarantees. The variable that matters is consistency, not talent."
+     ]
+    },
+    {
+     "h2": "What to do after your first month",
+     "p": [
+      "Move to the <a href=\"1-minute-typing-test.html\">one-minute test</a> for the classic benchmark, and add the <a href=\"home-row-typing-test.html\">home row test</a> as a weekly check on technique. When you can hold 95% accuracy at 35 WPM, the <a href=\"40-wpm-typing-test.html\">40 WPM plan</a> is the next step.",
+      "Avoid jumping to hard text or code typing before the map is automatic - it moves the errors rather than removing them."
      ]
     }
    ],
@@ -6364,19 +6395,23 @@
    "faq": [
     {
      "q": "What is a good speed for a beginner?",
-     "a": "Between 20 and 30 words per minute is normal for a beginner. Reaching 40 WPM within a few weeks of daily practice is a realistic first goal."
+     "a": "20-30 WPM is normal for an untrained adult, with 90-95% accuracy. Reaching 35-45 WPM within three months of daily ten-minute practice is typical."
     },
     {
      "q": "Should beginners focus on speed or accuracy?",
-     "a": "Accuracy. Aim for 95% or higher before pushing for speed — clean typing is faster in the long run because you spend less time fixing mistakes."
+     "a": "Accuracy. At beginner speed corrections cost more than errors, and a sloppy fast habit is much harder to undo than a slow careful one."
     },
     {
      "q": "How long does it take to learn to type?",
-     "a": "With about ten minutes a day, most beginners reach a comfortable 40 WPM in four to eight weeks. Touch typing properly takes a bit longer but pays off for life."
+     "a": "Four to six weeks to type without looking, and two to four months to reach 60 WPM, assuming ten to fifteen minutes of daily practice."
     },
     {
      "q": "Is this beginner test free?",
-     "a": "Yes — free, no sign-up, and your results stay in your browser."
+     "a": "Yes, no account, no ads inside the typing area, and results stay in your browser."
+    },
+    {
+     "q": "Should I learn the home row first?",
+     "a": "Yes. It is the anchor every other reach returns to, and skipping it is what produces the two-finger ceiling at 35-40 WPM."
     }
    ],
    "webAppName": "Typing Speed Test",
@@ -6424,33 +6459,30 @@
    "heroP": "A ticking clock is the fairest way to measure typing speed. Choose your length and see how many words you can type before the buzzer.",
    "seo": [
     {
-     "h2": "How a timed typing test works",
+     "h2": "What changes when the clock is running",
      "p": [
-      "You type for a fixed number of seconds or minutes and the test counts every correctly typed character, then converts it to words per minute. Because the clock never pauses for backspacing, a timed test rewards clean, steady typing over burst speed."
+      "A timed test adds two things a free practice session does not: a fixed end point, and a score you can compare with someone else's. That is why employers use them and why practice rounds so often do not transfer - the pressure is part of the task.",
+      "The practical consequence is that you should practise under the same clock. A typist who only practises untimed will underperform by 5-10 WPM the first time a countdown appears."
      ]
     },
     {
-     "h2": "Pick the right duration",
+     "h2": "Choosing a duration that measures what you need",
      "p": [
-      "Careers and most online tests use one minute, so a 1-minute timed test is the standard benchmark. Data-entry and government exams often run three or five minutes to test stamina. Sprint-style challenges use 15 or 30 seconds, and typing-race communities favour 10 minutes to expose who holds speed under fatigue."
+      "<table><tr><th>Duration</th><th>What it measures</th><th>Typical use</th></tr><tr><td>15-30 seconds</td><td>Burst speed</td><td>Warm-up, key drills</td></tr><tr><td>1 minute</td><td>Short-form benchmark</td><td>Daily check, casual comparison</td></tr><tr><td>3 minutes</td><td>Screening length</td><td>Interview and exam rehearsal</td></tr><tr><td>5 minutes</td><td>Working pace</td><td>The number you quote; federal standard</td></tr><tr><td>10 minutes</td><td>Endurance</td><td>Transcription, data entry, long documents</td></tr></table>"
      ]
     },
     {
-     "h2": "Why timing matters",
+     "h2": "How the clock changes your errors",
      "p": [
-      "Without a clock it is easy to slow down on hard words or rest on your laurels. A timer forces an even rhythm and gives you a number you can compare week to week — the only way to know whether your practice is actually working."
+      "Short rounds produce errors of haste: a skipped letter, a wrong key under speed. Long rounds produce errors of attention: a dropped capital in minute six, a comma missed when the sentence changes direction.",
+      "That is why the same typist can have 98% accuracy on a one-minute test and 94% on a ten-minute one. If your job involves sustained typing, the ten-minute number is the honest one."
      ]
     },
     {
-     "h2": "Beat your own clock",
+     "h2": "Beat your own clock, not someone else's",
      "p": [
-      "Start shorter than you think you need: a 30-second timed test you finish cleanly teaches more than a 10-minute slog full of errors. Once you hold your accuracy above 97%, extend the duration and watch net speed stay flat — that is real progress."
-     ]
-    },
-    {
-     "h2": "Moving between test lengths",
-     "p": [
-      "Every duration on this page is the same engine with a different clock, which makes the lengths comparable to each other. Start at <a href=\"1-minute-typing-test.html\">one minute</a>, the format employers and certificates quote, then use the <a href=\"5-minute-typing-test.html\">five minute test</a> to see how much of that speed survives fatigue."
+      "Record the same length every week and compare against yourself. The only useful comparison across people is the same duration, the same text type and the same scoring method - change any of the three and the comparison is noise.",
+      "For the standard benchmarks by duration, see the <a href=\"wpm-chart.html\">WPM chart</a>; for the length most employers use, the <a href=\"5-minute-typing-test.html\">five-minute test</a>."
      ]
     }
    ],
@@ -6459,19 +6491,23 @@
    "faq": [
     {
      "q": "What is a timed typing test?",
-     "a": "A typing test where you type against a countdown clock for a set duration — usually 1, 2, 3, 5 or 10 minutes — and your speed is measured in words per minute."
+     "a": "A test with a fixed countdown, so the score reflects speed under time pressure rather than open-ended practice."
     },
     {
      "q": "What is the most common test length?",
-     "a": "One minute is the most common, used by most online tests and employers. Career exams and government tests often use three to five minutes."
+     "a": "One minute for casual benchmarking, three minutes for screening and five minutes for formal standards such as the US federal clerical test."
     },
     {
      "q": "Does the timer stop when I make a mistake?",
-     "a": "No. The clock keeps running so the score reflects your true working speed, including any slowdown caused by corrections."
+     "a": "No. The clock runs continuously, which is why corrections cost time and uncorrected errors cost accuracy - you choose which penalty to take."
     },
     {
      "q": "Can I choose my own time?",
-     "a": "Yes — use the duration chips to pick anything from 15 seconds to 10 minutes."
+     "a": "Yes, from 15 seconds to 10 minutes. Keep the same length when comparing scores across weeks."
+    },
+    {
+     "q": "Why is my accuracy lower on longer tests?",
+     "a": "Long rounds produce errors of attention rather than haste - a dropped capital in minute six, a missed comma when the sentence turns. That is the fatigue effect the longer test is designed to reveal."
     }
    ],
    "webAppName": "Typing Speed Test",
@@ -19216,6 +19252,120 @@
    "tldr": "Type real French and get mots par minute (MPM) plus caractères par minute. Accents are separate keys on AZERTY, and French punctuation puts a space before : ; ! ? — that spacing is part of the test. 40-50 MPM is a solid office speed.",
    "lang": "fr",
    "alts": true
+  },
+  {
+   "file": "touch-typing-course.html",
+   "title": "Touch Typing Course — 12 Lessons, 15 Minutes a Day",
+   "metaDesc": "A 12-lesson touch typing course with a drill and a pass criterion for each lesson. Home row to full sentences in four to six weeks, no account needed.",
+   "canonical": "https://typing.rerivo.com/touch-typing-course.html",
+   "dur": 60,
+   "mode": "sentences",
+   "variant": null,
+   "nav": [
+    {
+     "href": "1-minute-typing-test.html",
+     "text": "1 Minute Test"
+    },
+    {
+     "href": "words-per-minute-test.html",
+     "text": "WPM Test"
+    },
+    {
+     "href": "typing-practice.html",
+     "text": "Typing Practice"
+    }
+   ],
+   "crumbs": [
+    "Home",
+    "Touch Typing Course"
+   ],
+   "h1": "Touch Typing Course: 12 Lessons",
+   "heroP": "Twelve lessons, each with one drill and one pass criterion. You start on the home row and finish typing full sentences without looking, in <strong>four to six weeks at 15 minutes a day</strong>. No account, no software to install.",
+   "seo": [
+    {
+     "h2": "Before lesson 1: set up, and accept the dip",
+     "p": [
+      "Sit so your elbows are near 90 degrees, feet flat, screen at eye level. Put the keyboard flat, not tilted. Find the two bumps on F and J with your index fingers, and rest your thumbs on the spacebar.",
+      "Expect to get slower for the first week. Typing with ten fingers means abandoning a system that already works, and the new one takes about 300-500 repetitions per key before it stops needing attention. That dip is the cost of the ceiling you are removing, not a sign that it is not working."
+     ]
+    },
+    {
+     "h2": "Lessons 1-4: the rows",
+     "p": [
+      "<table><tr><th>Lesson</th><th>Drill</th><th>Pass criterion</th></tr><tr><td>1. Home row</td><td>asdf jkl; repeated, hands covered for the last two rounds</td><td>95% accuracy, no looking down</td></tr><tr><td>2. Home row + G, H</td><td>Words built only from asdfghjkl;</td><td>95% accuracy at 20 WPM</td></tr><tr><td>3. Top row</td><td>qwerty uiop added, one minute at a time</td><td>95% accuracy, 25 WPM</td></tr><tr><td>4. Bottom row</td><td>zxcvbnm added, then full alphabet words</td><td>95% accuracy, 30 WPM</td></tr></table>",
+      "Cover your hands for at least one round per lesson. Looking down is the habit that caps most people at 35-40 WPM, and it is far easier to prevent now than to break at 60."
+     ]
+    },
+    {
+     "h2": "Lessons 5-8: capitals, punctuation, digits, letter pairs",
+     "p": [
+      "<ul><li><strong>5. Capitals.</strong> Shift with the hand that is not typing the letter. Drill sentence case until the Shift press stops breaking rhythm.</li><li><strong>6. Punctuation.</strong> Full stops, commas, apostrophes and question marks in real sentences, not lists of symbols.</li><li><strong>7. Digits.</strong> Reach the number row with the correct finger. This is the slowest lesson for most adults and the one data-entry work actually needs.</li><li><strong>8. Letter pairs.</strong> th, he, in, er, an, re, on, at. Practising transitions moves 40-60 WPM faster than practising words, because that is where the hand movement lives.</li></ul>",
+      "Pass criteria for this block: 96% accuracy on a two-minute round with capitals and punctuation intact, and 97% on a one-minute numbers round."
+     ]
+    },
+    {
+     "h2": "Lessons 9-12: words, sentences, control, test",
+     "p": [
+      "<table><tr><th>Lesson</th><th>Drill</th><th>Pass criterion</th></tr><tr><td>9. Words</td><td>Top 200 common words, typed as whole units</td><td>40 WPM at 97%</td></tr><tr><td>10. Sentences</td><td>Three-minute rounds, normal text</td><td>45 WPM at 97%</td></tr><tr><td>11. Speed control</td><td>30-second sprints at maximum, then a slow accuracy round</td><td>Sprint peak 10-15 WPM above your sustainable pace</td></tr><tr><td>12. Full test</td><td>Five-minute net score, unfamiliar keyboard if possible</td><td>A number you can reproduce twice</td></tr></table>",
+      "Lesson 12 is not about hitting a target. It is about being able to reproduce a score, because that is what an employer's test will ask of you."
+     ]
+    },
+    {
+     "h2": "How long this actually takes",
+     "p": [
+      "For an adult starting from two-finger typing: home row secure in one to two weeks, all rows in three to four, and full sentences without looking in four to six. Reaching 60 WPM usually takes two to four months after that, because speed comes from accuracy plus repetition rather than from pushing.",
+      "Children need longer on the motor side and shorter on the reading side. The published classroom bands put grade 5 at roughly 25-35 WPM, which matches the same lesson path at a slower pace."
+     ]
+    },
+    {
+     "h2": "Why this order, and what the evidence says",
+     "p": [
+      "The order is rows first, then modifiers, then transitions. Rows build the map; modifiers build the reach; transitions build speed. Skipping to sentences before the map is automatic produces the hunt-and-peck pattern with extra steps.",
+      "One published finding is worth knowing: Feit, Weir and Oulasvirta (CHI 2016, doi.org/10.1145/2858036.2858233) found that consistent finger use and preparing the next keypress predict typing speed more than which specific finger presses which key. That is why the drills here emphasise not looking and rhythmic preparation over rigid finger doctrine."
+     ]
+    }
+   ],
+   "faqFirstOpen": true,
+   "faqH2": "Frequently asked questions",
+   "faq": [
+    {
+     "q": "How long does it take to learn touch typing?",
+     "a": "Four to six weeks at 15 minutes a day gets an adult from two-finger typing to full sentences without looking. Reaching 60 WPM typically takes another two to four months of regular practice."
+    },
+    {
+     "q": "Do I have to use the exact fingers?",
+     "a": "Close to it. Research on typists (Feit et al., CHI 2016) found that consistent finger use and preparing the next keypress predict speed more than which specific finger presses which key - so consistency matters more than doctrine."
+    },
+    {
+     "q": "Why am I slower after starting?",
+     "a": "You are replacing a working habit with an unfamiliar one. The dip lasts one to two weeks; the ceiling it removes (around 35-40 WPM for two-finger typing) never comes back."
+    },
+    {
+     "q": "Should I cover my hands?",
+     "a": "For at least one round per lesson. Looking down is the habit that caps speed, and preventing it is much easier than breaking it later."
+    },
+    {
+     "q": "Does this course need an account?",
+     "a": "No. Lessons run in the browser, results stay on your device, and there is nothing to install. Each lesson links to the test mode it needs."
+    }
+   ],
+   "webAppName": "Touch Typing Course: 12 Lessons",
+   "webAppUrl": "https://typing.rerivo.com/touch-typing-course.html",
+   "bcItems": [
+    {
+     "name": "Home",
+     "item": "https://typing.rerivo.com/"
+    },
+    {
+     "name": "Touch Typing Course",
+     "item": "https://typing.rerivo.com/touch-typing-course.html"
+    }
+   ],
+   "ldPretty": [
+    "FAQPage",
+    "BreadcrumbList"
+   ],
+   "tldr": "Lessons 1-4: home row, then top row, then bottom row, then all letters. Lessons 5-8: capitals, punctuation, digits, common letter pairs. Lessons 9-12: words, sentences, speed control, and a full test. Pass a lesson at 95% accuracy before moving on."
   }
  ]
 }

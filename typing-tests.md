@@ -73,6 +73,7 @@ Rust Typing Practice
 Excel Formula Typing Practice
 Typing Test for Accountants
 Typing Test for Paralegals
+Touch Typing Course: 12 Lessons
 
 ## Typing tests by language
 

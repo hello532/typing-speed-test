@@ -4,28 +4,45 @@ Source: https://typing.rerivo.com/beginner-typing-test.html
 
 New to typing? Start here: an easy, forgiving test that measures where you are today so you can watch yourself improve.
 
-Most typing tests throw long words and heavy punctuation at you from the first keystroke. This beginner version keeps the text short and the words common, so you can finish a passage and actually see a score instead of drowning in errors.
+The default round is short, the words are common, and the score is reported with accuracy beside it. A beginner's first number should be a baseline, not a verdict - most untrained adults start at 20-30 WPM with 90-95% accuracy, and that is normal.
 
-Begin with the home row — A, S, D, F for the left hand and J, K, L, ; for the right. Learn to reach each key with the correct finger instead of hunting with two fingers, even if it feels slower for the first few days. Speed is a by-product of accuracy; accuracy is a by-product of good technique. If the home row is already automatic, the home row typing test turns that placement into a timed check.
+If your accuracy is below 85%, the speed number is not meaningful yet. Slow down until errors are rare; the speed will follow within two weeks and it will be a real number rather than a lucky one.
 
-Aim for accuracy above 95% before you worry about words per minute. A beginner who types 25 WPM at 98% accuracy will outpace someone who types 40 WPM at 85% once corrections and real work are counted.
+Home row first. asdf jkl; until the fingers return without looking.
+No looking down. One covered round a day. This is the single largest gain available at this stage.
+No backspace. Finish rounds with mistakes in them. Corrections cost more than errors at beginner speed.
+Ten minutes daily. Short and frequent beats a long weekly session, because the skill is motor memory.
 
-Most complete beginners sit around 20 to 30 WPM. Getting to 40 WPM is a realistic first goal within a few weeks of ten minutes a day. Kids and occasional typists may take longer; there is no rush and no score to beat but your own. Once the beginner text starts to feel slow, step up to the easy typing test for a slightly harder passage at the same pace.
+Stage | WPM | Accuracy | What it unlocks
+First week | 15-25 | 90%+ | Finishing a round without panic
+First month | 25-35 | 95% | Comfortable email and messaging
+Three months | 35-45 | 96-97% | Entry-level office requirements
+Six months | 45-60 | 97%+ | Most clerical job floors
+
+These are typical progressions for someone practising ten minutes a day, not guarantees. The variable that matters is consistency, not talent.
+
+Move to the one-minute test for the classic benchmark, and add the home row test as a weekly check on technique. When you can hold 95% accuracy at 35 WPM, the 40 WPM plan is the next step.
+
+Avoid jumping to hard text or code typing before the map is automatic - it moves the errors rather than removing them.
 
 ## Beginner Typing Test FAQ
 
 ### What is a good speed for a beginner?
 
-Between 20 and 30 words per minute is normal for a beginner. Reaching 40 WPM within a few weeks of daily practice is a realistic first goal.
+20-30 WPM is normal for an untrained adult, with 90-95% accuracy. Reaching 35-45 WPM within three months of daily ten-minute practice is typical.
 
 ### Should beginners focus on speed or accuracy?
 
-Accuracy. Aim for 95% or higher before pushing for speed — clean typing is faster in the long run because you spend less time fixing mistakes.
+Accuracy. At beginner speed corrections cost more than errors, and a sloppy fast habit is much harder to undo than a slow careful one.
 
 ### How long does it take to learn to type?
 
-With about ten minutes a day, most beginners reach a comfortable 40 WPM in four to eight weeks. Touch typing properly takes a bit longer but pays off for life.
+Four to six weeks to type without looking, and two to four months to reach 60 WPM, assuming ten to fifteen minutes of daily practice.
 
 ### Is this beginner test free?
 
-Yes — free, no sign-up, and your results stay in your browser.
+Yes, no account, no ads inside the typing area, and results stay in your browser.
+
+### Should I learn the home row first?
+
+Yes. It is the anchor every other reach returns to, and skipping it is what produces the two-finger ceiling at 35-40 WPM.

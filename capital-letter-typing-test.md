@@ -4,28 +4,40 @@ Source: https://typing.rerivo.com/capital-letter-typing-test.html
 
 Practise uppercase letters and the Shift key with a focused capital letter typing test. Build muscle memory for capitals and symbols while tracking your WPM and accuracy.
 
-Capitals slow most people down because they need the Shift key and a return to the home row. This capital letter typing test gives you sentences full of proper nouns and uppercase words so you can drill the motion until it feels natural. Your WPM and accuracy are shown instantly after every run.
+A capital needs Shift pressed with the hand that is not typing the letter, then a quick return to the home row. Most people learn to use the same hand for both, which breaks the hand position and costs three keystrokes of rhythm for every capital.
 
-Use the opposite hand: press the Shift key with the hand that is not typing the letter. Keep your fingers on the home row and avoid using Caps Lock for single capitals. A few minutes of daily practice with this typing test makes the Shift reach automatic.
+On a sentence with six capitals in twenty words, that is roughly a 5% speed penalty and a much larger accuracy penalty, because the hand has to find the home row again after each one.
 
-Capital letters are where many typists lose speed. Reaching for Shift with the opposite hand — left Shift for right-hand letters and right Shift for left-hand letters — keeps your typing balanced and quick. This test mixes capitals through natural sentences so the Shift reach becomes second nature instead of a stumble.
+Shift for a single capital, Caps Lock for a run of them. Anything else mixes habits: Caps Lock for one letter means you press it twice and lose the rhythm either way, and forgetting to turn it off produces a burst of errors.
 
-Every sentence starts with a capital, and names, places and titles add many more. Practising proper capitalization trains the timing of pressing Shift and a letter together smoothly, so your names and sentence starts flow without the tiny pauses that quietly drag down your words-per-minute.
+If your operating system has a sticky-keys or Shift-lock behaviour, turn it off before practising. It masks the exact reach you are trying to build, and it will not be there on the keyboard an employer hands you.
+
+Type proper nouns and sentence starts for one minute, then check which hand pressed Shift. If the same hand typed the letter, the error is structural, not speed-related - and it will keep appearing in every exam passage.
+
+Then run a two-minute round with normal sentence case and compare the accuracy to your all-lowercase score. A drop of more than 3% means capitals are the weak link.
+
+Names, places, product names, legal defined terms and the start of every sentence. In legal and medical documents a wrong capital can change the meaning; in exam passages it is a scored error.
+
+For the punctuation half of the same skill, see the punctuation test; for the exam context, typing tests for jobs.
 
 ## Frequently asked questions
 
 ### What is a capital letter typing test?
 
-It is a typing test that focuses on uppercase letters and the Shift key, so you can practise capitals, proper nouns and symbols rather than only lowercase words.
+A test using sentence case and proper nouns, so it measures how you handle Shift as well as letter location.
 
 ### Why are capital letters hard to type?
 
-Capitals need a Shift key press with the opposite hand plus a quick return to the home row, which breaks your rhythm until the motion becomes muscle memory.
+They need Shift with the opposite hand plus a return to the home row. Using the same hand for both breaks the hand position and costs rhythm on every capital.
 
 ### Is the capital letter test free?
 
-Yes. Free with no sign up, and your Shift-key drill results stay in your own browser.
+Yes, no account needed, results stored in your browser.
 
-### Do I use Shift or Caps Lock for capitals?
+### Do I use Shift or Caps Lock?
 
-Always Shift for single capitals: hold it with the opposite hand's pinky while the other hand strikes the letter. Caps Lock is only for multi-letter acronyms, and reaching for it mid-sentence breaks rhythm and costs accuracy.
+Shift for a single capital, Caps Lock for a run of them. Mixing the two creates habits that fail under time pressure.
+
+### How much speed do capitals cost?
+
+About 3-5% on ordinary sentences, and more on text dense with proper nouns. Accuracy usually drops more than speed.

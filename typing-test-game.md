@@ -4,28 +4,40 @@ Source: https://typing.rerivo.com/typing-test-game.html
 
 Turn typing practice into a game. Race the clock, beat your best WPM and track your scores. Free, fun, no sign up.
 
-A typing test game makes practice fun by turning speed into a challenge: beat the clock, beat your previous best, and watch your WPM climb. The game format keeps you motivated to practise far longer than a plain drill would.
+This page runs the same typing engine as every other test here, with a shorter default round and a score you can beat. There is no account, no leaderboard and no reward loop - the game is the number, and the number is honest.
 
-Gamified practice adds goals and instant feedback, which keeps you engaged. Choose the word mode for a fast arcade feel, and use your saved history to compete against your own best scores every day.
+That matters more than it sounds. Most typing games reward raw speed, so players learn to type fast and sloppily, then plateau at 40 WPM with 90% accuracy. A game that shows accuracy next to speed teaches the habit that actually raises the score.
 
-Progress you can see is progress you repeat. Treating each round like a mini-game — beat your last WPM, keep accuracy above 97%, clear the text without a single backspace — turns dull drilling into a quick challenge you actually want to retry. The live speed graph and saved history make every attempt a high score to chase.
+Beat your own high score, not someone else's. The result panel keeps your history in this browser, so the only fair comparison is your last five rounds.
+Play three-round sets. One warm-up, one scored, one accuracy-only. The third is what stops the first two from teaching bad habits.
+Change one variable per set - 15 seconds to 60, sentences to quotes, easy to hard. Changing two at once makes the result unreadable.
 
-Set yourself playful rules: a "no mistakes" run where one typo means restart, a sprint on the 15-second timer, or a marathon on the 5-minute setting. Switch the text to quotes or numbers to keep things fresh. Small, varied goals keep practice fun and your fingers learning without it ever feeling like homework.
+A 15-second round is fun because it is a sprint: no fatigue, no drift, and the score comes fast. It is also 5-10 WPM higher than the same typist's five-minute score, so a game built only on sprints teaches you to overestimate yourself.
+
+The fix is simple: use the short round for the fun, and check in with a five-minute round once a week. If the two numbers drift apart by more than 10 WPM, the sprint is flattering you.
+
+No-backspace run: a mistake is not corrected, you just keep going. Most players gain 4-6 WPM immediately and discover how much time they were spending on corrections.
+Same text, three lengths: run the same text at 15 seconds, 60 seconds and 3 minutes. The spread tells you whether your problem is speed or stamina.
+Accuracy ladder: three rounds aiming for 100%, 98%, then 95%. You will find that the 95% round is the fastest of the three, which is the whole lesson.
 
 ## Typing test FAQ
 
 ### Is this typing game free?
 
-Yes, completely free with no sign up and no ads inside the typing area.
+Yes, and there is no account. Scores are stored in your own browser, which is why there is no public leaderboard to chase.
 
 ### How do I beat my high score?
 
-Prioritise accuracy — errors cost more than slow typing. Warm up, then push speed on a short 15 or 30 second game.
+Play in three-round sets: warm-up, scored, accuracy-only. Shortening the round or switching to easier text raises the score without improving your typing, so change one variable at a time.
 
 ### Are my scores saved?
 
-Yes, your recent results are saved in your own browser so you can try to beat them.
+In this browser only, in localStorage. Nothing is sent to a server, and clearing site data removes the history.
 
-### How do I level up fastest in the typing game?
+### How do I level up fastest?
 
-Play short rounds daily instead of one long session, and replay the mode where your accuracy dips lowest. Speed follows accuracy: once a round stays above 97%, push pace and your high score climbs on its own.
+Accuracy first. Three rounds at 100%, 98% and 95% accuracy will show you that the 95% round is the fastest - speed follows control, not the other way round.
+
+### Why is my 15-second score so much higher?
+
+Sprints avoid fatigue and drift and typically read 5-10 WPM above a five-minute score. Use a five-minute round once a week as the honest number.

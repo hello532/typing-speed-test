@@ -1,0 +1,87 @@
+{
+  "footer_group": "Skills and practice",
+  "llms_section": "Skill, Level, Format & Exam Tests",
+  "cluster": "practice",
+  "pages": [
+    {
+      "file": "touch-typing-course.html",
+      "title": "Touch Typing Course — 12 Lessons, 15 Minutes a Day",
+      "metaDesc": "A 12-lesson touch typing course with a drill and a pass criterion for each lesson. Home row to full sentences in four to six weeks, no account needed.",
+      "h1": "Touch Typing Course: 12 Lessons",
+      "heroP": "Twelve lessons, each with one drill and one pass criterion. You start on the home row and finish typing full sentences without looking, in <strong>four to six weeks at 15 minutes a day</strong>. No account, no software to install.",
+      "tldr": "Lessons 1-4: home row, then top row, then bottom row, then all letters. Lessons 5-8: capitals, punctuation, digits, common letter pairs. Lessons 9-12: words, sentences, speed control, and a full test. Pass a lesson at 95% accuracy before moving on.",
+      "dur": 60,
+      "mode": "sentences",
+      "crumbs": [
+        "Home",
+        "Touch Typing Course"
+      ],
+      "seo": [
+        {
+          "h2": "Before lesson 1: set up, and accept the dip",
+          "p": [
+            "Sit so your elbows are near 90 degrees, feet flat, screen at eye level. Put the keyboard flat, not tilted. Find the two bumps on F and J with your index fingers, and rest your thumbs on the spacebar.",
+            "Expect to get slower for the first week. Typing with ten fingers means abandoning a system that already works, and the new one takes about 300-500 repetitions per key before it stops needing attention. That dip is the cost of the ceiling you are removing, not a sign that it is not working."
+          ]
+        },
+        {
+          "h2": "Lessons 1-4: the rows",
+          "p": [
+            "<table><tr><th>Lesson</th><th>Drill</th><th>Pass criterion</th></tr><tr><td>1. Home row</td><td>asdf jkl; repeated, hands covered for the last two rounds</td><td>95% accuracy, no looking down</td></tr><tr><td>2. Home row + G, H</td><td>Words built only from asdfghjkl;</td><td>95% accuracy at 20 WPM</td></tr><tr><td>3. Top row</td><td>qwerty uiop added, one minute at a time</td><td>95% accuracy, 25 WPM</td></tr><tr><td>4. Bottom row</td><td>zxcvbnm added, then full alphabet words</td><td>95% accuracy, 30 WPM</td></tr></table>",
+            "Cover your hands for at least one round per lesson. Looking down is the habit that caps most people at 35-40 WPM, and it is far easier to prevent now than to break at 60."
+          ]
+        },
+        {
+          "h2": "Lessons 5-8: capitals, punctuation, digits, letter pairs",
+          "p": [
+            "<ul><li><strong>5. Capitals.</strong> Shift with the hand that is not typing the letter. Drill sentence case until the Shift press stops breaking rhythm.</li><li><strong>6. Punctuation.</strong> Full stops, commas, apostrophes and question marks in real sentences, not lists of symbols.</li><li><strong>7. Digits.</strong> Reach the number row with the correct finger. This is the slowest lesson for most adults and the one data-entry work actually needs.</li><li><strong>8. Letter pairs.</strong> th, he, in, er, an, re, on, at. Practising transitions moves 40-60 WPM faster than practising words, because that is where the hand movement lives.</li></ul>",
+            "Pass criteria for this block: 96% accuracy on a two-minute round with capitals and punctuation intact, and 97% on a one-minute numbers round."
+          ]
+        },
+        {
+          "h2": "Lessons 9-12: words, sentences, control, test",
+          "p": [
+            "<table><tr><th>Lesson</th><th>Drill</th><th>Pass criterion</th></tr><tr><td>9. Words</td><td>Top 200 common words, typed as whole units</td><td>40 WPM at 97%</td></tr><tr><td>10. Sentences</td><td>Three-minute rounds, normal text</td><td>45 WPM at 97%</td></tr><tr><td>11. Speed control</td><td>30-second sprints at maximum, then a slow accuracy round</td><td>Sprint peak 10-15 WPM above your sustainable pace</td></tr><tr><td>12. Full test</td><td>Five-minute net score, unfamiliar keyboard if possible</td><td>A number you can reproduce twice</td></tr></table>",
+            "Lesson 12 is not about hitting a target. It is about being able to reproduce a score, because that is what an employer's test will ask of you."
+          ]
+        },
+        {
+          "h2": "How long this actually takes",
+          "p": [
+            "For an adult starting from two-finger typing: home row secure in one to two weeks, all rows in three to four, and full sentences without looking in four to six. Reaching 60 WPM usually takes two to four months after that, because speed comes from accuracy plus repetition rather than from pushing.",
+            "Children need longer on the motor side and shorter on the reading side. The published classroom bands put grade 5 at roughly 25-35 WPM, which matches the same lesson path at a slower pace."
+          ]
+        },
+        {
+          "h2": "Why this order, and what the evidence says",
+          "p": [
+            "The order is rows first, then modifiers, then transitions. Rows build the map; modifiers build the reach; transitions build speed. Skipping to sentences before the map is automatic produces the hunt-and-peck pattern with extra steps.",
+            "One published finding is worth knowing: Feit, Weir and Oulasvirta (CHI 2016, doi.org/10.1145/2858036.2858233) found that consistent finger use and preparing the next keypress predict typing speed more than which specific finger presses which key. That is why the drills here emphasise not looking and rhythmic preparation over rigid finger doctrine."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "How long does it take to learn touch typing?",
+          "a": "Four to six weeks at 15 minutes a day gets an adult from two-finger typing to full sentences without looking. Reaching 60 WPM typically takes another two to four months of regular practice."
+        },
+        {
+          "q": "Do I have to use the exact fingers?",
+          "a": "Close to it. Research on typists (Feit et al., CHI 2016) found that consistent finger use and preparing the next keypress predict speed more than which specific finger presses which key - so consistency matters more than doctrine."
+        },
+        {
+          "q": "Why am I slower after starting?",
+          "a": "You are replacing a working habit with an unfamiliar one. The dip lasts one to two weeks; the ceiling it removes (around 35-40 WPM for two-finger typing) never comes back."
+        },
+        {
+          "q": "Should I cover my hands?",
+          "a": "For at least one round per lesson. Looking down is the habit that caps speed, and preventing it is much easier than breaking it later."
+        },
+        {
+          "q": "Does this course need an account?",
+          "a": "No. Lessons run in the browser, results stay on your device, and there is nothing to install. Each lesson links to the test mode it needs."
+        }
+      ]
+    }
+  ]
+}
