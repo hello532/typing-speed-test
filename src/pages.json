@@ -4408,6 +4408,15 @@
      "p": [
       "Last updated 2026-10-20. This page documents the methodology behind every benchmark on the site."
      ]
+    },
+    {
+     "h2": "How we decide what to publish, and how we fix mistakes",
+     "p": [
+      "Every number on this site falls into one of three categories, and the page always says which: a <strong>measured figure</strong> with a primary source and a DOI (for example the CHI 2018 typing study), an <strong>official standard</strong> quoted from a notice or exam authority, or a <strong>market range</strong> drawn from job advertisements and labelled as a range rather than a measurement.",
+      "Nothing else is published. There are no traffic numbers, no leaderboard statistics and no \"average by country\" table, because those would require data we do not have and could not verify. The <a href=\"typing-speed-benchmarks.html\">benchmarks page</a> states the same rule for the data it carries.",
+      "When a source is superseded or a figure turns out to be wrong, the page is revised and its date changes. The date you see at the bottom of every page comes from the site's own version history, and the same date is emitted in the page's structured data, so a page claiming to be current actually is.",
+      "What this site does not claim: it is not an accredited testing centre, it does not proctor anything, and a certificate printed here is explicitly self-issued. Those limits are spelled out on the <a href=\"typing-certificate-acceptance.html\">certificate acceptance</a> page rather than hidden in a footer."
+     ]
     }
    ],
    "faqH2": "About FAQ",
@@ -4435,6 +4444,10 @@
     {
      "q": "Who writes and maintains this site?",
      "a": "The site is built and maintained by the Typing.Rerivo team, which is the author declared in the structured data on every page. Contact is hello@rerivo.com; corrections to practice texts are welcome and are usually fixed in the next build."
+    },
+    {
+     "q": "How are corrections handled?",
+     "a": "If a cited source is superseded or a number is wrong, the page is revised and its last-updated date changes - the same date appears in the visible byline and in the page's structured data."
     }
    ],
    "bcItems": [

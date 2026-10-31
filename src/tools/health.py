@@ -14,6 +14,7 @@
   7. 页脚是否覆盖全部页面（verify 12）
   8. .md 镜像是否存在且与页面同源
   9. og:image / twitter 卡片是否有值
+ 10. 页内锚点是否全部能解析
 
 退出码 1 表示有 FAIL，方便挂 CI。
 """
@@ -82,6 +83,17 @@ def check() -> dict:
     llms = (ROOT / "llms.txt").read_text(encoding="utf-8")
     missing_llms = [n for n in names if n != "index.html" and n not in llms]
     (out["fail"] if missing_llms else out["ok"]).append(f"llms.txt 缺页：{len(missing_llms)}")
+
+    # 10) 页内锚点必须能解析（目录、跳转列表、脚注都靠它）
+    bad_anchor = []
+    for p in files:
+        h = p.read_text(encoding="utf-8")
+        ids = set(re.findall(r'\sid="([^"]+)"', h))
+        missing = {t for t in re.findall(r'href="#([^"]+)"', h) if t not in ids}
+        if missing:
+            bad_anchor.append((p.name, sorted(missing)[:3]))
+    (out["fail"] if bad_anchor else out["ok"]).append(
+        f"页内锚点未解析：{len(bad_anchor)}" + (f" {bad_anchor[:3]}" if bad_anchor else ""))
 
     # 描述长度分布（软指标，只报数）
     lens = []

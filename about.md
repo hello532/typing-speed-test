@@ -4,6 +4,15 @@ Source: https://typing.rerivo.com/about.html
 
 Typing.Rerivo is a free typing speed test that runs entirely in your browser. No account, no paywall, no upload: pick a duration from 15 seconds to 10 minutes, type, and get your WPM, accuracy and consistency instantly.
 
+On this page
+
+Why this site exists
+How the measurement works
+Contact
+Sources and standards we use
+About this page
+How we decide what to publish, and how we fix mistakes
+
 Most typing tests on the web are heavy pages that ask you to sign up, show ads between every test, or hide your results behind an email wall. This one is built the opposite way: one fast page, one test, one result, and everything stored in your own browser so your history stays yours. The full list of what we publish is on the typing tests directory.
 
 It started as a single page and grew by listening to what people actually searched for: timed variants from 15 seconds to 10 minutes, practice for punctuation and capital letters, number and symbol drills, a certificate you can print, a Dvorak keyboard that matches your layout, and one hand typing practice for people who type with a single hand.
@@ -26,6 +35,14 @@ O*NET 43-9021.00, Data Entry Keyers - the occupational profile we point to when 
 Benchmarks that come from commercial assessment vendors are linked with rel="nofollow" because we are not endorsing their paid tests; the free references above carry ordinary links.
 
 Last updated 2026-10-20. This page documents the methodology behind every benchmark on the site.
+
+Every number on this site falls into one of three categories, and the page always says which: a measured figure with a primary source and a DOI (for example the CHI 2018 typing study), an official standard quoted from a notice or exam authority, or a market range drawn from job advertisements and labelled as a range rather than a measurement.
+
+Nothing else is published. There are no traffic numbers, no leaderboard statistics and no "average by country" table, because those would require data we do not have and could not verify. The benchmarks page states the same rule for the data it carries.
+
+When a source is superseded or a figure turns out to be wrong, the page is revised and its date changes. The date you see at the bottom of every page comes from the site's own version history, and the same date is emitted in the page's structured data, so a page claiming to be current actually is.
+
+What this site does not claim: it is not an accredited testing centre, it does not proctor anything, and a certificate printed here is explicitly self-issued. Those limits are spelled out on the certificate acceptance page rather than hidden in a footer.
 
 ## About FAQ
 
@@ -52,3 +69,7 @@ From the five-character WPM convention documented for words per minute, plus pub
 ### Who writes and maintains this site?
 
 The site is built and maintained by the Typing.Rerivo team, which is the author declared in the structured data on every page. Contact is hello@rerivo.com; corrections to practice texts are welcome and are usually fixed in the next build.
+
+### How are corrections handled?
+
+If a cited source is superseded or a number is wrong, the page is revised and its last-updated date changes - the same date appears in the visible byline and in the page's structured data.
