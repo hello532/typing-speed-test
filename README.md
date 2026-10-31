@@ -131,6 +131,7 @@ og-cover.png       social preview image
 | `python3 src/tools/indexnow.py` | resubmits every URL to IndexNow (Bing/Yandex/Seznam/Naver) |
 | `python3 src/tools/health.py` | 9 local checks: dead links, duplicate titles, canonicals, h1s, sitemap/llms sync |
 | `python3 src/tools/weekly.py` | last week vs the week before, and what the change means |
+| `ego-browser nodejs < src/tools/browsercheck.js` | real-browser check of the live site: converter, calculator, directory filter, language wiring, page structure. Needs the local ego-browser CLI; 7 checks, exit 1 on failure |
 
 Numbers are kept in three separate layers everywhere: **observed** (GSC), **arithmetic**
 (impressions × CTR), **assumption** (industry CTR curve, labelled as such). No tool in this
