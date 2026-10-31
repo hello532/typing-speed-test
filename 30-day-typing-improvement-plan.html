@@ -76,6 +76,12 @@ a{color:inherit;}
 .wrap.w-fluid{max-width:100%;}
 
 header.top{display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:10px; margin-bottom:10px; padding-bottom:14px; border-bottom:1px solid var(--line);}
+/* R79: 语言/主题控件由 ui.js 事后插进 header。它不到达时 header 只有 ~78px，
+   到达后变成 168px（手机）/95px（桌面），于是下面所有内容下移 90px ——
+   实测这就是 CLS 0.09 的唯一来源（屏蔽广告后仍然存在，JS 关闭后消失）。
+   先把这段高度预留出来，插入时就不再推挤内容。 */
+header.top{min-height:168px;}
+@media(min-width:900px){header.top{min-height:95px;}}
 .logo{font-size:1.3rem; font-weight:800; color:var(--accent); text-decoration:none; letter-spacing:-.3px; transition:filter .15s;}
 nav.toplinks a{color:var(--dim); text-decoration:none; font-size:.9rem; margin-left:18px; font-weight:500; transition:color .15s;}
 nav.toplinks a:hover{color:var(--text);}
@@ -133,6 +139,13 @@ nav.crumbs span{color:var(--dim);}
 #resultPanel{animation:fadeInUp .2s ease-in-out;}
 /* R75: 同上，RTL 下 left:-9999px 会把绝对定位的输入框推到右侧 8,796px，
    形成可横向拖动的空白。改为原地 1px + clip，不依赖屏幕外坐标。 */
+/* R78: 打字区在 ui.js 到达前是空的（文字来自 ui.js 里的语种池，文件 177KB）。
+   Slow 4G 下它 1.5-2s 才执行，于是文字一出现就把下面的内容往下推 —— 实测 CLS 0.09-0.14。
+   这里给一个**低于实际渲染高度**的 min-height 兜底（实测最矮 606px@390 / 625px@1280），
+   用来吸收一部分跳动而不制造空白。真正的根治是把 14 个语种池拆出 ui.js。 */
+#text{min-height:60vh;}
+@media(min-width:900px){#text{min-height:420px;}}
+@media(max-height:640px){#text{min-height:44vh;}}
 #input{position:absolute;top:0;left:0;opacity:0;width:1px;height:1px;overflow:hidden;
   clip:rect(0 0 0 0);white-space:nowrap;border:0;padding:0;margin:-1px;}
 .focus-hint{text-align:center; color:var(--dim); font-size:.9rem; margin-top:14px; cursor:text;}
