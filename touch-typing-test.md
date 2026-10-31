@@ -12,6 +12,10 @@ Start by resting your index fingers on the small bumps on F and J, with the othe
 
 The full picture: is it hard to learn touch typing, how long to learn touch typing, the easy way to learn touch typing, and touch typing for adults.
 
+Three numbers, once a week, same test length and time of day: net WPM, accuracy, and consistency (how much your speed varies second to second). Progress in touch typing usually shows up in accuracy first, then consistency, then speed - in that order.
+
+If speed rises while accuracy falls, you are trading one for the other and the net result is flat. That is the most common false plateau, and the fix is a week of accuracy-only rounds rather than more speed work.
+
 ## Touch typing test FAQ
 
 ### What is a touch typing test?
@@ -37,3 +41,7 @@ No. Cover the keyboard with a piece of paper if you have to, and let the bumps o
 ### What is the home row?
 
 The home row is the middle letter row: A S D F G H J K L ; with the thumbs on the space bar. Every finger owns a small group of keys around the home row, and every finger returns home after each keystroke.
+
+### How do I know my touch typing is improving?
+
+Track net WPM, accuracy and consistency weekly at the same length. Accuracy improves first, then consistency, then speed; if speed rises while accuracy falls, the net result is flat.

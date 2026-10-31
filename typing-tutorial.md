@@ -4,6 +4,15 @@ Source: https://typing.rerivo.com/typing-tutorial.html
 
 Free typing tutorial for beginners. Step by step touch typing lessons in your browser: home row first, then every finger, then real speed. Each tutorial sentence is also your practice text, so reading the lesson is doing the lesson. No sign up, no cost.
 
+On this page
+
+The path, and what each stage is for
+What to skip, and in what order
+A four-week schedule that fits a working day
+How to know the tutorial worked
+When a stage will not click
+How long each stage actually takes
+
 Stage | What you do | Move on when
 1. Home row | asdf jkl; until the fingers return without looking | 95% accuracy, no glances
 2. All rows | Top row, then bottom row, one at a time | 30 WPM on ordinary words
@@ -22,6 +31,24 @@ Fifteen minutes a day is enough. The variable that predicts progress is not sess
 Two checks. First, you can type a sentence with your hands covered at 90% of your normal accuracy. Second, your five-minute net score improved by at least 5 WPM since the start.
 
 If neither happened, the cause is almost always that the covered round got dropped. It is the least pleasant part of the tutorial and the only part that removes the ceiling.
+
+Every stage has a characteristic failure, and each has one fix that works better than repeating the same drill:
+
+Symptom | What it usually means | Fix
+Accuracy collapses when you cover your hands | The key map is visual, not spatial | Two weeks of covered rounds at 30 seconds, no target
+Speed rises but errors rise faster | You are typing ahead of the buffer | Drop to 85% pace for a week; one error per round allowed
+Fine on sentences, lost on digits | The number row was never drilled | Two minutes of Numbers mode daily, graded on errors
+Good in practice, worse in tests | The countdown itself is the problem | Practise with the timer visible every session, same length as the test
+
+These are typical ranges for an adult practising fifteen minutes a day, not guarantees. The spread between people is wide, and the variable that predicts progress is how many days you show up, not how long each session is.
+
+Home row secure: 1-2 weeks.
+All rows without looking: 3-4 weeks.
+Capitals and punctuation not breaking rhythm: 5-6 weeks.
+45 WPM sustained on normal text: 2-3 months.
+60 WPM: 4-6 months for most adults starting from two-finger typing.
+
+If you are outside those ranges by a lot, the cause is almost always one of the four symptoms above rather than talent.
 
 ## Typing tutorial FAQ
 
@@ -44,3 +71,7 @@ The covered round. It is the only one that removes the look-at-keyboard habit, w
 ### Is this tutorial free?
 
 Yes, with no account. Each stage links to the test mode it needs, and results stay in your browser.
+
+### What if I get stuck at a stage?
+
+Each stage has a characteristic failure: a visual key map (fix with covered rounds), typing ahead of the buffer (drop to 85% pace), undrilled digits (two minutes of Numbers mode), or test anxiety (practise with the timer visible).

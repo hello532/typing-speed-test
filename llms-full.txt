@@ -368,6 +368,8 @@ How to improve your online typing speed
 Who uses an online typing test
 Online typing test vs installed typing software
 From testing to practising
+What makes an online typing test trustworthy
+Device and browser caveats
 An online typing test runs entirely in your browser — there's nothing to download or install. Pick a duration and text type, start typing, and get your WPM and accuracy instantly. It works on any device with a keyboard.
 Because it's browser-based, you can test your typing speed anywhere — at work, school or home — without software. Your results are saved locally so you can track progress over time, completely private.
 The fastest way to raise your WPM online is short, regular sessions. Five focused minutes a day beats one long weekly grind. Keep your fingers on the home row (ASDF JKL;), glance at the screen instead of the keys, and let your weakest fingers — the pinkies and ring fingers — do their share of the work. Speed follows accuracy, so slow down whenever your error count climbs.
@@ -378,11 +380,21 @@ Same engine everywhere - your score does not depend on which machine you used.
 Nothing leaves the device - results are stored in your own browser, not uploaded.
 The one trade-off is the keyboard itself. Typing on an unfamiliar keyboard can cost 5-10 WPM, so if you are comparing scores, compare them on the same machine.
 A test tells you where you are; practice moves you. The online typing practice page turns your score into a daily 10-minute routine with weak-key targeting.
+Four things decide whether a browser typing test gives you a number worth quoting:
+It reports net WPM, not only gross. A test that counts every character and never subtracts errors will flatter you by 5-10 WPM.
+It states the length and lets you change it. A 15-second burst and a five-minute run are different measurements.
+It shows accuracy beside speed. Speed without accuracy is not what employers screen on.
+It does not reward skipping punctuation. If capitals and full stops are absent from the passage, the score will not transfer to a document.
+None of that requires an account. A test that gates the score behind a sign-up is optimising for its own funnel, not for your measurement.
+Your keyboard changes the result more than your browser does. A laptop board, a mechanical board and a phone screen produce three different scores for the same skill - roughly 51 WPM, similar or slightly higher, and 36 WPM respectively in the published measurements.
+Two browser-level things are worth knowing: autocorrect and text-expansion tools can inflate a score without you noticing, and browser zoom changes how much text is visible, which changes how far ahead you can read. Test at 100% zoom, with autocorrect off, on the device you will be tested on.
 ## Typing test FAQ
 No. This online typing test runs fully in your browser on any device with a keyboard.
 Yes, completely free with no sign up. Results are saved only in your own browser.
 It works best with a physical keyboard, but you can try it on a tablet with an attached keyboard too.
 Yes — once the page loads, the test runs fully in your browser with no further network use. Your results save locally too, so a dropped connection mid-round never loses your score.
+It reports net WPM (errors subtracted), states the test length, shows accuracy beside speed, and includes capitals and punctuation in the passage. Sign-up walls and gross-only scoring are the usual red flags.
+Less than the keyboard does, but autocorrect, text expansion and unusual zoom levels all change the result. Test at 100% zoom with those tools off.
 
 ## Punctuation Typing Test
 Source: https://typing.rerivo.com/punctuation-typing-test.html
@@ -872,6 +884,8 @@ A touch typing test measures how fast and how accurately you type without lookin
 Muscle memory is built by frequency, not by marathon sessions. A daily 60 second touch typing test is enough to keep the home row fresh and to expose the two or three keys that always slow you down. Track your WPM across a week and you will see the pattern: accuracy climbs first, and speed follows a few days behind. When your accuracy passes 98 percent, you know the keyboard has finally moved into your fingers.
 Start by resting your index fingers on the small bumps on F and J, with the other fingers curling onto the home row beside them. Type the sentence on screen without glancing down; if you must look, look only after the line is finished. Keep your wrists floating and your shoulders down. After the test, read the error report: those keys, not your fastest ones, are your next practice targets.
 The full picture: is it hard to learn touch typing, how long to learn touch typing, the easy way to learn touch typing, and touch typing for adults.
+Three numbers, once a week, same test length and time of day: net WPM, accuracy, and consistency (how much your speed varies second to second). Progress in touch typing usually shows up in accuracy first, then consistency, then speed - in that order.
+If speed rises while accuracy falls, you are trading one for the other and the net result is flat. That is the most common false plateau, and the fix is a week of accuracy-only rounds rather than more speed work.
 ## Touch typing test FAQ
 A touch typing test measures your typing speed and accuracy while you type without looking at the keyboard. This one runs for 60 seconds and reports live WPM, accuracy, and a per-key error summary.
 Yes, it is completely free. There is no sign up, no account, and no paywall, and your results are stored only in your own browser.
@@ -879,6 +893,7 @@ A comfortable touch typing speed is 40 to 60 WPM, and 70 to 90 WPM is considered
 Expect the home row within a week and 40 to 60 WPM in three to four weeks of 10 to 15 minute daily sessions. Full speed takes longer, but this test doubles as training since every round uses real lesson sentences.
 No. Cover the keyboard with a piece of paper if you have to, and let the bumps on F and J guide your index fingers. Every glance down is a habit that costs speed later, so train the eyes to stay on the screen.
 The home row is the middle letter row: A S D F G H J K L ; with the thumbs on the space bar. Every finger owns a small group of keys around the home row, and every finger returns home after each keystroke.
+Track net WPM, accuracy and consistency weekly at the same length. Accuracy improves first, then consistency, then speed; if speed rises while accuracy falls, the net result is flat.
 
 ## Typing Race
 Source: https://typing.rerivo.com/typing-race.html
@@ -902,6 +917,13 @@ Source: https://typing.rerivo.com/typing-tutorial.html
 
 Free typing tutorial for beginners. Step by step touch typing lessons in your browser: home row first, then every finger, then real speed. Each tutorial sentence is also your practice text, so reading the lesson is doing the lesson. No sign up, no cost.
 
+On this page
+The path, and what each stage is for
+What to skip, and in what order
+A four-week schedule that fits a working day
+How to know the tutorial worked
+When a stage will not click
+How long each stage actually takes
 Stage | What you do | Move on when
 1. Home row | asdf jkl; until the fingers return without looking | 95% accuracy, no glances
 2. All rows | Top row, then bottom row, one at a time | 30 WPM on ordinary words
@@ -914,12 +936,26 @@ Week 1: two minutes home row, three minutes normal text, one minute covered. Wee
 Fifteen minutes a day is enough. The variable that predicts progress is not session length but the number of days you show up.
 Two checks. First, you can type a sentence with your hands covered at 90% of your normal accuracy. Second, your five-minute net score improved by at least 5 WPM since the start.
 If neither happened, the cause is almost always that the covered round got dropped. It is the least pleasant part of the tutorial and the only part that removes the ceiling.
+Every stage has a characteristic failure, and each has one fix that works better than repeating the same drill:
+Symptom | What it usually means | Fix
+Accuracy collapses when you cover your hands | The key map is visual, not spatial | Two weeks of covered rounds at 30 seconds, no target
+Speed rises but errors rise faster | You are typing ahead of the buffer | Drop to 85% pace for a week; one error per round allowed
+Fine on sentences, lost on digits | The number row was never drilled | Two minutes of Numbers mode daily, graded on errors
+Good in practice, worse in tests | The countdown itself is the problem | Practise with the timer visible every session, same length as the test
+These are typical ranges for an adult practising fifteen minutes a day, not guarantees. The spread between people is wide, and the variable that predicts progress is how many days you show up, not how long each session is.
+Home row secure: 1-2 weeks.
+All rows without looking: 3-4 weeks.
+Capitals and punctuation not breaking rhythm: 5-6 weeks.
+45 WPM sustained on normal text: 2-3 months.
+60 WPM: 4-6 months for most adults starting from two-finger typing.
+If you are outside those ranges by a lot, the cause is almost always one of the four symptoms above rather than talent.
 ## Typing tutorial FAQ
 Four to six weeks at 15 minutes a day to go from two-finger typing to sentences without looking. Speed beyond that comes from months of regular practice rather than more lessons.
 Not before 60 WPM on QWERTY. Switching early doubles the learning cost and prevents a clean comparison.
 Yes. Dates, amounts and reference codes appear in almost every real document, and the number row is where untrained typists lose accuracy first.
 The covered round. It is the only one that removes the look-at-keyboard habit, which is what caps most people at 35-40 WPM.
 Yes, with no account. Each stage links to the test mode it needs, and results stay in your browser.
+Each stage has a characteristic failure: a visual key map (fix with covered rounds), typing ahead of the buffer (drop to 85% pace), undrilled digits (two minutes of Numbers mode), or test anxiety (practise with the timer visible).
 
 ## Typing Tutor
 Source: https://typing.rerivo.com/typing-tutor.html
@@ -1998,6 +2034,13 @@ Source: https://typing.rerivo.com/keyboard-practice.html
 
 Before speed comes familiarity. Practise finding every key without looking and build the habits that make fast typing possible.
 
+On this page
+Practice that targets the keyboard, not the text
+What to look at, and what not to
+Layouts and the keys that move
+A ten-minute keyboard session
+The keyboard itself changes the exercise
+Reading your error report
 Most typing practice gives you text and hopes the keyboard sorts itself out. This page inverts it: the on-screen keyboard highlights the next key and the finger that owns it, so the drill is about where the keys are rather than what the sentence says.
 That is the right order for a beginner. Learn the map first, then the words. A typist who knows the map can type any text; a typist who has memorised sentences cannot type an unfamiliar word.
 Look at the on-screen keyboard for the first few rounds, then at the text, then - eventually - neither. The progression matters: watching the on-screen guide builds the map, watching your hands builds a dependency.
@@ -2009,6 +2052,11 @@ Dvorak and Colemak - alternative English layouts that reduce finger travel; see 
 If you work across layouts, practise each one separately. Alternating within a session creates interference that slows both.
 Two minutes on the home row with the guide visible, two minutes on the row you miss most, three minutes on normal text, and three minutes covered. Log one number at the end - the accuracy figure, not the speed.
 That is the whole session. It is short enough to repeat daily, which is the only variable that reliably matters.
+A laptop chiclet keyboard has about 1.5 mm of travel and keys 19 mm apart; a mechanical board usually has 3-4 mm and the same spacing. The spacing matters for accuracy - your fingers reach the same distance - while the travel matters for speed and for how forgiving a mistyped key is.
+Three practical consequences for practice: on a laptop, your wrists sit lower and the temptation to rest them on the palm rest is stronger; on a full-size board the number pad pushes the mouse further away, which changes shoulder position; and on a compact board without a number pad, the digit row is the only way to type numbers, so the drill is different.
+If you practise on one keyboard and are tested on another, spend one session a week on the other one. Key travel and keycap shape change your error rate more than a week of extra drills.
+After a session, look at which keys appear most often in the miss list rather than at the score. A cluster on the right hand usually means the reaches to the bracket and apostrophe area; a cluster on the left hand usually means the pinky is not returning to A.
+Then drill the cluster, not the whole alphabet. Thirty seconds on five keys beats ten minutes on all of them, because the failure is local and so is the fix.
 ## Keyboard Practice FAQ
 Ten minutes a day: home row with the on-screen guide, then your weakest row, then normal text, then one covered round. Log accuracy rather than speed.
 The middle row of letters - A S D F on the left, J K L ; on the right - where your fingers rest between keystrokes. The bumps on F and J let you find it without looking.
@@ -2017,6 +2065,8 @@ Yes, with no account. Results stay in your browser.
 For learning, yes - practise the layout you actually use. QWERTY, QWERTZ, AZERTY and alternative layouts move different keys, and mixing them in one session creates interference.
 Ten minutes a day: home row with the on-screen guide, then your weakest row, then normal text, then one round with your hands covered. Log accuracy, not speed.
 Learn the home row first and cover your hands for one round a day. The look-at-keyboard habit is what caps speed, and preventing it is easier than breaking it later.
+Slightly, for most people - shorter travel and clearer feedback are worth roughly 3-8 WPM at best. It will not fix the look-at-keyboard habit, which is the larger constraint.
+Yes, and you should if that is what you will be tested on. Laptops have less key travel and a lower wrist position, both of which change your error pattern.
 
 ## Japanese Typing Test
 Source: https://typing.rerivo.com/japanese-typing-test.html

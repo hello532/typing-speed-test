@@ -12,6 +12,8 @@ How to improve your online typing speed
 Who uses an online typing test
 Online typing test vs installed typing software
 From testing to practising
+What makes an online typing test trustworthy
+Device and browser caveats
 
 An online typing test runs entirely in your browser — there's nothing to download or install. Pick a duration and text type, start typing, and get your WPM and accuracy instantly. It works on any device with a keyboard.
 
@@ -31,6 +33,19 @@ The one trade-off is the keyboard itself. Typing on an unfamiliar keyboard can c
 
 A test tells you where you are; practice moves you. The online typing practice page turns your score into a daily 10-minute routine with weak-key targeting.
 
+Four things decide whether a browser typing test gives you a number worth quoting:
+
+It reports net WPM, not only gross. A test that counts every character and never subtracts errors will flatter you by 5-10 WPM.
+It states the length and lets you change it. A 15-second burst and a five-minute run are different measurements.
+It shows accuracy beside speed. Speed without accuracy is not what employers screen on.
+It does not reward skipping punctuation. If capitals and full stops are absent from the passage, the score will not transfer to a document.
+
+None of that requires an account. A test that gates the score behind a sign-up is optimising for its own funnel, not for your measurement.
+
+Your keyboard changes the result more than your browser does. A laptop board, a mechanical board and a phone screen produce three different scores for the same skill - roughly 51 WPM, similar or slightly higher, and 36 WPM respectively in the published measurements.
+
+Two browser-level things are worth knowing: autocorrect and text-expansion tools can inflate a score without you noticing, and browser zoom changes how much text is visible, which changes how far ahead you can read. Test at 100% zoom, with autocorrect off, on the device you will be tested on.
+
 ## Typing test FAQ
 
 ### Do I need to install anything?
@@ -48,3 +63,11 @@ It works best with a physical keyboard, but you can try it on a tablet with an a
 ### Does the online test work offline after loading?
 
 Yes — once the page loads, the test runs fully in your browser with no further network use. Your results save locally too, so a dropped connection mid-round never loses your score.
+
+### How do I know an online typing test is accurate?
+
+It reports net WPM (errors subtracted), states the test length, shows accuracy beside speed, and includes capitals and punctuation in the passage. Sign-up walls and gross-only scoring are the usual red flags.
+
+### Does my browser affect the score?
+
+Less than the keyboard does, but autocorrect, text expansion and unusual zoom levels all change the result. Test at 100% zoom with those tools off.
