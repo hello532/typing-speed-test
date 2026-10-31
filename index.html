@@ -133,7 +133,10 @@ nav.crumbs span{color:var(--dim);}
 @keyframes pulse{50%{background:var(--accent);}}
 @keyframes fadeInUp{from{opacity:0;transform:translateY(-8px);}to{opacity:1;transform:translateY(0);}}
 #resultPanel{animation:fadeInUp .2s ease-in-out;}
-#input{position:absolute; opacity:0; width:1px; height:1px; left:-9999px;}
+/* R75: 同上，RTL 下 left:-9999px 会把绝对定位的输入框推到右侧 8,796px，
+   形成可横向拖动的空白。改为原地 1px + clip，不依赖屏幕外坐标。 */
+#input{position:absolute;top:0;left:0;opacity:0;width:1px;height:1px;overflow:hidden;
+  clip:rect(0 0 0 0);white-space:nowrap;border:0;padding:0;margin:-1px;}
 .focus-hint{text-align:center; color:var(--dim); font-size:.9rem; margin-top:14px; cursor:text;}
 .focus-hint b{color:var(--cur); font-weight:600;}
 
@@ -293,8 +296,15 @@ html[data-theme="green"]{
 .typing.blurred .refocus{display:flex;position:absolute;inset:0;align-items:center;justify-content:center;font-size:1.02rem;color:var(--text);font-weight:700;letter-spacing:.3px;pointer-events:none;}
 @media(max-width:560px){.kbd,.hands,.kbd-size,.kbd-tools .lab{display:none;}.kbd-tools{justify-content:center;}}
 /* ---------- a11y: skip link（默认不可见，键盘聚焦时出现）---------- */
-.skip{position:fixed;left:-9999px;top:0;z-index:200;background:var(--accent);color:#241c00;font-weight:800;padding:11px 20px;border-radius:0 0 12px 12px;text-decoration:none;font-size:.92rem;}
-.skip:focus{left:14px;}
+/* R75: 跳转链接原来用 left:-9999px 藏起来。LTR 下这没问题，但 RTL 页面（ar/ur）
+   的水平滚动起点在右侧，负 left 变成向右 8,796px 的可滚动区 —— 三段内容因此能横向拖走。
+   改用 clip 式的视觉隐藏：不靠屏幕外坐标，任何方向都不产生溢出。 */
+.skip{position:absolute;left:0;top:0;width:1px;height:1px;margin:-1px;padding:0;border:0;
+  overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap;z-index:200;}
+.skip:focus{position:fixed;width:auto;height:auto;margin:0;clip:auto;padding:11px 20px;left:14px;
+  background:var(--accent);color:#241c00;font-weight:800;border-radius:0 0 12px 12px;
+  text-decoration:none;font-size:.92rem;}
+html[dir="rtl"] .skip:focus{left:auto;right:14px;}
 
 /* ---------- a11y: 减少动效（用户偏好）---------- */
 @media (prefers-reduced-motion: reduce){
