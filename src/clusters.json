@@ -299,6 +299,14 @@
     {
       "file": "vietnamese-typing-test.html",
       "title": "Kiểm Tra Tốc Độ Gõ Phím Tiếng Việt"
+    },
+    {
+      "file": "german-typing-test.html",
+      "title": "German Typing Test"
+    },
+    {
+      "file": "french-typing-test.html",
+      "title": "French Typing Test"
     }
   ],
   "core": [

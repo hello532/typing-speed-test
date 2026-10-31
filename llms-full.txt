@@ -5234,6 +5234,8 @@ Türkçe Klavye Hız Testi
 Typing Tests in Other Languages
 Urdu Typing Test
 Kiểm Tra Tốc Độ Gõ Phím Tiếng Việt
+German Typing Test
+French Typing Test
 ## Popular typing tests
 Best Free Typing Tests Online
 Custom Typing Test
@@ -5737,3 +5739,56 @@ About the 66th on desktop. The percentile curve here is a normal approximation o
 Yes - typing-speed-benchmarks.csv has 25 rows at 5 WPM steps with percentile, CPM and keystrokes per hour. Reuse it with attribution to Typing.Rerivo and the original papers.
 Older sources quote about 40 WPM from small office-worker samples; the 51.56 WPM figure comes from a 168,960-person online sample. Both describe real populations but not the same one.
 Yes, unusually so: both studies used the same transcription task and the mobile paper compares itself to the desktop one directly, reporting about 15 WPM difference.
+
+## German Typing Test
+Source: https://typing.rerivo.com/german-typing-test.html
+
+Real German sentences with the characters that actually slow typists down: ä, ö, ü, ß and the comma-heavy clause structure. Works on a QWERTZ keyboard, no sign up, results stay in your browser.
+
+German adds four characters that English does not use: ä, ö, ü and ß. On a QWERTZ keyboard they sit on dedicated keys to the right of P and L, so they need a reach rather than a modifier - which means they interrupt the hand position less than a Shift combination, but they are pressed less often and therefore practised less.
+The second difference is length. German compounds produce long words (Geschwindigkeitsmessung, Tastaturbelegung), and long words mean more consecutive keystrokes per word with no space to reset the hand. Typists who are comfortable at 60 WPM on English often measure 50-55 on German text at the same accuracy.
+German-language typing tests usually report two figures. Wörter pro Minute (WPM) counts five characters as one word, the same convention used in English. Anschläge pro Minute (CPM, sometimes Zeichen pro Minute) counts every character, which is what German office job adverts often quote.
+Anschläge/Min | Wörter/Min | Einordnung
+150 | 30 | Anfangsniveau, Übung nötig
+200 | 40 | Solide für Büroarbeit
+250 | 50 | Gut, über dem Durchschnitt
+300 | 60 | Schnell, für Sekretariat und Datenerfassung
+400 | 80 | Sehr schnell, obere 10%
+The conversion is arithmetic: WPM = Anschläge ÷ 5. Nothing about German text changes the formula, only the character mix.
+German-speaking countries use QWERTZ: Y and Z are swapped relative to QWERTY, and the umlauts sit on their own keys. If you type on a QWERTZ keyboard, this test works as-is, because the browser reports the character your operating system produces, not the physical key.
+If you are learning German on a QWERTY keyboard, enable the German layout in your operating system before practising. Typing German text on an English layout means hunting for the umlauts, which trains the wrong habit and produces a score that does not transfer.
+Start with one-minute rounds on sentences, then move to five minutes once accuracy holds above 97%. German rewards rhythm more than speed: the comma clauses give you natural places to breathe, and typists who rush through them accumulate errors on the endings.
+If your goal is a specific job, check what the advert quotes. Office and Verwaltung roles typically ask 200-300 Anschläge pro Minute; Datenerfassung is quoted in keystrokes per hour, which you can convert on the WPM to KPH converter.
+For the general benchmarks behind these bands, see the average typing speed page; for the English version of this test, English typing test.
+## Frequently asked questions
+200-250 Anschläge pro Minute (40-50 Wörter pro Minute) is solid for office work. Office and administrative roles commonly ask 200-300, and data entry is quoted in keystrokes per hour.
+Yes. The test compares the characters your operating system produces, so a German layout with umlauts and ß on their own keys works without configuration.
+German compounds produce longer words with more consecutive keystrokes, and the umlauts are pressed less often than letters, so they stay less practised. A 10% drop at equal accuracy is normal.
+On a QWERTZ keyboard they have their own keys to the right of P and L. On a QWERTY keyboard, add the German layout in your OS settings rather than using Alt codes, which do not train the correct motion.
+Forty words per minute. Anschläge ÷ 5 = Wörter pro Minute, the same five-characters-per-word convention used by English typing tests.
+
+## French Typing Test
+Source: https://typing.rerivo.com/french-typing-test.html
+
+Real French text with the characters that decide accuracy: é, è, ê, à, ç, ù, œ and the space before a colon. Works on an AZERTY keyboard, and the score is reported in mots par minute and caractères par minute.
+
+Three things. First, accents: é, è, ê, à, ç and ù each have their own key on AZERTY, and œ (as in cœur) is a separate character again. Second, punctuation spacing: French typography puts a space before : ; ! ? and inside guillemets, so a correct sentence has more keystrokes than the English equivalent.
+Third, apostrophes. French elides constantly (l'oiseau, qu'il, d'accord), and the apostrophe key on AZERTY sits on the fourth row, reached with the right little finger. That single reach accounts for a large share of errors in French typing tests.
+French tests report mots par minute (MPM) and caractères par minute (CPM). The word count uses five characters per word, the same convention as English, so a French and an English score are comparable - provided both tests count characters the same way.
+Caractères/Min | Mots/Min | Repère
+150 | 30 | Débutant, entraînement nécessaire
+200 | 40 | Correct pour le travail de bureau
+250 | 50 | Bon, au-dessus de la moyenne
+300 | 60 | Rapide, secrétariat et saisie
+400 | 80 | Très rapide, 10% supérieurs
+French keyboards are AZERTY: A and Q swap, Z and W swap, M moves next to L, and the accented letters replace the number row. If you use an AZERTY keyboard, this test works directly, because the browser receives the character your system produces.
+The detail that catches people is the space before double punctuation. A French sentence writes « Bonjour : voici » with a space before the colon, not « Bonjour: voici ». Typing tests that use real French text include that space, and typists trained on English punctuation lose accuracy on it until they notice.
+One-minute rounds first, then five minutes once accuracy is above 97%. Add a round with quotes once a week, because that is where the guillemets and the double punctuation appear together.
+French office and secrétariat postings commonly quote 40-50 mots par minute, and some public-sector concours include a bureautique exercise rather than a formal typing score. Saisie de données roles are quoted in caractères par minute or keystrokes per hour - convert with the WPM to KPH converter.
+For benchmarks across languages, see average typing speed; for the English version, English typing test.
+## Frequently asked questions
+40-50 mots par minute (200-250 caractères par minute) is solid for office work. Secretarial and data-entry roles often ask for 50-60 MPM, with accuracy above 97%.
+Yes. The test compares the characters your operating system produces, so accented letters and ç work directly on an AZERTY layout without configuration.
+French typography requires a space before : ; ! ? and uses guillemets, which adds keystrokes. If you learned English punctuation, the extra space is a habit you have to build.
+On AZERTY, accents have their own keys and œ is typed with a dedicated combination. Add the French layout in your OS settings rather than using Alt codes, which do not train the right motion.
+Fifty mots par minute. Characters ÷ 5 = words, the same convention used by English typing tests, so the two scores are comparable.

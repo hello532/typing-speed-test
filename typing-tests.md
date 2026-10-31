@@ -99,6 +99,8 @@ Türkçe Klavye Hız Testi
 Typing Tests in Other Languages
 Urdu Typing Test
 Kiểm Tra Tốc Độ Gõ Phím Tiếng Việt
+German Typing Test
+French Typing Test
 
 ## Popular typing tests
 

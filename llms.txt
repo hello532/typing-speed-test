@@ -109,6 +109,8 @@ Each line below is a claim this site makes, with the source that supports it. Qu
 - [Excel Formula Typing Practice](https://typing.rerivo.com/excel-formula-typing-practice.html): Excel formulas are 30-40% punctuation by character count. The frequent failures are unbalanced brackets, a comma typed as a full stop, and a missing $ in an abs
 - [Typing Test for Accountants](https://typing.rerivo.com/typing-test-for-accountants.html): Accounting roles rarely advertise a WPM figure. What matters is numeric entry: 8,000-12,000 keystrokes per hour on the keypad, 99%+ accuracy on amounts, and com
 - [Typing Test for Paralegals](https://typing.rerivo.com/typing-test-for-paralegal.html): Paralegal postings typically ask 50-65 WPM with high accuracy. The differentiator is consistency: party names, case citations and paragraph numbering must be id
+- [German Typing Test](https://typing.rerivo.com/german-typing-test.html): Type real German text and get Wörter pro Minute (WPM) plus Anschläge pro Minute (CPM). Umlauts and ß are separate keys on QWERTZ, and they are where most errors
+- [French Typing Test](https://typing.rerivo.com/french-typing-test.html): Type real French and get mots par minute (MPM) plus caractères par minute. Accents are separate keys on AZERTY, and French punctuation puts a space before : ; !
 
 
 ## Word Lists (Top 200 by Frequency)

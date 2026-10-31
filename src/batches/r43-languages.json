@@ -1,0 +1,110 @@
+{
+  "footer_group": "Typing tests by language",
+  "llms_section": "Text / Difficulty Variations",
+  "cluster": "language",
+  "pages": [
+    {
+      "file": "german-typing-test.html",
+      "title": "German Typing Test — Umlaute, ß und QWERTZ",
+      "metaDesc": "German typing test with real sentences: ä ö ü ß, QWERTZ layout, comma rules. Measures Wörter pro Minute and Anschläge pro Minute. No sign up.",
+      "h1": "German Typing Test",
+      "heroP": "Real German sentences with the characters that actually slow typists down: <strong>ä, ö, ü, ß</strong> and the comma-heavy clause structure. Works on a QWERTZ keyboard, no sign up, results stay in your browser.",
+      "tldr": "Type real German text and get Wörter pro Minute (WPM) plus Anschläge pro Minute (CPM). Umlauts and ß are separate keys on QWERTZ, and they are where most errors appear. 200-250 Anschläge pro Minute is a solid office speed.",
+      "dur": 60,
+      "mode": "sentences",
+      "lang": "de",
+      "alts": true,
+      "crumbs": ["Home", "German Typing Test"],
+      "seo": [
+        {
+          "h2": "What makes German different to type",
+          "p": [
+            "German adds four characters that English does not use: <strong>ä, ö, ü</strong> and <strong>ß</strong>. On a QWERTZ keyboard they sit on dedicated keys to the right of P and L, so they need a reach rather than a modifier - which means they interrupt the hand position less than a Shift combination, but they are pressed less often and therefore practised less.",
+            "The second difference is length. German compounds produce long words (Geschwindigkeitsmessung, Tastaturbelegung), and long words mean more consecutive keystrokes per word with no space to reset the hand. Typists who are comfortable at 60 WPM on English often measure 50-55 on German text at the same accuracy."
+          ]
+        },
+        {
+          "h2": "Wörter pro Minute und Anschläge pro Minute",
+          "p": [
+            "German-language typing tests usually report two figures. <em>Wörter pro Minute</em> (WPM) counts five characters as one word, the same convention used in English. <em>Anschläge pro Minute</em> (CPM, sometimes Zeichen pro Minute) counts every character, which is what German office job adverts often quote.",
+            "<table><tr><th>Anschläge/Min</th><th>Wörter/Min</th><th>Einordnung</th></tr><tr><td>150</td><td>30</td><td>Anfangsniveau, Übung nötig</td></tr><tr><td>200</td><td>40</td><td>Solide für Büroarbeit</td></tr><tr><td>250</td><td>50</td><td>Gut, über dem Durchschnitt</td></tr><tr><td>300</td><td>60</td><td>Schnell, für Sekretariat und Datenerfassung</td></tr><tr><td>400</td><td>80</td><td>Sehr schnell, obere 10%</td></tr></table>",
+            "The conversion is arithmetic: WPM = Anschläge ÷ 5. Nothing about German text changes the formula, only the character mix."
+          ]
+        },
+        {
+          "h2": "QWERTZ, and why your layout matters",
+          "p": [
+            "German-speaking countries use QWERTZ: Y and Z are swapped relative to QWERTY, and the umlauts sit on their own keys. If you type on a QWERTZ keyboard, this test works as-is, because the browser reports the character your operating system produces, not the physical key.",
+            "If you are learning German on a QWERTY keyboard, enable the German layout in your operating system before practising. Typing German text on an English layout means hunting for the umlauts, which trains the wrong habit and produces a score that does not transfer."
+          ]
+        },
+        {
+          "h2": "How to practise",
+          "p": [
+            "Start with one-minute rounds on sentences, then move to five minutes once accuracy holds above 97%. German rewards rhythm more than speed: the comma clauses give you natural places to breathe, and typists who rush through them accumulate errors on the endings.",
+            "If your goal is a specific job, check what the advert quotes. Office and Verwaltung roles typically ask 200-300 Anschläge pro Minute; Datenerfassung is quoted in keystrokes per hour, which you can convert on the <a href=\"wpm-to-kph-converter.html\">WPM to KPH converter</a>.",
+            "For the general benchmarks behind these bands, see the <a href=\"average-typing-speed.html\">average typing speed</a> page; for the English version of this test, <a href=\"english-typing-test.html\">English typing test</a>."
+          ]
+        }
+      ],
+      "faq": [
+        {"q": "What is a good German typing speed?", "a": "200-250 Anschläge pro Minute (40-50 Wörter pro Minute) is solid for office work. Office and administrative roles commonly ask 200-300, and data entry is quoted in keystrokes per hour."},
+        {"q": "Does this test work on a QWERTZ keyboard?", "a": "Yes. The test compares the characters your operating system produces, so a German layout with umlauts and ß on their own keys works without configuration."},
+        {"q": "Why is my German speed lower than my English speed?", "a": "German compounds produce longer words with more consecutive keystrokes, and the umlauts are pressed less often than letters, so they stay less practised. A 10% drop at equal accuracy is normal."},
+        {"q": "How do I type ä ö ü ß?", "a": "On a QWERTZ keyboard they have their own keys to the right of P and L. On a QWERTY keyboard, add the German layout in your OS settings rather than using Alt codes, which do not train the correct motion."},
+        {"q": "How many WPM is 200 Anschläge pro Minute?", "a": "Forty words per minute. Anschläge ÷ 5 = Wörter pro Minute, the same five-characters-per-word convention used by English typing tests."}
+      ]
+    },
+    {
+      "file": "french-typing-test.html",
+      "title": "French Typing Test — Accents, ç and AZERTY",
+      "metaDesc": "French typing test with real sentences: é è ê à ç ù œ and French punctuation spacing. Measures mots par minute and caractères par minute. No sign up.",
+      "h1": "French Typing Test",
+      "heroP": "Real French text with the characters that decide accuracy: <strong>é, è, ê, à, ç, ù, œ</strong> and the space before a colon. Works on an AZERTY keyboard, and the score is reported in mots par minute and caractères par minute.",
+      "tldr": "Type real French and get mots par minute (MPM) plus caractères par minute. Accents are separate keys on AZERTY, and French punctuation puts a space before : ; ! ? — that spacing is part of the test. 40-50 MPM is a solid office speed.",
+      "dur": 60,
+      "mode": "sentences",
+      "lang": "fr",
+      "alts": true,
+      "crumbs": ["Home", "French Typing Test"],
+      "seo": [
+        {
+          "h2": "What makes French different to type",
+          "p": [
+            "Three things. First, <strong>accents</strong>: é, è, ê, à, ç and ù each have their own key on AZERTY, and œ (as in cœur) is a separate character again. Second, <strong>punctuation spacing</strong>: French typography puts a space before : ; ! ? and inside guillemets, so a correct sentence has more keystrokes than the English equivalent.",
+            "Third, apostrophes. French elides constantly (l'oiseau, qu'il, d'accord), and the apostrophe key on AZERTY sits on the fourth row, reached with the right little finger. That single reach accounts for a large share of errors in French typing tests."
+          ]
+        },
+        {
+          "h2": "Mots par minute et caractères par minute",
+          "p": [
+            "French tests report <em>mots par minute</em> (MPM) and <em>caractères par minute</em> (CPM). The word count uses five characters per word, the same convention as English, so a French and an English score are comparable - provided both tests count characters the same way.",
+            "<table><tr><th>Caractères/Min</th><th>Mots/Min</th><th>Repère</th></tr><tr><td>150</td><td>30</td><td>Débutant, entraînement nécessaire</td></tr><tr><td>200</td><td>40</td><td>Correct pour le travail de bureau</td></tr><tr><td>250</td><td>50</td><td>Bon, au-dessus de la moyenne</td></tr><tr><td>300</td><td>60</td><td>Rapide, secrétariat et saisie</td></tr><tr><td>400</td><td>80</td><td>Très rapide, 10% supérieurs</td></tr></table>"
+          ]
+        },
+        {
+          "h2": "AZERTY, and the space-before-colon habit",
+          "p": [
+            "French keyboards are AZERTY: A and Q swap, Z and W swap, M moves next to L, and the accented letters replace the number row. If you use an AZERTY keyboard, this test works directly, because the browser receives the character your system produces.",
+            "The detail that catches people is the space before double punctuation. A French sentence writes « Bonjour : voici » with a space before the colon, not « Bonjour: voici ». Typing tests that use real French text include that space, and typists trained on English punctuation lose accuracy on it until they notice."
+          ]
+        },
+        {
+          "h2": "How to practise, and what jobs ask for",
+          "p": [
+            "One-minute rounds first, then five minutes once accuracy is above 97%. Add a round with quotes once a week, because that is where the guillemets and the double punctuation appear together.",
+            "French office and secrétariat postings commonly quote 40-50 mots par minute, and some public-sector concours include a bureautique exercise rather than a formal typing score. Saisie de données roles are quoted in caractères par minute or keystrokes per hour - convert with the <a href=\"wpm-to-kph-converter.html\">WPM to KPH converter</a>.",
+            "For benchmarks across languages, see <a href=\"average-typing-speed.html\">average typing speed</a>; for the English version, <a href=\"english-typing-test.html\">English typing test</a>."
+          ]
+        }
+      ],
+      "faq": [
+        {"q": "What is a good French typing speed?", "a": "40-50 mots par minute (200-250 caractères par minute) is solid for office work. Secretarial and data-entry roles often ask for 50-60 MPM, with accuracy above 97%."},
+        {"q": "Does this test work on an AZERTY keyboard?", "a": "Yes. The test compares the characters your operating system produces, so accented letters and ç work directly on an AZERTY layout without configuration."},
+        {"q": "Why does French punctuation slow me down?", "a": "French typography requires a space before : ; ! ? and uses guillemets, which adds keystrokes. If you learned English punctuation, the extra space is a habit you have to build."},
+        {"q": "How do I type œ and the accents?", "a": "On AZERTY, accents have their own keys and œ is typed with a dedicated combination. Add the French layout in your OS settings rather than using Alt codes, which do not train the right motion."},
+        {"q": "How many words per minute is 250 caractères?", "a": "Fifty mots par minute. Characters ÷ 5 = words, the same convention used by English typing tests, so the two scores are comparable."}
+      ]
+    }
+  ]
+}
