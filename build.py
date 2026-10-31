@@ -168,7 +168,7 @@ def build_catalog(clusters, labeled):
     for name, items in clusters.items():
         label = labeled.get(name, name.title())
         parts.append(f'    <h2>{label}</h2>')
-        parts.append("    <ul>")
+        parts.append('    <ul class="catalog">')
         for it in items:
             parts.append(f'      <li><a href="{it["file"]}">{it["title"]}</a></li>')
         parts.append("    </ul>")

@@ -567,7 +567,7 @@ body.typing-active footer{opacity:.26;filter:saturate(.72);pointer-events:none;}
 
   <section class="seo">
     <h2 id="find-the-test-you-need">Find the test you need</h2>
-    <form class="finder" action="#" onsubmit="return false" role="search"><label for="testFinder">Filter the directory</label><input id="testFinder" type="search" autocomplete="off" placeholder="Try: certificate, KPH, nurse, Korean, 5 minute, code"><p class="finder-out" id="finderOut" aria-live="polite">184 tests</p></form><script>(function(){var i=document.getElementById('testFinder'),o=document.getElementById('finderOut');if(!i||!o)return;var sec=document.querySelector('section.seo');if(!sec)return;var lists=[].slice.call(sec.querySelectorAll('ul'));function run(){var q=i.value.trim().toLowerCase(),shown=0;lists.forEach(function(ul){var n=0;[].slice.call(ul.children).forEach(function(li){var t=li.textContent.toLowerCase(),hit=!q||t.indexOf(q)>-1;li.hidden=!hit;if(hit)n++;});var h=ul.previousElementSibling;if(h&&h.tagName==='H2')h.hidden=(q&&n===0);ul.hidden=(q&&n===0);shown+=n;});o.textContent=q?(shown+' match'+(shown===1?'':'es')+' for "'+i.value.trim()+'"'):'184 tests';}i.addEventListener('input',run);run();})();</script>
+    <form class="finder" action="#" onsubmit="return false" role="search"><label for="testFinder">Filter the directory</label><input id="testFinder" type="search" autocomplete="off" placeholder="Try: certificate, KPH, nurse, Korean, 5 minute, code"><p class="finder-out" id="finderOut" aria-live="polite">184 tests</p></form><script>(function(){var i=document.getElementById('testFinder'),o=document.getElementById('finderOut');if(!i||!o)return;var sec=document.querySelector('section.seo');if(!sec)return;var lists=[].slice.call(sec.querySelectorAll('ul.catalog'));function run(){var q=i.value.trim().toLowerCase(),shown=0;lists.forEach(function(ul){var n=0;[].slice.call(ul.children).forEach(function(li){var t=li.textContent.toLowerCase(),hit=!q||t.indexOf(q)>-1;li.hidden=!hit;if(hit)n++;});var h=ul.previousElementSibling;if(h&&h.tagName==='H2')h.hidden=(q&&n===0);ul.hidden=(q&&n===0);shown+=n;});o.textContent=q?(shown+' match'+(shown===1?'':'es')+' for "'+i.value.trim()+'"'):'184 tests';}i.addEventListener('input',run);run();})();</script>
     <p>Type a word above to filter the list below - a job title, a language, a unit, a length, a format. The directory is generated from the site's own page configuration, so it always matches what exists.</p>
     <h2 id="how-to-use-this-directory">How to use this directory</h2>
     <p>Three questions decide which page you want. First: are you measuring or improving? A timed test on the <a href="/">home page</a> measures; a practice page with drills improves.</p>
@@ -578,7 +578,7 @@ body.typing-active footer{opacity:.26;filter:saturate(.72);pointer-events:none;}
     <h2 id="why-this-page-exists">Why this page exists</h2>
     <p>The footer already links every page, but a flat list of 160 links tells a reader nothing about which one to open. This directory groups them by the question they answer, and it is generated from the same configuration that builds the pages, so it cannot drift out of date or link to something that no longer exists.</p>
     <h2>Other test lengths</h2>
-    <ul>
+    <ul class="catalog">
       <li><a href="1-minute-typing-test.html">1 Minute Typing Test</a></li>
       <li><a href="10-minute-typing-test.html">10 Minute Typing Test</a></li>
       <li><a href="2-minute-typing-test.html">2 Minute Typing Test</a></li>
@@ -588,7 +588,7 @@ body.typing-active footer{opacity:.26;filter:saturate(.72);pointer-events:none;}
       <li><a href="timed-typing-test.html">Timed Typing Test</a></li>
     </ul>
     <h2>Practice and lessons</h2>
-    <ul>
+    <ul class="catalog">
       <li><a href="audio-typing-tips.html">Audio Typing Tips</a></li>
       <li><a href="bigram-typing-practice.html">Bigram Typing Practice</a></li>
       <li><a href="capital-letter-typing-test.html">Capital Letter Typing Test</a></li>
@@ -639,7 +639,7 @@ body.typing-active footer{opacity:.26;filter:saturate(.72);pointer-events:none;}
       <li><a href="wrist-pain-from-typing.html">Wrist Pain From Typing</a></li>
     </ul>
     <h2>Typing tests by language</h2>
-    <ul>
+    <ul class="catalog">
       <li><a href="arabic-typing-test.html">Arabic Typing Test</a></li>
       <li><a href="chinese-typing-test.html">Chinese Typing Test</a></li>
       <li><a href="english-typing-test.html">English Typing Test</a></li>
@@ -667,7 +667,7 @@ body.typing-active footer{opacity:.26;filter:saturate(.72);pointer-events:none;}
       <li><a href="french-typing-test.html">French Typing Test</a></li>
     </ul>
     <h2>Popular typing tests</h2>
-    <ul>
+    <ul class="catalog">
       <li><a href="best-typing-test-online.html">Best Free Typing Tests Online</a></li>
       <li><a href="custom-typing-test.html">Custom Typing Test</a></li>
       <li><a href="free-typing-test.html">Free Typing Test</a></li>
@@ -675,7 +675,7 @@ body.typing-active footer{opacity:.26;filter:saturate(.72);pointer-events:none;}
       <li><a href="online-typing-test.html">Online Typing Test</a></li>
     </ul>
     <h2>Layouts, keys and hand position</h2>
-    <ul>
+    <ul class="catalog">
       <li><a href="colemak-typing.html">Colemak Typing Test</a></li>
       <li><a href="dvorak-typing.html">Dvorak Typing Test</a></li>
       <li><a href="dvorak-vs-qwerty.html">Dvorak vs QWERTY</a></li>
@@ -691,7 +691,7 @@ body.typing-active footer{opacity:.26;filter:saturate(.72);pointer-events:none;}
       <li><a href="typing-finger-chart.html">Typing Finger Chart</a></li>
     </ul>
     <h2>WPM, CPM and scoring</h2>
-    <ul>
+    <ul class="catalog">
       <li><a href="average-typing-speed-by-age.html">Average Typing Speed by Age</a></li>
       <li><a href="average-typing-speed.html">Average Typing Speed</a></li>
       <li><a href="cpm-typing-test.html">CPM Typing Test</a></li>
@@ -727,14 +727,14 @@ body.typing-active footer{opacity:.26;filter:saturate(.72);pointer-events:none;}
       <li><a href="why-am-i-stuck-at-the-same-typing-speed.html">Why Am I Stuck at the Same Typing Speed?</a></li>
     </ul>
     <h2>Games and races</h2>
-    <ul>
+    <ul class="catalog">
       <li><a href="typing-games.html">Typing Games</a></li>
       <li><a href="typing-race.html">Typing Race</a></li>
       <li><a href="typing-test-game.html">Typing Test Game</a></li>
       <li><a href="typing-trainer.html">Typing Trainer</a></li>
     </ul>
     <h2>Certificates, jobs and exams</h2>
-    <ul>
+    <ul class="catalog">
       <li><a href="bank-typing-test.html">Bank Typing Test</a></li>
       <li><a href="data-entry-job-requirements.html">Data Entry Job Requirements</a></li>
       <li><a href="data-entry-practice.html">Data Entry Practice</a></li>
@@ -757,13 +757,13 @@ body.typing-active footer{opacity:.26;filter:saturate(.72);pointer-events:none;}
       <li><a href="30-day-typing-improvement-plan.html">30-Day Typing Improvement Plan</a></li>
     </ul>
     <h2>About this site</h2>
-    <ul>
+    <ul class="catalog">
       <li><a href="about.html">About Typing.Rerivo</a></li>
       <li><a href="privacy-policy.html">Privacy Policy</a></li>
       <li><a href="typing-tests.html">All Typing Tests</a></li>
     </ul>
     <h2>By age and skill level</h2>
-    <ul>
+    <ul class="catalog">
       <li><a href="advanced-typing-test.html">Advanced Typing Test</a></li>
       <li><a href="beginner-typing-test.html">Beginner Typing Test</a></li>
       <li><a href="best-free-typing-lessons-for-adults.html">Best Free Typing Lessons for Adults</a></li>
@@ -778,7 +778,7 @@ body.typing-active footer{opacity:.26;filter:saturate(.72);pointer-events:none;}
       <li><a href="typing-test-for-teachers.html">Typing Test for Teachers</a></li>
     </ul>
     <h2>Typing jobs and transcription</h2>
-    <ul>
+    <ul class="catalog">
       <li><a href="medical-transcription-typing.html">Medical Transcription Typing</a></li>
       <li><a href="online-typing-jobs.html">Online Typing Jobs</a></li>
       <li><a href="transcription-typing-jobs.html">Transcription Typing Jobs</a></li>
