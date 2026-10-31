@@ -400,3 +400,19 @@ header 实测高度：**320→194、360–768→168、900+→95**。此前的预
 |---|---|---|---|
 | 390×844 | 894–960ms | 412–1520ms | 0.005–0.006 |
 | 320×568 | — | — | 0.024 |
+
+---
+
+## 十六、r86–r89：结构化数据补完与内链审计
+
+| 轮次 | 内容 | 依据 |
+|---|---|---|
+| r86 | benchmarks 页加 `Dataset`（含 CSV 与页面两个 distribution、CC BY 4.0）；首页 `Organization` 加 `sameAs` 指向两个真实仓库 | 让「数据」在机器眼里是数据集而不是文章；实体归属不用买来的资料页 |
+| r87 | `llms.txt` 加 Quick answers（8 条一行答案） | 全部是站内已有事实的压缩版，不引入第三种说法 |
+| r88 | 锚文本审计：`words-per-minute-test` 143/153 条都是 "WPM Test"；`free-typing-test` 只有 3 条正文入链 | 补 5 条自然句内链，锚文本对齐查询变体 |
+| r89 | 「有曝光但正文入链极少」的 6 页各补 1-2 条上下文链接 | keyboard-practice 341 曝光/7 入链、typing-tutorial 176/2、calculator 167/4、online-typing-test 159/2、comparison 125/3、3-minute 136/5 |
+
+**没有做**批量锚文本精确匹配改写。锚文本过度优化本身是风险，只补了缺的、且措辞写成正常句子。
+
+补后正文入链：keyboard-practice 7→9、typing-tutorial 2→4、calculator 4→6、
+online-typing-test 2→3、comparison 3→5、3-minute 5→7。
