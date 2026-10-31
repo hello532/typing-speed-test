@@ -356,7 +356,7 @@ def render(page, cfg, tpl, css, engine, head_snippet, footer, result, variants, 
     desc = page["metaDesc"]
     # hreflang 聚类：只有 alts:true 的语种落地页互相声明 alternate（含 x-default），
     # 其余页渲染空串，与未加占位符时逐字节一致。
-    if page.get("alts"):
+    if page.get("alts") and cfg.get("langVariants"):
         alt_lines = [f'<link rel="alternate" hreflang="{c}" href="{u}">' for c, u in cluster]
         default_url = next((u for c, u in cluster if c == "en"), None)
         if default_url:
@@ -395,8 +395,14 @@ def render(page, cfg, tpl, css, engine, head_snippet, footer, result, variants, 
     # 此前全站一律 lang="en"，但这些页是**英语本地化搜索落地页**（标题/正文为英文，
     # 只有练习池是目标语），所以标成 ja/ar 会把语言信号与可见内容搞反——仍保持 en。
     # 真正修的是方向：阿拉伯语/乌尔都语练习文本需要 RTL 渲染，由 dir 静态声明。
-    if pl in ("ar", "ur"):
-        out = out.replace('<html lang="en">', '<html lang="en" dir="rtl">', 1)
+    # R106：方向与语言标注属于**练习文本**，不属于整页。
+    # 这些页的标题/正文/UI 都是英文，所以 <html lang="en"> 保持不动；
+    # 把 lang（以及 ar/ur 的 dir=rtl）标在打字容器上，语义才落在真正的那段文字上。
+    # 之前标在 <html> 上带来两个后果：整个英文 UI 被翻转（r75 的 8,796px 横向溢出就是它），
+    # 且与 lang="en" 自相矛盾。
+    if pl:
+        attrs = f' lang="{pl}"' + (' dir="rtl"' if pl in ("ar", "ur") else "")
+        out = out.replace('<div id="text"></div>', f'<div id="text"{attrs}></div>', 1)
     for k, v in subs.items():
         out = out.replace(k, v)
     left = sorted(set(re.findall(r"\{\{[A-Z0-9_]+\}\}", out)))

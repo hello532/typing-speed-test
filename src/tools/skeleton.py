@@ -87,6 +87,13 @@ _RULES = [
     # 不属于结构——结构的唯一性仍然由其余槽位保证。
     (re.compile(r'(?:<script type="application/ld\+json">\{\{LD\}\}\n?</script>\s*)+'),
      '<script type="application/ld+json">{{LD}}</script>\n'),
+    # R106：<html lang> 仍归一成占位符（保留「每页必须声明语言」这条弱约束），
+    # 其余元素上的 lang / dir 直接剥除——它们随语种而变，但不改变结构。
+    (re.compile(r'(<html)([^>]*?) lang="[^"]*"'), r'\1\2 lang="{{HLANG}}"'),
+    # R106：lang / dir 是**逐页语言元数据**，不属于结构。
+    # 练习文本容器按语种标 lang="ar" dir="rtl"，若参与骨架比对，全站立刻分成三种骨架，
+    # 而它们的结构其实完全一致。这里在归一阶段剥掉这两个属性（只此两个，其余保留）。
+    (re.compile(r'\s(?:lang|dir)="[^"]*"'), ""),
     # 行首缩进属纯排版，结构闸门只比 token 结构；统一剥除（末尾空行归一已在上面）
     (re.compile(r"(?m)^[ \t]+"), ""),
     # 冗余空行归一

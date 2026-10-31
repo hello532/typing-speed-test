@@ -149,8 +149,14 @@ function translate(){
 
 function setLang(l,fire,persist){
   if(LANGS.indexOf(l)<0)l="en"; TR.lang=l; if(persist!==false)ls("trLang",l);
-  document.documentElement.lang=l;
-  document.documentElement.dir=(l==="ar"||l==="ur")?"rtl":"ltr";
+  // R106：不再翻转整页方向/语言。整页的可见正文是英文（SEO 段落与 FAQ 不参与 i18n），
+  // 把 lang/dir 提到 <html> 会与正文自相矛盾，并且会把英文段落也右对齐——
+  // 之前 8,796px 横向溢出的根源就是整页 RTL。改为：
+  //   练习文本容器 #text 承担 lang（以及 ar/ur 的 dir），控件条 header.top 承担 UI 语言。
+  var tc0=document.getElementById("text");
+  if(tc0){ tc0.lang=l; if(l==="ar"||l==="ur")tc0.setAttribute("dir","rtl"); else tc0.removeAttribute("dir"); }
+  var hd=document.querySelector("header.top");
+  if(hd)hd.lang=l;
   translate();
   updateDurChips();
   if(fire)window.dispatchEvent(new Event("tr-relang"));
