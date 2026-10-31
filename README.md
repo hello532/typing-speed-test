@@ -136,6 +136,19 @@ Numbers are kept in three separate layers everywhere: **observed** (GSC), **arit
 (impressions × CTR), **assumption** (industry CTR curve, labelled as such). No tool in this
 repo invents traffic, backlink or ranking figures.
 
+
+## Data & benchmarks
+
+The typing-speed figures used across the site — 51.56 WPM desktop and 36.17 WPM
+phone, with the percentile curve derived from them — are published as a small
+open dataset with a CSV and percentile functions in both Python and JavaScript:
+
+- **Repository:** <https://github.com/hello532/typing-speed-benchmarks>
+- **Page with context:** <https://typing.rerivo.com/typing-speed-benchmarks.html>
+
+Both cite the underlying papers (CHI 2018, MobileHCI 2019) rather than asking to
+be cited themselves.
+
 ## Links
 
 - Live site — <https://typing.rerivo.com>
