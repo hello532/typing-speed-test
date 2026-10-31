@@ -15,6 +15,17 @@ Your real code | camelCase, indentation and your stack&rsquo;s idioms | Custom t
 
 Paste a real file you work in using custom text and type it for accuracy, not speed. Spend a few minutes on the punctuation and number drills so symbol reaches become automatic. Keep your fingers on the home row and let the weak pinkies own the bracket and semicolon keys. Ten focused minutes a day beats one long session.
 
+Programmers do not lose time on letters. They lose it on the eleven punctuation characters that need Shift or an awkward reach: { } [ ] ( ) < > ; : _ = |, plus $ # @ ~ ^ \ on some layouts. A prose typing test never touches most of them.
+
+Two drills that transfer: type the bracket pairs in nesting order ({[()]} and back out), and type a line of real code you already know by heart. The second one is where you discover whether your editor's autocomplete has been typing for you.
+
+Autocomplete and snippets - you never type the full identifier, so your measured speed is higher than your real speed.
+Indentation - tabs versus spaces is a mechanical choice; mixing them costs more keystrokes than either.
+Symbol runs - =>, ===, ::, && are four to six keystrokes per token, all with the same hand.
+Navigation - the fastest programmers type less, not more. Home row to arrow keys is a bigger loss than any letter.
+
+So measure two numbers: prose WPM (your baseline) and code CPM on a snippet you have not seen. The gap between them is your real improvement target.
+
 ## Typing test FAQ
 
 ### What is a good typing speed for a programmer?
@@ -36,3 +47,7 @@ Yes. Touch typing frees your attention for the logic instead of the keyboard, an
 ### What is the best typing test for developers?
 
 One that includes real symbols and numbers. Use the punctuation and number tests here, or paste your own code with custom text for the most realistic practice.
+
+### Why is my code typing slower than my prose typing?
+
+Code uses eleven punctuation characters that need Shift or an awkward reach, plus symbol runs like => and ===. On top of that, autocomplete hides how much you actually type, so the gap between prose WPM and unseen-code CPM is the real target.

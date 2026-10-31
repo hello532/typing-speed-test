@@ -1481,12 +1481,20 @@ Brackets & symbols () {} [] ; = > | Rare in word tests; awkward reaches for the 
 Numbers & operators | Top row and keypad use different muscle memory | Number test
 Your real code | camelCase, indentation and your stack&rsquo;s idioms | Custom text
 Paste a real file you work in using custom text and type it for accuracy, not speed. Spend a few minutes on the punctuation and number drills so symbol reaches become automatic. Keep your fingers on the home row and let the weak pinkies own the bracket and semicolon keys. Ten focused minutes a day beats one long session.
+Programmers do not lose time on letters. They lose it on the eleven punctuation characters that need Shift or an awkward reach: { } [ ] ( ) < > ; : _ = |, plus $ # @ ~ ^ \ on some layouts. A prose typing test never touches most of them.
+Two drills that transfer: type the bracket pairs in nesting order ({[()]} and back out), and type a line of real code you already know by heart. The second one is where you discover whether your editor's autocomplete has been typing for you.
+Autocomplete and snippets - you never type the full identifier, so your measured speed is higher than your real speed.
+Indentation - tabs versus spaces is a mechanical choice; mixing them costs more keystrokes than either.
+Symbol runs - =>, ===, ::, && are four to six keystrokes per token, all with the same hand.
+Navigation - the fastest programmers type less, not more. Home row to arrow keys is a bigger loss than any letter.
+So measure two numbers: prose WPM (your baseline) and code CPM on a snippet you have not seen. The gap between them is your real improvement target.
 ## Typing test FAQ
 Around 50–70 WPM is typical and plenty for most development work. Coding is thinking-heavy, so fluent symbols and high accuracy matter more than raw prose speed.
 Up to a point. Once you can type without hunting for keys, extra prose speed helps little — but fast, accurate symbol and bracket entry does reduce friction and typos.
 Paste real code into the custom-text box and type it for accuracy, and drill punctuation and numbers separately so symbol reaches become automatic.
 Yes. Touch typing frees your attention for the logic instead of the keyboard, and makes symbol-heavy code far less error-prone.
 One that includes real symbols and numbers. Use the punctuation and number tests here, or paste your own code with custom text for the most realistic practice.
+Code uses eleven punctuation characters that need Shift or an awkward reach, plus symbol runs like => and ===. On top of that, autocomplete hides how much you actually type, so the gap between prose WPM and unseen-code CPM is the real target.
 
 ## How to Type Without Looking at the Keyboard
 Source: https://typing.rerivo.com/how-to-type-without-looking.html
@@ -4097,18 +4105,34 @@ Source: https://typing.rerivo.com/indonesian-typing-test.html
 
 Uji kecepatan mengetik Bahasa Indonesia dengan kalimat nyata. Hasil WPM dan akurasi langsum muncul. Gratis, tanpa daftar.
 
+On this page
+Cara menggunakan tes mengetik ini
+Indonesian typing test
+Bahasa Indonesia on a standard keyboard
+How to improve Indonesian typing speed
+Indonesian typing for work and school
+Indonesian is unusually easy to type fast - for one reason
+Where the errors actually come from
 Pilih durasi (15 detik sampai 10 menit), klik area teks, dan mulailah mengetik kalimat yang muncul di layar. Timer dimulai dari keystroke pertama, bukan sebelumnya. Setelah selesai, Anda melihat WPM, akurasi, CPM, dan laporan tombol lemah — huruf yang paling sering salah dan paling lambat.
 Untuk meningkatkan kecepatan: latih akurasi dulu (target 97-98%), lalu naikkan tempo secara bertahap. Kata-kata dengan awalan me-, di-, ber- dan akhiran -kan, -nya muncul berulang-ulang dalam setiap kalimat, sehingga latihan kalimat nyata membangun otomatisasi tepat di tempat yang dibutuhkan. Latihan harian sepuluh menit lebih efektif daripada satu jam sekali seminggu.
 An Indonesian typing test measures how fast and accurately you type real Bahasa Indonesia sentences — everyday text with the me-, di- and ber- prefixes and -kan/-nya suffixes that make up most written Indonesian. Your result shows in words per minute, where every 5 characters counts as one word.
 Indonesian uses the plain Latin alphabet with no diacritics, so any standard QWERTY keyboard works with no special input method — what you see is what you type. That makes Indonesian one of the most keyboard-friendly languages in Asia, and it means your typing speed depends purely on technique, not on fighting an IME.
 Practise with real sentences rather than isolated words: the affix patterns (me-, di-, ber-, -kan, -nya) repeat constantly, so sentence practice builds automaticity exactly where Indonesian typing needs it. Keep your eyes on the screen, accuracy first, and slow down for the punctuation that breaks rhythm.
 Timed typing in Bahasa Indonesia is part of many office, administration and data-entry roles across Indonesia, and fast accurate typing is a core skill for students and civil-service candidates. Daily timed rounds with real sentences build exactly the measured speed and accuracy those roles ask for.
+Bahasa Indonesia uses a transparent orthography: one letter, one sound, no accents, no case-dependent vowels, and only four digraphs that matter - ng, ny, sy and kh. There is nothing to convert and nothing to disambiguate.
+That makes it one of the fastest languages to type per character, and it means your score here is close to your raw keystroke speed. If your Indonesian score is much lower than your English score, the cause is unfamiliarity with the words, not the script.
+Pattern | Why it happens | Drill
+ng typed as n + g separately too slowly | Two keys, one sound - the hand waits for the second | Alternate nganga, mangga, tangan for 30 seconds
+ny mixed with n + y | Same problem, different pair | nyanyi, banyak, tanya
+Reduplicated plurals | Hyphen plus a repeated word (buku-buku) | Type ten plurals with the hyphen, no backspace
+Everything else in Indonesian is direct: what you hear is what you type.
 ## Indonesian typing test FAQ
 Yes. It is free with no sign up, and your practice history stays on your own device.
 No. Bahasa Indonesia uses the plain Latin alphabet with no diacritics, so any standard QWERTY keyboard works with no special input method.
 Yes. The practice sentences are natural everyday Indonesian with the common affixes (me-, di-, ber-, -kan, -nya) that dominate real written text.
 Yes. Timed sentence practice in Bahasa Indonesia builds the same speed and accuracy that office, administrative and data-entry roles measure.
 Ya, sepenuhnya gratis tanpa pendaftaran. Riwayat latihan Anda tersimpan di perangkat sendiri.
+Yes. It has a transparent orthography - one letter one sound, no accents - and only four digraphs that matter (ng, ny, sy, kh). Your Indonesian score is close to raw keystroke speed; a low score usually means unfamiliar vocabulary, not a hard script.
 
 ## Kiểm Tra Tốc Độ Gõ Phím Tiếng Việt
 Source: https://typing.rerivo.com/vietnamese-typing-test.html
@@ -4156,6 +4180,8 @@ The dotted İ and dotless ı
 How to improve Turkish typing speed
 Bu testi nasıl kullanırsınız?
 Türkçe Q, Türkçe F ve standart QWERTY
+The dotted and dotless i will decide your accuracy
+Why Turkish words feel long to type
 A Turkish typing test measures how fast and accurately you type real Turkish sentences — with the special letters ç, ğ, ı, ö, ş and ü, and the famous dotted İ and dotless ı that distinguish Turkish from every other Latin-script language. Your result shows in words per minute, where every 5 characters counts as one word.
 Turkey has two native layouts: the Turkish Q keyboard, which places ç, ğ, ı, ö, ş and ü on dedicated keys to the right of the main block, and the Turkish F keyboard, designed for maximum Turkish letter efficiency and still required in some official exams. This test measures the text you produce, so it works with Turkish Q, Turkish F, or any standard QWERTY with a Turkish input layout.
 Turkish is the only language that distinguishes a dotted capital İ from a dotless lowercase ı as separate letters. Mixing them up changes word meaning, and they slow down typists trained on other layouts. Sentence practice with real Turkish text builds the automatic habit of hitting the right one every time.
@@ -4164,12 +4190,17 @@ Süre seçin (15 saniye - 10 dakika), yazma alanına tıklayın ve ekrandaki cü
 Hız için önce doğruluk çalışın (hedef %97-98), sonra tempo kademeli yükseltin. Türkçe ek dizilimleri (-lar/-ler, -mış, -arak) her cümlede tekrar eder; gerçek cümlelerle pratik, tam ihtiyaç duyulan yerde otomasyon kurar.
 Türkiye'de iki yerel düzen vardır: Türkçe Q klavyesi (ç, ğ, ı, ö, ş, ü ana blokta yerleşik) ve Türkçe F klavyesi (mecburi sınavlarda kullanılır). Bu test sizin ürettiğiniz metni ölçer, bu yüzden Türkçe Q, Türkçe F veya Türkçe düzenli standart QWERTY — hangisiyle yazarsanız yazın sonuç adildir.
 M Our core deviation: the Turkish İ/ı system is unique among Latin scripts — dotted uppercase İ and dotless lowercase ı are separate letters, and confusing them changes word meaning. Sentence practice with real Turkish text builds the automatic habit until the right choice happens without thought.
+Turkish has two i's: the dotted i (as in iyi) and the dotless ı (as in yıl). They are different letters, on different keys, and they change meaning. Almost every accuracy problem a learner has in Turkish comes from this pair.
+In uppercase it inverts: İ is the capital of i, and I is the capital of ı. So a word that starts with i becomes İ at the start of a sentence, and a word starting with ı becomes I. Typing a lowercase i where the word needs ı is the single most common error in Turkish typing tests.
+Turkish is agglutinative: meaning is built by stacking suffixes onto a stem, so a single word can carry what English spreads over four. Yapabileceklerimizdenmis is one word. That makes word-level speed look low while character speed is normal.
+The practical consequence: judge Turkish progress in characters per minute rather than words per minute, or your score will look worse than it is. Use the CPM reading on this page for that.
 ## Turkish typing test FAQ
 Yes. It is free with no sign up, and your practice history stays on your own device.
 Either, or a standard QWERTY with a Turkish input layout. The test measures the Turkish text you produce, not the keys you press.
 Yes. Sentences use real Turkish with all the special letters, including the dotted İ and dotless ı that distinguish Turkish.
 Yes. Timed sentence practice with real Turkish text builds the same measured speed and accuracy that official and workplace typing exams in Turkey require.
 Hayır gerekmiyor. Test sizin ürettiğiniz Türkçe metni ölçer; Türkçe Q, Türkçe F veya standart QWERTY — hangisini kullanıyorsanız onunla çalışır.
+They are different letters on different keys, and the uppercase forms invert: İ is the capital of i, I is the capital of ı. Typing lowercase i where the word needs ı is the most common error in Turkish typing tests.
 
 ## ทดสอบการพิมพ์ภาษาไทย
 Source: https://typing.rerivo.com/thai-typing-test.html

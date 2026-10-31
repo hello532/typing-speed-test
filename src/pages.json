@@ -5256,6 +5256,20 @@
      "p": [
       "Paste a real file you work in using <a href=\"custom-typing-test.html\">custom text</a> and type it for accuracy, not speed. Spend a few minutes on the <a href=\"punctuation-typing-test.html\">punctuation</a> and <a href=\"number-typing-test.html\">number</a> drills so symbol reaches become automatic. Keep your fingers on the home row and let the weak pinkies own the bracket and semicolon keys. Ten focused minutes a day beats one long session."
      ]
+    },
+    {
+     "h2": "The characters that actually cost you time",
+     "p": [
+      "Programmers do not lose time on letters. They lose it on the eleven punctuation characters that need Shift or an awkward reach: <code>{ } [ ] ( ) &lt; &gt; ; : _ = |</code>, plus <code>$ # @ ~ ^ \\</code> on some layouts. A prose typing test never touches most of them.",
+      "Two drills that transfer: type the bracket pairs in nesting order (<code>{[()]}</code> and back out), and type a line of real code you already know by heart. The second one is where you discover whether your editor's autocomplete has been typing for you."
+     ]
+    },
+    {
+     "h2": "Where programmers' speed actually goes",
+     "p": [
+      "<ul><li><strong>Autocomplete and snippets</strong> - you never type the full identifier, so your measured speed is higher than your real speed.</li><li><strong>Indentation</strong> - tabs versus spaces is a mechanical choice; mixing them costs more keystrokes than either.</li><li><strong>Symbol runs</strong> - <code>=&gt;</code>, <code>===</code>, <code>::</code>, <code>&amp;&amp;</code> are four to six keystrokes per token, all with the same hand.</li><li><strong>Navigation</strong> - the fastest programmers type less, not more. Home row to arrow keys is a bigger loss than any letter.</li></ul>",
+      "So measure two numbers: prose WPM (your baseline) and code CPM on a snippet you have not seen. The gap between them is your real improvement target."
+     ]
     }
    ],
    "faqFirstOpen": true,
@@ -5280,6 +5294,10 @@
     {
      "q": "What is the best typing test for developers?",
      "a": "One that includes real symbols and numbers. Use the punctuation and number tests here, or paste your own code with custom text for the most realistic practice."
+    },
+    {
+     "q": "Why is my code typing slower than my prose typing?",
+     "a": "Code uses eleven punctuation characters that need Shift or an awkward reach, plus symbol runs like => and ===. On top of that, autocomplete hides how much you actually type, so the gap between prose WPM and unseen-code CPM is the real target."
     }
    ],
    "webAppName": "Typing Speed Test",
@@ -13316,6 +13334,20 @@
      "p": [
       "Timed typing in Bahasa Indonesia is part of many office, administration and data-entry roles across Indonesia, and fast accurate typing is a core skill for students and civil-service candidates. Daily timed rounds with real sentences build exactly the measured speed and accuracy those roles ask for."
      ]
+    },
+    {
+     "h2": "Indonesian is unusually easy to type fast - for one reason",
+     "p": [
+      "Bahasa Indonesia uses a transparent orthography: one letter, one sound, no accents, no case-dependent vowels, and only four digraphs that matter - <strong>ng</strong>, <strong>ny</strong>, <strong>sy</strong> and <strong>kh</strong>. There is nothing to convert and nothing to disambiguate.",
+      "That makes it one of the fastest languages to type per character, and it means your score here is close to your raw keystroke speed. If your Indonesian score is much lower than your English score, the cause is unfamiliarity with the words, not the script."
+     ]
+    },
+    {
+     "h2": "Where the errors actually come from",
+     "p": [
+      "<table><tr><th>Pattern</th><th>Why it happens</th><th>Drill</th></tr><tr><td>ng typed as n + g separately too slowly</td><td>Two keys, one sound - the hand waits for the second</td><td>Alternate <em>nganga</em>, <em>mangga</em>, <em>tangan</em> for 30 seconds</td></tr><tr><td>ny mixed with n + y</td><td>Same problem, different pair</td><td><em>nyanyi</em>, <em>banyak</em>, <em>tanya</em></td></tr><tr><td>Reduplicated plurals</td><td>Hyphen plus a repeated word (<em>buku-buku</em>)</td><td>Type ten plurals with the hyphen, no backspace</td></tr></table>",
+      "Everything else in Indonesian is direct: what you hear is what you type."
+     ]
     }
    ],
    "faqFirstOpen": true,
@@ -13340,6 +13372,10 @@
     {
      "q": "Apakah tes mengetik ini gratis?",
      "a": "Ya, sepenuhnya gratis tanpa pendaftaran. Riwayat latihan Anda tersimpan di perangkat sendiri."
+    },
+    {
+     "q": "Is Indonesian easy to type fast?",
+     "a": "Yes. It has a transparent orthography - one letter one sound, no accents - and only four digraphs that matter (ng, ny, sy, kh). Your Indonesian score is close to raw keystroke speed; a low score usually means unfamiliar vocabulary, not a hard script."
     }
    ],
    "tldr": "Tes mengetik online gratis dalam Bahasa Indonesia: ukur WPM dan akurasi dengan kalimat nyata setiap hari. Latihan mengetik 15 detik sampai 10 menit, tanpa daftar, riwayat tersimpan di perangkat Anda.",
@@ -13552,6 +13588,20 @@
       "Türkiye'de iki yerel düzen vardır: Türkçe Q klavyesi (ç, ğ, ı, ö, ş, ü ana blokta yerleşik) ve Türkçe F klavyesi (mecburi sınavlarda kullanılır). Bu test sizin ürettiğiniz metni ölçer, bu yüzden Türkçe Q, Türkçe F veya Türkçe düzenli standart QWERTY — hangisiyle yazarsanız yazın sonuç adildir.",
       "M Our core deviation: the Turkish İ/ı system is unique among Latin scripts — dotted uppercase İ and dotless lowercase ı are separate letters, and confusing them changes word meaning. Sentence practice with real Turkish text builds the automatic habit until the right choice happens without thought."
      ]
+    },
+    {
+     "h2": "The dotted and dotless i will decide your accuracy",
+     "p": [
+      "Turkish has two i's: the dotted <strong>i</strong> (as in <em>iyi</em>) and the dotless <strong>ı</strong> (as in <em>yıl</em>). They are different letters, on different keys, and they change meaning. Almost every accuracy problem a learner has in Turkish comes from this pair.",
+      "In uppercase it inverts: <strong>İ</strong> is the capital of i, and <strong>I</strong> is the capital of ı. So a word that starts with i becomes İ at the start of a sentence, and a word starting with ı becomes I. Typing a lowercase i where the word needs ı is the single most common error in Turkish typing tests."
+     ]
+    },
+    {
+     "h2": "Why Turkish words feel long to type",
+     "p": [
+      "Turkish is agglutinative: meaning is built by stacking suffixes onto a stem, so a single word can carry what English spreads over four. <em>Yapabileceklerimizdenmis</em> is one word. That makes word-level speed look low while character speed is normal.",
+      "The practical consequence: judge Turkish progress in characters per minute rather than words per minute, or your score will look worse than it is. Use the CPM reading on this page for that."
+     ]
     }
    ],
    "faqFirstOpen": true,
@@ -13576,6 +13626,10 @@
     {
      "q": "Bu test için özel Türkçe klavye düzeni gerekiyor mu?",
      "a": "Hayır gerekmiyor. Test sizin ürettiğiniz Türkçe metni ölçer; Türkçe Q, Türkçe F veya standart QWERTY — hangisini kullanıyorsanız onunla çalışır."
+    },
+    {
+     "q": "Why do I keep mistyping i and ı in Turkish?",
+     "a": "They are different letters on different keys, and the uppercase forms invert: İ is the capital of i, I is the capital of ı. Typing lowercase i where the word needs ı is the most common error in Turkish typing tests."
     }
    ],
    "tldr": "Türkçe klavye hız testi: gerçek Türkçe cümlelerle WPM ve doğruluk ölçümü. Türkçe Q, F veya standart QWERTY ile çalışır. Ücretsiz, 15 saniye - 10 dakika.",

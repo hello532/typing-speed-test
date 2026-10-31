@@ -12,6 +12,8 @@ The dotted İ and dotless ı
 How to improve Turkish typing speed
 Bu testi nasıl kullanırsınız?
 Türkçe Q, Türkçe F ve standart QWERTY
+The dotted and dotless i will decide your accuracy
+Why Turkish words feel long to type
 
 A Turkish typing test measures how fast and accurately you type real Turkish sentences — with the special letters ç, ğ, ı, ö, ş and ü, and the famous dotted İ and dotless ı that distinguish Turkish from every other Latin-script language. Your result shows in words per minute, where every 5 characters counts as one word.
 
@@ -28,6 +30,14 @@ Hız için önce doğruluk çalışın (hedef %97-98), sonra tempo kademeli yük
 Türkiye'de iki yerel düzen vardır: Türkçe Q klavyesi (ç, ğ, ı, ö, ş, ü ana blokta yerleşik) ve Türkçe F klavyesi (mecburi sınavlarda kullanılır). Bu test sizin ürettiğiniz metni ölçer, bu yüzden Türkçe Q, Türkçe F veya Türkçe düzenli standart QWERTY — hangisiyle yazarsanız yazın sonuç adildir.
 
 M Our core deviation: the Turkish İ/ı system is unique among Latin scripts — dotted uppercase İ and dotless lowercase ı are separate letters, and confusing them changes word meaning. Sentence practice with real Turkish text builds the automatic habit until the right choice happens without thought.
+
+Turkish has two i's: the dotted i (as in iyi) and the dotless ı (as in yıl). They are different letters, on different keys, and they change meaning. Almost every accuracy problem a learner has in Turkish comes from this pair.
+
+In uppercase it inverts: İ is the capital of i, and I is the capital of ı. So a word that starts with i becomes İ at the start of a sentence, and a word starting with ı becomes I. Typing a lowercase i where the word needs ı is the single most common error in Turkish typing tests.
+
+Turkish is agglutinative: meaning is built by stacking suffixes onto a stem, so a single word can carry what English spreads over four. Yapabileceklerimizdenmis is one word. That makes word-level speed look low while character speed is normal.
+
+The practical consequence: judge Turkish progress in characters per minute rather than words per minute, or your score will look worse than it is. Use the CPM reading on this page for that.
 
 ## Turkish typing test FAQ
 
@@ -50,3 +60,7 @@ Yes. Timed sentence practice with real Turkish text builds the same measured spe
 ### Bu test için özel Türkçe klavye düzeni gerekiyor mu?
 
 Hayır gerekmiyor. Test sizin ürettiğiniz Türkçe metni ölçer; Türkçe Q, Türkçe F veya standart QWERTY — hangisini kullanıyorsanız onunla çalışır.
+
+### Why do I keep mistyping i and ı in Turkish?
+
+They are different letters on different keys, and the uppercase forms invert: İ is the capital of i, I is the capital of ı. Typing lowercase i where the word needs ı is the most common error in Turkish typing tests.
