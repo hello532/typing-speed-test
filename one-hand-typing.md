@@ -16,6 +16,14 @@ Beginners hunting with one finger sit near 15 to 25 WPM. With proper finger zone
 
 Measure honestly with the test on this page: run a one minute test with one hand only, and record your accuracy beside your WPM. Accuracy below 90 percent usually means you are reaching for speed before the map is settled, so slow down until accuracy rises and let speed follow.
 
+Three options, and they are not equal. Standard layout, one hand means reaching across with the same hand - workable, roughly 25-40 WPM at best, and hard on the shoulder. Half-QWERTY mirrors the keyboard so one hand covers both halves, using a modifier key to reach the mirrored side - typically 30-45 WPM after a few months. Single-hand Dvorak is a purpose-built layout for one hand, with the most-used letters under the strongest fingers.
+
+Whichever you pick, changing layout is the same commitment as learning to type from scratch: expect two to three weeks before it feels natural and two to three months before it is fast.
+
+Two things make the difference. First, keep the same physical posture you will use long-term - propping a laptop on one knee to type one-handed creates a shoulder problem that outlasts the original injury. Second, use short rounds: one-handed typing is more fatiguing per keystroke, so five minutes three times a day beats fifteen minutes once.
+
+If the cause is an injury that is still healing, stop at the first sign of pain rather than working through it. A typing test score is not worth a longer recovery.
+
 ## One hand typing FAQ
 
 ### Can I really type fast with one hand?
@@ -41,3 +49,7 @@ The test is self paced and as short as 15 seconds, so you can use it within what
 ### How do I track progress?
 
 Results are saved in this browser automatically, so run a one minute test every few days and watch the history table for your WPM and accuracy trend.
+
+### What is the fastest way to type with one hand?
+
+Half-QWERTY (mirrored keyboard with a modifier) or single-hand Dvorak, both around 30-45 WPM after a few months. Reaching across a standard layout is workable but slower and harder on the shoulder.

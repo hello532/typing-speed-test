@@ -1880,6 +1880,20 @@
      "p": [
       "For the method behind kid-friendly game practice, see <a href=\"typing-games-for-kids.html\">typing games for kids</a> — 5-minute game-feeling sessions that build the keyboard map without nagging."
      ]
+    },
+    {
+     "h2": "What each game type actually trains",
+     "p": [
+      "<table><tr><th>Game type</th><th>What it improves</th><th>What it does not</th></tr><tr><td>Racing / head-to-head</td><td>Burst speed, willingness to push past comfortable pace</td><td>Accuracy, punctuation, sustained speed</td></tr><tr><td>Falling words</td><td>Recognition speed - seeing a word as one unit instead of letters</td><td>Real text, capitals, digits</td></tr><tr><td>Zombie / threat games</td><td>Typing under pressure without freezing</td><td>Anything that transfers to a quiet office</td></tr><tr><td>Word-collection games</td><td>Volume of keystrokes without fatigue</td><td>Precision - they usually ignore errors</td></tr></table>",
+      "The pattern: games reward speed and punish hesitation, while real work rewards accuracy and punish nothing. That is why a game score can rise for weeks while a five-minute test does not move."
+     ]
+    },
+    {
+     "h2": "Using games without picking up bad habits",
+     "p": [
+      "Two rules keep games useful. First, always follow a game session with one slow accuracy round - the game trains you to ignore errors, and the slow round undoes that in about two minutes. Second, never let a game be your only practice: if the passage never contains a capital letter or a comma, the skill you are building does not exist in the work you are paid for.",
+      "Used that way, games are the best warm-up available: two minutes of racing raises your keystroke rate without the boredom of a drill."
+     ]
     }
    ],
    "faqFirstOpen": true,
@@ -1904,6 +1918,10 @@
     {
      "q": "Are my game scores saved?",
      "a": "Yes. Your recent results are saved in your own browser (localStorage), so you can open the same game tomorrow and try to beat your best score. Nothing is sent to a server."
+    },
+    {
+     "q": "Can typing games make you faster?",
+     "a": "They raise burst speed and recognition speed, but they reward ignoring errors and rarely include capitals or punctuation. Follow every game session with one slow accuracy round, and never make games your only practice."
     }
    ],
    "webAppName": "Typing Speed Test",
@@ -4396,6 +4414,20 @@
       "Beginners hunting with one finger sit near 15 to 25 WPM. With proper finger zones and a few weeks of short daily sessions, 35 to 50 WPM is common. Experienced one hand typists who type all day reach 60 to 70 WPM and occasionally higher.",
       "Measure honestly with the test on this page: run a one minute test with one hand only, and record your accuracy beside your WPM. Accuracy below 90 percent usually means you are reaching for speed before the map is settled, so slow down until accuracy rises and let speed follow."
      ]
+    },
+    {
+     "h2": "The layouts that exist, and what they cost",
+     "p": [
+      "Three options, and they are not equal. <strong>Standard layout, one hand</strong> means reaching across with the same hand - workable, roughly 25-40 WPM at best, and hard on the shoulder. <strong>Half-QWERTY</strong> mirrors the keyboard so one hand covers both halves, using a modifier key to reach the mirrored side - typically 30-45 WPM after a few months. <strong>Single-hand Dvorak</strong> is a purpose-built layout for one hand, with the most-used letters under the strongest fingers.",
+      "Whichever you pick, changing layout is the same commitment as learning to type from scratch: expect two to three weeks before it feels natural and two to three months before it is fast."
+     ]
+    },
+    {
+     "h2": "Practising when one hand is out of action",
+     "p": [
+      "Two things make the difference. First, keep the same physical posture you will use long-term - propping a laptop on one knee to type one-handed creates a shoulder problem that outlasts the original injury. Second, use short rounds: one-handed typing is more fatiguing per keystroke, so five minutes three times a day beats fifteen minutes once.",
+      "If the cause is an injury that is still healing, stop at the first sign of pain rather than working through it. A typing test score is not worth a longer recovery."
+     ]
     }
    ],
    "faqH2": "One hand typing FAQ",
@@ -4423,6 +4455,10 @@
     {
      "q": "How do I track progress?",
      "a": "Results are saved in this browser automatically, so run a one minute test every few days and watch the history table for your WPM and accuracy trend."
+    },
+    {
+     "q": "What is the fastest way to type with one hand?",
+     "a": "Half-QWERTY (mirrored keyboard with a modifier) or single-hand Dvorak, both around 30-45 WPM after a few months. Reaching across a standard layout is workable but slower and harder on the shoulder."
     }
    ],
    "bcItems": [
@@ -7014,6 +7050,20 @@
       "Record the same length every week and compare against yourself. The only useful comparison across people is the same duration, the same text type and the same scoring method - change any of the three and the comparison is noise.",
       "For the standard benchmarks by duration, see the <a href=\"wpm-chart.html\">WPM chart</a>; for the length most employers use, the <a href=\"5-minute-typing-test.html\">five-minute test</a>."
      ]
+    },
+    {
+     "h2": "What each duration is actually measuring",
+     "p": [
+      "<table><tr><th>Length</th><th>Measures</th><th>Typical gap from your working speed</th></tr><tr><td>15-30 seconds</td><td>Burst - top-end keystroke rate</td><td>+8 to +12 WPM</td></tr><tr><td>1 minute</td><td>The conventional headline number</td><td>+3 to +6 WPM</td></tr><tr><td>2-3 minutes</td><td>What most screening tests use</td><td>+1 to +3 WPM</td></tr><tr><td>5 minutes</td><td>Working speed - the number worth quoting</td><td>baseline</td></tr><tr><td>10 minutes</td><td>Endurance; where fatigue and attention show</td><td>-2 to -5 WPM</td></tr></table>",
+      "The gaps are not errors. They are the difference between measuring a sprint and measuring a working day."
+     ]
+    },
+    {
+     "h2": "Why the timer itself changes your error rate",
+     "p": [
+      "A visible countdown does two things: it shortens your reading-ahead window (you check the clock instead of the next word) and it makes you skip corrections to protect the score. Both raise measured speed and lower real accuracy.",
+      "If you are preparing for a timed test, practise with the timer visible every session so the clock stops being a novelty. If you are measuring yourself honestly, hide it and look only at the end."
+     ]
     }
    ],
    "faqFirstOpen": true,
@@ -7038,6 +7088,10 @@
     {
      "q": "Why is my accuracy lower on longer tests?",
      "a": "Long rounds produce errors of attention rather than haste - a dropped capital in minute six, a missed comma when the sentence turns. That is the fatigue effect the longer test is designed to reveal."
+    },
+    {
+     "q": "Which test length should I use?",
+     "a": "Five minutes for the number you quote; two to three minutes to rehearse most screening tests; 15-30 seconds only for burst training. The same typist reads 8-12 WPM higher at 30 seconds than at five minutes."
     }
    ],
    "webAppName": "Typing Speed Test",
