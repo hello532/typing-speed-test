@@ -37,6 +37,13 @@ Each line below is a claim this site makes, with the source that supports it. Qu
 - [CPM Typing Test](https://typing.rerivo.com/cpm-typing-test.html): Measures typing speed in characters per minute (CPM = WPM x 5) with live CPM and WPM.
 - [Typing Test for Kids](https://typing.rerivo.com/typing-test-for-kids.html): Simple, fun words-per-minute test for children with a visual keyboard and finger guide.
 - [Typing Test for Jobs](https://typing.rerivo.com/typing-test-for-jobs.html): Pre-employment typing test practice; shows the WPM data entry, admin and support jobs require.
+- [10000 Keystrokes per Hour Test](https://typing.rerivo.com/10000-keystrokes-per-hour-test.html): 10,000 KPH = 166.7 CPM = about 33 WPM at the standard five characters per word. The test below measures characters and minutes directly, so the number you get i
+- [WPM to KPH Converter](https://typing.rerivo.com/wpm-to-kph-converter.html): KPH = WPM × 300. So 40 WPM is 12,000 KPH, 50 WPM is 15,000 KPH, and 33 WPM is the 10,000 KPH that data-entry ads ask for. Multiplying WPM by 60 gives words per 
+- [Gross WPM vs Net WPM: How Typing Scores Differ](https://typing.rerivo.com/gross-wpm-vs-net-wpm.html): Gross WPM = all characters ÷ 5 ÷ minutes. Net WPM = (all characters − errors) ÷ 5 ÷ minutes. On a 60-second run of 300 characters with 12 errors, gross is 60 WP
+- [Typing Test for Receptionist Jobs](https://typing.rerivo.com/typing-test-for-receptionist.html): Most receptionist postings ask for 40–50 WPM and 95–98% accuracy. The screening test is usually one to three minutes of ordinary sentences, sometimes with a pho
+- [Typing Test for Call Center Jobs](https://typing.rerivo.com/typing-test-for-call-center.html): Most call centre roles ask for 30–45 WPM with 95%+ accuracy, because notes are short and the caller keeps talking. Chat support asks for more, 40–55 WPM, since 
+- [Typing Speed Percentile](https://typing.rerivo.com/typing-speed-percentile.html): Using the CHI 2018 study (mean 51.56 WPM, SD 20.2): 40 WPM is about the 28th percentile, 60 WPM the 66th, 80 WPM the 92nd, 100 WPM the 99th. The approximation r
+
 
 ## Text / Difficulty Variations
 - [Number Typing Test](https://typing.rerivo.com/number-typing-test.html): Numeric keypad and digits practice.

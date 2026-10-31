@@ -52,7 +52,7 @@ AUTHOR_BOX = (
     '<p class="byline">By <a href="about.html">the Typing.Rerivo team</a> &mdash; '
     'we build and maintain this typing test. Scoring formulas and the benchmarks used on our pages '
     'are documented in the methodology notes on our <a href="about.html">about page</a>, along with the '
-    'sources we cite. </p>')
+    'sources we cite. Page last updated {date}.</p>')
 
 
 def esc_attr(s):
@@ -167,8 +167,10 @@ def build_seo(page):
                 parts.append(f"    {p}")
             else:
                 parts.append(f"    <p>{p}</p>")
-    # E-E-A-T：可见署名 + 方法说明入口（全站同一字符串 → 落在 {{SEO}} 槽内，骨架不变）
-    parts.append("    " + AUTHOR_BOX)
+    # E-E-A-T：可见署名 + 方法说明入口（落在 {{SEO}} 槽内，骨架不变）
+    # r22：可见「最后更新」= 该页最后一次真实内容提交日，与 sitemap lastmod、
+    # JSON-LD dateModified 三处同源（同一个 git 日期），不是三处各写各的。
+    parts.append("    " + AUTHOR_BOX.format(date=page.get("_modified", "")))
     parts.append("  </section>")
     return "\n".join(parts)
 
@@ -204,7 +206,10 @@ def build_jsonld(page, cfg):
           "description": cfg["webAppDesc"], "offers": wa["offers"], "featureList": wa["featureList"],
           # E-E-A-T：作者/发布者（Organization 实体，指向 about 页）
           "author": AUTHOR_OBJ, "publisher": AUTHOR_OBJ,
-          "datePublished": "2026-10-01", "dateModified": "2026-10-14"}
+          # r22：日期来自 git 历史（首次提交 / 最后提交），不再全站写死一个日期——
+          # 写死的 dateModified 会让 131 页同时"今天更新过"，是明显的假新鲜信号。
+          "datePublished": page.get("_published", "2026-10-01"),
+          "dateModified": page.get("_modified", "2026-10-14")}
     faq = {"@context": "https://schema.org", "@type": "FAQPage",
            "mainEntity": [{"@type": "Question", "name": f["q"],
                            "acceptedAnswer": {"@type": "Answer", "text": f["a"]}}
@@ -487,6 +492,42 @@ def build_sitemap(cfg):
     (ROOT / "sitemap.xml").write_text("\n".join(lines) + "\n", encoding="utf-8")
 
 
+def page_dates(names):
+    """每页真实的首次/最后提交日期（git 历史），供 JSON-LD 与可见更新时间使用。
+
+    未提交的改动视为今天（它就是今天的改动）。克隆不全/无 git 时全部回落今天，
+    不会凭空造出一个"很久以前发布"的日期。
+    """
+    import datetime
+    import subprocess
+    today = datetime.date.today().isoformat()
+    first, last = {}, {}
+    r = subprocess.run(["git", "log", "--format=@%cs", "--name-only", "--", "*.html"],
+                       cwd=ROOT, capture_output=True, text=True)
+    cur = None
+    for ln in r.stdout.splitlines():
+        if ln.startswith("@"):
+            cur = ln[1:]
+        elif ln:
+            if ln not in last:
+                last[ln] = cur
+            first[ln] = cur  # keeps overwriting → oldest commit wins
+    dirty = set()
+    r2 = subprocess.run(["git", "status", "--porcelain"], cwd=ROOT,
+                        capture_output=True, text=True)
+    if r2.returncode == 0:
+        for ln in r2.stdout.splitlines():
+            q = ln[3:].split(" -> ")[-1].strip() if len(ln) > 3 else ""
+            if q:
+                dirty.add(q)
+    out = {}
+    for n in names:
+        pub = first.get(n) or today
+        mod = today if n in dirty else (last.get(n) or pub)
+        out[n] = {"published": pub, "modified": max(pub, mod)}
+    return out
+
+
 def main():
     check = "--check" in sys.argv
     cfg = json.loads((SRC / "pages.json").read_text(encoding="utf-8"))
@@ -500,6 +541,10 @@ def main():
     variants = json.loads((SRC / "variants.json").read_text(encoding="utf-8"))
     cluster = [(p["lang"], p["canonical"]) for p in cfg["pages"]
                if p.get("alts") and p.get("lang")]
+    dates = page_dates([p["file"] for p in cfg["pages"]])
+    for p in cfg["pages"]:
+        d = dates[p["file"]]
+        p["_published"], p["_modified"] = d["published"], d["modified"]
     ui_js = build_ui_js()
     bad = []
     ui_target = ROOT / "ui.js"

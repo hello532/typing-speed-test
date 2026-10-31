@@ -14283,6 +14283,619 @@
     }
    ],
    "ldPretty": []
+  },
+  {
+   "file": "10000-keystrokes-per-hour-test.html",
+   "title": "10000 Keystrokes per Hour Test — 10,000 KPH Typing",
+   "metaDesc": "10,000 keystrokes per hour is about 33 WPM. Take the KPH test, see the 5,000-15,000 chart, and learn what data-entry ads really screen for.",
+   "canonical": "https://typing.rerivo.com/10000-keystrokes-per-hour-test.html",
+   "dur": 300,
+   "mode": "words",
+   "variant": null,
+   "nav": [
+    {
+     "href": "1-minute-typing-test.html",
+     "text": "1 Minute Test"
+    },
+    {
+     "href": "words-per-minute-test.html",
+     "text": "WPM Test"
+    },
+    {
+     "href": "typing-practice.html",
+     "text": "Typing Practice"
+    }
+   ],
+   "crumbs": [
+    "Home",
+    "10,000 Keystrokes per Hour Test"
+   ],
+   "h1": "10,000 Keystrokes per Hour Test",
+   "heroP": "Data-entry job ads ask for <strong>10,000 keystrokes per hour</strong> and never explain what that is in WPM. It is 166.7 characters per minute, or about <strong>33 words per minute</strong>. This page runs the test and does the arithmetic.",
+   "seo": [
+    {
+     "h2": "What 10,000 keystrokes per hour actually means",
+     "p": [
+      "A keystroke is one character: a letter, a digit, a space or a punctuation mark. Keystrokes per hour (KPH) is therefore a characters-per-minute figure multiplied by 60. Ten thousand KPH is 10,000 ÷ 60 = 166.7 CPM. Divide by five, the standard characters-per-word convention, and you get roughly 33 WPM.",
+      "Recruiters use KPH instead of WPM because data-entry work is judged on characters: account numbers, postcodes, invoice references and part numbers have no word boundaries. KPH measures the same keyboard output without pretending the text is prose."
+     ]
+    },
+    {
+     "h2": "KPH to WPM to CPM chart",
+     "p": [
+      "<table><tr><th>Keystrokes per hour</th><th>Characters per minute</th><th>Words per minute (÷5)</th><th>Typical use</th></tr><tr><td>5,000</td><td>83</td><td>17</td><td>Entry-level alphanumeric, slow but accurate</td></tr><tr><td>6,000</td><td>100</td><td>20</td><td>Common minimum in general office ads</td></tr><tr><td>8,000</td><td>133</td><td>27</td><td>Data entry with checking, most clerical roles</td></tr><tr><td>9,000</td><td>150</td><td>30</td><td>Medical billing, insurance claims</td></tr><tr><td>10,000</td><td>167</td><td>33</td><td>The number most data-entry postings quote</td></tr><tr><td>12,000</td><td>200</td><td>40</td><td>Numeric keypad work, ten-key operators</td></tr><tr><td>15,000</td><td>250</td><td>50</td><td>Fast numeric entry, transcription from clean audio</td></tr></table>"
+     ]
+    },
+    {
+     "h2": "How to run a KPH test that is worth quoting",
+     "p": [
+      "Set the timer to five minutes. One-minute runs measure your best burst; five minutes measures the pace you can hold, which is what a shift actually requires. Choose the Words text mode for alphanumeric work and the Numbers mode if your job is keypad-heavy, because digits are typed by a different hand position and score differently.",
+      "Type the text as it appears, including capitals and punctuation, without correcting every slip. The score panel reports WPM and CPM after the round; multiply CPM by 60 for KPH. A five-minute round gives a stable number because a single slow sentence cannot dominate the result."
+     ]
+    },
+    {
+     "h2": "Why your KPH and WPM scores disagree",
+     "p": [
+      "The two numbers only agree when your text averages five characters per word including the space. Sentences with long words produce fewer WPM for the same KPH; number strings produce far higher KPH for a low WPM because every keystroke counts but there are no words.",
+      "Accuracy matters more in KPH work than in prose typing. An uncorrected digit error in an account number is a failed record, not a typo. If your raw and net scores differ by more than about 5%, practise accuracy before pushing speed: the arithmetic of corrections costs more time than typing slightly slower."
+     ]
+    },
+    {
+     "h2": "Is 10,000 KPH fast?",
+     "p": [
+      "It sits in the middle of office typing. It is above the ~20 WPM that untrained typists manage and below the ~50 WPM average reported for people who type daily, so it is reachable in a few weeks of deliberate practice rather than years.",
+      "If you are at 6,000–8,000 KPH, the gap to 10,000 is a pace problem, not a knowledge problem. Daily five-minute rounds plus one accuracy drill will usually close it faster than longer sessions, because fatigue at minute eight teaches you nothing about minute one."
+     ]
+    }
+   ],
+   "faqFirstOpen": true,
+   "faqH2": "Frequently asked questions",
+   "faq": [
+    {
+     "q": "How many WPM is 10,000 keystrokes per hour?",
+     "a": "About 33 WPM. 10,000 ÷ 60 = 166.7 characters per minute, and 166.7 ÷ 5 = 33.3 words per minute using the standard five-characters-per-word convention."
+    },
+    {
+     "q": "Is 10,000 KPH good?",
+     "a": "It is the number most data-entry job postings quote as a minimum, and it corresponds to roughly 33 WPM, which is a solid office speed. Faster roles such as medical billing often ask for 9,000–12,000 KPH with high accuracy."
+    },
+    {
+     "q": "Does the test count every keystroke?",
+     "a": "It counts the characters you typed correctly against the elapsed time. CPM × 60 gives keystrokes per hour, and the panel shows both CPM and WPM after each round so you can convert without a calculator."
+    },
+    {
+     "q": "Should I test with words or numbers?",
+     "a": "Use Words for alphanumeric data entry and Numbers if the job is keypad-heavy. Digits use a different finger pattern, so a words score will flatter or penalise you inaccurately for numeric work."
+    },
+    {
+     "q": "How long should the test be?",
+     "a": "Five minutes. Shorter rounds measure a burst, and employers are buying sustained output across a shift. A five-minute round is also long enough for the first-sentence penalty to wash out."
+    },
+    {
+     "q": "What accuracy should I aim for?",
+     "a": "98% or better for data entry. Uncorrected errors in account numbers and references are treated as failed records, so a 33 WPM run at 99% accuracy is worth more than 40 WPM at 94%."
+    }
+   ],
+   "webAppName": "10,000 Keystrokes per Hour Test",
+   "webAppUrl": "https://typing.rerivo.com/10000-keystrokes-per-hour-test.html",
+   "bcItems": [
+    {
+     "name": "Home",
+     "item": "https://typing.rerivo.com/"
+    },
+    {
+     "name": "10,000 Keystrokes per Hour Test",
+     "item": "https://typing.rerivo.com/10000-keystrokes-per-hour-test.html"
+    }
+   ],
+   "ldPretty": [
+    "FAQPage",
+    "BreadcrumbList"
+   ],
+   "tldr": "10,000 KPH = 166.7 CPM = about 33 WPM at the standard five characters per word. The test below measures characters and minutes directly, so the number you get is a KPH score, not an estimate."
+  },
+  {
+   "file": "wpm-to-kph-converter.html",
+   "title": "WPM to KPH Converter — Keystrokes per Hour Chart",
+   "metaDesc": "Convert WPM to keystrokes per hour with the real formula, KPH = WPM x 300. Chart from 20 to 120 WPM, plus the mistake almost everyone makes.",
+   "canonical": "https://typing.rerivo.com/wpm-to-kph-converter.html",
+   "dur": 60,
+   "mode": "words",
+   "variant": null,
+   "nav": [
+    {
+     "href": "1-minute-typing-test.html",
+     "text": "1 Minute Test"
+    },
+    {
+     "href": "words-per-minute-test.html",
+     "text": "WPM Test"
+    },
+    {
+     "href": "typing-practice.html",
+     "text": "Typing Practice"
+    }
+   ],
+   "crumbs": [
+    "Home",
+    "WPM to KPH Converter"
+   ],
+   "h1": "WPM to KPH Converter",
+   "heroP": "Keystrokes per hour is characters per minute × 60. Because one word is counted as five characters, the shortcut is <strong>KPH = WPM × 300</strong>. The chart below covers every speed you are likely to be asked for.",
+   "seo": [
+    {
+     "h2": "The conversion formula",
+     "p": [
+      "One word is counted as five characters, the convention every typing test uses because it makes speeds comparable across languages and text styles. One minute of typing at W WPM is therefore 5W characters, and an hour is 60 × 5W keystrokes.",
+      "KPH = WPM × 300. The reverse is WPM = KPH ÷ 300. If you prefer to work from CPM, KPH = CPM × 60, and CPM = WPM × 5."
+     ]
+    },
+    {
+     "h2": "Conversion chart",
+     "p": [
+      "<table><tr><th>WPM</th><th>CPM</th><th>KPH</th><th>Where you see this number</th></tr><tr><td>20</td><td>100</td><td>6,000</td><td>Minimum in general clerical ads</td></tr><tr><td>30</td><td>150</td><td>9,000</td><td>Insurance and billing support</td></tr><tr><td>33</td><td>167</td><td>10,000</td><td>The standard data-entry requirement</td></tr><tr><td>40</td><td>200</td><td>12,000</td><td>Ten-key and order processing</td></tr><tr><td>50</td><td>250</td><td>15,000</td><td>Fast data entry, transcription</td></tr><tr><td>60</td><td>300</td><td>18,000</td><td>Above most clerical requirements</td></tr><tr><td>80</td><td>400</td><td>24,000</td><td>Professional typing, court reporting support</td></tr><tr><td>100</td><td>500</td><td>30,000</td><td>Top decile of typists</td></tr></table>"
+     ]
+    },
+    {
+     "h2": "The mistake almost everyone makes",
+     "p": [
+      "WPM × 60 converts minutes to hours but keeps the unit: 50 WPM × 60 is 3,000, and 3,000 is words per hour, not keystrokes. The missing factor of five is the characters-per-word convention. A 50 WPM typist produces 15,000 keystrokes in an hour, not 3,000.",
+      "The second mistake is comparing KPH across text types. A page of digits produces a much higher KPH than a page of long English words at the same effort, because every digit is one keystroke and every long word is eight. KPH requirements are usually quoting alphanumeric data, so test with numbers if the job is numeric."
+     ]
+    },
+    {
+     "h2": "Measuring your own KPH",
+     "p": [
+      "Run a five-minute round and read the CPM figure from the results panel, then multiply by 60. The page reports CPM as well as WPM on every run precisely so that conversion does not need a separate tool.",
+      "If you want the number an employer will see, use net rather than raw: subtract the characters you typed wrong before dividing. A run of 250 CPM with twelve uncorrected errors is 238 net CPM, which is 14,280 KPH, not 15,000."
+     ]
+    }
+   ],
+   "faqFirstOpen": true,
+   "faqH2": "Frequently asked questions",
+   "faq": [
+    {
+     "q": "How do I convert WPM to KPH?",
+     "a": "Multiply WPM by 300. Five characters make one word and sixty minutes make an hour, so 5 × 60 = 300. A 45 WPM score is 13,500 KPH."
+    },
+    {
+     "q": "Is 40 WPM good for data entry?",
+     "a": "Yes. 40 WPM is 12,000 KPH, above the 10,000 KPH that most data-entry postings ask for. Pair it with accuracy above 98%, because that is what the screening test actually rewards."
+    },
+    {
+     "q": "Why is KPH five times WPM and not sixty?",
+     "a": "The minute-to-hour step is sixty. The extra factor of five is the characters-per-word convention, which converts words into keystrokes. Multiply by both and you get 300."
+    },
+    {
+     "q": "What is 10,000 keystrokes per hour in WPM?",
+     "a": "About 33 WPM. 10,000 KPH ÷ 300 = 33.3 WPM, which is why data-entry ads that quote 10,000 KPH are asking for roughly a third of a word per second."
+    },
+    {
+     "q": "Does KPH include spaces?",
+     "a": "Yes. A space is a keystroke and is counted in the five characters that make up one word. Only the characters you typed correctly on a completed word count in a net score."
+    }
+   ],
+   "webAppName": "WPM to KPH Converter",
+   "webAppUrl": "https://typing.rerivo.com/wpm-to-kph-converter.html",
+   "bcItems": [
+    {
+     "name": "Home",
+     "item": "https://typing.rerivo.com/"
+    },
+    {
+     "name": "WPM to KPH Converter",
+     "item": "https://typing.rerivo.com/wpm-to-kph-converter.html"
+    }
+   ],
+   "ldPretty": [
+    "FAQPage",
+    "BreadcrumbList"
+   ],
+   "tldr": "KPH = WPM × 300. So 40 WPM is 12,000 KPH, 50 WPM is 15,000 KPH, and 33 WPM is the 10,000 KPH that data-entry ads ask for. Multiplying WPM by 60 gives words per hour, not keystrokes."
+  },
+  {
+   "file": "gross-wpm-vs-net-wpm.html",
+   "title": "Gross WPM vs Net WPM: How Typing Scores Differ",
+   "metaDesc": "Gross WPM counts every character typed; net WPM subtracts the errors. Both formulas, one worked 60-second example, and which number belongs on a CV.",
+   "canonical": "https://typing.rerivo.com/gross-wpm-vs-net-wpm.html",
+   "dur": 60,
+   "mode": "sentences",
+   "variant": null,
+   "nav": [
+    {
+     "href": "1-minute-typing-test.html",
+     "text": "1 Minute Test"
+    },
+    {
+     "href": "words-per-minute-test.html",
+     "text": "WPM Test"
+    },
+    {
+     "href": "typing-practice.html",
+     "text": "Typing Practice"
+    }
+   ],
+   "crumbs": [
+    "Home",
+    "Gross WPM vs Net WPM"
+   ],
+   "h1": "Gross WPM vs Net WPM",
+   "heroP": "Two typing tests can score the same run ten words apart. The difference is <strong>gross</strong> (all characters typed) versus <strong>net</strong> (errors subtracted). Here are both formulas and one worked example.",
+   "seo": [
+    {
+     "h2": "The two formulas",
+     "p": [
+      "Gross WPM: every character you produced, including wrong ones, divided by five and by the minutes elapsed. Net WPM: the same calculation after the incorrect characters are removed. Some tests subtract a fixed penalty per error instead of the characters themselves; both arrive at a lower number, they just describe the penalty differently.",
+      "<table><tr><th>Method</th><th>Formula</th><th>What it rewards</th></tr><tr><td>Gross (raw) WPM</td><td>characters ÷ 5 ÷ minutes</td><td>Speed alone</td></tr><tr><td>Net WPM</td><td>(characters − errors) ÷ 5 ÷ minutes</td><td>Speed that survives accuracy</td></tr><tr><td>Adjusted WPM (AWPM)</td><td>all characters ÷ 5 ÷ minutes, errors counted as typed</td><td>School and exam scoring, where every keystroke is credited</td></tr></table>"
+     ]
+    },
+    {
+     "h2": "One run, three scores",
+     "p": [
+      "Suppose you type 300 characters in 60 seconds and 12 of them are wrong. Gross is 300 ÷ 5 ÷ 1 = 60 WPM. Net is (300 − 12) ÷ 5 ÷ 1 = 57.6 WPM. Adjusted WPM stays at 60, because the method credits what you typed and reports accuracy separately.",
+      "That is a 2.4 WPM spread on a single minute at 96% accuracy. At 90% accuracy the spread widens to 6 WPM, and at 85% it is 9 WPM — which is why the same typist can look fast on one site and average on another."
+     ]
+    },
+    {
+     "h2": "Which score belongs on a CV",
+     "p": [
+      "Quote net WPM, and quote the accuracy beside it: \"62 WPM net, 98.5% accuracy, 5-minute test\". Anyone who screens typists knows the difference between the methods, and an unqualified number invites the assumption that you picked the flattering one.",
+      "If a job ad specifies a method — some government and court tests do — report that method and say so. Never mix: a gross 70 next to someone's net 65 is not a like-for-like comparison, and it makes the higher number look inflated."
+     ]
+    },
+    {
+     "h2": "Why longer tests score lower",
+     "p": [
+      "Gross and net both fall as the clock runs, because the first thirty seconds are warm-up pace you cannot hold. A 15-second score is a burst; a 10-minute score is a shift. When you compare yourself to a published average, check how long the test was before you conclude anything about your speed.",
+      "The practical rule: train on one-minute rounds, verify on five, and quote the five-minute number. It is the only one an employer can reproduce."
+     ]
+    }
+   ],
+   "faqFirstOpen": true,
+   "faqH2": "Frequently asked questions",
+   "faq": [
+    {
+     "q": "What is the difference between gross and net WPM?",
+     "a": "Gross WPM counts every character you typed, right or wrong. Net WPM subtracts the incorrect characters first, so it reflects usable output. Net is always equal to or lower than gross."
+    },
+    {
+     "q": "How do I calculate net WPM?",
+     "a": "Take the characters typed, subtract the errors, divide by five, then divide by the minutes elapsed. 300 characters with 12 errors over one minute is (300 − 12) ÷ 5 ÷ 1 = 57.6 net WPM."
+    },
+    {
+     "q": "What is adjusted WPM?",
+     "a": "Adjusted WPM (AWPM) is used in school and exam scoring. It credits all characters typed including errors and reports accuracy separately, so it matches gross WPM rather than net."
+    },
+    {
+     "q": "Why do two typing sites give me different scores?",
+     "a": "Usually the scoring method and the test length. A 15-second gross score can be 10 WPM higher than a 5-minute net score for the same typist. Compare like with like before deciding you got slower."
+    },
+    {
+     "q": "Which WPM should I put on a résumé?",
+     "a": "Net WPM with the accuracy and the test length, for example \"62 WPM net, 98.5% accuracy, 5-minute test\". That is reproducible and it answers the follow-up question before it is asked."
+    }
+   ],
+   "webAppName": "Gross WPM vs Net WPM",
+   "webAppUrl": "https://typing.rerivo.com/gross-wpm-vs-net-wpm.html",
+   "bcItems": [
+    {
+     "name": "Home",
+     "item": "https://typing.rerivo.com/"
+    },
+    {
+     "name": "Gross WPM vs Net WPM",
+     "item": "https://typing.rerivo.com/gross-wpm-vs-net-wpm.html"
+    }
+   ],
+   "ldPretty": [
+    "FAQPage",
+    "BreadcrumbList"
+   ],
+   "tldr": "Gross WPM = all characters ÷ 5 ÷ minutes. Net WPM = (all characters − errors) ÷ 5 ÷ minutes. On a 60-second run of 300 characters with 12 errors, gross is 60 WPM and net is 57.6 WPM."
+  },
+  {
+   "file": "typing-test-for-receptionist.html",
+   "title": "Typing Test for Receptionist Jobs — WPM You Need",
+   "metaDesc": "Receptionist roles usually screen at 40–50 WPM with clean accuracy. What each employer type asks for, what the test looks like, and a two-week drill plan.",
+   "canonical": "https://typing.rerivo.com/typing-test-for-receptionist.html",
+   "dur": 180,
+   "mode": "sentences",
+   "variant": null,
+   "nav": [
+    {
+     "href": "1-minute-typing-test.html",
+     "text": "1 Minute Test"
+    },
+    {
+     "href": "words-per-minute-test.html",
+     "text": "WPM Test"
+    },
+    {
+     "href": "typing-practice.html",
+     "text": "Typing Practice"
+    }
+   ],
+   "crumbs": [
+    "Home",
+    "Typing Test for Receptionist Jobs"
+   ],
+   "h1": "Typing Test for Receptionist Jobs",
+   "heroP": "Front-desk work is typing while a phone rings. Employers screen at <strong>40–50 WPM</strong> with high accuracy, not at headline speeds. This page covers what each employer type asks for and how to rehearse it.",
+   "seo": [
+    {
+     "h2": "What receptionist roles actually screen for",
+     "p": [
+      "A receptionist types names, phone numbers, appointment notes and short emails, usually while listening to someone. That means the skill being tested is accurate short-burst typing, not sustained prose speed. Recruiters typically quote 40–50 WPM and an accuracy floor around 95–98%.",
+      "The accuracy floor matters more than the speed number: a misspelt surname in a client record is a real cost, whereas 45 WPM instead of 50 is invisible in the day-to-day."
+     ]
+    },
+    {
+     "h2": "Requirements by employer type",
+     "p": [
+      "<table><tr><th>Employer</th><th>Typical requirement</th><th>What the test adds</th></tr><tr><td>Medical or dental front desk</td><td>45–55 WPM, 98% accuracy</td><td>Patient names, dates of birth, procedure codes</td></tr><tr><td>Hotel or hospitality</td><td>40–45 WPM</td><td>Booking references, email addresses</td></tr><tr><td>Corporate office</td><td>50 WPM, 97%+</td><td>Minutes, meeting notes, calendar entries</td></tr><tr><td>Legal reception</td><td>50–60 WPM, 98%+</td><td>Client names, case references, punctuation</td></tr><tr><td>Call centre with reception duties</td><td>35–45 WPM</td><td>Typing while talking, call notes</td></tr></table>",
+      "These are the ranges that appear in public job ads and in recruitment guides; treat them as a target band, not a legal threshold. A posting that says 40 WPM rarely rejects a 42 that is clean."
+     ]
+    },
+    {
+     "h2": "A two-week drill plan",
+     "p": [
+      "Days 1–5: one 60-second sentence round, three times a day. Type at the speed where you make almost no errors and let the score climb on its own. Most people gain 5–8 WPM in a week at this stage simply by stopping the backspace habit.",
+      "Days 6–10: switch to two- and three-minute rounds so you meet the length most screening tests use. Add one Numbers round a day, because phone numbers and reference codes are where front-desk accuracy actually breaks.",
+      "Days 11–14: rehearse the real task — read a short message out loud and type it without looking at the keyboard, then check it character by character. That is the job. Then take one five-minute test and record net WPM plus accuracy as the number you quote."
+     ]
+    },
+    {
+     "h2": "What to do on the day",
+     "p": [
+      "Ask which scoring method the test uses, gross or net, and how long it runs. Then type at 90% of your best pace for the first thirty seconds; almost everyone loses more in corrections than they gain in the opening sprint.",
+      "If the test includes punctuation and capitals, do not skip them to save time. Uncorrected omissions are counted as errors on every mainstream test, and they are the most common reason a fast typist fails a receptionist screening."
+     ]
+    }
+   ],
+   "faqFirstOpen": true,
+   "faqH2": "Frequently asked questions",
+   "faq": [
+    {
+     "q": "What WPM do receptionist jobs require?",
+     "a": "Most postings ask for 40–50 WPM with 95–98% accuracy. Medical and legal front desks sit at the top of that band because names and reference codes must be exact."
+    },
+    {
+     "q": "Is 45 WPM fast enough for a receptionist?",
+     "a": "Yes for most office, hotel and clinic roles. 45 WPM with clean accuracy clears the common 40 WPM floor; only legal and specialist desks routinely ask for 50–60."
+    },
+    {
+     "q": "Do receptionist tests include numbers?",
+     "a": "Often. Phone numbers, appointment times and booking references are the realistic content, so practise the Numbers mode as well as sentences. Digits use a different finger pattern."
+    },
+    {
+     "q": "How long is a receptionist typing test?",
+     "a": "One to three minutes in most screening tools, sometimes five. Train at three minutes so a one-minute test feels short rather than tight."
+    },
+    {
+     "q": "Does accuracy matter more than speed?",
+     "a": "For this role, yes. Records with wrong digits or misspelt names are rework. A 42 WPM run at 99% is a better signal to an employer than 55 WPM at 92%."
+    }
+   ],
+   "webAppName": "Typing Test for Receptionist Jobs",
+   "webAppUrl": "https://typing.rerivo.com/typing-test-for-receptionist.html",
+   "bcItems": [
+    {
+     "name": "Home",
+     "item": "https://typing.rerivo.com/"
+    },
+    {
+     "name": "Typing Test for Receptionist Jobs",
+     "item": "https://typing.rerivo.com/typing-test-for-receptionist.html"
+    }
+   ],
+   "ldPretty": [
+    "FAQPage",
+    "BreadcrumbList"
+   ],
+   "tldr": "Most receptionist postings ask for 40–50 WPM and 95–98% accuracy. The screening test is usually one to three minutes of ordinary sentences, sometimes with a phone message to transcribe. Practise in 60-second bursts and check accuracy before speed."
+  },
+  {
+   "file": "typing-test-for-call-center.html",
+   "title": "Typing Test for Call Center Jobs — WPM & Accuracy",
+   "metaDesc": "Call centre screening usually asks for 30-45 WPM while listening. Role targets, the names-and-numbers drill, and how to type while a caller talks.",
+   "canonical": "https://typing.rerivo.com/typing-test-for-call-center.html",
+   "dur": 60,
+   "mode": "sentences",
+   "variant": null,
+   "nav": [
+    {
+     "href": "1-minute-typing-test.html",
+     "text": "1 Minute Test"
+    },
+    {
+     "href": "words-per-minute-test.html",
+     "text": "WPM Test"
+    },
+    {
+     "href": "typing-practice.html",
+     "text": "Typing Practice"
+    }
+   ],
+   "crumbs": [
+    "Home",
+    "Typing Test for Call Center Jobs"
+   ],
+   "h1": "Typing Test for Call Center Jobs",
+   "heroP": "Call centre work is typing <strong>while listening</strong>. The requirement is lower than office typing — usually 30–45 WPM — but accuracy on names and reference numbers is what separates the shortlist from the reject pile.",
+   "seo": [
+    {
+     "h2": "Targets by role",
+     "p": [
+      "<table><tr><th>Role</th><th>Typing target</th><th>Why</th></tr><tr><td>Inbound voice support</td><td>30–40 WPM</td><td>Short call notes, CRM fields, reference numbers</td></tr><tr><td>Outbound sales</td><td>30–40 WPM</td><td>Disposition codes and call-back notes</td></tr><tr><td>Chat and email support</td><td>40–55 WPM</td><td>The conversation itself is typed, often two at once</td></tr><tr><td>Technical support</td><td>40–50 WPM</td><td>Ticket text, error codes, device identifiers</td></tr><tr><td>Back-office and escalations</td><td>45–55 WPM</td><td>Case notes and customer correspondence</td></tr></table>",
+      "Voice roles are deliberately lenient on speed: nobody types a paragraph while a customer is mid-sentence. What the test is really checking is that you can capture a name, a postcode and a reference without asking the caller to repeat themselves."
+     ]
+    },
+    {
+     "h2": "The skill nobody practises: typing while listening",
+     "p": [
+      "Reading and copying is a different task from hearing and recording. In the second, your eyes are free but your buffer is short — people drop the last two digits of a phone number because they were still typing the previous word.",
+      "Rehearse it directly: play a podcast or read a sentence aloud, then type it from memory in one pass and check it. Do five of these a day for a week. Accuracy on heard digits improves faster than raw speed, and it is the part the job actually punishes."
+     ]
+    },
+    {
+     "h2": "Numbers are where accuracy breaks",
+     "p": [
+      "A transcription error on a card number, an order reference or a callback number turns into a second call, and second calls are the metric every contact centre tracks. Practise the Numbers mode for two minutes a day and check your error count rather than your speed.",
+      "If your accuracy on digits is below 97%, stop chasing speed for a week. The arithmetic is unforgiving: at 40 WPM with 94% accuracy you are generating about two and a half errors a minute, most of them in exactly the fields that matter."
+     ]
+    },
+    {
+     "h2": "How to take the screening test",
+     "p": [
+      "Ask whether the test is scored gross or net, and whether the timer is visible. If it is, do not watch it — the countdown costs more accuracy than it buys speed.",
+      "Type in short bursts and release the keys between words. Call-centre typing rewards a steady rhythm over a fast start, because the test is usually one to three minutes and the notes you will type in the job are never longer than a sentence or two."
+     ]
+    }
+   ],
+   "faqFirstOpen": true,
+   "faqH2": "Frequently asked questions",
+   "faq": [
+    {
+     "q": "What WPM do call centre jobs require?",
+     "a": "Usually 30–45 WPM for voice roles and 40–55 WPM for chat and email support, with accuracy above 95%. The numbers are lower than general office typing because most notes are short."
+    },
+    {
+     "q": "Is 30 WPM enough for a call centre?",
+     "a": "For inbound voice support, often yes, provided your accuracy on names and numbers is high. Chat support and technical roles ask for more because the conversation itself is typed."
+    },
+    {
+     "q": "How do I practise typing while listening?",
+     "a": "Play audio or read a sentence aloud once, then type it from memory in a single pass and check it. Five repetitions a day for a week improves captured-digit accuracy noticeably."
+    },
+    {
+     "q": "Do call centre tests include numbers and punctuation?",
+     "a": "Frequently. Reference numbers, postcodes and callback numbers are the realistic content. Practise the Numbers mode as well as sentences so the digit row is not a surprise."
+    },
+    {
+     "q": "What accuracy is expected?",
+     "a": "95% is the usual floor and 98% is comfortable. Errors in customer identifiers create repeat calls, so screening tools often weight accuracy more heavily than speed for these roles."
+    }
+   ],
+   "webAppName": "Typing Test for Call Center Jobs",
+   "webAppUrl": "https://typing.rerivo.com/typing-test-for-call-center.html",
+   "bcItems": [
+    {
+     "name": "Home",
+     "item": "https://typing.rerivo.com/"
+    },
+    {
+     "name": "Typing Test for Call Center Jobs",
+     "item": "https://typing.rerivo.com/typing-test-for-call-center.html"
+    }
+   ],
+   "ldPretty": [
+    "FAQPage",
+    "BreadcrumbList"
+   ],
+   "tldr": "Most call centre roles ask for 30–45 WPM with 95%+ accuracy, because notes are short and the caller keeps talking. Chat support asks for more, 40–55 WPM, since the whole job is typing. Practise numbers mode and 60-second bursts."
+  },
+  {
+   "file": "typing-speed-percentile.html",
+   "title": "Typing Speed Percentile — Where Your WPM Ranks",
+   "metaDesc": "Turn a WPM score into a percentile using the 136-million-keystroke study: mean 51.56 WPM, SD 20.2. Chart from 20 to 120 WPM, plus its limits.",
+   "canonical": "https://typing.rerivo.com/typing-speed-percentile.html",
+   "dur": 60,
+   "mode": "sentences",
+   "variant": null,
+   "nav": [
+    {
+     "href": "1-minute-typing-test.html",
+     "text": "1 Minute Test"
+    },
+    {
+     "href": "words-per-minute-test.html",
+     "text": "WPM Test"
+    },
+    {
+     "href": "typing-practice.html",
+     "text": "Typing Practice"
+    }
+   ],
+   "crumbs": [
+    "Home",
+    "Typing Speed Percentile"
+   ],
+   "h1": "Typing Speed Percentile Calculator",
+   "heroP": "A WPM number means little without a distribution. This page converts your score into a <strong>percentile</strong> using the largest published sample of real typing — 136 million keystrokes from 168,960 volunteers.",
+   "seo": [
+    {
+     "h2": "The method, stated plainly",
+     "p": [
+      "The reference distribution comes from Dhakal, Feit, Kristensson and Oulasvirta, \"Observations on Typing from 136 Million Keystrokes\" (CHI 2018), which recorded 136,857,600 keystrokes from 168,960 volunteers. It reports a mean speed of 51.56 WPM with a standard deviation of 20.2, an average uncorrected error rate of 1.17%, and 1.173 keystrokes per character. The paper is open at doi.org/10.1145/3173574.3174220.",
+      "Percentiles below are computed from a normal distribution with that mean and standard deviation. It is an approximation: real typing speed is mildly left-skewed, so the approximation is slightly generous in the middle and slightly conservative in the far tail. It reproduces the study's reported deciles — top 10% above about 78 WPM, bottom 10% below about 26 WPM — to within about one percentile point, which is the check that matters."
+     ]
+    },
+    {
+     "h2": "WPM to percentile chart",
+     "p": [
+      "<table><tr><th>WPM</th><th>Percentile (approx.)</th><th>CPM</th><th>Keystrokes per hour</th></tr><tr><td>20</td><td>6th</td><td>100</td><td>6,000</td></tr><tr><td>26</td><td>10th</td><td>130</td><td>7,800</td></tr><tr><td>30</td><td>14th</td><td>150</td><td>9,000</td></tr><tr><td>40</td><td>28th</td><td>200</td><td>12,000</td></tr><tr><td>50</td><td>47th</td><td>250</td><td>15,000</td></tr><tr><td>60</td><td>66th</td><td>300</td><td>18,000</td></tr><tr><td>70</td><td>82nd</td><td>350</td><td>21,000</td></tr><tr><td>78</td><td>90th</td><td>390</td><td>23,400</td></tr><tr><td>80</td><td>92nd</td><td>400</td><td>24,000</td></tr><tr><td>90</td><td>97th</td><td>450</td><td>27,000</td></tr><tr><td>100</td><td>99th</td><td>500</td><td>30,000</td></tr><tr><td>120</td><td>99.9th</td><td>600</td><td>36,000</td></tr></table>"
+     ]
+    },
+    {
+     "h2": "What the percentile does not tell you",
+     "p": [
+      "The sample is self-selected: people who choose to take an online typing test are not a random sample of the population, and they are disproportionately young, educated and comfortable in English. A 60 WPM score being the 66th percentile here does not mean it is the 66th percentile of all office workers.",
+      "The study also measures transcription typing — copying displayed text — on a desktop keyboard in English. Phone typing, dictation, code and non-Latin scripts are different tasks with different distributions, so a percentile from this table describes one specific skill."
+     ]
+    },
+    {
+     "h2": "Using the percentile for a decision",
+     "p": [
+      "For job applications, percentiles are persuasive but not what screeners check: they check against a fixed threshold such as 40 or 50 WPM. Use the percentile to decide whether you are in the band, and the raw net WPM to report it.",
+      "For practice targets, aim at the next decile rather than the mean. Moving from the 50th to the 66th is roughly 10 WPM and takes weeks; moving from the 90th to the 99th is 22 WPM and takes months of deliberate practice on specific key sequences."
+     ]
+    }
+   ],
+   "faqFirstOpen": true,
+   "faqH2": "Frequently asked questions",
+   "faq": [
+    {
+     "q": "What percentile is 60 WPM?",
+     "a": "About the 66th percentile, using the CHI 2018 distribution with mean 51.56 and standard deviation 20.2. In other words, faster than roughly two thirds of the volunteers in that study."
+    },
+    {
+     "q": "What percentile is 100 WPM?",
+     "a": "About the 99th. The study's fastest decile exceeded roughly 78 WPM, so 100 WPM sits well inside the top 1% of that sample."
+    },
+    {
+     "q": "What is the average typing speed?",
+     "a": "51.56 WPM, from 136,857,600 keystrokes recorded from 168,960 volunteers (Dhakal et al., CHI 2018). Older sources often quote 40 WPM, which reflects office workers rather than self-selected test takers."
+    },
+    {
+     "q": "How accurate is a percentile from a normal approximation?",
+     "a": "Within about one point across the middle of the distribution, and it reproduces the study's reported 10th and 90th percentile thresholds (about 26 and 78 WPM). Extreme tails above 130 WPM are less reliable."
+    },
+    {
+     "q": "Does the percentile include errors?",
+     "a": "It is based on speed as the study measured it, with errors reported separately at 1.17% uncorrected. A net score with heavy corrections would rank lower than the raw WPM suggests."
+    },
+    {
+     "q": "Is a percentile the same as a ranking?",
+     "a": "No. A percentile describes position in a sample; a ranking in a job test compares you to that employer's applicants. The thresholds employers use — 40, 50, 60 WPM — are usually fixed, not percentile-based."
+    }
+   ],
+   "webAppName": "Typing Speed Percentile Calculator",
+   "webAppUrl": "https://typing.rerivo.com/typing-speed-percentile.html",
+   "bcItems": [
+    {
+     "name": "Home",
+     "item": "https://typing.rerivo.com/"
+    },
+    {
+     "name": "Typing Speed Percentile",
+     "item": "https://typing.rerivo.com/typing-speed-percentile.html"
+    }
+   ],
+   "ldPretty": [
+    "FAQPage",
+    "BreadcrumbList"
+   ],
+   "tldr": "Using the CHI 2018 study (mean 51.56 WPM, SD 20.2): 40 WPM is about the 28th percentile, 60 WPM the 66th, 80 WPM the 92nd, 100 WPM the 99th. The approximation reproduces the study's own deciles within about one point."
   }
  ]
 }
