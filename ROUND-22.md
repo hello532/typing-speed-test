@@ -259,6 +259,8 @@ page+query 组合维度会因匿名化返回空集，只有 page 维度总量可
 | r64 | typing-practice 改成练习枢纽：Start here 三步 + 四周计划表 + 12 节按「开始→计划→诊断→纠错」重排 | "typing practice" 族 608 曝光 p84-94，竞品研究说这一族赢课程/枢纽格式 |
 | r65 | health.py 第 11 项：行内脚本 node --check（去重 55 段，378 段原始） | 0 语法错误；覆盖我这一晚加的 3 处交互 |
 | r66 | quotes 1,706→2,400、typing-skill-test 重排补三节 | 两页分别在 p27.2 / p19.8 |
+| r67 | average-typing-speed 补「为什么各家口径不一致」四口径对照表 | 该族 229 曝光 p57-65 0 点击；新增 40 / 51.56 / 36.17 / 60-70 四个口径的适用人群 |
+| r68 | 首页正文接入考试/数据/课程三簇，正文内链 35→42 | federal、SSC CHSL、CritiCall、SQL、benchmarks、consistency、课程页此前只在页脚与 related |
 
 ### 一个必须记住的取证限制
 
