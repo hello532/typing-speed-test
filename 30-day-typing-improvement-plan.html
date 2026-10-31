@@ -81,6 +81,9 @@ header.top{display:flex; justify-content:space-between; align-items:center; flex
    实测这就是 CLS 0.09 的唯一来源（屏蔽广告后仍然存在，JS 关闭后消失）。
    先把这段高度预留出来，插入时就不再推挤内容。 */
 header.top{min-height:168px;}
+/* R85: 320px 宽时语言/主题控件折成两行，header 实际高度 194px（实测 320→194，
+   360 及以上→168，900 及以上→95）。预留不足会在 320 上重新产生 0.069 的 CLS。 */
+@media(max-width:359px){header.top{min-height:194px;}}
 @media(min-width:900px){header.top{min-height:95px;}}
 .logo{font-size:1.3rem; font-weight:800; color:var(--accent); text-decoration:none; letter-spacing:-.3px; transition:filter .15s;}
 nav.toplinks a{color:var(--dim); text-decoration:none; font-size:.9rem; margin-left:18px; font-weight:500; transition:color .15s;}

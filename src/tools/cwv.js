@@ -80,6 +80,18 @@ for (const p of PAGES) {
               docKb: own.docKb, cls_own: own.cls, cls_ads: real.cls, worstReal: real.worst });
 }
 
+// 小屏复核（320×568）：header 在 320 会折两行，预留高度不同，CLS 要单独量
+await page.cdp("Emulation.setDeviceMetricsOverride",
+  { width: 320, height: 568, deviceScaleFactor: 2, mobile: true });
+const small = [];
+for (const p of ["/", "/typing-tests.html"]) {
+  await page.goto(BASE + p, { waitUntil: "domcontentloaded" });
+  await new Promise(r => setTimeout(r, 2200));
+  small.push(await page.evaluate(() => ({
+    page: location.pathname, cls: Math.round((window.__cls || 0) * 1000) / 1000,
+  })));
+}
+
 await page.cdp("Network.setBlockedURLs", { urls: [] });
 await page.cdp("Emulation.clearDeviceMetricsOverride");
 await page.cdp("Emulation.setCPUThrottlingRate", { rate: 1 });
@@ -93,7 +105,10 @@ for (const r of rows) {
               String(r.dcl).padStart(6), (r.docKb + "kB").padStart(6),
               String(r.cls_own).padStart(8), r.lcpEl);
 }
-const worstOwn = Math.max(...rows.map(r => r.cls_own));
-console.log(`\n自有代码 CLS 最大 ${worstOwn}（广告屏蔽后）；带广告 CLS 最大 ${Math.max(...rows.map(r => r.cls_ads))}`);
+const worstOwn = Math.max(...rows.map(r => r.cls_own), ...small.map(r => r.cls));
+console.log("\n小屏 320×568：", small.map(r => r.page + " CLS " + r.cls).join(" ｜ "));
+console.log(`\n390×844 自有代码 CLS 最大 ${Math.max(...rows.map(r => r.cls_own))}；` +
+            `320×568 最大 ${Math.max(...small.map(r => r.cls))}（合并门禁值 ${worstOwn}）；` +
+            `390 带广告 CLS 最大 ${Math.max(...rows.map(r => r.cls_ads))}`);
 console.log("门禁口径：cls_own 必须 ≤ 0.05；cls_ads 仅作信息记录（由 AdSense 自动广告决定）");
 process.exit(worstOwn > 0.05 ? 1 : 0);
