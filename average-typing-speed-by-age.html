@@ -4411,7 +4411,7 @@ function applyKbdSize(sz){
   try{localStorage.setItem("kbdSize",k);}catch(e){}
 }
 var HAND_TIPS=[['LP',40,32],['LR',78,18],['LM',126,16],['LI',174,22],['TH',214,112],['TH',262,112],['RI',306,22],['RM',352,16],['RR',406,18],['RP',442,32]];
-function buildHands(){var h=document.getElementById("hands");if(!h)return;var s='<div class="hands-wrap"><img class="hands-img" src="hands.png?v=202610020900" alt="finger position guide"><svg class="hands-ov" viewBox="0 0 486 265" aria-hidden="true">';for(var i=0;i<HAND_TIPS.length;i++){var t=HAND_TIPS[i];s+='<circle class="fg" data-f="'+t[0]+'" cx="'+t[1]+'" cy="'+t[2]+'" r="15"></circle>';}h.innerHTML=s+'</svg></div>';}
+function buildHands(){var h=document.getElementById("hands");if(!h)return;var s='<div class="hands-wrap"><img class="hands-img" src="hands.png?v=202610311200" alt="finger position guide" width="486" height="265" loading="lazy" decoding="async"><svg class="hands-ov" viewBox="0 0 486 265" aria-hidden="true">';for(var i=0;i<HAND_TIPS.length;i++){var t=HAND_TIPS[i];s+='<circle class="fg" data-f="'+t[0]+'" cx="'+t[1]+'" cy="'+t[2]+'" r="15"></circle>';}h.innerHTML=s+'</svg></div>';}
 function buildKbd(){
   var kb=document.getElementById("kbd"); if(!kb)return;
   var rows=layoutRows(), fg=layoutFinger();
