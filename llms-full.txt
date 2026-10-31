@@ -872,31 +872,47 @@ Source: https://typing.rerivo.com/typing-tutorial.html
 
 Free typing tutorial for beginners. Step by step touch typing lessons in your browser: home row first, then every finger, then real speed. Each tutorial sentence is also your practice text, so reading the lesson is doing the lesson. No sign up, no cost.
 
-A good typing tutorial explains why each finger owns certain keys, not just which key to press. This free online typing tutor works the same way: every practice sentence is a lesson in itself, so while you type you absorb the home row, the finger map, and the posture rules at the same time. Sixty seconds of guided practice, live WPM and accuracy feedback, and no sign up, no download, and no cost. For a paced trainer view with a saved drill log, open the typing tutor.
-The tutorial starts where every typing tutor must: the home row. Your left fingers rest on A S D F and your right fingers on J K L ;, with thumbs on the space bar and index fingers on the small bumps of F and J. From there the lessons add the upper and lower rows one at a time, then the shift key, then punctuation. Each step is short on purpose, because a tutorial only works when you can finish it without rushing.
-Ten to fifteen minutes a day, every day, beats a single long session once a week. Repeat each lesson until it feels boring, then once more: that is the moment muscle memory forms. Close the loop by ending every session on your weakest keys, the ones where your accuracy dips, and those keys will be your strongest within a week.
+Stage | What you do | Move on when
+1. Home row | asdf jkl; until the fingers return without looking | 95% accuracy, no glances
+2. All rows | Top row, then bottom row, one at a time | 30 WPM on ordinary words
+3. Modifiers | Shift for capitals, punctuation in sentences | 96% accuracy with punctuation intact
+4. Digits | Number row with correct fingers; keypad if relevant | 97% accuracy on a numbers round
+5. Speed | 30-second sprints plus slow accuracy rounds | Sprint peak 10-15 WPM above sustained
+Skip alternative layouts (Dvorak, Colemak) until you are past 60 WPM on QWERTY. Switching early means paying the learning cost twice and measuring neither. Skip code typing until you can type sentences without looking, because brackets make a hard task harder.
+Do not skip the digits stage even if your job seems prose-only. Every real document contains a date or an amount, and the number row is where untrained typists lose the most accuracy.
+Week 1: two minutes home row, three minutes normal text, one minute covered. Week 2: add the row you miss most, keep the covered round. Week 3: punctuation and capitals in sentences, plus a numbers round every other day. Week 4: five-minute rounds and one full test as a checkpoint.
+Fifteen minutes a day is enough. The variable that predicts progress is not session length but the number of days you show up.
+Two checks. First, you can type a sentence with your hands covered at 90% of your normal accuracy. Second, your five-minute net score improved by at least 5 WPM since the start.
+If neither happened, the cause is almost always that the covered round got dropped. It is the least pleasant part of the tutorial and the only part that removes the ceiling.
 ## Typing tutorial FAQ
-Yes. Every lesson is free, with no sign up, no account, and no paywall. You can repeat the tutorial as often as you like, and your results stay in your own browser.
-If you hunt and peck with two fingers, a typing tutor is the single biggest speed upgrade available. If you already touch type, this tutorial still helps by drilling the keys and rows that drag your accuracy down.
-Each practice round is 60 seconds, and a full beginner pass through the lessons takes about two weeks of 10 to 15 minutes a day. You can move faster or slower; the tutorial is self-paced.
-The home row, always. Rest your fingers on A S D F J K L ;, find the bumps on F and J with your index fingers, and practice words built only from those keys until you never look down. Everything else is added on top of that foundation.
-Yes. Any standard keyboard works, laptop or desktop. The finger map is identical on QWERTY layouts, and a tutorial that teaches posture and relaxation transfers to any keyboard you own.
+Four to six weeks at 15 minutes a day to go from two-finger typing to sentences without looking. Speed beyond that comes from months of regular practice rather than more lessons.
+Not before 60 WPM on QWERTY. Switching early doubles the learning cost and prevents a clean comparison.
+Yes. Dates, amounts and reference codes appear in almost every real document, and the number row is where untrained typists lose accuracy first.
+The covered round. It is the only one that removes the look-at-keyboard habit, which is what caps most people at 35-40 WPM.
+Yes, with no account. Each stage links to the test mode it needs, and results stay in your browser.
 
 ## Typing Tutor
 Source: https://typing.rerivo.com/typing-tutor.html
 
 Free typing tutor with live feedback. Pick a drill, type for sixty seconds, and the tutor scores your WPM, your accuracy, and names the exact keys that slowed you down. Every drill is also your practice text, so the lesson is the workout. No sign up, no cost.
 
-A typing tutor is a practice partner that never gets tired and never charges. This free online typing tutor runs a sixty second drill, then hands you three numbers: words per minute, accuracy, and an error report that names every key you missed. The practice sentences are written as tutor drills, so while you type you are being coached in the language of drills, scores, and feedback. No download, no account, and no paywall between you and another rep.
-Every drill works the same way: the tutor loads a line of practice text, the timer starts on your first keystroke, and the score updates live. When the minute ends, the tutor prints your error report, and that report is the whole lesson. It tells you which keys are slow, which are wrong, and which hand is doing extra work. Your weakest key becomes the next drill, and the tutor keeps your best score in the browser so each session has something to beat.
-Day one is diagnosis: run three drills and read the error reports without trying to fix anything. Day two through four, drill the two weakest keys until they are boring. Day five, run the full minute at half speed and let accuracy climb. By the end of the week the tutor's own leaderboard, your saved best scores, will show you what the drills did. Ten minutes a day is the entire prescription.
+Software measures output: WPM, accuracy, which keys you miss. A tutor watches process: posture, whether the same hand presses Shift, whether you look down before or after an error, whether you tense your shoulders when the timer starts.
+That distinction matters because most adult blockers are process problems. A typist who types at 45 WPM with all ten fingers and no looking has a posture or tension problem, and no amount of drill volume fixes it.
+Baseline: five-minute net WPM, accuracy, and the same on a numbers round.
+Technique observations: finger assignment, Shift hand, looking frequency, wrist position.
+Error pattern: which characters cluster in the error report, not just how many.
+Prescription: two or three drills, not a course. Anything more will not be done.
+If an assessment gives you a number and a course to buy, it is a sales funnel rather than a diagnosis.
+A good tutor will ask what you type and why before testing you, and will spend most of the first session watching rather than timing. Ask whether they teach touch typing from scratch or fix existing habits - the second is harder and rarer.
+Self-tutoring works if you follow three rules: measure the same way every week, change one variable at a time, and keep a covered round in every session. The data does the diagnosing; you just have to write it down.
+Run a five-minute test at the start of each week and record net WPM, accuracy and the two slowest keys from the results panel. That is enough data to see whether a drill is working after three weeks.
+For the drills themselves, the touch typing course is structured, and the typing speed exercises page covers the ones that target specific weaknesses.
 ## Typing tutor FAQ
-Yes, completely free. There is no sign up, no account, and no paid tier, and your scores are stored only in your own browser.
-A test only gives you a score. A tutor gives you a score plus the error report that tells you what to practice next. Every drill here ends with a per-key breakdown, so the drill points at your next drill.
-Sixty seconds by default. Short enough to fit between tasks, long enough to expose which keys fail when your hands get tired.
-Ten minutes a day, every day. Your tutor keeps your best score locally, so daily practice gives it a curve to beat. Missing a day costs nothing; missing a week costs the habit.
-Yes, though it takes patience. Start with home row drills, cover the keyboard if you have to, and let the error report tell you when old habits creep back. Most people break the habit in two to three weeks of daily drills.
-No. The tutor stores your best scores in your own browser, so nothing to sign up for and nothing to lose if you switch devices later.
+Not if you are progressing: weekly measurements and a covered round are enough. A tutor helps when you are stuck at the same speed for months with correct technique, or when posture and tension are the problem.
+Mostly observation: a baseline five-minute score, finger assignment, Shift hand, how often you look down, and where your errors cluster. A number alone is not a diagnosis.
+For measurement, yes - it is more consistent than a person. For technique and posture, no: software cannot see your hands or your shoulders.
+Weekly, always the same length and time of day. Every six weeks, add a numbers round and one unfamiliar-keyboard round.
+No. It is the test and measurement layer. There is no account, no coaching product and no data leaving your browser.
 
 ## Learn to Type: Free Typing Tutorial for Beginners
 Source: https://typing.rerivo.com/learn-to-type.html
@@ -1784,16 +1800,24 @@ Source: https://typing.rerivo.com/bank-typing-test.html
 
 Banking and clerical exams often include a typing round with a strict accuracy cut-off. Practise the format and the pace here.
 
-Many bank clerk and clerical recruitment exams include a typing test as a qualifying round: you must reach a set speed and accuracy, and failing it can end your application regardless of your written score. The format is a timed passage, usually in the language you applied in, with accuracy checked closely.
-Common requirements sit around 30 to 40 words per minute with at least 90% accuracy, and many boards set a hard floor on errors — a fixed number of mistakes is allowed and no more. Because the pass mark is about accuracy, clean typing beats raw speed.
-Bank typing rounds use ordinary prose, not technical jargon, but they are timed strictly and often use a fixed paragraph you cannot choose. Practise on uninterrupted passages of a few hundred words and get used to holding focus without fixing every tiny slip.
-Set the timer to match your exam — often five minutes — and aim to finish comfortably under the error limit before you try to raise speed. Once you can pass at 97% accuracy, push your WPM up in small steps. Watch our data entry and government typing pages for the same family of clerical tests.
-Bank clerk typing tests typically ask for short timed passages in the 25–35 WPM range with an accuracy threshold. For the full table of requirements across data entry, clerk, government and office scenarios, see typing speed requirements by job and exam.
+Indian bank clerical recruitment commonly quotes 30 words per minute in English or 25 words per minute in Hindi, tested on a standard keyboard for a fixed period, with a small error allowance. Probationary officer and specialist officer posts generally do not include a typing test; clerical and some office-assistant posts do.
+These figures appear in recruitment notifications rather than in a single national standard, so the notice for your cycle is the authority. Read it before you practise: the language, layout and error allowance all change between years.
+Element | Typical form
+Mode | Copy typing from a printed or on-screen passage
+Language | English or Hindi, chosen at application
+Duration | A fixed period, often around ten minutes
+Scoring | Words per minute with an error allowance
+Outcome | Qualifying - it does not add marks to the merit list
+Because it is qualifying, the strategy is accuracy at a comfortable pace, not maximum speed. A clean 32 WPM passes; a 45 WPM run with 10% errors does not.
+Use full-length rounds, not one-minute bursts. The error rate at minute eight is what decides the result, and it is invisible in a short round. Type passages with punctuation and capitals, since the actual passage includes them.
+Add a Hindi round if you are taking the Hindi option, on the layout named in your notice - Krutidev, Remington or InScript are not interchangeable, and learning the wrong one creates conflicting reflexes.
+Bank clerical requirements are close to SSC CHSL: both ask around 30-35 WPM and both are qualifying. The SSC CHSL page covers the 35/30 WPM and 8000 key-depression split in detail, and the government typing test page covers the general civil-service format.
 ## Bank Typing Test FAQ
-It is a timed typing round used in many bank clerk and clerical recruitment exams, where you must reach a minimum speed and accuracy to qualify.
-Requirements vary by board, but most ask for around 30 to 40 words per minute with 90% or higher accuracy, often with a hard limit on allowed errors.
-Accuracy. Banking typing rounds usually fail candidates who exceed the error limit, so a clean, correct passage matters more than a fast one.
-Yes — use the timed test on this page with a five-minute setting to mirror a typical exam round.
+Commonly 30 words per minute in English or 25 in Hindi for clerical posts, with a small error allowance. The recruitment notice for your cycle states the exact figure.
+Generally no. Clerical and some office-assistant posts include a qualifying typing test; probationary officer and specialist officer posts usually do not.
+Qualifying. It does not add marks to your total, which is why accuracy at a comfortable pace beats a fast, error-heavy run.
+Whichever you type faster and more accurately. Hindi requires 25 WPM against 30 for English, but only if you are fluent in the layout your notice specifies.
+Full-length rounds of about ten minutes, three times a week, plus five minutes of accuracy work daily. Short bursts do not reveal the errors that appear late in a real test.
 
 ## SSC Typing Test
 Source: https://typing.rerivo.com/ssc-typing-test.html
@@ -2375,15 +2399,24 @@ Source: https://typing.rerivo.com/pangram-typing-test.html
 
 Practice typing with pangrams — sentences that contain every letter of the alphabet. From the famous quick brown fox to fifteen harder variations. Free, instant results.
 
-A pangram typing test trains every key on the keyboard in a single sentence. A pangram is a sentence that uses all 26 letters at least once, so a few rounds guarantee your fingers visit every corner of the layout — including the rare letters (q, z, x, j) that ordinary prose barely touches.
-Typing speed is capped by your slowest keys, not your fastest. Most people fly through e, t and a but stumble on q, z, x and j simply because daily typing rarely calls for them. Pangram drills force those keys into your muscle memory, and once the rare letters stop being events, your baseline speed on normal text rises too.
-Sixteen pangrams in rising difficulty, starting with the classic quick brown fox — which has its own dedicated page with more variations — and moving to trickier constructions like 'Sphinx of black quartz, judge my vow' and 'Mr Jock, TV quiz PhD, bags few lynx'. The harder ones mix capitals, punctuation and unusual words for a full-keyboard workout.
-Run a minute a day and watch the weak-key report. When a pangram round flags the same letters round after round, those are your true weak keys — drill them until they disappear from the report. Alternate between the easy pangrams for warm-up and the hard ones for a proper challenge.
+A pangram contains every letter of the alphabet at least once. That makes it the shortest text that touches every key you own, which is exactly what a warm-up should do: no letter gets skipped because the passage happened not to contain it.
+It also exposes weak keys honestly. On ordinary prose you can drift for a minute without pressing Q, X or Z; on a pangram you press all of them, and the error report has something to say.
+Pangram | Why use it
+The quick brown fox jumps over the lazy dog | The classic - short, all 26 letters, quick to finish
+Sphinx of black quartz, judge my vow | Shorter, punctuation included, good for a 15-second round
+Pack my box with five dozen liquor jugs | Letter-dense with unusual letters in the home-row reach
+How vexingly quick daft zebras jump | Modern, all 26 letters, tests the Z and X reaches
+Waltz, bad nymph, for quick jigs vex | Short and punctuation-heavy
+Use two or three rather than all sixteen. Repetition of the same pangram is what builds the reflex; variety only prevents boredom.
+A pangram round is short, so it reads high - typically 5-10 WPM above your five-minute score. Use it as a warm-up and a key check, never as the number you quote.
+Best routine: one pangram at maximum speed to wake up, one at 80% pace with zero errors, then normal text for the actual measurement.
+The quick brown fox dates from the late nineteenth century and was used to test typewriters and telegraphs; the shorter ones are modern inventions written to be typed. All of them are public domain and safe to reproduce.
 ## Pangram typing test FAQ
-Yes. It is free with no sign up, and your practice history stays on your own device.
-A pangram is a sentence that contains every letter of the alphabet at least once, like 'The quick brown fox jumps over the lazy dog'. Typing pangrams exercises all 26 keys in a single line.
-Because rare letters (q, z, x, j) cap your real-world speed. Pangrams force every key into muscle memory, which raises your baseline on ordinary text too.
-Sixteen, in rising difficulty — from the classic quick brown fox to dense constructions like 'Sphinx of black quartz, judge my vow'.
+A test using sentences that contain every letter of the alphabet, so one short round touches every key and exposes weak ones.
+The shortest commonly used ones are around 30 letters, such as "Waltz, bad nymph, for quick jigs vex". The classic quick brown fox is 35 letters plus spaces.
+Short rounds avoid fatigue and drift, and a memorised sentence is easier to type than unfamiliar prose. Expect 5-10 WPM above a five-minute score.
+Two or three. Repeating the same one builds the reflex; cycling through many mainly prevents boredom.
+Yes, no account needed, and the pool includes sixteen pangrams from the classic quick brown fox to modern short ones.
 
 ## Python Code Typing Test
 Source: https://typing.rerivo.com/python-code-typing.html

@@ -4,34 +4,43 @@ Source: https://typing.rerivo.com/typing-tutor.html
 
 Free typing tutor with live feedback. Pick a drill, type for sixty seconds, and the tutor scores your WPM, your accuracy, and names the exact keys that slowed you down. Every drill is also your practice text, so the lesson is the workout. No sign up, no cost.
 
-A typing tutor is a practice partner that never gets tired and never charges. This free online typing tutor runs a sixty second drill, then hands you three numbers: words per minute, accuracy, and an error report that names every key you missed. The practice sentences are written as tutor drills, so while you type you are being coached in the language of drills, scores, and feedback. No download, no account, and no paywall between you and another rep.
+Software measures output: WPM, accuracy, which keys you miss. A tutor watches process: posture, whether the same hand presses Shift, whether you look down before or after an error, whether you tense your shoulders when the timer starts.
 
-Every drill works the same way: the tutor loads a line of practice text, the timer starts on your first keystroke, and the score updates live. When the minute ends, the tutor prints your error report, and that report is the whole lesson. It tells you which keys are slow, which are wrong, and which hand is doing extra work. Your weakest key becomes the next drill, and the tutor keeps your best score in the browser so each session has something to beat.
+That distinction matters because most adult blockers are process problems. A typist who types at 45 WPM with all ten fingers and no looking has a posture or tension problem, and no amount of drill volume fixes it.
 
-Day one is diagnosis: run three drills and read the error reports without trying to fix anything. Day two through four, drill the two weakest keys until they are boring. Day five, run the full minute at half speed and let accuracy climb. By the end of the week the tutor's own leaderboard, your saved best scores, will show you what the drills did. Ten minutes a day is the entire prescription.
+Baseline: five-minute net WPM, accuracy, and the same on a numbers round.
+Technique observations: finger assignment, Shift hand, looking frequency, wrist position.
+Error pattern: which characters cluster in the error report, not just how many.
+Prescription: two or three drills, not a course. Anything more will not be done.
+
+If an assessment gives you a number and a course to buy, it is a sales funnel rather than a diagnosis.
+
+A good tutor will ask what you type and why before testing you, and will spend most of the first session watching rather than timing. Ask whether they teach touch typing from scratch or fix existing habits - the second is harder and rarer.
+
+Self-tutoring works if you follow three rules: measure the same way every week, change one variable at a time, and keep a covered round in every session. The data does the diagnosing; you just have to write it down.
+
+Run a five-minute test at the start of each week and record net WPM, accuracy and the two slowest keys from the results panel. That is enough data to see whether a drill is working after three weeks.
+
+For the drills themselves, the touch typing course is structured, and the typing speed exercises page covers the ones that target specific weaknesses.
 
 ## Typing tutor FAQ
 
-### Is this typing tutor free?
+### Do I need a typing tutor?
 
-Yes, completely free. There is no sign up, no account, and no paid tier, and your scores are stored only in your own browser.
+Not if you are progressing: weekly measurements and a covered round are enough. A tutor helps when you are stuck at the same speed for months with correct technique, or when posture and tension are the problem.
 
-### What makes it a typing tutor rather than a typing test?
+### What should a first session cover?
 
-A test only gives you a score. A tutor gives you a score plus the error report that tells you what to practice next. Every drill here ends with a per-key breakdown, so the drill points at your next drill.
+Mostly observation: a baseline five-minute score, finger assignment, Shift hand, how often you look down, and where your errors cluster. A number alone is not a diagnosis.
 
-### How long is each tutoring drill?
+### Can software replace a tutor?
 
-Sixty seconds by default. Short enough to fit between tasks, long enough to expose which keys fail when your hands get tired.
+For measurement, yes - it is more consistent than a person. For technique and posture, no: software cannot see your hands or your shoulders.
 
-### How often should I use a typing tutor?
+### How often should I be re-tested?
 
-Ten minutes a day, every day. Your tutor keeps your best score locally, so daily practice gives it a curve to beat. Missing a day costs nothing; missing a week costs the habit.
+Weekly, always the same length and time of day. Every six weeks, add a numbers round and one unfamiliar-keyboard round.
 
-### Can a typing tutor fix hunt-and-peck habits?
+### Is this page a tutor service?
 
-Yes, though it takes patience. Start with home row drills, cover the keyboard if you have to, and let the error report tell you when old habits creep back. Most people break the habit in two to three weeks of daily drills.
-
-### Do I need an account to save my progress?
-
-No. The tutor stores your best scores in your own browser, so nothing to sign up for and nothing to lose if you switch devices later.
+No. It is the test and measurement layer. There is no account, no coaching product and no data leaving your browser.

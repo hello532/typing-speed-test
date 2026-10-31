@@ -4,30 +4,43 @@ Source: https://typing.rerivo.com/typing-tutorial.html
 
 Free typing tutorial for beginners. Step by step touch typing lessons in your browser: home row first, then every finger, then real speed. Each tutorial sentence is also your practice text, so reading the lesson is doing the lesson. No sign up, no cost.
 
-A good typing tutorial explains why each finger owns certain keys, not just which key to press. This free online typing tutor works the same way: every practice sentence is a lesson in itself, so while you type you absorb the home row, the finger map, and the posture rules at the same time. Sixty seconds of guided practice, live WPM and accuracy feedback, and no sign up, no download, and no cost. For a paced trainer view with a saved drill log, open the typing tutor.
+Stage | What you do | Move on when
+1. Home row | asdf jkl; until the fingers return without looking | 95% accuracy, no glances
+2. All rows | Top row, then bottom row, one at a time | 30 WPM on ordinary words
+3. Modifiers | Shift for capitals, punctuation in sentences | 96% accuracy with punctuation intact
+4. Digits | Number row with correct fingers; keypad if relevant | 97% accuracy on a numbers round
+5. Speed | 30-second sprints plus slow accuracy rounds | Sprint peak 10-15 WPM above sustained
 
-The tutorial starts where every typing tutor must: the home row. Your left fingers rest on A S D F and your right fingers on J K L ;, with thumbs on the space bar and index fingers on the small bumps of F and J. From there the lessons add the upper and lower rows one at a time, then the shift key, then punctuation. Each step is short on purpose, because a tutorial only works when you can finish it without rushing.
+Skip alternative layouts (Dvorak, Colemak) until you are past 60 WPM on QWERTY. Switching early means paying the learning cost twice and measuring neither. Skip code typing until you can type sentences without looking, because brackets make a hard task harder.
 
-Ten to fifteen minutes a day, every day, beats a single long session once a week. Repeat each lesson until it feels boring, then once more: that is the moment muscle memory forms. Close the loop by ending every session on your weakest keys, the ones where your accuracy dips, and those keys will be your strongest within a week.
+Do not skip the digits stage even if your job seems prose-only. Every real document contains a date or an amount, and the number row is where untrained typists lose the most accuracy.
+
+Week 1: two minutes home row, three minutes normal text, one minute covered. Week 2: add the row you miss most, keep the covered round. Week 3: punctuation and capitals in sentences, plus a numbers round every other day. Week 4: five-minute rounds and one full test as a checkpoint.
+
+Fifteen minutes a day is enough. The variable that predicts progress is not session length but the number of days you show up.
+
+Two checks. First, you can type a sentence with your hands covered at 90% of your normal accuracy. Second, your five-minute net score improved by at least 5 WPM since the start.
+
+If neither happened, the cause is almost always that the covered round got dropped. It is the least pleasant part of the tutorial and the only part that removes the ceiling.
 
 ## Typing tutorial FAQ
 
-### Is this typing tutorial free?
+### How long does a typing tutorial take?
 
-Yes. Every lesson is free, with no sign up, no account, and no paywall. You can repeat the tutorial as often as you like, and your results stay in your own browser.
+Four to six weeks at 15 minutes a day to go from two-finger typing to sentences without looking. Speed beyond that comes from months of regular practice rather than more lessons.
 
-### Do I need a typing tutor if I already type?
+### Should I learn Dvorak or Colemak instead of QWERTY?
 
-If you hunt and peck with two fingers, a typing tutor is the single biggest speed upgrade available. If you already touch type, this tutorial still helps by drilling the keys and rows that drag your accuracy down.
+Not before 60 WPM on QWERTY. Switching early doubles the learning cost and prevents a clean comparison.
 
-### How long is the typing tutorial?
+### Do I need to learn the number row?
 
-Each practice round is 60 seconds, and a full beginner pass through the lessons takes about two weeks of 10 to 15 minutes a day. You can move faster or slower; the tutorial is self-paced.
+Yes. Dates, amounts and reference codes appear in almost every real document, and the number row is where untrained typists lose accuracy first.
 
-### What should I learn first in a typing tutorial?
+### What is the most important drill?
 
-The home row, always. Rest your fingers on A S D F J K L ;, find the bumps on F and J with your index fingers, and practice words built only from those keys until you never look down. Everything else is added on top of that foundation.
+The covered round. It is the only one that removes the look-at-keyboard habit, which is what caps most people at 35-40 WPM.
 
-### Can a typing tutorial work on a laptop keyboard?
+### Is this tutorial free?
 
-Yes. Any standard keyboard works, laptop or desktop. The finger map is identical on QWERTY layouts, and a tutorial that teaches posture and relaxation transfers to any keyboard you own.
+Yes, with no account. Each stage links to the test mode it needs, and results stay in your browser.
