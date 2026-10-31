@@ -1,0 +1,33 @@
+{
+ "date": "2026-11-01",
+ "pages": 184,
+ "body_chars": {
+  "min": 1305,
+  "median": 2532,
+  "max": 32209
+ },
+ "faq_total": 916,
+ "tldr_pages": 163,
+ "sitemap_urls": 184,
+ "llms_bytes": 43045,
+ "build_check": {
+  "exit": 0,
+  "ok": true
+ },
+ "verify": {
+  "exit": 0,
+  "passed": 20,
+  "total": 20
+ },
+ "health": {
+  "exit": 0,
+  "checks_ok": 12
+ },
+ "gsc": {
+  "captured": "2026-11-01",
+  "clicks": 97,
+  "impressions": 5586,
+  "ctr": 0.01736484067311135,
+  "position": 56.44074471894021
+ }
+}
