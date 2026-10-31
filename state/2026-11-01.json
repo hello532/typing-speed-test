@@ -3,10 +3,10 @@
  "pages": 184,
  "body_chars": {
   "min": 1305,
-  "median": 2806,
+  "median": 3074,
   "max": 32209
  },
- "faq_total": 935,
+ "faq_total": 948,
  "tldr_pages": 163,
  "sitemap_urls": 184,
  "llms_bytes": 43045,
