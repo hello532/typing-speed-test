@@ -6039,6 +6039,27 @@
      "p": [
       "Because the pangram contains every letter, typing it is the fastest way to confirm that no key is broken or stuck: if a letter is missing from the output, that key is faulty. Try it with capitals and punctuation too &mdash; &lsquo;The quick brown fox jumps over the lazy dog.&rsquo; &mdash; to exercise the shift keys and the full stop. Then move on to a full <a href=\"/\">typing speed test</a> to get your WPM."
      ]
+    },
+    {
+     "h2": "Where the sentence comes from",
+     "p": [
+      "The quick brown fox jumps over the lazy dog is a pangram - it contains every letter of the English alphabet at least once. Sentences like it were used from the late nineteenth century to test typewriters and telegraph equipment, because a single line could exercise every key.",
+      "That history is why it is still the default demo text on keyboard and font sites. It is short, it is memorable, and it touches every letter without needing a paragraph."
+     ]
+    },
+    {
+     "h2": "What it is good for, and what it is not",
+     "p": [
+      "<table><tr><th>Good for</th><th>Not good for</th></tr><tr><td>Warming up every key in 15 seconds</td><td>Measuring your real speed - it is short and you memorise it</td></tr><tr><td>Checking that every key registers</td><td>Testing punctuation, capitals or digits</td></tr><tr><td>A first typing test for a beginner</td><td>Comparing yourself to a benchmark</td></tr></table>",
+      "The memorisation point is the important one. By the fifth attempt you are recalling the sentence rather than reading it, and the score rises without your skill changing. Use it as a warm-up, then measure on text you have not seen."
+     ]
+    },
+    {
+     "h2": "Other pangrams worth rotating",
+     "p": [
+      "Sphinx of black quartz, judge my vow; Pack my box with five dozen liquor jugs; How vexingly quick daft zebras jump; Waltz, bad nymph, for quick jigs vex. Each is a different length and a different letter distribution, which is exactly what stops memorisation from inflating the score.",
+      "Two or three is enough. Rotating through sixteen is entertainment; rotating through three is practice."
+     ]
     }
    ],
    "faqFirstOpen": true,
@@ -6063,6 +6084,14 @@
     {
      "q": "Can I use it to test a keyboard?",
      "a": "Yes. If a letter is missing from what you type, that key is faulty. Include the full stop and capitals to test shift and punctuation keys as well."
+    },
+    {
+     "q": "Why do typing tests use the quick brown fox?",
+     "a": "It is a pangram - it contains every letter of the alphabet - so one short line exercises every key. It has been used to test typewriters and keyboards since the late nineteenth century."
+    },
+    {
+     "q": "Is the quick brown fox a good speed test?",
+     "a": "No, for measurement. It is short and quickly memorised, so the score rises without skill changing. Use it as a warm-up or a key check, and measure on unseen text."
     }
    ],
    "webAppName": "Typing Speed Test",
@@ -7173,6 +7202,21 @@
       "Above about 80 WPM, no clerical job asks for more. The returns are personal - competitive typing, live captioning, heavy code work - rather than employability. If your goal is a job, the next 20 WPM are worth less than a certificate and a clean CV line.",
       "If your goal is the score itself, accept the timeline: 70 to 80 is months, 80 to 100 is usually years, and the last ten points are mostly consistency rather than technique."
      ]
+    },
+    {
+     "h2": "What advanced text should actually test",
+     "p": [
+      "A test that calls itself advanced should raise difficulty in a way that changes the skill being measured, not just the words. Four levers do that, in ascending order of difficulty:",
+      "<ol><li><strong>Punctuation density</strong> - more marks per sentence shifts the load onto Shift and the right pinky.</li><li><strong>Vocabulary rarity</strong> - uncommon words stop you predicting the next letters, so reading slows and the hands wait.</li><li><strong>Digit and symbol runs</strong> - codes, amounts, references; a different motor skill from prose.</li><li><strong>Structural irregularity</strong> - line breaks, quotation nesting, capitalised defined terms.</li></ol>",
+      "If a page only makes the words longer, it is a hard vocabulary test, not an advanced typing test. The distinction matters because the score only transfers to real work if the difficulty is the same kind."
+     ]
+    },
+    {
+     "h2": "Why advanced scores are not comparable across sites",
+     "p": [
+      "At 70 WPM and above, the measurement differences that barely matter at beginner level start to dominate: a 15-second round versus five minutes, sentences versus quotes, gross versus net, and whether the pool repeats within a round. Two sites can differ by 15 WPM for the same typist without either being wrong.",
+      "So compare only within a site, over time, at a fixed length. When you quote a number, quote the method with it: \"78 WPM net, sentences, five minutes\" is a measurement; \"78 WPM\" is a claim."
+     ]
     }
    ],
    "faqFirstOpen": true,
@@ -7197,6 +7241,10 @@
     {
      "q": "Should I quote gross or net WPM?",
      "a": "Net, with the test length and accuracy. Gross scores without a stated method read as the flattering version and invite a live re-test that reads lower."
+    },
+    {
+     "q": "What makes a typing test advanced?",
+     "a": "Difficulty that changes the skill being measured: punctuation density, uncommon vocabulary, digit and symbol runs, and structural irregularity. Longer but simpler words are a vocabulary test, not an advanced typing test."
     }
    ],
    "webAppName": "Typing Speed Test",
@@ -7269,6 +7317,20 @@
       "If you are under 40 WPM, the fastest gain is stopping the look-at-keyboard habit: one covered round a day for two weeks typically adds 5-8 WPM. If you are between 40 and 60, work on accuracy at speed - 30-second sprints at 90% of your maximum, checked every round. Above 60, the limiting factor becomes consistency and look-ahead reading rather than force.",
       "Then re-test at the same length and time of day. Comparing a 9am five-minute score with a midnight one-minute score tells you nothing except that you were tired."
      ]
+    },
+    {
+     "h2": "Find out in sixty seconds, then in five minutes",
+     "p": [
+      "The sixty-second test on this page gives you a number immediately. Treat it as a first reading, not a result: it is short enough that the warm-up advantage inflates it by 5-10 WPM.",
+      "The number worth keeping comes from a five-minute round on sentences, run twice on different days. If the two scores are within 3 WPM, that is your speed. If they differ by 10, one of the two was a bad day - and the lower one is the honest figure."
+     ]
+    },
+    {
+     "h2": "Why two people with the same score are not equal",
+     "p": [
+      "A 55 WPM score at 99% accuracy and a 55 WPM score at 92% accuracy are not the same asset. The second generates roughly one error every twelve words, which in a document is a correction every two sentences.",
+      "That is why employers weight accuracy and often convert to <em>net</em> WPM before comparing. If your accuracy is under 96%, improving it will raise your usable speed faster than any speed drill."
+     ]
     }
    ],
    "faqFirstOpen": true,
@@ -7293,6 +7355,10 @@
     {
      "q": "How quickly can I improve?",
      "a": "5-8 WPM in two weeks is typical at the start, mostly from removing bad habits. Gains slow above 60 WPM, where months of consistency work replace quick fixes."
+    },
+    {
+     "q": "How do I find out how fast I type?",
+     "a": "Take the sixty-second test on this page for a first reading, then run two five-minute rounds on different days. If they agree within 3 WPM, that is your speed; the lower of the two is the honest number."
     }
    ],
    "webAppName": "Typing Speed Test",

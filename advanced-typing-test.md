@@ -4,6 +4,16 @@ Source: https://typing.rerivo.com/advanced-typing-test.html
 
 For people who already type well: a demanding passage and honest scoring to see whether you belong in the top percentile.
 
+On this page
+
+What "advanced" means here, numerically
+The three things that separate 70 from 90
+Drills that move an advanced score
+Benchmarking honestly
+When advanced speed stops paying
+What advanced text should actually test
+Why advanced scores are not comparable across sites
+
 Advanced starts around 70 WPM net on a five-minute test, which is roughly the 82nd percentile of the largest published sample (mean 51.56, SD 20.2). At 80 WPM you are in the top decile; at 100 WPM, the top 1%.
 
 This page uses longer passages, mixed vocabulary and heavier punctuation so the score reflects sustained control rather than a lucky burst. A one-minute round on easy words will read 8-12 WPM higher than this test, and that difference is the point.
@@ -26,6 +36,19 @@ Above about 80 WPM, no clerical job asks for more. The returns are personal - co
 
 If your goal is the score itself, accept the timeline: 70 to 80 is months, 80 to 100 is usually years, and the last ten points are mostly consistency rather than technique.
 
+A test that calls itself advanced should raise difficulty in a way that changes the skill being measured, not just the words. Four levers do that, in ascending order of difficulty:
+
+Punctuation density - more marks per sentence shifts the load onto Shift and the right pinky.
+Vocabulary rarity - uncommon words stop you predicting the next letters, so reading slows and the hands wait.
+Digit and symbol runs - codes, amounts, references; a different motor skill from prose.
+Structural irregularity - line breaks, quotation nesting, capitalised defined terms.
+
+If a page only makes the words longer, it is a hard vocabulary test, not an advanced typing test. The distinction matters because the score only transfers to real work if the difficulty is the same kind.
+
+At 70 WPM and above, the measurement differences that barely matter at beginner level start to dominate: a 15-second round versus five minutes, sentences versus quotes, gross versus net, and whether the pool repeats within a round. Two sites can differ by 15 WPM for the same typist without either being wrong.
+
+So compare only within a site, over time, at a fixed length. When you quote a number, quote the method with it: "78 WPM net, sentences, five minutes" is a measurement; "78 WPM" is a claim.
+
 ## Advanced Typing Test FAQ
 
 ### What is an advanced typing speed?
@@ -47,3 +70,7 @@ Yes. No clerical role requires more than about 75-80 WPM. Above that, extra spee
 ### Should I quote gross or net WPM?
 
 Net, with the test length and accuracy. Gross scores without a stated method read as the flattering version and invite a live re-test that reads lower.
+
+### What makes a typing test advanced?
+
+Difficulty that changes the skill being measured: punctuation density, uncommon vocabulary, digit and symbol runs, and structural irregularity. Longer but simpler words are a vocabulary test, not an advanced typing test.

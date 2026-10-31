@@ -4,6 +4,15 @@ Source: https://typing.rerivo.com/how-fast-can-i-type.html
 
 One minute is all it takes to answer the question. Type the passage and get your words per minute and accuracy instantly.
 
+On this page
+
+The answer, in one round
+How you compare
+Four things that change your number
+What to do with the number
+Find out in sixty seconds, then in five minutes
+Why two people with the same score are not equal
+
 Take the 60-second test on this page and read net WPM from the results panel. That number is your current speed on this text at this length - not a permanent trait, and not directly comparable to a five-minute score.
 
 If you need a number to quote to an employer or on a form, run a five-minute test instead. It reads 5-10 WPM lower and it is the figure that can be reproduced.
@@ -27,6 +36,14 @@ If you are under 40 WPM, the fastest gain is stopping the look-at-keyboard habit
 
 Then re-test at the same length and time of day. Comparing a 9am five-minute score with a midnight one-minute score tells you nothing except that you were tired.
 
+The sixty-second test on this page gives you a number immediately. Treat it as a first reading, not a result: it is short enough that the warm-up advantage inflates it by 5-10 WPM.
+
+The number worth keeping comes from a five-minute round on sentences, run twice on different days. If the two scores are within 3 WPM, that is your speed. If they differ by 10, one of the two was a bad day - and the lower one is the honest figure.
+
+A 55 WPM score at 99% accuracy and a 55 WPM score at 92% accuracy are not the same asset. The second generates roughly one error every twelve words, which in a document is a correction every two sentences.
+
+That is why employers weight accuracy and often convert to net WPM before comparing. If your accuracy is under 96%, improving it will raise your usable speed faster than any speed drill.
+
 ## How Fast Can I Type FAQ
 
 ### How fast can I type?
@@ -48,3 +65,7 @@ You can reach about 35-40 WPM, then it plateaus. Two-finger typing needs a visua
 ### How quickly can I improve?
 
 5-8 WPM in two weeks is typical at the start, mostly from removing bad habits. Gains slow above 60 WPM, where months of consistency work replace quick fixes.
+
+### How do I find out how fast I type?
+
+Take the sixty-second test on this page for a first reading, then run two five-minute rounds on different days. If they agree within 3 WPM, that is your speed; the lower of the two is the honest number.
