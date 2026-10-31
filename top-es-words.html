@@ -162,7 +162,7 @@ nav.crumbs span{color:var(--dim);}
 .result-grid{display:flex; justify-content:center; gap:clamp(20px,6vw,56px); margin:18px 0 22px; flex-wrap:wrap;}
 .result-actions{display:flex; gap:12px; justify-content:center; flex-wrap:wrap;}
 .hist{text-align:left; margin-top:20px;}
-.hist h3{font-size:.75rem; color:var(--dim); text-transform:uppercase; letter-spacing:1.4px; font-weight:700; margin-bottom:10px;}
+.hist h2,.hist .hist-h{font-size:.75rem; color:var(--dim); text-transform:uppercase; letter-spacing:1.4px; font-weight:700; margin-bottom:10px;}
 .hist table{width:100%; border-collapse:collapse; font-size:.92rem;}
 .hist th{color:var(--dim); font-weight:700; text-align:left; padding:7px 10px; border-bottom:1px solid var(--line); font-size:.7rem; text-transform:uppercase; letter-spacing:.8px;}
 .hist td{padding:9px 10px; border-bottom:1px solid var(--line); font-variant-numeric:tabular-nums;}
@@ -575,7 +575,7 @@ window.__trPageLang="es";</script>
           <button type="button" class="btn ghost" id="btnCert" data-i18n="btn_cert">Print certificate</button>
     </div>
     <div class="hist" id="histBox">
-      <h3 data-i18n="hist_title">Your typing history (saved in this browser)</h3>
+      <h2 class="hist-h" data-i18n="hist_title">Your typing history (saved in this browser)</h2>
       <div class="hist-tools">
         <button type="button" class="hist-btn" id="btnExport" data-i18n="hist_export">Export progress</button>
         <button type="button" class="hist-btn" id="btnImport" data-i18n="hist_import">Import</button>

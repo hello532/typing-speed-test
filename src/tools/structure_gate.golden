@@ -117,7 +117,7 @@ crossorigin="anonymous"></script>
 <button type="button" class="btn ghost" id="btnCert" data-i18n="btn_cert">Print certificate</button>
 </div>
 <div class="hist" id="histBox">
-<h3 data-i18n="hist_title">Your typing history (saved in this browser)</h3>
+<h2 class="hist-h" data-i18n="hist_title">Your typing history (saved in this browser)</h2>
 <div class="hist-tools">
 <button type="button" class="hist-btn" id="btnExport" data-i18n="hist_export">Export progress</button>
 <button type="button" class="hist-btn" id="btnImport" data-i18n="hist_import">Import</button>
