@@ -5679,8 +5679,8 @@
   },
   {
    "file": "typing-speed-calculator.html",
-   "title": "Typing Speed Calculator - WPM, CPM & KPH Converter",
-   "metaDesc": "Free typing speed calculator. Convert between WPM, CPM and keystrokes per hour (KPH), and estimate your typing speed from characters typed and time.",
+   "title": "Typing Speed Calculator — WPM, CPM, KPH + Percentile",
+   "metaDesc": "Put in characters, errors and seconds and get gross WPM, net WPM, CPM, keystrokes per hour and your percentile. Free, no sign up, formula shown.",
    "canonical": "https://typing.rerivo.com/typing-speed-calculator.html",
    "dur": 60,
    "mode": "sentences",
@@ -5706,6 +5706,14 @@
    "h1": "Typing Speed Calculator",
    "heroP": "This <strong>typing speed calculator</strong> tells you how your typing speed converts between <strong>WPM</strong> (words per minute), <strong>CPM</strong> (characters per minute) and <strong>KPH</strong> (keystrokes per hour). Measure your real speed with the test below, then use the formulas and table to convert any figure. Everything runs in your browser.",
    "seo": [
+    {
+     "h2": "Calculate your speed from what you typed",
+     "p": [
+      "<form class=\"conv\" action=\"#\" onsubmit=\"return false\"><div class=\"conv-row\"><label for=\"calcChars\">Characters typed<input id=\"calcChars\" type=\"number\" inputmode=\"numeric\" min=\"0\" step=\"1\" value=\"300\" autocomplete=\"off\"></label><label for=\"calcErr\">Errors<input id=\"calcErr\" type=\"number\" inputmode=\"numeric\" min=\"0\" step=\"1\" value=\"3\" autocomplete=\"off\"></label><label for=\"calcSec\">Seconds<input id=\"calcSec\" type=\"number\" inputmode=\"decimal\" min=\"1\" step=\"1\" value=\"60\" autocomplete=\"off\"></label></div><p class=\"conv-out\" id=\"calcOut\" aria-live=\"polite\">60 WPM gross / 59.4 WPM net / 300 CPM / 18,000 KPH / 66th percentile</p></form><script>(function(){var c=document.getElementById('calcChars'),e=document.getElementById('calcErr'),s=document.getElementById('calcSec'),o=document.getElementById('calcOut');if(!c||!e||!s||!o)return;function f(n,d){return n.toLocaleString('en-US',{maximumFractionDigits:d||0})}function erf(x){var t=1/(1+0.3275911*Math.abs(x));var y=1-((((1.061405429*t-1.453152027)*t+1.421413741)*t-0.284496736)*t+0.254829592)*t*Math.exp(-x*x);return x>=0?y:-y}function pct(w){var z=(w-51.56)/(20.2*Math.SQRT2);return Math.max(0,Math.min(100,100*0.5*(1+erf(z))))}function upd(){var cc=parseFloat(c.value),er=parseFloat(e.value)||0,sec=parseFloat(s.value);if(!(cc>=0)||!(sec>0)){o.textContent='Enter characters, errors and seconds.';return;}var min=sec/60,gross=cc/5/min,net=Math.max(0,(cc-er)/5/min),cpm=cc/min,kph=cpm*60;o.textContent=f(gross,1)+' WPM gross / '+f(net,1)+' WPM net / '+f(cpm)+' CPM / '+f(kph)+' KPH / '+f(pct(net))+'th percentile';}[c,e,s].forEach(function(el){el.addEventListener('input',upd)});upd();})();</script>",
+      "Enter the characters you typed, the errors you left uncorrected, and the seconds elapsed. The calculator returns gross WPM, net WPM, CPM, keystrokes per hour and the approximate percentile of the net score.",
+      "The percentile uses a normal approximation of the CHI 2018 distribution (mean 51.56 WPM, SD 20.2). It is an approximation - real typing speed is mildly left-skewed - and it reproduces the study's reported deciles to within about one point. The <a href=\"typing-speed-percentile.html\">percentile page</a> has the full curve."
+     ]
+    },
     {
      "h2": "How to calculate typing speed (WPM)",
      "p": [
@@ -5766,7 +5774,7 @@
     }
    ],
    "ldPretty": [],
-   "tldr": "A typing speed calculator converts raw keystrokes into words per minute: WPM equals correct characters divided by 5, divided by minutes. This page explains the formula, shows the equivalent CPM and KPH, and measures your own WPM live so you can calculate typing speed without doing the maths."
+   "tldr": "Gross WPM = characters ÷ 5 ÷ minutes. Net WPM subtracts errors first. CPM = characters ÷ minutes, and KPH = CPM × 60. The calculator below does all five figures at once, including the percentile."
   },
   {
    "file": "quick-brown-fox-typing-test.html",

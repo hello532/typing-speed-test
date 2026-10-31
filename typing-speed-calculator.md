@@ -4,6 +4,10 @@ Source: https://typing.rerivo.com/typing-speed-calculator.html
 
 This typing speed calculator tells you how your typing speed converts between WPM (words per minute), CPM (characters per minute) and KPH (keystrokes per hour). Measure your real speed with the test below, then use the formulas and table to convert any figure. Everything runs in your browser.
 
+Enter the characters you typed, the errors you left uncorrected, and the seconds elapsed. The calculator returns gross WPM, net WPM, CPM, keystrokes per hour and the approximate percentile of the net score.
+
+The percentile uses a normal approximation of the CHI 2018 distribution (mean 51.56 WPM, SD 20.2). It is an approximation - real typing speed is mildly left-skewed - and it reproduces the study's reported deciles to within about one point. The percentile page has the full curve.
+
 Typing speed in words per minute (WPM) is worked out with one simple formula: WPM = (characters typed ÷ 5) ÷ minutes. Every five characters count as one &lsquo;word&rsquo;, so longer words are worth more. Net WPM subtracts your errors first: net WPM = ((correct characters ÷ 5) ÷ minutes). Employers use net WPM, because a mistake you have to fix costs time.
 
 To get your own numbers, just take the timed test above - it computes WPM, raw WPM, CPM and accuracy for you, so you can read your result straight off the scoreboard.

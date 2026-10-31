@@ -185,6 +185,7 @@ ui.js 语种池 14 个（de/fr 各 40 句已上线）
 | r51–r54 | 把全站最后 16 个薄页补到 ≥1,500 字符 | 正文 min 1,265→1,500（privacy 除外），中位数 2,386 |
 | r55 | 按 GSC 真实查询给 6 个高曝光页补 13 条 FAQ | 用查询原话（"one minute typing test"、"free wpm test"…），不是同义改写 |
 | r56 | 对比页升级：7 维表 + 方法说明 + 「明确不测什么」 | 竞品研究里赢的对比页都带方法论与自限段 |
+| r57 | `typing-speed-calculator` 变成真计算器（字符/错误/秒 → gross/net WPM、CPM、KPH、百分位） | JS 的 erf 近似与 Python `math.erf` 在 40/60/80/100 WPM 上偏差 ≤0.1 个百分位 |
 
 ### 这一批的质量基线
 

@@ -3,8 +3,8 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Typing Speed Calculator - WPM, CPM &amp; KPH Converter</title>
-<meta name="description" content="Free typing speed calculator. Convert between WPM, CPM and keystrokes per hour (KPH), and estimate your typing speed from characters typed and time.">
+<title>Typing Speed Calculator — WPM, CPM, KPH + Percentile</title>
+<meta name="description" content="Put in characters, errors and seconds and get gross WPM, net WPM, CPM, keystrokes per hour and your percentile. Free, no sign up, formula shown.">
 <meta name="keywords" content="typing test, typing games, learn to type, typing speed, typing practice, typing speed test, wpm test, wpm typing test, typing test wpm, words per minute test, typing test free, free typing test, typing lessons, average typing speed, typing test practice, typing games for kids, number typing test, ten key typing test, typing certificate, typing quiz, typing assessment, typing test for job">
 <link rel="canonical" href="https://typing.rerivo.com/typing-speed-calculator.html">
 <link rel="icon" type="image/svg+xml" href="/favicon.svg">
@@ -12,8 +12,8 @@
 <link rel="icon" type="image/png" sizes="512x512" href="/icon-512.png">
 <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
 <link rel="manifest" href="/site.webmanifest">
-<meta property="og:title" content="Typing Speed Calculator - WPM, CPM &amp; KPH Converter">
-<meta property="og:description" content="Free typing speed calculator. Convert between WPM, CPM and keystrokes per hour (KPH), and estimate your typing speed from characters typed and time.">
+<meta property="og:title" content="Typing Speed Calculator — WPM, CPM, KPH + Percentile">
+<meta property="og:description" content="Put in characters, errors and seconds and get gross WPM, net WPM, CPM, keystrokes per hour and your percentile. Free, no sign up, formula shown.">
 <meta property="og:type" content="website">
 <meta property="og:url" content="https://typing.rerivo.com/typing-speed-calculator.html">
 <meta property="og:image" content="https://typing.rerivo.com/og-cover.png">
@@ -25,8 +25,8 @@
 <link rel="describedby" href="https://typing.rerivo.com/llms.txt">
 <link rel="alternate" type="text/markdown" href="https://typing.rerivo.com/typing-speed-calculator.md">
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="Typing Speed Calculator - WPM, CPM &amp; KPH Converter">
-<meta name="twitter:description" content="Free typing speed calculator. Convert between WPM, CPM and keystrokes per hour (KPH), and estimate your typing speed from characters typed and time.">
+<meta name="twitter:title" content="Typing Speed Calculator — WPM, CPM, KPH + Percentile">
+<meta name="twitter:description" content="Put in characters, errors and seconds and get gross WPM, net WPM, CPM, keystrokes per hour and your percentile. Free, no sign up, formula shown.">
 <meta name="twitter:image" content="https://typing.rerivo.com/og-cover.png">
 <meta name="twitter:image:alt" content="Rerivo free online typing speed test — measure WPM and accuracy">
 <script type="application/ld+json">
@@ -549,7 +549,7 @@ body.typing-active footer{opacity:.26;filter:saturate(.72);pointer-events:none;}
   </div>
 
   <div class="tldr-wrap">
-    <p class="tldr"><strong>TL;DR:</strong> A typing speed calculator converts raw keystrokes into words per minute: WPM equals correct characters divided by 5, divided by minutes. This page explains the formula, shows the equivalent CPM and KPH, and measures your own WPM live so you can calculate typing speed without doing the maths.</p>
+    <p class="tldr"><strong>TL;DR:</strong> Gross WPM = characters ÷ 5 ÷ minutes. Net WPM subtracts errors first. CPM = characters ÷ minutes, and KPH = CPM × 60. The calculator below does all five figures at once, including the percentile.</p>
   </div>
 
   <nav class="related" aria-label="WPM, CPM and scoring">
@@ -558,6 +558,10 @@ body.typing-active footer{opacity:.26;filter:saturate(.72);pointer-events:none;}
   </nav>
 
   <section class="seo">
+    <h2 id="calculate-your-speed-from-what-you-typed">Calculate your speed from what you typed</h2>
+    <form class="conv" action="#" onsubmit="return false"><div class="conv-row"><label for="calcChars">Characters typed<input id="calcChars" type="number" inputmode="numeric" min="0" step="1" value="300" autocomplete="off"></label><label for="calcErr">Errors<input id="calcErr" type="number" inputmode="numeric" min="0" step="1" value="3" autocomplete="off"></label><label for="calcSec">Seconds<input id="calcSec" type="number" inputmode="decimal" min="1" step="1" value="60" autocomplete="off"></label></div><p class="conv-out" id="calcOut" aria-live="polite">60 WPM gross / 59.4 WPM net / 300 CPM / 18,000 KPH / 66th percentile</p></form><script>(function(){var c=document.getElementById('calcChars'),e=document.getElementById('calcErr'),s=document.getElementById('calcSec'),o=document.getElementById('calcOut');if(!c||!e||!s||!o)return;function f(n,d){return n.toLocaleString('en-US',{maximumFractionDigits:d||0})}function erf(x){var t=1/(1+0.3275911*Math.abs(x));var y=1-((((1.061405429*t-1.453152027)*t+1.421413741)*t-0.284496736)*t+0.254829592)*t*Math.exp(-x*x);return x>=0?y:-y}function pct(w){var z=(w-51.56)/(20.2*Math.SQRT2);return Math.max(0,Math.min(100,100*0.5*(1+erf(z))))}function upd(){var cc=parseFloat(c.value),er=parseFloat(e.value)||0,sec=parseFloat(s.value);if(!(cc>=0)||!(sec>0)){o.textContent='Enter characters, errors and seconds.';return;}var min=sec/60,gross=cc/5/min,net=Math.max(0,(cc-er)/5/min),cpm=cc/min,kph=cpm*60;o.textContent=f(gross,1)+' WPM gross / '+f(net,1)+' WPM net / '+f(cpm)+' CPM / '+f(kph)+' KPH / '+f(pct(net))+'th percentile';}[c,e,s].forEach(function(el){el.addEventListener('input',upd)});upd();})();</script>
+    <p>Enter the characters you typed, the errors you left uncorrected, and the seconds elapsed. The calculator returns gross WPM, net WPM, CPM, keystrokes per hour and the approximate percentile of the net score.</p>
+    <p>The percentile uses a normal approximation of the CHI 2018 distribution (mean 51.56 WPM, SD 20.2). It is an approximation - real typing speed is mildly left-skewed - and it reproduces the study's reported deciles to within about one point. The <a href="typing-speed-percentile.html">percentile page</a> has the full curve.</p>
     <h2 id="how-to-calculate-typing-speed-wpm">How to calculate typing speed (WPM)</h2>
     <p>Typing speed in <strong>words per minute (WPM)</strong> is worked out with one simple formula: <strong>WPM = (characters typed ÷ 5) ÷ minutes</strong>. Every five characters count as one &lsquo;word&rsquo;, so longer words are worth more. <strong>Net WPM</strong> subtracts your errors first: net WPM = ((correct characters ÷ 5) ÷ minutes). Employers use net WPM, because a mistake you have to fix costs time.</p>
     <p>To get your own numbers, just take the timed test above &mdash; it computes WPM, raw WPM, CPM and accuracy for you, so you can read your result straight off the scoreboard.</p>
