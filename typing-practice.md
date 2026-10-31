@@ -82,6 +82,8 @@ If what you actually need is to learn where the keys are rather than to get fast
 
 If you are deciding whether to practise here or elsewhere, the six-site comparison states what each one is better at, including this one.
 
+Practising under a clock is a different skill from practising freely - the timed test page covers how the pressure changes your errors.
+
 ## Typing test FAQ
 
 ### What is typing practice?

@@ -23,6 +23,10 @@ New to this? The free typing test gives you a sixty-second baseline before you c
 
 Choosing between sites rather than tests? The comparison of six free typing tests covers sign-up, ads, languages and certificates.
 
+For the length most screening tools use, start with the three-minute test.
+
+The timed typing test page explains what each countdown length actually measures, if you are unsure which to pick.
+
 ## Other test lengths
 
 ## Practice and lessons

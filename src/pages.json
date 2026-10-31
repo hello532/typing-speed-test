@@ -130,7 +130,9 @@
     {
      "h2": "About this page",
      "p": [
-      "Last updated 2026-10-20. Written and maintained by the Typing.Rerivo team; scoring formulas, sources and corrections policy are documented on the <a href=\"about.html\">about page</a>."
+      "Last updated 2026-10-20. Written and maintained by the Typing.Rerivo team; scoring formulas, sources and corrections policy are documented on the <a href=\"about.html\">about page</a>.",
+      "If sixty seconds feels like a sprint rather than a score, the <a href=\"2-minute-typing-test.html\">two-minute typing test</a> shows what you hold once the warm-up fades.",
+      "For the endurance number that transcription and data-entry work actually measures, use the <a href=\"10-minute-typing-test.html\">ten-minute typing test</a> - a one-minute score overstates it by 5-10 WPM."
      ]
     }
    ],
@@ -1699,7 +1701,8 @@
       "For structured browser-based practice with per-language text and per-key analysis, see <a href=\"online-typing-practice.html\">online typing practice</a> — a daily 10-minute plan by goal, no sign up. Want a plain timed score instead of a structured plan? Use the <a href=\"online-typing-test.html\">online typing test</a>.",
       "If you want a number rather than a drill, the <a href=\"free-typing-test.html\">free typing test</a> gives you one in sixty seconds, and the practice page is where you go afterwards to move it.",
       "If what you actually need is to learn where the keys are rather than to get faster, the <a href=\"keyboard-practice.html\">keyboard practice</a> page is the right starting point - it puts the key map first and the text second.",
-      "If you are deciding whether to practise here or elsewhere, the <a href=\"best-typing-test-online.html\">six-site comparison</a> states what each one is better at, including this one."
+      "If you are deciding whether to practise here or elsewhere, the <a href=\"best-typing-test-online.html\">six-site comparison</a> states what each one is better at, including this one.",
+      "Practising under a clock is a different skill from practising freely - the <a href=\"timed-typing-test.html\">timed test</a> page covers how the pressure changes your errors."
      ]
     }
    ],
@@ -2821,7 +2824,8 @@
     {
      "h2": "Why the five-character word matters for endurance scores",
      "p": [
-      "Long rounds are only comparable if the unit is fixed. This test scores every five characters as one word, the convention documented for <a href=\"https://en.wikipedia.org/wiki/Words_per_minute\" rel=\"noopener\">words per minute</a>, so a ten minute result can be set against a one minute result from any other test that uses the same rule. Change the unit and the drop you are measuring stops being fatigue &mdash; it becomes an artefact of the formula."
+      "Long rounds are only comparable if the unit is fixed. This test scores every five characters as one word, the convention documented for <a href=\"https://en.wikipedia.org/wiki/Words_per_minute\" rel=\"noopener\">words per minute</a>, so a ten minute result can be set against a one minute result from any other test that uses the same rule. Change the unit and the drop you are measuring stops being fatigue &mdash; it becomes an artefact of the formula.",
+      "If ten minutes is more than you need, the <a href=\"2-minute-typing-test.html\">two-minute test</a> covers the length most interviews use."
      ]
     }
    ],
@@ -8944,7 +8948,8 @@
       "For the measured population behind these thresholds, see the <a href=\"typing-speed-benchmarks.html\">benchmark data page</a> - it separates study measurements from advertised job ranges.",
       "Before applying, take a <a href=\"free-typing-test.html\">free typing test</a> at the length your target role quotes, so you know which side of the threshold you are on.",
       "To convert a number you already have into the unit a posting uses, the <a href=\"typing-speed-calculator.html\">speed calculator</a> does WPM, CPM, KPH and percentiles in one place.",
-      "Most screening tests run one to three minutes, so the <a href=\"3-minute-typing-test.html\">three-minute test</a> is the closest rehearsal for the real thing."
+      "Most screening tests run one to three minutes, so the <a href=\"3-minute-typing-test.html\">three-minute test</a> is the closest rehearsal for the real thing.",
+      "Interview tests commonly run two minutes, which is why the <a href=\"2-minute-typing-test.html\">two-minute typing test</a> is the one to rehearse on."
      ]
     }
    ],
@@ -17734,7 +17739,9 @@
      "p": [
       "The footer already links every page, but a flat list of 160 links tells a reader nothing about which one to open. This directory groups them by the question they answer, and it is generated from the same configuration that builds the pages, so it cannot drift out of date or link to something that no longer exists.",
       "New to this? The <a href=\"free-typing-test.html\">free typing test</a> gives you a sixty-second baseline before you choose a longer test; come back here once you know roughly where you stand.",
-      "Choosing between sites rather than tests? The <a href=\"best-typing-test-online.html\">comparison of six free typing tests</a> covers sign-up, ads, languages and certificates."
+      "Choosing between sites rather than tests? The <a href=\"best-typing-test-online.html\">comparison of six free typing tests</a> covers sign-up, ads, languages and certificates.",
+      "For the length most screening tools use, start with the <a href=\"3-minute-typing-test.html\">three-minute test</a>.",
+      "The <a href=\"timed-typing-test.html\">timed typing test</a> page explains what each countdown length actually measures, if you are unsure which to pick."
      ]
     }
    ],

@@ -92,6 +92,10 @@ Where a figure is an estimate rather than a measurement — job requirements, ag
 
 Last updated 2026-10-20. Written and maintained by the Typing.Rerivo team; scoring formulas, sources and corrections policy are documented on the about page.
 
+If sixty seconds feels like a sprint rather than a score, the two-minute typing test shows what you hold once the warm-up fades.
+
+For the endurance number that transcription and data-entry work actually measures, use the ten-minute typing test - a one-minute score overstates it by 5-10 WPM.
+
 ## Typing test FAQ
 
 ### What is a 1 minute typing test?

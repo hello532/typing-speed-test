@@ -62,6 +62,8 @@ To convert a number you already have into the unit a posting uses, the speed cal
 
 Most screening tests run one to three minutes, so the three-minute test is the closest rehearsal for the real thing.
 
+Interview tests commonly run two minutes, which is why the two-minute typing test is the one to rehearse on.
+
 ## Typing speed requirements FAQ
 
 ### What typing speed is required for most jobs?

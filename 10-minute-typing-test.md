@@ -61,6 +61,8 @@ Use it as an endurance check rather than a daily drill: one ten minute run after
 
 Long rounds are only comparable if the unit is fixed. This test scores every five characters as one word, the convention documented for words per minute, so a ten minute result can be set against a one minute result from any other test that uses the same rule. Change the unit and the drop you are measuring stops being fatigue - it becomes an artefact of the formula.
 
+If ten minutes is more than you need, the two-minute test covers the length most interviews use.
+
 ## 10 minute typing test FAQ
 
 ### Will I slow down over 10 minutes?

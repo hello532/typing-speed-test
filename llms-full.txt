@@ -64,6 +64,8 @@ Speed and accuracy figures quoted here follow the largest published study of eve
 The claim that finger consistency and keypress preparation predict speed — more than which finger presses which key — comes from Feit, Weir and Oulasvirta, CHI 2016, a motion-capture study of 36 typists. The two studies disagree on how much formal touch-typing training matters, and this page says so where it matters rather than picking the tidier result.
 Where a figure is an estimate rather than a measurement — job requirements, age bands, exam cut-offs — it is drawn from the ranges employers and exam boards publish and is labelled as an estimate. Nothing on this page is a benchmark we ran ourselves.
 Last updated 2026-10-20. Written and maintained by the Typing.Rerivo team; scoring formulas, sources and corrections policy are documented on the about page.
+If sixty seconds feels like a sprint rather than a score, the two-minute typing test shows what you hold once the warm-up fades.
+For the endurance number that transcription and data-entry work actually measures, use the ten-minute typing test - a one-minute score overstates it by 5-10 WPM.
 ## Typing test FAQ
 A 60-second timed round: type the passage shown for exactly one minute, then get your WPM, accuracy and error breakdown instantly. One minute is the most-quoted test length, so scores compare directly across sites and job requirements.
 Correct characters divided by 5, divided by the one elapsed minute. Because the test lasts exactly sixty seconds the maths is simple: 300 correct characters equals 60 WPM. The results panel shows both raw WPM and net WPM with errors subtracted.
@@ -487,6 +489,7 @@ For structured browser-based practice with per-language text and per-key analysi
 If you want a number rather than a drill, the free typing test gives you one in sixty seconds, and the practice page is where you go afterwards to move it.
 If what you actually need is to learn where the keys are rather than to get faster, the keyboard practice page is the right starting point - it puts the key map first and the text second.
 If you are deciding whether to practise here or elsewhere, the six-site comparison states what each one is better at, including this one.
+Practising under a clock is a different skill from practising freely - the timed test page covers how the pressure changes your errors.
 ## Typing test FAQ
 Untimed, repeatable drills across sentences, quotes, numbers and words modes. Unlike a scored test, practice lets you retry weak keys freely and watch per-key accuracy improve before you take a timed test.
 Practice rounds use the same formula — correct characters divided by 5 and by minutes spent — plus accuracy and slowest-key stats. Scores save locally so you can compare rounds over time.
@@ -779,6 +782,7 @@ If your target role involves continuous typing, your ten-minute score matters mo
 This ten minute typing test runs the full 600 seconds in the browser with no sign-up and no round limit, so you can repeat it as often as you like and keep every result in your own local history. Ten minutes is long enough that pacing, posture and fatigue decide the score more than raw finger speed does, which makes it the honest format for testing whether a speed you hit in one minute survives real work.
 Use it as an endurance check rather than a daily drill: one ten minute run after a warm-up, compared against your own one minute result from the same week. A gap of 5 to 15 percent below your short-round speed is normal. A gap wider than that is a posture or tension problem, not a speed problem, and the fix is a slower pace with relaxed wrists rather than more force.
 Long rounds are only comparable if the unit is fixed. This test scores every five characters as one word, the convention documented for words per minute, so a ten minute result can be set against a one minute result from any other test that uses the same rule. Change the unit and the drop you are measuring stops being fatigue - it becomes an artefact of the formula.
+If ten minutes is more than you need, the two-minute test covers the length most interviews use.
 ## 10 minute typing test FAQ
 Most people type 5-15% slower by the end of a 10 minute test as fatigue sets in. Pacing yourself and staying relaxed helps limit the drop.
 It measures something different: endurance and consistency rather than peak speed. A 1 minute test shows your top speed; a 10 minute test shows what you can sustain.
@@ -2607,6 +2611,7 @@ For the measured population behind these thresholds, see the benchmark data page
 Before applying, take a free typing test at the length your target role quotes, so you know which side of the threshold you are on.
 To convert a number you already have into the unit a posting uses, the speed calculator does WPM, CPM, KPH and percentiles in one place.
 Most screening tests run one to three minutes, so the three-minute test is the closest rehearsal for the real thing.
+Interview tests commonly run two minutes, which is why the two-minute typing test is the one to rehearse on.
 ## Typing speed requirements FAQ
 40 to 55 WPM covers most office, clerical and administrative roles, usually with a 95% accuracy floor. Data entry is quoted differently: 8,000 to 12,000 keystrokes per hour, which is 27 to 40 WPM.
 About 26.7 WPM. 8,000 ÷ 60 = 133 keystrokes per minute, and 133 ÷ 5 = 26.7. Corrections count as key depressions, so backspacing lowers the real figure.
@@ -5539,6 +5544,8 @@ I am stuck at a speed — the WPM chart names the cause for each band, from look
 The footer already links every page, but a flat list of 160 links tells a reader nothing about which one to open. This directory groups them by the question they answer, and it is generated from the same configuration that builds the pages, so it cannot drift out of date or link to something that no longer exists.
 New to this? The free typing test gives you a sixty-second baseline before you choose a longer test; come back here once you know roughly where you stand.
 Choosing between sites rather than tests? The comparison of six free typing tests covers sign-up, ads, languages and certificates.
+For the length most screening tools use, start with the three-minute test.
+The timed typing test page explains what each countdown length actually measures, if you are unsure which to pick.
 ## Other test lengths
 ## Practice and lessons
 ## Typing tests by language
