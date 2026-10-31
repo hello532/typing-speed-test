@@ -188,6 +188,10 @@ CritiCall Typing Test
 Alphanumeric Typing Test
 Typing Test for Virtual Assistants
 Typing Test for Medical Billing
+USPS Postal Exam Typing Test
+Typing Test for Seniors
+Typing Test for Customer Service
+30-Day Typing Improvement Plan
 
 ## About this site
 

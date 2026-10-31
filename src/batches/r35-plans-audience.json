@@ -1,0 +1,282 @@
+{
+  "footer_group": "By audience and exam",
+  "llms_section": "Skill, Level, Format & Exam Tests",
+  "cluster": "exam",
+  "pages": [
+    {
+      "file": "usps-postal-exam-typing-test.html",
+      "title": "USPS Postal Exam Typing Test — What Is Actually Tested",
+      "metaDesc": "The USPS virtual entry assessments do not include a typing test. What 474-477 actually measure, where keyboard speed matters, and what to practise.",
+      "h1": "USPS Postal Exam Typing Test",
+      "heroP": "The honest answer first: <strong>the USPS virtual entry assessments do not contain a typing test</strong>. They measure work simulation, memory and customer service judgement. Keyboard speed still matters on the job, and some roles test it locally.",
+      "tldr": "USPS 474/475/476/477 are scenario-based virtual assessments, not typing exams. No WPM score is reported. Keyboarding speed matters for data-entry-heavy roles and some facility tests, and the commonly cited clerical target is 30-40 WPM.",
+      "dur": 60,
+      "mode": "sentences",
+      "crumbs": [
+        "Home",
+        "USPS Postal Exam Typing Test"
+      ],
+      "seo": [
+        {
+          "h2": "What the postal assessments actually contain",
+          "p": [
+            "USPS replaced its older paper exams with virtual entry assessments tailored to job families: 474 for mail handler, 475 for mail processing, 476 for customer service and 477 for maintenance. They present work-sample scenarios - sorting decisions, address matching, register and money-order arithmetic, customer interactions - and score judgement and speed of decision rather than keystrokes.",
+            "That is why a candidate searching for a postal typing test usually finds practice sites selling a typing drill that does not match the exam. Practising WPM will not raise a 476 score; practising the scenario format will."
+          ]
+        },
+        {
+          "h2": "Where keyboard speed does matter",
+          "p": [
+            "<ul><li><strong>Data-entry-adjacent roles</strong> - address updates, redirects and claims work move faster with clean numeric typing.</li><li><strong>Facility-level checks</strong> - some offices still administer a basic keyboarding or data-entry exercise during onboarding.</li><li><strong>The job itself</strong> - retail counter and processing roles type addresses, tracking numbers and short notes all day, and an unfamiliar keyboard slows that down.</li></ul>",
+            "The figure that appears in comparable clerical settings is 30-40 WPM with accuracy above 95%. Treat it as a sensible personal target, not a published USPS requirement."
+          ]
+        },
+        {
+          "h2": "What to practise instead, if the exam is your goal",
+          "p": [
+            "Work on the scenario skills: reading an address quickly and spotting the mismatch, doing change-making arithmetic without a calculator, remembering a short instruction sequence, and choosing the answer that follows procedure rather than the one that feels kindest.",
+            "Then use typing practice as a background habit - five minutes a day for the job, not for the exam. The two goals are different and mixing them wastes the preparation window."
+          ]
+        },
+        {
+          "h2": "If you do want a keyboard number",
+          "p": [
+            "Take a five-minute sentence test and a two-minute numbers test, record net WPM and accuracy for both, and keep the screenshot. It is useful for the interview conversation and for any local keyboarding check, and it costs five minutes.",
+            "For address-style content specifically, the <a href=\"alphanumeric-typing-test.html\">alphanumeric typing test</a> is closer to the work than a prose passage, because postcodes and route numbers are mixed letter-digit strings."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "Does the USPS exam include a typing test?",
+          "a": "No. The virtual entry assessments (474, 475, 476, 477) are scenario-based work simulations. They do not report a words-per-minute score."
+        },
+        {
+          "q": "What typing speed does USPS require?",
+          "a": "There is no published universal WPM requirement for the entry assessments. Comparable clerical roles quote 30-40 WPM with 95% accuracy, which is a sensible target for the job rather than an exam rule."
+        },
+        {
+          "q": "Why do websites sell postal typing practice?",
+          "a": "Because people search for it. The practice is usually generic typing drill content that does not match the assessment format, so it will not raise a 474-477 score."
+        },
+        {
+          "q": "What should I practise for the postal exam?",
+          "a": "Address comparison, money and change arithmetic, short instruction memory, and procedure-following judgement. Those are the four skills the scenarios actually test."
+        },
+        {
+          "q": "Is keyboarding tested at the facility?",
+          "a": "Sometimes. Some offices run a basic keyboarding or data-entry exercise during onboarding. It is usually a low bar, but a clean 40 WPM with accurate digits removes the risk."
+        }
+      ]
+    },
+    {
+      "file": "typing-test-for-seniors.html",
+      "title": "Typing Test for Seniors — Speed After 60, Done Right",
+      "metaDesc": "A typing test for older adults: larger text, two-to-three minute rounds, no leaderboard. What changes with age, what does not, and a realistic target.",
+      "h1": "Typing Test for Seniors",
+      "heroP": "Typing speed settles with age, but <strong>accuracy and comfort do not have to</strong>. This page is about testing without strain: longer rounds, bigger text, and a realistic target instead of a leaderboard.",
+      "tldr": "Most people over 60 type somewhere between 25 and 45 WPM, and the spread within the group is far wider than the difference from younger typists. Use a 2-3 minute round, favour accuracy, and stop at the first sign of hand or wrist discomfort.",
+      "dur": 180,
+      "mode": "sentences",
+      "crumbs": [
+        "Home",
+        "Typing Test for Seniors"
+      ],
+      "seo": [
+        {
+          "h2": "What actually changes with age",
+          "p": [
+            "Two things slow down measurably: reaction time and fine motor steadiness. Both show up as more mistyped adjacent keys rather than as slower thinking, which is why older typists often report knowing the word but hitting the wrong key.",
+            "What does not change is vocabulary, sentence planning or the knowledge of where the keys are. That is why accuracy-focused practice still pays: the skill you already have is the part that carries over, and the reach is the part that needs the work."
+          ]
+        },
+        {
+          "h2": "Set the test up so it measures the right thing",
+          "p": [
+            "<ul><li><strong>Length:</strong> two to three minutes. A 15-second sprint measures reaction time, which is exactly what declines; a longer round measures sustainable pace.</li><li><strong>Text:</strong> sentences rather than random words. Familiar sentence structure lets you use knowledge instead of reaction.</li><li><strong>Display:</strong> browser zoom at 125-150% and the widened keyboard view. Reading strain produces more errors than typing strain.</li><li><strong>Posture:</strong> feet flat, elbows near 90 degrees, screen at eye level. A laptop on a coffee table is the most common cause of shoulder fatigue in an hour of practice.</li></ul>"
+          ]
+        },
+        {
+          "h2": "A target that is worth having",
+          "p": [
+            "Thirty to forty words per minute with 97% accuracy covers email, forms, banking, messaging and almost every personal computing task. It is also inside the band that part-time and volunteer clerical roles quote.",
+            "Chasing 70 WPM is not useful unless you are going back into transcription or legal support. Chasing 97% accuracy is useful at any age, because it removes the corrections that make typing feel tiring."
+          ]
+        },
+        {
+          "h2": "When to stop, and what to watch",
+          "p": [
+            "Stop a session at the first sign of tingling or numbness in the fingers, or aching in the forearm. Those are early signs of strain and they respond to rest, not to more practice. Persistent numbness is worth a doctor's opinion rather than a typing drill.",
+            "Ten minutes, three times a week is a good ceiling to start with. If that feels easy after two weeks, extend the rounds rather than the frequency - shorter sessions recover better."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "How fast do people over 60 type?",
+          "a": "Most sit between 25 and 45 WPM, and the variation within the group is much larger than the average difference from younger typists. Accuracy is usually maintained even when speed settles."
+        },
+        {
+          "q": "Is it too late to learn touch typing after 60?",
+          "a": "No. Adults learn the key map quickly because they already read and write fluently; the slower part is building new finger habits, which takes a few weeks of short daily practice."
+        },
+        {
+          "q": "How long should a test be?",
+          "a": "Two to three minutes. Short sprints measure reaction time, which declines with age, so they understate what you can actually sustain."
+        },
+        {
+          "q": "Should I use a bigger font?",
+          "a": "Yes. Reading strain causes more errors than typing strain at any age. Zoom the browser to 125-150% and use the widened keyboard view."
+        },
+        {
+          "q": "What should I do about aching hands?",
+          "a": "Stop the session, rest, and check posture and keyboard height before resuming. Persistent numbness or tingling should be reviewed by a doctor rather than worked through."
+        }
+      ]
+    },
+    {
+      "file": "typing-test-for-customer-service.html",
+      "title": "Typing Test for Customer Service — Chat and Email Speed",
+      "metaDesc": "Customer service screens at 35-50 WPM, more for live chat. What each channel demands, why accuracy beats speed in written support, and how to rehearse.",
+      "h1": "Typing Test for Customer Service",
+      "heroP": "Written support is a typing job with a customer attached. Chat and email roles usually ask <strong>35–50 WPM</strong>, and the thing that gets measured in probation is not speed but whether your replies are clear and typo-free.",
+      "tldr": "Voice support: 30-40 WPM for notes. Email support: 40-50 WPM. Live chat: 45-60 WPM because you type the conversation, often two at once. Accuracy and tone matter more than raw speed in every channel.",
+      "dur": 120,
+      "mode": "sentences",
+      "crumbs": [
+        "Home",
+        "Typing Test for Customer Service"
+      ],
+      "seo": [
+        {
+          "h2": "Speed by channel",
+          "p": [
+            "<table><tr><th>Channel</th><th>Typical WPM</th><th>What the job really tests</th></tr><tr><td>Phone support with notes</td><td>30-40</td><td>Capturing names, references and next steps while listening</td></tr><tr><td>Email support</td><td>40-50</td><td>Clear, correct written English; template editing under time pressure</td></tr><tr><td>Live chat</td><td>45-60</td><td>Typing the conversation itself, often with two or three chats open</td></tr><tr><td>Social media support</td><td>40-55</td><td>Public tone, short replies, high visibility of mistakes</td></tr></table>",
+            "The bands come from advertised requirements and from what contact-centre training programmes assume. A posting that quotes 35 WPM for email is unusual; 45 is the common floor for written channels."
+          ]
+        },
+        {
+          "h2": "Why accuracy outranks speed here",
+          "p": [
+            "A typo in a reply is read by a customer who is already frustrated. It costs trust in a way that a slow reply does not. Support teams therefore judge written output on clarity and correctness, and they will happily keep a 45 WPM agent who writes cleanly over a 65 WPM agent who needs every message checked.",
+            "Practise accordingly: type a short reply, then proofread it. Two-thirds of the improvement in the first month comes from the proofreading habit, not from the keyboard."
+          ]
+        },
+        {
+          "h2": "Drills that match the work",
+          "p": [
+            "<ul><li><strong>Two-minute sentence rounds</strong> for the base pace, one a day.</li><li><strong>Template editing</strong> - take a canned reply and rewrite the middle sentence for a specific customer in under 30 seconds. That is the actual task.</li><li><strong>Numbers mode</strong> once a week for order and reference numbers, which is where written support makes its costly mistakes.</li><li><strong>Two conversations at once</strong> - type alternate replies to two prompts without mixing them up. Chat roles test this informally within the first week.</li></ul>"
+          ]
+        },
+        {
+          "h2": "Related pages",
+          "p": [
+            "Voice-first roles are covered on the <a href=\"typing-test-for-call-center.html\">call centre page</a>, which includes the listening-while-typing drill. For the numeric side, see <a href=\"alphanumeric-typing-test.html\">alphanumeric typing</a>. For a general number to quote, the <a href=\"wpm-chart.html\">WPM chart</a> shows where 45 sits."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "What WPM do customer service jobs require?",
+          "a": "Usually 35-50 WPM depending on channel: 30-40 for phone support notes, 40-50 for email, and 45-60 for live chat where you type the conversation itself."
+        },
+        {
+          "q": "Is 40 WPM enough for live chat?",
+          "a": "It is marginal. Chat roles usually ask 45-60 because you type the entire interaction, often across two or three concurrent conversations."
+        },
+        {
+          "q": "Does accuracy matter more than speed?",
+          "a": "Yes in written support. A typo in a reply reaches a frustrated customer and costs trust; a slightly slower correct reply does not. Teams keep clean 45 WPM agents over sloppy 65 WPM ones."
+        },
+        {
+          "q": "How do I practise typing while handling a customer?",
+          "a": "Practise template editing: rewrite the middle sentence of a canned reply for a specific customer in under 30 seconds, then check it for typos. That is the real task."
+        },
+        {
+          "q": "Are there tests for chat support roles?",
+          "a": "Often yes, usually a short typing test plus a written role-play. The role-play is the deciding part, which is why tone and clarity practice matters as much as WPM."
+        }
+      ]
+    },
+    {
+      "file": "30-day-typing-improvement-plan.html",
+      "title": "30-Day Typing Plan — Day by Day, 15 Minutes a Day",
+      "metaDesc": "A 30-day typing plan with a daily drill, a weekly checkpoint and honest expected gains: 5-15 WPM for beginners, 3-6 for anyone already past 60.",
+      "h1": "30-Day Typing Improvement Plan",
+      "heroP": "Fifteen minutes a day for thirty days, with a checkpoint every Sunday. The plan changes what you practise each week because <strong>the cause of slow typing changes as you get faster</strong>.",
+      "tldr": "Weeks 1-2: stop looking down and stop backspacing. Week 3: accuracy at speed, punctuation and digits. Week 4: full-length tests and consistency. Expected: 5-15 WPM if you are new, 3-6 if you are already over 60.",
+      "dur": 60,
+      "mode": "sentences",
+      "crumbs": [
+        "Home",
+        "30-Day Typing Improvement Plan"
+      ],
+      "seo": [
+        {
+          "h2": "The daily block (15 minutes)",
+          "p": [
+            "<ul><li><strong>2 min warm-up</strong> - one 60-second round at a comfortable pace, no target.</li><li><strong>8 min drill</strong> - whatever the week prescribes, in 60- or 120-second rounds.</li><li><strong>3 min accuracy round</strong> - slow to 85% of your pace and aim for zero errors.</li><li><strong>2 min log</strong> - net WPM, accuracy, and one sentence on what felt wrong.</li></ul>",
+            "The log is not bureaucracy. Fifteen minutes of daily data tells you whether the plan is working in week two, instead of leaving you guessing at day thirty."
+          ]
+        },
+        {
+          "h2": "Week 1 — remove the two habits that cap speed",
+          "p": [
+            "Drill: covered-keyboard rounds and no-backspace rounds, alternating. One round with your hands covered, one round where a mistake is not corrected - just keep going. Both feel wrong for three days.",
+            "Checkpoint: accuracy should be above 92% by day seven, and your no-backspace score should be within 3 WPM of your normal score. If it is not, the corrections are costing you more than they are worth, which is the whole point of the week."
+          ]
+        },
+        {
+          "h2": "Week 2 — make the home row automatic",
+          "p": [
+            "Drill: home-row and top-row drills, plus one round of pangrams a day (they touch every letter). Type slowly enough that you never look down - slow and correct beats fast and corrected.",
+            "Checkpoint: by day fourteen you should be able to type a full sentence without glancing at the keyboard. Speed usually rises 3-8 WPM in this week without any deliberate speed work."
+          ]
+        },
+        {
+          "h2": "Week 3 — accuracy at speed, punctuation and digits",
+          "p": [
+            "Drill: 30-second sprints at maximum speed followed by a slow accuracy round, three pairs per session. Add one Numbers round and one punctuation-heavy round (quotes) every other day.",
+            "Checkpoint: your sprint peak should be 10-15 WPM above your sustainable pace. If the two are equal, you are not pushing; if accuracy collapses in the sprint, you are pushing past control."
+          ]
+        },
+        {
+          "h2": "Week 4 — full length and consistency",
+          "p": [
+            "Drill: five-minute rounds, three per session, no pause. Then one ten-minute round on the final two days. Score the lowest round of the three, not the highest - that is the number an employer would see on a bad day.",
+            "Checkpoint: compare day 30 against day 1 on the same test length. Beginners typically gain 5-15 WPM, people already above 60 typically gain 3-6. Both are real; neither is a guarantee."
+          ]
+        },
+        {
+          "h2": "What to do on day 31",
+          "p": [
+            "Drop to maintenance: five minutes, four days a week, one full test a month. Most of what you gained stays if you keep typing daily at work or in messages; the part that fades is the deliberate accuracy habit.",
+            "If you want to keep climbing, the next project is look-ahead reading - see the <a href=\"50-wpm-typing-test.html\">50 WPM plan</a> for the drills that break a plateau, and the <a href=\"wpm-chart.html\">WPM chart</a> to see which cause applies at your band."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "Can you really improve typing in 30 days?",
+          "a": "Yes, by 5-15 WPM if you are starting below 50, and 3-6 WPM if you are already over 60. The gains come from removing habits, not from talent."
+        },
+        {
+          "q": "How long should each session be?",
+          "a": "Fifteen minutes a day. The plan is built around 2 minutes warm-up, 8 minutes drill, 3 minutes accuracy and 2 minutes logging."
+        },
+        {
+          "q": "What if I miss a day?",
+          "a": "Continue where you left off rather than restarting. The weeks are ordered by cause, not by calendar; a missed day costs nothing, a missed week means repeating that week's checkpoint."
+        },
+        {
+          "q": "Do I need special software?",
+          "a": "No. Timed rounds, a covered keyboard (a cloth works), and a note of your scores are enough. The drill content matters more than the tool."
+        },
+        {
+          "q": "When should I stop the plan?",
+          "a": "At day 30, then switch to maintenance: five minutes, four days a week. Deliberate practice has diminishing returns once your habits are clean."
+        }
+      ]
+    }
+  ]
+}
