@@ -4,8 +4,6 @@ Source: https://typing.rerivo.com/wpm-chart.html
 
 Find your score in the table, read the verdict. Percentiles come from the 168,960-person sample behind the CHI 2018 typing study (mean 51.56 WPM, SD 20.2), and the job bands come from advertised requirements.
 
-## The chart
-
 WPM | Percentile | Verdict | What it opens
 20 | 6th | Slow — hunting for keys | Nothing that screens; fine for personal use
 26 | 10th | Below average | Entry data entry at 7,000-8,000 KPH if accuracy is high
@@ -20,19 +18,13 @@ WPM | Percentile | Verdict | What it opens
 
 Percentiles are a normal approximation of the study distribution; it reproduces the paper's reported deciles (about 26 and 78 WPM) to within a point. The percentile page computes any score exactly.
 
-## How to read the verdict column
-
 The verdict is relative to the measured population, not to a job you want. A 45 WPM score is genuinely average and genuinely enough for a receptionist posting; both statements are true at once. Employers do not rank candidates by percentile, they compare against a fixed number in the advert.
 
 So use the percentile to know where you stand and the job column to know what to aim at. If the posting says 50 and you are at 44, the gap is a fortnight of accuracy work, not a personality problem.
 
-## The score you should be quoting
-
 Five-minute net WPM with the accuracy beside it. A 15-second run reads 5-10 WPM higher, random word lists read lower than sentences, and gross reads higher than net. Any of those will flatter or penalise you relative to this chart.
 
 If you only have a one-minute score, subtract 5 before reading the table. It is a rough correction, but it is closer than treating a burst as your real speed.
-
-## Moving up one band
 
 20 to 30: stop looking at the keyboard. One covered round a day for two weeks. This is the largest single gain available to anyone.
 30 to 40: stop backspacing during tests. Most people at 30 lose 5-6 WPM to corrections.

@@ -4,20 +4,14 @@ Source: https://typing.rerivo.com/typing-test-for-legal-secretary.html
 
 Legal support is the top of the clerical typing band: 60–70 WPM with accuracy high enough for citations, party names and numbered paragraphs. Speed alone will not pass the formatting half.
 
-## Why the bar is higher than general office work
-
 A legal document is read by people who will quote it back. Party names must be exact, citations must be punctuated correctly, and a paragraph number that shifts breaks every cross-reference after it. That combination pushes the requirement to 60–70 WPM in job advertisements, above the 40–50 WPM typical of general clerical roles.
 
 The speed figure exists because documents are long. A 40-page agreement at 45 WPM is two days of typing; at 65 WPM it is a day and a half with time left for checking.
-
-## The skills the test does not capture
 
 Numbered paragraphs. Auto-numbering that renumbers on paste is the single most common formatting failure.
 Capitalisation of defined terms. "the Company" is not "the company", and a find-and-replace will not fix it safely.
 Citations. Italics, full stops and abbreviations follow a house style; consistency is the whole job.
 Track changes. Typing inside a tracked document is slower and less forgiving than typing into a blank page.
-
-## Benchmarks by setting
 
 Setting | Typical WPM | Accuracy | Notes
 Small general practice | 55–65 | 98% | Letters, forms, correspondence
@@ -26,8 +20,6 @@ Litigation support | 65–75 | 99% | Court filings, exhibits, indexes
 Transcription-heavy role | 70+ | 99% | Dictation, hearing notes
 
 Ranges reflect what appears in legal recruitment advertising; a firm that tests will usually set its own floor and tell you before the test.
-
-## How to rehearse for the real thing
 
 Stop practising plain sentences after the first week. Type a real contract clause, complete with defined terms and numbered sub-paragraphs, and check it against the source line by line. That is a slower exercise and a far better predictor.
 

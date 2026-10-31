@@ -4,8 +4,6 @@ Source: https://typing.rerivo.com/excel-formula-typing-practice.html
 
 A formula is a chain of brackets, commas and dollar signs wrapped around a function name. XLOOKUP, SUMIFS, FILTER and LET all punish the keys you never practise. This drill types 36 real formulas.
 
-## The four characters that decide a formula
-
 Parentheses - every function opens one and most nest two deep; an unbalanced bracket stops Excel accepting the entry at all.
 Commas - the argument separator in en-US locales, and a semicolon in many European ones. Typing a full stop instead is the single most common formula error.
 Dollar signs - absolute references need Shift+4, a reach that pulls the left hand off the home row.
@@ -13,19 +11,13 @@ Double quotes - required around text criteria, and doubled inside strings.
 
 None of these appear often in prose, which is why people who type quickly in Word still fumble a nested IF.
 
-## What is in the pool
-
 Thirty-six formulas at the level a real spreadsheet uses: a basic SUM range, IFERROR-wrapped VLOOKUP, INDEX/MATCH, SUMIFS with two criteria, TEXTJOIN, XLOOKUP with a fallback, SUMPRODUCT, LET, FILTER, SORT(UNIQUE()), MAP with LAMBDA, CHOOSECOLS, VSTACK and a SEQUENCE date series.
 
 They are written the way they appear in a cell, including the leading equals sign, because that keystroke is part of the habit.
 
-## Practising so it transfers
-
 Type into a plain text field first, then reproduce the best lines in a real workbook. The drill builds the keystroke sequence; the workbook confirms that the brackets balance and the separators are the ones your locale expects.
 
 If your locale uses semicolons as argument separators, type the formulas with semicolons after the drill. Muscle memory for the wrong separator is worse than no practice.
-
-## Related practice
 
 Numeric work benefits from the 10-key typing test, and data-entry roles are covered by the keystrokes per hour test. For database syntax rather than spreadsheet syntax, see SQL typing practice.
 

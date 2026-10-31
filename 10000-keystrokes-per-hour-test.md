@@ -4,13 +4,9 @@ Source: https://typing.rerivo.com/10000-keystrokes-per-hour-test.html
 
 Data-entry job ads ask for 10,000 keystrokes per hour and never explain what that is in WPM. It is 166.7 characters per minute, or about 33 words per minute. This page runs the test and does the arithmetic.
 
-## What 10,000 keystrokes per hour actually means
-
 A keystroke is one character: a letter, a digit, a space or a punctuation mark. Keystrokes per hour (KPH) is therefore a characters-per-minute figure multiplied by 60. Ten thousand KPH is 10,000 ÷ 60 = 166.7 CPM. Divide by five, the standard characters-per-word convention, and you get roughly 33 WPM.
 
 Recruiters use KPH instead of WPM because data-entry work is judged on characters: account numbers, postcodes, invoice references and part numbers have no word boundaries. KPH measures the same keyboard output without pretending the text is prose.
-
-## KPH to WPM to CPM chart
 
 Keystrokes per hour | Characters per minute | Words per minute (÷5) | Typical use
 5,000 | 83 | 17 | Entry-level alphanumeric, slow but accurate
@@ -21,19 +17,13 @@ Keystrokes per hour | Characters per minute | Words per minute (÷5) | Typical u
 12,000 | 200 | 40 | Numeric keypad work, ten-key operators
 15,000 | 250 | 50 | Fast numeric entry, transcription from clean audio
 
-## How to run a KPH test that is worth quoting
-
 Set the timer to five minutes. One-minute runs measure your best burst; five minutes measures the pace you can hold, which is what a shift actually requires. Choose the Words text mode for alphanumeric work and the Numbers mode if your job is keypad-heavy, because digits are typed by a different hand position and score differently.
 
 Type the text as it appears, including capitals and punctuation, without correcting every slip. The score panel reports WPM and CPM after the round; multiply CPM by 60 for KPH. A five-minute round gives a stable number because a single slow sentence cannot dominate the result.
 
-## Why your KPH and WPM scores disagree
-
 The two numbers only agree when your text averages five characters per word including the space. Sentences with long words produce fewer WPM for the same KPH; number strings produce far higher KPH for a low WPM because every keystroke counts but there are no words.
 
 Accuracy matters more in KPH work than in prose typing. An uncorrected digit error in an account number is a failed record, not a typo. If your raw and net scores differ by more than about 5%, practise accuracy before pushing speed: the arithmetic of corrections costs more time than typing slightly slower.
-
-## Is 10,000 KPH fast?
 
 It sits in the middle of office typing. It is above the ~20 WPM that untrained typists manage and below the ~50 WPM average reported for people who type daily, so it is reachable in a few weeks of deliberate practice rather than years.
 

@@ -414,6 +414,16 @@ body.typing-active footer{opacity:.26;filter:saturate(.72);pointer-events:none;}
 .conv input:focus{outline:2px solid var(--borderhi);outline-offset:1px;}
 .conv-out{margin:12px 0 0;font-size:.95rem;font-weight:600;color:var(--text);}
 .conv-out span{color:var(--soft);font-weight:500;}
+
+/* Round-39: "On this page" jump list for long pages (≥6 sections).
+   Helps snippet extraction and lets readers jump to the section they need. */
+.toc{max-width:760px;margin:0 0 18px;padding:14px 18px;border:1px solid var(--line);border-radius:12px;background:var(--panel2);}
+.toc p{margin:0 0 8px;font-size:.78rem;font-weight:700;letter-spacing:.6px;text-transform:uppercase;color:var(--soft);}
+.toc ol{margin:0;padding-left:20px;display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:4px 22px;}
+.toc li{font-size:.9rem;line-height:1.45;}
+.toc a{color:var(--soft);text-decoration:none;}
+.toc a:hover{color:var(--text);text-decoration:underline;}
+@media(max-width:560px){.toc ol{grid-template-columns:1fr;}}
 </style>
 <script>try{var _t=localStorage.getItem("trTheme");if(_t&&_t!=="dark")document.documentElement.setAttribute("data-theme",_t);var _l=localStorage.getItem("trLang");if(_l&&_l!=="en"){document.documentElement.lang=_l;if(_l==="ar")document.documentElement.dir="rtl";}}catch(e){}</script>
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1401237223139327"
@@ -548,27 +558,28 @@ body.typing-active footer{opacity:.26;filter:saturate(.72);pointer-events:none;}
   </nav>
 
   <section class="seo">
-    <h2>Tips 1-3: the accuracy foundation</h2>
+    <nav class="toc" aria-label="On this page"><p>On this page</p><ol><li><a href="#tips-1-3-the-accuracy-foundation">Tips 1-3: the accuracy foundation</a></li><li><a href="#tips-4-6-the-practice-structure">Tips 4-6: the practice structure</a></li><li><a href="#tips-7-8-the-physical-setup">Tips 7-8: the physical setup</a></li><li><a href="#tips-9-10-the-measurement-habits">Tips 9-10: the measurement habits</a></li><li><a href="#tips-that-do-not-work-and-why-people-repeat-them">Tips that do not work (and why people repeat them)</a></li><li><a href="#turning-ten-tips-into-one-weekly-routine">Turning ten tips into one weekly routine</a></li><li><a href="#the-two-habits-behind-every-other-tip">The two habits behind every other tip</a></li><li><a href="#how-long-each-tip-takes-to-pay-off">How long each tip takes to pay off</a></li></ol></nav>
+    <h2 id="tips-1-3-the-accuracy-foundation">Tips 1-3: the accuracy foundation</h2>
     <p>Tip 1: type at 90% of your comfortable speed until you finish every round above 98% accuracy — every error costs about two correction keystrokes, so clean beats fast. Tip 2: read your weak-key report after every round and drill your two worst keys daily; one hesitant key taxes every word containing it. Tip 3: keep your eyes on the screen no matter what — every glance at the keyboard is both an error risk and a rhythm break.</p>
     <p>These three are responsible for the majority of real-world speed gains, because most 'slow' typists are actually 'error-prone' typists.</p>
-    <h2>Tips 4-6: the practice structure</h2>
+    <h2 id="tips-4-6-the-practice-structure">Tips 4-6: the practice structure</h2>
     <p>Tip 4: practise ten minutes daily instead of an hour weekly — motor memory consolidates between sessions. Tip 5: warm up with a 15-second sprint before every measured round; sprint-warmed fingers score measurably higher. Tip 6: rotate text types — sentences for flow, <a href="quotes-typing-test.html">quotes</a> for punctuation, numbers for digits — because each type breaks rhythm in a different place.</p>
     <p>Structure turns random practice into compounding practice.</p>
-    <h2>Tips 7-8: the physical setup</h2>
+    <h2 id="tips-7-8-the-physical-setup">Tips 7-8: the physical setup</h2>
     <p>Tip 7: fix your posture — feet flat, back straight, wrists slightly raised, screen at eye level. A strained wrist is a slow wrist, and fatigue shows up as errors first. Tip 8: use the same keyboard for practice and work; key travel differences change your score more than a week of practice does, and switching keyboards resets part of your muscle memory.</p>
-    <h2>Tips 9-10: the measurement habits</h2>
+    <h2 id="tips-9-10-the-measurement-habits">Tips 9-10: the measurement habits</h2>
     <p>Tip 9: measure weekly, not daily — single scores wander by several points, trends do not lie. Use the same <a href="1-minute-typing-test.html">1 minute typing test</a> under the same conditions every time. Tip 10: when you plateau, change the drill, not the volume — plateaus are technique signals, and more of the same practice just rehearses the same ceiling.</p>
     <p>For a deeper habit list, the <a href="typing-tips.html">typing tips</a> page expands each of these, and <a href="keyboard-practice.html">keyboard practice</a> builds the raw key familiarity everything sits on.</p>
-    <h2>Tips that do not work (and why people repeat them)</h2>
+    <h2 id="tips-that-do-not-work-and-why-people-repeat-them">Tips that do not work (and why people repeat them)</h2>
     <p>'Just type more' fails because unmeasured volume rehearses your current ceiling, errors included. 'Type as fast as you can' fails because maximum effort without an accuracy floor builds error habits faster than speed. 'Learn a new keyboard layout' fails for most people because the retraining cost is months, and layout explains far less of your speed than technique does.</p>
     <p>These tips persist because they sound like effort, and effort feels like progress. Real progress comes from targeted changes to the bottleneck of the week — which is why every tip in the ranked list above attaches to a measurement.</p>
-    <h2>Turning ten tips into one weekly routine</h2>
+    <h2 id="turning-ten-tips-into-one-weekly-routine">Turning ten tips into one weekly routine</h2>
     <p>Tips only work when they are scheduled. A simple integration: Monday, sprint warm-up plus weak-key drilling (tips 2, 5). Tuesday, accuracy rounds at 90% pace (tip 1). Wednesday, a different text type (tip 6). Thursday, rest or light review (tip 4 allows it). Friday, sprints plus measured minute. Saturday, long round watching posture and fatigue (tips 7, 8). Sunday, weekly retest and trend review (tips 9, 10).</p>
     <p>Print it, pin it, do it for four weeks. The routine is deliberately unambitious — ten minutes most days — because the routine you actually follow beats the optimal one you abandon.</p>
-    <h2>The two habits behind every other tip</h2>
+    <h2 id="the-two-habits-behind-every-other-tip">The two habits behind every other tip</h2>
     <p>Strip all ten tips down and two habits remain. Show up daily: ten minutes, most days, because motor memory is built by frequency and demolished by gaps. And measure honestly: a weekly number under the same conditions, reviewed without flinching, because you cannot steer toward a target you refuse to look at.</p>
     <p>Every other tip in this list is a tactic that serves those two. Accuracy floors, weak-key drilling, sprint warm-ups and posture fixes each remove one specific brake — but they only compound inside the daily-and-measured frame. Build the frame first; the tips have somewhere to attach.</p>
-    <h2>How long each tip takes to pay off</h2>
+    <h2 id="how-long-each-tip-takes-to-pay-off">How long each tip takes to pay off</h2>
     <p>Sprint warm-ups pay off the same day — the effect is immediate and repeatable. Accuracy-first practice shows results in about two weeks, as the error rate drops at every speed. Weak-key drilling typically clears a key in five to ten days of focused bursts. Posture fixes relieve fatigue within days but show up in scores over a month, as late-session errors fade.</p>
     <p>Plateau-breaking drill changes take two to four weeks to register, and the weekly measurement habit takes a month to become the engine it is meant to be. Knowing the payoff windows prevents the classic mistake of abandoning a working tip three days before it starts working.</p>
     <p>Start with just two this week: the 98% accuracy floor and the daily weak-key drill. They carry most of the gain, they cost nothing, and once they are habits the remaining eight tips slot into a routine that already works. Small, measured, repeated — that is the whole method. Review the list again in a month: the tip that matters most will have changed, because the bottleneck will have moved — and that is the sign the whole system is working.</p>

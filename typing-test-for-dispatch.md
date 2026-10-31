@@ -4,13 +4,9 @@ Source: https://typing.rerivo.com/typing-test-for-dispatch.html
 
 Dispatch is typing while talking, under a clock. Agencies commonly ask for 35–45 WPM, but the deciding factor is whether a plate number, an address or a callback number survives contact with a stressed caller.
 
-## What dispatch agencies screen for
-
 A dispatcher enters an address, a name, a phone number and a plate while the caller is still explaining. The typing is short, numeric and immediately consequential. Public postings typically list 35–45 WPM, and the assessment usually adds a multitasking or call-taking simulation on top of the typing score.
 
 No single national typing standard applies to dispatch; requirements are set per agency. Treat published ranges as the target band and check the specific posting, because a state police dispatch centre and a small municipal one often differ by ten WPM.
-
-## Digits and addresses are the real test
 
 Prose typing rewards rhythm. Dispatch typing rewards the number row, the ten-key area and the ability to spell an unfamiliar street name correctly the first time. That is a different practice target.
 
@@ -18,16 +14,12 @@ Numbers mode for two minutes a day, graded on errors not speed.
 Listen to a podcast and type the numbers you hear — times, prices, years — in one pass.
 Type addresses from a map app, including postcodes, without looking down.
 
-## Speed bands in context
-
 Role | Typical WPM floor | Added assessment
 Call taker | 35–40 | Structured call interview, data capture
 Dispatcher | 40–45 | Radio simulation, multitasking test
 Supervisor or trainer | 45+ | Quality assurance, report writing
 
 The typing test is rarely the only gate. Agencies also test hearing, memory, prioritisation and stress tolerance, and a 60 WPM score will not offset a failed call simulation.
-
-## Practice that transfers
 
 Two-minute rounds are the right length: long enough to feel the pressure of a call, short enough to repeat. Two minutes at 45 WPM net with 99% accuracy on digits is a stronger signal than five minutes of prose at 55.
 

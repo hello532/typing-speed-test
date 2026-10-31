@@ -4,29 +4,26 @@ Source: https://typing.rerivo.com/learn-to-type.html
 
 Learn to type for free, from the very first key. This beginner typing course starts at the home row and adds one row at a time, and every practice line is written as a first lesson, so the text you type teaches you how to type. Sixty seconds a day, instant feedback, no sign up.
 
-## learn to type
+On this page
+
+learn to type
+Your first lesson in learning to type
+How long does it take to learn to type?
+Learn to type without looking
+A one-week learn-to-type plan
+Learn to type on a laptop keyboard
 
 To learn to type you only need two things: the home row, and the patience to be slow for a week. This free course teaches touch typing from absolute zero, and every practice sentence is a lesson about learning itself, so your practice text coaches you while you type it. Sixty seconds a day in your browser, with live WPM and accuracy feedback, no account and no cost.
 
-## Your first lesson in learning to type
-
 Rest your left fingers on A S D F and your right fingers on J K L ;, thumbs on the space bar. Feel the small bumps on F and J; they are the only map a beginner needs. Type words made from the home row only, slowly, and let each finger return home after every key. If you must look, look after the word, never in the middle of it. That is the entire first lesson, and everything after it is just practice.
-
-## How long does it take to learn to type?
 
 Most people own the home row in a week and reach a comfortable 40 to 60 words per minute in three to four weeks of daily practice. The mistake beginners make is chasing speed early; accuracy is the foundation and speed is the building that arrives later. End every session on your slowest, most careful line, and your hands will learn faster than you expect.
 
-## Learn to type without looking
-
 Looking at your hands feels faster for about a week and caps you near 30 WPM forever, because every glance breaks the loop between what your eyes read and what your fingers do. Break the habit deliberately: cover your hands with a cloth for one short round a day, accept the slower score, and let the home row do the work. The full method is on the how to type without looking page.
-
-## A one-week learn-to-type plan
 
 Day one: home row only, slow, eyes on the screen. Day two: add the top row with the correct fingers. Day three: bottom row and the shift key. Day four: short common words. Day five: full sentences at a comfortable pace. Day six: numbers and punctuation. Day seven: one timed round to see where you are — not to pass a target. Fifteen minutes a day is enough; the schedule matters more than the minutes.
 
 When the week ends, move to structured typing practice and check the result panel for the keys that are slowing you down.
-
-## Learn to type on a laptop keyboard
 
 Laptop keys have shorter travel, which makes light, quick presses easier and heavy presses slower. The home row is the same, but the keyboard is often narrower, so your hands sit closer to centre. If the built-in keyboard is uncomfortable, the mechanical keyboard for typing guide covers what actually matters — key travel and actuation force — without the marketing.
 

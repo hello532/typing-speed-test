@@ -414,6 +414,16 @@ body.typing-active footer{opacity:.26;filter:saturate(.72);pointer-events:none;}
 .conv input:focus{outline:2px solid var(--borderhi);outline-offset:1px;}
 .conv-out{margin:12px 0 0;font-size:.95rem;font-weight:600;color:var(--text);}
 .conv-out span{color:var(--soft);font-weight:500;}
+
+/* Round-39: "On this page" jump list for long pages (≥6 sections).
+   Helps snippet extraction and lets readers jump to the section they need. */
+.toc{max-width:760px;margin:0 0 18px;padding:14px 18px;border:1px solid var(--line);border-radius:12px;background:var(--panel2);}
+.toc p{margin:0 0 8px;font-size:.78rem;font-weight:700;letter-spacing:.6px;text-transform:uppercase;color:var(--soft);}
+.toc ol{margin:0;padding-left:20px;display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:4px 22px;}
+.toc li{font-size:.9rem;line-height:1.45;}
+.toc a{color:var(--soft);text-decoration:none;}
+.toc a:hover{color:var(--text);text-decoration:underline;}
+@media(max-width:560px){.toc ol{grid-template-columns:1fr;}}
 </style>
 <script>try{var _t=localStorage.getItem("trTheme");if(_t&&_t!=="dark")document.documentElement.setAttribute("data-theme",_t);var _l=localStorage.getItem("trLang");if(_l&&_l!=="en"){document.documentElement.lang=_l;if(_l==="ar")document.documentElement.dir="rtl";}}catch(e){}</script>
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1401237223139327"
@@ -548,13 +558,13 @@ body.typing-active footer{opacity:.26;filter:saturate(.72);pointer-events:none;}
   </nav>
 
   <section class="seo">
-    <h2>one hand typing</h2>
+    <h2 id="one-hand-typing">one hand typing</h2>
     <p><strong>One hand typing</strong> on a standard QWERTY keyboard is a real, learnable skill. The idea is not to hunt and peck with one finger, but to assign each finger a fixed zone of the keyboard so your hand develops a repeatable map of where every letter lives. With practice, single hand typists reach 40 to 70 WPM, which is fast enough for almost all desk work.</p>
     <p>You do not need a one handed keyboard or chord input software. The regular keyboard you already own is enough, because the technique is about hand position and practice, not hardware.</p>
-    <h2>Hand position for one hand typing</h2>
+    <h2 id="hand-position-for-one-hand-typing">Hand position for one hand typing</h2>
     <p>Put your four fingers on the home row of the side you use: left hand on A S D F, right hand on J K L semicolon. The thumb works the space bar. Each finger owns the keys in its column plus the row above and below, and the index finger stretches across the middle column to cover the keys on the far side.</p>
     <p>The stretch is the hard part at first, especially the keys farthest from your little finger. Slow drills at first are normal; speed comes from accuracy, because a hand that returns to home row after every key does not need to look down.</p>
-    <h2>How fast can one hand typing get</h2>
+    <h2 id="how-fast-can-one-hand-typing-get">How fast can one hand typing get</h2>
     <p>Beginners hunting with one finger sit near 15 to 25 WPM. With proper finger zones and a few weeks of short daily sessions, 35 to 50 WPM is common. Experienced one hand typists who type all day reach 60 to 70 WPM and occasionally higher.</p>
     <p>Measure honestly with the test on this page: run a one minute test with one hand only, and record your accuracy beside your WPM. Accuracy below 90 percent usually means you are reaching for speed before the map is settled, so slow down until accuracy rises and let speed follow.</p>
     <p class="byline">By <a href="about.html">the Typing.Rerivo team</a> &mdash; we build and maintain this typing test. Scoring formulas and the benchmarks used on our pages are documented in the methodology notes on our <a href="about.html">about page</a>, along with the sources we cite. Page last updated 2026-10-31.</p>

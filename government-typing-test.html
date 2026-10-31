@@ -414,6 +414,16 @@ body.typing-active footer{opacity:.26;filter:saturate(.72);pointer-events:none;}
 .conv input:focus{outline:2px solid var(--borderhi);outline-offset:1px;}
 .conv-out{margin:12px 0 0;font-size:.95rem;font-weight:600;color:var(--text);}
 .conv-out span{color:var(--soft);font-weight:500;}
+
+/* Round-39: "On this page" jump list for long pages (≥6 sections).
+   Helps snippet extraction and lets readers jump to the section they need. */
+.toc{max-width:760px;margin:0 0 18px;padding:14px 18px;border:1px solid var(--line);border-radius:12px;background:var(--panel2);}
+.toc p{margin:0 0 8px;font-size:.78rem;font-weight:700;letter-spacing:.6px;text-transform:uppercase;color:var(--soft);}
+.toc ol{margin:0;padding-left:20px;display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:4px 22px;}
+.toc li{font-size:.9rem;line-height:1.45;}
+.toc a{color:var(--soft);text-decoration:none;}
+.toc a:hover{color:var(--text);text-decoration:underline;}
+@media(max-width:560px){.toc ol{grid-template-columns:1fr;}}
 </style>
 <script>try{var _t=localStorage.getItem("trTheme");if(_t&&_t!=="dark")document.documentElement.setAttribute("data-theme",_t);var _l=localStorage.getItem("trLang");if(_l&&_l!=="en"){document.documentElement.lang=_l;if(_l==="ar")document.documentElement.dir="rtl";}}catch(e){}</script>
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1401237223139327"
@@ -548,16 +558,16 @@ body.typing-active footer{opacity:.26;filter:saturate(.72);pointer-events:none;}
   </nav>
 
   <section class="seo">
-    <h2>What typing speed do government jobs require?</h2>
+    <h2 id="what-typing-speed-do-government-jobs-require">What typing speed do government jobs require?</h2>
     <p>Government typing requirements vary by post and country, but the common shape is: a <strong>minimum of 30&ndash;40 WPM</strong> for entry-level administrative roles, and <strong>40&ndash;60 WPM</strong> with high accuracy for clerical, secretarial and data entry positions. Where the job is mainly data entry, the test may be a numeric one scored in <strong>keystrokes per hour</strong> instead.</p>
     <div class="tbl"><table><thead><tr><th>Post type</th><th>Typical requirement</th></tr></thead><tbody><tr><td>Entry / general clerical</td><td>30&ndash;40 WPM</td></tr><tr><td>Clerical / admin</td><td>40&ndash;50 WPM</td></tr><tr><td>Secretarial / stenography</td><td>50&ndash;70 WPM</td></tr><tr><td>Data entry</td><td>8,000&ndash;10,000 KPH</td></tr></tbody></table></div>
     <p>Speed is only half of it: government tests usually require <strong>95&ndash;98% accuracy</strong>, and some subtract errors, so a clean run beats a fast messy one. Requirements differ by department and country &mdash; always check the official notification for your exam.</p>
-    <h2>How government typing tests are scored</h2>
+    <h2 id="how-government-typing-tests-are-scored">How government typing tests are scored</h2>
     <p>Government typing tests are timed, commonly 3 to 5 minutes, and scored on <strong>net speed</strong> &mdash; the words per minute remaining after errors are deducted. Many use a fixed passage, and some allow no backspace, so typing it correctly the first time is essential. Because the standard is net speed, accuracy training is the fastest route to passing, not raw bursts of speed.</p>
     <p>Practise at the exam length. Warm up with a <a href="1-minute-typing-test.html">1 minute test</a>, then run 3 and 5 minutes to build the stamina a scored attempt needs.</p>
-    <h2>How to prepare for a government typing test</h2>
+    <h2 id="how-to-prepare-for-a-government-typing-test">How to prepare for a government typing test</h2>
     <p>Work on accuracy until you can complete a passage cleanly, then raise speed. Train the home row and touch typing so you are not watching your hands, and if the post is data entry, drill the keypad with the <a href="ten-key-typing-test.html">10 key typing test</a>. Test yourself under the same conditions as the exam &mdash; same length, no restarts &mdash; and check your standing against the <a href="average-typing-speed.html">average typing speed</a>. Your practice history stays in your browser.</p>
-    <h2>What typing speed do government exams require?</h2>
+    <h2 id="what-typing-speed-do-government-exams-require">What typing speed do government exams require?</h2>
     <p>Government clerk and assistant exams usually qualify on a short timed passage around 25–35 WPM with capped errors. For the complete scenario-by-scenario table with conversions, see <a href="typing-speed-requirements.html">typing speed requirements by job and exam</a>. For country-specific exam formats such as SSC, IBPS and court clerk tests, see the <a href="typing-test-government-jobs.html">government jobs typing test</a> guide.</p>
     <p class="byline">By <a href="about.html">the Typing.Rerivo team</a> &mdash; we build and maintain this typing test. Scoring formulas and the benchmarks used on our pages are documented in the methodology notes on our <a href="about.html">about page</a>, along with the sources we cite. Page last updated 2026-10-31.</p>
   </section>

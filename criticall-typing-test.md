@@ -4,13 +4,9 @@ Source: https://typing.rerivo.com/criticall-typing-test.html
 
 CritiCall is not a typing test with extra steps - it is a battery of dispatcher simulations, and keyboarding is one module among many. Here is what the typing modules actually measure and how to prepare for the ones you cannot see on a typing site.
 
-## What CritiCall is, and is not
-
 CritiCall is a computer-based pre-employment testing battery for public-safety telecommunicators. Agencies configure which modules they use, so two candidates for two different agencies can sit substantially different tests. The keyboarding module is usually a short, time-limited data-entry task rather than a prose passage.
 
 That is why practising prose typing alone does not prepare you. If you have been told your agency uses CritiCall, the typing component is the easiest part; the modules that fail candidates are the ones involving simultaneous listening and recording.
-
-## The modules that usually appear
 
 Keyboarding / data entry: short timed entry of names, addresses and numbers, scored on accuracy and speed.
 Call summarisation: read or hear a call and produce a short structured summary within a time limit.
@@ -21,13 +17,9 @@ Basic arithmetic and spelling: small, time-limited question sets.
 
 The exact list is agency-configurable, and the vendor does not publish a universal pass mark. Your agency sets the cut score, and it is not disclosed to candidates in advance.
 
-## Rehearsing the keyboarding module
-
 Use the Numbers mode for two minutes at a time and grade on errors. The content in the module is alphanumeric - addresses, dates, codes - so digits and capitals matter more than prose rhythm.
 
 Then rehearse the split-attention skill separately: play a recorded voice giving an address and a callback number, type both in one pass, and verify character by character. That is closer to the job than any prose typing test.
-
-## What to do on the day
 
 Expect to move between modules quickly, with instructions read aloud under time pressure. The common failure is not slowness; it is losing the instruction because you were still finishing the previous screen.
 

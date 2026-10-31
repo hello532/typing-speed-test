@@ -4,8 +4,6 @@ Source: https://typing.rerivo.com/top-ur-words.html
 
 The 200 most common Urdu words from real frequency data, with a free typing practice test above. Master these and you cover the bulk of everyday Urdu text.
 
-## The 200 most common Urdu words
-
 The 200 most common Urdu words below come from real subtitle frequency data — the everyday words of spoken and written Urdu. The list is drawn from the FrequencyWords open dataset (MIT license), built from OpenSubtitles transcripts, and filtered to words in the native script only.
 
 # | Word | # | Word | # | Word | # | Word
@@ -60,19 +58,13 @@ The 200 most common Urdu words below come from real subtitle frequency data — 
 49 | میرے | 99 | کہاں | 149 | چھوڑ | 199 | کم
 50 | بہت | 100 | واپس | 150 | ہج | 200 | سر
 
-## Why drill the top Urdu words
-
 Urdu frequency data is dominated by particles and verb endings — ہے, کی, میں, کا, نہیں — written in Nastaliq, where letters change shape depending on what joins them. That shaping is exactly what makes Urdu typing feel slow at first: drilling the top 200 words trains the joining forms you meet in nearly every sentence, so context switches stop costing you keystrokes.
 
 Urdu high-frequency words use the special letters (ٹ ڈ ڑ ں ہ ے) that distinguish Urdu from Arabic script. Drilling these 200 words builds speed exactly where Urdu typists lose it.
 
-## How to practise Urdu typing with this list
-
 Short daily rounds on this exact list work better than long occasional sessions, because Nastaliq typing is a joining-shape skill: repetition is what makes ڑ, ں, ے and their neighbours come out without a pause. After each round, use the weak-key report to find which joining forms cost you time, then drill just those for two minutes before your next round.
 
 When you want full sentences instead of single words, switch to the Urdu typing test, or benchmark yourself against the classic 1 minute typing test.
-
-## Word lists in other languages
 
 The same top-200 frequency list is available for: English · Spanish · Hindi · Japanese · Korean. Each list is built from the same open subtitle-frequency dataset, so the lists are directly comparable across languages.
 

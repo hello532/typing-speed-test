@@ -414,6 +414,16 @@ body.typing-active footer{opacity:.26;filter:saturate(.72);pointer-events:none;}
 .conv input:focus{outline:2px solid var(--borderhi);outline-offset:1px;}
 .conv-out{margin:12px 0 0;font-size:.95rem;font-weight:600;color:var(--text);}
 .conv-out span{color:var(--soft);font-weight:500;}
+
+/* Round-39: "On this page" jump list for long pages (≥6 sections).
+   Helps snippet extraction and lets readers jump to the section they need. */
+.toc{max-width:760px;margin:0 0 18px;padding:14px 18px;border:1px solid var(--line);border-radius:12px;background:var(--panel2);}
+.toc p{margin:0 0 8px;font-size:.78rem;font-weight:700;letter-spacing:.6px;text-transform:uppercase;color:var(--soft);}
+.toc ol{margin:0;padding-left:20px;display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:4px 22px;}
+.toc li{font-size:.9rem;line-height:1.45;}
+.toc a{color:var(--soft);text-decoration:none;}
+.toc a:hover{color:var(--text);text-decoration:underline;}
+@media(max-width:560px){.toc ol{grid-template-columns:1fr;}}
 </style>
 <script>try{var _t=localStorage.getItem("trTheme");if(_t&&_t!=="dark")document.documentElement.setAttribute("data-theme",_t);var _l=localStorage.getItem("trLang");if(_l&&_l!=="en"){document.documentElement.lang=_l;if(_l==="ar")document.documentElement.dir="rtl";}}catch(e){}</script>
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1401237223139327"
@@ -548,27 +558,28 @@ body.typing-active footer{opacity:.26;filter:saturate(.72);pointer-events:none;}
   </nav>
 
   <section class="seo">
-    <h2>What the records look like</h2>
+    <nav class="toc" aria-label="On this page"><p>On this page</p><ol><li><a href="#what-the-records-look-like">What the records look like</a></li><li><a href="#record-speed-on-electric-keyboards-vs-computer-k">Record speed on electric keyboards vs computer keyboards</a></li><li><a href="#the-four-ingredients-of-elite-speed">The four ingredients of elite speed</a></li><li><a href="#how-far-can-you-go">How far can you go?</a></li><li><a href="#how-typing-competitions-actually-work">How typing competitions actually work</a></li><li><a href="#record-speed-vs-real-work-speed">Record speed vs real work speed</a></li><li><a href="#how-record-claims-get-verified">How record claims get verified</a></li><li><a href="#the-psychology-of-speed-ceilings">The psychology of speed ceilings</a></li></ol></nav>
+    <h2 id="what-the-records-look-like">What the records look like</h2>
     <p>The most commonly cited record belongs to Stella Pajunas, who reportedly reached 216 words per minute on an IBM electric typewriter in 1946. In the modern era, Barbara Blackburn was widely reported to sustain around 212 WPM on a Dvorak keyboard. Competitive typists today regularly post 150-200 WPM in short online sprints, with accuracy above 97%.</p>
     <p>Treat exact figures with care: typing records come from different eras, machines and measurement methods, and no single official body certifies them. What is not in doubt is the scale — elite humans type four to five times faster than the 40 WPM average.</p>
-    <h2>Record speed on electric keyboards vs computer keyboards</h2>
+    <h2 id="record-speed-on-electric-keyboards-vs-computer-k">Record speed on electric keyboards vs computer keyboards</h2>
     <p>Older records were set on electric typewriters with light, consistent key action; modern records come from mechanical computer keyboards. The comparison is imperfect but the ingredients are identical: thousands of hours of deliberate practice, touch-typing technique refined to zero waste motion, and text memorised to the point where reading never lags behind fingers.</p>
     <p>Interestingly, several modern record holders use the <a href="dvorak-typing.html">Dvorak layout</a>, designed to put the most common letters on the home row. Layout matters less than the years behind it — but it shows how far optimisation can go.</p>
-    <h2>The four ingredients of elite speed</h2>
+    <h2 id="the-four-ingredients-of-elite-speed">The four ingredients of elite speed</h2>
     <p>Break any record performance down and you find the same four things. Accuracy first: 98% or better, because at 500+ characters a minute an error costs seconds. Consistency: metronome-even keystrokes, no bursts and stalls. Symbol fluency: zero hesitation on capitals, digits and punctuation. And look-ahead: reading two to three words ahead of the fingers, so the brain never waits for the text.</p>
     <p>All four are trainable, and none requires talent. That is the real lesson of the records.</p>
-    <h2>How far can you go?</h2>
+    <h2 id="how-far-can-you-go">How far can you go?</h2>
     <p>Almost nobody needs 200 WPM — but the path toward it is the same path to 60, 80 or 100. Measure your current speed on the <a href="fast-typing-test.html">fast typing test</a>, then work the four ingredients in order. Curious where you stand right now? The <a href="how-fast-can-i-type.html">how fast can I type</a> page gives you the one-minute answer.</p>
-    <h2>How typing competitions actually work</h2>
+    <h2 id="how-typing-competitions-actually-work">How typing competitions actually work</h2>
     <p>Modern competitive typing happens mostly online: fixed-duration sprints — usually 15 to 60 seconds — on standardised passages, with net WPM and accuracy published on live leaderboards. Anti-cheat systems watch for paste input, inhumanly uniform keystroke timing and impossibly low latency variance, because the difference between a 190 WPM human and a script is visible in the timing data.</p>
     <p>Offline championships exist too, with official witnesses and standard keyboards, but the online ladders are where the volume is. What transfers to real life: even champions type 'only' 120–150 WPM on unfamiliar, complex text — record speed lives on rehearsed, predictable passages.</p>
-    <h2>Record speed vs real work speed</h2>
+    <h2 id="record-speed-vs-real-work-speed">Record speed vs real work speed</h2>
     <p>The gap between leaderboard WPM and workplace WPM is the least understood part of the records. Competition passages use common words, minimal numbers and predictable structure; real work throws names, figures, formatting and interruptions at you. A 150 WPM competitor producing flawless prose from dictation is still extraordinary — just closer to 100–120 than to 200.</p>
     <p>This is not a reason to dismiss the records; it is a reason to set your own targets correctly. For real work, 60–80 WPM at 98% accuracy outperforms almost every practical need, and it is reachable in months, not the years record speed demands.</p>
-    <h2>How record claims get verified</h2>
+    <h2 id="how-record-claims-get-verified">How record claims get verified</h2>
     <p>Serious speed claims face three tests. The input stream must be genuine human keystrokes — platforms analyse inter-key timing, and machine-uniform intervals or paste-length bursts are instant disqualifiers. The text must be unseen or standardised; a rehearsed passage measures memory, not typing. And the run must be repeatable: anyone can produce one lucky sprint, so rankings weight sustained performance across many rounds.</p>
     <p>Older records relied on human witnesses and controlled machines instead, which is why cross-era comparisons stay approximate. The constant across eras: every accepted record combines extreme speed with accuracy in the high nineties — there has never been a sloppy champion.</p>
-    <h2>The psychology of speed ceilings</h2>
+    <h2 id="the-psychology-of-speed-ceilings">The psychology of speed ceilings</h2>
     <p>Ask record holders what finally unlocked their biggest jumps and the answer is rarely physical. Speed ceilings are usually belief ceilings: the moment a typist sees a peer hit a number, that number becomes imaginable, and imaginable numbers get trained for. The four-minute mile pattern repeats in typing — 100 WPM felt superhuman until leaderboards made it visible, and now thousands of amateurs reach it.</p>
     <p>The practical use: expose yourself to faster typing. Watch a leaderboard, race a friend, chase your own saved best by one WPM at a time. Ceilings break when they stop feeling like physics and start feeling like a score someone nearby has already beaten.</p>
     <p>So treat the records as a map, not a measuring stick. The champions prove that 98% accuracy at extreme speed is trainable, that rhythm beats bursts, and that reading ahead removes hesitation. Steal those three ideas and your own number — whatever it is today — has nowhere to go but up. And unlike the champions, you get to start today with better tools than any of them had.</p>

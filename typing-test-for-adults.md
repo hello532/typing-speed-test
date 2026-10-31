@@ -4,8 +4,6 @@ Source: https://typing.rerivo.com/typing-test-for-adults.html
 
 This typing test for adults is built for grown-ups who want a quick, no-nonsense check of their typing speed and accuracy &mdash; no lessons, no cartoon mascots, no account. The average adult types around 40 WPM; take the test below and see where you land.
 
-## What is a good typing speed for an adult?
-
 The average adult typing speed is about 40 WPM. Reaching 60 WPM puts you comfortably above average and is enough for most office work; 80 WPM is fast, and 100 WPM+ is top-tier. Age or when you learned to type matter far less than how much you practise.
 
 Adult typing level | WPM
@@ -17,13 +15,9 @@ Elite (top ~1%) | 100+
 
 These bands come from published typing-speed studies; see the full average typing speed breakdown by age and profession.
 
-## You can still learn to type faster as an adult
-
 It is a common myth that only children can build typing speed. Adults usually improve faster than children because they follow instructions, understand why accuracy comes before speed and can practise deliberately. The catch is unlearning years of two-finger habit: the fix is to slow down, keep the fingers on the home row, and look at the screen instead of the keyboard.
 
 Ten to fifteen minutes a day is enough. Start with the home row typing test, then the touch typing test, and only push for raw speed once your accuracy is steady.
-
-## How to use this test as an adult
 
 Decide what you need. For a job application, run a 1-3 minute test and check the requirement table in the typing test for jobs. For everyday comfort, test once a day at 1 minute and watch the trend in your saved history. For data entry or accounting work, add the 10 key typing test. Your results are stored only in your browser, so nothing is uploaded.
 

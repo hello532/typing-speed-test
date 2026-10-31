@@ -4,8 +4,6 @@ Source: https://typing.rerivo.com/typing-test-for-students.html
 
 This typing test for students measures your WPM and accuracy in one minute and shows how you compare with other students. Typing quickly and accurately saves time on essays, notes and online exams &mdash; and many courses and jobs now expect 40&ndash;60 WPM.
 
-## What typing speed should a student have?
-
 Most students type between 30 and 50 WPM, and schools increasingly expect 40-60 WPM by the end of secondary school so that typing stops being a bottleneck for essays and exams. College students and anyone writing long assignments benefit most from reaching 60 WPM+.
 
 Stage | Typical / target WPM
@@ -16,13 +14,9 @@ College / university | 60+
 
 Targets vary by school and country; the bands above reflect commonly published guidance. See the full average typing speed table for more detail.
 
-## Why students should type faster
-
 Typing speed is study efficiency. At 60 WPM you can keep up with a lecturer in real time, transcribe notes without falling behind, and finish essays in less time while staying in flow. For out-of-class and online exams, slow typing can cost marks simply because you run out of time - not because you do not know the answer.
 
 If you type with two fingers, the ceiling is low. Learning touch typing is a one-time investment: practise the home row, then the touch typing test, and your speed will follow.
-
-## How to practise as a student
 
 Ten minutes a day beats an hour once a week. Warm up with a short drill, take a 1-minute test to record your WPM, then spend the rest of the time on whichever is weaker - speed on the typing practice page, or precision with the typing accuracy test. Every result is saved in your browser so you can chart your progress before an exam or application.
 

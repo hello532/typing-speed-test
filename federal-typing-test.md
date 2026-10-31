@@ -4,31 +4,21 @@ Source: https://typing.rerivo.com/federal-typing-test.html
 
 The US federal clerical standard is 40 words per minute on a five-minute sample with no more than three errors. It is a pass or fail gate, not a score to maximise, and it is easier than most commercial tests if you rehearse the exact format.
 
-## What the standard actually says
-
 Federal clerical and office-automation positions are commonly advertised with a typing requirement of 40 words per minute, demonstrated on a five-minute sample, with no more than three errors. Some agencies accept a self-certification on the application; others ask for a certificate from a testing centre or an approved online test.
 
 The arithmetic is simple: 40 WPM for five minutes is 200 words, or about 1,000 correct characters at five characters per word. Three errors in that sample is 1.5% - so the real requirement is roughly 98.5% accuracy at a moderate speed, not a fast run.
-
-## Why candidates fail it
 
 They practise one-minute bursts. A five-minute sample has a different error profile: fatigue, drifting attention, and the temptation to speed up when the end is in sight.
 They correct too much. Three errors are allowed; twelve corrections in a panic can push you under 40 WPM even though your accuracy was fine.
 They have never seen the format. Some tests show the passage continuously and scroll; others replace line by line. Rehearse both.
 
-## A rehearsal that matches the format
-
 Run a five-minute sentence test with the passage visible and no pause. Then count: net WPM must exceed 40 and uncorrected errors must stay at or below three. Do this three times in a week; if all three pass, the format is not going to surprise you.
 
 If you are failing on errors rather than speed, slow to about 45 WPM indicated and hold it. The extra five WPM of headroom is what absorbs a bad sentence.
 
-## Certificate versus self-certification
-
 A self-certification is the fastest route: you state your speed on the application and the agency may verify later. A proctored certificate costs money and takes a visit, but it never expires in the middle of a hiring cycle and some postings require it outright.
 
 Read the announcement carefully. If it says "must submit a typing test with your name and date", a self-certification will be rejected, and a certificate older than a year is often refused as well.
-
-## What to do with the number afterwards
 
 Once you clear 40 WPM, stop optimising it. Federal screening is qualifying: a 70 WPM score does not add points that a 45 WPM score misses. Put the remaining effort into the rest of the application, where the competition actually is.
 

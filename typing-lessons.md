@@ -4,19 +4,11 @@ Source: https://typing.rerivo.com/typing-lessons.html
 
 Free typing lessons for every level. Learn touch typing one step at a time: home row first, then every finger, then real speed. Each lesson is a timed practice you can repeat until it feels effortless. No sign up, learn at your own pace.
 
-## typing lessons
-
 Good typing lessons build speed the safe way: one habit at a time. Touch typing means typing without looking at the keyboard, and it is the single biggest speed upgrade most people can make. Instead of hunting for keys with two fingers, you train all ten fingers so each key has a fixed finger and muscle memory takes over. The result is faster, steadier typing that also frees your eyes for the screen.
-
-## Start every lesson with the home row
 
 Every typing lesson plan starts in the same place: the home row. Rest your left fingers on A S D F and your right fingers on J K L ; with your thumbs on the space bar. Feel for the small bumps on F and J; they tell your index fingers where to land without looking. Practice typing words made only of home row letters until you never have to think about it, because every other key is reached from this position.
 
-## A free four week typing lesson plan
-
 Week one: home row only, short one minute lessons, accuracy over speed. Week two: add the top row and the shift keys for capitals, two minute lessons. Week three: cover the bottom row and the number row, then try the number text set. Week four: mix sentences, quotes and punctuation, and test your WPM against week one. Ten to fifteen minutes a day is enough; most learners reach 40 to 60 WPM within a month of daily lessons. If you want a full curriculum rather than a weekly plan, the free typing lessons for adults page lays the four weeks out lesson by lesson.
-
-## Typing lessons order: what to learn first
 
 Lessons only work in the right order. Learning speed before home row is the most common way people stall.
 

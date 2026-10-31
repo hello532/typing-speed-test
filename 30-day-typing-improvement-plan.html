@@ -414,6 +414,16 @@ body.typing-active footer{opacity:.26;filter:saturate(.72);pointer-events:none;}
 .conv input:focus{outline:2px solid var(--borderhi);outline-offset:1px;}
 .conv-out{margin:12px 0 0;font-size:.95rem;font-weight:600;color:var(--text);}
 .conv-out span{color:var(--soft);font-weight:500;}
+
+/* Round-39: "On this page" jump list for long pages (≥6 sections).
+   Helps snippet extraction and lets readers jump to the section they need. */
+.toc{max-width:760px;margin:0 0 18px;padding:14px 18px;border:1px solid var(--line);border-radius:12px;background:var(--panel2);}
+.toc p{margin:0 0 8px;font-size:.78rem;font-weight:700;letter-spacing:.6px;text-transform:uppercase;color:var(--soft);}
+.toc ol{margin:0;padding-left:20px;display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:4px 22px;}
+.toc li{font-size:.9rem;line-height:1.45;}
+.toc a{color:var(--soft);text-decoration:none;}
+.toc a:hover{color:var(--text);text-decoration:underline;}
+@media(max-width:560px){.toc ol{grid-template-columns:1fr;}}
 </style>
 <script>try{var _t=localStorage.getItem("trTheme");if(_t&&_t!=="dark")document.documentElement.setAttribute("data-theme",_t);var _l=localStorage.getItem("trLang");if(_l&&_l!=="en"){document.documentElement.lang=_l;if(_l==="ar")document.documentElement.dir="rtl";}}catch(e){}</script>
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1401237223139327"
@@ -548,22 +558,23 @@ body.typing-active footer{opacity:.26;filter:saturate(.72);pointer-events:none;}
   </nav>
 
   <section class="seo">
-    <h2>The daily block (15 minutes)</h2>
+    <nav class="toc" aria-label="On this page"><p>On this page</p><ol><li><a href="#the-daily-block-15-minutes">The daily block (15 minutes)</a></li><li><a href="#week-1-remove-the-two-habits-that-cap-speed">Week 1 — remove the two habits that cap speed</a></li><li><a href="#week-2-make-the-home-row-automatic">Week 2 — make the home row automatic</a></li><li><a href="#week-3-accuracy-at-speed-punctuation-and-digits">Week 3 — accuracy at speed, punctuation and digits</a></li><li><a href="#week-4-full-length-and-consistency">Week 4 — full length and consistency</a></li><li><a href="#what-to-do-on-day-31">What to do on day 31</a></li></ol></nav>
+    <h2 id="the-daily-block-15-minutes">The daily block (15 minutes)</h2>
     <ul><li><strong>2 min warm-up</strong> - one 60-second round at a comfortable pace, no target.</li><li><strong>8 min drill</strong> - whatever the week prescribes, in 60- or 120-second rounds.</li><li><strong>3 min accuracy round</strong> - slow to 85% of your pace and aim for zero errors.</li><li><strong>2 min log</strong> - net WPM, accuracy, and one sentence on what felt wrong.</li></ul>
     <p>The log is not bureaucracy. Fifteen minutes of daily data tells you whether the plan is working in week two, instead of leaving you guessing at day thirty.</p>
-    <h2>Week 1 — remove the two habits that cap speed</h2>
+    <h2 id="week-1-remove-the-two-habits-that-cap-speed">Week 1 — remove the two habits that cap speed</h2>
     <p>Drill: covered-keyboard rounds and no-backspace rounds, alternating. One round with your hands covered, one round where a mistake is not corrected - just keep going. Both feel wrong for three days.</p>
     <p>Checkpoint: accuracy should be above 92% by day seven, and your no-backspace score should be within 3 WPM of your normal score. If it is not, the corrections are costing you more than they are worth, which is the whole point of the week.</p>
-    <h2>Week 2 — make the home row automatic</h2>
+    <h2 id="week-2-make-the-home-row-automatic">Week 2 — make the home row automatic</h2>
     <p>Drill: home-row and top-row drills, plus one round of pangrams a day (they touch every letter). Type slowly enough that you never look down - slow and correct beats fast and corrected.</p>
     <p>Checkpoint: by day fourteen you should be able to type a full sentence without glancing at the keyboard. Speed usually rises 3-8 WPM in this week without any deliberate speed work.</p>
-    <h2>Week 3 — accuracy at speed, punctuation and digits</h2>
+    <h2 id="week-3-accuracy-at-speed-punctuation-and-digits">Week 3 — accuracy at speed, punctuation and digits</h2>
     <p>Drill: 30-second sprints at maximum speed followed by a slow accuracy round, three pairs per session. Add one Numbers round and one punctuation-heavy round (quotes) every other day.</p>
     <p>Checkpoint: your sprint peak should be 10-15 WPM above your sustainable pace. If the two are equal, you are not pushing; if accuracy collapses in the sprint, you are pushing past control.</p>
-    <h2>Week 4 — full length and consistency</h2>
+    <h2 id="week-4-full-length-and-consistency">Week 4 — full length and consistency</h2>
     <p>Drill: five-minute rounds, three per session, no pause. Then one ten-minute round on the final two days. Score the lowest round of the three, not the highest - that is the number an employer would see on a bad day.</p>
     <p>Checkpoint: compare day 30 against day 1 on the same test length. Beginners typically gain 5-15 WPM, people already above 60 typically gain 3-6. Both are real; neither is a guarantee.</p>
-    <h2>What to do on day 31</h2>
+    <h2 id="what-to-do-on-day-31">What to do on day 31</h2>
     <p>Drop to maintenance: five minutes, four days a week, one full test a month. Most of what you gained stays if you keep typing daily at work or in messages; the part that fades is the deliberate accuracy habit.</p>
     <p>If you want to keep climbing, the next project is look-ahead reading - see the <a href="50-wpm-typing-test.html">50 WPM plan</a> for the drills that break a plateau, and the <a href="wpm-chart.html">WPM chart</a> to see which cause applies at your band.</p>
     <p class="byline">By <a href="about.html">the Typing.Rerivo team</a> &mdash; we build and maintain this typing test. Scoring formulas and the benchmarks used on our pages are documented in the methodology notes on our <a href="about.html">about page</a>, along with the sources we cite. Page last updated 2026-10-31.</p>

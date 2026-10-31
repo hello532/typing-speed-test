@@ -414,6 +414,16 @@ body.typing-active footer{opacity:.26;filter:saturate(.72);pointer-events:none;}
 .conv input:focus{outline:2px solid var(--borderhi);outline-offset:1px;}
 .conv-out{margin:12px 0 0;font-size:.95rem;font-weight:600;color:var(--text);}
 .conv-out span{color:var(--soft);font-weight:500;}
+
+/* Round-39: "On this page" jump list for long pages (≥6 sections).
+   Helps snippet extraction and lets readers jump to the section they need. */
+.toc{max-width:760px;margin:0 0 18px;padding:14px 18px;border:1px solid var(--line);border-radius:12px;background:var(--panel2);}
+.toc p{margin:0 0 8px;font-size:.78rem;font-weight:700;letter-spacing:.6px;text-transform:uppercase;color:var(--soft);}
+.toc ol{margin:0;padding-left:20px;display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:4px 22px;}
+.toc li{font-size:.9rem;line-height:1.45;}
+.toc a{color:var(--soft);text-decoration:none;}
+.toc a:hover{color:var(--text);text-decoration:underline;}
+@media(max-width:560px){.toc ol{grid-template-columns:1fr;}}
 </style>
 <script>try{var _t=localStorage.getItem("trTheme");if(_t&&_t!=="dark")document.documentElement.setAttribute("data-theme",_t);var _l=localStorage.getItem("trLang");if(_l&&_l!=="en"){document.documentElement.lang=_l;if(_l==="ar")document.documentElement.dir="rtl";}}catch(e){}</script>
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1401237223139327"
@@ -548,18 +558,18 @@ body.typing-active footer{opacity:.26;filter:saturate(.72);pointer-events:none;}
   </nav>
 
   <section class="seo">
-    <h2>What 10,000 keystrokes per hour actually means</h2>
+    <h2 id="what-10-000-keystrokes-per-hour-actually-means">What 10,000 keystrokes per hour actually means</h2>
     <p>A keystroke is one character: a letter, a digit, a space or a punctuation mark. Keystrokes per hour (KPH) is therefore a characters-per-minute figure multiplied by 60. Ten thousand KPH is 10,000 ÷ 60 = 166.7 CPM. Divide by five, the standard characters-per-word convention, and you get roughly 33 WPM.</p>
     <p>Recruiters use KPH instead of WPM because data-entry work is judged on characters: account numbers, postcodes, invoice references and part numbers have no word boundaries. KPH measures the same keyboard output without pretending the text is prose.</p>
-    <h2>KPH to WPM to CPM chart</h2>
+    <h2 id="kph-to-wpm-to-cpm-chart">KPH to WPM to CPM chart</h2>
     <table><tr><th>Keystrokes per hour</th><th>Characters per minute</th><th>Words per minute (÷5)</th><th>Typical use</th></tr><tr><td>5,000</td><td>83</td><td>17</td><td>Entry-level alphanumeric, slow but accurate</td></tr><tr><td>6,000</td><td>100</td><td>20</td><td>Common minimum in general office ads</td></tr><tr><td>8,000</td><td>133</td><td>27</td><td>Data entry with checking, most clerical roles</td></tr><tr><td>9,000</td><td>150</td><td>30</td><td>Medical billing, insurance claims</td></tr><tr><td>10,000</td><td>167</td><td>33</td><td>The number most data-entry postings quote</td></tr><tr><td>12,000</td><td>200</td><td>40</td><td>Numeric keypad work, ten-key operators</td></tr><tr><td>15,000</td><td>250</td><td>50</td><td>Fast numeric entry, transcription from clean audio</td></tr></table>
-    <h2>How to run a KPH test that is worth quoting</h2>
+    <h2 id="how-to-run-a-kph-test-that-is-worth-quoting">How to run a KPH test that is worth quoting</h2>
     <p>Set the timer to five minutes. One-minute runs measure your best burst; five minutes measures the pace you can hold, which is what a shift actually requires. Choose the Words text mode for alphanumeric work and the Numbers mode if your job is keypad-heavy, because digits are typed by a different hand position and score differently.</p>
     <p>Type the text as it appears, including capitals and punctuation, without correcting every slip. The score panel reports WPM and CPM after the round; multiply CPM by 60 for KPH. A five-minute round gives a stable number because a single slow sentence cannot dominate the result.</p>
-    <h2>Why your KPH and WPM scores disagree</h2>
+    <h2 id="why-your-kph-and-wpm-scores-disagree">Why your KPH and WPM scores disagree</h2>
     <p>The two numbers only agree when your text averages five characters per word including the space. Sentences with long words produce fewer WPM for the same KPH; number strings produce far higher KPH for a low WPM because every keystroke counts but there are no words.</p>
     <p>Accuracy matters more in KPH work than in prose typing. An uncorrected digit error in an account number is a failed record, not a typo. If your raw and net scores differ by more than about 5%, practise accuracy before pushing speed: the arithmetic of corrections costs more time than typing slightly slower.</p>
-    <h2>Is 10,000 KPH fast?</h2>
+    <h2 id="is-10-000-kph-fast">Is 10,000 KPH fast?</h2>
     <p>It sits in the middle of office typing. It is above the ~20 WPM that untrained typists manage and below the ~50 WPM average reported for people who type daily, so it is reachable in a few weeks of deliberate practice rather than years.</p>
     <p>If you are at 6,000–8,000 KPH, the gap to 10,000 is a pace problem, not a knowledge problem. Daily five-minute rounds plus one accuracy drill will usually close it faster than longer sessions, because fatigue at minute eight teaches you nothing about minute one.</p>
     <p class="byline">By <a href="about.html">the Typing.Rerivo team</a> &mdash; we build and maintain this typing test. Scoring formulas and the benchmarks used on our pages are documented in the methodology notes on our <a href="about.html">about page</a>, along with the sources we cite. Page last updated 2026-10-31.</p>

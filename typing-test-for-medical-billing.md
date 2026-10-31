@@ -4,27 +4,19 @@ Source: https://typing.rerivo.com/typing-test-for-medical-billing.html
 
 Billing and coding work is numeric and exact: CPT and ICD codes, dates of service, amounts, member IDs. Employers typically look for 45–55 WPM, but a single transposed digit is a denied claim.
 
-## Where the requirement comes from
-
 A claim has a fixed shape: patient, payer, codes, dates, amounts. Every field is typed rather than composed, so throughput is a direct function of keyboard accuracy and speed. Postings commonly ask 45-55 WPM, and the accuracy expectation is high because a rejected claim costs the practice money and time.
 
 The number is lower than transcription because the text is short. The consequence of an error is higher, which is why billing tests weight accuracy far more heavily than speed.
 
-## Why codes are a different typing problem
-
 ICD-10 codes mix letters and digits in patterns like M54.5 or E11.9; CPT codes are five digits, sometimes with modifiers. The digits are frequently the same key reached with the same finger in sequence, which is where transpositions happen.
 
 That is a typing problem, not a knowledge problem: 99213 becoming 99123 is a motor slip. Practise numeric strings and alternating letter-digit patterns until the sequence errors fall, then add the code vocabulary.
-
-## A practice set that mirrors the job
 
 Two minutes of Numbers mode daily, graded on errors rather than speed.
 One round of alphanumeric entry - the alphanumeric test is closer to claims work than a prose passage.
 Five-minute blocks scoring clean records: type a mock claim line (code, date, amount) ten times and count how many are perfect.
 
 Target three consecutive clean five-minute blocks before you claim the skill on a CV. That is roughly the accuracy a billing manager is buying.
-
-## What to quote on an application
 
 Quote net WPM, accuracy and test length, and add the numeric result separately if you have one - for example "52 WPM net, 99% accuracy on alphanumeric entry". Billing managers read the second number first.
 

@@ -4,19 +4,11 @@ Source: https://typing.rerivo.com/urdu-typing-test.html
 
 Test your Urdu typing speed with real Urdu sentences in the Perso-Arabic script, typed right to left. Instant speed and accuracy results. Free, no sign up.
 
-## Urdu typing test
-
 An Urdu typing test measures how fast and accurately you type real Urdu sentences in the Perso-Arabic (Nastaliq-style) script, written and read right to left. Your result is shown in words per minute, where every 5 characters counts as one word, so you can compare scores with the classic typing test 1 minute round.
-
-## Right-to-left typing: what changes
 
 The cursor moves right to left, and letters change shape depending on their position in a word — initial, medial, final or isolated forms join automatically as you type. This test renders the practice text and your input right to left, exactly as Urdu appears in real documents, so what you practise is what you produce.
 
-## How to improve Urdu typing speed
-
 Practise with real sentences rather than single letters, keep your eyes on the screen, and slow down at first for the characters that sit above and below the line — the diacritics and the special letters ٹ ڈ ڑ ں ہ ے. Accuracy first: rasm (spelling) mistakes cost more time than a steady, clean pace.
-
-## Urdu typing for exams and office work
 
 Timed Urdu passage typing is the format used in Pakistani government, court and data-entry exams, usually set in InPage or standard Urdu keyboards. Daily timed rounds with real sentences build the same speed and accuracy those tests measure — and your CPM shows the raw keystroke rate alongside WPM.
 

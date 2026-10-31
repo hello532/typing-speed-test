@@ -427,6 +427,16 @@ body.typing-active footer{opacity:.26;filter:saturate(.72);pointer-events:none;}
 .conv input:focus{outline:2px solid var(--borderhi);outline-offset:1px;}
 .conv-out{margin:12px 0 0;font-size:.95rem;font-weight:600;color:var(--text);}
 .conv-out span{color:var(--soft);font-weight:500;}
+
+/* Round-39: "On this page" jump list for long pages (≥6 sections).
+   Helps snippet extraction and lets readers jump to the section they need. */
+.toc{max-width:760px;margin:0 0 18px;padding:14px 18px;border:1px solid var(--line);border-radius:12px;background:var(--panel2);}
+.toc p{margin:0 0 8px;font-size:.78rem;font-weight:700;letter-spacing:.6px;text-transform:uppercase;color:var(--soft);}
+.toc ol{margin:0;padding-left:20px;display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:4px 22px;}
+.toc li{font-size:.9rem;line-height:1.45;}
+.toc a{color:var(--soft);text-decoration:none;}
+.toc a:hover{color:var(--text);text-decoration:underline;}
+@media(max-width:560px){.toc ol{grid-template-columns:1fr;}}
 </style>
 <script>try{var _t=localStorage.getItem("trTheme");if(_t&&_t!=="dark")document.documentElement.setAttribute("data-theme",_t);var _l=localStorage.getItem("trLang");if(_l&&_l!=="en"){document.documentElement.lang=_l;if(_l==="ar")document.documentElement.dir="rtl";}}catch(e){}
 window.__trPageLang="th";</script>
@@ -562,18 +572,19 @@ window.__trPageLang="th";</script>
   </nav>
 
   <section class="seo">
-    <h2>Thai typing test</h2>
+    <nav class="toc" aria-label="On this page"><p>On this page</p><ol><li><a href="#thai-typing-test">Thai typing test</a></li><li><a href="#no-spaces-how-speed-is-measured-in-thai">No spaces: how speed is measured in Thai</a></li><li><a href="#the-kedmanee-layout-and-tone-marks">The Kedmanee layout and tone marks</a></li><li><a href="#how-to-improve-thai-typing-speed">How to improve Thai typing speed</a></li><li><a href="#section">วิธีใช้แบบทดสอบนี้</a></li><li><a href="#section-2">การพิมพ์ภาษาไทยที่ไม่มีเว้นวรรค</a></li></ol></nav>
+    <h2 id="thai-typing-test">Thai typing test</h2>
     <p>A <strong>Thai typing test</strong> measures how fast and accurately you type real Thai sentences — the abugida script with vowels that sit before, after, above and below the consonants, the four tone marks, and continuous text with no spaces between words. Your result shows in words per minute, where every 5 characters counts as one word.</p>
-    <h2>No spaces: how speed is measured in Thai</h2>
+    <h2 id="no-spaces-how-speed-is-measured-in-thai">No spaces: how speed is measured in Thai</h2>
     <p>Thai is written without spaces between words, so a 'word count' depends on segmentation algorithms rather than anything a typist can see. That is why this test shows CPM — characters per minute — next to WPM: for Thai, CPM is the honest, script-fair measure of your real keystroke speed.</p>
-    <h2>The Kedmanee layout and tone marks</h2>
+    <h2 id="the-kedmanee-layout-and-tone-marks">The Kedmanee layout and tone marks</h2>
     <p>Thailand's standard keyboard layout is Kedmanee, which places the most common consonants on the home row and the tone marks on the number row. Typing Thai fluently means making the above- and below-line vowels and the four tone marks as automatic as the consonants — which only happens with real sentence practice, not letter drills.</p>
-    <h2>How to improve Thai typing speed</h2>
+    <h2 id="how-to-improve-thai-typing-speed">How to improve Thai typing speed</h2>
     <p>Practise with real sentences: Thai syllable shapes (consonant + vowel + tone mark) become single motions in your fingers with repetition. Keep your eyes on the screen, accuracy first, and watch your CPM trend — because words have no spaces, character-level consistency is the metric that actually moves.</p>
-    <h2>วิธีใช้แบบทดสอบนี้</h2>
+    <h2 id="section">วิธีใช้แบบทดสอบนี้</h2>
     <p>เลือกระยะเวลา (15 วินาที ถึง 10 นาที) คลิกที่พื้นที่พิมพ์แล้วเริ่มพิมพ์ประโยคที่ปรากฏบนหน้าจอ ตัวจับเวลาเริ่มนับจาการกดปุ่มแรก ไม่ใช่ก่อนหน้า หลังจบการพิมพ์คุณจะเห็น WPM ความแม่นยำ CPM และรายงานปุ่มที่อ่อนแอ</p>
     <p>เพื่อปรับปรุงความเร็ว ให้ฝึกความแม่นยำก่อน (เป้าหมาย 97-98%) จากนั้นค่อยเพิ่มความเร็ว รูปแบบพยางค์ภาษาไทย (พยัญชนะ + สระ + วรรณยุกต์) กลายเป็นการเคลื่อนไหวเดียวในนิ้วเมื่อฝึกซ้ำกับประโยคจริง</p>
-    <h2>การพิมพ์ภาษาไทยที่ไม่มีเว้นวรรค</h2>
+    <h2 id="section-2">การพิมพ์ภาษาไทยที่ไม่มีเว้นวรรค</h2>
     <p>ภาษาไทยเขียนติดกันไม่มีเว้นวรรค ดังนั้นคำว่า 'จำนวนคำ' ขึ้นอยู่กับอัลกอริทึมการแบ่งคำ ไม่ใช่สิ่งที่ผู้พิมพ์มองเห็น นี่คือเหตุผลที่แบบทดสอบนี้แสดง CPM (จำนวนอักขระต่อนาที) ควบคู่กับ WPM สำหรับภาษาไทย CPM คือการวัดที่ซื่อสัตย์และแม่นยำสำหรับความเร็วการกดปุ่มจริง</p>
     <p class="byline">By <a href="about.html">the Typing.Rerivo team</a> &mdash; we build and maintain this typing test. Scoring formulas and the benchmarks used on our pages are documented in the methodology notes on our <a href="about.html">about page</a>, along with the sources we cite. Page last updated 2026-10-31.</p>
   </section>

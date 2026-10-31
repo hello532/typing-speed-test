@@ -414,6 +414,16 @@ body.typing-active footer{opacity:.26;filter:saturate(.72);pointer-events:none;}
 .conv input:focus{outline:2px solid var(--borderhi);outline-offset:1px;}
 .conv-out{margin:12px 0 0;font-size:.95rem;font-weight:600;color:var(--text);}
 .conv-out span{color:var(--soft);font-weight:500;}
+
+/* Round-39: "On this page" jump list for long pages (≥6 sections).
+   Helps snippet extraction and lets readers jump to the section they need. */
+.toc{max-width:760px;margin:0 0 18px;padding:14px 18px;border:1px solid var(--line);border-radius:12px;background:var(--panel2);}
+.toc p{margin:0 0 8px;font-size:.78rem;font-weight:700;letter-spacing:.6px;text-transform:uppercase;color:var(--soft);}
+.toc ol{margin:0;padding-left:20px;display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:4px 22px;}
+.toc li{font-size:.9rem;line-height:1.45;}
+.toc a{color:var(--soft);text-decoration:none;}
+.toc a:hover{color:var(--text);text-decoration:underline;}
+@media(max-width:560px){.toc ol{grid-template-columns:1fr;}}
 </style>
 <script>try{var _t=localStorage.getItem("trTheme");if(_t&&_t!=="dark")document.documentElement.setAttribute("data-theme",_t);var _l=localStorage.getItem("trLang");if(_l&&_l!=="en"){document.documentElement.lang=_l;if(_l==="ar")document.documentElement.dir="rtl";}}catch(e){}</script>
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1401237223139327"
@@ -549,26 +559,27 @@ body.typing-active footer{opacity:.26;filter:saturate(.72);pointer-events:none;}
   </nav>
 
   <section class="seo">
-    <h2>2 minute typing test</h2>
+    <nav class="toc" aria-label="On this page"><p>On this page</p><ol><li><a href="#2-minute-typing-test">2 minute typing test</a></li><li><a href="#1-minute-vs-2-minute-vs-5-minute">1 minute vs 2 minute vs 5 minute</a></li><li><a href="#why-a-2-minute-typing-test">Why a 2-minute typing test</a></li><li><a href="#a-daily-2-minute-practice-routine">A daily 2 minute practice routine</a></li><li><a href="#2-minute-typing-test-vs-1-minute-and-3-minute">2 minute typing test vs 1 minute and 3 minute</a></li><li><a href="#how-to-pace-a-two-minute-round">How to pace a two minute round</a></li><li><a href="#2-minute-typing-test-for-employment">2 minute typing test for employment</a></li><li><a href="#moving-between-test-lengths">Moving between test lengths</a></li><li><a href="#how-this-round-is-scored">How this round is scored</a></li></ol></nav>
+    <h2 id="2-minute-typing-test">2 minute typing test</h2>
     <p>The <strong>2 minute typing test</strong> is a popular middle-ground length. Two minutes is long enough that your score reflects real typing speed rather than one lucky sentence, yet short enough to keep full concentration. Type the passage as fast and accurately as you can — WPM, accuracy and errors are counted automatically.</p>
-    <h2>1 minute vs 2 minute vs 5 minute</h2>
+    <h2 id="1-minute-vs-2-minute-vs-5-minute">1 minute vs 2 minute vs 5 minute</h2>
     <p>A 1 minute test is a quick check, a 2 minute test is a reliable everyday measure, and a 5 minute test is best for serious benchmarking. If you are practising daily, the 2 minute test is a comfortable default that balances speed feedback and stability.</p>
-    <h2>Why a 2-minute typing test</h2>
+    <h2 id="why-a-2-minute-typing-test">Why a 2-minute typing test</h2>
     <p>Two minutes is the sweet spot between a quick sprint and a full endurance run. It's long enough to settle into a steady rhythm and smooth out a shaky start, yet short enough to retake several times in a sitting. Many employer screening tests use a two-minute format, which makes it ideal practice for job applications.</p>
-    <h2>A daily 2 minute practice routine</h2>
+    <h2 id="a-daily-2-minute-practice-routine">A daily 2 minute practice routine</h2>
     <p>One reliable routine: open the test at the same time each day, take exactly two rounds with a one-minute stretch break between them, and keep the better score. Two rounds a day is enough to show a trend within a fortnight — most steady practicers gain 5 to 10 WPM in the first month. When progress stalls for a full week, switch to targeted drills for your slowest keys instead of adding more test rounds; our <a href="typing-tips.html">typing tips</a> explain how to find them.</p>
-    <h2>2 minute typing test vs 1 minute and 3 minute</h2>
+    <h2 id="2-minute-typing-test-vs-1-minute-and-3-minute">2 minute typing test vs 1 minute and 3 minute</h2>
     <p>Two minutes is the shortest round where a single bad sentence stops dominating the score. A <a href="1-minute-typing-test.html">1 minute typing test</a> can swing 10-15 WPM on one unfamiliar sentence; across two minutes that swing halves.</p>
     <ul><li><strong>1 minute</strong> - good for daily speed checks and quick warm-ups.</li><li><strong>2 minutes</strong> - the sweet spot for a repeatable score you can track week to week.</li><li><strong><a href="3-minute-typing-test.html">3 minute</a> / <a href="5-minute-typing-test.html">5 minute</a></strong> - endurance and technique, used for screening.</li></ul>
     <p>If you are tracking progress, keep the length fixed. Comparing a 2 minute score against a 5 minute score tells you about endurance, not improvement.</p>
-    <h2>How to pace a two minute round</h2>
+    <h2 id="how-to-pace-a-two-minute-round">How to pace a two minute round</h2>
     <p>Open slightly under your target speed and let the first sentence calibrate you. Most typists gain 3-6 WPM in the second minute simply by relaxing into rhythm; the ones who lose points are those who sprint the first twenty seconds and spend the rest recovering. Keep your eyes one word ahead of the cursor and your hands still between keystrokes.</p>
     <p>If you want a stricter reading of the same two minutes, switch the text mode to quotes: capitals and punctuation are where accuracy quietly leaks away, and the result screen will show it.</p>
-    <h2>2 minute typing test for employment</h2>
+    <h2 id="2-minute-typing-test-for-employment">2 minute typing test for employment</h2>
     <p>Two-minute formats appear in clerical and customer-service screening because they fit inside a short interview slot. The format that matters is unfamiliar text, one take, and an accuracy floor of 95%. Practise with a passage you have not seen and resist the urge to retake — employers do not offer one. The <a href="typing-test-for-jobs.html">typing test for jobs</a> page lists the common thresholds by role.</p>
-    <h2>Moving between test lengths</h2>
+    <h2 id="moving-between-test-lengths">Moving between test lengths</h2>
     <p>Length changes what a score means. A sixty-second round is the format schools, employers and certificates quote most, so it is the number to keep as your baseline: the <a href="1-minute-typing-test.html">1 minute typing test</a> is the reference point every other duration on this site is compared against. Longer rounds then measure how much of that baseline survives, and shorter rounds measure how quickly you can reach it cold.</p>
-    <h2>How this round is scored</h2>
+    <h2 id="how-this-round-is-scored">How this round is scored</h2>
     <p>Each round scores correct characters using the five-character word convention described for <a href="https://en.wikipedia.org/wiki/Words_per_minute" rel="noopener">words per minute</a>: five characters, spaces and punctuation included, count as one word. A clean round also reports accuracy next to net WPM, because the two numbers answer different questions &mdash; how fast your fingers move, and how much of that speed survived contact with the keyboard.</p>
     <p class="byline">By <a href="about.html">the Typing.Rerivo team</a> &mdash; we build and maintain this typing test. Scoring formulas and the benchmarks used on our pages are documented in the methodology notes on our <a href="about.html">about page</a>, along with the sources we cite. Page last updated 2026-10-31.</p>
   </section>

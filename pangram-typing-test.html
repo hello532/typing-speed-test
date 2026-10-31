@@ -414,6 +414,16 @@ body.typing-active footer{opacity:.26;filter:saturate(.72);pointer-events:none;}
 .conv input:focus{outline:2px solid var(--borderhi);outline-offset:1px;}
 .conv-out{margin:12px 0 0;font-size:.95rem;font-weight:600;color:var(--text);}
 .conv-out span{color:var(--soft);font-weight:500;}
+
+/* Round-39: "On this page" jump list for long pages (≥6 sections).
+   Helps snippet extraction and lets readers jump to the section they need. */
+.toc{max-width:760px;margin:0 0 18px;padding:14px 18px;border:1px solid var(--line);border-radius:12px;background:var(--panel2);}
+.toc p{margin:0 0 8px;font-size:.78rem;font-weight:700;letter-spacing:.6px;text-transform:uppercase;color:var(--soft);}
+.toc ol{margin:0;padding-left:20px;display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:4px 22px;}
+.toc li{font-size:.9rem;line-height:1.45;}
+.toc a{color:var(--soft);text-decoration:none;}
+.toc a:hover{color:var(--text);text-decoration:underline;}
+@media(max-width:560px){.toc ol{grid-template-columns:1fr;}}
 </style>
 <script>try{var _t=localStorage.getItem("trTheme");if(_t&&_t!=="dark")document.documentElement.setAttribute("data-theme",_t);var _l=localStorage.getItem("trLang");if(_l&&_l!=="en"){document.documentElement.lang=_l;if(_l==="ar")document.documentElement.dir="rtl";}}catch(e){}</script>
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1401237223139327"
@@ -548,13 +558,13 @@ body.typing-active footer{opacity:.26;filter:saturate(.72);pointer-events:none;}
   </nav>
 
   <section class="seo">
-    <h2>Pangram typing test</h2>
+    <h2 id="pangram-typing-test">Pangram typing test</h2>
     <p>A <strong>pangram typing test</strong> trains every key on the keyboard in a single sentence. A pangram is a sentence that uses all 26 letters at least once, so a few rounds guarantee your fingers visit every corner of the layout — including the rare letters (q, z, x, j) that ordinary prose barely touches.</p>
-    <h2>Why the rare letters matter</h2>
+    <h2 id="why-the-rare-letters-matter">Why the rare letters matter</h2>
     <p>Typing speed is capped by your slowest keys, not your fastest. Most people fly through e, t and a but stumble on q, z, x and j simply because daily typing rarely calls for them. Pangram drills force those keys into your muscle memory, and once the rare letters stop being events, your baseline speed on normal text rises too.</p>
-    <h2>The pangrams in this test</h2>
+    <h2 id="the-pangrams-in-this-test">The pangrams in this test</h2>
     <p>Sixteen pangrams in rising difficulty, starting with the classic <a href="quick-brown-fox-typing-test.html">quick brown fox</a> — which has its own dedicated page with more variations — and moving to trickier constructions like 'Sphinx of black quartz, judge my vow' and 'Mr Jock, TV quiz PhD, bags few lynx'. The harder ones mix capitals, punctuation and unusual words for a full-keyboard workout.</p>
-    <h2>How to practise with pangrams</h2>
+    <h2 id="how-to-practise-with-pangrams">How to practise with pangrams</h2>
     <p>Run a minute a day and watch the weak-key report. When a pangram round flags the same letters round after round, those are your true weak keys — drill them until they disappear from the report. Alternate between the easy pangrams for warm-up and the hard ones for a proper challenge.</p>
     <p class="byline">By <a href="about.html">the Typing.Rerivo team</a> &mdash; we build and maintain this typing test. Scoring formulas and the benchmarks used on our pages are documented in the methodology notes on our <a href="about.html">about page</a>, along with the sources we cite. Page last updated 2026-10-31.</p>
   </section>

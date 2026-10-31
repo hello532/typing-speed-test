@@ -4,7 +4,14 @@ Source: https://typing.rerivo.com/30-day-typing-improvement-plan.html
 
 Fifteen minutes a day for thirty days, with a checkpoint every Sunday. The plan changes what you practise each week because the cause of slow typing changes as you get faster.
 
-## The daily block (15 minutes)
+On this page
+
+The daily block (15 minutes)
+Week 1 — remove the two habits that cap speed
+Week 2 — make the home row automatic
+Week 3 — accuracy at speed, punctuation and digits
+Week 4 — full length and consistency
+What to do on day 31
 
 2 min warm-up - one 60-second round at a comfortable pace, no target.
 8 min drill - whatever the week prescribes, in 60- or 120-second rounds.
@@ -13,31 +20,21 @@ Fifteen minutes a day for thirty days, with a checkpoint every Sunday. The plan 
 
 The log is not bureaucracy. Fifteen minutes of daily data tells you whether the plan is working in week two, instead of leaving you guessing at day thirty.
 
-## Week 1 — remove the two habits that cap speed
-
 Drill: covered-keyboard rounds and no-backspace rounds, alternating. One round with your hands covered, one round where a mistake is not corrected - just keep going. Both feel wrong for three days.
 
 Checkpoint: accuracy should be above 92% by day seven, and your no-backspace score should be within 3 WPM of your normal score. If it is not, the corrections are costing you more than they are worth, which is the whole point of the week.
-
-## Week 2 — make the home row automatic
 
 Drill: home-row and top-row drills, plus one round of pangrams a day (they touch every letter). Type slowly enough that you never look down - slow and correct beats fast and corrected.
 
 Checkpoint: by day fourteen you should be able to type a full sentence without glancing at the keyboard. Speed usually rises 3-8 WPM in this week without any deliberate speed work.
 
-## Week 3 — accuracy at speed, punctuation and digits
-
 Drill: 30-second sprints at maximum speed followed by a slow accuracy round, three pairs per session. Add one Numbers round and one punctuation-heavy round (quotes) every other day.
 
 Checkpoint: your sprint peak should be 10-15 WPM above your sustainable pace. If the two are equal, you are not pushing; if accuracy collapses in the sprint, you are pushing past control.
 
-## Week 4 — full length and consistency
-
 Drill: five-minute rounds, three per session, no pause. Then one ten-minute round on the final two days. Score the lowest round of the three, not the highest - that is the number an employer would see on a bad day.
 
 Checkpoint: compare day 30 against day 1 on the same test length. Beginners typically gain 5-15 WPM, people already above 60 typically gain 3-6. Both are real; neither is a guarantee.
-
-## What to do on day 31
 
 Drop to maintenance: five minutes, four days a week, one full test a month. Most of what you gained stays if you keep typing daily at work or in messages; the part that fades is the deliberate accuracy habit.
 

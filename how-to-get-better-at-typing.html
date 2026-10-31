@@ -414,6 +414,16 @@ body.typing-active footer{opacity:.26;filter:saturate(.72);pointer-events:none;}
 .conv input:focus{outline:2px solid var(--borderhi);outline-offset:1px;}
 .conv-out{margin:12px 0 0;font-size:.95rem;font-weight:600;color:var(--text);}
 .conv-out span{color:var(--soft);font-weight:500;}
+
+/* Round-39: "On this page" jump list for long pages (≥6 sections).
+   Helps snippet extraction and lets readers jump to the section they need. */
+.toc{max-width:760px;margin:0 0 18px;padding:14px 18px;border:1px solid var(--line);border-radius:12px;background:var(--panel2);}
+.toc p{margin:0 0 8px;font-size:.78rem;font-weight:700;letter-spacing:.6px;text-transform:uppercase;color:var(--soft);}
+.toc ol{margin:0;padding-left:20px;display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:4px 22px;}
+.toc li{font-size:.9rem;line-height:1.45;}
+.toc a{color:var(--soft);text-decoration:none;}
+.toc a:hover{color:var(--text);text-decoration:underline;}
+@media(max-width:560px){.toc ol{grid-template-columns:1fr;}}
 </style>
 <script>try{var _t=localStorage.getItem("trTheme");if(_t&&_t!=="dark")document.documentElement.setAttribute("data-theme",_t);var _l=localStorage.getItem("trLang");if(_l&&_l!=="en"){document.documentElement.lang=_l;if(_l==="ar")document.documentElement.dir="rtl";}}catch(e){}</script>
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1401237223139327"
@@ -548,27 +558,28 @@ body.typing-active footer{opacity:.26;filter:saturate(.72);pointer-events:none;}
   </nav>
 
   <section class="seo">
-    <h2>Start with an honest baseline</h2>
+    <nav class="toc" aria-label="On this page"><p>On this page</p><ol><li><a href="#start-with-an-honest-baseline">Start with an honest baseline</a></li><li><a href="#week-one-accuracy-before-everything">Week one: accuracy before everything</a></li><li><a href="#weeks-two-and-three-kill-your-weak-keys">Weeks two and three: kill your weak keys</a></li><li><a href="#week-four-structured-speed-work">Week four: structured speed work</a></li><li><a href="#the-three-rules-that-make-it-stick">The three rules that make it stick</a></li><li><a href="#why-most-practice-fails">Why most practice fails</a></li><li><a href="#the-weekly-review-that-keeps-you-honest">The weekly review that keeps you honest</a></li><li><a href="#the-mindset-that-survives-plateaus">The mindset that survives plateaus</a></li></ol></nav>
+    <h2 id="start-with-an-honest-baseline">Start with an honest baseline</h2>
     <p>You cannot improve what you do not measure. Take a <a href="1-minute-typing-test.html">1 minute typing test</a> right now and write down three numbers: net WPM, accuracy, and consistency. Net WPM is your speed with errors deducted — the only number employers care about. Accuracy below 97% means your problem is not speed at all; it is error recovery. Consistency below 80% means your speed comes in bursts, which exhausts you on longer documents.</p>
     <p>Repeat the test three times and take the middle score. Single runs wander by several points in both directions, so a one-off result tells you almost nothing. This baseline is the number every later gain gets measured against.</p>
-    <h2>Week one: accuracy before everything</h2>
+    <h2 id="week-one-accuracy-before-everything">Week one: accuracy before everything</h2>
     <p>Spend the entire first week typing slower than feels natural — about 90% of your normal pace — with one goal: finish every round above 98% accuracy. This feels like going backwards. It is not. Every error costs the mistyped character plus about two correction keystrokes, so a clean 55 WPM run beats a sloppy 65 WPM run on every metric that matters.</p>
     <p>Use the <a href="typing-accuracy-test.html">typing accuracy test</a> for these rounds, and resist the urge to retest for speed. You are retraining your fingers to be right the first time, which is the foundation everything else sits on.</p>
-    <h2>Weeks two and three: kill your weak keys</h2>
+    <h2 id="weeks-two-and-three-kill-your-weak-keys">Weeks two and three: kill your weak keys</h2>
     <p>After every round the result panel shows your most-missed and slowest keys. They are rarely the same key. Missed keys need accuracy drills; slow keys need repetition until the reach is automatic. Take the two worst keys each day and drill them in short 15-second bursts, then finish with one full minute at normal speed.</p>
     <p>Symbols deserve special attention. Digits and punctuation are the most common speed-killers because everyday typing barely uses them. Two rounds a week in numbers or quotes mode keeps them from breaking your rhythm when they do appear.</p>
-    <h2>Week four: structured speed work</h2>
+    <h2 id="week-four-structured-speed-work">Week four: structured speed work</h2>
     <p>Now push speed deliberately. Warm up with two 15-second sprints, then take your measured minute. Sprint-warmed fingers reliably score higher because the first thirty seconds of any cold run is spent finding rhythm. Alternate one day at full effort with one day at accuracy pace — adaptation happens on the easy days.</p>
     <p>Retake the baseline at the end of the week, same time of day, same keyboard. Most people gain 5–10 WPM in the first month, and almost all of it comes from accuracy, not raw finger speed. Keep the cycle going with <a href="typing-practice.html">typing practice</a> rounds and let the trend line compound.</p>
-    <h2>The three rules that make it stick</h2>
+    <h2 id="the-three-rules-that-make-it-stick">The three rules that make it stick</h2>
     <p>Practice daily, not occasionally. Ten minutes every day builds more motor memory than an hour on Sunday, because skill in typing consolidates between sessions. Measure weekly, not hourly — daily scores are noisy, weekly trends are not. And keep your hands honest: eyes on the screen, fingers on the home row, wrists slightly raised. Bad posture is a speed ceiling you cannot train past.</p>
-    <h2>Why most practice fails</h2>
+    <h2 id="why-most-practice-fails">Why most practice fails</h2>
     <p>The typical approach — 'type more and hope' — fails for a predictable reason: practice does not make perfect, it makes permanent. Type sloppily for an hour a day and you become a permanently sloppy typist, faster at making the same mistakes. Every hour of untargeted typing rehearsed the exact habits that cap you.</p>
     <p>Targeted practice inverts this. Each session fixes one measured bottleneck — a weak key, an accuracy dip, a rhythm break — and the improvement is permanent because it was specific. Ten minutes of targeted work outperforms an hour of volume, which is why the system in this guide is built around the weak-key report instead of around effort.</p>
-    <h2>The weekly review that keeps you honest</h2>
+    <h2 id="the-weekly-review-that-keeps-you-honest">The weekly review that keeps you honest</h2>
     <p>Set a five-minute appointment with yourself every week, same day, same time. Retake your baseline test, then compare three numbers against last week: net WPM, accuracy, consistency. Net WPM up and accuracy steady means keep the current drills. Net WPM flat and accuracy down means you are pushing too hard — drop back to accuracy pace for a week.</p>
     <p>Write the three numbers down somewhere visible. The log does two things: it catches slow leaks early, before a bad week becomes a bad month, and it makes progress undeniable. Motivation that comes from a visible trend line survives plateaus that kill willpower-based practice.</p>
-    <h2>The mindset that survives plateaus</h2>
+    <h2 id="the-mindset-that-survives-plateaus">The mindset that survives plateaus</h2>
     <p>Every typist who improves long-term shares one belief: plateaus are information, not verdicts. Two flat weeks mean the current drill has done its job and the bottleneck moved — the correct response is to read the result panel closely and change the stimulus. The incorrect response is to double the volume of the drill that stopped working.</p>
     <p>It helps to expect the shape of progress in advance: fast early gains from accuracy, a wall around 55–65 WPM, slower gains from weak-key work, another wall near 80, then long refinement. Knowing the map does not shorten the road, but it stops you from abandoning it at the exact points where everyone else quits — which is most of what 'getting better' actually consists of.</p>
     <p class="byline">By <a href="about.html">the Typing.Rerivo team</a> &mdash; we build and maintain this typing test. Scoring formulas and the benchmarks used on our pages are documented in the methodology notes on our <a href="about.html">about page</a>, along with the sources we cite. Page last updated 2026-10-31.</p>

@@ -414,6 +414,16 @@ body.typing-active footer{opacity:.26;filter:saturate(.72);pointer-events:none;}
 .conv input:focus{outline:2px solid var(--borderhi);outline-offset:1px;}
 .conv-out{margin:12px 0 0;font-size:.95rem;font-weight:600;color:var(--text);}
 .conv-out span{color:var(--soft);font-weight:500;}
+
+/* Round-39: "On this page" jump list for long pages (≥6 sections).
+   Helps snippet extraction and lets readers jump to the section they need. */
+.toc{max-width:760px;margin:0 0 18px;padding:14px 18px;border:1px solid var(--line);border-radius:12px;background:var(--panel2);}
+.toc p{margin:0 0 8px;font-size:.78rem;font-weight:700;letter-spacing:.6px;text-transform:uppercase;color:var(--soft);}
+.toc ol{margin:0;padding-left:20px;display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:4px 22px;}
+.toc li{font-size:.9rem;line-height:1.45;}
+.toc a{color:var(--soft);text-decoration:none;}
+.toc a:hover{color:var(--text);text-decoration:underline;}
+@media(max-width:560px){.toc ol{grid-template-columns:1fr;}}
 </style>
 <script>try{var _t=localStorage.getItem("trTheme");if(_t&&_t!=="dark")document.documentElement.setAttribute("data-theme",_t);var _l=localStorage.getItem("trLang");if(_l&&_l!=="en"){document.documentElement.lang=_l;if(_l==="ar")document.documentElement.dir="rtl";}}catch(e){}</script>
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1401237223139327"
@@ -548,15 +558,15 @@ body.typing-active footer{opacity:.26;filter:saturate(.72);pointer-events:none;}
   </nav>
 
   <section class="seo">
-    <h2>The shape of a claim entry</h2>
+    <h2 id="the-shape-of-a-claim-entry">The shape of a claim entry</h2>
     <p>A first-notice-of-loss record is a fixed form: policy number, insured name, date of loss, loss type code, description, estimated reserve, adjuster assignment. Two of those fields are money, three are codes, one is narrative. The narrative is the only part where prose typing helps.</p>
     <p>That ratio is why claims processors who type 50 WPM with clean digits outperform colleagues at 65 WPM who need corrections. The queue measures completed, correct records.</p>
-    <h2>Where errors actually cost money</h2>
+    <h2 id="where-errors-actually-cost-money">Where errors actually cost money</h2>
     <ul><li><strong>Reserve amounts</strong> - a misplaced decimal changes a reserve by a factor of ten.</li><li><strong>Policy numbers</strong> - alphanumeric, no checksum you can rely on, and a wrong digit attaches the claim to the wrong policyholder.</li><li><strong>Loss codes</strong> - similar-looking categories where a mis-selection routes the claim to the wrong team.</li><li><strong>Dates of loss</strong> - coverage windows depend on them, so a wrong year can void a valid claim.</li></ul>
-    <h2>How to train for it</h2>
+    <h2 id="how-to-train-for-it">How to train for it</h2>
     <p>Two minutes of Numbers mode daily, then a record drill: type a mock claim (policy, date, code, amount) ten times, verify against the source each time, and count clean records. Target three consecutive clean records before you claim the skill.</p>
     <p>Practise decimal placement deliberately. Type amounts with two decimal places and a thousands separator until the pattern is automatic, because that is the field where a single keystroke has the largest consequence.</p>
-    <h2>Bands and adjacent roles</h2>
+    <h2 id="bands-and-adjacent-roles">Bands and adjacent roles</h2>
     <p>Claims processing usually advertises 45-55 WPM with 98% accuracy. Related roles differ: medical billing sits at 45-55 with 98%, data entry is quoted in keystrokes per hour at 8,000-12,000, and customer service claims handling drops to 35-45 because the work is more conversation than entry.</p>
     <p>If a posting quotes keystrokes per hour instead of WPM, convert before deciding whether you qualify — 10,000 KPH is about 33 WPM, which is a different test from a 50 WPM prose reading.</p>
     <p class="byline">By <a href="about.html">the Typing.Rerivo team</a> &mdash; we build and maintain this typing test. Scoring formulas and the benchmarks used on our pages are documented in the methodology notes on our <a href="about.html">about page</a>, along with the sources we cite. Page last updated 2026-10-31.</p>

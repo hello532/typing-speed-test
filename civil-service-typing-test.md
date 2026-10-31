@@ -4,13 +4,9 @@ Source: https://typing.rerivo.com/civil-service-typing-test.html
 
 State and county civil service exams typically require 40 net WPM on a five-minute proctored sample, and they issue a certificate with an expiry date. The rules vary by jurisdiction, so the notice is the authority.
 
-## How the process usually runs
-
 You apply for a clerical title, the agency tells you whether a typing certificate is required at application or after a conditional offer, and you book a proctored test. The result is filed against your name and often carries an expiry - commonly between one and four years depending on the state.
 
 Some jurisdictions accept a certificate from a commercial testing centre, some run their own at a workforce office, and a few allow remote proctoring. The one constant is that the sample is timed, five minutes in most cases, and scored on net words per minute.
-
-## What the scores mean in practice
 
 Score | What it usually clears | What it does not
 30-35 net WPM | Some entry clerk and typist titles | Office assistant and secretary titles
@@ -20,13 +16,9 @@ Score | What it usually clears | What it does not
 
 These are the bands that appear across published county and state postings; a specific notice will name one figure, and that figure is the one that matters.
 
-## Net, not gross - and why that changes your strategy
-
 Civil service scoring almost always deducts errors before reporting the score. That means a cautious 44 net is worth more than a reckless 55 gross that nets 38 after a dozen mistakes.
 
 Rehearse accordingly: type at the pace where errors stay under about 2%, then check the net figure rather than the raw one. If your net and gross differ by more than 5%, accuracy is the whole project for the next two weeks.
-
-## Booking and paperwork
 
 Bring photo identification, arrive early, and expect the keyboard to be unfamiliar - usually a basic membrane board rather than the laptop you practise on. Type one warm-up sentence before the clock starts if the proctor allows it.
 

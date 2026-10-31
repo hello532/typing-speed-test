@@ -414,6 +414,16 @@ body.typing-active footer{opacity:.26;filter:saturate(.72);pointer-events:none;}
 .conv input:focus{outline:2px solid var(--borderhi);outline-offset:1px;}
 .conv-out{margin:12px 0 0;font-size:.95rem;font-weight:600;color:var(--text);}
 .conv-out span{color:var(--soft);font-weight:500;}
+
+/* Round-39: "On this page" jump list for long pages (≥6 sections).
+   Helps snippet extraction and lets readers jump to the section they need. */
+.toc{max-width:760px;margin:0 0 18px;padding:14px 18px;border:1px solid var(--line);border-radius:12px;background:var(--panel2);}
+.toc p{margin:0 0 8px;font-size:.78rem;font-weight:700;letter-spacing:.6px;text-transform:uppercase;color:var(--soft);}
+.toc ol{margin:0;padding-left:20px;display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:4px 22px;}
+.toc li{font-size:.9rem;line-height:1.45;}
+.toc a{color:var(--soft);text-decoration:none;}
+.toc a:hover{color:var(--text);text-decoration:underline;}
+@media(max-width:560px){.toc ol{grid-template-columns:1fr;}}
 </style>
 <script>try{var _t=localStorage.getItem("trTheme");if(_t&&_t!=="dark")document.documentElement.setAttribute("data-theme",_t);var _l=localStorage.getItem("trLang");if(_l&&_l!=="en"){document.documentElement.lang=_l;if(_l==="ar")document.documentElement.dir="rtl";}}catch(e){}</script>
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1401237223139327"
@@ -548,15 +558,15 @@ body.typing-active footer{opacity:.26;filter:saturate(.72);pointer-events:none;}
   </nav>
 
   <section class="seo">
-    <h2>What is the home row?</h2>
+    <h2 id="what-is-the-home-row">What is the home row?</h2>
     <p>The <strong>home row</strong> (also called the home keys) is the middle row of the keyboard where your fingers rest between keystrokes: <strong>A S D F</strong> for the left hand and <strong>J K L ;</strong> for the right hand. The <strong>F</strong> and <strong>J</strong> keys have small raised bumps so your index fingers can find home by feel alone, without looking down.</p>
     <p>Home-row typing is the foundation of <strong>touch typing</strong>. Each finger owns a column of keys and always returns to its home key, so the hand never has to hunt for a letter. Start by typing only home-row letters until they feel automatic, then add the rows above and below.</p>
-    <h2>Which finger types which home key?</h2>
+    <h2 id="which-finger-types-which-home-key">Which finger types which home key?</h2>
     <div class="tbl"><table><thead><tr><th>Home key</th><th>Finger</th><th>Also reaches</th></tr></thead><tbody><tr><td>A</td><td>Left pinky</td><td>Q, Z, 1</td></tr><tr><td>S</td><td>Left ring</td><td>W, X, 2</td></tr><tr><td>D</td><td>Left middle</td><td>E, C, 3</td></tr><tr><td>F</td><td>Left index</td><td>R, T, G, V, B, 4, 5</td></tr><tr><td>J</td><td>Right index</td><td>Y, U, H, N, M, 6, 7</td></tr><tr><td>K</td><td>Right middle</td><td>I, comma, 8</td></tr><tr><td>L</td><td>Right ring</td><td>O, full stop, 9</td></tr><tr><td>;</td><td>Right pinky</td><td>P, slash, 0</td></tr></tbody></table></div>
     <p>The thumbs rest on the space bar. Keeping this assignment is what lets you type without looking &mdash; see the full method on <a href="how-to-type-without-looking.html">how to type without looking</a>.</p>
-    <h2>Home row drills and practice</h2>
+    <h2 id="home-row-drills-and-practice">Home row drills and practice</h2>
     <p>Effective home-row practice repeats the eight home keys in short, varied bursts rather than long paragraphs, so your fingers build the exact movements they need. Run this test for 1 or 2 minutes a day, aiming first for perfect accuracy and only then for speed. When the home row feels natural, move on to the <a href="touch-typing-test.html">touch typing test</a> and the <a href="keyboard-typing-test.html">keyboard typing test</a>, which introduce the surrounding rows with an on-screen finger guide.</p>
-    <h2>Hand and finger fundamentals</h2>
+    <h2 id="hand-and-finger-fundamentals">Hand and finger fundamentals</h2>
     <p>Placement done right: <a href="proper-hand-position-for-typing.html">proper hand position for typing</a> and the <a href="typing-finger-chart.html">typing finger chart</a>.</p>
     <p class="byline">By <a href="about.html">the Typing.Rerivo team</a> &mdash; we build and maintain this typing test. Scoring formulas and the benchmarks used on our pages are documented in the methodology notes on our <a href="about.html">about page</a>, along with the sources we cite. Page last updated 2026-10-31.</p>
   </section>

@@ -414,6 +414,16 @@ body.typing-active footer{opacity:.26;filter:saturate(.72);pointer-events:none;}
 .conv input:focus{outline:2px solid var(--borderhi);outline-offset:1px;}
 .conv-out{margin:12px 0 0;font-size:.95rem;font-weight:600;color:var(--text);}
 .conv-out span{color:var(--soft);font-weight:500;}
+
+/* Round-39: "On this page" jump list for long pages (≥6 sections).
+   Helps snippet extraction and lets readers jump to the section they need. */
+.toc{max-width:760px;margin:0 0 18px;padding:14px 18px;border:1px solid var(--line);border-radius:12px;background:var(--panel2);}
+.toc p{margin:0 0 8px;font-size:.78rem;font-weight:700;letter-spacing:.6px;text-transform:uppercase;color:var(--soft);}
+.toc ol{margin:0;padding-left:20px;display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:4px 22px;}
+.toc li{font-size:.9rem;line-height:1.45;}
+.toc a{color:var(--soft);text-decoration:none;}
+.toc a:hover{color:var(--text);text-decoration:underline;}
+@media(max-width:560px){.toc ol{grid-template-columns:1fr;}}
 </style>
 <script>try{var _t=localStorage.getItem("trTheme");if(_t&&_t!=="dark")document.documentElement.setAttribute("data-theme",_t);var _l=localStorage.getItem("trLang");if(_l&&_l!=="en"){document.documentElement.lang=_l;if(_l==="ar")document.documentElement.dir="rtl";}}catch(e){}</script>
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1401237223139327"
@@ -548,15 +558,15 @@ body.typing-active footer{opacity:.26;filter:saturate(.72);pointer-events:none;}
   </nav>
 
   <section class="seo">
-    <h2>Where 50 sits</h2>
+    <h2 id="where-50-sits">Where 50 sits</h2>
     <p>Fifty words per minute is 250 characters per minute, 15,000 keystrokes per hour, and about the 47th percentile of the 168,960-person CHI 2018 sample. It is the middle of the distribution, not a fast score — but it is above the 40 WPM line that most clerical postings quote, which is what matters for employment.</p>
     <p>It is also the exact point where most self-taught typists stop improving. The reason is not finger speed: it is that they read one word at a time, so their eyes and hands take turns instead of working together.</p>
-    <h2>Why the plateau happens</h2>
+    <h2 id="why-the-plateau-happens">Why the plateau happens</h2>
     <p>At 50 WPM you are typing roughly four characters per second. That is fast enough that the read-type-read cycle becomes the bottleneck rather than the keystrokes themselves. Fast typists read one to three words ahead and let the hands work on a buffer; plateaued typists read the word they are about to type.</p>
     <p>The second cause is uniform speed. Typing every word at the same pace means slowing down for easy words and losing time on hard ones. Skilled typists accelerate through familiar sequences and slow slightly on unfamiliar ones, which averages out higher.</p>
-    <h2>The drills that break 50</h2>
+    <h2 id="the-drills-that-break-50">The drills that break 50</h2>
     <ul><li><strong>Look-ahead drill:</strong> before you start, read the first line aloud in your head. Then type it without re-reading. Do this for five rounds; it feels wrong for three of them.</li><li><strong>Burst drill:</strong> 15-second rounds, maximum speed, twice a day. This trains the top end you cannot reach in a one-minute test.</li><li><strong>Bigram drill:</strong> the twenty most common letter pairs in English (th, he, in, er, an, re, on, at, en, nd...). Practising transitions rather than words is what moves you from 50 to 65.</li><li><strong>Accuracy floor:</strong> never let a session end below 96%. Speed built on errors does not survive a five-minute test.</li></ul>
-    <h2>What 50 unlocks, and what it does not</h2>
+    <h2 id="what-50-unlocks-and-what-it-does-not">What 50 unlocks, and what it does not</h2>
     <p>It clears general office, admin, receptionist, county clerk and most customer-service requirements. It does not clear data entry quoted at 13,500+ KPH (45 WPM is 13,500, so you are at the entry edge), legal secretary at 60-75, or medical transcription at 65-80.</p>
     <p>If your goal is a specific posting, read the number in the posting and train to that plus five. If your goal is general employability, 50 is enough and the next ten points are optional.</p>
     <p class="byline">By <a href="about.html">the Typing.Rerivo team</a> &mdash; we build and maintain this typing test. Scoring formulas and the benchmarks used on our pages are documented in the methodology notes on our <a href="about.html">about page</a>, along with the sources we cite. Page last updated 2026-10-31.</p>

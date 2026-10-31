@@ -414,6 +414,16 @@ body.typing-active footer{opacity:.26;filter:saturate(.72);pointer-events:none;}
 .conv input:focus{outline:2px solid var(--borderhi);outline-offset:1px;}
 .conv-out{margin:12px 0 0;font-size:.95rem;font-weight:600;color:var(--text);}
 .conv-out span{color:var(--soft);font-weight:500;}
+
+/* Round-39: "On this page" jump list for long pages (≥6 sections).
+   Helps snippet extraction and lets readers jump to the section they need. */
+.toc{max-width:760px;margin:0 0 18px;padding:14px 18px;border:1px solid var(--line);border-radius:12px;background:var(--panel2);}
+.toc p{margin:0 0 8px;font-size:.78rem;font-weight:700;letter-spacing:.6px;text-transform:uppercase;color:var(--soft);}
+.toc ol{margin:0;padding-left:20px;display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:4px 22px;}
+.toc li{font-size:.9rem;line-height:1.45;}
+.toc a{color:var(--soft);text-decoration:none;}
+.toc a:hover{color:var(--text);text-decoration:underline;}
+@media(max-width:560px){.toc ol{grid-template-columns:1fr;}}
 </style>
 <script>try{var _t=localStorage.getItem("trTheme");if(_t&&_t!=="dark")document.documentElement.setAttribute("data-theme",_t);var _l=localStorage.getItem("trLang");if(_l&&_l!=="en"){document.documentElement.lang=_l;if(_l==="ar")document.documentElement.dir="rtl";}}catch(e){}</script>
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1401237223139327"
@@ -548,34 +558,35 @@ body.typing-active footer{opacity:.26;filter:saturate(.72);pointer-events:none;}
   </nav>
 
   <section class="seo">
-    <h2>The short answer and its caveat</h2>
+    <nav class="toc" aria-label="On this page"><p>On this page</p><ol><li><a href="#the-short-answer-and-its-caveat">The short answer and its caveat</a></li><li><a href="#week-one-the-uncomfortable-alphabet">Week one: the uncomfortable alphabet</a></li><li><a href="#weeks-two-and-three-sentences-without-sight">Weeks two and three: sentences without sight</a></li><li><a href="#weeks-four-to-eight-the-automaticity-phase">Weeks four to eight: the automaticity phase</a></li><li><a href="#what-speeds-the-timeline-up">What speeds the timeline up</a></li><li><a href="#what-slows-the-timeline-down">What slows the timeline down</a></li><li><a href="#measuring-your-own-timeline">Measuring your own timeline</a></li><li><a href="#learning-at-different-ages-what-the-timeline-loo">Learning at different ages: what the timeline looks like</a></li><li><a href="#intensive-vs-casual-timelines">Intensive vs casual timelines</a></li><li><a href="#signs-you-are-ahead-of-schedule">Signs you are ahead of schedule</a></li></ol></nav>
+    <h2 id="the-short-answer-and-its-caveat">The short answer and its caveat</h2>
     <p>With ten minutes of daily practice, most people reach basic fluency — typing full sentences without looking, slowly — in two to four weeks. Automaticity, where touch typing is simply how you type at work without thinking, takes one to three months. Matching your previous hunt-and-peck speed takes about the same period; surpassing it follows quickly after.</p>
     <p>The caveat that changes everything: 'daily practice' means every day. The same total hours crammed into weekends roughly doubles the calendar time, because motor memory consolidates between sessions, not during them.</p>
-    <h2>Week one: the uncomfortable alphabet</h2>
+    <h2 id="week-one-the-uncomfortable-alphabet">Week one: the uncomfortable alphabet</h2>
     <p>The first week is home row and basic reaches at embarrassing slowness — 10 to 15 WPM feels fast. Your fingers learn where letters live, and your brain learns to trust spatial memory instead of sight. Errors are constant and irrelevant; accuracy arrives on its own as locations become familiar.</p>
     <p>This is the week most people quit, because the dip feels like proof it is not working. It is working. The discomfort is the learning itself, and it is almost over.</p>
-    <h2>Weeks two and three: sentences without sight</h2>
+    <h2 id="weeks-two-and-three-sentences-without-sight">Weeks two and three: sentences without sight</h2>
     <p>Real sentences become possible without a glance downward, still slow but complete. The temptation to peek peaks here — resist it with the keyboard-cover trick for one week and the habit dies permanently. Speed climbs through the twenties WPM as common words become automatic units.</p>
     <p>This is also when practice should shift from letters to meaning: sentences and short paragraphs, because your brain is now learning word shapes, not just key locations.</p>
-    <h2>Weeks four to eight: the automaticity phase</h2>
+    <h2 id="weeks-four-to-eight-the-automaticity-phase">Weeks four to eight: the automaticity phase</h2>
     <p>Somewhere in this window the switch flips: you notice you typed an entire email without thinking about typing once. That is automaticity arriving. Speed reaches 30–45 WPM for most learners — at or above their old hunt-and-peck pace — and from here the curve only rises, because every hour of computer use is now practice.</p>
     <p>The remaining work is refinement: accuracy floors, weak keys, rhythm. The learning phase is over; the improvement phase has begun.</p>
-    <h2>What speeds the timeline up</h2>
+    <h2 id="what-speeds-the-timeline-up">What speeds the timeline up</h2>
     <p>Daily frequency above all: ten minutes daily outperforms an hour weekly by a wide margin. The keyboard-cover week, which collapses the peeking phase. Practising with real content — your own emails and documents — because transfer to real work is instant instead of theoretical.</p>
     <p>Age matters less than expected: teens consolidate fastest, but adults learning at forty or sixty reach the same automaticity on nearly the same timeline, with slightly more patience required in week one.</p>
-    <h2>What slows the timeline down</h2>
+    <h2 id="what-slows-the-timeline-down">What slows the timeline down</h2>
     <p>Mixing methods — touch typing for practice, pecking for real work — is the great timeline-killer: it prevents consolidation and can double or triple the total duration. Peeking 'just for passwords and numbers' has the same effect in miniature.</p>
     <p>Practising to speed before fluency also backfires: pushing WPM in week one builds sloppy reaches that take weeks to unlearn. Slow is smooth, smooth is fast — in that order, always.</p>
-    <h2>Measuring your own timeline</h2>
+    <h2 id="measuring-your-own-timeline">Measuring your own timeline</h2>
     <p>Take a baseline now, then one measured minute every week on the <a href="touch-typing-test.html">touch typing test</a>, same conditions. The weekly line tells you which phase you are in far better than the calendar does: flat in week one (normal), climbing in weeks two to four, a visible jump when automaticity arrives.</p>
     <p>For the full beginner path, <a href="learn-to-type.html">learn to type</a> walks the same timeline as a guided course.</p>
-    <h2>Learning at different ages: what the timeline looks like</h2>
+    <h2 id="learning-at-different-ages-what-the-timeline-loo">Learning at different ages: what the timeline looks like</h2>
     <p>Kids (8-12) take longer to start but consolidate deeply: expect four to six playful weeks of five-minute sessions before fluency, because attention span, not ability, sets the pace. Teens are the fastest cohort — two to three weeks to blind typing on the back of existing device fluency.</p>
     <p>Adults sit between: disciplined enough to practise daily, burdened by old habits for the first two to three weeks. The adult timeline of one to three months is the most predictable of all, because adults actually follow the schedule. Whatever the timeline looks like for you, the clock starts with today's ten minutes.</p>
-    <h2>Intensive vs casual timelines</h2>
+    <h2 id="intensive-vs-casual-timelines">Intensive vs casual timelines</h2>
     <p>You can compress the timeline by raising daily volume: thirty to sixty focused minutes a day brings blind fluency inside one to two weeks. The cost is higher fatigue-driven error rates and a much higher quit risk — intensive schedules are sprints, and sprints fail exactly when motivation dips.</p>
     <p>The casual timeline — ten minutes daily for one to three months — wins for almost everyone because it survives bad days. Choose intensive only with a hard deadline, like a job test in two weeks; choose casual for everything else.</p>
-    <h2>Signs you are ahead of schedule</h2>
+    <h2 id="signs-you-are-ahead-of-schedule">Signs you are ahead of schedule</h2>
     <p>Three markers show consolidation is ahead of the curve: you catch yourself reading ahead of your fingers without being told to, your errors cluster on only one or two keys instead of everywhere, and your hands recenter on the F and J bumps automatically after any interruption.</p>
     <p>Any of these in week two or three means the system is working faster than expected — keep the schedule unchanged and let the curve finish. Accelerating practice at the first sign of progress is how people turn an early win into a plateau.</p>
     <p class="byline">By <a href="about.html">the Typing.Rerivo team</a> &mdash; we build and maintain this typing test. Scoring formulas and the benchmarks used on our pages are documented in the methodology notes on our <a href="about.html">about page</a>, along with the sources we cite. Page last updated 2026-10-31.</p>

@@ -414,6 +414,16 @@ body.typing-active footer{opacity:.26;filter:saturate(.72);pointer-events:none;}
 .conv input:focus{outline:2px solid var(--borderhi);outline-offset:1px;}
 .conv-out{margin:12px 0 0;font-size:.95rem;font-weight:600;color:var(--text);}
 .conv-out span{color:var(--soft);font-weight:500;}
+
+/* Round-39: "On this page" jump list for long pages (≥6 sections).
+   Helps snippet extraction and lets readers jump to the section they need. */
+.toc{max-width:760px;margin:0 0 18px;padding:14px 18px;border:1px solid var(--line);border-radius:12px;background:var(--panel2);}
+.toc p{margin:0 0 8px;font-size:.78rem;font-weight:700;letter-spacing:.6px;text-transform:uppercase;color:var(--soft);}
+.toc ol{margin:0;padding-left:20px;display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:4px 22px;}
+.toc li{font-size:.9rem;line-height:1.45;}
+.toc a{color:var(--soft);text-decoration:none;}
+.toc a:hover{color:var(--text);text-decoration:underline;}
+@media(max-width:560px){.toc ol{grid-template-columns:1fr;}}
 </style>
 <script>try{var _t=localStorage.getItem("trTheme");if(_t&&_t!=="dark")document.documentElement.setAttribute("data-theme",_t);var _l=localStorage.getItem("trLang");if(_l&&_l!=="en"){document.documentElement.lang=_l;if(_l==="ar")document.documentElement.dir="rtl";}}catch(e){}</script>
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1401237223139327"
@@ -548,18 +558,18 @@ body.typing-active footer{opacity:.26;filter:saturate(.72);pointer-events:none;}
   </nav>
 
   <section class="seo">
-    <h2>What nursing documentation actually demands</h2>
+    <h2 id="what-nursing-documentation-actually-demands">What nursing documentation actually demands</h2>
     <p>A shift note is a few hundred characters typed between tasks: assessment findings, interventions, a time, a signature. The volume is modest. What breaks is the detail — a dose written as 10 instead of 100, a drug name auto-corrected into a different drug, an identifier attached to the wrong patient.</p>
     <p>That is why nursing informatics training emphasises verification over velocity, and why the typing requirement in job ads is usually a modest 35–45 WPM. Speed matters because charting happens at the end of a twelve-hour shift when everyone wants to go home; accuracy matters because the error is clinical.</p>
-    <h2>Where the errors come from</h2>
+    <h2 id="where-the-errors-come-from">Where the errors come from</h2>
     <ul><li><strong>Digits.</strong> Dosages, vitals, weights and times are numeric. The number row is typed with a different reach than the home row and it is where most slips happen.</li><li><strong>Look-alike drug names.</strong> Hydralazine and hydroxyzine, prednisone and prednisolone. Autocomplete is not your friend here; type the name rather than accepting a suggestion.</li><li><strong>Interruption.</strong> You type half a sentence, answer a call bell, come back and continue in the wrong field. The typing skill is resuming without losing the thread.</li></ul>
-    <h2>A practice routine that fits a shift</h2>
+    <h2 id="a-practice-routine-that-fits-a-shift">A practice routine that fits a shift</h2>
     <p>Five minutes, twice a day. One 60-second sentence round for rhythm, one Numbers round for digits, then stop. Short daily rounds beat a weekly marathon because the skill you are training is availability under fatigue, not peak output.</p>
     <p>Once a week, take one five-minute test and record net WPM and accuracy. Five minutes is roughly the length of a focused charting session, so it is the honest number to compare month to month.</p>
-    <h2>Benchmarks to aim at</h2>
+    <h2 id="benchmarks-to-aim-at">Benchmarks to aim at</h2>
     <table><tr><th>Level</th><th>Net WPM</th><th>Accuracy</th><th>What it supports</th></tr><tr><td>Minimum for most postings</td><td>35</td><td>97%</td><td>Short shift notes, care plans</td></tr><tr><td>Comfortable</td><td>45</td><td>98.5%</td><td>Full assessment charting, discharge summaries</td></tr><tr><td>Fast</td><td>55+</td><td>99%</td><td>Admissions, triage notes, telephone orders</td></tr></table>
     <p>These bands come from the ranges printed in nursing and medical-administration job advertisements; they are a target, not a licensure standard. No nursing board certifies a typing speed.</p>
-    <h2>If you are switching from paper charting</h2>
+    <h2 id="if-you-are-switching-from-paper-charting">If you are switching from paper charting</h2>
     <p>The people who struggle most are usually experienced clinicians, not new typists. Twenty years of handwriting produces efficient note language and a hunt-and-peck relationship with the keyboard. The fix is not a typing course; it is ten minutes a day of copying your own note style, not textbook sentences.</p>
     <p>Type the phrases you actually write — "alert and oriented", "denies chest pain", "afebrile" — until they are automatic. Domain vocabulary is where speed comes from once the keys stop needing attention.</p>
     <p class="byline">By <a href="about.html">the Typing.Rerivo team</a> &mdash; we build and maintain this typing test. Scoring formulas and the benchmarks used on our pages are documented in the methodology notes on our <a href="about.html">about page</a>, along with the sources we cite. Page last updated 2026-10-31.</p>

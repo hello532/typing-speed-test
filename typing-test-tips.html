@@ -414,6 +414,16 @@ body.typing-active footer{opacity:.26;filter:saturate(.72);pointer-events:none;}
 .conv input:focus{outline:2px solid var(--borderhi);outline-offset:1px;}
 .conv-out{margin:12px 0 0;font-size:.95rem;font-weight:600;color:var(--text);}
 .conv-out span{color:var(--soft);font-weight:500;}
+
+/* Round-39: "On this page" jump list for long pages (≥6 sections).
+   Helps snippet extraction and lets readers jump to the section they need. */
+.toc{max-width:760px;margin:0 0 18px;padding:14px 18px;border:1px solid var(--line);border-radius:12px;background:var(--panel2);}
+.toc p{margin:0 0 8px;font-size:.78rem;font-weight:700;letter-spacing:.6px;text-transform:uppercase;color:var(--soft);}
+.toc ol{margin:0;padding-left:20px;display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:4px 22px;}
+.toc li{font-size:.9rem;line-height:1.45;}
+.toc a{color:var(--soft);text-decoration:none;}
+.toc a:hover{color:var(--text);text-decoration:underline;}
+@media(max-width:560px){.toc ol{grid-template-columns:1fr;}}
 </style>
 <script>try{var _t=localStorage.getItem("trTheme");if(_t&&_t!=="dark")document.documentElement.setAttribute("data-theme",_t);var _l=localStorage.getItem("trLang");if(_l&&_l!=="en"){document.documentElement.lang=_l;if(_l==="ar")document.documentElement.dir="rtl";}}catch(e){}</script>
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1401237223139327"
@@ -548,31 +558,32 @@ body.typing-active footer{opacity:.26;filter:saturate(.72);pointer-events:none;}
   </nav>
 
   <section class="seo">
-    <h2>Before the test: the checklist</h2>
+    <nav class="toc" aria-label="On this page"><p>On this page</p><ol><li><a href="#before-the-test-the-checklist">Before the test: the checklist</a></li><li><a href="#during-the-test-accuracy-and-pacing-tactics">During the test: accuracy and pacing tactics</a></li><li><a href="#after-the-test-the-review-that-compounds">After the test: the review that compounds</a></li><li><a href="#the-three-tips-that-matter-most">The three tips that matter most</a></li><li><a href="#choosing-your-test-conditions-when-you-have-a-ch">Choosing your test conditions when you have a choice</a></li><li><a href="#reading-the-passage-before-you-type-it">Reading the passage before you type it</a></li><li><a href="#handling-the-last-thirty-seconds">Handling the last thirty seconds</a></li><li><a href="#what-to-do-in-the-five-minutes-after">What to do in the five minutes after</a></li><li><a href="#retake-strategy-and-score-verification">Retake strategy and score verification</a></li></ol></nav>
+    <h2 id="before-the-test-the-checklist">Before the test: the checklist</h2>
     <p>Sleep matters more than cramming — fatigue shows up as errors before it shows up as slowness. Eat normally, avoid extra caffeine if you do not usually have it, and arrive with time to spare. Hardware: use the keyboard you trained on if you possibly can; key-travel differences cost real points.</p>
     <p>Warm up twenty to thirty minutes before with one or two relaxed minutes of easy typing — never right before the test, or you bring fatigue instead of looseness. Set posture before the passage appears: feet flat, back straight, wrists slightly raised, screen at eye level. This thirty-second setup prevents the mid-test posture drift that causes late errors.</p>
-    <h2>During the test: accuracy and pacing tactics</h2>
+    <h2 id="during-the-test-accuracy-and-pacing-tactics">During the test: accuracy and pacing tactics</h2>
     <p>Start at your controlled rhythm, not your maximum — the first thirty seconds set your error rate for the whole test. Read one word ahead of your fingers so unfamiliar words never stall you. When you make a mistake, correct it once and continue at the same pace; panic-speeding after an error is how single mistakes become clusters.</p>
     <p>Watch the clock without obsessing over it: at the halfway mark, you should be on pace with accuracy intact — if accuracy is slipping, slow down 5% immediately rather than donating the final third to errors. Finishing strong is worth more points than starting fast.</p>
-    <h2>After the test: the review that compounds</h2>
+    <h2 id="after-the-test-the-review-that-compounds">After the test: the review that compounds</h2>
     <p>Whatever the result, harvest the data. The weak-key report tells you exactly which keys cost you accuracy and speed — those are next week's drills. Save the score with the date and conditions; a documented history turns one test into a trend line, and trends are what you improve against.</p>
     <p>If you passed: keep two short sessions a week to hold the level — skill decays quietly. If you fell short: the gap analysis is free. Below the accuracy gate means accuracy-first practice for two weeks; below the speed target means sprint work plus weak-key elimination. Either way, retake a <a href="free-typing-test.html">free typing test</a> under the same conditions to verify the fix before the next attempt.</p>
-    <h2>The three tips that matter most</h2>
+    <h2 id="the-three-tips-that-matter-most">The three tips that matter most</h2>
     <p>If you remember nothing else: accuracy gates fail more candidates than speed limits do, so prepare clean, not just fast. Warm up early but never right before. And fix errors once, calmly — never chase them. Those three behaviours alone rescue more test scores than any speed drill.</p>
     <p>For more habit-level guidance, the <a href="typing-tips.html">typing tips</a> page covers everyday improvement, and the <a href="typing-accuracy-test.html">typing accuracy test</a> is the best rehearsal for accuracy-gated exams.</p>
-    <h2>Choosing your test conditions when you have a choice</h2>
+    <h2 id="choosing-your-test-conditions-when-you-have-a-ch">Choosing your test conditions when you have a choice</h2>
     <p>When the test lets you pick time and place, pick your peak hours — most people type fastest mid-morning — and your own equipment. Book tests for the same time of day you practise, so the score you trained for is the score that shows up. If the venue is fixed, visit or simulate the setup: unfamiliar keyboard, chair height, screen angle.</p>
     <p>Small environmental edges are real edges. A wobbly desk, a sticky spacebar or a glaring screen costs measurable WPM, and none of them appear on the score report as anything but a lower number.</p>
-    <h2>Reading the passage before you type it</h2>
+    <h2 id="reading-the-passage-before-you-type-it">Reading the passage before you type it</h2>
     <p>If the test allows a preview, use every second of it: scan for the unusual words, the longest sentences, and the punctuation traps, and pre-decide your rhythm for the dense sections. Knowing a hard sentence is coming is worth several error-free words.</p>
     <p>If there is no preview, apply the same trick on the fly: keep your eyes one word ahead of your fingers throughout, so nothing in the passage ever surprises your hands. This look-ahead habit alone prevents most hesitation errors.</p>
-    <h2>Handling the last thirty seconds</h2>
+    <h2 id="handling-the-last-thirty-seconds">Handling the last thirty seconds</h2>
     <p>The final stretch is where accuracy goes to die: tired fingers, time pressure, and the urge to sprint. Counter it deliberately: at the thirty-second mark, consciously hold your rhythm instead of raising it. An even finish scores better than a sprinted, error-dense one.</p>
     <p>If the test shows a live score, use it as a pacing signal, not a stress source. Ahead of target with accuracy intact: maintain. Behind target: lift pace slightly only if accuracy is still above the gate. Never trade the gate for the number in the last seconds — that trade always loses.</p>
-    <h2>What to do in the five minutes after</h2>
+    <h2 id="what-to-do-in-the-five-minutes-after">What to do in the five minutes after</h2>
     <p>The test ends; the learning starts. Before you stand up: record the score, the duration, the accuracy, and one sentence about what felt hard. These notes turn every test — passed or failed — into training data for the next one.</p>
     <p>If a retake is allowed, resist the immediate retry. Take the weak-key report away, drill the two worst keys for ten minutes, and retake the next day instead. The second attempt after targeted micro-practice outperforms the instant retry almost every time.</p>
-    <h2>Retake strategy and score verification</h2>
+    <h2 id="retake-strategy-and-score-verification">Retake strategy and score verification</h2>
     <p>Most platforms and employers allow retakes on a schedule. Use them strategically: only retake when your practice scores exceed the requirement by a margin, because each failed attempt costs waiting time and, on some platforms, rating. One strong pass beats three scraped attempts.</p>
     <p>Keep the final evidence: a screenshot or export of your passing result with the date. Scores get asked for again — in later interviews, in follow-up rounds, in platform tier reviews — and the candidate with records always looks more serious than the candidate with memories.</p>
     <p class="byline">By <a href="about.html">the Typing.Rerivo team</a> &mdash; we build and maintain this typing test. Scoring formulas and the benchmarks used on our pages are documented in the methodology notes on our <a href="about.html">about page</a>, along with the sources we cite. Page last updated 2026-10-31.</p>

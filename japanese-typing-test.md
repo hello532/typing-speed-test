@@ -4,19 +4,11 @@ Source: https://typing.rerivo.com/japanese-typing-test.html
 
 Test your Japanese typing speed with real Japanese sentences mixing kanji, hiragana and katakana. Instant speed and accuracy results. Free, no sign up.
 
-## Japanese typing test
-
 A Japanese typing test measures how fast and accurately you type real Japanese text — sentences that mix kanji, hiragana and katakana exactly the way everyday Japanese is written. Your result is shown in words per minute, where every 5 characters counts as one word, so the score stays comparable with the classic 1 minute typing test.
-
-## Romaji input, kana input and the IME
 
 Most people type Japanese with a romaji-to-kana IME: you type roman letters, the IME converts them to kana, and you confirm kanji conversions as you go. This test shows the finished Japanese sentence, so it trains the reading-and-confirming rhythm that real Japanese typing depends on, whichever input method you use.
 
-## How to improve Japanese typing speed
-
 Accuracy first: a missed kanji conversion costs far more time than a slow, clean sentence. Practise short daily rounds, keep your eyes on the screen, and let your fingers learn the romaji syllable rhythm — consonant plus vowel — that almost every Japanese word follows.
-
-## WPM, CPM and Japanese
 
 Because Japanese packs meaning into characters, one Japanese 'word' carries more content than one English word. Watch your characters per minute (CPM) alongside WPM: for Japanese, CPM is often the fairer measure of real input speed.
 

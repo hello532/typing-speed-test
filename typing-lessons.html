@@ -414,6 +414,16 @@ body.typing-active footer{opacity:.26;filter:saturate(.72);pointer-events:none;}
 .conv input:focus{outline:2px solid var(--borderhi);outline-offset:1px;}
 .conv-out{margin:12px 0 0;font-size:.95rem;font-weight:600;color:var(--text);}
 .conv-out span{color:var(--soft);font-weight:500;}
+
+/* Round-39: "On this page" jump list for long pages (≥6 sections).
+   Helps snippet extraction and lets readers jump to the section they need. */
+.toc{max-width:760px;margin:0 0 18px;padding:14px 18px;border:1px solid var(--line);border-radius:12px;background:var(--panel2);}
+.toc p{margin:0 0 8px;font-size:.78rem;font-weight:700;letter-spacing:.6px;text-transform:uppercase;color:var(--soft);}
+.toc ol{margin:0;padding-left:20px;display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:4px 22px;}
+.toc li{font-size:.9rem;line-height:1.45;}
+.toc a{color:var(--soft);text-decoration:none;}
+.toc a:hover{color:var(--text);text-decoration:underline;}
+@media(max-width:560px){.toc ol{grid-template-columns:1fr;}}
 </style>
 <script>try{var _t=localStorage.getItem("trTheme");if(_t&&_t!=="dark")document.documentElement.setAttribute("data-theme",_t);var _l=localStorage.getItem("trLang");if(_l&&_l!=="en"){document.documentElement.lang=_l;if(_l==="ar")document.documentElement.dir="rtl";}}catch(e){}</script>
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1401237223139327"
@@ -548,13 +558,13 @@ body.typing-active footer{opacity:.26;filter:saturate(.72);pointer-events:none;}
   </nav>
 
   <section class="seo">
-    <h2>typing lessons</h2>
+    <h2 id="typing-lessons">typing lessons</h2>
     <p>Good <strong>typing lessons</strong> build speed the safe way: one habit at a time. Touch typing means typing without looking at the keyboard, and it is the single biggest speed upgrade most people can make. Instead of hunting for keys with two fingers, you train all ten fingers so each key has a fixed finger and muscle memory takes over. The result is faster, steadier typing that also frees your eyes for the screen.</p>
-    <h2>Start every lesson with the home row</h2>
+    <h2 id="start-every-lesson-with-the-home-row">Start every lesson with the home row</h2>
     <p>Every typing lesson plan starts in the same place: the home row. Rest your left fingers on A S D F and your right fingers on J K L ; with your thumbs on the space bar. Feel for the small bumps on F and J; they tell your index fingers where to land without looking. Practice typing words made only of home row letters until you never have to think about it, because every other key is reached from this position.</p>
-    <h2>A free four week typing lesson plan</h2>
+    <h2 id="a-free-four-week-typing-lesson-plan">A free four week typing lesson plan</h2>
     <p>Week one: home row only, short one minute lessons, accuracy over speed. Week two: add the top row and the shift keys for capitals, two minute lessons. Week three: cover the bottom row and the number row, then try the number text set. Week four: mix sentences, quotes and punctuation, and test your WPM against week one. Ten to fifteen minutes a day is enough; most learners reach 40 to 60 WPM within a month of daily lessons. If you want a full curriculum rather than a weekly plan, the <a href="best-free-typing-lessons-for-adults.html">free typing lessons for adults</a> page lays the four weeks out lesson by lesson.</p>
-    <h2>Typing lessons order: what to learn first</h2>
+    <h2 id="typing-lessons-order-what-to-learn-first">Typing lessons order: what to learn first</h2>
     <p>Lessons only work in the right order. Learning speed before home row is the most common way people stall.</p>
     <ul><li><strong>1. Home row</strong> - asdf jkl; until you can find each key without looking.</li><li><strong>2. Top and bottom rows</strong> - add one row at a time; accuracy first, speed later.</li><li><strong>3. Capitals and punctuation</strong> - use the <a href="capital-letter-typing-test.html">capital letter typing test</a> and <a href="punctuation-typing-test.html">punctuation typing test</a>.</li><li><strong>4. Numbers</strong> - separate skill; the <a href="number-typing-test.html">number typing test</a> covers it.</li><li><strong>5. Speed and endurance</strong> - only now use the <a href="1-minute-typing-test.html">1 minute</a> and <a href="5-minute-typing-test.html">5 minute</a> timed tests as training.</li></ul>
     <p class="byline">By <a href="about.html">the Typing.Rerivo team</a> &mdash; we build and maintain this typing test. Scoring formulas and the benchmarks used on our pages are documented in the methodology notes on our <a href="about.html">about page</a>, along with the sources we cite. Page last updated 2026-10-31.</p>

@@ -414,6 +414,16 @@ body.typing-active footer{opacity:.26;filter:saturate(.72);pointer-events:none;}
 .conv input:focus{outline:2px solid var(--borderhi);outline-offset:1px;}
 .conv-out{margin:12px 0 0;font-size:.95rem;font-weight:600;color:var(--text);}
 .conv-out span{color:var(--soft);font-weight:500;}
+
+/* Round-39: "On this page" jump list for long pages (≥6 sections).
+   Helps snippet extraction and lets readers jump to the section they need. */
+.toc{max-width:760px;margin:0 0 18px;padding:14px 18px;border:1px solid var(--line);border-radius:12px;background:var(--panel2);}
+.toc p{margin:0 0 8px;font-size:.78rem;font-weight:700;letter-spacing:.6px;text-transform:uppercase;color:var(--soft);}
+.toc ol{margin:0;padding-left:20px;display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:4px 22px;}
+.toc li{font-size:.9rem;line-height:1.45;}
+.toc a{color:var(--soft);text-decoration:none;}
+.toc a:hover{color:var(--text);text-decoration:underline;}
+@media(max-width:560px){.toc ol{grid-template-columns:1fr;}}
 </style>
 <script>try{var _t=localStorage.getItem("trTheme");if(_t&&_t!=="dark")document.documentElement.setAttribute("data-theme",_t);var _l=localStorage.getItem("trLang");if(_l&&_l!=="en"){document.documentElement.lang=_l;if(_l==="ar")document.documentElement.dir="rtl";}}catch(e){}</script>
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1401237223139327"
@@ -548,16 +558,17 @@ body.typing-active footer{opacity:.26;filter:saturate(.72);pointer-events:none;}
   </nav>
 
   <section class="seo">
-    <h2>Programmer typing speed</h2>
+    <nav class="toc" aria-label="On this page"><p>On this page</p><ol><li><a href="#programmer-typing-speed">Programmer typing speed</a></li><li><a href="#code-typing-is-a-separate-skill-from-prose-typin">Code typing is a separate skill from prose typing</a></li><li><a href="#a-developer-s-typing-workout">A developer's typing workout</a></li><li><a href="#three-code-heavy-reaches-that-slow-every-develop">Three code-heavy reaches that slow every developer</a></li><li><a href="#what-senior-developers-know-about-typing-that-ju">What senior developers know about typing that juniors do not</a></li><li><a href="#how-to-choose-which-language-code-drill-to-start">How to choose which language code drill to start with</a></li><li><a href="#ide-autocomplete-does-not-make-typing-speed-irre">IDE autocomplete does not make typing speed irrelevant</a></li><li><a href="#the-developer-week-of-typing-practice">The developer week of typing practice</a></li><li><a href="#symbol-density-as-the-real-bottleneck-in-coding-">Symbol density as the real bottleneck in coding speed</a></li><li><a href="#three-levels-of-code-typing-practice-that-build-">Three levels of code typing practice that build on each other</a></li><li><a href="#compounding-returns-faster-typing-means-more-pra">Compounding returns: faster typing means more practice, which means faster typing</a></li></ol></nav>
+    <h2 id="programmer-typing-speed">Programmer typing speed</h2>
     <p>A <strong>programmer's typing speed</strong> matters more than most people think, because code is the most symbol-dense text you can write. A single JavaScript line contains brackets, braces, dots, commas, arrows, quotes and semicolons - each one a separate keystroke with a different finger and reach.</p>
     <p>Fast coders are not fast because they think faster; they are fast because the symbols and keywords are automatic. The keyboard stops being a barrier and becomes an extension of thought.</p>
-    <h2>Code typing is a separate skill from prose typing</h2>
+    <h2 id="code-typing-is-a-separate-skill-from-prose-typin">Code typing is a separate skill from prose typing</h2>
     <p>Prose lives on the home row; code lives everywhere. Brackets sit on the top row, underscores and colons need the shift key, and every line mixes letters with symbols in patterns prose typing never rehearses. Developers who never drill symbols stay slow at them.</p>
     <p>The fix: practise typing code text in controlled timed rounds. The <a href="python-code-typing.html">Python code typing test</a> and <a href="javascript-code-typing.html">JavaScript code typing test</a> serve real code lines that drill exactly these reaches.</p>
-    <h2>A developer's typing workout</h2>
+    <h2 id="a-developer-s-typing-workout">A developer's typing workout</h2>
     <p>The most valuable typing routine targets three code-heavy reaches: brackets and braces on the top row, underscore and hyphen on the bottom row, and the quote-backtick pair used in every string. Run a 60-second code typing round daily, then a 30-second round on your weakest code symbol from the weak-key report. The code-typing pages here are built for this pattern.</p>
     <p>See <a href="typing-practice-for-programmers.html">typing practice for programmers</a> for the full technique guide.</p>
-    <h2>Three code-heavy reaches that slow every developer</h2>
+    <h2 id="three-code-heavy-reaches-that-slow-every-develop">Three code-heavy reaches that slow every developer</h2>
     <p>First: brackets and braces on the shift row. These appear in nearly every line of code and require either a shift hold or a dedicated finger from home row. Second: underscore and hyphen on the bottom row, which is the least accessible key group. Third: backtick-shift and dollar-sign-brace combinations in template strings.</p>
     <div class="tbl"><table><thead><tr><th>Symbol</th><th>Keypress</th><th>Frequency in code</th></tr></thead><tbody>
 <tr><td>()</td><td>Shift+9/0</td><td>Every function call</td></tr>
@@ -567,21 +578,21 @@ body.typing-active footer{opacity:.26;filter:saturate(.72);pointer-events:none;}
 <tr><td>=</td><td>Direct</td><td>Assignment every line</td></tr>
 <tr><td>&gt;</td><td>Shift+.</td><td>Arrow functions</td></tr>
 </tbody></table></div>
-    <h2>What senior developers know about typing that juniors do not</h2>
+    <h2 id="what-senior-developers-know-about-typing-that-ju">What senior developers know about typing that juniors do not</h2>
     <p>Senior developers who are fast coders share this specific belief: typing is a tool they have made invisible so the keyboard never competes with the thought. The focus is not how fast they type but whether every symbol reaches the screen without conscious thought about fingers or keys.</p>
-    <h2>How to choose which language code drill to start with</h2>
+    <h2 id="how-to-choose-which-language-code-drill-to-start">How to choose which language code drill to start with</h2>
     <p>Start with the language you spend the most hours in. Python developers should drill the underscore and colon patterns. JavaScript developers should drill brackets, template literals and arrow function reaches. Use the code typing test that matches your language and switch only after automaticity is achieved in one.</p>
-    <h2>IDE autocomplete does not make typing speed irrelevant</h2>
+    <h2 id="ide-autocomplete-does-not-make-typing-speed-irre">IDE autocomplete does not make typing speed irrelevant</h2>
     <p>Autocomplete saves you from remembering API calls and parameter names, but it does not save you from typing the code structure around those calls. Array methods, control flow patterns and variable declarations are still typed character by character. Typing speed determines how fast you reach the autocomplete trigger.</p>
-    <h2>The developer week of typing practice</h2>
+    <h2 id="the-developer-week-of-typing-practice">The developer week of typing practice</h2>
     <p>Monday: code typing round in your primary language, 60 seconds. Tuesday: prose accuracy round at 98% floor. Wednesday: code typing in your secondary language, 60 seconds. Thursday: prose speed round with sprints. Friday: code typing round plus weak-key drill. Weekend: rest or one long round for stamina.</p>
-    <h2>Symbol density as the real bottleneck in coding speed</h2>
+    <h2 id="symbol-density-as-the-real-bottleneck-in-coding-">Symbol density as the real bottleneck in coding speed</h2>
     <p>A typical line of JavaScript code contains seven to twelve characters that are not letters: brackets, braces, dots, commas, arrows, colons and semicolons. In Python, the ratio is similar, with underscores, colons, square brackets and function call parentheses dominating. When these symbols require a conscious finger reach, every line costs more time than the same line of prose.</p>
     <p>The solution is not to type faster in general but to bring the specific symbol reaches up to the same automatic level as the letter reaches. A developer who types every bracket, colon and underscore with the same confidence as A and S has removed the keyboard as a barrier to writing code. That automaticity is built with daily rounds on code-specific typing tests that serve real code lines rather than random characters.</p>
-    <h2>Three levels of code typing practice that build on each other</h2>
+    <h2 id="three-levels-of-code-typing-practice-that-build-">Three levels of code typing practice that build on each other</h2>
     <p>Level one: language-specific typing tests serving real code lines in Python, JavaScript or another language. These drill the keywords, operators and symbol patterns that the framework demands. Level two: symbol-focused practice isolating the hardest reaches for targeted work. Level three: mixed-mode practice alternating between code and prose, building the switching speed that daily development requires.</p>
     <p>The free code typing tests on this site cover level one for Python and JavaScript with top word lists and full sentence practice. The weak-key report after each round identifies exactly which symbol reaches need work, and the accuracy tracking shows whether you are building the precision that production code demands.</p>
-    <h2>Compounding returns: faster typing means more practice, which means faster typing</h2>
+    <h2 id="compounding-returns-faster-typing-means-more-pra">Compounding returns: faster typing means more practice, which means faster typing</h2>
     <p>The gap between typing practice and real coding is bridged by consistency and the right feedback loop. Code-specific typing practice at typing.rerivo.com serves real Python and JavaScript lines with symbol-rich syntax, so what you practise is what you write. After two weeks of daily rounds, developers report that common code patterns flow without conscious thought about individual characters.</p>
     <p>The compounding effect is real: faster typing makes practice feel less tedious, which means more rounds are completed, which builds more automaticity, which makes subsequent rounds faster. This positive feedback loop is the same one that drives elite typists and elite musicians. The skill feeds the practice, and the practice feeds the skill, and the cycle compounds over months into a skill that most people never develop because they stop at the first plateau.</p>
     <p class="byline">By <a href="about.html">the Typing.Rerivo team</a> &mdash; we build and maintain this typing test. Scoring formulas and the benchmarks used on our pages are documented in the methodology notes on our <a href="about.html">about page</a>, along with the sources we cite. Page last updated 2026-10-31.</p>

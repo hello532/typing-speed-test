@@ -4,13 +4,18 @@ Source: https://typing.rerivo.com/words-per-minute-test.html
 
 Measure your words per minute (WPM) with a free online speed test. Type for one minute or choose 15 seconds up to 10 minutes and get your WPM and accuracy instantly.
 
-## words per minute test
+On this page
+
+words per minute test
+What is a good WPM score?
+WPM vs CPM
+Typing words per minute test: what the number means
+Sources for the numbers on this page
+About this page
 
 A words per minute test (WPM test) measures how many words you can type in one minute. The rule is simple: every five characters counts as one word, so longer words add more to your score. Take the test, type the text shown on screen, and your WPM, accuracy and error count are calculated live as you type.
 
 In practice a typing words per minute test is the same measurement under a different name: you type for a fixed time, the test counts correct characters, and dividing that count by five and by the elapsed minutes gives your WPM. Nothing else changes the number, so any result you see here is directly comparable with other typing tests. The name changes with word order too — WPM typing test, typing test WPM and words per minute test all point at the same measurement, so whichever phrasing you searched for, this page scores it the same way.
-
-## What is a good WPM score?
 
 What counts as fast depends on context, but the bands below hold for most desk work. Around 40 WPM is typical, 60 WPM handles office and writing work comfortably, and 80+ WPM is genuinely fast — professionals land between 90 and 120. New typists should chase 95%+ accuracy first; speed follows on its own.
 
@@ -22,13 +27,9 @@ Advanced (top ~1%) | 100+ WPM | Professional typist territory
 
 Compare yourself properly on the average typing speed benchmarks, broken down by age and profession.
 
-## WPM vs CPM
-
 CPM means characters per minute. Some sites show CPM instead of WPM. Because one word equals five characters, you can convert easily: WPM = CPM / 5. This test shows you both numbers on the result panel so you can compare with any other typing test.
 
 Prefer characters per minute? Try the CPM typing test, where CPM = WPM &times; 5.
-
-## Typing words per minute test: what the number means
 
 A typing words per minute test reports one number for one minute of typing, using a convention rather than a literal word count: every five characters typed counts as one word, whether those characters formed short words, long words, numbers or punctuation. The Wikipedia entry for words per minute documents the same five-character standard and the reference bands that most tests still quote: professional typists sit around 43 to 80 WPM, and advanced typists go above 120 WPM.
 
@@ -36,15 +37,11 @@ Two numbers come out of a typing words per minute test and they are not intercha
 
 If your target is quoted in keystrokes rather than words - common for data entry and for exam scoring - measure it directly with the CPM typing test, which reports characters per minute and keystrokes per hour from the same round.
 
-## Sources for the numbers on this page
-
 Speed and accuracy figures quoted here follow the largest published study of everyday typing: Dhakal et al., CHI 2018, Observations on Typing from 136 Million Keystrokes, which measured 136,857,600 keystrokes from 168,960 volunteers. It reports a mean of 51.56 WPM (SD 20.2), a mean uncorrected error rate of 1.17%, and a mean keystrokes-per-character rate of 1.173. Those are the numbers this page's bands are checked against.
 
 The claim that finger consistency and keypress preparation predict speed — more than which finger presses which key — comes from Feit, Weir and Oulasvirta, CHI 2016, a motion-capture study of 36 typists. The two studies disagree on how much formal touch-typing training matters, and this page says so where it matters rather than picking the tidier result.
 
 Where a figure is an estimate rather than a measurement — job requirements, age bands, exam cut-offs — it is drawn from the ranges employers and exam boards publish and is labelled as an estimate. Nothing on this page is a benchmark we ran ourselves.
-
-## About this page
 
 Last updated 2026-10-20. Written and maintained by the Typing.Rerivo team; scoring formulas, sources and corrections policy are documented on the about page.
 

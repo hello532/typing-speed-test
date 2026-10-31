@@ -4,13 +4,9 @@ Source: https://typing.rerivo.com/typing-speed-percentile.html
 
 A WPM number means little without a distribution. This page converts your score into a percentile using the largest published sample of real typing — 136 million keystrokes from 168,960 volunteers.
 
-## The method, stated plainly
-
 The reference distribution comes from Dhakal, Feit, Kristensson and Oulasvirta, "Observations on Typing from 136 Million Keystrokes" (CHI 2018), which recorded 136,857,600 keystrokes from 168,960 volunteers. It reports a mean speed of 51.56 WPM with a standard deviation of 20.2, an average uncorrected error rate of 1.17%, and 1.173 keystrokes per character. The paper is open at doi.org/10.1145/3173574.3174220.
 
 Percentiles below are computed from a normal distribution with that mean and standard deviation. It is an approximation: real typing speed is mildly left-skewed, so the approximation is slightly generous in the middle and slightly conservative in the far tail. It reproduces the study's reported deciles — top 10% above about 78 WPM, bottom 10% below about 26 WPM — to within about one percentile point, which is the check that matters.
-
-## WPM to percentile chart
 
 WPM | Percentile (approx.) | CPM | Keystrokes per hour
 20 | 6th | 100 | 6,000
@@ -26,13 +22,9 @@ WPM | Percentile (approx.) | CPM | Keystrokes per hour
 100 | 99th | 500 | 30,000
 120 | 99.9th | 600 | 36,000
 
-## What the percentile does not tell you
-
 The sample is self-selected: people who choose to take an online typing test are not a random sample of the population, and they are disproportionately young, educated and comfortable in English. A 60 WPM score being the 66th percentile here does not mean it is the 66th percentile of all office workers.
 
 The study also measures transcription typing — copying displayed text — on a desktop keyboard in English. Phone typing, dictation, code and non-Latin scripts are different tasks with different distributions, so a percentile from this table describes one specific skill.
-
-## Using the percentile for a decision
 
 For job applications, percentiles are persuasive but not what screeners check: they check against a fixed threshold such as 40 or 50 WPM. Use the percentile to decide whether you are in the band, and the raw net WPM to report it.
 

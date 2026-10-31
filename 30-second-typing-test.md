@@ -4,29 +4,26 @@ Source: https://typing.rerivo.com/30-second-typing-test.html
 
 Test your typing speed in just 30 seconds. A fast, no-frills WPM check when you want a quick snapshot of your typing speed without committing to a full minute.
 
-## 30 second typing test
+On this page
+
+30 second typing test
+How accurate is a 30 second test?
+Tips for a faster 30 second sprint
+When to choose the 30 second test
+What a 30 second score tells you
+The 30 second test as a warm-up
 
 The 30 second typing test is the quickest way to get a WPM estimate. Thirty seconds is enough to type roughly 20-45 words, which gives a usable sample when you are short on time. For a steadier score that averages out fast bursts, try the 1 minute typing test or the 5 minute typing test.
 
-## How accurate is a 30 second test?
-
 A 30 second test is a good snapshot but not the most stable measure - one fast or slow sentence sways the result more than in a longer test. Use it for quick daily checks, and pair it with longer rounds from typing practice to track real progress.
-
-## Tips for a faster 30 second sprint
 
 Warm up first, keep your eyes on the text rather than your hands, and prioritise accuracy over raw speed since errors cost time to fix. To build real speed, our typing exercises progressively train common words and patterns.
 
-## When to choose the 30 second test
-
 The 30 second round shines in three situations: a rapid self-check before a job application asks for your WPM, a warm-up lap before a 5 minute typing test, and a low-pressure daily streak you can keep even on busy days. Because one round takes less than a minute including the result screen, it is also the easiest length to repeat — take three back-to-back sprints and average them for a steadier number than any single attempt. Pair it with structured typing practice when one weak key keeps dragging your score down.
-
-## What a 30 second score tells you
 
 A 30 second round measures peak speed, not sustainable speed. Expect it to land 5-10 WPM above a one-minute result and 10-15 above a five-minute one. That gap is not a flaw in the test — it is the useful part: compare the gap across weeks and you can see whether your endurance is catching up with your top speed.
 
 Use the 1 minute typing test as the reference score and the thirty-second sprint as the check on it. If the two converge, your sustained speed is improving.
-
-## The 30 second test as a warm-up
 
 Cold starts cost real WPM in the first fifteen seconds. One thirty-second round before a longer attempt raises the score of the round that follows without adding fatigue, which makes this the cheapest warm-up in the set. Pair it with the typing test tips checklist for a repeatable routine.
 

@@ -4,8 +4,6 @@ Source: https://typing.rerivo.com/typing-speed-phone-vs-keyboard.html
 
 Two large studies measured the same task on different devices: 36.2 WPM on a phone (37,370 volunteers) and 51.6 WPM on a desktop keyboard (168,960 volunteers). The 15 WPM gap is real, measured, and mostly mechanical.
 
-## The two measurements, side by side
-
 Measure | Phone (touchscreen) | Desktop keyboard
 Average speed | 36.17 WPM (SD 13.22) | 51.56 WPM (SD 20.2)
 Uncorrected error rate | 2.34% | 1.17%
@@ -15,14 +13,10 @@ Source | Palin, Feit, Kim, Kristensson & Oulasvirta, MobileHCI 2019, doi.org/10.
 
 Both studies used the same method - transcribe a displayed English sentence - so the comparison is unusually clean. The mobile study explicitly compares itself to the desktop one and reports that average performance is about 15 WPM slower on a phone.
 
-## Where the gap comes from
-
 Fewer fingers. Over 74% of phone typists use both thumbs, and two thumbs are faster than one thumb or one index finger - but still nowhere near ten fingers on a physical keyboard.
 No tactile feedback. You cannot feel the key boundary, so every press carries a small positional uncertainty that a keyboard removes.
 Correction cost. Fixing a mistake on glass takes more gestures, which is why phone typists leave more errors uncorrected (2.34% versus 1.17%) rather than fixing them.
 Layout. A QWERTY touchscreen is a compromise; physical keyboards can be swapped for whatever suits your hands.
-
-## Phone typing percentiles
 
 Using the mobile distribution (mean 36.2, SD 13.2), a normal approximation gives a rough position:
 
@@ -35,13 +29,9 @@ Phone WPM | Approx. percentile | Reading
 
 The approximation is labelled as such: the mobile distribution is right-skewed, so the far tail is less reliable than the middle.
 
-## What this means for a typing test
-
 Most online typing tests and every job screening test assume a physical keyboard. A 36 WPM phone score is not evidence that you would score 36 WPM at a desk - the desk number is usually higher, often by 10-15 WPM if you touch type.
 
 The reverse is also true and less convenient: a good desktop score does not transfer to mobile work. If your job involves replying from a phone, practise separately, because the two skills share vocabulary but not motor memory.
-
-## Should you practise typing on a phone?
 
 Only if the work happens on a phone. Practising phone typing to raise a desktop score is wasted effort; the mechanics do not transfer. If you want the desktop number to rise, use a keyboard and work on accuracy and look-ahead.
 

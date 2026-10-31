@@ -414,6 +414,16 @@ body.typing-active footer{opacity:.26;filter:saturate(.72);pointer-events:none;}
 .conv input:focus{outline:2px solid var(--borderhi);outline-offset:1px;}
 .conv-out{margin:12px 0 0;font-size:.95rem;font-weight:600;color:var(--text);}
 .conv-out span{color:var(--soft);font-weight:500;}
+
+/* Round-39: "On this page" jump list for long pages (≥6 sections).
+   Helps snippet extraction and lets readers jump to the section they need. */
+.toc{max-width:760px;margin:0 0 18px;padding:14px 18px;border:1px solid var(--line);border-radius:12px;background:var(--panel2);}
+.toc p{margin:0 0 8px;font-size:.78rem;font-weight:700;letter-spacing:.6px;text-transform:uppercase;color:var(--soft);}
+.toc ol{margin:0;padding-left:20px;display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:4px 22px;}
+.toc li{font-size:.9rem;line-height:1.45;}
+.toc a{color:var(--soft);text-decoration:none;}
+.toc a:hover{color:var(--text);text-decoration:underline;}
+@media(max-width:560px){.toc ol{grid-template-columns:1fr;}}
 </style>
 <script>try{var _t=localStorage.getItem("trTheme");if(_t&&_t!=="dark")document.documentElement.setAttribute("data-theme",_t);var _l=localStorage.getItem("trLang");if(_l&&_l!=="en"){document.documentElement.lang=_l;if(_l==="ar")document.documentElement.dir="rtl";}}catch(e){}</script>
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1401237223139327"
@@ -548,18 +558,18 @@ body.typing-active footer{opacity:.26;filter:saturate(.72);pointer-events:none;}
   </nav>
 
   <section class="seo">
-    <h2>The number behind the number</h2>
+    <h2 id="the-number-behind-the-number">The number behind the number</h2>
     <p>40 WPM is 200 characters per minute, 12,000 keystrokes per hour, and 200 words over a five-minute test. On a standard error rule of one error per ten words, you are allowed about twenty errors across the five minutes — which sounds generous until you watch your score after a bad paragraph.</p>
     <p>The US federal clerical standard is published as 40 WPM over five minutes with no more than three errors, which is far stricter: 98.5% accuracy. Most private employers quote the speed and leave the accuracy floor at 95%.</p>
-    <h2>Who actually asks for it</h2>
+    <h2 id="who-actually-asks-for-it">Who actually asks for it</h2>
     <table><tr><th>Role</th><th>Stated requirement</th><th>At 40 WPM</th></tr><tr><td>Receptionist</td><td>40-50 net WPM</td><td>Bottom of the band</td></tr><tr><td>General office / admin</td><td>40-55 WPM</td><td>Bottom of the band</td></tr><tr><td>County clerk-typist</td><td>35-45 net WPM</td><td>Comfortable</td></tr><tr><td>US federal clerk</td><td>40 WPM, ≤3 errors</td><td>Exactly at the line</td></tr><tr><td>Data entry clerk</td><td>45-65 WPM or 13,500+ KPH</td><td>Short</td></tr></table>
     <p>Being exactly at the line is risky on a five-minute test, because one bad sentence can drop you under it. Aim for 44-45 before you apply, which gives you the margin that 40 alone does not.</p>
-    <h2>The four weeks that actually work</h2>
+    <h2 id="the-four-weeks-that-actually-work">The four weeks that actually work</h2>
     <p>Week 1 — measure and stop the bleeding. Three five-minute rounds, no backspace rule, accuracy recorded. Most candidates at 40 WPM are correcting 8-12 times a minute; removing that habit alone buys 3-5 WPM.</p>
     <p>Week 2 — cover the keyboard. One round a day with hands covered. This is uncomfortable for three days and then stops being an issue, and it is the difference between a ceiling at 45 and no ceiling.</p>
     <p>Week 3 — length and mode. Five-minute sentence rounds three times a week, one numbers round a week. Add capitals and punctuation deliberately: real tests include them and untrained typists drop them under time pressure.</p>
     <p>Week 4 — simulate. Full-length, time of day matching your interview, unfamiliar keyboard. Then test once and use that number on applications.</p>
-    <h2>What to do if you are already at 55</h2>
+    <h2 id="what-to-do-if-you-are-already-at-55">What to do if you are already at 55</h2>
     <p>Stop training for 40 and move to the <a href="60-wpm-typing-test.html">60 WPM plan</a>; the skill work is the same but the drills change. At 55 you are already above the requirement for almost every clerical role, so further gains are for transcription, legal and medical work rather than for clearing a gate.</p>
     <p class="byline">By <a href="about.html">the Typing.Rerivo team</a> &mdash; we build and maintain this typing test. Scoring formulas and the benchmarks used on our pages are documented in the methodology notes on our <a href="about.html">about page</a>, along with the sources we cite. Page last updated 2026-10-31.</p>
   </section>

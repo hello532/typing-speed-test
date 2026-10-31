@@ -4,13 +4,9 @@ Source: https://typing.rerivo.com/typing-test-for-medical-receptionist.html
 
 Medical reception is typing with a queue: patient names, dates of birth, insurance IDs and appointment slots, entered while someone waits. Clinics commonly ask 40–50 WPM, and the failure mode is always a digit.
 
-## What the front desk actually enters
-
 A registration is a form: name, date of birth, address, phone, insurance carrier, member ID, group number, reason for visit. Between six and eight of those fields are numeric or alphanumeric, and two of them (date of birth and member ID) are the ones that cause billing rejections when mistyped.
 
 The typing is short and interrupted. That combination — many short entries, frequent interruptions — is why front-desk staff who type 50 WPM in a test can still feel slow on a Monday morning.
-
-## Why digits decide the outcome
 
 Letters can be inferred from context; digits cannot. A member ID with two digits swapped is rejected by the clearing house weeks later, and the correction costs the practice more than the registration did.
 
@@ -19,13 +15,9 @@ Insurance member IDs - alphanumeric, often 10-15 characters with no internal log
 Phone numbers - ten digits, typed while the patient is still talking.
 Appointment times - a single digit decides whether someone arrives at 9 or 19 past the hour.
 
-## A rehearsal that matches the desk
-
 Two minutes of Numbers mode daily, graded on errors. Then a form drill: type a mock registration (name, DOB, phone, member ID) ten times and count how many are completely clean. Three clean records in a row is the realistic readiness bar.
 
 Add the interruption: type half a record, look away for five seconds, then finish it. That is the actual working condition, and it is where the errors appear in practice rather than in a quiet test.
-
-## Practical notes for the interview
 
 If asked for a speed, quote net WPM with accuracy and test length, and mention numeric entry separately if you have a figure. A clinic manager reads the accuracy number first, because they have seen what a mistyped member ID costs.
 

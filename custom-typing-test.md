@@ -4,15 +4,9 @@ Source: https://typing.rerivo.com/custom-typing-test.html
 
 A fully customizable typing test: pick your duration from 15 seconds to 10 minutes, switch between sentences, quotes, numbers and words, set the language, theme and line width, then type and get instant WPM. Everything is configurable, nothing to sign up for.
 
-## custom typing test
-
 A custom typing test is one that fits your practice instead of the other way around. This test is configurable end to end: six durations from 15 seconds to 10 minutes, four text types, eight languages, light and dark themes, and a line width that adapts to your screen. Configure it once, and every result after that is comparable, because you changed nothing but your typing.
 
-## What you can customize
-
 Duration: 15, 30, 60, 120, 300 or 600 seconds. Text type: sentences for everyday fluency, quotes for capitals and punctuation, numbers for the top row, and words for high-frequency vocabulary. Language: English, Spanish, Chinese, Hindi and Arabic. Theme and width: light or dark, and a text column that fits your screen so your eyes never leave the line you are typing.
-
-## Build your own typing test routine
 
 Start with one minute of sentences to get a baseline. Add quotes for two weeks until capitals cost you nothing, then numbers until the top row is no longer slow. Switch to five minutes when you want endurance, and back to one minute when you want to see your top speed. A custom test is the only one that can follow that plan for a month without ever asking you to sign up.
 

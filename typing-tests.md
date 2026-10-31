@@ -4,22 +4,16 @@ Source: https://typing.rerivo.com/typing-tests.html
 
 Every test on the site in one directory: duration variants, languages, skill drills, exam and job pages, metrics and guides. Each link says what the page measures rather than repeating a keyword.
 
-## How to use this directory
-
 Three questions decide which page you want. First: are you measuring or improving? A timed test on the home page measures; a practice page with drills improves.
 
 Second: what length? Fifteen and thirty seconds measure a burst, one to three minutes matches most screening tests, and five to ten minutes measures the pace you can hold through a working session.
 
 Third: what content? Sentences are the default, quotes add punctuation and capitals, numbers train the row that data entry actually uses, and code tests are for programmers. Languages switch the practice pool without changing the timer.
 
-## Choosing by goal
-
 I have an interview or screening test — start with the five-minute test, then the role page for your job, which lists the threshold the employer is likely to use.
 I want a number to quote — a five-minute net score with accuracy is the reproducible one. The certificate page explains what a self-issued certificate does and does not prove.
 I am learning from scratch — home row, then beginner, then one-minute rounds. Ten minutes a day beats a weekly marathon.
 I am stuck at a speed — the WPM chart names the cause for each band, from looking at the keyboard at 20 WPM to inconsistency above 70.
-
-## Why this page exists
 
 The footer already links every page, but a flat list of 160 links tells a reader nothing about which one to open. This directory groups them by the question they answer, and it is generated from the same configuration that builds the pages, so it cannot drift out of date or link to something that no longer exists.
 

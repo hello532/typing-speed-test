@@ -4,19 +4,13 @@ Source: https://typing.rerivo.com/colemak-typing.html
 
 Practice and measure your typing in Colemak. The on-screen keyboard below is already set to the Colemak layout, with finger guidance mapped to Colemak hand positions, so what you see matches what your system layout produces. Use the QWERTY / Dvorak / Colemak switch in the keyboard toolbar any time. Switch your operating system to Colemak, take the test, and get WPM, accuracy and consistency.
 
-## colemak typing test
-
 Most typing tests only draw a QWERTY keyboard, which is useless for Colemak typing practice: the label you are hunting for is not on the key you press. This test flips the on-screen keyboard to the Colemak layout, keeping the physical QWERTY key positions and relabelling every key, so the finger guide on screen matches exactly what a Colemak typist sees.
 
 Nothing is installed and nothing changes your system. The page only draws the Colemak keyboard; you switch your operating system input to Colemak, start typing, and the test scores the characters your layout produces - so your WPM, accuracy, consistency and the per-key heatmap are all measured for real Colemak typing.
 
-## Why Colemak
-
 Colemak was published in 2006 as a middle path between QWERTY and Dvorak. It keeps the common shortcut keys Z, X, C and V in their QWERTY places and changes only 17 keys, so the switch is far gentler than Dvorak while still putting the most-used letters under your fingers.
 
 On the same English passage, Colemak keeps about 73% of letters on the home row (QWERTY is near 36%) and cuts repeated same-finger presses to roughly 1.5%, versus about 7.9% on QWERTY. Less finger travel usually means more comfort over long sessions; it does not guarantee a higher top speed, which still depends mostly on practice.
-
-## How to practice Colemak typing
 
 Set your operating system input to Colemak first, otherwise you would be typing QWERTY characters while looking at a Colemak keyboard. Start with short two-to-five minute sessions and resist looking at your hands - the finger guide and on-screen keyboard exist to replace that habit.
 

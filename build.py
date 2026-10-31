@@ -175,10 +175,43 @@ def build_catalog(clusters, labeled):
     return parts
 
 
+def slug(text, used):
+    """h2 文本 → 稳定的锚点 id（同页重复时加 -2、-3）。"""
+    base = re.sub(r"[^a-z0-9]+", "-", text.lower()).strip("-")[:48] or "section"
+    out, n = base, 1
+    while out in used:
+        n += 1
+        out = f"{base}-{n}"
+    used.add(out)
+    return out
+
+
+def build_toc(page, ids):
+    """R39：长页目录（"On this page"）。
+
+    为什么加：竞品（typingspeedhub 等）在长页顶部放跳转列表，摘要与 AI 抽取都
+    更容易命中「列表型」答案；同时给每节一个稳定的 #锚点，站内可以直接指到某节。
+    只在 ≥6 节的长页输出，短页加了是噪音。
+    """
+    if len(page["seo"]) < 6:
+        return []
+    items = "".join(f'<li><a href="#{i}">{sec["h2"]}</a></li>'
+                    for sec, i in zip(page["seo"], ids))
+    return [f'    <nav class="toc" aria-label="On this page"><p>On this page</p><ol>{items}</ol></nav>']
+
+
 def build_seo(page, clusters=None):
     parts = ['<section class="seo">']
+    used, ids = set(), []
     for sec in page["seo"]:
-        anchor = f' id="{sec["id"]}"' if sec.get("id") else ""
+        sid = sec.get("id") or slug(sec["h2"], used)
+        if sec.get("id"):
+            used.add(sec["id"])
+        ids.append(sid)
+    parts.extend(build_toc(page, ids))
+    for sec, sid in zip(page["seo"], ids):
+        anchor = f' id="{sid}"'
+        used.add(sid)
         parts.append(f'    <h2{anchor}>{sec["h2"]}</h2>')
         for p in sec["p"]:
             if p.lstrip().startswith(("<table", "<ul", "<ol", "<div", "<figure", "<script", "<form")):

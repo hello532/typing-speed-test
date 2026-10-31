@@ -414,6 +414,16 @@ body.typing-active footer{opacity:.26;filter:saturate(.72);pointer-events:none;}
 .conv input:focus{outline:2px solid var(--borderhi);outline-offset:1px;}
 .conv-out{margin:12px 0 0;font-size:.95rem;font-weight:600;color:var(--text);}
 .conv-out span{color:var(--soft);font-weight:500;}
+
+/* Round-39: "On this page" jump list for long pages (≥6 sections).
+   Helps snippet extraction and lets readers jump to the section they need. */
+.toc{max-width:760px;margin:0 0 18px;padding:14px 18px;border:1px solid var(--line);border-radius:12px;background:var(--panel2);}
+.toc p{margin:0 0 8px;font-size:.78rem;font-weight:700;letter-spacing:.6px;text-transform:uppercase;color:var(--soft);}
+.toc ol{margin:0;padding-left:20px;display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:4px 22px;}
+.toc li{font-size:.9rem;line-height:1.45;}
+.toc a{color:var(--soft);text-decoration:none;}
+.toc a:hover{color:var(--text);text-decoration:underline;}
+@media(max-width:560px){.toc ol{grid-template-columns:1fr;}}
 </style>
 <script>try{var _t=localStorage.getItem("trTheme");if(_t&&_t!=="dark")document.documentElement.setAttribute("data-theme",_t);var _l=localStorage.getItem("trLang");if(_l&&_l!=="en"){document.documentElement.lang=_l;if(_l==="ar")document.documentElement.dir="rtl";}}catch(e){}</script>
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1401237223139327"
@@ -548,18 +558,18 @@ body.typing-active footer{opacity:.26;filter:saturate(.72);pointer-events:none;}
   </nav>
 
   <section class="seo">
-    <h2>Three kinds of typing evidence</h2>
+    <h2 id="three-kinds-of-typing-evidence">Three kinds of typing evidence</h2>
     <table><tr><th>Type</th><th>What it proves</th><th>Who accepts it</th></tr><tr><td>Self-issued certificate (printed from a website)</td><td>That you used the site and got a score</td><td>Some private employers, as a screening signal</td></tr><tr><td>Third-party timed result (dated, named, unproctored)</td><td>A specific score on a specific date</td><td>Many private employers; occasionally agencies</td></tr><tr><td>Proctored certificate (testing centre or remote proctor)</td><td>That someone observed the test</td><td>Government, courts, staffing agencies, some hospitals</td></tr></table>
     <p>The difference that matters is observation. A certificate nobody watched you earn establishes intent and baseline skill; it does not establish that the score is yours.</p>
-    <h2>Where a free certificate is genuinely useful</h2>
+    <h2 id="where-a-free-certificate-is-genuinely-useful">Where a free certificate is genuinely useful</h2>
     <ul><li><strong>Private-sector applications</strong> where the recruiter just wants a rough number before scheduling an interview.</li><li><strong>Freelance profiles</strong> - showing a dated result is better than claiming "fast typist".</li><li><strong>Your own tracking</strong> - a monthly certificate is a simple progress record.</li></ul>
     <p>In all three cases the certificate is a convenience, not proof. Do not pay for one believing it changes the category.</p>
-    <h2>Where it will be rejected</h2>
+    <h2 id="where-it-will-be-rejected">Where it will be rejected</h2>
     <p>Public-sector postings frequently state the requirement in a way that excludes self-issued documents: "must submit a typing test with your name and date", "proctored within the last twelve months", "issued by an approved testing centre". If the wording includes any of those, a website certificate is not the document they want.</p>
     <p>Court and legal roles, dispatch centres and hospital transcription departments are the most consistent about requiring a proctored result. The cost is usually modest; the inconvenience is the appointment.</p>
-    <h2>Red flags in paid certificate services</h2>
+    <h2 id="red-flags-in-paid-certificate-services">Red flags in paid certificate services</h2>
     <ul><li><strong>No stated proctoring.</strong> If nobody observes the test, you are buying a PDF.</li><li><strong>No verification ID or lookup page.</strong> An employer cannot check it, so it carries no more weight than your own screenshot.</li><li><strong>No expiry stated.</strong> Real credentials state validity; typing certificates typically run one to four years.</li><li><strong>Scores that cannot be this high.</strong> A service guaranteeing 90+ WPM to anyone is selling paper.</li></ul>
-    <h2>What to do instead</h2>
+    <h2 id="what-to-do-instead">What to do instead</h2>
     <p>Keep a dated, named screenshot of a five-minute result and put the number on your résumé with the test length and accuracy. Then let the employer test you - which most will, and which you will pass if the listed number is honest.</p>
     <p>If a posting demands a proctored certificate, book one at a local testing centre or workforce office and treat the fee as part of the application cost. It is the only version that satisfies that wording.</p>
     <p class="byline">By <a href="about.html">the Typing.Rerivo team</a> &mdash; we build and maintain this typing test. Scoring formulas and the benchmarks used on our pages are documented in the methodology notes on our <a href="about.html">about page</a>, along with the sources we cite. Page last updated 2026-10-31.</p>

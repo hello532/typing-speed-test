@@ -414,6 +414,16 @@ body.typing-active footer{opacity:.26;filter:saturate(.72);pointer-events:none;}
 .conv input:focus{outline:2px solid var(--borderhi);outline-offset:1px;}
 .conv-out{margin:12px 0 0;font-size:.95rem;font-weight:600;color:var(--text);}
 .conv-out span{color:var(--soft);font-weight:500;}
+
+/* Round-39: "On this page" jump list for long pages (≥6 sections).
+   Helps snippet extraction and lets readers jump to the section they need. */
+.toc{max-width:760px;margin:0 0 18px;padding:14px 18px;border:1px solid var(--line);border-radius:12px;background:var(--panel2);}
+.toc p{margin:0 0 8px;font-size:.78rem;font-weight:700;letter-spacing:.6px;text-transform:uppercase;color:var(--soft);}
+.toc ol{margin:0;padding-left:20px;display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:4px 22px;}
+.toc li{font-size:.9rem;line-height:1.45;}
+.toc a{color:var(--soft);text-decoration:none;}
+.toc a:hover{color:var(--text);text-decoration:underline;}
+@media(max-width:560px){.toc ol{grid-template-columns:1fr;}}
 </style>
 <script>try{var _t=localStorage.getItem("trTheme");if(_t&&_t!=="dark")document.documentElement.setAttribute("data-theme",_t);var _l=localStorage.getItem("trLang");if(_l&&_l!=="en"){document.documentElement.lang=_l;if(_l==="ar")document.documentElement.dir="rtl";}}catch(e){}</script>
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1401237223139327"
@@ -548,13 +558,13 @@ body.typing-active footer{opacity:.26;filter:saturate(.72);pointer-events:none;}
   </nav>
 
   <section class="seo">
-    <h2>How to use this directory</h2>
+    <h2 id="how-to-use-this-directory">How to use this directory</h2>
     <p>Three questions decide which page you want. First: are you measuring or improving? A timed test on the <a href="/">home page</a> measures; a practice page with drills improves.</p>
     <p>Second: what length? Fifteen and thirty seconds measure a burst, one to three minutes matches most screening tests, and five to ten minutes measures the pace you can hold through a working session.</p>
     <p>Third: what content? Sentences are the default, quotes add punctuation and capitals, numbers train the row that data entry actually uses, and code tests are for programmers. Languages switch the practice pool without changing the timer.</p>
-    <h2>Choosing by goal</h2>
+    <h2 id="choosing-by-goal">Choosing by goal</h2>
     <ul><li><strong>I have an interview or screening test</strong> — start with the five-minute test, then the role page for your job, which lists the threshold the employer is likely to use.</li><li><strong>I want a number to quote</strong> — a five-minute net score with accuracy is the reproducible one. The certificate page explains what a self-issued certificate does and does not prove.</li><li><strong>I am learning from scratch</strong> — home row, then beginner, then one-minute rounds. Ten minutes a day beats a weekly marathon.</li><li><strong>I am stuck at a speed</strong> — the WPM chart names the cause for each band, from looking at the keyboard at 20 WPM to inconsistency above 70.</li></ul>
-    <h2>Why this page exists</h2>
+    <h2 id="why-this-page-exists">Why this page exists</h2>
     <p>The footer already links every page, but a flat list of 160 links tells a reader nothing about which one to open. This directory groups them by the question they answer, and it is generated from the same configuration that builds the pages, so it cannot drift out of date or link to something that no longer exists.</p>
     <h2>Other test lengths</h2>
     <ul>

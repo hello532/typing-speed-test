@@ -4,13 +4,9 @@ Source: https://typing.rerivo.com/typing-test-for-warehouse-admin.html
 
 Warehouse administration is SKUs, quantities, carrier references and addresses. The speed bar is low — 35 to 45 WPM — but a mistyped SKU or postcode sends the wrong item to the wrong place.
 
-## What the work looks like
-
 A goods-in entry is a purchase order reference, a SKU list with quantities, a supplier and a date. A dispatch entry is an order reference, a carrier, a tracking number, a postcode and a weight. Both are short fields typed at speed while a vehicle waits.
 
 Because the rhythm is driven by the dock rather than the screen, the typical failure is not slow typing but a skipped field or a transposed digit in a postcode. Speed matters mainly so the queue does not build.
-
-## Codes and postcodes are the risk
 
 SKUs - often alphanumeric with similar-looking variants (0/O, 1/I, 5/S).
 Postcodes - a single wrong character changes the delivery area.
@@ -19,13 +15,9 @@ Tracking references - long, no internal logic, and copied from a label.
 
 Where barcode scanning exists, typing is the fallback and the audit path; where it does not, typing is the only record. Both need the same accuracy habit.
 
-## Practising without a warehouse
-
 Two minutes of Numbers mode a day, plus an address drill: type ten postcodes and street lines, then check them character by character. Add a SKU drill with confusable characters (0/O, 1/I, 5/S) because that is where picking errors originate.
 
 If you already work in a warehouse, copy real SKUs from a pick list rather than random strings. Familiarity with the format is what makes the practice transfer.
-
-## Realistic expectations
 
 35-45 WPM clears most warehouse admin postings, and many roles never test it formally — they check whether you can use the warehouse management system without errors. If a test exists, it is usually a short alphanumeric exercise.
 

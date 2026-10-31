@@ -414,6 +414,16 @@ body.typing-active footer{opacity:.26;filter:saturate(.72);pointer-events:none;}
 .conv input:focus{outline:2px solid var(--borderhi);outline-offset:1px;}
 .conv-out{margin:12px 0 0;font-size:.95rem;font-weight:600;color:var(--text);}
 .conv-out span{color:var(--soft);font-weight:500;}
+
+/* Round-39: "On this page" jump list for long pages (≥6 sections).
+   Helps snippet extraction and lets readers jump to the section they need. */
+.toc{max-width:760px;margin:0 0 18px;padding:14px 18px;border:1px solid var(--line);border-radius:12px;background:var(--panel2);}
+.toc p{margin:0 0 8px;font-size:.78rem;font-weight:700;letter-spacing:.6px;text-transform:uppercase;color:var(--soft);}
+.toc ol{margin:0;padding-left:20px;display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:4px 22px;}
+.toc li{font-size:.9rem;line-height:1.45;}
+.toc a{color:var(--soft);text-decoration:none;}
+.toc a:hover{color:var(--text);text-decoration:underline;}
+@media(max-width:560px){.toc ol{grid-template-columns:1fr;}}
 </style>
 <script>try{var _t=localStorage.getItem("trTheme");if(_t&&_t!=="dark")document.documentElement.setAttribute("data-theme",_t);var _l=localStorage.getItem("trLang");if(_l&&_l!=="en"){document.documentElement.lang=_l;if(_l==="ar")document.documentElement.dir="rtl";}}catch(e){}</script>
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1401237223139327"
@@ -548,16 +558,16 @@ body.typing-active footer{opacity:.26;filter:saturate(.72);pointer-events:none;}
   </nav>
 
   <section class="seo">
-    <h2>What dispatch agencies screen for</h2>
+    <h2 id="what-dispatch-agencies-screen-for">What dispatch agencies screen for</h2>
     <p>A dispatcher enters an address, a name, a phone number and a plate while the caller is still explaining. The typing is short, numeric and immediately consequential. Public postings typically list 35–45 WPM, and the assessment usually adds a multitasking or call-taking simulation on top of the typing score.</p>
     <p>No single national typing standard applies to dispatch; requirements are set per agency. Treat published ranges as the target band and check the specific posting, because a state police dispatch centre and a small municipal one often differ by ten WPM.</p>
-    <h2>Digits and addresses are the real test</h2>
+    <h2 id="digits-and-addresses-are-the-real-test">Digits and addresses are the real test</h2>
     <p>Prose typing rewards rhythm. Dispatch typing rewards the number row, the ten-key area and the ability to spell an unfamiliar street name correctly the first time. That is a different practice target.</p>
     <ul><li>Numbers mode for two minutes a day, graded on errors not speed.</li><li>Listen to a podcast and type the numbers you hear — times, prices, years — in one pass.</li><li>Type addresses from a map app, including postcodes, without looking down.</li></ul>
-    <h2>Speed bands in context</h2>
+    <h2 id="speed-bands-in-context">Speed bands in context</h2>
     <table><tr><th>Role</th><th>Typical WPM floor</th><th>Added assessment</th></tr><tr><td>Call taker</td><td>35–40</td><td>Structured call interview, data capture</td></tr><tr><td>Dispatcher</td><td>40–45</td><td>Radio simulation, multitasking test</td></tr><tr><td>Supervisor or trainer</td><td>45+</td><td>Quality assurance, report writing</td></tr></table>
     <p>The typing test is rarely the only gate. Agencies also test hearing, memory, prioritisation and stress tolerance, and a 60 WPM score will not offset a failed call simulation.</p>
-    <h2>Practice that transfers</h2>
+    <h2 id="practice-that-transfers">Practice that transfers</h2>
     <p>Two-minute rounds are the right length: long enough to feel the pressure of a call, short enough to repeat. Two minutes at 45 WPM net with 99% accuracy on digits is a stronger signal than five minutes of prose at 55.</p>
     <p>Then rehearse the split-attention part. Read a sentence aloud, type it from memory in one pass, and check character by character. Five repetitions a day for two weeks is enough to feel the difference in how you hold digits in working memory.</p>
     <p class="byline">By <a href="about.html">the Typing.Rerivo team</a> &mdash; we build and maintain this typing test. Scoring formulas and the benchmarks used on our pages are documented in the methodology notes on our <a href="about.html">about page</a>, along with the sources we cite. Page last updated 2026-10-31.</p>

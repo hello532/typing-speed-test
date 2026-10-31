@@ -4,25 +4,17 @@ Source: https://typing.rerivo.com/rust-typing-practice.html
 
 Rust is the most punctuation-dense mainstream language: lifetimes, turbofish-free generics, match arms, ? and => on nearly every line. This drill types 36 real lines from ordinary Rust code.
 
-## Why Rust is harder to type than it looks
-
 Three characters dominate: & for borrows, ' for lifetimes and char literals, and < > for generics. Each sits on the top row or the right pinky, and lifetimes put the apostrophe immediately after an ampersand - a two-key sequence that prose never asks for.
 
 Then there is the shape of idiomatic Rust: `match` arms with indentation, iterator chains broken across lines, and `?` at the end of expressions. The line breaks are part of the syntax you are training, not formatting noise.
-
-## What is in the pool
 
 Thirty-six lines covering the constructs that appear in real files: a struct with a generic parameter, a lifetime-annotated function, a `match` with an error branch, a `HashMap` build, an iterator chain with `filter_map`, a trait implementation, a `#[derive]` attribute, an async function signature with `anyhow::Result`, and a test module.
 
 The lines are short enough to finish inside a minute round and varied enough that you cannot memorise the sequence.
 
-## How to drill symbols without boredom
-
 Alternate two rounds per session: one straight accuracy round at your normal pace, one where you deliberately slow to 80% and watch the right hand. The second round is where the improvement happens; the first is where you measure it.
 
 Track the errors rather than the WPM for the first week. In symbol-dense code, error count is the leading indicator and speed follows it, not the other way round.
-
-## Related practice
 
 Same engine, different grammar: Python, JavaScript, TypeScript, SQL. If you want the general number, use the programmer typing benchmarks page.
 

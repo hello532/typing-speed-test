@@ -414,6 +414,16 @@ body.typing-active footer{opacity:.26;filter:saturate(.72);pointer-events:none;}
 .conv input:focus{outline:2px solid var(--borderhi);outline-offset:1px;}
 .conv-out{margin:12px 0 0;font-size:.95rem;font-weight:600;color:var(--text);}
 .conv-out span{color:var(--soft);font-weight:500;}
+
+/* Round-39: "On this page" jump list for long pages (≥6 sections).
+   Helps snippet extraction and lets readers jump to the section they need. */
+.toc{max-width:760px;margin:0 0 18px;padding:14px 18px;border:1px solid var(--line);border-radius:12px;background:var(--panel2);}
+.toc p{margin:0 0 8px;font-size:.78rem;font-weight:700;letter-spacing:.6px;text-transform:uppercase;color:var(--soft);}
+.toc ol{margin:0;padding-left:20px;display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:4px 22px;}
+.toc li{font-size:.9rem;line-height:1.45;}
+.toc a{color:var(--soft);text-decoration:none;}
+.toc a:hover{color:var(--text);text-decoration:underline;}
+@media(max-width:560px){.toc ol{grid-template-columns:1fr;}}
 </style>
 <script>try{var _t=localStorage.getItem("trTheme");if(_t&&_t!=="dark")document.documentElement.setAttribute("data-theme",_t);var _l=localStorage.getItem("trLang");if(_l&&_l!=="en"){document.documentElement.lang=_l;if(_l==="ar")document.documentElement.dir="rtl";}}catch(e){}</script>
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1401237223139327"
@@ -549,18 +559,19 @@ body.typing-active footer{opacity:.26;filter:saturate(.72);pointer-events:none;}
   </nav>
 
   <section class="seo">
-    <h2>30 second typing test</h2>
+    <nav class="toc" aria-label="On this page"><p>On this page</p><ol><li><a href="#30-second-typing-test">30 second typing test</a></li><li><a href="#how-accurate-is-a-30-second-test">How accurate is a 30 second test?</a></li><li><a href="#tips-for-a-faster-30-second-sprint">Tips for a faster 30 second sprint</a></li><li><a href="#when-to-choose-the-30-second-test">When to choose the 30 second test</a></li><li><a href="#what-a-30-second-score-tells-you">What a 30 second score tells you</a></li><li><a href="#the-30-second-test-as-a-warm-up">The 30 second test as a warm-up</a></li></ol></nav>
+    <h2 id="30-second-typing-test">30 second typing test</h2>
     <p>The <strong>30 second typing test</strong> is the quickest way to get a WPM estimate. Thirty seconds is enough to type roughly 20-45 words, which gives a usable sample when you are short on time. For a steadier score that averages out fast bursts, try the <a href="1-minute-typing-test.html">1 minute typing test</a> or the <a href="5-minute-typing-test.html">5 minute typing test</a>.</p>
-    <h2>How accurate is a 30 second test?</h2>
+    <h2 id="how-accurate-is-a-30-second-test">How accurate is a 30 second test?</h2>
     <p>A 30 second test is a good snapshot but not the most stable measure - one fast or slow sentence sways the result more than in a longer test. Use it for quick daily checks, and pair it with longer rounds from <a href="typing-practice.html">typing practice</a> to track real progress.</p>
-    <h2>Tips for a faster 30 second sprint</h2>
+    <h2 id="tips-for-a-faster-30-second-sprint">Tips for a faster 30 second sprint</h2>
     <p>Warm up first, keep your eyes on the text rather than your hands, and prioritise accuracy over raw speed since errors cost time to fix. To build real speed, our <a href="typing-practice.html">typing exercises</a> progressively train common words and patterns.</p>
-    <h2>When to choose the 30 second test</h2>
+    <h2 id="when-to-choose-the-30-second-test">When to choose the 30 second test</h2>
     <p>The 30 second round shines in three situations: a rapid self-check before a job application asks for your WPM, a warm-up lap before a <a href="5-minute-typing-test.html">5 minute typing test</a>, and a low-pressure daily streak you can keep even on busy days. Because one round takes less than a minute including the result screen, it is also the easiest length to repeat — take three back-to-back sprints and average them for a steadier number than any single attempt. Pair it with structured <a href="typing-practice.html">typing practice</a> when one weak key keeps dragging your score down.</p>
-    <h2>What a 30 second score tells you</h2>
+    <h2 id="what-a-30-second-score-tells-you">What a 30 second score tells you</h2>
     <p>A 30 second round measures peak speed, not sustainable speed. Expect it to land 5-10 WPM above a one-minute result and 10-15 above a five-minute one. That gap is not a flaw in the test — it is the useful part: compare the gap across weeks and you can see whether your endurance is catching up with your top speed.</p>
     <p>Use the <a href="1-minute-typing-test.html">1 minute typing test</a> as the reference score and the thirty-second sprint as the check on it. If the two converge, your sustained speed is improving.</p>
-    <h2>The 30 second test as a warm-up</h2>
+    <h2 id="the-30-second-test-as-a-warm-up">The 30 second test as a warm-up</h2>
     <p>Cold starts cost real WPM in the first fifteen seconds. One thirty-second round before a longer attempt raises the score of the round that follows without adding fatigue, which makes this the cheapest warm-up in the set. Pair it with the <a href="typing-test-tips.html">typing test tips</a> checklist for a repeatable routine.</p>
     <p class="byline">By <a href="about.html">the Typing.Rerivo team</a> &mdash; we build and maintain this typing test. Scoring formulas and the benchmarks used on our pages are documented in the methodology notes on our <a href="about.html">about page</a>, along with the sources we cite. Page last updated 2026-10-31.</p>
   </section>

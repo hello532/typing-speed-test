@@ -4,13 +4,9 @@ Source: https://typing.rerivo.com/40-wpm-typing-test.html
 
 Forty words per minute is the number that appears in more job postings than any other: 40 WPM, five minutes, few errors. It is roughly the 28th percentile — the threshold that separates 'can type' from 'can be employed to type'.
 
-## The number behind the number
-
 40 WPM is 200 characters per minute, 12,000 keystrokes per hour, and 200 words over a five-minute test. On a standard error rule of one error per ten words, you are allowed about twenty errors across the five minutes — which sounds generous until you watch your score after a bad paragraph.
 
 The US federal clerical standard is published as 40 WPM over five minutes with no more than three errors, which is far stricter: 98.5% accuracy. Most private employers quote the speed and leave the accuracy floor at 95%.
-
-## Who actually asks for it
 
 Role | Stated requirement | At 40 WPM
 Receptionist | 40-50 net WPM | Bottom of the band
@@ -21,8 +17,6 @@ Data entry clerk | 45-65 WPM or 13,500+ KPH | Short
 
 Being exactly at the line is risky on a five-minute test, because one bad sentence can drop you under it. Aim for 44-45 before you apply, which gives you the margin that 40 alone does not.
 
-## The four weeks that actually work
-
 Week 1 — measure and stop the bleeding. Three five-minute rounds, no backspace rule, accuracy recorded. Most candidates at 40 WPM are correcting 8-12 times a minute; removing that habit alone buys 3-5 WPM.
 
 Week 2 — cover the keyboard. One round a day with hands covered. This is uncomfortable for three days and then stops being an issue, and it is the difference between a ceiling at 45 and no ceiling.
@@ -30,8 +24,6 @@ Week 2 — cover the keyboard. One round a day with hands covered. This is uncom
 Week 3 — length and mode. Five-minute sentence rounds three times a week, one numbers round a week. Add capitals and punctuation deliberately: real tests include them and untrained typists drop them under time pressure.
 
 Week 4 — simulate. Full-length, time of day matching your interview, unfamiliar keyboard. Then test once and use that number on applications.
-
-## What to do if you are already at 55
 
 Stop training for 40 and move to the 60 WPM plan; the skill work is the same but the drills change. At 55 you are already above the requirement for almost every clerical role, so further gains are for transcription, legal and medical work rather than for clearing a gate.
 

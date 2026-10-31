@@ -414,6 +414,16 @@ body.typing-active footer{opacity:.26;filter:saturate(.72);pointer-events:none;}
 .conv input:focus{outline:2px solid var(--borderhi);outline-offset:1px;}
 .conv-out{margin:12px 0 0;font-size:.95rem;font-weight:600;color:var(--text);}
 .conv-out span{color:var(--soft);font-weight:500;}
+
+/* Round-39: "On this page" jump list for long pages (≥6 sections).
+   Helps snippet extraction and lets readers jump to the section they need. */
+.toc{max-width:760px;margin:0 0 18px;padding:14px 18px;border:1px solid var(--line);border-radius:12px;background:var(--panel2);}
+.toc p{margin:0 0 8px;font-size:.78rem;font-weight:700;letter-spacing:.6px;text-transform:uppercase;color:var(--soft);}
+.toc ol{margin:0;padding-left:20px;display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:4px 22px;}
+.toc li{font-size:.9rem;line-height:1.45;}
+.toc a{color:var(--soft);text-decoration:none;}
+.toc a:hover{color:var(--text);text-decoration:underline;}
+@media(max-width:560px){.toc ol{grid-template-columns:1fr;}}
 </style>
 <script>try{var _t=localStorage.getItem("trTheme");if(_t&&_t!=="dark")document.documentElement.setAttribute("data-theme",_t);var _l=localStorage.getItem("trLang");if(_l&&_l!=="en"){document.documentElement.lang=_l;if(_l==="ar")document.documentElement.dir="rtl";}}catch(e){}</script>
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1401237223139327"
@@ -548,18 +558,18 @@ body.typing-active footer{opacity:.26;filter:saturate(.72);pointer-events:none;}
   </nav>
 
   <section class="seo">
-    <h2>What the standard actually says</h2>
+    <h2 id="what-the-standard-actually-says">What the standard actually says</h2>
     <p>Federal clerical and office-automation positions are commonly advertised with a typing requirement of 40 words per minute, demonstrated on a five-minute sample, with no more than three errors. Some agencies accept a self-certification on the application; others ask for a certificate from a testing centre or an approved online test.</p>
     <p>The arithmetic is simple: 40 WPM for five minutes is 200 words, or about 1,000 correct characters at five characters per word. Three errors in that sample is 1.5% - so the real requirement is roughly 98.5% accuracy at a moderate speed, not a fast run.</p>
-    <h2>Why candidates fail it</h2>
+    <h2 id="why-candidates-fail-it">Why candidates fail it</h2>
     <ul><li><strong>They practise one-minute bursts.</strong> A five-minute sample has a different error profile: fatigue, drifting attention, and the temptation to speed up when the end is in sight.</li><li><strong>They correct too much.</strong> Three errors are allowed; twelve corrections in a panic can push you under 40 WPM even though your accuracy was fine.</li><li><strong>They have never seen the format.</strong> Some tests show the passage continuously and scroll; others replace line by line. Rehearse both.</li></ul>
-    <h2>A rehearsal that matches the format</h2>
+    <h2 id="a-rehearsal-that-matches-the-format">A rehearsal that matches the format</h2>
     <p>Run a five-minute sentence test with the passage visible and no pause. Then count: net WPM must exceed 40 and uncorrected errors must stay at or below three. Do this three times in a week; if all three pass, the format is not going to surprise you.</p>
     <p>If you are failing on errors rather than speed, slow to about 45 WPM indicated and hold it. The extra five WPM of headroom is what absorbs a bad sentence.</p>
-    <h2>Certificate versus self-certification</h2>
+    <h2 id="certificate-versus-self-certification">Certificate versus self-certification</h2>
     <p>A self-certification is the fastest route: you state your speed on the application and the agency may verify later. A proctored certificate costs money and takes a visit, but it never expires in the middle of a hiring cycle and some postings require it outright.</p>
     <p>Read the announcement carefully. If it says "must submit a typing test with your name and date", a self-certification will be rejected, and a certificate older than a year is often refused as well.</p>
-    <h2>What to do with the number afterwards</h2>
+    <h2 id="what-to-do-with-the-number-afterwards">What to do with the number afterwards</h2>
     <p>Once you clear 40 WPM, stop optimising it. Federal screening is qualifying: a 70 WPM score does not add points that a 45 WPM score misses. Put the remaining effort into the rest of the application, where the competition actually is.</p>
     <p>Keep one dated record of a passing five-minute run so you can attach it to future applications without re-testing.</p>
     <p class="byline">By <a href="about.html">the Typing.Rerivo team</a> &mdash; we build and maintain this typing test. Scoring formulas and the benchmarks used on our pages are documented in the methodology notes on our <a href="about.html">about page</a>, along with the sources we cite. Page last updated 2026-10-31.</p>

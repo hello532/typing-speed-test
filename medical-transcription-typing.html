@@ -414,6 +414,16 @@ body.typing-active footer{opacity:.26;filter:saturate(.72);pointer-events:none;}
 .conv input:focus{outline:2px solid var(--borderhi);outline-offset:1px;}
 .conv-out{margin:12px 0 0;font-size:.95rem;font-weight:600;color:var(--text);}
 .conv-out span{color:var(--soft);font-weight:500;}
+
+/* Round-39: "On this page" jump list for long pages (≥6 sections).
+   Helps snippet extraction and lets readers jump to the section they need. */
+.toc{max-width:760px;margin:0 0 18px;padding:14px 18px;border:1px solid var(--line);border-radius:12px;background:var(--panel2);}
+.toc p{margin:0 0 8px;font-size:.78rem;font-weight:700;letter-spacing:.6px;text-transform:uppercase;color:var(--soft);}
+.toc ol{margin:0;padding-left:20px;display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:4px 22px;}
+.toc li{font-size:.9rem;line-height:1.45;}
+.toc a{color:var(--soft);text-decoration:none;}
+.toc a:hover{color:var(--text);text-decoration:underline;}
+@media(max-width:560px){.toc ol{grid-template-columns:1fr;}}
 </style>
 <script>try{var _t=localStorage.getItem("trTheme");if(_t&&_t!=="dark")document.documentElement.setAttribute("data-theme",_t);var _l=localStorage.getItem("trLang");if(_l&&_l!=="en"){document.documentElement.lang=_l;if(_l==="ar")document.documentElement.dir="rtl";}}catch(e){}</script>
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1401237223139327"
@@ -548,31 +558,32 @@ body.typing-active footer{opacity:.26;filter:saturate(.72);pointer-events:none;}
   </nav>
 
   <section class="seo">
-    <h2>What medical transcription involves</h2>
+    <nav class="toc" aria-label="On this page"><p>On this page</p><ol><li><a href="#what-medical-transcription-involves">What medical transcription involves</a></li><li><a href="#the-three-requirements-speed-accuracy-terminolog">The three requirements: speed, accuracy, terminology</a></li><li><a href="#privacy-and-compliance-obligations">Privacy and compliance obligations</a></li><li><a href="#the-training-path-in">The training path in</a></li><li><a href="#how-medical-terminology-is-actually-learned">How medical terminology is actually learned</a></li><li><a href="#report-formats-you-must-know">Report formats you must know</a></li><li><a href="#editing-speech-recognition-drafts-the-modern-rol">Editing speech-recognition drafts: the modern role</a></li><li><a href="#privacy-practice-in-daily-work">Privacy practice in daily work</a></li><li><a href="#is-the-investment-worth-it">Is the investment worth it?</a></li></ol></nav>
+    <h2 id="what-medical-transcription-involves">What medical transcription involves</h2>
     <p>You convert clinicians' dictated recordings — patient histories, examination findings, discharge summaries, operative notes — into formatted medical documents. The source audio is fast, accented and full of terminology that sounds alike: ileum versus ilium, hypertension versus hypotension. An error is not a typo here; it can change a patient's record.</p>
     <p>That is why the field pairs typing skill with domain knowledge, and why it pays a premium over general transcription. The typing test is the entry ticket, not the job.</p>
-    <h2>The three requirements: speed, accuracy, terminology</h2>
+    <h2 id="the-three-requirements-speed-accuracy-terminolog">The three requirements: speed, accuracy, terminology</h2>
     <p>Speed: the same 300+ CPM (60+ WPM) floor as general transcription, verifiable on a timed test — the <a href="cpm-typing-test.html">CPM typing test</a> measures exactly this. Accuracy: effectively 99%+, because clinical documents tolerate almost no error. Terminology: anatomy, pharmacology, disease names, procedure names and the abbreviations clinicians actually dictate — the real barrier, learned over months of structured study rather than days.</p>
     <p>Reports also follow strict formats — history and physical, consultation, operative note — with section headers and conventions that employers test alongside your typing.</p>
-    <h2>Privacy and compliance obligations</h2>
+    <h2 id="privacy-and-compliance-obligations">Privacy and compliance obligations</h2>
     <p>Medical transcription handles protected health information, which in most jurisdictions carries legal privacy duties. In practice that means: working only on approved, secure systems; never storing audio or drafts locally; no discussing cases; and formal confidentiality agreements with every employer or platform. Breaches are career-ending events, not warnings.</p>
     <p>Any legitimate training path includes privacy compliance as a core module. Any employer that does not ask about privacy practices is itself a warning sign.</p>
-    <h2>The training path in</h2>
+    <h2 id="the-training-path-in">The training path in</h2>
     <p>The realistic sequence: first, meet the typing floor — 300+ CPM at 98%+ accuracy, measured. Second, learn medical terminology systematically: root words, prefixes and suffixes do most of the work (cardio-, -itis, -ectomy), because thousands of terms decompose into a few hundred parts. Third, practise with real dictation-style audio at gradually increasing speed, formatting to standard report templates.</p>
     <p>Fourth, consider a recognised training program if you want structured proof for employers — the field has established certificate programs, and while requirements vary by employer, documented training shortens every application. For the broader context, compare with <a href="transcription-typing-jobs.html">transcription typing jobs</a> and the <a href="typing-speed-requirements.html">typing speed requirements</a> table.</p>
-    <h2>How medical terminology is actually learned</h2>
+    <h2 id="how-medical-terminology-is-actually-learned">How medical terminology is actually learned</h2>
     <p>Clinical vocabulary looks infinite and is not: most terms assemble from a few hundred Greek and Latin parts. Learn that cardio- means heart, -itis means inflammation, -ectomy means removal, and suddenly cardiomyopathy, tonsillitis and appendectomy decode themselves. Study systems teach these roots first, then layer anatomy and pharmacology on top.</p>
     <p>Expect two to four months of consistent study to reach working vocabulary, and plan to keep a medical dictionary open beside you for the first year on real files. Even senior transcriptionists verify drug names rather than trust memory — the field punishes confident guessing.</p>
-    <h2>Report formats you must know</h2>
+    <h2 id="report-formats-you-must-know">Report formats you must know</h2>
     <p>Medical documents follow strict structures: the History and Physical (chief complaint, history of present illness, review of systems, examination, assessment, plan), the operative note (pre/post-op diagnosis, procedure, findings, technique), the discharge summary. Each has expected section headers and ordering, and employers grade format knowledge alongside typing.</p>
     <p>The efficient way to learn them: transcribe sample reports from any reputable teaching resource, comparing your structure to the template line by line. A dozen of these teaches more than a month of abstract study.</p>
-    <h2>Editing speech-recognition drafts: the modern role</h2>
+    <h2 id="editing-speech-recognition-drafts-the-modern-rol">Editing speech-recognition drafts: the modern role</h2>
     <p>Much of today's medical transcription is editing: speech-recognition software produces a draft, and the human verifies terminology, punctuation and context. The skill set shifts from raw speed to forensic accuracy — catching the drug-name substitution the machine got wrong, the 'no' the software dropped.</p>
     <p>This evolution makes the field more terminology-dependent, not less: the machine handles the typing, you handle the knowing. Typing speed remains the entry test, but long-term value lives in vocabulary and verification discipline.</p>
-    <h2>Privacy practice in daily work</h2>
+    <h2 id="privacy-practice-in-daily-work">Privacy practice in daily work</h2>
     <p>Compliance translates into small daily habits: working only inside the approved platform, locking your screen every time you step away, never copying text outside the system, never discussing cases — not even anonymised, not even at home. Secure disposal of any notes, and immediate reporting of anything that looks like a breach.</p>
     <p>These feel like formalities until the first audit. Build them as reflexes from day one and they cost nothing; learn them after a violation and they cost everything.</p>
-    <h2>Is the investment worth it?</h2>
+    <h2 id="is-the-investment-worth-it">Is the investment worth it?</h2>
     <p>The honest accounting: medical transcription demands the largest training investment in the typing world — months of terminology plus privacy discipline — and returns it with better rates, steadier demand and genuine scarcity of qualified people. Generalists are plentiful; people who can verify a cardiology report are not.</p>
     <p>If you already type 60+ WPM accurately and enjoy precise, knowledge-heavy work, the investment pays. If you want quick entry to typing income, start with general transcription and revisit the medical branch once your fundamentals are proven.</p>
     <p>One more reality worth pricing in before you commit: the learning never fully stops. New drugs, new procedures and new abbreviations arrive every year, and staying accurate means staying curious — the field rewards people who treat terminology as a permanent practice rather than a one-time course.</p>

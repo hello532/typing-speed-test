@@ -414,6 +414,16 @@ body.typing-active footer{opacity:.26;filter:saturate(.72);pointer-events:none;}
 .conv input:focus{outline:2px solid var(--borderhi);outline-offset:1px;}
 .conv-out{margin:12px 0 0;font-size:.95rem;font-weight:600;color:var(--text);}
 .conv-out span{color:var(--soft);font-weight:500;}
+
+/* Round-39: "On this page" jump list for long pages (≥6 sections).
+   Helps snippet extraction and lets readers jump to the section they need. */
+.toc{max-width:760px;margin:0 0 18px;padding:14px 18px;border:1px solid var(--line);border-radius:12px;background:var(--panel2);}
+.toc p{margin:0 0 8px;font-size:.78rem;font-weight:700;letter-spacing:.6px;text-transform:uppercase;color:var(--soft);}
+.toc ol{margin:0;padding-left:20px;display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:4px 22px;}
+.toc li{font-size:.9rem;line-height:1.45;}
+.toc a{color:var(--soft);text-decoration:none;}
+.toc a:hover{color:var(--text);text-decoration:underline;}
+@media(max-width:560px){.toc ol{grid-template-columns:1fr;}}
 </style>
 <script>try{var _t=localStorage.getItem("trTheme");if(_t&&_t!=="dark")document.documentElement.setAttribute("data-theme",_t);var _l=localStorage.getItem("trLang");if(_l&&_l!=="en"){document.documentElement.lang=_l;if(_l==="ar")document.documentElement.dir="rtl";}}catch(e){}</script>
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1401237223139327"
@@ -549,21 +559,22 @@ body.typing-active footer{opacity:.26;filter:saturate(.72);pointer-events:none;}
   </nav>
 
   <section class="seo">
-    <h2>10 minute typing test</h2>
+    <nav class="toc" aria-label="On this page"><p>On this page</p><ol><li><a href="#10-minute-typing-test">10 minute typing test</a></li><li><a href="#who-needs-a-10-minute-test">Who needs a 10 minute test?</a></li><li><a href="#how-to-pace-a-10-minute-test">How to pace a 10 minute test</a></li><li><a href="#reading-your-10-minute-result">Reading your 10 minute result</a></li><li><a href="#preparing-for-a-10-minute-typing-test">Preparing for a 10 minute typing test</a></li><li><a href="#what-10-minutes-measures-that-1-minute-can-t">What 10 minutes measures that 1 minute can't</a></li><li><a href="#the-10-minute-decay-curve">The 10 minute decay curve</a></li><li><a href="#training-for-the-10-minute-format">Training for the 10 minute format</a></li><li><a href="#when-employers-and-exams-use-long-tests">When employers and exams use long tests</a></li><li><a href="#taking-a-ten-minute-typing-test-online">Taking a ten minute typing test online</a></li><li><a href="#why-the-five-character-word-matters-for-enduranc">Why the five-character word matters for endurance scores</a></li></ol></nav>
+    <h2 id="10-minute-typing-test">10 minute typing test</h2>
     <p>The <strong>10 minute typing test</strong> is the ultimate endurance check. Ten minutes exposes fatigue that short rounds hide: most typists slow 5-15% between minute one and minute ten, so your score here reflects what you can truly sustain. Warm up first with a <a href="1-minute-typing-test.html">1 minute typing test</a> or a <a href="5-minute-typing-test.html">5 minute typing test</a>.</p>
-    <h2>Who needs a 10 minute test?</h2>
+    <h2 id="who-needs-a-10-minute-test">Who needs a 10 minute test?</h2>
     <p>Anyone whose work is long-form typing - transcriptionists, writers, coders, data entry clerks. If you will type for hours, a 10 minute result predicts your real-day speed better than any sprint. Build up to it with structured <a href="typing-practice.html">typing practice</a> sessions.</p>
-    <h2>How to pace a 10 minute test</h2>
+    <h2 id="how-to-pace-a-10-minute-test">How to pace a 10 minute test</h2>
     <p>Start about 10% slower than your 1 minute speed and settle into a rhythm you can hold. Sit up, keep wrists neutral, and take micro-pauses at sentence breaks. Finishing strong matters more than an early burst that fades.</p>
-    <h2>Reading your 10 minute result</h2>
+    <h2 id="reading-your-10-minute-result">Reading your 10 minute result</h2>
     <p>Your ten-minute score tells two stories: the headline WPM, and the fade between your fastest and slowest minutes. A drop under 10% means solid endurance; 10 to 20% is normal and shrinks with practice; more than 20% points to tension — usually raised shoulders or held breath — rather than weak fingers. Check whether errors cluster late in the round, which signals fatigue, or scatter throughout, which signals an accuracy habit; then train the weakness with focused <a href="typing-practice.html">typing practice</a> sessions.</p>
-    <h2>Preparing for a 10 minute typing test</h2>
+    <h2 id="preparing-for-a-10-minute-typing-test">Preparing for a 10 minute typing test</h2>
     <p>A 10 minute typing test is an endurance event, not a sprint. Almost everyone finishes 10-15% slower than their <a href="1-minute-typing-test.html">1 minute</a> speed, and that is expected rather than a failure.</p>
     <ul><li><strong>Set posture first</strong> - feet flat, wrists neutral, elbows near 90 degrees. Discomfort at minute three becomes lost accuracy by minute seven.</li><li><strong>Pace, do not sprint</strong> - open at roughly 90% of your comfortable speed and hold it. Sprinting the first minute reliably costs more than it gains.</li><li><strong>Stop correcting every slip</strong> - for an endurance score, constant backtracking costs more WPM than the error itself.</li><li><strong>Breathe and relax the shoulders</strong> - tension is the main cause of late-round slowdown.</li></ul>
-    <h2>What 10 minutes measures that 1 minute can't</h2>
+    <h2 id="what-10-minutes-measures-that-1-minute-can-t">What 10 minutes measures that 1 minute can't</h2>
     <p>A one-minute test measures your working speed — fresh fingers, no fatigue, a sprint by any other name. Ten minutes measures something employers actually care about more: whether your speed survives contact with real work. Almost everyone is fast for sixty seconds; the tenth minute is where sloppy posture, death-grip tension and uneven rhythm come due.</p>
     <p>Expect your ten-minute score to read 5–15% below your one-minute score. That gap is not a failure — it is your fatigue profile, and it is the most honest single number about your typing. A small gap means your technique is sustainable; a large gap means you are borrowing speed from muscles that will not lend it for eight hours.</p>
-    <h2>The 10 minute decay curve</h2>
+    <h2 id="the-10-minute-decay-curve">The 10 minute decay curve</h2>
     <p>Ten minutes has a shape, and knowing it is half the pacing battle. The table below breaks the test into its natural segments — where speed comes free, where the wall hits, and what to do in each.</p>
     <div class="tbl"><table><thead><tr><th>Segment</th><th>What happens</th><th>What to do</th></tr></thead><tbody>
     <tr><td>Minutes 1–2</td><td>Warm-up; rhythm forms</td><td>Start at 90% of sprint pace, settle early</td></tr>
@@ -572,16 +583,16 @@ body.typing-active footer{opacity:.26;filter:saturate(.72);pointer-events:none;}
     <tr><td>Minutes 9–10</td><td>Second wind or collapse</td><td>Hold form, finish clean — last-minute errors cost most</td></tr>
   </tbody></table></div>
     <p>Most people lose the test in minutes 7–8, not because they are slow but because they refuse to downshift. The professionals' secret is unglamorous: planned deceleration. Losing 5% of pace for two minutes costs far less than the error cluster that full-speed fatigue produces.</p>
-    <h2>Training for the 10 minute format</h2>
+    <h2 id="training-for-the-10-minute-format">Training for the 10 minute format</h2>
     <p>Endurance is trainable, and the training is boring on purpose: one long round per week at the full ten minutes, watching where your accuracy starts to slip. That slip point moves later and later over a month of weekly rounds — from minute five, to seven, to clear through ten. The decay curve flattening is the clearest progress signal in endurance typing.</p>
     <p>Two supporting habits matter more than extra rounds. Posture checks at minute five — shoulders down, wrists floating, grip relaxed — because tension is what you are actually fighting in the back half. And a ten-second hand shake between practice rounds, so you learn to release tension instead of carrying it into the next round.</p>
-    <h2>When employers and exams use long tests</h2>
+    <h2 id="when-employers-and-exams-use-long-tests">When employers and exams use long tests</h2>
     <p>Short tests dominate hiring screens, but the long formats show up wherever the job itself is long: transcription and captioning assessments (sustained audio work), data-entry simulations for volume roles, and court or administrative exams in several countries that set five-to-ten-minute passages specifically to measure endurance.</p>
     <p>If your target role involves continuous typing, your ten-minute score matters more than your one-minute best — and the <a href="typing-speed-requirements.html">typing speed requirements</a> table shows which roles weight endurance heavily. Practise the format you will be tested on: the <a href="5-minute-typing-test.html">5 minute typing test</a> is the natural stepping stone if ten minutes still breaks you today.</p>
-    <h2>Taking a ten minute typing test online</h2>
+    <h2 id="taking-a-ten-minute-typing-test-online">Taking a ten minute typing test online</h2>
     <p>This <strong>ten minute typing test</strong> runs the full 600 seconds in the browser with no sign-up and no round limit, so you can repeat it as often as you like and keep every result in your own local history. Ten minutes is long enough that pacing, posture and fatigue decide the score more than raw finger speed does, which makes it the honest format for testing whether a speed you hit in one minute survives real work.</p>
     <p>Use it as an endurance check rather than a daily drill: one ten minute run after a warm-up, compared against your own one minute result from the same week. A gap of 5 to 15 percent below your short-round speed is normal. A gap wider than that is a posture or tension problem, not a speed problem, and the fix is a slower pace with relaxed wrists rather than more force.</p>
-    <h2>Why the five-character word matters for endurance scores</h2>
+    <h2 id="why-the-five-character-word-matters-for-enduranc">Why the five-character word matters for endurance scores</h2>
     <p>Long rounds are only comparable if the unit is fixed. This test scores every five characters as one word, the convention documented for <a href="https://en.wikipedia.org/wiki/Words_per_minute" rel="noopener">words per minute</a>, so a ten minute result can be set against a one minute result from any other test that uses the same rule. Change the unit and the drop you are measuring stops being fatigue &mdash; it becomes an artefact of the formula.</p>
     <p class="byline">By <a href="about.html">the Typing.Rerivo team</a> &mdash; we build and maintain this typing test. Scoring formulas and the benchmarks used on our pages are documented in the methodology notes on our <a href="about.html">about page</a>, along with the sources we cite. Page last updated 2026-10-31.</p>
   </section>

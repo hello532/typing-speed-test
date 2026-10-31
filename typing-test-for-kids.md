@@ -4,11 +4,7 @@ Source: https://typing.rerivo.com/typing-test-for-kids.html
 
 A free, kid-friendly typing test that measures words per minute (WPM) with simple words, a big on-screen keyboard and a finger guide. No ads in the typing area and no sign-up &mdash; children just start typing. A typical speed for kids is 15–30 WPM, improving fast with short daily practice.
 
-## A fun, simple typing test for kids
-
 This is a free typing test made for kids: simple words, a big on-screen keyboard that highlights the next key, and a hand guide that shows which finger to use. There is no sign-up and no ads inside the typing area, so children can just start typing. A typical speed for kids is 15–30 WPM and improves quickly with a little daily practice.
-
-## What is a good typing speed for kids by age?
 
 Children type more slowly than adults, which is completely normal - the goal at this age is correct finger habits, not speed. These are rough averages; a child who touch types a little slower will overtake a faster hunt-and-peck typist within months.
 
@@ -18,11 +14,7 @@ Under 8 | 8-15 WPM | First letters; still finding keys
 11-13 | 15-30 WPM | Muscle memory building fast
 13-15 | 25-45 WPM | Approaching adult beginner range
 
-## How kids can type faster (the fun way)
-
 Keep sessions short and playful: 10–15 minutes a day beats one long session. Start with the home row (ASDF and JKL;), use the on-screen hands below so your child never has to look down, and praise accuracy over speed. Turn it into a race against their own best score with the typing race or the typing games. Framed as typing games for kids, the same drills work: short rounds, immediate feedback and a score to beat keep children coming back without turning practice into a chore.
-
-## How to use the kids test
 
 The right way to run short rounds: typing games for kids explains the 5-10 minute cadence, letter-hunt starts and the accuracy-first rule.
 

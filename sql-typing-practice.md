@@ -4,13 +4,9 @@ Source: https://typing.rerivo.com/sql-typing-practice.html
 
 SQL is punctuation with words attached. Every query needs quotes, semicolons, parentheses and usually a pipe, and those keys are where analysts lose their speed. This drill types 36 real queries, not prose.
 
-## What makes SQL slow to type
-
 Plain English uses 26 letters and a space. A single SELECT statement uses quotes, a semicolon, parentheses, an underscore, a dot and often a pipe or a cast operator. None of those sit under the home row, so a typist who is comfortable at 70 WPM on prose will typically drop to 40-50 WPM here.
 
 The second factor is structure. You are not copying a sentence, you are reproducing a syntax tree, and the eye has to jump between keywords and symbols instead of flowing left to right. That is a trainable skill and it is separate from general typing speed.
-
-## The characters that dominate
 
 Single quotes on the pinky, doubled in SQL because strings are delimited - the most common source of a broken query.
 Parentheses and underscores on the right pinky, which is already the weakest finger for most typists.
@@ -19,13 +15,9 @@ Pipes and arrows for concatenation and JSON access, which pull the right hand of
 
 If your error log concentrates on the pinky keys, that is not a knowledge gap - it is a reach problem, and it responds to a few minutes of deliberate symbol drill per day.
 
-## How to practise without writing nonsense
-
 The pool on this page is 36 real statements: a projection, a join with an alias, a grouped aggregate, a CTE, a window function, an index creation, an UPDATE with a timestamp. They are the shapes you actually type in a working day, not keyword soup.
 
 Run one-minute rounds until the syntax stops needing thought, then move to three-minute rounds. Analysts rarely type one query at a time; they type twelve in a row while reading output, and the stamina matters more than the peak.
-
-## Where to go next
 
 If you write Python or JavaScript, the Python code typing and JavaScript code typing pools use the same engine with different syntax. For spreadsheet work, the Excel formula practice page trains the same bracket-and-comma vocabulary in a different grammar.
 

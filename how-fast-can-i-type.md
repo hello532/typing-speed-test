@@ -4,19 +4,11 @@ Source: https://typing.rerivo.com/how-fast-can-i-type.html
 
 One minute is all it takes to answer the question. Type the passage and get your words per minute and accuracy instantly.
 
-## Find your words per minute
-
 Words per minute, or WPM, is the standard measure of typing speed. It is calculated from the number of correctly typed characters divided by five — the average length of an English word — over the time you typed. This page gives you a clean one-minute reading.
-
-## How you compare
 
 The average adult types around 40 WPM. Under 30 WPM is below average, 40 to 60 WPM is exactly average to comfortable, 60 to 80 WPM is fast, and above 100 WPM is rare and professional-level. These figures are for typing on a keyboard in your own language.
 
-## What your score really means
-
 Speed without accuracy is misleading. A 70 WPM score at 88% accuracy is worth less than 55 WPM at 99%, because in real typing you have to fix every error. Always read the two numbers together.
-
-## Can you type faster?
 
 Almost certainly yes. Almost everyone can gain ten to twenty words per minute by learning to touch type with all ten fingers and by drilling the specific keys that make them hesitate. Ten focused minutes a day is enough.
 

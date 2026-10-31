@@ -4,15 +4,9 @@ Source: https://typing.rerivo.com/typing-tutor.html
 
 Free typing tutor with live feedback. Pick a drill, type for sixty seconds, and the tutor scores your WPM, your accuracy, and names the exact keys that slowed you down. Every drill is also your practice text, so the lesson is the workout. No sign up, no cost.
 
-## typing tutor
-
 A typing tutor is a practice partner that never gets tired and never charges. This free online typing tutor runs a sixty second drill, then hands you three numbers: words per minute, accuracy, and an error report that names every key you missed. The practice sentences are written as tutor drills, so while you type you are being coached in the language of drills, scores, and feedback. No download, no account, and no paywall between you and another rep.
 
-## How this typing tutor teaches
-
 Every drill works the same way: the tutor loads a line of practice text, the timer starts on your first keystroke, and the score updates live. When the minute ends, the tutor prints your error report, and that report is the whole lesson. It tells you which keys are slow, which are wrong, and which hand is doing extra work. Your weakest key becomes the next drill, and the tutor keeps your best score in the browser so each session has something to beat.
-
-## A week with the typing tutor
 
 Day one is diagnosis: run three drills and read the error reports without trying to fix anything. Day two through four, drill the two weakest keys until they are boring. Day five, run the full minute at half speed and let accuracy climb. By the end of the week the tutor's own leaderboard, your saved best scores, will show you what the drills did. Ten minutes a day is the entire prescription.
 

@@ -4,19 +4,11 @@ Source: https://typing.rerivo.com/paragraph-typing-test.html
 
 Practise with full paragraphs instead of single words — the format real typing exams and job tests use.
 
-## Paragraph vs word typing test
-
 A word test flashes a list of common words, which rewards pure finger speed. A paragraph typing test gives you connected sentences with spaces, capitals and punctuation — closer to what you actually type at work, and to what most exams and employers set.
-
-## Why paragraphs are harder
 
 Paragraphs make you hold rhythm across long familiar phrases, returning to the home row for capitals and reaching for the comma and full stop without breaking flow. Because the text is real language, you also cannot autopilot a short list of repeated words — you have to read ahead.
 
-## Choose your passage length
-
 Use the timer chips to sit a 1-minute paragraph for a quick check, a 5-minute paragraph for practice, or a 10-minute paragraph for full exam stamina. Longer passages expose the speed decay that short bursts hide.
-
-## How to use this page
 
 Start typing and keep going until the timer runs out. Your WPM, accuracy and a per-second speed chart appear straight away. Practise two or three passages a day and review where your accuracy drops — that is where the lost words per minute hide.
 

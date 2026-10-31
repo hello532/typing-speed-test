@@ -4,7 +4,14 @@ Source: https://typing.rerivo.com/typing-speed-requirements.html
 
 Job ads quote speed in three different units - WPM, keystrokes per hour and key depressions per hour - and they rarely say which one the test uses. This page converts between them and lists what each role actually screens for.
 
-## Requirements at a glance
+On this page
+
+Requirements at a glance
+What 8,000 key depressions per hour means
+Government and civil service examples
+Converting between the three units
+How to close the gap in four weeks
+Sources and how to read them
 
 Role | Speed quoted | In WPM | Accuracy floor | Test length
 General office / admin | 40-55 WPM | 40-55 | 95% | 3-5 min
@@ -20,13 +27,9 @@ Court reporter | 225 WPM stenotype | not comparable | 95% | dictation
 
 The bands overlap because employers set their own floor. Read the posting for the exact figure and the unit it is quoted in.
 
-## What 8,000 key depressions per hour means
-
 A key depression is one keystroke, including the corrections you make. 8,000 KDPH is 8,000 ÷ 60 = 133 keystrokes per minute, about 26.7 WPM at five characters per word. 10,000 KPH is 33 WPM; 12,000 KPH is 40 WPM.
 
 The correction penalty is what trips people up. Someone who types 40 WPM but backspaces constantly can miss an 8,000 KPH bar, because every correction is another key depression against the same hour. Practise typing it right the first time.
-
-## Government and civil service examples
 
 These are examples from public postings and published standards, not universal rules - always read the notice for the cycle you are applying in.
 
@@ -35,13 +38,9 @@ County and municipal clerical postings typically quote 40 net WPM, with 50 net W
 Public-safety dispatch ranges from 30 to 45 correct WPM depending on the agency; several run a CritiCall-style battery on top of the typing test.
 India SSC CHSL separates the posts: 35 WPM English or 30 WPM Hindi for LDC and JSA, and 8,000 key depressions per hour for DEO.
 
-## Converting between the three units
-
 WPM to KPH: multiply by 300 (five characters per word, sixty minutes per hour). WPM to CPM: multiply by 5. KPH to WPM: divide by 300. KDPH to WPM: divide by 300 as well, but corrections count against you.
 
 So a 45 WPM score is 13,500 KPH, and an 8,000 KPH requirement is about 27 WPM. If a posting quotes a number you have never measured, convert it before deciding whether you qualify - the units exaggerate the gap in both directions.
-
-## How to close the gap in four weeks
 
 Week one: measure honestly. Take a five-minute test in the mode the job uses - sentences for clerical work, numbers for data entry - and record net WPM plus accuracy. That number, not your best one-minute burst, is your starting point.
 
@@ -50,8 +49,6 @@ Week two: accuracy first. Type at 85% of your best pace until accuracy holds abo
 Week three: length. Move to rounds the same length as the real test. A five-minute test at 45 WPM is a different skill from a one-minute test at 55.
 
 Week four: simulate. Same time of day, unfamiliar keyboard, no pause. Then re-measure against the band for your target role.
-
-## Sources and how to read them
 
 The bands above come from publicly advertised job requirements and published examination standards across clerical, medical, legal and public-safety postings. They are ranges, not guarantees: two employers in the same sector can differ by ten WPM.
 

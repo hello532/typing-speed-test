@@ -414,6 +414,16 @@ body.typing-active footer{opacity:.26;filter:saturate(.72);pointer-events:none;}
 .conv input:focus{outline:2px solid var(--borderhi);outline-offset:1px;}
 .conv-out{margin:12px 0 0;font-size:.95rem;font-weight:600;color:var(--text);}
 .conv-out span{color:var(--soft);font-weight:500;}
+
+/* Round-39: "On this page" jump list for long pages (≥6 sections).
+   Helps snippet extraction and lets readers jump to the section they need. */
+.toc{max-width:760px;margin:0 0 18px;padding:14px 18px;border:1px solid var(--line);border-radius:12px;background:var(--panel2);}
+.toc p{margin:0 0 8px;font-size:.78rem;font-weight:700;letter-spacing:.6px;text-transform:uppercase;color:var(--soft);}
+.toc ol{margin:0;padding-left:20px;display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:4px 22px;}
+.toc li{font-size:.9rem;line-height:1.45;}
+.toc a{color:var(--soft);text-decoration:none;}
+.toc a:hover{color:var(--text);text-decoration:underline;}
+@media(max-width:560px){.toc ol{grid-template-columns:1fr;}}
 </style>
 <script>try{var _t=localStorage.getItem("trTheme");if(_t&&_t!=="dark")document.documentElement.setAttribute("data-theme",_t);var _l=localStorage.getItem("trLang");if(_l&&_l!=="en"){document.documentElement.lang=_l;if(_l==="ar")document.documentElement.dir="rtl";}}catch(e){}</script>
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1401237223139327"
@@ -548,14 +558,14 @@ body.typing-active footer{opacity:.26;filter:saturate(.72);pointer-events:none;}
   </nav>
 
   <section class="seo">
-    <h2>A fun, simple typing test for kids</h2>
+    <h2 id="a-fun-simple-typing-test-for-kids">A fun, simple typing test for kids</h2>
     <p>This is a <strong>free typing test made for kids</strong>: simple words, a big on-screen keyboard that highlights the next key, and a hand guide that shows which finger to use. There is no sign-up and no ads inside the typing area, so children can just start typing. A typical speed for kids is 15–30 WPM and improves quickly with a little daily practice.</p>
-    <h2>What is a good typing speed for kids by age?</h2>
+    <h2 id="what-is-a-good-typing-speed-for-kids-by-age">What is a good typing speed for kids by age?</h2>
     <p>Children type more slowly than adults, which is completely normal &mdash; the goal at this age is correct finger habits, not speed. These are rough averages; a child who touch types a little slower will overtake a faster hunt-and-peck typist within months.</p>
     <div class="tbl"><table><thead><tr><th>Age</th><th>Average WPM</th><th>Notes</th></tr></thead><tbody><tr><td>Under 8</td><td>8&ndash;15 WPM</td><td>First letters; still finding keys</td></tr><tr><td>8&ndash;10</td><td>12&ndash;25 WPM</td><td>Home row settling in</td></tr><tr><td>11&ndash;13</td><td>15&ndash;30 WPM</td><td>Muscle memory building fast</td></tr><tr><td>13&ndash;15</td><td>25&ndash;45 WPM</td><td>Approaching adult beginner range</td></tr></tbody></table></div>
-    <h2>How kids can type faster (the fun way)</h2>
+    <h2 id="how-kids-can-type-faster-the-fun-way">How kids can type faster (the fun way)</h2>
     <p>Keep sessions short and playful: 10–15 minutes a day beats one long session. Start with the home row (ASDF and JKL;), use the on-screen hands below so your child never has to look down, and praise accuracy over speed. Turn it into a race against their own best score with the <a href="typing-race.html">typing race</a> or the <a href="typing-games.html">typing games</a>. Framed as <strong>typing games for kids</strong>, the same drills work: short rounds, immediate feedback and a score to beat keep children coming back without turning practice into a chore.</p>
-    <h2>How to use the kids test</h2>
+    <h2 id="how-to-use-the-kids-test">How to use the kids test</h2>
     <p>The right way to run short rounds: <a href="typing-games-for-kids.html">typing games for kids</a> explains the 5-10 minute cadence, letter-hunt starts and the accuracy-first rule.</p>
     <p class="byline">By <a href="about.html">the Typing.Rerivo team</a> &mdash; we build and maintain this typing test. Scoring formulas and the benchmarks used on our pages are documented in the methodology notes on our <a href="about.html">about page</a>, along with the sources we cite. Page last updated 2026-10-31.</p>
   </section>

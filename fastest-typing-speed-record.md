@@ -4,47 +4,42 @@ Source: https://typing.rerivo.com/fastest-typing-speed-record.html
 
 The fastest typing speed ever measured is more than five times the adult average. Here is what the record books actually say — and the trainable ingredients behind every elite score.
 
-## What the records look like
+On this page
+
+What the records look like
+Record speed on electric keyboards vs computer keyboards
+The four ingredients of elite speed
+How far can you go?
+How typing competitions actually work
+Record speed vs real work speed
+How record claims get verified
+The psychology of speed ceilings
 
 The most commonly cited record belongs to Stella Pajunas, who reportedly reached 216 words per minute on an IBM electric typewriter in 1946. In the modern era, Barbara Blackburn was widely reported to sustain around 212 WPM on a Dvorak keyboard. Competitive typists today regularly post 150-200 WPM in short online sprints, with accuracy above 97%.
 
 Treat exact figures with care: typing records come from different eras, machines and measurement methods, and no single official body certifies them. What is not in doubt is the scale — elite humans type four to five times faster than the 40 WPM average.
 
-## Record speed on electric keyboards vs computer keyboards
-
 Older records were set on electric typewriters with light, consistent key action; modern records come from mechanical computer keyboards. The comparison is imperfect but the ingredients are identical: thousands of hours of deliberate practice, touch-typing technique refined to zero waste motion, and text memorised to the point where reading never lags behind fingers.
 
 Interestingly, several modern record holders use the Dvorak layout, designed to put the most common letters on the home row. Layout matters less than the years behind it — but it shows how far optimisation can go.
-
-## The four ingredients of elite speed
 
 Break any record performance down and you find the same four things. Accuracy first: 98% or better, because at 500+ characters a minute an error costs seconds. Consistency: metronome-even keystrokes, no bursts and stalls. Symbol fluency: zero hesitation on capitals, digits and punctuation. And look-ahead: reading two to three words ahead of the fingers, so the brain never waits for the text.
 
 All four are trainable, and none requires talent. That is the real lesson of the records.
 
-## How far can you go?
-
 Almost nobody needs 200 WPM — but the path toward it is the same path to 60, 80 or 100. Measure your current speed on the fast typing test, then work the four ingredients in order. Curious where you stand right now? The how fast can I type page gives you the one-minute answer.
-
-## How typing competitions actually work
 
 Modern competitive typing happens mostly online: fixed-duration sprints — usually 15 to 60 seconds — on standardised passages, with net WPM and accuracy published on live leaderboards. Anti-cheat systems watch for paste input, inhumanly uniform keystroke timing and impossibly low latency variance, because the difference between a 190 WPM human and a script is visible in the timing data.
 
 Offline championships exist too, with official witnesses and standard keyboards, but the online ladders are where the volume is. What transfers to real life: even champions type 'only' 120–150 WPM on unfamiliar, complex text — record speed lives on rehearsed, predictable passages.
 
-## Record speed vs real work speed
-
 The gap between leaderboard WPM and workplace WPM is the least understood part of the records. Competition passages use common words, minimal numbers and predictable structure; real work throws names, figures, formatting and interruptions at you. A 150 WPM competitor producing flawless prose from dictation is still extraordinary — just closer to 100–120 than to 200.
 
 This is not a reason to dismiss the records; it is a reason to set your own targets correctly. For real work, 60–80 WPM at 98% accuracy outperforms almost every practical need, and it is reachable in months, not the years record speed demands.
 
-## How record claims get verified
-
 Serious speed claims face three tests. The input stream must be genuine human keystrokes — platforms analyse inter-key timing, and machine-uniform intervals or paste-length bursts are instant disqualifiers. The text must be unseen or standardised; a rehearsed passage measures memory, not typing. And the run must be repeatable: anyone can produce one lucky sprint, so rankings weight sustained performance across many rounds.
 
 Older records relied on human witnesses and controlled machines instead, which is why cross-era comparisons stay approximate. The constant across eras: every accepted record combines extreme speed with accuracy in the high nineties — there has never been a sloppy champion.
-
-## The psychology of speed ceilings
 
 Ask record holders what finally unlocked their biggest jumps and the answer is rarely physical. Speed ceilings are usually belief ceilings: the moment a typist sees a peer hit a number, that number becomes imaginable, and imaginable numbers get trained for. The four-minute mile pattern repeats in typing — 100 WPM felt superhuman until leaderboards made it visible, and now thousands of amateurs reach it.
 

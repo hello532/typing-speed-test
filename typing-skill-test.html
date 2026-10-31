@@ -414,6 +414,16 @@ body.typing-active footer{opacity:.26;filter:saturate(.72);pointer-events:none;}
 .conv input:focus{outline:2px solid var(--borderhi);outline-offset:1px;}
 .conv-out{margin:12px 0 0;font-size:.95rem;font-weight:600;color:var(--text);}
 .conv-out span{color:var(--soft);font-weight:500;}
+
+/* Round-39: "On this page" jump list for long pages (≥6 sections).
+   Helps snippet extraction and lets readers jump to the section they need. */
+.toc{max-width:760px;margin:0 0 18px;padding:14px 18px;border:1px solid var(--line);border-radius:12px;background:var(--panel2);}
+.toc p{margin:0 0 8px;font-size:.78rem;font-weight:700;letter-spacing:.6px;text-transform:uppercase;color:var(--soft);}
+.toc ol{margin:0;padding-left:20px;display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:4px 22px;}
+.toc li{font-size:.9rem;line-height:1.45;}
+.toc a{color:var(--soft);text-decoration:none;}
+.toc a:hover{color:var(--text);text-decoration:underline;}
+@media(max-width:560px){.toc ol{grid-template-columns:1fr;}}
 </style>
 <script>try{var _t=localStorage.getItem("trTheme");if(_t&&_t!=="dark")document.documentElement.setAttribute("data-theme",_t);var _l=localStorage.getItem("trLang");if(_l&&_l!=="en"){document.documentElement.lang=_l;if(_l==="ar")document.documentElement.dir="rtl";}}catch(e){}</script>
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1401237223139327"
@@ -548,17 +558,17 @@ body.typing-active footer{opacity:.26;filter:saturate(.72);pointer-events:none;}
   </nav>
 
   <section class="seo">
-    <h2>What is a typing skill test?</h2>
+    <h2 id="what-is-a-typing-skill-test">What is a typing skill test?</h2>
     <p>A <strong>typing skill test</strong> (also called a typing skills test or typing proficiency test) measures how fast and how accurately you can type a passage. You are timed, and your result is reported as <strong>WPM</strong> plus an <strong>accuracy percentage</strong> and an error count. Employers, schools and government exams use this format to compare candidates objectively.</p>
     <p>Unlike a plain speed test, a skill test is judged on the <em>combination</em> of speed and accuracy. 70 WPM at 90% accuracy is a weaker result than 60 WPM at 99%, because the errors have to be fixed and cost real time.</p>
-    <h2>What counts as a good typing skill score?</h2>
+    <h2 id="what-counts-as-a-good-typing-skill-score">What counts as a good typing skill score?</h2>
     <div class="tbl"><table><thead><tr><th>Skill level</th><th>WPM</th><th>Accuracy</th></tr></thead><tbody><tr><td>Beginner</td><td>under 30</td><td>under 90%</td></tr><tr><td>Basic</td><td>30&ndash;40</td><td>90&ndash;95%</td></tr><tr><td>Proficient</td><td>40&ndash;60</td><td>95&ndash;98%</td></tr><tr><td>Advanced</td><td>60&ndash;80</td><td>98&ndash;99%</td></tr><tr><td>Expert</td><td>80+</td><td>99%+</td></tr></tbody></table></div>
     <p>For most office jobs, <strong>50&ndash;60 WPM with 97%+ accuracy</strong> is expected. For data entry, exams and specialised roles the bar is higher &mdash; see the <a href="typing-test-for-jobs.html">typing test for jobs</a> requirements.</p>
-    <h2>Sources for the numbers on this page</h2>
+    <h2 id="sources-for-the-numbers-on-this-page">Sources for the numbers on this page</h2>
     <p>Speed and accuracy figures quoted here follow the largest published study of everyday typing: <a href="https://doi.org/10.1145/3173574.3174220" rel="noopener">Dhakal et al., CHI 2018</a>, <em>Observations on Typing from 136 Million Keystrokes</em>, which measured 136,857,600 keystrokes from 168,960 volunteers. It reports a mean of 51.56 WPM (SD 20.2), a mean uncorrected error rate of 1.17%, and a mean keystrokes-per-character rate of 1.173. Those are the numbers this page's bands are checked against.</p>
     <p>The claim that finger consistency and keypress preparation predict speed — more than which finger presses which key — comes from <a href="https://doi.org/10.1145/2858036.2858233" rel="noopener">Feit, Weir and Oulasvirta, CHI 2016</a>, a motion-capture study of 36 typists. The two studies disagree on how much formal touch-typing training matters, and this page says so where it matters rather than picking the tidier result.</p>
     <p>Where a figure is an estimate rather than a measurement — job requirements, age bands, exam cut-offs — it is drawn from the ranges employers and exam boards publish and is labelled as an estimate. Nothing on this page is a benchmark we ran ourselves.</p>
-    <h2>How to improve your typing skill score</h2>
+    <h2 id="how-to-improve-your-typing-skill-score">How to improve your typing skill score</h2>
     <p>Improvement comes from accuracy first, speed second. Slow down until you can type a full minute without errors, keep the fingers on the <a href="home-row-typing-test.html">home row</a>, and look at the screen rather than the keyboard. Practise daily for ten to fifteen minutes, mixing a general <a href="typing-practice.html">typing practice</a> run with a targeted <a href="typing-accuracy-test.html">accuracy test</a>. Boost weak spots with the weak-key drill, and check your standing against the <a href="average-typing-speed.html">average typing speed</a>.</p>
     <p class="byline">By <a href="about.html">the Typing.Rerivo team</a> &mdash; we build and maintain this typing test. Scoring formulas and the benchmarks used on our pages are documented in the methodology notes on our <a href="about.html">about page</a>, along with the sources we cite. Page last updated 2026-10-31.</p>
   </section>

@@ -414,6 +414,16 @@ body.typing-active footer{opacity:.26;filter:saturate(.72);pointer-events:none;}
 .conv input:focus{outline:2px solid var(--borderhi);outline-offset:1px;}
 .conv-out{margin:12px 0 0;font-size:.95rem;font-weight:600;color:var(--text);}
 .conv-out span{color:var(--soft);font-weight:500;}
+
+/* Round-39: "On this page" jump list for long pages (≥6 sections).
+   Helps snippet extraction and lets readers jump to the section they need. */
+.toc{max-width:760px;margin:0 0 18px;padding:14px 18px;border:1px solid var(--line);border-radius:12px;background:var(--panel2);}
+.toc p{margin:0 0 8px;font-size:.78rem;font-weight:700;letter-spacing:.6px;text-transform:uppercase;color:var(--soft);}
+.toc ol{margin:0;padding-left:20px;display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:4px 22px;}
+.toc li{font-size:.9rem;line-height:1.45;}
+.toc a{color:var(--soft);text-decoration:none;}
+.toc a:hover{color:var(--text);text-decoration:underline;}
+@media(max-width:560px){.toc ol{grid-template-columns:1fr;}}
 </style>
 <script>try{var _t=localStorage.getItem("trTheme");if(_t&&_t!=="dark")document.documentElement.setAttribute("data-theme",_t);var _l=localStorage.getItem("trLang");if(_l&&_l!=="en"){document.documentElement.lang=_l;if(_l==="ar")document.documentElement.dir="rtl";}}catch(e){}</script>
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1401237223139327"
@@ -548,34 +558,35 @@ body.typing-active footer{opacity:.26;filter:saturate(.72);pointer-events:none;}
   </nav>
 
   <section class="seo">
-    <h2>The definition that disciplines everything</h2>
+    <nav class="toc" aria-label="On this page"><p>On this page</p><ol><li><a href="#the-definition-that-disciplines-everything">The definition that disciplines everything</a></li><li><a href="#the-return-to-home-row-habit">The return-to-home-row habit</a></li><li><a href="#finger-discipline-one-finger-one-job">Finger discipline: one finger, one job</a></li><li><a href="#rhythm-before-speed">Rhythm before speed</a></li><li><a href="#killing-the-peek-habit-permanently">Killing the peek habit permanently</a></li><li><a href="#structured-practice-that-makes-it-automatic">Structured practice that makes it automatic</a></li><li><a href="#touch-typing-in-the-real-world">Touch typing in the real world</a></li><li><a href="#the-posture-nobody-photographs">The posture nobody photographs</a></li><li><a href="#numbers-and-capitals-without-breaking-form">Numbers and capitals without breaking form</a></li><li><a href="#a-weekly-touch-typing-workout">A weekly touch-typing workout</a></li></ol></nav>
+    <h2 id="the-definition-that-disciplines-everything">The definition that disciplines everything</h2>
     <p>Touch typing means each finger owns specific keys and returns to home row after every reach. That is the whole definition, and most 'touch typists' who plateau are cheating it in one of three places: a finger drifting to a neighbor's key, hands hovering instead of returning home, or eyes sneaking to the keyboard on hard reaches.</p>
     <p>Diagnose your own cheat first. Type a paragraph slowly and watch your hands once — just once, for information. The violation you see is the one to fix this month, because one discipline break taxes every word you type.</p>
-    <h2>The return-to-home-row habit</h2>
+    <h2 id="the-return-to-home-row-habit">The return-to-home-row habit</h2>
     <p>The single highest-leverage touch typing habit is the snap-back: after every key reach, the finger returns to its home position before the next reach. It feels like wasted motion for two weeks; then it becomes the reason you never get lost on the keyboard.</p>
     <p>Drill it explicitly with home-row rounds at silly-slow speed — half your normal pace — exaggerating the return after every key. Speed follows automatically once the return is reflexive. The <a href="home-row-typing-test.html">home row typing test</a> is built for exactly this drill.</p>
-    <h2>Finger discipline: one finger, one job</h2>
+    <h2 id="finger-discipline-one-finger-one-job">Finger discipline: one finger, one job</h2>
     <p>Every finger has assigned territory: pinkies get the outer columns and the shift keys, ring and middle fingers take their columns, indexes handle two columns each, thumbs own the spacebar. The most common discipline break is the index finger traveling to another finger's key — usually because it feels stronger.</p>
     <p>The fix is targeted isolation: when you catch a substitution, drill that exact reach with the correct finger in 15-second bursts until it becomes the natural one. It takes days per key, and it pays forever.</p>
-    <h2>Rhythm before speed</h2>
+    <h2 id="rhythm-before-speed">Rhythm before speed</h2>
     <p>Listen to a good touch typist and you hear a metronome; listen to a struggling one and you hear bursts and stalls. Rhythm — even inter-keystroke timing — is what allows speed without fatigue, because pauses are where errors breed.</p>
     <p>Train rhythm directly: type to a slow, steady internal count, then gradually raise the tempo while keeping it even. If your consistency score on the result panel is below 80%, rhythm is your bottleneck, not finger speed.</p>
-    <h2>Killing the peek habit permanently</h2>
+    <h2 id="killing-the-peek-habit-permanently">Killing the peek habit permanently</h2>
     <p>Everyone peeks. The question is whether peeking is your emergency exit or your operating system. If you peek more than once a paragraph, cover the keyboard — a light cloth, a box lid, anything — for one full week of practice. Error rate will spike for two days, then collapse as spatial memory takes over.</p>
     <p>The fear of peeking is worse than the errors. Once you have survived a week blind, the temptation disappears on its own, and with it goes the last artificial ceiling on your speed.</p>
-    <h2>Structured practice that makes it automatic</h2>
+    <h2 id="structured-practice-that-makes-it-automatic">Structured practice that makes it automatic</h2>
     <p>Technique becomes automatic through frequency, not intensity: ten minutes of correct form daily beats an hour of sloppy speed-typing weekly. A solid daily structure: home-row warm-up at half pace, one measured minute at working speed, weak-key drilling from the result report, and a final clean round.</p>
     <p>The <a href="touch-typing-test.html">touch typing test</a> and <a href="typing-trainer.html">typing trainer</a> give you the measurement layer; the technique fixes above give you the method. Together they are the full system.</p>
-    <h2>Touch typing in the real world</h2>
+    <h2 id="touch-typing-in-the-real-world">Touch typing in the real world</h2>
     <p>The last tip is about transfer: practice form must survive contact with real work. The rule professionals use is simple — touch type everything, even when it is slower at first. Every email typed with proper form is practice; every email pecked out is un-practice.</p>
     <p>Expect two to four weeks where correct form feels slower than your old habits at real work. That dip is the tuition for permanent speed, and it is the one fee every fast typist alive has paid.</p>
-    <h2>The posture nobody photographs</h2>
+    <h2 id="the-posture-nobody-photographs">The posture nobody photographs</h2>
     <p>Touch-typing advice always shows the hands and never the chain that supports them: feet flat, back against the chair, elbows near ninety degrees, screen at eye level. When your form degrades mid-session, the failure almost never starts in the fingers — it starts in a slouched back dragging the whole arm chain out of alignment.</p>
     <p>Build a two-second reset into your practice: every time you catch a run of errors, check feet, back, elbows, wrists in that order before blaming your technique. Posture failures masquerade as skill failures, and fixing the wrong one never works.</p>
-    <h2>Numbers and capitals without breaking form</h2>
+    <h2 id="numbers-and-capitals-without-breaking-form">Numbers and capitals without breaking form</h2>
     <p>Two reaches break touch-typing form for most people: the number row and the shift keys. The form-preserving rule for capitals is opposite-side shift — right-hand letter, left shift; left-hand letter, right shift. For digits, reach up, strike, and snap back to home row instantly; never let your hands migrate to the top row and camp there.</p>
     <p>Both disciplines take a week of dedicated rounds in numbers mode. Symbols are where touch typing either becomes complete or stays a prose-only skill.</p>
-    <h2>A weekly touch-typing workout</h2>
+    <h2 id="a-weekly-touch-typing-workout">A weekly touch-typing workout</h2>
     <p>Tie the tips into a schedule: Monday, home-row snap-back drills at half speed. Tuesday, one measured minute plus weak-key work from the report. Wednesday, numbers and capitals with opposite-shift discipline. Thursday, rhythm training to a steady internal count. Friday, the measured round and a look at the weekly trend.</p>
     <p>Ten minutes a day, each day with one theme. The rotation keeps every tip alive without needing a checklist — the schedule remembers for you.</p>
     <p class="byline">By <a href="about.html">the Typing.Rerivo team</a> &mdash; we build and maintain this typing test. Scoring formulas and the benchmarks used on our pages are documented in the methodology notes on our <a href="about.html">about page</a>, along with the sources we cite. Page last updated 2026-10-31.</p>

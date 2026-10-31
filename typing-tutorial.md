@@ -4,15 +4,9 @@ Source: https://typing.rerivo.com/typing-tutorial.html
 
 Free typing tutorial for beginners. Step by step touch typing lessons in your browser: home row first, then every finger, then real speed. Each tutorial sentence is also your practice text, so reading the lesson is doing the lesson. No sign up, no cost.
 
-## typing tutorial
-
 A good typing tutorial explains why each finger owns certain keys, not just which key to press. This free online typing tutor works the same way: every practice sentence is a lesson in itself, so while you type you absorb the home row, the finger map, and the posture rules at the same time. Sixty seconds of guided practice, live WPM and accuracy feedback, and no sign up, no download, and no cost. For a paced trainer view with a saved drill log, open the typing tutor.
 
-## What this typing tutor teaches first
-
 The tutorial starts where every typing tutor must: the home row. Your left fingers rest on A S D F and your right fingers on J K L ;, with thumbs on the space bar and index fingers on the small bumps of F and J. From there the lessons add the upper and lower rows one at a time, then the shift key, then punctuation. Each step is short on purpose, because a tutorial only works when you can finish it without rushing.
-
-## Practice schedule for a typing tutorial
 
 Ten to fifteen minutes a day, every day, beats a single long session once a week. Repeat each lesson until it feels boring, then once more: that is the moment muscle memory forms. Close the loop by ending every session on your weakest keys, the ones where your accuracy dips, and those keys will be your strongest within a week.
 

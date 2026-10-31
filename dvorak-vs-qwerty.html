@@ -414,6 +414,16 @@ body.typing-active footer{opacity:.26;filter:saturate(.72);pointer-events:none;}
 .conv input:focus{outline:2px solid var(--borderhi);outline-offset:1px;}
 .conv-out{margin:12px 0 0;font-size:.95rem;font-weight:600;color:var(--text);}
 .conv-out span{color:var(--soft);font-weight:500;}
+
+/* Round-39: "On this page" jump list for long pages (≥6 sections).
+   Helps snippet extraction and lets readers jump to the section they need. */
+.toc{max-width:760px;margin:0 0 18px;padding:14px 18px;border:1px solid var(--line);border-radius:12px;background:var(--panel2);}
+.toc p{margin:0 0 8px;font-size:.78rem;font-weight:700;letter-spacing:.6px;text-transform:uppercase;color:var(--soft);}
+.toc ol{margin:0;padding-left:20px;display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:4px 22px;}
+.toc li{font-size:.9rem;line-height:1.45;}
+.toc a{color:var(--soft);text-decoration:none;}
+.toc a:hover{color:var(--text);text-decoration:underline;}
+@media(max-width:560px){.toc ol{grid-template-columns:1fr;}}
 </style>
 <script>try{var _t=localStorage.getItem("trTheme");if(_t&&_t!=="dark")document.documentElement.setAttribute("data-theme",_t);var _l=localStorage.getItem("trLang");if(_l&&_l!=="en"){document.documentElement.lang=_l;if(_l==="ar")document.documentElement.dir="rtl";}}catch(e){}</script>
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1401237223139327"
@@ -548,34 +558,35 @@ body.typing-active footer{opacity:.26;filter:saturate(.72);pointer-events:none;}
   </nav>
 
   <section class="seo">
-    <h2>How the two layouts differ</h2>
+    <nav class="toc" aria-label="On this page"><p>On this page</p><ol><li><a href="#how-the-two-layouts-differ">How the two layouts differ</a></li><li><a href="#what-the-speed-evidence-actually-says">What the speed evidence actually says</a></li><li><a href="#the-comfort-argument-which-is-stronger">The comfort argument, which is stronger</a></li><li><a href="#the-hidden-costs-of-switching">The hidden costs of switching</a></li><li><a href="#who-should-switch-and-who-should-not">Who should switch, and who should not</a></li><li><a href="#try-before-you-commit">Try before you commit</a></li><li><a href="#the-verdict-in-one-paragraph">The verdict in one paragraph</a></li><li><a href="#the-history-that-explains-the-inertia">The history that explains the inertia</a></li><li><a href="#dvorak-for-programmers-and-symbol-heavy-work">Dvorak for programmers and symbol-heavy work</a></li><li><a href="#making-the-final-decision">Making the final decision</a></li></ol></nav>
+    <h2 id="how-the-two-layouts-differ">How the two layouts differ</h2>
     <p>QWERTY dates to the 1870s typewriter era, with common letters scattered across all rows. Dvorak, designed in 1936, concentrates the most-used letters on the home row: about 70% of English typing happens there versus roughly 30% on QWERTY. The design goals were less finger travel, more alternation between hands, and fewer awkward reaches.</p>
     <p>The layouts are not different in kind — both are letter arrangements for the same fingers. They differ in load distribution: Dvorak shifts work toward the home row and the stronger middle and index fingers, QWERTY spreads it more thinly across rows and weaker fingers.</p>
-    <h2>What the speed evidence actually says</h2>
+    <h2 id="what-the-speed-evidence-actually-says">What the speed evidence actually says</h2>
     <p>The honest summary of decades of claims and studies: Dvorak users report comfort improvements more consistently than speed improvements. Controlled comparisons generally find modest speed differences — a few percent in either direction — swamped by the variation between individual typists. Several modern speed-record holders do use Dvorak, but they would be elite on any layout.</p>
     <p>What is well supported: the learning investment. Retraining from fluent QWERTY to functional Dvorak takes roughly one to three months of daily practice, with a painful dip where you type slower than before. The break-even point on that investment is measured in years, not weeks.</p>
-    <h2>The comfort argument, which is stronger</h2>
+    <h2 id="the-comfort-argument-which-is-stronger">The comfort argument, which is stronger</h2>
     <p>Where Dvorak has the better case is ergonomics: less finger travel and more home-row work means less cumulative movement, which many users experience as reduced fatigue and strain over long sessions. If you type for hours daily and your hands hurt, layout is a legitimate variable to experiment with.</p>
     <p>Colemak, a third option, keeps QWERTY's familiar positions for most keys (and shortcuts) while moving the most common letters home-row-ward. It offers much of Dvorak's comfort benefit with a shorter retraining curve, which is why it has become the pragmatic middle choice for many switchers.</p>
-    <h2>The hidden costs of switching</h2>
+    <h2 id="the-hidden-costs-of-switching">The hidden costs of switching</h2>
     <p>Beyond retraining time, switching has practical taxes: shared computers become awkward (everyone else's machine is QWERTY), keyboard shortcuts move (Ctrl+C/V sit in new places), and mobile keyboards stay QWERTY regardless. You are effectively committing to being bilingual in layouts, or to friction every time you touch someone else's device.</p>
     <p>There is also the measurement trap: your QWERTY speed feels like 'your speed', so Dvorak's slow phase feels like regression. Most switchers quit in week two or three, before the curve turns. Those who persist past month one almost never switch back — the two facts together tell you most of what you need to know.</p>
-    <h2>Who should switch, and who should not</h2>
+    <h2 id="who-should-switch-and-who-should-not">Who should switch, and who should not</h2>
     <p>Switch if: you are a heavy daily typist with hand or wrist discomfort, you are learning from scratch (no QWERTY habits to unlearn), or you are simply curious and accept the two-to-three-month cost. Do not switch if: you type an hour or two a day without pain, you need speed this quarter for a test or job, or you frequently use other people's computers.</p>
     <p>For the vast majority of typists, the better investment is technique on QWERTY: home-row discipline, accuracy-first practice and weak-key elimination deliver larger gains than any layout change, at zero retraining cost.</p>
-    <h2>Try before you commit</h2>
+    <h2 id="try-before-you-commit">Try before you commit</h2>
     <p>The sensible experiment: keep QWERTY for daily work and practise Dvorak twenty minutes a day for a month. If the curve excites you, switch fully; if it frustrates you, you lost nothing but a few hours. The <a href="dvorak-typing.html">Dvorak typing test</a> lets you feel the layout right now, in your browser, with nothing to install.</p>
     <p>Measure honestly through the experiment: weekly scores on both layouts, same text type. Your own numbers beat any forum argument — including this article's.</p>
-    <h2>The verdict in one paragraph</h2>
+    <h2 id="the-verdict-in-one-paragraph">The verdict in one paragraph</h2>
     <p>Dvorak is a comfort upgrade with a real but modest efficiency argument and a heavy entry fee; QWERTY is the entrenched standard whose main advantage is that you already know it. Neither layout makes you fast; technique does. If you have pain or curiosity, try Dvorak properly for a month. Otherwise, put the months into accuracy and weak-key work on QWERTY — the returns are bigger and arrive sooner.</p>
     <p>For layout comparisons beyond these two, the <a href="keyboard-layouts.html">keyboard layouts</a> page maps the wider landscape.</p>
-    <h2>The history that explains the inertia</h2>
+    <h2 id="the-history-that-explains-the-inertia">The history that explains the inertia</h2>
     <p>QWERTY won before ergonomics was a word. Its layout settled in the 1870s and froze into every typewriter, terminal and keyboard since — an accident of history upgraded to a standard. By the time Dvorak published his research in 1936, millions of trained typists already existed, and retraining them was never economically interesting.</p>
     <p>This is the pattern to recognise in any layout debate: standards win through installed base, not superiority. It does not make QWERTY good — it makes QWERTY free, because the world already taught it to you.</p>
-    <h2>Dvorak for programmers and symbol-heavy work</h2>
+    <h2 id="dvorak-for-programmers-and-symbol-heavy-work">Dvorak for programmers and symbol-heavy work</h2>
     <p>One group deserves a specific note: programmers. Code typing is dominated by symbols — brackets, semicolons, equals — whose positions differ between layouts, and some coders find Dvorak's symbol placement worse than QWERTY's for their specific language. If you type code all day, test the layout on actual code before committing, not just on prose.</p>
     <p>The <a href="python-code-typing.html">Python code typing test</a> and <a href="javascript-code-typing.html">JavaScript code typing test</a> give you realistic code passages for exactly this experiment on your current layout first.</p>
-    <h2>Making the final decision</h2>
+    <h2 id="making-the-final-decision">Making the final decision</h2>
     <p>Summarise the whole question into one test: does your current typing hurt, or does layout fascinate you enough to pay two months of slow typing? If yes, run the one-month Dvorak experiment with weekly measurements. If no, close the tab and go do twenty minutes of accuracy-first practice on QWERTY — you have just made the higher-ROI choice.</p>
     <p>The worst outcome is the third one: switching on a whim, quitting at week three, and losing a month of progress to an abandoned experiment. Decide with the test above, then commit fully to whichever answer it gives.</p>
     <p class="byline">By <a href="about.html">the Typing.Rerivo team</a> &mdash; we build and maintain this typing test. Scoring formulas and the benchmarks used on our pages are documented in the methodology notes on our <a href="about.html">about page</a>, along with the sources we cite. Page last updated 2026-10-31.</p>

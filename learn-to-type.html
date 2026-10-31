@@ -414,6 +414,16 @@ body.typing-active footer{opacity:.26;filter:saturate(.72);pointer-events:none;}
 .conv input:focus{outline:2px solid var(--borderhi);outline-offset:1px;}
 .conv-out{margin:12px 0 0;font-size:.95rem;font-weight:600;color:var(--text);}
 .conv-out span{color:var(--soft);font-weight:500;}
+
+/* Round-39: "On this page" jump list for long pages (≥6 sections).
+   Helps snippet extraction and lets readers jump to the section they need. */
+.toc{max-width:760px;margin:0 0 18px;padding:14px 18px;border:1px solid var(--line);border-radius:12px;background:var(--panel2);}
+.toc p{margin:0 0 8px;font-size:.78rem;font-weight:700;letter-spacing:.6px;text-transform:uppercase;color:var(--soft);}
+.toc ol{margin:0;padding-left:20px;display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:4px 22px;}
+.toc li{font-size:.9rem;line-height:1.45;}
+.toc a{color:var(--soft);text-decoration:none;}
+.toc a:hover{color:var(--text);text-decoration:underline;}
+@media(max-width:560px){.toc ol{grid-template-columns:1fr;}}
 </style>
 <script>try{var _t=localStorage.getItem("trTheme");if(_t&&_t!=="dark")document.documentElement.setAttribute("data-theme",_t);var _l=localStorage.getItem("trLang");if(_l&&_l!=="en"){document.documentElement.lang=_l;if(_l==="ar")document.documentElement.dir="rtl";}}catch(e){}</script>
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1401237223139327"
@@ -548,18 +558,19 @@ body.typing-active footer{opacity:.26;filter:saturate(.72);pointer-events:none;}
   </nav>
 
   <section class="seo">
-    <h2>learn to type</h2>
+    <nav class="toc" aria-label="On this page"><p>On this page</p><ol><li><a href="#learn-to-type">learn to type</a></li><li><a href="#your-first-lesson-in-learning-to-type">Your first lesson in learning to type</a></li><li><a href="#how-long-does-it-take-to-learn-to-type">How long does it take to learn to type?</a></li><li><a href="#learn-to-type-without-looking">Learn to type without looking</a></li><li><a href="#a-one-week-learn-to-type-plan">A one-week learn-to-type plan</a></li><li><a href="#learn-to-type-on-a-laptop-keyboard">Learn to type on a laptop keyboard</a></li></ol></nav>
+    <h2 id="learn-to-type">learn to type</h2>
     <p>To <strong>learn to type</strong> you only need two things: the home row, and the patience to be slow for a week. This free course teaches touch typing from absolute zero, and every practice sentence is a lesson about learning itself, so your practice text coaches you while you type it. Sixty seconds a day in your browser, with live WPM and accuracy feedback, no account and no cost.</p>
-    <h2>Your first lesson in learning to type</h2>
+    <h2 id="your-first-lesson-in-learning-to-type">Your first lesson in learning to type</h2>
     <p>Rest your left fingers on A S D F and your right fingers on J K L ;, thumbs on the space bar. Feel the small bumps on F and J; they are the only map a beginner needs. Type words made from the home row only, slowly, and let each finger return home after every key. If you must look, look after the word, never in the middle of it. That is the entire first lesson, and everything after it is just practice.</p>
-    <h2>How long does it take to learn to type?</h2>
+    <h2 id="how-long-does-it-take-to-learn-to-type">How long does it take to learn to type?</h2>
     <p>Most people own the home row in a week and reach a comfortable 40 to 60 words per minute in three to four weeks of daily practice. The mistake beginners make is chasing speed early; accuracy is the foundation and speed is the building that arrives later. End every session on your slowest, most careful line, and your hands will learn faster than you expect.</p>
-    <h2>Learn to type without looking</h2>
+    <h2 id="learn-to-type-without-looking">Learn to type without looking</h2>
     <p>Looking at your hands feels faster for about a week and caps you near 30 WPM forever, because every glance breaks the loop between what your eyes read and what your fingers do. Break the habit deliberately: cover your hands with a cloth for one short round a day, accept the slower score, and let the home row do the work. The full method is on the <a href="how-to-type-without-looking.html">how to type without looking</a> page.</p>
-    <h2>A one-week learn-to-type plan</h2>
+    <h2 id="a-one-week-learn-to-type-plan">A one-week learn-to-type plan</h2>
     <p>Day one: home row only, slow, eyes on the screen. Day two: add the top row with the correct fingers. Day three: bottom row and the shift key. Day four: short common words. Day five: full sentences at a comfortable pace. Day six: numbers and punctuation. Day seven: one timed round to see where you are — not to pass a target. Fifteen minutes a day is enough; the schedule matters more than the minutes.</p>
     <p>When the week ends, move to structured <a href="typing-practice.html">typing practice</a> and check the result panel for the keys that are slowing you down.</p>
-    <h2>Learn to type on a laptop keyboard</h2>
+    <h2 id="learn-to-type-on-a-laptop-keyboard">Learn to type on a laptop keyboard</h2>
     <p>Laptop keys have shorter travel, which makes light, quick presses easier and heavy presses slower. The home row is the same, but the keyboard is often narrower, so your hands sit closer to centre. If the built-in keyboard is uncomfortable, the <a href="mechanical-keyboard-for-typing.html">mechanical keyboard for typing</a> guide covers what actually matters — key travel and actuation force — without the marketing.</p>
     <p class="byline">By <a href="about.html">the Typing.Rerivo team</a> &mdash; we build and maintain this typing test. Scoring formulas and the benchmarks used on our pages are documented in the methodology notes on our <a href="about.html">about page</a>, along with the sources we cite. Page last updated 2026-10-31.</p>
   </section>

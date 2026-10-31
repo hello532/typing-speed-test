@@ -4,19 +4,11 @@ Source: https://typing.rerivo.com/typing-games.html
 
 Play free typing games right in your browser. Pick a timed challenge, type each line as fast and as accurately as you can, then try to beat your own best WPM. No sign up, no ads, and every score is saved on this device.
 
-## typing games
-
 Typing games turn a boring drill into something you actually want to do. The trick to faster typing is volume: thousands of keystrokes, spread over many short sessions. A game gives each session a score, a clock and a target, so ten minutes disappears before you notice. Play one or two rounds whenever you have a spare moment and your speed climbs on its own.
-
-## Fun typing games to play right now
 
 Every game on this site runs the same simple loop: read the text, type it, get your WPM and accuracy instantly. Short rounds (15 to 30 seconds) are pure speed fun. Longer rounds (2 to 10 minutes) are endurance games that punish mistakes. Switch the text set to numbers or punctuation for a fresh challenge, or open the game mode for a timed race against the clock. Pick whichever feels most fun today.
 
-## Turn practice into a game you keep coming back to
-
 Keep one simple rule: beat yesterday. Your last scores stay in this browser, so each game has a number to chase. If you miss a lot, slow down and aim for 98 percent accuracy first; speed returns on its own once your fingers stop making errors. Two or three games a day for a month is enough to see a real, lasting jump in your typing speed.
-
-## Do typing games actually make you faster?
 
 Games help mainly when they keep you practising past the point where plain drills feel boring. The mechanism is repetition under mild pressure, not the game itself.
 
@@ -25,8 +17,6 @@ Measure with a test, not a game - use the 1 minute typing test to track real spe
 Watch for bad habits - some games reward speed over accuracy; ignore the score and keep form.
 
 A practical split: games or typing race for 5-10 minutes of warm-up, then a timed round for the score that actually counts.
-
-## Games that teach
 
 For the method behind kid-friendly game practice, see typing games for kids — 5-minute game-feeling sessions that build the keyboard map without nagging.
 

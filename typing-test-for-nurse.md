@@ -4,25 +4,17 @@ Source: https://typing.rerivo.com/typing-test-for-nurse.html
 
 Nurses do not type fast for a living; they type accurately under interruption. Charting notes, medication names and dosages are short, frequent and unforgiving. Practise at 35–45 WPM with accuracy above 98%.
 
-## What nursing documentation actually demands
-
 A shift note is a few hundred characters typed between tasks: assessment findings, interventions, a time, a signature. The volume is modest. What breaks is the detail — a dose written as 10 instead of 100, a drug name auto-corrected into a different drug, an identifier attached to the wrong patient.
 
 That is why nursing informatics training emphasises verification over velocity, and why the typing requirement in job ads is usually a modest 35–45 WPM. Speed matters because charting happens at the end of a twelve-hour shift when everyone wants to go home; accuracy matters because the error is clinical.
-
-## Where the errors come from
 
 Digits. Dosages, vitals, weights and times are numeric. The number row is typed with a different reach than the home row and it is where most slips happen.
 Look-alike drug names. Hydralazine and hydroxyzine, prednisone and prednisolone. Autocomplete is not your friend here; type the name rather than accepting a suggestion.
 Interruption. You type half a sentence, answer a call bell, come back and continue in the wrong field. The typing skill is resuming without losing the thread.
 
-## A practice routine that fits a shift
-
 Five minutes, twice a day. One 60-second sentence round for rhythm, one Numbers round for digits, then stop. Short daily rounds beat a weekly marathon because the skill you are training is availability under fatigue, not peak output.
 
 Once a week, take one five-minute test and record net WPM and accuracy. Five minutes is roughly the length of a focused charting session, so it is the honest number to compare month to month.
-
-## Benchmarks to aim at
 
 Level | Net WPM | Accuracy | What it supports
 Minimum for most postings | 35 | 97% | Short shift notes, care plans
@@ -30,8 +22,6 @@ Comfortable | 45 | 98.5% | Full assessment charting, discharge summaries
 Fast | 55+ | 99% | Admissions, triage notes, telephone orders
 
 These bands come from the ranges printed in nursing and medical-administration job advertisements; they are a target, not a licensure standard. No nursing board certifies a typing speed.
-
-## If you are switching from paper charting
 
 The people who struggle most are usually experienced clinicians, not new typists. Twenty years of handwriting produces efficient note language and a hunt-and-peck relationship with the keyboard. The fix is not a typing course; it is ten minutes a day of copying your own note style, not textbook sentences.
 

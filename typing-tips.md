@@ -4,19 +4,11 @@ Source: https://typing.rerivo.com/typing-tips.html
 
 Small typing tips compound into big speed. Below are the habits that actually move the needle: how to sit, where to put your fingers, and how to train accuracy so speed follows. Read one tip, then test it on the timed practice right here. Free, no sign up.
 
-## typing tips
-
 The best typing tips are the boring ones, because typing is pure muscle memory. Anything you repeat daily becomes automatic, and anything you shortcut becomes a habit you later have to unlearn. Pick two or three tips below and apply them for a week rather than reading all of them once. Small adjustments to hand position and attention add up faster than any speed-typing trick.
-
-## Posture and hand position tips
 
 Sit with your feet flat, your forearms roughly level, and the top of your screen at eye height so your neck stays relaxed. Curve your fingers slightly and rest them on the home row: left hand on A S D F, right hand on J K L ;, thumbs on the space bar. Feel the small bumps on F and J; they let your index fingers find home without looking. Keep your wrists floating rather than pressed hard onto the desk.
 
-## Accuracy tips that also build speed
-
 Look at the text, never your hands. Press every key with the finger that owns it on the home row rather than the nearest finger, even when it feels slower at first. Type to the end of a word before you fix an error, instead of stopping mid-word. And slow down to the speed at which you make almost no mistakes; that is the speed your fingers actually learn, and it rises on its own.
-
-## How to type faster and more accurately: a weekly routine
 
 Speed follows accuracy, not the other way round. This is the routine that raises both without turning practice into a chore.
 
@@ -27,8 +19,6 @@ Day 6: weak keys. Identify the two or three letters that cost you most and drill
 Day 7: rest. Progress in typing is consolidated between sessions.
 
 Two things reliably hold people back: looking at the keyboard, and chasing WPM while accuracy is still below 95%. Fix the second one first, with how to type without looking and typing accuracy test.
-
-## Guides for specific speed goals
 
 Beyond general tips: typing speed improvement tips ranked by impact, how to type faster and more accurately with the dual-metric method, and how to type 100 WPM for the elite path. Still deciding where to measure? The best free typing tests compared page covers the alternatives honestly, including this one.
 

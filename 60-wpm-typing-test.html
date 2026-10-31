@@ -414,6 +414,16 @@ body.typing-active footer{opacity:.26;filter:saturate(.72);pointer-events:none;}
 .conv input:focus{outline:2px solid var(--borderhi);outline-offset:1px;}
 .conv-out{margin:12px 0 0;font-size:.95rem;font-weight:600;color:var(--text);}
 .conv-out span{color:var(--soft);font-weight:500;}
+
+/* Round-39: "On this page" jump list for long pages (≥6 sections).
+   Helps snippet extraction and lets readers jump to the section they need. */
+.toc{max-width:760px;margin:0 0 18px;padding:14px 18px;border:1px solid var(--line);border-radius:12px;background:var(--panel2);}
+.toc p{margin:0 0 8px;font-size:.78rem;font-weight:700;letter-spacing:.6px;text-transform:uppercase;color:var(--soft);}
+.toc ol{margin:0;padding-left:20px;display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:4px 22px;}
+.toc li{font-size:.9rem;line-height:1.45;}
+.toc a{color:var(--soft);text-decoration:none;}
+.toc a:hover{color:var(--text);text-decoration:underline;}
+@media(max-width:560px){.toc ol{grid-template-columns:1fr;}}
 </style>
 <script>try{var _t=localStorage.getItem("trTheme");if(_t&&_t!=="dark")document.documentElement.setAttribute("data-theme",_t);var _l=localStorage.getItem("trLang");if(_l&&_l!=="en"){document.documentElement.lang=_l;if(_l==="ar")document.documentElement.dir="rtl";}}catch(e){}</script>
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1401237223139327"
@@ -548,15 +558,15 @@ body.typing-active footer{opacity:.26;filter:saturate(.72);pointer-events:none;}
   </nav>
 
   <section class="seo">
-    <h2>What 60 WPM represents</h2>
+    <h2 id="what-60-wpm-represents">What 60 WPM represents</h2>
     <p>Sixty words per minute is 300 characters per minute, five characters per second, 18,000 keystrokes per hour, and about the 66th percentile of measured typists. Two thirds of people are slower; one third are faster.</p>
     <p>In employment terms it is a threshold: clerical adverts quote 40-50, whereas legal, medical and transcription adverts start at 60 and go up. Crossing 60 changes which jobs are open to you, which is why it is worth more effort than crossing 50.</p>
-    <h2>The accuracy trade at this speed</h2>
+    <h2 id="the-accuracy-trade-at-this-speed">The accuracy trade at this speed</h2>
     <p>At 60 WPM a 2% error rate means about one error every 8 seconds — roughly seven or eight errors in a five-minute test. On a net-scored test that costs you 5-6 WPM, dropping you back to the mid-50s. That is the arithmetic that keeps people at 55.</p>
     <p>So the last stretch is not 'type faster'. It is 'hold 98% while typing at 60', which is a different drill: shorter rounds, stricter error budget, and stopping a round the moment accuracy falls below the floor rather than pushing to the timer.</p>
-    <h2>Drills for the 50-to-60 stretch</h2>
+    <h2 id="drills-for-the-50-to-60-stretch">Drills for the 50-to-60 stretch</h2>
     <ul><li><strong>30-second accuracy sprints:</strong> type at 90% of maximum for 30 seconds, stop, check errors. Repeat five times. This builds the accuracy-at-speed habit that longer rounds cannot.</li><li><strong>Punctuation and capitals:</strong> most people lose 3-5 WPM here. Run rounds with quotes and sentence case deliberately until the Shift press stops breaking rhythm.</li><li><strong>Numbers once a week:</strong> the number row is a separate motor skill and it is where a 60 WPM typist becomes a 52 WPM typist on real work.</li><li><strong>One long round per week:</strong> ten minutes, to confirm the speed survives fatigue.</li></ul>
-    <h2>Where 60 is still not enough</h2>
+    <h2 id="where-60-is-still-not-enough">Where 60 is still not enough</h2>
     <p>Medical transcription commonly asks 65-80 WPM with 98-99% accuracy, and it is measured over audio, which is harder than copying visible text. Court reporting is 225 WPM on a stenotype and is a different skill entirely.</p>
     <p>For legal secretary work, 60-75 WPM is the advertised band, so 60 is the entry edge — aim for 65 before applying to a firm that tests.</p>
     <p class="byline">By <a href="about.html">the Typing.Rerivo team</a> &mdash; we build and maintain this typing test. Scoring formulas and the benchmarks used on our pages are documented in the methodology notes on our <a href="about.html">about page</a>, along with the sources we cite. Page last updated 2026-10-31.</p>

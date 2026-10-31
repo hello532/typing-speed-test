@@ -4,13 +4,18 @@ Source: https://typing.rerivo.com/average-typing-speed.html
 
 The average typing speed is about 40 to 50 words per minute (WPM) with roughly 92% accuracy. 45–60 WPM is good, 60–80 WPM is above average, and only about 1% of people type faster than 100 WPM. Test your own speed below, then compare it with the benchmarks.
 
-## The number, and where it comes from
+On this page
+
+The number, and where it comes from
+What counts as good, fast and exceptional
+Average typing speed by age
+Average typing speed by profession
+Why your score differs from these numbers
+Test yourself against the bands
 
 The most-cited modern measurement is Dhakal, Feit, Kristensson and Oulasvirta, "Observations on Typing from 136 Million Keystrokes" (CHI 2018). It recorded 136,857,600 keystrokes from 168,960 volunteers and reports a mean of 51.56 WPM with a standard deviation of 20.2, an uncorrected error rate of 1.17%, and 1.173 keystrokes per character. The paper is open at doi.org/10.1145/3173574.3174220.
 
 Most pages still quote 40 WPM. That figure comes from older, smaller samples of office workers and students, and it has been copied forward without being re-measured. Both describe real populations: 40 WPM is closer to "typical office worker on a work task", 51.56 WPM to "person who chose to take an online typing test".
-
-## What counts as good, fast and exceptional
 
 Band | Net WPM | Percentile (approx.) | What it means
 Slow | under 26 | bottom 10% | Hunting for keys; typing is the bottleneck
@@ -23,13 +28,9 @@ Exceptional | 100+ | top 1% | Competitive typing, world-record territory
 
 The percentile column is a normal approximation of that distribution, and it reproduces the study's own reported deciles to within about one point. The percentile page does the arithmetic for any score.
 
-## Average typing speed by age
-
 Speed peaks in the late teens to thirties in most published samples and declines slowly after that, but the spread within an age band is far larger than the difference between bands. A 55-year-old who touch types beats a 20-year-old who does not, every time.
 
 The practical reading: age is a weak predictor compared with whether someone was ever taught to touch type. If they were not, the gap is trainable at any age - the age breakdown has the numbers by decade.
-
-## Average typing speed by profession
 
 Data entry: 45-65 WPM, often quoted as 13,500-19,500 KPH, with 97-98% accuracy.
 Administrative and secretarial: 50-70 WPM depending on seniority.
@@ -39,13 +40,9 @@ Writers and journalists: 60-80 WPM, where the limit is usually thinking rather t
 
 Role-by-role figures, in the units employers actually use, are on the typing speed requirements page.
 
-## Why your score differs from these numbers
-
 Test length: a 15-second burst reads 5-10 WPM higher than a five-minute run. Text type: random words score lower than sentences, code lower again, digits are a different skill. Scoring: gross WPM is higher than net. Keyboard: a laptop chiclet keyboard is slower than a mechanical one for most people.
 
 So before concluding you are below average, check what you measured. A five-minute net score on sentences is what this page's bands refer to; a one-minute gross score on random words is not comparable.
-
-## Test yourself against the bands
 
 Run a five-minute sentence test, then read net WPM and accuracy from the results panel. Compare the net figure against the table above, and check whether accuracy is inside the 97-98% band most employers require - a fast score at 92% accuracy is not the same asset as a slightly slower clean one.
 

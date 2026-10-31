@@ -4,13 +4,23 @@ Source: https://typing.rerivo.com/best-free-typing-lessons-for-adults.html
 
 The best free typing lessons for adults guide. Skip the paid course: a daily 10-minute structure with free tools is all an adult needs to reach 60 WPM.
 
-## Best free typing lessons for adults
+On this page
+
+Best free typing lessons for adults
+A 4-week free plan that works
+The tools you need (all free)
+Measuring progress without a paid subscription
+Why adults benefit more from practice than they expect
+The mistakes that keep adults slow (even with practice)
+Building the daily 10-minute habit as an adult
+Where adults have an advantage over younger learners
+Tracking without a paid subscription
+Avoiding the mistakes that keep adults from improving
+Where to find the time for typing practice
 
 The best free typing lessons for adults are not a course you buy - they are a daily 10-minute structure you follow for four weeks. Adults learning touch typing face one challenge that children do not: decades of hunt-and-peck muscle memory to unlearn. The fix is a hard three-week boundary (touch type everything, including real work), then a permanent improvement phase built on measurement and weak-key drilling.
 
 Most adults reach 40-50 WPM within one month, 60 WPM within three months, and 80 WPM within a year of this structure. The paid courses package the same free drills with a login screen.
-
-## A 4-week free plan that works
 
 Week one: home row only. A-S-D-F / J-K-L-;, eyes up no matter what. One 1 minute typing test daily to record your baseline. Week two: add numbers and capitals with opposite-side shift. Accuracy floor 98%. Week three: full-sentence practice with punctuation and real email text. Use the typing trainer for structured drills.
 
@@ -22,41 +32,23 @@ Week | Focus | Daily routine | Metric
 3 | Full sentences | 1 min + trainer drills | Net WPM
 4 | Sprint + speed work | 2 sprints + 1 min + weak keys | Net WPM vs baseline
 
-## The tools you need (all free)
-
 A browser is the only requirement. This site provides the timed test, the practice text in 12 languages, the word lists, the trainer, the lessons and the certificate - all free with no account. The learn to type page has the full beginner course. The typing lessons page structures the drills as progressive lessons.
-
-## Measuring progress without a paid subscription
 
 Weekly measurement on the same test under the same conditions is the entire tracking system. Record net WPM, accuracy and weak keys. Compare the weekly trend, not daily scores. If the number rises, keep going. If it flattens for two weeks, change the drill, not the volume. The browser history saves every result automatically for you to compare.
 
-## Why adults benefit more from practice than they expect
-
 Adults who learn touch typing report two categories of improvement beyond raw speed. First: less fatigue, because hunt-and-peck fingers travel six times farther than touch typing for the same sentence, which over eight hours of work causes evening pain. Second: faster thought-to-text flow, because when letter reaches are automatic the bottleneck shifts from the fingers to the brain. Third: professional credibility from a dated typing speed certificate attached to your resume.
-
-## The mistakes that keep adults slow (even with practice)
 
 Mistake one: mixing touch typing in practice with hunt-and-peck in real work, which prevents consolidation. Fix: a three-week no-mixing boundary. Mistake two: no accuracy floor, which at 95% builds error habits faster than speed. Fix: always 90% pace with 98% floor. Mistake three: re-typing comfortable texts instead of rotating text types to train the full keyboard surface.
 
-## Building the daily 10-minute habit as an adult
-
 Anchor the ten minutes to an existing daily event: first coffee, morning stand-up, end of lunch. Use a fixed test format, and have a one-minute minimum for crowded days; one minute is better than zero and keeps the chain unbroken. After four weeks of daily practice, the weekly measurement becomes self-correcting: the number rises when drills are right and flattens when the bottleneck has moved.
-
-## Where adults have an advantage over younger learners
 
 Adults bring vocabulary and context to typing practice that younger learners lack: you already know every word you type, so look-ahead reading is free instead of a skill to develop. Adults also know exactly which days matter for an exam, which text types their work requires, and how to think through a timed test under pressure.
 
-## Tracking without a paid subscription
-
 Weekly measurement under identical conditions is the entire tracking system. Record net WPM, accuracy and weak keys in any note-taking app. A simple table with twelve weeks of numbers is more motivating than a gamified dashboard.
-
-## Avoiding the mistakes that keep adults from improving
 
 Three self-inflicted mistakes keep adult learners from improving. The first: practising without cancelling the old hunt-and-peck habit, which happens when touch typing is used only for practice sessions while pecking continues for real work. The fix: a three-week hard boundary where touch typing is used exclusively, no matter how slow it feels. The brain cannot consolidate two motor patterns simultaneously; it must be forced to choose one before it can automate it.
 
 The second: setting no accuracy floor. Typing at 95% accuracy or below builds error habits faster than speed. The fix: always practise at 90% of comfortable pace with an explicit 98% accuracy floor. The third: re-typing the same comfortable sentences instead of rotating text types. A rotation between prose, numbers, quotes and code text ensures every key on the keyboard is trained equally.
-
-## Where to find the time for typing practice
 
 The time question is the most common barrier for adult learners. The answer is not to find a new block of time; it is to attach the practice to an existing daily event. The first coffee becomes the trigger for one measured round. The end of lunch becomes the second practice slot. The commute (on a phone or tablet) becomes a reading-ahead exercise. Ten minutes exists in every adult's day, fragmented across multiple small gaps.
 

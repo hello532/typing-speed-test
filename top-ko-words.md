@@ -4,8 +4,6 @@ Source: https://typing.rerivo.com/top-ko-words.html
 
 The 200 most common Korean words from real frequency data, with a free typing practice test above. Master these and you cover the bulk of everyday Korean text.
 
-## The 200 most common Korean words
-
 The 200 most common Korean words below come from real subtitle frequency data — the spoken-style words that dominate everyday Korean typing. The list is drawn from the FrequencyWords open dataset (MIT license), built from OpenSubtitles transcripts, and filtered to words in the native script only.
 
 # | Word | # | Word | # | Word | # | Word
@@ -60,19 +58,13 @@ The 200 most common Korean words below come from real subtitle frequency data �
 49 | 우린 | 99 | 같은 | 149 | 수도 | 199 | 이미
 50 | 제 | 100 | 여기서 | 150 | 많이 | 200 | 야
 
-## Why drill the top Korean words
-
 Korean subtitles repeat a compact set of pronouns, particles and verb stems — 내가, 그, 그리고, 있어 — all built from the same 24 jamo. Because Hangul is composed block by block, the bottleneck is usually one or two vowel-consonant combinations, not vocabulary. Drilling the top words isolates those blocks until syllable assembly becomes one motion instead of several.
 
 Korean high-frequency words are short, particle-heavy forms (내가, 그리고, 있어) built from a small set of jamo. Drilling them trains the even syllable-block rhythm that real Korean typing speed is made of.
 
-## How to practise Korean typing with this list
-
 Two 5-minute rounds a day, each followed by a look at the weak-key report, is the whole programme. If a particular syllable block keeps slowing you, retype that word slowly five times before continuing — accuracy in the block comes first, and speed in Hangul follows almost by itself once the block is automatic. Push for pace only when a round lands above 97%.
 
 When you want full sentences instead of single words, switch to the Korean typing test, or benchmark yourself against the classic 1 minute typing test.
-
-## Word lists in other languages
 
 The same top-200 frequency list is available for: English · Spanish · Hindi · Japanese · Urdu. Each list is built from the same open subtitle-frequency dataset, so the lists are directly comparable across languages.
 

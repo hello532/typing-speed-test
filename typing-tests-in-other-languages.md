@@ -4,15 +4,9 @@ Source: https://typing.rerivo.com/typing-tests-in-other-languages.html
 
 Free typing tests in other languages. The same timed typing test with instant WPM and accuracy, now in English, Spanish, Chinese, Hindi, Arabic, Japanese, Korean and Urdu. Pick your language below and start; nothing to sign up for.
 
-## typing tests in other languages
-
 Our typing tests in other languages give you the same timed test, the same live WPM and accuracy feedback, and the same instant results, in eight languages: English Typing Test, Spanish Typing Test, Chinese Typing Test, Hindi Typing Test, Arabic Typing Test, Japanese Typing Test, Korean Typing Test and Urdu Typing Test. If you write in more than one language, your typing speed is not one number; it is five, and the only way to know each one is to test it in that language.
 
-## Why test typing in your own language
-
 Most typing tests assume English, but a keyboard is not the same in every language. Chinese and Hindi use input methods that add a composition step between keystroke and character. Arabic reverses direction and changes letter shapes mid-word. Spanish adds accented vowels. Testing in the language you actually write in is the only way to measure the speed that matters to you.
-
-## How to compare across languages
 
 Run the same one minute test in each language on the same day, and write the five numbers down. Most people are fastest in their dominant language and ten to twenty percent slower in the others, and the gap shrinks fast with a few minutes of daily practice in the weaker languages. Re-run the same set next month and the comparison is honest, because the test itself never changed.
 

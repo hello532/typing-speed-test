@@ -414,6 +414,16 @@ body.typing-active footer{opacity:.26;filter:saturate(.72);pointer-events:none;}
 .conv input:focus{outline:2px solid var(--borderhi);outline-offset:1px;}
 .conv-out{margin:12px 0 0;font-size:.95rem;font-weight:600;color:var(--text);}
 .conv-out span{color:var(--soft);font-weight:500;}
+
+/* Round-39: "On this page" jump list for long pages (≥6 sections).
+   Helps snippet extraction and lets readers jump to the section they need. */
+.toc{max-width:760px;margin:0 0 18px;padding:14px 18px;border:1px solid var(--line);border-radius:12px;background:var(--panel2);}
+.toc p{margin:0 0 8px;font-size:.78rem;font-weight:700;letter-spacing:.6px;text-transform:uppercase;color:var(--soft);}
+.toc ol{margin:0;padding-left:20px;display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:4px 22px;}
+.toc li{font-size:.9rem;line-height:1.45;}
+.toc a{color:var(--soft);text-decoration:none;}
+.toc a:hover{color:var(--text);text-decoration:underline;}
+@media(max-width:560px){.toc ol{grid-template-columns:1fr;}}
 </style>
 <script>try{var _t=localStorage.getItem("trTheme");if(_t&&_t!=="dark")document.documentElement.setAttribute("data-theme",_t);var _l=localStorage.getItem("trLang");if(_l&&_l!=="en"){document.documentElement.lang=_l;if(_l==="ar")document.documentElement.dir="rtl";}}catch(e){}</script>
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1401237223139327"
@@ -548,17 +558,17 @@ body.typing-active footer{opacity:.26;filter:saturate(.72);pointer-events:none;}
   </nav>
 
   <section class="seo">
-    <h2>What receptionist roles actually screen for</h2>
+    <h2 id="what-receptionist-roles-actually-screen-for">What receptionist roles actually screen for</h2>
     <p>A receptionist types names, phone numbers, appointment notes and short emails, usually while listening to someone. That means the skill being tested is accurate short-burst typing, not sustained prose speed. Recruiters typically quote 40–50 WPM and an accuracy floor around 95–98%.</p>
     <p>The accuracy floor matters more than the speed number: a misspelt surname in a client record is a real cost, whereas 45 WPM instead of 50 is invisible in the day-to-day.</p>
-    <h2>Requirements by employer type</h2>
+    <h2 id="requirements-by-employer-type">Requirements by employer type</h2>
     <table><tr><th>Employer</th><th>Typical requirement</th><th>What the test adds</th></tr><tr><td>Medical or dental front desk</td><td>45–55 WPM, 98% accuracy</td><td>Patient names, dates of birth, procedure codes</td></tr><tr><td>Hotel or hospitality</td><td>40–45 WPM</td><td>Booking references, email addresses</td></tr><tr><td>Corporate office</td><td>50 WPM, 97%+</td><td>Minutes, meeting notes, calendar entries</td></tr><tr><td>Legal reception</td><td>50–60 WPM, 98%+</td><td>Client names, case references, punctuation</td></tr><tr><td>Call centre with reception duties</td><td>35–45 WPM</td><td>Typing while talking, call notes</td></tr></table>
     <p>These are the ranges that appear in public job ads and in recruitment guides; treat them as a target band, not a legal threshold. A posting that says 40 WPM rarely rejects a 42 that is clean.</p>
-    <h2>A two-week drill plan</h2>
+    <h2 id="a-two-week-drill-plan">A two-week drill plan</h2>
     <p>Days 1–5: one 60-second sentence round, three times a day. Type at the speed where you make almost no errors and let the score climb on its own. Most people gain 5–8 WPM in a week at this stage simply by stopping the backspace habit.</p>
     <p>Days 6–10: switch to two- and three-minute rounds so you meet the length most screening tests use. Add one Numbers round a day, because phone numbers and reference codes are where front-desk accuracy actually breaks.</p>
     <p>Days 11–14: rehearse the real task — read a short message out loud and type it without looking at the keyboard, then check it character by character. That is the job. Then take one five-minute test and record net WPM plus accuracy as the number you quote.</p>
-    <h2>What to do on the day</h2>
+    <h2 id="what-to-do-on-the-day">What to do on the day</h2>
     <p>Ask which scoring method the test uses, gross or net, and how long it runs. Then type at 90% of your best pace for the first thirty seconds; almost everyone loses more in corrections than they gain in the opening sprint.</p>
     <p>If the test includes punctuation and capitals, do not skip them to save time. Uncorrected omissions are counted as errors on every mainstream test, and they are the most common reason a fast typist fails a receptionist screening.</p>
     <p class="byline">By <a href="about.html">the Typing.Rerivo team</a> &mdash; we build and maintain this typing test. Scoring formulas and the benchmarks used on our pages are documented in the methodology notes on our <a href="about.html">about page</a>, along with the sources we cite. Page last updated 2026-10-31.</p>

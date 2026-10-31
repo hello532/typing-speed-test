@@ -414,6 +414,16 @@ body.typing-active footer{opacity:.26;filter:saturate(.72);pointer-events:none;}
 .conv input:focus{outline:2px solid var(--borderhi);outline-offset:1px;}
 .conv-out{margin:12px 0 0;font-size:.95rem;font-weight:600;color:var(--text);}
 .conv-out span{color:var(--soft);font-weight:500;}
+
+/* Round-39: "On this page" jump list for long pages (≥6 sections).
+   Helps snippet extraction and lets readers jump to the section they need. */
+.toc{max-width:760px;margin:0 0 18px;padding:14px 18px;border:1px solid var(--line);border-radius:12px;background:var(--panel2);}
+.toc p{margin:0 0 8px;font-size:.78rem;font-weight:700;letter-spacing:.6px;text-transform:uppercase;color:var(--soft);}
+.toc ol{margin:0;padding-left:20px;display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:4px 22px;}
+.toc li{font-size:.9rem;line-height:1.45;}
+.toc a{color:var(--soft);text-decoration:none;}
+.toc a:hover{color:var(--text);text-decoration:underline;}
+@media(max-width:560px){.toc ol{grid-template-columns:1fr;}}
 </style>
 <script>try{var _t=localStorage.getItem("trTheme");if(_t&&_t!=="dark")document.documentElement.setAttribute("data-theme",_t);var _l=localStorage.getItem("trLang");if(_l&&_l!=="en"){document.documentElement.lang=_l;if(_l==="ar")document.documentElement.dir="rtl";}}catch(e){}</script>
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1401237223139327"
@@ -548,28 +558,29 @@ body.typing-active footer{opacity:.26;filter:saturate(.72);pointer-events:none;}
   </nav>
 
   <section class="seo">
-    <h2>Why paid courses are unnecessary</h2>
+    <nav class="toc" aria-label="On this page"><p>On this page</p><ol><li><a href="#why-paid-courses-are-unnecessary">Why paid courses are unnecessary</a></li><li><a href="#week-one-free-baseline-and-home-row">Week one: free baseline and home row</a></li><li><a href="#the-free-daily-structure">The free daily structure</a></li><li><a href="#weekly-measurement-keeps-it-honest">Weekly measurement keeps it honest</a></li><li><a href="#a-free-14-day-starter-plan">A free 14-day starter plan</a></li><li><a href="#free-features-to-ignore">Free features to ignore</a></li><li><a href="#staying-motivated-without-a-paid-coach">Staying motivated without a paid coach</a></li><li><a href="#after-the-first-month-the-free-intermediate-path">After the first month: the free intermediate path</a></li></ol></nav>
+    <h2 id="why-paid-courses-are-unnecessary">Why paid courses are unnecessary</h2>
     <p>Typing is motor memory, and motor memory responds to one thing: frequent, measured practice. Every element that actually improves typing speed — home row drills, timed tests, accuracy tracking, weak-key analysis — is available free in a browser. Paid courses package the same drills with a login screen.</p>
     <p>What a course cannot sell you is the ten minutes a day. That part was always free, and it was always the whole secret.</p>
-    <h2>Week one: free baseline and home row</h2>
+    <h2 id="week-one-free-baseline-and-home-row">Week one: free baseline and home row</h2>
     <p>Start by measuring yourself on a <a href="free-typing-test.html">free typing test</a> — three rounds, middle score, write it down. Then spend the rest of the week on home row: left hand A-S-D-F, right hand J-K-L-;. Drill until every key is reachable without looking down. It feels slow; it is the foundation everything else compounds on.</p>
     <p>Keep your eyes on the screen from day one. Looking at the keyboard is the one habit that costs more than any course could ever fix.</p>
-    <h2>The free daily structure</h2>
+    <h2 id="the-free-daily-structure">The free daily structure</h2>
     <p>Ten minutes, every day: a 15-second sprint to wake your fingers, one measured minute, five minutes drilling the two weakest keys from your last result, and two minutes on a text type you find hard — numbers, quotes, or sentences. That is the entire curriculum. Free, forever, no sign-up.</p>
     <p>If you want a guided sequence, <a href="learn-to-type.html">learn to type</a> walks through the full beginner path, and <a href="typing-lessons.html">typing lessons</a> structures the same drills as progressive lessons.</p>
-    <h2>Weekly measurement keeps it honest</h2>
+    <h2 id="weekly-measurement-keeps-it-honest">Weekly measurement keeps it honest</h2>
     <p>Every week, retake the same one-minute test under the same conditions — same keyboard, same time of day. Watch the trend line, not daily scores, which wander by several points for no reason. Most people gain 5-10 WPM in the first month of this routine, and almost all of it comes from accuracy, not effort.</p>
     <p>Save your result history in the browser and let it motivate the next week. Progress you can see is the only tuition this course charges.</p>
-    <h2>A free 14-day starter plan</h2>
+    <h2 id="a-free-14-day-starter-plan">A free 14-day starter plan</h2>
     <p>Days one to three: home row and top row, eyes up, slow and blind. Days four to six: add the bottom row and full sentences, still prioritising blindness over speed. Day seven: first measured minute — write it down without judging it. Days eight to ten: introduce the daily structure from this guide (sprint, measured minute, weak keys, hard text type). Days eleven to thirteen: accuracy emphasis — every round finished at 97% or better.</p>
     <p>Day fourteen: retest under the same conditions as day seven and compare. Most people see a visible gain by day fourteen — small, but real, and more importantly a working system they now own for free. From here it is the same cycle weekly: measure, drill the bottleneck, repeat.</p>
-    <h2>Free features to ignore</h2>
+    <h2 id="free-features-to-ignore">Free features to ignore</h2>
     <p>Free tools come with distractions dressed as features. Ignore animated themes, achievement badges and social leaderboards for the first month — they reward time-on-site, not skill. Ignore 'speed' modes that hide errors; they train exactly the habit you are trying to kill. And ignore any drill that does not produce a measurable score you can compare week to week.</p>
     <p>The features that matter are boring: a timer, net WPM, accuracy, a weak-key report and a saved history. Everything else is decoration.</p>
-    <h2>Staying motivated without a paid coach</h2>
+    <h2 id="staying-motivated-without-a-paid-coach">Staying motivated without a paid coach</h2>
     <p>A coach sells accountability, not secrets, and free accountability exists. The browser history of your results is the first layer: a visible trend line answers 'is this working?' any time doubt appears. The weekly measurement appointment is the second — same test, same conditions, five minutes, non-negotiable.</p>
     <p>The third layer is goal sizing. 'Get faster' fails because it never finishes; 'reach 50 WPM by the end of next month at 98% accuracy' succeeds because it is checkable. Write the number down, work the system, and let the weekly log close the loop. Motivation built on visible progress outlasts motivation bought from anyone.</p>
-    <h2>After the first month: the free intermediate path</h2>
+    <h2 id="after-the-first-month-the-free-intermediate-path">After the first month: the free intermediate path</h2>
     <p>Once the daily structure feels automatic — usually around 40–50 WPM at 97% accuracy — the free path continues, just with harder material. Longer rounds for stamina, numbers and quotes modes for symbol fluency, custom texts from your own work for realism, and a weekly weak-key review to keep the bottleneck moving.</p>
     <p>The intermediate plateau near 60 WPM is where most self-taught typists stop, not because the method stopped working but because measurement stopped. Keep the weekly number. The same free system that took you from 20 to 50 takes you from 50 to 70 — it just asks for patience in months instead of weeks.</p>
     <p>None of this costs anything but attention. A browser, a timer, a weekly number and ten honest minutes a day are the entire tuition. The day you beat your first recorded score is the day you have proof the free system works — and from then on, the system sells itself. Keep the weekly log for three months and you will have something no course can sell you: proof, in your own numbers, of exactly how far you have come.</p>

@@ -4,8 +4,6 @@ Source: https://typing.rerivo.com/top-hi-words.html
 
 The 200 most common Hindi words from real frequency data, with a free typing practice test above. Master these and you cover the bulk of everyday Hindi text.
 
-## The 200 most common Hindi words
-
 The 200 most common Hindi words below come from real subtitle frequency data — everyday Devanagari words, not dictionary entries. The list is drawn from the FrequencyWords open dataset (MIT license), built from OpenSubtitles transcripts, and filtered to words in the native script only.
 
 # | Word | # | Word | # | Word | # | Word
@@ -60,19 +58,13 @@ The 200 most common Hindi words below come from real subtitle frequency data —
 49 | समझ | 99 | ए | 149 | उठ | 199 | नल
 50 | कई | 100 | हल | 150 | आदत | 200 | ईआर
 
-## Why drill the top Hindi words
-
 Hindi subtitles lean on a small set of function words — है, और, का, में, नहीं — and those same forms recur in WhatsApp messages, news captions and everyday documents. Once your fingers can produce them without hunting for a key, every sentence you type speeds up, because you stop breaking rhythm on the words that appear in almost every line.
 
 Hindi high-frequency words are rich in matras and the conjunct consonants (क्ष, त्र, ज्ञ) that slow most typists down. Drilling these 200 words builds automaticity exactly where Hindi typing needs it.
 
-## How to practise Hindi typing with this list
-
 Ten to fifteen minutes a day, all of it on this list, beats an hour of random Devanagari text. Type a round, then read the weak-key report and spend the next two minutes on the matras and conjuncts it names — क्ष, त्र, ज्ञ and the vowel signs that pull your fingers apart. Accuracy above 97% first; only add speed once the conjuncts stop breaking your rhythm.
 
 When you want full sentences instead of single words, switch to the Hindi typing test, or benchmark yourself against the classic 1 minute typing test.
-
-## Word lists in other languages
 
 The same top-200 frequency list is available for: English · Spanish · Japanese · Korean · Urdu. Each list is built from the same open subtitle-frequency dataset, so the lists are directly comparable across languages.
 

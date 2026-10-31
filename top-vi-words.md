@@ -4,8 +4,6 @@ Source: https://typing.rerivo.com/top-vi-words.html
 
 The 200 most common Vietnamese words, with a free typing practice test above. Master these and you cover the bulk of everyday Vietnamese text.
 
-## The 200 most common Vietnamese words
-
 The 200 most common Vietnamese words below come from real subtitle frequency data — everyday spoken-style Vietnamese as it is actually typed. The list comes from FrequencyWords open dataset (MIT license), built from OpenSubtitles transcripts, filtered to native-script words.
 
 # | Word | # | Word | # | Word | # | Word
@@ -60,19 +58,13 @@ The 200 most common Vietnamese words below come from real subtitle frequency dat
 49 | khi | 99 | mày | 149 | chào | 199 | xuống
 50 | những | 100 | ơn | 150 | đưa | 200 | bây
 
-## Why drill the top Vietnamese words
-
 In almost every language, a few hundred words cover most of what people actually write. Vietnamese is no exception: these 200 words appear again and again in messages, documents, subtitles and web pages. If your fingers can produce them without thinking, your real-world Vietnamese typing speed rises immediately.
 
 Vietnamese high-frequency words are short syllables packed with tones and diacritics (tôi, không, được, rồi). Drilling them trains the tone-mark automaticity that real Vietnamese typing speed is made of.
 
-## How to practise Vietnamese typing with this list
-
 Start the test above — it draws words from this very list, so every round drills the words that matter. Type a short round every day, aim for accuracy first (97%+), and only then push for speed. Watch the weak-key report after each round: it shows exactly which letters slow you down.
 
 When you want full sentences instead of single words, switch to the Vietnamese typing test, or benchmark yourself against the classic 1 minute typing test.
-
-## Word lists in other languages
 
 The same top-200 list is available for: Indonesian · Turkish · Thai. Each list is built from the same frequency-based approach, so the lists are directly comparable across languages.
 

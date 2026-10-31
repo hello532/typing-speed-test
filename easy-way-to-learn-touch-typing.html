@@ -414,6 +414,16 @@ body.typing-active footer{opacity:.26;filter:saturate(.72);pointer-events:none;}
 .conv input:focus{outline:2px solid var(--borderhi);outline-offset:1px;}
 .conv-out{margin:12px 0 0;font-size:.95rem;font-weight:600;color:var(--text);}
 .conv-out span{color:var(--soft);font-weight:500;}
+
+/* Round-39: "On this page" jump list for long pages (≥6 sections).
+   Helps snippet extraction and lets readers jump to the section they need. */
+.toc{max-width:760px;margin:0 0 18px;padding:14px 18px;border:1px solid var(--line);border-radius:12px;background:var(--panel2);}
+.toc p{margin:0 0 8px;font-size:.78rem;font-weight:700;letter-spacing:.6px;text-transform:uppercase;color:var(--soft);}
+.toc ol{margin:0;padding-left:20px;display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:4px 22px;}
+.toc li{font-size:.9rem;line-height:1.45;}
+.toc a{color:var(--soft);text-decoration:none;}
+.toc a:hover{color:var(--text);text-decoration:underline;}
+@media(max-width:560px){.toc ol{grid-template-columns:1fr;}}
 </style>
 <script>try{var _t=localStorage.getItem("trTheme");if(_t&&_t!=="dark")document.documentElement.setAttribute("data-theme",_t);var _l=localStorage.getItem("trLang");if(_l&&_l!=="en"){document.documentElement.lang=_l;if(_l==="ar")document.documentElement.dir="rtl";}}catch(e){}</script>
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1401237223139327"
@@ -548,34 +558,35 @@ body.typing-active footer{opacity:.26;filter:saturate(.72);pointer-events:none;}
   </nav>
 
   <section class="seo">
-    <h2>The laziness-proof design</h2>
+    <nav class="toc" aria-label="On this page"><p>On this page</p><ol><li><a href="#the-laziness-proof-design">The laziness-proof design</a></li><li><a href="#week-one-just-the-home-row-eyes-up">Week one: just the home row, eyes up</a></li><li><a href="#week-two-sentences-you-actually-like">Week two: sentences you actually like</a></li><li><a href="#week-three-measure-then-weak-keys-only">Week three: measure, then weak keys only</a></li><li><a href="#the-no-willpower-rules">The no-willpower rules</a></li><li><a href="#what-easy-gets-you-and-when">What 'easy' gets you and when</a></li><li><a href="#if-you-fall-off-the-wagon">If you fall off the wagon</a></li><li><a href="#enjoyment-based-practice-content-ideas">Enjoyment-based practice content ideas</a></li><li><a href="#the-two-minute-weekly-review">The two-minute weekly review</a></li><li><a href="#graduating-from-the-lazy-method">Graduating from the lazy method</a></li></ol></nav>
+    <h2 id="the-laziness-proof-design">The laziness-proof design</h2>
     <p>Every failed learn-to-type attempt dies the same death: the daily session is too long to survive a busy day. So this method sets the bar at ten minutes — short enough that even your worst day contains it. Attach it to an existing habit: after morning coffee, before lunch, during the first boot-up of the day. Habits piggyback better than they schedule.</p>
     <p>That is the entire psychological trick. You are not building typing skill yet; you are building an unmissable appointment. The skill follows on its own.</p>
-    <h2>Week one: just the home row, eyes up</h2>
+    <h2 id="week-one-just-the-home-row-eyes-up">Week one: just the home row, eyes up</h2>
     <p>Ten minutes daily on A-S-D-F and J-K-L-; at whatever slowness keeps your eyes off the keyboard. No speed goals, no full sentences yet — just finding letters blind. Cover the keyboard with a cloth if your eyes keep cheating; the cover, not willpower, enforces the rule.</p>
     <p>This week feels too easy to matter and too boring to quit over — both are by design. The spatial memory forming this week is the entire foundation.</p>
-    <h2>Week two: sentences you actually like</h2>
+    <h2 id="week-two-sentences-you-actually-like">Week two: sentences you actually like</h2>
     <p>Now type real sentences — but from content you enjoy: song lyrics, a show transcript, your own journal, anything you would read for fun. Boredom kills more learn-to-type attempts than difficulty does, and enjoying the text is the only legal cheat code.</p>
     <p>Still no speed pressure. You are letting common words become automatic at whatever pace they choose, which paradoxically makes them automate faster.</p>
-    <h2>Week three: measure, then weak keys only</h2>
+    <h2 id="week-three-measure-then-weak-keys-only">Week three: measure, then weak keys only</h2>
     <p>Take your first measured minute — no judgment, just a number. From here, ten minutes splits into: one measured round, then the rest on the two weakest keys from the result report. Two keys, every day, until they stop being weak — then the next two.</p>
     <p>This is the week the curve visibly bends upward for most learners, because targeted weak-key work is the highest-ROI drill in typing and it requires almost no time.</p>
-    <h2>The no-willpower rules</h2>
+    <h2 id="the-no-willpower-rules">The no-willpower rules</h2>
     <p>Three rules keep the method lazy-proof. Never practise longer than ten minutes on a good day — ending while it is fun makes tomorrow easy. Never skip two days in a row — one miss is life, two is a broken chain. And never test speed except at the weekly measurement — daily speed-checking creates discouragement without information.</p>
     <p>That is it. No courses, no schedules with seventeen steps, no motivation required after week one.</p>
-    <h2>What 'easy' gets you and when</h2>
+    <h2 id="what-easy-gets-you-and-when">What 'easy' gets you and when</h2>
     <p>On this method: week one, letters blind on home row. Week two, sentences without looking. Week three, a measured score that starts climbing — typically 25–40 WPM by end of week three, with automaticity following over the next month of real-world use.</p>
     <p>From there the <a href="touch-typing-test.html">touch typing test</a> becomes your weekly two-minute check-in, and the harder drills are waiting whenever you want them. But the system above is complete: it is the easiest version of learning touch typing that actually works.</p>
-    <h2>If you fall off the wagon</h2>
+    <h2 id="if-you-fall-off-the-wagon">If you fall off the wagon</h2>
     <p>Everyone misses a stretch. The lazy-proof restart is deliberately soft: do not 'make up' lost days, do not restart the program, just do today's ten minutes. The skill you built does not evaporate in a week or two of absence — it merely waits, slightly rusty, and returns within a session or two.</p>
     <p>The only true failure state is the internal 'I blew it, might as well quit' story. Restarting small, today, is the entire recovery protocol. The <a href="is-it-hard-to-learn-touch-typing.html">is it hard to learn touch typing</a> page has the honest difficulty breakdown if doubt returns.</p>
-    <h2>Enjoyment-based practice content ideas</h2>
+    <h2 id="enjoyment-based-practice-content-ideas">Enjoyment-based practice content ideas</h2>
     <p>The text you practise with decides whether day ten happens. Reliable enjoyment sources: lyrics of songs you love (rhythmic, familiar, short lines), transcripts of shows you have already seen (predictable vocabulary), your own old writing (journal, emails, blog posts), and news on a hobby you follow.</p>
     <p>Rotate daily. The skill being trained — blind accuracy — is content-agnostic, so you might as well spend the ten minutes inside something you would read anyway. That is the whole easy method: short, daily, measured, and gentle with yourself when life interrupts.</p>
-    <h2>The two-minute weekly review</h2>
+    <h2 id="the-two-minute-weekly-review">The two-minute weekly review</h2>
     <p>Once a week, same day: one measured minute, then write three numbers in any note app — WPM, accuracy, and one sentence about what felt hard. Two minutes total. This is the entire tracking system, and it is enough, because trends need weeks of data, not hours of analysis.</p>
     <p>Review the note every four weeks. Watching three numbers climb across a month is the motivation engine this lazy method runs on — no streaks, no badges, just proof.</p>
-    <h2>Graduating from the lazy method</h2>
+    <h2 id="graduating-from-the-lazy-method">Graduating from the lazy method</h2>
     <p>You will know the method has finished its job when you type a real email without a single thought about fingers — usually somewhere between week four and eight. That is automaticity, and it means the training wheels can come off: longer sessions if you want them, speed goals if they interest you, harder text types for the gaps.</p>
     <p>Keep one piece of the lazy system forever: the weekly measured minute. It costs two minutes and it is the early-warning system for every future plateau.</p>
     <p class="byline">By <a href="about.html">the Typing.Rerivo team</a> &mdash; we build and maintain this typing test. Scoring formulas and the benchmarks used on our pages are documented in the methodology notes on our <a href="about.html">about page</a>, along with the sources we cite. Page last updated 2026-10-31.</p>

@@ -4,8 +4,6 @@ Source: https://typing.rerivo.com/top-tr-words.html
 
 The 200 most common Turkish words, with a free typing practice test above. Master these and you cover the bulk of everyday Turkish text.
 
-## The 200 most common Turkish words
-
 The 200 most common Turkish words below come from real subtitle frequency data — the everyday words of spoken and written Turkish. The list comes from FrequencyWords open dataset (MIT license), built from OpenSubtitles transcripts, filtered to native-script words.
 
 # | Word | # | Word | # | Word | # | Word
@@ -60,19 +58,13 @@ The 200 most common Turkish words below come from real subtitle frequency data �
 49 | şu | 99 | fazla | 149 | iş | 199 | bakalım
 50 | misin | 100 | yeni | 150 | bizi | 200 | onlar
 
-## Why drill the top Turkish words
-
 In almost every language, a few hundred words cover most of what people actually write. Turkish is no exception: these 200 words appear again and again in messages, documents, subtitles and web pages. If your fingers can produce them without thinking, your real-world Turkish typing speed rises immediately.
 
 Turkish high-frequency words carry the special letters (ç, ğ, ı, ö, ş, ü) on nearly every line. Drilling these 200 words builds speed exactly where Turkish typists lose it.
 
-## How to practise Turkish typing with this list
-
 Start the test above — it draws words from this very list, so every round drills the words that matter. Type a short round every day, aim for accuracy first (97%+), and only then push for speed. Watch the weak-key report after each round: it shows exactly which letters slow you down.
 
 When you want full sentences instead of single words, switch to the Turkish typing test, or benchmark yourself against the classic 1 minute typing test.
-
-## Word lists in other languages
 
 The same top-200 list is available for: Indonesian · Vietnamese · Thai. Each list is built from the same frequency-based approach, so the lists are directly comparable across languages.
 

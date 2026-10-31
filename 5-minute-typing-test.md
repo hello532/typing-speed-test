@@ -4,23 +4,22 @@ Source: https://typing.rerivo.com/5-minute-typing-test.html
 
 Measure your sustained typing speed over a full 5 minutes. A longer test averages out lucky bursts and fatigue, giving a more reliable words per minute (WPM) score than a quick 1 minute test.
 
-## 5 minute typing test
+On this page
+
+5 minute typing test
+Who should use a 5 minute test?
+Build typing endurance
+How to prepare for the 5 minute test
+5 minute typing test: what a longer round reveals
+Where the five-character rule comes from
 
 The 5 minute typing test is the best way to measure your real, sustained typing speed. Over five minutes your score settles down: a single fast or slow sentence no longer dominates the result, and natural fatigue is factored in. This is why many employers and typing certifications prefer a 3-5 minute test over a 60 second one.
 
-## Who should use a 5 minute test?
-
 If you type for a living — data entry, transcription, programming, customer support — the 5 minute test reflects your working speed far better than a short burst. Take it a few times a week and watch your WPM and accuracy trend in the saved history below.
-
-## Build typing endurance
 
 A five-minute test measures something a quick sprint can't: how well you hold speed and accuracy as your hands tire. Pace yourself, keep your posture relaxed and your wrists level, and breathe. Finishing strong on the five-minute test is a reliable sign your typing is ready for long real-world sessions of writing, coding or data entry. If you want to see how far that endurance goes, run the 10 minute typing test once a month and compare how much of your speed survives to the final minute.
 
-## How to prepare for the 5 minute test
-
 Treat a five-minute attempt like a short workout: sit with feet flat and wrists floating level with the keyboard, roll your shoulders once, then run a 1 minute typing test as a warm-up. Keep water nearby but skip coffee right before — caffeine jitters tend to show up as extra errors around minute three. During the round, breathe steadily and use sentence breaks as micro-rests for your eyes. Two prepared attempts a week beat seven tired ones.
-
-## 5 minute typing test: what a longer round reveals
 
 Short tests measure reflexes; a 5 minute typing test measures technique. Most errors that show up here are not typos but fatigue patterns: the left hand drifts off home row, the pinky stops reaching for shift, and accuracy falls before speed does.
 
@@ -29,8 +28,6 @@ Accuracy drift - watch whether accuracy falls over time. If it does, slow down r
 Rhythm breaks - long pauses cluster around punctuation and capitals, which is where drills pay off most.
 
 Best practice once you have a baseline: run 1 minute typing tests daily for speed, and a 5 minute round weekly to confirm the speed is sustainable.
-
-## Where the five-character rule comes from
 
 Every five-minute score on this page uses the standard five-character word, the same convention summarised by words per minute: a word is five characters, including spaces and punctuation. That is what makes a five minute result comparable with a one minute result taken on a different site - and what makes the endurance drop between the two formats measurable at all.
 

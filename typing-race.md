@@ -4,19 +4,11 @@ Source: https://typing.rerivo.com/typing-race.html
 
 Free typing race against the clock. Sixty seconds, short punchy sentences, and a live WPM counter that climbs with every clean word. Race your own best time, hold a steady sprint, and finish with zero corrections. No sign up, straight in your browser.
 
-## typing race
-
 A typing race turns practice into a sprint: a fixed 60 second timer, a live WPM counter, and sentences short enough that you never lose momentum. This free typing race is the fastest way to find your top speed, because the clock removes every excuse to slow down. Every clean word pushes the counter higher, and the error report at the finish line shows exactly where the race was won or lost.
-
-## A competitive typing game for speed
 
 This is a competitive typing game in its purest form: one minute, one text, and a score that stays on this device until you beat it. There is no lobby and no opponent to wait for, so the race starts the moment your first keystroke does. Compete against yourself daily, or share your WPM and race a friend on the same keyboard; every session is a new heat.
 
-## How to race your fastest typing sprint
-
 Treat the first sentence like a warm up, not a launch: start at 80 percent of your top speed and build into the race. Keep your eyes on the text two or three words ahead of your fingers, so your hands never stall mid-sentence. Keep your wrists light and your rhythm even, because most typing races are lost in the last ten seconds when fatigue makes fingers sloppy.
-
-## Race yourself and track your best WPM
 
 Your best time is saved in your own browser, so every race is really against yourself. Try a best-of-three: race once to warm up, once at full speed, and once while aiming for zero corrections. The third race usually produces your best WPM, because chasing accuracy is what unlocks the top speed. Come back daily and the leaderboard of your own history does the rest.
 

@@ -414,6 +414,16 @@ body.typing-active footer{opacity:.26;filter:saturate(.72);pointer-events:none;}
 .conv input:focus{outline:2px solid var(--borderhi);outline-offset:1px;}
 .conv-out{margin:12px 0 0;font-size:.95rem;font-weight:600;color:var(--text);}
 .conv-out span{color:var(--soft);font-weight:500;}
+
+/* Round-39: "On this page" jump list for long pages (≥6 sections).
+   Helps snippet extraction and lets readers jump to the section they need. */
+.toc{max-width:760px;margin:0 0 18px;padding:14px 18px;border:1px solid var(--line);border-radius:12px;background:var(--panel2);}
+.toc p{margin:0 0 8px;font-size:.78rem;font-weight:700;letter-spacing:.6px;text-transform:uppercase;color:var(--soft);}
+.toc ol{margin:0;padding-left:20px;display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:4px 22px;}
+.toc li{font-size:.9rem;line-height:1.45;}
+.toc a{color:var(--soft);text-decoration:none;}
+.toc a:hover{color:var(--text);text-decoration:underline;}
+@media(max-width:560px){.toc ol{grid-template-columns:1fr;}}
 </style>
 <script>try{var _t=localStorage.getItem("trTheme");if(_t&&_t!=="dark")document.documentElement.setAttribute("data-theme",_t);var _l=localStorage.getItem("trLang");if(_l&&_l!=="en"){document.documentElement.lang=_l;if(_l==="ar")document.documentElement.dir="rtl";}}catch(e){}</script>
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1401237223139327"
@@ -548,16 +558,16 @@ body.typing-active footer{opacity:.26;filter:saturate(.72);pointer-events:none;}
   </nav>
 
   <section class="seo">
-    <h2>dvorak typing</h2>
+    <h2 id="dvorak-typing">dvorak typing</h2>
     <p>Most typing tests show a QWERTY keyboard, which is useless when you practice <strong>Dvorak typing</strong>: the label you need to find is not on the key you press. This test flips the on screen keyboard to the Dvorak layout, keeping the physical key positions of QWERTY and relabelling every key, so the hand you need to move matches the finger guide on screen exactly as a Dvorak user sees their own keyboard.</p>
     <p>Nothing is installed and nothing changes your system: the test only draws the Dvorak keyboard on this page. Switch your operating system input to Dvorak, start typing, and the test scores you exactly as it would in QWERTY, because the measuring logic reads the characters your layout produces, not the keys.</p>
-    <h2>Why switch to Dvorak</h2>
+    <h2 id="why-switch-to-dvorak">Why switch to Dvorak</h2>
     <p>August Dvorak designed the layout in the 1930s so the most common letters sit on the home row, which means less finger travel between rows for almost every English word. Typists who switch usually report less strain in long sessions, and many reach a higher comfortable speed once the new muscle memory settles, which takes roughly two to four weeks of daily practice.</p>
     <p>The honest trade off: Dvorak helps most for people who type a lot of English prose. Shortcuts that assume QWERTY positions stay where they were physically, and shared or public keyboards are QWERTY by default, so most Dvorak users keep a fast way to switch back.</p>
-    <h2>How to practice Dvorak typing</h2>
+    <h2 id="how-to-practice-dvorak-typing">How to practice Dvorak typing</h2>
     <p>Set your operating system layout to Dvorak first, otherwise you would be typing QWERTY text while looking at a Dvorak keyboard. Start with short sessions of two to five minutes, and resist the urge to look at your hands: the finger guides on this page exist exactly to replace that habit.</p>
     <p>Expect your speed to drop well below your QWERTY speed for the first week; that drop is the switch cost, not a sign Dvorak is wrong for you. Track your WPM here each day and compare accuracy rather than raw speed, because accuracy recovers first and speed follows it.</p>
-    <h2>Before you switch layouts</h2>
+    <h2 id="before-you-switch-layouts">Before you switch layouts</h2>
     <p>Considering the switch? <a href="dvorak-vs-qwerty.html">Dvorak vs QWERTY</a> weighs the evidence honestly — and why technique usually beats layout.</p>
     <p class="byline">By <a href="about.html">the Typing.Rerivo team</a> &mdash; we build and maintain this typing test. Scoring formulas and the benchmarks used on our pages are documented in the methodology notes on our <a href="about.html">about page</a>, along with the sources we cite. Page last updated 2026-10-31.</p>
   </section>

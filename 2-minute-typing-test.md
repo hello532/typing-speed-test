@@ -4,23 +4,25 @@ Source: https://typing.rerivo.com/2-minute-typing-test.html
 
 Test your typing speed over 2 minutes — long enough for a stable WPM score, short enough to stay sharp. A great middle ground between the quick 1 minute test and the full 5 minute test.
 
-## 2 minute typing test
+On this page
+
+2 minute typing test
+1 minute vs 2 minute vs 5 minute
+Why a 2-minute typing test
+A daily 2 minute practice routine
+2 minute typing test vs 1 minute and 3 minute
+How to pace a two minute round
+2 minute typing test for employment
+Moving between test lengths
+How this round is scored
 
 The 2 minute typing test is a popular middle-ground length. Two minutes is long enough that your score reflects real typing speed rather than one lucky sentence, yet short enough to keep full concentration. Type the passage as fast and accurately as you can — WPM, accuracy and errors are counted automatically.
 
-## 1 minute vs 2 minute vs 5 minute
-
 A 1 minute test is a quick check, a 2 minute test is a reliable everyday measure, and a 5 minute test is best for serious benchmarking. If you are practising daily, the 2 minute test is a comfortable default that balances speed feedback and stability.
-
-## Why a 2-minute typing test
 
 Two minutes is the sweet spot between a quick sprint and a full endurance run. It's long enough to settle into a steady rhythm and smooth out a shaky start, yet short enough to retake several times in a sitting. Many employer screening tests use a two-minute format, which makes it ideal practice for job applications.
 
-## A daily 2 minute practice routine
-
 One reliable routine: open the test at the same time each day, take exactly two rounds with a one-minute stretch break between them, and keep the better score. Two rounds a day is enough to show a trend within a fortnight — most steady practicers gain 5 to 10 WPM in the first month. When progress stalls for a full week, switch to targeted drills for your slowest keys instead of adding more test rounds; our typing tips explain how to find them.
-
-## 2 minute typing test vs 1 minute and 3 minute
 
 Two minutes is the shortest round where a single bad sentence stops dominating the score. A 1 minute typing test can swing 10-15 WPM on one unfamiliar sentence; across two minutes that swing halves.
 
@@ -30,21 +32,13 @@ Two minutes is the shortest round where a single bad sentence stops dominating t
 
 If you are tracking progress, keep the length fixed. Comparing a 2 minute score against a 5 minute score tells you about endurance, not improvement.
 
-## How to pace a two minute round
-
 Open slightly under your target speed and let the first sentence calibrate you. Most typists gain 3-6 WPM in the second minute simply by relaxing into rhythm; the ones who lose points are those who sprint the first twenty seconds and spend the rest recovering. Keep your eyes one word ahead of the cursor and your hands still between keystrokes.
 
 If you want a stricter reading of the same two minutes, switch the text mode to quotes: capitals and punctuation are where accuracy quietly leaks away, and the result screen will show it.
 
-## 2 minute typing test for employment
-
 Two-minute formats appear in clerical and customer-service screening because they fit inside a short interview slot. The format that matters is unfamiliar text, one take, and an accuracy floor of 95%. Practise with a passage you have not seen and resist the urge to retake — employers do not offer one. The typing test for jobs page lists the common thresholds by role.
 
-## Moving between test lengths
-
 Length changes what a score means. A sixty-second round is the format schools, employers and certificates quote most, so it is the number to keep as your baseline: the 1 minute typing test is the reference point every other duration on this site is compared against. Longer rounds then measure how much of that baseline survives, and shorter rounds measure how quickly you can reach it cold.
-
-## How this round is scored
 
 Each round scores correct characters using the five-character word convention described for words per minute: five characters, spaces and punctuation included, count as one word. A clean round also reports accuracy next to net WPM, because the two numbers answer different questions - how fast your fingers move, and how much of that speed survived contact with the keyboard.
 

@@ -4,8 +4,6 @@ Source: https://typing.rerivo.com/top-en-words.html
 
 The 200 most common English words from real frequency data, with a free typing practice test above. Master these and you cover the bulk of everyday English text.
 
-## The 200 most common English words
-
 The 200 most common English words below come from real subtitle frequency data, so they are the words you actually type every day — not a textbook list. The list is drawn from the FrequencyWords open dataset (MIT license), built from OpenSubtitles transcripts, and filtered to words in the native script only.
 
 # | Word | # | Word | # | Word | # | Word
@@ -60,19 +58,13 @@ The 200 most common English words below come from real subtitle frequency data, 
 49 | him | 99 | by | 149 | must | 199 | someone
 50 | now | 100 | need | 150 | before | 200 | fine
 
-## Why drill the top English words
-
 In almost every language, a few hundred words cover most of what people actually write. English is no exception: these 200 words appear again and again in messages, documents, subtitles and web pages. If your fingers can produce them without thinking, your real-world English typing speed rises immediately — long before you memorise any larger vocabulary.
 
 English high-frequency words are mostly short function words (the, of, and) mixed with everyday verbs and nouns. They are the words where touch-typing muscle memory pays off fastest, because you type them thousands of times a day.
 
-## How to practise English typing with this list
-
 Start the test above — it draws words from this very list, so every round drills the words that matter. Type a short round every day, aim for accuracy first (97%+), and only then push for speed. Watch the weak-key report after each round: it shows exactly which letters slow you down, so you can target them instead of re-typing words you already know.
 
 When you want full sentences instead of single words, switch to the English typing test, or benchmark yourself against the classic 1 minute typing test. When 200 words stop being enough, the 1000 most common English words list extends the same frequency-first method.
-
-## Word lists in other languages
 
 The same top-200 frequency list is available for: Spanish · Hindi · Japanese · Korean · Urdu. Each list is built from the same open subtitle-frequency dataset, so the lists are directly comparable across languages.
 

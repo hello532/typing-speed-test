@@ -4,19 +4,13 @@ Source: https://typing.rerivo.com/privacy-policy.html
 
 This page explains what Typing.Rerivo does and does not collect. The short version: nothing about you is collected at all.
 
-## What we collect
-
 Nothing. There is no account system, no sign up, no email collection and no contact form on the typing test itself. We do not run analytics scripts, advertising pixels, fingerprinting or any third party tracking on this site.
 
 When you take a test, your text input, your typing speed and your accuracy are computed entirely inside your own browser by JavaScript running on this page. The results are never transmitted to any server.
 
-## What is stored on your device
-
 Your typing history, your chosen settings and your high score are saved in your browser's localStorage, which lives on your device only. Clearing your browser data or using a private window removes all of it. Nothing of yours reaches a database, because there is no database.
 
 If you use the print certificate feature, the certificate is generated in your browser and sent straight to your printer or to your browser's save as PDF dialog; it is not uploaded anywhere.
-
-## Hosting and indexing
 
 The site is hosted on GitHub Pages, so GitHub may record standard request logs (IP address, timestamp, requested URL) as part of serving the pages, as any web host does. Those logs are governed by GitHub's own privacy policy and are not shared with or used by us.
 

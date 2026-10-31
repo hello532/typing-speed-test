@@ -4,25 +4,15 @@ Source: https://typing.rerivo.com/indonesian-typing-test.html
 
 Uji kecepatan mengetik Bahasa Indonesia dengan kalimat nyata. Hasil WPM dan akurasi langsum muncul. Gratis, tanpa daftar.
 
-## Cara menggunakan tes mengetik ini
-
 Pilih durasi (15 detik sampai 10 menit), klik area teks, dan mulailah mengetik kalimat yang muncul di layar. Timer dimulai dari keystroke pertama, bukan sebelumnya. Setelah selesai, Anda melihat WPM, akurasi, CPM, dan laporan tombol lemah — huruf yang paling sering salah dan paling lambat.
 
 Untuk meningkatkan kecepatan: latih akurasi dulu (target 97-98%), lalu naikkan tempo secara bertahap. Kata-kata dengan awalan me-, di-, ber- dan akhiran -kan, -nya muncul berulang-ulang dalam setiap kalimat, sehingga latihan kalimat nyata membangun otomatisasi tepat di tempat yang dibutuhkan. Latihan harian sepuluh menit lebih efektif daripada satu jam sekali seminggu.
 
-## Indonesian typing test
-
 An Indonesian typing test measures how fast and accurately you type real Bahasa Indonesia sentences — everyday text with the me-, di- and ber- prefixes and -kan/-nya suffixes that make up most written Indonesian. Your result shows in words per minute, where every 5 characters counts as one word.
-
-## Bahasa Indonesia on a standard keyboard
 
 Indonesian uses the plain Latin alphabet with no diacritics, so any standard QWERTY keyboard works with no special input method — what you see is what you type. That makes Indonesian one of the most keyboard-friendly languages in Asia, and it means your typing speed depends purely on technique, not on fighting an IME.
 
-## How to improve Indonesian typing speed
-
 Practise with real sentences rather than isolated words: the affix patterns (me-, di-, ber-, -kan, -nya) repeat constantly, so sentence practice builds automaticity exactly where Indonesian typing needs it. Keep your eyes on the screen, accuracy first, and slow down for the punctuation that breaks rhythm.
-
-## Indonesian typing for work and school
 
 Timed typing in Bahasa Indonesia is part of many office, administration and data-entry roles across Indonesia, and fast accurate typing is a core skill for students and civil-service candidates. Daily timed rounds with real sentences build exactly the measured speed and accuracy those roles ask for.
 

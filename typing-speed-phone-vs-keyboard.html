@@ -414,6 +414,16 @@ body.typing-active footer{opacity:.26;filter:saturate(.72);pointer-events:none;}
 .conv input:focus{outline:2px solid var(--borderhi);outline-offset:1px;}
 .conv-out{margin:12px 0 0;font-size:.95rem;font-weight:600;color:var(--text);}
 .conv-out span{color:var(--soft);font-weight:500;}
+
+/* Round-39: "On this page" jump list for long pages (≥6 sections).
+   Helps snippet extraction and lets readers jump to the section they need. */
+.toc{max-width:760px;margin:0 0 18px;padding:14px 18px;border:1px solid var(--line);border-radius:12px;background:var(--panel2);}
+.toc p{margin:0 0 8px;font-size:.78rem;font-weight:700;letter-spacing:.6px;text-transform:uppercase;color:var(--soft);}
+.toc ol{margin:0;padding-left:20px;display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:4px 22px;}
+.toc li{font-size:.9rem;line-height:1.45;}
+.toc a{color:var(--soft);text-decoration:none;}
+.toc a:hover{color:var(--text);text-decoration:underline;}
+@media(max-width:560px){.toc ol{grid-template-columns:1fr;}}
 </style>
 <script>try{var _t=localStorage.getItem("trTheme");if(_t&&_t!=="dark")document.documentElement.setAttribute("data-theme",_t);var _l=localStorage.getItem("trLang");if(_l&&_l!=="en"){document.documentElement.lang=_l;if(_l==="ar")document.documentElement.dir="rtl";}}catch(e){}</script>
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1401237223139327"
@@ -548,19 +558,19 @@ body.typing-active footer{opacity:.26;filter:saturate(.72);pointer-events:none;}
   </nav>
 
   <section class="seo">
-    <h2>The two measurements, side by side</h2>
+    <h2 id="the-two-measurements-side-by-side">The two measurements, side by side</h2>
     <table><tr><th>Measure</th><th>Phone (touchscreen)</th><th>Desktop keyboard</th></tr><tr><td>Average speed</td><td>36.17 WPM (SD 13.22)</td><td>51.56 WPM (SD 20.2)</td></tr><tr><td>Uncorrected error rate</td><td>2.34%</td><td>1.17%</td></tr><tr><td>Keystrokes per character</td><td>1.18</td><td>1.173</td></tr><tr><td>Volunteers</td><td>37,370</td><td>168,960</td></tr><tr><td>Source</td><td>Palin, Feit, Kim, Kristensson &amp; Oulasvirta, MobileHCI 2019, doi.org/10.1145/3338286.3340120</td><td>Dhakal, Feit, Kristensson &amp; Oulasvirta, CHI 2018, doi.org/10.1145/3173574.3174220</td></tr></table>
     <p>Both studies used the same method - transcribe a displayed English sentence - so the comparison is unusually clean. The mobile study explicitly compares itself to the desktop one and reports that average performance is about 15 WPM slower on a phone.</p>
-    <h2>Where the gap comes from</h2>
+    <h2 id="where-the-gap-comes-from">Where the gap comes from</h2>
     <ul><li><strong>Fewer fingers.</strong> Over 74% of phone typists use both thumbs, and two thumbs are faster than one thumb or one index finger - but still nowhere near ten fingers on a physical keyboard.</li><li><strong>No tactile feedback.</strong> You cannot feel the key boundary, so every press carries a small positional uncertainty that a keyboard removes.</li><li><strong>Correction cost.</strong> Fixing a mistake on glass takes more gestures, which is why phone typists leave more errors uncorrected (2.34% versus 1.17%) rather than fixing them.</li><li><strong>Layout.</strong> A QWERTY touchscreen is a compromise; physical keyboards can be swapped for whatever suits your hands.</li></ul>
-    <h2>Phone typing percentiles</h2>
+    <h2 id="phone-typing-percentiles">Phone typing percentiles</h2>
     <p>Using the mobile distribution (mean 36.2, SD 13.2), a normal approximation gives a rough position:</p>
     <table><tr><th>Phone WPM</th><th>Approx. percentile</th><th>Reading</th></tr><tr><td>20</td><td>11th</td><td>Slow thumb typing</td></tr><tr><td>30</td><td>32nd</td><td>Below the phone average</td></tr><tr><td>36</td><td>50th</td><td>Exactly average for phone users</td></tr><tr><td>45</td><td>75th</td><td>Fast for a phone</td></tr><tr><td>60</td><td>97th</td><td>Exceptional on glass</td></tr></table>
     <p>The approximation is labelled as such: the mobile distribution is right-skewed, so the far tail is less reliable than the middle.</p>
-    <h2>What this means for a typing test</h2>
+    <h2 id="what-this-means-for-a-typing-test">What this means for a typing test</h2>
     <p>Most online typing tests and every job screening test assume a physical keyboard. A 36 WPM phone score is not evidence that you would score 36 WPM at a desk - the desk number is usually higher, often by 10-15 WPM if you touch type.</p>
     <p>The reverse is also true and less convenient: a good desktop score does not transfer to mobile work. If your job involves replying from a phone, practise separately, because the two skills share vocabulary but not motor memory.</p>
-    <h2>Should you practise typing on a phone?</h2>
+    <h2 id="should-you-practise-typing-on-a-phone">Should you practise typing on a phone?</h2>
     <p>Only if the work happens on a phone. Practising phone typing to raise a desktop score is wasted effort; the mechanics do not transfer. If you want the desktop number to rise, use a keyboard and work on accuracy and look-ahead.</p>
     <p>Where phone practice does pay: switching to two thumbs if you currently use one finger, and enabling autocorrect, which the mobile study found correlates with faster entry. Word prediction, by contrast, correlated with slower entry in that dataset.</p>
     <p class="byline">By <a href="about.html">the Typing.Rerivo team</a> &mdash; we build and maintain this typing test. Scoring formulas and the benchmarks used on our pages are documented in the methodology notes on our <a href="about.html">about page</a>, along with the sources we cite. Page last updated 2026-10-31.</p>

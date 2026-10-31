@@ -414,6 +414,16 @@ body.typing-active footer{opacity:.26;filter:saturate(.72);pointer-events:none;}
 .conv input:focus{outline:2px solid var(--borderhi);outline-offset:1px;}
 .conv-out{margin:12px 0 0;font-size:.95rem;font-weight:600;color:var(--text);}
 .conv-out span{color:var(--soft);font-weight:500;}
+
+/* Round-39: "On this page" jump list for long pages (≥6 sections).
+   Helps snippet extraction and lets readers jump to the section they need. */
+.toc{max-width:760px;margin:0 0 18px;padding:14px 18px;border:1px solid var(--line);border-radius:12px;background:var(--panel2);}
+.toc p{margin:0 0 8px;font-size:.78rem;font-weight:700;letter-spacing:.6px;text-transform:uppercase;color:var(--soft);}
+.toc ol{margin:0;padding-left:20px;display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:4px 22px;}
+.toc li{font-size:.9rem;line-height:1.45;}
+.toc a{color:var(--soft);text-decoration:none;}
+.toc a:hover{color:var(--text);text-decoration:underline;}
+@media(max-width:560px){.toc ol{grid-template-columns:1fr;}}
 </style>
 <script>try{var _t=localStorage.getItem("trTheme");if(_t&&_t!=="dark")document.documentElement.setAttribute("data-theme",_t);var _l=localStorage.getItem("trLang");if(_l&&_l!=="en"){document.documentElement.lang=_l;if(_l==="ar")document.documentElement.dir="rtl";}}catch(e){}</script>
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1401237223139327"
@@ -548,31 +558,32 @@ body.typing-active footer{opacity:.26;filter:saturate(.72);pointer-events:none;}
   </nav>
 
   <section class="seo">
-    <h2>Where typing jobs are actually posted</h2>
+    <nav class="toc" aria-label="On this page"><p>On this page</p><ol><li><a href="#where-typing-jobs-are-actually-posted">Where typing jobs are actually posted</a></li><li><a href="#how-to-present-your-wpm-on-a-resume">How to present your WPM on a resume</a></li><li><a href="#proof-that-beats-claims">Proof that beats claims</a></li><li><a href="#the-interview-test-and-your-30-day-plan">The interview test and your 30-day plan</a></li><li><a href="#writing-the-application-that-gets-read">Writing the application that gets read</a></li><li><a href="#entry-level-roles-that-hire-on-proof-alone">Entry-level roles that hire on proof alone</a></li><li><a href="#acing-the-practical-assessment">Acing the practical assessment</a></li><li><a href="#negotiating-pay-in-typing-roles">Negotiating pay in typing roles</a></li><li><a href="#your-first-90-days-from-new-hire-to-proven">Your first 90 days: from new hire to proven</a></li></ol></nav>
+    <h2 id="where-typing-jobs-are-actually-posted">Where typing jobs are actually posted</h2>
     <p>Typing-forward roles appear in four places. General job boards under titles like data entry clerk, transcriptionist, administrative assistant and customer support representative. Freelance and gig platforms for project-based typing work. Staffing agencies, which place a large share of data-entry and clerical roles. And direct employer career pages, especially hospitals, courts, universities and logistics companies.</p>
     <p>Search by the skill, not just the title: 'typing', 'data entry', 'transcription', 'KPH' and 'WPM' surface roles that title-search misses. For the remote branch specifically, see <a href="online-typing-jobs.html">online typing jobs</a> and <a href="work-from-home-typing-jobs.html">work from home typing jobs</a>.</p>
-    <h2>How to present your WPM on a resume</h2>
+    <h2 id="how-to-present-your-wpm-on-a-resume">How to present your WPM on a resume</h2>
     <p>Quote a net WPM from a recent, dated test — 'Types 65 WPM (net) with 98% accuracy, tested March 2026' — never a vague 'fast typist'. Recruiters see hundreds of self-assessed claims and trust none of them; a dated, specific, verifiable number is the only one that survives.</p>
     <p>Put it in the skills section, and if the role is typing-critical, also in the summary line. Include the accuracy figure: it signals you understand how hiring tests actually score, which itself reads as competence.</p>
-    <h2>Proof that beats claims</h2>
+    <h2 id="proof-that-beats-claims">Proof that beats claims</h2>
     <p>The strongest application bundle has three items: a recent timed-test result (screenshot or export), a <a href="typing-certificate.html">typing certificate</a> for roles that accept attachments, and — for transcription or content roles — a small work sample produced under time pressure. None of these requires experience; all of them beat a paragraph of claims.</p>
     <p>Keep the proof current: retest monthly while job hunting, because a three-month-old score reads like a guess. The <a href="typing-test-for-jobs.html">typing test for jobs</a> page is built for exactly this kind of pre-application verification.</p>
-    <h2>The interview test and your 30-day plan</h2>
+    <h2 id="the-interview-test-and-your-30-day-plan">The interview test and your 30-day plan</h2>
     <p>Almost every typing-critical role tests you: a one- to three-minute passage, net WPM, accuracy gate around 95–98%. Prepare with full simulations — the <a href="typing-test-for-interview.html">typing test for interview</a> mirrors the format. Two accuracy-first weeks before any scheduled test day moves most candidates clearly above the gate.</p>
     <p>The 30-day plan, condensed: week one, verify your score and start accuracy work; week two, simulations plus resume and proof bundle; week three, apply widely — twenty targeted applications beat two perfect ones; week four, interview-test on demand. Track every application and every test score; the log turns a scattergun search into a managed pipeline.</p>
-    <h2>Writing the application that gets read</h2>
+    <h2 id="writing-the-application-that-gets-read">Writing the application that gets read</h2>
     <p>Typing-job applications are screened in seconds, for two things: the number and the reliability signal. Lead with your verified score in the first line — 'Data entry specialist, 11,200 KPH at 99% accuracy' — then one sentence of evidence: platforms worked on, volume handled, error rate. No adjectives, just numbers.</p>
     <p>Tailor the vocabulary to the posting: if it says KPH, quote KPH; if it says WPM, quote WPM. Speaking the employer's units signals you have actually done this work, and it gets your application into the interview pile instead of the maybe pile.</p>
-    <h2>Entry-level roles that hire on proof alone</h2>
+    <h2 id="entry-level-roles-that-hire-on-proof-alone">Entry-level roles that hire on proof alone</h2>
     <p>The most accessible first typing jobs: data entry clerking through staffing agencies (they test and place quickly), chat and email support (training provided, accuracy metrics from day one), general transcription on open platforms (entry test is the only gate), and form-processing work for logistics and healthcare-adjacent firms.</p>
     <p>Each of these converts directly into the next tier: six months of clean metrics in any of them is the experience section of your resume for everything better. The first role is a credential factory — treat it that way from day one.</p>
-    <h2>Acing the practical assessment</h2>
+    <h2 id="acing-the-practical-assessment">Acing the practical assessment</h2>
     <p>The assessment is usually the last gate: a timed typing test, a sample task, or both. For the typing component, apply the full test-day protocol — early warm-up, controlled start, calm error recovery. For sample tasks, read the instructions twice before typing once; accuracy on instructions outranks speed every single time.</p>
     <p>Time-box your sample task review: finish, then spend the final fifth of the time checking against instructions — names, formats, required fields. The candidates who fail samples rarely type badly; they follow instructions badly.</p>
-    <h2>Negotiating pay in typing roles</h2>
+    <h2 id="negotiating-pay-in-typing-roles">Negotiating pay in typing roles</h2>
     <p>Typing pay bands are narrower than many fields, but two levers still move them: demonstrated accuracy ratings from previous platforms, and speed evidence above the requirement. Both are documents, not adjectives. Bring them to any negotiation.</p>
     <p>Know when the honest answer is volume instead: at entry level, total income grows more from reliable hours and task selection than from rate haggling. Negotiate seriously once your metrics are rare; before that, out-deliver.</p>
-    <h2>Your first 90 days: from new hire to proven</h2>
+    <h2 id="your-first-90-days-from-new-hire-to-proven">Your first 90 days: from new hire to proven</h2>
     <p>The first month is for reliability: on time, on spec, zero missed deadlines, questions asked early. The second month is for speed: now you optimise task selection and shave time per task with templates and expanders. The third month is for visibility: share your metrics proactively — supervisors remember the person whose numbers are always clean.</p>
     <p>Ninety days of this pattern makes you the low-risk choice for every better assignment, raise conversation and referral. In typing work, careers are built less on brilliance than on being reliably, measurably good.</p>
     <p>Finally, expect rejection ratios to look harsh and mean little. Typing hiring is volume-driven on both sides: employers screen hundreds of similar applications, and your advantage is that each of yours carries verified numbers most others lack.</p>

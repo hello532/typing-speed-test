@@ -4,8 +4,6 @@ Source: https://typing.rerivo.com/top-th-words.html
 
 The 200 most common Thai words, with a free typing practice test above. Master these and you cover the bulk of everyday Thai text.
 
-## The 200 most common Thai words
-
 The 200 most common Thai words below are a curated everyday-vocabulary list — pronouns, particles, verbs and nouns you meet in every Thai conversation and document. The list comes from a curated everyday-vocabulary list (the subtitle-frequency corpus was rejected for this language due to encoding noise — every word here is verifiably common Thai).
 
 # | Word | # | Word | # | Word | # | Word
@@ -60,19 +58,13 @@ The 200 most common Thai words below are a curated everyday-vocabulary list — 
 49 | เวลา | 99 | ปิด | 149 | เก่า | 199 | หน่อย
 50 | ปี | 100 | เริ่ม | 150 | สวย | 200 | สุด
 
-## Why drill the top Thai words
-
 Thai writes without spaces between words and stacks vowels before, after, above and below the consonant, so most characters sit on several vertical levels. The top 200 words concentrate the consonant-plus-vowel-plus-tone-mark shapes that repeat in every sentence — and those stacked shapes, not raw vocabulary, are what decide your speed once you know the alphabet.
 
 Thai high-frequency words mix consonants, preposed vowels and tone marks on almost every word. Drilling these 200 words builds the syllable-shape automaticity that real Thai typing speed is made of.
 
-## How to practise Thai typing with this list
-
 Rounds on these 200 words train the stacked consonant-vowel-tone shapes that Thai typing depends on. Check the weak-key report after each round and spend two minutes retyping the shapes it flags — usually a specific vowel position rather than a consonant. Hold 97% accuracy before chasing speed; on a system where one misplaced mark changes the word, accuracy is the speed multiplier.
 
 When you want full sentences instead of single words, switch to the Thai typing test, or benchmark yourself against the classic 1 minute typing test.
-
-## Word lists in other languages
 
 The same top-200 list is available for: Indonesian · Vietnamese · Turkish. Each list is built from the same frequency-based approach, so the lists are directly comparable across languages.
 

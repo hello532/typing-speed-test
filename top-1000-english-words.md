@@ -4,8 +4,6 @@ Source: https://typing.rerivo.com/top-1000-english-words.html
 
 The 1000 most common English words in one page — frequency-ranked from real subtitle data, with a free typing practice test built in. No sign up.
 
-## The 1000 most common English words
-
 This page lists the 1000 most common English words in frequency order, drawn from the open FrequencyWords dataset (MIT license), built from OpenSubtitles transcripts and filtered to plain alphabetic words. The first two hundred are the words you meet in every sentence; the next eight hundred fill in the rest of everyday conversation and writing.
 
 # | Word | # | Word | # | Word | # | Word
@@ -260,25 +258,17 @@ This page lists the 1000 most common English words in frequency order, drawn fro
 249 | many | 499 | power | 749 | sell | 999 | besides
 250 | mind | 500 | whoa | 750 | dark | 1000 | queen
 
-## Why 1000 words covers most of what you read
-
 English follows a steep frequency curve: a few hundred words account for the overwhelming majority of everything written and spoken, and the first thousand take that coverage further still. That is why learners are told to master high-frequency words before anything else — and why typists should drill them too. These are the words your fingers will type thousands of times, so making them automatic pays back on every sentence you ever write.
 
 The practical version: if you can type these thousand words without thinking, ordinary English prose stops being a typing challenge. Unusual words are rare by definition — when one appears, you have time to handle it.
-
-## How to use this list for typing practice
 
 Start the test above — it draws from this exact frequency list, so every round drills the words that matter. Type a short round daily, accuracy first (97%+), and only then push for speed. The weak-key report after each round tells you which letters are actually slowing you down; drill those, not the words you already know.
 
 For a shorter daily set, the top 200 English words page covers the highest-value core. When you want full sentences instead of single words, switch to the English typing test.
 
-## Where this list comes from
-
 The FrequencyWords dataset counts word occurrences across millions of subtitle lines, which makes it a good proxy for everyday spoken-style English. We filtered the raw ranking to plain alphabetic words (dropping numbers, punctuation fragments and proper-noun noise) and kept the top thousand in order.
 
 Frequency lists differ slightly by source — a news corpus will over-rank formal vocabulary, a subtitle corpus over-ranks conversational words. For typing practice, the conversational bias is a feature: these are the words you actually type.
-
-## The next step after the top 1000
 
 Once these words are automatic, progress comes from three places: longer texts for stamina (the 5 minute typing test), symbol-heavy text for punctuation speed (numbers and quotes modes), and your own real writing — emails, documents, notes — typed with deliberate accuracy.
 

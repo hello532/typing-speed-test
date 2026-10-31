@@ -4,20 +4,14 @@ Source: https://typing.rerivo.com/alphanumeric-typing-test.html
 
 Most typing tests use prose. Real data entry is alphanumeric: reference codes, postcodes, part numbers, invoice IDs. Mixed content is slower and less forgiving, and it is what employers actually screen.
 
-## Why mixed content scores lower
-
 On a QWERTY keyboard the letters sit under your fingers and the digits sit on the row above, reached with an extended finger and no tactile landmark. Every transition from a name to a number costs a reach, a visual check and a return.
 
 The result is that someone who types prose at 60 WPM often manages 35-40 WPM on mixed alphanumeric content. That is not a regression; it is a different task, and it is the task data-entry employers test.
-
-## What to practise, in order
 
 Number row reaches - 1 to 0 with the correct finger, without looking down. Two minutes a day.
 Alternating patterns - strings like AB12CD34, which force a shift between letter and digit clusters.
 Numeric keypad - if the job is invoice or order entry, the ten-key pad is faster than the number row and worth learning separately.
 Verification - read your own output against the source, character by character, once per round. This is the step that separates 97% from 99.5%.
-
-## How alphanumeric work is scored
 
 Unit | Formula | Typical requirement
 Keystrokes per hour (KPH) | characters per minute × 60 | 8,000-12,000
@@ -26,8 +20,6 @@ Fields per hour | completed records, not characters | role-specific
 Accuracy | correct fields ÷ total fields | 97-98%
 
 Field accuracy is the metric that matters in practice. A record with one wrong digit is a failed record regardless of how fast the other nineteen fields were typed.
-
-## A two-week drill
 
 Week one: two minutes of Numbers mode, twice a day, graded on errors. Add one round of alternating letter-digit strings. Week two: move to five-minute blocks and score fields, not characters - type a real form layout (name, reference, date, amount) repeatedly and count how many records come out clean.
 

@@ -4,19 +4,11 @@ Source: https://typing.rerivo.com/touch-typing-test.html
 
 Free touch typing test and practice. Train yourself to type without looking at the keyboard: home row drills, real sentences, and a 60 second test that scores your speed and accuracy. The practice text is drawn from touch typing lessons, so what you read is what you learn. No sign up, works in your browser.
 
-## touch typing test
-
 A touch typing test measures how fast and how accurately you type without looking at the keys. Touch typing means all ten fingers work from the home row, and your eyes stay on the screen the whole time. This free test runs for 60 seconds, scores your words per minute (WPM) and accuracy live, and highlights every error so you can see exactly which keys still trip you up. Because the practice sentences are taken from real touch typing lessons, taking the test is itself a lesson.
-
-## Why take a touch typing test every day
 
 Muscle memory is built by frequency, not by marathon sessions. A daily 60 second touch typing test is enough to keep the home row fresh and to expose the two or three keys that always slow you down. Track your WPM across a week and you will see the pattern: accuracy climbs first, and speed follows a few days behind. When your accuracy passes 98 percent, you know the keyboard has finally moved into your fingers.
 
-## How to use this touch typing practice
-
 Start by resting your index fingers on the small bumps on F and J, with the other fingers curling onto the home row beside them. Type the sentence on screen without glancing down; if you must look, look only after the line is finished. Keep your wrists floating and your shoulders down. After the test, read the error report: those keys, not your fastest ones, are your next practice targets.
-
-## Learn touch typing, honestly
 
 The full picture: is it hard to learn touch typing, how long to learn touch typing, the easy way to learn touch typing, and touch typing for adults.
 

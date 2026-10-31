@@ -4,13 +4,9 @@ Source: https://typing.rerivo.com/30-wpm-typing-test.html
 
 Thirty words per minute is 150 characters a minute, or 9,000 keystrokes an hour. It is the floor most clerical and dispatch postings quote, and roughly the 14th percentile of measured typists — close enough to reach in weeks, not months.
 
-## What 30 WPM is, in every unit
-
 30 WPM is 150 characters per minute, 9,000 keystrokes per hour (KPH), and 9,000 key depressions per hour if you make no corrections. It is 0.5 words per second.
 
 For context: 30 WPM is faster than roughly 86% of people are slower than — that is, about the 14th percentile of the 168,960-person sample behind the CHI 2018 typing study, whose mean was 51.56 WPM.
-
-## What it clears, and what it does not
 
 Requirement | At 30 WPM
 Some dispatch and call-centre floors (30-35 WPM) | Clears
@@ -21,13 +17,9 @@ Receptionist at 40-50 WPM | Short
 
 So 30 WPM is a starting point rather than a qualification for most office work. The gap to 40 is the single most valuable 10 WPM you will ever add, because it moves you across the most common screening line.
 
-## Why people get stuck at 30
-
 Almost nobody is stuck at 30 because their fingers are slow. They are stuck because they look at the keyboard, which forces a look-down-look-up cycle on every word, and because they correct with the backspace key instead of slowing down.
 
 The two fixes, in order: cover your hands for one round a day so the looking habit breaks, then set a rule that you do not backspace during a test round. Your raw score will climb by 4-6 WPM within two weeks of holding both rules, before you have practised any speed work at all.
-
-## A 14-day plan to leave 30 behind
 
 Days 1-7: three one-minute rounds a day, hands covered for one of them, no backspace. Record accuracy only. Days 8-14: switch to two-minute rounds, still no backspace, and add one Numbers round because digits are where beginners lose the most.
 

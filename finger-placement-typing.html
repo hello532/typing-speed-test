@@ -414,6 +414,16 @@ body.typing-active footer{opacity:.26;filter:saturate(.72);pointer-events:none;}
 .conv input:focus{outline:2px solid var(--borderhi);outline-offset:1px;}
 .conv-out{margin:12px 0 0;font-size:.95rem;font-weight:600;color:var(--text);}
 .conv-out span{color:var(--soft);font-weight:500;}
+
+/* Round-39: "On this page" jump list for long pages (≥6 sections).
+   Helps snippet extraction and lets readers jump to the section they need. */
+.toc{max-width:760px;margin:0 0 18px;padding:14px 18px;border:1px solid var(--line);border-radius:12px;background:var(--panel2);}
+.toc p{margin:0 0 8px;font-size:.78rem;font-weight:700;letter-spacing:.6px;text-transform:uppercase;color:var(--soft);}
+.toc ol{margin:0;padding-left:20px;display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:4px 22px;}
+.toc li{font-size:.9rem;line-height:1.45;}
+.toc a{color:var(--soft);text-decoration:none;}
+.toc a:hover{color:var(--text);text-decoration:underline;}
+@media(max-width:560px){.toc ol{grid-template-columns:1fr;}}
 </style>
 <script>try{var _t=localStorage.getItem("trTheme");if(_t&&_t!=="dark")document.documentElement.setAttribute("data-theme",_t);var _l=localStorage.getItem("trLang");if(_l&&_l!=="en"){document.documentElement.lang=_l;if(_l==="ar")document.documentElement.dir="rtl";}}catch(e){}</script>
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1401237223139327"
@@ -548,34 +558,35 @@ body.typing-active footer{opacity:.26;filter:saturate(.72);pointer-events:none;}
   </nav>
 
   <section class="seo">
-    <h2>The placement that everything depends on</h2>
+    <nav class="toc" aria-label="On this page"><p>On this page</p><ol><li><a href="#the-placement-that-everything-depends-on">The placement that everything depends on</a></li><li><a href="#training-placement-from-day-one">Training placement from day one</a></li><li><a href="#per-finger-drills-for-the-weak-links">Per-finger drills for the weak links</a></li><li><a href="#the-index-finger-discipline-problem">The index-finger discipline problem</a></li><li><a href="#placement-for-numbers-and-symbols">Placement for numbers and symbols</a></li><li><a href="#how-placement-errors-become-permanent-ceilings">How placement errors become permanent ceilings</a></li><li><a href="#verifying-your-placement-is-installed">Verifying your placement is installed</a></li><li><a href="#placement-for-the-two-shift-keys">Placement for the two shift keys</a></li><li><a href="#ergonomics-of-the-reach-itself">Ergonomics of the reach itself</a></li><li><a href="#when-to-re-teach-placement">When to re-teach placement</a></li></ol></nav>
+    <h2 id="the-placement-that-everything-depends-on">The placement that everything depends on</h2>
     <p>Correct placement is precise: left hand A-S-D-F, right hand J-K-L-;, each finger owning its column and snapping back home after every reach. The F and J bumps exist to recenter you blind. Everything in fast, accurate typing is downstream of this one arrangement.</p>
     <p>Most people who 'sort of' touch type have one or two fingers cheating — the index drifting, the pinky retired, the ring finger idle. Partial placement works until it caps you, usually around 40-50 WPM, and then it has to be rebuilt anyway. Cheaper to build it right the first time.</p>
-    <h2>Training placement from day one</h2>
+    <h2 id="training-placement-from-day-one">Training placement from day one</h2>
     <p>The first rule of placement training: never practise faster than correct placement allows. Speed with wrong fingers is not speed — it is wrongness rehearsed. Start with home-row-only drills at whatever pace keeps every finger honest, and let speed arrive as a byproduct of correctness.</p>
     <p>The second rule: eyes on the screen absolutely, from the first minute. Placement lives in spatial memory, and spatial memory only forms when sight is denied. Cover the keyboard if discipline alone is not enough.</p>
-    <h2>Per-finger drills for the weak links</h2>
+    <h2 id="per-finger-drills-for-the-weak-links">Per-finger drills for the weak links</h2>
     <p>Fingers are not equal: pinkies and ring fingers are weaker and less dextrous, so their keys — Q-A-Z and W-S-X left, P-semicolon-slash and O-L-period right — are where placement errors cluster. Isolate them: short drills of words dense in weak-finger letters, 15 seconds at a time, correct finger enforced at any speed.</p>
     <p>The weak-key report after each round names your specific offenders. Drill the top two daily until they disappear from the report, then take the next two. This is the highest-ROI five minutes in all of typing practice.</p>
-    <h2>The index-finger discipline problem</h2>
+    <h2 id="the-index-finger-discipline-problem">The index-finger discipline problem</h2>
     <p>The index fingers, being strongest, are the worst behaved: they love to steal keys from other fingers' columns — reaching for C, E, I, M, B and beyond. Every theft blurs the placement map and starves the rightful finger of practice.</p>
     <p>The fix is awareness plus isolation: once you notice the habit (watch your hands for one minute), drill the stolen reaches with the correct finger slowly until the theft stops. It takes days per key and permanently raises your ceiling.</p>
-    <h2>Placement for numbers and symbols</h2>
+    <h2 id="placement-for-numbers-and-symbols">Placement for numbers and symbols</h2>
     <p>The number row follows the same column logic one row up — and because it is a longer reach, it is where placement collapses for most people: hands leave home row entirely, and everything after is chaos. The rule is: reach up, strike, snap back — home row is abandoned only for the instant of the reach.</p>
     <p>If your work is digit-heavy, treat numbers as their own placement module: daily numbers-mode rounds until the top row is as honest as the home row.</p>
-    <h2>How placement errors become permanent ceilings</h2>
+    <h2 id="how-placement-errors-become-permanent-ceilings">How placement errors become permanent ceilings</h2>
     <p>A placement error practised for a year is not a habit; it is architecture. The brain optimises around what it has, and a wrong-but-practised reach feels right forever after. This is why self-taught typists plateau: they have built a fast, wrong machine, and every hour adds to its foundations.</p>
     <p>The rebuild is the same as the initial build, just with an unlearning dip: two weeks of correct-finger drills at reduced speed. Painful, brief, permanent. The best time to fix placement was day one; the second-best time is today.</p>
-    <h2>Verifying your placement is installed</h2>
+    <h2 id="verifying-your-placement-is-installed">Verifying your placement is installed</h2>
     <p>Placement is truly installed when three things hold: you can hit any key blind without thinking about which finger it is, your hands recenter on F and J automatically after interruptions, and your weak-key report shows no consistent finger pattern in its errors.</p>
     <p>Test it monthly on the <a href="keyboard-practice.html">keyboard practice</a> page, and use the <a href="typing-finger-chart.html">typing finger chart</a> as the reference map whenever a reach feels uncertain. Placement done right is invisible — your fingers simply never miss home.</p>
-    <h2>Placement for the two shift keys</h2>
+    <h2 id="placement-for-the-two-shift-keys">Placement for the two shift keys</h2>
     <p>The shift keys have their own placement law: always the opposite-side shift. Capitalising a left-hand letter with the left shift knots the hand and breaks home position; the right pinky should hold right shift for left-hand letters and vice versa. It feels awkward for a week and invisible forever after.</p>
     <p>Watch for the same-side-shift habit specifically when typing common capital-starting words — it is the single most frequent placement violation after index drift.</p>
-    <h2>Ergonomics of the reach itself</h2>
+    <h2 id="ergonomics-of-the-reach-itself">Ergonomics of the reach itself</h2>
     <p>Good placement is not just which finger, but how the hand travels: the whole hand glides a few centimetres for distant keys rather than stretching individual fingers to extremes. Finger-stretch reaching looks disciplined and produces slow, strained, error-prone typing at the outer columns.</p>
     <p>Let the hand move. A small, quick hand translation that returns instantly to home row beats a heroic finger stretch every time — faster, and far kinder to tendons over years.</p>
-    <h2>When to re-teach placement</h2>
+    <h2 id="when-to-re-teach-placement">When to re-teach placement</h2>
     <p>Re-teach whenever errors cluster by finger: if the weak-key report keeps showing the same finger's territory, the placement map for that finger has drifted and needs the two-week rebuild — slow drills, correct finger, zero speed pressure.</p>
     <p>Typists who re-teach one finger a year keep their placement honest for life. Typists who never audit it spend years wondering why their ceiling stopped moving.</p>
     <p class="byline">By <a href="about.html">the Typing.Rerivo team</a> &mdash; we build and maintain this typing test. Scoring formulas and the benchmarks used on our pages are documented in the methodology notes on our <a href="about.html">about page</a>, along with the sources we cite. Page last updated 2026-10-31.</p>

@@ -4,8 +4,6 @@ Source: https://typing.rerivo.com/top-ja-words.html
 
 The 200 most common Japanese words from real frequency data, with a free typing practice test above. Master these and you cover the bulk of everyday Japanese text.
 
-## The 200 most common Japanese words
-
 The 200 most common Japanese words below come from real subtitle frequency data, segmented the way Japanese text is actually written. The list is drawn from the FrequencyWords open dataset (MIT license), built from OpenSubtitles transcripts, and filtered to words in the native script only.
 
 # | Word | # | Word | # | Word | # | Word
@@ -60,19 +58,13 @@ The 200 most common Japanese words below come from real subtitle frequency data,
 49 | かっ | 99 | 必要 | 149 | ええ | 199 | 為
 50 | 行 | 100 | み | 150 | なんて | 200 | 入れ
 
-## Why drill the top Japanese words
-
 Japanese frequency lists are dominated by particles and auxiliaries — の, は, に, を, が — plus a small set of very common verbs and sentence-final forms. Since Japanese is typed through romaji-to-kana conversion with no spaces between words, knowing these fragments by reflex is what lets you convert long strings without checking the candidate list every few characters.
 
 Japanese high-frequency words are dominated by particles (は, が, を, に) and the most common verbs and auxiliaries. Because Japanese has no spaces between words, learning to type these fragments instantly is what makes full-sentence typing feel fluent.
 
-## How to practise Japanese typing with this list
-
 Because romaji input converts to kana in bursts, practise in short rounds of single words rather than long passages. After each round check the weak-key report: if the same kana pair keeps misfiring, retype the words containing it slowly until conversion needs no correction. Keep accuracy above 97% while you learn, then add time pressure with the longer durations above.
 
 When you want full sentences instead of single words, switch to the Japanese typing test, or benchmark yourself against the classic 1 minute typing test.
-
-## Word lists in other languages
 
 The same top-200 frequency list is available for: English · Spanish · Hindi · Korean · Urdu. Each list is built from the same open subtitle-frequency dataset, so the lists are directly comparable across languages.
 

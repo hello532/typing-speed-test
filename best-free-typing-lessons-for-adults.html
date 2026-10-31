@@ -414,6 +414,16 @@ body.typing-active footer{opacity:.26;filter:saturate(.72);pointer-events:none;}
 .conv input:focus{outline:2px solid var(--borderhi);outline-offset:1px;}
 .conv-out{margin:12px 0 0;font-size:.95rem;font-weight:600;color:var(--text);}
 .conv-out span{color:var(--soft);font-weight:500;}
+
+/* Round-39: "On this page" jump list for long pages (≥6 sections).
+   Helps snippet extraction and lets readers jump to the section they need. */
+.toc{max-width:760px;margin:0 0 18px;padding:14px 18px;border:1px solid var(--line);border-radius:12px;background:var(--panel2);}
+.toc p{margin:0 0 8px;font-size:.78rem;font-weight:700;letter-spacing:.6px;text-transform:uppercase;color:var(--soft);}
+.toc ol{margin:0;padding-left:20px;display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:4px 22px;}
+.toc li{font-size:.9rem;line-height:1.45;}
+.toc a{color:var(--soft);text-decoration:none;}
+.toc a:hover{color:var(--text);text-decoration:underline;}
+@media(max-width:560px){.toc ol{grid-template-columns:1fr;}}
 </style>
 <script>try{var _t=localStorage.getItem("trTheme");if(_t&&_t!=="dark")document.documentElement.setAttribute("data-theme",_t);var _l=localStorage.getItem("trLang");if(_l&&_l!=="en"){document.documentElement.lang=_l;if(_l==="ar")document.documentElement.dir="rtl";}}catch(e){}</script>
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1401237223139327"
@@ -548,10 +558,11 @@ body.typing-active footer{opacity:.26;filter:saturate(.72);pointer-events:none;}
   </nav>
 
   <section class="seo">
-    <h2>Best free typing lessons for adults</h2>
+    <nav class="toc" aria-label="On this page"><p>On this page</p><ol><li><a href="#best-free-typing-lessons-for-adults">Best free typing lessons for adults</a></li><li><a href="#a-4-week-free-plan-that-works">A 4-week free plan that works</a></li><li><a href="#the-tools-you-need-all-free">The tools you need (all free)</a></li><li><a href="#measuring-progress-without-a-paid-subscription">Measuring progress without a paid subscription</a></li><li><a href="#why-adults-benefit-more-from-practice-than-they-">Why adults benefit more from practice than they expect</a></li><li><a href="#the-mistakes-that-keep-adults-slow-even-with-pra">The mistakes that keep adults slow (even with practice)</a></li><li><a href="#building-the-daily-10-minute-habit-as-an-adult">Building the daily 10-minute habit as an adult</a></li><li><a href="#where-adults-have-an-advantage-over-younger-lear">Where adults have an advantage over younger learners</a></li><li><a href="#tracking-without-a-paid-subscription">Tracking without a paid subscription</a></li><li><a href="#avoiding-the-mistakes-that-keep-adults-from-impr">Avoiding the mistakes that keep adults from improving</a></li><li><a href="#where-to-find-the-time-for-typing-practice">Where to find the time for typing practice</a></li></ol></nav>
+    <h2 id="best-free-typing-lessons-for-adults">Best free typing lessons for adults</h2>
     <p>The <strong>best free typing lessons for adults</strong> are not a course you buy - they are a daily 10-minute structure you follow for four weeks. Adults learning touch typing face one challenge that children do not: decades of hunt-and-peck muscle memory to unlearn. The fix is a hard three-week boundary (touch type everything, including real work), then a permanent improvement phase built on measurement and weak-key drilling.</p>
     <p>Most adults reach 40-50 WPM within one month, 60 WPM within three months, and 80 WPM within a year of this structure. The paid courses package the same free drills with a login screen.</p>
-    <h2>A 4-week free plan that works</h2>
+    <h2 id="a-4-week-free-plan-that-works">A 4-week free plan that works</h2>
     <p>Week one: home row only. A-S-D-F / J-K-L-;, eyes up no matter what. One <a href="1-minute-typing-test.html">1 minute typing test</a> daily to record your baseline. Week two: add numbers and capitals with opposite-side shift. Accuracy floor 98%. Week three: full-sentence practice with punctuation and real email text. Use the <a href="typing-trainer.html">typing trainer</a> for structured drills.</p>
     <p>Week four: speed work. Two 15-second sprints before every measured round. Retest on the <a href="1-minute-typing-test.html">1 minute typing test</a> and compare against week one. Most people gain 10-15 WPM in four weeks - enough to clear every office benchmark in the <a href="typing-speed-requirements.html">typing speed requirements</a> table.</p>
     <div class="tbl"><table><thead><tr><th>Week</th><th>Focus</th><th>Daily routine</th><th>Metric</th></tr></thead><tbody>
@@ -560,24 +571,24 @@ body.typing-active footer{opacity:.26;filter:saturate(.72);pointer-events:none;}
 <tr><td>3</td><td>Full sentences</td><td>1 min + trainer drills</td><td>Net WPM</td></tr>
 <tr><td>4</td><td>Sprint + speed work</td><td>2 sprints + 1 min + weak keys</td><td>Net WPM vs baseline</td></tr>
 </tbody></table></div>
-    <h2>The tools you need (all free)</h2>
+    <h2 id="the-tools-you-need-all-free">The tools you need (all free)</h2>
     <p>A browser is the only requirement. This site provides the timed test, the practice text in 12 languages, the word lists, the trainer, the lessons and the certificate - all free with no account. The <a href="learn-to-type.html">learn to type</a> page has the full beginner course. The <a href="typing-lessons.html">typing lessons</a> page structures the drills as progressive lessons.</p>
-    <h2>Measuring progress without a paid subscription</h2>
+    <h2 id="measuring-progress-without-a-paid-subscription">Measuring progress without a paid subscription</h2>
     <p>Weekly measurement on the same test under the same conditions is the entire tracking system. Record net WPM, accuracy and weak keys. Compare the weekly trend, not daily scores. If the number rises, keep going. If it flattens for two weeks, change the drill, not the volume. The browser history saves every result automatically for you to compare.</p>
-    <h2>Why adults benefit more from practice than they expect</h2>
+    <h2 id="why-adults-benefit-more-from-practice-than-they-">Why adults benefit more from practice than they expect</h2>
     <p>Adults who learn touch typing report two categories of improvement beyond raw speed. First: less fatigue, because hunt-and-peck fingers travel six times farther than touch typing for the same sentence, which over eight hours of work causes evening pain. Second: faster thought-to-text flow, because when letter reaches are automatic the bottleneck shifts from the fingers to the brain. Third: professional credibility from a dated typing speed certificate attached to your resume.</p>
-    <h2>The mistakes that keep adults slow (even with practice)</h2>
+    <h2 id="the-mistakes-that-keep-adults-slow-even-with-pra">The mistakes that keep adults slow (even with practice)</h2>
     <p>Mistake one: mixing touch typing in practice with hunt-and-peck in real work, which prevents consolidation. Fix: a three-week no-mixing boundary. Mistake two: no accuracy floor, which at 95% builds error habits faster than speed. Fix: always 90% pace with 98% floor. Mistake three: re-typing comfortable texts instead of rotating text types to train the full keyboard surface.</p>
-    <h2>Building the daily 10-minute habit as an adult</h2>
+    <h2 id="building-the-daily-10-minute-habit-as-an-adult">Building the daily 10-minute habit as an adult</h2>
     <p>Anchor the ten minutes to an existing daily event: first coffee, morning stand-up, end of lunch. Use a fixed test format, and have a one-minute minimum for crowded days; one minute is better than zero and keeps the chain unbroken. After four weeks of daily practice, the weekly measurement becomes self-correcting: the number rises when drills are right and flattens when the bottleneck has moved.</p>
-    <h2>Where adults have an advantage over younger learners</h2>
+    <h2 id="where-adults-have-an-advantage-over-younger-lear">Where adults have an advantage over younger learners</h2>
     <p>Adults bring vocabulary and context to typing practice that younger learners lack: you already know every word you type, so look-ahead reading is free instead of a skill to develop. Adults also know exactly which days matter for an exam, which text types their work requires, and how to think through a timed test under pressure.</p>
-    <h2>Tracking without a paid subscription</h2>
+    <h2 id="tracking-without-a-paid-subscription">Tracking without a paid subscription</h2>
     <p>Weekly measurement under identical conditions is the entire tracking system. Record net WPM, accuracy and weak keys in any note-taking app. A simple table with twelve weeks of numbers is more motivating than a gamified dashboard.</p>
-    <h2>Avoiding the mistakes that keep adults from improving</h2>
+    <h2 id="avoiding-the-mistakes-that-keep-adults-from-impr">Avoiding the mistakes that keep adults from improving</h2>
     <p>Three self-inflicted mistakes keep adult learners from improving. The first: practising without cancelling the old hunt-and-peck habit, which happens when touch typing is used only for practice sessions while pecking continues for real work. The fix: a three-week hard boundary where touch typing is used exclusively, no matter how slow it feels. The brain cannot consolidate two motor patterns simultaneously; it must be forced to choose one before it can automate it.</p>
     <p>The second: setting no accuracy floor. Typing at 95% accuracy or below builds error habits faster than speed. The fix: always practise at 90% of comfortable pace with an explicit 98% accuracy floor. The third: re-typing the same comfortable sentences instead of rotating text types. A rotation between prose, numbers, quotes and code text ensures every key on the keyboard is trained equally.</p>
-    <h2>Where to find the time for typing practice</h2>
+    <h2 id="where-to-find-the-time-for-typing-practice">Where to find the time for typing practice</h2>
     <p>The time question is the most common barrier for adult learners. The answer is not to find a new block of time; it is to attach the practice to an existing daily event. The first coffee becomes the trigger for one measured round. The end of lunch becomes the second practice slot. The commute (on a phone or tablet) becomes a reading-ahead exercise. Ten minutes exists in every adult's day, fragmented across multiple small gaps.</p>
     <p>The other answer is to make the practice itself shorter rather than longer. One measured minute is better than zero minutes. One minute keeps the chain alive, maintains the habit, and produces a data point for the weekly trend. The days when you can only do one minute are the days that keep the habit from dying.</p>
     <p class="byline">By <a href="about.html">the Typing.Rerivo team</a> &mdash; we build and maintain this typing test. Scoring formulas and the benchmarks used on our pages are documented in the methodology notes on our <a href="about.html">about page</a>, along with the sources we cite. Page last updated 2026-10-31.</p>

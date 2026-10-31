@@ -4,13 +4,9 @@ Source: https://typing.rerivo.com/typing-test-for-court-clerk.html
 
 A court clerk types case numbers, filing codes, party names and dates into a docket system all day. The speed bar is moderate — 45 to 55 WPM — but an identifier typed wrong creates a filing that cannot be found.
 
-## What the job types
-
 A docket entry looks like this: a case number with a year and a court code, a filing type from a fixed list, the filing party, a date, and a short description. Almost every field is either a code or a proper noun, and several are checked against an existing record.
 
 That shape matters for practice. Copying prose trains sentence rhythm; docket entry trains short alphanumeric bursts with a verification step after each field. The second is what the job actually rewards.
-
-## Why identifiers dominate the error budget
 
 A misspelt word in a note is readable. A case number with a transposed digit is a filing that cannot be retrieved by the parties who need it, and fixing it usually requires a correction entry and a supervisor.
 
@@ -19,13 +15,9 @@ Dates - filing date, hearing date, deadline; format depends on the court.
 Party names - often unusual spellings, and never autocorrected.
 Filing codes - short, similar-looking, and chosen from a list rather than typed freehand.
 
-## The drill that transfers
-
 Type a case number, check it character by character, then type the next one. Ten repetitions of the same number beat one pass through ten different numbers, because the goal is a verification habit rather than exposure to variety.
 
 Then add the field-switching behaviour: case number, Tab, filing type, Tab, date, Enter. Real docket systems move between fields, and typing a clean number followed by a wrong Tab is a lost record just the same.
-
-## Speed bands and what they clear
 
 Band | Clears | Notes
 35-45 WPM | Entry-level clerk-typist titles | Usually paired with a data-entry exercise

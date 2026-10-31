@@ -414,6 +414,16 @@ body.typing-active footer{opacity:.26;filter:saturate(.72);pointer-events:none;}
 .conv input:focus{outline:2px solid var(--borderhi);outline-offset:1px;}
 .conv-out{margin:12px 0 0;font-size:.95rem;font-weight:600;color:var(--text);}
 .conv-out span{color:var(--soft);font-weight:500;}
+
+/* Round-39: "On this page" jump list for long pages (≥6 sections).
+   Helps snippet extraction and lets readers jump to the section they need. */
+.toc{max-width:760px;margin:0 0 18px;padding:14px 18px;border:1px solid var(--line);border-radius:12px;background:var(--panel2);}
+.toc p{margin:0 0 8px;font-size:.78rem;font-weight:700;letter-spacing:.6px;text-transform:uppercase;color:var(--soft);}
+.toc ol{margin:0;padding-left:20px;display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:4px 22px;}
+.toc li{font-size:.9rem;line-height:1.45;}
+.toc a{color:var(--soft);text-decoration:none;}
+.toc a:hover{color:var(--text);text-decoration:underline;}
+@media(max-width:560px){.toc ol{grid-template-columns:1fr;}}
 </style>
 <script>try{var _t=localStorage.getItem("trTheme");if(_t&&_t!=="dark")document.documentElement.setAttribute("data-theme",_t);var _l=localStorage.getItem("trLang");if(_l&&_l!=="en"){document.documentElement.lang=_l;if(_l==="ar")document.documentElement.dir="rtl";}}catch(e){}</script>
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1401237223139327"
@@ -548,34 +558,35 @@ body.typing-active footer{opacity:.26;filter:saturate(.72);pointer-events:none;}
   </nav>
 
   <section class="seo">
-    <h2>The honest difficulty rating</h2>
+    <nav class="toc" aria-label="On this page"><p>On this page</p><ol><li><a href="#the-honest-difficulty-rating">The honest difficulty rating</a></li><li><a href="#what-actually-is-hard-the-unlearning-dip">What actually is hard: the unlearning dip</a></li><li><a href="#what-makes-it-feel-harder-than-it-is">What makes it feel harder than it is</a></li><li><a href="#the-week-by-week-reality">The week-by-week reality</a></li><li><a href="#how-to-make-it-genuinely-easy">How to make it genuinely easy</a></li><li><a href="#when-it-is-genuinely-harder">When it is genuinely harder</a></li><li><a href="#the-verdict">The verdict</a></li><li><a href="#how-it-compares-to-other-adult-skills">How it compares to other adult skills</a></li><li><a href="#the-role-of-motivation-vs-structure">The role of motivation vs structure</a></li><li><a href="#what-success-stories-have-in-common">What success stories have in common</a></li></ol></nav>
+    <h2 id="the-honest-difficulty-rating">The honest difficulty rating</h2>
     <p>On a scale of common skills, touch typing sits near learning to juggle or basic piano chords: uncomfortable for days, mechanical for weeks, automatic forever after. It is dramatically easier than learning a language and harder than learning to use a new phone. Almost anyone with ten fingers and ten daily minutes succeeds.</p>
     <p>The evidence is in the numbers: the vast majority of people who practise daily for a month reach functional blind typing. The failure mode is not difficulty — it is quitting during the one week when it is legitimately unpleasant.</p>
-    <h2>What actually is hard: the unlearning dip</h2>
+    <h2 id="what-actually-is-hard-the-unlearning-dip">What actually is hard: the unlearning dip</h2>
     <p>The single hardest part is not learning the new method; it is being slower than your old method for one to three weeks. Your hunt-and-peck speed was earned over years, and touch typing starts you near zero. That dip feels like failure and it is the exact moment most people quit — usually days before the curve turns.</p>
     <p>Everything else is logistics: where keys live, which finger goes where. Learnable, boring, quick. The dip is emotional, and knowing it is coming — that it ends, and when it ends — is most of the battle.</p>
-    <h2>What makes it feel harder than it is</h2>
+    <h2 id="what-makes-it-feel-harder-than-it-is">What makes it feel harder than it is</h2>
     <p>Three self-inflicted difficulties. Practising for speed from day one, which builds sloppy reaches and makes week two feel broken. Peeking at the keyboard 'just this once' constantly, which prevents spatial memory from ever forming. And mixing methods — touch typing for practice, pecking for real email — which resets consolidation daily.</p>
     <p>Remove those three and the process is merely repetitive, not hard. The people who say touch typing is impossible are almost always describing one of these self-sabotages.</p>
-    <h2>The week-by-week reality</h2>
+    <h2 id="the-week-by-week-reality">The week-by-week reality</h2>
     <p>Week one: home row, 10–15 WPM, feels pointless — this is the hard week. Week two: full sentences without looking, still slow, peeking temptation at its peak. Week three: common words become automatic, speed climbs through the twenties. Week four to eight: automaticity arrives — you type an email without thinking about typing — and speed reaches or passes your old method.</p>
     <p>Notice what is absent from that timeline: anything requiring talent. Every phase is passed by showing up daily, not by aptitude.</p>
-    <h2>How to make it genuinely easy</h2>
+    <h2 id="how-to-make-it-genuinely-easy">How to make it genuinely easy</h2>
     <p>Shrink the daily commitment to something un-failable: ten minutes, every day, same time. Use the keyboard cover in week two instead of willpower. Practice with content you enjoy — lyrics, articles, your own writing — because repetition you do not hate is repetition you continue.</p>
     <p>And measure weekly, not daily. A single visible trend line — your score rising week over week — converts 'this is hard' into 'this is working', which is the entire psychological game.</p>
-    <h2>When it is genuinely harder</h2>
+    <h2 id="when-it-is-genuinely-harder">When it is genuinely harder</h2>
     <p>Two honest exceptions. If you have decades of hunt-and-peck muscle memory, the unlearning dip lasts a bit longer — budget three to five weeks instead of one to three. And if you can only practise sporadically — twice a week, say — expect the calendar to stretch proportionally.</p>
     <p>Neither exception changes the outcome, only the schedule. The skill does not care about your age or your past; it cares about repetitions per week.</p>
-    <h2>The verdict</h2>
+    <h2 id="the-verdict">The verdict</h2>
     <p>Touch typing is not hard; it is briefly uncomfortable and then permanently useful, like learning to ride a bike. One honest week of frustration buys decades of faster, painless typing — one of the best trades in all of practical skills.</p>
     <p>Start the clock today: ten minutes on the <a href="touch-typing-test.html">touch typing test</a>, then ten minutes tomorrow, and the week after that the hard part is already behind you. The <a href="how-long-to-learn-touch-typing.html">how long to learn touch typing</a> timeline shows exactly what to expect each week.</p>
-    <h2>How it compares to other adult skills</h2>
+    <h2 id="how-it-compares-to-other-adult-skills">How it compares to other adult skills</h2>
     <p>Calibrate honestly against skills you know: touch typing is easier than driving a manual car (fewer simultaneous processes), much easier than conversational language (a few hundred fixed patterns versus infinite variation), and about as hard as learning to juggle three balls — awkward for a week, mechanical for a month, automatic for life.</p>
     <p>The comparison matters because the fear is usually borrowed from harder skills. You are not learning music theory; you are teaching ten fingers a map.</p>
-    <h2>The role of motivation vs structure</h2>
+    <h2 id="the-role-of-motivation-vs-structure">The role of motivation vs structure</h2>
     <p>Motivation-based learners quit at the dip; structure-based learners do not notice it. The structures that work are boringly specific: same time every day, same ten minutes, keyboard covered for the peek-prone week, one weekly measurement. None of them requires you to feel like practising.</p>
     <p>This is why 'hard' is the wrong frame for touch typing. Skills that need talent are hard; skills that need structure are just scheduled. Put the structure in place and the difficulty becomes irrelevant.</p>
-    <h2>What success stories have in common</h2>
+    <h2 id="what-success-stories-have-in-common">What success stories have in common</h2>
     <p>Talk to people who learned touch typing as adults and one pattern repeats with eerie consistency: nobody succeeded with weekend marathons, everybody succeeded with short daily practice, and everybody names the same turning point — the week they stopped looking at the keyboard for good.</p>
     <p>Copy the pattern, not the person: daily short sessions, one keyboard-cover week, weekly measurement. The biography varies; the method never does.</p>
     <p class="byline">By <a href="about.html">the Typing.Rerivo team</a> &mdash; we build and maintain this typing test. Scoring formulas and the benchmarks used on our pages are documented in the methodology notes on our <a href="about.html">about page</a>, along with the sources we cite. Page last updated 2026-10-31.</p>

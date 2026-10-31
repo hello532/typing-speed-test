@@ -4,19 +4,11 @@ Source: https://typing.rerivo.com/beginner-typing-test.html
 
 New to typing? Start here: an easy, forgiving test that measures where you are today so you can watch yourself improve.
 
-## A friendly first test
-
 Most typing tests throw long words and heavy punctuation at you from the first keystroke. This beginner version keeps the text short and the words common, so you can finish a passage and actually see a score instead of drowning in errors.
-
-## Where should a beginner start?
 
 Begin with the home row — A, S, D, F for the left hand and J, K, L, ; for the right. Learn to reach each key with the correct finger instead of hunting with two fingers, even if it feels slower for the first few days. Speed is a by-product of accuracy; accuracy is a by-product of good technique. If the home row is already automatic, the home row typing test turns that placement into a timed check.
 
-## Don't chase speed yet
-
 Aim for accuracy above 95% before you worry about words per minute. A beginner who types 25 WPM at 98% accuracy will outpace someone who types 40 WPM at 85% once corrections and real work are counted.
-
-## Your first realistic targets
 
 Most complete beginners sit around 20 to 30 WPM. Getting to 40 WPM is a realistic first goal within a few weeks of ten minutes a day. Kids and occasional typists may take longer; there is no rush and no score to beat but your own. Once the beginner text starts to feel slow, step up to the easy typing test for a slightly harder passage at the same pace.
 

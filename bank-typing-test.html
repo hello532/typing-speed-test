@@ -414,6 +414,16 @@ body.typing-active footer{opacity:.26;filter:saturate(.72);pointer-events:none;}
 .conv input:focus{outline:2px solid var(--borderhi);outline-offset:1px;}
 .conv-out{margin:12px 0 0;font-size:.95rem;font-weight:600;color:var(--text);}
 .conv-out span{color:var(--soft);font-weight:500;}
+
+/* Round-39: "On this page" jump list for long pages (≥6 sections).
+   Helps snippet extraction and lets readers jump to the section they need. */
+.toc{max-width:760px;margin:0 0 18px;padding:14px 18px;border:1px solid var(--line);border-radius:12px;background:var(--panel2);}
+.toc p{margin:0 0 8px;font-size:.78rem;font-weight:700;letter-spacing:.6px;text-transform:uppercase;color:var(--soft);}
+.toc ol{margin:0;padding-left:20px;display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:4px 22px;}
+.toc li{font-size:.9rem;line-height:1.45;}
+.toc a{color:var(--soft);text-decoration:none;}
+.toc a:hover{color:var(--text);text-decoration:underline;}
+@media(max-width:560px){.toc ol{grid-template-columns:1fr;}}
 </style>
 <script>try{var _t=localStorage.getItem("trTheme");if(_t&&_t!=="dark")document.documentElement.setAttribute("data-theme",_t);var _l=localStorage.getItem("trLang");if(_l&&_l!=="en"){document.documentElement.lang=_l;if(_l==="ar")document.documentElement.dir="rtl";}}catch(e){}</script>
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1401237223139327"
@@ -548,15 +558,15 @@ body.typing-active footer{opacity:.26;filter:saturate(.72);pointer-events:none;}
   </nav>
 
   <section class="seo">
-    <h2>Typing in banking exams</h2>
+    <h2 id="typing-in-banking-exams">Typing in banking exams</h2>
     <p>Many bank clerk and clerical recruitment exams include a typing test as a qualifying round: you must reach a set speed and accuracy, and failing it can end your application regardless of your written score. The format is a timed passage, usually in the language you applied in, with accuracy checked closely.</p>
-    <h2>The usual standard</h2>
+    <h2 id="the-usual-standard">The usual standard</h2>
     <p>Common requirements sit around 30 to 40 words per minute with at least 90% accuracy, and many boards set a hard floor on errors — a fixed number of mistakes is allowed and no more. Because the pass mark is about accuracy, clean typing beats raw speed.</p>
-    <h2>Passages and language</h2>
+    <h2 id="passages-and-language">Passages and language</h2>
     <p>Bank typing rounds use ordinary prose, not technical jargon, but they are timed strictly and often use a fixed paragraph you cannot choose. Practise on uninterrupted passages of a few hundred words and get used to holding focus without fixing every tiny slip.</p>
-    <h2>How to practise</h2>
+    <h2 id="how-to-practise">How to practise</h2>
     <p>Set the timer to match your exam — often five minutes — and aim to finish comfortably under the error limit before you try to raise speed. Once you can pass at 97% accuracy, push your WPM up in small steps. Watch our data entry and government typing pages for the same family of clerical tests.</p>
-    <h2>What typing speed do bank exams require?</h2>
+    <h2 id="what-typing-speed-do-bank-exams-require">What typing speed do bank exams require?</h2>
     <p>Bank clerk typing tests typically ask for short timed passages in the 25–35 WPM range with an accuracy threshold. For the full table of requirements across data entry, clerk, government and office scenarios, see <a href="typing-speed-requirements.html">typing speed requirements by job and exam</a>.</p>
     <p class="byline">By <a href="about.html">the Typing.Rerivo team</a> &mdash; we build and maintain this typing test. Scoring formulas and the benchmarks used on our pages are documented in the methodology notes on our <a href="about.html">about page</a>, along with the sources we cite. Page last updated 2026-10-31.</p>
   </section>
