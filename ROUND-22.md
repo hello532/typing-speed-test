@@ -359,3 +359,17 @@ GSC 的 Google 侧数据正常）。**结论：Bing 抓取不可作为收录证�
 - `src/tools/mobilesweep.js`：全站 184 页 @390×844 扫横向溢出（有溢出退出 1）
 - `src/tools/cwv.js`：FCP / DCL / 文档体积 / CLS（自有代码 vs 含广告），自有 CLS > 0.05 退出 1
 - `src/tools/browsercheck.js`：9 项真浏览器交互验收（含 RTL 页与移动端）
+
+### 补齐 LCP 后的完整 CWV 表（移动端 390×844 / Slow 4G / 4× CPU / 冷启动）
+
+| page | FCP | LCP | DCL | doc | CLS |
+|---|---|---|---|---|---|
+| / | 926 | 1532 | 2051 | 153kB | 0.006 |
+| /typing-tests.html | 962 | 404 | 2075 | 161kB | 0.006 |
+| /average-typing-speed.html | 921 | 416 | 2036 | 153kB | 0.005 |
+| /typing-speed-calculator.html | 894 | 384 | 2012 | 148kB | 0.005 |
+| /sql-typing-practice.html | 911 | 384 | 2021 | 152kB | 0.006 |
+
+三档判定（Google 阈值）：FCP <1.8s ✅、LCP <2.5s ✅（首页 1.53s，其余 <0.5s）、
+CLS <0.1 ✅（0.006）。首页 LCP 的元素是一个 DIV —— 打字面板在 ui.js 到达后成为最大元素，
+这也是它比其它页慢 1.1s 的唯一原因，与 CLS 同一根因（语种池打包在 ui.js 里）。

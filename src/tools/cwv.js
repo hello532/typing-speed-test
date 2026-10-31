@@ -24,7 +24,14 @@ const SLOW_4G = { offline: false, latency: 150,
                   downloadThroughput: 1.6 * 1024 * 1024 / 8, uploadThroughput: 750 * 1024 / 8 };
 
 const OBSERVER = `
-  window.__cls = 0; window.__shifts = [];
+  window.__cls = 0; window.__shifts = []; window.__lcp = 0; window.__lcpEl = "";
+  try {
+    new PerformanceObserver(l => {
+      const e = l.getEntries()[l.getEntries().length - 1];
+      window.__lcp = Math.round(e.startTime);
+      window.__lcpEl = e.element ? (e.element.nodeName + "." + ((e.element.className || "").toString().slice(0, 18))) : "";
+    }).observe({ type: "largest-contentful-paint", buffered: true });
+  } catch (e) {}
   try {
     new PerformanceObserver(l => {
       for (const e of l.getEntries()) {
@@ -57,6 +64,8 @@ async function measure(path, blockAds) {
       fcp: nav.responseEnd ? Math.round(nav.responseEnd) : null,
       dcl: nav.domContentLoadedEventEnd ? Math.round(nav.domContentLoadedEventEnd) : null,
       docKb: Math.round((nav.transferSize || 0) / 1024),
+      lcp: window.__lcp || null,
+      lcpEl: window.__lcpEl || "",
       cls: Math.round((window.__cls || 0) * 1000) / 1000,
       worst: (window.__shifts || []).sort((a, b) => b.v - a.v).slice(0, 1),
     };
@@ -67,8 +76,8 @@ const rows = [];
 for (const p of PAGES) {
   const own = await measure(p, true);
   const real = await measure(p, false);
-  rows.push({ page: p, fcp: own.fcp, dcl: own.dcl, docKb: own.docKb,
-              cls_own: own.cls, cls_ads: real.cls, worstReal: real.worst });
+  rows.push({ page: p, fcp: own.fcp, lcp: own.lcp, lcpEl: own.lcpEl, dcl: own.dcl,
+              docKb: own.docKb, cls_own: own.cls, cls_ads: real.cls, worstReal: real.worst });
 }
 
 await page.cdp("Network.setBlockedURLs", { urls: [] });
@@ -77,11 +86,12 @@ await page.cdp("Emulation.setCPUThrottlingRate", { rate: 1 });
 await page.cdp("Network.setCacheDisabled", { cacheDisabled: false });
 
 console.log("移动端 390×844 / Slow 4G / 4× CPU / 冷启动\n");
-console.log("page".padEnd(30), "FCP".padStart(6), "DCL".padStart(6),
-            "doc".padStart(6), "CLS_own".padStart(8), "CLS_ads".padStart(8));
+console.log("page".padEnd(28), "FCP".padStart(6), "LCP".padStart(6), "DCL".padStart(6),
+            "doc".padStart(6), "CLS_own".padStart(8), "LCP element");
 for (const r of rows) {
-  console.log(r.page.padEnd(30), String(r.fcp).padStart(6), String(r.dcl).padStart(6),
-              (r.docKb + "kB").padStart(6), String(r.cls_own).padStart(8), String(r.cls_ads).padStart(8));
+  console.log(r.page.padEnd(28), String(r.fcp).padStart(6), String(r.lcp).padStart(6),
+              String(r.dcl).padStart(6), (r.docKb + "kB").padStart(6),
+              String(r.cls_own).padStart(8), r.lcpEl);
 }
 const worstOwn = Math.max(...rows.map(r => r.cls_own));
 console.log(`\n自有代码 CLS 最大 ${worstOwn}（广告屏蔽后）；带广告 CLS 最大 ${Math.max(...rows.map(r => r.cls_ads))}`);
