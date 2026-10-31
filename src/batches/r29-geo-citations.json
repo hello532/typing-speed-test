@@ -1,0 +1,297 @@
+{
+  "footer_group": "Guides & articles",
+  "llms_section": "Guides & Articles",
+  "cluster": "metric",
+  "pages": [
+    {
+      "file": "typing-speed-phone-vs-keyboard.html",
+      "title": "Typing Speed: Phone vs Keyboard (Measured Study Data)",
+      "metaDesc": "Phone typing averages 36.2 WPM, desktop keyboards 51.6 WPM - from two studies with 37,370 and 168,960 volunteers. Why the gap exists and what it means.",
+      "h1": "Typing Speed: Phone vs Keyboard",
+      "heroP": "Two large studies measured the same task on different devices: <strong>36.2 WPM on a phone</strong> (37,370 volunteers) and <strong>51.6 WPM on a desktop keyboard</strong> (168,960 volunteers). The 15 WPM gap is real, measured, and mostly mechanical.",
+      "tldr": "Phone: 36.2 WPM average, 2.3% uncorrected errors (Palin et al., MobileHCI 2019, n=37,370). Desktop: 51.6 WPM, 1.17% errors (Dhakal et al., CHI 2018, n=168,960). Touchscreens run about 70% of keyboard speed, even with two thumbs.",
+      "dur": 60,
+      "mode": "sentences",
+      "crumbs": [
+        "Home",
+        "Typing Speed: Phone vs Keyboard"
+      ],
+      "seo": [
+        {
+          "h2": "The two measurements, side by side",
+          "p": [
+            "<table><tr><th>Measure</th><th>Phone (touchscreen)</th><th>Desktop keyboard</th></tr><tr><td>Average speed</td><td>36.17 WPM (SD 13.22)</td><td>51.56 WPM (SD 20.2)</td></tr><tr><td>Uncorrected error rate</td><td>2.34%</td><td>1.17%</td></tr><tr><td>Keystrokes per character</td><td>1.18</td><td>1.173</td></tr><tr><td>Volunteers</td><td>37,370</td><td>168,960</td></tr><tr><td>Source</td><td>Palin, Feit, Kim, Kristensson &amp; Oulasvirta, MobileHCI 2019, doi.org/10.1145/3338286.3340120</td><td>Dhakal, Feit, Kristensson &amp; Oulasvirta, CHI 2018, doi.org/10.1145/3173574.3174220</td></tr></table>",
+            "Both studies used the same method - transcribe a displayed English sentence - so the comparison is unusually clean. The mobile study explicitly compares itself to the desktop one and reports that average performance is about 15 WPM slower on a phone."
+          ]
+        },
+        {
+          "h2": "Where the gap comes from",
+          "p": [
+            "<ul><li><strong>Fewer fingers.</strong> Over 74% of phone typists use both thumbs, and two thumbs are faster than one thumb or one index finger - but still nowhere near ten fingers on a physical keyboard.</li><li><strong>No tactile feedback.</strong> You cannot feel the key boundary, so every press carries a small positional uncertainty that a keyboard removes.</li><li><strong>Correction cost.</strong> Fixing a mistake on glass takes more gestures, which is why phone typists leave more errors uncorrected (2.34% versus 1.17%) rather than fixing them.</li><li><strong>Layout.</strong> A QWERTY touchscreen is a compromise; physical keyboards can be swapped for whatever suits your hands.</li></ul>"
+          ]
+        },
+        {
+          "h2": "Phone typing percentiles",
+          "p": [
+            "Using the mobile distribution (mean 36.2, SD 13.2), a normal approximation gives a rough position:",
+            "<table><tr><th>Phone WPM</th><th>Approx. percentile</th><th>Reading</th></tr><tr><td>20</td><td>11th</td><td>Slow thumb typing</td></tr><tr><td>30</td><td>32nd</td><td>Below the phone average</td></tr><tr><td>36</td><td>50th</td><td>Exactly average for phone users</td></tr><tr><td>45</td><td>75th</td><td>Fast for a phone</td></tr><tr><td>60</td><td>97th</td><td>Exceptional on glass</td></tr></table>",
+            "The approximation is labelled as such: the mobile distribution is right-skewed, so the far tail is less reliable than the middle."
+          ]
+        },
+        {
+          "h2": "What this means for a typing test",
+          "p": [
+            "Most online typing tests and every job screening test assume a physical keyboard. A 36 WPM phone score is not evidence that you would score 36 WPM at a desk - the desk number is usually higher, often by 10-15 WPM if you touch type.",
+            "The reverse is also true and less convenient: a good desktop score does not transfer to mobile work. If your job involves replying from a phone, practise separately, because the two skills share vocabulary but not motor memory."
+          ]
+        },
+        {
+          "h2": "Should you practise typing on a phone?",
+          "p": [
+            "Only if the work happens on a phone. Practising phone typing to raise a desktop score is wasted effort; the mechanics do not transfer. If you want the desktop number to rise, use a keyboard and work on accuracy and look-ahead.",
+            "Where phone practice does pay: switching to two thumbs if you currently use one finger, and enabling autocorrect, which the mobile study found correlates with faster entry. Word prediction, by contrast, correlated with slower entry in that dataset."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "How fast does the average person type on a phone?",
+          "a": "36.17 words per minute, from a study of 37,370 volunteers (Palin et al., MobileHCI 2019), with 2.34% of errors left uncorrected. The fastest participants exceeded 80 WPM."
+        },
+        {
+          "q": "How much slower is phone typing than a keyboard?",
+          "a": "About 15 WPM on average: 36.2 on a phone versus 51.6 on a desktop keyboard, measured with the same transcription task in two large studies."
+        },
+        {
+          "q": "Does two-thumb typing help?",
+          "a": "Yes. Over 74% of participants used both thumbs, and that was significantly faster than one thumb or a single index finger, though still about 70% of desktop speed."
+        },
+        {
+          "q": "Why do people leave more errors on a phone?",
+          "a": "Correcting on a touchscreen costs more gestures than pressing backspace on a keyboard, so phone typists accept more errors instead of fixing them - 2.34% uncorrected versus 1.17% on desktop."
+        },
+        {
+          "q": "Can I take a job typing test on my phone?",
+          "a": "You can, but do not. Screening tests assume a physical keyboard and the same skill typically scores 10-15 WPM higher on one. Use a desktop or laptop for any test that counts."
+        }
+      ]
+    },
+    {
+      "file": "typing-speed-by-grade.html",
+      "title": "Typing Speed by Grade — What to Expect, 1st to 8th",
+      "metaDesc": "Typical typing speed for each school grade, from 1st to 8th, with what to teach at each stage and why accuracy matters more than speed before grade 6.",
+      "h1": "Typing Speed by Grade",
+      "heroP": "Grade-level typing expectations are bands, not standards: schools differ enormously in how much keyboarding time they provide. Here is what the published classroom ranges look like, and what to actually teach at each stage.",
+      "tldr": "Rough bands: grade 1-2, 5-11 WPM; grade 3, 10-20; grade 4, 15-25; grade 5, 25-35; grade 6, 30-40; grade 7-8, 35-45. Below grade 6 the goal is home-row habit and accuracy, not speed.",
+      "dur": 60,
+      "mode": "sentences",
+      "crumbs": [
+        "Home",
+        "Typing Speed by Grade"
+      ],
+      "seo": [
+        {
+          "h2": "The bands",
+          "p": [
+            "<table><tr><th>Grade</th><th>Typical WPM band</th><th>Priority</th></tr><tr><td>1st-2nd</td><td>5-11 WPM</td><td>Finding letters; keyboard familiarity, not speed</td></tr><tr><td>3rd</td><td>10-20 WPM</td><td>Home row and correct fingers</td></tr><tr><td>4th</td><td>15-25 WPM</td><td>All letters without looking down</td></tr><tr><td>5th</td><td>25-35 WPM</td><td>Accuracy above 90%, capitals with Shift</td></tr><tr><td>6th</td><td>30-40 WPM</td><td>Punctuation, sustained paragraphs</td></tr><tr><td>7th-8th</td><td>35-45 WPM</td><td>Editing, formatting, real documents</td></tr></table>",
+            "These are the ranges that appear across classroom keyboarding curricula and district technology plans; treat them as a guide to whether a child is roughly on track, never as a pass or fail line. A child who has had no formal instruction can be two grades behind the band and still catch up in a term."
+          ]
+        },
+        {
+          "h2": "Why younger children score lower - and should",
+          "p": [
+            "Two things are still developing before about age ten: hand size relative to the keyboard, and the fine motor control needed for independent finger movement. A seven-year-old reaching across a full-size keyboard is doing a different physical task from a twelve-year-old.",
+            "That is why early keyboarding instruction focuses on letter location and posture rather than words per minute. Pushing speed before the hands are ready produces the two-finger hunt-and-peck style that later caps out around 35-40 WPM."
+          ]
+        },
+        {
+          "h2": "What to do at each stage",
+          "p": [
+            "<ul><li><strong>Grades 1-2:</strong> letter games, five minutes at a time, no timer. The goal is knowing where the keys are.</li><li><strong>Grades 3-4:</strong> home row drills and short un-timed copying. Cover the hands for one round a week once the home row is secure.</li><li><strong>Grade 5:</strong> timed one-minute tests, but score accuracy first. A child at 90% accuracy will overtake a faster child who types sloppily.</li><li><strong>Grades 6-8:</strong> full-length tests, real documents, editing practice. This is when speed starts to matter for schoolwork volume.</li></ul>"
+          ]
+        },
+        {
+          "h2": "How to measure without stressing a child",
+          "p": [
+            "One test a week, one minute long, and read out the accuracy before the speed. Children optimise for whatever the adult reacts to - if the number that gets attention is WPM, they will type faster and sloppier within a fortnight.",
+            "Keep a simple record of the weekly score so progress is visible when it feels slow. Children improve in steps: three flat weeks and then five WPM in one."
+          ]
+        },
+        {
+          "h2": "When a child is behind the band",
+          "p": [
+            "First check the physical setup: feet supported, elbows near 90 degrees, screen at eye level, a keyboard that is not oversized. A child typing on an adult keyboard at the wrong height will underperform regardless of practice.",
+            "Then check the method: are they using all fingers and not looking? If not, that is the whole project for the next month, and grade-level speed will follow. If both are fine and the score is flat, the issue is usually practice frequency, not ability - five minutes four times a week beats thirty minutes once."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "How fast should a 5th grader type?",
+          "a": "Roughly 25-35 WPM with 90%+ accuracy if they have had regular keyboarding practice. Bands vary widely by school and by how much instruction the child has actually received."
+        },
+        {
+          "q": "How fast should a 3rd grader type?",
+          "a": "Usually 10-20 WPM. At this age letter location and home-row habit matter far more than speed, and timed tests should not be the main activity."
+        },
+        {
+          "q": "What is a good typing speed for an 8th grader?",
+          "a": "35-45 WPM is a reasonable band by the end of middle school, with accuracy above 95%. Students who reach it usually had formal instruction around grade 4 or 5."
+        },
+        {
+          "q": "Is 20 WPM bad for a 10-year-old?",
+          "a": "No. It is normal for a child without formal keyboarding instruction, and it is well within the grade 4-5 band. What matters is whether the fingers are on the home row."
+        },
+        {
+          "q": "How often should children practise?",
+          "a": "Ten minutes, three to four times a week. Short frequent sessions build the motor pattern; a long weekly session mostly builds frustration."
+        }
+      ]
+    },
+    {
+      "file": "how-to-put-wpm-on-resume.html",
+      "title": "How to Put WPM on a Résumé (With Real Examples)",
+      "metaDesc": "Exact lines to use, when a typing speed helps an application and when it hurts, and what a recruiter will ask you to prove. Includes net vs gross wording.",
+      "h1": "How to Put WPM on a Résumé",
+      "heroP": "A typing speed belongs on a résumé <strong>only when the job screens for it</strong>, and it should be written so it can be verified: method, length and accuracy, not a bare number.",
+      "tldr": "Write it as: \"Typing: 62 WPM net, 98.5% accuracy (5-minute test)\". Include it for clerical, data entry, transcription, dispatch and legal support roles. Leave it off creative, management and engineering applications unless typing is the job.",
+      "dur": 60,
+      "mode": "sentences",
+      "crumbs": [
+        "Home",
+        "How to Put WPM on a Résumé"
+      ],
+      "seo": [
+        {
+          "h2": "Where it goes",
+          "p": [
+            "Put it in the skills section, not the summary. A recruiter scanning for a 50 WPM requirement looks at skills, certifications and the line under the job title - not at a paragraph about your professional philosophy.",
+            "<ul><li><strong>Skills line:</strong> Typing: 62 WPM net, 98.5% accuracy (5-minute test)</li><li><strong>Within a role bullet:</strong> \"Typed 60+ WPM net while handling 40+ client records daily\" - only when the job actually required it.</li><li><strong>Certification line:</strong> Typing certificate, 55 WPM, proctored at [testing centre], [date] - when a formal certificate is required.</li></ul>"
+          ]
+        },
+        {
+          "h2": "Why net, with the length",
+          "p": [
+            "Net WPM subtracts errors, so it is the number a screening test will reproduce. Gross WPM without a length is unverifiable and reads as the flattering version - recruiters who hire typists know the difference.",
+            "Adding the test length does two things: it signals that you know a 15-second burst is not a working speed, and it pre-answers the follow-up question. \"62 WPM net (5-minute)\" is more credible than \"70 WPM\" even though the number is lower."
+          ]
+        },
+        {
+          "h2": "When to leave it off",
+          "p": [
+            "Leave it off when the role does not screen for typing: management, sales, design, engineering, research. A speed listed against a job that never asked for it looks like filler, and an average number can create a doubt that would not otherwise exist.",
+            "The exception is when typing is an explicit part of the posting - a project manager who writes documentation all day can reasonably list 60 WPM if the advert mentions documentation volume."
+          ]
+        },
+        {
+          "h2": "What happens in the interview",
+          "p": [
+            "If you list a number, expect to be tested. Most employers use a short online test, and a handful ask for a certificate. If your listed score came from a one-minute burst on a good day, the live test will read 5-8 WPM lower and the discrepancy is what they will notice.",
+            "So list the score you can reproduce on a bad day, at the test length the employer uses. If you do not know the length, assume five minutes and quote that."
+          ]
+        },
+        {
+          "h2": "If you have no recent score",
+          "p": [
+            "Take a five-minute test now, screenshot the result, and use that number - it is current and reproducible. Re-test every six months or after a role change, because typing speed drifts with how much you type.",
+            "Keep the screenshot. It costs nothing and it settles the occasional \"can you prove that\" question without a re-test."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "Should I put my WPM on a résumé?",
+          "a": "Yes for clerical, data entry, transcription, dispatch, legal support and customer service roles that screen for typing. No for roles where typing is not part of the job description."
+        },
+        {
+          "q": "How do I write WPM on a résumé?",
+          "a": "\"Typing: 62 WPM net, 98.5% accuracy (5-minute test)\". Net, with accuracy and test length, so the number is reproducible rather than flattering."
+        },
+        {
+          "q": "Is 60 WPM good enough to list?",
+          "a": "Yes. 60 WPM net is about the 66th percentile and above almost every clerical requirement. Below 40 WPM, only list the number if the posting explicitly asks for a lower threshold."
+        },
+        {
+          "q": "Should I list gross or net WPM?",
+          "a": "Net. Screening tests deduct errors, so a net figure is what they will measure. Gross WPM without a stated method reads as inflated."
+        },
+        {
+          "q": "Will an employer verify my typing speed?",
+          "a": "Often yes, with a short online test or a certificate. List a score you can reproduce at the same test length, because a live test that reads lower than your résumé is a credibility problem."
+        }
+      ]
+    },
+    {
+      "file": "typing-certificate-acceptance.html",
+      "title": "Will Employers Accept a Free Typing Certificate?",
+      "metaDesc": "Self-issued certificates are not credentials. Which employers accept them, when a proctored test is required, and how to tell the difference before you pay.",
+      "h1": "Will Employers Accept a Free Typing Certificate?",
+      "heroP": "A free certificate printed from a website is <strong>self-reported evidence</strong>, not a credential. Some employers accept it, some require a proctored test, and knowing which is which saves you a wasted application - or a wasted fee.",
+      "tldr": "Self-issued certificates show effort, not verification. Government, court and staffing-agency roles usually require a proctored or employer-administered test. Private employers commonly accept a screenshot of a dated result and re-test you themselves.",
+      "dur": 60,
+      "mode": "sentences",
+      "crumbs": [
+        "Home",
+        "Typing Certificate Acceptance"
+      ],
+      "seo": [
+        {
+          "h2": "Three kinds of typing evidence",
+          "p": [
+            "<table><tr><th>Type</th><th>What it proves</th><th>Who accepts it</th></tr><tr><td>Self-issued certificate (printed from a website)</td><td>That you used the site and got a score</td><td>Some private employers, as a screening signal</td></tr><tr><td>Third-party timed result (dated, named, unproctored)</td><td>A specific score on a specific date</td><td>Many private employers; occasionally agencies</td></tr><tr><td>Proctored certificate (testing centre or remote proctor)</td><td>That someone observed the test</td><td>Government, courts, staffing agencies, some hospitals</td></tr></table>",
+            "The difference that matters is observation. A certificate nobody watched you earn establishes intent and baseline skill; it does not establish that the score is yours."
+          ]
+        },
+        {
+          "h2": "Where a free certificate is genuinely useful",
+          "p": [
+            "<ul><li><strong>Private-sector applications</strong> where the recruiter just wants a rough number before scheduling an interview.</li><li><strong>Freelance profiles</strong> - showing a dated result is better than claiming \"fast typist\".</li><li><strong>Your own tracking</strong> - a monthly certificate is a simple progress record.</li></ul>",
+            "In all three cases the certificate is a convenience, not proof. Do not pay for one believing it changes the category."
+          ]
+        },
+        {
+          "h2": "Where it will be rejected",
+          "p": [
+            "Public-sector postings frequently state the requirement in a way that excludes self-issued documents: \"must submit a typing test with your name and date\", \"proctored within the last twelve months\", \"issued by an approved testing centre\". If the wording includes any of those, a website certificate is not the document they want.",
+            "Court and legal roles, dispatch centres and hospital transcription departments are the most consistent about requiring a proctored result. The cost is usually modest; the inconvenience is the appointment."
+          ]
+        },
+        {
+          "h2": "Red flags in paid certificate services",
+          "p": [
+            "<ul><li><strong>No stated proctoring.</strong> If nobody observes the test, you are buying a PDF.</li><li><strong>No verification ID or lookup page.</strong> An employer cannot check it, so it carries no more weight than your own screenshot.</li><li><strong>No expiry stated.</strong> Real credentials state validity; typing certificates typically run one to four years.</li><li><strong>Scores that cannot be this high.</strong> A service guaranteeing 90+ WPM to anyone is selling paper.</li></ul>"
+          ]
+        },
+        {
+          "h2": "What to do instead",
+          "p": [
+            "Keep a dated, named screenshot of a five-minute result and put the number on your résumé with the test length and accuracy. Then let the employer test you - which most will, and which you will pass if the listed number is honest.",
+            "If a posting demands a proctored certificate, book one at a local testing centre or workforce office and treat the fee as part of the application cost. It is the only version that satisfies that wording."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "Do employers accept free online typing certificates?",
+          "a": "Some private employers accept them as a screening signal, but they are self-reported. Government, court, dispatch and hospital roles usually require a proctored or employer-administered test instead."
+        },
+        {
+          "q": "Is a typing certificate a real credential?",
+          "a": "Only a proctored one. A certificate printed from a website shows that you took a test, not that anyone verified the result."
+        },
+        {
+          "q": "How long is a typing certificate valid?",
+          "a": "Typically one to four years depending on the issuer or agency. Postings often refuse results older than twelve months, so check the wording before reusing an old certificate."
+        },
+        {
+          "q": "Can I put a certificate score on my résumé?",
+          "a": "Yes, with the test length and accuracy, for example \"55 WPM net, 98% accuracy, five-minute test\". Expect to be re-tested, and list a score you can reproduce."
+        },
+        {
+          "q": "Should I pay for a certificate?",
+          "a": "Only when a posting asks for a proctored result or a specific issuer. For private-sector applications, a dated screenshot and an honest résumé line do the same job for free."
+        }
+      ]
+    }
+  ]
+}

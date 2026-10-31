@@ -159,6 +159,11 @@ Each line below is a claim this site makes, with the source that supports it. Qu
 - [Best Free Typing Lessons for Adults](https://typing.rerivo.com/best-free-typing-lessons-for-adults.html): Structured 4-week free plan for adults to reach 60 WPM with free online tools.
 - [Typing Test for Government Jobs](https://typing.rerivo.com/typing-test-government-jobs.html): SSC, IBPS and court clerk typing test requirements and preparation.
 - [Programmer Typing Speed](https://typing.rerivo.com/programmer-typing-speed.html): Why code typing is a separate skill and how to drill symbol-dense reaches.
+- [Typing Speed: Phone vs Keyboard (Measured Study Data)](https://typing.rerivo.com/typing-speed-phone-vs-keyboard.html): Phone: 36.2 WPM average, 2.3% uncorrected errors (Palin et al., MobileHCI 2019, n=37,370). Desktop: 51.6 WPM, 1.17% errors (Dhakal et al., CHI 2018, n=168,960).
+- [Typing Speed by Grade](https://typing.rerivo.com/typing-speed-by-grade.html): Rough bands: grade 1-2, 5-11 WPM; grade 3, 10-20; grade 4, 15-25; grade 5, 25-35; grade 6, 30-40; grade 7-8, 35-45. Below grade 6 the goal is home-row habit and
+- [How to Put WPM on a Résumé (With Real Examples)](https://typing.rerivo.com/how-to-put-wpm-on-resume.html): Write it as: "Typing: 62 WPM net, 98.5% accuracy (5-minute test)". Include it for clerical, data entry, transcription, dispatch and legal support roles. Leave i
+- [Will Employers Accept a Free Typing Certificate?](https://typing.rerivo.com/typing-certificate-acceptance.html): Self-issued certificates show effort, not verification. Government, court and staffing-agency roles usually require a proctored or employer-administered test. P
+
 
 ## Skill, Level, Format & Exam Tests
 - [10 Key Typing Test](https://typing.rerivo.com/ten-key-typing-test.html): Free 10 key typing test for the numeric keypad, with number-pad speed in CPM/KPH and accuracy.
