@@ -425,3 +425,35 @@ GitHub 检测到 `CITATION.cff` 会显示「Cite this repository」按钮，这�
 
 同时 README 增加 Citing 段，重复同一句话——因为「把二手整理当成原始测量」是这类
 数据页最常见的误用。
+
+---
+
+## 十七、r96–r100：连续补厚的四轮（按「位置 × 厚度」选点）
+
+方法固定下来之后就没再变过：**先用 GSC 曝光筛选，再按位置排序，先补位置最好的那页。**
+
+| 轮次 | 页面 | 曝光 / 位置 | 正文变化 |
+|---|---|---|---|
+| r96 | keyboard-practice | 341 / p77.2 | 1,790 → 3,035 |
+| r96 | typing-tutorial | 176 / p47.6 | 1,890 → 3,444 |
+| r96 | online-typing-test | 159 / p53.9 | 1,997 → 3,354 |
+| r96 | touch-typing-test | 100 / p45.7 | 1,647 → 2,109 |
+| r97 | typing-test-for-students | 84 / **p31.5** | 1,881 → 3,638 |
+| r97 | typing-test-for-adults | 56 / p54.7 | 1,930 → 3,530 |
+| r97 | number-typing-test | 54 / p57.4 | 1,880 → 3,114 |
+| r98 | custom-typing-test | 47 / **p14.1** | 1,903 → 2,972 |
+| r98 | keyboard-typing-test | 18 / p22.9 | 1,513 → 3,392 |
+| r98 | beginner-typing-test | 37 / p29.7 | 1,959 → 3,414 |
+| r99 | advanced-typing-test | 49 / **p16.7** | 2,439 → 3,806 |
+| r99 | quick-brown-fox | 8 / p35.9 | 1,607 → 3,042 |
+| r99 | how-fast-can-i-type | 23 / p32.7 | 2,163 → 2,990 |
+
+全站正文中位数 **2,541 → 2,806**，最小 1,514（privacy 除外），FAQ 合计 935 条。
+
+### 三处真正的「结构性问题」，不是补字数
+
+1. **keyboard-typing-test 的意图错配**：`keyboard test` 同时指「查键盘按键」与「测打字速度」。
+   补了逐键检查法（用错误报告的遗漏/重复判断死键），把两种意图都接住。
+2. **custom-typing-test 的适用边界**：自定义文本能用来「练特定文本」，不能用来「当基准」。
+   这一条以前没写，是页面上真实存在的误导风险。
+3. **quick-brown-fox 的记忆化陷阱**：练到第五次是在回忆而不是阅读，分数会涨而技能没变。
