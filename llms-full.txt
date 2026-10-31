@@ -322,16 +322,38 @@ Source: https://typing.rerivo.com/keyboard-typing-test.html
 
 Test your keyboard speed and accuracy. Works on any keyboard — laptop, mechanical or full-size. Instant WPM results, free, no sign up.
 
+On this page
+Keyboard typing test
+Test any keyboard, not just the one you own
+Keyboard typing tips
+Works with any keyboard layout
+Build true touch typing
+Is my keyboard working? A key-by-key check
+Keyboard types and what they change for typing tests
 A keyboard typing test checks how fast you type on your keyboard and how accurate you are. It works the same on laptop, mechanical and full-size keyboards. Measuring regularly shows whether a new keyboard or layout actually improves your speed.
 A keyboard test answers one question honestly: how fast are your hands on this keyboard? Laptop keyboards, mechanical switches and full-size boards all have different travel and feedback, and your WPM shifts with them. Test the keyboard you use for work, then test the one you game on; the difference tells you which one your hands actually like.
 Keep your wrists relaxed and fingers anchored on the home row. Use all ten fingers rather than hunting and pecking. A comfortable keyboard with good key travel helps, but consistent practice matters far more than the hardware.
 This keyboard typing test runs on QWERTY, AZERTY, Dvorak and Colemak alike — it simply measures the characters you type against the target text. Membrane, mechanical or laptop scissor-switch, the physical board doesn't change the score. What matters is muscle memory: knowing where each key sits without looking so your hands stay anchored on the home row.
 Touch typing means typing without watching your fingers. Use the small bumps on the F and J keys to find the home row by feel, then return to it after every reach. The on-screen keyboard below highlights the next key so you can gradually stop looking down at your real keyboard and trust your hands instead.
+If you arrived looking for a way to test whether keys are broken rather than how fast you type, this is the same exercise from the other direction: the test above records which characters you produce, so a key that never registers will show up as a missing character rather than a slow one.
+Type every character deliberately, including Shift, in a one-minute round: a-z, 0-9, and the punctuation you use.
+Read the error report, not the score. A key that produces nothing shows up as an omission on every attempt; a key that double-registers shows as extra characters.
+Repeat on a second device if possible - if the same key fails on both, it is the key; if only one, it is that keyboard or its connection.
+For a laptop, note whether it fails only on battery - some keyboards behave differently under power management.
+This will not diagnose a hardware fault with certainty, and it cannot test keys your operating system intercepts (media keys, function-row shortcuts). For those, use the operating system's own input viewer.
+Type | Key travel | What it changes in a test
+Laptop chiclet | ~1.5 mm | Faster to actuate, less feedback; lower wrist position
+Standard membrane | ~3 mm | Slower return, mushier bottom-out; what testing centres usually provide
+Mechanical (linear) | 3-4 mm | Consistent actuation, no tactile bump; slightly faster for most typists
+Mechanical (tactile/clicky) | 3-4 mm | Clear feedback, slightly slower but fewer accidental presses
+Expect 3-8 WPM difference between a laptop board and a mechanical one for the same typist. If a test result matters, use the keyboard you will be tested on.
 ## Typing test FAQ
 Technique matters more than hardware, but a comfortable keyboard with good key travel can help you type faster and more accurately.
 Yes, free with no sign up. Results stay in your own browser only.
 Yes — this test works on any keyboard, so it's great for comparing a new mechanical board against your old one.
 Mechanical keyboards usually add 3 to 8 WPM from cleaner key feel and fewer missed presses, but the gap shrinks with practice. Test both here and keep the one whose accuracy stays higher after ten rounds, not just the faster-feeling one.
+Type every character deliberately in a one-minute round and read the error report: a dead key appears as a repeated omission, a double-registering key as extra characters. Repeat on another device to tell a key fault from a keyboard or connection fault.
+By roughly 3-8 WPM between a laptop chiclet board and a mechanical one. Key travel and feedback affect error rate more than raw speed.
 
 ## Number Typing Test
 Source: https://typing.rerivo.com/number-typing-test.html
@@ -1048,6 +1070,13 @@ Source: https://typing.rerivo.com/custom-typing-test.html
 
 A fully customizable typing test: pick your duration from 15 seconds to 10 minutes, switch between sentences, quotes, numbers and words, set the language, theme and line width, then type and get instant WPM. Everything is configurable, nothing to sign up for.
 
+On this page
+Four ways people actually use a custom test
+What to paste, and what not to
+Settings that matter
+Limits worth knowing
+When a custom test is the right measurement
+How pasted text behaves in the engine
 Interview rehearsal - paste a passage in the style of the employer's test (legal clause, medical note, code snippet) and practise at the same length.
 Weak-key drilling - paste the words you keep missing, twenty times each, and run a minute on them.
 Domain vocabulary - drug names, part numbers, legal defined terms. Typing your own vocabulary beats typing random sentences.
@@ -1062,12 +1091,17 @@ Layout | QWERTY by default; change it if you actually type on Dvorak or Colemak
 Theme and width | Comfort only - they do not change the score
 A custom test cannot tell you whether the passage is representative. If you paste easy words, you will score higher than on an employer's test and believe you are ready.
 Use it for targeted practice, and the standard tests for benchmarking. For the benchmark itself, see the one-minute test or the five-minute test.
+A custom test is valid for practising a specific text. It is not valid for comparing yourself to a benchmark, because the passage you chose is not a neutral sample.
+Use it for: rehearsing the exact format of an employer's test, drilling your own domain vocabulary, and reproducing a text you keep mistyping. Do not use it to decide whether you are fast enough for a job - use a standard sentence test at the same length as the employer's, because that is what their test will be.
+The text is split on whitespace and typed word by word. Punctuation inside a word (hyphens, apostrophes, brackets) is counted as part of that word, so a passage full of citations will score lower than the same character count of plain prose - correctly, because it is harder to type.
+Two things to watch when pasting: smart quotes and non-breaking spaces from a word processor can produce characters your keyboard does not have a key for, and a very long single line will wrap in a way that makes the cursor jump. Paste plain text, and keep paragraphs under about 400 words.
 ## Custom typing test FAQ
 A test where you supply the text - your own vocabulary, a sample passage or an interview-style document - and the engine measures speed and accuracy on it.
 100-400 words. Under 100 the round repeats and memorisation inflates the score; over 400 you will not finish a five-minute round.
 No. It stays in the browser for the session; there is no server-side storage and no account.
 Yes, though the dedicated code pages (Python, JavaScript, TypeScript, Rust, SQL) have symbol-dense pools written for that purpose.
 Because the text differs. A custom passage with easy words or no punctuation will read higher than a standard sentence test - use the standard tests for benchmarks.
+Not as a benchmark - the passage you chose is not a neutral sample. Use a standard test at the employer's length for the number, and a custom test to rehearse their format.
 
 ## Typing Tests in Other Languages
 Source: https://typing.rerivo.com/typing-tests-in-other-languages.html
@@ -1830,6 +1864,13 @@ Source: https://typing.rerivo.com/beginner-typing-test.html
 
 New to typing? Start here: an easy, forgiving test that measures where you are today so you can watch yourself improve.
 
+On this page
+A first test that does not punish you
+What a beginner should actually practise
+Your first realistic targets
+What to do after your first month
+Your first week, day by day
+Three beginner mistakes worth avoiding
 The default round is short, the words are common, and the score is reported with accuracy beside it. A beginner's first number should be a baseline, not a verdict - most untrained adults start at 20-30 WPM with 90-95% accuracy, and that is normal.
 If your accuracy is below 85%, the speed number is not meaningful yet. Slow down until errors are rare; the speed will follow within two weeks and it will be a real number rather than a lucky one.
 Home row first. asdf jkl; until the fingers return without looking.
@@ -1844,12 +1885,24 @@ Six months | 45-60 | 97%+ | Most clerical job floors
 These are typical progressions for someone practising ten minutes a day, not guarantees. The variable that matters is consistency, not talent.
 Move to the one-minute test for the classic benchmark, and add the home row test as a weekly check on technique. When you can hold 95% accuracy at 35 WPM, the 40 WPM plan is the next step.
 Avoid jumping to hard text or code typing before the map is automatic - it moves the errors rather than removing them.
+Day | 10 minutes | What to notice
+1 | Find F and J by touch; type the home row slowly | Whether you can return to the home row without looking
+2 | Home row words; one 30-second covered round | How much accuracy drops when you cannot see
+3 | Top row added; short real words | Which finger reaches wrong first
+4 | Bottom row added; one minute of normal text | Whether you are backspacing more than typing
+5 | No-backspace round, then a slow accuracy round | How much the corrections were costing you
+6-7 | One timed round per day, same length | The size of the gap between your two scores
+Practising at the edge of frustration. If accuracy drops below 90%, the session is teaching you to make mistakes. Slow down until it is above 95%.
+Chasing WPM in week one. The first two weeks are about the map, not the speed. Speed arrives as a side effect and then keeps arriving.
+Switching keyboards or layouts mid-month. Each switch resets the motor learning you just built. Pick one and stay for a month.
+The fourth mistake is invisible: practising only when motivated. Ten minutes, four days a week, beats a two-hour session every other Sunday by a wide margin.
 ## Beginner Typing Test FAQ
 20-30 WPM is normal for an untrained adult, with 90-95% accuracy. Reaching 35-45 WPM within three months of daily ten-minute practice is typical.
 Accuracy. At beginner speed corrections cost more than errors, and a sloppy fast habit is much harder to undo than a slow careful one.
 Four to six weeks to type without looking, and two to four months to reach 60 WPM, assuming ten to fifteen minutes of daily practice.
 Yes, no account, no ads inside the typing area, and results stay in your browser.
 Yes. It is the anchor every other reach returns to, and skipping it is what produces the two-finger ceiling at 35-40 WPM.
+Find F and J by touch, drill the home row, then add the top and bottom rows one at a time, keeping accuracy above 95%. One covered round a day from day two.
 
 ## Timed Typing Test
 Source: https://typing.rerivo.com/timed-typing-test.html
