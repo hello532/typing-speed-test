@@ -10,6 +10,21 @@ Most typing tests assume English, but a keyboard is not the same in every langua
 
 Run the same one minute test in each language on the same day, and write the five numbers down. Most people are fastest in their dominant language and ten to twenty percent slower in the others, and the gap shrinks fast with a few minutes of daily practice in the weaker languages. Re-run the same set next month and the comparison is honest, because the test itself never changed.
 
+The measurement does not change: five characters count as a word, errors are subtracted, and the length is whatever you chose. What changes is the input mechanism, and that is what makes cross-language scores incomparable.
+
+Language | Mechanism that changes the score
+English, Spanish, German, French, Turkish, Indonesian | Direct key-per-letter; accents and umlauts on dedicated keys (or dead keys)
+Vietnamese | Telex or VNI: tone and quality marks are typed after the word and the IME reorders them
+Chinese, Japanese | IME conversion: you type romaji or pinyin, then choose characters from a candidate list
+Korean | Jamo assembly into syllable blocks - two to four keystrokes per visible character
+Hindi, Arabic, Urdu, Thai | Script-specific shaping and matras/vowel marks; layout conventions vary by exam board
+
+So compare CPM within a language over time, and compare languages only on the same mechanism. An English 60 WPM and a Chinese 60 characters per minute are not the same achievement.
+
+Use the language you are actually tested in, or the one you actually type. Practising on a language you do not write daily measures nothing useful - the script may be slower and the vocabulary unfamiliar, and neither tells you about your typing.
+
+If you work across two languages, keep two separate benchmarks and never average them. The benchmarks page explains why a single number cannot span different input mechanisms.
+
 ## Multilingual typing test FAQ
 
 ### Which languages can I take a typing test in?
@@ -35,3 +50,7 @@ One minute to compare languages quickly, three minutes when you want a stable av
 ### Can I switch languages without leaving the page?
 
 Use the custom typing test, which lets you change language along with duration, text type, theme and line width in one place.
+
+### Can I compare my WPM between two languages?
+
+Only if the input mechanism is the same. Chinese and Japanese involve IME conversion, Korean assembles jamo into blocks, Vietnamese reorders tone marks - so compare CPM within a language over time instead.

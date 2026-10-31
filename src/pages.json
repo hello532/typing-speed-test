@@ -3401,6 +3401,20 @@
      "p": [
       "Your best time is saved in your own browser, so every race is really against yourself. Try a best-of-three: race once to warm up, once at full speed, and once while aiming for zero corrections. The third race usually produces your best WPM, because chasing accuracy is what unlocks the top speed. Come back daily and the leaderboard of your own history does the rest."
      ]
+    },
+    {
+     "h2": "Racing yourself is the only comparison that holds",
+     "p": [
+      "A race against another person adds a variable you cannot control: their speed. A race against your own last round adds only one: you. That is why the useful version of this page is a sequence of attempts at a fixed length, tracked over weeks.",
+      "Run three 30-second attempts and record all three. The one that matters is the middle one - the fastest is a lucky draw, the slowest is often a fumble at the start."
+     ]
+    },
+    {
+     "h2": "Sprint speed and working speed are different numbers",
+     "p": [
+      "A 30-second sprint typically reads 8-12 WPM above a five-minute round for the same typist. Neither is wrong; they measure different things. Sprints train the top end you cannot otherwise reach, and the five-minute round tells you what you can actually sustain.",
+      "Use races to raise the ceiling, and a five-minute test once a week to check that the ceiling is moving the average. If sprint speed rises while the five-minute score stays flat, you are training a skill you do not use."
+     ]
     }
    ],
    "faq": [
@@ -3427,6 +3441,10 @@
     {
      "q": "How long is the typing race?",
      "a": "Sixty seconds by default, the classic race length that balances burst speed with endurance. Short races train your launch, and the full minute trains you to hold that speed when your hands get tired."
+    },
+    {
+     "q": "Is racing good practice?",
+     "a": "For raising your top-end speed, yes. For measuring what you can sustain, no - a 30-second sprint reads 8-12 WPM above a five-minute round. Use races for the ceiling and a five-minute test for the working number."
     }
    ],
    "faqH2": "Typing race FAQ",
@@ -4031,6 +4049,21 @@
      "p": [
       "Run the same one minute test in each language on the same day, and write the five numbers down. Most people are fastest in their dominant language and ten to twenty percent slower in the others, and the gap shrinks fast with a few minutes of daily practice in the weaker languages. Re-run the same set next month and the comparison is honest, because the test itself never changed."
      ]
+    },
+    {
+     "h2": "What changes between languages, and what does not",
+     "p": [
+      "The measurement does not change: five characters count as a word, errors are subtracted, and the length is whatever you chose. What changes is the input mechanism, and that is what makes cross-language scores incomparable.",
+      "<table><tr><th>Language</th><th>Mechanism that changes the score</th></tr><tr><td>English, Spanish, German, French, Turkish, Indonesian</td><td>Direct key-per-letter; accents and umlauts on dedicated keys (or dead keys)</td></tr><tr><td>Vietnamese</td><td>Telex or VNI: tone and quality marks are typed after the word and the IME reorders them</td></tr><tr><td>Chinese, Japanese</td><td>IME conversion: you type romaji or pinyin, then choose characters from a candidate list</td></tr><tr><td>Korean</td><td>Jamo assembly into syllable blocks - two to four keystrokes per visible character</td></tr><tr><td>Hindi, Arabic, Urdu, Thai</td><td>Script-specific shaping and matras/vowel marks; layout conventions vary by exam board</td></tr></table>",
+      "So compare CPM within a language over time, and compare languages only on the same mechanism. An English 60 WPM and a Chinese 60 characters per minute are not the same achievement."
+     ]
+    },
+    {
+     "h2": "Choosing which language test to use",
+     "p": [
+      "Use the language you are actually tested in, or the one you actually type. Practising on a language you do not write daily measures nothing useful - the script may be slower and the vocabulary unfamiliar, and neither tells you about your typing.",
+      "If you work across two languages, keep two separate benchmarks and never average them. The <a href=\"typing-speed-benchmarks.html\">benchmarks page</a> explains why a single number cannot span different input mechanisms."
+     ]
     }
    ],
    "faqFirstOpen": true,
@@ -4059,6 +4092,10 @@
     {
      "q": "Can I switch languages without leaving the page?",
      "a": "Use the custom typing test, which lets you change language along with duration, text type, theme and line width in one place."
+    },
+    {
+     "q": "Can I compare my WPM between two languages?",
+     "a": "Only if the input mechanism is the same. Chinese and Japanese involve IME conversion, Korean assembles jamo into blocks, Vietnamese reorders tone marks - so compare CPM within a language over time instead."
     }
    ],
    "webAppName": "Typing Speed Test",
@@ -8070,6 +8107,20 @@
       "This page reports WPM and CPM from the committed text. For Korean, CPM is the more meaningful number because it counts visible characters, while the keystroke count behind it is roughly 2-3 times higher.",
       "For comparison across languages, use CPM: the five-characters-per-word convention was designed for alphabetic scripts and understates the work in a block-based one. The general benchmarks are on <a href=\"average-typing-speed.html\">average typing speed</a>."
      ]
+    },
+    {
+     "h2": "Where learners actually lose speed",
+     "p": [
+      "Three specific places, in order. First, <strong>batchim</strong>: typing the final consonant moves the hand back to the consonant side, breaking the left-right alternation that makes Korean fast. Second, <strong>block boundaries</strong> - knowing where a syllable ends is a language skill, and learners hesitate there. Third, <strong>conversion</strong> for Sino-Korean words, where several characters share a reading.",
+      "The fix for the first two is the same: type real sentences rather than jamo lists, slowly enough that you are not guessing where the block ends. Jamo drills teach the keys; sentences teach the assembly."
+     ]
+    },
+    {
+     "h2": "A practice routine that matches the script",
+     "p": [
+      "<ul><li><strong>Two minutes of jamo pairs</strong> - consonant then vowel, the core of every block.</li><li><strong>Three minutes of common blocks</strong> - the syllables that appear most often in the words you actually type.</li><li><strong>Five minutes of sentences</strong> - including batchim, which is the part that breaks rhythm.</li></ul>",
+      "Keep the same three-part structure for two weeks before changing anything. Korean progress shows up in assembly speed first, and in raw keystrokes almost not at all."
+     ]
     }
    ],
    "faqFirstOpen": true,
@@ -8094,6 +8145,10 @@
     {
      "q": "Is this Korean test free?",
      "a": "Yes, with no account. Results stay in your browser, and the practice pool is real Korean sentences rather than random jamo."
+    },
+    {
+     "q": "Why do Korean learners hesitate mid-word?",
+     "a": "Block boundaries. Knowing where a syllable ends is a language skill, and the hands wait while you decide. Typing real sentences rather than jamo lists is what fixes it."
     }
    ],
    "tldr": "A Korean typing test measures speed and accuracy on real Hangul sentences. You type jamo letters and the IME composes each syllable block, so an even syllable rhythm matters more than bursts of speed. Because blocks pack several letters into one character, CPM is a fairer metric than WPM. Free, timed 15 seconds to 10 minutes, no sign up.",
@@ -13316,6 +13371,20 @@
       "Bất kỳ phương pháp nhập nào cũng hoạt động. Bài kiểm tra hiển thị văn bản tiếng Việt hoàn chỉnh với đủ dấu — bạn chỉ cần gõ ra nó theo cách bạn thường dùng. Telex (aa→â, dd→đ), VNI (số) hoặc bàn phím tiếng Việt tích hợp trên thiết bị đều được.",
       "Vì bài kiểm tra đo văn bản bạn tạo ra chứ không phải phím bạn nhấn, nên dù dùng Telex trên máy tính hay bàn phím tiếng Việt trên điện thoại, kết quả đều công bằng và đo được cùng một kỹ năng."
      ]
+    },
+    {
+     "h2": "Where the tone mark goes, and why it matters for typing",
+     "p": [
+      "Vietnamese stacks two marks on one vowel: a tone mark (sắc, huyền, hỏi, ngã, nặng) plus, for some words, a quality mark (the breve in ă, the hook in ơ, the diacritic in ư). The tone mark's position follows a rule - it lands on the vowel that carries the syllable's nucleus - and typing the wrong vowel first means going back.",
+      "In Telex, the tone is typed <em>after</em> the word (aa, ow, uw for the quality marks; s, f, r, x, j for the tones), so the input method has to reorder what you typed. That reordering is why Vietnamese typing feels different from typing a Latin language with a few extra letters: you are not just adding characters, you are telling the IME to modify the ones already on screen."
+     ]
+    },
+    {
+     "h2": "Telex on a phone versus a laptop",
+     "p": [
+      "Most Vietnamese speakers type Telex on a phone keyboard without thinking about it, because the phone keyboard already reorders and predicts. On a laptop the same input method has no prediction, so the tone keys have to be typed deliberately - and that is where learners lose accuracy.",
+      "If you are preparing for a Vietnamese-language job test, practise on a physical keyboard with the same IME you will be tested on. Phone fluency does not transfer, because the phone is doing part of the work."
+     ]
     }
    ],
    "faqFirstOpen": true,
@@ -13340,6 +13409,10 @@
     {
      "q": "Tôi có cần phương pháp nhập đặc biệt để gõ tiếng Việt không?",
      "a": "Không cần. Bài kiểm tra hiển thị câu tiếng Việt hoàn chỉnh; bạn gõ theo cách thường dùng — Telex, VNI hay bàn phím tích hợp đều được."
+    },
+    {
+     "q": "Why does Vietnamese typing feel different from Spanish or German?",
+     "a": "In Telex the tone and quality marks are typed after the word and the input method reorders them, so you are modifying characters already on screen rather than adding special letters as you go."
     }
    ],
    "tldr": "Kiểm tra tốc độ gõ phím tiếng Việt đo WPM và độ chính xác trên câu tiếng Việt thật với đủ dấu thanh. Hoạt động với Telex, VNI hoặc bất kỳ bàn phím nào. Miễn phí, không cần đăng ký.",

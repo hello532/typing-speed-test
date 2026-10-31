@@ -12,6 +12,8 @@ How to improve Vietnamese typing speed
 Vietnamese typing for work and study
 Làm thế nào để sử dụng bài kiểm tra này
 Gõ tiếng Việt với Telex, VNI hoặc bàn phím điện thoại
+Where the tone mark goes, and why it matters for typing
+Telex on a phone versus a laptop
 
 A Vietnamese typing test measures how fast and accurately you type real Vietnamese sentences — with the full system of tones and stacked diacritics (ă, â, đ, ê, ô, ơ, ư and the six tone marks) that makes Vietnamese unique among Latin-script languages. Your result shows in words per minute, where every 5 characters counts as one word.
 
@@ -28,6 +30,14 @@ Chọn thờởi gian (15 giây đến 10 phút) rồi nhấp vào vùng nhập 
 Bất kỳ phương pháp nhập nào cũng hoạt động. Bài kiểm tra hiển thị văn bản tiếng Việt hoàn chỉnh với đủ dấu — bạn chỉ cần gõ ra nó theo cách bạn thường dùng. Telex (aa→â, dd→đ), VNI (số) hoặc bàn phím tiếng Việt tích hợp trên thiết bị đều được.
 
 Vì bài kiểm tra đo văn bản bạn tạo ra chứ không phải phím bạn nhấn, nên dù dùng Telex trên máy tính hay bàn phím tiếng Việt trên điện thoại, kết quả đều công bằng và đo được cùng một kỹ năng.
+
+Vietnamese stacks two marks on one vowel: a tone mark (sắc, huyền, hỏi, ngã, nặng) plus, for some words, a quality mark (the breve in ă, the hook in ơ, the diacritic in ư). The tone mark's position follows a rule - it lands on the vowel that carries the syllable's nucleus - and typing the wrong vowel first means going back.
+
+In Telex, the tone is typed after the word (aa, ow, uw for the quality marks; s, f, r, x, j for the tones), so the input method has to reorder what you typed. That reordering is why Vietnamese typing feels different from typing a Latin language with a few extra letters: you are not just adding characters, you are telling the IME to modify the ones already on screen.
+
+Most Vietnamese speakers type Telex on a phone keyboard without thinking about it, because the phone keyboard already reorders and predicts. On a laptop the same input method has no prediction, so the tone keys have to be typed deliberately - and that is where learners lose accuracy.
+
+If you are preparing for a Vietnamese-language job test, practise on a physical keyboard with the same IME you will be tested on. Phone fluency does not transfer, because the phone is doing part of the work.
 
 ## Vietnamese typing test FAQ
 
@@ -50,3 +60,7 @@ Yes. Timed practice with real diacritic-rich sentences builds the same measured 
 ### Tôi có cần phương pháp nhập đặc biệt để gõ tiếng Việt không?
 
 Không cần. Bài kiểm tra hiển thị câu tiếng Việt hoàn chỉnh; bạn gõ theo cách thường dùng — Telex, VNI hay bàn phím tích hợp đều được.
+
+### Why does Vietnamese typing feel different from Spanish or German?
+
+In Telex the tone and quality marks are typed after the word and the input method reorders them, so you are modifying characters already on screen rather than adding special letters as you go.

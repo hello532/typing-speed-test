@@ -4,6 +4,15 @@ Source: https://typing.rerivo.com/typing-race.html
 
 Free typing race against the clock. Sixty seconds, short punchy sentences, and a live WPM counter that climbs with every clean word. Race your own best time, hold a steady sprint, and finish with zero corrections. No sign up, straight in your browser.
 
+On this page
+
+typing race
+A competitive typing game for speed
+How to race your fastest typing sprint
+Race yourself and track your best WPM
+Racing yourself is the only comparison that holds
+Sprint speed and working speed are different numbers
+
 A typing race turns practice into a sprint: a fixed 60 second timer, a live WPM counter, and sentences short enough that you never lose momentum. This free typing race is the fastest way to find your top speed, because the clock removes every excuse to slow down. Every clean word pushes the counter higher, and the error report at the finish line shows exactly where the race was won or lost.
 
 This is a competitive typing game in its purest form: one minute, one text, and a score that stays on this device until you beat it. There is no lobby and no opponent to wait for, so the race starts the moment your first keystroke does. Compete against yourself daily, or share your WPM and race a friend on the same keyboard; every session is a new heat.
@@ -11,6 +20,14 @@ This is a competitive typing game in its purest form: one minute, one text, and 
 Treat the first sentence like a warm up, not a launch: start at 80 percent of your top speed and build into the race. Keep your eyes on the text two or three words ahead of your fingers, so your hands never stall mid-sentence. Keep your wrists light and your rhythm even, because most typing races are lost in the last ten seconds when fatigue makes fingers sloppy.
 
 Your best time is saved in your own browser, so every race is really against yourself. Try a best-of-three: race once to warm up, once at full speed, and once while aiming for zero corrections. The third race usually produces your best WPM, because chasing accuracy is what unlocks the top speed. Come back daily and the leaderboard of your own history does the rest.
+
+A race against another person adds a variable you cannot control: their speed. A race against your own last round adds only one: you. That is why the useful version of this page is a sequence of attempts at a fixed length, tracked over weeks.
+
+Run three 30-second attempts and record all three. The one that matters is the middle one - the fastest is a lucky draw, the slowest is often a fumble at the start.
+
+A 30-second sprint typically reads 8-12 WPM above a five-minute round for the same typist. Neither is wrong; they measure different things. Sprints train the top end you cannot otherwise reach, and the five-minute round tells you what you can actually sustain.
+
+Use races to raise the ceiling, and a five-minute test once a week to check that the ceiling is moving the average. If sprint speed rises while the five-minute score stays flat, you are training a skill you do not use.
 
 ## Typing race FAQ
 
@@ -37,3 +54,7 @@ This is a race against the clock and your own saved best score, which keeps it f
 ### How long is the typing race?
 
 Sixty seconds by default, the classic race length that balances burst speed with endurance. Short races train your launch, and the full minute trains you to hold that speed when your hands get tired.
+
+### Is racing good practice?
+
+For raising your top-end speed, yes. For measuring what you can sustain, no - a 30-second sprint reads 8-12 WPM above a five-minute round. Use races for the ceiling and a five-minute test for the working number.
