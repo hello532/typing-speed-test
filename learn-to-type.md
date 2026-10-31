@@ -27,6 +27,8 @@ When the week ends, move to structured typing practice and check the result pane
 
 Laptop keys have shorter travel, which makes light, quick presses easier and heavy presses slower. The home row is the same, but the keyboard is often narrower, so your hands sit closer to centre. If the built-in keyboard is uncomfortable, the mechanical keyboard for typing guide covers what actually matters — key travel and actuation force — without the marketing.
 
+For a step-by-step version of this page, the typing tutorial runs the same five stages with a checkpoint at each one.
+
 ## Learn to type FAQ
 
 ### Can I learn to type for free?

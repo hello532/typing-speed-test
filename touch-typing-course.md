@@ -48,6 +48,8 @@ The order is rows first, then modifiers, then transitions. Rows build the map; m
 
 One published finding is worth knowing: Feit, Weir and Oulasvirta (CHI 2016, doi.org/10.1145/2858036.2858233) found that consistent finger use and preparing the next keypress predict typing speed more than which specific finger presses which key. That is why the drills here emphasise not looking and rhythmic preparation over rigid finger doctrine.
 
+Lesson 1 assumes you can already find the home row; if you cannot, spend a week on keyboard practice first and come back.
+
 ## Frequently asked questions
 
 ### How long does it take to learn touch typing?

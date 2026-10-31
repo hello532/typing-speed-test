@@ -58,6 +58,10 @@ For the measured population behind these thresholds, see the benchmark data page
 
 Before applying, take a free typing test at the length your target role quotes, so you know which side of the threshold you are on.
 
+To convert a number you already have into the unit a posting uses, the speed calculator does WPM, CPM, KPH and percentiles in one place.
+
+Most screening tests run one to three minutes, so the three-minute test is the closest rehearsal for the real thing.
+
 ## Typing speed requirements FAQ
 
 ### What typing speed is required for most jobs?

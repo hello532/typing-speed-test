@@ -78,6 +78,10 @@ For structured browser-based practice with per-language text and per-key analysi
 
 If you want a number rather than a drill, the free typing test gives you one in sixty seconds, and the practice page is where you go afterwards to move it.
 
+If what you actually need is to learn where the keys are rather than to get faster, the keyboard practice page is the right starting point - it puts the key map first and the text second.
+
+If you are deciding whether to practise here or elsewhere, the six-site comparison states what each one is better at, including this one.
+
 ## Typing test FAQ
 
 ### What is typing practice?

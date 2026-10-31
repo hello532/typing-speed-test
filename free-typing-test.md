@@ -41,6 +41,8 @@ Because the test is free forever, you can run it every day. Pick any length from
 
 Free here means the full tool: timed tests from 15 seconds to 10 minutes, real sentences, quotes, numbers and word drills, live WPM and accuracy, an on-screen keyboard, a results graph and locally saved history. Twelve practice languages are available, and every theme is unlocked. It is the complete typing test experience without a hidden cost.
 
+The online typing test is the same engine with a different default length, if sixty seconds feels too short for you.
+
 ## Frequently asked questions
 
 ### Is this typing test really free?

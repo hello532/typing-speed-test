@@ -33,6 +33,8 @@ Every five-minute score on this page uses the standard five-character word, the 
 
 If you need to know how the speed holds over a real work session rather than a five-minute block, the 10 minute typing test stretches the same measurement to the point where fatigue, posture and pacing dominate the score.
 
+If five minutes feels long for a first run, start with the three-minute test and work up.
+
 ## Typing test FAQ
 
 ### Is a 5 minute typing test more accurate?

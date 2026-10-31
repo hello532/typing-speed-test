@@ -18,6 +18,8 @@ Lessons only work in the right order. Learning speed before home row is the most
 4. Numbers - separate skill; the number typing test covers it.
 5. Speed and endurance - only now use the 1 minute and 5 minute timed tests as training.
 
+The typing tutorial covers the same ground as a single ordered walkthrough, if you would rather follow one page than pick lessons.
+
 ## Typing lessons FAQ
 
 ### How long does it take to learn touch typing?

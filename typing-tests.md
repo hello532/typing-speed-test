@@ -21,6 +21,8 @@ The footer already links every page, but a flat list of 160 links tells a reader
 
 New to this? The free typing test gives you a sixty-second baseline before you choose a longer test; come back here once you know roughly where you stand.
 
+Choosing between sites rather than tests? The comparison of six free typing tests covers sign-up, ads, languages and certificates.
+
 ## Other test lengths
 
 ## Practice and lessons

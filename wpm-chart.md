@@ -40,6 +40,8 @@ The underlying study figures, the phone-versus-keyboard comparison and a CSV of 
 
 How the count is made - five characters per word, errors subtracted - is set out on the words per minute test page, which reports both raw and net.
 
+If you have characters and time rather than a test score, the typing speed calculator converts them into gross WPM, net WPM, CPM, KPH and a percentile.
+
 ## Frequently asked questions
 
 ### Is 60 WPM good?

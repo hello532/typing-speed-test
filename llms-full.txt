@@ -134,6 +134,7 @@ Rhythm breaks - long pauses cluster around punctuation and capitals, which is wh
 Best practice once you have a baseline: run 1 minute typing tests daily for speed, and a 5 minute round weekly to confirm the speed is sustainable.
 Every five-minute score on this page uses the standard five-character word, the same convention summarised by words per minute: a word is five characters, including spaces and punctuation. That is what makes a five minute result comparable with a one minute result taken on a different site - and what makes the endurance drop between the two formats measurable at all.
 If you need to know how the speed holds over a real work session rather than a five-minute block, the 10 minute typing test stretches the same measurement to the point where fatigue, posture and pacing dominate the score.
+If five minutes feels long for a first run, start with the three-minute test and work up.
 ## Typing test FAQ
 Yes. Longer tests average out short bursts of speed and moments of fatigue, so a 5 minute result is more stable and representative of your true typing speed than a 15 or 60 second test.
 40 WPM is average, 60+ WPM is good, and 80+ WPM is professional level. Maintaining high accuracy over 5 minutes matters more than peak speed.
@@ -259,6 +260,7 @@ If you searched for a free typing assessment test, what you probably need is a s
 You can screenshot the result screen, or open the printable typing certificate if a form asks for evidence of your speed.
 Because the test is free forever, you can run it every day. Pick any length from 15 seconds to 10 minutes and switch between sentences, quotes, numbers and words to train weak spots — the typing practice page lays out a four-week plan that uses each mode in turn.
 Free here means the full tool: timed tests from 15 seconds to 10 minutes, real sentences, quotes, numbers and word drills, live WPM and accuracy, an on-screen keyboard, a results graph and locally saved history. Twelve practice languages are available, and every theme is unlocked. It is the complete typing test experience without a hidden cost.
+The online typing test is the same engine with a different default length, if sixty seconds feels too short for you.
 ## Frequently asked questions
 Yes. There is no sign up, no account, no paywall and no ads inside the typing area. You can use it as often as you like.
 No account is needed. Your past results are saved only in your own browser using localStorage.
@@ -483,6 +485,8 @@ If you searched for online typing practice, the useful question is not which sit
 Ready-made exercise sets cover sentences, quotes, numbers and words, and every length from 15 seconds to 10 minutes is available, so you can practise in the gaps of a normal day. Start with the learn to type faster plan if you want a fixed routine, or jump straight into a round below.
 For structured browser-based practice with per-language text and per-key analysis, see online typing practice — a daily 10-minute plan by goal, no sign up. Want a plain timed score instead of a structured plan? Use the online typing test.
 If you want a number rather than a drill, the free typing test gives you one in sixty seconds, and the practice page is where you go afterwards to move it.
+If what you actually need is to learn where the keys are rather than to get faster, the keyboard practice page is the right starting point - it puts the key map first and the text second.
+If you are deciding whether to practise here or elsewhere, the six-site comparison states what each one is better at, including this one.
 ## Typing test FAQ
 Untimed, repeatable drills across sentences, quotes, numbers and words modes. Unlike a scored test, practice lets you retry weak keys freely and watch per-key accuracy improve before you take a timed test.
 Practice rounds use the same formula — correct characters divided by 5 and by minutes spent — plus accuracy and slowest-key stats. Scores save locally so you can compare rounds over time.
@@ -528,6 +532,7 @@ Lessons only work in the right order. Learning speed before home row is the most
 3. Capitals and punctuation - use the capital letter typing test and punctuation typing test.
 4. Numbers - separate skill; the number typing test covers it.
 5. Speed and endurance - only now use the 1 minute and 5 minute timed tests as training.
+The typing tutorial covers the same ground as a single ordered walkthrough, if you would rather follow one page than pick lessons.
 ## Typing lessons FAQ
 Most people reach a comfortable 40 to 60 WPM with 10 to 15 minutes of daily practice for three to four weeks. Reaching 80 WPM or more takes a few more months of regular use, but the daily time stays the same.
 Yes. Every lesson is free, with no sign up, no account and no paywall. You can repeat each lesson as many times as you like, and your results are saved only in your own browser.
@@ -954,6 +959,7 @@ Looking at your hands feels faster for about a week and caps you near 30 WPM for
 Day one: home row only, slow, eyes on the screen. Day two: add the top row with the correct fingers. Day three: bottom row and the shift key. Day four: short common words. Day five: full sentences at a comfortable pace. Day six: numbers and punctuation. Day seven: one timed round to see where you are — not to pass a target. Fifteen minutes a day is enough; the schedule matters more than the minutes.
 When the week ends, move to structured typing practice and check the result panel for the keys that are slowing you down.
 Laptop keys have shorter travel, which makes light, quick presses easier and heavy presses slower. The home row is the same, but the keyboard is often narrower, so your hands sit closer to centre. If the built-in keyboard is uncomfortable, the mechanical keyboard for typing guide covers what actually matters — key travel and actuation force — without the marketing.
+For a step-by-step version of this page, the typing tutorial runs the same five stages with a checkpoint at each one.
 ## Learn to type FAQ
 Yes. This course is completely free, with no sign up, no account, and no paywall. Every lesson is a timed practice you can repeat as often as you like, and your results stay in your own browser.
 That is exactly who this page is for. It starts at the home row, assumes nothing, and adds one row at a time. Being slow in the first week is not a setback; it is the lesson.
@@ -2599,6 +2605,8 @@ The bands above come from publicly advertised job requirements and published exa
 Where a figure has an official source - the federal 40 WPM standard, the SSC CHSL notice, the 225 WPM NCRA stenotype standard - this page names it. Where it is a market range, the page says so. If a recruiter quotes a number that contradicts your test, ask which unit and which scoring method before assuming you failed.
 For the measured population behind these thresholds, see the benchmark data page - it separates study measurements from advertised job ranges.
 Before applying, take a free typing test at the length your target role quotes, so you know which side of the threshold you are on.
+To convert a number you already have into the unit a posting uses, the speed calculator does WPM, CPM, KPH and percentiles in one place.
+Most screening tests run one to three minutes, so the three-minute test is the closest rehearsal for the real thing.
 ## Typing speed requirements FAQ
 40 to 55 WPM covers most office, clerical and administrative roles, usually with a 95% accuracy floor. Data entry is quoted differently: 8,000 to 12,000 keystrokes per hour, which is 27 to 40 WPM.
 About 26.7 WPM. 8,000 ÷ 60 = 133 keystrokes per minute, and 133 ÷ 5 = 26.7. Corrections count as key depressions, so backspacing lowers the real figure.
@@ -5388,6 +5396,7 @@ If you only have a one-minute score, subtract 5 before reading the table. It is 
 Each band has a different cause, which is why generic advice stops working after the first twenty points.
 The underlying study figures, the phone-versus-keyboard comparison and a CSV of this curve are on the benchmarks page.
 How the count is made - five characters per word, errors subtracted - is set out on the words per minute test page, which reports both raw and net.
+If you have characters and time rather than a test score, the typing speed calculator converts them into gross WPM, net WPM, CPM, KPH and a percentile.
 ## Frequently asked questions
 Yes — about the 66th percentile, faster than two thirds of measured typists, and the point where job adverts start calling typing fast. It is the entry band for legal secretary and transcription work.
 It is the standard floor: around the 28th percentile and the number most clerical, receptionist and county government postings quote. Aim for 44-45 so a bad sentence cannot drop you under it.
@@ -5529,6 +5538,7 @@ I am learning from scratch — home row, then beginner, then one-minute rounds. 
 I am stuck at a speed — the WPM chart names the cause for each band, from looking at the keyboard at 20 WPM to inconsistency above 70.
 The footer already links every page, but a flat list of 160 links tells a reader nothing about which one to open. This directory groups them by the question they answer, and it is generated from the same configuration that builds the pages, so it cannot drift out of date or link to something that no longer exists.
 New to this? The free typing test gives you a sixty-second baseline before you choose a longer test; come back here once you know roughly where you stand.
+Choosing between sites rather than tests? The comparison of six free typing tests covers sign-up, ads, languages and certificates.
 ## Other test lengths
 ## Practice and lessons
 ## Typing tests by language
@@ -6022,6 +6032,7 @@ For an adult starting from two-finger typing: home row secure in one to two week
 Children need longer on the motor side and shorter on the reading side. The published classroom bands put grade 5 at roughly 25-35 WPM, which matches the same lesson path at a slower pace.
 The order is rows first, then modifiers, then transitions. Rows build the map; modifiers build the reach; transitions build speed. Skipping to sentences before the map is automatic produces the hunt-and-peck pattern with extra steps.
 One published finding is worth knowing: Feit, Weir and Oulasvirta (CHI 2016, doi.org/10.1145/2858036.2858233) found that consistent finger use and preparing the next keypress predict typing speed more than which specific finger presses which key. That is why the drills here emphasise not looking and rhythmic preparation over rigid finger doctrine.
+Lesson 1 assumes you can already find the home row; if you cannot, spend a week on keyboard practice first and come back.
 ## Frequently asked questions
 Four to six weeks at 15 minutes a day gets an adult from two-finger typing to full sentences without looking. Reaching 60 WPM typically takes another two to four months of regular practice.
 Close to it. Research on typists (Feit et al., CHI 2016) found that consistent finger use and preparing the next keypress predict speed more than which specific finger presses which key - so consistency matters more than doctrine.
