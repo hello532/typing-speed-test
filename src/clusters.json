@@ -429,6 +429,34 @@
     {
       "file": "typing-speed-percentile.html",
       "title": "Typing Speed Percentile Calculator"
+    },
+    {
+      "file": "30-wpm-typing-test.html",
+      "title": "30 WPM Typing Test"
+    },
+    {
+      "file": "40-wpm-typing-test.html",
+      "title": "40 WPM Typing Test"
+    },
+    {
+      "file": "50-wpm-typing-test.html",
+      "title": "50 WPM Typing Test"
+    },
+    {
+      "file": "60-wpm-typing-test.html",
+      "title": "60 WPM Typing Test"
+    },
+    {
+      "file": "70-wpm-typing-test.html",
+      "title": "70 WPM Typing Test"
+    },
+    {
+      "file": "100-wpm-typing-test.html",
+      "title": "100 WPM Typing Test"
+    },
+    {
+      "file": "wpm-chart.html",
+      "title": "WPM Chart: Is Your Typing Speed Good?"
     }
   ],
   "game": [

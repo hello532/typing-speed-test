@@ -163,7 +163,7 @@ def build_seo(page):
         anchor = f' id="{sec["id"]}"' if sec.get("id") else ""
         parts.append(f'    <h2{anchor}>{sec["h2"]}</h2>')
         for p in sec["p"]:
-            if p.lstrip().startswith(("<table", "<ul", "<ol", "<div", "<figure")):
+            if p.lstrip().startswith(("<table", "<ul", "<ol", "<div", "<figure", "<script", "<form")):
                 parts.append(f"    {p}")
             else:
                 parts.append(f"    <p>{p}</p>")

@@ -43,6 +43,13 @@ Each line below is a claim this site makes, with the source that supports it. Qu
 - [Typing Test for Receptionist Jobs](https://typing.rerivo.com/typing-test-for-receptionist.html): Most receptionist postings ask for 40–50 WPM and 95–98% accuracy. The screening test is usually one to three minutes of ordinary sentences, sometimes with a pho
 - [Typing Test for Call Center Jobs](https://typing.rerivo.com/typing-test-for-call-center.html): Most call centre roles ask for 30–45 WPM with 95%+ accuracy, because notes are short and the caller keeps talking. Chat support asks for more, 40–55 WPM, since 
 - [Typing Speed Percentile](https://typing.rerivo.com/typing-speed-percentile.html): Using the CHI 2018 study (mean 51.56 WPM, SD 20.2): 40 WPM is about the 28th percentile, 60 WPM the 66th, 80 WPM the 92nd, 100 WPM the 99th. The approximation r
+- [30 WPM Typing Test](https://typing.rerivo.com/30-wpm-typing-test.html): 30 WPM is about the 14th percentile. It clears some entry clerical and dispatch floors but is below the 40 WPM that most office postings ask. If you are here, t
+- [40 WPM Typing Test](https://typing.rerivo.com/40-wpm-typing-test.html): 40 WPM = 200 CPM = 12,000 KPH, about the 28th percentile. It clears most clerical, receptionist and county government floors, and the US federal standard is exa
+- [50 WPM Typing Test](https://typing.rerivo.com/50-wpm-typing-test.html): 50 WPM = 250 CPM = 15,000 KPH, about the 47th percentile. It clears office, admin and receptionist bands. The plateau at 50 is usually a rhythm problem: people 
+- [60 WPM Typing Test](https://typing.rerivo.com/60-wpm-typing-test.html): 60 WPM = 300 CPM = 18,000 KPH, about the 66th percentile. It clears legal secretary (60-75), transcription entry (65) and medical admin bands. Getting there fro
+- [70 WPM Typing Test](https://typing.rerivo.com/70-wpm-typing-test.html): 70 WPM = 350 CPM = 21,000 KPH, about the 82nd percentile. It reaches the entry band for general transcription (65-80) and clears every clerical requirement. Gai
+- [100 WPM Typing Test](https://typing.rerivo.com/100-wpm-typing-test.html): 100 WPM = 500 CPM = 30,000 KPH, about the 99th percentile. No clerical job requires it. It matters for competitive typing, live captioning and heavy code work, 
+- [WPM Chart](https://typing.rerivo.com/wpm-chart.html): Under 26 WPM is the bottom decile. 40 is the most common job floor. 52 is the median measured typist. 78 starts the top 10%. 100 is roughly the top 1%. Most cle
 
 
 ## Text / Difficulty Variations

@@ -1,0 +1,73 @@
+{
+  "footer_group": "Skills and practice",
+  "llms_section": "Metrics & Scoring",
+  "cluster": "metric",
+  "pages": [
+    {
+      "file": "wpm-chart.html",
+      "title": "WPM Chart — Is Your Typing Speed Actually Good?",
+      "metaDesc": "Every band from 20 to 120 WPM with the verdict, the percentile and the jobs it opens. One table answers is-my-WPM-good without a blog post.",
+      "h1": "WPM Chart: Is Your Typing Speed Good?",
+      "heroP": "Find your score in the table, read the verdict. Percentiles come from the 168,960-person sample behind the CHI 2018 typing study (mean 51.56 WPM, SD 20.2), and the job bands come from advertised requirements.",
+      "tldr": "Under 26 WPM is the bottom decile. 40 is the most common job floor. 52 is the median measured typist. 78 starts the top 10%. 100 is roughly the top 1%. Most clerical jobs stop asking at 50.",
+      "dur": 60,
+      "mode": "sentences",
+      "crumbs": [
+        "Home",
+        "WPM Chart"
+      ],
+      "seo": [
+        {
+          "h2": "The chart",
+          "p": [
+            "<table><tr><th>WPM</th><th>Percentile</th><th>Verdict</th><th>What it opens</th></tr><tr><td>20</td><td>6th</td><td>Slow — hunting for keys</td><td>Nothing that screens; fine for personal use</td></tr><tr><td>26</td><td>10th</td><td>Below average</td><td>Entry data entry at 7,000-8,000 KPH if accuracy is high</td></tr><tr><td>30</td><td>14th</td><td>Below average but workable</td><td>Some dispatch and call-centre floors</td></tr><tr><td>40</td><td>28th</td><td>Good enough — the standard floor</td><td>Most clerical, receptionist and county government roles</td></tr><tr><td>50</td><td>47th</td><td>Average adult</td><td>Office, admin and customer service bands</td></tr><tr><td>60</td><td>66th</td><td>Fast</td><td>Legal secretary entry, transcription entry</td></tr><tr><td>70</td><td>82nd</td><td>Very fast</td><td>General transcription, medical admin</td></tr><tr><td>80</td><td>92nd</td><td>Top decile</td><td>Medical transcription upper band, competitive typing</td></tr><tr><td>100</td><td>99th</td><td>Top 1%</td><td>No job requires it; it removes typing as a bottleneck</td></tr><tr><td>120</td><td>99.9th</td><td>Exceptional</td><td>Competition level on short bursts</td></tr></table>",
+            "Percentiles are a normal approximation of the study distribution; it reproduces the paper's reported deciles (about 26 and 78 WPM) to within a point. The <a href=\"typing-speed-percentile.html\">percentile page</a> computes any score exactly."
+          ]
+        },
+        {
+          "h2": "How to read the verdict column",
+          "p": [
+            "The verdict is relative to the measured population, not to a job you want. A 45 WPM score is genuinely average and genuinely enough for a receptionist posting; both statements are true at once. Employers do not rank candidates by percentile, they compare against a fixed number in the advert.",
+            "So use the percentile to know where you stand and the job column to know what to aim at. If the posting says 50 and you are at 44, the gap is a fortnight of accuracy work, not a personality problem."
+          ]
+        },
+        {
+          "h2": "The score you should be quoting",
+          "p": [
+            "Five-minute net WPM with the accuracy beside it. A 15-second run reads 5-10 WPM higher, random word lists read lower than sentences, and gross reads higher than net. Any of those will flatter or penalise you relative to this chart.",
+            "If you only have a one-minute score, subtract 5 before reading the table. It is a rough correction, but it is closer than treating a burst as your real speed."
+          ]
+        },
+        {
+          "h2": "Moving up one band",
+          "p": [
+            "<ul><li><strong>20 to 30:</strong> stop looking at the keyboard. One covered round a day for two weeks. This is the largest single gain available to anyone.</li><li><strong>30 to 40:</strong> stop backspacing during tests. Most people at 30 lose 5-6 WPM to corrections.</li><li><strong>40 to 50:</strong> accuracy at speed. Thirty-second sprints at 90% of maximum, checked every round.</li><li><strong>50 to 60:</strong> read ahead. The bottleneck moves from the fingers to the eyes, and look-ahead practice fixes it.</li><li><strong>60 to 80:</strong> consistency. Type ten one-minute rounds and track your worst, not your best.</li></ul>",
+            "Each band has a different cause, which is why generic advice stops working after the first twenty points."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "Is 60 WPM good?",
+          "a": "Yes — about the 66th percentile, faster than two thirds of measured typists, and the point where job adverts start calling typing fast. It is the entry band for legal secretary and transcription work."
+        },
+        {
+          "q": "Is 40 WPM good?",
+          "a": "It is the standard floor: around the 28th percentile and the number most clerical, receptionist and county government postings quote. Aim for 44-45 so a bad sentence cannot drop you under it."
+        },
+        {
+          "q": "What is the average typing speed?",
+          "a": "51.56 WPM from the CHI 2018 study of 168,960 volunteers, with a standard deviation of 20.2. Older sources quoting 40 WPM describe office-worker samples instead."
+        },
+        {
+          "q": "Is 100 WPM rare?",
+          "a": "Yes, about the 99th percentile. No standard clerical job requires it; it matters for competitive typing, live captioning and heavy code work."
+        },
+        {
+          "q": "Why does my WPM change between tests?",
+          "a": "Test length, text type and scoring method all move the number by 5-10 WPM. A five-minute net score on sentences is the figure this chart refers to; a 15-second gross score is not comparable."
+        }
+      ]
+    }
+  ]
+}

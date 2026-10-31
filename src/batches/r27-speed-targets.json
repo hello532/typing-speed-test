@@ -1,0 +1,400 @@
+{
+  "footer_group": "Next: pick your test length",
+  "llms_section": "Metrics & Scoring",
+  "cluster": "metric",
+  "pages": [
+    {
+      "file": "30-wpm-typing-test.html",
+      "title": "30 WPM Typing Test — The Beginner Floor, Explained",
+      "metaDesc": "30 WPM is the floor most clerical jobs quote and about the 14th percentile. Test it, see what it unlocks, and follow an accuracy-first plan to get past it.",
+      "h1": "30 WPM Typing Test",
+      "heroP": "Thirty words per minute is <strong>150 characters a minute, or 9,000 keystrokes an hour</strong>. It is the floor most clerical and dispatch postings quote, and roughly the 14th percentile of measured typists — close enough to reach in weeks, not months.",
+      "tldr": "30 WPM is about the 14th percentile. It clears some entry clerical and dispatch floors but is below the 40 WPM that most office postings ask. If you are here, the fastest gain is accuracy: most people at 30 WPM lose more time to corrections than to keystrokes.",
+      "dur": 60,
+      "mode": "sentences",
+      "crumbs": [
+        "Home",
+        "30 WPM Typing Test"
+      ],
+      "seo": [
+        {
+          "h2": "What 30 WPM is, in every unit",
+          "p": [
+            "30 WPM is 150 characters per minute, 9,000 keystrokes per hour (KPH), and 9,000 key depressions per hour if you make no corrections. It is 0.5 words per second.",
+            "For context: 30 WPM is faster than roughly 86% of people are slower than — that is, about the 14th percentile of the 168,960-person sample behind the CHI 2018 typing study, whose mean was 51.56 WPM."
+          ]
+        },
+        {
+          "h2": "What it clears, and what it does not",
+          "p": [
+            "<table><tr><th>Requirement</th><th>At 30 WPM</th></tr><tr><td>Some dispatch and call-centre floors (30-35 WPM)</td><td>Clears</td></tr><tr><td>County clerk postings at 35-40 net WPM</td><td>Short by 5-10</td></tr><tr><td>US federal clerical standard (40 WPM)</td><td>Short by 10</td></tr><tr><td>Data entry at 8,000 KPH (26.7 WPM)</td><td>Clears on speed, accuracy decides</td></tr><tr><td>Receptionist at 40-50 WPM</td><td>Short</td></tr></table>",
+            "So 30 WPM is a starting point rather than a qualification for most office work. The gap to 40 is the single most valuable 10 WPM you will ever add, because it moves you across the most common screening line."
+          ]
+        },
+        {
+          "h2": "Why people get stuck at 30",
+          "p": [
+            "Almost nobody is stuck at 30 because their fingers are slow. They are stuck because they look at the keyboard, which forces a look-down-look-up cycle on every word, and because they correct with the backspace key instead of slowing down.",
+            "The two fixes, in order: cover your hands for one round a day so the looking habit breaks, then set a rule that you do not backspace during a test round. Your raw score will climb by 4-6 WPM within two weeks of holding both rules, before you have practised any speed work at all."
+          ]
+        },
+        {
+          "h2": "A 14-day plan to leave 30 behind",
+          "p": [
+            "Days 1-7: three one-minute rounds a day, hands covered for one of them, no backspace. Record accuracy only. Days 8-14: switch to two-minute rounds, still no backspace, and add one Numbers round because digits are where beginners lose the most.",
+            "At the end, take one five-minute test and record net WPM. If you are above 35, continue with the <a href=\"40-wpm-typing-test.html\">40 WPM plan</a>. If you are still at 30, the constraint is the looking habit, not effort — keep the covered round daily for another two weeks."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "Is 30 WPM good?",
+          "a": "It is about the 14th percentile, so it is below average but far from hopeless. It clears a few dispatch and data-entry floors; most office postings ask for 40 WPM or more."
+        },
+        {
+          "q": "How long does it take to go from 30 to 40 WPM?",
+          "a": "Usually two to six weeks of daily ten-minute practice, mostly by fixing the look-at-keyboard habit and cutting corrections. Progress is faster at this level than at 60 WPM."
+        },
+        {
+          "q": "How many keystrokes per hour is 30 WPM?",
+          "a": "9,000 KPH. Thirty words per minute is 150 characters per minute, and 150 × 60 = 9,000."
+        },
+        {
+          "q": "Should I focus on speed or accuracy at 30 WPM?",
+          "a": "Accuracy. At this level most lost time is corrections, so holding 97% accuracy while typing steadily raises the score faster than a deliberate speed push."
+        },
+        {
+          "q": "Can I reach 30 WPM with two fingers?",
+          "a": "Yes, and that is the trap. Two-finger typing plateaus around 35-40 WPM. Learning the home row costs two uncomfortable weeks and removes that ceiling."
+        }
+      ]
+    },
+    {
+      "file": "40-wpm-typing-test.html",
+      "title": "40 WPM Typing Test — The Standard Employers Ask For",
+      "metaDesc": "40 WPM is the line most clerical, receptionist and government jobs draw, and about the 28th percentile. Test it, then use the four-week plan that clears it.",
+      "h1": "40 WPM Typing Test",
+      "heroP": "Forty words per minute is the number that appears in more job postings than any other: <strong>40 WPM, five minutes, few errors</strong>. It is roughly the 28th percentile — the threshold that separates 'can type' from 'can be employed to type'.",
+      "tldr": "40 WPM = 200 CPM = 12,000 KPH, about the 28th percentile. It clears most clerical, receptionist and county government floors, and the US federal standard is exactly this with a three-error limit over five minutes.",
+      "dur": 300,
+      "mode": "sentences",
+      "crumbs": [
+        "Home",
+        "40 WPM Typing Test"
+      ],
+      "seo": [
+        {
+          "h2": "The number behind the number",
+          "p": [
+            "40 WPM is 200 characters per minute, 12,000 keystrokes per hour, and 200 words over a five-minute test. On a standard error rule of one error per ten words, you are allowed about twenty errors across the five minutes — which sounds generous until you watch your score after a bad paragraph.",
+            "The US federal clerical standard is published as 40 WPM over five minutes with no more than three errors, which is far stricter: 98.5% accuracy. Most private employers quote the speed and leave the accuracy floor at 95%."
+          ]
+        },
+        {
+          "h2": "Who actually asks for it",
+          "p": [
+            "<table><tr><th>Role</th><th>Stated requirement</th><th>At 40 WPM</th></tr><tr><td>Receptionist</td><td>40-50 net WPM</td><td>Bottom of the band</td></tr><tr><td>General office / admin</td><td>40-55 WPM</td><td>Bottom of the band</td></tr><tr><td>County clerk-typist</td><td>35-45 net WPM</td><td>Comfortable</td></tr><tr><td>US federal clerk</td><td>40 WPM, ≤3 errors</td><td>Exactly at the line</td></tr><tr><td>Data entry clerk</td><td>45-65 WPM or 13,500+ KPH</td><td>Short</td></tr></table>",
+            "Being exactly at the line is risky on a five-minute test, because one bad sentence can drop you under it. Aim for 44-45 before you apply, which gives you the margin that 40 alone does not."
+          ]
+        },
+        {
+          "h2": "The four weeks that actually work",
+          "p": [
+            "Week 1 — measure and stop the bleeding. Three five-minute rounds, no backspace rule, accuracy recorded. Most candidates at 40 WPM are correcting 8-12 times a minute; removing that habit alone buys 3-5 WPM.",
+            "Week 2 — cover the keyboard. One round a day with hands covered. This is uncomfortable for three days and then stops being an issue, and it is the difference between a ceiling at 45 and no ceiling.",
+            "Week 3 — length and mode. Five-minute sentence rounds three times a week, one numbers round a week. Add capitals and punctuation deliberately: real tests include them and untrained typists drop them under time pressure.",
+            "Week 4 — simulate. Full-length, time of day matching your interview, unfamiliar keyboard. Then test once and use that number on applications."
+          ]
+        },
+        {
+          "h2": "What to do if you are already at 55",
+          "p": [
+            "Stop training for 40 and move to the <a href=\"60-wpm-typing-test.html\">60 WPM plan</a>; the skill work is the same but the drills change. At 55 you are already above the requirement for almost every clerical role, so further gains are for transcription, legal and medical work rather than for clearing a gate."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "Is 40 WPM good enough for a job?",
+          "a": "For most clerical, receptionist and county government roles, yes — 40 WPM is the figure those postings quote. Aim for 44-45 so a bad sentence on a five-minute test cannot drop you below the line."
+        },
+        {
+          "q": "What percentile is 40 WPM?",
+          "a": "About the 28th percentile of the CHI 2018 sample (mean 51.56 WPM, standard deviation 20.2). Roughly seven in ten measured typists are faster."
+        },
+        {
+          "q": "How many keystrokes per hour is 40 WPM?",
+          "a": "12,000 KPH. Forty words per minute is 200 characters per minute, and 200 × 60 = 12,000."
+        },
+        {
+          "q": "How long is the federal 40 WPM test?",
+          "a": "Five minutes, with no more than three errors in most published announcements. That is 98.5% accuracy, stricter than the 95% floor private employers usually apply."
+        },
+        {
+          "q": "How fast can I go from 30 to 40 WPM?",
+          "a": "Two to six weeks of daily ten-minute practice for most people, mostly from removing the look-at-keyboard habit and reducing corrections rather than from raw speed drills."
+        }
+      ]
+    },
+    {
+      "file": "50-wpm-typing-test.html",
+      "title": "50 WPM Typing Test — Beating the Average",
+      "metaDesc": "50 WPM is roughly the median adult score and clears most office requirements. Test it, see the 47th percentile, and use the plateau drills that get you to 60.",
+      "h1": "50 WPM Typing Test",
+      "heroP": "Fifty words per minute is <strong>the median</strong>: half of measured typists are faster, half slower. It clears almost every office requirement and it is where most people plateau — which is why the useful work here is about breaking a ceiling, not clearing a gate.",
+      "tldr": "50 WPM = 250 CPM = 15,000 KPH, about the 47th percentile. It clears office, admin and receptionist bands. The plateau at 50 is usually a rhythm problem: people type word by word instead of reading ahead.",
+      "dur": 60,
+      "mode": "sentences",
+      "crumbs": [
+        "Home",
+        "50 WPM Typing Test"
+      ],
+      "seo": [
+        {
+          "h2": "Where 50 sits",
+          "p": [
+            "Fifty words per minute is 250 characters per minute, 15,000 keystrokes per hour, and about the 47th percentile of the 168,960-person CHI 2018 sample. It is the middle of the distribution, not a fast score — but it is above the 40 WPM line that most clerical postings quote, which is what matters for employment.",
+            "It is also the exact point where most self-taught typists stop improving. The reason is not finger speed: it is that they read one word at a time, so their eyes and hands take turns instead of working together."
+          ]
+        },
+        {
+          "h2": "Why the plateau happens",
+          "p": [
+            "At 50 WPM you are typing roughly four characters per second. That is fast enough that the read-type-read cycle becomes the bottleneck rather than the keystrokes themselves. Fast typists read one to three words ahead and let the hands work on a buffer; plateaued typists read the word they are about to type.",
+            "The second cause is uniform speed. Typing every word at the same pace means slowing down for easy words and losing time on hard ones. Skilled typists accelerate through familiar sequences and slow slightly on unfamiliar ones, which averages out higher."
+          ]
+        },
+        {
+          "h2": "The drills that break 50",
+          "p": [
+            "<ul><li><strong>Look-ahead drill:</strong> before you start, read the first line aloud in your head. Then type it without re-reading. Do this for five rounds; it feels wrong for three of them.</li><li><strong>Burst drill:</strong> 15-second rounds, maximum speed, twice a day. This trains the top end you cannot reach in a one-minute test.</li><li><strong>Bigram drill:</strong> the twenty most common letter pairs in English (th, he, in, er, an, re, on, at, en, nd...). Practising transitions rather than words is what moves you from 50 to 65.</li><li><strong>Accuracy floor:</strong> never let a session end below 96%. Speed built on errors does not survive a five-minute test.</li></ul>"
+          ]
+        },
+        {
+          "h2": "What 50 unlocks, and what it does not",
+          "p": [
+            "It clears general office, admin, receptionist, county clerk and most customer-service requirements. It does not clear data entry quoted at 13,500+ KPH (45 WPM is 13,500, so you are at the entry edge), legal secretary at 60-75, or medical transcription at 65-80.",
+            "If your goal is a specific posting, read the number in the posting and train to that plus five. If your goal is general employability, 50 is enough and the next ten points are optional."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "Is 50 WPM good?",
+          "a": "It is about the 47th percentile — essentially the median adult score — and it clears almost every office, admin and receptionist requirement. It is a solid, employable speed rather than a fast one."
+        },
+        {
+          "q": "How do I get from 50 to 60 WPM?",
+          "a": "Read ahead by one to three words, drill 15-second bursts for top-end speed, and practise common letter pairs rather than whole words. Most people need four to eight weeks of short daily sessions."
+        },
+        {
+          "q": "How many keystrokes per hour is 50 WPM?",
+          "a": "15,000 KPH. Fifty words per minute is 250 characters per minute, and 250 × 60 = 15,000."
+        },
+        {
+          "q": "Why am I stuck at 50 WPM?",
+          "a": "Almost always because you read one word at a time, so your eyes and hands take turns. Look-ahead practice and bigram drills address that directly, where more of the same typing does not."
+        },
+        {
+          "q": "Is 50 WPM enough for data entry?",
+          "a": "At the entry edge. 50 WPM is 15,000 KPH, above the 8,000-12,000 KPH most postings quote, but below the 13,500-19,500 band used for senior data-entry roles."
+        }
+      ]
+    },
+    {
+      "file": "60-wpm-typing-test.html",
+      "title": "60 WPM Typing Test — The 'Fast Typist' Line",
+      "metaDesc": "60 WPM is where employers start calling you fast: the 66th percentile and the floor for legal and transcription work. Test it, train the last stretch.",
+      "h1": "60 WPM Typing Test",
+      "heroP": "Sixty words per minute is <strong>the 66th percentile</strong> and the point where job descriptions stop saying 'typing required' and start saying 'fast, accurate typing'. It is also the floor for legal, medical and transcription roles.",
+      "tldr": "60 WPM = 300 CPM = 18,000 KPH, about the 66th percentile. It clears legal secretary (60-75), transcription entry (65) and medical admin bands. Getting there from 50 is mostly rhythm and accuracy work, not raw speed.",
+      "dur": 60,
+      "mode": "sentences",
+      "crumbs": [
+        "Home",
+        "60 WPM Typing Test"
+      ],
+      "seo": [
+        {
+          "h2": "What 60 WPM represents",
+          "p": [
+            "Sixty words per minute is 300 characters per minute, five characters per second, 18,000 keystrokes per hour, and about the 66th percentile of measured typists. Two thirds of people are slower; one third are faster.",
+            "In employment terms it is a threshold: clerical adverts quote 40-50, whereas legal, medical and transcription adverts start at 60 and go up. Crossing 60 changes which jobs are open to you, which is why it is worth more effort than crossing 50."
+          ]
+        },
+        {
+          "h2": "The accuracy trade at this speed",
+          "p": [
+            "At 60 WPM a 2% error rate means about one error every 8 seconds — roughly seven or eight errors in a five-minute test. On a net-scored test that costs you 5-6 WPM, dropping you back to the mid-50s. That is the arithmetic that keeps people at 55.",
+            "So the last stretch is not 'type faster'. It is 'hold 98% while typing at 60', which is a different drill: shorter rounds, stricter error budget, and stopping a round the moment accuracy falls below the floor rather than pushing to the timer."
+          ]
+        },
+        {
+          "h2": "Drills for the 50-to-60 stretch",
+          "p": [
+            "<ul><li><strong>30-second accuracy sprints:</strong> type at 90% of maximum for 30 seconds, stop, check errors. Repeat five times. This builds the accuracy-at-speed habit that longer rounds cannot.</li><li><strong>Punctuation and capitals:</strong> most people lose 3-5 WPM here. Run rounds with quotes and sentence case deliberately until the Shift press stops breaking rhythm.</li><li><strong>Numbers once a week:</strong> the number row is a separate motor skill and it is where a 60 WPM typist becomes a 52 WPM typist on real work.</li><li><strong>One long round per week:</strong> ten minutes, to confirm the speed survives fatigue.</li></ul>"
+          ]
+        },
+        {
+          "h2": "Where 60 is still not enough",
+          "p": [
+            "Medical transcription commonly asks 65-80 WPM with 98-99% accuracy, and it is measured over audio, which is harder than copying visible text. Court reporting is 225 WPM on a stenotype and is a different skill entirely.",
+            "For legal secretary work, 60-75 WPM is the advertised band, so 60 is the entry edge — aim for 65 before applying to a firm that tests."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "Is 60 WPM fast?",
+          "a": "It is about the 66th percentile and the point where job adverts start calling typing 'fast'. Top 10% is 78 WPM and above, so 60 is comfortably above average but not exceptional."
+        },
+        {
+          "q": "What jobs require 60 WPM?",
+          "a": "Legal secretary roles (60-75), transcription entry points (65+), medical admin and word-processing operator titles. Most general office roles stop at 50."
+        },
+        {
+          "q": "How many keystrokes per hour is 60 WPM?",
+          "a": "18,000 KPH. Sixty words per minute is 300 characters per minute, and 300 × 60 = 18,000."
+        },
+        {
+          "q": "How long does it take to go from 50 to 60 WPM?",
+          "a": "Four to eight weeks of short daily sessions for most people, provided the practice targets accuracy at speed rather than raw output."
+        },
+        {
+          "q": "Does 60 WPM include errors?",
+          "a": "Net scores subtract them. A 60 WPM gross score at 94% accuracy nets about 56, which is why the accuracy floor matters as much as the speed target."
+        }
+      ]
+    },
+    {
+      "file": "70-wpm-typing-test.html",
+      "title": "70 WPM Typing Test — Top 20% and Transcription Entry",
+      "metaDesc": "70 WPM is the 82nd percentile and the entry band for transcription work. Test it, see what it unlocks, and learn why rhythm beats force at this level.",
+      "h1": "70 WPM Typing Test",
+      "heroP": "Seventy words per minute is <strong>the 82nd percentile</strong> — faster than four out of five measured typists, and the entry band for general transcription. At this level the limiting factor stops being your fingers and becomes your rhythm.",
+      "tldr": "70 WPM = 350 CPM = 21,000 KPH, about the 82nd percentile. It reaches the entry band for general transcription (65-80) and clears every clerical requirement. Gains from here come from accuracy and consistency, not force.",
+      "dur": 120,
+      "mode": "quotes",
+      "crumbs": [
+        "Home",
+        "70 WPM Typing Test"
+      ],
+      "seo": [
+        {
+          "h2": "Where 70 WPM sits",
+          "p": [
+            "Seventy words per minute is 350 characters per minute, 21,000 keystrokes per hour, and roughly the 82nd percentile of the CHI 2018 sample. It is faster than the top-quintile boundary and still 8 WPM short of the top decile at 78.",
+            "That last stretch is the hardest in typing: the 70-to-80 range typically takes months rather than weeks, because the easy inefficiencies are already gone."
+          ]
+        },
+        {
+          "h2": "What changes at this level",
+          "p": [
+            "Below 60 WPM most gains come from removing bad habits — looking down, backspacing, two-finger reaches. Above 70 there are no bad habits left to remove; the work is consistency. A 70 WPM typist's speed varies by 15-20% between rounds, and the variance itself is what holds the average down.",
+            "So the metric to watch changes from peak WPM to the spread between your best and worst round. Narrowing that spread raises the average faster than trying to sprint."
+          ]
+        },
+        {
+          "h2": "Drills that move the average, not the peak",
+          "p": [
+            "<ul><li><strong>Ten consecutive one-minute rounds</strong>, once a week. Record all ten. The number that matters is the lowest, not the highest.</li><li><strong>Hard-text rounds:</strong> quotes with punctuation, code, or pangrams. Speed on easy sentences is not transferable; speed on awkward text is.</li><li><strong>Audio transcription practice:</strong> transcribe two minutes of speech and time it. Spoken English runs at 130-160 WPM, so 70 WPM typing leaves you well behind real-time — which is why transcriptionists use foot pedals and text expanders.</li><li><strong>Text expansion:</strong> learn five short forms for phrases you type constantly. At this level, tooling beats training.</li></ul>"
+          ]
+        },
+        {
+          "h2": "Transcription expectations versus typing tests",
+          "p": [
+            "Transcription is advertised at 65-80 WPM, but the measurement is over audio with playback control, not over visible text. The skill gap is short-term memory: you hear a phrase, hold it, and type it, which is harder than copying.",
+            "If transcription is the goal, test yourself on audio rather than on this page. If it is not, 70 WPM already clears every clerical requirement and further speed is a hobby."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "Is 70 WPM fast?",
+          "a": "Yes — about the 82nd percentile, faster than four in five measured typists. It is the entry band for general transcription and well above every clerical requirement."
+        },
+        {
+          "q": "How many keystrokes per hour is 70 WPM?",
+          "a": "21,000 KPH. Seventy words per minute is 350 characters per minute, and 350 × 60 = 21,000."
+        },
+        {
+          "q": "How long does it take to get from 70 to 80 WPM?",
+          "a": "Usually months, not weeks. The easy inefficiencies are gone by 70; remaining gains come from consistency, hard-text practice and tooling such as text expansion."
+        },
+        {
+          "q": "Is 70 WPM enough for transcription?",
+          "a": "It is the entry band for general transcription, which advertises 65-80 WPM. Medical and legal transcription often expect the upper end plus domain vocabulary."
+        },
+        {
+          "q": "Why does my score swing 10 WPM between rounds?",
+          "a": "Variance is normal and grows with speed. Track your lowest of ten rounds rather than your best; narrowing the spread is what raises a 70 WPM average toward 80."
+        }
+      ]
+    },
+    {
+      "file": "100-wpm-typing-test.html",
+      "title": "100 WPM Typing Test — What the Top 1% Actually Do",
+      "metaDesc": "100 WPM is roughly the 99th percentile. What separates it from 70, why most people never get there, and whether it is worth the months it takes.",
+      "h1": "100 WPM Typing Test",
+      "heroP": "One hundred words per minute is <strong>roughly the 99th percentile</strong> of measured typists. It is not a faster version of 70 WPM — the technique is different, the practice is different, and for most jobs it is not required at all.",
+      "tldr": "100 WPM = 500 CPM = 30,000 KPH, about the 99th percentile. No clerical job requires it. It matters for competitive typing, live captioning and heavy code work, where the bottleneck otherwise becomes the keyboard.",
+      "dur": 60,
+      "mode": "sentences",
+      "crumbs": [
+        "Home",
+        "100 WPM Typing Test"
+      ],
+      "seo": [
+        {
+          "h2": "What 100 WPM means numerically",
+          "p": [
+            "One hundred words per minute is 500 characters per minute, about 8.3 characters per second, and 30,000 keystrokes per hour. In the CHI 2018 distribution with mean 51.56 and standard deviation 20.2, it sits near the 99th percentile — roughly one typist in a hundred.",
+            "For comparison: the fastest decile starts around 78 WPM, so 100 is not the edge of the distribution but well inside its tail. World-record competition typing exceeds 200 WPM on short bursts of known text, which is a different activity again."
+          ]
+        },
+        {
+          "h2": "The technique difference",
+          "p": [
+            "At 70 WPM you are typing words. At 100 WPM you are typing letter sequences with almost no conscious word recognition — the buffer is two to four words deep and the hands run ahead of attention. Typists at this level typically cannot tell you what they just typed.",
+            "That is why deliberate practice at 100 WPM looks strange: it is mostly very short maximum-speed bursts on familiar text, plus accuracy work on unfamiliar text, plus keyboard and layout optimisation. Long slow practice rounds stop helping."
+          ]
+        },
+        {
+          "h2": "Is it worth it?",
+          "p": [
+            "For employment, no. The highest clerical requirement you will meet is 75-80 WPM (legal, medical transcription) and court reporting uses a stenotype, not a keyboard. Above 80, extra speed adds no job options.",
+            "For work where you think in text — programming, live captioning, competitive typing, writing to a deadline — it removes the keyboard as a bottleneck entirely. That is a real but narrow benefit, and it costs months of practice to reach."
+          ]
+        },
+        {
+          "h2": "If you decide to chase it",
+          "p": [
+            "<ul><li><strong>Keyboard:</strong> a mechanical board with short-travel switches is measurably faster for most people than a laptop chiclet keyboard. Try before buying.</li><li><strong>Layout:</strong> some typists gain 5-10% from Colemak or Dvorak after a month of pain. Most do not; measure before committing.</li><li><strong>Bursts:</strong> 15-second maximum rounds, ten per session, three sessions a week. Long rounds teach endurance you already have.</li><li><strong>Accuracy gate:</strong> never accept below 97%. A 100 WPM score at 94% nets 94 and fails any real test.</li></ul>"
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "Is 100 WPM rare?",
+          "a": "Yes — roughly the 99th percentile of measured typists. About one in a hundred people in the CHI 2018 sample typed at or above that speed."
+        },
+        {
+          "q": "How many keystrokes per hour is 100 WPM?",
+          "a": "30,000 KPH. One hundred words per minute is 500 characters per minute, and 500 × 60 = 30,000."
+        },
+        {
+          "q": "Do any jobs require 100 WPM?",
+          "a": "No standard clerical role does. Legal and medical transcription top out around 80 WPM, and court reporting uses a stenotype at 225 WPM rather than a keyboard."
+        },
+        {
+          "q": "How long does it take to reach 100 WPM?",
+          "a": "Usually years from a standing start, and months from 80. The gains come from short maximum-speed bursts, hard-text accuracy work and keyboard optimisation rather than more of the same practice."
+        },
+        {
+          "q": "Is 100 WPM possible with two fingers?",
+          "a": "Effectively no. Two-finger typing plateaus around 35-40 WPM because each keystroke needs a visual target. Reaching 100 requires all ten fingers and no looking."
+        }
+      ]
+    }
+  ]
+}

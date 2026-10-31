@@ -4,6 +4,10 @@ Source: https://typing.rerivo.com/wpm-to-kph-converter.html
 
 Keystrokes per hour is characters per minute × 60. Because one word is counted as five characters, the shortcut is KPH = WPM × 300. The chart below covers every speed you are likely to be asked for.
 
+## Live converter
+
+Both directions work: type in either box. The conversion uses five characters per word and sixty minutes per hour, so KPH = WPM × 300 exactly. CPM = WPM × 5.
+
 ## The conversion formula
 
 One word is counted as five characters, the convention every typing test uses because it makes speeds comparable across languages and text styles. One minute of typing at W WPM is therefore 5W characters, and an hour is 60 × 5W keystrokes.
