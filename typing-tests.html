@@ -424,6 +424,14 @@ body.typing-active footer{opacity:.26;filter:saturate(.72);pointer-events:none;}
 .toc a{color:var(--soft);text-decoration:none;}
 .toc a:hover{color:var(--text);text-decoration:underline;}
 @media(max-width:560px){.toc ol{grid-template-columns:1fr;}}
+
+/* Round-59: client-side filter on the directory page. No request, no index change -
+   it only hides list items, so the crawlable HTML stays identical for every crawler. */
+.finder{max-width:620px;margin:0 0 18px;padding:14px 18px;border:1px solid var(--line);border-radius:12px;background:var(--panel2);}
+.finder label{display:block;font-size:.78rem;font-weight:700;letter-spacing:.6px;text-transform:uppercase;color:var(--soft);margin-bottom:8px;}
+.finder input{width:100%;min-height:44px;padding:8px 12px;border:1px solid var(--line);border-radius:10px;background:var(--panelhi);color:var(--text);font-size:1rem;}
+.finder input:focus{outline:2px solid var(--borderhi);outline-offset:1px;}
+.finder-out{margin:10px 0 0;font-size:.88rem;color:var(--soft);}
 </style>
 <script>try{var _t=localStorage.getItem("trTheme");if(_t&&_t!=="dark")document.documentElement.setAttribute("data-theme",_t);var _l=localStorage.getItem("trLang");if(_l&&_l!=="en"){document.documentElement.lang=_l;if(_l==="ar")document.documentElement.dir="rtl";}}catch(e){}</script>
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1401237223139327"
@@ -558,6 +566,9 @@ body.typing-active footer{opacity:.26;filter:saturate(.72);pointer-events:none;}
   </nav>
 
   <section class="seo">
+    <h2 id="find-the-test-you-need">Find the test you need</h2>
+    <form class="finder" action="#" onsubmit="return false" role="search"><label for="testFinder">Filter the directory</label><input id="testFinder" type="search" autocomplete="off" placeholder="Try: certificate, KPH, nurse, Korean, 5 minute, code"><p class="finder-out" id="finderOut" aria-live="polite">184 tests</p></form><script>(function(){var i=document.getElementById('testFinder'),o=document.getElementById('finderOut');if(!i||!o)return;var sec=document.querySelector('section.seo');if(!sec)return;var lists=[].slice.call(sec.querySelectorAll('ul'));function run(){var q=i.value.trim().toLowerCase(),shown=0;lists.forEach(function(ul){var n=0;[].slice.call(ul.children).forEach(function(li){var t=li.textContent.toLowerCase(),hit=!q||t.indexOf(q)>-1;li.hidden=!hit;if(hit)n++;});var h=ul.previousElementSibling;if(h&&h.tagName==='H2')h.hidden=(q&&n===0);ul.hidden=(q&&n===0);shown+=n;});o.textContent=q?(shown+' match'+(shown===1?'':'es')+' for "'+i.value.trim()+'"'):'184 tests';}i.addEventListener('input',run);run();})();</script>
+    <p>Type a word above to filter the list below - a job title, a language, a unit, a length, a format. The directory is generated from the site's own page configuration, so it always matches what exists.</p>
     <h2 id="how-to-use-this-directory">How to use this directory</h2>
     <p>Three questions decide which page you want. First: are you measuring or improving? A timed test on the <a href="/">home page</a> measures; a practice page with drills improves.</p>
     <p>Second: what length? Fifteen and thirty seconds measure a burst, one to three minutes matches most screening tests, and five to ten minutes measures the pace you can hold through a working session.</p>

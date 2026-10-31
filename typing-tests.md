@@ -4,6 +4,8 @@ Source: https://typing.rerivo.com/typing-tests.html
 
 Every test on the site in one directory: duration variants, languages, skill drills, exam and job pages, metrics and guides. Each link says what the page measures rather than repeating a keyword.
 
+Type a word above to filter the list below - a job title, a language, a unit, a length, a format. The directory is generated from the site's own page configuration, so it always matches what exists.
+
 Three questions decide which page you want. First: are you measuring or improving? A timed test on the home page measures; a practice page with drills improves.
 
 Second: what length? Fifteen and thirty seconds measure a burst, one to three minutes matches most screening tests, and five to ten minutes measures the pace you can hold through a working session.

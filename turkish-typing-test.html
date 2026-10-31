@@ -439,6 +439,14 @@ body.typing-active footer{opacity:.26;filter:saturate(.72);pointer-events:none;}
 .toc a{color:var(--soft);text-decoration:none;}
 .toc a:hover{color:var(--text);text-decoration:underline;}
 @media(max-width:560px){.toc ol{grid-template-columns:1fr;}}
+
+/* Round-59: client-side filter on the directory page. No request, no index change -
+   it only hides list items, so the crawlable HTML stays identical for every crawler. */
+.finder{max-width:620px;margin:0 0 18px;padding:14px 18px;border:1px solid var(--line);border-radius:12px;background:var(--panel2);}
+.finder label{display:block;font-size:.78rem;font-weight:700;letter-spacing:.6px;text-transform:uppercase;color:var(--soft);margin-bottom:8px;}
+.finder input{width:100%;min-height:44px;padding:8px 12px;border:1px solid var(--line);border-radius:10px;background:var(--panelhi);color:var(--text);font-size:1rem;}
+.finder input:focus{outline:2px solid var(--borderhi);outline-offset:1px;}
+.finder-out{margin:10px 0 0;font-size:.88rem;color:var(--soft);}
 </style>
 <script>try{var _t=localStorage.getItem("trTheme");if(_t&&_t!=="dark")document.documentElement.setAttribute("data-theme",_t);var _l=localStorage.getItem("trLang");if(_l&&_l!=="en"){document.documentElement.lang=_l;if(_l==="ar")document.documentElement.dir="rtl";}}catch(e){}
 window.__trPageLang="tr";</script>
