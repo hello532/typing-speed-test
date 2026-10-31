@@ -567,6 +567,10 @@
     {
       "file": "privacy-policy.html",
       "title": "Privacy Policy"
+    },
+    {
+      "file": "typing-tests.html",
+      "title": "All Typing Tests"
     }
   ],
   "audience": [

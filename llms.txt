@@ -19,7 +19,8 @@ Each line below is a claim this site makes, with the source that supports it. Qu
 - [Typing Speed Test (home)](https://typing.rerivo.com/): Main 60-second WPM typing speed test with live WPM, accuracy, and error tracking.
 - [Online Typing Test](https://typing.rerivo.com/online-typing-test.html): Browser-based typing test, no download or signup required.
 - [Free Typing Test](https://typing.rerivo.com/free-typing-test.html): Completely free typing speed and accuracy test.
-- [Typing Practice](https://typing.rerivo.com/typing-practice.html): Open-ended practice mode with virtual keyboard and finger guide.
+- [Typing Practice](https://typing.rerivo.com/typing-practice.html)
+- [All Typing Tests (directory)](https://typing.rerivo.com/typing-tests.html): Generated directory of all 160 tests, grouped by length, language, skill, exam and topic.: Open-ended practice mode with virtual keyboard and finger guide.
 
 ## Timed Modes
 - [1 Minute Typing Test](https://typing.rerivo.com/1-minute-typing-test.html): Classic 60-second WPM test.

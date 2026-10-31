@@ -157,7 +157,25 @@ CLUSTER_LABELS = {
 }
 
 
-def build_seo(page):
+def build_catalog(clusters, labeled):
+    """R30：目录页正文 —— 从 clusters.json 生成，不手抄 160 个链接。
+
+    为什么生成而不是手写：页数每次扩张都会让手写目录过期，而目录页的价值
+    恰恰是「链接指向真实存在的全部页面」。生成保证它永远等于站点实际页数。
+    锚文本用各页 h1（已按查询词写过），不重复用 title，避免 160 条同样的尾巴。
+    """
+    parts = []
+    for name, items in clusters.items():
+        label = labeled.get(name, name.title())
+        parts.append(f'    <h2>{label}</h2>')
+        parts.append("    <ul>")
+        for it in items:
+            parts.append(f'      <li><a href="{it["file"]}">{it["title"]}</a></li>')
+        parts.append("    </ul>")
+    return parts
+
+
+def build_seo(page, clusters=None):
     parts = ['<section class="seo">']
     for sec in page["seo"]:
         anchor = f' id="{sec["id"]}"' if sec.get("id") else ""
@@ -170,6 +188,8 @@ def build_seo(page):
     # E-E-A-T：可见署名 + 方法说明入口（落在 {{SEO}} 槽内，骨架不变）
     # r22：可见「最后更新」= 该页最后一次真实内容提交日，与 sitemap lastmod、
     # JSON-LD dateModified 三处同源（同一个 git 日期），不是三处各写各的。
+    if page.get("autocatalog") and clusters:
+        parts.extend(build_catalog(clusters, CLUSTER_LABELS))
     parts.append("    " + AUTHOR_BOX.format(date=page.get("_modified", "")))
     parts.append("  </section>")
     return "\n".join(parts)
@@ -300,7 +320,7 @@ def render(page, cfg, tpl, css, engine, head_snippet, footer, result, variants, 
         "{{RELATED}}": build_related(page, clusters or {}),
         "{{HEADER}}": build_header(page), "{{CRUMBS}}": build_crumbs(page),
         "{{H1}}": page["h1"], "{{HERO_P}}": page["heroP"],
-        "{{SEO}}": build_seo(page), "{{FAQ}}": build_faq(page),
+        "{{SEO}}": build_seo(page, clusters), "{{FAQ}}": build_faq(page),
         "{{STIME}}": fmt_dur(page["dur"]),
         **build_chips(page),
     }

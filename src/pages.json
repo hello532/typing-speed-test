@@ -941,7 +941,8 @@
     {
      "h2": "Where to start: the tests people use most",
      "p": [
-      "Five pages do most of the work here. The <a href=\"1-minute-typing-test.html\">one minute typing test</a> is the classic 60-second benchmark, with a live countdown and an instant WPM score. The <a href=\"words-per-minute-test.html\">words per minute test</a> explains how WPM is scored while you measure it. Daily training lives on <a href=\"typing-practice.html\">online typing practice</a>, where the drills run from 15 seconds to 10 minutes. If you are choosing a site rather than a score, the <a href=\"best-typing-test-online.html\">best free typing tests online</a> compares six of them on languages, sign-up and practice. And a <a href=\"learn-to-type.html\">typing tutorial</a> that starts at the home row is the first stop for anyone who has never typed properly before."
+      "Five pages do most of the work here. The <a href=\"1-minute-typing-test.html\">one minute typing test</a> is the classic 60-second benchmark, with a live countdown and an instant WPM score. The <a href=\"words-per-minute-test.html\">words per minute test</a> explains how WPM is scored while you measure it. Daily training lives on <a href=\"typing-practice.html\">online typing practice</a>, where the drills run from 15 seconds to 10 minutes. If you are choosing a site rather than a score, the <a href=\"best-typing-test-online.html\">best free typing tests online</a> compares six of them on languages, sign-up and practice. And a <a href=\"learn-to-type.html\">typing tutorial</a> that starts at the home row is the first stop for anyone who has never typed properly before.",
+      "If you already have a score and want to know whether it is good, the <a href=\"wpm-chart.html\">WPM chart</a> gives the verdict and percentile for every band. If a job advert quotes keystrokes per hour, the <a href=\"wpm-to-kph-converter.html\">WPM to KPH converter</a> turns your score into the unit the employer is using, and the <a href=\"typing-speed-requirements.html\">typing speed requirements by job</a> page lists the thresholds role by role."
      ]
     },
     {
@@ -17238,6 +17239,98 @@
     "BreadcrumbList"
    ],
    "tldr": "Self-issued certificates show effort, not verification. Government, court and staffing-agency roles usually require a proctored or employer-administered test. Private employers commonly accept a screenshot of a dated result and re-test you themselves."
+  },
+  {
+   "file": "typing-tests.html",
+   "title": "All Typing Tests — Every Mode, Length and Language",
+   "metaDesc": "The full directory: 160 typing tests by length, language, skill, exam and topic, each with what it measures and who it is for. No account needed.",
+   "canonical": "https://typing.rerivo.com/typing-tests.html",
+   "dur": 60,
+   "mode": "sentences",
+   "variant": null,
+   "nav": [
+    {
+     "href": "1-minute-typing-test.html",
+     "text": "1 Minute Test"
+    },
+    {
+     "href": "words-per-minute-test.html",
+     "text": "WPM Test"
+    },
+    {
+     "href": "typing-practice.html",
+     "text": "Typing Practice"
+    }
+   ],
+   "crumbs": [
+    "Home",
+    "All Typing Tests"
+   ],
+   "h1": "All Typing Tests",
+   "heroP": "Every test on the site in one directory: duration variants, languages, skill drills, exam and job pages, metrics and guides. Each link says what the page measures rather than repeating a keyword.",
+   "autocatalog": true,
+   "seo": [
+    {
+     "h2": "How to use this directory",
+     "p": [
+      "Three questions decide which page you want. First: are you measuring or improving? A timed test on the <a href=\"/\">home page</a> measures; a practice page with drills improves.",
+      "Second: what length? Fifteen and thirty seconds measure a burst, one to three minutes matches most screening tests, and five to ten minutes measures the pace you can hold through a working session.",
+      "Third: what content? Sentences are the default, quotes add punctuation and capitals, numbers train the row that data entry actually uses, and code tests are for programmers. Languages switch the practice pool without changing the timer."
+     ]
+    },
+    {
+     "h2": "Choosing by goal",
+     "p": [
+      "<ul><li><strong>I have an interview or screening test</strong> — start with the five-minute test, then the role page for your job, which lists the threshold the employer is likely to use.</li><li><strong>I want a number to quote</strong> — a five-minute net score with accuracy is the reproducible one. The certificate page explains what a self-issued certificate does and does not prove.</li><li><strong>I am learning from scratch</strong> — home row, then beginner, then one-minute rounds. Ten minutes a day beats a weekly marathon.</li><li><strong>I am stuck at a speed</strong> — the WPM chart names the cause for each band, from looking at the keyboard at 20 WPM to inconsistency above 70.</li></ul>"
+     ]
+    },
+    {
+     "h2": "Why this page exists",
+     "p": [
+      "The footer already links every page, but a flat list of 160 links tells a reader nothing about which one to open. This directory groups them by the question they answer, and it is generated from the same configuration that builds the pages, so it cannot drift out of date or link to something that no longer exists."
+     ]
+    }
+   ],
+   "faqFirstOpen": true,
+   "faqH2": "Frequently asked questions",
+   "faq": [
+    {
+     "q": "How many typing tests are on this site?",
+     "a": "160 pages, covering nine timed lengths, twelve language pools, skill drills, exam and job pages, metrics explainers and guides. Every one is free and needs no account."
+    },
+    {
+     "q": "Which test should I take first?",
+     "a": "The five-minute sentence test on the home page. It is the length most screening tests use, and it produces the net score you can quote elsewhere. Use shorter rounds only for warm-ups."
+    },
+    {
+     "q": "Do I need an account?",
+     "a": "No. Results are stored in your own browser, there is no sign-up, and no score leaves your device. That is also why there is no public leaderboard."
+    },
+    {
+     "q": "Which test is best for a job application?",
+     "a": "The role page for that job, plus a five-minute test to get the number. Roles differ: reception is 40-50 WPM, data entry is quoted in keystrokes per hour, legal and transcription start at 60."
+    },
+    {
+     "q": "Are the tests the same engine?",
+     "a": "Yes. Every page runs the same typing engine with a different duration, text mode, language pool or layout, so scores are comparable across pages and over time."
+    }
+   ],
+   "webAppName": "All Typing Tests",
+   "webAppUrl": "https://typing.rerivo.com/typing-tests.html",
+   "bcItems": [
+    {
+     "name": "Home",
+     "item": "https://typing.rerivo.com/"
+    },
+    {
+     "name": "All Typing Tests",
+     "item": "https://typing.rerivo.com/typing-tests.html"
+    }
+   ],
+   "ldPretty": [
+    "FAQPage",
+    "BreadcrumbList"
+   ]
   }
  ]
 }
