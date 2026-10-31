@@ -4,28 +4,45 @@ Source: https://typing.rerivo.com/hindi-typing-test.html
 
 Test your Hindi typing speed with real Hindi sentences in Devanagari script. Measure your words per minute and accuracy instantly. Free, no sign up.
 
-A Hindi typing test measures how fast and accurately you type Devanagari script. Your result is shown in words per minute, where every 5 characters counts as one word. Typing full Hindi sentences — with matras, conjunct consonants and the क्ष, त्र, ज्ञ clusters — is the most realistic way to measure everyday Hindi typing speed.
+Hindi is written in Devanagari, where consonants carry an inherent 'a' vowel and other vowels appear as matras - marks placed before, after, above or below the consonant. A single written syllable can require two or three keystrokes, so your characters-per-minute is not the same as your syllable rate.
 
-Practise with real sentences rather than isolated letters, keep your fingers on the home row, and look at the screen instead of the keyboard. Hindi adds matras above and below the consonants, so slow down at first to learn those key positions; accuracy first, then speed.
+Add conjuncts (क्ष, त्र, ज्ञ) and the nasal marks (ं ँ) and you have a script where accuracy depends on sequence, not just key location. That is why Hindi typing tests feel different from English ones even at the same WPM.
 
-Devanagari is a syllabic script: most consonants carry an inherent अ vowel, and matras change that vowel. Typing real sentences trains the frequent conjuncts — क्ष, त्र, व्र, ज्ञ — and the matras ा ि ी ो ै that appear in almost every Hindi word.
+Indian typing exams usually specify a layout, and the three you will meet are Krutidev, Remington (often called the typewriter layout) and Mangal/InScript. They map Devanagari to the keyboard in completely different ways: Krutidev and Remington are legacy layouts built for typewriters and phototypesetting, while InScript follows the script's logical order.
 
-This Hindi typing test uses natural, everyday sentences, so you practise the real word patterns of Hindi — common endings like -ना, -कर and -है — together with the । full stop and the punctuation you meet in real Hindi writing. Timed Devanagari practice is also the format of most Indian typing exams.
+Layout | Where you meet it | Learning cost for a QWERTY typist
+Krutidev | Many state government exams, court work | High - keys do not match the script order
+Remington | Older exams, some typing institutes | High - typewriter-era mapping
+InScript / Mangal | Modern government and Unicode work | Moderate - follows the script logically
+
+Check the notice before you practise. Learning the wrong layout is worse than not practising, because the reflexes conflict.
+
+Hindi typing tests commonly ask 25-30 words per minute, with 30 WPM the figure used where English requires 35. Some posts quote key depressions per hour instead, and the mistake allowance is usually around 5%.
+
+Because the same passage can be scored as WPM or as key depressions, convert before comparing yourself to a friend's score: 30 WPM is 9,000 key depressions per hour under the five-character convention.
+
+Practise on the layout your exam uses, on a keyboard you do not own, with a passage that includes the danda (।) and the numerals. Then time yourself for the full ten minutes rather than in one-minute bursts: conjunct errors cluster late, when attention thins.
+
+If you are starting from English touch typing, expect two to four weeks before the Devanagari reflexes stop interfering with your Latin ones. Do not alternate layouts within a session; the interference is real and it slows both.
 
 ## Hindi typing test FAQ
 
-### Is this Hindi typing test free?
+### What typing speed is required for Hindi typing tests?
 
-Yes. The Hindi typing test is free with no sign up; your Devanagari practice history stays on your device.
+Commonly 25-30 words per minute, with 30 WPM where an English requirement would be 35. Some posts quote key depressions per hour instead, usually with a 5% error allowance.
 
-### Does the test use Devanagari script?
+### Which layout should I learn for Hindi typing?
 
-Yes. The practice sentences are real Hindi in Devanagari script, including matras, conjunct consonants and the । sentence-ending mark.
+Whichever your exam notice specifies - Krutidev, Remington or InScript/Mangal. They map Devanagari completely differently, and learning the wrong one creates conflicting reflexes.
 
-### Is this useful for Hindi typing exams?
+### Why is Hindi typing slower than English at the same skill level?
 
-Yes. Timed sentence practice in Devanagari is the format of most Indian government and court typing tests, so it builds the same speed and accuracy against a clock.
+Matras and conjuncts mean one written syllable can take two or three keystrokes, so characters per minute and syllables per minute diverge. Accuracy also depends on sequence rather than single key location.
 
-### How is WPM counted for Devanagari text?
+### Does the danda count as an error if I omit it?
 
-The standard 5-characters-per-word rule, adjusted for errors. Devanagari matras and conjuncts each count as typed characters, so steady, correct shaping matters more than raw pace.
+Yes. It is part of the passage, like a full stop in English, and an omitted character counts as an error on every mainstream test.
+
+### Can I practise Hindi typing on a normal keyboard?
+
+Yes, once the layout is installed in your operating system. The physical keyboard stays the same; only the mapping changes.

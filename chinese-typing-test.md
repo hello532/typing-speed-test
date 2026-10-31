@@ -4,28 +4,40 @@ Source: https://typing.rerivo.com/chinese-typing-test.html
 
 Test your Chinese typing speed with real Chinese sentences. Measure your words per minute and accuracy instantly. Free, no sign up.
 
-A Chinese typing test measures how fast and accurately you type Chinese text. Your result is shown in words per minute, where every 5 characters counts as one word, so every extra correct character raises your score. Typing complete Chinese sentences is the most realistic way to measure everyday Chinese typing speed.
+You do not type Chinese characters directly on a standard keyboard. You type a romanised or structural code - pinyin being the common case - and then choose a candidate from a list. Speed therefore depends on two skills: the keystrokes of the code, and how quickly you pick the right candidate.
 
-Practise with real sentences rather than isolated characters, keep your fingers relaxed over the home row, and watch the screen instead of the keyboard. Because each Chinese character carries far more meaning than a single Latin letter, accuracy matters more than raw key speed; slow down first and let speed follow.
+That is why a Chinese WPM figure is not comparable to an English one at face value. A pinyin typist producing 40 characters per minute is typing maybe 120-160 keystrokes, and the character count is what gets reported.
 
-Chinese is written without spaces between characters, so your fingers learn long sequences of keystrokes rather than short word patterns. Re-typing the same sentence a few times builds muscle memory for the most common characters — 的, 一, 是, 不, 了 — which make up a large share of everyday Chinese text.
+Candidate selection. Common words appear first; rare characters require scanning or extra keystrokes. Practising your own vocabulary beats practising random text.
+Phrase versus character input. Typing whole phrases (词) rather than single characters roughly halves the candidate selections, which is where most of the gain is.
+Homophones. Pinyin maps many characters to one syllable, so accuracy depends on choosing correctly rather than on hitting the right key. An input-method error is a wrong character, not a typo.
 
-This Chinese typing test uses natural, everyday sentences, so you practise the real rhythm of Chinese writing: clauses separated by 、 and 。, numbers in full form, and the punctuation patterns you meet in articles, chat and email. Switch between sentences, quotes and words modes above to vary your drills.
+Structural methods - Wubi (五笔), Cangjie (倉頡), Zhengma - encode the shape of a character rather than its sound. They have a much steeper learning curve but avoid candidate selection almost entirely, which is why professional Chinese typists often use them.
+
+For most people pinyin is the right choice: it is already installed, it matches how you think, and the ceiling is high enough for office work. Switch only if you type Chinese for hours a day and the candidate list is demonstrably your bottleneck.
+
+Use the Sentences mode and type the characters as they appear, committing each phrase with the space or number key your IME uses. The score panel reports characters per minute; multiply by 60 for characters per hour, and remember that the five-characters-per-word convention was designed for alphabetic scripts.
+
+For a job that quotes words per minute, ask whether they mean characters or words. A 60 WPM requirement in a Chinese-language role usually means 60 characters per minute, which is a different target from 60 English words per minute.
 
 ## Chinese typing test FAQ
 
-### Is this Chinese typing test free?
+### How is Chinese typing speed measured?
 
-Yes. The Chinese typing test is free with no sign up; your Chinese practice history stays on your device.
+Usually in characters per minute, because each character carries a syllable. Multiply by 60 for characters per hour. The five-characters-per-word convention was designed for alphabetic scripts.
 
-### Is the text simplified or traditional Chinese?
+### Is pinyin or Wubi faster?
 
-Simplified Chinese, as used in mainland China, Singapore and most online writing. The sentences are natural, everyday Chinese.
+Wubi and other structural methods have a higher ceiling because they avoid candidate selection, but they take far longer to learn. For office work, pinyin's ceiling is usually enough.
 
-### How is words per minute calculated for Chinese?
+### Why does my accuracy drop on rare characters?
 
-Every 5 typed characters count as one word, divided by the minutes elapsed, then adjusted for errors — the same rule used for every language on this site.
+Rare characters sit deep in the candidate list, so you scan or type extra keystrokes to reach them. Input-method errors produce a wrong character rather than a typo, which is why they are harder to notice.
 
-### Can I practise Chinese quotes and single characters too?
+### What is a good Chinese typing speed?
 
-Yes. Switch the text mode above the typing area to quotes or words to change what you type.
+40-60 characters per minute is comfortable for office work with pinyin; experienced typists reach 80-120. Professional structural-method typists exceed that, but they are a different population.
+
+### Does the test include punctuation?
+
+Yes - the Chinese comma and full stop (， 。) are part of the passage, and in full-width form they are separate keystrokes from their Latin counterparts.

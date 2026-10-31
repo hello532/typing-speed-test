@@ -172,15 +172,25 @@ Source: https://typing.rerivo.com/english-typing-test.html
 
 Test your English typing speed with real sentences. Measure your words per minute (WPM) and accuracy instantly. Free, no sign up.
 
-An English typing test measures how fast and accurately you type English text. Your result is shown in WPM (words per minute), where every 5 characters counts as one word. Typing full English sentences — with punctuation and capitals — is the most realistic way to measure everyday typing speed.
-Practise with real sentences rather than isolated words, keep your fingers on the home row (ASDF JKL;), and look at the screen instead of the keyboard. Accuracy first, then speed: 10-15 focused minutes a day beats long occasional sessions.
-This English typing test uses natural, everyday sentences rather than random letters, so you practise the real word patterns and spacing you meet in emails, essays and chat. Typing whole phrases trains the common letter pairs — "th", "ing", "and", "tion" — that make fluent English typing feel effortless.
-A small set of words makes up most of what we write in English. Drilling high-frequency words like the, and, that, with and your builds instant muscle memory for the keystrokes you repeat thousands of times a day. Master those and your overall WPM rises across every kind of text you type.
+For most of the world, an English typing test is simply a typing test. But in South Asia - and especially in India - "English typing test" is a specific exam format: 35 words per minute in English (or 30 in Hindi) for clerical posts, taken on a standard keyboard for ten minutes, with a small error allowance.
+That is why this page treats English as one option among several rather than as the default. If you are preparing for an exam, the exam's rules matter more than the language label.
+Requirement | Speed | Length | Notes
+SSC CHSL LDC / JSA (English) | 35 WPM | 10 minutes | Qualifying, error allowance applies
+SSC CHSL (Hindi) | 30 WPM | 10 minutes | Same test, lower threshold
+SSC DEO | 8,000 key depressions/hour | 15 minutes | Corrections count as depressions
+US federal clerical | 40 WPM | 5 minutes | No more than three errors
+General office | 40-55 WPM | 3-5 minutes | Net WPM, 95% accuracy
+Notice that the same English text produces three different measurements: words per minute, key depressions per hour, and a five-minute sample with a hard error cap. Convert before comparing - 8,000 KPDH is about 27 WPM.
+English on QWERTY is the best-supported layout in the world, which is why most speed records are set on it. The characters that decide accuracy are not the letters but the punctuation: the apostrophe, the comma, the full stop and the capital that follows it.
+A useful drill is sentence case with quotes. Most candidates lose 3-5 WPM there, and it is the exact content of an exam passage. Practise it weekly rather than daily - it is a check, not a workout.
+Use the same length as the exam (ten minutes for SSC, five for federal), type a passage with full punctuation, and score net WPM plus errors. Then repeat on a different keyboard at least once: exam centres do not provide your laptop.
+If your error count is the problem rather than your speed, stop chasing WPM for two weeks and run accuracy rounds at 85% of your pace. A clean 37 WPM passes; a 45 WPM run with 12% errors does not.
 ## Typing test FAQ
-Yes. The English typing test is free with no sign up, and your English WPM history is saved only in this browser.
-40 WPM is average, 60-70 WPM is good, and 80+ WPM is professional level for most office and writing work.
-The standard 5-characters-per-word rule, applied to real English sentences. Because English words average close to 5 characters, the formula matches real English text well; errors are subtracted for net WPM.
-Slightly: WPM counts five characters as one word, and common English words average just under five, so scores on real sentences run a touch higher than on random-word drills. The difference is small — a few WPM — and consistent, so scores compare fairly.
+35 words per minute for SSC CHSL LDC and JSA posts, over ten minutes, with a small error allowance. US federal clerical roles ask 40 WPM over five minutes with at most three errors.
+Both, depending on the post. SSC DEO uses 8,000 key depressions per hour; clerical and federal roles use words per minute. 8,000 KPDH is about 27 WPM.
+A small allowance, commonly around 5% of the words typed, and it is stated in the notice for that exam cycle. The federal standard is stricter: three errors in five minutes.
+Yes. Capitals and punctuation are part of the passage and an omitted character is an error. Practise sentence case with quotes, which is where most candidates lose their margin.
+No. Centre equipment is used. Rehearse on a different keyboard at least twice so key travel and layout are not a surprise.
 
 ## Spanish Typing Test
 Source: https://typing.rerivo.com/spanish-typing-test.html
@@ -703,45 +713,72 @@ Source: https://typing.rerivo.com/chinese-typing-test.html
 
 Test your Chinese typing speed with real Chinese sentences. Measure your words per minute and accuracy instantly. Free, no sign up.
 
-A Chinese typing test measures how fast and accurately you type Chinese text. Your result is shown in words per minute, where every 5 characters counts as one word, so every extra correct character raises your score. Typing complete Chinese sentences is the most realistic way to measure everyday Chinese typing speed.
-Practise with real sentences rather than isolated characters, keep your fingers relaxed over the home row, and watch the screen instead of the keyboard. Because each Chinese character carries far more meaning than a single Latin letter, accuracy matters more than raw key speed; slow down first and let speed follow.
-Chinese is written without spaces between characters, so your fingers learn long sequences of keystrokes rather than short word patterns. Re-typing the same sentence a few times builds muscle memory for the most common characters — 的, 一, 是, 不, 了 — which make up a large share of everyday Chinese text.
-This Chinese typing test uses natural, everyday sentences, so you practise the real rhythm of Chinese writing: clauses separated by 、 and 。, numbers in full form, and the punctuation patterns you meet in articles, chat and email. Switch between sentences, quotes and words modes above to vary your drills.
+You do not type Chinese characters directly on a standard keyboard. You type a romanised or structural code - pinyin being the common case - and then choose a candidate from a list. Speed therefore depends on two skills: the keystrokes of the code, and how quickly you pick the right candidate.
+That is why a Chinese WPM figure is not comparable to an English one at face value. A pinyin typist producing 40 characters per minute is typing maybe 120-160 keystrokes, and the character count is what gets reported.
+Candidate selection. Common words appear first; rare characters require scanning or extra keystrokes. Practising your own vocabulary beats practising random text.
+Phrase versus character input. Typing whole phrases (词) rather than single characters roughly halves the candidate selections, which is where most of the gain is.
+Homophones. Pinyin maps many characters to one syllable, so accuracy depends on choosing correctly rather than on hitting the right key. An input-method error is a wrong character, not a typo.
+Structural methods - Wubi (五笔), Cangjie (倉頡), Zhengma - encode the shape of a character rather than its sound. They have a much steeper learning curve but avoid candidate selection almost entirely, which is why professional Chinese typists often use them.
+For most people pinyin is the right choice: it is already installed, it matches how you think, and the ceiling is high enough for office work. Switch only if you type Chinese for hours a day and the candidate list is demonstrably your bottleneck.
+Use the Sentences mode and type the characters as they appear, committing each phrase with the space or number key your IME uses. The score panel reports characters per minute; multiply by 60 for characters per hour, and remember that the five-characters-per-word convention was designed for alphabetic scripts.
+For a job that quotes words per minute, ask whether they mean characters or words. A 60 WPM requirement in a Chinese-language role usually means 60 characters per minute, which is a different target from 60 English words per minute.
 ## Chinese typing test FAQ
-Yes. The Chinese typing test is free with no sign up; your Chinese practice history stays on your device.
-Simplified Chinese, as used in mainland China, Singapore and most online writing. The sentences are natural, everyday Chinese.
-Every 5 typed characters count as one word, divided by the minutes elapsed, then adjusted for errors — the same rule used for every language on this site.
-Yes. Switch the text mode above the typing area to quotes or words to change what you type.
+Usually in characters per minute, because each character carries a syllable. Multiply by 60 for characters per hour. The five-characters-per-word convention was designed for alphabetic scripts.
+Wubi and other structural methods have a higher ceiling because they avoid candidate selection, but they take far longer to learn. For office work, pinyin's ceiling is usually enough.
+Rare characters sit deep in the candidate list, so you scan or type extra keystrokes to reach them. Input-method errors produce a wrong character rather than a typo, which is why they are harder to notice.
+40-60 characters per minute is comfortable for office work with pinyin; experienced typists reach 80-120. Professional structural-method typists exceed that, but they are a different population.
+Yes - the Chinese comma and full stop (， 。) are part of the passage, and in full-width form they are separate keystrokes from their Latin counterparts.
 
 ## Hindi Typing Test
 Source: https://typing.rerivo.com/hindi-typing-test.html
 
 Test your Hindi typing speed with real Hindi sentences in Devanagari script. Measure your words per minute and accuracy instantly. Free, no sign up.
 
-A Hindi typing test measures how fast and accurately you type Devanagari script. Your result is shown in words per minute, where every 5 characters counts as one word. Typing full Hindi sentences — with matras, conjunct consonants and the क्ष, त्र, ज्ञ clusters — is the most realistic way to measure everyday Hindi typing speed.
-Practise with real sentences rather than isolated letters, keep your fingers on the home row, and look at the screen instead of the keyboard. Hindi adds matras above and below the consonants, so slow down at first to learn those key positions; accuracy first, then speed.
-Devanagari is a syllabic script: most consonants carry an inherent अ vowel, and matras change that vowel. Typing real sentences trains the frequent conjuncts — क्ष, त्र, व्र, ज्ञ — and the matras ा ि ी ो ै that appear in almost every Hindi word.
-This Hindi typing test uses natural, everyday sentences, so you practise the real word patterns of Hindi — common endings like -ना, -कर and -है — together with the । full stop and the punctuation you meet in real Hindi writing. Timed Devanagari practice is also the format of most Indian typing exams.
+Hindi is written in Devanagari, where consonants carry an inherent 'a' vowel and other vowels appear as matras - marks placed before, after, above or below the consonant. A single written syllable can require two or three keystrokes, so your characters-per-minute is not the same as your syllable rate.
+Add conjuncts (क्ष, त्र, ज्ञ) and the nasal marks (ं ँ) and you have a script where accuracy depends on sequence, not just key location. That is why Hindi typing tests feel different from English ones even at the same WPM.
+Indian typing exams usually specify a layout, and the three you will meet are Krutidev, Remington (often called the typewriter layout) and Mangal/InScript. They map Devanagari to the keyboard in completely different ways: Krutidev and Remington are legacy layouts built for typewriters and phototypesetting, while InScript follows the script's logical order.
+Layout | Where you meet it | Learning cost for a QWERTY typist
+Krutidev | Many state government exams, court work | High - keys do not match the script order
+Remington | Older exams, some typing institutes | High - typewriter-era mapping
+InScript / Mangal | Modern government and Unicode work | Moderate - follows the script logically
+Check the notice before you practise. Learning the wrong layout is worse than not practising, because the reflexes conflict.
+Hindi typing tests commonly ask 25-30 words per minute, with 30 WPM the figure used where English requires 35. Some posts quote key depressions per hour instead, and the mistake allowance is usually around 5%.
+Because the same passage can be scored as WPM or as key depressions, convert before comparing yourself to a friend's score: 30 WPM is 9,000 key depressions per hour under the five-character convention.
+Practise on the layout your exam uses, on a keyboard you do not own, with a passage that includes the danda (।) and the numerals. Then time yourself for the full ten minutes rather than in one-minute bursts: conjunct errors cluster late, when attention thins.
+If you are starting from English touch typing, expect two to four weeks before the Devanagari reflexes stop interfering with your Latin ones. Do not alternate layouts within a session; the interference is real and it slows both.
 ## Hindi typing test FAQ
-Yes. The Hindi typing test is free with no sign up; your Devanagari practice history stays on your device.
-Yes. The practice sentences are real Hindi in Devanagari script, including matras, conjunct consonants and the । sentence-ending mark.
-Yes. Timed sentence practice in Devanagari is the format of most Indian government and court typing tests, so it builds the same speed and accuracy against a clock.
-The standard 5-characters-per-word rule, adjusted for errors. Devanagari matras and conjuncts each count as typed characters, so steady, correct shaping matters more than raw pace.
+Commonly 25-30 words per minute, with 30 WPM where an English requirement would be 35. Some posts quote key depressions per hour instead, usually with a 5% error allowance.
+Whichever your exam notice specifies - Krutidev, Remington or InScript/Mangal. They map Devanagari completely differently, and learning the wrong one creates conflicting reflexes.
+Matras and conjuncts mean one written syllable can take two or three keystrokes, so characters per minute and syllables per minute diverge. Accuracy also depends on sequence rather than single key location.
+Yes. It is part of the passage, like a full stop in English, and an omitted character counts as an error on every mainstream test.
+Yes, once the layout is installed in your operating system. The physical keyboard stays the same; only the mapping changes.
 
 ## Arabic Typing Test
 Source: https://typing.rerivo.com/arabic-typing-test.html
 
 Test your Arabic typing speed with real Arabic sentences. Measure your words per minute and accuracy instantly. Free, no sign up.
 
-An Arabic typing test measures how fast and accurately you type Arabic script. Your result is shown in words per minute, where every 5 characters counts as one word. Typing full Arabic sentences — with connected letters, the ة ta marbuta and the أ hamza — is the most realistic way to measure everyday Arabic typing speed.
-Practise with real sentences rather than isolated letters, keep your fingers on the home row, and watch the screen instead of the keyboard. Arabic is typed right to left, so let your hands move with the text from right to left; slow down at first and let speed follow.
-Arabic script runs right to left, and most letters connect to what follows them, changing shape by position. Typing real sentences trains the frequent letters — ا ل م و ي — and the word-final letter forms that appear in almost every Arabic sentence.
-This Arabic typing test uses natural, everyday sentences, so you practise the real word patterns of Arabic — the ال prefix and endings like ـها and ـكم — together with the ، and . punctuation you meet in real Arabic writing.
+Arabic is written right to left and the letters join, so what you see on screen is not one glyph per keystroke: most letters have isolated, initial, medial and final forms, and the renderer picks the form as you type. Your speed is still one keystroke per letter - the joining is the font's job, not yours.
+Four features decide accuracy: the hamza forms (أ إ آ ؤ ئ), ta marbuta (ة) versus ha (ه), the alif maqsura (ى) versus ya (ي), and the Arabic comma ، and semicolon ؛ which sit where a Latin keyboard puts different characters. None of these are optional if the text is right-to-left formal writing.
+The standard Arabic layout keeps the Latin letters on the same physical keys and adds Arabic legends, so touch typists can switch between languages without moving their hands - the muscle memory transfers, only the output changes. That is good news for anyone who already types English.
+The part that catches people is direction. In a right-to-left field the cursor moves left as you type, and mixing Arabic with Latin words or numbers reverses the visual order of the run. If your accuracy collapses when a sentence contains a number or an English product name, that is bidi handling, not typing speed.
+Most Arabic typing tests report words per minute using the same five-characters-per-word convention as English, so the two numbers are broadly comparable - with one caveat: Arabic words are shorter on average than English words, so a text of equal character count contains more words. Compare CPM rather than WPM when you are comparing across languages.
+CPM | WPM (÷5) | Reading
+150 | 30 | Beginner, hunt-and-peck
+200 | 40 | Comfortable office speed
+250 | 50 | Fast for Arabic formal text
+300+ | 60+ | Professional, transcription level
+Start with sentences without tashkeel (diacritics), because everyday writing omits them and typing them slows you down for no gain. Add them only if your work requires vocalised text - religious, educational or children's material.
+Then practise the pairs that cause errors: ة versus ه at word ends, ى versus ي, and the hamza carriers. Ten repetitions of one word beat one pass through ten words, because the goal is a corrected reflex rather than exposure.
+For the English side of the same skill, see the English typing test; for the general benchmark, average typing speed.
+Government and clerical posts in the Gulf and Egypt commonly ask for a certificate or a timed sample, often 20-30 words per minute for data entry and higher for secretarial work. Because the requirement is set per employer, read the posting rather than assuming a national standard exists.
+If a test is proctored, expect an unfamiliar keyboard with Arabic legends. Practise at least twice on a different machine: key travel and legend placement change your error rate more than practice volume does.
 ## Arabic typing test FAQ
-Yes. The Arabic typing test is free with no sign up; your right-to-left practice history stays on your device.
-Yes. The whole page switches to right-to-left direction for Arabic, so letters join and flow exactly as they do in Arabic text.
-Yes. The practice sentences are real Arabic, so they include the أ إ آ ؤ ئ hamza forms, the ة ta marbuta, and ؛ ، punctuation.
-The standard 5-characters-per-word rule, adjusted for errors. Joined letter forms still count per typed character, so smooth right-to-left flow beats bursts.
+Letters - one keystroke per letter. The joined forms you see on screen are produced by the font, not by extra keystrokes.
+Mixing right-to-left Arabic with left-to-right digits reverses the visual order of that run. It is a bidirectional text issue rather than a typing-speed problem; check your output rather than your speed.
+Only if your work needs vocalised text. Everyday Arabic writing omits them, and typing them slows you down without improving the result.
+200-250 characters per minute (40-50 words per minute) is comfortable office speed. Government and clerical tests commonly ask 20-30 words per minute for data entry.
+No. The Arabic layout keeps Latin letters on the same keys, so you can add it in your operating system and switch with a shortcut. Touch typing transfers directly.
 
 ## Touch Typing Test
 Source: https://typing.rerivo.com/touch-typing-test.html
