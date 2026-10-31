@@ -121,6 +121,38 @@ try {
   record("benchmarks page", false, String(e).slice(0, 120));
 }
 
+
+// 6) 移动端（390×844）：文档不横向溢出，宽表格可横向滚动而不是被裁掉
+try {
+  await page.cdp("Network.setCacheDisabled", { cacheDisabled: true });
+  await page.cdp("Emulation.setDeviceMetricsOverride",
+    { width: 390, height: 844, deviceScaleFactor: 3, mobile: true });
+  const mobile = [];
+  for (const path of ["/", "/typing-tests.html", "/average-typing-speed.html"]) {
+    await page.goto(SITE + path + BUST);
+    mobile.push(await page.evaluate(() => ({
+      path: location.pathname,
+      overflow: document.documentElement.scrollWidth - window.innerWidth,
+    })));
+  }
+  record("mobile 390px: no horizontal page overflow",
+    mobile.every(m => m.overflow <= 2), mobile);
+
+  await page.goto(SITE + "/average-typing-speed.html" + BUST);
+  const tbl = await page.evaluate(() => {
+    const w = document.querySelector(".tblwrap");
+    if (!w) return { ok: false, reason: "no .tblwrap" };
+    return { ok: true, clientW: w.clientWidth, scrollW: w.scrollWidth,
+             scrollable: w.scrollWidth > w.clientWidth + 2 };
+  });
+  record("mobile 390px: wide tables scroll instead of clipping",
+    tbl.ok && tbl.scrollable, tbl);
+  await page.cdp("Emulation.clearDeviceMetricsOverride");
+  await page.cdp("Network.setCacheDisabled", { cacheDisabled: false });
+} catch (e) {
+  record("mobile checks", false, String(e).slice(0, 120));
+}
+
 const failed = checks.filter(c => !c.ok);
 for (const c of checks) {
   console.log(`${c.ok ? "✅" : "❌"} ${c.name}`);
