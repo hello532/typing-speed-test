@@ -6,7 +6,7 @@ Typing.Rerivo is a free typing speed test that runs entirely in your browser. No
 
 ## Why this site exists
 
-Most typing tests on the web are heavy pages that ask you to sign up, show ads between every test, or hide your results behind an email wall. This one is built the opposite way: one fast page, one test, one result, and everything stored in your own browser so your history stays yours.
+Most typing tests on the web are heavy pages that ask you to sign up, show ads between every test, or hide your results behind an email wall. This one is built the opposite way: one fast page, one test, one result, and everything stored in your own browser so your history stays yours. The full list of what we publish is on the typing tests directory.
 
 It started as a single page and grew by listening to what people actually searched for: timed variants from 15 seconds to 10 minutes, practice for punctuation and capital letters, number and symbol drills, a certificate you can print, a Dvorak keyboard that matches your layout, and one hand typing practice for people who type with a single hand.
 

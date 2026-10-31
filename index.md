@@ -14,6 +14,8 @@ Five pages do most of the work here. The one minute typing test is the classic 6
 
 If you already have a score and want to know whether it is good, the WPM chart gives the verdict and percentile for every band. If a job advert quotes keystrokes per hour, the WPM to KPH converter turns your score into the unit the employer is using, and the typing speed requirements by job page lists the thresholds role by role.
 
+Every test on the site is listed on the all typing tests directory, grouped by length, language, skill and exam, if you would rather browse than pick one of these five.
+
 ## How to improve your typing speed
 
 Take a short test every day. Start with a 1 minute typing test, then try 2 or 5 minutes as you get faster. Focus on accuracy first — speed follows accuracy. Keep your fingers on the home row and look at the screen, not the keyboard. Switch to quotes or numbers mode to practice punctuation and digits, which are the most common slowdowns.
