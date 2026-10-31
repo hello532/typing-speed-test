@@ -1,4 +1,4 @@
-# Best Free Typing Tests Online
+# Best Free Typing Tests Online (2026)
 
 Source: https://typing.rerivo.com/best-typing-test-online.html
 

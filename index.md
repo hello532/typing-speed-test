@@ -8,6 +8,10 @@ Measure your words per minute (WPM) and accuracy. Choose 15s to 10 minutes, type
 
 This is a free online typing speed test. It measures how many words per minute (WPM) you can type and how accurate you are. The test works on any device with a keyboard — desktop, laptop, tablet or phone. There is nothing to install and no account needed.
 
+## Where to start: the tests people use most
+
+Five pages do most of the work here. The one minute typing test is the classic 60-second benchmark, with a live countdown and an instant WPM score. The words per minute test explains how WPM is scored while you measure it. Daily training lives on online typing practice, where the drills run from 15 seconds to 10 minutes. If you are choosing a site rather than a score, the best free typing tests online compares six of them on languages, sign-up and practice. And a typing tutorial that starts at the home row is the first stop for anyone who has never typed properly before.
+
 ## How to improve your typing speed
 
 Take a short test every day. Start with a 1 minute typing test, then try 2 or 5 minutes as you get faster. Focus on accuracy first — speed follows accuracy. Keep your fingers on the home row and look at the screen, not the keyboard. Switch to quotes or numbers mode to practice punctuation and digits, which are the most common slowdowns.

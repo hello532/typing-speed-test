@@ -1,4 +1,4 @@
-# Typing Practice
+# Free Online Typing Practice
 
 Source: https://typing.rerivo.com/typing-practice.html
 

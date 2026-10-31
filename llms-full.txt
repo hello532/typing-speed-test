@@ -251,6 +251,8 @@ Measure your words per minute (WPM) and accuracy. Choose 15s to 10 minutes, type
 
 ## Typing Speed Test
 This is a free online typing speed test. It measures how many words per minute (WPM) you can type and how accurate you are. The test works on any device with a keyboard — desktop, laptop, tablet or phone. There is nothing to install and no account needed.
+## Where to start: the tests people use most
+Five pages do most of the work here. The one minute typing test is the classic 60-second benchmark, with a live countdown and an instant WPM score. The words per minute test explains how WPM is scored while you measure it. Daily training lives on online typing practice, where the drills run from 15 seconds to 10 minutes. If you are choosing a site rather than a score, the best free typing tests online compares six of them on languages, sign-up and practice. And a typing tutorial that starts at the home row is the first stop for anyone who has never typed properly before.
 ## How to improve your typing speed
 Take a short test every day. Start with a 1 minute typing test, then try 2 or 5 minutes as you get faster. Focus on accuracy first — speed follows accuracy. Keep your fingers on the home row and look at the screen, not the keyboard. Switch to quotes or numbers mode to practice punctuation and digits, which are the most common slowdowns.
 ## What is a good typing speed?
@@ -394,7 +396,7 @@ Every error needs correcting, which costs time. High accuracy means your effecti
 Yes, free with no sign up. Results are stored only in your browser.
 Hold 97% or higher first; only then add pace. Below 95%, every extra WPM costs more correction time than it saves, so the score looks faster while real output slows down.
 
-## Typing Practice
+## Free Online Typing Practice
 Source: https://typing.rerivo.com/typing-practice.html
 
 Free typing practice online. Switch between sentences, quotes, numbers and words, pick a longer test, and train every day. Your past results are saved in this browser so you can watch your speed grow.
@@ -562,7 +564,7 @@ Prioritise accuracy — errors cost more than slow typing. Warm up, then push sp
 Yes, your recent results are saved in your own browser so you can try to beat them.
 Play short rounds daily instead of one long session, and replay the mode where your accuracy dips lowest. Speed follows accuracy: once a round stays above 97%, push pace and your high score climbs on its own.
 
-## Words Per Minute Test
+## Words Per Minute Test (WPM)
 Source: https://typing.rerivo.com/words-per-minute-test.html
 
 Measure your words per minute (WPM) with a free online speed test. Type for one minute or choose 15 seconds up to 10 minutes and get your WPM and accuracy instantly.
@@ -874,7 +876,7 @@ Ten minutes a day, every day. Your tutor keeps your best score locally, so daily
 Yes, though it takes patience. Start with home row drills, cover the keyboard if you have to, and let the error report tell you when old habits creep back. Most people break the habit in two to three weeks of daily drills.
 No. The tutor stores your best scores in your own browser, so nothing to sign up for and nothing to lose if you switch devices later.
 
-## Learn to Type
+## Learn to Type: Free Typing Tutorial for Beginners
 Source: https://typing.rerivo.com/learn-to-type.html
 
 Learn to type for free, from the very first key. This beginner typing course starts at the home row and adds one row at a time, and every practice line is written as a first lesson, so the text you type teaches you how to type. Sixty seconds a day, instant feedback, no sign up.
@@ -4049,7 +4051,7 @@ From a curated everyday-vocabulary selection — the subtitle-frequency corpus f
 Practise with the built-in test above: it serves these exact words in timed rounds. Short daily rounds with an accuracy-first approach build speed fastest.
 Yes. The word list and the typing practice test are free with no sign up.
 
-## Best Free Typing Tests Online
+## Best Free Typing Tests Online (2026)
 Source: https://typing.rerivo.com/best-typing-test-online.html
 
 An honest comparison of the best free typing tests online — monkeytype, 10fastfingers, typing.com, keybr, TypingTest.com and Typing.Rerivo — by features, languages and what each is actually best for.

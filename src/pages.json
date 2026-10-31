@@ -5,8 +5,8 @@
  "pages": [
   {
    "file": "1-minute-typing-test.html",
-   "title": "1 Minute Typing Test - One Minute Typing Test, Free WPM",
-   "metaDesc": "Free 1 minute typing test. Type for 60 seconds and get your WPM and accuracy instantly. 300 correct characters equals 60 WPM. No sign up, unlimited rounds.",
+   "title": "1 Minute Typing Test: 60-Second Timer, Instant WPM Score",
+   "metaDesc": "Free 1 minute typing test: a live 60-second countdown, instant WPM and accuracy, no sign up, no ads in the typing area. Sentences, quotes or numbers.",
    "canonical": "https://typing.rerivo.com/1-minute-typing-test.html",
    "dur": 60,
    "mode": "sentences",
@@ -939,6 +939,12 @@
      ]
     },
     {
+     "h2": "Where to start: the tests people use most",
+     "p": [
+      "Five pages do most of the work here. The <a href=\"1-minute-typing-test.html\">one minute typing test</a> is the classic 60-second benchmark, with a live countdown and an instant WPM score. The <a href=\"words-per-minute-test.html\">words per minute test</a> explains how WPM is scored while you measure it. Daily training lives on <a href=\"typing-practice.html\">online typing practice</a>, where the drills run from 15 seconds to 10 minutes. If you are choosing a site rather than a score, the <a href=\"best-typing-test-online.html\">best free typing tests online</a> compares six of them on languages, sign-up and practice. And a <a href=\"learn-to-type.html\">typing tutorial</a> that starts at the home row is the first stop for anyone who has never typed properly before."
+     ]
+    },
+    {
      "h2": "How to improve your typing speed",
      "p": [
       "Take a short test every day. Start with a <strong>1 minute typing test</strong>, then try 2 or 5 minutes as you get faster. Focus on accuracy first — speed follows accuracy. Keep your fingers on the home row and look at the screen, not the keyboard. Switch to <strong>quotes</strong> or <strong>numbers</strong> mode to practice punctuation and digits, which are the most common slowdowns."
@@ -1514,8 +1520,8 @@
   },
   {
    "file": "typing-practice.html",
-   "title": "Typing Practice - Free Online Typing Exercises & Drills",
-   "metaDesc": "Free typing practice online — timed drills from 15 seconds to 10 minutes. Daily plan, instant WPM and accuracy. No sign up, progress saved locally.",
+   "title": "Online Typing Practice — Free Drills, 15s to 10 Minutes",
+   "metaDesc": "Free online typing practice with timed drills from 15 seconds to 10 minutes: sentences, quotes, numbers and words, instant WPM. No sign up, progress saved.",
    "canonical": "https://typing.rerivo.com/typing-practice.html",
    "dur": 120,
    "mode": "sentences",
@@ -1538,7 +1544,7 @@
     "Home",
     "Typing Practice"
    ],
-   "h1": "Typing Practice",
+   "h1": "Free Online Typing Practice",
    "tldr": "Typing practice is deliberate daily repetition that converts hunting and pecking into automatic touch typing, and 10 to 15 focused minutes a day typically adds 10-plus WPM within a month. The method that works: fingers anchored on the home row, eyes on the screen, accuracy above 95 percent before chasing speed, and rotating sentences, quotes, numbers, and word drills to train weak keys. Short daily sessions beat one long weekly grind, two measured rounds a day reveal a trend within a fortnight, and saved local history proves which drills move your WPM.",
    "heroP": "Free <strong>typing practice</strong> online. Switch between sentences, quotes, numbers and words, pick a longer test, and train every day. Your past results are saved in this browser so you can watch your speed grow.",
    "seo": [
@@ -2140,8 +2146,8 @@
   },
   {
    "file": "words-per-minute-test.html",
-   "title": "Typing Words Per Minute Test — Free WPM Test, Instant Score",
-   "metaDesc": "A typing words per minute test scored the standard way: five correct characters equal one word, so 300 characters is 60 WPM. Instant result.",
+   "title": "WPM Test — Words Per Minute Typing Test, Instant Result",
+   "metaDesc": "Take a free WPM test and get your words per minute instantly, scored as 5 characters per word. Pick 15 seconds to 10 minutes. No sign up, CPM shown too.",
    "canonical": "https://typing.rerivo.com/words-per-minute-test.html",
    "dur": 60,
    "mode": "sentences",
@@ -2164,7 +2170,7 @@
     "Home",
     "Words Per Minute Test"
    ],
-   "h1": "Words Per Minute Test",
+   "h1": "Words Per Minute Test (WPM)",
    "tldr": "Words per minute (WPM) is the standard unit of typing speed, defined as correct characters divided by 5 divided by minutes, so every 5 keystrokes count as one word regardless of actual word length. Net WPM subtracts errors while raw WPM ignores them; always quote net WPM with accuracy above 95 percent for an honest number. Typical benchmarks run 40 to 50 WPM for average adults, 60 to 80 for good office typists, 80 to 100 for the top 10 percent, and 100-plus for the top 1 percent. This free WPM test measures both figures instantly across 15 seconds to 10 minutes. A typing words per minute test reports net WPM, which deducts errors; quote it with accuracy beside it.",
    "heroP": "Measure your <strong>words per minute (WPM)</strong> with a free online speed test. Type for one minute or choose 15 seconds up to 10 minutes and get your WPM and accuracy instantly.",
    "seo": [
@@ -3394,8 +3400,8 @@
   },
   {
    "file": "learn-to-type.html",
-   "title": "Learn to Type - Free Touch Typing Course for Beginners",
-   "metaDesc": "Learn to type for free. A beginner typing course that teaches touch typing from the home row up, with timed practice and instant feedback. No sign up.",
+   "title": "Learn to Type: Free Typing Tutorial From the Home Row",
+   "metaDesc": "Learn to type for free with a typing tutorial that starts at the home row: one row at a time, 60 seconds a day, instant feedback. No sign up, no install.",
    "canonical": "https://typing.rerivo.com/learn-to-type.html",
    "dur": 60,
    "mode": "sentences",
@@ -3418,7 +3424,7 @@
     "Home",
     "Learn to Type"
    ],
-   "h1": "Learn to Type",
+   "h1": "Learn to Type: Free Typing Tutorial for Beginners",
    "heroP": "<strong>Learn to type</strong> for free, from the very first key. This beginner typing course starts at the home row and adds one row at a time, and every practice line is written as a first lesson, so the text you type teaches you how to type. Sixty seconds a day, instant feedback, no sign up.",
    "seo": [
     {
@@ -13234,8 +13240,8 @@
   },
   {
    "file": "best-typing-test-online.html",
-   "title": "Best Free Typing Tests Online (2026) - Honest Comparison",
-   "metaDesc": "Best free typing tests compared honestly: monkeytype, 10fastfingers, typing.com, keybr and TypingTest.com - features, languages, no-sign-up options.",
+   "title": "Best Typing Test Online (2026): 6 Free Sites Compared",
+   "metaDesc": "6 best free typing tests online compared: monkeytype, 10fastfingers, typing.com, keybr, TypingTest.com — languages, sign-up, practice. Pick in ten seconds.",
    "canonical": "https://typing.rerivo.com/best-typing-test-online.html",
    "dur": 60,
    "mode": "sentences",
@@ -13258,7 +13264,7 @@
     "Home",
     "Best Typing Test Online"
    ],
-   "h1": "Best Free Typing Tests Online",
+   "h1": "Best Free Typing Tests Online (2026)",
    "heroP": "An honest comparison of the <strong>best free typing tests online</strong> — monkeytype, 10fastfingers, typing.com, keybr, TypingTest.com and Typing.Rerivo — by features, languages and what each is actually best for.",
    "seo": [
     {

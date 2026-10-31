@@ -1,4 +1,4 @@
-# Learn to Type
+# Learn to Type: Free Typing Tutorial for Beginners
 
 Source: https://typing.rerivo.com/learn-to-type.html
 

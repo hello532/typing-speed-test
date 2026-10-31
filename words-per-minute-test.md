@@ -1,4 +1,4 @@
-# Words Per Minute Test
+# Words Per Minute Test (WPM)
 
 Source: https://typing.rerivo.com/words-per-minute-test.html
 
