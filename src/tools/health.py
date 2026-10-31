@@ -15,6 +15,7 @@
   8. .md 镜像是否存在且与页面同源
   9. og:image / twitter 卡片是否有值
  10. 页内锚点是否全部能解析
+ 11. 行内脚本能否通过 node --check（去重后检查唯一脚本）
 
 退出码 1 表示有 FAIL，方便挂 CI。
 """
@@ -23,6 +24,7 @@ from __future__ import annotations
 import argparse
 import json
 import re
+import os
 import sys
 from collections import Counter
 from pathlib import Path
@@ -94,6 +96,33 @@ def check() -> dict:
             bad_anchor.append((p.name, sorted(missing)[:3]))
     (out["fail"] if bad_anchor else out["ok"]).append(
         f"页内锚点未解析：{len(bad_anchor)}" + (f" {bad_anchor[:3]}" if bad_anchor else ""))
+
+    # 11) 行内脚本语法必须能通过 node --check（去重后只查唯一脚本，避免 184×N 次调用）
+    import hashlib
+    import subprocess
+    import tempfile
+    seen, uniq = set(), []
+    for p in files:
+        h = p.read_text(encoding="utf-8")
+        for m in re.finditer(r'<script(?![^>]*application/ld\+json)[^>]*>(.*?)</script>', h, re.S):
+            code = m.group(1)
+            if len(code.strip()) < 40:
+                continue
+            d = hashlib.sha1(code.encode()).hexdigest()
+            if d not in seen:
+                seen.add(d)
+                uniq.append((p.name, code))
+    bad_js = []
+    for name, code in uniq:
+        with tempfile.NamedTemporaryFile("w", suffix=".js", delete=False, encoding="utf-8") as t:
+            t.write(code)
+            tmp = t.name
+        r = subprocess.run(["node", "--check", tmp], capture_output=True, text=True)
+        os.unlink(tmp)
+        if r.returncode != 0:
+            bad_js.append((name, r.stderr.strip().split("\n")[0][:80]))
+    (out["fail"] if bad_js else out["ok"]).append(
+        f"行内脚本语法错误：{len(bad_js)}" + (f" {bad_js[:2]}" if bad_js else f"（{len(uniq)} 段唯一脚本）"))
 
     # 描述长度分布（软指标，只报数）
     lens = []
