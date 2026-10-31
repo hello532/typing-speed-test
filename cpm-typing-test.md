@@ -7,6 +7,7 @@ This CPM typing test measures your speed in characters per minute. CPM counts ev
 On this page
 
 What is CPM (characters per minute)?
+CPM to WPM calculator
 WPM, CPM and KPH: the conversion table
 CPM vs WPM: which should you use?
 How this CPM test measures you
@@ -25,6 +26,10 @@ About this page
 CPM counts how many characters you type in one minute — every letter, number, space and symbol you produce. It is the rawest possible measure of typing output, which is why data-entry and transcription work quote speed in CPM or its hourly sibling KPH (keystrokes per hour) rather than in words.
 
 On this site the conversion is the standard one used across the typing industry: five characters count as one word. So CPM is simply your WPM multiplied by five — no rounding tricks, no alternate formulas.
+
+Type in any box: CPM, WPM or keystrokes per hour. The conversions are CPM ÷ 5 = WPM, WPM × 5 = CPM, and CPM × 60 = KPH, so the three boxes always agree.
+
+The unit that matters depends on the posting: typing tests quote WPM, data-entry adverts quote keystrokes per hour, and exam notices in some countries quote characters per minute. Converting before you compare avoids the most common application mistake - quoting a number in the wrong unit.
 
 Use this table to convert between the three units employers and exams quote. The formula is exact: CPM = WPM × 5, and KPH = CPM × 60.
 
@@ -132,3 +137,7 @@ Yes. The headline CPM is a net figure with errors deducted, so it matches what a
 ### Is a CPM test the same as a WPM test?
 
 It is the same one-minute test reported in different units. CPM counts every correct character; WPM divides that count by five and by the elapsed minutes. A 300 CPM result equals 60 WPM, so neither number is more accurate &mdash; only differently scaled.
+
+### How do I convert CPM to WPM quickly?
+
+Divide by five. 200 CPM is 40 WPM, 300 CPM is 60 WPM. The calculator on this page does CPM, WPM and keystrokes per hour at once, in either direction.
