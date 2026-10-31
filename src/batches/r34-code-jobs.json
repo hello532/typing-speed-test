@@ -1,0 +1,402 @@
+{
+  "footer_group": "Quotes, pangrams and code",
+  "llms_section": "Text / Difficulty Variations",
+  "cluster": "practice",
+  "pages": [
+    {
+      "file": "sql-typing-practice.html",
+      "title": "SQL Typing Practice — Real Queries, Symbols and Speed",
+      "metaDesc": "Type real SQL: SELECT, JOIN, CTEs, window functions. Trains the symbols that slow analysts down - quotes, semicolons, parentheses, pipes.",
+      "h1": "SQL Typing Practice",
+      "heroP": "SQL is punctuation with words attached. Every query needs quotes, semicolons, parentheses and usually a pipe, and those keys are where analysts lose their speed. This drill types 36 real queries, not prose.",
+      "tldr": "SQL typing is bracket-and-quote work: roughly one symbol every five characters. Practise at 40-60 WPM on queries you would actually write, and watch accuracy rather than speed - a misplaced semicolon is a failed query, not a typo.",
+      "dur": 60,
+      "mode": "sentences",
+      "variant": "sql_code",
+      "crumbs": [
+        "Home",
+        "SQL Typing Practice"
+      ],
+      "seo": [
+        {
+          "h2": "What makes SQL slow to type",
+          "p": [
+            "Plain English uses 26 letters and a space. A single SELECT statement uses quotes, a semicolon, parentheses, an underscore, a dot and often a pipe or a cast operator. None of those sit under the home row, so a typist who is comfortable at 70 WPM on prose will typically drop to 40-50 WPM here.",
+            "The second factor is structure. You are not copying a sentence, you are reproducing a syntax tree, and the eye has to jump between keywords and symbols instead of flowing left to right. That is a trainable skill and it is separate from general typing speed."
+          ]
+        },
+        {
+          "h2": "The characters that dominate",
+          "p": [
+            "<ul><li><strong>Single quotes</strong> on the pinky, doubled in SQL because strings are delimited - the most common source of a broken query.</li><li><strong>Parentheses and underscores</strong> on the right pinky, which is already the weakest finger for most typists.</li><li><strong>Semicolons and colons</strong>, one key apart, typed in sequence in casts and labels.</li><li><strong>Pipes and arrows</strong> for concatenation and JSON access, which pull the right hand off the home row entirely.</li></ul>",
+            "If your error log concentrates on the pinky keys, that is not a knowledge gap - it is a reach problem, and it responds to a few minutes of deliberate symbol drill per day."
+          ]
+        },
+        {
+          "h2": "How to practise without writing nonsense",
+          "p": [
+            "The pool on this page is 36 real statements: a projection, a join with an alias, a grouped aggregate, a CTE, a window function, an index creation, an UPDATE with a timestamp. They are the shapes you actually type in a working day, not keyword soup.",
+            "Run one-minute rounds until the syntax stops needing thought, then move to three-minute rounds. Analysts rarely type one query at a time; they type twelve in a row while reading output, and the stamina matters more than the peak."
+          ]
+        },
+        {
+          "h2": "Where to go next",
+          "p": [
+            "If you write Python or JavaScript, the <a href=\"python-code-typing.html\">Python code typing</a> and <a href=\"javascript-code-typing.html\">JavaScript code typing</a> pools use the same engine with different syntax. For spreadsheet work, the <a href=\"excel-formula-typing-practice.html\">Excel formula practice</a> page trains the same bracket-and-comma vocabulary in a different grammar.",
+            "For a general benchmark rather than a drill, take the <a href=\"words-per-minute-test.html\">WPM test</a> - code typing and prose typing are not comparable numbers, so keep the two scores separate."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "What is a good typing speed for SQL?",
+          "a": "40-60 WPM on real queries is comfortable for most analysts. Prose speed is not comparable because SQL has roughly one symbol every five characters, and symbols need extended reaches."
+        },
+        {
+          "q": "Why is my code typing slower than my normal WPM?",
+          "a": "Symbols do not sit under the home row. Quotes, parentheses, underscores, pipes and semicolons all need an extended finger, and alternating between words and symbols breaks the rhythm that prose typing relies on."
+        },
+        {
+          "q": "Is this real SQL?",
+          "a": "Yes - 36 statements covering SELECT, JOIN, GROUP BY, CTEs, window functions, UPDATE, DELETE, DDL and JSON access, written in ordinary PostgreSQL-flavoured syntax."
+        },
+        {
+          "q": "Does code typing speed matter for a job?",
+          "a": "Indirectly. No one screens analysts on typing speed, but at 30 WPM the keyboard becomes the bottleneck when you are writing long ETL scripts or documentation."
+        },
+        {
+          "q": "How often should I practise?",
+          "a": "Five to ten minutes a day, one-minute rounds, scored on errors. Symbol accuracy improves faster than raw speed, and it is the part that actually costs you time in a query."
+        }
+      ]
+    },
+    {
+      "file": "typescript-typing-practice.html",
+      "title": "TypeScript Typing Practice — Generics and Symbols",
+      "metaDesc": "Type real TypeScript: generics, type guards, optional chaining, JSX-adjacent syntax. Trains angle brackets, colons and arrows where TS typists slip.",
+      "h1": "TypeScript Typing Practice",
+      "heroP": "TypeScript adds a second layer of punctuation to JavaScript: <strong>angle brackets, colons, question marks and arrows</strong> in every signature. This drill types 36 real lines from application code, not toy examples.",
+      "tldr": "TypeScript is symbol-dense: generics add <>, types add :, optional fields add ?, and arrow functions add =>. Expect 10-20% lower speed than plain JavaScript at the same accuracy until the symbol reaches become automatic.",
+      "dur": 60,
+      "mode": "sentences",
+      "variant": "typescript_code",
+      "crumbs": [
+        "Home",
+        "TypeScript Typing Practice"
+      ],
+      "seo": [
+        {
+          "h2": "The symbols that cost you time",
+          "p": [
+            "<ul><li><strong>Angle brackets</strong> for generics, typed with Shift plus comma and Shift plus full stop - two reaches that pull both hands off the home row.</li><li><strong>Colons and question marks</strong> in type annotations and optional properties, frequently adjacent.</li><li><strong>Arrow operators</strong> in callbacks, which need the hyphen and the greater-than key in sequence.</li><li><strong>Braces and parentheses</strong> in destructuring and object literals, often nested three deep.</li></ul>",
+            "A JavaScript typist at 65 WPM typically measures 50-58 WPM on the same content once types are added. That is not a regression in skill; it is more symbol work per line."
+          ]
+        },
+        {
+          "h2": "What is in the pool",
+          "p": [
+            "Thirty-six lines taken from ordinary application code: an interface with optional fields, a discriminated union result type, a typed reducer, a generic type guard, an error class with a constructor parameter property, a debounce hook, a fetch with an abort signal, and a schema `.safeParse` branch.",
+            "They are deliberately not one-liners from tutorials. Real files mix declarations, expressions and early returns, and switching between those shapes is what makes editor typing feel different from typing a passage."
+          ]
+        },
+        {
+          "h2": "Practising for real work",
+          "p": [
+            "Type the lines as written, including semicolons and trailing commas. Autocomplete does not type for you during the drill, which is the point: you are rebuilding the muscle memory that autocomplete usually hides.",
+            "Then run one round with the on-screen keyboard visible and watch which key your eye goes to before the miss. It is usually the bracket cluster on the right, and it is fixable in a week of two-minute drills."
+          ]
+        },
+        {
+          "h2": "Related practice",
+          "p": [
+            "For plain JavaScript, the <a href=\"javascript-code-typing.html\">JavaScript code typing</a> page uses the same engine without the type layer. For Python, <a href=\"python-code-typing.html\">Python code typing</a>. Spreadsheet work is on the <a href=\"excel-formula-typing-practice.html\">Excel formula</a> page."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "Is TypeScript typing slower than JavaScript?",
+          "a": "Yes, typically 10-20% slower at the same accuracy, because types add angle brackets, colons, question marks and arrow operators that JavaScript does not require."
+        },
+        {
+          "q": "What speed should a developer type at?",
+          "a": "Most developers sit above 60 WPM on prose and 45-55 WPM on code. No employer screens for it, but below 40 WPM the keyboard starts to limit how much code and documentation you produce."
+        },
+        {
+          "q": "Does autocomplete make this pointless?",
+          "a": "No. Autocomplete hides the symbol reaches, so they stay weak. Typing full lines rebuilds them, which is what you need when you write something autocomplete does not know."
+        },
+        {
+          "q": "Is this real TypeScript?",
+          "a": "Yes, 36 lines of ordinary application TypeScript: interfaces, unions, generics, hooks, async/await, error classes and schema validation branches."
+        },
+        {
+          "q": "How long until I see improvement?",
+          "a": "Two weeks of five-minute daily drills usually shows 5-8 WPM on this content, mostly from the bracket cluster ceasing to need a visual check."
+        }
+      ]
+    },
+    {
+      "file": "rust-typing-practice.html",
+      "title": "Rust Typing Practice — Lifetimes, Matches, Arrows",
+      "metaDesc": "Type real Rust: fn signatures, lifetimes, match arms, iterator chains, Result handling. A drill for the punctuation-heavy syntax Rust actually uses.",
+      "h1": "Rust Typing Practice",
+      "heroP": "Rust is the most punctuation-dense mainstream language: <strong>lifetimes, turbofish-free generics, match arms, ? and =></strong> on nearly every line. This drill types 36 real lines from ordinary Rust code.",
+      "tldr": "Rust needs ampersands, apostrophes, angle brackets, question marks and double colons, often in the same expression. Expect 40-55 WPM on real code even if you type prose at 75; accuracy on brackets and apostrophes is the limiting factor.",
+      "dur": 60,
+      "mode": "sentences",
+      "variant": "rust_code",
+      "crumbs": [
+        "Home",
+        "Rust Typing Practice"
+      ],
+      "seo": [
+        {
+          "h2": "Why Rust is harder to type than it looks",
+          "p": [
+            "Three characters dominate: <strong>&</strong> for borrows, <strong>'</strong> for lifetimes and char literals, and <strong>&lt; &gt;</strong> for generics. Each sits on the top row or the right pinky, and lifetimes put the apostrophe immediately after an ampersand - a two-key sequence that prose never asks for.",
+            "Then there is the shape of idiomatic Rust: `match` arms with indentation, iterator chains broken across lines, and `?` at the end of expressions. The line breaks are part of the syntax you are training, not formatting noise."
+          ]
+        },
+        {
+          "h2": "What is in the pool",
+          "p": [
+            "Thirty-six lines covering the constructs that appear in real files: a struct with a generic parameter, a lifetime-annotated function, a `match` with an error branch, a `HashMap` build, an iterator chain with `filter_map`, a trait implementation, a `#[derive]` attribute, an async function signature with `anyhow::Result`, and a test module.",
+            "The lines are short enough to finish inside a minute round and varied enough that you cannot memorise the sequence."
+          ]
+        },
+        {
+          "h2": "How to drill symbols without boredom",
+          "p": [
+            "Alternate two rounds per session: one straight accuracy round at your normal pace, one where you deliberately slow to 80% and watch the right hand. The second round is where the improvement happens; the first is where you measure it.",
+            "Track the errors rather than the WPM for the first week. In symbol-dense code, error count is the leading indicator and speed follows it, not the other way round."
+          ]
+        },
+        {
+          "h2": "Related practice",
+          "p": [
+            "Same engine, different grammar: <a href=\"python-code-typing.html\">Python</a>, <a href=\"javascript-code-typing.html\">JavaScript</a>, <a href=\"typescript-typing-practice.html\">TypeScript</a>, <a href=\"sql-typing-practice.html\">SQL</a>. If you want the general number, use the <a href=\"typing-practice-for-programmers.html\">programmer typing</a> benchmarks page."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "What typing speed do Rust developers have?",
+          "a": "No one measures this formally. In practice most developers type prose at 60-90 WPM and real Rust at 40-55 WPM because of symbol density and line breaks."
+        },
+        {
+          "q": "Why do lifetimes slow typing down?",
+          "a": "A lifetime needs an apostrophe immediately followed by a letter, and borrows need ampersands. Both sit on the top row and the right pinky, so the sequence interrupts the home-row rhythm."
+        },
+        {
+          "q": "Is this real Rust?",
+          "a": "Yes, 36 lines of ordinary Rust: generics, lifetimes, match arms, iterator chains, trait impls, async signatures and a test module."
+        },
+        {
+          "q": "Does typing speed matter for a Rust job?",
+          "a": "Not directly. It matters only when the keyboard becomes the bottleneck for long files, documentation or review comments - below about 40 WPM on code, that happens regularly."
+        },
+        {
+          "q": "How much practice is enough?",
+          "a": "Five minutes a day for two to three weeks. Symbol accuracy responds quickly; after that, speed follows without extra drills."
+        }
+      ]
+    },
+    {
+      "file": "excel-formula-typing-practice.html",
+      "title": "Excel Formula Typing Practice — Brackets & Commas",
+      "metaDesc": "Type real Excel formulas: XLOOKUP, SUMIFS, FILTER, LET, LAMBDA. Trains the bracket, comma and dollar-sign reaches that slow spreadsheet work down.",
+      "h1": "Excel Formula Typing Practice",
+      "heroP": "A formula is a chain of brackets, commas and dollar signs wrapped around a function name. <strong>XLOOKUP, SUMIFS, FILTER and LET</strong> all punish the keys you never practise. This drill types 36 real formulas.",
+      "tldr": "Excel formulas are 30-40% punctuation by character count. The frequent failures are unbalanced brackets, a comma typed as a full stop, and a missing $ in an absolute reference. Practise with the formula bar visible and check balance after each line.",
+      "dur": 60,
+      "mode": "sentences",
+      "variant": "excel_formula",
+      "crumbs": [
+        "Home",
+        "Excel Formula Typing Practice"
+      ],
+      "seo": [
+        {
+          "h2": "The four characters that decide a formula",
+          "p": [
+            "<ul><li><strong>Parentheses</strong> - every function opens one and most nest two deep; an unbalanced bracket stops Excel accepting the entry at all.</li><li><strong>Commas</strong> - the argument separator in en-US locales, and a semicolon in many European ones. Typing a full stop instead is the single most common formula error.</li><li><strong>Dollar signs</strong> - absolute references need Shift+4, a reach that pulls the left hand off the home row.</li><li><strong>Double quotes</strong> - required around text criteria, and doubled inside strings.</li></ul>",
+            "None of these appear often in prose, which is why people who type quickly in Word still fumble a nested IF."
+          ]
+        },
+        {
+          "h2": "What is in the pool",
+          "p": [
+            "Thirty-six formulas at the level a real spreadsheet uses: a basic SUM range, IFERROR-wrapped VLOOKUP, INDEX/MATCH, SUMIFS with two criteria, TEXTJOIN, XLOOKUP with a fallback, SUMPRODUCT, LET, FILTER, SORT(UNIQUE()), MAP with LAMBDA, CHOOSECOLS, VSTACK and a SEQUENCE date series.",
+            "They are written the way they appear in a cell, including the leading equals sign, because that keystroke is part of the habit."
+          ]
+        },
+        {
+          "h2": "Practising so it transfers",
+          "p": [
+            "Type into a plain text field first, then reproduce the best lines in a real workbook. The drill builds the keystroke sequence; the workbook confirms that the brackets balance and the separators are the ones your locale expects.",
+            "If your locale uses semicolons as argument separators, type the formulas with semicolons after the drill. Muscle memory for the wrong separator is worse than no practice."
+          ]
+        },
+        {
+          "h2": "Related practice",
+          "p": [
+            "Numeric work benefits from the <a href=\"ten-key-typing-test.html\">10-key typing test</a>, and data-entry roles are covered by the <a href=\"keystrokes-per-hour-test.html\">keystrokes per hour test</a>. For database syntax rather than spreadsheet syntax, see <a href=\"sql-typing-practice.html\">SQL typing practice</a>."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "Does typing speed matter in Excel?",
+          "a": "For formula-heavy work, yes. Analysts who can type a nested function without looking at the keyboard build models noticeably faster, and they make fewer bracket-balance errors."
+        },
+        {
+          "q": "What is the most common formula typing mistake?",
+          "a": "An unbalanced parenthesis, followed by a full stop typed where a comma separator belongs. Both are stopped by Excel and both cost a re-type of the whole argument list."
+        },
+        {
+          "q": "Should I use semicolons or commas?",
+          "a": "Whichever your locale uses. En-US uses commas; many European locales use semicolons. Practise the one your workbook expects, because the habit is hard to unlearn."
+        },
+        {
+          "q": "Are these real Excel formulas?",
+          "a": "Yes, 36 formulas using current functions including XLOOKUP, XMATCH, FILTER, SORT, UNIQUE, LET, LAMBDA, MAP, CHOOSECOLS and VSTACK."
+        },
+        {
+          "q": "How long should I practise?",
+          "a": "Five minutes a day for a week is enough to stop fumbling the bracket and dollar reaches; after that, use it as a warm-up before model-building sessions."
+        }
+      ]
+    },
+    {
+      "file": "typing-test-for-accountants.html",
+      "title": "Typing Test for Accountants — 10-Key and Numeric Speed",
+      "metaDesc": "Accounting work is numbers first: 10-key speed, decimal accuracy and spreadsheet entry. What firms screen for and how to build numeric speed that transfers.",
+      "h1": "Typing Test for Accountants",
+      "heroP": "Accountants do not need prose speed. They need <strong>numeric accuracy at pace</strong>: 10-key entry, decimals in the right place, and the ability to type a figure once and have it be right.",
+      "tldr": "Accounting roles rarely advertise a WPM figure. What matters is numeric entry: 8,000-12,000 keystrokes per hour on the keypad, 99%+ accuracy on amounts, and comfort with decimals and negative signs. Practise Numbers mode and the 10-key drill.",
+      "dur": 120,
+      "mode": "numbers",
+      "crumbs": [
+        "Home",
+        "Typing Test for Accountants"
+      ],
+      "seo": [
+        {
+          "h2": "What the job actually requires",
+          "p": [
+            "A ledger entry is a date, an account code, a description and an amount. Three of those four are numeric or alphanumeric, and the amount has a decimal point in a position that matters more than any word you will type all day.",
+            "Firms rarely quote a words-per-minute figure in accounting adverts because prose speed is not the constraint. If they test at all, it is a numeric or 10-key exercise, or an Excel-based work sample."
+          ]
+        },
+        {
+          "h2": "The numbers to aim at",
+          "p": [
+            "<table><tr><th>Task</th><th>Target</th><th>Why</th></tr><tr><td>10-key numeric entry</td><td>8,000-12,000 KPH</td><td>The band employers quote for numeric data entry</td></tr><tr><td>Accuracy on amounts</td><td>99%+</td><td>A transposed digit is a reconciliation problem</td></tr><tr><td>Alphanumeric codes</td><td>97-98%</td><td>Account and tax codes mix letters and digits</td></tr><tr><td>Prose notes</td><td>40-50 WPM</td><td>Enough for memos and client correspondence</td></tr></table>",
+            "In practice the accuracy column decides whether you are useful. A 12,000 KPH entry rate with 96% accuracy creates more work than it saves, because every error has to be found later."
+          ]
+        },
+        {
+          "h2": "Building 10-key speed that transfers",
+          "p": [
+            "Learn the keypad as a separate instrument: 4-5-6 on the home row, index on 4, middle on 5, ring on 6, thumb on 0. Type without looking, entering a figure and pressing Enter after each, which is how accounting software behaves.",
+            "Then add the parts that break in real work: negative signs, decimal points, and the Tab key between fields. A drill that only types clean integers trains a skill you will never use."
+          ]
+        },
+        {
+          "h2": "Where the test fits",
+          "p": [
+            "Use the <a href=\"ten-key-typing-test.html\">10-key typing test</a> for keypad speed, the Numbers mode on this page for mixed numeric content, and the <a href=\"excel-formula-typing-practice.html\">Excel formula practice</a> page for spreadsheet syntax. Then measure prose separately with the <a href=\"words-per-minute-test.html\">WPM test</a> if a posting asks for it.",
+            "Keep the three numbers distinct on a CV. \"12,000 KPH 10-key, 99.2% accuracy; 48 WPM prose\" tells an accounting manager far more than a single WPM figure."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "What typing speed do accountants need?",
+          "a": "Postings rarely quote one. Numeric entry at 8,000-12,000 keystrokes per hour with 99% accuracy on amounts matters more than prose speed, which is usually fine at 40-50 WPM."
+        },
+        {
+          "q": "Is 10-key speed tested for accounting jobs?",
+          "a": "Sometimes, especially for accounts payable, payroll and bookkeeping roles. Larger firms more often use an Excel work sample, which tests the same accuracy under realistic conditions."
+        },
+        {
+          "q": "How fast is 10,000 keystrokes per hour?",
+          "a": "About 33 words per minute equivalent, or 167 characters per minute. On a numeric keypad that is a comfortable working pace rather than a sprint."
+        },
+        {
+          "q": "Why does accuracy matter more than speed here?",
+          "a": "A transposed digit in an amount becomes a reconciliation break, which takes longer to find and fix than the entry saved. Accounting work is judged on the ledger balancing, not on entry rate."
+        },
+        {
+          "q": "Should I practise on the number row or the keypad?",
+          "a": "The keypad, for amounts. Use the number row only for alphanumeric strings such as account codes where your hand is already on the main keyboard."
+        }
+      ]
+    },
+    {
+      "file": "typing-test-for-paralegal.html",
+      "title": "Typing Test for Paralegals — 50-65 WPM and Formatting",
+      "metaDesc": "Paralegal work screens around 50-65 WPM with clean formatting: exhibit lists, citations and numbered paragraphs. What to rehearse beyond raw speed.",
+      "h1": "Typing Test for Paralegals",
+      "heroP": "Paralegal typing is document work: <strong>exhibit lists, citations, numbered paragraphs and defined terms</strong>. Firms look for 50–65 WPM, but the errors that matter are formatting errors, not slow words.",
+      "tldr": "Paralegal postings typically ask 50-65 WPM with high accuracy. The differentiator is consistency: party names, case citations and paragraph numbering must be identical every time, which is a different skill from fast prose.",
+      "dur": 300,
+      "mode": "sentences",
+      "crumbs": [
+        "Home",
+        "Typing Test for Paralegals"
+      ],
+      "seo": [
+        {
+          "h2": "The requirement, and what sits behind it",
+          "p": [
+            "Paralegal and legal assistant adverts commonly quote 50-65 WPM, below the 60-75 band for legal secretaries because the role includes more research and drafting than pure transcription. Accuracy expectations are high in both, because a document that misnames a party is a real problem.",
+            "That is why the useful practice is not speed drills on random sentences but repeated typing of the structures you will actually produce: a caption block, a numbered list with consistent indentation, a citation with the right punctuation, a table of exhibits."
+          ]
+        },
+        {
+          "h2": "Formatting is the skill being tested",
+          "p": [
+            "<ul><li><strong>Numbering.</strong> Auto-numbering that renumbers when you paste is the most common way a filing goes out wrong.</li><li><strong>Defined terms.</strong> \"the Company\" keeps its capital; the rest of the document depends on it.</li><li><strong>Citations.</strong> Italics, full stops and abbreviations follow a house style, and consistency is the whole point.</li><li><strong>Track changes.</strong> Typing inside a tracked document is slower and less forgiving than typing a blank page.</li></ul>"
+          ]
+        },
+        {
+          "h2": "A rehearsal that matches the work",
+          "p": [
+            "Take one real clause with three sub-paragraphs and a defined term, and type it three times: once for accuracy, once at pace, once with track changes on. Compare the three outputs against the source line by line. That exercise finds more problems than any typing test.",
+            "Then run five-minute rounds on dense text with punctuation, targeting 98% accuracy. If accuracy falls below that at 65 WPM, work at 58 until it holds - a legal document with two errors a page costs more to check than it saved to type."
+          ]
+        },
+        {
+          "h2": "Related pages",
+          "p": [
+            "For the transcription-heavy version of the role, see <a href=\"typing-test-for-legal-secretary.html\">legal secretary</a>. For dictation and audio work, <a href=\"audio-typing-tips.html\">audio typing</a>. For the general benchmark that most postings quote, the <a href=\"wpm-chart.html\">WPM chart</a> shows where 50-65 sits."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "What typing speed do paralegals need?",
+          "a": "Usually 50-65 WPM with high accuracy. Legal secretary roles sit slightly higher at 60-75 because transcription is a larger part of the job."
+        },
+        {
+          "q": "Is 50 WPM enough for a paralegal job?",
+          "a": "For many roles, yes, provided formatting and accuracy are clean. Firms that test usually care more about whether a citation and a numbered list come out identical every time."
+        },
+        {
+          "q": "Do paralegal tests include legal terminology?",
+          "a": "Sometimes. Work-sample tests use real clauses with defined terms and citations, which is why practising on legal text beats practising on random sentences."
+        },
+        {
+          "q": "How do I improve accuracy on citations?",
+          "a": "Type the same citation ten times from the source, checking character by character, rather than typing ten different citations once. Pattern repetition is what makes punctuation automatic."
+        },
+        {
+          "q": "Does typing speed matter more than research skill?",
+          "a": "No. Typing is a threshold you clear; the role is judged on document accuracy and research quality. That is why the bar sits at 50-65 rather than 75+."
+        }
+      ]
+    }
+  ]
+}

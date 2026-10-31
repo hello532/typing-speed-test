@@ -181,6 +181,30 @@
     {
       "file": "typing-tutorial.html",
       "title": "Typing Tutorial"
+    },
+    {
+      "file": "sql-typing-practice.html",
+      "title": "SQL Typing Practice"
+    },
+    {
+      "file": "typescript-typing-practice.html",
+      "title": "TypeScript Typing Practice"
+    },
+    {
+      "file": "rust-typing-practice.html",
+      "title": "Rust Typing Practice"
+    },
+    {
+      "file": "excel-formula-typing-practice.html",
+      "title": "Excel Formula Typing Practice"
+    },
+    {
+      "file": "typing-test-for-accountants.html",
+      "title": "Typing Test for Accountants"
+    },
+    {
+      "file": "typing-test-for-paralegal.html",
+      "title": "Typing Test for Paralegals"
     }
   ],
   "language": [

@@ -73,6 +73,12 @@ Typing Test Tips
 Typing Tips
 Typing Tutor
 Typing Tutorial
+SQL Typing Practice
+TypeScript Typing Practice
+Rust Typing Practice
+Excel Formula Typing Practice
+Typing Test for Accountants
+Typing Test for Paralegals
 
 ## Typing tests by language
 

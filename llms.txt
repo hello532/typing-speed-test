@@ -97,6 +97,13 @@ Each line below is a claim this site makes, with the source that supports it. Qu
 - [About](https://typing.rerivo.com/about.html): A free browser-only typing speed test; contact and measurement method.
 - [Typing Practice for Programmers](https://typing.rerivo.com/typing-practice-for-programmers.html): Code-focused typing practice — symbols, brackets, camelCase, and pasting your own code as custom text.
 - [How to Type Without Looking](https://typing.rerivo.com/how-to-type-without-looking.html): Home-row touch-typing guide — type by feel, train muscle memory, stop looking at the keyboard.
+- [SQL Typing Practice](https://typing.rerivo.com/sql-typing-practice.html): SQL typing is bracket-and-quote work: roughly one symbol every five characters. Practise at 40-60 WPM on queries you would actually write, and watch accuracy ra
+- [TypeScript Typing Practice](https://typing.rerivo.com/typescript-typing-practice.html): TypeScript is symbol-dense: generics add <>, types add :, optional fields add ?, and arrow functions add =>. Expect 10-20% lower speed than plain JavaScript at 
+- [Rust Typing Practice](https://typing.rerivo.com/rust-typing-practice.html): Rust needs ampersands, apostrophes, angle brackets, question marks and double colons, often in the same expression. Expect 40-55 WPM on real code even if you ty
+- [Excel Formula Typing Practice](https://typing.rerivo.com/excel-formula-typing-practice.html): Excel formulas are 30-40% punctuation by character count. The frequent failures are unbalanced brackets, a comma typed as a full stop, and a missing $ in an abs
+- [Typing Test for Accountants](https://typing.rerivo.com/typing-test-for-accountants.html): Accounting roles rarely advertise a WPM figure. What matters is numeric entry: 8,000-12,000 keystrokes per hour on the keypad, 99%+ accuracy on amounts, and com
+- [Typing Test for Paralegals](https://typing.rerivo.com/typing-test-for-paralegal.html): Paralegal postings typically ask 50-65 WPM with high accuracy. The differentiator is consistency: party names, case citations and paragraph numbering must be id
+
 
 ## Word Lists (Top 200 by Frequency)
 - [Top English Words](https://typing.rerivo.com/top-en-words.html): The 200 most common English words from open subtitle-frequency data, with a built-in typing practice test.
