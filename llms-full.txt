@@ -5692,6 +5692,10 @@ Typing Test for 911 Dispatchers
 SSC CHSL Typing Test
 Typing Test for 5th Graders
 Typing Test for Legal Secretaries
+Typing Test for Court Clerks
+Typing Test for Medical Receptionists
+Typing Test for Insurance Claims
+Typing Test for Warehouse Admin
 ## Frequently asked questions
 160 pages, covering nine timed lengths, twelve language pools, skill drills, exam and job pages, metrics explainers and guides. Every one is free and needs no account.
 The five-minute sentence test on the home page. It is the length most screening tests use, and it produces the net score you can quote elsewhere. Use shorter rounds only for warm-ups.
@@ -5967,3 +5971,113 @@ Fifteen minutes a day. The plan is built around 2 minutes warm-up, 8 minutes dri
 Continue where you left off rather than restarting. The weeks are ordered by cause, not by calendar; a missed day costs nothing, a missed week means repeating that week's checkpoint.
 No. Timed rounds, a covered keyboard (a cloth works), and a note of your scores are enough. The drill content matters more than the tool.
 At day 30, then switch to maintenance: five minutes, four days a week. Deliberate practice has diminishing returns once your habits are clean.
+
+## Typing Test for Court Clerks
+Source: https://typing.rerivo.com/typing-test-for-court-clerk.html
+
+A court clerk types case numbers, filing codes, party names and dates into a docket system all day. The speed bar is moderate — 45 to 55 WPM — but an identifier typed wrong creates a filing that cannot be found.
+
+## What the job types
+A docket entry looks like this: a case number with a year and a court code, a filing type from a fixed list, the filing party, a date, and a short description. Almost every field is either a code or a proper noun, and several are checked against an existing record.
+That shape matters for practice. Copying prose trains sentence rhythm; docket entry trains short alphanumeric bursts with a verification step after each field. The second is what the job actually rewards.
+## Why identifiers dominate the error budget
+A misspelt word in a note is readable. A case number with a transposed digit is a filing that cannot be retrieved by the parties who need it, and fixing it usually requires a correction entry and a supervisor.
+Case numbers - alphanumeric with a year and a court or division code.
+Dates - filing date, hearing date, deadline; format depends on the court.
+Party names - often unusual spellings, and never autocorrected.
+Filing codes - short, similar-looking, and chosen from a list rather than typed freehand.
+## The drill that transfers
+Type a case number, check it character by character, then type the next one. Ten repetitions of the same number beat one pass through ten different numbers, because the goal is a verification habit rather than exposure to variety.
+Then add the field-switching behaviour: case number, Tab, filing type, Tab, date, Enter. Real docket systems move between fields, and typing a clean number followed by a wrong Tab is a lost record just the same.
+## Speed bands and what they clear
+Band | Clears | Notes
+35-45 WPM | Entry-level clerk-typist titles | Usually paired with a data-entry exercise
+45-55 WPM | Most court clerk and deputy clerk postings | The common advertised band
+55+ WPM | High-volume filing desks | Accuracy floor matters more than the extra speed
+Public-sector postings often state the requirement in net WPM on a five-minute sample, and some require a proctored certificate. Check the notice: the wording tells you which document they will accept.
+## Frequently asked questions
+Usually 45-55 WPM with high accuracy, and often on a five-minute proctored sample. The accuracy requirement is strict because a wrong case number creates an unretrievable filing.
+A large part of it is docket entry and filing, which is typing in short alphanumeric bursts. The rest is checking documents, answering counter enquiries and managing records.
+Some jurisdictions require a proctored typing certificate with a stated speed and date; others accept self-certification and test later. The posting states which, and the wording is usually explicit.
+Type the same number ten times, checking character by character after each attempt, then move to a new one. Repetition builds the verification habit that prevents transposition errors.
+Somewhat. You need to recognise filing types and party designations, but you select codes rather than compose text, so accuracy matters more than vocabulary.
+
+## Typing Test for Medical Receptionists
+Source: https://typing.rerivo.com/typing-test-for-medical-receptionist.html
+
+Medical reception is typing with a queue: patient names, dates of birth, insurance IDs and appointment slots, entered while someone waits. Clinics commonly ask 40–50 WPM, and the failure mode is always a digit.
+
+## What the front desk actually enters
+A registration is a form: name, date of birth, address, phone, insurance carrier, member ID, group number, reason for visit. Between six and eight of those fields are numeric or alphanumeric, and two of them (date of birth and member ID) are the ones that cause billing rejections when mistyped.
+The typing is short and interrupted. That combination — many short entries, frequent interruptions — is why front-desk staff who type 50 WPM in a test can still feel slow on a Monday morning.
+## Why digits decide the outcome
+Letters can be inferred from context; digits cannot. A member ID with two digits swapped is rejected by the clearing house weeks later, and the correction costs the practice more than the registration did.
+Dates of birth - format-sensitive, and a common source of duplicate patient records.
+Insurance member IDs - alphanumeric, often 10-15 characters with no internal logic to catch an error.
+Phone numbers - ten digits, typed while the patient is still talking.
+Appointment times - a single digit decides whether someone arrives at 9 or 19 past the hour.
+## A rehearsal that matches the desk
+Two minutes of Numbers mode daily, graded on errors. Then a form drill: type a mock registration (name, DOB, phone, member ID) ten times and count how many are completely clean. Three clean records in a row is the realistic readiness bar.
+Add the interruption: type half a record, look away for five seconds, then finish it. That is the actual working condition, and it is where the errors appear in practice rather than in a quiet test.
+## Practical notes for the interview
+If asked for a speed, quote net WPM with accuracy and test length, and mention numeric entry separately if you have a figure. A clinic manager reads the accuracy number first, because they have seen what a mistyped member ID costs.
+Ask which practice-management system they use. The typing skill transfers; the keyboard shortcuts do not, and knowing the system name tells you what the first week will feel like.
+## Frequently asked questions
+Most clinic postings ask 40-50 WPM with accuracy above 97%. Medical and dental front desks sit at the top of that band because patient identifiers must be exact.
+Basic familiarity helps for reason-for-visit fields, but you select from lists more often than you compose. Accuracy on names, dates and insurance numbers matters more.
+Two minutes of numeric practice daily, graded on errors rather than speed, plus a form drill where you type the same mock registration ten times and count clean records.
+Sometimes, usually a short online test or a timed registration exercise. Larger practices and hospital groups are more likely to test formally.
+No. Speed is a floor; knowing the practice-management system and the registration workflow is what makes someone fast in the first month.
+
+## Typing Test for Insurance Claims
+Source: https://typing.rerivo.com/typing-test-for-insurance-claims.html
+
+Claims work is code entry under a queue: policy numbers, claim references, loss codes, reserve amounts. The advertised speed is modest — 45 to 55 WPM — and the accuracy expectation is the strictest in clerical work.
+
+## The shape of a claim entry
+A first-notice-of-loss record is a fixed form: policy number, insured name, date of loss, loss type code, description, estimated reserve, adjuster assignment. Two of those fields are money, three are codes, one is narrative. The narrative is the only part where prose typing helps.
+That ratio is why claims processors who type 50 WPM with clean digits outperform colleagues at 65 WPM who need corrections. The queue measures completed, correct records.
+## Where errors actually cost money
+Reserve amounts - a misplaced decimal changes a reserve by a factor of ten.
+Policy numbers - alphanumeric, no checksum you can rely on, and a wrong digit attaches the claim to the wrong policyholder.
+Loss codes - similar-looking categories where a mis-selection routes the claim to the wrong team.
+Dates of loss - coverage windows depend on them, so a wrong year can void a valid claim.
+## How to train for it
+Two minutes of Numbers mode daily, then a record drill: type a mock claim (policy, date, code, amount) ten times, verify against the source each time, and count clean records. Target three consecutive clean records before you claim the skill.
+Practise decimal placement deliberately. Type amounts with two decimal places and a thousands separator until the pattern is automatic, because that is the field where a single keystroke has the largest consequence.
+## Bands and adjacent roles
+Claims processing usually advertises 45-55 WPM with 98% accuracy. Related roles differ: medical billing sits at 45-55 with 98%, data entry is quoted in keystrokes per hour at 8,000-12,000, and customer service claims handling drops to 35-45 because the work is more conversation than entry.
+If a posting quotes keystrokes per hour instead of WPM, convert before deciding whether you qualify — 10,000 KPH is about 33 WPM, which is a different test from a 50 WPM prose reading.
+## Frequently asked questions
+Usually 45-55 WPM with accuracy of 98% or better. Codes, amounts and policy numbers dominate the work, so numeric accuracy is the deciding factor.
+A large part of it is data entry into a claims system, alongside document review and correspondence. The entry is short, coded and repeated, rather than long-form typing.
+A wrong reserve amount, policy number or loss date can misroute a claim, delay payment or change a reserve by a factor of ten. Corrections are expensive and sometimes regulated.
+Type amounts with two decimals and a thousands separator until the pattern is automatic, then add the surrounding fields (policy number, date, code) so you practise the field-switching as well.
+Yes for the role, no for the screening test. Employers test the typing floor because it is cheap to measure; the job itself is judged on accuracy and turnaround.
+
+## Typing Test for Warehouse Admin
+Source: https://typing.rerivo.com/typing-test-for-warehouse-admin.html
+
+Warehouse administration is SKUs, quantities, carrier references and addresses. The speed bar is low — 35 to 45 WPM — but a mistyped SKU or postcode sends the wrong item to the wrong place.
+
+## What the work looks like
+A goods-in entry is a purchase order reference, a SKU list with quantities, a supplier and a date. A dispatch entry is an order reference, a carrier, a tracking number, a postcode and a weight. Both are short fields typed at speed while a vehicle waits.
+Because the rhythm is driven by the dock rather than the screen, the typical failure is not slow typing but a skipped field or a transposed digit in a postcode. Speed matters mainly so the queue does not build.
+## Codes and postcodes are the risk
+SKUs - often alphanumeric with similar-looking variants (0/O, 1/I, 5/S).
+Postcodes - a single wrong character changes the delivery area.
+Quantities - digits only, and an extra zero is a real cost.
+Tracking references - long, no internal logic, and copied from a label.
+Where barcode scanning exists, typing is the fallback and the audit path; where it does not, typing is the only record. Both need the same accuracy habit.
+## Practising without a warehouse
+Two minutes of Numbers mode a day, plus an address drill: type ten postcodes and street lines, then check them character by character. Add a SKU drill with confusable characters (0/O, 1/I, 5/S) because that is where picking errors originate.
+If you already work in a warehouse, copy real SKUs from a pick list rather than random strings. Familiarity with the format is what makes the practice transfer.
+## Realistic expectations
+35-45 WPM clears most warehouse admin postings, and many roles never test it formally — they check whether you can use the warehouse management system without errors. If a test exists, it is usually a short alphanumeric exercise.
+For adjacent roles, see data entry if the work is volume entry, or alphanumeric typing for the drill that matches SKU and postcode content.
+## Frequently asked questions
+Usually 35-45 WPM. Many roles do not test formally; they check whether you can enter codes and quantities into the warehouse system without errors.
+Both matter. Scanning is faster where barcodes exist, but typing is the fallback and the audit path, and quantities and exceptions are usually keyed by hand.
+Practise confusable characters (0/O, 1/I, 5/S) deliberately, and verify each SKU against the pick list character by character for the first weeks on the job.
+No. The dock sets the pace, and accuracy determines whether the queue clears. 35-45 WPM with clean codes is enough for most admin roles.
+Numbers and postcodes. They are the fields with real-world consequences, and they are where untrained typists lose accuracy first.

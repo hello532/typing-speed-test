@@ -226,6 +226,10 @@ Typing Test for 911 Dispatchers
 SSC CHSL Typing Test
 Typing Test for 5th Graders
 Typing Test for Legal Secretaries
+Typing Test for Court Clerks
+Typing Test for Medical Receptionists
+Typing Test for Insurance Claims
+Typing Test for Warehouse Admin
 
 ## Frequently asked questions
 

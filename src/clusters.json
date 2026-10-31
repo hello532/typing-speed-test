@@ -703,6 +703,22 @@
     {
       "file": "typing-test-for-legal-secretary.html",
       "title": "Typing Test for Legal Secretaries"
+    },
+    {
+      "file": "typing-test-for-court-clerk.html",
+      "title": "Typing Test for Court Clerks"
+    },
+    {
+      "file": "typing-test-for-medical-receptionist.html",
+      "title": "Typing Test for Medical Receptionists"
+    },
+    {
+      "file": "typing-test-for-insurance-claims.html",
+      "title": "Typing Test for Insurance Claims"
+    },
+    {
+      "file": "typing-test-for-warehouse-admin.html",
+      "title": "Typing Test for Warehouse Admin"
     }
   ]
 }
