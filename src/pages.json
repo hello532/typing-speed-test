@@ -13551,8 +13551,8 @@
     {
      "h2": "The quick comparison table",
      "p": [
-      "Six typing tests dominate the free tier, and they are genuinely different tools, not copies. This table compares what matters in daily use: whether you need an account, how many languages the practice text covers, whether the tool tells you which keys to fix, and extras like certificates and word lists.",
-      "<div class=\"tbl\"><table><thead><tr><th>Site</th><th>No sign up</th><th>Practice languages</th><th>Weak-key analysis</th><th>Word lists</th><th>Best for</th></tr></thead><tbody>\n    <tr><td>Typing.Rerivo</td><td>Yes</td><td>12</td><td>Yes, per round</td><td>Top 200 × 12 languages</td><td>Multilingual practice, exam prep, measurable improvement</td></tr>\n    <tr><td>monkeytype</td><td>Yes</td><td>Many (test modes)</td><td>Basic stats</td><td>No</td><td>Minimalist design, customization, community</td></tr>\n    <tr><td>10fastfingers</td><td>Yes</td><td>45+ (UI × test)</td><td>Limited</td><td>No</td><td>Multiplayer races, non-English markets</td></tr>\n    <tr><td>typing.com</td><td>Mostly no (lessons need account)</td><td>3 (en/es/br)</td><td>Per lesson</td><td>Via lessons</td><td>Schools, structured courses, teachers</td></tr>\n    <tr><td>keybr</td><td>Yes</td><td>~39 (interface)</td><td>Algorithm-driven</td><td>No</td><td>Adaptive letter-by-letter learning</td></tr>\n    <tr><td>TypingTest.com</td><td>Yes</td><td>1 (English)</td><td>No</td><td>No</td><td>The classic quick check, zero clutter</td></tr>\n  </tbody></table></div>"
+      "<table><tr><th>Site</th><th>Sign-up</th><th>Ads in the test</th><th>Languages</th><th>Lessons</th><th>Certificate</th><th>Best for</th></tr><tr><td>monkeytype</td><td>Not required</td><td>None</td><td>Many (community packs)</td><td>No</td><td>No</td><td>Repeat testing, customisation, no ads</td></tr><tr><td>10fastfingers</td><td>Optional (for rankings)</td><td>Yes on free tier</td><td>Many</td><td>Basic</td><td>No</td><td>Competing against other people</td></tr><tr><td>typing.com</td><td>Required for progress</td><td>Yes on free tier</td><td>English-focused</td><td>Yes, graded</td><td>No</td><td>Classrooms, structured curriculum</td></tr><tr><td>keybr</td><td>Not required</td><td>None</td><td>Several</td><td>Algorithmic drills</td><td>No</td><td>Fixing weak keys with generated text</td></tr><tr><td>TypingTest.com</td><td>Not required</td><td>Yes</td><td>English-focused</td><td>Limited</td><td>Paid</td><td>A formal-looking certificate</td></tr><tr><td>Typing.Rerivo</td><td>Not required</td><td>None in the typing area</td><td>12 practice pools</td><td>Guides and a 12-lesson course</td><td>Free, self-issued</td><td>Multilingual practice with the measurement explained</td></tr></table>",
+      "Six typing tests dominate the free tier, and they are genuinely different tools, not copies. This table compares what matters in daily use: whether you need an account, how many languages the practice text covers, whether the tool tells you which keys to fix, and extras like certificates and word lists."
      ]
     },
     {
@@ -13596,6 +13596,20 @@
       "Want the prettiest daily test? monkeytype. Want to race people? 10fastfingers. Teaching a class or a child? typing.com. Learning finger placement from zero? keybr. A ten-second speed check? TypingTest.com. Multilingual practice, exam prep, or measured improvement with weak-key data? Typing.Rerivo.",
       "The honest meta-answer: all of them are free, so use two. A daily measurement on one site and practice on another keeps both scores honest — and if you ever need to prove your speed, a <a href=\"typing-certificate.html\">typing certificate</a> from a timed, dated test beats any screenshot."
      ]
+    },
+    {
+     "h2": "How this comparison was made",
+     "p": [
+      "Checked in October 2026 by opening each site and using its free tier: whether a test starts without an account, whether ads appear inside the typing area, which languages the practice pool offers, whether lessons exist, and whether a certificate is offered and at what cost.",
+      "Where a feature sat behind a sign-up, that is recorded as \"required\" rather than missing. Nothing here is based on traffic estimates, backlink counts or revenue - those are not observable, so they are not claimed."
+     ]
+    },
+    {
+     "h2": "What this comparison does not measure",
+     "p": [
+      "It does not measure speed or reliability under load, accessibility for screen readers, data retention policies beyond what the public pages state, or how many people use each site. Those matter, and they are not visible from outside.",
+      "It also does not rank the sites. \"Best\" depends on the job: a classroom needs accounts and reports, a job seeker needs a repeatable score and a certificate, and someone fixing a weak left hand needs generated drills."
+     ]
     }
    ],
    "faqFirstOpen": true,
@@ -13620,6 +13634,14 @@
     {
      "q": "Are these typing tests really free?",
      "a": "Yes, all six have usable free tiers. typing.com and monkeytype offer paid tiers (ad-free/premium features); Typing.Rerivo, keybr and TypingTest.com are free with no account and no paywall."
+    },
+    {
+     "q": "Which typing test site is actually the best?",
+     "a": "For repeat measurement with no ads, monkeytype. For classrooms and graded lessons, typing.com. For a printable certificate, this site or a paid one. For fixing weak keys, keybr. There is no single best."
+    },
+    {
+     "q": "Are free typing tests as accurate as paid ones?",
+     "a": "Yes - the measurement is characters against a clock. Paid tiers sell certificates, accounts and reporting, not a better stopwatch."
     }
    ],
    "tldr": "The best free typing test depends on your goal: monkeytype (design/community), 10fastfingers (multiplayer, 45+ languages), typing.com (classrooms/courses), keybr (adaptive fundamentals), TypingTest.com (zero-clutter quick check), and Typing.Rerivo (12 languages with real practice text, per-key weak-key analysis, word lists and certificates — no sign up).",

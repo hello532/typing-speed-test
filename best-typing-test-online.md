@@ -13,16 +13,18 @@ typing.com: the classroom standard
 keybr and TypingTest.com: the two extremes
 Typing.Rerivo: multilingual practice with measurement built in
 How to choose in ten seconds
+How this comparison was made
+What this comparison does not measure
+
+Site | Sign-up | Ads in the test | Languages | Lessons | Certificate | Best for
+monkeytype | Not required | None | Many (community packs) | No | No | Repeat testing, customisation, no ads
+10fastfingers | Optional (for rankings) | Yes on free tier | Many | Basic | No | Competing against other people
+typing.com | Required for progress | Yes on free tier | English-focused | Yes, graded | No | Classrooms, structured curriculum
+keybr | Not required | None | Several | Algorithmic drills | No | Fixing weak keys with generated text
+TypingTest.com | Not required | Yes | English-focused | Limited | Paid | A formal-looking certificate
+Typing.Rerivo | Not required | None in the typing area | 12 practice pools | Guides and a 12-lesson course | Free, self-issued | Multilingual practice with the measurement explained
 
 Six typing tests dominate the free tier, and they are genuinely different tools, not copies. This table compares what matters in daily use: whether you need an account, how many languages the practice text covers, whether the tool tells you which keys to fix, and extras like certificates and word lists.
-
-Site | No sign up | Practice languages | Weak-key analysis | Word lists | Best for
-Typing.Rerivo | Yes | 12 | Yes, per round | Top 200 × 12 languages | Multilingual practice, exam prep, measurable improvement
-monkeytype | Yes | Many (test modes) | Basic stats | No | Minimalist design, customization, community
-10fastfingers | Yes | 45+ (UI × test) | Limited | No | Multiplayer races, non-English markets
-typing.com | Mostly no (lessons need account) | 3 (en/es/br) | Per lesson | Via lessons | Schools, structured courses, teachers
-keybr | Yes | ~39 (interface) | Algorithm-driven | No | Adaptive letter-by-letter learning
-TypingTest.com | Yes | 1 (English) | No | No | The classic quick check, zero clutter
 
 monkeytype is the design darling of the typing world: a clean, fast, endlessly customizable test with themes, modes and a huge community. It needs no account for the core test, supports many test languages and modes, and its smooth interface is genuinely the best-feeling in the category.
 
@@ -48,6 +50,14 @@ Want the prettiest daily test? monkeytype. Want to race people? 10fastfingers. T
 
 The honest meta-answer: all of them are free, so use two. A daily measurement on one site and practice on another keeps both scores honest — and if you ever need to prove your speed, a typing certificate from a timed, dated test beats any screenshot.
 
+Checked in October 2026 by opening each site and using its free tier: whether a test starts without an account, whether ads appear inside the typing area, which languages the practice pool offers, whether lessons exist, and whether a certificate is offered and at what cost.
+
+Where a feature sat behind a sign-up, that is recorded as "required" rather than missing. Nothing here is based on traffic estimates, backlink counts or revenue - those are not observable, so they are not claimed.
+
+It does not measure speed or reliability under load, accessibility for screen readers, data retention policies beyond what the public pages state, or how many people use each site. Those matter, and they are not visible from outside.
+
+It also does not rank the sites. "Best" depends on the job: a classroom needs accounts and reports, a job seeker needs a repeatable score and a certificate, and someone fixing a weak left hand needs generated drills.
+
 ## Best typing test FAQ
 
 ### What is the best free typing test online?
@@ -69,3 +79,11 @@ Look for per-key weakness analysis and structured practice: keybr adapts to your
 ### Are these typing tests really free?
 
 Yes, all six have usable free tiers. typing.com and monkeytype offer paid tiers (ad-free/premium features); Typing.Rerivo, keybr and TypingTest.com are free with no account and no paywall.
+
+### Which typing test site is actually the best?
+
+For repeat measurement with no ads, monkeytype. For classrooms and graded lessons, typing.com. For a printable certificate, this site or a paid one. For fixing weak keys, keybr. There is no single best.
+
+### Are free typing tests as accurate as paid ones?
+
+Yes - the measurement is characters against a clock. Paid tiers sell certificates, accounts and reporting, not a better stopwatch.
