@@ -64,6 +64,13 @@ def main() -> int:
     pp = {r["keys"][0]: r for r in rows(tok, "page", prev_s, prev_e)}
 
     new_q = sorted([q for q in cq if q not in pq], key=lambda q: -cq[q]["impressions"])[:15]
+    # p11–30 且零点击：唯一「改标题/描述可能立刻见效」的一批（位置>30 时文案不起决定作用）
+    ctr_ops = [{"page": u.replace("https://typing.rerivo.com/", ""),
+                "impressions": r["impressions"], "clicks": r["clicks"],
+                "position": round(r["position"], 1)}
+               for u, r in cp.items() if 10 < r["position"] <= 30 and r["clicks"] == 0 and r["impressions"] >= 5]
+    ctr_ops.sort(key=lambda x: -x["impressions"])
+    out_ctr = ctr_ops[:10]
     movers = []
     for u, r in cp.items():
         if u in pp:
@@ -78,7 +85,7 @@ def main() -> int:
            "current": cur, "previous": prev,
            "new_queries": [{"query": q, "impressions": cq[q]["impressions"],
                             "position": round(cq[q]["position"], 1)} for q in new_q],
-           "movers": movers[:12]}
+           "movers": movers[:12], "ctr_opportunities": out_ctr}
 
     if a.json:
         print(json.dumps(out, ensure_ascii=False, indent=1))
@@ -93,6 +100,9 @@ def main() -> int:
     print(f"\n新进榜查询（{len(out['new_queries'])} 个，按曝光）：")
     for q in out["new_queries"]:
         print(f"  {q['impressions']:>4.0f} 次  p{q['position']:>5.1f}  {q['query']}")
+    print(f"\np11–30 且零点击（改标题描述唯一可能有效的范围，共 {len(out_ctr)} 页）：")
+    for x in out_ctr:
+        print(f"  p{x['position']:>5.1f}  {x['impressions']:>4.0f} 次曝光  {x['page']}")
     print(f"\n名次变动 ≥5 的页面：")
     for m in out["movers"]:
         arrow = "↑" if m["delta"] > 0 else "↓"
