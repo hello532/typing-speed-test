@@ -18,6 +18,8 @@ WPM | Percentile | Verdict | What it opens
 
 Percentiles are a normal approximation of the study distribution; it reproduces the paper's reported deciles (about 26 and 78 WPM) to within a point. The percentile page computes any score exactly.
 
+Background on how those figures were measured, and why a 40 WPM figure and a 51.56 WPM figure can both be right, is on the average typing speed page.
+
 The verdict is relative to the measured population, not to a job you want. A 45 WPM score is genuinely average and genuinely enough for a receptionist posting; both statements are true at once. Employers do not rank candidates by percentile, they compare against a fixed number in the advert.
 
 So use the percentile to know where you stand and the job column to know what to aim at. If the posting says 50 and you are at 44, the gap is a fortnight of accuracy work, not a personality problem.

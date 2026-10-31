@@ -18,6 +18,8 @@ Two things are still developing before about age ten: hand size relative to the 
 
 That is why early keyboarding instruction focuses on letter location and posture rather than words per minute. Pushing speed before the hands are ready produces the two-finger hunt-and-peck style that later caps out around 35-40 WPM.
 
+For the adult benchmarks those grade bands are heading towards, see average typing speed.
+
 Grades 1-2: letter games, five minutes at a time, no timer. The goal is knowing where the keys are.
 Grades 3-4: home row drills and short un-timed copying. Cover the hands for one round a week once the home row is secure.
 Grade 5: timed one-minute tests, but score accuracy first. A child at 90% accuracy will overtake a faster child who types sloppily.

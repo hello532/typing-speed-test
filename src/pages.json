@@ -4502,6 +4502,15 @@
      ]
     },
     {
+     "h2": "Why published averages disagree",
+     "p": [
+      "Search \"average typing speed\" and you will find 40, 45, 50, 52 and 60 WPM on the first page. They are not all wrong - they describe different populations, measured different ways. This is the table that reconciles them:",
+      "<table><tr><th>Figure</th><th>What it describes</th><th>Where it comes from</th></tr><tr><td>~40 WPM</td><td>Office workers on work tasks, older and smaller samples</td><td>The legacy figure quoted in most business and career articles; no single modern study</td></tr><tr><td>51.56 WPM</td><td>People who chose to take an online typing test</td><td>Dhakal et al., CHI 2018 - 136,857,600 keystrokes from 168,960 volunteers, doi.org/10.1145/3173574.3174220</td></tr><tr><td>36.17 WPM</td><td>The same task on a touchscreen</td><td>Palin et al., MobileHCI 2019 - 37,370 volunteers, doi.org/10.1145/3338286.3340120</td></tr><tr><td>60-70 WPM</td><td>\"Good typists\" in job advertising</td><td>Advertised requirements, not a measured population</td></tr></table>",
+      "So the honest answer to \"what is the average\" is: <strong>51.56 WPM if you mean people who take typing tests, about 40 WPM if you mean office workers on work tasks, and 36 WPM if you mean phones</strong>. None of those is a national average, and nobody has measured one recently.",
+      "Which should you use? For a job application, use the figure in the posting - employers compare against their own floor, not against a population. For a personal target, use the percentile table above, because it tells you where you sit among people who actually type for a measured minute."
+     ]
+    },
+    {
      "h2": "What counts as good, fast and exceptional",
      "p": [
       "<table><tr><th>Band</th><th>Net WPM</th><th>Percentile (approx.)</th><th>What it means</th></tr><tr><td>Slow</td><td>under 26</td><td>bottom 10%</td><td>Hunting for keys; typing is the bottleneck</td></tr><tr><td>Below average</td><td>26-40</td><td>10th-28th</td><td>Two-finger or untrained touch typing</td></tr><tr><td>Average</td><td>40-52</td><td>28th-50th</td><td>Enough for most office work</td></tr><tr><td>Good</td><td>52-65</td><td>50th-75th</td><td>Comfortable all-day typing</td></tr><tr><td>Fast</td><td>65-78</td><td>75th-90th</td><td>Above most job requirements</td></tr><tr><td>Top decile</td><td>78-100</td><td>90th-99th</td><td>Professional typists, developers, transcribers</td></tr><tr><td>Exceptional</td><td>100+</td><td>top 1%</td><td>Competitive typing, world-record territory</td></tr></table>",
@@ -4571,6 +4580,10 @@
     {
      "q": "What is the average typing speed for a beginner?",
      "a": "20-30 WPM with 90-95% accuracy is typical for an untrained adult. With ten minutes of daily practice, 35-45 WPM within three months is a realistic progression."
+    },
+    {
+     "q": "Why do different sites quote different average typing speeds?",
+     "a": "They measure different populations: about 40 WPM for office workers on work tasks (the legacy figure), 51.56 WPM for people who take online typing tests (CHI 2018, n=168,960), and 36.17 WPM for phones (MobileHCI 2019)."
     }
    ],
    "webAppName": "Typing Speed Test",
@@ -15249,7 +15262,8 @@
     {
      "h2": "WPM to percentile chart",
      "p": [
-      "<table><tr><th>WPM</th><th>Percentile (approx.)</th><th>CPM</th><th>Keystrokes per hour</th></tr><tr><td>20</td><td>6th</td><td>100</td><td>6,000</td></tr><tr><td>26</td><td>10th</td><td>130</td><td>7,800</td></tr><tr><td>30</td><td>14th</td><td>150</td><td>9,000</td></tr><tr><td>40</td><td>28th</td><td>200</td><td>12,000</td></tr><tr><td>50</td><td>47th</td><td>250</td><td>15,000</td></tr><tr><td>60</td><td>66th</td><td>300</td><td>18,000</td></tr><tr><td>70</td><td>82nd</td><td>350</td><td>21,000</td></tr><tr><td>78</td><td>90th</td><td>390</td><td>23,400</td></tr><tr><td>80</td><td>92nd</td><td>400</td><td>24,000</td></tr><tr><td>90</td><td>97th</td><td>450</td><td>27,000</td></tr><tr><td>100</td><td>99th</td><td>500</td><td>30,000</td></tr><tr><td>120</td><td>99.9th</td><td>600</td><td>36,000</td></tr></table>"
+      "<table><tr><th>WPM</th><th>Percentile (approx.)</th><th>CPM</th><th>Keystrokes per hour</th></tr><tr><td>20</td><td>6th</td><td>100</td><td>6,000</td></tr><tr><td>26</td><td>10th</td><td>130</td><td>7,800</td></tr><tr><td>30</td><td>14th</td><td>150</td><td>9,000</td></tr><tr><td>40</td><td>28th</td><td>200</td><td>12,000</td></tr><tr><td>50</td><td>47th</td><td>250</td><td>15,000</td></tr><tr><td>60</td><td>66th</td><td>300</td><td>18,000</td></tr><tr><td>70</td><td>82nd</td><td>350</td><td>21,000</td></tr><tr><td>78</td><td>90th</td><td>390</td><td>23,400</td></tr><tr><td>80</td><td>92nd</td><td>400</td><td>24,000</td></tr><tr><td>90</td><td>97th</td><td>450</td><td>27,000</td></tr><tr><td>100</td><td>99th</td><td>500</td><td>30,000</td></tr><tr><td>120</td><td>99.9th</td><td>600</td><td>36,000</td></tr></table>",
+      "The population behind the distribution - who was measured, on what device, and why the numbers differ between sources - is on the <a href=\"average-typing-speed.html\">average typing speed</a> page."
      ]
     },
     {
@@ -17153,7 +17167,8 @@
      "h2": "The chart",
      "p": [
       "<table><tr><th>WPM</th><th>Percentile</th><th>Verdict</th><th>What it opens</th></tr><tr><td>20</td><td>6th</td><td>Slow — hunting for keys</td><td>Nothing that screens; fine for personal use</td></tr><tr><td>26</td><td>10th</td><td>Below average</td><td>Entry data entry at 7,000-8,000 KPH if accuracy is high</td></tr><tr><td>30</td><td>14th</td><td>Below average but workable</td><td>Some dispatch and call-centre floors</td></tr><tr><td>40</td><td>28th</td><td>Good enough — the standard floor</td><td>Most clerical, receptionist and county government roles</td></tr><tr><td>50</td><td>47th</td><td>Average adult</td><td>Office, admin and customer service bands</td></tr><tr><td>60</td><td>66th</td><td>Fast</td><td>Legal secretary entry, transcription entry</td></tr><tr><td>70</td><td>82nd</td><td>Very fast</td><td>General transcription, medical admin</td></tr><tr><td>80</td><td>92nd</td><td>Top decile</td><td>Medical transcription upper band, competitive typing</td></tr><tr><td>100</td><td>99th</td><td>Top 1%</td><td>No job requires it; it removes typing as a bottleneck</td></tr><tr><td>120</td><td>99.9th</td><td>Exceptional</td><td>Competition level on short bursts</td></tr></table>",
-      "Percentiles are a normal approximation of the study distribution; it reproduces the paper's reported deciles (about 26 and 78 WPM) to within a point. The <a href=\"typing-speed-percentile.html\">percentile page</a> computes any score exactly."
+      "Percentiles are a normal approximation of the study distribution; it reproduces the paper's reported deciles (about 26 and 78 WPM) to within a point. The <a href=\"typing-speed-percentile.html\">percentile page</a> computes any score exactly.",
+      "Background on how those figures were measured, and why a 40 WPM figure and a 51.56 WPM figure can both be right, is on the <a href=\"average-typing-speed.html\">average typing speed</a> page."
      ]
     },
     {
@@ -17368,7 +17383,8 @@
      "h2": "Why younger children score lower - and should",
      "p": [
       "Two things are still developing before about age ten: hand size relative to the keyboard, and the fine motor control needed for independent finger movement. A seven-year-old reaching across a full-size keyboard is doing a different physical task from a twelve-year-old.",
-      "That is why early keyboarding instruction focuses on letter location and posture rather than words per minute. Pushing speed before the hands are ready produces the two-finger hunt-and-peck style that later caps out around 35-40 WPM."
+      "That is why early keyboarding instruction focuses on letter location and posture rather than words per minute. Pushing speed before the hands are ready produces the two-finger hunt-and-peck style that later caps out around 35-40 WPM.",
+      "For the adult benchmarks those grade bands are heading towards, see <a href=\"average-typing-speed.html\">average typing speed</a>."
      ]
     },
     {

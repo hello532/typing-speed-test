@@ -22,6 +22,8 @@ WPM | Percentile (approx.) | CPM | Keystrokes per hour
 100 | 99th | 500 | 30,000
 120 | 99.9th | 600 | 36,000
 
+The population behind the distribution - who was measured, on what device, and why the numbers differ between sources - is on the average typing speed page.
+
 The sample is self-selected: people who choose to take an online typing test are not a random sample of the population, and they are disproportionately young, educated and comfortable in English. A 60 WPM score being the 66th percentile here does not mean it is the 66th percentile of all office workers.
 
 The study also measures transcription typing — copying displayed text — on a desktop keyboard in English. Phone typing, dictation, code and non-Latin scripts are different tasks with different distributions, so a percentile from this table describes one specific skill.

@@ -7,6 +7,7 @@ The average typing speed is about 40 to 50 words per minute (WPM) with roughly 9
 On this page
 
 The number, and where it comes from
+Why published averages disagree
 What counts as good, fast and exceptional
 Average typing speed by age
 Average typing speed by profession
@@ -16,6 +17,18 @@ Test yourself against the bands
 The most-cited modern measurement is Dhakal, Feit, Kristensson and Oulasvirta, "Observations on Typing from 136 Million Keystrokes" (CHI 2018). It recorded 136,857,600 keystrokes from 168,960 volunteers and reports a mean of 51.56 WPM with a standard deviation of 20.2, an uncorrected error rate of 1.17%, and 1.173 keystrokes per character. The paper is open at doi.org/10.1145/3173574.3174220.
 
 Most pages still quote 40 WPM. That figure comes from older, smaller samples of office workers and students, and it has been copied forward without being re-measured. Both describe real populations: 40 WPM is closer to "typical office worker on a work task", 51.56 WPM to "person who chose to take an online typing test".
+
+Search "average typing speed" and you will find 40, 45, 50, 52 and 60 WPM on the first page. They are not all wrong - they describe different populations, measured different ways. This is the table that reconciles them:
+
+Figure | What it describes | Where it comes from
+~40 WPM | Office workers on work tasks, older and smaller samples | The legacy figure quoted in most business and career articles; no single modern study
+51.56 WPM | People who chose to take an online typing test | Dhakal et al., CHI 2018 - 136,857,600 keystrokes from 168,960 volunteers, doi.org/10.1145/3173574.3174220
+36.17 WPM | The same task on a touchscreen | Palin et al., MobileHCI 2019 - 37,370 volunteers, doi.org/10.1145/3338286.3340120
+60-70 WPM | "Good typists" in job advertising | Advertised requirements, not a measured population
+
+So the honest answer to "what is the average" is: 51.56 WPM if you mean people who take typing tests, about 40 WPM if you mean office workers on work tasks, and 36 WPM if you mean phones. None of those is a national average, and nobody has measured one recently.
+
+Which should you use? For a job application, use the figure in the posting - employers compare against their own floor, not against a population. For a personal target, use the percentile table above, because it tells you where you sit among people who actually type for a measured minute.
 
 Band | Net WPM | Percentile (approx.) | What it means
 Slow | under 26 | bottom 10% | Hunting for keys; typing is the bottleneck
@@ -81,3 +94,7 @@ Correct characters divided by five, then divided by the minutes elapsed. Five ch
 ### What is the average typing speed for a beginner?
 
 20-30 WPM with 90-95% accuracy is typical for an untrained adult. With ten minutes of daily practice, 35-45 WPM within three months is a realistic progression.
+
+### Why do different sites quote different average typing speeds?
+
+They measure different populations: about 40 WPM for office workers on work tasks (the legacy figure), 51.56 WPM for people who take online typing tests (CHI 2018, n=168,960), and 36.17 WPM for phones (MobileHCI 2019).
