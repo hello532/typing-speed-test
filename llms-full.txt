@@ -1644,25 +1644,28 @@ Source: https://typing.rerivo.com/typing-skill-test.html
 
 A typing skill test tells you how good you are at typing: your words per minute (WPM), your accuracy and your error rate, combined into one clear picture of your typing skill level. It is the same kind of test used for job applications and typing exams. Take it below and get your score instantly.
 
-A typing skill test (also called a typing skills test or typing proficiency test) measures how fast and how accurately you can type a passage. You are timed, and your result is reported as WPM plus an accuracy percentage and an error count. Employers, schools and government exams use this format to compare candidates objectively.
-Unlike a plain speed test, a skill test is judged on the combination of speed and accuracy. 70 WPM at 90% accuracy is a weaker result than 60 WPM at 99%, because the errors have to be fixed and cost real time.
-Skill level | WPM | Accuracy
-Beginner | under 30 | under 90%
-Basic | 30-40 | 90-95%
-Proficient | 40-60 | 95-98%
-Advanced | 60-80 | 98-99%
-Expert | 80+ | 99%+
-For most office jobs, 50-60 WPM with 97%+ accuracy is expected. For data entry, exams and specialised roles the bar is higher - see the typing test for jobs requirements.
-Speed and accuracy figures quoted here follow the largest published study of everyday typing: Dhakal et al., CHI 2018, Observations on Typing from 136 Million Keystrokes, which measured 136,857,600 keystrokes from 168,960 volunteers. It reports a mean of 51.56 WPM (SD 20.2), a mean uncorrected error rate of 1.17%, and a mean keystrokes-per-character rate of 1.173. Those are the numbers this page's bands are checked against.
-The claim that finger consistency and keypress preparation predict speed — more than which finger presses which key — comes from Feit, Weir and Oulasvirta, CHI 2016, a motion-capture study of 36 typists. The two studies disagree on how much formal touch-typing training matters, and this page says so where it matters rather than picking the tidier result.
-Where a figure is an estimate rather than a measurement — job requirements, age bands, exam cut-offs — it is drawn from the ranges employers and exam boards publish and is labelled as an estimate. Nothing on this page is a benchmark we ran ourselves.
-Improvement comes from accuracy first, speed second. Slow down until you can type a full minute without errors, keep the fingers on the home row, and look at the screen rather than the keyboard. Practise daily for ten to fifteen minutes, mixing a general typing practice run with a targeted accuracy test. Boost weak spots with the weak-key drill, and check your standing against the average typing speed.
+Three figures, not one. Net speed is the number employers quote. Accuracy is what they weight when the job involves records, codes or names. Consistency - how much your speed varies second to second - predicts whether the speed survives a five-minute test.
+A single WPM number hides all of that. Two typists at 60 WPM can be a careful 99% accuracy operator and a 91% risky one, and the second is a liability in any role where a wrong digit matters.
+Band | Net WPM | Accuracy | What it clears
+Entry | 25-35 | 92-95% | Some dispatch and call-centre floors; personal use
+Clerical | 35-45 | 95-97% | Data entry at 8,000-12,000 KPH; county clerk roles
+Office standard | 45-55 | 97% | Reception, admin, general office postings
+Fast | 55-70 | 98% | Legal secretary, medical admin, transcription entry
+Professional | 70-85 | 98-99% | Transcription upper band, dispatch supervisor, court support
+These bands come from advertised requirements, not from a certification body - no one certifies a typing skill level. They are useful because they match the numbers employers actually print.
+Use a five-minute round on sentences, in one sitting, at the same time of day each time. Then repeat it on a second day before you believe the number: single-round scores move by 5-10 WPM for reasons that have nothing to do with skill.
+If you only ever test on one-minute rounds, you are measuring your burst, not your skill. Five minutes is long enough for the warm-up advantage to fade and short enough to repeat weekly.
+Most screen against a floor - 40 WPM is the common one - and then watch the work sample. A few use a platform test with a cut score, and public-sector roles often require a proctored result.
+In practice the accuracy figure decides more outcomes than the speed figure, because it is the one that predicts rework. If you are choosing which number to improve, improve accuracy first: it is faster to move and it is what the job punishes.
+Speed low? Work the habit ceiling - covered rounds and no-backspace rounds (see the plateau guide).
+Accuracy low? Slow to 85% of your pace for two weeks and refuse to correct during rounds; the error list, not the score, is the thing to read.
+Consistency low? Type ten rounds and look at the spread. Slow-hold rounds narrow it faster than any speed drill - the consistency page has the method.
 ## Typing skill test FAQ
-It is a timed test that measures how fast and accurately you type, reported as words per minute plus an accuracy percentage and error count - the same format employers and exams use.
-For most jobs, 50 to 60 WPM with 97% or higher accuracy is expected. Above 80 WPM with 99% accuracy is expert level.
-Prioritise accuracy, keep your fingers on the home row, look at the screen, and practise a short session every day rather than a long one occasionally.
-Similar, but a skill test is judged on speed and accuracy together, whereas a speed test mainly reports WPM.
-Yes. This test is free, needs no sign-up, and saves your results only in your own browser so you can track progress.
+A timed test that reports net speed, accuracy and often consistency, rather than a single WPM figure. It is meant to show what you can sustain, not your best burst.
+45-55 WPM at 97% accuracy clears most office requirements. 55-70 at 98% opens legal, medical and transcription entry roles; above 70 with high accuracy is professional territory.
+Five minutes on sentences, repeated on a second day. A one-minute round measures a burst, and a single round moves 5-10 WPM for reasons unrelated to skill.
+For most jobs, yes. Accuracy predicts rework, and the roles that quote speed also quote an accuracy floor - typically 95-98%.
+No universal one. Public-sector exams and some agencies issue certificates for their own requirements, but no body certifies a general typing skill level.
 
 ## Government Typing Test
 Source: https://typing.rerivo.com/government-typing-test.html
@@ -2468,16 +2471,22 @@ Source: https://typing.rerivo.com/quotes-typing-test.html
 
 Test your typing speed with famous quotes from history's greatest minds. Real sentences with natural punctuation and capitals. Free, instant results, no sign up.
 
-A quotes typing test measures your speed and accuracy on real famous quotations — the same sentences people actually read, share and write. Unlike random word drills, quotes make you type the way real writing flows: natural word order, commas and full stops in the right places, and capital letters that mark where thoughts begin.
-Quotes are dense with the two things that slow most typists down: punctuation and capitals. Every sentence forces you to handle them at speed, which is exactly the skill that separates a fast prose typist from a fast word-list typist. And because the lines are memorable, your brain reads ahead while your fingers follow — the same look-ahead rhythm that professional typists rely on.
-The pool on this page mixes short, punchy lines with longer reflective ones, so a one-minute round trains both burst speed and sustained rhythm. If you want a warm-up first, the quick brown fox typing test covers every letter of the alphabet in a single sentence.
-Thirty-five lines from public-domain and widely attributed authors — Twain, Aristotle, Franklin, Lincoln, Edison, Einstein, Lao Tzu, Marcus Aurelius and more. Each one is typed exactly as commonly cited, with the author's name after a dash, so you also practise the dash-and-capital pattern that citations use.
-Take one minute a day. Type the quote as if you were writing it down for someone else to read: clean capitals, clean punctuation, no shortcuts. Watch the weak-key report after each round — most people discover a specific symbol (the comma, the dash, the shift key) that taxes every sentence they type. Drill that, and your prose speed jumps within a week.
+A word-list test removes everything except letter-finding: no capitals, no punctuation, no sentence structure. A quotes test keeps all three, which is what a document actually contains.
+The difference shows up in the score. Most typists read 5-10% lower on quotes than on plain sentences at the same effort, because every capital needs Shift with the opposite hand and every comma pulls the right little finger off the home row. That gap is not a weakness in the typist; it is the cost of real text, and it is the number that transfers to work.
+Thirty-five public-domain quotations, between roughly 40 and 140 characters each, chosen so the punctuation is natural rather than decorative. They include attributions (a dash and a name), which is exactly the kind of trailing detail that gets dropped under time pressure.
+The quotes are short by design. A quote round is usually 60-120 seconds, so a passage you can finish is better than a paragraph you abandon - and finishing gives you an accuracy figure over a complete unit of text.
+WPM counts five characters as a word, including the space. That convention does not care whether the characters are letters or punctuation, so a comma costs exactly as much as a letter - which is why quote scores feel harsh.
+Errors are counted per character: a missing apostrophe, a straight quote typed where a curly one appears, or a capital typed as lowercase all count. If you want a score that reflects real writing, that is the right behaviour.
+Exam passages and workplace documents include capitals, punctuation and names. Practising on quotes builds the three habits those passages punish: Shift discipline, the comma reach, and reading ahead enough to know a capital is coming.
+Run one quote round and one plain-sentence round back to back. If the gap is more than 8%, punctuation is your weak link and the punctuation test is the drill. If the gap is small and both scores are low, the problem is speed, not punctuation.
+For the exam-shaped requirements themselves, see typing tests for jobs and the WPM chart.
+No song lyrics, no film dialogue, no modern quotations. Everything in the pool is public domain, so there is nothing here that cannot be reproduced, and nothing that will quietly disappear from the site when someone asserts a copyright claim.
 ## Quotes typing test FAQ
-Yes. It is free with no sign up, and your practice history stays on your own device.
-Thirty-five famous lines from public-domain and widely attributed authors — Twain, Aristotle, Franklin, Lincoln, Edison, Einstein, Lao Tzu, Marcus Aurelius and others — typed as commonly cited.
-Yes. Quotes carry natural punctuation, capitals and word flow, so they train realistic prose typing better than random word lists.
-Yes. Every quote keeps its original commas, full stops, dashes and capital letters, so you practise the complete skill of real-world typing.
+A test using real quotations as the text, so capitals, commas, semicolons and quotation marks are part of the exercise - which plain word lists remove.
+Punctuation and capitals add keystrokes that a word list does not have. A 5-10% drop is normal; more than that means punctuation is a specific weakness worth drilling.
+No. Every quotation in the pool is public domain, and each includes its attribution where one is traditionally given.
+Sixty to 120 seconds. The quotes are short enough to finish, which gives you an accuracy figure over a complete piece of text rather than a fragment.
+Yes - an omitted or wrong capital, comma, apostrophe or quotation mark counts as an error, exactly as it would in a document or an exam passage.
 
 ## Pangram Typing Test
 Source: https://typing.rerivo.com/pangram-typing-test.html

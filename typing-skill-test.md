@@ -4,45 +4,51 @@ Source: https://typing.rerivo.com/typing-skill-test.html
 
 A typing skill test tells you how good you are at typing: your words per minute (WPM), your accuracy and your error rate, combined into one clear picture of your typing skill level. It is the same kind of test used for job applications and typing exams. Take it below and get your score instantly.
 
-A typing skill test (also called a typing skills test or typing proficiency test) measures how fast and how accurately you can type a passage. You are timed, and your result is reported as WPM plus an accuracy percentage and an error count. Employers, schools and government exams use this format to compare candidates objectively.
+Three figures, not one. Net speed is the number employers quote. Accuracy is what they weight when the job involves records, codes or names. Consistency - how much your speed varies second to second - predicts whether the speed survives a five-minute test.
 
-Unlike a plain speed test, a skill test is judged on the combination of speed and accuracy. 70 WPM at 90% accuracy is a weaker result than 60 WPM at 99%, because the errors have to be fixed and cost real time.
+A single WPM number hides all of that. Two typists at 60 WPM can be a careful 99% accuracy operator and a 91% risky one, and the second is a liability in any role where a wrong digit matters.
 
-Skill level | WPM | Accuracy
-Beginner | under 30 | under 90%
-Basic | 30-40 | 90-95%
-Proficient | 40-60 | 95-98%
-Advanced | 60-80 | 98-99%
-Expert | 80+ | 99%+
+Band | Net WPM | Accuracy | What it clears
+Entry | 25-35 | 92-95% | Some dispatch and call-centre floors; personal use
+Clerical | 35-45 | 95-97% | Data entry at 8,000-12,000 KPH; county clerk roles
+Office standard | 45-55 | 97% | Reception, admin, general office postings
+Fast | 55-70 | 98% | Legal secretary, medical admin, transcription entry
+Professional | 70-85 | 98-99% | Transcription upper band, dispatch supervisor, court support
 
-For most office jobs, 50-60 WPM with 97%+ accuracy is expected. For data entry, exams and specialised roles the bar is higher - see the typing test for jobs requirements.
+These bands come from advertised requirements, not from a certification body - no one certifies a typing skill level. They are useful because they match the numbers employers actually print.
 
-Speed and accuracy figures quoted here follow the largest published study of everyday typing: Dhakal et al., CHI 2018, Observations on Typing from 136 Million Keystrokes, which measured 136,857,600 keystrokes from 168,960 volunteers. It reports a mean of 51.56 WPM (SD 20.2), a mean uncorrected error rate of 1.17%, and a mean keystrokes-per-character rate of 1.173. Those are the numbers this page's bands are checked against.
+Use a five-minute round on sentences, in one sitting, at the same time of day each time. Then repeat it on a second day before you believe the number: single-round scores move by 5-10 WPM for reasons that have nothing to do with skill.
 
-The claim that finger consistency and keypress preparation predict speed — more than which finger presses which key — comes from Feit, Weir and Oulasvirta, CHI 2016, a motion-capture study of 36 typists. The two studies disagree on how much formal touch-typing training matters, and this page says so where it matters rather than picking the tidier result.
+If you only ever test on one-minute rounds, you are measuring your burst, not your skill. Five minutes is long enough for the warm-up advantage to fade and short enough to repeat weekly.
 
-Where a figure is an estimate rather than a measurement — job requirements, age bands, exam cut-offs — it is drawn from the ranges employers and exam boards publish and is labelled as an estimate. Nothing on this page is a benchmark we ran ourselves.
+Most screen against a floor - 40 WPM is the common one - and then watch the work sample. A few use a platform test with a cut score, and public-sector roles often require a proctored result.
 
-Improvement comes from accuracy first, speed second. Slow down until you can type a full minute without errors, keep the fingers on the home row, and look at the screen rather than the keyboard. Practise daily for ten to fifteen minutes, mixing a general typing practice run with a targeted accuracy test. Boost weak spots with the weak-key drill, and check your standing against the average typing speed.
+In practice the accuracy figure decides more outcomes than the speed figure, because it is the one that predicts rework. If you are choosing which number to improve, improve accuracy first: it is faster to move and it is what the job punishes.
+
+Speed low? Work the habit ceiling - covered rounds and no-backspace rounds (see the plateau guide).
+
+Accuracy low? Slow to 85% of your pace for two weeks and refuse to correct during rounds; the error list, not the score, is the thing to read.
+
+Consistency low? Type ten rounds and look at the spread. Slow-hold rounds narrow it faster than any speed drill - the consistency page has the method.
 
 ## Typing skill test FAQ
 
 ### What is a typing skill test?
 
-It is a timed test that measures how fast and accurately you type, reported as words per minute plus an accuracy percentage and error count &mdash; the same format employers and exams use.
+A timed test that reports net speed, accuracy and often consistency, rather than a single WPM figure. It is meant to show what you can sustain, not your best burst.
 
-### What is a good typing skill test score?
+### What is a good typing skill level?
 
-For most jobs, 50 to 60 WPM with 97% or higher accuracy is expected. Above 80 WPM with 99% accuracy is expert level.
+45-55 WPM at 97% accuracy clears most office requirements. 55-70 at 98% opens legal, medical and transcription entry roles; above 70 with high accuracy is professional territory.
 
-### How can I improve my typing skills test result?
+### How long should the test be?
 
-Prioritise accuracy, keep your fingers on the home row, look at the screen, and practise a short session every day rather than a long one occasionally.
+Five minutes on sentences, repeated on a second day. A one-minute round measures a burst, and a single round moves 5-10 WPM for reasons unrelated to skill.
 
-### Is a typing skill test the same as a typing speed test?
+### Does accuracy matter more than speed?
 
-Similar, but a skill test is judged on speed and accuracy together, whereas a speed test mainly reports WPM.
+For most jobs, yes. Accuracy predicts rework, and the roles that quote speed also quote an accuracy floor - typically 95-98%.
 
-### Can I take a typing skill test for free?
+### Is there an official typing skill certification?
 
-Yes. This test is free, needs no sign-up, and saves your results only in your own browser so you can track progress.
+No universal one. Public-sector exams and some agencies issue certificates for their own requirements, but no body certifies a general typing skill level.
