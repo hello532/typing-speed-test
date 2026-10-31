@@ -4,6 +4,15 @@ Source: https://typing.rerivo.com/number-typing-test.html
 
 Practise typing numbers fast and accurately. Numeric typing is a separate skill from text — essential for data entry, accounting and finance. This number typing test measures your digit speed and accuracy.
 
+On this page
+
+The digit row is a separate skill
+What employers actually measure
+How to practise without a spreadsheet
+Where numeric speed pays
+Digits fail differently from letters
+Drills by digit group
+
 Letters sit under your fingers. Digits sit on the row above, reached by an extended finger with no tactile landmark to confirm the position. That is why someone who types prose at 60 WPM often drops to 30-35 WPM on numbers, and why data-entry employers test digits separately.
 
 There are two ways to enter numbers and they are not interchangeable. The number row is right when digits are mixed into text (an address, a reference code). The numeric keypad is right when the work is amounts, quantities or codes entered field by field.
@@ -21,6 +30,18 @@ Two minutes of Numbers mode, twice a day, graded on errors rather than speed. Th
 If you are learning the keypad, use the 4-5-6 home row (index on 4, middle on 5, ring on 6, thumb on 0) and press Enter after each figure, because that is how accounting software behaves.
 
 Data entry, accounting, insurance claims, medical billing, warehouse admin and dispatch all live on digits. Each has its own page on this site with the specific thresholds - see 10,000 KPH for the data-entry benchmark and 10-key typing for the keypad version.
+
+A letter error is usually visible: the word looks wrong. A digit error looks exactly like a correct number, which is why numeric work is judged on verification rather than on speed. The typical numeric mistakes are transposition (1234 typed as 1324), doubling (11 instead of 1), and a wrong-row slip that turns 4 into 5 or 7 into 8.
+
+Transposition is the most common and the hardest to catch, because both digits are individually valid. It is also the reason numeric drills should be scored on complete fields rather than on character accuracy.
+
+Group | Where it fails | Drill
+Top row 1-5 | Left hand reaching up, index finger confusion | Alternate 3-4-3-4 and 4-5-4-5 for 30 seconds
+Top row 6-0 | Right hand, weakest fingers | 7-8 and 9-0 pairs; then 6-7-8-9-0 sequences
+Amounts with decimals | The dot key position, and trailing zeros | Type 10 amounts with two decimals, verify each
+Keypad | Home row 4-5-6 and the thumb on 0 | Enter ten figures, press Enter after each
+
+Two minutes a day on one row beats ten minutes cycling through all of them, because the failure is local.
 
 ## Typing test FAQ
 
@@ -43,3 +64,7 @@ In key-depression scoring, yes - every backspace is another keystroke against th
 ### How much practice does it take?
 
 Two minutes twice a day for two to three weeks is enough to see a clear gain, mostly from the digit row ceasing to need a visual check.
+
+### Why do I transpose digits?
+
+Both digits are individually correct, so there is no visual signal that anything is wrong. It is the most common numeric error and the reason numeric work is scored on complete fields rather than on characters.

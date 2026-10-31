@@ -338,6 +338,13 @@ Source: https://typing.rerivo.com/number-typing-test.html
 
 Practise typing numbers fast and accurately. Numeric typing is a separate skill from text — essential for data entry, accounting and finance. This number typing test measures your digit speed and accuracy.
 
+On this page
+The digit row is a separate skill
+What employers actually measure
+How to practise without a spreadsheet
+Where numeric speed pays
+Digits fail differently from letters
+Drills by digit group
 Letters sit under your fingers. Digits sit on the row above, reached by an extended finger with no tactile landmark to confirm the position. That is why someone who types prose at 60 WPM often drops to 30-35 WPM on numbers, and why data-entry employers test digits separately.
 There are two ways to enter numbers and they are not interchangeable. The number row is right when digits are mixed into text (an address, a reference code). The numeric keypad is right when the work is amounts, quantities or codes entered field by field.
 Unit | Formula | Typical requirement
@@ -349,12 +356,21 @@ A correction costs you twice: once as a keystroke against the hour, and once as 
 Two minutes of Numbers mode, twice a day, graded on errors rather than speed. Then add the parts that break in real work: decimals, negative signs, and the Tab key between fields.
 If you are learning the keypad, use the 4-5-6 home row (index on 4, middle on 5, ring on 6, thumb on 0) and press Enter after each figure, because that is how accounting software behaves.
 Data entry, accounting, insurance claims, medical billing, warehouse admin and dispatch all live on digits. Each has its own page on this site with the specific thresholds - see 10,000 KPH for the data-entry benchmark and 10-key typing for the keypad version.
+A letter error is usually visible: the word looks wrong. A digit error looks exactly like a correct number, which is why numeric work is judged on verification rather than on speed. The typical numeric mistakes are transposition (1234 typed as 1324), doubling (11 instead of 1), and a wrong-row slip that turns 4 into 5 or 7 into 8.
+Transposition is the most common and the hardest to catch, because both digits are individually valid. It is also the reason numeric drills should be scored on complete fields rather than on character accuracy.
+Group | Where it fails | Drill
+Top row 1-5 | Left hand reaching up, index finger confusion | Alternate 3-4-3-4 and 4-5-4-5 for 30 seconds
+Top row 6-0 | Right hand, weakest fingers | 7-8 and 9-0 pairs; then 6-7-8-9-0 sequences
+Amounts with decimals | The dot key position, and trailing zeros | Type 10 amounts with two decimals, verify each
+Keypad | Home row 4-5-6 and the thumb on 0 | Enter ten figures, press Enter after each
+Two minutes a day on one row beats ten minutes cycling through all of them, because the failure is local.
 ## Typing test FAQ
 Digits sit on the row above the home row and have no tactile landmark, so every digit needs a reach and a visual check. A 40-50% drop from prose speed is normal.
 The keypad for amounts and long numeric strings, the number row when digits are mixed into text. Learning ten-key properly takes about a week and pays for itself in data-entry work.
 8,000-12,000 keystrokes per hour is the band employers quote for data entry. That is roughly 27-40 WPM equivalent, with accuracy at 97% or better.
 In key-depression scoring, yes - every backspace is another keystroke against the hour. That is why typing it right the first time matters more than typing fast.
 Two minutes twice a day for two to three weeks is enough to see a clear gain, mostly from the digit row ceasing to need a visual check.
+Both digits are individually correct, so there is no visual signal that anything is wrong. It is the most common numeric error and the reason numeric work is scored on complete fields rather than on characters.
 
 ## Online Typing Test
 Source: https://typing.rerivo.com/online-typing-test.html
@@ -1659,6 +1675,13 @@ Source: https://typing.rerivo.com/typing-test-for-adults.html
 
 This typing test for adults is built for grown-ups who want a quick, no-nonsense check of their typing speed and accuracy &mdash; no lessons, no cartoon mascots, no account. The average adult types around 40 WPM; take the test below and see where you land.
 
+On this page
+What is a good typing speed for an adult?
+You can still learn to type faster as an adult
+How to use this test as an adult
+Why adults usually start below where they could be
+Reasons adults actually have for improving
+What to expect in the first month
 The average adult typing speed is about 40 WPM. Reaching 60 WPM puts you comfortably above average and is enough for most office work; 80 WPM is fast, and 100 WPM+ is top-tier. Age or when you learned to type matter far less than how much you practise.
 Adult typing level | WPM
 Below average | under 35
@@ -1670,18 +1693,36 @@ These bands come from published typing-speed studies; see the full average typin
 It is a common myth that only children can build typing speed. Adults usually improve faster than children because they follow instructions, understand why accuracy comes before speed and can practise deliberately. The catch is unlearning years of two-finger habit: the fix is to slow down, keep the fingers on the home row, and look at the screen instead of the keyboard.
 Ten to fifteen minutes a day is enough. Start with the home row typing test, then the touch typing test, and only push for raw speed once your accuracy is steady.
 Decide what you need. For a job application, run a 1-3 minute test and check the requirement table in the typing test for jobs. For everyday comfort, test once a day at 1 minute and watch the trend in your saved history. For data entry or accounting work, add the 10 key typing test. Your results are stored only in your browser, so nothing is uploaded.
+Almost every adult who types slowly learned by using a computer, not by being taught. That means the habits formed were whatever got the work done: two fingers, looking at the keyboard, backspacing through errors. None of those are permanent, but all of them are invisible until you try to type without looking.
+The encouraging part is that adults learn the key map faster than children do - you already read and write fluently, so the bottleneck is motor habit rather than language. Two weeks of covered rounds typically produces the first real jump.
+A job requirement - clerical, reception, dispatch, legal and medical support postings quote 40-60 WPM and often test it.
+A return to work - the test is usually a five-minute sample with an accuracy floor, not a race.
+Career change into admin or support - the typing bar is modest but the accuracy expectation is not.
+Writing volume - reports, emails and documentation that used to be someone else's job.
+Comfort - less hunting means less wrist and shoulder tension by the end of a day.
+Week 1 is slower and frustrating: you are replacing a working habit. Weeks 2-3 bring accuracy up and speed back to where it started. Week 4 usually produces the first measurable gain, often 5-8 WPM, mostly from no longer looking down.
+If you are over 50, add one thing: a five-minute break every half hour during practice, and stop at the first sign of hand or wrist discomfort. The skill builds fine at that pace; strain does not.
 ## Adult typing test FAQ
 Around 40 WPM is average for adults, 60 to 80 WPM is good and enough for most jobs, and 100 WPM or more is elite. Consistent practice matters more than age.
 Yes. Adults often improve faster than children because they can practise deliberately. Focus on accuracy and touch typing rather than raw speed at first.
 Ten to fifteen minutes a day is enough to see steady improvement within a few weeks, as long as you keep your eyes off the keyboard.
 Not everyone, but touch typing removes the speed ceiling of two-finger typing and reduces strain during long sessions, so it pays off for anyone who types daily.
 Yes, completely free, with no sign-up and no ads in the typing area. Your results are saved only in your own browser.
+Yes, and often faster than children on the key map, because reading and writing are already fluent. The slower part is replacing the two-finger habit, which takes about two weeks of short daily covered practice.
+40-50 WPM with 97% accuracy covers most clerical, reception and admin postings. Legal, medical and transcription roles ask 60-75, and public-sector tests often require a proctored certificate.
 
 ## Typing Test for Students
 Source: https://typing.rerivo.com/typing-test-for-students.html
 
 This typing test for students measures your WPM and accuracy in one minute and shows how you compare with other students. Typing quickly and accurately saves time on essays, notes and online exams &mdash; and many courses and jobs now expect 40&ndash;60 WPM.
 
+On this page
+What typing speed should a student have?
+Why students should type faster
+How to practise as a student
+Where students actually lose time
+Exam and coursework contexts worth rehearsing
+A term-long plan that fits around coursework
 Most students type between 30 and 50 WPM, and schools increasingly expect 40-60 WPM by the end of secondary school so that typing stops being a bottleneck for essays and exams. College students and anyone writing long assignments benefit most from reaching 60 WPM+.
 Stage | Typical / target WPM
 Primary / elementary | 15-30
@@ -1692,12 +1733,23 @@ Targets vary by school and country; the bands above reflect commonly published g
 Typing speed is study efficiency. At 60 WPM you can keep up with a lecturer in real time, transcribe notes without falling behind, and finish essays in less time while staying in flow. For out-of-class and online exams, slow typing can cost marks simply because you run out of time - not because you do not know the answer.
 If you type with two fingers, the ceiling is low. Learning touch typing is a one-time investment: practise the home row, then the touch typing test, and your speed will follow.
 Ten minutes a day beats an hour once a week. Warm up with a short drill, take a 1-minute test to record your WPM, then spend the rest of the time on whichever is weaker - speed on the typing practice page, or precision with the typing accuracy test. Every result is saved in your browser so you can chart your progress before an exam or application.
+Not in essays. Students lose time in the small, repeated typing tasks: searching a database for a citation, writing lab notes, replying to a seminar email, formatting a bibliography by hand. Each is two minutes of typing, five times a day.
+The measurable consequence is that typing speed correlates with how much written work gets finished, not with how good it is. A student at 35 WPM spends roughly twice as long on the same written output as one at 70 WPM, and that gap comes out of reading time.
+Context | What is timed | What to rehearse
+Timed online exam with typed answers | The whole paper, including thinking | Typing while composing, not copying - practise answering a question in 200 words at pace
+In-class laptop notes | Nothing, but you fall behind the lecture | Speed with abbreviations and no backspace; lectures run 130-150 words a minute
+Referencing and formatting | Your own patience | Repeat the same citation ten times rather than ten citations once
+Language or typing exam (e.g. SSC, school boards) | A fixed passage at a fixed speed | The exact format: length, punctuation, error allowance
+Ten minutes, four days a week, for twelve weeks. Weeks 1-4: home row and covered rounds - this is the only part that feels like a step backwards. Weeks 5-8: accuracy at speed, 30-second sprints plus one slow round. Weeks 9-12: real material - lecture notes, your own essay paragraphs, a citation style you actually use.
+Do not practise on random word lists in week 9. By then the constraint is your vocabulary and your punctuation habits, and those only appear in your own subject's text.
 ## Student typing test FAQ
 Most students type 30 to 50 WPM. Schools often target 40 to 60 WPM by the end of secondary school, and college students writing long assignments benefit from 60 WPM or more.
 Faster typing means keeping up with lectures, finishing essays sooner and not losing marks to the clock in timed or online exams.
 It depends on the exam, but 40 to 60 WPM is a comfortable target for written exams and coursework. Check your own requirement with a teacher or in the syllabus.
 Yes, and they usually learn fastest. Practise the home row and touch typing a little each day, keeping the eyes on the screen rather than the keyboard.
 Yes. The test is free, needs no sign-up and stores results only in the browser, which makes it suitable for classroom or homework practice.
+Indirectly. Timed exams, coursework volume and note-taking all convert typing speed into time. A student at 70 WPM writes the same essay in roughly half the keystrokes' worth of time as one at 35 WPM.
+45-60 WPM with 97% accuracy covers essay writing, notes and referencing comfortably. Below 35 WPM, the keyboard becomes the bottleneck for written coursework.
 
 ## Typing Skill Test
 Source: https://typing.rerivo.com/typing-skill-test.html
