@@ -209,6 +209,18 @@
     {
       "file": "touch-typing-course.html",
       "title": "Touch Typing Course: 12 Lessons"
+    },
+    {
+      "file": "keyboard-layout-for-programmers.html",
+      "title": "Best Keyboard Layout for Programmers"
+    },
+    {
+      "file": "go-typing-practice.html",
+      "title": "Go Typing Practice"
+    },
+    {
+      "file": "wrist-pain-from-typing.html",
+      "title": "Wrist Pain From Typing"
     }
   ],
   "language": [
@@ -513,6 +525,14 @@
     {
       "file": "typing-speed-benchmarks.html",
       "title": "Typing Speed Benchmarks"
+    },
+    {
+      "file": "typing-consistency-score.html",
+      "title": "Typing Consistency Score"
+    },
+    {
+      "file": "why-am-i-stuck-at-the-same-typing-speed.html",
+      "title": "Why Am I Stuck at the Same Typing Speed?"
     }
   ],
   "game": [

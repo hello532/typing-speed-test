@@ -74,6 +74,9 @@ Excel Formula Typing Practice
 Typing Test for Accountants
 Typing Test for Paralegals
 Touch Typing Course: 12 Lessons
+Best Keyboard Layout for Programmers
+Go Typing Practice
+Wrist Pain From Typing
 
 ## Typing tests by language
 
@@ -160,6 +163,8 @@ Typing Speed by Grade
 How to Put WPM on a Résumé
 Will Employers Accept a Free Typing Certificate?
 Typing Speed Benchmarks
+Typing Consistency Score
+Why Am I Stuck at the Same Typing Speed?
 
 ## Games and races
 

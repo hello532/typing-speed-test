@@ -1,0 +1,160 @@
+{
+  "footer_group": "Guides & articles",
+  "llms_section": "Metrics & Scoring",
+  "cluster": "metric",
+  "pages": [
+    {
+      "file": "typing-consistency-score.html",
+      "title": "Typing Consistency Score — What It Means and How to Raise It",
+      "metaDesc": "Consistency measures how much your speed varies per second. The exact formula this site uses, how to read the number, and three drills to raise it.",
+      "h1": "Typing Consistency Score",
+      "heroP": "Two typists can average 60 WPM and be very different: one runs 58-62 the whole minute, the other swings between 40 and 80. <strong>Consistency</strong> is the figure that separates them, and it predicts your five-minute score better than your peak does.",
+      "tldr": "Consistency = 100 × (1 − the coefficient of variation of your per-second WPM). 100 means a perfectly flat speed; 80 means your speed varies by about 20% around its average. Above 85 is steady; below 70 means the average is being dragged down by dips.",
+      "dur": 60,
+      "mode": "sentences",
+      "crumbs": [
+        "Home",
+        "Typing Consistency Score"
+      ],
+      "seo": [
+        {
+          "h2": "The exact definition used here",
+          "p": [
+            "Speed is sampled once per second during the round. Let those samples be a series of speeds with mean <em>m</em>. Consistency is one minus the coefficient of variation, expressed as a percentage:",
+            "<p class=\"formula\">consistency = 100 × (1 − standard deviation ÷ mean)</p>",
+            "So a round that holds 60 WPM with a standard deviation of 3 reads 95. A round that averages 60 but swings with a standard deviation of 12 reads 80. It is clamped to 0-100, and a round with fewer than two samples reports 100 rather than an error.",
+            "The number appears in the results panel as <em>Consistency</em> (labeled 安定度 / 稳定性 / استحکام in other interface languages) and in the share image."
+          ]
+        },
+        {
+          "h2": "Why it is worth looking at",
+          "p": [
+            "Average WPM is an average of a curve, and the curve has shape. A typist whose speed collapses in the last ten seconds has a stamina problem; one whose speed spikes at the start and settles has a pacing problem; one whose speed oscillates throughout is reading word by word instead of ahead.",
+            "Consistency separates those cases. It also explains a common frustration: two people with the same one-minute score can have completely different five-minute scores, and the one with the higher consistency usually keeps more of it."
+          ]
+        },
+        {
+          "h2": "Reading the number",
+          "p": [
+            "<table><tr><th>Consistency</th><th>What it looks like</th><th>What to do</th></tr><tr><td>90-100</td><td>Nearly flat; the average is the truth</td><td>Nothing - work on speed instead</td></tr><tr><td>80-89</td><td>Mild variation, usually around difficult words</td><td>Drill the words that cause the dips</td></tr><tr><td>70-79</td><td>Visible dips; the average overstates your sustainable pace</td><td>Slow down 10% and hold it for a full minute</td></tr><tr><td>under 70</td><td>Large swings, often burst-then-recover</td><td>Accuracy work first; the swings are usually corrections</td></tr></table>"
+          ]
+        },
+        {
+          "h2": "Three drills that raise it",
+          "p": [
+            "<ol><li><strong>Metronome typing.</strong> Type to a steady rhythm - one word per beat - for 30 seconds. The goal is not speed but flatness; you will feel the urges to sprint and to recover.</li><li><strong>Slow-hold rounds.</strong> Pick a pace you can hold for the entire round without a single sprint, and finish at exactly that pace. Most typists discover their sustainable pace is 10-15% below their peak.</li><li><strong>Dip hunting.</strong> After a round, look at the graph and find the lowest second. Type the words around that point again, slowly. Dips concentrate on the same few sequences - usually one hand doing two awkward reaches.</li></ol>"
+          ]
+        },
+        {
+          "h2": "Where consistency is not the right metric",
+          "p": [
+            "On very short rounds (15 seconds) there are too few samples for the figure to mean much. On very hard text, low consistency is expected and correct - the dips are the difficulty, not a technique failure.",
+            "For benchmarking, keep using net WPM plus accuracy. Consistency is a diagnostic for <em>how</em> you got the number, not a replacement for it."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "What is a good typing consistency score?",
+          "a": "Above 85 is steady, 90+ is nearly flat. Below 70 means your speed swings enough that the average overstates what you can sustain over five minutes."
+        },
+        {
+          "q": "How is consistency calculated?",
+          "a": "One minus the coefficient of variation of your per-second WPM, as a percentage: 100 × (1 − standard deviation ÷ mean). It is clamped to 0-100."
+        },
+        {
+          "q": "Does consistency matter more than speed?",
+          "a": "For sustained work, yes. A steady 55 holds up over a ten-minute test; a spiky 60 often drops to 48. For passing a short screening test, speed matters more."
+        },
+        {
+          "q": "Why is my consistency low even when my accuracy is high?",
+          "a": "Accuracy measures errors, consistency measures rhythm. You can be accurate and still accelerate and stall, usually because you read word by word rather than looking ahead."
+        },
+        {
+          "q": "Which drill helps most?",
+          "a": "Slow-hold rounds: pick a pace you can maintain for the whole round and finish at exactly that pace. It teaches the difference between peak and sustainable speed."
+        }
+      ]
+    },
+    {
+      "file": "why-am-i-stuck-at-the-same-typing-speed.html",
+      "title": "Why Am I Stuck at the Same Typing Speed? Five Causes",
+      "metaDesc": "If your WPM has not moved in months, the cause depends on where you are stuck. Five plateaus by band - 40, 50, 60, 70, 80 - and the drill for each.",
+      "h1": "Why Am I Stuck at the Same Typing Speed?",
+      "heroP": "A plateau is not one problem. Where you are stuck tells you what is stuck: at 40 it is usually the look-at-keyboard habit, at 60 it is corrections, at 80 it is consistency. Here is the diagnosis by band.",
+      "tldr": "Stuck at 30-40: you look at the keyboard or backspace too much. At 50: you read one word at a time. At 60: errors, not speed, are the limit. At 70-80: variance, not peak, holds the average down. Each has a different drill.",
+      "dur": 60,
+      "mode": "sentences",
+      "crumbs": [
+        "Home",
+        "Why Am I Stuck at the Same Typing Speed"
+      ],
+      "seo": [
+        {
+          "h2": "First, check that you are actually stuck",
+          "p": [
+            "Measure the same way three times: same length, same text mode, same time of day. If the three scores sit within 3 WPM, you are consistent and the plateau is real. If they swing by 10, you do not have a plateau - you have noisy measurement, and the fix is a fixed protocol rather than a new drill.",
+            "Then check the length. A one-minute score improves faster than a five-minute score, so a plateau on a five-minute test looks like progress on a one-minute one. Decide which number you are tracking and stay with it."
+          ]
+        },
+        {
+          "h2": "Stuck at 30-40: the habit ceiling",
+          "p": [
+            "Almost always two habits: looking at the keyboard, and backspacing through every slip. Both are cheap to fix and both feel worse before they feel better.",
+            "<ul><li><strong>Covered rounds:</strong> hands hidden, 30 seconds, once a day. Expect accuracy to drop 10-20% for a week.</li><li><strong>No-backspace rounds:</strong> finish with mistakes in them. Most people at this level gain 3-5 WPM immediately.</li></ul>"
+          ]
+        },
+        {
+          "h2": "Stuck at 50: the reading bottleneck",
+          "p": [
+            "At 50 WPM your fingers are no longer the limit; your eyes are. You read the word you are about to type, so the hands wait for the eyes on every word. Faster typists read one to three words ahead and let the hands run on a buffer.",
+            "Drill: before starting a line, read it silently once, then type it without re-reading. It feels wrong for three rounds and then it stops feeling wrong. Add 15-second bursts to raise your top end, because a 50 average with a 55 peak has no room to grow."
+          ]
+        },
+        {
+          "h2": "Stuck at 60: the accuracy tax",
+          "p": [
+            "At 60 WPM a 2% error rate costs about 5-6 net WPM over a five-minute test. That is the arithmetic that keeps people at 55-60 for months: they gain speed, lose accuracy, and net out where they started.",
+            "Drill: 30-second rounds at 90% of your maximum, with an error budget of one. Stop the round when the budget is blown rather than pushing to the timer. The skill being trained is <em>accuracy at speed</em>, which is different from accuracy at rest."
+          ]
+        },
+        {
+          "h2": "Stuck at 70-80: variance, not peak",
+          "p": [
+            "Above 70 the ceiling is consistency. Ten rounds might range from 68 to 84; the average is 74 and the peak is irrelevant. Narrowing the spread is what raises the average.",
+            "Drill: type ten one-minute rounds and record all ten. Work on the lowest quintile - the rounds where you were tired, distracted or on a hard passage. Slow-hold rounds (pick a pace, hold it exactly) and hard-text rounds do more here than any speed drill."
+          ]
+        },
+        {
+          "h2": "If none of that applies",
+          "p": [
+            "Then the constraint is probably outside the keyboard: sleep, screen position, keyboard feel, or the fact that you only practise in one-minute bursts and never test endurance. Try one ten-minute round a week - many \"plateaus\" turn out to be a stamina problem that a short test cannot see.",
+            "The band-by-band plans are on the <a href=\"40-wpm-typing-test.html\">40</a>, <a href=\"50-wpm-typing-test.html\">50</a>, <a href=\"60-wpm-typing-test.html\">60</a> and <a href=\"70-wpm-typing-test.html\">70 WPM</a> pages; the diagnostic line is <a href=\"typing-consistency-score.html\">consistency</a>."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "Why has my typing speed not improved in months?",
+          "a": "Usually because the practice repeats what you already do well. Plateaus have band-specific causes: habits at 40, reading ahead at 50, error tax at 60, variance at 70+."
+        },
+        {
+          "q": "How often should I practise to break a plateau?",
+          "a": "Ten to fifteen minutes a day, with one variable changed per week. Longer sessions at the same routine mostly build fatigue."
+        },
+        {
+          "q": "Does a new keyboard help?",
+          "a": "Slightly, and briefly. A mechanical keyboard can be worth 3-8 WPM for some typists, but it will not break a plateau caused by looking down or reading word by word."
+        },
+        {
+          "q": "Should I switch to Dvorak or Colemak?",
+          "a": "Not to break a plateau. The switch costs weeks of being slower, and most people return to the same speed on the new layout because the limiting habit moved with them."
+        },
+        {
+          "q": "How long does a plateau usually last?",
+          "a": "Two to six weeks if you change the drill, months if you keep repeating the same practice. The signal that a drill is working is accuracy rising before speed does."
+        }
+      ]
+    }
+  ]
+}

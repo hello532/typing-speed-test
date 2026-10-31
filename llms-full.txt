@@ -5483,6 +5483,9 @@ Excel Formula Typing Practice
 Typing Test for Accountants
 Typing Test for Paralegals
 Touch Typing Course: 12 Lessons
+Best Keyboard Layout for Programmers
+Go Typing Practice
+Wrist Pain From Typing
 ## Typing tests by language
 Arabic Typing Test
 Chinese Typing Test
@@ -5561,6 +5564,8 @@ Typing Speed by Grade
 How to Put WPM on a Résumé
 Will Employers Accept a Free Typing Certificate?
 Typing Speed Benchmarks
+Typing Consistency Score
+Why Am I Stuck at the Same Typing Speed?
 ## Games and races
 Typing Games
 Typing Race
@@ -6107,3 +6112,141 @@ Close to it. Research on typists (Feit et al., CHI 2016) found that consistent f
 You are replacing a working habit with an unfamiliar one. The dip lasts one to two weeks; the ceiling it removes (around 35-40 WPM for two-finger typing) never comes back.
 For at least one round per lesson. Looking down is the habit that caps speed, and preventing it is much easier than breaking it later.
 No. Lessons run in the browser, results stay on your device, and there is nothing to install. Each lesson links to the test mode it needs.
+
+## Typing Consistency Score
+Source: https://typing.rerivo.com/typing-consistency-score.html
+
+Two typists can average 60 WPM and be very different: one runs 58-62 the whole minute, the other swings between 40 and 80. Consistency is the figure that separates them, and it predicts your five-minute score better than your peak does.
+
+Speed is sampled once per second during the round. Let those samples be a series of speeds with mean m. Consistency is one minus the coefficient of variation, expressed as a percentage:
+consistency = 100 × (1 − standard deviation ÷ mean)
+So a round that holds 60 WPM with a standard deviation of 3 reads 95. A round that averages 60 but swings with a standard deviation of 12 reads 80. It is clamped to 0-100, and a round with fewer than two samples reports 100 rather than an error.
+The number appears in the results panel as Consistency (labeled 安定度 / 稳定性 / استحکام in other interface languages) and in the share image.
+Average WPM is an average of a curve, and the curve has shape. A typist whose speed collapses in the last ten seconds has a stamina problem; one whose speed spikes at the start and settles has a pacing problem; one whose speed oscillates throughout is reading word by word instead of ahead.
+Consistency separates those cases. It also explains a common frustration: two people with the same one-minute score can have completely different five-minute scores, and the one with the higher consistency usually keeps more of it.
+Consistency | What it looks like | What to do
+90-100 | Nearly flat; the average is the truth | Nothing - work on speed instead
+80-89 | Mild variation, usually around difficult words | Drill the words that cause the dips
+70-79 | Visible dips; the average overstates your sustainable pace | Slow down 10% and hold it for a full minute
+under 70 | Large swings, often burst-then-recover | Accuracy work first; the swings are usually corrections
+Metronome typing. Type to a steady rhythm - one word per beat - for 30 seconds. The goal is not speed but flatness; you will feel the urges to sprint and to recover.
+Slow-hold rounds. Pick a pace you can hold for the entire round without a single sprint, and finish at exactly that pace. Most typists discover their sustainable pace is 10-15% below their peak.
+Dip hunting. After a round, look at the graph and find the lowest second. Type the words around that point again, slowly. Dips concentrate on the same few sequences - usually one hand doing two awkward reaches.
+On very short rounds (15 seconds) there are too few samples for the figure to mean much. On very hard text, low consistency is expected and correct - the dips are the difficulty, not a technique failure.
+For benchmarking, keep using net WPM plus accuracy. Consistency is a diagnostic for how you got the number, not a replacement for it.
+## Frequently asked questions
+Above 85 is steady, 90+ is nearly flat. Below 70 means your speed swings enough that the average overstates what you can sustain over five minutes.
+One minus the coefficient of variation of your per-second WPM, as a percentage: 100 × (1 − standard deviation ÷ mean). It is clamped to 0-100.
+For sustained work, yes. A steady 55 holds up over a ten-minute test; a spiky 60 often drops to 48. For passing a short screening test, speed matters more.
+Accuracy measures errors, consistency measures rhythm. You can be accurate and still accelerate and stall, usually because you read word by word rather than looking ahead.
+Slow-hold rounds: pick a pace you can maintain for the whole round and finish at exactly that pace. It teaches the difference between peak and sustainable speed.
+
+## Why Am I Stuck at the Same Typing Speed?
+Source: https://typing.rerivo.com/why-am-i-stuck-at-the-same-typing-speed.html
+
+A plateau is not one problem. Where you are stuck tells you what is stuck: at 40 it is usually the look-at-keyboard habit, at 60 it is corrections, at 80 it is consistency. Here is the diagnosis by band.
+
+On this page
+First, check that you are actually stuck
+Stuck at 30-40: the habit ceiling
+Stuck at 50: the reading bottleneck
+Stuck at 60: the accuracy tax
+Stuck at 70-80: variance, not peak
+If none of that applies
+Measure the same way three times: same length, same text mode, same time of day. If the three scores sit within 3 WPM, you are consistent and the plateau is real. If they swing by 10, you do not have a plateau - you have noisy measurement, and the fix is a fixed protocol rather than a new drill.
+Then check the length. A one-minute score improves faster than a five-minute score, so a plateau on a five-minute test looks like progress on a one-minute one. Decide which number you are tracking and stay with it.
+Almost always two habits: looking at the keyboard, and backspacing through every slip. Both are cheap to fix and both feel worse before they feel better.
+Covered rounds: hands hidden, 30 seconds, once a day. Expect accuracy to drop 10-20% for a week.
+No-backspace rounds: finish with mistakes in them. Most people at this level gain 3-5 WPM immediately.
+At 50 WPM your fingers are no longer the limit; your eyes are. You read the word you are about to type, so the hands wait for the eyes on every word. Faster typists read one to three words ahead and let the hands run on a buffer.
+Drill: before starting a line, read it silently once, then type it without re-reading. It feels wrong for three rounds and then it stops feeling wrong. Add 15-second bursts to raise your top end, because a 50 average with a 55 peak has no room to grow.
+At 60 WPM a 2% error rate costs about 5-6 net WPM over a five-minute test. That is the arithmetic that keeps people at 55-60 for months: they gain speed, lose accuracy, and net out where they started.
+Drill: 30-second rounds at 90% of your maximum, with an error budget of one. Stop the round when the budget is blown rather than pushing to the timer. The skill being trained is accuracy at speed, which is different from accuracy at rest.
+Above 70 the ceiling is consistency. Ten rounds might range from 68 to 84; the average is 74 and the peak is irrelevant. Narrowing the spread is what raises the average.
+Drill: type ten one-minute rounds and record all ten. Work on the lowest quintile - the rounds where you were tired, distracted or on a hard passage. Slow-hold rounds (pick a pace, hold it exactly) and hard-text rounds do more here than any speed drill.
+Then the constraint is probably outside the keyboard: sleep, screen position, keyboard feel, or the fact that you only practise in one-minute bursts and never test endurance. Try one ten-minute round a week - many "plateaus" turn out to be a stamina problem that a short test cannot see.
+The band-by-band plans are on the 40, 50, 60 and 70 WPM pages; the diagnostic line is consistency.
+## Frequently asked questions
+Usually because the practice repeats what you already do well. Plateaus have band-specific causes: habits at 40, reading ahead at 50, error tax at 60, variance at 70+.
+Ten to fifteen minutes a day, with one variable changed per week. Longer sessions at the same routine mostly build fatigue.
+Slightly, and briefly. A mechanical keyboard can be worth 3-8 WPM for some typists, but it will not break a plateau caused by looking down or reading word by word.
+Not to break a plateau. The switch costs weeks of being slower, and most people return to the same speed on the new layout because the limiting habit moved with them.
+Two to six weeks if you change the drill, months if you keep repeating the same practice. The signal that a drill is working is accuracy rising before speed does.
+
+## Best Keyboard Layout for Programmers
+Source: https://typing.rerivo.com/keyboard-layout-for-programmers.html
+
+Programmers do not type prose, they type symbols wrapped in words. That changes the layout question: the letters are already solved, and the brackets, braces, quotes and operators are what a layout helps or hurts.
+
+A rough count of ordinary source code: letters are still the majority of characters, but the shifted symbol row ( ) { } [ ] ; : " ' = + - _ / \ | carries a disproportionate share of the awkward reaches, and those reaches are where errors cluster.
+So the question is not "which layout is fastest for English" - it is "which layout puts the symbols you type most under the fingers that can reach them without leaving the home row".
+Layout | Letter changes | Symbol changes | Cost of switching
+QWERTY | None | None - symbols where every tool, shortcut and tutorial expects them | Zero
+Dvorak | Substantial reordering for English comfort | Number row rearranged; brackets moved | Weeks of being slower; shortcuts assume QWERTY positions
+Colemak | 17 keys moved; keeps Z X C V in place for shortcuts | Mostly unchanged | Weeks, but lower than Dvorak
+Programmer Dvorak | Dvorak letters | Number row replaced with symbols; digits shifted | High - digits need Shift for every number
+Programmer Dvorak looks attractive on paper because symbols get the unshifted number row. In practice the digits then require Shift, which is a bad trade for anyone who types numbers - and most code contains them.
+For most programmers, stay on QWERTY. The reason is not that it is optimal; it is that every editor shortcut, every bracket-matching habit and every tutorial assumes it, and your bottleneck is thinking, not the 60-70 WPM you already type.
+Consider a change only if all three hold: you are past 60 WPM on QWERTY, you type code for several hours a day, and your error report shows the symbol reaches as the main source of mistakes. Even then, expect a month of being slower before any gain.
+Practise the symbols you actually type. Bracket-and-quote drills beat layout changes by a wide margin.
+Let the editor do the brackets. Auto-pairs, snippets and formatters remove keystrokes; a layout reorders them.
+Learn five shortcuts properly. Duplicate line, move line, go to definition, rename symbol, format document.
+Code typing pools to practise on: Python, JavaScript, TypeScript, Rust, Go, SQL. The general comparison is on Dvorak vs QWERTY.
+## Frequently asked questions
+Not measurably. It reorders letters for English comfort and moves brackets, which breaks shortcut muscle memory. The evidence for a coding gain is anecdotal rather than measured.
+It puts symbols on the unshifted number row, which sounds ideal until you need a digit - then every number requires Shift. For most codebases that is a bad trade.
+Only if you are already past 60 WPM, type code for hours a day, and want comfort rather than speed. It keeps Z X C V in place, so shortcuts survive better than with Dvorak.
+Practising symbols, using snippets and formatters, and learning editor shortcuts. Layout changes come last, if at all.
+Most sit at 60-90 WPM on prose and 40-55 on real code, because code is symbol-dense. No employer screens for it.
+
+## Go Typing Practice
+Source: https://typing.rerivo.com/go-typing-practice.html
+
+Go is deliberately plain, and that is what makes it a good typing drill: short declarations, braces on every line, := and error checks appear so often that they become the rhythm of the language.
+
+Three things. Braces open on the same line as the statement, so almost every line ends with a reach to the right hand. Short declarations (:=) put the colon and equals in sequence, two keys that are not adjacent. And error checks repeat the same three-line idiom constantly, which makes it the single most valuable sequence to automate in your fingers.
+The upside is regularity. Once you can type `if err != nil {` without thinking, a large fraction of Go becomes the same motion with different identifiers.
+Thirty-six lines of ordinary Go: a package declaration, grouped imports, a struct with a receiver method, an HTTP server start, JSON decoding with the standard error check, context with timeout, a goroutine range loop, a select, slices.SortFunc with a comparison function, sync.WaitGroup, error wrapping with %w, a type switch, a test helper with t.Fatalf, and a mutex with defer.
+They are deliberately short. Go lines are short, and the drill should teach the shape of the language rather than test your endurance with a long expression.
+Start with the three highest-frequency sequences: `if err != nil {`, `for _, v := range`, and `defer x.Close()`. Type each twenty times slowly, then in a normal round. Automation of those three is worth more than raw speed.
+Then add the punctuation that bites: the colon-equals, the ampersand for addresses, and the backtick for struct tags - which needs the key most typists have never used.
+Same engine, different grammar: Python, JavaScript, TypeScript, Rust, SQL, and Excel formulas. For layout questions, see keyboard layout for programmers.
+## Frequently asked questions
+No one measures it formally. Most developers type prose at 60-90 WPM and real Go at 45-55, because braces and short declarations add right-hand reaches.
+Go is brace-dense and every block closes with a reach, while Python uses indentation. Go also repeats the error-check idiom, which is fast only once it is automatic.
+Yes - 36 lines of ordinary Go covering goroutines, channels, context, error wrapping, generics-era slices helpers, struct tags and tests.
+`if err != nil {`, `for _, v := range` and `defer ...Close()`. Those three sequences cover a large share of real Go lines.
+Two weeks of five-minute daily rounds usually shows 4-7 WPM on Go content, mostly from the brace reach and the := sequence becoming automatic.
+
+## Wrist Pain From Typing
+Source: https://typing.rerivo.com/wrist-pain-from-typing.html
+
+Most typing-related wrist discomfort comes from position and pace, not from the keyboard itself. This page covers the setup changes that help, the break pattern that matters, and the symptoms that are not a typing problem at all.
+
+On this page
+What usually causes it
+Setup, in order of impact
+The break pattern that actually helps
+Pace and tension
+Symptoms that are not a setup problem
+What to change first if you only change one thing
+Four factors account for most typing-related wrist and forearm discomfort: wrist extension (hands bent upwards because the keyboard sits too high), ulnar deviation (hands angled outwards towards the arrow keys), shoulder elevation (a desk that is too tall, or a laptop on a table), and unbroken duration (two hours without standing up).
+None of those are about willpower or typing speed. They are geometry and timing, which is why they respond to setup changes rather than to practice.
+Keyboard height. Elbows at roughly 90 degrees, forearms level or slightly downward, wrists straight. If your wrists bend upwards, the keyboard is too high - lower the desk or raise the chair.
+Wrist support that supports, not presses. A palm rest should support the heel of the hand between bursts, not compress the wrist while typing. Resting the wrist on a hard desk edge is the single most common cause.
+Shoulders down. If your shoulders creep up, the desk is too tall for the chair, or the monitor is too low and you are leaning in.
+Keyboard angle. Flat, or slightly negative with the back edge raised. The little feet at the back tilt the keyboard the wrong way for wrist position.
+Thirty to forty-five minutes of typing, then two to three minutes away from the keyboard with the hands doing something else. Micro-breaks beat a single long break, because the load is cumulative and the recovery is what matters.
+A useful rule: every time you stop to think, take your hands off the keyboard. Most typists rest their hands on the keys while thinking, which converts thinking time into sustained static load.
+Speed work can produce tension without producing pain at the time. If you notice yourself gripping the keyboard, pressing hard on the keys or holding your breath during a timed round, that is a sign to slow down rather than push.
+Typing tests reward bursts, but sustained work rewards relaxation. The typists who can type for six hours are not the fastest in a one-minute test; they are the ones who never tense up.
+See a clinician rather than adjusting your desk if you have any of: numbness or tingling in the fingers that persists after you stop typing, pain that wakes you at night, weakness or dropping objects, swelling, or pain that continues at rest for more than a week.
+Those patterns are not explained by keyboard geometry, and no ergonomic change or typing drill addresses them. This page is about workstation setup, not about diagnosis or treatment.
+Move the keyboard down until your wrists are straight, and stop resting them on the desk edge while typing. That single change addresses the most common cause and costs nothing.
+If the discomfort continues after two weeks of the setup change plus regular breaks, treat it as a reason to get advice rather than a reason to buy a different keyboard.
+## Frequently asked questions
+Sustained typing in an awkward position can produce discomfort in the wrists and forearms. It is usually related to keyboard height, wrist angle and unbroken duration rather than to typing itself.
+For support between bursts, yes; while typing, no. A rest that compresses the wrist during typing can make things worse - the goal is a straight, floating wrist.
+Every 30-45 minutes, for two to three minutes away from the keyboard. Micro-breaks are more effective than one long break at the end of the day.
+It can reduce the force needed per keystroke for some people, but it does not fix wrist angle or duration. Setup comes first.
+For persistent numbness or tingling, night pain, weakness, swelling, or pain at rest lasting more than a week. Those are not explained by keyboard position.

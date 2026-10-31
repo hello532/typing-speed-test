@@ -1,0 +1,86 @@
+{
+  "footer_group": "Guides & articles",
+  "llms_section": "Guides & Articles",
+  "cluster": "practice",
+  "pages": [
+    {
+      "file": "wrist-pain-from-typing.html",
+      "title": "Wrist Pain From Typing — Setup, Breaks, Red Flags",
+      "metaDesc": "What in a typing setup usually causes wrist and forearm discomfort, how to change it, and which symptoms need a clinician rather than a new keyboard.",
+      "h1": "Wrist Pain From Typing",
+      "heroP": "Most typing-related wrist discomfort comes from <strong>position and pace</strong>, not from the keyboard itself. This page covers the setup changes that help, the break pattern that matters, and the symptoms that are not a typing problem at all.",
+      "tldr": "Three changes fix most cases: keep wrists straight and floating (not resting on the desk edge), keep elbows near 90 degrees with feet supported, and break every 30-45 minutes. Numbness, tingling or pain that wakes you up needs a clinician, not an ergonomic adjustment.",
+      "dur": 60,
+      "mode": "sentences",
+      "crumbs": [
+        "Home",
+        "Wrist Pain From Typing"
+      ],
+      "seo": [
+        {
+          "h2": "What usually causes it",
+          "p": [
+            "Four factors account for most typing-related wrist and forearm discomfort: <strong>wrist extension</strong> (hands bent upwards because the keyboard sits too high), <strong>ulnar deviation</strong> (hands angled outwards towards the arrow keys), <strong>shoulder elevation</strong> (a desk that is too tall, or a laptop on a table), and <strong>unbroken duration</strong> (two hours without standing up).",
+            "None of those are about willpower or typing speed. They are geometry and timing, which is why they respond to setup changes rather than to practice."
+          ]
+        },
+        {
+          "h2": "Setup, in order of impact",
+          "p": [
+            "<ol><li><strong>Keyboard height.</strong> Elbows at roughly 90 degrees, forearms level or slightly downward, wrists straight. If your wrists bend upwards, the keyboard is too high - lower the desk or raise the chair.</li><li><strong>Wrist support that supports, not presses.</strong> A palm rest should support the heel of the hand between bursts, not compress the wrist while typing. Resting the wrist on a hard desk edge is the single most common cause.</li><li><strong>Shoulders down.</strong> If your shoulders creep up, the desk is too tall for the chair, or the monitor is too low and you are leaning in.</li><li><strong>Keyboard angle.</strong> Flat, or slightly negative with the back edge raised. The little feet at the back tilt the keyboard the wrong way for wrist position.</li></ol>"
+          ]
+        },
+        {
+          "h2": "The break pattern that actually helps",
+          "p": [
+            "Thirty to forty-five minutes of typing, then two to three minutes away from the keyboard with the hands doing something else. Micro-breaks beat a single long break, because the load is cumulative and the recovery is what matters.",
+            "A useful rule: every time you stop to think, take your hands off the keyboard. Most typists rest their hands on the keys while thinking, which converts thinking time into sustained static load."
+          ]
+        },
+        {
+          "h2": "Pace and tension",
+          "p": [
+            "Speed work can produce tension without producing pain at the time. If you notice yourself gripping the keyboard, pressing hard on the keys or holding your breath during a timed round, that is a sign to slow down rather than push.",
+            "Typing tests reward bursts, but sustained work rewards relaxation. The typists who can type for six hours are not the fastest in a one-minute test; they are the ones who never tense up."
+          ]
+        },
+        {
+          "h2": "Symptoms that are not a setup problem",
+          "p": [
+            "See a clinician rather than adjusting your desk if you have any of: numbness or tingling in the fingers that persists after you stop typing, pain that wakes you at night, weakness or dropping objects, swelling, or pain that continues at rest for more than a week.",
+            "Those patterns are not explained by keyboard geometry, and no ergonomic change or typing drill addresses them. This page is about workstation setup, not about diagnosis or treatment."
+          ]
+        },
+        {
+          "h2": "What to change first if you only change one thing",
+          "p": [
+            "Move the keyboard down until your wrists are straight, and stop resting them on the desk edge while typing. That single change addresses the most common cause and costs nothing.",
+            "If the discomfort continues after two weeks of the setup change plus regular breaks, treat it as a reason to get advice rather than a reason to buy a different keyboard."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "Can typing cause wrist pain?",
+          "a": "Sustained typing in an awkward position can produce discomfort in the wrists and forearms. It is usually related to keyboard height, wrist angle and unbroken duration rather than to typing itself."
+        },
+        {
+          "q": "Should I use a wrist rest?",
+          "a": "For support between bursts, yes; while typing, no. A rest that compresses the wrist during typing can make things worse - the goal is a straight, floating wrist."
+        },
+        {
+          "q": "How often should I take breaks?",
+          "a": "Every 30-45 minutes, for two to three minutes away from the keyboard. Micro-breaks are more effective than one long break at the end of the day."
+        },
+        {
+          "q": "Does a mechanical keyboard help?",
+          "a": "It can reduce the force needed per keystroke for some people, but it does not fix wrist angle or duration. Setup comes first."
+        },
+        {
+          "q": "When should I see a doctor?",
+          "a": "For persistent numbness or tingling, night pain, weakness, swelling, or pain at rest lasting more than a week. Those are not explained by keyboard position."
+        }
+      ]
+    }
+  ]
+}

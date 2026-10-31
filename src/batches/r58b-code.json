@@ -1,0 +1,139 @@
+{
+  "footer_group": "Quotes, pangrams and code",
+  "llms_section": "Text / Difficulty Variations",
+  "cluster": "practice",
+  "pages": [
+    {
+      "file": "keyboard-layout-for-programmers.html",
+      "title": "Best Keyboard Layout for Programmers — Symbols First",
+      "metaDesc": "Code is punctuation with words attached, so the layout question is about brackets. How QWERTY, Dvorak, Colemak and Programmer Dvorak compare.",
+      "h1": "Best Keyboard Layout for Programmers",
+      "heroP": "Programmers do not type prose, they type <strong>symbols wrapped in words</strong>. That changes the layout question: the letters are already solved, and the brackets, braces, quotes and operators are what a layout helps or hurts.",
+      "tldr": "No layout makes you faster at code than practice does. QWERTY keeps symbols where your muscle memory expects them; Colemak moves some letters for comfort but keeps most symbols; Programmer Dvorak rearranges the number row for symbols. Switch only after 60 WPM on QWERTY.",
+      "dur": 60,
+      "mode": "sentences",
+      "crumbs": [
+        "Home",
+        "Keyboard Layout for Programmers"
+      ],
+      "seo": [
+        {
+          "h2": "What code actually requires of a layout",
+          "p": [
+            "A rough count of ordinary source code: letters are still the majority of characters, but the shifted symbol row ( ) { } [ ] < > ; : \" ' = + - _ / \\ | carries a disproportionate share of the awkward reaches, and those reaches are where errors cluster.",
+            "So the question is not \"which layout is fastest for English\" - it is \"which layout puts the symbols you type most under the fingers that can reach them without leaving the home row\"."
+          ]
+        },
+        {
+          "h2": "The four layouts, compared",
+          "p": [
+            "<table><tr><th>Layout</th><th>Letter changes</th><th>Symbol changes</th><th>Cost of switching</th></tr><tr><td>QWERTY</td><td>None</td><td>None - symbols where every tool, shortcut and tutorial expects them</td><td>Zero</td></tr><tr><td>Dvorak</td><td>Substantial reordering for English comfort</td><td>Number row rearranged; brackets moved</td><td>Weeks of being slower; shortcuts assume QWERTY positions</td></tr><tr><td>Colemak</td><td>17 keys moved; keeps Z X C V in place for shortcuts</td><td>Mostly unchanged</td><td>Weeks, but lower than Dvorak</td></tr><tr><td>Programmer Dvorak</td><td>Dvorak letters</td><td>Number row replaced with symbols; digits shifted</td><td>High - digits need Shift for every number</td></tr></table>",
+            "Programmer Dvorak looks attractive on paper because symbols get the unshifted number row. In practice the digits then require Shift, which is a bad trade for anyone who types numbers - and most code contains them."
+          ]
+        },
+        {
+          "h2": "The honest verdict",
+          "p": [
+            "For most programmers, stay on QWERTY. The reason is not that it is optimal; it is that every editor shortcut, every bracket-matching habit and every tutorial assumes it, and your bottleneck is thinking, not the 60-70 WPM you already type.",
+            "Consider a change only if all three hold: you are past 60 WPM on QWERTY, you type code for several hours a day, and your error report shows the symbol reaches as the main source of mistakes. Even then, expect a month of being slower before any gain."
+          ]
+        },
+        {
+          "h2": "What helps more than a layout",
+          "p": [
+            "<ul><li><strong>Practise the symbols you actually type.</strong> Bracket-and-quote drills beat layout changes by a wide margin.</li><li><strong>Let the editor do the brackets.</strong> Auto-pairs, snippets and formatters remove keystrokes; a layout reorders them.</li><li><strong>Learn five shortcuts properly.</strong> Duplicate line, move line, go to definition, rename symbol, format document.</li></ul>",
+            "Code typing pools to practise on: <a href=\"python-code-typing.html\">Python</a>, <a href=\"javascript-code-typing.html\">JavaScript</a>, <a href=\"typescript-typing-practice.html\">TypeScript</a>, <a href=\"rust-typing-practice.html\">Rust</a>, <a href=\"go-typing-practice.html\">Go</a>, <a href=\"sql-typing-practice.html\">SQL</a>. The general comparison is on <a href=\"dvorak-vs-qwerty.html\">Dvorak vs QWERTY</a>."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "Is Dvorak better for programming?",
+          "a": "Not measurably. It reorders letters for English comfort and moves brackets, which breaks shortcut muscle memory. The evidence for a coding gain is anecdotal rather than measured."
+        },
+        {
+          "q": "What about Programmer Dvorak?",
+          "a": "It puts symbols on the unshifted number row, which sounds ideal until you need a digit - then every number requires Shift. For most codebases that is a bad trade."
+        },
+        {
+          "q": "Should I learn Colemak as a programmer?",
+          "a": "Only if you are already past 60 WPM, type code for hours a day, and want comfort rather than speed. It keeps Z X C V in place, so shortcuts survive better than with Dvorak."
+        },
+        {
+          "q": "What actually makes programmers type faster?",
+          "a": "Practising symbols, using snippets and formatters, and learning editor shortcuts. Layout changes come last, if at all."
+        },
+        {
+          "q": "How fast do programmers type?",
+          "a": "Most sit at 60-90 WPM on prose and 40-55 on real code, because code is symbol-dense. No employer screens for it."
+        }
+      ]
+    },
+    {
+      "file": "go-typing-practice.html",
+      "title": "Go Typing Practice — Goroutines, Errors, Interfaces",
+      "metaDesc": "Type real Go: channels, error wrapping, generics-free structs and methods, test helpers. Trains the punctuation Go uses on nearly every line.",
+      "h1": "Go Typing Practice",
+      "heroP": "Go is deliberately plain, and that is what makes it a good typing drill: <strong>short declarations, braces on every line, := and error checks</strong> appear so often that they become the rhythm of the language.",
+      "tldr": "Go code is brace-dense: every function, block and struct literal opens and closes. Expect 45-55 WPM on real Go even if you type prose at 75; the limiting characters are { } and := on the right hand.",
+      "dur": 60,
+      "mode": "sentences",
+      "variant": "go_code",
+      "crumbs": [
+        "Home",
+        "Go Typing Practice"
+      ],
+      "seo": [
+        {
+          "h2": "What makes Go distinctive to type",
+          "p": [
+            "Three things. <strong>Braces</strong> open on the same line as the statement, so almost every line ends with a reach to the right hand. <strong>Short declarations</strong> (:=) put the colon and equals in sequence, two keys that are not adjacent. And <strong>error checks</strong> repeat the same three-line idiom constantly, which makes it the single most valuable sequence to automate in your fingers.",
+            "The upside is regularity. Once you can type `if err != nil {` without thinking, a large fraction of Go becomes the same motion with different identifiers."
+          ]
+        },
+        {
+          "h2": "What is in the pool",
+          "p": [
+            "Thirty-six lines of ordinary Go: a package declaration, grouped imports, a struct with a receiver method, an HTTP server start, JSON decoding with the standard error check, context with timeout, a goroutine range loop, a select, slices.SortFunc with a comparison function, sync.WaitGroup, error wrapping with %w, a type switch, a test helper with t.Fatalf, and a mutex with defer.",
+            "They are deliberately short. Go lines are short, and the drill should teach the shape of the language rather than test your endurance with a long expression."
+          ]
+        },
+        {
+          "h2": "Practising the Go idioms",
+          "p": [
+            "Start with the three highest-frequency sequences: `if err != nil {`, `for _, v := range`, and `defer x.Close()`. Type each twenty times slowly, then in a normal round. Automation of those three is worth more than raw speed.",
+            "Then add the punctuation that bites: the colon-equals, the ampersand for addresses, and the backtick for struct tags - which needs the key most typists have never used."
+          ]
+        },
+        {
+          "h2": "Other languages on this site",
+          "p": [
+            "Same engine, different grammar: <a href=\"python-code-typing.html\">Python</a>, <a href=\"javascript-code-typing.html\">JavaScript</a>, <a href=\"typescript-typing-practice.html\">TypeScript</a>, <a href=\"rust-typing-practice.html\">Rust</a>, <a href=\"sql-typing-practice.html\">SQL</a>, and <a href=\"excel-formula-typing-practice.html\">Excel formulas</a>. For layout questions, see <a href=\"keyboard-layout-for-programmers.html\">keyboard layout for programmers</a>."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "What typing speed do Go developers have?",
+          "a": "No one measures it formally. Most developers type prose at 60-90 WPM and real Go at 45-55, because braces and short declarations add right-hand reaches."
+        },
+        {
+          "q": "Why is Go slower to type than Python?",
+          "a": "Go is brace-dense and every block closes with a reach, while Python uses indentation. Go also repeats the error-check idiom, which is fast only once it is automatic."
+        },
+        {
+          "q": "Is this real Go?",
+          "a": "Yes - 36 lines of ordinary Go covering goroutines, channels, context, error wrapping, generics-era slices helpers, struct tags and tests."
+        },
+        {
+          "q": "What should I drill first?",
+          "a": "`if err != nil {`, `for _, v := range` and `defer ...Close()`. Those three sequences cover a large share of real Go lines."
+        },
+        {
+          "q": "How long until I see a gain?",
+          "a": "Two weeks of five-minute daily rounds usually shows 4-7 WPM on Go content, mostly from the brace reach and the := sequence becoming automatic."
+        }
+      ]
+    }
+  ]
+}
