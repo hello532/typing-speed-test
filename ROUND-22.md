@@ -302,3 +302,30 @@ verify 20/20 ｜ health 11/11 ｜ structure gate S1/S2/S3
 **教训（写进流程）**：`node --check` 只能证明语法合法。这一晚加的 3 处交互里，
 只有真浏览器跑一遍才能发现这类"合法但无效"的脚本。后续每加一处交互，都要用
 `ego-browser` 在线上点一次。
+
+---
+
+## 十四、r70–r72：验收脚本、404、出站链接审计
+
+| 轮次 | 内容 | 结果 |
+|---|---|---|
+| r70 | `src/tools/browsercheck.js`：7 项真浏览器线上验收 | 7/7 通过（换算器双向、计算器、筛选器三态、语种接线、结构信号） |
+| r71 | 自定义 404（GitHub Pages 自动接管） | `/404.html` 200，缺失路径返回 **404 状态码 + 自定义页**（不是软 404）；8 条恢复链接 0 死链 |
+| r72 | `src/tools/linkout.py` 出站链接审计 | 15 条去重后 0 死链；3 条 ACM DOI 返回 403 判为 publisher-blocked |
+
+### DOI 用真浏览器复核过
+
+```
+doi.org/10.1145/3173574.3174220 → Observations on Typing from 136 Million Keystrokes (CHI 2018)
+doi.org/10.1145/2858036.2858233 → How We Type (CHI 2016)
+doi.org/10.1145/3338286.3340120 → How do People Type on Mobile Devices? (MobileHCI 2019)
+```
+
+curl 拿 403 是 ACM 反爬，不是死链。`linkout.py` 因此把 403 与 404 分开判：
+只有 404/410/DNS 失败才算死链，否则每次审计都会得到三个假警报。
+
+### 一个做不成的取证（记录下来）
+
+Bing 的 `site:` 现在对本 UA 返回 "There are no results"，而开站初期同样的方法能翻到
+3 页分页。这是 Bing 的爬虫缓解在起作用，不是站点被移除（IndexNow 提交一直 200，
+GSC 的 Google 侧数据正常）。**结论：Bing 抓取不可作为收录证据，收录只看 GSC 与 IndexNow 返回。**
