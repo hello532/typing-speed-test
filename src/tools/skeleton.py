@@ -82,7 +82,11 @@ _RULES = [
     (re.compile(r"\{\{HREFLANG\}\}"), ""),
     (re.compile(r"\{\{LD_(?:WEBAPP|FAQ|BREADCRUMB|ORG|SITE)\}\}"), "<script type=\"application/ld+json\">{{LD}}</script>"),
     (re.compile(r"\{\{HEAD_SNIPPET\}\}"), "{{HEADJS}}"),
-    (re.compile(r"(\{\{LD\}\}\s*\n?)+"), "{{LD}}\n"),
+    # R44：JSON-LD 数块 -> 一个槽位。此前只吃掉相邻的 {{LD}} 文本，4 块时会剩 2 块，
+    # 于是「单页附加 HowTo」被判成结构差异。改为按整块折叠：块数属于槽内内容，
+    # 不属于结构——结构的唯一性仍然由其余槽位保证。
+    (re.compile(r'(?:<script type="application/ld\+json">\{\{LD\}\}\n?</script>\s*)+'),
+     '<script type="application/ld+json">{{LD}}</script>\n'),
     # 行首缩进属纯排版，结构闸门只比 token 结构；统一剥除（末尾空行归一已在上面）
     (re.compile(r"(?m)^[ \t]+"), ""),
     # 冗余空行归一

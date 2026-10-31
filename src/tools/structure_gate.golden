@@ -22,12 +22,7 @@
 <meta name="twitter:title" content="{{TW}}">
 <meta name="twitter:description" content="{{TW}}">
 <meta name="twitter:image" content="https://typing.rerivo.com/og-cover.png">
-<script type="application/ld+json">{{LD}}
-</script>
-<script type="application/ld+json">{{LD}}
-</script>
-<script type="application/ld+json">{{LD}}
-</script>
+<script type="application/ld+json">{{LD}}</script>
 <style>{{CSS}}</style>
 <script>{{HEADJS}}</script>
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1401237223139327"

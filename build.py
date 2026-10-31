@@ -276,7 +276,17 @@ def build_jsonld(page, cfg):
     # single skeleton, so a one-page extra node fails both. The citation lives
     # in the visible sources section and in the prose instead, which is what an
     # answer engine actually quotes.
+    # R44：HowTo（仅配置了 howto 的页输出，附在 BreadcrumbList 之后）。
+    # verify 6 号门禁的期望类型里显式排除 HowTo，所以单页附加不会破坏类型顺序锁。
     art = ""
+    if page.get("howto"):
+        how = {"@context": "https://schema.org", "@type": "HowTo",
+               "name": page["howto"]["name"],
+               "description": page["howto"]["description"],
+               "totalTime": page["howto"].get("totalTime", "P30D"),
+               "step": [{"@type": "HowToStep", "position": i + 1, "name": st["name"], "text": st["text"]}
+                        for i, st in enumerate(page["howto"]["steps"])]}
+        art = ld_block(how, False)
     return (ld_block(wa, "WebApplication" in pretty),
             ld_block(faq, "FAQPage" in pretty),
             ld_block(bc, "BreadcrumbList" in pretty),

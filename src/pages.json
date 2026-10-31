@@ -18355,7 +18355,34 @@
     "FAQPage",
     "BreadcrumbList"
    ],
-   "tldr": "Weeks 1-2: stop looking down and stop backspacing. Week 3: accuracy at speed, punctuation and digits. Week 4: full-length tests and consistency. Expected: 5-15 WPM if you are new, 3-6 if you are already over 60."
+   "tldr": "Weeks 1-2: stop looking down and stop backspacing. Week 3: accuracy at speed, punctuation and digits. Week 4: full-length tests and consistency. Expected: 5-15 WPM if you are new, 3-6 if you are already over 60.",
+   "howto": {
+    "name": "30-day typing improvement plan",
+    "description": "A 15-minutes-a-day plan that changes what you practise each week because the cause of slow typing changes as you get faster.",
+    "totalTime": "P30D",
+    "steps": [
+     {
+      "name": "Week 1: remove the two habits that cap speed",
+      "text": "Alternate covered-keyboard rounds with no-backspace rounds for 15 minutes a day. Accuracy targets: above 92% by day seven."
+     },
+     {
+      "name": "Week 2: make the home row automatic",
+      "text": "Home-row and top-row drills plus one pangram round daily, typed slowly enough that you never look down."
+     },
+     {
+      "name": "Week 3: accuracy at speed",
+      "text": "Three pairs of 30-second maximum-speed sprints followed by a slow accuracy round, plus one numbers and one punctuation round every other day."
+     },
+     {
+      "name": "Week 4: full length and consistency",
+      "text": "Three five-minute rounds per session, no pause. Score the lowest of the three, then compare day 30 against day 1 on the same test length."
+     },
+     {
+      "name": "Day 31: switch to maintenance",
+      "text": "Five minutes, four days a week, one full test a month. Keep the accuracy habit; deliberate practice has diminishing returns once the habits are clean."
+     }
+    ]
+   }
   },
   {
    "file": "typing-test-for-court-clerk.html",
