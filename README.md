@@ -133,6 +133,7 @@ og-cover.png       social preview image
 | `python3 src/tools/weekly.py` | last week vs the week before, and what the change means |
 | `ego-browser nodejs < src/tools/cwv.js` | mobile Core Web Vitals under Slow 4G + 4× CPU: FCP, DCL, doc size, CLS with and without ads blocked. Fails if own-code CLS > 0.05 |
 | `ego-browser nodejs < src/tools/mobilesweep.js` | full-site mobile sweep: 184 pages at 390×844, fails on horizontal overflow. Needs `python3 -m http.server 8765` running from the repo root |
+| `python3 src/tools/inventory.py` | writes `INVENTORY.md`: every page by cluster with body size, FAQ count and real GSC impressions/position |
 | `python3 src/tools/deploysync.py` | compares every local page against what the live site actually serves (sha256); catches half-finished deploys and CDN staleness |
 | `python3 src/tools/linkout.py` | outbound link audit: dead links fail, publisher 403s are labelled, not counted |
 | `ego-browser nodejs < src/tools/browsercheck.js` | real-browser check of the live site: converter, calculator, directory filter, language wiring, page structure. Needs the local ego-browser CLI; 7 checks, exit 1 on failure |
