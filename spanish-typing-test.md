@@ -4,28 +4,43 @@ Source: https://typing.rerivo.com/spanish-typing-test.html
 
 Test your Spanish typing speed with real Spanish sentences. Measure your words per minute and accuracy instantly. Free, no sign up.
 
-A Spanish typing test measures how fast and accurately you type Spanish text. Your result is shown in words per minute, where every 5 characters counts as one word. Typing full Spanish sentences — with accents, the letter ñ and inverted punctuation — is the most realistic way to measure everyday Spanish typing speed.
+Four characters do most of the damage: ñ, the accented vowels á é í ó ú, the inverted marks ¿ ¡, and the dieresis ü in words like pingüino. On a Spanish layout they have dedicated keys; on an English layout they need dead keys or Alt codes, which is a different skill entirely.
 
-Practise with real sentences rather than isolated words, keep your fingers on the home row, and look at the screen instead of the keyboard. Spanish adds accented vowels (á, é, í, ó, ú) and ñ, so slow down at first to learn those key positions; accuracy first, then speed.
+If you are preparing for an exam or a job in a Spanish-speaking country, practise on the layout you will actually face. Typing Spanish on an English keyboard trains a workaround, not the skill.
 
-This Spanish typing test uses natural, everyday sentences rather than random letters, so you practise the real word patterns of Spanish — common endings like -ción, -mente and -ando — together with the accented characters and ¿ ¡ punctuation you meet in real Spanish writing.
+Accents change meaning, not just spelling: si (if) and sí (yes), el (the) and él (he), esta and está. Omitting one is a real error in the language, not a typo, which is why Spanish typing tests treat a missing accent as a mistake.
 
-Accents in Spanish change a word's meaning (for example sí meaning yes versus si meaning if), so typing them correctly is part of typing Spanish well. Drilling sentences that include á, é, í, ó, ú and ñ builds muscle memory for the extra keystrokes, and your overall Spanish typing speed rises across every kind of text you write.
+The inverted question and exclamation marks are typed at the start of the sentence, so they require a look-ahead: you have to decide the sentence is a question before you begin it. That is why they show up in error reports.
+
+Layout | Where | What changes
+Spanish QWERTY | Spain | Ñ next to L; accents on dedicated keys
+Latin American QWERTY | Most of Latin America | Similar to Spain's, with differences in symbol placement
+AZERTY | Not used for Spanish | Different letter order; avoid for Spanish practice
+
+The differences are small but they cost accuracy for the first week. Practise on the layout you will be tested on.
+
+Start with sentences that include at least one accent and one punctuation mark per line - that is what ordinary Spanish looks like. Then add a numbers round, because dates and amounts are where Spanish-language office work actually lives.
+
+For exam preparation, see the requirement bands on typing speed requirements; for the general benchmark, average typing speed.
 
 ## Spanish typing test FAQ
 
-### Is this Spanish typing test free?
+### What is a good Spanish typing speed?
 
-Yes. The Spanish typing test is free with no sign up; your Spanish results stay in this browser.
+200-250 characters per minute (40-50 words per minute) is comfortable office speed. Spanish words are longer on average, so compare CPM when comparing across languages.
 
-### Does the test include accented characters and ñ?
+### Do accents count as errors?
 
-Yes. The practice sentences are real Spanish, so they include accented vowels (á, é, í, ó, ú), the letter ñ, and inverted ¿ ¡ punctuation.
+Yes. Accents change meaning in Spanish - si and sí, el and él - so a missing accent is a language error, and Spanish typing tests treat it as a mistake.
 
-### How is WPM counted for Spanish text?
+### Should I use a Spanish keyboard layout?
 
-The same 5-characters-per-word rule, applied to real Spanish sentences including accented vowels and ñ. Accents count as ordinary characters, so typing them correctly protects your accuracy.
+If you are preparing for an exam or job in a Spanish-speaking country, yes. Typing Spanish on an English layout with dead keys trains a workaround rather than the skill you will be tested on.
 
-### Do I need a Spanish keyboard for the ñ and accents?
+### Why do the inverted ¿ and ¡ slow me down?
 
-No: the test accepts standard keystrokes and guides you through accented characters with the on-screen keyboard. A Spanish layout helps at speed, but beginners can start on any keyboard immediately.
+They are typed at the start of a sentence, so you must decide the sentence is a question before you begin typing it. That look-ahead is an extra decision per sentence.
+
+### Is this Spanish test free?
+
+Yes, no account, and the practice pool is real Spanish sentences with accents and ñ rather than stripped-down text.

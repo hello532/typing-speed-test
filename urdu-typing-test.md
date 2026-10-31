@@ -4,32 +4,40 @@ Source: https://typing.rerivo.com/urdu-typing-test.html
 
 Test your Urdu typing speed with real Urdu sentences in the Perso-Arabic script, typed right to left. Instant speed and accuracy results. Free, no sign up.
 
-An Urdu typing test measures how fast and accurately you type real Urdu sentences in the Perso-Arabic (Nastaliq-style) script, written and read right to left. Your result is shown in words per minute, where every 5 characters counts as one word, so you can compare scores with the classic typing test 1 minute round.
+Urdu is written right to left in Nastaliq, where most letters change shape depending on what joins them on either side. You still press one key per letter - the shaping is the font's job - but the visual result is not one glyph per keystroke, which makes proofreading harder than in Latin script.
 
-The cursor moves right to left, and letters change shape depending on their position in a word — initial, medial, final or isolated forms join automatically as you type. This test renders the practice text and your input right to left, exactly as Urdu appears in real documents, so what you practise is what you produce.
+Four characters decide accuracy: ڑ (retroflex r), ں (noon ghunna), ے (bari ye) and the difference between ہ and ھ. These are the pairs that show up in error reports, and they are the ones worth drilling.
 
-Practise with real sentences rather than single letters, keep your eyes on the screen, and slow down at first for the characters that sit above and below the line — the diacritics and the special letters ٹ ڈ ڑ ں ہ ے. Accuracy first: rasm (spelling) mistakes cost more time than a steady, clean pace.
+The standard Urdu layout keeps Latin letters on the same physical keys and adds Urdu legends, so a touch typist can switch languages without moving hands. That is the good news: your existing muscle memory transfers.
 
-Timed Urdu passage typing is the format used in Pakistani government, court and data-entry exams, usually set in InPage or standard Urdu keyboards. Daily timed rounds with real sentences build the same speed and accuracy those tests measure — and your CPM shows the raw keystroke rate alongside WPM.
+The complication is direction. In a right-to-left field the cursor moves left as you type, and mixing Urdu with Latin words or digits reverses the visual order of that run. If accuracy collapses when a sentence contains a number, that is bidirectional text handling rather than typing speed.
+
+Pakistani government and clerical posts commonly ask for a typing certificate or a timed sample, with speeds quoted in words per minute and, for some posts, in keystrokes. Because requirements are set per employer, read the notice rather than assuming a national standard.
+
+If the test is proctored, rehearse on a different keyboard at least twice: legend placement and key travel change your error rate more than practice volume does.
+
+Use real sentences rather than letter lists, and drill the four confusable characters in isolation for thirty seconds before each session. Then run a full-length round and check accuracy on those characters specifically.
+
+For the English side of the same skill, see English typing test; for the general benchmark, average typing speed.
 
 ## Urdu typing test FAQ
 
-### Is this Urdu typing test free?
+### Does Urdu typing count characters or letters?
 
-Yes. It is free with no sign up, and your practice history stays on your own device.
+Letters - one keystroke per letter. The joined Nastaliq shapes you see are produced by the font, not by extra keystrokes.
 
-### Does the test type right to left?
+### Which characters cause the most errors?
 
-Yes. Both the practice text and your input field run right to left, the way real Urdu is written and read, so your practice matches real documents.
+ڑ, ں, ے and the ہ/ھ pair. They are visually similar in context and appear less often than common letters, so they stay less practised.
 
-### Which Urdu keyboard does it work with?
+### Why does my accuracy drop when a sentence has numbers?
 
-Any standard Urdu keyboard layout — the national Urdu keyboard, phonetic layouts, or InPage-style input — because the test measures the text you produce, not the keys you press.
+Mixing right-to-left Urdu with left-to-right digits reverses the visual order of that run. It is a bidirectional text issue rather than a typing-speed problem.
 
-### Do letters join correctly as I type?
+### What is a good Urdu typing speed?
 
-Yes. Urdu letters automatically take their initial, medial, final or isolated shapes as you type; the test displays the joined text exactly like any Urdu word processor.
+200-250 characters per minute (40-50 words per minute) is comfortable office speed. Government and clerical tests commonly ask 20-30 words per minute for entry-level posts.
 
-### Will this help with Urdu typing exams?
+### Do I need a special keyboard?
 
-Yes. Timed sentence practice in the Perso-Arabic script is the standard format of Pakistani government and court typing tests, so daily rounds build the same measured speed and accuracy.
+No. The Urdu layout keeps Latin letters on the same keys, so you add it in your operating system and switch with a shortcut.

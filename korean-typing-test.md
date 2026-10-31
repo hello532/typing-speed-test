@@ -4,32 +4,42 @@ Source: https://typing.rerivo.com/korean-typing-test.html
 
 Test your Korean typing speed with real Korean sentences in Hangul. Measure your speed and accuracy instantly with live results. Free, no sign up.
 
-A Korean typing test measures how fast and accurately you type real Korean sentences — everyday Hangul text with natural spacing (띄어쓰기) and punctuation. Your score appears in words per minute, where every 5 characters counts as one word, so results stay comparable with the standard 1 minute typing test.
+Korean is written in syllable blocks, and each block is composed from 2-4 jamo (consonant and vowel letters). You type the jamo in sequence and the input method assembles them into a block as you go: ㄱ + ㅏ = 가, and adding a final consonant changes the block again.
 
-Hangul is typed letter by letter — ㅎ, ㅏ, ㄴ — and the IME assembles each syllable block (한) as you go. That means Korean typing speed is really about how fast your fingers roll through the jamo inside each block. Smooth, even syllable rhythm beats short bursts of speed.
+That has two consequences for typing speed. First, your keystroke count is per jamo, not per visible character, so characters per minute and keystrokes per minute diverge sharply. Second, a wrong jamo does not produce a wrong letter - it produces a different block, which is harder to spot when proofreading.
 
-Keep your fingers on the home row (ㅁㄴㅇㄹ / ㅏㅓㅣㅡ positions on the standard 2-set keyboard), look at the screen not the keyboard, and practise short daily rounds. Accuracy first: fixing a mis-composed syllable costs more time than typing it slowly and cleanly.
+Most Korean typists use the 2-beolsik (두벌식) layout, which maps consonants to the left hand and vowels to the right. That division is why Korean touch typing can be fast: the hands alternate rather than competing for the same keys.
 
-Korean syllable blocks pack several letters into one character, so raw WPM understates the work your fingers do. Watch your characters per minute (CPM) as well: it tracks the real keystroke load of Korean text.
+The 3-beolsik layouts assign final consonants to the right hand and have a higher theoretical ceiling, but they are rare and not worth learning unless you already type Korean professionally. If you are learning, use 2-beolsik because it is what every Korean keyboard ships with.
+
+Batchim (final consonants) - the third or fourth jamo in a block, which moves the hand back to the consonant side.
+Block boundaries - knowing when a syllable ends is a language skill, not a typing skill, and it is where learners hesitate.
+Homophone selection - less severe than Chinese IMEs, but still present for Sino-Korean words.
+
+Practise on real sentences rather than jamo lists. The jamo are easy; the block assembly under time pressure is not.
+
+This page reports WPM and CPM from the committed text. For Korean, CPM is the more meaningful number because it counts visible characters, while the keystroke count behind it is roughly 2-3 times higher.
+
+For comparison across languages, use CPM: the five-characters-per-word convention was designed for alphabetic scripts and understates the work in a block-based one. The general benchmarks are on average typing speed.
 
 ## Korean typing test FAQ
 
-### Is this Korean typing test free?
+### How does Korean typing work on a normal keyboard?
 
-Yes. It is free with no sign up, and your practice history stays on your own device.
+You type jamo (consonant and vowel letters) and the input method assembles them into syllable blocks. Two to four keystrokes produce one visible character.
 
-### Which keyboard layout does the test expect?
+### Which layout should I learn?
 
-Any. The test shows real Korean sentences and measures what you produce, so the standard 2-set Hangul layout, 3-set layouts, or a mobile Korean keyboard all work.
+2-beolsik (두벌식). It ships with every Korean keyboard, splits consonants and vowels between hands, and has a high enough ceiling for professional work.
 
-### How do syllable blocks affect typing?
+### Why is my Korean WPM lower than my English WPM?
 
-You type individual jamo (letters) and the IME composes them into syllable blocks automatically. Fast Korean typing comes from an even jamo rhythm inside each block, not from rushing whole words.
+Each visible character needs two to four keystrokes, so characters per minute and words per minute diverge. Compare CPM across languages rather than WPM.
 
-### Is WPM or CPM more useful for Korean?
+### What is batchim and why does it slow me down?
 
-Both are shown after each round. Because each Hangul block contains several letters, CPM (characters per minute) reflects your true keystroke speed better than WPM.
+Batchim is the final consonant in a syllable block. Typing it moves the hand back to the consonant side, which breaks the alternation that makes Korean typing fast.
 
-### Will this help with Korean typing exams?
+### Is this Korean test free?
 
-Yes. Timed sentence practice with real Hangul text builds the speed and accuracy measured in Korean office, civil-service and data-entry typing tests.
+Yes, with no account. Results stay in your browser, and the practice pool is real Korean sentences rather than random jamo.

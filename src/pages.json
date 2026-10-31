@@ -742,27 +742,31 @@
    "heroP": "Test your <strong>Spanish typing speed</strong> with real Spanish sentences. Measure your words per minute and accuracy instantly. Free, no sign up.",
    "seo": [
     {
-     "h2": "Spanish typing test",
+     "h2": "What Spanish adds to a Latin keyboard",
      "p": [
-      "A <strong>Spanish typing test</strong> measures how fast and accurately you type Spanish text. Your result is shown in words per minute, where every 5 characters counts as one word. Typing full Spanish sentences — with accents, the letter ñ and inverted punctuation — is the most realistic way to measure everyday Spanish typing speed."
+      "Four characters do most of the damage: <strong>ñ</strong>, the accented vowels <strong>á é í ó ú</strong>, the inverted marks <strong>¿ ¡</strong>, and the dieresis <strong>ü</strong> in words like pingüino. On a Spanish layout they have dedicated keys; on an English layout they need dead keys or Alt codes, which is a different skill entirely.",
+      "If you are preparing for an exam or a job in a Spanish-speaking country, practise on the layout you will actually face. Typing Spanish on an English keyboard trains a workaround, not the skill."
      ]
     },
     {
-     "h2": "How to improve Spanish typing",
+     "h2": "Why the accents matter more than they look",
      "p": [
-      "Practise with real sentences rather than isolated words, keep your fingers on the home row, and look at the screen instead of the keyboard. Spanish adds accented vowels (á, é, í, ó, ú) and ñ, so slow down at first to learn those key positions; accuracy first, then speed."
+      "Accents change meaning, not just spelling: si (if) and sí (yes), el (the) and él (he), esta and está. Omitting one is a real error in the language, not a typo, which is why Spanish typing tests treat a missing accent as a mistake.",
+      "The inverted question and exclamation marks are typed at the start of the sentence, so they require a look-ahead: you have to decide the sentence is a question before you begin it. That is why they show up in error reports."
      ]
     },
     {
-     "h2": "Practising Spanish typing",
+     "h2": "QWERTY, AZERTY and the Latin American layout",
      "p": [
-      "This Spanish typing test uses natural, everyday sentences rather than random letters, so you practise the real word patterns of Spanish — common endings like -ción, -mente and -ando — together with the accented characters and ¿ ¡ punctuation you meet in real Spanish writing."
+      "<table><tr><th>Layout</th><th>Where</th><th>What changes</th></tr><tr><td>Spanish QWERTY</td><td>Spain</td><td>Ñ next to L; accents on dedicated keys</td></tr><tr><td>Latin American QWERTY</td><td>Most of Latin America</td><td>Similar to Spain's, with differences in symbol placement</td></tr><tr><td>AZERTY</td><td>Not used for Spanish</td><td>Different letter order; avoid for Spanish practice</td></tr></table>",
+      "The differences are small but they cost accuracy for the first week. Practise on the layout you will be tested on."
      ]
     },
     {
-     "h2": "Why accented characters matter",
+     "h2": "Practising for real Spanish text",
      "p": [
-      "Accents in Spanish change a word's meaning (for example sí meaning yes versus si meaning if), so typing them correctly is part of typing Spanish well. Drilling sentences that include á, é, í, ó, ú and ñ builds muscle memory for the extra keystrokes, and your overall Spanish typing speed rises across every kind of text you write."
+      "Start with sentences that include at least one accent and one punctuation mark per line - that is what ordinary Spanish looks like. Then add a numbers round, because dates and amounts are where Spanish-language office work actually lives.",
+      "For exam preparation, see the requirement bands on <a href=\"typing-speed-requirements.html\">typing speed requirements</a>; for the general benchmark, <a href=\"average-typing-speed.html\">average typing speed</a>."
      ]
     }
    ],
@@ -770,20 +774,24 @@
    "faqH2": "Spanish typing test FAQ",
    "faq": [
     {
-     "q": "Is this Spanish typing test free?",
-     "a": "Yes. The Spanish typing test is free with no sign up; your Spanish results stay in this browser."
+     "q": "What is a good Spanish typing speed?",
+     "a": "200-250 characters per minute (40-50 words per minute) is comfortable office speed. Spanish words are longer on average, so compare CPM when comparing across languages."
     },
     {
-     "q": "Does the test include accented characters and ñ?",
-     "a": "Yes. The practice sentences are real Spanish, so they include accented vowels (á, é, í, ó, ú), the letter ñ, and inverted ¿ ¡ punctuation."
+     "q": "Do accents count as errors?",
+     "a": "Yes. Accents change meaning in Spanish - si and sí, el and él - so a missing accent is a language error, and Spanish typing tests treat it as a mistake."
     },
     {
-     "q": "How is WPM counted for Spanish text?",
-     "a": "The same 5-characters-per-word rule, applied to real Spanish sentences including accented vowels and ñ. Accents count as ordinary characters, so typing them correctly protects your accuracy."
+     "q": "Should I use a Spanish keyboard layout?",
+     "a": "If you are preparing for an exam or job in a Spanish-speaking country, yes. Typing Spanish on an English layout with dead keys trains a workaround rather than the skill you will be tested on."
     },
     {
-     "q": "Do I need a Spanish keyboard for the ñ and accents?",
-     "a": "No: the test accepts standard keystrokes and guides you through accented characters with the on-screen keyboard. A Spanish layout helps at speed, but beginners can start on any keyboard immediately."
+     "q": "Why do the inverted ¿ and ¡ slow me down?",
+     "a": "They are typed at the start of a sentence, so you must decide the sentence is a question before you begin typing it. That look-ahead is an extra decision per sentence."
+    },
+    {
+     "q": "Is this Spanish test free?",
+     "a": "Yes, no account, and the practice pool is real Spanish sentences with accents and ñ rather than stripped-down text."
     }
    ],
    "webAppName": "Typing Speed Test",
@@ -7477,27 +7485,30 @@
    "heroP": "Test your <strong>Japanese typing speed</strong> with real Japanese sentences mixing kanji, hiragana and katakana. Instant speed and accuracy results. Free, no sign up.",
    "seo": [
     {
-     "h2": "Japanese typing test",
+     "h2": "Japanese typing is two skills in sequence",
      "p": [
-      "A <strong>Japanese typing test</strong> measures how fast and accurately you type real Japanese text — sentences that mix kanji, hiragana and katakana exactly the way everyday Japanese is written. Your result is shown in words per minute, where every 5 characters counts as one word, so the score stays comparable with the classic <a href=\"1-minute-typing-test.html\">1 minute typing test</a>."
+      "You type romaji, the input method converts it to kana, and a second conversion turns kana into kanji. So a single word can require typing, converting, and choosing from a candidate list - three decisions per word where English requires none.",
+      "That is why Japanese typing speed depends heavily on conversion accuracy rather than raw keystrokes. A typist who converts correctly on the first try is faster than one who types faster but re-converts twice."
      ]
     },
     {
-     "h2": "Romaji input, kana input and the IME",
+     "h2": "Romaji input versus kana input",
      "p": [
-      "Most people type Japanese with a romaji-to-kana IME: you type roman letters, the IME converts them to kana, and you confirm kanji conversions as you go. This test shows the finished Japanese sentence, so it trains the reading-and-confirming rhythm that real Japanese typing depends on, whichever input method you use."
+      "Romaji input maps Latin letters to kana (ka → か) and is what most learners use, because it works on any keyboard. Kana input maps each kana to a single key on a Japanese keyboard; it has a higher ceiling because each kana is one keystroke instead of two or three.",
+      "For most people romaji is the right choice: the keyboard is standard, the learning curve is shorter, and the ceiling is high enough for office work. Switch to kana input only if you type Japanese for hours a day."
      ]
     },
     {
-     "h2": "How to improve Japanese typing speed",
+     "h2": "The conversions that cost the most",
      "p": [
-      "Accuracy first: a missed kanji conversion costs far more time than a slow, clean sentence. Practise short daily rounds, keep your eyes on the screen, and let your fingers learn the romaji syllable rhythm — consonant plus vowel — that almost every Japanese word follows."
+      "<ul><li><strong>Kanji selection</strong> - homophones are common (こうしょう has dozens of kanji readings), so candidate lists matter.</li><li><strong>Katakana words</strong> - loanwords are long and the conversion is rarely the first candidate.</li><li><strong>Names</strong> - place and person names often need manual conversion.</li><li><strong>Punctuation</strong> - the Japanese comma 、 and full stop 。 are separate keys from their Latin counterparts.</li></ul>"
      ]
     },
     {
-     "h2": "WPM, CPM and Japanese",
+     "h2": "How the score is reported",
      "p": [
-      "Because Japanese packs meaning into characters, one Japanese 'word' carries more content than one English word. Watch your <a href=\"cpm-typing-test.html\">characters per minute (CPM)</a> alongside WPM: for Japanese, CPM is often the fairer measure of real input speed."
+      "This page reports WPM and CPM from the committed text. For Japanese, characters per minute is the meaningful figure, and it is typically much lower than an English WPM for the same typist - a reflection of the conversion work, not of slower fingers.",
+      "Compare within Japanese over time rather than against English scores. For the general benchmarks, see <a href=\"average-typing-speed.html\">average typing speed</a>."
      ]
     }
    ],
@@ -7505,24 +7516,24 @@
    "faqH2": "Japanese typing test FAQ",
    "faq": [
     {
-     "q": "Is this Japanese typing test free?",
-     "a": "Yes. It is free with no sign up, and your practice history stays on your own device."
+     "q": "How does Japanese typing work?",
+     "a": "You type romaji, the input method converts it to kana, then a second conversion selects kanji from a candidate list. Each word can involve typing, converting and choosing."
     },
     {
-     "q": "Do I type in romaji or in kana?",
-     "a": "Either works. The test shows real Japanese sentences; you reproduce the characters with your usual input method — romaji-to-kana IME, kana input, or a Japanese keyboard."
+     "q": "Is romaji or kana input faster?",
+     "a": "Kana input has a higher ceiling because each kana is one keystroke, but it requires a Japanese keyboard or layout and a longer learning curve. Romaji is the practical choice for most people."
     },
     {
-     "q": "Does the test include kanji?",
-     "a": "Yes. Sentences mix kanji, hiragana and katakana the way natural Japanese writing does, so you practise real text, not isolated kana drills."
+     "q": "Why is my Japanese WPM so low?",
+     "a": "Conversion decisions cost time that keystroke speed cannot recover. Japanese characters per minute are typically far below an equivalent English WPM - compare within Japanese over time."
     },
     {
-     "q": "Is WPM a fair measure for Japanese?",
-     "a": "Treat it as a guide, not an absolute. Japanese words carry more meaning per character, so many typists prefer to track CPM (characters per minute), which this test also shows after every round."
+     "q": "What are the hardest parts?",
+     "a": "Kanji selection for homophones, katakana loanwords, and names. All three require candidate-list navigation rather than faster typing."
     },
     {
-     "q": "Will this help with Japanese typing exams or work?",
-     "a": "Yes. Timed sentence practice with real mixed-script text builds exactly the speed and accuracy that Japanese office work and data-entry exams measure."
+     "q": "Is this Japanese test free?",
+     "a": "Yes, no account, and the practice pool uses real Japanese sentences mixing kanji, hiragana and katakana."
     }
    ],
    "tldr": "A Japanese typing test measures speed and accuracy on real mixed-script sentences (kanji, hiragana, katakana). Because Japanese packs more meaning into each character, CPM (characters per minute) is often a fairer metric than WPM. Most typists use a romaji-to-kana IME; this free test works with any input method, runs 15 seconds to 10 minutes, and needs no sign up.",
@@ -7572,27 +7583,31 @@
    "heroP": "Test your <strong>Korean typing speed</strong> with real Korean sentences in Hangul. Measure your speed and accuracy instantly with live results. Free, no sign up.",
    "seo": [
     {
-     "h2": "Korean typing test",
+     "h2": "Hangul is assembled, not typed letter by letter",
      "p": [
-      "A <strong>Korean typing test</strong> measures how fast and accurately you type real Korean sentences — everyday Hangul text with natural spacing (띄어쓰기) and punctuation. Your score appears in words per minute, where every 5 characters counts as one word, so results stay comparable with the standard <a href=\"1-minute-typing-test.html\">1 minute typing test</a>."
+      "Korean is written in syllable blocks, and each block is composed from 2-4 jamo (consonant and vowel letters). You type the jamo in sequence and the input method assembles them into a block as you go: ㄱ + ㅏ = 가, and adding a final consonant changes the block again.",
+      "That has two consequences for typing speed. First, your keystroke count is per jamo, not per visible character, so characters per minute and keystrokes per minute diverge sharply. Second, a wrong jamo does not produce a wrong letter - it produces a different block, which is harder to spot when proofreading."
      ]
     },
     {
-     "h2": "Hangul syllable blocks and typing rhythm",
+     "h2": "Why the 2-beolsik layout matters",
      "p": [
-      "Hangul is typed letter by letter — ㅎ, ㅏ, ㄴ — and the IME assembles each syllable block (한) as you go. That means Korean typing speed is really about how fast your fingers roll through the jamo inside each block. Smooth, even syllable rhythm beats short bursts of speed."
+      "Most Korean typists use the 2-beolsik (두벌식) layout, which maps consonants to the left hand and vowels to the right. That division is why Korean touch typing can be fast: the hands alternate rather than competing for the same keys.",
+      "The 3-beolsik layouts assign final consonants to the right hand and have a higher theoretical ceiling, but they are rare and not worth learning unless you already type Korean professionally. If you are learning, use 2-beolsik because it is what every Korean keyboard ships with."
      ]
     },
     {
-     "h2": "How to improve Korean typing speed",
+     "h2": "What actually slows Korean typing",
      "p": [
-      "Keep your fingers on the home row (ㅁㄴㅇㄹ / ㅏㅓㅣㅡ positions on the standard 2-set keyboard), look at the screen not the keyboard, and practise short daily rounds. Accuracy first: fixing a mis-composed syllable costs more time than typing it slowly and cleanly."
+      "<ul><li><strong>Batchim (final consonants)</strong> - the third or fourth jamo in a block, which moves the hand back to the consonant side.</li><li><strong>Block boundaries</strong> - knowing when a syllable ends is a language skill, not a typing skill, and it is where learners hesitate.</li><li><strong>Homophone selection</strong> - less severe than Chinese IMEs, but still present for Sino-Korean words.</li></ul>",
+      "Practise on real sentences rather than jamo lists. The jamo are easy; the block assembly under time pressure is not."
      ]
     },
     {
-     "h2": "WPM and CPM for Korean",
+     "h2": "How the score is reported",
      "p": [
-      "Korean syllable blocks pack several letters into one character, so raw WPM understates the work your fingers do. Watch your <a href=\"cpm-typing-test.html\">characters per minute (CPM)</a> as well: it tracks the real keystroke load of Korean text."
+      "This page reports WPM and CPM from the committed text. For Korean, CPM is the more meaningful number because it counts visible characters, while the keystroke count behind it is roughly 2-3 times higher.",
+      "For comparison across languages, use CPM: the five-characters-per-word convention was designed for alphabetic scripts and understates the work in a block-based one. The general benchmarks are on <a href=\"average-typing-speed.html\">average typing speed</a>."
      ]
     }
    ],
@@ -7600,24 +7615,24 @@
    "faqH2": "Korean typing test FAQ",
    "faq": [
     {
-     "q": "Is this Korean typing test free?",
-     "a": "Yes. It is free with no sign up, and your practice history stays on your own device."
+     "q": "How does Korean typing work on a normal keyboard?",
+     "a": "You type jamo (consonant and vowel letters) and the input method assembles them into syllable blocks. Two to four keystrokes produce one visible character."
     },
     {
-     "q": "Which keyboard layout does the test expect?",
-     "a": "Any. The test shows real Korean sentences and measures what you produce, so the standard 2-set Hangul layout, 3-set layouts, or a mobile Korean keyboard all work."
+     "q": "Which layout should I learn?",
+     "a": "2-beolsik (두벌식). It ships with every Korean keyboard, splits consonants and vowels between hands, and has a high enough ceiling for professional work."
     },
     {
-     "q": "How do syllable blocks affect typing?",
-     "a": "You type individual jamo (letters) and the IME composes them into syllable blocks automatically. Fast Korean typing comes from an even jamo rhythm inside each block, not from rushing whole words."
+     "q": "Why is my Korean WPM lower than my English WPM?",
+     "a": "Each visible character needs two to four keystrokes, so characters per minute and words per minute diverge. Compare CPM across languages rather than WPM."
     },
     {
-     "q": "Is WPM or CPM more useful for Korean?",
-     "a": "Both are shown after each round. Because each Hangul block contains several letters, CPM (characters per minute) reflects your true keystroke speed better than WPM."
+     "q": "What is batchim and why does it slow me down?",
+     "a": "Batchim is the final consonant in a syllable block. Typing it moves the hand back to the consonant side, which breaks the alternation that makes Korean typing fast."
     },
     {
-     "q": "Will this help with Korean typing exams?",
-     "a": "Yes. Timed sentence practice with real Hangul text builds the speed and accuracy measured in Korean office, civil-service and data-entry typing tests."
+     "q": "Is this Korean test free?",
+     "a": "Yes, with no account. Results stay in your browser, and the practice pool is real Korean sentences rather than random jamo."
     }
    ],
    "tldr": "A Korean typing test measures speed and accuracy on real Hangul sentences. You type jamo letters and the IME composes each syllable block, so an even syllable rhythm matters more than bursts of speed. Because blocks pack several letters into one character, CPM is a fairer metric than WPM. Free, timed 15 seconds to 10 minutes, no sign up.",
@@ -7667,27 +7682,31 @@
    "heroP": "Test your <strong>Urdu typing speed</strong> with real Urdu sentences in the Perso-Arabic script, typed right to left. Instant speed and accuracy results. Free, no sign up.",
    "seo": [
     {
-     "h2": "Urdu typing test",
+     "h2": "Nastaliq is a joining script with context-dependent shapes",
      "p": [
-      "An <strong>Urdu typing test</strong> measures how fast and accurately you type real Urdu sentences in the Perso-Arabic (Nastaliq-style) script, written and read right to left. Your result is shown in words per minute, where every 5 characters counts as one word, so you can compare scores with the classic <a href=\"1-minute-typing-test.html\">typing test 1 minute</a> round."
+      "Urdu is written right to left in Nastaliq, where most letters change shape depending on what joins them on either side. You still press one key per letter - the shaping is the font's job - but the visual result is not one glyph per keystroke, which makes proofreading harder than in Latin script.",
+      "Four characters decide accuracy: <strong>ڑ</strong> (retroflex r), <strong>ں</strong> (noon ghunna), <strong>ے</strong> (bari ye) and the difference between <strong>ہ</strong> and <strong>ھ</strong>. These are the pairs that show up in error reports, and they are the ones worth drilling."
      ]
     },
     {
-     "h2": "Right-to-left typing: what changes",
+     "h2": "Layout and the RTL cursor",
      "p": [
-      "The cursor moves right to left, and letters change shape depending on their position in a word — initial, medial, final or isolated forms join automatically as you type. This test renders the practice text and your input right to left, exactly as Urdu appears in real documents, so what you practise is what you produce."
+      "The standard Urdu layout keeps Latin letters on the same physical keys and adds Urdu legends, so a touch typist can switch languages without moving hands. That is the good news: your existing muscle memory transfers.",
+      "The complication is direction. In a right-to-left field the cursor moves left as you type, and mixing Urdu with Latin words or digits reverses the visual order of that run. If accuracy collapses when a sentence contains a number, that is bidirectional text handling rather than typing speed."
      ]
     },
     {
-     "h2": "How to improve Urdu typing speed",
+     "h2": "Where Urdu typing is tested",
      "p": [
-      "Practise with real sentences rather than single letters, keep your eyes on the screen, and slow down at first for the characters that sit above and below the line — the diacritics and the special letters ٹ ڈ ڑ ں ہ ے. Accuracy first: rasm (spelling) mistakes cost more time than a steady, clean pace."
+      "Pakistani government and clerical posts commonly ask for a typing certificate or a timed sample, with speeds quoted in words per minute and, for some posts, in keystrokes. Because requirements are set per employer, read the notice rather than assuming a national standard.",
+      "If the test is proctored, rehearse on a different keyboard at least twice: legend placement and key travel change your error rate more than practice volume does."
      ]
     },
     {
-     "h2": "Urdu typing for exams and office work",
+     "h2": "Practising that transfers",
      "p": [
-      "Timed Urdu passage typing is the format used in Pakistani government, court and data-entry exams, usually set in InPage or standard Urdu keyboards. Daily timed rounds with real sentences build the same speed and accuracy those tests measure — and your <a href=\"cpm-typing-test.html\">CPM</a> shows the raw keystroke rate alongside WPM."
+      "Use real sentences rather than letter lists, and drill the four confusable characters in isolation for thirty seconds before each session. Then run a full-length round and check accuracy on those characters specifically.",
+      "For the English side of the same skill, see <a href=\"english-typing-test.html\">English typing test</a>; for the general benchmark, <a href=\"average-typing-speed.html\">average typing speed</a>."
      ]
     }
    ],
@@ -7695,24 +7714,24 @@
    "faqH2": "Urdu typing test FAQ",
    "faq": [
     {
-     "q": "Is this Urdu typing test free?",
-     "a": "Yes. It is free with no sign up, and your practice history stays on your own device."
+     "q": "Does Urdu typing count characters or letters?",
+     "a": "Letters - one keystroke per letter. The joined Nastaliq shapes you see are produced by the font, not by extra keystrokes."
     },
     {
-     "q": "Does the test type right to left?",
-     "a": "Yes. Both the practice text and your input field run right to left, the way real Urdu is written and read, so your practice matches real documents."
+     "q": "Which characters cause the most errors?",
+     "a": "ڑ, ں, ے and the ہ/ھ pair. They are visually similar in context and appear less often than common letters, so they stay less practised."
     },
     {
-     "q": "Which Urdu keyboard does it work with?",
-     "a": "Any standard Urdu keyboard layout — the national Urdu keyboard, phonetic layouts, or InPage-style input — because the test measures the text you produce, not the keys you press."
+     "q": "Why does my accuracy drop when a sentence has numbers?",
+     "a": "Mixing right-to-left Urdu with left-to-right digits reverses the visual order of that run. It is a bidirectional text issue rather than a typing-speed problem."
     },
     {
-     "q": "Do letters join correctly as I type?",
-     "a": "Yes. Urdu letters automatically take their initial, medial, final or isolated shapes as you type; the test displays the joined text exactly like any Urdu word processor."
+     "q": "What is a good Urdu typing speed?",
+     "a": "200-250 characters per minute (40-50 words per minute) is comfortable office speed. Government and clerical tests commonly ask 20-30 words per minute for entry-level posts."
     },
     {
-     "q": "Will this help with Urdu typing exams?",
-     "a": "Yes. Timed sentence practice in the Perso-Arabic script is the standard format of Pakistani government and court typing tests, so daily rounds build the same measured speed and accuracy."
+     "q": "Do I need a special keyboard?",
+     "a": "No. The Urdu layout keeps Latin letters on the same keys, so you add it in your operating system and switch with a shortcut."
     }
    ],
    "tldr": "An Urdu typing test measures speed and accuracy on real Urdu sentences in the Perso-Arabic script, typed right to left with letters joining automatically. Timed Urdu passage typing is the format of Pakistani government and court exams. This free test runs 15 seconds to 10 minutes, shows WPM and CPM, works with any Urdu keyboard layout, and needs no sign up.",
