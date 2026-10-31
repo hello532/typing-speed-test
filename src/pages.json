@@ -1609,7 +1609,7 @@
     "Typing Practice"
    ],
    "h1": "Free Online Typing Practice",
-   "tldr": "Typing practice is deliberate daily repetition that converts hunting and pecking into automatic touch typing, and 10 to 15 focused minutes a day typically adds 10-plus WPM within a month. The method that works: fingers anchored on the home row, eyes on the screen, accuracy above 95 percent before chasing speed, and rotating sentences, quotes, numbers, and word drills to train weak keys. Short daily sessions beat one long weekly grind, two measured rounds a day reveal a trend within a fortnight, and saved local history proves which drills move your WPM.",
+   "tldr": "Ten minutes a day beats an hour a week. The plan changes one variable per week: week 1 removes the look-down habit, week 2 fixes accuracy, week 3 adds digits and punctuation, week 4 measures a five-minute score you can reproduce.",
    "heroP": "Free <strong>typing practice</strong> online. Switch between sentences, quotes, numbers and words, pick a longer test, and train every day. Your past results are saved in this browser so you can watch your speed grow.",
    "seo": [
     {
@@ -1619,41 +1619,18 @@
      ]
     },
     {
-     "h2": "Typing exercises for every skill",
+     "h2": "Start here: today's ten minutes",
      "p": [
-      "Change the text mode to target your weak spots. <strong>Sentences</strong> build everyday typing fluency. <strong>Quotes</strong> add capital letters and punctuation. <strong>Numbers</strong> train the top row, which is the slowest part of the keyboard for most people. <strong>Words</strong> mode drills common English vocabulary so high-frequency words become automatic."
+      "<ol><li><strong>Warm up (2 min)</strong> - one round on the current text mode, no target. Just wake the hands up.</li><li><strong>Drill the thing you are worst at (5 min)</strong> - pick one from the table below. One weakness per session; two at once means you cannot tell which one worked.</li><li><strong>Check (3 min)</strong> - one timed round and write down net WPM and accuracy. That is the number next week's comparison uses.</li></ol>",
+      "If you have no idea where you are weak, take one <a href=\"typing-accuracy-test.html\">accuracy test</a> and look at the error list rather than the score. The errors name the drill you need.",
+      "This is deliberately short. Ten minutes, done daily, beats an hour on Sunday - the skill is motor memory and it consolidates between sessions, not during them."
      ]
     },
     {
-     "h2": "A simple practice plan",
+     "h2": "A four-week practice plan",
      "p": [
-      "Week one: two minute sentence tests, focus on accuracy. Week two: add quotes and numbers, keep the same two minutes. Week three: try five minute tests to build endurance. Week four: switch back to one minute and compare your WPM with week one. Most people gain 10 to 20 WPM in a month with this routine. Treat a short round as a <strong>typing quiz</strong>: ten to twenty seconds, one attempt, score recorded — a quick check-in that tells you whether the week’s practice is actually moving your speed."
-     ]
-    },
-    {
-     "h2": "When practice stops working",
-     "p": [
-      "A plateau near 50 or 70 WPM usually means one bottleneck, not general slowness: check your slowest keys in the result panel after each round. Spend a week drilling only those keys in <a href=\"typing-accuracy-test.html\">accuracy test</a> rounds at 97%+ before chasing speed again. If accuracy is fine but speed stalls, your rhythm is uneven — try <a href=\"2-minute-typing-test.html\">2 minute tests</a> at a metronome-steady pace instead of sprinting. Most plateaus break within two focused weeks."
-     ]
-    },
-    {
-     "h2": "Free online typing practice, without the sign-up wall",
-     "p": [
-      "Most <strong>free typing practice</strong> sites are free until you want to see your score, then ask for an account. This page is not: every drill is open, every result is shown immediately, and your history stays in your own browser. That matters more than it sounds, because practice you can start in three seconds is practice you will actually repeat daily.",
-      "If you searched for <strong>online typing practice</strong>, the useful question is not which site has the most lessons but which one gives you a number you can trust and compare. Take one 60-second round here as a baseline, note the WPM and accuracy, then pick a single drill type below and repeat it for a week. Accuracy first: a 97% round beats a fast sloppy one for building the muscle memory that raises speed later.",
-      "Ready-made exercise sets cover sentences, quotes, numbers and words, and every length from 15 seconds to 10 minutes is available, so you can practise in the gaps of a normal day. Start with the <a href=\"learn-to-type-faster.html\">learn to type faster</a> plan if you want a fixed routine, or jump straight into a round below."
-     ]
-    },
-    {
-     "h2": "Structured practice plans",
-     "p": [
-      "Turn practice sessions into progress: <a href=\"how-to-get-better-at-typing.html\">how to get better at typing</a>, <a href=\"learn-to-type-faster-free.html\">learn to type faster free</a>, and <a href=\"typing-speed-exercises.html\">typing speed exercises</a> with a daily 10-minute structure."
-     ]
-    },
-    {
-     "h2": "More ways to practise online",
-     "p": [
-      "For structured browser-based practice with per-language text and per-key analysis, see <a href=\"online-typing-practice.html\">online typing practice</a> — a daily 10-minute plan by goal, no sign up. Want a plain timed score instead of a structured plan? Use the <a href=\"online-typing-test.html\">online typing test</a>."
+      "<table><tr><th>Week</th><th>Daily 10 minutes</th><th>Checkpoint (Friday)</th></tr><tr><td>1 - Remove the cap</td><td>2 min warm-up, 5 min <a href=\"home-row-typing-test.html\">home row</a> or covered round, 3 min normal text</td><td>Accuracy above 92% without looking down</td></tr><tr><td>2 - Accuracy</td><td>2 min warm-up, 5 min <a href=\"typing-accuracy-test.html\">accuracy</a> at 85% pace, 3 min normal text</td><td>Three consecutive rounds above 97%</td></tr><tr><td>3 - Digits and punctuation</td><td>2 min <a href=\"number-typing-test.html\">numbers</a>, 3 min <a href=\"punctuation-typing-test.html\">punctuation</a>, 5 min sentences</td><td>Digits at 97% accuracy, punctuation intact</td></tr><tr><td>4 - Length and pace</td><td>2 min warm-up, two 3-minute rounds, one 5-minute round</td><td>A five-minute net score you can reproduce</td></tr></table>",
+      "Each week changes exactly one variable. That is why the plan works: if you change the drill and the length and the text mode at once, a better score tells you nothing about what caused it."
      ]
     },
     {
@@ -1672,10 +1649,15 @@
      ]
     },
     {
-     "h2": "Practising for a specific goal",
+     "h2": "Typing exercises for every skill",
      "p": [
-      "For an employment test: practise the exact format — same duration, unfamiliar text, one take — twice a week, and hold accuracy two points above the gate. For raw speed: alternate sprint days and rhythm days, and accept that gains past 80 WPM come in single points per month. For a new language: practise that language's word pool daily; accuracy habits transfer between scripts faster than vocabulary does.",
-      "For school or everyday competence: you need far less than you think. Forty WPM at 97% accuracy covers almost every daily need, and the <a href=\"typing-speed-requirements.html\">typing speed requirements</a> table shows what specific jobs actually ask for — most are lower than people fear."
+      "Change the text mode to target your weak spots. <strong>Sentences</strong> build everyday typing fluency. <strong>Quotes</strong> add capital letters and punctuation. <strong>Numbers</strong> train the top row, which is the slowest part of the keyboard for most people. <strong>Words</strong> mode drills common English vocabulary so high-frequency words become automatic."
+     ]
+    },
+    {
+     "h2": "When practice stops working",
+     "p": [
+      "A plateau near 50 or 70 WPM usually means one bottleneck, not general slowness: check your slowest keys in the result panel after each round. Spend a week drilling only those keys in <a href=\"typing-accuracy-test.html\">accuracy test</a> rounds at 97%+ before chasing speed again. If accuracy is fine but speed stalls, your rhythm is uneven — try <a href=\"2-minute-typing-test.html\">2 minute tests</a> at a metronome-steady pace instead of sprinting. Most plateaus break within two focused weeks."
      ]
     },
     {
@@ -1690,6 +1672,27 @@
      "p": [
       "Practising speed first: every error costs about two correction keystrokes, so sloppy speed practice builds a faster way to be slow. Practising rarely: an hour on Sunday consolidates worse than ten minutes daily, because motor memory forms between sessions. Practising without measurement: if you are not tracking a number, you are rehearsing, not improving.",
       "And the quietest one: practising only what you are already good at. Comfortable text feels productive and fixes nothing. The weak-key report is the opposite of comfortable — and that is exactly where the gains live. For a ready-made weekly structure, the <a href=\"online-typing-practice.html\">online typing practice</a> plan maps drills to goals, and <a href=\"typing-speed-exercises.html\">typing speed exercises</a> lists the full drill menu."
+     ]
+    },
+    {
+     "h2": "Practising for a specific goal",
+     "p": [
+      "For an employment test: practise the exact format — same duration, unfamiliar text, one take — twice a week, and hold accuracy two points above the gate. For raw speed: alternate sprint days and rhythm days, and accept that gains past 80 WPM come in single points per month. For a new language: practise that language's word pool daily; accuracy habits transfer between scripts faster than vocabulary does.",
+      "For school or everyday competence: you need far less than you think. Forty WPM at 97% accuracy covers almost every daily need, and the <a href=\"typing-speed-requirements.html\">typing speed requirements</a> table shows what specific jobs actually ask for — most are lower than people fear."
+     ]
+    },
+    {
+     "h2": "Free online typing practice, without the sign-up wall",
+     "p": [
+      "Most <strong>free typing practice</strong> sites are free until you want to see your score, then ask for an account. This page is not: every drill is open, every result is shown immediately, and your history stays in your own browser. That matters more than it sounds, because practice you can start in three seconds is practice you will actually repeat daily.",
+      "If you searched for <strong>online typing practice</strong>, the useful question is not which site has the most lessons but which one gives you a number you can trust and compare. Take one 60-second round here as a baseline, note the WPM and accuracy, then pick a single drill type below and repeat it for a week. Accuracy first: a 97% round beats a fast sloppy one for building the muscle memory that raises speed later.",
+      "Ready-made exercise sets cover sentences, quotes, numbers and words, and every length from 15 seconds to 10 minutes is available, so you can practise in the gaps of a normal day. Start with the <a href=\"learn-to-type-faster.html\">learn to type faster</a> plan if you want a fixed routine, or jump straight into a round below."
+     ]
+    },
+    {
+     "h2": "More ways to practise online",
+     "p": [
+      "For structured browser-based practice with per-language text and per-key analysis, see <a href=\"online-typing-practice.html\">online typing practice</a> — a daily 10-minute plan by goal, no sign up. Want a plain timed score instead of a structured plan? Use the <a href=\"online-typing-test.html\">online typing test</a>."
      ]
     }
    ],
