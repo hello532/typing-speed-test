@@ -37,7 +37,7 @@ WPM | Percentile | CPM | Keystrokes per hour
 
 Computed from a normal distribution with mean 51.56 and standard deviation 20.2. It is an approximation - real typing speed is mildly left-skewed - and it is validated by reproducing the study's own reported deciles (about 26 and 78 WPM) to within one percentile point. Enter any score to convert it.
 
-The full curve at 5 WPM steps is available as typing-speed-benchmarks.csv (columns: wpm, percentile, percentile_rounded, cpm, keystrokes_per_hour). Reuse it with attribution.
+The full curve at 5 WPM steps is available as typing-speed-benchmarks.csv (columns: wpm, percentile, percentile_rounded, cpm, keystrokes_per_hour). Reuse it with attribution. The same curve, the Python and JavaScript percentile functions and the source table are published as a repository at github.com/hello532/typing-speed-benchmarks, so a citation can point at the code as well as the page.
 
 From | To | Formula | Example
 WPM | CPM | × 5 | 40 WPM = 200 CPM
