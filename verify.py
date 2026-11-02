@@ -172,16 +172,24 @@ def main():
     for l in lines9:
         print(f'      {l}')
 
-    # 12. 页脚内链枢纽覆盖所有页面且无死链（哥飞第5步：每个页都要有全站入口）
+    # 12. 每页都有全站入口且页脚无死链。
+    #     2026-11-02 起：页脚只放精选链接 + 枢纽页 typing-tests.html（全站 200+ 链接页脚
+    #     是站点级低质信号）。覆盖口径 = 页脚链接 ∪ 枢纽页正文目录；页脚必须链到枢纽页。
+    HUB = "typing-tests.html"
     foot_src = (SRC / "footer.html").read_text(encoding="utf-8")
     foot_links = set(re.findall(r'href="([^"]+)"', foot_src))
     foot_pages = {l for l in foot_links if l.endswith(".html")}
-    covered = foot_pages | ({"index.html"} if "/" in foot_links else set())
+    hub_body = re.sub(r"<footer>.*?</footer>", "", htmls.get(HUB, ""), flags=re.S)
+    hub_pages = {l for l in re.findall(r'href="(?:\./)?([^"#?:/]+\.html)"', hub_body)}
+    covered = foot_pages | hub_pages | ({"index.html"} if "/" in foot_links else set())
     miss12 = set(names) - covered
-    dead12 = foot_pages - set(names)
-    check("12. 页脚枢纽覆盖所有页面且无死链", not miss12 and not dead12,
+    dead12 = (foot_pages | hub_pages) - set(names)
+    no_hub = HUB not in foot_pages
+    check("12. 页脚+枢纽页覆盖所有页面且无死链", not miss12 and not dead12 and not no_hub,
+          "页脚未链到枢纽页" if no_hub else
           f"缺入口 {sorted(miss12)}" if miss12 else
-          (f"死链 {sorted(dead12)}" if dead12 else f"{len(covered)}/{len(names)} 页有页脚入口"))
+          (f"死链 {sorted(dead12)}" if dead12 else
+           f"{len(covered)}/{len(names)} 页有入口（页脚 {len(foot_pages)} + 枢纽目录）"))
 
     # 10. 构建幂等
     r2 = subprocess.run([sys.executable, str(ROOT / "build.py")], cwd=ROOT, capture_output=True, text=True)

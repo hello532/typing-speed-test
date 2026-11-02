@@ -111,9 +111,9 @@ def build_chips(page):
 def build_related(page, clusters):
     """Round-20: a body-level "related" block, generated from the page's cluster.
 
-    Why this exists: verify.py gate 12 requires the footer to link every page,
-    so the footer must stay a 131-link hub. Footer links on 131 pages are
-    boilerplate and carry little weight. This block is different — it sits in
+    Why this exists: the footer is a short curated list plus the
+    typing-tests.html hub (verify.py gate 12 checks footer ∪ hub coverage).
+    Footer links are boilerplate and carry little weight. This block is different — it sits in
     the body, names the eight pages that share the page's actual topic, and
     rotates by position so every cluster member still receives inbound links.
     """
