@@ -1,6 +1,6 @@
 {
  "site": "https://typing.rerivo.com",
- "keywords": "typing test, typing games, learn to type, typing speed, typing practice, typing speed test, wpm test, wpm typing test, typing test wpm, words per minute test, typing test free, free typing test, typing lessons, average typing speed, typing test practice, typing games for kids, number typing test, ten key typing test, typing certificate, typing quiz, typing assessment, typing test for job, top row typing test, bottom row typing test, 15 second typing test",
+ "keywords": "typing test, typing games, learn to type, typing speed, typing practice, typing speed test, wpm test, wpm typing test, typing test wpm, words per minute test, typing test free, free typing test, typing lessons, average typing speed, typing test practice, typing games for kids, number typing test, ten key typing test, typing certificate, typing quiz, typing assessment, typing test for job, top row typing test, bottom row typing test, 15 second typing test, keyboard tester",
  "webAppDesc": "Free online typing speed test. Measure WPM and accuracy from 15 seconds to 10 minutes.",
  "pages": [
   {
@@ -20991,6 +20991,101 @@
    ],
    "ldPretty": [],
    "tldr": "A 15 second typing test measures peak burst speed rather than sustained speed. At 40 WPM you type about 10 words in fifteen seconds and at 90 WPM about 22, which is short enough that a single fumble moves the number noticeably. Use it for warm-up checks and for comparing against your one minute score: a gap wider than about 20 percent between the two means your speed does not hold up once the round gets longer."
+  },
+  {
+   "file": "keyboard-tester.html",
+   "title": "Keyboard Tester - Check Every Key Works",
+   "metaDesc": "Free online keyboard tester. Press any key to see its name, code, keyCode and which finger should reach it, so you can find dead keys in seconds.",
+   "canonical": "https://typing.rerivo.com/keyboard-tester.html",
+   "dur": 60,
+   "mode": "sentences",
+   "variant": "keyboard_tester",
+   "nav": [
+    {
+     "href": "/",
+     "text": "Home"
+    },
+    {
+     "href": "keyboard-typing-test.html",
+     "text": "Keyboard Typing Test"
+    },
+    {
+     "href": "keyboard-layouts.html",
+     "text": "Keyboard Layouts"
+    },
+    {
+     "href": "typing-practice.html",
+     "text": "Typing Practice"
+    }
+   ],
+   "crumbs": [
+    "Home",
+    "Keyboard Tester"
+   ],
+   "h1": "Keyboard Tester",
+   "heroP": "Press any key. The panel shows its <strong>name</strong>, <strong>code</strong>, <strong>keyCode</strong> and the <strong>finger</strong> that should reach it &mdash; the fastest way to find a dead key or a key mapped to the wrong place.",
+   "seo": [
+    {
+     "h2": "What a keyboard tester does",
+     "p": [
+      "A keyboard tester shows what your computer receives when you press a key: the <strong>key</strong> value, the physical <strong>code</strong> (its position on the board), the legacy <strong>keyCode</strong>, and the finger that a touch typist would use to reach it.",
+      "Because the panel listens at the document level rather than inside a text box, it reports keys that a typing test would silently ignore: modifiers, function keys, arrow keys and anything a keyboard layout has moved."
+     ]
+    },
+    {
+     "h2": "When to run one",
+     "p": [
+      "<strong>After a spill, a drop or a deep clean.</strong> A key that types nothing in a text field can still be sending a code, and a key that sends the wrong code looks like a typing mistake. The panel separates those two cases.",
+      "<strong>After switching layout.</strong> On Dvorak or Colemak the letters move but the physical code stays put, so a tester is the quickest way to confirm which board key lands on which letter. See <a href=\"keyboard-layouts.html\">keyboard layouts</a> for the layouts this site supports.",
+      "<strong>Before blaming your speed.</strong> If one key misses intermittently, no amount of practice fixes it. Test first, then work on <a href=\"typing-practice.html\">typing practice</a>."
+     ]
+    },
+    {
+     "h2": "Reading the output",
+     "p": [
+      "<strong>code</strong> is the physical position, for example <code>KeyF</code> or <code>Semicolon</code>, and it does not change when you switch layout. <strong>key</strong> is the character your layout produces at that position, so it does change.",
+      "If a key shows no change at all, the switch or the connection is the problem. If it shows a different key than the one printed on the cap, the layout or the mapping is the problem. The finger label tells you which one should have reached it."
+     ]
+    }
+   ],
+   "faqFirstOpen": true,
+   "faqH2": "Keyboard tester FAQ",
+   "faq": [
+    {
+     "q": "Does the keyboard tester work with any keyboard?",
+     "a": "Yes. It reads the key events your operating system delivers, so it works with laptop keyboards, USB and Bluetooth boards, and any layout you have active."
+    },
+    {
+     "q": "Why does a key show a different letter than the one printed on it?",
+     "a": "Your active layout differs from the keyboard's physical layout, or the key is remapped. Compare the code (physical position) with the key (the character produced) to see which."
+    },
+    {
+     "q": "Can it detect a dead key?",
+     "a": "Yes. A dead key produces no change in the panel at all. If the key produces a code but the character is wrong, the hardware works and the mapping is the problem."
+    },
+    {
+     "q": "Does it record what I type?",
+     "a": "No. Keys are shown in your browser only, nothing is stored, sent or logged, and the list is cleared when you reload the page."
+    },
+    {
+     "q": "Is the keyboard tester free?",
+     "a": "Yes, free with no sign up and no ads inside the tool area."
+    }
+   ],
+   "webAppName": "Typing Speed Test",
+   "webAppUrl": "https://typing.rerivo.com/keyboard-tester.html",
+   "bcItems": [
+    {
+     "name": "Home",
+     "item": "https://typing.rerivo.com/"
+    },
+    {
+     "name": "Keyboard Tester",
+     "item": "https://typing.rerivo.com/keyboard-tester.html"
+    }
+   ],
+   "ldPretty": [],
+   "tldr": "A keyboard tester reports what your computer actually receives from each key: its name, its physical code, the legacy keyCode and the finger that should reach it. Use it to separate a hardware fault from a layout or mapping problem, because a dead key sends nothing while a remapped key sends the wrong code. The panel reads events at the document level, so it also reports modifiers, arrow keys and function keys that a typing test ignores."
   }
  ],
  "langVariants": false,

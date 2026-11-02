@@ -200,6 +200,7 @@ Each line below is a claim this site makes, with the source that supports it. Qu
 
 
 ## Skill, Level, Format & Exam Tests
+- [Keyboard Tester](https://typing.rerivo.com/keyboard-tester.html): Press any key to see its code, keyCode and the finger that should reach it.
 - [Top Row Typing Test](https://typing.rerivo.com/top-row-typing-test.html): Drill Q W E R T Y U I O P — six of the twelve most common English letters.
 - [Bottom Row Typing Test](https://typing.rerivo.com/bottom-row-typing-test.html): Drill Z X C V B N M, including the B/N finger split.
 - [10 Key Typing Test](https://typing.rerivo.com/ten-key-typing-test.html): Free 10 key typing test for the numeric keypad, with number-pad speed in CPM/KPH and accuracy.

@@ -3467,12 +3467,38 @@ function variantResult(){
   }else{return;}
   host.appendChild(d);
 }
+/* --- keyboard tester ---
+   任意按键实时显示 key / code / keyCode / 该键由哪根手指负责。
+   用途：查坏键、查键位映射、换机械键盘后自检。CSS 走 VPOOL.css（运行时注入）。 */
+var KT_FINGER_NAME={LP:"left pinky",LR:"left ring",LM:"left middle",LI:"left index",
+                    RI:"right index",RM:"right middle",RR:"right ring",RP:"right pinky",TH:"thumb"};
+function ktLabel(k){return k===" "?"Space":k;}
+function buildKeyboardTester(){
+  var d=document.createElement("div");
+  d.className="kt-panel";
+  d.innerHTML='<div class="kt-lab">'+(VPOOL&&VPOOL.label?VPOOL.label:"Press any key")+'</div>'
+    +'<div class="kt-key" id="ktKey">&mdash;</div>'
+    +'<div class="kt-meta" id="ktMeta">'+(VPOOL&&VPOOL.hint?VPOOL.hint:"")+'</div>'
+    +'<div class="kt-log" id="ktLog"></div>';
+  beforeTyping(d);
+  var el=d.querySelector("#ktKey"),meta=d.querySelector("#ktMeta"),log=d.querySelector("#ktLog"),seen=[];
+  document.addEventListener("keydown",function(ev){
+    var ch=ev.key,f=layoutFinger()[ch.toLowerCase()];
+    if(el){el.textContent=ktLabel(ch);
+      el.classList.remove("kt-hit");void el.offsetWidth;el.classList.add("kt-hit");}
+    if(meta){meta.textContent="code: "+ev.code+" \u00b7 keyCode: "+ev.keyCode
+      +(f?" \u00b7 "+KT_FINGER_NAME[f]:" \u00b7 not a letter key");}
+    seen.unshift(ktLabel(ch)); if(seen.length>16)seen.pop();
+    if(log)log.textContent=seen.join("  ");
+  });
+}
 function buildVariantUI(){
   if(!VARIANT)return;
   injectVariantCSS();
   if(VARIANT==="game")buildGameHUD();
   else if(VARIANT==="finger_drill")buildFingerBar();
   else if(VARIANT==="accuracy")buildAccBanner();
+  else if(VARIANT==="keyboard_tester")buildKeyboardTester();
 }
 function topWeakKeys(n){
   var agg={}; try{agg=JSON.parse(localStorage.getItem("typingWeakV1"))||{};}catch(e){}
@@ -3504,6 +3530,7 @@ function nextChunk(mode){
   if(VARIANT==="easy"&&VPOOL){return pickN(VPOOL.words,40);}   /* 强制短词，忽略 mode */
   if(VARIANT==="numbers_ext"&&VPOOL){return genNumbers(VPOOL.formats,30);}
   if(VARIANT==="finger_drill"){return genFingerKeys();}
+  if(VARIANT==="keyboard_tester"){return KB_ROWS.join("   ");}
   if(VARIANT&&EDU_VARIANTS.indexOf(VARIANT)>=0&&VPOOL){
     if(mode==="quotes"&&VPOOL.quotes)return VPOOL.quotes[rnd(VPOOL.quotes.length)];
     return pick3(VPOOL.sentences);
