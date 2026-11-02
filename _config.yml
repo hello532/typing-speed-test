@@ -1,0 +1,22 @@
+# GitHub Pages (Jekyll) — keep build tooling and internal working notes off the public site.
+# Page HTML, .md mirrors, llms*.txt, sitemap, robots, icons and the benchmark CSV stay public.
+exclude:
+  - "*.py"
+  - __pycache__
+  - src
+  - state
+  - work
+  - .github
+  - .claude
+  - .gitignore
+  - llms-pair.json
+  - README.md
+  - CITATION-KIT.md
+  - INVENTORY.md
+  - PLAN-90-DAY.md
+  - SEO-REVIEW.md
+  - SESSION-REPORT.md
+  - keyword_matrix.md
+  - ranking_tracker.md
+  - "ROUND-*.md"
+  - "外链执行包.md"
