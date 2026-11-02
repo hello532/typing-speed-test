@@ -4858,7 +4858,7 @@
   {
    "file": "cpm-typing-test.html",
    "title": "CPM Test — Characters Per Minute Typing Test, Free",
-   "metaDesc": "Take a CPM test to see characters per minute beside WPM from the same one-minute round. 200 CPM equals 40 WPM. Built for data entry and exams.",
+   "metaDesc": "Free CPM test: type for one minute and get characters per minute, WPM and accuracy. The average typist scores about 258 CPM; 200 CPM = 40 WPM.",
    "canonical": "https://typing.rerivo.com/cpm-typing-test.html",
    "dur": 60,
    "mode": "sentences",
@@ -5874,8 +5874,8 @@
   },
   {
    "file": "keystrokes-per-hour-test.html",
-   "title": "Keystrokes Per Hour Test - Free KPH Typing Test",
-   "metaDesc": "Free keystrokes per hour (KPH) test. Measure your typing speed in keystrokes per hour for data entry jobs, and convert KPH to WPM and CPM.",
+   "title": "Keystrokes Per Hour Test: Free KPH Test + Average KPH",
+   "metaDesc": "Free keystrokes per hour test. The average typist does about 15,500 KPH; data entry jobs usually ask for 8,000-12,000. Get your KPH in one minute.",
    "canonical": "https://typing.rerivo.com/keystrokes-per-hour-test.html",
    "dur": 60,
    "mode": "sentences",
@@ -5899,7 +5899,7 @@
     "Keystrokes Per Hour Test"
    ],
    "h1": "Keystrokes Per Hour Test",
-   "heroP": "A <strong>keystrokes per hour (KPH)</strong> test measures typing speed the way many <strong>data entry</strong> employers do &mdash; in keystrokes over an hour, not words per minute. Data entry roles commonly require <strong>8,000&ndash;10,000 KPH</strong>. Type the passage below and convert your result to KPH instantly.",
+   "heroP": "<strong>Keystrokes per hour (KPH) = WPM &times; 300.</strong> The average typist (51.6 WPM) produces about <strong>15,500 KPH</strong>, and <strong>data entry</strong> jobs commonly require <strong>8,000&ndash;12,000 KPH</strong>. Type the passage below for one minute and your result converts to KPH instantly.",
    "seo": [
     {
      "h2": "What is keystrokes per hour?",
@@ -6021,7 +6021,7 @@
   },
   {
    "file": "typing-speed-calculator.html",
-   "title": "Typing Speed Calculator — WPM, CPM, KPH + Percentile",
+   "title": "WPM Calculator: Typing Speed in WPM, CPM, KPH + Percentile",
    "metaDesc": "Put in characters, errors and seconds and get gross WPM, net WPM, CPM, keystrokes per hour and your percentile. Free, no sign up, formula shown.",
    "canonical": "https://typing.rerivo.com/typing-speed-calculator.html",
    "dur": 60,
@@ -6451,8 +6451,8 @@
   },
   {
    "file": "typing-test-for-students.html",
-   "title": "Typing Test for Students - Free Speed Test & Practice",
-   "metaDesc": "Free typing test for students. Measure your WPM and accuracy, see what typing speed students need for school, college and exams, and practise daily.",
+   "title": "Student Typing Test: Free 1-Minute WPM Test for School",
+   "metaDesc": "Free student typing test: one minute, instant WPM and accuracy, no sign-up. See typical speeds by grade and what college courses and exams expect.",
    "canonical": "https://typing.rerivo.com/typing-test-for-students.html",
    "dur": 60,
    "mode": "sentences",

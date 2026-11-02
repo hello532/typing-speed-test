@@ -2,7 +2,7 @@
 
 Source: https://typing.rerivo.com/keystrokes-per-hour-test.html
 
-A keystrokes per hour (KPH) test measures typing speed the way many data entry employers do &mdash; in keystrokes over an hour, not words per minute. Data entry roles commonly require 8,000&ndash;10,000 KPH. Type the passage below and convert your result to KPH instantly.
+Keystrokes per hour (KPH) = WPM &times; 300. The average typist (51.6 WPM) produces about 15,500 KPH, and data entry jobs commonly require 8,000&ndash;12,000 KPH. Type the passage below for one minute and your result converts to KPH instantly.
 
 On this page
 
