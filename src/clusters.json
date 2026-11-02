@@ -9,6 +9,10 @@
       "title": "10 Minute Typing Test"
     },
     {
+      "file": "15-second-typing-test.html",
+      "title": "15 Second Typing Test"
+    },
+    {
       "file": "2-minute-typing-test.html",
       "title": "2 Minute Typing Test"
     },
@@ -349,6 +353,10 @@
   ],
   "layout": [
     {
+      "file": "bottom-row-typing-test.html",
+      "title": "Bottom Row Typing Test"
+    },
+    {
       "file": "colemak-typing.html",
       "title": "Colemak Typing Test"
     },
@@ -395,6 +403,10 @@
     {
       "file": "ten-key-typing-test.html",
       "title": "10 Key Typing Test"
+    },
+    {
+      "file": "top-row-typing-test.html",
+      "title": "Top Row Typing Test"
     },
     {
       "file": "typing-finger-chart.html",

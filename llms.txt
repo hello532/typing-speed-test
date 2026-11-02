@@ -40,6 +40,7 @@ Each line below is a claim this site makes, with the source that supports it. Qu
 - [All Typing Tests (directory)](https://typing.rerivo.com/typing-tests.html): Generated directory of all 160 tests, grouped by length, language, skill, exam and topic.: Open-ended practice mode with virtual keyboard and finger guide.
 
 ## Timed Modes
+- [15 Second Typing Test](https://typing.rerivo.com/15-second-typing-test.html): Shortest burst round — peak WPM, not endurance.
 - [1 Minute Typing Test](https://typing.rerivo.com/1-minute-typing-test.html): Classic 60-second WPM test.
 - [2 Minute Typing Test](https://typing.rerivo.com/2-minute-typing-test.html): 2-minute endurance typing test.
 - [5 Minute Typing Test](https://typing.rerivo.com/5-minute-typing-test.html): 5-minute test for sustained speed and stamina.
@@ -199,6 +200,8 @@ Each line below is a claim this site makes, with the source that supports it. Qu
 
 
 ## Skill, Level, Format & Exam Tests
+- [Top Row Typing Test](https://typing.rerivo.com/top-row-typing-test.html): Drill Q W E R T Y U I O P — six of the twelve most common English letters.
+- [Bottom Row Typing Test](https://typing.rerivo.com/bottom-row-typing-test.html): Drill Z X C V B N M, including the B/N finger split.
 - [10 Key Typing Test](https://typing.rerivo.com/ten-key-typing-test.html): Free 10 key typing test for the numeric keypad, with number-pad speed in CPM/KPH and accuracy.
 - [Data Entry Typing Test](https://typing.rerivo.com/data-entry-typing-test.html): Practise the timed data entry typing test employers set, with WPM and accuracy targets.
 - [Keystrokes Per Hour Test](https://typing.rerivo.com/keystrokes-per-hour-test.html): Measure keystrokes per hour (KPH) and convert it to WPM and CPM.

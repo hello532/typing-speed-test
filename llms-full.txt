@@ -6535,3 +6535,57 @@ For support between bursts, yes; while typing, no. A rest that compresses the wr
 Every 30-45 minutes, for two to three minutes away from the keyboard. Micro-breaks are more effective than one long break at the end of the day.
 It can reduce the force needed per keystroke for some people, but it does not fix wrist angle or duration. Setup comes first.
 For persistent numbness or tingling, night pain, weakness, swelling, or pain at rest lasting more than a week. Those are not explained by keyboard position.
+
+## Top Row Typing Test
+Source: https://typing.rerivo.com/top-row-typing-test.html
+
+Drill the top row &mdash; Q W E R T Y U I O P. Ten keys, six of the twelve most common English letters. Type the passage with the finger guide on, then read your WPM and accuracy.
+
+The top row is the first row of letters under the number keys: Q W E R T Y U I O P. In standard touch typing the left hand owns Q W E R T (pinky, ring, middle, index, index) and the right hand owns Y U I O P (index, index, middle, ring, pinky).
+Unlike the home row, which you can find by the raised bumps on F and J, the top row has no tactile landmark. You get there by reaching up from home and coming straight back, never by looking down.
+Six of the twelve most common letters in English live on this row: E, T, R, U, I, O. That is more frequent letters than the home row and the bottom row each carry, so top-row hesitation costs you time in nearly every word you type.
+It also holds two of the three hardest reaches on a QWERTY board, Q and P, both for the little fingers. Those two keys are where most accuracy is silently lost, because a missed Q or P rarely looks like a mistake until you read the word back.
+Reaching with the wrong finger. T is left index and Y is right index, so the hand has to split cleanly in the middle. Typing T with the right hand or Y with the left breaks the whole row.
+Losing home position. If the hand does not return to A S D F and J K L ; after each reach, every following letter starts from the wrong place. Slow the row down until the return is automatic, then raise speed.
+## Top row FAQ
+Q, W, E, R, T, Y, U, I, O, P. The left hand types Q W E R T and the right hand types Y U I O P.
+Left: pinky on Q, ring on W, middle on E, index on R and T. Right: index on Y and U, middle on I, ring on O, pinky on P.
+It has no raised bumps, so there is no tactile way to find it. You locate it by reaching up from the home row and returning, which only becomes reliable with repetition.
+After. Learn the home row first so your fingers have a base to return to, then add this row, then the bottom row.
+Short rounds of five to ten minutes beat long sessions, because the goal is a clean return to home rather than volume. Stop when accuracy drops below about 95 percent.
+
+## Bottom Row Typing Test
+Source: https://typing.rerivo.com/bottom-row-typing-test.html
+
+Drill the bottom row &mdash; Z X C V B N M. Seven keys, one of them the rarest letter in English, and the reach that costs most people the most accuracy. Type the passage and watch where your errors land.
+
+The bottom row is Z X C V B N M, the row below the home keys. The left hand owns Z, X, C, V and B; the right hand owns N and M. It is the shortest letter row, with seven keys against ten on the top row.
+The row split is the part people get wrong. B belongs to the left index finger and N belongs to the right index finger, which means the middle of this row is the same left/right boundary as the top row's T and Y.
+Every bottom-row keystroke is a reach away from home and a return, so a sloppy return throws off the letter after it as well. In longer words that compounds: two or three letters typed from a shifted hand position is what a typo actually looks like.
+The row also pairs the rarest letter in English, Z, with frequent ones like N and C. Because Z comes up so rarely in normal text, it never gets practised by accident, which is exactly why drilling the row deliberately helps.
+Keep the finger guide on and type slowly enough that each return to home is clean. Accuracy first: a round at 40 WPM with 98 percent accuracy trains the right movement, while 70 WPM at 88 percent trains the mistake.
+Once the row feels automatic, compare it against your home row score. A large gap between the two usually means this row, not the home row, is what holds your real-text speed back.
+## Bottom row FAQ
+Z, X, C, V, B, N, M. The left hand types Z X C V B and the right hand types N and M.
+B is typed with the left index finger and N with the right index finger, so the split sits between B and N.
+It only has seven keys, but every one is a reach down from home, and it mixes the rarest English letter, Z, with common ones like N and C. Rare keys never get practised by accident.
+Yes. Home row first, then the top row, then this one. Each row only makes sense once the return-to-home movement is automatic.
+Aim for 97 percent or better at a slow speed before raising it. Below about 95 percent the errors are usually hand position, not finger speed.
+
+## 15 Second Typing Test
+Source: https://typing.rerivo.com/15-second-typing-test.html
+
+A 15 second typing test measures burst speed, not endurance. Fifteen seconds is roughly 10 to 22 words. Use it to check warm-up and compare against your <a href="1-minute-typing-test.html">1 minute</a> score.
+
+The 15 second typing test is the shortest timed round on this site. Fifteen seconds is enough to type roughly 10 to 22 words depending on your speed, which gives a readable burst number without the fatigue that creeps into a five or ten minute round.
+For a steadier figure that averages out a good or bad sentence, use the 30 second typing test or the 1 minute typing test.
+It tells you your ceiling, not your average. Short rounds reward a fast start and are less affected by pacing mistakes, so the number is usually higher than a longer test taken the same day.
+The useful signal is the difference between this and your one minute score. Within about 20 percent means your speed is stable; wider than that means you are starting fast and fading, which is a pacing problem rather than a speed one.
+Use it to check a warm-up, to test a new keyboard or layout quickly, or as a daily pulse check when you do not have a full minute. Do not use it as your headline WPM: employers and typing certificates quote one minute or longer, so that is the number to compare against requirements.
+For how a short burst compares with the standard used in job tests, see typing speed requirements.
+## 15 second typing test FAQ
+At 40 WPM about 10 words, at 60 WPM about 15 and at 90 WPM about 22. The exact count depends on word length in the passage.
+It measures burst speed well but is easier to skew than a longer round, because one fast or slow sentence moves the average more. Treat it as a ceiling, not your headline WPM.
+Short rounds reward a fast start and carry less fatigue. A gap wider than roughly 20 percent usually means pacing, not raw speed.
+Yes, free with no sign up and no ads inside the typing area. Results stay in your browser.
+Yes. Switch to 30 seconds, 1 minute, 2, 3, 5 or 10 minutes from the timer on the test panel, or open the 1 minute typing test page.

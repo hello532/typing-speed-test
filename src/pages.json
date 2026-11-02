@@ -1,6 +1,6 @@
 {
  "site": "https://typing.rerivo.com",
- "keywords": "typing test, typing games, learn to type, typing speed, typing practice, typing speed test, wpm test, wpm typing test, typing test wpm, words per minute test, typing test free, free typing test, typing lessons, average typing speed, typing test practice, typing games for kids, number typing test, ten key typing test, typing certificate, typing quiz, typing assessment, typing test for job",
+ "keywords": "typing test, typing games, learn to type, typing speed, typing practice, typing speed test, wpm test, wpm typing test, typing test wpm, words per minute test, typing test free, free typing test, typing lessons, average typing speed, typing test practice, typing games for kids, number typing test, ten key typing test, typing certificate, typing quiz, typing assessment, typing test for job, top row typing test, bottom row typing test, 15 second typing test",
  "webAppDesc": "Free online typing speed test. Measure WPM and accuracy from 15 seconds to 10 minutes.",
  "pages": [
   {
@@ -20709,6 +20709,288 @@
     "BreadcrumbList"
    ],
    "tldr": "Three changes fix most cases: keep wrists straight and floating (not resting on the desk edge), keep elbows near 90 degrees with feet supported, and break every 30-45 minutes. Numbness, tingling or pain that wakes you up needs a clinician, not an ergonomic adjustment."
+  },
+  {
+   "file": "top-row-typing-test.html",
+   "title": "Top Row Typing Test - QWERTYUIOP Practice",
+   "metaDesc": "Free top row typing test. Drill Q W E R T Y U I O P with a finger guide, then read why this row carries six of the twelve most common English letters.",
+   "canonical": "https://typing.rerivo.com/top-row-typing-test.html",
+   "dur": 60,
+   "mode": "sentences",
+   "variant": null,
+   "nav": [
+    {
+     "href": "/",
+     "text": "Home"
+    },
+    {
+     "href": "home-row-typing-test.html",
+     "text": "Home Row"
+    },
+    {
+     "href": "bottom-row-typing-test.html",
+     "text": "Bottom Row"
+    },
+    {
+     "href": "keyboard-typing-test.html",
+     "text": "Keyboard Test"
+    }
+   ],
+   "crumbs": [
+    "Home",
+    "Top Row Typing Test"
+   ],
+   "h1": "Top Row Typing Test",
+   "heroP": "Drill the <strong>top row</strong> &mdash; <strong>Q W E R T Y U I O P</strong>. Ten keys, six of the twelve most common English letters. Type the passage with the finger guide on, then read your WPM and accuracy.",
+   "seo": [
+    {
+     "h2": "What is the top row?",
+     "p": [
+      "The <strong>top row</strong> is the first row of letters under the number keys: <strong>Q W E R T Y U I O P</strong>. In standard touch typing the left hand owns Q W E R T (pinky, ring, middle, index, index) and the right hand owns Y U I O P (index, index, middle, ring, pinky).",
+      "Unlike the <a href=\"home-row-typing-test.html\">home row</a>, which you can find by the raised bumps on F and J, the top row has no tactile landmark. You get there by reaching up from home and coming straight back, never by looking down."
+     ]
+    },
+    {
+     "h2": "Why the top row matters more than it looks",
+     "p": [
+      "Six of the twelve most common letters in English live on this row: <strong>E, T, R, U, I, O</strong>. That is more frequent letters than the home row and the bottom row each carry, so top-row hesitation costs you time in nearly every word you type.",
+      "It also holds two of the three hardest reaches on a QWERTY board, Q and P, both for the little fingers. Those two keys are where most accuracy is silently lost, because a missed Q or P rarely looks like a mistake until you read the word back."
+     ]
+    },
+    {
+     "h2": "Common top row mistakes",
+     "p": [
+      "<strong>Reaching with the wrong finger.</strong> T is left index and Y is right index, so the hand has to split cleanly in the middle. Typing T with the right hand or Y with the left breaks the whole row.",
+      "<strong>Losing home position.</strong> If the hand does not return to A S D F and J K L ; after each reach, every following letter starts from the wrong place. Slow the row down until the return is automatic, then raise speed."
+     ]
+    }
+   ],
+   "faqFirstOpen": true,
+   "faqH2": "Top row FAQ",
+   "faq": [
+    {
+     "q": "What are the top row keys?",
+     "a": "Q, W, E, R, T, Y, U, I, O, P. The left hand types Q W E R T and the right hand types Y U I O P."
+    },
+    {
+     "q": "Which fingers type the top row?",
+     "a": "Left: pinky on Q, ring on W, middle on E, index on R and T. Right: index on Y and U, middle on I, ring on O, pinky on P."
+    },
+    {
+     "q": "Why is the top row hard to learn?",
+     "a": "It has no raised bumps, so there is no tactile way to find it. You locate it by reaching up from the home row and returning, which only becomes reliable with repetition."
+    },
+    {
+     "q": "Should I practise the top row before or after the home row?",
+     "a": "After. Learn the home row first so your fingers have a base to return to, then add this row, then the bottom row."
+    },
+    {
+     "q": "How long should I drill one row?",
+     "a": "Short rounds of five to ten minutes beat long sessions, because the goal is a clean return to home rather than volume. Stop when accuracy drops below about 95 percent."
+    }
+   ],
+   "webAppName": "Typing Speed Test",
+   "webAppUrl": "https://typing.rerivo.com/top-row-typing-test.html",
+   "bcItems": [
+    {
+     "name": "Home",
+     "item": "https://typing.rerivo.com/"
+    },
+    {
+     "name": "Top Row Typing Test",
+     "item": "https://typing.rerivo.com/top-row-typing-test.html"
+    }
+   ],
+   "ldPretty": [],
+   "tldr": "The top row is Q, W, E, R, T, Y, U, I, O, P. Ten keys, and they include six of the twelve most frequent letters in English, E, T, R, U, I and O, which is why a weak top row shows up in almost every sentence you type. The left hand covers Q W E R T and the right hand covers Y U I O P, so the two hardest reaches are Q and P, both little-finger keys angled away from home. Drill the row on its own before chasing speed: the errors you fix here repeat everywhere else on the keyboard."
+  },
+  {
+   "file": "bottom-row-typing-test.html",
+   "title": "Bottom Row Typing Test - ZXCVBNM Practice",
+   "metaDesc": "Free bottom row typing test. Drill Z X C V B N M, the shortest letter row and the hardest reach, and fix where your accuracy quietly drops.",
+   "canonical": "https://typing.rerivo.com/bottom-row-typing-test.html",
+   "dur": 60,
+   "mode": "sentences",
+   "variant": null,
+   "nav": [
+    {
+     "href": "/",
+     "text": "Home"
+    },
+    {
+     "href": "home-row-typing-test.html",
+     "text": "Home Row"
+    },
+    {
+     "href": "top-row-typing-test.html",
+     "text": "Top Row"
+    },
+    {
+     "href": "keyboard-typing-test.html",
+     "text": "Keyboard Test"
+    }
+   ],
+   "crumbs": [
+    "Home",
+    "Bottom Row Typing Test"
+   ],
+   "h1": "Bottom Row Typing Test",
+   "heroP": "Drill the <strong>bottom row</strong> &mdash; <strong>Z X C V B N M</strong>. Seven keys, one of them the rarest letter in English, and the reach that costs most people the most accuracy. Type the passage and watch where your errors land.",
+   "seo": [
+    {
+     "h2": "What is the bottom row?",
+     "p": [
+      "The <strong>bottom row</strong> is <strong>Z X C V B N M</strong>, the row below the home keys. The left hand owns Z, X, C, V and B; the right hand owns N and M. It is the shortest letter row, with seven keys against ten on the top row.",
+      "The row split is the part people get wrong. <strong>B belongs to the left index finger</strong> and <strong>N belongs to the right index finger</strong>, which means the middle of this row is the same left/right boundary as the top row's T and Y."
+     ]
+    },
+    {
+     "h2": "Why the bottom row costs accuracy",
+     "p": [
+      "Every bottom-row keystroke is a reach away from home and a return, so a sloppy return throws off the letter after it as well. In longer words that compounds: two or three letters typed from a shifted hand position is what a typo actually looks like.",
+      "The row also pairs the rarest letter in English, <strong>Z</strong>, with frequent ones like <strong>N</strong> and <strong>C</strong>. Because Z comes up so rarely in normal text, it never gets practised by accident, which is exactly why drilling the row deliberately helps."
+     ]
+    },
+    {
+     "h2": "How to drill the bottom row",
+     "p": [
+      "Keep the finger guide on and type slowly enough that each return to home is clean. Accuracy first: a round at 40 WPM with 98 percent accuracy trains the right movement, while 70 WPM at 88 percent trains the mistake.",
+      "Once the row feels automatic, compare it against your <a href=\"home-row-typing-test.html\">home row</a> score. A large gap between the two usually means this row, not the home row, is what holds your real-text speed back."
+     ]
+    }
+   ],
+   "faqFirstOpen": true,
+   "faqH2": "Bottom row FAQ",
+   "faq": [
+    {
+     "q": "What are the bottom row keys?",
+     "a": "Z, X, C, V, B, N, M. The left hand types Z X C V B and the right hand types N and M."
+    },
+    {
+     "q": "Which finger types B and N?",
+     "a": "B is typed with the left index finger and N with the right index finger, so the split sits between B and N."
+    },
+    {
+     "q": "Why is the bottom row harder than it looks?",
+     "a": "It only has seven keys, but every one is a reach down from home, and it mixes the rarest English letter, Z, with common ones like N and C. Rare keys never get practised by accident."
+    },
+    {
+     "q": "Should I learn the bottom row last?",
+     "a": "Yes. Home row first, then the top row, then this one. Each row only makes sense once the return-to-home movement is automatic."
+    },
+    {
+     "q": "What is a good bottom row accuracy?",
+     "a": "Aim for 97 percent or better at a slow speed before raising it. Below about 95 percent the errors are usually hand position, not finger speed."
+    }
+   ],
+   "webAppName": "Typing Speed Test",
+   "webAppUrl": "https://typing.rerivo.com/bottom-row-typing-test.html",
+   "bcItems": [
+    {
+     "name": "Home",
+     "item": "https://typing.rerivo.com/"
+    },
+    {
+     "name": "Bottom Row Typing Test",
+     "item": "https://typing.rerivo.com/bottom-row-typing-test.html"
+    }
+   ],
+   "ldPretty": [],
+   "tldr": "The bottom row is Z, X, C, V, B, N, M, the seven lowest letter keys on a QWERTY board. The left hand covers Z X C V B and the right hand covers N M. Fewer keys does not mean easier: every press requires reaching down and coming back to home, and Z is the least used letter in English while N and C are common, so this row mixes rare keys with frequent ones. Train it on its own and the errors that only show up in longer words usually disappear."
+  },
+  {
+   "file": "15-second-typing-test.html",
+   "title": "15 Second Typing Test - Burst WPM Check",
+   "metaDesc": "Free 15 second typing test. A short burst round that measures peak speed rather than endurance, with instant WPM and accuracy and no sign up.",
+   "canonical": "https://typing.rerivo.com/15-second-typing-test.html",
+   "dur": 15,
+   "mode": "sentences",
+   "variant": null,
+   "nav": [
+    {
+     "href": "/",
+     "text": "Home"
+    },
+    {
+     "href": "30-second-typing-test.html",
+     "text": "30 Second Test"
+    },
+    {
+     "href": "1-minute-typing-test.html",
+     "text": "1 Minute Test"
+    },
+    {
+     "href": "words-per-minute-test.html",
+     "text": "WPM Test"
+    }
+   ],
+   "crumbs": [
+    "Home",
+    "15 Second Typing Test"
+   ],
+   "h1": "15 Second Typing Test",
+   "heroP": "A <strong>15 second typing test</strong> measures burst speed, not endurance. Fifteen seconds is roughly 10 to 22 words. Use it to check warm-up and compare against your <a href=\"1-minute-typing-test.html\">1 minute</a> score.",
+   "seo": [
+    {
+     "h2": "15 second typing test",
+     "p": [
+      "The <strong>15 second typing test</strong> is the shortest timed round on this site. Fifteen seconds is enough to type roughly 10 to 22 words depending on your speed, which gives a readable burst number without the fatigue that creeps into a five or ten minute round.",
+      "For a steadier figure that averages out a good or bad sentence, use the <a href=\"30-second-typing-test.html\">30 second typing test</a> or the <a href=\"1-minute-typing-test.html\">1 minute typing test</a>."
+     ]
+    },
+    {
+     "h2": "What a 15 second score tells you",
+     "p": [
+      "It tells you your ceiling, not your average. Short rounds reward a fast start and are less affected by pacing mistakes, so the number is usually higher than a longer test taken the same day.",
+      "The useful signal is the <strong>difference</strong> between this and your one minute score. Within about 20 percent means your speed is stable; wider than that means you are starting fast and fading, which is a pacing problem rather than a speed one."
+     ]
+    },
+    {
+     "h2": "When to use a 15 second round",
+     "p": [
+      "Use it to check a warm-up, to test a new keyboard or layout quickly, or as a daily pulse check when you do not have a full minute. Do not use it as your headline WPM: employers and typing certificates quote one minute or longer, so that is the number to compare against requirements.",
+      "For how a short burst compares with the standard used in job tests, see <a href=\"typing-speed-requirements.html\">typing speed requirements</a>."
+     ]
+    }
+   ],
+   "faqFirstOpen": true,
+   "faqH2": "15 second typing test FAQ",
+   "faq": [
+    {
+     "q": "How many words is 15 seconds of typing?",
+     "a": "At 40 WPM about 10 words, at 60 WPM about 15 and at 90 WPM about 22. The exact count depends on word length in the passage."
+    },
+    {
+     "q": "Is a 15 second test accurate?",
+     "a": "It measures burst speed well but is easier to skew than a longer round, because one fast or slow sentence moves the average more. Treat it as a ceiling, not your headline WPM."
+    },
+    {
+     "q": "Why is my 15 second score higher than my 1 minute score?",
+     "a": "Short rounds reward a fast start and carry less fatigue. A gap wider than roughly 20 percent usually means pacing, not raw speed."
+    },
+    {
+     "q": "Is the 15 second typing test free?",
+     "a": "Yes, free with no sign up and no ads inside the typing area. Results stay in your browser."
+    },
+    {
+     "q": "Can I choose a longer test?",
+     "a": "Yes. Switch to 30 seconds, 1 minute, 2, 3, 5 or 10 minutes from the timer on the test panel, or open the 1 minute typing test page."
+    }
+   ],
+   "webAppName": "Typing Speed Test",
+   "webAppUrl": "https://typing.rerivo.com/15-second-typing-test.html",
+   "bcItems": [
+    {
+     "name": "Home",
+     "item": "https://typing.rerivo.com/"
+    },
+    {
+     "name": "15 Second Typing Test",
+     "item": "https://typing.rerivo.com/15-second-typing-test.html"
+    }
+   ],
+   "ldPretty": [],
+   "tldr": "A 15 second typing test measures peak burst speed rather than sustained speed. At 40 WPM you type about 10 words in fifteen seconds and at 90 WPM about 22, which is short enough that a single fumble moves the number noticeably. Use it for warm-up checks and for comparing against your one minute score: a gap wider than about 20 percent between the two means your speed does not hold up once the round gets longer."
   }
  ],
  "langVariants": false,
