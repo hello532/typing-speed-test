@@ -18,9 +18,9 @@
    "kind": "awesome-list-pr",
    "dofollow": "yes",
    "dr": null,
-   "status": "submitted",
+   "status": "no_value",
    "date": "2026-10-12",
-   "note": "开源清单 PR，合并后 github.io 站点出 dofollow 链接"
+   "note": "2026-11-03 复核：GitHub README 外链 nofollow，SEO 增益 0；PR 长期无人处理"
   },
   {
    "name": "GitHub PR #7 — Awesome-keyboard-typing",
@@ -28,9 +28,9 @@
    "kind": "awesome-list-pr",
    "dofollow": "yes",
    "dr": null,
-   "status": "skipped",
+   "status": "no_value",
    "date": "2026-10-20",
-   "note": "PR#7 分支落后 master 无法合并 → 已关闭，改为 PR#10（rebase 后 +2/-0，mergeable），2026-10-20"
+   "note": "2026-11-03 复核：GitHub README 外链全部 rel=\"nofollow\"，即使合并也不传权重；PR#10 开着 3 周无回应（仓库 4 个 open PR）"
   },
   {
    "name": "Launch Llama",
@@ -40,7 +40,7 @@
    "dr": 73,
    "status": "submitted",
    "date": "2026-10-12",
-   "note": "免费档，人工审核约 4 周；已拒绝互惠 badge 换链"
+   "note": "2026-11-03 实查：listing 在线，但出站链接 rel=\"nofollow\"，仅 referral 价值"
   },
   {
    "name": "SaaSHub",
@@ -50,7 +50,7 @@
    "dr": 80,
    "status": "submitted",
    "date": "2026-10-12",
-   "note": "页面已建（Education），审核中；免费档 nofollow"
+   "note": "2026-11-03 实查：页面 200，但已无指向本站的入口链接（只剩站外 SEO 工具的自动组件）"
   },
   {
    "name": "AlternativeTo",
@@ -428,9 +428,9 @@
    "kind": "awesome-list-pr",
    "dofollow": "yes",
    "dr": null,
-   "status": "submitted",
+   "status": "no_value",
    "date": "2026-10-13",
-   "note": "Study and Education 末尾；no-login叙事契合；待合并"
+   "note": "2026-11-03 复核：GitHub README 外链 nofollow，SEO 增益 0；PR 长期无人处理"
   },
   {
    "name": "PR home-ed #1",
@@ -438,9 +438,9 @@
    "kind": "awesome-list-pr",
    "dofollow": "yes",
    "dr": null,
-   "status": "submitted",
+   "status": "no_value",
    "date": "2026-10-13",
-   "note": "section 3 Subject-Specific Tools；kids页；待合并"
+   "note": "2026-11-03 复核：GitHub README 外链 nofollow，SEO 增益 0；PR 长期无人处理"
   },
   {
    "name": "PR Soneji #6",
@@ -448,9 +448,9 @@
    "kind": "awesome-list-pr",
    "dofollow": "yes",
    "dr": null,
-   "status": "submitted",
+   "status": "no_value",
    "date": "2026-10-13",
-   "note": "Pre-Programming Languages，紧邻Typing Club；kids页；待合并"
+   "note": "2026-11-03 复核：GitHub README 外链 nofollow，SEO 增益 0；PR 长期无人处理"
   },
   {
    "name": "PR NwabKhan #136",
@@ -458,9 +458,9 @@
    "kind": "awesome-list-pr",
    "dofollow": "yes",
    "dr": null,
-   "status": "submitted",
+   "status": "no_value",
    "date": "2026-10-13",
-   "note": "Education小节；kids页；待合并"
+   "note": "2026-11-03 复核：GitHub README 外链 nofollow，SEO 增益 0；PR 长期无人处理"
   },
   {
    "name": "AlternativeTo",
@@ -848,9 +848,9 @@
    "kind": "awesome-list-pr",
    "dofollow": "yes",
    "dr": null,
-   "status": "submitted",
+   "status": "no_value",
    "date": "2026-10-20",
-   "note": "替换冲突的 PR#7；基于 upstream master rebase，+2/-0，mergeable。目标页 1-minute + programmer-practice"
+   "note": "2026-11-03 复核：GitHub README 外链全部 rel=\"nofollow\"，即使合并也不传权重；PR#10 开着 3 周无回应（仓库 4 个 open PR）"
   },
   {
    "name": "GitHub PR #1204 — awesome-remote-job (49.7k★)",
@@ -858,9 +858,9 @@
    "kind": "awesome-list-pr",
    "dofollow": "yes",
    "dr": null,
-   "status": "submitted",
+   "status": "no_value",
    "date": "2026-10-20",
-   "note": "最高价值目标（49,719★）。Tools > Others 区，+1/-0 mergeable。切入点：data entry/transcription/support 是远程岗位且打字速度是明确招聘项"
+   "note": "2026-11-03 复核：GitHub README 外链 nofollow，SEO 增益 0；PR 长期无人处理"
   },
   {
    "name": "GitHub fork 推送踩坑（记录）",
@@ -868,9 +868,9 @@
    "kind": "note",
    "dofollow": null,
    "dr": null,
-   "status": "skipped",
+   "status": "no_value",
    "date": "2026-10-20",
-   "note": "gh repo fork --clone 得到的是「fork 自己的 master」而非 upstream master；直接改再 push 会把整文件换行/内容 diff 成 +634/-633。正确做法：git fetch upstream master && git reset --hard upstream/master 再改。"
+   "note": "2026-11-03 复核：GitHub README 外链 nofollow，SEO 增益 0；PR 长期无人处理"
   },
   {
    "name": "GitHub — typing-speed-benchmarks (数据仓 README dofollow)",
@@ -882,5 +882,91 @@
    "date": "2026-11-01",
    "note": "公开数据仓：两条 DOI、CSV 曲线、percentile.py/js、CITATION.cff（GitHub 会显示 Cite this repository 按钮）；README 内链 benchmarks 页；topics 6 个、homepage 指向该页"
   }
- ]
+ ],
+ "audit": {
+  "date": "2026-11-03",
+  "method": "curl 实查 + gh api",
+  "findings": [
+   "GitHub README 外链实测 rel=\"nofollow\" → 5 个 awesome-list PR 即使全合并，SEO 权重增益为 0",
+   "已有 listing 实查：Launch Llama 200 但 rel=\"nofollow\"；SaaSHub 200，页面只剩 similarweb/ahrefs/moz 自动组件，无我们的入口链接",
+   "PR 队列全部空转：awesome-no-login-web-apps 394 个 open PR / 最近 push 2026-09-25；awesome-remote-job 136 个 / 2026-09-21；awesome-no-signup-tools 77 个 / 26★",
+   "结论：本目录清单里的渠道合计 dofollow 外链 = 0，网站目前可传权重的引用域名 = 0"
+  ]
+ },
+ "channels": {
+  "note": "2026-11-03 实测结论：唯一还在传权重的渠道是「教育/教师资源页」。下列页面已开外链且实测 dofollow，且已经在列竞品（typing.com / typingclub / ratatype / keybr），加我们一条是同类补充而不是推销。",
+  "verified_dofollow_targets": [
+   {
+    "name": "Freedom Homeschooling — Free Typing Curriculum",
+    "url": "https://freedomhomeschooling.com/typing/",
+    "dofollow": "yes",
+    "competitors_listed": [
+     "keybr",
+     "nitrotype",
+     "ratatype"
+    ],
+    "contact": "站点 contact 表单",
+    "status": "to_outreach",
+    "anchor": "free typing test for kids"
+   },
+   {
+    "name": "Ask a Tech Teacher — 50+ Websites on Keyboarding",
+    "url": "https://askatechteacher.com/50-websites-on-keyboarding/",
+    "dofollow": "yes",
+    "competitors_listed": [
+     "powertyping",
+     "edutyping"
+    ],
+    "contact": "askatechteacher@gmail.com",
+    "status": "to_outreach",
+    "anchor": "free typing test (no signup)"
+   },
+   {
+    "name": "Gypsy Gameschooler — Typing Programs and Games",
+    "url": "https://gypsygameschooler.com/typing/",
+    "dofollow": "yes",
+    "competitors_listed": [
+     "typingclub",
+     "typing.com",
+     "nitrotype"
+    ],
+    "contact": "Ashley@GypsyGameschooler.com",
+    "status": "to_outreach",
+    "anchor": "typing test for kids"
+   },
+   {
+    "name": "Atlanta Public Schools — Typing Resources",
+    "url": "https://www.atlantapublicschools.us/about/departments/teaching-learning/instructional-technology/typing-resources",
+    "dofollow": "yes",
+    "competitors_listed": [
+     "typingclub",
+     "typing.com"
+    ],
+    "contact": "区教育局 instructional technology",
+    "status": "to_outreach",
+    "anchor": "free typing practice"
+   },
+   {
+    "name": "NY State Education Dept — Keyboarding Programs",
+    "url": "https://www.nysed.gov/edtech/keyboarding-programs",
+    "dofollow": "unknown",
+    "competitors_listed": [
+     "typing.com",
+     "typingclub"
+    ],
+    "contact": "nysed edtech",
+    "status": "to_outreach",
+    "anchor": "free typing test"
+   },
+   {
+    "name": "Learnamic — homeschool resource directory",
+    "url": "https://www.learnamic.com/",
+    "dofollow": "unknown",
+    "competitors_listed": [],
+    "contact": "站内 submission",
+    "status": "to_outreach",
+    "anchor": "typing test"
+   }
+  ]
+ }
 }
