@@ -18,7 +18,7 @@
    "kind": "awesome-list-pr",
    "dofollow": "yes",
    "dr": null,
-   "status": "no_value",
+   "status": "skipped",
    "date": "2026-10-12",
    "note": "2026-11-03 复核：GitHub README 外链 nofollow，SEO 增益 0；PR 长期无人处理"
   },
@@ -28,7 +28,7 @@
    "kind": "awesome-list-pr",
    "dofollow": "yes",
    "dr": null,
-   "status": "no_value",
+   "status": "skipped",
    "date": "2026-10-20",
    "note": "2026-11-03 复核：GitHub README 外链全部 rel=\"nofollow\"，即使合并也不传权重；PR#10 开着 3 周无回应（仓库 4 个 open PR）"
   },
@@ -428,7 +428,7 @@
    "kind": "awesome-list-pr",
    "dofollow": "yes",
    "dr": null,
-   "status": "no_value",
+   "status": "skipped",
    "date": "2026-10-13",
    "note": "2026-11-03 复核：GitHub README 外链 nofollow，SEO 增益 0；PR 长期无人处理"
   },
@@ -438,7 +438,7 @@
    "kind": "awesome-list-pr",
    "dofollow": "yes",
    "dr": null,
-   "status": "no_value",
+   "status": "skipped",
    "date": "2026-10-13",
    "note": "2026-11-03 复核：GitHub README 外链 nofollow，SEO 增益 0；PR 长期无人处理"
   },
@@ -448,7 +448,7 @@
    "kind": "awesome-list-pr",
    "dofollow": "yes",
    "dr": null,
-   "status": "no_value",
+   "status": "skipped",
    "date": "2026-10-13",
    "note": "2026-11-03 复核：GitHub README 外链 nofollow，SEO 增益 0；PR 长期无人处理"
   },
@@ -458,7 +458,7 @@
    "kind": "awesome-list-pr",
    "dofollow": "yes",
    "dr": null,
-   "status": "no_value",
+   "status": "skipped",
    "date": "2026-10-13",
    "note": "2026-11-03 复核：GitHub README 外链 nofollow，SEO 增益 0；PR 长期无人处理"
   },
@@ -848,7 +848,7 @@
    "kind": "awesome-list-pr",
    "dofollow": "yes",
    "dr": null,
-   "status": "no_value",
+   "status": "skipped",
    "date": "2026-10-20",
    "note": "2026-11-03 复核：GitHub README 外链全部 rel=\"nofollow\"，即使合并也不传权重；PR#10 开着 3 周无回应（仓库 4 个 open PR）"
   },
@@ -858,7 +858,7 @@
    "kind": "awesome-list-pr",
    "dofollow": "yes",
    "dr": null,
-   "status": "no_value",
+   "status": "skipped",
    "date": "2026-10-20",
    "note": "2026-11-03 复核：GitHub README 外链 nofollow，SEO 增益 0；PR 长期无人处理"
   },
@@ -868,7 +868,7 @@
    "kind": "note",
    "dofollow": null,
    "dr": null,
-   "status": "no_value",
+   "status": "skipped",
    "date": "2026-10-20",
    "note": "2026-11-03 复核：GitHub README 外链 nofollow，SEO 增益 0；PR 长期无人处理"
   },
