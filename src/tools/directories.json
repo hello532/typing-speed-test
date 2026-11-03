@@ -918,7 +918,7 @@
      "edutyping"
     ],
     "contact": "askatechteacher@gmail.com",
-    "status": "to_outreach",
+    "status": "sent 2026-11-03",
     "anchor": "free typing test (no signup)"
    },
    {
@@ -931,7 +931,7 @@
      "nitrotype"
     ],
     "contact": "Ashley@GypsyGameschooler.com",
-    "status": "to_outreach",
+    "status": "sent 2026-11-03",
     "anchor": "typing test for kids"
    },
    {
@@ -967,6 +967,8 @@
     "status": "to_outreach",
     "anchor": "typing test"
    }
-  ]
+  ],
+  "sender": "coolun337@gmail.com 经本机 Chrome（Gmail 会话）发送，发完在 in:sent 里按收件人核对到那一行才记账",
+  "automation": "~/Library/LaunchAgents/com.doi.rerivo-outreach.plist，工作日 21:50 HKT（= 08:50 美中）；只发 approved=true 的目标，队列里没有已批准目标时发 0 封"
  }
 }
