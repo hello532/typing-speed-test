@@ -16,6 +16,9 @@ Keystrokes, characters and words are three units
 What is the average keystrokes per hour?
 8,000 key depressions per hour in WPM
 Key depression and keystroke are not always the same thing
+10,000 keystrokes per hour in WPM
+KPH, CPM and WPM for every common requirement
+The conversion mistake almost everyone makes
 
 Keystrokes per hour (KPH or KSPH) counts how many individual key presses you make in an hour, counting every character including spaces. It is the standard measure for data entry and numeric keypad work because it does not depend on how long the words happen to be. A fast data entry operator reaches 10,000-15,000 KPH.
 
@@ -71,6 +74,23 @@ A keystroke in this site's measurement means a character typed correctly. A key 
 
 So when a posting says "8,000 key depressions per hour", assume it counts everything, and treat your KPH score from this page as an optimistic version of it. When a posting says "keystrokes per hour" without qualification, ask - the difference is worth several WPM.
 
+10,000 KPH is 166.7 characters per minute, or roughly 33 WPM under the five-character convention. It is the figure most data-entry postings quote and it sits mid-range: above the ~20 WPM of untrained typists and below the ~50 WPM of people who type daily.
+
+Recruiters use KPH instead of WPM because data-entry work is judged on characters - account numbers, postcodes, invoice references - and those have no word boundaries. The table below covers the whole ladder of requirements.
+
+Keystrokes per hour | Characters per minute | Words per minute (&divide;5) | Typical use
+5,000 | 83 | 17 | Entry-level alphanumeric, slow but accurate
+6,000 | 100 | 20 | Common minimum in general office ads
+8,000 | 133 | 27 | Data entry with checking, most clerical roles
+9,000 | 150 | 30 | Medical billing, insurance claims
+10,000 | 167 | 33 | The number most data-entry postings quote
+12,000 | 200 | 40 | Numeric keypad work, ten-key operators
+15,000 | 250 | 50 | Fast numeric entry, transcription from clean audio
+
+WPM &times; 60 converts minutes to hours but keeps the unit: 50 WPM &times; 60 is 3,000, and 3,000 is words per hour, not keystrokes. The missing factor of five is the characters-per-word convention. A 50 WPM typist produces 15,000 keystrokes in an hour, not 3,000.
+
+The second mistake is comparing KPH across text types. A page of digits produces a much higher KPH than a page of long English words at the same effort, so test with numbers when the job is numeric.
+
 ## Keystrokes per hour FAQ
 
 ### What is a good keystrokes per hour score?
@@ -100,3 +120,11 @@ About 12,000 KPH, which is what 40 WPM produces and roughly the median office sp
 ### How many WPM is 8,000 key depressions per hour?
 
 26.7 WPM. 8,000 ÷ 300 = 26.7, or 133 keystrokes per minute. Corrections count as key depressions, so backspacing lowers the effective score.
+
+### How many WPM is 10,000 keystrokes per hour?
+
+About 33 WPM. 10,000 KPH is 166.7 characters per minute, and at the standard five characters per word that is 33.3 words per minute &mdash; the figure most data-entry job ads quote.
+
+### Does KPH include spaces?
+
+Yes. Every character counts as one keystroke, including spaces, digits and punctuation. That is why a numeric page can score far higher KPH than prose at the same typing effort.

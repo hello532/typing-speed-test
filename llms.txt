@@ -56,8 +56,6 @@ Each line below is a claim this site makes, with the source that supports it. Qu
 - [CPM Typing Test](https://typing.rerivo.com/cpm-typing-test.html): Measures typing speed in characters per minute (CPM = WPM x 5) with live CPM and WPM.
 - [Typing Test for Kids](https://typing.rerivo.com/typing-test-for-kids.html): Simple, fun words-per-minute test for children with a visual keyboard and finger guide.
 - [Typing Test for Jobs](https://typing.rerivo.com/typing-test-for-jobs.html): Pre-employment typing test practice; shows the WPM data entry, admin and support jobs require.
-- [10000 Keystrokes per Hour Test](https://typing.rerivo.com/10000-keystrokes-per-hour-test.html): 10,000 KPH = 166.7 CPM = about 33 WPM at the standard five characters per word. The test below measures characters and minutes directly, so the number you get i
-- [WPM to KPH Converter](https://typing.rerivo.com/wpm-to-kph-converter.html): KPH = WPM × 300. So 40 WPM is 12,000 KPH, 50 WPM is 15,000 KPH, and 33 WPM is the 10,000 KPH that data-entry ads ask for. Multiplying WPM by 60 gives words per 
 - [Gross WPM vs Net WPM: How Typing Scores Differ](https://typing.rerivo.com/gross-wpm-vs-net-wpm.html): Gross WPM = all characters ÷ 5 ÷ minutes. Net WPM = (all characters − errors) ÷ 5 ÷ minutes. On a 60-second run of 300 characters with 12 errors, gross is 60 WP
 - [Typing Test for Receptionist Jobs](https://typing.rerivo.com/typing-test-for-receptionist.html): Most receptionist postings ask for 40–50 WPM and 95–98% accuracy. The screening test is usually one to three minutes of ordinary sentences, sometimes with a pho
 - [Typing Test for Call Center Jobs](https://typing.rerivo.com/typing-test-for-call-center.html): Most call centre roles ask for 30–45 WPM with 95%+ accuracy, because notes are short and the caller keeps talking. Chat support asks for more, 40–55 WPM, since 
@@ -95,7 +93,6 @@ Each line below is a claim this site makes, with the source that supports it. Qu
 - [JavaScript Code Typing Test](https://typing.rerivo.com/javascript-code-typing.html): Type real JS syntax — arrow functions, template literals, destructuring.
 - [Capital Letter Typing Test](https://typing.rerivo.com/capital-letter-typing-test.html): Uppercase and shift-key practice.
 - [Punctuation Typing Test](https://typing.rerivo.com/punctuation-typing-test.html): Punctuation and symbol accuracy.
-- [Easy Typing Test](https://typing.rerivo.com/easy-typing-test.html): Beginner-friendly simple words.
 - [Typing Test Game](https://typing.rerivo.com/typing-test-game.html): Gamified typing challenge.
 - [Typing Games](https://typing.rerivo.com/typing-games.html): Fun, gamified typing challenges and races.
 - [Typing Lessons](https://typing.rerivo.com/typing-lessons.html): Step-by-step free touch typing lessons and course.
@@ -229,7 +226,6 @@ Each line below is a claim this site makes, with the source that supports it. Qu
 - [Typing Test for Nurses](https://typing.rerivo.com/typing-test-for-nurse.html): Nursing job ads commonly list 35-45 WPM. The binding constraint is accuracy on medication names, dosages and patient identifiers, not raw speed. Practise 60-sec
 - [Typing Test for Court Reporters](https://typing.rerivo.com/typing-test-for-court-reporter.html): The NCRA certified reporter exam tests 225 WPM live dictation on a stenotype. A QWERTY typist at 100 WPM is fast but is not training the same skill. Keyboard te
 - [Typing Test for 911 Dispatchers](https://typing.rerivo.com/typing-test-for-dispatch.html): Most dispatch postings list 35-45 WPM with high accuracy. The realistic test is capturing digits and addresses in real time while a caller talks, so practise th
-- [SSC CHSL Typing Test](https://typing.rerivo.com/ssc-chsl-typing-test.html): LDC/JSA: 35 WPM English, 30 WPM Hindi, 10 minutes, error allowance around 5%. DEO: 8000 key depressions per hour, 15 minutes, on a standard keyboard. Both are q
 - [Typing Test for 5th Graders](https://typing.rerivo.com/typing-test-for-5th-graders.html): Fifth graders who practise regularly typically sit around 25-35 WPM with 90%+ accuracy. The useful goal is accuracy and home-row habit, not speed: children who 
 - [Typing Test for Legal Secretaries](https://typing.rerivo.com/typing-test-for-legal-secretary.html): Legal secretary postings commonly ask for 60-70 WPM and near-perfect accuracy. The differentiator is not raw speed but consistency with capitals, citations and 
 - [Federal Typing Test](https://typing.rerivo.com/federal-typing-test.html): Federal clerk and office-automation postings commonly require 40 WPM from a 5-minute sample with at most 3 errors. That is roughly 200 correct words, or 1,000 c

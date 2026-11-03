@@ -163,30 +163,6 @@ Yes, no account needed, results stored in your browser.
 Shift for a single capital, Caps Lock for a run of them. Mixing the two creates habits that fail under time pressure.
 About 3-5% on ordinary sentences, and more on text dense with proper nouns. Accuracy usually drops more than speed.
 
-## Easy Typing Test
-Source: https://typing.rerivo.com/easy-typing-test.html
-
-A simple, easy typing test for beginners. Start with short rounds and common words, see your WPM and accuracy instantly, and build confidence at your own pace.
-
-Three adjustments: common short words, no digits or unusual punctuation, and a one-minute default so the round ends before fatigue arrives. The point is to remove everything except the skill being built - finding keys without looking.
-Easy is not the same as slow. Type at the pace where you make almost no errors; if accuracy is below 95%, slow down further rather than pushing. At this stage speed is a side effect of accuracy, not a separate goal.
-Week | Daily drill | What should change
-1 | Two 60-second easy rounds, hands covered for one | You stop looking at the keyboard for most words
-2 | Same, plus one home-row-only round | Accuracy above 95% consistently
-3 | Two-minute rounds, no backspace allowed | Corrections stop eating your time
-4 | Three-minute rounds, then one five-minute check | A reproducible number you can quote
-Looking at the keyboard. Every glance costs a beat and prevents the mental map from forming. Cover your hands once a day, even if it feels slow.
-Backspacing through every slip. At beginner speeds, corrections cost more than the errors. Practise finishing rounds without correcting.
-Two-finger typing. It works to about 35-40 WPM and then stops. If you are under 30 WPM, learning the home row now is cheaper than fixing it later.
-Once you hold 95% accuracy at 30 WPM on easy text, move to the beginner test with normal sentences, then to the one-minute test. The easy page is a starting gate, not a home.
-If you are already above 40 WPM, this page will flatter you - switch to the hard typing test, which includes capitals, digits and long words.
-## Frequently asked questions
-Common short words, no digits or unusual punctuation, and a one-minute default. It isolates key-finding from everything else.
-Two 60-second rounds a day, hands covered for one of them, and no backspacing. That combination removes the two habits that cap beginners at 30-40 WPM.
-Yes, with no account and no ads in the typing area. Results stay in your browser.
-Most untrained adults start at 20-30 WPM with 90-95% accuracy. Below 20 WPM is usually two-finger typing rather than a lack of ability.
-When you hold 95% accuracy at 30 WPM on easy text. Moving earlier just moves the errors to harder text.
-
 ## English Typing Test
 Source: https://typing.rerivo.com/english-typing-test.html
 
@@ -1665,6 +1641,9 @@ Keystrokes, characters and words are three units
 What is the average keystrokes per hour?
 8,000 key depressions per hour in WPM
 Key depression and keystroke are not always the same thing
+10,000 keystrokes per hour in WPM
+KPH, CPM and WPM for every common requirement
+The conversion mistake almost everyone makes
 Keystrokes per hour (KPH or KSPH) counts how many individual key presses you make in an hour, counting every character including spaces. It is the standard measure for data entry and numeric keypad work because it does not depend on how long the words happen to be. A fast data entry operator reaches 10,000-15,000 KPH.
 If you know your characters per minute (CPM), multiply by 60 to get KPH: a steady 160 CPM equals 9,600 KPH. This test shows your characters per minute live, so you can read your KPH straight off the result.
 All three describe the same typing, just at different scales. WPM counts words (5 characters each) per minute; CPM counts characters per minute; KPH counts keystrokes per hour. Because a &lsquo;word&rsquo; is standardised as 5 characters, the conversions are fixed:
@@ -1699,6 +1678,18 @@ Key depressions per hour | WPM (÷300) | Keystrokes per minute
 12,000 | 40.0 | 200
 A keystroke in this site's measurement means a character typed correctly. A key depression in examination scoring means any key pressed down, including Shift, Tab, Enter and backspace. The two numbers differ most for typists who correct a lot.
 So when a posting says "8,000 key depressions per hour", assume it counts everything, and treat your KPH score from this page as an optimistic version of it. When a posting says "keystrokes per hour" without qualification, ask - the difference is worth several WPM.
+10,000 KPH is 166.7 characters per minute, or roughly 33 WPM under the five-character convention. It is the figure most data-entry postings quote and it sits mid-range: above the ~20 WPM of untrained typists and below the ~50 WPM of people who type daily.
+Recruiters use KPH instead of WPM because data-entry work is judged on characters - account numbers, postcodes, invoice references - and those have no word boundaries. The table below covers the whole ladder of requirements.
+Keystrokes per hour | Characters per minute | Words per minute (&divide;5) | Typical use
+5,000 | 83 | 17 | Entry-level alphanumeric, slow but accurate
+6,000 | 100 | 20 | Common minimum in general office ads
+8,000 | 133 | 27 | Data entry with checking, most clerical roles
+9,000 | 150 | 30 | Medical billing, insurance claims
+10,000 | 167 | 33 | The number most data-entry postings quote
+12,000 | 200 | 40 | Numeric keypad work, ten-key operators
+15,000 | 250 | 50 | Fast numeric entry, transcription from clean audio
+WPM &times; 60 converts minutes to hours but keeps the unit: 50 WPM &times; 60 is 3,000, and 3,000 is words per hour, not keystrokes. The missing factor of five is the characters-per-word convention. A 50 WPM typist produces 15,000 keystrokes in an hour, not 3,000.
+The second mistake is comparing KPH across text types. A page of digits produces a much higher KPH than a page of long English words at the same effort, so test with numbers when the job is numeric.
 ## Keystrokes per hour FAQ
 For data entry work, 8,000 to 10,000 KPH is the usual requirement, and fast operators reach 12,000 to 15,000 KPH with 99% accuracy. General office roles often accept lower KPH because typing is only part of the job.
 WPM = KPH ÷ 300. Because 1 word is 5 characters and there are 60 minutes in an hour, 60 WPM equals 18,000 KPH.
@@ -1707,6 +1698,8 @@ Yes. It reports your characters per minute live and, like every test on this sit
 Yes. Numeric keypad (10 key) tests are almost always scored in keystrokes per hour, which is why data entry applicants are often asked for a 10 key KPH figure.
 About 12,000 KPH, which is what 40 WPM produces and roughly the median office speed. 15,000 KPH (50 WPM) is above average and 24,000 (80 WPM) is top-decile.
 26.7 WPM. 8,000 ÷ 300 = 26.7, or 133 keystrokes per minute. Corrections count as key depressions, so backspacing lowers the effective score.
+About 33 WPM. 10,000 KPH is 166.7 characters per minute, and at the standard five characters per word that is 33.3 words per minute - the figure most data-entry job ads quote.
+Yes. Every character counts as one keystroke, including spaces, digits and punctuation. That is why a numeric page can score far higher KPH than prose at the same typing effort.
 
 ## Typing Speed Calculator
 Source: https://typing.rerivo.com/typing-speed-calculator.html
@@ -1977,6 +1970,7 @@ Your first realistic targets
 What to do after your first month
 Your first week, day by day
 Three beginner mistakes worth avoiding
+What actually makes a typing test easy
 The default round is short, the words are common, and the score is reported with accuracy beside it. A beginner's first number should be a baseline, not a verdict - most untrained adults start at 20-30 WPM with 90-95% accuracy, and that is normal.
 If your accuracy is below 85%, the speed number is not meaningful yet. Slow down until errors are rare; the speed will follow within two weeks and it will be a real number rather than a lucky one.
 Home row first. asdf jkl; until the fingers return without looking.
@@ -2002,6 +1996,9 @@ Practising at the edge of frustration. If accuracy drops below 90%, the session 
 Chasing WPM in week one. The first two weeks are about the map, not the speed. Speed arrives as a side effect and then keeps arriving.
 Switching keyboards or layouts mid-month. Each switch resets the motor learning you just built. Pick one and stay for a month.
 The fourth mistake is invisible: practising only when motivated. Ten minutes, four days a week, beats a two-hour session every other Sunday by a wide margin.
+Three adjustments make a round easy: common short words, no digits or unusual punctuation, and a one-minute default that ends before fatigue arrives. Everything except the skill being built is removed.
+Easy is not the same as slow. Type at the pace where you make almost no errors; below 95% accuracy, slow down rather than push, because at this stage speed is a side effect of accuracy rather than a separate target.
+Once you hold 95% accuracy at 30 WPM on easy text, move to the one-minute test with normal sentences. If you are already above 40 WPM this page will flatter you - the hard typing test adds capitals, digits and long words.
 ## Beginner Typing Test FAQ
 20-30 WPM is normal for an untrained adult, with 90-95% accuracy. Reaching 35-45 WPM within three months of daily ten-minute practice is typical.
 Accuracy. At beginner speed corrections cost more than errors, and a sloppy fast habit is much harder to undo than a slow careful one.
@@ -2009,6 +2006,7 @@ Four to six weeks to type without looking, and two to four months to reach 60 WP
 Yes, no account, no ads inside the typing area, and results stay in your browser.
 Yes. It is the anchor every other reach returns to, and skipping it is what produces the two-finger ceiling at 35-40 WPM.
 Find F and J by touch, drill the home row, then add the top and bottom rows one at a time, keeping accuracy above 95%. One covered round a day from day two.
+Common short words, no digits or unusual punctuation, and a one-minute round that ends before fatigue. Difficulty comes from text, not from the timer alone.
 
 ## Timed Typing Test
 Source: https://typing.rerivo.com/timed-typing-test.html
@@ -2234,17 +2232,27 @@ Training for the format
 Reaching the pass mark
 What typing speed do SSC-type exams require?
 Beyond the exam: test-day craft
+SSC CHSL: the two tests, side by side
+Error allowance is where SSC candidates fail
 Several SSC recruitment exams include a typing test as a qualifying round, typically typing a passage in a set time to prove a minimum speed and accuracy. It is often held at a test centre and must be cleared to be considered for the post, no matter how well you did in the written exam.
 SSC typing rounds commonly ask for around 35 words per minute in English, or roughly 30 words per minute in Hindi, with high accuracy. Some exams set the bar in a mix of speed and error count, so you must meet both to pass.
 The passage is delivered on screen and the clock does not stop, so the goal is steady, error-free typing rather than bursts of speed. Practise with light punctuation and everyday vocabulary — the passages are ordinary prose rather than technical text.
 Build your baseline with short daily sessions until you clear the required speed at 95%+ accuracy, then add a minute at a time to build stamina. Our government and bank typing pages cover the same clerical-test family; use them together for a rounded practice routine.
 Most SSC-type government exams set a qualifying bar around 30–35 WPM (or the KPH equivalent) with a cap on mistakes, tested as a short timed passage. For the full comparison across data entry, clerk, transcription and office roles — plus the WPM↔CPM↔KPH conversions — see typing speed requirements by job and exam.
 Exam-day skills transfer everywhere: how to pass a typing test and typing test tips apply the same accuracy-first strategy.
+Post | Standard | Duration | Scoring
+LDC / JSA | 35 WPM English or 30 WPM Hindi | 10 minutes | Words per minute with an error allowance
+DEO / DEO Grade A | 8000 key depressions per hour | 15 minutes | Total key depressions against an 8000/hour rate
+8000 key depressions per hour is about 26.7 WPM under the five-character convention, but it is measured as raw keystrokes including corrections you make, so a typist who backspaces constantly loses ground even at a good words-per-minute rate.
+The typing test is qualifying: you either clear the standard or you do not, and the score does not add to your merit total. That changes the strategy completely. A candidate chasing 45 WPM with 12% errors fails; a candidate at 37 WPM with 3% errors passes.
+Practise with the error budget in view: type at a pace where you can hold mistakes under the allowance, and never let a correction spree eat the clock. On the 10-minute LDC test, thirty seconds lost to backspacing is roughly 18 words you never typed.
 ## SSC Typing Test FAQ
 Yes. Several SSC exams include a qualifying typing round where you must reach a minimum typing speed and accuracy, usually tested at a centre.
 Requirements vary by post and year, but roughly 35 words per minute in English or about 30 in Hindi is the commonly cited benchmark, with high accuracy.
 Practise timed passages daily, keep accuracy above 95%, and build stamina for the full test length. Use a five-minute timer to mirror exam conditions.
 Yes, free and no sign-up.
+For LDC and JSA posts, 35 words per minute in English or 30 in Hindi over a 10-minute test. For DEO posts the standard is 8000 key depressions per hour over 15 minutes.
+Roughly 5% of the words typed. Because the test is qualifying rather than merit-based, a slower run under the allowance passes and a fast run above it fails.
 
 ## Typing Test for Teachers
 Source: https://typing.rerivo.com/typing-test-for-teachers.html
@@ -5128,63 +5136,6 @@ Yes - the Python code typing test at typing.rerivo.com serves real Python lines 
 Modestly and indirectly, through consistent actuation. Technique still does the lifting.
 Only if you type heavily every day with discomfort. For most developers, technique work on the current layout delivers bigger gains with no retraining cost.
 
-## 10,000 Keystrokes per Hour Test
-Source: https://typing.rerivo.com/10000-keystrokes-per-hour-test.html
-
-Data-entry job ads ask for 10,000 keystrokes per hour and never explain what that is in WPM. It is 166.7 characters per minute, or about 33 words per minute. This page runs the test and does the arithmetic.
-
-A keystroke is one character: a letter, a digit, a space or a punctuation mark. Keystrokes per hour (KPH) is therefore a characters-per-minute figure multiplied by 60. Ten thousand KPH is 10,000 ÷ 60 = 166.7 CPM. Divide by five, the standard characters-per-word convention, and you get roughly 33 WPM.
-Recruiters use KPH instead of WPM because data-entry work is judged on characters: account numbers, postcodes, invoice references and part numbers have no word boundaries. KPH measures the same keyboard output without pretending the text is prose.
-Keystrokes per hour | Characters per minute | Words per minute (÷5) | Typical use
-5,000 | 83 | 17 | Entry-level alphanumeric, slow but accurate
-6,000 | 100 | 20 | Common minimum in general office ads
-8,000 | 133 | 27 | Data entry with checking, most clerical roles
-9,000 | 150 | 30 | Medical billing, insurance claims
-10,000 | 167 | 33 | The number most data-entry postings quote
-12,000 | 200 | 40 | Numeric keypad work, ten-key operators
-15,000 | 250 | 50 | Fast numeric entry, transcription from clean audio
-Set the timer to five minutes. One-minute runs measure your best burst; five minutes measures the pace you can hold, which is what a shift actually requires. Choose the Words text mode for alphanumeric work and the Numbers mode if your job is keypad-heavy, because digits are typed by a different hand position and score differently.
-Type the text as it appears, including capitals and punctuation, without correcting every slip. The score panel reports WPM and CPM after the round; multiply CPM by 60 for KPH. A five-minute round gives a stable number because a single slow sentence cannot dominate the result.
-The two numbers only agree when your text averages five characters per word including the space. Sentences with long words produce fewer WPM for the same KPH; number strings produce far higher KPH for a low WPM because every keystroke counts but there are no words.
-Accuracy matters more in KPH work than in prose typing. An uncorrected digit error in an account number is a failed record, not a typo. If your raw and net scores differ by more than about 5%, practise accuracy before pushing speed: the arithmetic of corrections costs more time than typing slightly slower.
-It sits in the middle of office typing. It is above the ~20 WPM that untrained typists manage and below the ~50 WPM average reported for people who type daily, so it is reachable in a few weeks of deliberate practice rather than years.
-If you are at 6,000–8,000 KPH, the gap to 10,000 is a pace problem, not a knowledge problem. Daily five-minute rounds plus one accuracy drill will usually close it faster than longer sessions, because fatigue at minute eight teaches you nothing about minute one.
-## Frequently asked questions
-About 33 WPM. 10,000 ÷ 60 = 166.7 characters per minute, and 166.7 ÷ 5 = 33.3 words per minute using the standard five-characters-per-word convention.
-It is the number most data-entry job postings quote as a minimum, and it corresponds to roughly 33 WPM, which is a solid office speed. Faster roles such as medical billing often ask for 9,000–12,000 KPH with high accuracy.
-It counts the characters you typed correctly against the elapsed time. CPM × 60 gives keystrokes per hour, and the panel shows both CPM and WPM after each round so you can convert without a calculator.
-Use Words for alphanumeric data entry and Numbers if the job is keypad-heavy. Digits use a different finger pattern, so a words score will flatter or penalise you inaccurately for numeric work.
-Five minutes. Shorter rounds measure a burst, and employers are buying sustained output across a shift. A five-minute round is also long enough for the first-sentence penalty to wash out.
-98% or better for data entry. Uncorrected errors in account numbers and references are treated as failed records, so a 33 WPM run at 99% accuracy is worth more than 40 WPM at 94%.
-
-## WPM to KPH Converter
-Source: https://typing.rerivo.com/wpm-to-kph-converter.html
-
-Keystrokes per hour is characters per minute × 60. Because one word is counted as five characters, the shortcut is KPH = WPM × 300. The chart below covers every speed you are likely to be asked for.
-
-Both directions work: type in either box. The conversion uses five characters per word and sixty minutes per hour, so KPH = WPM × 300 exactly. CPM = WPM × 5.
-One word is counted as five characters, the convention every typing test uses because it makes speeds comparable across languages and text styles. One minute of typing at W WPM is therefore 5W characters, and an hour is 60 × 5W keystrokes.
-KPH = WPM × 300. The reverse is WPM = KPH ÷ 300. If you prefer to work from CPM, KPH = CPM × 60, and CPM = WPM × 5.
-WPM | CPM | KPH | Where you see this number
-20 | 100 | 6,000 | Minimum in general clerical ads
-30 | 150 | 9,000 | Insurance and billing support
-33 | 167 | 10,000 | The standard data-entry requirement
-40 | 200 | 12,000 | Ten-key and order processing
-50 | 250 | 15,000 | Fast data entry, transcription
-60 | 300 | 18,000 | Above most clerical requirements
-80 | 400 | 24,000 | Professional typing, court reporting support
-100 | 500 | 30,000 | Top decile of typists
-WPM × 60 converts minutes to hours but keeps the unit: 50 WPM × 60 is 3,000, and 3,000 is words per hour, not keystrokes. The missing factor of five is the characters-per-word convention. A 50 WPM typist produces 15,000 keystrokes in an hour, not 3,000.
-The second mistake is comparing KPH across text types. A page of digits produces a much higher KPH than a page of long English words at the same effort, because every digit is one keystroke and every long word is eight. KPH requirements are usually quoting alphanumeric data, so test with numbers if the job is numeric.
-Run a five-minute round and read the CPM figure from the results panel, then multiply by 60. The page reports CPM as well as WPM on every run precisely so that conversion does not need a separate tool.
-If you want the number an employer will see, use net rather than raw: subtract the characters you typed wrong before dividing. A run of 250 CPM with twelve uncorrected errors is 238 net CPM, which is 14,280 KPH, not 15,000.
-## Frequently asked questions
-Multiply WPM by 300. Five characters make one word and sixty minutes make an hour, so 5 × 60 = 300. A 45 WPM score is 13,500 KPH.
-Yes. 40 WPM is 12,000 KPH, above the 10,000 KPH that most data-entry postings ask for. Pair it with accuracy above 98%, because that is what the screening test actually rewards.
-The minute-to-hour step is sixty. The extra factor of five is the characters-per-word convention, which converts words into keystrokes. Multiply by both and you get 300.
-About 33 WPM. 10,000 KPH ÷ 300 = 33.3 WPM, which is why data-entry ads that quote 10,000 KPH are asking for roughly a third of a word per second.
-Yes. A space is a keystroke and is counted in the five characters that make up one word. Only the characters you typed correctly on a completed word count in a net score.
-
 ## Gross WPM vs Net WPM
 Source: https://typing.rerivo.com/gross-wpm-vs-net-wpm.html
 
@@ -5368,28 +5319,6 @@ No. The call-taking simulation and multitasking assessment usually eliminate mor
 Both, but lead with numbers. Plate numbers, addresses and callback numbers are the content that fails in real calls, and the number row is where untrained typists lose the most accuracy.
 Aim for 99% on digits. A transposed digit in an address sends responders to the wrong place, which is the failure mode agencies screen hardest for.
 Often the assessment includes a simulated call where you must enter data as it is spoken. Rehearse that directly: audio in, one-pass typing out, then verify.
-
-## SSC CHSL Typing Test
-Source: https://typing.rerivo.com/ssc-chsl-typing-test.html
-
-Two different skill tests sit inside SSC CHSL: 35 WPM English or 30 WPM Hindi for LDC and JSA posts, and 8000 key depressions per hour for DEO posts. They are scored differently and rehearsed differently.
-
-Post | Standard | Duration | Scoring
-LDC / JSA | 35 WPM English or 30 WPM Hindi | 10 minutes | Words per minute with an error allowance
-DEO / DEO Grade A | 8000 key depressions per hour | 15 minutes | Total key depressions against an 8000/hour rate
-8000 key depressions per hour is about 26.7 WPM under the five-character convention, but it is measured as raw keystrokes including corrections you make, so a typist who backspaces constantly loses ground even at a good words-per-minute rate.
-The typing test is qualifying: you either clear the standard or you do not, and the score does not add to your merit total. That changes the strategy completely. A candidate chasing 45 WPM with 12% errors fails; a candidate at 37 WPM with 3% errors passes.
-Practise with the error budget in view: type at a pace where you can hold mistakes under the allowance, and never let a correction spree eat the clock. On the 10-minute LDC test, thirty seconds lost to backspacing is roughly 18 words you never typed.
-The test is taken on a standard QWERTY keyboard provided at the centre. Hindi candidates may opt for Krutidev or Remington layout depending on the notice in force, and the layout is usually chosen at the application stage — check your admit card and the current notice rather than assuming.
-Because the machine is not yours, rehearse on something other than your laptop at least twice before the exam. Key travel and spacing change your error rate more than practice volume does.
-Week 1: ten-minute rounds at a comfortable pace, recording accuracy only. Week 2: same length, push until errors cross the allowance, then back off 3 WPM — that is your exam pace. Week 3: alternate sentences and passages with punctuation, because the actual passage includes capitals and full stops. Week 4: full-length simulations at the same time of day as your shift, with no pause button.
-The DEO candidate should add a daily 15-minute numbers round, since key depressions include digits and the numeric reach is the slowest part of the keyboard for most people.
-## Frequently asked questions
-35 words per minute in English or 30 words per minute in Hindi for LDC and JSA posts, and 8000 key depressions per hour for DEO posts. Both are qualifying tests.
-Qualifying. It does not add marks to your total; you either meet the standard or you do not. That is why accuracy matters more than a high raw speed.
-Ten minutes for LDC and JSA, fifteen minutes for DEO. Practise at the full length rather than in one-minute bursts, because the error rate at minute nine is what decides the result.
-A small error allowance applies, commonly around 5% of the words typed, and it is specified in the notice for that cycle. Check the current notice: the allowance and the passage length change between years.
-No. The test is conducted on centre equipment. Rehearse on a different keyboard at least twice so key travel and spacing are not a surprise on the day.
 
 ## Typing Test for 5th Graders
 Source: https://typing.rerivo.com/typing-test-for-5th-graders.html

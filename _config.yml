@@ -11,6 +11,7 @@ exclude:
   - .gitignore
   - llms-pair.json
   - README.md
+  - REDIRECTS.md
   - CITATION-KIT.md
   - INVENTORY.md
   - PLAN-90-DAY.md

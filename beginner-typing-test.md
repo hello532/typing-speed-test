@@ -12,6 +12,7 @@ Your first realistic targets
 What to do after your first month
 Your first week, day by day
 Three beginner mistakes worth avoiding
+What actually makes a typing test easy
 
 The default round is short, the words are common, and the score is reported with accuracy beside it. A beginner's first number should be a baseline, not a verdict - most untrained adults start at 20-30 WPM with 90-95% accuracy, and that is normal.
 
@@ -48,6 +49,12 @@ Switching keyboards or layouts mid-month. Each switch resets the motor learning 
 
 The fourth mistake is invisible: practising only when motivated. Ten minutes, four days a week, beats a two-hour session every other Sunday by a wide margin.
 
+Three adjustments make a round easy: common short words, no digits or unusual punctuation, and a one-minute default that ends before fatigue arrives. Everything except the skill being built is removed.
+
+Easy is not the same as slow. Type at the pace where you make almost no errors; below 95% accuracy, slow down rather than push, because at this stage speed is a side effect of accuracy rather than a separate target.
+
+Once you hold 95% accuracy at 30 WPM on easy text, move to the one-minute test with normal sentences. If you are already above 40 WPM this page will flatter you - the hard typing test adds capitals, digits and long words.
+
 ## Beginner Typing Test FAQ
 
 ### What is a good speed for a beginner?
@@ -73,3 +80,7 @@ Yes. It is the anchor every other reach returns to, and skipping it is what prod
 ### What should I do in my first week of typing practice?
 
 Find F and J by touch, drill the home row, then add the top and bottom rows one at a time, keeping accuracy above 95%. One covered round a day from day two.
+
+### What makes a typing test easy?
+
+Common short words, no digits or unusual punctuation, and a one-minute round that ends before fatigue. Difficulty comes from text, not from the timer alone.
