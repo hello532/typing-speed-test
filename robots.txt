@@ -4,6 +4,7 @@
 # Standard search engines
 User-agent: *
 Allow: /
+# Agent-facing summary: https://typing.rerivo.com/agents.md
 
 # --- AI search & citation crawlers: ALLOW (ChatGPT / Claude / Perplexity refs) ---
 User-agent: OAI-SearchBot

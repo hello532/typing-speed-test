@@ -151,6 +151,20 @@ def main():
     else:
         check("13. llms.txt 存在", False)
 
+    # 13b. agents.md：给自动化代理的站点事实、边界与引用方式。
+    ap = ROOT / "agents.md"
+    if ap.exists():
+        agent_body = ap.read_text(encoding="utf-8")
+        check("13b. agents.md 存在且包含联系方式与 AI 清单",
+              "hello@rerivo.com" in agent_body and f"{SITE}/llms.txt" in agent_body,
+              f"{len(agent_body):,}B")
+    else:
+        check("13b. agents.md 存在", False, "缺失")
+    missing_agent_link = [n for n, h in htmls.items()
+                          if f'<link rel="describedby" href="{SITE}/agents.md">' not in h]
+    check("13c. 全站页面声明 agents.md", not missing_agent_link,
+          f"缺 {missing_agent_link[:3]}" if missing_agent_link else f"{len(htmls)} 页")
+
     # 8. 外链资源存在
     refs = set()
     # 站内绝对路径（/favicon.svg 等，根部署）也纳入校验；仅排除外部 URL、

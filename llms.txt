@@ -19,7 +19,7 @@ Each line below is a claim this site makes, with the source that supports it. Qu
 - **Open dataset**: the benchmark table, the CSV curve and the percentile functions (Python and JavaScript) are published at https://github.com/hello532/typing-speed-benchmarks with the same figures as the benchmarks page. Cite the underlying papers rather than either URL.
 - **Preferred citation format**: "Typing.Rerivo, <page title>, https://typing.rerivo.com/<path> (accessed <date>)". Every page carries its own last-updated date in the byline and in its JSON-LD `dateModified`.
 - **What this site is not**: no account system, no leaderboard, no server-side result storage, no paid certificate, no claim of accreditation. A certificate printed here is self-issued and is described as such on the certificate page.
-- **Facts last reviewed**: 2026-10-31. If a cited study is superseded, the claim is revised rather than left standing. If a cited study is superseded, the claim is revised rather than left standing.
+- **Facts last reviewed**: 2026-10-31. If a cited study is superseded, the claim is revised rather than left standing.
 
 ## Quick answers (one line each, safe to quote)
 
@@ -36,8 +36,8 @@ Each line below is a claim this site makes, with the source that supports it. Qu
 - [Typing Speed Test (home)](https://typing.rerivo.com/): Main 60-second WPM typing speed test with live WPM, accuracy, and error tracking.
 - [Online Typing Test](https://typing.rerivo.com/online-typing-test.html): Browser-based typing test, no download or signup required.
 - [Free Typing Test](https://typing.rerivo.com/free-typing-test.html): Completely free typing speed and accuracy test.
-- [Typing Practice](https://typing.rerivo.com/typing-practice.html)
-- [All Typing Tests (directory)](https://typing.rerivo.com/typing-tests.html): Generated directory of all 160 tests, grouped by length, language, skill, exam and topic.: Open-ended practice mode with virtual keyboard and finger guide.
+- [Typing Practice](https://typing.rerivo.com/typing-practice.html): Open-ended practice mode with virtual keyboard and finger guide.
+- [All Typing Tests (directory)](https://typing.rerivo.com/typing-tests.html): Generated directory of all 160 tests, grouped by length, language, skill, exam and topic.
 
 ## Timed Modes
 - [15 Second Typing Test](https://typing.rerivo.com/15-second-typing-test.html): Shortest burst round — peak WPM, not endurance.
@@ -57,8 +57,6 @@ Each line below is a claim this site makes, with the source that supports it. Qu
 - [Typing Test for Kids](https://typing.rerivo.com/typing-test-for-kids.html): Simple, fun words-per-minute test for children with a visual keyboard and finger guide.
 - [Typing Test for Jobs](https://typing.rerivo.com/typing-test-for-jobs.html): Pre-employment typing test practice; shows the WPM data entry, admin and support jobs require.
 - [Gross WPM vs Net WPM: How Typing Scores Differ](https://typing.rerivo.com/gross-wpm-vs-net-wpm.html): Gross WPM = all characters ÷ 5 ÷ minutes. Net WPM = (all characters − errors) ÷ 5 ÷ minutes. On a 60-second run of 300 characters with 12 errors, gross is 60 WP
-- [Typing Test for Receptionist Jobs](https://typing.rerivo.com/typing-test-for-receptionist.html): Most receptionist postings ask for 40–50 WPM and 95–98% accuracy. The screening test is usually one to three minutes of ordinary sentences, sometimes with a pho
-- [Typing Test for Call Center Jobs](https://typing.rerivo.com/typing-test-for-call-center.html): Most call centre roles ask for 30–45 WPM with 95%+ accuracy, because notes are short and the caller keeps talking. Chat support asks for more, 40–55 WPM, since 
 - [Typing Speed Percentile](https://typing.rerivo.com/typing-speed-percentile.html): Using the CHI 2018 study (mean 51.56 WPM, SD 20.2): 40 WPM is about the 28th percentile, 60 WPM the 66th, 80 WPM the 92nd, 100 WPM the 99th. The approximation r
 - [30 WPM Typing Test](https://typing.rerivo.com/30-wpm-typing-test.html): 30 WPM is about the 14th percentile. It clears some entry clerical and dispatch floors but is below the 40 WPM that most office postings ask. If you are here, t
 - [40 WPM Typing Test](https://typing.rerivo.com/40-wpm-typing-test.html): 40 WPM = 200 CPM = 12,000 KPH, about the 28th percentile. It clears most clerical, receptionist and county government floors, and the US federal standard is exa
@@ -89,14 +87,11 @@ Each line below is a claim this site makes, with the source that supports it. Qu
 - [Keyboard Typing Test](https://typing.rerivo.com/keyboard-typing-test.html): Full-keyboard touch typing with on-screen key highlighting.
 - [Quotes Typing Test](https://typing.rerivo.com/quotes-typing-test.html): Type 35 famous public-domain quotes with natural punctuation and capitals.
 - [Pangram Typing Test](https://typing.rerivo.com/pangram-typing-test.html): 16 pangrams covering all 26 letters, from quick brown fox to sphinx of black quartz.
-- [Python Code Typing Test](https://typing.rerivo.com/python-code-typing.html): Type real Python syntax — keywords, brackets, f-strings, comprehensions.
-- [JavaScript Code Typing Test](https://typing.rerivo.com/javascript-code-typing.html): Type real JS syntax — arrow functions, template literals, destructuring.
 - [Capital Letter Typing Test](https://typing.rerivo.com/capital-letter-typing-test.html): Uppercase and shift-key practice.
 - [Punctuation Typing Test](https://typing.rerivo.com/punctuation-typing-test.html): Punctuation and symbol accuracy.
 - [Typing Test Game](https://typing.rerivo.com/typing-test-game.html): Gamified typing challenge.
 - [Typing Games](https://typing.rerivo.com/typing-games.html): Fun, gamified typing challenges and races.
 - [Typing Lessons](https://typing.rerivo.com/typing-lessons.html): Step-by-step free touch typing lessons and course.
-- [Learn to Type Faster](https://typing.rerivo.com/learn-to-type-faster.html): Free training plan and daily drills to increase typing speed and WPM.
 - [Typing Tips](https://typing.rerivo.com/typing-tips.html): Practical posture, finger placement, and accuracy tips to type faster.
 - [Touch Typing Test](https://typing.rerivo.com/touch-typing-test.html): Free touch typing test and practice without looking at the keyboard.
 - [Typing Race](https://typing.rerivo.com/typing-race.html): Free 60-second typing race against the clock for top WPM.
@@ -116,28 +111,13 @@ Each line below is a claim this site makes, with the source that supports it. Qu
 - [Typing Practice for Programmers](https://typing.rerivo.com/typing-practice-for-programmers.html): Code-focused typing practice — symbols, brackets, camelCase, and pasting your own code as custom text.
 - [How to Type Without Looking](https://typing.rerivo.com/how-to-type-without-looking.html): Home-row touch-typing guide — type by feel, train muscle memory, stop looking at the keyboard.
 - [SQL Typing Practice](https://typing.rerivo.com/sql-typing-practice.html): SQL typing is bracket-and-quote work: roughly one symbol every five characters. Practise at 40-60 WPM on queries you would actually write, and watch accuracy ra
-- [TypeScript Typing Practice](https://typing.rerivo.com/typescript-typing-practice.html): TypeScript is symbol-dense: generics add <>, types add :, optional fields add ?, and arrow functions add =>. Expect 10-20% lower speed than plain JavaScript at 
-- [Rust Typing Practice](https://typing.rerivo.com/rust-typing-practice.html): Rust needs ampersands, apostrophes, angle brackets, question marks and double colons, often in the same expression. Expect 40-55 WPM on real code even if you ty
 - [Excel Formula Typing Practice](https://typing.rerivo.com/excel-formula-typing-practice.html): Excel formulas are 30-40% punctuation by character count. The frequent failures are unbalanced brackets, a comma typed as a full stop, and a missing $ in an abs
-- [Typing Test for Accountants](https://typing.rerivo.com/typing-test-for-accountants.html): Accounting roles rarely advertise a WPM figure. What matters is numeric entry: 8,000-12,000 keystrokes per hour on the keypad, 99%+ accuracy on amounts, and com
-- [Typing Test for Paralegals](https://typing.rerivo.com/typing-test-for-paralegal.html): Paralegal postings typically ask 50-65 WPM with high accuracy. The differentiator is consistency: party names, case citations and paragraph numbering must be id
 - [German Typing Test](https://typing.rerivo.com/german-typing-test.html): Type real German text and get Wörter pro Minute (WPM) plus Anschläge pro Minute (CPM). Umlauts and ß are separate keys on QWERTZ, and they are where most errors
 - [French Typing Test](https://typing.rerivo.com/french-typing-test.html): Type real French and get mots par minute (MPM) plus caractères par minute. Accents are separate keys on AZERTY, and French punctuation puts a space before : ; !
 - [Best Keyboard Layout for Programmers](https://typing.rerivo.com/keyboard-layout-for-programmers.html): No layout makes you faster at code than practice does. QWERTY keeps symbols where your muscle memory expects them; Colemak moves some letters for comfort but ke
-- [Go Typing Practice](https://typing.rerivo.com/go-typing-practice.html): Go code is brace-dense: every function, block and struct literal opens and closes. Expect 45-55 WPM on real Go even if you type prose at 75; the limiting charac
 
 
 ## Word Lists (Top 200 by Frequency)
-- [Top English Words](https://typing.rerivo.com/top-en-words.html): The 200 most common English words from open subtitle-frequency data, with a built-in typing practice test.
-- [Top Spanish Words](https://typing.rerivo.com/top-es-words.html): The 200 most common Spanish words from open subtitle-frequency data, with a built-in typing practice test.
-- [Top Hindi Words](https://typing.rerivo.com/top-hi-words.html): The 200 most common Hindi words from open subtitle-frequency data, with a built-in typing practice test.
-- [Top Japanese Words](https://typing.rerivo.com/top-ja-words.html): The 200 most common Japanese words from open subtitle-frequency data, with a built-in typing practice test.
-- [Top Korean Words](https://typing.rerivo.com/top-ko-words.html): The 200 most common Korean words from open subtitle-frequency data, with a built-in typing practice test.
-- [Top Urdu Words](https://typing.rerivo.com/top-ur-words.html): The 200 most common Urdu words from open subtitle-frequency data, with a built-in typing practice test.
-- [Top Indonesian Words](https://typing.rerivo.com/top-id-words.html): The 200 most common Indonesian words from open subtitle-frequency data, with a built-in typing practice test.
-- [Top Vietnamese Words](https://typing.rerivo.com/top-vi-words.html): The 200 most common Vietnamese words from open subtitle-frequency data, with a built-in typing practice test.
-- [Top Turkish Words](https://typing.rerivo.com/top-tr-words.html): The 200 most common Turkish words from open subtitle-frequency data, with a built-in typing practice test.
-- [Top Thai Words](https://typing.rerivo.com/top-th-words.html): The 200 most common Thai words (curated everyday vocabulary), with a built-in typing practice test.
 
 ## About
 - Free, no registration, privacy-friendly (runs fully in the browser).
@@ -153,30 +133,21 @@ Each line below is a claim this site makes, with the source that supports it. Qu
 ## Guides & Articles
 - [How to Get Better at Typing](https://typing.rerivo.com/how-to-get-better-at-typing.html): How to get better at typing with a simple daily system: measure your baseline, fix accuracy first, drill weak keys and track real progress. Free tools included.
 - [How Many Words Per Minute Is Fast?](https://typing.rerivo.com/how-many-words-per-minute-is-fast.html): How many words per minute is fast? 40 WPM is average, 60-80 is good, 80-100 is fast and 100+ is elite. Full WPM benchmarks by goal, plus how to measure yours.
-- [How to Type Faster for Beginners](https://typing.rerivo.com/how-to-type-faster-for-beginners.html): How to type faster for beginners: learn home row first, stop looking at the keyboard, practice 10 minutes daily, and fix the 5 mistakes every beginner makes.
 - [How to Type 100 WPM](https://typing.rerivo.com/how-to-type-100-wpm.html): How to type 100 WPM: the accuracy floor, burst training, rhythm work and realistic timeline behind elite typing speed. What separates 100 WPM from 80.
-- [How to Type Faster and More Accurately](https://typing.rerivo.com/how-to-type-faster-and-more-accurately.html): How to type faster and more accurately at the same time: the error-cost math, the accuracy-first protocol, and how to train both metrics together.
-- [Typing Speed Exercises](https://typing.rerivo.com/typing-speed-exercises.html): Typing speed exercises that actually work: sprint drills, weak-key elimination, symbol rounds, endurance sets and the daily 10-minute structure to use them in.
 - [Average Typing Speed by Age](https://typing.rerivo.com/average-typing-speed-by-age.html): Average typing speed by age: kids 10-20 WPM, teens 30-45, adults 40-50, seniors 25-35. Full age benchmark table plus why practice beats age every time.
 - [Fastest Typing Speed Records](https://typing.rerivo.com/fastest-typing-speed-record.html): The fastest typing speed records ever measured, from 200+ WPM champions to modern competitive typists — and the four trainable things elite speed is built from.
-- [Learn to Type Faster for Free](https://typing.rerivo.com/learn-to-type-faster-free.html): Learn to type faster free with a simple daily structure and free online tools. No paid course needed: baseline, home row, daily drills and weekly measurement.
-- [Typing Speed Improvement Tips](https://typing.rerivo.com/typing-speed-improvement-tips.html): Typing speed improvement tips that actually move the number: accuracy-first practice, weak-key drills, sprint structure, posture fixes and measurement habits.
 - [Online Typing Jobs](https://typing.rerivo.com/online-typing-jobs.html): Online typing jobs explained: data entry, transcription, captioning and chat support roles, the speed each requires, how to spot scams, and how to qualify.
 - [Work From Home Typing Jobs](https://typing.rerivo.com/work-from-home-typing-jobs.html): Work from home typing jobs: which roles are real, the equipment you need, speed benchmarks by role, scam red flags, and how to build a track record from zero.
 - [Data Entry Practice](https://typing.rerivo.com/data-entry-practice.html): Data entry practice that prepares you for real KPH tests: the 8,000-12,000 KPH target, numeric drills, 10-key training, accuracy cutoffs and a 2-week plan.
 - [Transcription Typing Jobs](https://typing.rerivo.com/transcription-typing-jobs.html): Transcription typing jobs explained: what the work involves, the 300+ CPM speed reality, general vs legal vs medical transcription, and how to qualify.
-- [How to Pass a Typing Test](https://typing.rerivo.com/how-to-pass-a-typing-test.html): How to pass a typing test: what examiners measure, the warm-up protocol, accuracy gates, pacing strategy, mistake recovery and the preparation timeline.
-- [Typing Test Tips](https://typing.rerivo.com/typing-test-tips.html): Typing test tips that actually raise your score: the pre-test checklist, during-test tactics for accuracy and pacing, and the post-test review that compounds.
 - [Medical Transcription Typing](https://typing.rerivo.com/medical-transcription-typing.html): Medical transcription typing: what the work involves, the terminology barrier, speed and accuracy requirements, privacy obligations, and the training path in.
 - [How to Get a Typing Job](https://typing.rerivo.com/how-to-get-a-typing-job.html): How to get a typing job: where typing jobs are posted, how to present your WPM on a resume, proof that beats claims, interview test prep, and the 30-day plan.
 - [Audio Typing Tips](https://typing.rerivo.com/audio-typing-tips.html): Audio typing tips for transcription work: building the listen-type pipeline, chunking audio, playback control, text expansion, and accuracy habits that pay.
 - [Data Entry Job Requirements](https://typing.rerivo.com/data-entry-job-requirements.html): Data entry job requirements explained: the 8,000-12,000 KPH speed band, accuracy cutoffs, software skills, test formats, and how to prepare in two weeks.
 - [Dvorak vs QWERTY](https://typing.rerivo.com/dvorak-vs-qwerty.html): Dvorak vs QWERTY compared honestly: the speed claims, the evidence, the retraining cost, who should switch, and why technique beats layout for most typists.
-- [Touch Typing Tips](https://typing.rerivo.com/touch-typing-tips.html): Touch typing tips that fix technique, not just speed: finger discipline, the return-to-home-row habit, rhythm training, and the drills that make touch typing automatic.
 - [How Long to Learn Touch Typing](https://typing.rerivo.com/how-long-to-learn-touch-typing.html): How long to learn touch typing: 2-4 weeks to basic fluency, 1-3 months to automaticity, with a week-by-week timeline and the factors that speed it up or slow it down.
 - [Proper Hand Position for Typing](https://typing.rerivo.com/proper-hand-position-for-typing.html): Proper hand position for typing: home row placement, wrist angle, the posture chain from chair to screen, and the position mistakes that cause fatigue and slow you down.
 - [Is It Hard to Learn Touch Typing?](https://typing.rerivo.com/is-it-hard-to-learn-touch-typing.html): Is it hard to learn touch typing? Honestly: the first week is frustrating, the rest is just consistency. What makes it feel hard, what actually is hard, and how to make it easy.
-- [Easy Way to Learn Touch Typing](https://typing.rerivo.com/easy-way-to-learn-touch-typing.html): The easy way to learn touch typing: 10 lazy-proof minutes a day, the keyboard-cover trick, enjoyment-based practice, and the no-willpower system that works in 3 weeks.
 - [Typing Finger Chart](https://typing.rerivo.com/typing-finger-chart.html): Typing finger chart explained: the exact finger assignment for every key, how to learn the chart in a week, common assignment mistakes, and printable practice guidance.
 - [Mechanical Keyboard for Typing](https://typing.rerivo.com/mechanical-keyboard-for-typing.html): Mechanical keyboard for typing: do mechanical keyboards make you faster, which switch types suit typing, the real benefits, and when an upgrade is actually worth it.
 - [Finger Placement Typing](https://typing.rerivo.com/finger-placement-typing.html): Finger placement typing: how to train correct finger placement from day one, per-finger drills for weak fingers, and how placement errors become speed ceilings.
@@ -187,7 +158,6 @@ Each line below is a claim this site makes, with the source that supports it. Qu
 - [Typing Games for Kids](https://typing.rerivo.com/typing-games-for-kids.html): Typing games for kids: 5-10 minute game-feeling sessions, letter-hunt drills, word-collection challenges, and how to keep children practising without nagging.
 - [Bigram Typing Practice](https://typing.rerivo.com/bigram-typing-practice.html): Bigram typing practice targeting the 13 most common English letter combinations with per-key weakness tracking.
 - [Best Free Typing Lessons for Adults](https://typing.rerivo.com/best-free-typing-lessons-for-adults.html): Structured 4-week free plan for adults to reach 60 WPM with free online tools.
-- [Typing Test for Government Jobs](https://typing.rerivo.com/typing-test-government-jobs.html): SSC, IBPS and court clerk typing test requirements and preparation.
 - [Programmer Typing Speed](https://typing.rerivo.com/programmer-typing-speed.html): Why code typing is a separate skill and how to drill symbol-dense reaches.
 - [Typing Speed: Phone vs Keyboard (Measured Study Data)](https://typing.rerivo.com/typing-speed-phone-vs-keyboard.html): Phone: 36.2 WPM average, 2.3% uncorrected errors (Palin et al., MobileHCI 2019, n=37,370). Desktop: 51.6 WPM, 1.17% errors (Dhakal et al., CHI 2018, n=168,960).
 - [Typing Speed by Grade](https://typing.rerivo.com/typing-speed-by-grade.html): Rough bands: grade 1-2, 5-11 WPM; grade 3, 10-20; grade 4, 15-25; grade 5, 25-35; grade 6, 30-40; grade 7-8, 35-45. Below grade 6 the goal is home-row habit and
@@ -207,10 +177,8 @@ Each line below is a claim this site makes, with the source that supports it. Qu
 - [Typing Speed Requirements](https://typing.rerivo.com/typing-speed-requirements.html): WPM/CPM/KPH requirement ranges for data entry, transcription, clerk and government exams, with conversions and a printable checklist.
 - [Quick Brown Fox Typing Test](https://typing.rerivo.com/quick-brown-fox-typing-test.html): Type the quick brown fox pangram and other alphabet sentences as a keyboard warm-up.
 - [Home Row Typing Test](https://typing.rerivo.com/home-row-typing-test.html): Drill the home row (ASDF JKL;) with a finger guide to build touch-typing muscle memory.
-- [Typing Test for Adults](https://typing.rerivo.com/typing-test-for-adults.html): A free adult typing test with realistic WPM targets; the average adult types about 40 WPM.
 - [Typing Test for Students](https://typing.rerivo.com/typing-test-for-students.html): Typing test for students with speed targets for primary, high school and university.
 - [Typing Skill Test](https://typing.rerivo.com/typing-skill-test.html): A typing skill test that grades speed and accuracy together from beginner to advanced.
-- [Government Typing Test](https://typing.rerivo.com/government-typing-test.html): Practise the timed government and clerical typing test with its fixed pass mark and accuracy limit.
 - [Paragraph Typing Test](https://typing.rerivo.com/paragraph-typing-test.html): Type full paragraphs at 1, 5 or 10 minutes with instant WPM and accuracy.
 - [Beginner Typing Test](https://typing.rerivo.com/beginner-typing-test.html): A gentle first typing test for complete beginners, with realistic starting targets.
 - [Timed Typing Test](https://typing.rerivo.com/timed-typing-test.html): A countdown typing test from 15 seconds to 10 minutes, with the clock never stopping.
@@ -218,28 +186,14 @@ Each line below is a claim this site makes, with the source that supports it. Qu
 - [Hard Typing Test](https://typing.rerivo.com/hard-typing-test.html): Difficult passages with capitals, numbers and punctuation to expose weak keys.
 - [Advanced Typing Test](https://typing.rerivo.com/advanced-typing-test.html): A demanding test for experienced typists; advanced is 80 WPM at 98% accuracy.
 - [How Fast Can I Type?](https://typing.rerivo.com/how-fast-can-i-type.html): Find your exact words-per-minute score in one minute and compare with the average.
-- [Typing Test for Interview](https://typing.rerivo.com/typing-test-for-interview.html): Practise the pre-employment typing test employers set at interviews for admin and data-entry roles.
-- [Bank Typing Test](https://typing.rerivo.com/bank-typing-test.html): Practice the timed passage and accuracy standard used in bank clerk and banking exams.
-- [SSC Typing Test](https://typing.rerivo.com/ssc-typing-test.html): Free SSC typing practice for the timed qualifying round, English and Hindi.
-- [Typing Test for Teachers](https://typing.rerivo.com/typing-test-for-teachers.html): Typing speed and accuracy for the teaching and education admin workload.
 - [Keyboard Practice](https://typing.rerivo.com/keyboard-practice.html): Learn the keys, drill the home row and build touch-typing memory from scratch.
-- [Typing Test for Nurses](https://typing.rerivo.com/typing-test-for-nurse.html): Nursing job ads commonly list 35-45 WPM. The binding constraint is accuracy on medication names, dosages and patient identifiers, not raw speed. Practise 60-sec
-- [Typing Test for Court Reporters](https://typing.rerivo.com/typing-test-for-court-reporter.html): The NCRA certified reporter exam tests 225 WPM live dictation on a stenotype. A QWERTY typist at 100 WPM is fast but is not training the same skill. Keyboard te
-- [Typing Test for 911 Dispatchers](https://typing.rerivo.com/typing-test-for-dispatch.html): Most dispatch postings list 35-45 WPM with high accuracy. The realistic test is capturing digits and addresses in real time while a caller talks, so practise th
 - [Typing Test for 5th Graders](https://typing.rerivo.com/typing-test-for-5th-graders.html): Fifth graders who practise regularly typically sit around 25-35 WPM with 90%+ accuracy. The useful goal is accuracy and home-row habit, not speed: children who 
-- [Typing Test for Legal Secretaries](https://typing.rerivo.com/typing-test-for-legal-secretary.html): Legal secretary postings commonly ask for 60-70 WPM and near-perfect accuracy. The differentiator is not raw speed but consistency with capitals, citations and 
-- [Federal Typing Test](https://typing.rerivo.com/federal-typing-test.html): Federal clerk and office-automation postings commonly require 40 WPM from a 5-minute sample with at most 3 errors. That is roughly 200 correct words, or 1,000 c
-- [Civil Service Typing Test](https://typing.rerivo.com/civil-service-typing-test.html): Most state and county clerical postings ask for 40 net WPM on a five-minute test, taken in person or with remote proctoring. Certificates are usually valid for 
-- [CritiCall Typing Test](https://typing.rerivo.com/criticall-typing-test.html): CritiCall is used by many North American public-safety agencies. Its keyboarding and data-entry modules are short and time-limited, typically in the 35-45 WPM r
 - [Alphanumeric Typing Test](https://typing.rerivo.com/alphanumeric-typing-test.html): Alphanumeric typing mixes letters and digits, which is harder than prose because every digit needs a reach off the home row. Typical data-entry standards are 8,
-- [Typing Test for Virtual Assistants](https://typing.rerivo.com/typing-test-for-virtual-assistant.html): Most VA job posts ask for 50-65 WPM and near-perfect written accuracy. Because the work is remote, clients often test with a real task instead of a typing test 
-- [Typing Test for Medical Billing](https://typing.rerivo.com/typing-test-for-medical-billing.html): Medical billing and coding roles usually ask 45-55 WPM with 98%+ accuracy. The speed bar is moderate; the deciding skill is error-free entry of codes, dates and
-- [USPS Postal Exam Typing Test](https://typing.rerivo.com/usps-postal-exam-typing-test.html): USPS 474/475/476/477 are scenario-based virtual assessments, not typing exams. No WPM score is reported. Keyboarding speed matters for data-entry-heavy roles an
-- [Typing Test for Seniors](https://typing.rerivo.com/typing-test-for-seniors.html): Most people over 60 type somewhere between 25 and 45 WPM, and the spread within the group is far wider than the difference from younger typists. Use a 2-3 minut
-- [Typing Test for Customer Service](https://typing.rerivo.com/typing-test-for-customer-service.html): Voice support: 30-40 WPM for notes. Email support: 40-50 WPM. Live chat: 45-60 WPM because you type the conversation, often two at once. Accuracy and tone matte
 - [30-Day Typing Plan](https://typing.rerivo.com/30-day-typing-improvement-plan.html): Weeks 1-2: stop looking down and stop backspacing. Week 3: accuracy at speed, punctuation and digits. Week 4: full-length tests and consistency. Expected: 5-15 
-- [Typing Test for Court Clerks](https://typing.rerivo.com/typing-test-for-court-clerk.html): Court clerk postings commonly ask 45-55 WPM with high accuracy. The critical skill is error-free entry of case numbers, dates and party names, not prose speed. 
-- [Typing Test for Medical Receptionists](https://typing.rerivo.com/typing-test-for-medical-receptionist.html): Most clinic front-desk postings ask 40-50 WPM with 97%+ accuracy. Patient identifiers and insurance numbers are numeric-heavy, so practise the Numbers mode and 
-- [Typing Test for Insurance Claims](https://typing.rerivo.com/typing-test-for-insurance-claims.html): Claims processor postings typically ask 45-55 WPM with 98%+ accuracy. Almost every field is a code, an amount or an identifier, so numeric and alphanumeric accu
-- [Typing Test for Warehouse Admin](https://typing.rerivo.com/typing-test-for-warehouse-admin.html): Warehouse and logistics admin roles usually ask 35-45 WPM with strong accuracy on codes and postcodes. Practise alphanumeric strings and addresses rather than p
 - [Touch Typing Course](https://typing.rerivo.com/touch-typing-course.html): Lessons 1-4: home row, then top row, then bottom row, then all letters. Lessons 5-8: capitals, punctuation, digits, common letter pairs. Lessons 9-12: words, se
+
+## Trust and policies
+
+- [Contact](https://typing.rerivo.com/contact.html)
+- [Terms of Use](https://typing.rerivo.com/terms.html)
+- [Editorial Policy](https://typing.rerivo.com/editorial-policy.html)
