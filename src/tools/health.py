@@ -39,7 +39,22 @@ SCRIPT_RE = re.compile(r"<script.*?</script>", re.S)
 
 
 def pages() -> list[Path]:
-    return sorted(p for p in ROOT.glob("*.html") if not p.name.startswith(("google", "share")) and p.name != "404.html")
+    """Return buildable pages, excluding generated artifacts and redirect stubs.
+
+    The four merged URLs are intentional 200 + meta-refresh stubs. They point
+    their canonical at the surviving page and are deliberately absent from
+    pages.json, sitemap.xml and llms.txt, so page-level SEO checks must skip
+    them instead of reporting them as broken pages.
+    """
+    out = []
+    for p in ROOT.glob("*.html"):
+        if p.name.startswith(("google", "share")) or p.name == "404.html":
+            continue
+        head = p.read_text(encoding="utf-8")[:2048]
+        if '<meta http-equiv="refresh"' in head:
+            continue
+        out.append(p)
+    return sorted(out)
 
 
 def check() -> dict:

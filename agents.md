@@ -1,6 +1,6 @@
 # Agent Instructions — Typing.Rerivo
 
-> Typing.Rerivo is a free, no-signup browser typing speed test. The public site has 184 pages covering seven timed formats (15 seconds to 10 minutes), four practice modes, twelve language practice pools and five colour themes. No account or payment is required.
+> Typing.Rerivo is a free, no-signup browser typing speed test. The public site has 135 pages covering seven timed formats (15 seconds to 10 minutes), four practice modes and five colour themes. No account or payment is required.
 
 ## Site identity
 
