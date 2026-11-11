@@ -468,6 +468,11 @@ body.typing-active footer{opacity:.26;filter:saturate(.72);pointer-events:none;}
 .tblwrap table{width:100%;min-width:520px;margin:0;}
 @media(max-width:560px){.tblwrap{position:relative;}
   .tblwrap::after{content:"";display:block;height:1px;}}
+
+/* 广告位（r110）：两个槽都在正文之后；未批号时 slot 为空，DOM 里不出现任何节点。
+   min-height 不预留，避免无广告时留白造成的视觉断裂；CLS 风险由「正文之后」的位置规避。 */
+.ad-slot{margin:28px 0;padding:0;text-align:center;overflow:hidden}
+.ad-slot ins{display:block}
 </style>
 <script>try{var _t=localStorage.getItem("trTheme");if(_t&&_t!=="dark")document.documentElement.setAttribute("data-theme",_t);var _l=localStorage.getItem("trLang");if(_l&&_l!=="en"){document.documentElement.lang=_l;if(_l==="ar")document.documentElement.dir="rtl";}}catch(e){}</script>
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1401237223139327"
@@ -601,6 +606,8 @@ body.typing-active footer{opacity:.26;filter:saturate(.72);pointer-events:none;}
     <ul><li><a href="advanced-typing-test.html">Advanced Typing Test</a></li><li><a href="beginner-typing-test.html">Beginner Typing Test</a></li><li><a href="best-free-typing-lessons-for-adults.html">Best Free Typing Lessons for Adults</a></li><li><a href="programmer-typing-speed.html">Programmer Typing Speed</a></li><li><a href="touch-typing-for-adults.html">Touch Typing for Adults</a></li><li><a href="typing-games-for-kids.html">Typing Games for Kids</a></li><li><a href="typing-test-for-kids.html">Typing Test for Kids</a></li><li><a href="typing-test-for-students.html">Typing Test for Students</a></li></ul>
   </nav>
 
+
+
   <section class="seo">
     <h2 id="why-typing-speed-matters-for-programmers">Why typing speed matters for programmers</h2>
     <p>A good typing speed for a programmer is <strong>50&ndash;70 WPM</strong>, but coding is not a typing race &mdash; you spend far more time thinking than typing. Speed matters where it removes friction: the faster your fingers find brackets, operators and names, the less a thought is interrupted on its way to the screen. Accuracy matters even more, because a mistyped symbol is a syntax error you have to hunt down. For why that friction compounds across a whole codebase, see <a href="programmer-typing-speed.html">programmer typing speed</a>.</p>
@@ -627,6 +634,8 @@ body.typing-active footer{opacity:.26;filter:saturate(.72);pointer-events:none;}
     <details><summary>What is the best typing test for developers?</summary><p>One that includes real symbols and numbers. Use the punctuation and number tests here, or paste your own code with custom text for the most realistic practice.</p></details>
     <details><summary>Why is my code typing slower than my prose typing?</summary><p>Code uses eleven punctuation characters that need Shift or an awkward reach, plus symbol runs like => and ===. On top of that, autocomplete hides how much you actually type, so the gap between prose WPM and unseen-code CPM is the real target.</p></details>
   </section>
+
+
 
   <footer>
     <a href="/">Typing.Rerivo</a> · Free online WPM typing test · <a href="typing-tests.html">Browse every typing test, grouped by goal</a>

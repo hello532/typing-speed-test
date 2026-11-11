@@ -468,6 +468,11 @@ body.typing-active footer{opacity:.26;filter:saturate(.72);pointer-events:none;}
 .tblwrap table{width:100%;min-width:520px;margin:0;}
 @media(max-width:560px){.tblwrap{position:relative;}
   .tblwrap::after{content:"";display:block;height:1px;}}
+
+/* 广告位（r110）：两个槽都在正文之后；未批号时 slot 为空，DOM 里不出现任何节点。
+   min-height 不预留，避免无广告时留白造成的视觉断裂；CLS 风险由「正文之后」的位置规避。 */
+.ad-slot{margin:28px 0;padding:0;text-align:center;overflow:hidden}
+.ad-slot ins{display:block}
 </style>
 <script>try{var _t=localStorage.getItem("trTheme");if(_t&&_t!=="dark")document.documentElement.setAttribute("data-theme",_t);var _l=localStorage.getItem("trLang");if(_l&&_l!=="en"){document.documentElement.lang=_l;if(_l==="ar")document.documentElement.dir="rtl";}}catch(e){}</script>
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1401237223139327"
@@ -601,6 +606,8 @@ body.typing-active footer{opacity:.26;filter:saturate(.72);pointer-events:none;}
     <ul><li><a href="learn-to-type.html">Learn to Type</a></li><li><a href="number-typing-test.html">Number Typing Test</a></li><li><a href="online-typing-practice.html">Online Typing Practice</a></li><li><a href="pangram-typing-test.html">Pangram Typing Test</a></li><li><a href="paragraph-typing-test.html">Paragraph Typing Test</a></li><li><a href="punctuation-typing-test.html">Punctuation Typing Test</a></li><li><a href="quick-brown-fox-typing-test.html">Quick Brown Fox Typing Test</a></li><li><a href="quotes-typing-test.html">Quotes Typing Test</a></li></ul>
   </nav>
 
+
+
   <section class="seo">
     <nav class="toc" aria-label="On this page"><p>On this page</p><ol><li><a href="#the-honest-difficulty-rating">The honest difficulty rating</a></li><li><a href="#what-actually-is-hard-the-unlearning-dip">What actually is hard: the unlearning dip</a></li><li><a href="#what-makes-it-feel-harder-than-it-is">What makes it feel harder than it is</a></li><li><a href="#the-week-by-week-reality">The week-by-week reality</a></li><li><a href="#how-to-make-it-genuinely-easy">How to make it genuinely easy</a></li><li><a href="#when-it-is-genuinely-harder">When it is genuinely harder</a></li><li><a href="#the-verdict">The verdict</a></li><li><a href="#how-it-compares-to-other-adult-skills">How it compares to other adult skills</a></li><li><a href="#the-role-of-motivation-vs-structure">The role of motivation vs structure</a></li><li><a href="#what-success-stories-have-in-common">What success stories have in common</a></li></ol></nav>
     <h2 id="the-honest-difficulty-rating">The honest difficulty rating</h2>
@@ -643,6 +650,8 @@ body.typing-active footer{opacity:.26;filter:saturate(.72);pointer-events:none;}
     <details><summary>Why do some people say touch typing is impossible?</summary><p>Almost always one of three self-sabotages: practising for speed on day one, peeking constantly, or mixing touch typing with hunt-and-peck for real work. Remove those and it is repetitive, not impossible.</p></details>
     <details><summary>How do I make learning touch typing easier?</summary><p>Ten minutes daily at the same time (un-failable), a keyboard cover instead of willpower, content you enjoy, and a weekly measured score. A visible trend line turns 'hard' into 'working'.</p></details>
   </section>
+
+
 
   <footer>
     <a href="/">Typing.Rerivo</a> · Free online WPM typing test · <a href="typing-tests.html">Browse every typing test, grouped by goal</a>

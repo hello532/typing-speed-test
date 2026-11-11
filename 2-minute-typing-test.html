@@ -468,6 +468,11 @@ body.typing-active footer{opacity:.26;filter:saturate(.72);pointer-events:none;}
 .tblwrap table{width:100%;min-width:520px;margin:0;}
 @media(max-width:560px){.tblwrap{position:relative;}
   .tblwrap::after{content:"";display:block;height:1px;}}
+
+/* 广告位（r110）：两个槽都在正文之后；未批号时 slot 为空，DOM 里不出现任何节点。
+   min-height 不预留，避免无广告时留白造成的视觉断裂；CLS 风险由「正文之后」的位置规避。 */
+.ad-slot{margin:28px 0;padding:0;text-align:center;overflow:hidden}
+.ad-slot ins{display:block}
 </style>
 <script>try{var _t=localStorage.getItem("trTheme");if(_t&&_t!=="dark")document.documentElement.setAttribute("data-theme",_t);var _l=localStorage.getItem("trLang");if(_l&&_l!=="en"){document.documentElement.lang=_l;if(_l==="ar")document.documentElement.dir="rtl";}}catch(e){}</script>
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1401237223139327"
@@ -602,6 +607,8 @@ body.typing-active footer{opacity:.26;filter:saturate(.72);pointer-events:none;}
     <ul><li><a href="1-minute-typing-test.html">1 Minute Typing Test</a></li><li><a href="10-minute-typing-test.html">10 Minute Typing Test</a></li><li><a href="15-second-typing-test.html">15 Second Typing Test</a></li><li><a href="3-minute-typing-test.html">3 Minute Typing Test</a></li><li><a href="30-second-typing-test.html">30 Second Typing Test</a></li><li><a href="5-minute-typing-test.html">5 Minute Typing Test</a></li><li><a href="timed-typing-test.html">Timed Typing Test</a></li></ul>
   </nav>
 
+
+
   <section class="seo">
     <nav class="toc" aria-label="On this page"><p>On this page</p><ol><li><a href="#2-minute-typing-test">2 minute typing test</a></li><li><a href="#1-minute-vs-2-minute-vs-5-minute">1 minute vs 2 minute vs 5 minute</a></li><li><a href="#why-a-2-minute-typing-test">Why a 2-minute typing test</a></li><li><a href="#a-daily-2-minute-practice-routine">A daily 2 minute practice routine</a></li><li><a href="#2-minute-typing-test-vs-1-minute-and-3-minute">2 minute typing test vs 1 minute and 3 minute</a></li><li><a href="#how-to-pace-a-two-minute-round">How to pace a two minute round</a></li><li><a href="#2-minute-typing-test-for-employment">2 minute typing test for employment</a></li><li><a href="#moving-between-test-lengths">Moving between test lengths</a></li><li><a href="#how-this-round-is-scored">How this round is scored</a></li></ol></nav>
     <h2 id="2-minute-typing-test">2 minute typing test</h2>
@@ -636,6 +643,8 @@ body.typing-active footer{opacity:.26;filter:saturate(.72);pointer-events:none;}
     <details><summary>Can I retry as many times as I want?</summary><p>Yes, there is no limit. Click “Test again” for a fresh passage and your history keeps the last results.</p></details>
     <details><summary>Should I use a 2 minute or 3 minute test for job practice?</summary><p>Use the length your employer uses. If the posting does not say, practise on 3 minutes: it is the stricter of the two because endurance decay has time to show up, and a good three-minute score transfers down to a two-minute format.</p></details>
   </section>
+
+
 
   <footer>
     <a href="/">Typing.Rerivo</a> · Free online WPM typing test · <a href="typing-tests.html">Browse every typing test, grouped by goal</a>

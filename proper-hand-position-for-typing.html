@@ -468,6 +468,11 @@ body.typing-active footer{opacity:.26;filter:saturate(.72);pointer-events:none;}
 .tblwrap table{width:100%;min-width:520px;margin:0;}
 @media(max-width:560px){.tblwrap{position:relative;}
   .tblwrap::after{content:"";display:block;height:1px;}}
+
+/* 广告位（r110）：两个槽都在正文之后；未批号时 slot 为空，DOM 里不出现任何节点。
+   min-height 不预留，避免无广告时留白造成的视觉断裂；CLS 风险由「正文之后」的位置规避。 */
+.ad-slot{margin:28px 0;padding:0;text-align:center;overflow:hidden}
+.ad-slot ins{display:block}
 </style>
 <script>try{var _t=localStorage.getItem("trTheme");if(_t&&_t!=="dark")document.documentElement.setAttribute("data-theme",_t);var _l=localStorage.getItem("trLang");if(_l&&_l!=="en"){document.documentElement.lang=_l;if(_l==="ar")document.documentElement.dir="rtl";}}catch(e){}</script>
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1401237223139327"
@@ -601,6 +606,8 @@ body.typing-active footer{opacity:.26;filter:saturate(.72);pointer-events:none;}
     <ul><li><a href="bottom-row-typing-test.html">Bottom Row Typing Test</a></li><li><a href="colemak-typing.html">Colemak Typing Test</a></li><li><a href="dvorak-typing.html">Dvorak Typing Test</a></li><li><a href="dvorak-vs-qwerty.html">Dvorak vs QWERTY</a></li><li><a href="finger-placement-typing.html">Finger Placement Typing</a></li><li><a href="ten-key-typing-test.html">10 Key Typing Test</a></li><li><a href="top-row-typing-test.html">Top Row Typing Test</a></li><li><a href="typing-finger-chart.html">Typing Finger Chart</a></li></ul>
   </nav>
 
+
+
   <section class="seo">
     <nav class="toc" aria-label="On this page"><p>On this page</p><ol><li><a href="#home-row-the-only-starting-position">Home row: the only starting position</a></li><li><a href="#wrist-angle-neutral-not-resting">Wrist angle: neutral, not resting</a></li><li><a href="#the-posture-chain-chair-to-screen">The posture chain: chair to screen</a></li><li><a href="#grip-pressure-the-invisible-speed-brake">Grip pressure: the invisible speed brake</a></li><li><a href="#position-mistakes-and-their-symptoms">Position mistakes and their symptoms</a></li><li><a href="#position-for-different-keyboards-and-situations">Position for different keyboards and situations</a></li><li><a href="#making-the-position-automatic">Making the position automatic</a></li><li><a href="#setting-up-your-workspace-in-five-minutes">Setting up your workspace in five minutes</a></li><li><a href="#hand-position-for-small-and-large-hands">Hand position for small and large hands</a></li><li><a href="#breaks-stretches-and-the-20-minute-rule">Breaks, stretches and the 20-minute rule</a></li></ol></nav>
     <h2 id="home-row-the-only-starting-position">Home row: the only starting position</h2>
@@ -643,6 +650,8 @@ body.typing-active footer{opacity:.26;filter:saturate(.72);pointer-events:none;}
     <details><summary>Why do my hands hurt after typing?</summary><p>Usually one of three causes: wrist-drop on the desk, death-grip key hammering, or elbows winged out from a slouched posture. Fix the chain — feet flat, back straight, elbows at 90°, wrists floating, light keypresses.</p></details>
     <details><summary>Does hand position really affect typing speed?</summary><p>Directly. Home-row position with floating wrists shortens every reach and enables blind typing; poor position adds travel, force and fatigue to every keystroke. Most people gain immediate speed from force reduction alone.</p></details>
   </section>
+
+
 
   <footer>
     <a href="/">Typing.Rerivo</a> · Free online WPM typing test · <a href="typing-tests.html">Browse every typing test, grouped by goal</a>

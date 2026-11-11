@@ -468,6 +468,11 @@ body.typing-active footer{opacity:.26;filter:saturate(.72);pointer-events:none;}
 .tblwrap table{width:100%;min-width:520px;margin:0;}
 @media(max-width:560px){.tblwrap{position:relative;}
   .tblwrap::after{content:"";display:block;height:1px;}}
+
+/* 广告位（r110）：两个槽都在正文之后；未批号时 slot 为空，DOM 里不出现任何节点。
+   min-height 不预留，避免无广告时留白造成的视觉断裂；CLS 风险由「正文之后」的位置规避。 */
+.ad-slot{margin:28px 0;padding:0;text-align:center;overflow:hidden}
+.ad-slot ins{display:block}
 </style>
 <script>try{var _t=localStorage.getItem("trTheme");if(_t&&_t!=="dark")document.documentElement.setAttribute("data-theme",_t);var _l=localStorage.getItem("trLang");if(_l&&_l!=="en"){document.documentElement.lang=_l;if(_l==="ar")document.documentElement.dir="rtl";}}catch(e){}</script>
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1401237223139327"
@@ -600,6 +605,8 @@ body.typing-active footer{opacity:.26;filter:saturate(.72);pointer-events:none;}
     <h2>About this site</h2>
     <ul><li><a href="about.html">About Typing.Rerivo</a></li><li><a href="privacy-policy.html">Privacy Policy</a></li><li><a href="editorial-policy.html">Editorial Policy</a></li><li><a href="contact.html">Contact</a></li><li><a href="terms.html">Terms of Use</a></li></ul>
   </nav>
+
+
 
   <section class="seo">
     <h2 id="find-the-test-you-need">Find the test you need</h2>
@@ -796,6 +803,8 @@ body.typing-active footer{opacity:.26;filter:saturate(.72);pointer-events:none;}
     <details><summary>Which test is best for a job application?</summary><p>The role page for that job, plus a five-minute test to get the number. Roles differ: reception is 40-50 WPM, data entry is quoted in keystrokes per hour, legal and transcription start at 60.</p></details>
     <details><summary>Are the tests the same engine?</summary><p>Yes. Every page runs the same typing engine with a different duration, text mode, language pool or layout, so scores are comparable across pages and over time.</p></details>
   </section>
+
+
 
   <footer>
     <a href="/">Typing.Rerivo</a> · Free online WPM typing test · <a href="typing-tests.html">Browse every typing test, grouped by goal</a>

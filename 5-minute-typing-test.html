@@ -468,6 +468,11 @@ body.typing-active footer{opacity:.26;filter:saturate(.72);pointer-events:none;}
 .tblwrap table{width:100%;min-width:520px;margin:0;}
 @media(max-width:560px){.tblwrap{position:relative;}
   .tblwrap::after{content:"";display:block;height:1px;}}
+
+/* 广告位（r110）：两个槽都在正文之后；未批号时 slot 为空，DOM 里不出现任何节点。
+   min-height 不预留，避免无广告时留白造成的视觉断裂；CLS 风险由「正文之后」的位置规避。 */
+.ad-slot{margin:28px 0;padding:0;text-align:center;overflow:hidden}
+.ad-slot ins{display:block}
 </style>
 <script>try{var _t=localStorage.getItem("trTheme");if(_t&&_t!=="dark")document.documentElement.setAttribute("data-theme",_t);var _l=localStorage.getItem("trLang");if(_l&&_l!=="en"){document.documentElement.lang=_l;if(_l==="ar")document.documentElement.dir="rtl";}}catch(e){}</script>
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1401237223139327"
@@ -602,6 +607,8 @@ body.typing-active footer{opacity:.26;filter:saturate(.72);pointer-events:none;}
     <ul><li><a href="1-minute-typing-test.html">1 Minute Typing Test</a></li><li><a href="10-minute-typing-test.html">10 Minute Typing Test</a></li><li><a href="15-second-typing-test.html">15 Second Typing Test</a></li><li><a href="2-minute-typing-test.html">2 Minute Typing Test</a></li><li><a href="3-minute-typing-test.html">3 Minute Typing Test</a></li><li><a href="30-second-typing-test.html">30 Second Typing Test</a></li><li><a href="timed-typing-test.html">Timed Typing Test</a></li></ul>
   </nav>
 
+
+
   <section class="seo">
     <nav class="toc" aria-label="On this page"><p>On this page</p><ol><li><a href="#5-minute-typing-test">5 minute typing test</a></li><li><a href="#who-should-use-a-5-minute-test">Who should use a 5 minute test?</a></li><li><a href="#build-typing-endurance">Build typing endurance</a></li><li><a href="#how-to-prepare-for-the-5-minute-test">How to prepare for the 5 minute test</a></li><li><a href="#5-minute-typing-test-what-a-longer-round-reveals">5 minute typing test: what a longer round reveals</a></li><li><a href="#where-the-five-character-rule-comes-from">Where the five-character rule comes from</a></li></ol></nav>
     <h2 id="5-minute-typing-test">5 minute typing test</h2>
@@ -630,6 +637,8 @@ body.typing-active footer{opacity:.26;filter:saturate(.72);pointer-events:none;}
     <details><summary>Is the 5 minute test free?</summary><p>Yes. Free with no sign up and no limit on retakes; the whole five-minute endurance round costs nothing and uploads nothing.</p></details>
     <details><summary>Does the test save my progress?</summary><p>Your last results are saved locally in this browser (localStorage) so you can track improvement over time. Nothing is sent to a server.</p></details>
   </section>
+
+
 
   <footer>
     <a href="/">Typing.Rerivo</a> · Free online WPM typing test · <a href="typing-tests.html">Browse every typing test, grouped by goal</a>

@@ -468,6 +468,11 @@ body.typing-active footer{opacity:.26;filter:saturate(.72);pointer-events:none;}
 .tblwrap table{width:100%;min-width:520px;margin:0;}
 @media(max-width:560px){.tblwrap{position:relative;}
   .tblwrap::after{content:"";display:block;height:1px;}}
+
+/* 广告位（r110）：两个槽都在正文之后；未批号时 slot 为空，DOM 里不出现任何节点。
+   min-height 不预留，避免无广告时留白造成的视觉断裂；CLS 风险由「正文之后」的位置规避。 */
+.ad-slot{margin:28px 0;padding:0;text-align:center;overflow:hidden}
+.ad-slot ins{display:block}
 </style>
 <script>try{var _t=localStorage.getItem("trTheme");if(_t&&_t!=="dark")document.documentElement.setAttribute("data-theme",_t);var _l=localStorage.getItem("trLang");if(_l&&_l!=="en"){document.documentElement.lang=_l;if(_l==="ar")document.documentElement.dir="rtl";}}catch(e){}
 window.__trPageLang="ko";</script>
@@ -602,6 +607,8 @@ window.__trPageLang="ko";</script>
     <ul><li><a href="spanish-typing-test.html">Spanish Typing Test</a></li><li><a href="thai-typing-test.html">ทดสอบการพิมพ์ภาษาไทย</a></li><li><a href="turkish-typing-test.html">Türkçe Klavye Hız Testi</a></li><li><a href="typing-tests-in-other-languages.html">Typing Tests in Other Languages</a></li><li><a href="urdu-typing-test.html">Urdu Typing Test</a></li><li><a href="vietnamese-typing-test.html">Kiểm Tra Tốc Độ Gõ Phím Tiếng Việt</a></li><li><a href="german-typing-test.html">German Typing Test</a></li><li><a href="french-typing-test.html">French Typing Test</a></li></ul>
   </nav>
 
+
+
   <section class="seo">
     <nav class="toc" aria-label="On this page"><p>On this page</p><ol><li><a href="#hangul-is-assembled-not-typed-letter-by-letter">Hangul is assembled, not typed letter by letter</a></li><li><a href="#why-the-2-beolsik-layout-matters">Why the 2-beolsik layout matters</a></li><li><a href="#what-actually-slows-korean-typing">What actually slows Korean typing</a></li><li><a href="#how-the-score-is-reported">How the score is reported</a></li><li><a href="#where-learners-actually-lose-speed">Where learners actually lose speed</a></li><li><a href="#a-practice-routine-that-matches-the-script">A practice routine that matches the script</a></li></ol></nav>
     <h2 id="hangul-is-assembled-not-typed-letter-by-letter">Hangul is assembled, not typed letter by letter</h2>
@@ -634,6 +641,8 @@ window.__trPageLang="ko";</script>
     <details><summary>Is this Korean test free?</summary><p>Yes, with no account. Results stay in your browser, and the practice pool is real Korean sentences rather than random jamo.</p></details>
     <details><summary>Why do Korean learners hesitate mid-word?</summary><p>Block boundaries. Knowing where a syllable ends is a language skill, and the hands wait while you decide. Typing real sentences rather than jamo lists is what fixes it.</p></details>
   </section>
+
+
 
   <footer>
     <a href="/">Typing.Rerivo</a> · Free online WPM typing test · <a href="typing-tests.html">Browse every typing test, grouped by goal</a>

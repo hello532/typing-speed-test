@@ -468,6 +468,11 @@ body.typing-active footer{opacity:.26;filter:saturate(.72);pointer-events:none;}
 .tblwrap table{width:100%;min-width:520px;margin:0;}
 @media(max-width:560px){.tblwrap{position:relative;}
   .tblwrap::after{content:"";display:block;height:1px;}}
+
+/* 广告位（r110）：两个槽都在正文之后；未批号时 slot 为空，DOM 里不出现任何节点。
+   min-height 不预留，避免无广告时留白造成的视觉断裂；CLS 风险由「正文之后」的位置规避。 */
+.ad-slot{margin:28px 0;padding:0;text-align:center;overflow:hidden}
+.ad-slot ins{display:block}
 </style>
 <script>try{var _t=localStorage.getItem("trTheme");if(_t&&_t!=="dark")document.documentElement.setAttribute("data-theme",_t);var _l=localStorage.getItem("trLang");if(_l&&_l!=="en"){document.documentElement.lang=_l;if(_l==="ar")document.documentElement.dir="rtl";}}catch(e){}</script>
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1401237223139327"
@@ -601,6 +606,8 @@ body.typing-active footer{opacity:.26;filter:saturate(.72);pointer-events:none;}
     <ul><li><a href="capital-letter-typing-test.html">Capital Letter Typing Test</a></li><li><a href="fast-typing-test.html">Fast Typing Test</a></li><li><a href="fastest-typing-speed-record.html">Fastest Typing Speed Records</a></li><li><a href="hard-typing-test.html">Hard Typing Test</a></li><li><a href="how-long-to-learn-touch-typing.html">How Long to Learn Touch Typing</a></li><li><a href="how-to-get-a-typing-job.html">How to Get a Typing Job</a></li><li><a href="how-to-get-better-at-typing.html">How to Get Better at Typing</a></li><li><a href="how-to-type-without-looking.html">How to Type Without Looking at the Keyboard</a></li></ul>
   </nav>
 
+
+
   <section class="seo">
     <nav class="toc" aria-label="On this page"><p>On this page</p><ol><li><a href="#what-is-bigram-typing-practice">What is bigram typing practice?</a></li><li><a href="#common-vs-rare-bigrams">Common vs rare bigrams</a></li><li><a href="#the-most-common-english-bigrams">The most common English bigrams</a></li><li><a href="#how-to-use-this-page">How to use this page</a></li><li><a href="#bigram-practice-for-exam-preparation">Bigram practice for exam preparation</a></li><li><a href="#rare-bigrams-that-break-rhythm">Rare bigrams that break rhythm</a></li><li><a href="#how-bigram-practice-translates-to-real-text">How bigram practice translates to real text</a></li><li><a href="#practising-bigrams-for-exam-typing">Practising bigrams for exam typing</a></li><li><a href="#two-difficulty-levels">Two difficulty levels</a></li><li><a href="#how-bigram-fluency-compounds">How bigram fluency compounds</a></li></ol></nav>
     <h2 id="what-is-bigram-typing-practice">What is bigram typing practice?</h2>
@@ -656,6 +663,8 @@ body.typing-active footer{opacity:.26;filter:saturate(.72);pointer-events:none;}
     <details><summary>How does bigram practice improve speed?</summary><p>Speed is capped by your slowest key transitions. Bigram drills isolate those transitions until they become single motions.</p></details>
     <details><summary>What are the most common English bigrams?</summary><p>th, he, in, er, on, ed, nd, ti, es, re, ou, ar and st. The page above has all 13 in a table.</p></details>
   </section>
+
+
 
   <footer>
     <a href="/">Typing.Rerivo</a> · Free online WPM typing test · <a href="typing-tests.html">Browse every typing test, grouped by goal</a>

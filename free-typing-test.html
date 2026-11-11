@@ -468,6 +468,11 @@ body.typing-active footer{opacity:.26;filter:saturate(.72);pointer-events:none;}
 .tblwrap table{width:100%;min-width:520px;margin:0;}
 @media(max-width:560px){.tblwrap{position:relative;}
   .tblwrap::after{content:"";display:block;height:1px;}}
+
+/* 广告位（r110）：两个槽都在正文之后；未批号时 slot 为空，DOM 里不出现任何节点。
+   min-height 不预留，避免无广告时留白造成的视觉断裂；CLS 风险由「正文之后」的位置规避。 */
+.ad-slot{margin:28px 0;padding:0;text-align:center;overflow:hidden}
+.ad-slot ins{display:block}
 </style>
 <script>try{var _t=localStorage.getItem("trTheme");if(_t&&_t!=="dark")document.documentElement.setAttribute("data-theme",_t);var _l=localStorage.getItem("trLang");if(_l&&_l!=="en"){document.documentElement.lang=_l;if(_l==="ar")document.documentElement.dir="rtl";}}catch(e){}</script>
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1401237223139327"
@@ -601,6 +606,8 @@ body.typing-active footer{opacity:.26;filter:saturate(.72);pointer-events:none;}
     <ul><li><a href="best-typing-test-online.html">Best Free Typing Tests Online</a></li><li><a href="custom-typing-test.html">Custom Typing Test</a></li><li><a href="index.html">Free Typing Speed Test</a></li><li><a href="online-typing-test.html">Online Typing Test</a></li></ul>
   </nav>
 
+
+
   <section class="seo">
     <nav class="toc" aria-label="On this page"><p>On this page</p><ol><li><a href="#free-typing-test-no-sign-up">Free typing test, no sign up</a></li><li><a href="#what-a-free-typing-test-measures">What a free typing test measures</a></li><li><a href="#free-typing-test-in-60-seconds">Free typing test in 60 seconds</a></li><li><a href="#typing-tests-from-15-seconds-to-10-minutes">Typing tests from 15 seconds to 10 minutes</a></li><li><a href="#free-typing-test-for-adults-students-and-job-see">Free typing test for adults, students and job seekers</a></li><li><a href="#a-free-typing-assessment-without-the-paywall">A free typing assessment without the paywall</a></li><li><a href="#practise-as-much-as-you-want">Practise as much as you want</a></li><li><a href="#everything-you-get-for-free">Everything you get for free</a></li></ol></nav>
     <h2 id="free-typing-test-no-sign-up">Free typing test, no sign up</h2>
@@ -638,6 +645,8 @@ body.typing-active footer{opacity:.26;filter:saturate(.72);pointer-events:none;}
     <details><summary>Is there a catch — why is it free?</summary><p>No catch: the test runs entirely in your browser with no accounts, no servers and no ads in the typing area, so there is almost nothing to pay for. Optional display ads outside the test area keep the site running without ever locking features.</p></details>
     <details><summary>Do I need to install anything for a free typing test?</summary><p>No. It runs in the browser, nothing is installed, and results are stored on your device rather than on a server.</p></details>
   </section>
+
+
 
   <footer>
     <a href="/">Typing.Rerivo</a> · Free online WPM typing test · <a href="typing-tests.html">Browse every typing test, grouped by goal</a>

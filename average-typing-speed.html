@@ -468,6 +468,11 @@ body.typing-active footer{opacity:.26;filter:saturate(.72);pointer-events:none;}
 .tblwrap table{width:100%;min-width:520px;margin:0;}
 @media(max-width:560px){.tblwrap{position:relative;}
   .tblwrap::after{content:"";display:block;height:1px;}}
+
+/* 广告位（r110）：两个槽都在正文之后；未批号时 slot 为空，DOM 里不出现任何节点。
+   min-height 不预留，避免无广告时留白造成的视觉断裂；CLS 风险由「正文之后」的位置规避。 */
+.ad-slot{margin:28px 0;padding:0;text-align:center;overflow:hidden}
+.ad-slot ins{display:block}
 </style>
 <script>try{var _t=localStorage.getItem("trTheme");if(_t&&_t!=="dark")document.documentElement.setAttribute("data-theme",_t);var _l=localStorage.getItem("trLang");if(_l&&_l!=="en"){document.documentElement.lang=_l;if(_l==="ar")document.documentElement.dir="rtl";}}catch(e){}</script>
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1401237223139327"
@@ -601,6 +606,8 @@ body.typing-active footer{opacity:.26;filter:saturate(.72);pointer-events:none;}
     <ul><li><a href="cpm-typing-test.html">CPM Typing Test</a></li><li><a href="how-fast-can-i-type.html">How Fast Can I Type?</a></li><li><a href="how-many-words-per-minute-is-fast.html">How Many Words Per Minute Is Fast?</a></li><li><a href="how-to-type-100-wpm.html">How to Type 100 WPM</a></li><li><a href="keystrokes-per-hour-test.html">Keystrokes Per Hour Test</a></li><li><a href="typing-accuracy-test.html">Typing Accuracy Test</a></li><li><a href="typing-skill-test.html">Typing Skill Test</a></li><li><a href="typing-speed-calculator.html">Typing Speed Calculator</a></li></ul>
   </nav>
 
+
+
   <section class="seo">
     <nav class="toc" aria-label="On this page"><p>On this page</p><ol><li><a href="#the-number-and-where-it-comes-from">The number, and where it comes from</a></li><li><a href="#why-published-averages-disagree">Why published averages disagree</a></li><li><a href="#what-counts-as-good-fast-and-exceptional">What counts as good, fast and exceptional</a></li><li><a href="#average-typing-speed-by-age">Average typing speed by age</a></li><li><a href="#average-typing-speed-by-profession">Average typing speed by profession</a></li><li><a href="#why-your-score-differs-from-these-numbers">Why your score differs from these numbers</a></li><li><a href="#test-yourself-against-the-bands">Test yourself against the bands</a></li></ol></nav>
     <h2 id="the-number-and-where-it-comes-from">The number, and where it comes from</h2>
@@ -642,6 +649,8 @@ body.typing-active footer{opacity:.26;filter:saturate(.72);pointer-events:none;}
     <details><summary>What is the average typing speed for a beginner?</summary><p>20-30 WPM with 90-95% accuracy is typical for an untrained adult. With ten minutes of daily practice, 35-45 WPM within three months is a realistic progression.</p></details>
     <details><summary>Why do different sites quote different average typing speeds?</summary><p>They measure different populations: about 40 WPM for office workers on work tasks (the legacy figure), 51.56 WPM for people who take online typing tests (CHI 2018, n=168,960), and 36.17 WPM for phones (MobileHCI 2019).</p></details>
   </section>
+
+
 
   <footer>
     <a href="/">Typing.Rerivo</a> · Free online WPM typing test · <a href="typing-tests.html">Browse every typing test, grouped by goal</a>

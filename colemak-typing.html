@@ -468,6 +468,11 @@ body.typing-active footer{opacity:.26;filter:saturate(.72);pointer-events:none;}
 .tblwrap table{width:100%;min-width:520px;margin:0;}
 @media(max-width:560px){.tblwrap{position:relative;}
   .tblwrap::after{content:"";display:block;height:1px;}}
+
+/* 广告位（r110）：两个槽都在正文之后；未批号时 slot 为空，DOM 里不出现任何节点。
+   min-height 不预留，避免无广告时留白造成的视觉断裂；CLS 风险由「正文之后」的位置规避。 */
+.ad-slot{margin:28px 0;padding:0;text-align:center;overflow:hidden}
+.ad-slot ins{display:block}
 </style>
 <script>try{var _t=localStorage.getItem("trTheme");if(_t&&_t!=="dark")document.documentElement.setAttribute("data-theme",_t);var _l=localStorage.getItem("trLang");if(_l&&_l!=="en"){document.documentElement.lang=_l;if(_l==="ar")document.documentElement.dir="rtl";}}catch(e){}</script>
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1401237223139327"
@@ -601,6 +606,8 @@ body.typing-active footer{opacity:.26;filter:saturate(.72);pointer-events:none;}
     <ul><li><a href="dvorak-typing.html">Dvorak Typing Test</a></li><li><a href="dvorak-vs-qwerty.html">Dvorak vs QWERTY</a></li><li><a href="finger-placement-typing.html">Finger Placement Typing</a></li><li><a href="home-row-typing-test.html">Home Row Typing Test</a></li><li><a href="keyboard-layouts.html">Keyboard Layouts Compared</a></li><li><a href="keyboard-practice.html">Keyboard Practice</a></li><li><a href="keyboard-tester.html">Keyboard Tester</a></li><li><a href="keyboard-typing-test.html">Keyboard Typing Test</a></li></ul>
   </nav>
 
+
+
   <section class="seo">
     <h2 id="colemak-typing-test">colemak typing test</h2>
     <p>Most typing tests only draw a QWERTY keyboard, which is useless for <strong>Colemak typing practice</strong>: the label you are hunting for is not on the key you press. This test flips the on-screen keyboard to the Colemak layout, keeping the physical QWERTY key positions and relabelling every key, so the finger guide on screen matches exactly what a Colemak typist sees.</p>
@@ -623,6 +630,8 @@ body.typing-active footer{opacity:.26;filter:saturate(.72);pointer-events:none;}
     <details><summary>Which keys does Colemak move?</summary><p>Colemak keeps the bottom row's Z X C V B and the Q W A positions, and remaps the rest so E, T, N, S, I, R and O land on the home row. The full relabelling is drawn on the on-screen keyboard above.</p></details>
     <details><summary>Can I switch back to QWERTY or try Dvorak here?</summary><p>Yes. The keyboard toolbar has a QWERTY / Dvorak / Colemak switch and your choice is remembered in this browser, so the same page works for any of the three layouts.</p></details>
   </section>
+
+
 
   <footer>
     <a href="/">Typing.Rerivo</a> · Free online WPM typing test · <a href="typing-tests.html">Browse every typing test, grouped by goal</a>

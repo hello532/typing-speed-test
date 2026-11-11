@@ -468,6 +468,11 @@ body.typing-active footer{opacity:.26;filter:saturate(.72);pointer-events:none;}
 .tblwrap table{width:100%;min-width:520px;margin:0;}
 @media(max-width:560px){.tblwrap{position:relative;}
   .tblwrap::after{content:"";display:block;height:1px;}}
+
+/* 广告位（r110）：两个槽都在正文之后；未批号时 slot 为空，DOM 里不出现任何节点。
+   min-height 不预留，避免无广告时留白造成的视觉断裂；CLS 风险由「正文之后」的位置规避。 */
+.ad-slot{margin:28px 0;padding:0;text-align:center;overflow:hidden}
+.ad-slot ins{display:block}
 </style>
 <script>try{var _t=localStorage.getItem("trTheme");if(_t&&_t!=="dark")document.documentElement.setAttribute("data-theme",_t);var _l=localStorage.getItem("trLang");if(_l&&_l!=="en"){document.documentElement.lang=_l;if(_l==="ar")document.documentElement.dir="rtl";}}catch(e){}</script>
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1401237223139327"
@@ -601,6 +606,8 @@ body.typing-active footer{opacity:.26;filter:saturate(.72);pointer-events:none;}
     <ul><li><a href="how-fast-can-i-type.html">How Fast Can I Type?</a></li><li><a href="how-many-words-per-minute-is-fast.html">How Many Words Per Minute Is Fast?</a></li><li><a href="how-to-type-100-wpm.html">How to Type 100 WPM</a></li><li><a href="keystrokes-per-hour-test.html">Keystrokes Per Hour Test</a></li><li><a href="typing-accuracy-test.html">Typing Accuracy Test</a></li><li><a href="typing-skill-test.html">Typing Skill Test</a></li><li><a href="typing-speed-calculator.html">Typing Speed Calculator</a></li><li><a href="typing-speed-requirements.html">Typing Speed Requirements by Job and Exam</a></li></ul>
   </nav>
 
+
+
   <section class="seo">
     <nav class="toc" aria-label="On this page"><p>On this page</p><ol><li><a href="#what-is-cpm-characters-per-minute">What is CPM (characters per minute)?</a></li><li><a href="#cpm-to-wpm-calculator">CPM to WPM calculator</a></li><li><a href="#wpm-cpm-and-kph-the-conversion-table">WPM, CPM and KPH: the conversion table</a></li><li><a href="#cpm-vs-wpm-which-should-you-use">CPM vs WPM: which should you use?</a></li><li><a href="#how-this-cpm-test-measures-you">How this CPM test measures you</a></li><li><a href="#the-hidden-cost-of-errors-in-cpm">The hidden cost of errors in CPM</a></li><li><a href="#what-is-a-good-cpm-typing-speed">What is a good CPM typing speed?</a></li><li><a href="#how-to-raise-your-cpm">How to raise your CPM</a></li><li><a href="#drills-that-move-your-cpm">Drills that move your CPM</a></li><li><a href="#cpm-and-kph-benchmarks-for-jobs-and-exams">CPM and KPH benchmarks for jobs and exams</a></li><li><a href="#cpm-for-data-entry-exams-and-language-typing">CPM for data entry, exams and language typing</a></li><li><a href="#cpm-for-non-english-and-symbol-heavy-typing">CPM for non-English and symbol-heavy typing</a></li><li><a href="#cpm-test-take-a-characters-per-minute-test-in-on">CPM test: take a characters-per-minute test in one minute</a></li><li><a href="#why-characters-are-the-more-portable-unit">Why characters are the more portable unit</a></li><li><a href="#sources-for-the-numbers-on-this-page">Sources for the numbers on this page</a></li><li><a href="#about-this-page">About this page</a></li></ol></nav>
     <h2 id="what-is-cpm-characters-per-minute">What is CPM (characters per minute)?</h2>
@@ -685,6 +692,8 @@ body.typing-active footer{opacity:.26;filter:saturate(.72);pointer-events:none;}
     <details><summary>Is a CPM test the same as a WPM test?</summary><p>It is the same one-minute test reported in different units. CPM counts every correct character; WPM divides that count by five and by the elapsed minutes. A 300 CPM result equals 60 WPM, so neither number is more accurate &mdash; only differently scaled.</p></details>
     <details><summary>How do I convert CPM to WPM quickly?</summary><p>Divide by five. 200 CPM is 40 WPM, 300 CPM is 60 WPM. The calculator on this page does CPM, WPM and keystrokes per hour at once, in either direction.</p></details>
   </section>
+
+
 
   <footer>
     <a href="/">Typing.Rerivo</a> · Free online WPM typing test · <a href="typing-tests.html">Browse every typing test, grouped by goal</a>

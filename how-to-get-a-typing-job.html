@@ -468,6 +468,11 @@ body.typing-active footer{opacity:.26;filter:saturate(.72);pointer-events:none;}
 .tblwrap table{width:100%;min-width:520px;margin:0;}
 @media(max-width:560px){.tblwrap{position:relative;}
   .tblwrap::after{content:"";display:block;height:1px;}}
+
+/* 广告位（r110）：两个槽都在正文之后；未批号时 slot 为空，DOM 里不出现任何节点。
+   min-height 不预留，避免无广告时留白造成的视觉断裂；CLS 风险由「正文之后」的位置规避。 */
+.ad-slot{margin:28px 0;padding:0;text-align:center;overflow:hidden}
+.ad-slot ins{display:block}
 </style>
 <script>try{var _t=localStorage.getItem("trTheme");if(_t&&_t!=="dark")document.documentElement.setAttribute("data-theme",_t);var _l=localStorage.getItem("trLang");if(_l&&_l!=="en"){document.documentElement.lang=_l;if(_l==="ar")document.documentElement.dir="rtl";}}catch(e){}</script>
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1401237223139327"
@@ -601,6 +606,8 @@ body.typing-active footer{opacity:.26;filter:saturate(.72);pointer-events:none;}
     <ul><li><a href="how-to-get-better-at-typing.html">How to Get Better at Typing</a></li><li><a href="how-to-type-without-looking.html">How to Type Without Looking at the Keyboard</a></li><li><a href="is-it-hard-to-learn-touch-typing.html">Is It Hard to Learn Touch Typing?</a></li><li><a href="learn-to-type.html">Learn to Type</a></li><li><a href="number-typing-test.html">Number Typing Test</a></li><li><a href="online-typing-practice.html">Online Typing Practice</a></li><li><a href="pangram-typing-test.html">Pangram Typing Test</a></li><li><a href="paragraph-typing-test.html">Paragraph Typing Test</a></li></ul>
   </nav>
 
+
+
   <section class="seo">
     <nav class="toc" aria-label="On this page"><p>On this page</p><ol><li><a href="#where-typing-jobs-are-actually-posted">Where typing jobs are actually posted</a></li><li><a href="#how-to-present-your-wpm-on-a-resume">How to present your WPM on a resume</a></li><li><a href="#proof-that-beats-claims">Proof that beats claims</a></li><li><a href="#the-interview-test-and-your-30-day-plan">The interview test and your 30-day plan</a></li><li><a href="#writing-the-application-that-gets-read">Writing the application that gets read</a></li><li><a href="#entry-level-roles-that-hire-on-proof-alone">Entry-level roles that hire on proof alone</a></li><li><a href="#acing-the-practical-assessment">Acing the practical assessment</a></li><li><a href="#negotiating-pay-in-typing-roles">Negotiating pay in typing roles</a></li><li><a href="#your-first-90-days-from-new-hire-to-proven">Your first 90 days: from new hire to proven</a></li></ol></nav>
     <h2 id="where-typing-jobs-are-actually-posted">Where typing jobs are actually posted</h2>
@@ -642,6 +649,8 @@ body.typing-active footer{opacity:.26;filter:saturate(.72);pointer-events:none;}
     <details><summary>Where can I find typing jobs?</summary><p>General job boards (data entry clerk, transcriptionist, assistant titles), freelance platforms, staffing agencies, and direct employer career pages at hospitals, courts, universities and logistics firms.</p></details>
     <details><summary>Do typing jobs always test you?</summary><p>Almost always: a 1-3 minute passage scored as net WPM behind a 95-98% accuracy gate. Prepare with full simulations on the typing test for interview page — format familiarity is half the pass.</p></details>
   </section>
+
+
 
   <footer>
     <a href="/">Typing.Rerivo</a> · Free online WPM typing test · <a href="typing-tests.html">Browse every typing test, grouped by goal</a>

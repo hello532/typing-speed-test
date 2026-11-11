@@ -468,6 +468,11 @@ body.typing-active footer{opacity:.26;filter:saturate(.72);pointer-events:none;}
 .tblwrap table{width:100%;min-width:520px;margin:0;}
 @media(max-width:560px){.tblwrap{position:relative;}
   .tblwrap::after{content:"";display:block;height:1px;}}
+
+/* 广告位（r110）：两个槽都在正文之后；未批号时 slot 为空，DOM 里不出现任何节点。
+   min-height 不预留，避免无广告时留白造成的视觉断裂；CLS 风险由「正文之后」的位置规避。 */
+.ad-slot{margin:28px 0;padding:0;text-align:center;overflow:hidden}
+.ad-slot ins{display:block}
 </style>
 <script>try{var _t=localStorage.getItem("trTheme");if(_t&&_t!=="dark")document.documentElement.setAttribute("data-theme",_t);var _l=localStorage.getItem("trLang");if(_l&&_l!=="en"){document.documentElement.lang=_l;if(_l==="ar")document.documentElement.dir="rtl";}}catch(e){}</script>
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1401237223139327"
@@ -601,6 +606,8 @@ body.typing-active footer{opacity:.26;filter:saturate(.72);pointer-events:none;}
     <ul><li><a href="online-typing-jobs.html">Online Typing Jobs</a></li><li><a href="transcription-typing-jobs.html">Transcription Typing Jobs</a></li><li><a href="work-from-home-typing-jobs.html">Work From Home Typing Jobs</a></li><li><a href="typing-test-for-5th-graders.html">Typing Test for 5th Graders</a></li></ul>
   </nav>
 
+
+
   <section class="seo">
     <nav class="toc" aria-label="On this page"><p>On this page</p><ol><li><a href="#what-medical-transcription-involves">What medical transcription involves</a></li><li><a href="#the-three-requirements-speed-accuracy-terminolog">The three requirements: speed, accuracy, terminology</a></li><li><a href="#privacy-and-compliance-obligations">Privacy and compliance obligations</a></li><li><a href="#the-training-path-in">The training path in</a></li><li><a href="#how-medical-terminology-is-actually-learned">How medical terminology is actually learned</a></li><li><a href="#report-formats-you-must-know">Report formats you must know</a></li><li><a href="#editing-speech-recognition-drafts-the-modern-rol">Editing speech-recognition drafts: the modern role</a></li><li><a href="#privacy-practice-in-daily-work">Privacy practice in daily work</a></li><li><a href="#is-the-investment-worth-it">Is the investment worth it?</a></li></ol></nav>
     <h2 id="what-medical-transcription-involves">What medical transcription involves</h2>
@@ -642,6 +649,8 @@ body.typing-active footer{opacity:.26;filter:saturate(.72);pointer-events:none;}
     <details><summary>How long does it take to learn medical transcription?</summary><p>If you already type 60+ WPM: several months of terminology study and dictation practice. The typing itself takes weeks; the clinical vocabulary and report formats take months of structured learning.</p></details>
     <details><summary>Is medical transcription a dying field?</summary><p>Speech recognition changed the work but did not end it: the role has shifted toward editing and verifying machine drafts with human accuracy and privacy accountability. Skilled editors with terminology knowledge remain in demand.</p></details>
   </section>
+
+
 
   <footer>
     <a href="/">Typing.Rerivo</a> · Free online WPM typing test · <a href="typing-tests.html">Browse every typing test, grouped by goal</a>

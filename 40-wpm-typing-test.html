@@ -468,6 +468,11 @@ body.typing-active footer{opacity:.26;filter:saturate(.72);pointer-events:none;}
 .tblwrap table{width:100%;min-width:520px;margin:0;}
 @media(max-width:560px){.tblwrap{position:relative;}
   .tblwrap::after{content:"";display:block;height:1px;}}
+
+/* 广告位（r110）：两个槽都在正文之后；未批号时 slot 为空，DOM 里不出现任何节点。
+   min-height 不预留，避免无广告时留白造成的视觉断裂；CLS 风险由「正文之后」的位置规避。 */
+.ad-slot{margin:28px 0;padding:0;text-align:center;overflow:hidden}
+.ad-slot ins{display:block}
 </style>
 <script>try{var _t=localStorage.getItem("trTheme");if(_t&&_t!=="dark")document.documentElement.setAttribute("data-theme",_t);var _l=localStorage.getItem("trLang");if(_l&&_l!=="en"){document.documentElement.lang=_l;if(_l==="ar")document.documentElement.dir="rtl";}}catch(e){}</script>
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1401237223139327"
@@ -601,6 +606,8 @@ body.typing-active footer{opacity:.26;filter:saturate(.72);pointer-events:none;}
     <ul><li><a href="50-wpm-typing-test.html">50 WPM Typing Test</a></li><li><a href="60-wpm-typing-test.html">60 WPM Typing Test</a></li><li><a href="70-wpm-typing-test.html">70 WPM Typing Test</a></li><li><a href="100-wpm-typing-test.html">100 WPM Typing Test</a></li><li><a href="wpm-chart.html">WPM Chart: Is Your Typing Speed Good?</a></li><li><a href="typing-speed-phone-vs-keyboard.html">Typing Speed: Phone vs Keyboard</a></li><li><a href="typing-speed-by-grade.html">Typing Speed by Grade</a></li><li><a href="how-to-put-wpm-on-resume.html">How to Put WPM on a Résumé</a></li></ul>
   </nav>
 
+
+
   <section class="seo">
     <h2 id="the-number-behind-the-number">The number behind the number</h2>
     <p>40 WPM is 200 characters per minute, 12,000 keystrokes per hour, and 200 words over a five-minute test. On a standard error rule of one error per ten words, you are allowed about twenty errors across the five minutes — which sounds generous until you watch your score after a bad paragraph.</p>
@@ -626,6 +633,8 @@ body.typing-active footer{opacity:.26;filter:saturate(.72);pointer-events:none;}
     <details><summary>How long is the federal 40 WPM test?</summary><p>Five minutes, with no more than three errors in most published announcements. That is 98.5% accuracy, stricter than the 95% floor private employers usually apply.</p></details>
     <details><summary>How fast can I go from 30 to 40 WPM?</summary><p>Two to six weeks of daily ten-minute practice for most people, mostly from removing the look-at-keyboard habit and reducing corrections rather than from raw speed drills.</p></details>
   </section>
+
+
 
   <footer>
     <a href="/">Typing.Rerivo</a> · Free online WPM typing test · <a href="typing-tests.html">Browse every typing test, grouped by goal</a>

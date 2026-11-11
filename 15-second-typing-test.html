@@ -468,6 +468,11 @@ body.typing-active footer{opacity:.26;filter:saturate(.72);pointer-events:none;}
 .tblwrap table{width:100%;min-width:520px;margin:0;}
 @media(max-width:560px){.tblwrap{position:relative;}
   .tblwrap::after{content:"";display:block;height:1px;}}
+
+/* 广告位（r110）：两个槽都在正文之后；未批号时 slot 为空，DOM 里不出现任何节点。
+   min-height 不预留，避免无广告时留白造成的视觉断裂；CLS 风险由「正文之后」的位置规避。 */
+.ad-slot{margin:28px 0;padding:0;text-align:center;overflow:hidden}
+.ad-slot ins{display:block}
 </style>
 <script>try{var _t=localStorage.getItem("trTheme");if(_t&&_t!=="dark")document.documentElement.setAttribute("data-theme",_t);var _l=localStorage.getItem("trLang");if(_l&&_l!=="en"){document.documentElement.lang=_l;if(_l==="ar")document.documentElement.dir="rtl";}}catch(e){}</script>
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1401237223139327"
@@ -602,6 +607,8 @@ body.typing-active footer{opacity:.26;filter:saturate(.72);pointer-events:none;}
     <ul><li><a href="1-minute-typing-test.html">1 Minute Typing Test</a></li><li><a href="10-minute-typing-test.html">10 Minute Typing Test</a></li><li><a href="2-minute-typing-test.html">2 Minute Typing Test</a></li><li><a href="3-minute-typing-test.html">3 Minute Typing Test</a></li><li><a href="30-second-typing-test.html">30 Second Typing Test</a></li><li><a href="5-minute-typing-test.html">5 Minute Typing Test</a></li><li><a href="timed-typing-test.html">Timed Typing Test</a></li></ul>
   </nav>
 
+
+
   <section class="seo">
     <h2 id="15-second-typing-test">15 second typing test</h2>
     <p>The <strong>15 second typing test</strong> is the shortest timed round on this site. Fifteen seconds is enough to type roughly 10 to 22 words depending on your speed, which gives a readable burst number without the fatigue that creeps into a five or ten minute round.</p>
@@ -623,6 +630,8 @@ body.typing-active footer{opacity:.26;filter:saturate(.72);pointer-events:none;}
     <details><summary>Is the 15 second typing test free?</summary><p>Yes, free with no sign up and no ads inside the typing area. Results stay in your browser.</p></details>
     <details><summary>Can I choose a longer test?</summary><p>Yes. Switch to 30 seconds, 1 minute, 2, 3, 5 or 10 minutes from the timer on the test panel, or open the 1 minute typing test page.</p></details>
   </section>
+
+
 
   <footer>
     <a href="/">Typing.Rerivo</a> · Free online WPM typing test · <a href="typing-tests.html">Browse every typing test, grouped by goal</a>

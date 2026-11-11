@@ -468,6 +468,11 @@ body.typing-active footer{opacity:.26;filter:saturate(.72);pointer-events:none;}
 .tblwrap table{width:100%;min-width:520px;margin:0;}
 @media(max-width:560px){.tblwrap{position:relative;}
   .tblwrap::after{content:"";display:block;height:1px;}}
+
+/* 广告位（r110）：两个槽都在正文之后；未批号时 slot 为空，DOM 里不出现任何节点。
+   min-height 不预留，避免无广告时留白造成的视觉断裂；CLS 风险由「正文之后」的位置规避。 */
+.ad-slot{margin:28px 0;padding:0;text-align:center;overflow:hidden}
+.ad-slot ins{display:block}
 </style>
 <script>try{var _t=localStorage.getItem("trTheme");if(_t&&_t!=="dark")document.documentElement.setAttribute("data-theme",_t);var _l=localStorage.getItem("trLang");if(_l&&_l!=="en"){document.documentElement.lang=_l;if(_l==="ar")document.documentElement.dir="rtl";}}catch(e){}</script>
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1401237223139327"
@@ -601,6 +606,8 @@ body.typing-active footer{opacity:.26;filter:saturate(.72);pointer-events:none;}
     <ul><li><a href="typing-games.html">Typing Games</a></li><li><a href="typing-test-game.html">Typing Test Game</a></li><li><a href="typing-trainer.html">Typing Trainer</a></li></ul>
   </nav>
 
+
+
   <section class="seo">
     <nav class="toc" aria-label="On this page"><p>On this page</p><ol><li><a href="#typing-race">typing race</a></li><li><a href="#a-competitive-typing-game-for-speed">A competitive typing game for speed</a></li><li><a href="#how-to-race-your-fastest-typing-sprint">How to race your fastest typing sprint</a></li><li><a href="#race-yourself-and-track-your-best-wpm">Race yourself and track your best WPM</a></li><li><a href="#racing-yourself-is-the-only-comparison-that-hold">Racing yourself is the only comparison that holds</a></li><li><a href="#sprint-speed-and-working-speed-are-different-num">Sprint speed and working speed are different numbers</a></li></ol></nav>
     <h2 id="typing-race">typing race</h2>
@@ -630,6 +637,8 @@ body.typing-active footer{opacity:.26;filter:saturate(.72);pointer-events:none;}
     <details><summary>How long is the typing race?</summary><p>Sixty seconds by default, the classic race length that balances burst speed with endurance. Short races train your launch, and the full minute trains you to hold that speed when your hands get tired.</p></details>
     <details><summary>Is racing good practice?</summary><p>For raising your top-end speed, yes. For measuring what you can sustain, no - a 30-second sprint reads 8-12 WPM above a five-minute round. Use races for the ceiling and a five-minute test for the working number.</p></details>
   </section>
+
+
 
   <footer>
     <a href="/">Typing.Rerivo</a> · Free online WPM typing test · <a href="typing-tests.html">Browse every typing test, grouped by goal</a>

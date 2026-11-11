@@ -468,6 +468,11 @@ body.typing-active footer{opacity:.26;filter:saturate(.72);pointer-events:none;}
 .tblwrap table{width:100%;min-width:520px;margin:0;}
 @media(max-width:560px){.tblwrap{position:relative;}
   .tblwrap::after{content:"";display:block;height:1px;}}
+
+/* 广告位（r110）：两个槽都在正文之后；未批号时 slot 为空，DOM 里不出现任何节点。
+   min-height 不预留，避免无广告时留白造成的视觉断裂；CLS 风险由「正文之后」的位置规避。 */
+.ad-slot{margin:28px 0;padding:0;text-align:center;overflow:hidden}
+.ad-slot ins{display:block}
 </style>
 <script>try{var _t=localStorage.getItem("trTheme");if(_t&&_t!=="dark")document.documentElement.setAttribute("data-theme",_t);var _l=localStorage.getItem("trLang");if(_l&&_l!=="en"){document.documentElement.lang=_l;if(_l==="ar")document.documentElement.dir="rtl";}}catch(e){}</script>
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1401237223139327"
@@ -601,6 +606,8 @@ body.typing-active footer{opacity:.26;filter:saturate(.72);pointer-events:none;}
     <ul><li><a href="typing-speed-requirements.html">Typing Speed Requirements by Job and Exam</a></li><li><a href="words-per-minute-test.html">Words Per Minute Test</a></li><li><a href="wpm-test-online.html">WPM Test Online</a></li><li><a href="gross-wpm-vs-net-wpm.html">Gross WPM vs Net WPM</a></li><li><a href="typing-speed-percentile.html">Typing Speed Percentile Calculator</a></li><li><a href="30-wpm-typing-test.html">30 WPM Typing Test</a></li><li><a href="40-wpm-typing-test.html">40 WPM Typing Test</a></li><li><a href="50-wpm-typing-test.html">50 WPM Typing Test</a></li></ul>
   </nav>
 
+
+
   <section class="seo">
     <h2 id="calculate-your-speed-from-what-you-typed">Calculate your speed from what you typed</h2>
     <form class="conv" action="#" onsubmit="return false"><div class="conv-row"><label for="calcChars">Characters typed<input id="calcChars" type="number" inputmode="numeric" min="0" step="1" value="300" autocomplete="off"></label><label for="calcErr">Errors<input id="calcErr" type="number" inputmode="numeric" min="0" step="1" value="3" autocomplete="off"></label><label for="calcSec">Seconds<input id="calcSec" type="number" inputmode="decimal" min="1" step="1" value="60" autocomplete="off"></label></div><p class="conv-out" id="calcOut" aria-live="polite">60 WPM gross / 59.4 WPM net / 300 CPM / 18,000 KPH / 66th percentile</p></form><script>(function(){var c=document.getElementById('calcChars'),e=document.getElementById('calcErr'),s=document.getElementById('calcSec'),o=document.getElementById('calcOut');if(!c||!e||!s||!o)return;function f(n,d){return n.toLocaleString('en-US',{maximumFractionDigits:d||0})}function erf(x){var t=1/(1+0.3275911*Math.abs(x));var y=1-((((1.061405429*t-1.453152027)*t+1.421413741)*t-0.284496736)*t+0.254829592)*t*Math.exp(-x*x);return x>=0?y:-y}function pct(w){var z=(w-51.56)/(20.2*Math.SQRT2);return Math.max(0,Math.min(100,100*0.5*(1+erf(z))))}function upd(){var cc=parseFloat(c.value),er=parseFloat(e.value)||0,sec=parseFloat(s.value);if(!(cc>=0)||!(sec>0)){o.textContent='Enter characters, errors and seconds.';return;}var min=sec/60,gross=cc/5/min,net=Math.max(0,(cc-er)/5/min),cpm=cc/min,kph=cpm*60;o.textContent=f(gross,1)+' WPM gross / '+f(net,1)+' WPM net / '+f(cpm)+' CPM / '+f(kph)+' KPH / '+f(pct(net))+'th percentile';}[c,e,s].forEach(function(el){el.addEventListener('input',upd)});upd();})();</script>
@@ -627,6 +634,8 @@ body.typing-active footer{opacity:.26;filter:saturate(.72);pointer-events:none;}
     <details><summary>What is the difference between gross and net WPM?</summary><p>Gross WPM counts every character you typed; net WPM subtracts your errors first. Employers almost always use net WPM because it reflects usable output.</p></details>
     <details><summary>Is this calculator free?</summary><p>Yes. The typing speed calculator and every typing test on this site are completely free, with no sign-up and no account.</p></details>
   </section>
+
+
 
   <footer>
     <a href="/">Typing.Rerivo</a> · Free online WPM typing test · <a href="typing-tests.html">Browse every typing test, grouped by goal</a>

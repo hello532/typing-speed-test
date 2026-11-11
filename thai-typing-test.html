@@ -468,6 +468,11 @@ body.typing-active footer{opacity:.26;filter:saturate(.72);pointer-events:none;}
 .tblwrap table{width:100%;min-width:520px;margin:0;}
 @media(max-width:560px){.tblwrap{position:relative;}
   .tblwrap::after{content:"";display:block;height:1px;}}
+
+/* 广告位（r110）：两个槽都在正文之后；未批号时 slot 为空，DOM 里不出现任何节点。
+   min-height 不预留，避免无广告时留白造成的视觉断裂；CLS 风险由「正文之后」的位置规避。 */
+.ad-slot{margin:28px 0;padding:0;text-align:center;overflow:hidden}
+.ad-slot ins{display:block}
 </style>
 <script>try{var _t=localStorage.getItem("trTheme");if(_t&&_t!=="dark")document.documentElement.setAttribute("data-theme",_t);var _l=localStorage.getItem("trLang");if(_l&&_l!=="en"){document.documentElement.lang=_l;if(_l==="ar")document.documentElement.dir="rtl";}}catch(e){}
 window.__trPageLang="th";</script>
@@ -602,6 +607,8 @@ window.__trPageLang="th";</script>
     <ul><li><a href="arabic-typing-test.html">Arabic Typing Test</a></li><li><a href="chinese-typing-test.html">Chinese Typing Test</a></li><li><a href="turkish-typing-test.html">Türkçe Klavye Hız Testi</a></li><li><a href="typing-tests-in-other-languages.html">Typing Tests in Other Languages</a></li><li><a href="urdu-typing-test.html">Urdu Typing Test</a></li><li><a href="vietnamese-typing-test.html">Kiểm Tra Tốc Độ Gõ Phím Tiếng Việt</a></li><li><a href="german-typing-test.html">German Typing Test</a></li><li><a href="french-typing-test.html">French Typing Test</a></li></ul>
   </nav>
 
+
+
   <section class="seo">
     <nav class="toc" aria-label="On this page"><p>On this page</p><ol><li><a href="#thai-typing-test">Thai typing test</a></li><li><a href="#no-spaces-how-speed-is-measured-in-thai">No spaces: how speed is measured in Thai</a></li><li><a href="#the-kedmanee-layout-and-tone-marks">The Kedmanee layout and tone marks</a></li><li><a href="#how-to-improve-thai-typing-speed">How to improve Thai typing speed</a></li><li><a href="#section">วิธีใช้แบบทดสอบนี้</a></li><li><a href="#section-2">การพิมพ์ภาษาไทยที่ไม่มีเว้นวรรค</a></li></ol></nav>
     <h2 id="thai-typing-test">Thai typing test</h2>
@@ -628,6 +635,8 @@ window.__trPageLang="th";</script>
     <details><summary>Does the test include tone marks and vowels above and below?</summary><p>Yes. Sentences use real Thai with the full abugida system — preposed and following vowels, above/below-line vowels and all four tone marks.</p></details>
     <details><summary>การทดสอบนี้วัดความเร็วอย่างไรเมื่อภาษาไทยไม่มีการเว้นวรรค?</summary><p>ภาษาไทยเขียนติดกันโดยไม่มีช่องว่างระหว่างคำ ดังนั้นนับจำนวนคำขึ้นอยู่กับอัลกอริทึม เราจึงแสดง CPM (จำนวนอักขระต่อนาที) ควบคู่กับ WPM — นี่คือการวัดที่ซื่อสัตย์สำหรับภาษาไทยเพราะการกดปุ่มคือการกดปุ่มไม่ว่าคำจะเริ่มหรือจบตรงไหน</p></details>
   </section>
+
+
 
   <footer>
     <a href="/">Typing.Rerivo</a> · Free online WPM typing test · <a href="typing-tests.html">Browse every typing test, grouped by goal</a>

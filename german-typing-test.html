@@ -468,6 +468,11 @@ body.typing-active footer{opacity:.26;filter:saturate(.72);pointer-events:none;}
 .tblwrap table{width:100%;min-width:520px;margin:0;}
 @media(max-width:560px){.tblwrap{position:relative;}
   .tblwrap::after{content:"";display:block;height:1px;}}
+
+/* 广告位（r110）：两个槽都在正文之后；未批号时 slot 为空，DOM 里不出现任何节点。
+   min-height 不预留，避免无广告时留白造成的视觉断裂；CLS 风险由「正文之后」的位置规避。 */
+.ad-slot{margin:28px 0;padding:0;text-align:center;overflow:hidden}
+.ad-slot ins{display:block}
 </style>
 <script>try{var _t=localStorage.getItem("trTheme");if(_t&&_t!=="dark")document.documentElement.setAttribute("data-theme",_t);var _l=localStorage.getItem("trLang");if(_l&&_l!=="en"){document.documentElement.lang=_l;if(_l==="ar")document.documentElement.dir="rtl";}}catch(e){}
 window.__trPageLang="de";</script>
@@ -602,6 +607,8 @@ window.__trPageLang="de";</script>
     <ul><li><a href="arabic-typing-test.html">Arabic Typing Test</a></li><li><a href="chinese-typing-test.html">Chinese Typing Test</a></li><li><a href="english-typing-test.html">English Typing Test</a></li><li><a href="hindi-typing-test.html">Hindi Typing Test</a></li><li><a href="indonesian-typing-test.html">Tes Mengetik Online</a></li><li><a href="japanese-typing-test.html">Japanese Typing Test</a></li><li><a href="korean-typing-test.html">Korean Typing Test</a></li><li><a href="french-typing-test.html">French Typing Test</a></li></ul>
   </nav>
 
+
+
   <section class="seo">
     <h2 id="what-makes-german-different-to-type">What makes German different to type</h2>
     <p>German adds four characters that English does not use: <strong>ä, ö, ü</strong> and <strong>ß</strong>. On a QWERTZ keyboard they sit on dedicated keys to the right of P and L, so they need a reach rather than a modifier - which means they interrupt the hand position less than a Shift combination, but they are pressed less often and therefore practised less.</p>
@@ -628,6 +635,8 @@ window.__trPageLang="de";</script>
     <details><summary>How do I type ä ö ü ß?</summary><p>On a QWERTZ keyboard they have their own keys to the right of P and L. On a QWERTY keyboard, add the German layout in your OS settings rather than using Alt codes, which do not train the correct motion.</p></details>
     <details><summary>How many WPM is 200 Anschläge pro Minute?</summary><p>Forty words per minute. Anschläge ÷ 5 = Wörter pro Minute, the same five-characters-per-word convention used by English typing tests.</p></details>
   </section>
+
+
 
   <footer>
     <a href="/">Typing.Rerivo</a> · Free online WPM typing test · <a href="typing-tests.html">Browse every typing test, grouped by goal</a>

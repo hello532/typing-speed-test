@@ -468,6 +468,11 @@ body.typing-active footer{opacity:.26;filter:saturate(.72);pointer-events:none;}
 .tblwrap table{width:100%;min-width:520px;margin:0;}
 @media(max-width:560px){.tblwrap{position:relative;}
   .tblwrap::after{content:"";display:block;height:1px;}}
+
+/* 广告位（r110）：两个槽都在正文之后；未批号时 slot 为空，DOM 里不出现任何节点。
+   min-height 不预留，避免无广告时留白造成的视觉断裂；CLS 风险由「正文之后」的位置规避。 */
+.ad-slot{margin:28px 0;padding:0;text-align:center;overflow:hidden}
+.ad-slot ins{display:block}
 </style>
 <script>try{var _t=localStorage.getItem("trTheme");if(_t&&_t!=="dark")document.documentElement.setAttribute("data-theme",_t);var _l=localStorage.getItem("trLang");if(_l&&_l!=="en"){document.documentElement.lang=_l;if(_l==="ar")document.documentElement.dir="rtl";}}catch(e){}</script>
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1401237223139327"
@@ -601,6 +606,8 @@ body.typing-active footer{opacity:.26;filter:saturate(.72);pointer-events:none;}
     <ul><li><a href="data-entry-practice.html">Data Entry Practice</a></li><li><a href="data-entry-typing-test.html">Data Entry Typing Test</a></li><li><a href="typing-certificate.html">Typing Certificate</a></li><li><a href="typing-test-for-jobs.html">Typing Test for Jobs</a></li><li><a href="alphanumeric-typing-test.html">Alphanumeric Typing Test</a></li><li><a href="30-day-typing-improvement-plan.html">30-Day Typing Improvement Plan</a></li></ul>
   </nav>
 
+
+
   <section class="seo">
     <nav class="toc" aria-label="On this page"><p>On this page</p><ol><li><a href="#the-speed-requirement-translated">The speed requirement, translated</a></li><li><a href="#the-accuracy-cutoff-that-fails-most-candidates">The accuracy cutoff that fails most candidates</a></li><li><a href="#software-and-workplace-skills">Software and workplace skills</a></li><li><a href="#how-to-prepare-in-two-weeks">How to prepare in two weeks</a></li><li><a href="#reading-a-job-posting-like-an-insider">Reading a job posting like an insider</a></li><li><a href="#accuracy-requirements-in-practice">Accuracy requirements in practice</a></li><li><a href="#full-time-part-time-and-seasonal-structures">Full-time, part-time and seasonal structures</a></li><li><a href="#health-and-sustainability-in-high-volume-work">Health and sustainability in high-volume work</a></li><li><a href="#progression-paths-out-of-data-entry">Progression paths out of data entry</a></li></ol></nav>
     <h2 id="the-speed-requirement-translated">The speed requirement, translated</h2>
@@ -642,6 +649,8 @@ body.typing-active footer{opacity:.26;filter:saturate(.72);pointer-events:none;}
     <details><summary>Do data entry jobs require Excel skills?</summary><p>Basic spreadsheet skills — entering, sorting, simple formulas in Excel or Google Sheets — are commonly requested. Deep expertise is not; employers screen typing speed and accuracy, then teach their specific systems.</p></details>
     <details><summary>How do I prepare for a data entry test in two weeks?</summary><p>Week one: accuracy floor at 98% across prose, numbers and 10-key. Week two: +5% pace daily with full simulations. Test your level now on the keystrokes per hour test.</p></details>
   </section>
+
+
 
   <footer>
     <a href="/">Typing.Rerivo</a> · Free online WPM typing test · <a href="typing-tests.html">Browse every typing test, grouped by goal</a>

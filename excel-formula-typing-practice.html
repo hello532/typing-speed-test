@@ -468,6 +468,11 @@ body.typing-active footer{opacity:.26;filter:saturate(.72);pointer-events:none;}
 .tblwrap table{width:100%;min-width:520px;margin:0;}
 @media(max-width:560px){.tblwrap{position:relative;}
   .tblwrap::after{content:"";display:block;height:1px;}}
+
+/* 广告位（r110）：两个槽都在正文之后；未批号时 slot 为空，DOM 里不出现任何节点。
+   min-height 不预留，避免无广告时留白造成的视觉断裂；CLS 风险由「正文之后」的位置规避。 */
+.ad-slot{margin:28px 0;padding:0;text-align:center;overflow:hidden}
+.ad-slot ins{display:block}
 </style>
 <script>try{var _t=localStorage.getItem("trTheme");if(_t&&_t!=="dark")document.documentElement.setAttribute("data-theme",_t);var _l=localStorage.getItem("trLang");if(_l&&_l!=="en"){document.documentElement.lang=_l;if(_l==="ar")document.documentElement.dir="rtl";}}catch(e){}</script>
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1401237223139327"
@@ -601,6 +606,8 @@ body.typing-active footer{opacity:.26;filter:saturate(.72);pointer-events:none;}
     <ul><li><a href="audio-typing-tips.html">Audio Typing Tips</a></li><li><a href="bigram-typing-practice.html">Bigram Typing Practice</a></li><li><a href="capital-letter-typing-test.html">Capital Letter Typing Test</a></li><li><a href="fast-typing-test.html">Fast Typing Test</a></li><li><a href="fastest-typing-speed-record.html">Fastest Typing Speed Records</a></li><li><a href="touch-typing-course.html">Touch Typing Course: 12 Lessons</a></li><li><a href="keyboard-layout-for-programmers.html">Best Keyboard Layout for Programmers</a></li><li><a href="wrist-pain-from-typing.html">Wrist Pain From Typing</a></li></ul>
   </nav>
 
+
+
   <section class="seo">
     <h2 id="the-four-characters-that-decide-a-formula">The four characters that decide a formula</h2>
     <ul><li><strong>Parentheses</strong> - every function opens one and most nest two deep; an unbalanced bracket stops Excel accepting the entry at all.</li><li><strong>Commas</strong> - the argument separator in en-US locales, and a semicolon in many European ones. Typing a full stop instead is the single most common formula error.</li><li><strong>Dollar signs</strong> - absolute references need Shift+4, a reach that pulls the left hand off the home row.</li><li><strong>Double quotes</strong> - required around text criteria, and doubled inside strings.</li></ul>
@@ -624,6 +631,8 @@ body.typing-active footer{opacity:.26;filter:saturate(.72);pointer-events:none;}
     <details><summary>Are these real Excel formulas?</summary><p>Yes, 36 formulas using current functions including XLOOKUP, XMATCH, FILTER, SORT, UNIQUE, LET, LAMBDA, MAP, CHOOSECOLS and VSTACK.</p></details>
     <details><summary>How long should I practise?</summary><p>Five minutes a day for a week is enough to stop fumbling the bracket and dollar reaches; after that, use it as a warm-up before model-building sessions.</p></details>
   </section>
+
+
 
   <footer>
     <a href="/">Typing.Rerivo</a> · Free online WPM typing test · <a href="typing-tests.html">Browse every typing test, grouped by goal</a>

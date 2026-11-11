@@ -468,6 +468,11 @@ body.typing-active footer{opacity:.26;filter:saturate(.72);pointer-events:none;}
 .tblwrap table{width:100%;min-width:520px;margin:0;}
 @media(max-width:560px){.tblwrap{position:relative;}
   .tblwrap::after{content:"";display:block;height:1px;}}
+
+/* 广告位（r110）：两个槽都在正文之后；未批号时 slot 为空，DOM 里不出现任何节点。
+   min-height 不预留，避免无广告时留白造成的视觉断裂；CLS 风险由「正文之后」的位置规避。 */
+.ad-slot{margin:28px 0;padding:0;text-align:center;overflow:hidden}
+.ad-slot ins{display:block}
 </style>
 <script>try{var _t=localStorage.getItem("trTheme");if(_t&&_t!=="dark")document.documentElement.setAttribute("data-theme",_t);var _l=localStorage.getItem("trLang");if(_l&&_l!=="en"){document.documentElement.lang=_l;if(_l==="ar")document.documentElement.dir="rtl";}}catch(e){}</script>
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1401237223139327"
@@ -601,6 +606,8 @@ body.typing-active footer{opacity:.26;filter:saturate(.72);pointer-events:none;}
     <ul><li><a href="beginner-typing-test.html">Beginner Typing Test</a></li><li><a href="best-free-typing-lessons-for-adults.html">Best Free Typing Lessons for Adults</a></li><li><a href="programmer-typing-speed.html">Programmer Typing Speed</a></li><li><a href="touch-typing-for-adults.html">Touch Typing for Adults</a></li><li><a href="typing-games-for-kids.html">Typing Games for Kids</a></li><li><a href="typing-practice-for-programmers.html">Typing Practice for Programmers</a></li><li><a href="typing-test-for-kids.html">Typing Test for Kids</a></li><li><a href="typing-test-for-students.html">Typing Test for Students</a></li></ul>
   </nav>
 
+
+
   <section class="seo">
     <nav class="toc" aria-label="On this page"><p>On this page</p><ol><li><a href="#what-advanced-means-here-numerically">What "advanced" means here, numerically</a></li><li><a href="#the-three-things-that-separate-70-from-90">The three things that separate 70 from 90</a></li><li><a href="#drills-that-move-an-advanced-score">Drills that move an advanced score</a></li><li><a href="#benchmarking-honestly">Benchmarking honestly</a></li><li><a href="#when-advanced-speed-stops-paying">When advanced speed stops paying</a></li><li><a href="#what-advanced-text-should-actually-test">What advanced text should actually test</a></li><li><a href="#why-advanced-scores-are-not-comparable-across-si">Why advanced scores are not comparable across sites</a></li></ol></nav>
     <h2 id="what-advanced-means-here-numerically">What "advanced" means here, numerically</h2>
@@ -637,6 +644,8 @@ body.typing-active footer{opacity:.26;filter:saturate(.72);pointer-events:none;}
     <details><summary>Should I quote gross or net WPM?</summary><p>Net, with the test length and accuracy. Gross scores without a stated method read as the flattering version and invite a live re-test that reads lower.</p></details>
     <details><summary>What makes a typing test advanced?</summary><p>Difficulty that changes the skill being measured: punctuation density, uncommon vocabulary, digit and symbol runs, and structural irregularity. Longer but simpler words are a vocabulary test, not an advanced typing test.</p></details>
   </section>
+
+
 
   <footer>
     <a href="/">Typing.Rerivo</a> · Free online WPM typing test · <a href="typing-tests.html">Browse every typing test, grouped by goal</a>

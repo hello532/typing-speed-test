@@ -468,6 +468,11 @@ body.typing-active footer{opacity:.26;filter:saturate(.72);pointer-events:none;}
 .tblwrap table{width:100%;min-width:520px;margin:0;}
 @media(max-width:560px){.tblwrap{position:relative;}
   .tblwrap::after{content:"";display:block;height:1px;}}
+
+/* 广告位（r110）：两个槽都在正文之后；未批号时 slot 为空，DOM 里不出现任何节点。
+   min-height 不预留，避免无广告时留白造成的视觉断裂；CLS 风险由「正文之后」的位置规避。 */
+.ad-slot{margin:28px 0;padding:0;text-align:center;overflow:hidden}
+.ad-slot ins{display:block}
 </style>
 <script>try{var _t=localStorage.getItem("trTheme");if(_t&&_t!=="dark")document.documentElement.setAttribute("data-theme",_t);var _l=localStorage.getItem("trLang");if(_l&&_l!=="en"){document.documentElement.lang=_l;if(_l==="ar")document.documentElement.dir="rtl";}}catch(e){}</script>
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1401237223139327"
@@ -601,6 +606,8 @@ body.typing-active footer{opacity:.26;filter:saturate(.72);pointer-events:none;}
     <ul><li><a href="advanced-typing-test.html">Advanced Typing Test</a></li><li><a href="beginner-typing-test.html">Beginner Typing Test</a></li><li><a href="programmer-typing-speed.html">Programmer Typing Speed</a></li><li><a href="touch-typing-for-adults.html">Touch Typing for Adults</a></li><li><a href="typing-games-for-kids.html">Typing Games for Kids</a></li><li><a href="typing-practice-for-programmers.html">Typing Practice for Programmers</a></li><li><a href="typing-test-for-kids.html">Typing Test for Kids</a></li><li><a href="typing-test-for-students.html">Typing Test for Students</a></li></ul>
   </nav>
 
+
+
   <section class="seo">
     <nav class="toc" aria-label="On this page"><p>On this page</p><ol><li><a href="#best-free-typing-lessons-for-adults">Best free typing lessons for adults</a></li><li><a href="#a-4-week-free-plan-that-works">A 4-week free plan that works</a></li><li><a href="#the-tools-you-need-all-free">The tools you need (all free)</a></li><li><a href="#measuring-progress-without-a-paid-subscription">Measuring progress without a paid subscription</a></li><li><a href="#why-adults-benefit-more-from-practice-than-they-">Why adults benefit more from practice than they expect</a></li><li><a href="#the-mistakes-that-keep-adults-slow-even-with-pra">The mistakes that keep adults slow (even with practice)</a></li><li><a href="#building-the-daily-10-minute-habit-as-an-adult">Building the daily 10-minute habit as an adult</a></li><li><a href="#where-adults-have-an-advantage-over-younger-lear">Where adults have an advantage over younger learners</a></li><li><a href="#tracking-without-a-paid-subscription">Tracking without a paid subscription</a></li><li><a href="#avoiding-the-mistakes-that-keep-adults-from-impr">Avoiding the mistakes that keep adults from improving</a></li><li><a href="#where-to-find-the-time-for-typing-practice">Where to find the time for typing practice</a></li></ol></nav>
     <h2 id="best-free-typing-lessons-for-adults">Best free typing lessons for adults</h2>
@@ -647,6 +654,8 @@ body.typing-active footer{opacity:.26;filter:saturate(.72);pointer-events:none;}
     <details><summary>Can I use a different keyboard for practice and work?</summary><p>Consistency matters. The keyboard you practised on will always outperform a theoretically better one that you bought yesterday.</p></details>
     <details><summary>Does the test work offline?</summary><p>Yes. The test runs in your browser with no account and no data leaving your device.</p></details>
   </section>
+
+
 
   <footer>
     <a href="/">Typing.Rerivo</a> · Free online WPM typing test · <a href="typing-tests.html">Browse every typing test, grouped by goal</a>

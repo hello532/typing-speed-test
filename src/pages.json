@@ -15613,5 +15613,10 @@
   }
  ],
  "langVariants": false,
- "_note_langVariants": "14 个语种页只有练习池是目标语，页面本身是英文，不构成 hreflang 语言变体；置 false 后不再输出 alternate 聚类"
+ "_note_langVariants": "14 个语种页只有练习池是目标语，页面本身是英文，不构成 hreflang 语言变体；置 false 后不再输出 alternate 聚类",
+ "ads": {
+  "client": "ca-pub-1401237223139327",
+  "slotTop": "",
+  "slotBottom": ""
+ }
 }

@@ -468,6 +468,11 @@ body.typing-active footer{opacity:.26;filter:saturate(.72);pointer-events:none;}
 .tblwrap table{width:100%;min-width:520px;margin:0;}
 @media(max-width:560px){.tblwrap{position:relative;}
   .tblwrap::after{content:"";display:block;height:1px;}}
+
+/* 广告位（r110）：两个槽都在正文之后；未批号时 slot 为空，DOM 里不出现任何节点。
+   min-height 不预留，避免无广告时留白造成的视觉断裂；CLS 风险由「正文之后」的位置规避。 */
+.ad-slot{margin:28px 0;padding:0;text-align:center;overflow:hidden}
+.ad-slot ins{display:block}
 </style>
 <script>try{var _t=localStorage.getItem("trTheme");if(_t&&_t!=="dark")document.documentElement.setAttribute("data-theme",_t);var _l=localStorage.getItem("trLang");if(_l&&_l!=="en"){document.documentElement.lang=_l;if(_l==="ar")document.documentElement.dir="rtl";}}catch(e){}</script>
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1401237223139327"
@@ -601,6 +606,8 @@ body.typing-active footer{opacity:.26;filter:saturate(.72);pointer-events:none;}
     <ul><li><a href="how-to-type-100-wpm.html">How to Type 100 WPM</a></li><li><a href="keystrokes-per-hour-test.html">Keystrokes Per Hour Test</a></li><li><a href="typing-accuracy-test.html">Typing Accuracy Test</a></li><li><a href="typing-skill-test.html">Typing Skill Test</a></li><li><a href="typing-speed-calculator.html">Typing Speed Calculator</a></li><li><a href="typing-speed-requirements.html">Typing Speed Requirements by Job and Exam</a></li><li><a href="words-per-minute-test.html">Words Per Minute Test</a></li><li><a href="wpm-test-online.html">WPM Test Online</a></li></ul>
   </nav>
 
+
+
   <section class="seo">
     <nav class="toc" aria-label="On this page"><p>On this page</p><ol><li><a href="#the-standard-wpm-benchmark-bands">The standard WPM benchmark bands</a></li><li><a href="#fast-for-what-context-decides">Fast for what? Context decides</a></li><li><a href="#accuracy-changes-what-fast-means">Accuracy changes what 'fast' means</a></li><li><a href="#how-to-measure-your-own-wpm-properly">How to measure your own WPM properly</a></li><li><a href="#how-wpm-translates-across-languages-and-scripts">How WPM translates across languages and scripts</a></li><li><a href="#the-wpm-you-need-for-school-and-exams">The WPM you need for school and exams</a></li><li><a href="#how-long-it-takes-to-move-between-bands">How long it takes to move between bands</a></li><li><a href="#how-employers-actually-test-wpm">How employers actually test WPM</a></li><li><a href="#sources-for-the-numbers-on-this-page">Sources for the numbers on this page</a></li><li><a href="#wpm-on-phones-vs-physical-keyboards">WPM on phones vs physical keyboards</a></li></ol></nav>
     <h2 id="the-standard-wpm-benchmark-bands">The standard WPM benchmark bands</h2>
@@ -648,6 +655,8 @@ body.typing-active footer{opacity:.26;filter:saturate(.72);pointer-events:none;}
     <details><summary>What is a good WPM for a job?</summary><p>Most office jobs are comfortable at 40–60 WPM. Data entry and transcription roles quote CPM or KPH instead — 300 CPM (60 WPM) is the common professional floor.</p></details>
     <details><summary>How do I check my WPM?</summary><p>Take three rounds of a free words per minute test and use the middle net score. Test on your usual keyboard at your usual time of day for a comparable result.</p></details>
   </section>
+
+
 
   <footer>
     <a href="/">Typing.Rerivo</a> · Free online WPM typing test · <a href="typing-tests.html">Browse every typing test, grouped by goal</a>

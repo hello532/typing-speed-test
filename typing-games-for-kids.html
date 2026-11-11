@@ -468,6 +468,11 @@ body.typing-active footer{opacity:.26;filter:saturate(.72);pointer-events:none;}
 .tblwrap table{width:100%;min-width:520px;margin:0;}
 @media(max-width:560px){.tblwrap{position:relative;}
   .tblwrap::after{content:"";display:block;height:1px;}}
+
+/* 广告位（r110）：两个槽都在正文之后；未批号时 slot 为空，DOM 里不出现任何节点。
+   min-height 不预留，避免无广告时留白造成的视觉断裂；CLS 风险由「正文之后」的位置规避。 */
+.ad-slot{margin:28px 0;padding:0;text-align:center;overflow:hidden}
+.ad-slot ins{display:block}
 </style>
 <script>try{var _t=localStorage.getItem("trTheme");if(_t&&_t!=="dark")document.documentElement.setAttribute("data-theme",_t);var _l=localStorage.getItem("trLang");if(_l&&_l!=="en"){document.documentElement.lang=_l;if(_l==="ar")document.documentElement.dir="rtl";}}catch(e){}</script>
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1401237223139327"
@@ -601,6 +606,8 @@ body.typing-active footer{opacity:.26;filter:saturate(.72);pointer-events:none;}
     <ul><li><a href="advanced-typing-test.html">Advanced Typing Test</a></li><li><a href="beginner-typing-test.html">Beginner Typing Test</a></li><li><a href="best-free-typing-lessons-for-adults.html">Best Free Typing Lessons for Adults</a></li><li><a href="programmer-typing-speed.html">Programmer Typing Speed</a></li><li><a href="touch-typing-for-adults.html">Touch Typing for Adults</a></li><li><a href="typing-practice-for-programmers.html">Typing Practice for Programmers</a></li><li><a href="typing-test-for-kids.html">Typing Test for Kids</a></li><li><a href="typing-test-for-students.html">Typing Test for Students</a></li></ul>
   </nav>
 
+
+
   <section class="seo">
     <nav class="toc" aria-label="On this page"><p>On this page</p><ol><li><a href="#why-games-beat-drills-for-kids">Why games beat drills for kids</a></li><li><a href="#letter-hunt-games-the-fastest-way-to-the-keyboar">Letter-hunt games: the fastest way to the keyboard map</a></li><li><a href="#word-collection-and-mini-challenges">Word-collection and mini-challenges</a></li><li><a href="#the-right-duration-and-cadence">The right duration and cadence</a></li><li><a href="#how-to-keep-kids-practising-without-nagging">How to keep kids practising without nagging</a></li><li><a href="#games-that-help-with-specific-skills">Games that help with specific skills</a></li><li><a href="#a-sample-5-minute-session">A sample 5-minute session</a></li><li><a href="#games-that-help-with-specific-skills-2">Games that help with specific skills</a></li><li><a href="#a-sample-5-minute-session-2">A sample 5-minute session</a></li></ol></nav>
     <h2 id="why-games-beat-drills-for-kids">Why games beat drills for kids</h2>
@@ -641,6 +648,8 @@ body.typing-active footer{opacity:.26;filter:saturate(.72);pointer-events:none;}
     <details><summary>How long should a kid play typing games each day?</summary><p>Five to ten minutes a day. Motor memory forms in the gaps between sessions, so short daily practice out-teaches long weekly sessions. Stop before fatigue or frustration sets in.</p></details>
     <details><summary>Is speed or accuracy more important for kids?</summary><p>Accuracy first, always. Speed games only after accuracy holds. The habit that predicts real-world typing speed is clean keys, and you build it from day one with perfectly-typed words.</p></details>
   </section>
+
+
 
   <footer>
     <a href="/">Typing.Rerivo</a> · Free online WPM typing test · <a href="typing-tests.html">Browse every typing test, grouped by goal</a>

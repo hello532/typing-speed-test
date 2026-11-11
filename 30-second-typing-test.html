@@ -468,6 +468,11 @@ body.typing-active footer{opacity:.26;filter:saturate(.72);pointer-events:none;}
 .tblwrap table{width:100%;min-width:520px;margin:0;}
 @media(max-width:560px){.tblwrap{position:relative;}
   .tblwrap::after{content:"";display:block;height:1px;}}
+
+/* 广告位（r110）：两个槽都在正文之后；未批号时 slot 为空，DOM 里不出现任何节点。
+   min-height 不预留，避免无广告时留白造成的视觉断裂；CLS 风险由「正文之后」的位置规避。 */
+.ad-slot{margin:28px 0;padding:0;text-align:center;overflow:hidden}
+.ad-slot ins{display:block}
 </style>
 <script>try{var _t=localStorage.getItem("trTheme");if(_t&&_t!=="dark")document.documentElement.setAttribute("data-theme",_t);var _l=localStorage.getItem("trLang");if(_l&&_l!=="en"){document.documentElement.lang=_l;if(_l==="ar")document.documentElement.dir="rtl";}}catch(e){}</script>
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1401237223139327"
@@ -602,6 +607,8 @@ body.typing-active footer{opacity:.26;filter:saturate(.72);pointer-events:none;}
     <ul><li><a href="1-minute-typing-test.html">1 Minute Typing Test</a></li><li><a href="10-minute-typing-test.html">10 Minute Typing Test</a></li><li><a href="15-second-typing-test.html">15 Second Typing Test</a></li><li><a href="2-minute-typing-test.html">2 Minute Typing Test</a></li><li><a href="3-minute-typing-test.html">3 Minute Typing Test</a></li><li><a href="5-minute-typing-test.html">5 Minute Typing Test</a></li><li><a href="timed-typing-test.html">Timed Typing Test</a></li></ul>
   </nav>
 
+
+
   <section class="seo">
     <nav class="toc" aria-label="On this page"><p>On this page</p><ol><li><a href="#30-second-typing-test">30 second typing test</a></li><li><a href="#how-accurate-is-a-30-second-test">How accurate is a 30 second test?</a></li><li><a href="#tips-for-a-faster-30-second-sprint">Tips for a faster 30 second sprint</a></li><li><a href="#when-to-choose-the-30-second-test">When to choose the 30 second test</a></li><li><a href="#what-a-30-second-score-tells-you">What a 30 second score tells you</a></li><li><a href="#the-30-second-test-as-a-warm-up">The 30 second test as a warm-up</a></li><li><a href="#what-thirty-seconds-actually-measures">What thirty seconds actually measures</a></li><li><a href="#using-sprints-to-raise-the-five-minute-score">Using sprints to raise the five-minute score</a></li></ol></nav>
     <h2 id="30-second-typing-test">30 second typing test</h2>
@@ -634,6 +641,8 @@ body.typing-active footer{opacity:.26;filter:saturate(.72);pointer-events:none;}
     <details><summary>Can I retake the test?</summary><p>Yes, retake it as many times as you like. Each round saves locally so you can compare your results over time.</p></details>
     <details><summary>Is a 30-second typing test accurate?</summary><p>It is accurate for burst speed, which reads 5-10 WPM above a five-minute round. Use it to warm up, train your top end or compare keyboards; use a five-minute round for a number you quote.</p></details>
   </section>
+
+
 
   <footer>
     <a href="/">Typing.Rerivo</a> · Free online WPM typing test · <a href="typing-tests.html">Browse every typing test, grouped by goal</a>

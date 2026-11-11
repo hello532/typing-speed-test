@@ -468,6 +468,11 @@ body.typing-active footer{opacity:.26;filter:saturate(.72);pointer-events:none;}
 .tblwrap table{width:100%;min-width:520px;margin:0;}
 @media(max-width:560px){.tblwrap{position:relative;}
   .tblwrap::after{content:"";display:block;height:1px;}}
+
+/* 广告位（r110）：两个槽都在正文之后；未批号时 slot 为空，DOM 里不出现任何节点。
+   min-height 不预留，避免无广告时留白造成的视觉断裂；CLS 风险由「正文之后」的位置规避。 */
+.ad-slot{margin:28px 0;padding:0;text-align:center;overflow:hidden}
+.ad-slot ins{display:block}
 </style>
 <script>try{var _t=localStorage.getItem("trTheme");if(_t&&_t!=="dark")document.documentElement.setAttribute("data-theme",_t);var _l=localStorage.getItem("trLang");if(_l&&_l!=="en"){document.documentElement.lang=_l;if(_l==="ar")document.documentElement.dir="rtl";}}catch(e){}</script>
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1401237223139327"
@@ -601,6 +606,8 @@ body.typing-active footer{opacity:.26;filter:saturate(.72);pointer-events:none;}
     <ul><li><a href="bottom-row-typing-test.html">Bottom Row Typing Test</a></li><li><a href="colemak-typing.html">Colemak Typing Test</a></li><li><a href="mechanical-keyboard-for-typing.html">Mechanical Keyboard for Typing</a></li><li><a href="one-hand-typing.html">One Hand Typing</a></li><li><a href="proper-hand-position-for-typing.html">Proper Hand Position for Typing</a></li><li><a href="ten-key-typing-test.html">10 Key Typing Test</a></li><li><a href="top-row-typing-test.html">Top Row Typing Test</a></li><li><a href="typing-finger-chart.html">Typing Finger Chart</a></li></ul>
   </nav>
 
+
+
   <section class="seo">
     <nav class="toc" aria-label="On this page"><p>On this page</p><ol><li><a href="#keyboard-typing-test">Keyboard typing test</a></li><li><a href="#test-any-keyboard-not-just-the-one-you-own">Test any keyboard, not just the one you own</a></li><li><a href="#keyboard-typing-tips">Keyboard typing tips</a></li><li><a href="#works-with-any-keyboard-layout">Works with any keyboard layout</a></li><li><a href="#build-true-touch-typing">Build true touch typing</a></li><li><a href="#is-my-keyboard-working-a-key-by-key-check">Is my keyboard working? A key-by-key check</a></li><li><a href="#keyboard-types-and-what-they-change-for-typing-t">Keyboard types and what they change for typing tests</a></li></ol></nav>
     <h2 id="keyboard-typing-test">Keyboard typing test</h2>
@@ -632,6 +639,8 @@ body.typing-active footer{opacity:.26;filter:saturate(.72);pointer-events:none;}
     <details><summary>How can I check if a key on my keyboard is broken?</summary><p>Type every character deliberately in a one-minute round and read the error report: a dead key appears as a repeated omission, a double-registering key as extra characters. Repeat on another device to tell a key fault from a keyboard or connection fault.</p></details>
     <details><summary>Does the keyboard type affect a typing test score?</summary><p>By roughly 3-8 WPM between a laptop chiclet board and a mechanical one. Key travel and feedback affect error rate more than raw speed.</p></details>
   </section>
+
+
 
   <footer>
     <a href="/">Typing.Rerivo</a> · Free online WPM typing test · <a href="typing-tests.html">Browse every typing test, grouped by goal</a>

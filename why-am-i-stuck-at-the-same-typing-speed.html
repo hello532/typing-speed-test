@@ -468,6 +468,11 @@ body.typing-active footer{opacity:.26;filter:saturate(.72);pointer-events:none;}
 .tblwrap table{width:100%;min-width:520px;margin:0;}
 @media(max-width:560px){.tblwrap{position:relative;}
   .tblwrap::after{content:"";display:block;height:1px;}}
+
+/* 广告位（r110）：两个槽都在正文之后；未批号时 slot 为空，DOM 里不出现任何节点。
+   min-height 不预留，避免无广告时留白造成的视觉断裂；CLS 风险由「正文之后」的位置规避。 */
+.ad-slot{margin:28px 0;padding:0;text-align:center;overflow:hidden}
+.ad-slot ins{display:block}
 </style>
 <script>try{var _t=localStorage.getItem("trTheme");if(_t&&_t!=="dark")document.documentElement.setAttribute("data-theme",_t);var _l=localStorage.getItem("trLang");if(_l&&_l!=="en"){document.documentElement.lang=_l;if(_l==="ar")document.documentElement.dir="rtl";}}catch(e){}</script>
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1401237223139327"
@@ -601,6 +606,8 @@ body.typing-active footer{opacity:.26;filter:saturate(.72);pointer-events:none;}
     <ul><li><a href="average-typing-speed-by-age.html">Average Typing Speed by Age</a></li><li><a href="average-typing-speed.html">Average Typing Speed</a></li><li><a href="cpm-typing-test.html">CPM Typing Test</a></li><li><a href="how-fast-can-i-type.html">How Fast Can I Type?</a></li><li><a href="how-many-words-per-minute-is-fast.html">How Many Words Per Minute Is Fast?</a></li><li><a href="how-to-type-100-wpm.html">How to Type 100 WPM</a></li><li><a href="keystrokes-per-hour-test.html">Keystrokes Per Hour Test</a></li><li><a href="typing-accuracy-test.html">Typing Accuracy Test</a></li></ul>
   </nav>
 
+
+
   <section class="seo">
     <nav class="toc" aria-label="On this page"><p>On this page</p><ol><li><a href="#first-check-that-you-are-actually-stuck">First, check that you are actually stuck</a></li><li><a href="#stuck-at-30-40-the-habit-ceiling">Stuck at 30-40: the habit ceiling</a></li><li><a href="#stuck-at-50-the-reading-bottleneck">Stuck at 50: the reading bottleneck</a></li><li><a href="#stuck-at-60-the-accuracy-tax">Stuck at 60: the accuracy tax</a></li><li><a href="#stuck-at-70-80-variance-not-peak">Stuck at 70-80: variance, not peak</a></li><li><a href="#if-none-of-that-applies">If none of that applies</a></li></ol></nav>
     <h2 id="first-check-that-you-are-actually-stuck">First, check that you are actually stuck</h2>
@@ -632,6 +639,8 @@ body.typing-active footer{opacity:.26;filter:saturate(.72);pointer-events:none;}
     <details><summary>Should I switch to Dvorak or Colemak?</summary><p>Not to break a plateau. The switch costs weeks of being slower, and most people return to the same speed on the new layout because the limiting habit moved with them.</p></details>
     <details><summary>How long does a plateau usually last?</summary><p>Two to six weeks if you change the drill, months if you keep repeating the same practice. The signal that a drill is working is accuracy rising before speed does.</p></details>
   </section>
+
+
 
   <footer>
     <a href="/">Typing.Rerivo</a> · Free online WPM typing test · <a href="typing-tests.html">Browse every typing test, grouped by goal</a>

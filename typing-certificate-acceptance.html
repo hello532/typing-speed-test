@@ -468,6 +468,11 @@ body.typing-active footer{opacity:.26;filter:saturate(.72);pointer-events:none;}
 .tblwrap table{width:100%;min-width:520px;margin:0;}
 @media(max-width:560px){.tblwrap{position:relative;}
   .tblwrap::after{content:"";display:block;height:1px;}}
+
+/* 广告位（r110）：两个槽都在正文之后；未批号时 slot 为空，DOM 里不出现任何节点。
+   min-height 不预留，避免无广告时留白造成的视觉断裂；CLS 风险由「正文之后」的位置规避。 */
+.ad-slot{margin:28px 0;padding:0;text-align:center;overflow:hidden}
+.ad-slot ins{display:block}
 </style>
 <script>try{var _t=localStorage.getItem("trTheme");if(_t&&_t!=="dark")document.documentElement.setAttribute("data-theme",_t);var _l=localStorage.getItem("trLang");if(_l&&_l!=="en"){document.documentElement.lang=_l;if(_l==="ar")document.documentElement.dir="rtl";}}catch(e){}</script>
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1401237223139327"
@@ -601,6 +606,8 @@ body.typing-active footer{opacity:.26;filter:saturate(.72);pointer-events:none;}
     <ul><li><a href="average-typing-speed-by-age.html">Average Typing Speed by Age</a></li><li><a href="average-typing-speed.html">Average Typing Speed</a></li><li><a href="cpm-typing-test.html">CPM Typing Test</a></li><li><a href="how-fast-can-i-type.html">How Fast Can I Type?</a></li><li><a href="how-many-words-per-minute-is-fast.html">How Many Words Per Minute Is Fast?</a></li><li><a href="typing-speed-benchmarks.html">Typing Speed Benchmarks</a></li><li><a href="typing-consistency-score.html">Typing Consistency Score</a></li><li><a href="why-am-i-stuck-at-the-same-typing-speed.html">Why Am I Stuck at the Same Typing Speed?</a></li></ul>
   </nav>
 
+
+
   <section class="seo">
     <h2 id="three-kinds-of-typing-evidence">Three kinds of typing evidence</h2>
     <div class="tblwrap"><table><tr><th>Type</th><th>What it proves</th><th>Who accepts it</th></tr><tr><td>Self-issued certificate (printed from a website)</td><td>That you used the site and got a score</td><td>Some private employers, as a screening signal</td></tr><tr><td>Third-party timed result (dated, named, unproctored)</td><td>A specific score on a specific date</td><td>Many private employers; occasionally agencies</td></tr><tr><td>Proctored certificate (testing centre or remote proctor)</td><td>That someone observed the test</td><td>Government, courts, staffing agencies, some hospitals</td></tr></table></div>
@@ -627,6 +634,8 @@ body.typing-active footer{opacity:.26;filter:saturate(.72);pointer-events:none;}
     <details><summary>Can I put a certificate score on my résumé?</summary><p>Yes, with the test length and accuracy, for example "55 WPM net, 98% accuracy, five-minute test". Expect to be re-tested, and list a score you can reproduce.</p></details>
     <details><summary>Should I pay for a certificate?</summary><p>Only when a posting asks for a proctored result or a specific issuer. For private-sector applications, a dated screenshot and an honest résumé line do the same job for free.</p></details>
   </section>
+
+
 
   <footer>
     <a href="/">Typing.Rerivo</a> · Free online WPM typing test · <a href="typing-tests.html">Browse every typing test, grouped by goal</a>

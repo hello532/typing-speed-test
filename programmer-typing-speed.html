@@ -468,6 +468,11 @@ body.typing-active footer{opacity:.26;filter:saturate(.72);pointer-events:none;}
 .tblwrap table{width:100%;min-width:520px;margin:0;}
 @media(max-width:560px){.tblwrap{position:relative;}
   .tblwrap::after{content:"";display:block;height:1px;}}
+
+/* 广告位（r110）：两个槽都在正文之后；未批号时 slot 为空，DOM 里不出现任何节点。
+   min-height 不预留，避免无广告时留白造成的视觉断裂；CLS 风险由「正文之后」的位置规避。 */
+.ad-slot{margin:28px 0;padding:0;text-align:center;overflow:hidden}
+.ad-slot ins{display:block}
 </style>
 <script>try{var _t=localStorage.getItem("trTheme");if(_t&&_t!=="dark")document.documentElement.setAttribute("data-theme",_t);var _l=localStorage.getItem("trLang");if(_l&&_l!=="en"){document.documentElement.lang=_l;if(_l==="ar")document.documentElement.dir="rtl";}}catch(e){}</script>
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1401237223139327"
@@ -601,6 +606,8 @@ body.typing-active footer{opacity:.26;filter:saturate(.72);pointer-events:none;}
     <ul><li><a href="advanced-typing-test.html">Advanced Typing Test</a></li><li><a href="beginner-typing-test.html">Beginner Typing Test</a></li><li><a href="best-free-typing-lessons-for-adults.html">Best Free Typing Lessons for Adults</a></li><li><a href="touch-typing-for-adults.html">Touch Typing for Adults</a></li><li><a href="typing-games-for-kids.html">Typing Games for Kids</a></li><li><a href="typing-practice-for-programmers.html">Typing Practice for Programmers</a></li><li><a href="typing-test-for-kids.html">Typing Test for Kids</a></li><li><a href="typing-test-for-students.html">Typing Test for Students</a></li></ul>
   </nav>
 
+
+
   <section class="seo">
     <nav class="toc" aria-label="On this page"><p>On this page</p><ol><li><a href="#programmer-typing-speed">Programmer typing speed</a></li><li><a href="#code-typing-is-a-separate-skill-from-prose-typin">Code typing is a separate skill from prose typing</a></li><li><a href="#a-developer-s-typing-workout">A developer's typing workout</a></li><li><a href="#three-code-heavy-reaches-that-slow-every-develop">Three code-heavy reaches that slow every developer</a></li><li><a href="#what-senior-developers-know-about-typing-that-ju">What senior developers know about typing that juniors do not</a></li><li><a href="#how-to-choose-which-language-code-drill-to-start">How to choose which language code drill to start with</a></li><li><a href="#ide-autocomplete-does-not-make-typing-speed-irre">IDE autocomplete does not make typing speed irrelevant</a></li><li><a href="#the-developer-week-of-typing-practice">The developer week of typing practice</a></li><li><a href="#symbol-density-as-the-real-bottleneck-in-coding-">Symbol density as the real bottleneck in coding speed</a></li><li><a href="#three-levels-of-code-typing-practice-that-build-">Three levels of code typing practice that build on each other</a></li><li><a href="#compounding-returns-faster-typing-means-more-pra">Compounding returns: faster typing means more practice, which means faster typing</a></li></ol></nav>
     <h2 id="programmer-typing-speed">Programmer typing speed</h2>
@@ -651,6 +658,8 @@ body.typing-active footer{opacity:.26;filter:saturate(.72);pointer-events:none;}
     <details><summary>Does a mechanical keyboard improve code typing speed?</summary><p>Modestly and indirectly, through consistent actuation. Technique still does the lifting.</p></details>
     <details><summary>Should developers use Dvorak or another layout?</summary><p>Only if you type heavily every day with discomfort. For most developers, technique work on the current layout delivers bigger gains with no retraining cost.</p></details>
   </section>
+
+
 
   <footer>
     <a href="/">Typing.Rerivo</a> · Free online WPM typing test · <a href="typing-tests.html">Browse every typing test, grouped by goal</a>

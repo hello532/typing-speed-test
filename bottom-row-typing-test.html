@@ -468,6 +468,11 @@ body.typing-active footer{opacity:.26;filter:saturate(.72);pointer-events:none;}
 .tblwrap table{width:100%;min-width:520px;margin:0;}
 @media(max-width:560px){.tblwrap{position:relative;}
   .tblwrap::after{content:"";display:block;height:1px;}}
+
+/* 广告位（r110）：两个槽都在正文之后；未批号时 slot 为空，DOM 里不出现任何节点。
+   min-height 不预留，避免无广告时留白造成的视觉断裂；CLS 风险由「正文之后」的位置规避。 */
+.ad-slot{margin:28px 0;padding:0;text-align:center;overflow:hidden}
+.ad-slot ins{display:block}
 </style>
 <script>try{var _t=localStorage.getItem("trTheme");if(_t&&_t!=="dark")document.documentElement.setAttribute("data-theme",_t);var _l=localStorage.getItem("trLang");if(_l&&_l!=="en"){document.documentElement.lang=_l;if(_l==="ar")document.documentElement.dir="rtl";}}catch(e){}</script>
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1401237223139327"
@@ -602,6 +607,8 @@ body.typing-active footer{opacity:.26;filter:saturate(.72);pointer-events:none;}
     <ul><li><a href="colemak-typing.html">Colemak Typing Test</a></li><li><a href="dvorak-typing.html">Dvorak Typing Test</a></li><li><a href="dvorak-vs-qwerty.html">Dvorak vs QWERTY</a></li><li><a href="finger-placement-typing.html">Finger Placement Typing</a></li><li><a href="home-row-typing-test.html">Home Row Typing Test</a></li><li><a href="keyboard-layouts.html">Keyboard Layouts Compared</a></li><li><a href="keyboard-practice.html">Keyboard Practice</a></li><li><a href="keyboard-tester.html">Keyboard Tester</a></li></ul>
   </nav>
 
+
+
   <section class="seo">
     <h2 id="what-is-the-bottom-row">What is the bottom row?</h2>
     <p>The <strong>bottom row</strong> is <strong>Z X C V B N M</strong>, the row below the home keys. The left hand owns Z, X, C, V and B; the right hand owns N and M. It is the shortest letter row, with seven keys against ten on the top row.</p>
@@ -623,6 +630,8 @@ body.typing-active footer{opacity:.26;filter:saturate(.72);pointer-events:none;}
     <details><summary>Should I learn the bottom row last?</summary><p>Yes. Home row first, then the top row, then this one. Each row only makes sense once the return-to-home movement is automatic.</p></details>
     <details><summary>What is a good bottom row accuracy?</summary><p>Aim for 97 percent or better at a slow speed before raising it. Below about 95 percent the errors are usually hand position, not finger speed.</p></details>
   </section>
+
+
 
   <footer>
     <a href="/">Typing.Rerivo</a> · Free online WPM typing test · <a href="typing-tests.html">Browse every typing test, grouped by goal</a>

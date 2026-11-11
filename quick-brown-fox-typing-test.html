@@ -468,6 +468,11 @@ body.typing-active footer{opacity:.26;filter:saturate(.72);pointer-events:none;}
 .tblwrap table{width:100%;min-width:520px;margin:0;}
 @media(max-width:560px){.tblwrap{position:relative;}
   .tblwrap::after{content:"";display:block;height:1px;}}
+
+/* 广告位（r110）：两个槽都在正文之后；未批号时 slot 为空，DOM 里不出现任何节点。
+   min-height 不预留，避免无广告时留白造成的视觉断裂；CLS 风险由「正文之后」的位置规避。 */
+.ad-slot{margin:28px 0;padding:0;text-align:center;overflow:hidden}
+.ad-slot ins{display:block}
 </style>
 <script>try{var _t=localStorage.getItem("trTheme");if(_t&&_t!=="dark")document.documentElement.setAttribute("data-theme",_t);var _l=localStorage.getItem("trLang");if(_l&&_l!=="en"){document.documentElement.lang=_l;if(_l==="ar")document.documentElement.dir="rtl";}}catch(e){}</script>
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1401237223139327"
@@ -601,6 +606,8 @@ body.typing-active footer{opacity:.26;filter:saturate(.72);pointer-events:none;}
     <ul><li><a href="quotes-typing-test.html">Quotes Typing Test</a></li><li><a href="top-1000-english-words.html">1000 Most Common English Words</a></li><li><a href="touch-typing-test.html">Touch Typing Test</a></li><li><a href="typing-lessons.html">Typing Lessons</a></li><li><a href="typing-practice.html">Typing Practice</a></li><li><a href="typing-tips.html">Typing Tips</a></li><li><a href="typing-tutor.html">Typing Tutor</a></li><li><a href="typing-tutorial.html">Typing Tutorial</a></li></ul>
   </nav>
 
+
+
   <section class="seo">
     <nav class="toc" aria-label="On this page"><p>On this page</p><ol><li><a href="#what-is-the-quick-brown-fox-sentence">What is the quick brown fox sentence?</a></li><li><a href="#why-practise-with-pangrams">Why practise with pangrams?</a></li><li><a href="#quick-brown-fox-and-keyboard-checking">Quick brown fox and keyboard checking</a></li><li><a href="#where-the-sentence-comes-from">Where the sentence comes from</a></li><li><a href="#what-it-is-good-for-and-what-it-is-not">What it is good for, and what it is not</a></li><li><a href="#other-pangrams-worth-rotating">Other pangrams worth rotating</a></li></ol></nav>
     <h2 id="what-is-the-quick-brown-fox-sentence">What is the quick brown fox sentence?</h2>
@@ -633,6 +640,8 @@ body.typing-active footer{opacity:.26;filter:saturate(.72);pointer-events:none;}
     <details><summary>Why do typing tests use the quick brown fox?</summary><p>It is a pangram - it contains every letter of the alphabet - so one short line exercises every key. It has been used to test typewriters and keyboards since the late nineteenth century.</p></details>
     <details><summary>Is the quick brown fox a good speed test?</summary><p>No, for measurement. It is short and quickly memorised, so the score rises without skill changing. Use it as a warm-up or a key check, and measure on unseen text.</p></details>
   </section>
+
+
 
   <footer>
     <a href="/">Typing.Rerivo</a> · Free online WPM typing test · <a href="typing-tests.html">Browse every typing test, grouped by goal</a>

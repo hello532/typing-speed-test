@@ -468,6 +468,11 @@ body.typing-active footer{opacity:.26;filter:saturate(.72);pointer-events:none;}
 .tblwrap table{width:100%;min-width:520px;margin:0;}
 @media(max-width:560px){.tblwrap{position:relative;}
   .tblwrap::after{content:"";display:block;height:1px;}}
+
+/* 广告位（r110）：两个槽都在正文之后；未批号时 slot 为空，DOM 里不出现任何节点。
+   min-height 不预留，避免无广告时留白造成的视觉断裂；CLS 风险由「正文之后」的位置规避。 */
+.ad-slot{margin:28px 0;padding:0;text-align:center;overflow:hidden}
+.ad-slot ins{display:block}
 </style>
 <script>try{var _t=localStorage.getItem("trTheme");if(_t&&_t!=="dark")document.documentElement.setAttribute("data-theme",_t);var _l=localStorage.getItem("trLang");if(_l&&_l!=="en"){document.documentElement.lang=_l;if(_l==="ar")document.documentElement.dir="rtl";}}catch(e){}</script>
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1401237223139327"
@@ -602,6 +607,8 @@ body.typing-active footer{opacity:.26;filter:saturate(.72);pointer-events:none;}
     <ul><li><a href="online-typing-practice.html">Online Typing Practice</a></li><li><a href="pangram-typing-test.html">Pangram Typing Test</a></li><li><a href="paragraph-typing-test.html">Paragraph Typing Test</a></li><li><a href="punctuation-typing-test.html">Punctuation Typing Test</a></li><li><a href="quick-brown-fox-typing-test.html">Quick Brown Fox Typing Test</a></li><li><a href="quotes-typing-test.html">Quotes Typing Test</a></li><li><a href="top-1000-english-words.html">1000 Most Common English Words</a></li><li><a href="touch-typing-test.html">Touch Typing Test</a></li></ul>
   </nav>
 
+
+
   <section class="seo">
     <nav class="toc" aria-label="On this page"><p>On this page</p><ol><li><a href="#the-digit-row-is-a-separate-skill">The digit row is a separate skill</a></li><li><a href="#what-employers-actually-measure">What employers actually measure</a></li><li><a href="#how-to-practise-without-a-spreadsheet">How to practise without a spreadsheet</a></li><li><a href="#where-numeric-speed-pays">Where numeric speed pays</a></li><li><a href="#digits-fail-differently-from-letters">Digits fail differently from letters</a></li><li><a href="#drills-by-digit-group">Drills by digit group</a></li></ol></nav>
     <h2 id="the-digit-row-is-a-separate-skill">The digit row is a separate skill</h2>
@@ -633,6 +640,8 @@ body.typing-active footer{opacity:.26;filter:saturate(.72);pointer-events:none;}
     <details><summary>How much practice does it take?</summary><p>Two minutes twice a day for two to three weeks is enough to see a clear gain, mostly from the digit row ceasing to need a visual check.</p></details>
     <details><summary>Why do I transpose digits?</summary><p>Both digits are individually correct, so there is no visual signal that anything is wrong. It is the most common numeric error and the reason numeric work is scored on complete fields rather than on characters.</p></details>
   </section>
+
+
 
   <footer>
     <a href="/">Typing.Rerivo</a> · Free online WPM typing test · <a href="typing-tests.html">Browse every typing test, grouped by goal</a>

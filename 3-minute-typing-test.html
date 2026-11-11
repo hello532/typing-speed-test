@@ -468,6 +468,11 @@ body.typing-active footer{opacity:.26;filter:saturate(.72);pointer-events:none;}
 .tblwrap table{width:100%;min-width:520px;margin:0;}
 @media(max-width:560px){.tblwrap{position:relative;}
   .tblwrap::after{content:"";display:block;height:1px;}}
+
+/* 广告位（r110）：两个槽都在正文之后；未批号时 slot 为空，DOM 里不出现任何节点。
+   min-height 不预留，避免无广告时留白造成的视觉断裂；CLS 风险由「正文之后」的位置规避。 */
+.ad-slot{margin:28px 0;padding:0;text-align:center;overflow:hidden}
+.ad-slot ins{display:block}
 </style>
 <script>try{var _t=localStorage.getItem("trTheme");if(_t&&_t!=="dark")document.documentElement.setAttribute("data-theme",_t);var _l=localStorage.getItem("trLang");if(_l&&_l!=="en"){document.documentElement.lang=_l;if(_l==="ar")document.documentElement.dir="rtl";}}catch(e){}</script>
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1401237223139327"
@@ -602,6 +607,8 @@ body.typing-active footer{opacity:.26;filter:saturate(.72);pointer-events:none;}
     <ul><li><a href="1-minute-typing-test.html">1 Minute Typing Test</a></li><li><a href="10-minute-typing-test.html">10 Minute Typing Test</a></li><li><a href="15-second-typing-test.html">15 Second Typing Test</a></li><li><a href="2-minute-typing-test.html">2 Minute Typing Test</a></li><li><a href="30-second-typing-test.html">30 Second Typing Test</a></li><li><a href="5-minute-typing-test.html">5 Minute Typing Test</a></li><li><a href="timed-typing-test.html">Timed Typing Test</a></li></ul>
   </nav>
 
+
+
   <section class="seo">
     <nav class="toc" aria-label="On this page"><p>On this page</p><ol><li><a href="#3-minute-typing-test">3 minute typing test</a></li><li><a href="#why-test-for-3-minutes">Why test for 3 minutes?</a></li><li><a href="#what-is-a-good-3-minute-wpm">What is a good 3 minute WPM?</a></li><li><a href="#mistakes-that-lower-your-3-minute-score">Mistakes that lower your 3 minute score</a></li><li><a href="#3-minute-typing-test-scores-by-role">3 minute typing test scores by role</a></li><li><a href="#how-to-pace-a-3-minute-round">How to pace a 3 minute round</a></li><li><a href="#3-minute-typing-test-for-job-screening">3 minute typing test for job screening</a></li><li><a href="#3-minute-vs-5-minute-vs-10-minute">3 minute vs 5 minute vs 10 minute</a></li><li><a href="#moving-between-test-lengths">Moving between test lengths</a></li><li><a href="#how-this-round-is-scored">How this round is scored</a></li></ol></nav>
     <h2 id="3-minute-typing-test">3 minute typing test</h2>
@@ -641,6 +648,8 @@ body.typing-active footer{opacity:.26;filter:saturate(.72);pointer-events:none;}
     <details><summary>Does it track my accuracy too?</summary><p>Yes. Alongside WPM you get accuracy, error count and character-level stats for every round.</p></details>
     <details><summary>How does a 3 minute test compare with a 1 minute test?</summary><p>A 1 minute test measures peak speed and swings 10-15 WPM on an unfamiliar sentence. Three minutes averages that noise out and exposes whether you can hold speed with accuracy, which is why screening tests prefer it.</p></details>
   </section>
+
+
 
   <footer>
     <a href="/">Typing.Rerivo</a> · Free online WPM typing test · <a href="typing-tests.html">Browse every typing test, grouped by goal</a>

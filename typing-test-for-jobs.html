@@ -468,6 +468,11 @@ body.typing-active footer{opacity:.26;filter:saturate(.72);pointer-events:none;}
 .tblwrap table{width:100%;min-width:520px;margin:0;}
 @media(max-width:560px){.tblwrap{position:relative;}
   .tblwrap::after{content:"";display:block;height:1px;}}
+
+/* 广告位（r110）：两个槽都在正文之后；未批号时 slot 为空，DOM 里不出现任何节点。
+   min-height 不预留，避免无广告时留白造成的视觉断裂；CLS 风险由「正文之后」的位置规避。 */
+.ad-slot{margin:28px 0;padding:0;text-align:center;overflow:hidden}
+.ad-slot ins{display:block}
 </style>
 <script>try{var _t=localStorage.getItem("trTheme");if(_t&&_t!=="dark")document.documentElement.setAttribute("data-theme",_t);var _l=localStorage.getItem("trLang");if(_l&&_l!=="en"){document.documentElement.lang=_l;if(_l==="ar")document.documentElement.dir="rtl";}}catch(e){}</script>
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1401237223139327"
@@ -601,6 +606,8 @@ body.typing-active footer{opacity:.26;filter:saturate(.72);pointer-events:none;}
     <ul><li><a href="data-entry-job-requirements.html">Data Entry Job Requirements</a></li><li><a href="data-entry-practice.html">Data Entry Practice</a></li><li><a href="data-entry-typing-test.html">Data Entry Typing Test</a></li><li><a href="typing-certificate.html">Typing Certificate</a></li><li><a href="alphanumeric-typing-test.html">Alphanumeric Typing Test</a></li><li><a href="30-day-typing-improvement-plan.html">30-Day Typing Improvement Plan</a></li></ul>
   </nav>
 
+
+
   <section class="seo">
     <h2 id="what-typing-speed-do-employers-require">What typing speed do employers require?</h2>
     <p>Hiring bars are stated as net WPM with an accuracy floor — the table shows what employers commonly ask for by role, plus the test length you will usually face. Most office jobs expect <strong>50–60 WPM</strong>; roles where typing is central ask for <strong>60–90 WPM</strong>, almost always with 95–98%+ accuracy. Recruitment platforms screen with a <strong>typing assessment</strong> rather than a practice round, so treat this as exam conditions: one attempt, no retries, and a score you would be happy to send.</p>
@@ -625,6 +632,8 @@ body.typing-active footer{opacity:.26;filter:saturate(.72);pointer-events:none;}
     <details><summary>How can I prepare for an employment typing test?</summary><p>Practise a timed test at the length the employer uses, prioritise accuracy over raw speed, and get used to typing real sentences with punctuation and numbers rather than simple word lists.</p></details>
     <details><summary>Is this the same as a typing assessment or typing exam?</summary><p>Functionally yes. A pre-employment typing assessment, a typing exam and a job typing test all measure the same two numbers — net WPM and accuracy — under timed conditions. Practising here with one-attempt rounds is the closest rehearsal you can get without the recruiter watching.</p></details>
   </section>
+
+
 
   <footer>
     <a href="/">Typing.Rerivo</a> · Free online WPM typing test · <a href="typing-tests.html">Browse every typing test, grouped by goal</a>

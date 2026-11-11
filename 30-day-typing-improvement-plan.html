@@ -470,6 +470,11 @@ body.typing-active footer{opacity:.26;filter:saturate(.72);pointer-events:none;}
 .tblwrap table{width:100%;min-width:520px;margin:0;}
 @media(max-width:560px){.tblwrap{position:relative;}
   .tblwrap::after{content:"";display:block;height:1px;}}
+
+/* 广告位（r110）：两个槽都在正文之后；未批号时 slot 为空，DOM 里不出现任何节点。
+   min-height 不预留，避免无广告时留白造成的视觉断裂；CLS 风险由「正文之后」的位置规避。 */
+.ad-slot{margin:28px 0;padding:0;text-align:center;overflow:hidden}
+.ad-slot ins{display:block}
 </style>
 <script>try{var _t=localStorage.getItem("trTheme");if(_t&&_t!=="dark")document.documentElement.setAttribute("data-theme",_t);var _l=localStorage.getItem("trLang");if(_l&&_l!=="en"){document.documentElement.lang=_l;if(_l==="ar")document.documentElement.dir="rtl";}}catch(e){}</script>
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1401237223139327"
@@ -603,6 +608,8 @@ body.typing-active footer{opacity:.26;filter:saturate(.72);pointer-events:none;}
     <ul><li><a href="data-entry-job-requirements.html">Data Entry Job Requirements</a></li><li><a href="data-entry-practice.html">Data Entry Practice</a></li><li><a href="data-entry-typing-test.html">Data Entry Typing Test</a></li><li><a href="typing-certificate.html">Typing Certificate</a></li><li><a href="typing-test-for-jobs.html">Typing Test for Jobs</a></li><li><a href="alphanumeric-typing-test.html">Alphanumeric Typing Test</a></li></ul>
   </nav>
 
+
+
   <section class="seo">
     <nav class="toc" aria-label="On this page"><p>On this page</p><ol><li><a href="#the-daily-block-15-minutes">The daily block (15 minutes)</a></li><li><a href="#week-1-remove-the-two-habits-that-cap-speed">Week 1 — remove the two habits that cap speed</a></li><li><a href="#week-2-make-the-home-row-automatic">Week 2 — make the home row automatic</a></li><li><a href="#week-3-accuracy-at-speed-punctuation-and-digits">Week 3 — accuracy at speed, punctuation and digits</a></li><li><a href="#week-4-full-length-and-consistency">Week 4 — full length and consistency</a></li><li><a href="#what-to-do-on-day-31">What to do on day 31</a></li></ol></nav>
     <h2 id="the-daily-block-15-minutes">The daily block (15 minutes)</h2>
@@ -634,6 +641,8 @@ body.typing-active footer{opacity:.26;filter:saturate(.72);pointer-events:none;}
     <details><summary>Do I need special software?</summary><p>No. Timed rounds, a covered keyboard (a cloth works), and a note of your scores are enough. The drill content matters more than the tool.</p></details>
     <details><summary>When should I stop the plan?</summary><p>At day 30, then switch to maintenance: five minutes, four days a week. Deliberate practice has diminishing returns once your habits are clean.</p></details>
   </section>
+
+
 
   <footer>
     <a href="/">Typing.Rerivo</a> · Free online WPM typing test · <a href="typing-tests.html">Browse every typing test, grouped by goal</a>

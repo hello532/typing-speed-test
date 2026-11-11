@@ -468,6 +468,11 @@ body.typing-active footer{opacity:.26;filter:saturate(.72);pointer-events:none;}
 .tblwrap table{width:100%;min-width:520px;margin:0;}
 @media(max-width:560px){.tblwrap{position:relative;}
   .tblwrap::after{content:"";display:block;height:1px;}}
+
+/* 广告位（r110）：两个槽都在正文之后；未批号时 slot 为空，DOM 里不出现任何节点。
+   min-height 不预留，避免无广告时留白造成的视觉断裂；CLS 风险由「正文之后」的位置规避。 */
+.ad-slot{margin:28px 0;padding:0;text-align:center;overflow:hidden}
+.ad-slot ins{display:block}
 </style>
 <script>try{var _t=localStorage.getItem("trTheme");if(_t&&_t!=="dark")document.documentElement.setAttribute("data-theme",_t);var _l=localStorage.getItem("trLang");if(_l&&_l!=="en"){document.documentElement.lang=_l;if(_l==="ar")document.documentElement.dir="rtl";}}catch(e){}</script>
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1401237223139327"
@@ -601,6 +606,8 @@ body.typing-active footer{opacity:.26;filter:saturate(.72);pointer-events:none;}
     <ul><li><a href="finger-placement-typing.html">Finger Placement Typing</a></li><li><a href="home-row-typing-test.html">Home Row Typing Test</a></li><li><a href="keyboard-layouts.html">Keyboard Layouts Compared</a></li><li><a href="keyboard-practice.html">Keyboard Practice</a></li><li><a href="keyboard-tester.html">Keyboard Tester</a></li><li><a href="keyboard-typing-test.html">Keyboard Typing Test</a></li><li><a href="mechanical-keyboard-for-typing.html">Mechanical Keyboard for Typing</a></li><li><a href="one-hand-typing.html">One Hand Typing</a></li></ul>
   </nav>
 
+
+
   <section class="seo">
     <nav class="toc" aria-label="On this page"><p>On this page</p><ol><li><a href="#how-the-two-layouts-differ">How the two layouts differ</a></li><li><a href="#what-the-speed-evidence-actually-says">What the speed evidence actually says</a></li><li><a href="#the-comfort-argument-which-is-stronger">The comfort argument, which is stronger</a></li><li><a href="#the-hidden-costs-of-switching">The hidden costs of switching</a></li><li><a href="#who-should-switch-and-who-should-not">Who should switch, and who should not</a></li><li><a href="#try-before-you-commit">Try before you commit</a></li><li><a href="#the-verdict-in-one-paragraph">The verdict in one paragraph</a></li><li><a href="#the-history-that-explains-the-inertia">The history that explains the inertia</a></li><li><a href="#dvorak-for-programmers-and-symbol-heavy-work">Dvorak for programmers and symbol-heavy work</a></li><li><a href="#making-the-final-decision">Making the final decision</a></li></ol></nav>
     <h2 id="how-the-two-layouts-differ">How the two layouts differ</h2>
@@ -643,6 +650,8 @@ body.typing-active footer{opacity:.26;filter:saturate(.72);pointer-events:none;}
     <details><summary>Should I switch from QWERTY to Dvorak?</summary><p>Only if you type heavily every day with discomfort, or you are starting from zero. For most people, technique work on QWERTY (home row, accuracy-first, weak keys) delivers bigger gains with no retraining cost.</p></details>
     <details><summary>What about Colemak?</summary><p>Colemak keeps most QWERTY key positions and shortcuts while moving common letters to the home row — much of Dvorak's comfort benefit with a shorter retraining curve. A pragmatic middle option for switch-curious typists.</p></details>
   </section>
+
+
 
   <footer>
     <a href="/">Typing.Rerivo</a> · Free online WPM typing test · <a href="typing-tests.html">Browse every typing test, grouped by goal</a>

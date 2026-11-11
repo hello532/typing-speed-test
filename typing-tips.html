@@ -468,6 +468,11 @@ body.typing-active footer{opacity:.26;filter:saturate(.72);pointer-events:none;}
 .tblwrap table{width:100%;min-width:520px;margin:0;}
 @media(max-width:560px){.tblwrap{position:relative;}
   .tblwrap::after{content:"";display:block;height:1px;}}
+
+/* 广告位（r110）：两个槽都在正文之后；未批号时 slot 为空，DOM 里不出现任何节点。
+   min-height 不预留，避免无广告时留白造成的视觉断裂；CLS 风险由「正文之后」的位置规避。 */
+.ad-slot{margin:28px 0;padding:0;text-align:center;overflow:hidden}
+.ad-slot ins{display:block}
 </style>
 <script>try{var _t=localStorage.getItem("trTheme");if(_t&&_t!=="dark")document.documentElement.setAttribute("data-theme",_t);var _l=localStorage.getItem("trLang");if(_l&&_l!=="en"){document.documentElement.lang=_l;if(_l==="ar")document.documentElement.dir="rtl";}}catch(e){}</script>
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1401237223139327"
@@ -601,6 +606,8 @@ body.typing-active footer{opacity:.26;filter:saturate(.72);pointer-events:none;}
     <ul><li><a href="audio-typing-tips.html">Audio Typing Tips</a></li><li><a href="typing-tutor.html">Typing Tutor</a></li><li><a href="typing-tutorial.html">Typing Tutorial</a></li><li><a href="sql-typing-practice.html">SQL Typing Practice</a></li><li><a href="excel-formula-typing-practice.html">Excel Formula Typing Practice</a></li><li><a href="touch-typing-course.html">Touch Typing Course: 12 Lessons</a></li><li><a href="keyboard-layout-for-programmers.html">Best Keyboard Layout for Programmers</a></li><li><a href="wrist-pain-from-typing.html">Wrist Pain From Typing</a></li></ul>
   </nav>
 
+
+
   <section class="seo">
     <h2 id="typing-tips">typing tips</h2>
     <p>The best <strong>typing tips</strong> are the boring ones, because typing is pure muscle memory. Anything you repeat daily becomes automatic, and anything you shortcut becomes a habit you later have to unlearn. Pick two or three tips below and apply them for a week rather than reading all of them once. Small adjustments to hand position and attention add up faster than any speed-typing trick.</p>
@@ -625,6 +632,8 @@ body.typing-active footer{opacity:.26;filter:saturate(.72);pointer-events:none;}
     <details><summary>How do I improve my typing accuracy?</summary><p>Slow down until you make almost no errors, finish each word before correcting, and practice the number and punctuation sets, which cause most mistakes. Accuracy is a habit, not a limit, and it is what ultimately raises your speed.</p></details>
     <details><summary>What is a good typing posture?</summary><p>Feet flat, back supported, shoulders relaxed, forearms roughly parallel to the floor, and the screen top at eye height. Your wrists should float over the keyboard rather than resting heavily on the desk, which keeps your fingers quick and pain-free.</p></details>
   </section>
+
+
 
   <footer>
     <a href="/">Typing.Rerivo</a> · Free online WPM typing test · <a href="typing-tests.html">Browse every typing test, grouped by goal</a>

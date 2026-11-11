@@ -468,6 +468,11 @@ body.typing-active footer{opacity:.26;filter:saturate(.72);pointer-events:none;}
 .tblwrap table{width:100%;min-width:520px;margin:0;}
 @media(max-width:560px){.tblwrap{position:relative;}
   .tblwrap::after{content:"";display:block;height:1px;}}
+
+/* 广告位（r110）：两个槽都在正文之后；未批号时 slot 为空，DOM 里不出现任何节点。
+   min-height 不预留，避免无广告时留白造成的视觉断裂；CLS 风险由「正文之后」的位置规避。 */
+.ad-slot{margin:28px 0;padding:0;text-align:center;overflow:hidden}
+.ad-slot ins{display:block}
 </style>
 <script>try{var _t=localStorage.getItem("trTheme");if(_t&&_t!=="dark")document.documentElement.setAttribute("data-theme",_t);var _l=localStorage.getItem("trLang");if(_l&&_l!=="en"){document.documentElement.lang=_l;if(_l==="ar")document.documentElement.dir="rtl";}}catch(e){}</script>
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1401237223139327"
@@ -601,6 +606,8 @@ body.typing-active footer{opacity:.26;filter:saturate(.72);pointer-events:none;}
     <ul><li><a href="how-long-to-learn-touch-typing.html">How Long to Learn Touch Typing</a></li><li><a href="how-to-get-a-typing-job.html">How to Get a Typing Job</a></li><li><a href="how-to-get-better-at-typing.html">How to Get Better at Typing</a></li><li><a href="how-to-type-without-looking.html">How to Type Without Looking at the Keyboard</a></li><li><a href="is-it-hard-to-learn-touch-typing.html">Is It Hard to Learn Touch Typing?</a></li><li><a href="learn-to-type.html">Learn to Type</a></li><li><a href="number-typing-test.html">Number Typing Test</a></li><li><a href="online-typing-practice.html">Online Typing Practice</a></li></ul>
   </nav>
 
+
+
   <section class="seo">
     <h2 id="what-makes-text-hard">What makes text hard</h2>
     <p>Four things, in order of impact: <strong>mixed capitals</strong> (Shift with the opposite hand, every time), <strong>digits</strong> (extended reaches with no tactile landmark), <strong>punctuation</strong> (often a two-key combination), and <strong>long words</strong> (more consecutive keystrokes with no space to reset).</p>
@@ -625,6 +632,8 @@ body.typing-active footer{opacity:.26;filter:saturate(.72);pointer-events:none;}
     <details><summary>Should I practise hard text every day?</summary><p>No. Use it weekly as a diagnostic, then spend the daily sessions on the specific weakness it exposes - digits, capitals or punctuation.</p></details>
     <details><summary>Do errors count on capitals?</summary><p>Yes. An omitted capital or full stop is an error on every mainstream typing test, and in real documents it is worse than being slow.</p></details>
   </section>
+
+
 
   <footer>
     <a href="/">Typing.Rerivo</a> · Free online WPM typing test · <a href="typing-tests.html">Browse every typing test, grouped by goal</a>

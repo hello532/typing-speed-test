@@ -468,6 +468,11 @@ body.typing-active footer{opacity:.26;filter:saturate(.72);pointer-events:none;}
 .tblwrap table{width:100%;min-width:520px;margin:0;}
 @media(max-width:560px){.tblwrap{position:relative;}
   .tblwrap::after{content:"";display:block;height:1px;}}
+
+/* 广告位（r110）：两个槽都在正文之后；未批号时 slot 为空，DOM 里不出现任何节点。
+   min-height 不预留，避免无广告时留白造成的视觉断裂；CLS 风险由「正文之后」的位置规避。 */
+.ad-slot{margin:28px 0;padding:0;text-align:center;overflow:hidden}
+.ad-slot ins{display:block}
 </style>
 <script>try{var _t=localStorage.getItem("trTheme");if(_t&&_t!=="dark")document.documentElement.setAttribute("data-theme",_t);var _l=localStorage.getItem("trLang");if(_l&&_l!=="en"){document.documentElement.lang=_l;if(_l==="ar")document.documentElement.dir="rtl";}}catch(e){}</script>
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1401237223139327"
@@ -601,6 +606,8 @@ body.typing-active footer{opacity:.26;filter:saturate(.72);pointer-events:none;}
     <ul><li><a href="typing-tips.html">Typing Tips</a></li><li><a href="typing-tutor.html">Typing Tutor</a></li><li><a href="typing-tutorial.html">Typing Tutorial</a></li><li><a href="sql-typing-practice.html">SQL Typing Practice</a></li><li><a href="excel-formula-typing-practice.html">Excel Formula Typing Practice</a></li><li><a href="touch-typing-course.html">Touch Typing Course: 12 Lessons</a></li><li><a href="keyboard-layout-for-programmers.html">Best Keyboard Layout for Programmers</a></li><li><a href="wrist-pain-from-typing.html">Wrist Pain From Typing</a></li></ul>
   </nav>
 
+
+
   <section class="seo">
     <nav class="toc" aria-label="On this page"><p>On this page</p><ol><li><a href="#typing-practice">typing practice</a></li><li><a href="#start-here-today-s-ten-minutes">Start here: today's ten minutes</a></li><li><a href="#a-four-week-practice-plan">A four-week practice plan</a></li><li><a href="#the-four-bottlenecks-practice-must-target">The four bottlenecks practice must target</a></li><li><a href="#drills-by-bottleneck">Drills by bottleneck</a></li><li><a href="#typing-exercises-for-every-skill">Typing exercises for every skill</a></li><li><a href="#when-practice-stops-working">When practice stops working</a></li><li><a href="#how-to-know-your-practice-is-working">How to know your practice is working</a></li><li><a href="#common-practice-mistakes">Common practice mistakes</a></li><li><a href="#practising-for-a-specific-goal">Practising for a specific goal</a></li><li><a href="#free-online-typing-practice-without-the-sign-up-">Free online typing practice, without the sign-up wall</a></li><li><a href="#more-ways-to-practise-online">More ways to practise online</a></li></ol></nav>
     <h2 id="typing-practice">typing practice</h2>
@@ -662,6 +669,8 @@ body.typing-active footer{opacity:.26;filter:saturate(.72);pointer-events:none;}
     <details><summary>How long should I practise typing each day?</summary><p>Ten to fifteen minutes. Short daily sessions build the motor pattern; a single long weekly session mostly builds frustration and fatigue.</p></details>
     <details><summary>What is the best online typing practice?</summary><p>The one you repeat. A structured plan matters more than the brand: a covered round for the look-down habit, an accuracy round, and one timed test per week.</p></details>
   </section>
+
+
 
   <footer>
     <a href="/">Typing.Rerivo</a> · Free online WPM typing test · <a href="typing-tests.html">Browse every typing test, grouped by goal</a>

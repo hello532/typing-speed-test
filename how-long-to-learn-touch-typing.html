@@ -468,6 +468,11 @@ body.typing-active footer{opacity:.26;filter:saturate(.72);pointer-events:none;}
 .tblwrap table{width:100%;min-width:520px;margin:0;}
 @media(max-width:560px){.tblwrap{position:relative;}
   .tblwrap::after{content:"";display:block;height:1px;}}
+
+/* 广告位（r110）：两个槽都在正文之后；未批号时 slot 为空，DOM 里不出现任何节点。
+   min-height 不预留，避免无广告时留白造成的视觉断裂；CLS 风险由「正文之后」的位置规避。 */
+.ad-slot{margin:28px 0;padding:0;text-align:center;overflow:hidden}
+.ad-slot ins{display:block}
 </style>
 <script>try{var _t=localStorage.getItem("trTheme");if(_t&&_t!=="dark")document.documentElement.setAttribute("data-theme",_t);var _l=localStorage.getItem("trLang");if(_l&&_l!=="en"){document.documentElement.lang=_l;if(_l==="ar")document.documentElement.dir="rtl";}}catch(e){}</script>
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1401237223139327"
@@ -601,6 +606,8 @@ body.typing-active footer{opacity:.26;filter:saturate(.72);pointer-events:none;}
     <ul><li><a href="how-to-get-a-typing-job.html">How to Get a Typing Job</a></li><li><a href="how-to-get-better-at-typing.html">How to Get Better at Typing</a></li><li><a href="how-to-type-without-looking.html">How to Type Without Looking at the Keyboard</a></li><li><a href="is-it-hard-to-learn-touch-typing.html">Is It Hard to Learn Touch Typing?</a></li><li><a href="learn-to-type.html">Learn to Type</a></li><li><a href="number-typing-test.html">Number Typing Test</a></li><li><a href="online-typing-practice.html">Online Typing Practice</a></li><li><a href="pangram-typing-test.html">Pangram Typing Test</a></li></ul>
   </nav>
 
+
+
   <section class="seo">
     <nav class="toc" aria-label="On this page"><p>On this page</p><ol><li><a href="#the-short-answer-and-its-caveat">The short answer and its caveat</a></li><li><a href="#week-one-the-uncomfortable-alphabet">Week one: the uncomfortable alphabet</a></li><li><a href="#weeks-two-and-three-sentences-without-sight">Weeks two and three: sentences without sight</a></li><li><a href="#weeks-four-to-eight-the-automaticity-phase">Weeks four to eight: the automaticity phase</a></li><li><a href="#what-speeds-the-timeline-up">What speeds the timeline up</a></li><li><a href="#what-slows-the-timeline-down">What slows the timeline down</a></li><li><a href="#measuring-your-own-timeline">Measuring your own timeline</a></li><li><a href="#learning-at-different-ages-what-the-timeline-loo">Learning at different ages: what the timeline looks like</a></li><li><a href="#intensive-vs-casual-timelines">Intensive vs casual timelines</a></li><li><a href="#signs-you-are-ahead-of-schedule">Signs you are ahead of schedule</a></li></ol></nav>
     <h2 id="the-short-answer-and-its-caveat">The short answer and its caveat</h2>
@@ -643,6 +650,8 @@ body.typing-active footer{opacity:.26;filter:saturate(.72);pointer-events:none;}
     <details><summary>Why am I slower after two weeks of touch typing?</summary><p>That is the unlearning dip, and it means the method is working: old habits are being replaced before the new ones reach full speed. It typically breaks in week three to five — do not mix methods during it.</p></details>
     <details><summary>Is it too late to learn touch typing as an adult?</summary><p>No. Adults reach the same automaticity on nearly the same timeline as teens, needing only more patience in week one. Age changes where the curve starts, never how high it goes.</p></details>
   </section>
+
+
 
   <footer>
     <a href="/">Typing.Rerivo</a> · Free online WPM typing test · <a href="typing-tests.html">Browse every typing test, grouped by goal</a>

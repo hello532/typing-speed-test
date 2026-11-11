@@ -468,6 +468,11 @@ body.typing-active footer{opacity:.26;filter:saturate(.72);pointer-events:none;}
 .tblwrap table{width:100%;min-width:520px;margin:0;}
 @media(max-width:560px){.tblwrap{position:relative;}
   .tblwrap::after{content:"";display:block;height:1px;}}
+
+/* 广告位（r110）：两个槽都在正文之后；未批号时 slot 为空，DOM 里不出现任何节点。
+   min-height 不预留，避免无广告时留白造成的视觉断裂；CLS 风险由「正文之后」的位置规避。 */
+.ad-slot{margin:28px 0;padding:0;text-align:center;overflow:hidden}
+.ad-slot ins{display:block}
 </style>
 <script>try{var _t=localStorage.getItem("trTheme");if(_t&&_t!=="dark")document.documentElement.setAttribute("data-theme",_t);var _l=localStorage.getItem("trLang");if(_l&&_l!=="en"){document.documentElement.lang=_l;if(_l==="ar")document.documentElement.dir="rtl";}}catch(e){}</script>
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1401237223139327"
@@ -600,6 +605,8 @@ body.typing-active footer{opacity:.26;filter:saturate(.72);pointer-events:none;}
     <h2>Practice and lessons</h2>
     <ul><li><a href="touch-typing-test.html">Touch Typing Test</a></li><li><a href="typing-lessons.html">Typing Lessons</a></li><li><a href="typing-practice.html">Typing Practice</a></li><li><a href="typing-tips.html">Typing Tips</a></li><li><a href="typing-tutor.html">Typing Tutor</a></li><li><a href="typing-tutorial.html">Typing Tutorial</a></li><li><a href="sql-typing-practice.html">SQL Typing Practice</a></li><li><a href="excel-formula-typing-practice.html">Excel Formula Typing Practice</a></li></ul>
   </nav>
+
+
 
   <section class="seo">
     <h2 id="the-1000-most-common-english-words">The 1000 most common English words</h2>
@@ -878,6 +885,8 @@ body.typing-active footer{opacity:.26;filter:saturate(.72);pointer-events:none;}
     <details><summary>Is this word list free?</summary><p>Yes — the list and the typing practice test are free with no sign up, and the practice history stays on your own device.</p></details>
     <details><summary>How should I practise with this list?</summary><p>Short daily rounds on the built-in test, accuracy first (97%+), plus weak-key drills from the result report. Move to sentences on the English typing test once the words feel automatic.</p></details>
   </section>
+
+
 
   <footer>
     <a href="/">Typing.Rerivo</a> · Free online WPM typing test · <a href="typing-tests.html">Browse every typing test, grouped by goal</a>

@@ -468,6 +468,11 @@ body.typing-active footer{opacity:.26;filter:saturate(.72);pointer-events:none;}
 .tblwrap table{width:100%;min-width:520px;margin:0;}
 @media(max-width:560px){.tblwrap{position:relative;}
   .tblwrap::after{content:"";display:block;height:1px;}}
+
+/* 广告位（r110）：两个槽都在正文之后；未批号时 slot 为空，DOM 里不出现任何节点。
+   min-height 不预留，避免无广告时留白造成的视觉断裂；CLS 风险由「正文之后」的位置规避。 */
+.ad-slot{margin:28px 0;padding:0;text-align:center;overflow:hidden}
+.ad-slot ins{display:block}
 </style>
 <script>try{var _t=localStorage.getItem("trTheme");if(_t&&_t!=="dark")document.documentElement.setAttribute("data-theme",_t);var _l=localStorage.getItem("trLang");if(_l&&_l!=="en"){document.documentElement.lang=_l;if(_l==="ar")document.documentElement.dir="rtl";}}catch(e){}
 window.__trPageLang="ur";</script>
@@ -602,6 +607,8 @@ window.__trPageLang="ur";</script>
     <ul><li><a href="arabic-typing-test.html">Arabic Typing Test</a></li><li><a href="chinese-typing-test.html">Chinese Typing Test</a></li><li><a href="english-typing-test.html">English Typing Test</a></li><li><a href="hindi-typing-test.html">Hindi Typing Test</a></li><li><a href="indonesian-typing-test.html">Tes Mengetik Online</a></li><li><a href="vietnamese-typing-test.html">Kiểm Tra Tốc Độ Gõ Phím Tiếng Việt</a></li><li><a href="german-typing-test.html">German Typing Test</a></li><li><a href="french-typing-test.html">French Typing Test</a></li></ul>
   </nav>
 
+
+
   <section class="seo">
     <h2 id="nastaliq-is-a-joining-script-with-context-depend">Nastaliq is a joining script with context-dependent shapes</h2>
     <p>Urdu is written right to left in Nastaliq, where most letters change shape depending on what joins them on either side. You still press one key per letter - the shaping is the font's job - but the visual result is not one glyph per keystroke, which makes proofreading harder than in Latin script.</p>
@@ -626,6 +633,8 @@ window.__trPageLang="ur";</script>
     <details><summary>What is a good Urdu typing speed?</summary><p>200-250 characters per minute (40-50 words per minute) is comfortable office speed. Government and clerical tests commonly ask 20-30 words per minute for entry-level posts.</p></details>
     <details><summary>Do I need a special keyboard?</summary><p>No. The Urdu layout keeps Latin letters on the same keys, so you add it in your operating system and switch with a shortcut.</p></details>
   </section>
+
+
 
   <footer>
     <a href="/">Typing.Rerivo</a> · Free online WPM typing test · <a href="typing-tests.html">Browse every typing test, grouped by goal</a>

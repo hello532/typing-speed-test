@@ -468,6 +468,11 @@ body.typing-active footer{opacity:.26;filter:saturate(.72);pointer-events:none;}
 .tblwrap table{width:100%;min-width:520px;margin:0;}
 @media(max-width:560px){.tblwrap{position:relative;}
   .tblwrap::after{content:"";display:block;height:1px;}}
+
+/* 广告位（r110）：两个槽都在正文之后；未批号时 slot 为空，DOM 里不出现任何节点。
+   min-height 不预留，避免无广告时留白造成的视觉断裂；CLS 风险由「正文之后」的位置规避。 */
+.ad-slot{margin:28px 0;padding:0;text-align:center;overflow:hidden}
+.ad-slot ins{display:block}
 </style>
 <script>try{var _t=localStorage.getItem("trTheme");if(_t&&_t!=="dark")document.documentElement.setAttribute("data-theme",_t);var _l=localStorage.getItem("trLang");if(_l&&_l!=="en"){document.documentElement.lang=_l;if(_l==="ar")document.documentElement.dir="rtl";}}catch(e){}</script>
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1401237223139327"
@@ -601,6 +606,8 @@ body.typing-active footer{opacity:.26;filter:saturate(.72);pointer-events:none;}
     <ul><li><a href="fastest-typing-speed-record.html">Fastest Typing Speed Records</a></li><li><a href="hard-typing-test.html">Hard Typing Test</a></li><li><a href="how-long-to-learn-touch-typing.html">How Long to Learn Touch Typing</a></li><li><a href="how-to-get-a-typing-job.html">How to Get a Typing Job</a></li><li><a href="how-to-get-better-at-typing.html">How to Get Better at Typing</a></li><li><a href="how-to-type-without-looking.html">How to Type Without Looking at the Keyboard</a></li><li><a href="is-it-hard-to-learn-touch-typing.html">Is It Hard to Learn Touch Typing?</a></li><li><a href="learn-to-type.html">Learn to Type</a></li></ul>
   </nav>
 
+
+
   <section class="seo">
     <h2 id="what-counts-as-fast">What counts as fast</h2>
     <p>Fast is relative but the bands are stable: 60 WPM is the 66th percentile, 78 WPM starts the top 10%, and 100 WPM is roughly the top 1%. Anything above 60 clears every clerical job requirement; above 80, extra speed is a personal project rather than an employability gain.</p>
@@ -624,6 +631,8 @@ body.typing-active footer{opacity:.26;filter:saturate(.72);pointer-events:none;}
     <details><summary>How long does it take to get fast?</summary><p>From 30 to 50 WPM usually takes one to three months of short daily practice; 50 to 70 takes longer; 70 to 90 is typically measured in months to years.</p></details>
     <details><summary>Does a mechanical keyboard make you faster?</summary><p>Slightly, for most people - shorter travel and clearer feedback. It is worth 3-8 WPM at best, well behind touch typing and error handling.</p></details>
   </section>
+
+
 
   <footer>
     <a href="/">Typing.Rerivo</a> · Free online WPM typing test · <a href="typing-tests.html">Browse every typing test, grouped by goal</a>

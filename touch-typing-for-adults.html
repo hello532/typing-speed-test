@@ -468,6 +468,11 @@ body.typing-active footer{opacity:.26;filter:saturate(.72);pointer-events:none;}
 .tblwrap table{width:100%;min-width:520px;margin:0;}
 @media(max-width:560px){.tblwrap{position:relative;}
   .tblwrap::after{content:"";display:block;height:1px;}}
+
+/* 广告位（r110）：两个槽都在正文之后；未批号时 slot 为空，DOM 里不出现任何节点。
+   min-height 不预留，避免无广告时留白造成的视觉断裂；CLS 风险由「正文之后」的位置规避。 */
+.ad-slot{margin:28px 0;padding:0;text-align:center;overflow:hidden}
+.ad-slot ins{display:block}
 </style>
 <script>try{var _t=localStorage.getItem("trTheme");if(_t&&_t!=="dark")document.documentElement.setAttribute("data-theme",_t);var _l=localStorage.getItem("trLang");if(_l&&_l!=="en"){document.documentElement.lang=_l;if(_l==="ar")document.documentElement.dir="rtl";}}catch(e){}</script>
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1401237223139327"
@@ -601,6 +606,8 @@ body.typing-active footer{opacity:.26;filter:saturate(.72);pointer-events:none;}
     <ul><li><a href="advanced-typing-test.html">Advanced Typing Test</a></li><li><a href="beginner-typing-test.html">Beginner Typing Test</a></li><li><a href="best-free-typing-lessons-for-adults.html">Best Free Typing Lessons for Adults</a></li><li><a href="programmer-typing-speed.html">Programmer Typing Speed</a></li><li><a href="typing-games-for-kids.html">Typing Games for Kids</a></li><li><a href="typing-practice-for-programmers.html">Typing Practice for Programmers</a></li><li><a href="typing-test-for-kids.html">Typing Test for Kids</a></li><li><a href="typing-test-for-students.html">Typing Test for Students</a></li></ul>
   </nav>
 
+
+
   <section class="seo">
     <nav class="toc" aria-label="On this page"><p>On this page</p><ol><li><a href="#the-myth-of-too-late">The myth of 'too late'</a></li><li><a href="#the-unlearning-problem-honestly">The unlearning problem, honestly</a></li><li><a href="#realistic-expectations-by-week">Realistic expectations by week</a></li><li><a href="#the-adult-practice-plan">The adult practice plan</a></li><li><a href="#workarounds-for-a-busy-schedule">Workarounds for a busy schedule</a></li><li><a href="#age-specific-advantages-to-exploit">Age-specific advantages to exploit</a></li><li><a href="#starting-this-week">Starting this week</a></li><li><a href="#touch-typing-with-existing-hand-or-wrist-issues">Touch typing with existing hand or wrist issues</a></li><li><a href="#learning-alongside-your-job">Learning alongside your job</a></li><li><a href="#proof-that-adults-succeed">Proof that adults succeed</a></li></ol></nav>
     <h2 id="the-myth-of-too-late">The myth of 'too late'</h2>
@@ -643,6 +650,8 @@ body.typing-active footer{opacity:.26;filter:saturate(.72);pointer-events:none;}
     <details><summary>How should an adult practice touch typing?</summary><p>Ten minutes daily attached to a workday habit: one measured minute, weak-key drilling, then 5 minutes on real work text in perfect form. Weekly logged measurement. Micro-sessions (3×3 min) work when blocks are impossible.</p></details>
     <details><summary>What speed can an adult realistically reach?</summary><p>40–60 WPM within a few months of daily practice — above the working average — with continued slow climbs afterward. Age changes where the curve starts, never how high it goes.</p></details>
   </section>
+
+
 
   <footer>
     <a href="/">Typing.Rerivo</a> · Free online WPM typing test · <a href="typing-tests.html">Browse every typing test, grouped by goal</a>

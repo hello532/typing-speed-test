@@ -468,6 +468,11 @@ body.typing-active footer{opacity:.26;filter:saturate(.72);pointer-events:none;}
 .tblwrap table{width:100%;min-width:520px;margin:0;}
 @media(max-width:560px){.tblwrap{position:relative;}
   .tblwrap::after{content:"";display:block;height:1px;}}
+
+/* 广告位（r110）：两个槽都在正文之后；未批号时 slot 为空，DOM 里不出现任何节点。
+   min-height 不预留，避免无广告时留白造成的视觉断裂；CLS 风险由「正文之后」的位置规避。 */
+.ad-slot{margin:28px 0;padding:0;text-align:center;overflow:hidden}
+.ad-slot ins{display:block}
 </style>
 <script>try{var _t=localStorage.getItem("trTheme");if(_t&&_t!=="dark")document.documentElement.setAttribute("data-theme",_t);var _l=localStorage.getItem("trLang");if(_l&&_l!=="en"){document.documentElement.lang=_l;if(_l==="ar")document.documentElement.dir="rtl";}}catch(e){}</script>
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1401237223139327"
@@ -601,6 +606,8 @@ body.typing-active footer{opacity:.26;filter:saturate(.72);pointer-events:none;}
     <ul><li><a href="medical-transcription-typing.html">Medical Transcription Typing</a></li><li><a href="online-typing-jobs.html">Online Typing Jobs</a></li><li><a href="transcription-typing-jobs.html">Transcription Typing Jobs</a></li><li><a href="typing-test-for-5th-graders.html">Typing Test for 5th Graders</a></li></ul>
   </nav>
 
+
+
   <section class="seo">
     <nav class="toc" aria-label="On this page"><p>On this page</p><ol><li><a href="#which-home-typing-roles-are-actually-real">Which home typing roles are actually real</a></li><li><a href="#setup-what-you-actually-need">Setup: what you actually need</a></li><li><a href="#speed-benchmarks-by-role">Speed benchmarks by role</a></li><li><a href="#scam-red-flags-and-how-to-build-a-track-record">Scam red flags and how to build a track record</a></li><li><a href="#virtual-assistance-typing-under-another-title">Virtual assistance: typing under another title</a></li><li><a href="#setting-your-home-office-up-for-long-typing-sess">Setting your home office up for long typing sessions</a></li><li><a href="#taxes-contracts-and-getting-paid">Taxes, contracts and getting paid</a></li><li><a href="#growing-from-tasks-to-a-clientele">Growing from tasks to a clientele</a></li><li><a href="#the-home-typing-week-that-actually-works">The home typing week that actually works</a></li></ol></nav>
     <h2 id="which-home-typing-roles-are-actually-real">Which home typing roles are actually real</h2>
@@ -640,6 +647,8 @@ body.typing-active footer{opacity:.26;filter:saturate(.72);pointer-events:none;}
     <details><summary>How fast do I need to type for home typing jobs?</summary><p>Transcription 300+ CPM, data entry 8,000–12,000 KPH (27–40 WPM), captioning ~60 WPM, assistant work 50+ WPM — all with high accuracy. Verify your score with the keystrokes per hour test.</p></details>
     <details><summary>How do beginners build a track record?</summary><p>Entry tasks on established platforms, a protected accuracy rating, and proof of speed (recent test result or typing certificate). Reliability compounds into better-paying tiers within months.</p></details>
   </section>
+
+
 
   <footer>
     <a href="/">Typing.Rerivo</a> · Free online WPM typing test · <a href="typing-tests.html">Browse every typing test, grouped by goal</a>

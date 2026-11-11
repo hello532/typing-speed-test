@@ -468,6 +468,11 @@ body.typing-active footer{opacity:.26;filter:saturate(.72);pointer-events:none;}
 .tblwrap table{width:100%;min-width:520px;margin:0;}
 @media(max-width:560px){.tblwrap{position:relative;}
   .tblwrap::after{content:"";display:block;height:1px;}}
+
+/* 广告位（r110）：两个槽都在正文之后；未批号时 slot 为空，DOM 里不出现任何节点。
+   min-height 不预留，避免无广告时留白造成的视觉断裂；CLS 风险由「正文之后」的位置规避。 */
+.ad-slot{margin:28px 0;padding:0;text-align:center;overflow:hidden}
+.ad-slot ins{display:block}
 </style>
 <script>try{var _t=localStorage.getItem("trTheme");if(_t&&_t!=="dark")document.documentElement.setAttribute("data-theme",_t);var _l=localStorage.getItem("trLang");if(_l&&_l!=="en"){document.documentElement.lang=_l;if(_l==="ar")document.documentElement.dir="rtl";}}catch(e){}</script>
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1401237223139327"
@@ -601,6 +606,8 @@ body.typing-active footer{opacity:.26;filter:saturate(.72);pointer-events:none;}
     <ul><li><a href="audio-typing-tips.html">Audio Typing Tips</a></li><li><a href="bigram-typing-practice.html">Bigram Typing Practice</a></li><li><a href="capital-letter-typing-test.html">Capital Letter Typing Test</a></li><li><a href="fast-typing-test.html">Fast Typing Test</a></li><li><a href="fastest-typing-speed-record.html">Fastest Typing Speed Records</a></li><li><a href="hard-typing-test.html">Hard Typing Test</a></li><li><a href="how-long-to-learn-touch-typing.html">How Long to Learn Touch Typing</a></li><li><a href="how-to-get-a-typing-job.html">How to Get a Typing Job</a></li></ul>
   </nav>
 
+
+
   <section class="seo">
     <nav class="toc" aria-label="On this page"><p>On this page</p><ol><li><a href="#what-usually-causes-it">What usually causes it</a></li><li><a href="#setup-in-order-of-impact">Setup, in order of impact</a></li><li><a href="#the-break-pattern-that-actually-helps">The break pattern that actually helps</a></li><li><a href="#pace-and-tension">Pace and tension</a></li><li><a href="#symptoms-that-are-not-a-setup-problem">Symptoms that are not a setup problem</a></li><li><a href="#what-to-change-first-if-you-only-change-one-thin">What to change first if you only change one thing</a></li></ol></nav>
     <h2 id="what-usually-causes-it">What usually causes it</h2>
@@ -631,6 +638,8 @@ body.typing-active footer{opacity:.26;filter:saturate(.72);pointer-events:none;}
     <details><summary>Does a mechanical keyboard help?</summary><p>It can reduce the force needed per keystroke for some people, but it does not fix wrist angle or duration. Setup comes first.</p></details>
     <details><summary>When should I see a doctor?</summary><p>For persistent numbness or tingling, night pain, weakness, swelling, or pain at rest lasting more than a week. Those are not explained by keyboard position.</p></details>
   </section>
+
+
 
   <footer>
     <a href="/">Typing.Rerivo</a> · Free online WPM typing test · <a href="typing-tests.html">Browse every typing test, grouped by goal</a>

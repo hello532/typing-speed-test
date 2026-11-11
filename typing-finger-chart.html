@@ -468,6 +468,11 @@ body.typing-active footer{opacity:.26;filter:saturate(.72);pointer-events:none;}
 .tblwrap table{width:100%;min-width:520px;margin:0;}
 @media(max-width:560px){.tblwrap{position:relative;}
   .tblwrap::after{content:"";display:block;height:1px;}}
+
+/* 广告位（r110）：两个槽都在正文之后；未批号时 slot 为空，DOM 里不出现任何节点。
+   min-height 不预留，避免无广告时留白造成的视觉断裂；CLS 风险由「正文之后」的位置规避。 */
+.ad-slot{margin:28px 0;padding:0;text-align:center;overflow:hidden}
+.ad-slot ins{display:block}
 </style>
 <script>try{var _t=localStorage.getItem("trTheme");if(_t&&_t!=="dark")document.documentElement.setAttribute("data-theme",_t);var _l=localStorage.getItem("trLang");if(_l&&_l!=="en"){document.documentElement.lang=_l;if(_l==="ar")document.documentElement.dir="rtl";}}catch(e){}</script>
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1401237223139327"
@@ -601,6 +606,8 @@ body.typing-active footer{opacity:.26;filter:saturate(.72);pointer-events:none;}
     <ul><li><a href="bottom-row-typing-test.html">Bottom Row Typing Test</a></li><li><a href="colemak-typing.html">Colemak Typing Test</a></li><li><a href="dvorak-typing.html">Dvorak Typing Test</a></li><li><a href="dvorak-vs-qwerty.html">Dvorak vs QWERTY</a></li><li><a href="finger-placement-typing.html">Finger Placement Typing</a></li><li><a href="home-row-typing-test.html">Home Row Typing Test</a></li><li><a href="keyboard-layouts.html">Keyboard Layouts Compared</a></li><li><a href="keyboard-practice.html">Keyboard Practice</a></li></ul>
   </nav>
 
+
+
   <section class="seo">
     <nav class="toc" aria-label="On this page"><p>On this page</p><ol><li><a href="#the-complete-finger-assignment">The complete finger assignment</a></li><li><a href="#why-the-index-fingers-get-two-columns">Why the index fingers get two columns</a></li><li><a href="#how-to-learn-the-chart-in-a-week">How to learn the chart in a week</a></li><li><a href="#the-three-assignment-mistakes-everyone-makes">The three assignment mistakes everyone makes</a></li><li><a href="#the-chart-for-numbers-and-symbols">The chart for numbers and symbols</a></li><li><a href="#making-the-chart-automatic">Making the chart automatic</a></li><li><a href="#print-or-memorise">Print or memorise?</a></li><li><a href="#the-chart-for-the-numeric-keypad">The chart for the numeric keypad</a></li><li><a href="#common-chart-variations-you-may-meet">Common chart variations you may meet</a></li><li><a href="#teaching-the-chart-to-someone-else">Teaching the chart to someone else</a></li></ol></nav>
     <h2 id="the-complete-finger-assignment">The complete finger assignment</h2>
@@ -643,6 +650,8 @@ body.typing-active footer{opacity:.26;filter:saturate(.72);pointer-events:none;}
     <details><summary>Should I use the same shift key for all capitals?</summary><p>No — use the opposite-side shift: right-hand letter, left shift; left-hand letter, right shift. Same-side shifting knots the hand and breaks rhythm.</p></details>
     <details><summary>Is it OK to look at a printed finger chart while learning?</summary><p>For the first three days, yes — a reference beside the screen is fine. Then remove it: spatial memory only forms when your eyes are denied the answer.</p></details>
   </section>
+
+
 
   <footer>
     <a href="/">Typing.Rerivo</a> · Free online WPM typing test · <a href="typing-tests.html">Browse every typing test, grouped by goal</a>

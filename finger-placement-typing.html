@@ -468,6 +468,11 @@ body.typing-active footer{opacity:.26;filter:saturate(.72);pointer-events:none;}
 .tblwrap table{width:100%;min-width:520px;margin:0;}
 @media(max-width:560px){.tblwrap{position:relative;}
   .tblwrap::after{content:"";display:block;height:1px;}}
+
+/* 广告位（r110）：两个槽都在正文之后；未批号时 slot 为空，DOM 里不出现任何节点。
+   min-height 不预留，避免无广告时留白造成的视觉断裂；CLS 风险由「正文之后」的位置规避。 */
+.ad-slot{margin:28px 0;padding:0;text-align:center;overflow:hidden}
+.ad-slot ins{display:block}
 </style>
 <script>try{var _t=localStorage.getItem("trTheme");if(_t&&_t!=="dark")document.documentElement.setAttribute("data-theme",_t);var _l=localStorage.getItem("trLang");if(_l&&_l!=="en"){document.documentElement.lang=_l;if(_l==="ar")document.documentElement.dir="rtl";}}catch(e){}</script>
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1401237223139327"
@@ -601,6 +606,8 @@ body.typing-active footer{opacity:.26;filter:saturate(.72);pointer-events:none;}
     <ul><li><a href="home-row-typing-test.html">Home Row Typing Test</a></li><li><a href="keyboard-layouts.html">Keyboard Layouts Compared</a></li><li><a href="keyboard-practice.html">Keyboard Practice</a></li><li><a href="keyboard-tester.html">Keyboard Tester</a></li><li><a href="keyboard-typing-test.html">Keyboard Typing Test</a></li><li><a href="mechanical-keyboard-for-typing.html">Mechanical Keyboard for Typing</a></li><li><a href="one-hand-typing.html">One Hand Typing</a></li><li><a href="proper-hand-position-for-typing.html">Proper Hand Position for Typing</a></li></ul>
   </nav>
 
+
+
   <section class="seo">
     <nav class="toc" aria-label="On this page"><p>On this page</p><ol><li><a href="#the-placement-that-everything-depends-on">The placement that everything depends on</a></li><li><a href="#training-placement-from-day-one">Training placement from day one</a></li><li><a href="#per-finger-drills-for-the-weak-links">Per-finger drills for the weak links</a></li><li><a href="#the-index-finger-discipline-problem">The index-finger discipline problem</a></li><li><a href="#placement-for-numbers-and-symbols">Placement for numbers and symbols</a></li><li><a href="#how-placement-errors-become-permanent-ceilings">How placement errors become permanent ceilings</a></li><li><a href="#verifying-your-placement-is-installed">Verifying your placement is installed</a></li><li><a href="#placement-for-the-two-shift-keys">Placement for the two shift keys</a></li><li><a href="#ergonomics-of-the-reach-itself">Ergonomics of the reach itself</a></li><li><a href="#when-to-re-teach-placement">When to re-teach placement</a></li></ol></nav>
     <h2 id="the-placement-that-everything-depends-on">The placement that everything depends on</h2>
@@ -643,6 +650,8 @@ body.typing-active footer{opacity:.26;filter:saturate(.72);pointer-events:none;}
     <details><summary>Which fingers are weakest in typing?</summary><p>Pinkies and ring fingers — their keys (Q-A-Z, W-S-X, O-L-period, P-semicolon) cluster most placement errors. Isolate them with word drills dense in weak-finger letters, 15 seconds at a time.</p></details>
     <details><summary>Why does my index finger keep drifting to other keys?</summary><p>The index is strongest and 'helps' other fingers — stealing C, E, I, M, B. Every theft blurs the placement map. Catch it, then drill those reaches with the correct finger slowly until the theft stops.</p></details>
   </section>
+
+
 
   <footer>
     <a href="/">Typing.Rerivo</a> · Free online WPM typing test · <a href="typing-tests.html">Browse every typing test, grouped by goal</a>

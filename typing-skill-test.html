@@ -468,6 +468,11 @@ body.typing-active footer{opacity:.26;filter:saturate(.72);pointer-events:none;}
 .tblwrap table{width:100%;min-width:520px;margin:0;}
 @media(max-width:560px){.tblwrap{position:relative;}
   .tblwrap::after{content:"";display:block;height:1px;}}
+
+/* 广告位（r110）：两个槽都在正文之后；未批号时 slot 为空，DOM 里不出现任何节点。
+   min-height 不预留，避免无广告时留白造成的视觉断裂；CLS 风险由「正文之后」的位置规避。 */
+.ad-slot{margin:28px 0;padding:0;text-align:center;overflow:hidden}
+.ad-slot ins{display:block}
 </style>
 <script>try{var _t=localStorage.getItem("trTheme");if(_t&&_t!=="dark")document.documentElement.setAttribute("data-theme",_t);var _l=localStorage.getItem("trLang");if(_l&&_l!=="en"){document.documentElement.lang=_l;if(_l==="ar")document.documentElement.dir="rtl";}}catch(e){}</script>
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1401237223139327"
@@ -601,6 +606,8 @@ body.typing-active footer{opacity:.26;filter:saturate(.72);pointer-events:none;}
     <ul><li><a href="typing-speed-calculator.html">Typing Speed Calculator</a></li><li><a href="typing-speed-requirements.html">Typing Speed Requirements by Job and Exam</a></li><li><a href="words-per-minute-test.html">Words Per Minute Test</a></li><li><a href="wpm-test-online.html">WPM Test Online</a></li><li><a href="gross-wpm-vs-net-wpm.html">Gross WPM vs Net WPM</a></li><li><a href="typing-speed-percentile.html">Typing Speed Percentile Calculator</a></li><li><a href="30-wpm-typing-test.html">30 WPM Typing Test</a></li><li><a href="40-wpm-typing-test.html">40 WPM Typing Test</a></li></ul>
   </nav>
 
+
+
   <section class="seo">
     <h2 id="what-a-typing-skill-test-actually-measures">What a typing skill test actually measures</h2>
     <p>Three figures, not one. <strong>Net speed</strong> is the number employers quote. <strong>Accuracy</strong> is what they weight when the job involves records, codes or names. <strong>Consistency</strong> - how much your speed varies second to second - predicts whether the speed survives a five-minute test.</p>
@@ -629,6 +636,8 @@ body.typing-active footer{opacity:.26;filter:saturate(.72);pointer-events:none;}
     <details><summary>Does accuracy matter more than speed?</summary><p>For most jobs, yes. Accuracy predicts rework, and the roles that quote speed also quote an accuracy floor - typically 95-98%.</p></details>
     <details><summary>Is there an official typing skill certification?</summary><p>No universal one. Public-sector exams and some agencies issue certificates for their own requirements, but no body certifies a general typing skill level.</p></details>
   </section>
+
+
 
   <footer>
     <a href="/">Typing.Rerivo</a> · Free online WPM typing test · <a href="typing-tests.html">Browse every typing test, grouped by goal</a>

@@ -468,6 +468,11 @@ body.typing-active footer{opacity:.26;filter:saturate(.72);pointer-events:none;}
 .tblwrap table{width:100%;min-width:520px;margin:0;}
 @media(max-width:560px){.tblwrap{position:relative;}
   .tblwrap::after{content:"";display:block;height:1px;}}
+
+/* 广告位（r110）：两个槽都在正文之后；未批号时 slot 为空，DOM 里不出现任何节点。
+   min-height 不预留，避免无广告时留白造成的视觉断裂；CLS 风险由「正文之后」的位置规避。 */
+.ad-slot{margin:28px 0;padding:0;text-align:center;overflow:hidden}
+.ad-slot ins{display:block}
 </style>
 <script>try{var _t=localStorage.getItem("trTheme");if(_t&&_t!=="dark")document.documentElement.setAttribute("data-theme",_t);var _l=localStorage.getItem("trLang");if(_l&&_l!=="en"){document.documentElement.lang=_l;if(_l==="ar")document.documentElement.dir="rtl";}}catch(e){}</script>
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1401237223139327"
@@ -601,6 +606,8 @@ body.typing-active footer{opacity:.26;filter:saturate(.72);pointer-events:none;}
     <ul><li><a href="bottom-row-typing-test.html">Bottom Row Typing Test</a></li><li><a href="colemak-typing.html">Colemak Typing Test</a></li><li><a href="dvorak-typing.html">Dvorak Typing Test</a></li><li><a href="dvorak-vs-qwerty.html">Dvorak vs QWERTY</a></li><li><a href="finger-placement-typing.html">Finger Placement Typing</a></li><li><a href="home-row-typing-test.html">Home Row Typing Test</a></li><li><a href="top-row-typing-test.html">Top Row Typing Test</a></li><li><a href="typing-finger-chart.html">Typing Finger Chart</a></li></ul>
   </nav>
 
+
+
   <section class="seo">
     <h2 id="what-is-a-10-key-typing-test">What is a 10 key typing test?</h2>
     <p>10 key typing (also written <strong>ten key typing</strong> or <strong>10-key</strong>) is touch typing on the <strong>numeric keypad</strong>: the number, arithmetic and Enter keys on the right of a full-size keyboard. Instead of hunting for digits across the top row, a 10 key typist keeps the right hand anchored on <strong>4 5 6</strong> with the index, middle and ring fingers, and reaches every other key from there. It is the skill behind fast <strong>data entry</strong>, bookkeeping and banking work.</p>
@@ -628,6 +635,8 @@ body.typing-active footer{opacity:.26;filter:saturate(.72);pointer-events:none;}
     <details><summary>How do I improve my 10 key speed?</summary><p>Practise a few minutes a day with your eyes off the keyboard, keep the index, middle and ring fingers on 4, 5 and 6, and prioritise accuracy &mdash; errors cost more time than a slightly slower but clean run.</p></details>
     <details><summary>Does this work on a laptop without a number pad?</summary><p>On laptops with no dedicated keypad you can use an external USB numeric keypad, or practise the digits with the number-typing mode instead, which uses the top number row.</p></details>
   </section>
+
+
 
   <footer>
     <a href="/">Typing.Rerivo</a> · Free online WPM typing test · <a href="typing-tests.html">Browse every typing test, grouped by goal</a>

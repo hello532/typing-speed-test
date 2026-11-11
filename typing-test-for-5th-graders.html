@@ -468,6 +468,11 @@ body.typing-active footer{opacity:.26;filter:saturate(.72);pointer-events:none;}
 .tblwrap table{width:100%;min-width:520px;margin:0;}
 @media(max-width:560px){.tblwrap{position:relative;}
   .tblwrap::after{content:"";display:block;height:1px;}}
+
+/* 广告位（r110）：两个槽都在正文之后；未批号时 slot 为空，DOM 里不出现任何节点。
+   min-height 不预留，避免无广告时留白造成的视觉断裂；CLS 风险由「正文之后」的位置规避。 */
+.ad-slot{margin:28px 0;padding:0;text-align:center;overflow:hidden}
+.ad-slot ins{display:block}
 </style>
 <script>try{var _t=localStorage.getItem("trTheme");if(_t&&_t!=="dark")document.documentElement.setAttribute("data-theme",_t);var _l=localStorage.getItem("trLang");if(_l&&_l!=="en"){document.documentElement.lang=_l;if(_l==="ar")document.documentElement.dir="rtl";}}catch(e){}</script>
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1401237223139327"
@@ -601,6 +606,8 @@ body.typing-active footer{opacity:.26;filter:saturate(.72);pointer-events:none;}
     <ul><li><a href="medical-transcription-typing.html">Medical Transcription Typing</a></li><li><a href="online-typing-jobs.html">Online Typing Jobs</a></li><li><a href="transcription-typing-jobs.html">Transcription Typing Jobs</a></li><li><a href="work-from-home-typing-jobs.html">Work From Home Typing Jobs</a></li></ul>
   </nav>
 
+
+
   <section class="seo">
     <h2 id="grade-bands-with-a-caveat">Grade bands, with a caveat</h2>
     <p>Classroom benchmarks vary by district and by how much keyboarding time a school actually provides, so treat any table as a rough band rather than a standard. The pattern that holds across published curricula is steady growth of roughly 5 WPM per grade once formal instruction begins.</p>
@@ -625,6 +632,8 @@ body.typing-active footer{opacity:.26;filter:saturate(.72);pointer-events:none;}
     <details><summary>Should my child look at the keyboard?</summary><p>Not while testing. Looking down is the habit that caps speed. Cover the hands for one round a week so the child is forced to build a mental map of the keys.</p></details>
     <details><summary>Do typing games help?</summary><p>Yes when the child is genuinely typing with correct fingers. If the game rewards speed with two fingers, it teaches a habit that has to be undone later.</p></details>
   </section>
+
+
 
   <footer>
     <a href="/">Typing.Rerivo</a> · Free online WPM typing test · <a href="typing-tests.html">Browse every typing test, grouped by goal</a>

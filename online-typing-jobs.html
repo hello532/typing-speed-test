@@ -468,6 +468,11 @@ body.typing-active footer{opacity:.26;filter:saturate(.72);pointer-events:none;}
 .tblwrap table{width:100%;min-width:520px;margin:0;}
 @media(max-width:560px){.tblwrap{position:relative;}
   .tblwrap::after{content:"";display:block;height:1px;}}
+
+/* 广告位（r110）：两个槽都在正文之后；未批号时 slot 为空，DOM 里不出现任何节点。
+   min-height 不预留，避免无广告时留白造成的视觉断裂；CLS 风险由「正文之后」的位置规避。 */
+.ad-slot{margin:28px 0;padding:0;text-align:center;overflow:hidden}
+.ad-slot ins{display:block}
 </style>
 <script>try{var _t=localStorage.getItem("trTheme");if(_t&&_t!=="dark")document.documentElement.setAttribute("data-theme",_t);var _l=localStorage.getItem("trLang");if(_l&&_l!=="en"){document.documentElement.lang=_l;if(_l==="ar")document.documentElement.dir="rtl";}}catch(e){}</script>
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1401237223139327"
@@ -601,6 +606,8 @@ body.typing-active footer{opacity:.26;filter:saturate(.72);pointer-events:none;}
     <ul><li><a href="medical-transcription-typing.html">Medical Transcription Typing</a></li><li><a href="transcription-typing-jobs.html">Transcription Typing Jobs</a></li><li><a href="work-from-home-typing-jobs.html">Work From Home Typing Jobs</a></li><li><a href="typing-test-for-5th-graders.html">Typing Test for 5th Graders</a></li></ul>
   </nav>
 
+
+
   <section class="seo">
     <nav class="toc" aria-label="On this page"><p>On this page</p><ol><li><a href="#the-four-main-types-of-online-typing-jobs">The four main types of online typing jobs</a></li><li><a href="#what-employers-and-platforms-actually-measure">What employers and platforms actually measure</a></li><li><a href="#how-to-spot-typing-job-scams">How to spot typing job scams</a></li><li><a href="#how-to-qualify-and-get-started">How to qualify and get started</a></li><li><a href="#captioning-and-subtitling-the-fourth-lane">Captioning and subtitling: the fourth lane</a></li><li><a href="#chat-and-email-support-typing-as-customer-servic">Chat and email support: typing as customer service</a></li><li><a href="#freelance-platforms-vs-direct-employment">Freelance platforms vs direct employment</a></li><li><a href="#equipment-and-environment-that-protect-your-rati">Equipment and environment that protect your rating</a></li><li><a href="#a-realistic-first-90-days-roadmap">A realistic first-90-days roadmap</a></li></ol></nav>
     <h2 id="the-four-main-types-of-online-typing-jobs">The four main types of online typing jobs</h2>
@@ -640,6 +647,8 @@ body.typing-active footer{opacity:.26;filter:saturate(.72);pointer-events:none;}
     <details><summary>Do I need experience for online typing jobs?</summary><p>Entry-level data entry and chat support need only a passing test score. Transcription benefits from practice but general transcription is open to beginners; legal and medical variants want terminology training.</p></details>
     <details><summary>How do I prove my typing speed to employers?</summary><p>With a recent verifiable test result. Take a timed test, save the result, and attach a typing certificate where applications allow it. Test your score now on the data entry typing test.</p></details>
   </section>
+
+
 
   <footer>
     <a href="/">Typing.Rerivo</a> · Free online WPM typing test · <a href="typing-tests.html">Browse every typing test, grouped by goal</a>

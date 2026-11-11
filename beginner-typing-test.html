@@ -468,6 +468,11 @@ body.typing-active footer{opacity:.26;filter:saturate(.72);pointer-events:none;}
 .tblwrap table{width:100%;min-width:520px;margin:0;}
 @media(max-width:560px){.tblwrap{position:relative;}
   .tblwrap::after{content:"";display:block;height:1px;}}
+
+/* 广告位（r110）：两个槽都在正文之后；未批号时 slot 为空，DOM 里不出现任何节点。
+   min-height 不预留，避免无广告时留白造成的视觉断裂；CLS 风险由「正文之后」的位置规避。 */
+.ad-slot{margin:28px 0;padding:0;text-align:center;overflow:hidden}
+.ad-slot ins{display:block}
 </style>
 <script>try{var _t=localStorage.getItem("trTheme");if(_t&&_t!=="dark")document.documentElement.setAttribute("data-theme",_t);var _l=localStorage.getItem("trLang");if(_l&&_l!=="en"){document.documentElement.lang=_l;if(_l==="ar")document.documentElement.dir="rtl";}}catch(e){}</script>
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1401237223139327"
@@ -601,6 +606,8 @@ body.typing-active footer{opacity:.26;filter:saturate(.72);pointer-events:none;}
     <ul><li><a href="advanced-typing-test.html">Advanced Typing Test</a></li><li><a href="best-free-typing-lessons-for-adults.html">Best Free Typing Lessons for Adults</a></li><li><a href="programmer-typing-speed.html">Programmer Typing Speed</a></li><li><a href="touch-typing-for-adults.html">Touch Typing for Adults</a></li><li><a href="typing-games-for-kids.html">Typing Games for Kids</a></li><li><a href="typing-practice-for-programmers.html">Typing Practice for Programmers</a></li><li><a href="typing-test-for-kids.html">Typing Test for Kids</a></li><li><a href="typing-test-for-students.html">Typing Test for Students</a></li></ul>
   </nav>
 
+
+
   <section class="seo">
     <nav class="toc" aria-label="On this page"><p>On this page</p><ol><li><a href="#a-first-test-that-does-not-punish-you">A first test that does not punish you</a></li><li><a href="#what-a-beginner-should-actually-practise">What a beginner should actually practise</a></li><li><a href="#your-first-realistic-targets">Your first realistic targets</a></li><li><a href="#what-to-do-after-your-first-month">What to do after your first month</a></li><li><a href="#your-first-week-day-by-day">Your first week, day by day</a></li><li><a href="#three-beginner-mistakes-worth-avoiding">Three beginner mistakes worth avoiding</a></li><li><a href="#what-actually-makes-a-typing-test-easy">What actually makes a typing test easy</a></li></ol></nav>
     <h2 id="a-first-test-that-does-not-punish-you">A first test that does not punish you</h2>
@@ -636,6 +643,8 @@ body.typing-active footer{opacity:.26;filter:saturate(.72);pointer-events:none;}
     <details><summary>What should I do in my first week of typing practice?</summary><p>Find F and J by touch, drill the home row, then add the top and bottom rows one at a time, keeping accuracy above 95%. One covered round a day from day two.</p></details>
     <details><summary>What makes a typing test easy?</summary><p>Common short words, no digits or unusual punctuation, and a one-minute round that ends before fatigue. Difficulty comes from text, not from the timer alone.</p></details>
   </section>
+
+
 
   <footer>
     <a href="/">Typing.Rerivo</a> · Free online WPM typing test · <a href="typing-tests.html">Browse every typing test, grouped by goal</a>

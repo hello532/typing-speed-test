@@ -468,6 +468,11 @@ body.typing-active footer{opacity:.26;filter:saturate(.72);pointer-events:none;}
 .tblwrap table{width:100%;min-width:520px;margin:0;}
 @media(max-width:560px){.tblwrap{position:relative;}
   .tblwrap::after{content:"";display:block;height:1px;}}
+
+/* 广告位（r110）：两个槽都在正文之后；未批号时 slot 为空，DOM 里不出现任何节点。
+   min-height 不预留，避免无广告时留白造成的视觉断裂；CLS 风险由「正文之后」的位置规避。 */
+.ad-slot{margin:28px 0;padding:0;text-align:center;overflow:hidden}
+.ad-slot ins{display:block}
 </style>
 <script>try{var _t=localStorage.getItem("trTheme");if(_t&&_t!=="dark")document.documentElement.setAttribute("data-theme",_t);var _l=localStorage.getItem("trLang");if(_l&&_l!=="en"){document.documentElement.lang=_l;if(_l==="ar")document.documentElement.dir="rtl";}}catch(e){}</script>
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1401237223139327"
@@ -601,6 +606,8 @@ body.typing-active footer{opacity:.26;filter:saturate(.72);pointer-events:none;}
     <ul><li><a href="data-entry-job-requirements.html">Data Entry Job Requirements</a></li><li><a href="data-entry-practice.html">Data Entry Practice</a></li><li><a href="typing-certificate.html">Typing Certificate</a></li><li><a href="typing-test-for-jobs.html">Typing Test for Jobs</a></li><li><a href="alphanumeric-typing-test.html">Alphanumeric Typing Test</a></li><li><a href="30-day-typing-improvement-plan.html">30-Day Typing Improvement Plan</a></li></ul>
   </nav>
 
+
+
   <section class="seo">
     <nav class="toc" aria-label="On this page"><p>On this page</p><ol><li><a href="#what-speed-does-data-entry-require">What speed does data entry require?</a></li><li><a href="#accuracy-matters-more-than-raw-speed">Accuracy matters more than raw speed</a></li><li><a href="#how-to-prepare-for-a-data-entry-typing-test">How to prepare for a data entry typing test</a></li><li><a href="#what-kph-do-data-entry-jobs-require">What KPH do data entry jobs require?</a></li><li><a href="#prepare-for-data-entry-hiring-tests">Prepare for data entry hiring tests</a></li><li><a href="#why-data-entry-is-measured-in-keystrokes-not-wor">Why data entry is measured in keystrokes, not words</a></li><li><a href="#the-drill-that-matches-the-job">The drill that matches the job</a></li></ol></nav>
     <h2 id="what-speed-does-data-entry-require">What speed does data entry require?</h2>
@@ -635,6 +642,8 @@ body.typing-active footer{opacity:.26;filter:saturate(.72);pointer-events:none;}
     <details><summary>How can I improve my data entry typing speed?</summary><p>Practise daily with text that includes numbers, punctuation and capitals, prioritise accuracy over speed, and train the number pad separately if the job is numeric.</p></details>
     <details><summary>Why is data entry measured in keystrokes rather than WPM?</summary><p>Because a record is a set of fields - name, reference, date, amount - and none of them is a word. Characters per hour is the only unit that survives that, which is why postings quote 8,000-12,000 KPH.</p></details>
   </section>
+
+
 
   <footer>
     <a href="/">Typing.Rerivo</a> · Free online WPM typing test · <a href="typing-tests.html">Browse every typing test, grouped by goal</a>

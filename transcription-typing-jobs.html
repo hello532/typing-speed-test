@@ -468,6 +468,11 @@ body.typing-active footer{opacity:.26;filter:saturate(.72);pointer-events:none;}
 .tblwrap table{width:100%;min-width:520px;margin:0;}
 @media(max-width:560px){.tblwrap{position:relative;}
   .tblwrap::after{content:"";display:block;height:1px;}}
+
+/* 广告位（r110）：两个槽都在正文之后；未批号时 slot 为空，DOM 里不出现任何节点。
+   min-height 不预留，避免无广告时留白造成的视觉断裂；CLS 风险由「正文之后」的位置规避。 */
+.ad-slot{margin:28px 0;padding:0;text-align:center;overflow:hidden}
+.ad-slot ins{display:block}
 </style>
 <script>try{var _t=localStorage.getItem("trTheme");if(_t&&_t!=="dark")document.documentElement.setAttribute("data-theme",_t);var _l=localStorage.getItem("trLang");if(_l&&_l!=="en"){document.documentElement.lang=_l;if(_l==="ar")document.documentElement.dir="rtl";}}catch(e){}</script>
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1401237223139327"
@@ -601,6 +606,8 @@ body.typing-active footer{opacity:.26;filter:saturate(.72);pointer-events:none;}
     <ul><li><a href="medical-transcription-typing.html">Medical Transcription Typing</a></li><li><a href="online-typing-jobs.html">Online Typing Jobs</a></li><li><a href="work-from-home-typing-jobs.html">Work From Home Typing Jobs</a></li><li><a href="typing-test-for-5th-graders.html">Typing Test for 5th Graders</a></li></ul>
   </nav>
 
+
+
   <section class="seo">
     <nav class="toc" aria-label="On this page"><p>On this page</p><ol><li><a href="#what-transcription-work-actually-involves">What transcription work actually involves</a></li><li><a href="#the-speed-and-accuracy-reality">The speed and accuracy reality</a></li><li><a href="#general-legal-and-medical-transcription">General, legal and medical transcription</a></li><li><a href="#how-to-qualify-step-by-step">How to qualify, step by step</a></li><li><a href="#a-day-in-the-life-of-a-working-transcriptionist">A day in the life of a working transcriptionist</a></li><li><a href="#style-guides-where-tests-are-actually-failed">Style guides: where tests are actually failed</a></li><li><a href="#audio-quality-accents-and-difficult-files">Audio quality, accents and difficult files</a></li><li><a href="#building-speed-on-the-listen-type-pipeline">Building speed on the listen-type pipeline</a></li><li><a href="#rates-platforms-and-when-to-specialise">Rates, platforms and when to specialise</a></li></ol></nav>
     <h2 id="what-transcription-work-actually-involves">What transcription work actually involves</h2>
@@ -640,6 +647,8 @@ body.typing-active footer{opacity:.26;filter:saturate(.72);pointer-events:none;}
     <details><summary>What is the difference between general and medical transcription?</summary><p>General transcription needs only speed and English. Medical transcription adds clinical vocabulary, drug names, report formats and strict privacy obligations — typically requiring dedicated training, and it pays more for it.</p></details>
     <details><summary>How do I start getting transcription work?</summary><p>Verify 300 CPM at 98%+ accuracy, train with real audio until you can type without pausing, learn basic style-guide conventions, then take platform entry tests. Your accuracy rating becomes your résumé.</p></details>
   </section>
+
+
 
   <footer>
     <a href="/">Typing.Rerivo</a> · Free online WPM typing test · <a href="typing-tests.html">Browse every typing test, grouped by goal</a>

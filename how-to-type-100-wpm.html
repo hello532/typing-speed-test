@@ -468,6 +468,11 @@ body.typing-active footer{opacity:.26;filter:saturate(.72);pointer-events:none;}
 .tblwrap table{width:100%;min-width:520px;margin:0;}
 @media(max-width:560px){.tblwrap{position:relative;}
   .tblwrap::after{content:"";display:block;height:1px;}}
+
+/* 广告位（r110）：两个槽都在正文之后；未批号时 slot 为空，DOM 里不出现任何节点。
+   min-height 不预留，避免无广告时留白造成的视觉断裂；CLS 风险由「正文之后」的位置规避。 */
+.ad-slot{margin:28px 0;padding:0;text-align:center;overflow:hidden}
+.ad-slot ins{display:block}
 </style>
 <script>try{var _t=localStorage.getItem("trTheme");if(_t&&_t!=="dark")document.documentElement.setAttribute("data-theme",_t);var _l=localStorage.getItem("trLang");if(_l&&_l!=="en"){document.documentElement.lang=_l;if(_l==="ar")document.documentElement.dir="rtl";}}catch(e){}</script>
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1401237223139327"
@@ -601,6 +606,8 @@ body.typing-active footer{opacity:.26;filter:saturate(.72);pointer-events:none;}
     <ul><li><a href="keystrokes-per-hour-test.html">Keystrokes Per Hour Test</a></li><li><a href="typing-accuracy-test.html">Typing Accuracy Test</a></li><li><a href="typing-skill-test.html">Typing Skill Test</a></li><li><a href="typing-speed-calculator.html">Typing Speed Calculator</a></li><li><a href="typing-speed-requirements.html">Typing Speed Requirements by Job and Exam</a></li><li><a href="words-per-minute-test.html">Words Per Minute Test</a></li><li><a href="wpm-test-online.html">WPM Test Online</a></li><li><a href="gross-wpm-vs-net-wpm.html">Gross WPM vs Net WPM</a></li></ul>
   </nav>
 
+
+
   <section class="seo">
     <nav class="toc" aria-label="On this page"><p>On this page</p><ol><li><a href="#what-100-wpm-actually-looks-like">What 100 WPM actually looks like</a></li><li><a href="#the-accuracy-floor-you-cannot-skip">The accuracy floor you cannot skip</a></li><li><a href="#burst-training-and-rhythm">Burst training and rhythm</a></li><li><a href="#a-realistic-timeline-to-100-wpm">A realistic timeline to 100 WPM</a></li><li><a href="#the-equipment-question">The equipment question</a></li><li><a href="#what-plateaus-feel-like-and-how-to-break-them">What plateaus feel like and how to break them</a></li><li><a href="#a-week-in-the-training-life-of-a-100-wpm-typist">A week in the training life of a 100 WPM typist</a></li><li><a href="#reading-ahead-the-skill-nobody-practises">Reading ahead: the skill nobody practises</a></li></ol></nav>
     <h2 id="what-100-wpm-actually-looks-like">What 100 WPM actually looks like</h2>
@@ -637,6 +644,8 @@ body.typing-active footer{opacity:.26;filter:saturate(.72);pointer-events:none;}
     <details><summary>What is the best drill for 100 WPM?</summary><p>Alternate 15-second maximum-effort sprints (raises your ceiling) with 2-3 minute rounds at 95% effort (builds rhythm), and drill your three weakest keys daily.</p></details>
     <details><summary>How do I break the 80 WPM plateau?</summary><p>Stop typing more and change drills: symbol and number rounds, weak-key elimination, and burst-rhythm alternation. Plateaus are technique signals, not effort signals. Test on the fast typing test to keep texts challenging.</p></details>
   </section>
+
+
 
   <footer>
     <a href="/">Typing.Rerivo</a> · Free online WPM typing test · <a href="typing-tests.html">Browse every typing test, grouped by goal</a>

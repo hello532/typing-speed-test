@@ -468,6 +468,11 @@ body.typing-active footer{opacity:.26;filter:saturate(.72);pointer-events:none;}
 .tblwrap table{width:100%;min-width:520px;margin:0;}
 @media(max-width:560px){.tblwrap{position:relative;}
   .tblwrap::after{content:"";display:block;height:1px;}}
+
+/* 广告位（r110）：两个槽都在正文之后；未批号时 slot 为空，DOM 里不出现任何节点。
+   min-height 不预留，避免无广告时留白造成的视觉断裂；CLS 风险由「正文之后」的位置规避。 */
+.ad-slot{margin:28px 0;padding:0;text-align:center;overflow:hidden}
+.ad-slot ins{display:block}
 </style>
 <script>try{var _t=localStorage.getItem("trTheme");if(_t&&_t!=="dark")document.documentElement.setAttribute("data-theme",_t);var _l=localStorage.getItem("trLang");if(_l&&_l!=="en"){document.documentElement.lang=_l;if(_l==="ar")document.documentElement.dir="rtl";}}catch(e){}</script>
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1401237223139327"
@@ -601,6 +606,8 @@ body.typing-active footer{opacity:.26;filter:saturate(.72);pointer-events:none;}
     <ul><li><a href="data-entry-job-requirements.html">Data Entry Job Requirements</a></li><li><a href="data-entry-typing-test.html">Data Entry Typing Test</a></li><li><a href="typing-certificate.html">Typing Certificate</a></li><li><a href="typing-test-for-jobs.html">Typing Test for Jobs</a></li><li><a href="alphanumeric-typing-test.html">Alphanumeric Typing Test</a></li><li><a href="30-day-typing-improvement-plan.html">30-Day Typing Improvement Plan</a></li></ul>
   </nav>
 
+
+
   <section class="seo">
     <nav class="toc" aria-label="On this page"><p>On this page</p><ol><li><a href="#understand-what-the-test-measures">Understand what the test measures</a></li><li><a href="#the-three-skill-components-to-train">The three skill components to train</a></li><li><a href="#a-two-week-data-entry-practice-plan">A two-week data-entry practice plan</a></li><li><a href="#test-day-execution">Test-day execution</a></li><li><a href="#numeric-keypad-fluency-the-10-key-discipline">Numeric keypad fluency: the 10-key discipline</a></li><li><a href="#reading-verification-the-skill-between-speed-and">Reading-verification: the skill between speed and accuracy</a></li><li><a href="#simulating-real-source-material">Simulating real source material</a></li><li><a href="#common-test-formats-and-how-to-handle-each">Common test formats and how to handle each</a></li><li><a href="#tracking-your-practice-like-a-professional">Tracking your practice like a professional</a></li></ol></nav>
     <h2 id="understand-what-the-test-measures">Understand what the test measures</h2>
@@ -640,6 +647,8 @@ body.typing-active footer{opacity:.26;filter:saturate(.72);pointer-events:none;}
     <details><summary>Is accuracy or speed more important for data entry?</summary><p>Accuracy — many platforms discard your speed score below the cutoff (~98%). A 9,000 KPH run at 99% beats a 10,000 KPH run at 96% in every scored test.</p></details>
     <details><summary>What is 10-key and do I need it?</summary><p>The numeric keypad discipline (middle finger on 5, index 4, ring 6, thumb 0). Essential for high-volume numeric data entry; practice it on the 10 key typing test.</p></details>
   </section>
+
+
 
   <footer>
     <a href="/">Typing.Rerivo</a> · Free online WPM typing test · <a href="typing-tests.html">Browse every typing test, grouped by goal</a>

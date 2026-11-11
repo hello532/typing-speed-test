@@ -468,6 +468,11 @@ body.typing-active footer{opacity:.26;filter:saturate(.72);pointer-events:none;}
 .tblwrap table{width:100%;min-width:520px;margin:0;}
 @media(max-width:560px){.tblwrap{position:relative;}
   .tblwrap::after{content:"";display:block;height:1px;}}
+
+/* 广告位（r110）：两个槽都在正文之后；未批号时 slot 为空，DOM 里不出现任何节点。
+   min-height 不预留，避免无广告时留白造成的视觉断裂；CLS 风险由「正文之后」的位置规避。 */
+.ad-slot{margin:28px 0;padding:0;text-align:center;overflow:hidden}
+.ad-slot ins{display:block}
 </style>
 <script>try{var _t=localStorage.getItem("trTheme");if(_t&&_t!=="dark")document.documentElement.setAttribute("data-theme",_t);var _l=localStorage.getItem("trLang");if(_l&&_l!=="en"){document.documentElement.lang=_l;if(_l==="ar")document.documentElement.dir="rtl";}}catch(e){}</script>
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1401237223139327"
@@ -602,6 +607,8 @@ body.typing-active footer{opacity:.26;filter:saturate(.72);pointer-events:none;}
     <ul><li><a href="1-minute-typing-test.html">1 Minute Typing Test</a></li><li><a href="15-second-typing-test.html">15 Second Typing Test</a></li><li><a href="2-minute-typing-test.html">2 Minute Typing Test</a></li><li><a href="3-minute-typing-test.html">3 Minute Typing Test</a></li><li><a href="30-second-typing-test.html">30 Second Typing Test</a></li><li><a href="5-minute-typing-test.html">5 Minute Typing Test</a></li><li><a href="timed-typing-test.html">Timed Typing Test</a></li></ul>
   </nav>
 
+
+
   <section class="seo">
     <nav class="toc" aria-label="On this page"><p>On this page</p><ol><li><a href="#10-minute-typing-test">10 minute typing test</a></li><li><a href="#who-needs-a-10-minute-test">Who needs a 10 minute test?</a></li><li><a href="#how-to-pace-a-10-minute-test">How to pace a 10 minute test</a></li><li><a href="#reading-your-10-minute-result">Reading your 10 minute result</a></li><li><a href="#preparing-for-a-10-minute-typing-test">Preparing for a 10 minute typing test</a></li><li><a href="#what-10-minutes-measures-that-1-minute-can-t">What 10 minutes measures that 1 minute can't</a></li><li><a href="#the-10-minute-decay-curve">The 10 minute decay curve</a></li><li><a href="#training-for-the-10-minute-format">Training for the 10 minute format</a></li><li><a href="#when-employers-and-exams-use-long-tests">When employers and exams use long tests</a></li><li><a href="#taking-a-ten-minute-typing-test-online">Taking a ten minute typing test online</a></li><li><a href="#why-the-five-character-word-matters-for-enduranc">Why the five-character word matters for endurance scores</a></li></ol></nav>
     <h2 id="10-minute-typing-test">10 minute typing test</h2>
@@ -651,6 +658,8 @@ body.typing-active footer{opacity:.26;filter:saturate(.72);pointer-events:none;}
     <details><summary>Why is my 10 minute score lower than my 1 minute score?</summary><p>Almost everyone reads 5–15% lower over ten minutes — that gap is your fatigue profile, not a failure. A small gap means sustainable technique; a large gap means tension and posture issues to fix.</p></details>
     <details><summary>How do I train for a 10 minute typing test?</summary><p>One full-length round per week, watching where accuracy starts to slip — that slip point moves later with training. Add posture checks at minute five and downshift 5% at the fatigue wall instead of fighting through at full speed.</p></details>
   </section>
+
+
 
   <footer>
     <a href="/">Typing.Rerivo</a> · Free online WPM typing test · <a href="typing-tests.html">Browse every typing test, grouped by goal</a>

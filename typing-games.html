@@ -468,6 +468,11 @@ body.typing-active footer{opacity:.26;filter:saturate(.72);pointer-events:none;}
 .tblwrap table{width:100%;min-width:520px;margin:0;}
 @media(max-width:560px){.tblwrap{position:relative;}
   .tblwrap::after{content:"";display:block;height:1px;}}
+
+/* 广告位（r110）：两个槽都在正文之后；未批号时 slot 为空，DOM 里不出现任何节点。
+   min-height 不预留，避免无广告时留白造成的视觉断裂；CLS 风险由「正文之后」的位置规避。 */
+.ad-slot{margin:28px 0;padding:0;text-align:center;overflow:hidden}
+.ad-slot ins{display:block}
 </style>
 <script>try{var _t=localStorage.getItem("trTheme");if(_t&&_t!=="dark")document.documentElement.setAttribute("data-theme",_t);var _l=localStorage.getItem("trLang");if(_l&&_l!=="en"){document.documentElement.lang=_l;if(_l==="ar")document.documentElement.dir="rtl";}}catch(e){}</script>
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1401237223139327"
@@ -601,6 +606,8 @@ body.typing-active footer{opacity:.26;filter:saturate(.72);pointer-events:none;}
     <ul><li><a href="typing-race.html">Typing Race</a></li><li><a href="typing-test-game.html">Typing Test Game</a></li><li><a href="typing-trainer.html">Typing Trainer</a></li></ul>
   </nav>
 
+
+
   <section class="seo">
     <nav class="toc" aria-label="On this page"><p>On this page</p><ol><li><a href="#typing-games">typing games</a></li><li><a href="#fun-typing-games-to-play-right-now">Fun typing games to play right now</a></li><li><a href="#turn-practice-into-a-game-you-keep-coming-back-t">Turn practice into a game you keep coming back to</a></li><li><a href="#do-typing-games-actually-make-you-faster">Do typing games actually make you faster?</a></li><li><a href="#games-that-teach">Games that teach</a></li><li><a href="#what-each-game-type-actually-trains">What each game type actually trains</a></li><li><a href="#using-games-without-picking-up-bad-habits">Using games without picking up bad habits</a></li></ol></nav>
     <h2 id="typing-games">typing games</h2>
@@ -633,6 +640,8 @@ body.typing-active footer{opacity:.26;filter:saturate(.72);pointer-events:none;}
     <details><summary>Are my game scores saved?</summary><p>Yes. Your recent results are saved in your own browser (localStorage), so you can open the same game tomorrow and try to beat your best score. Nothing is sent to a server.</p></details>
     <details><summary>Can typing games make you faster?</summary><p>They raise burst speed and recognition speed, but they reward ignoring errors and rarely include capitals or punctuation. Follow every game session with one slow accuracy round, and never make games your only practice.</p></details>
   </section>
+
+
 
   <footer>
     <a href="/">Typing.Rerivo</a> · Free online WPM typing test · <a href="typing-tests.html">Browse every typing test, grouped by goal</a>

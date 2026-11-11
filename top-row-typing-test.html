@@ -468,6 +468,11 @@ body.typing-active footer{opacity:.26;filter:saturate(.72);pointer-events:none;}
 .tblwrap table{width:100%;min-width:520px;margin:0;}
 @media(max-width:560px){.tblwrap{position:relative;}
   .tblwrap::after{content:"";display:block;height:1px;}}
+
+/* 广告位（r110）：两个槽都在正文之后；未批号时 slot 为空，DOM 里不出现任何节点。
+   min-height 不预留，避免无广告时留白造成的视觉断裂；CLS 风险由「正文之后」的位置规避。 */
+.ad-slot{margin:28px 0;padding:0;text-align:center;overflow:hidden}
+.ad-slot ins{display:block}
 </style>
 <script>try{var _t=localStorage.getItem("trTheme");if(_t&&_t!=="dark")document.documentElement.setAttribute("data-theme",_t);var _l=localStorage.getItem("trLang");if(_l&&_l!=="en"){document.documentElement.lang=_l;if(_l==="ar")document.documentElement.dir="rtl";}}catch(e){}</script>
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1401237223139327"
@@ -602,6 +607,8 @@ body.typing-active footer{opacity:.26;filter:saturate(.72);pointer-events:none;}
     <ul><li><a href="bottom-row-typing-test.html">Bottom Row Typing Test</a></li><li><a href="colemak-typing.html">Colemak Typing Test</a></li><li><a href="dvorak-typing.html">Dvorak Typing Test</a></li><li><a href="dvorak-vs-qwerty.html">Dvorak vs QWERTY</a></li><li><a href="finger-placement-typing.html">Finger Placement Typing</a></li><li><a href="home-row-typing-test.html">Home Row Typing Test</a></li><li><a href="keyboard-layouts.html">Keyboard Layouts Compared</a></li><li><a href="typing-finger-chart.html">Typing Finger Chart</a></li></ul>
   </nav>
 
+
+
   <section class="seo">
     <h2 id="what-is-the-top-row">What is the top row?</h2>
     <p>The <strong>top row</strong> is the first row of letters under the number keys: <strong>Q W E R T Y U I O P</strong>. In standard touch typing the left hand owns Q W E R T (pinky, ring, middle, index, index) and the right hand owns Y U I O P (index, index, middle, ring, pinky).</p>
@@ -623,6 +630,8 @@ body.typing-active footer{opacity:.26;filter:saturate(.72);pointer-events:none;}
     <details><summary>Should I practise the top row before or after the home row?</summary><p>After. Learn the home row first so your fingers have a base to return to, then add this row, then the bottom row.</p></details>
     <details><summary>How long should I drill one row?</summary><p>Short rounds of five to ten minutes beat long sessions, because the goal is a clean return to home rather than volume. Stop when accuracy drops below about 95 percent.</p></details>
   </section>
+
+
 
   <footer>
     <a href="/">Typing.Rerivo</a> · Free online WPM typing test · <a href="typing-tests.html">Browse every typing test, grouped by goal</a>

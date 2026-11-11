@@ -468,6 +468,11 @@ body.typing-active footer{opacity:.26;filter:saturate(.72);pointer-events:none;}
 .tblwrap table{width:100%;min-width:520px;margin:0;}
 @media(max-width:560px){.tblwrap{position:relative;}
   .tblwrap::after{content:"";display:block;height:1px;}}
+
+/* 广告位（r110）：两个槽都在正文之后；未批号时 slot 为空，DOM 里不出现任何节点。
+   min-height 不预留，避免无广告时留白造成的视觉断裂；CLS 风险由「正文之后」的位置规避。 */
+.ad-slot{margin:28px 0;padding:0;text-align:center;overflow:hidden}
+.ad-slot ins{display:block}
 </style>
 <script>try{var _t=localStorage.getItem("trTheme");if(_t&&_t!=="dark")document.documentElement.setAttribute("data-theme",_t);var _l=localStorage.getItem("trLang");if(_l&&_l!=="en"){document.documentElement.lang=_l;if(_l==="ar")document.documentElement.dir="rtl";}}catch(e){}</script>
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1401237223139327"
@@ -601,6 +606,8 @@ body.typing-active footer{opacity:.26;filter:saturate(.72);pointer-events:none;}
     <ul><li><a href="gross-wpm-vs-net-wpm.html">Gross WPM vs Net WPM</a></li><li><a href="typing-speed-percentile.html">Typing Speed Percentile Calculator</a></li><li><a href="30-wpm-typing-test.html">30 WPM Typing Test</a></li><li><a href="40-wpm-typing-test.html">40 WPM Typing Test</a></li><li><a href="50-wpm-typing-test.html">50 WPM Typing Test</a></li><li><a href="60-wpm-typing-test.html">60 WPM Typing Test</a></li><li><a href="70-wpm-typing-test.html">70 WPM Typing Test</a></li><li><a href="100-wpm-typing-test.html">100 WPM Typing Test</a></li></ul>
   </nav>
 
+
+
   <section class="seo">
     <h2 id="what-wpm-is-and-the-three-ways-it-is-counted">What WPM is, and the three ways it is counted</h2>
     <p><strong>WPM</strong> is words per minute, where one word is five characters including spaces. That convention exists so a score on a long-word passage and a short-word passage can be compared. Three variants then diverge:</p>
@@ -626,6 +633,8 @@ body.typing-active footer{opacity:.26;filter:saturate(.72);pointer-events:none;}
     <details><summary>Why is my score lower on longer tests?</summary><p>The first thirty seconds are warm-up pace you cannot hold. Longer rounds also expose attention errors that a short burst hides.</p></details>
     <details><summary>How many keystrokes per hour is my WPM?</summary><p>Multiply by 300. 40 WPM is 12,000 KPH, 50 WPM is 15,000 KPH, and 10,000 KPH is about 33 WPM.</p></details>
   </section>
+
+
 
   <footer>
     <a href="/">Typing.Rerivo</a> · Free online WPM typing test · <a href="typing-tests.html">Browse every typing test, grouped by goal</a>

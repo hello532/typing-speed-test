@@ -468,6 +468,11 @@ body.typing-active footer{opacity:.26;filter:saturate(.72);pointer-events:none;}
 .tblwrap table{width:100%;min-width:520px;margin:0;}
 @media(max-width:560px){.tblwrap{position:relative;}
   .tblwrap::after{content:"";display:block;height:1px;}}
+
+/* 广告位（r110）：两个槽都在正文之后；未批号时 slot 为空，DOM 里不出现任何节点。
+   min-height 不预留，避免无广告时留白造成的视觉断裂；CLS 风险由「正文之后」的位置规避。 */
+.ad-slot{margin:28px 0;padding:0;text-align:center;overflow:hidden}
+.ad-slot ins{display:block}
 </style>
 <script>try{var _t=localStorage.getItem("trTheme");if(_t&&_t!=="dark")document.documentElement.setAttribute("data-theme",_t);var _l=localStorage.getItem("trLang");if(_l&&_l!=="en"){document.documentElement.lang=_l;if(_l==="ar")document.documentElement.dir="rtl";}}catch(e){}</script>
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1401237223139327"
@@ -601,6 +606,8 @@ body.typing-active footer{opacity:.26;filter:saturate(.72);pointer-events:none;}
     <ul><li><a href="about.html">About Typing.Rerivo</a></li><li><a href="privacy-policy.html">Privacy Policy</a></li><li><a href="typing-tests.html">All Typing Tests</a></li><li><a href="editorial-policy.html">Editorial Policy</a></li><li><a href="terms.html">Terms of Use</a></li></ul>
   </nav>
 
+
+
   <section class="seo">
     <h2 id="the-address">The address</h2>
     <p>Write to <a href="mailto:hello@rerivo.com">hello@rerivo.com</a>. It reaches the same inbox that receives the Search Console reports and the error alerts for this site, so a message about a broken page is read by whoever can fix it. We answer within two working days, usually the same day.</p>
@@ -623,6 +630,8 @@ body.typing-active footer{opacity:.26;filter:saturate(.72);pointer-events:none;}
     <details><summary>Do you accept guest posts or paid links?</summary><p>No. We do not sell links and we do not publish contributed articles. Both would undercut the reason the benchmarks are worth citing.</p></details>
     <details><summary>Where do I report an accessibility problem?</summary><p>The same address. Say which page and which assistive technology you use; access issues are treated as bugs rather than feature requests.</p></details>
   </section>
+
+
 
   <footer>
     <a href="/">Typing.Rerivo</a> · Free online WPM typing test · <a href="typing-tests.html">Browse every typing test, grouped by goal</a>

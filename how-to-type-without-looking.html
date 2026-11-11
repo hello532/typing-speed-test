@@ -468,6 +468,11 @@ body.typing-active footer{opacity:.26;filter:saturate(.72);pointer-events:none;}
 .tblwrap table{width:100%;min-width:520px;margin:0;}
 @media(max-width:560px){.tblwrap{position:relative;}
   .tblwrap::after{content:"";display:block;height:1px;}}
+
+/* 广告位（r110）：两个槽都在正文之后；未批号时 slot 为空，DOM 里不出现任何节点。
+   min-height 不预留，避免无广告时留白造成的视觉断裂；CLS 风险由「正文之后」的位置规避。 */
+.ad-slot{margin:28px 0;padding:0;text-align:center;overflow:hidden}
+.ad-slot ins{display:block}
 </style>
 <script>try{var _t=localStorage.getItem("trTheme");if(_t&&_t!=="dark")document.documentElement.setAttribute("data-theme",_t);var _l=localStorage.getItem("trLang");if(_l&&_l!=="en"){document.documentElement.lang=_l;if(_l==="ar")document.documentElement.dir="rtl";}}catch(e){}</script>
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1401237223139327"
@@ -601,6 +606,8 @@ body.typing-active footer{opacity:.26;filter:saturate(.72);pointer-events:none;}
     <ul><li><a href="is-it-hard-to-learn-touch-typing.html">Is It Hard to Learn Touch Typing?</a></li><li><a href="learn-to-type.html">Learn to Type</a></li><li><a href="number-typing-test.html">Number Typing Test</a></li><li><a href="online-typing-practice.html">Online Typing Practice</a></li><li><a href="pangram-typing-test.html">Pangram Typing Test</a></li><li><a href="paragraph-typing-test.html">Paragraph Typing Test</a></li><li><a href="punctuation-typing-test.html">Punctuation Typing Test</a></li><li><a href="quick-brown-fox-typing-test.html">Quick Brown Fox Typing Test</a></li></ul>
   </nav>
 
+
+
   <section class="seo">
     <h2 id="the-three-stages-of-not-looking">The three stages of not looking</h2>
     <ol><li><strong>You look because you do not know where the key is.</strong> Fix: the on-screen keyboard and home-row drills, with the guide visible.</li><li><strong>You know the key but look anyway to confirm.</strong> Fix: covered rounds. This is the stage that lasts longest, and the only cure is typing with the hands hidden.</li><li><strong>You look when you make a mistake.</strong> Fix: finish the word before checking. Most "looks" happen after errors, not before them.</li></ol>
@@ -625,6 +632,8 @@ body.typing-active footer{opacity:.26;filter:saturate(.72);pointer-events:none;}
     <details><summary>Will covering my hands make me slower permanently?</summary><p>No. Accuracy drops for about a week, then speed rises above your previous ceiling because the glance was the limiting factor.</p></details>
     <details><summary>I keep losing my place in the text. What helps?</summary><p>Shorten the round and read one word ahead rather than one line ahead. Losing place is usually a reading-ahead problem, not a typing problem.</p></details>
   </section>
+
+
 
   <footer>
     <a href="/">Typing.Rerivo</a> · Free online WPM typing test · <a href="typing-tests.html">Browse every typing test, grouped by goal</a>

@@ -108,6 +108,25 @@ def build_chips(page):
     return out
 
 
+
+def build_ad(slot: str, label: str) -> str:
+    """AdSense 手动广告位。slot 为空时输出空串 —— 未批号/未建单元时不占位、不发请求。
+
+    位置纪律（AdSense 政策）：两个槽都在正文之后，一个在正文段落与 FAQ 之间，
+    一个在页脚之前；打字区、结果区、TLDR 摘要区一律无广告。
+    """
+    if not slot:
+        return ""
+    return (
+        f'  <div class="ad-slot" aria-label="{label}">\n'
+        f'    <ins class="adsbygoogle" style="display:block"\n'
+        f'         data-ad-client="{ADS_CLIENT}" data-ad-slot="{slot}"\n'
+        f'         data-ad-format="auto" data-full-width-responsive="true"></ins>\n'
+        '    <script>(adsbygoogle=window.adsbygoogle||[]).push({});</script>\n'
+        '  </div>'
+    )
+
+
 def build_related(page, clusters):
     """Round-20: a body-level "related" block, generated from the page's cluster.
 
@@ -384,6 +403,8 @@ def render(page, cfg, tpl, css, engine, head_snippet, footer, result, variants, 
         "{{CSS}}": css, "{{ENGINE}}": engine_page, "{{HEAD_SNIPPET}}": hs,
         "{{FOOTER}}": footer, "{{RESULT}}": result,
         "{{RELATED}}": build_related(page, clusters or {}),
+        "{{AD_TOP}}": build_ad(ADS.get("slotTop", ""), "Advertisement"),
+        "{{AD_BOTTOM}}": build_ad(ADS.get("slotBottom", ""), "Advertisement"),
         "{{HEADER}}": build_header(page), "{{CRUMBS}}": build_crumbs(page),
         "{{H1}}": page["h1"], "{{HERO_P}}": page["heroP"],
         "{{SEO}}": build_seo(page, clusters), "{{FAQ}}": build_faq(page),
@@ -651,6 +672,9 @@ def main():
     engine = (SRC / "engine.js").read_text(encoding="utf-8").rstrip("\n")
     head_snippet = (SRC / "head-snippet.js").read_text(encoding="utf-8").rstrip("\n")
     footer = (SRC / "footer.html").read_text(encoding="utf-8").rstrip("\n")
+    global ADS, ADS_CLIENT
+    ADS = cfg.get("ads") or {}
+    ADS_CLIENT = ADS.get("client", "ca-pub-1401237223139327")
     clusters = json.loads((SRC / "clusters.json").read_text(encoding="utf-8"))
     result = (SRC / "result.html").read_text(encoding="utf-8").rstrip("\n")
     variants = json.loads((SRC / "variants.json").read_text(encoding="utf-8"))

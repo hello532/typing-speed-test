@@ -468,6 +468,11 @@ body.typing-active footer{opacity:.26;filter:saturate(.72);pointer-events:none;}
 .tblwrap table{width:100%;min-width:520px;margin:0;}
 @media(max-width:560px){.tblwrap{position:relative;}
   .tblwrap::after{content:"";display:block;height:1px;}}
+
+/* 广告位（r110）：两个槽都在正文之后；未批号时 slot 为空，DOM 里不出现任何节点。
+   min-height 不预留，避免无广告时留白造成的视觉断裂；CLS 风险由「正文之后」的位置规避。 */
+.ad-slot{margin:28px 0;padding:0;text-align:center;overflow:hidden}
+.ad-slot ins{display:block}
 </style>
 <script>try{var _t=localStorage.getItem("trTheme");if(_t&&_t!=="dark")document.documentElement.setAttribute("data-theme",_t);var _l=localStorage.getItem("trLang");if(_l&&_l!=="en"){document.documentElement.lang=_l;if(_l==="ar")document.documentElement.dir="rtl";}}catch(e){}</script>
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1401237223139327"
@@ -601,6 +606,8 @@ body.typing-active footer{opacity:.26;filter:saturate(.72);pointer-events:none;}
     <ul><li><a href="bottom-row-typing-test.html">Bottom Row Typing Test</a></li><li><a href="colemak-typing.html">Colemak Typing Test</a></li><li><a href="dvorak-typing.html">Dvorak Typing Test</a></li><li><a href="one-hand-typing.html">One Hand Typing</a></li><li><a href="proper-hand-position-for-typing.html">Proper Hand Position for Typing</a></li><li><a href="ten-key-typing-test.html">10 Key Typing Test</a></li><li><a href="top-row-typing-test.html">Top Row Typing Test</a></li><li><a href="typing-finger-chart.html">Typing Finger Chart</a></li></ul>
   </nav>
 
+
+
   <section class="seo">
     <nav class="toc" aria-label="On this page"><p>On this page</p><ol><li><a href="#what-mechanical-actually-means">What 'mechanical' actually means</a></li><li><a href="#do-mechanical-keyboards-make-you-faster">Do mechanical keyboards make you faster?</a></li><li><a href="#switch-types-for-typing">Switch types for typing</a></li><li><a href="#the-fatigue-and-accuracy-benefits">The fatigue and accuracy benefits</a></li><li><a href="#what-to-actually-look-for-when-buying">What to actually look for when buying</a></li><li><a href="#when-an-upgrade-is-worth-it-and-when-it-is-not">When an upgrade is worth it — and when it is not</a></li><li><a href="#test-before-you-invest">Test before you invest</a></li><li><a href="#membrane-scissor-and-mechanical-the-three-famili">Membrane, scissor and mechanical: the three families</a></li><li><a href="#keyboard-size-full-size-tkl-and-60">Keyboard size: full-size, TKL and 60%</a></li><li><a href="#caring-for-a-mechanical-board">Caring for a mechanical board</a></li></ol></nav>
     <h2 id="what-mechanical-actually-means">What 'mechanical' actually means</h2>
@@ -643,6 +650,8 @@ body.typing-active footer{opacity:.26;filter:saturate(.72);pointer-events:none;}
     <details><summary>Is a mechanical keyboard worth it for typing?</summary><p>If you type for hours daily on a worn or mushy board — yes, for consistency and fatigue reduction. If you type casually on a functional keyboard, practice minutes beat purchase dollars. Chair and screen position come first.</p></details>
     <details><summary>How long does it take to adjust to a mechanical keyboard?</summary><p>About one to two weeks of daily use for your fingers to recalibrate to the new actuation point. Expect to feel slower before faster — measure after the adjustment, not during.</p></details>
   </section>
+
+
 
   <footer>
     <a href="/">Typing.Rerivo</a> · Free online WPM typing test · <a href="typing-tests.html">Browse every typing test, grouped by goal</a>

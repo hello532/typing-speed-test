@@ -472,6 +472,11 @@ body.typing-active footer{opacity:.26;filter:saturate(.72);pointer-events:none;}
 .tblwrap table{width:100%;min-width:520px;margin:0;}
 @media(max-width:560px){.tblwrap{position:relative;}
   .tblwrap::after{content:"";display:block;height:1px;}}
+
+/* 广告位（r110）：两个槽都在正文之后；未批号时 slot 为空，DOM 里不出现任何节点。
+   min-height 不预留，避免无广告时留白造成的视觉断裂；CLS 风险由「正文之后」的位置规避。 */
+.ad-slot{margin:28px 0;padding:0;text-align:center;overflow:hidden}
+.ad-slot ins{display:block}
 </style>
 <script>try{var _t=localStorage.getItem("trTheme");if(_t&&_t!=="dark")document.documentElement.setAttribute("data-theme",_t);var _l=localStorage.getItem("trLang");if(_l&&_l!=="en"){document.documentElement.lang=_l;if(_l==="ar")document.documentElement.dir="rtl";}}catch(e){}</script>
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1401237223139327"
@@ -603,6 +608,8 @@ body.typing-active footer{opacity:.26;filter:saturate(.72);pointer-events:none;}
     <ul><li><a href="best-typing-test-online.html">Best Free Typing Tests Online</a></li><li><a href="custom-typing-test.html">Custom Typing Test</a></li><li><a href="free-typing-test.html">Free Typing Test</a></li><li><a href="online-typing-test.html">Online Typing Test</a></li></ul>
   </nav>
 
+
+
   <section class="seo">
     <nav class="toc" aria-label="On this page"><p>On this page</p><ol><li><a href="#typing-speed-test">Typing Speed Test</a></li><li><a href="#where-to-start-the-tests-people-use-most">Where to start: the tests people use most</a></li><li><a href="#how-to-improve-your-typing-speed">How to improve your typing speed</a></li><li><a href="#what-is-a-good-typing-speed">What is a good typing speed?</a></li><li><a href="#why-use-an-online-typing-speed-test">Why use an online typing speed test?</a></li><li><a href="#choose-your-typing-test-duration-and-text">Choose your typing test duration and text</a></li><li><a href="#track-your-typing-progress-over-time">Track your typing progress over time</a></li><li><a href="#tips-to-type-faster-and-more-accurately">Tips to type faster and more accurately</a></li><li><a href="#who-should-take-a-typing-speed-test">Who should take a typing speed test?</a></li><li><a href="#typing-tests-by-skill-level-and-exam">Typing tests by skill, level and exam</a></li></ol></nav>
     <h2 id="typing-speed-test">Typing Speed Test</h2>
@@ -644,6 +651,8 @@ body.typing-active footer{opacity:.26;filter:saturate(.72);pointer-events:none;}
     <details><summary>Is this typing test free?</summary><p>Yes, completely free with no sign up, no account and no ads inside the typing area. Your past results are stored only in your own browser (localStorage), never on a server.</p></details>
     <details><summary>How do I get faster at typing?</summary><p>Daily 10 to 15 minute sessions, accuracy before speed, relaxed wrists, fingers anchored on ASDF JKL;, all ten fingers instead of hunting and pecking. Most people gain 10+ WPM in a month.</p></details>
   </section>
+
+
 
   <footer>
     <a href="/">Typing.Rerivo</a> · Free online WPM typing test · <a href="typing-tests.html">Browse every typing test, grouped by goal</a>

@@ -468,6 +468,11 @@ body.typing-active footer{opacity:.26;filter:saturate(.72);pointer-events:none;}
 .tblwrap table{width:100%;min-width:520px;margin:0;}
 @media(max-width:560px){.tblwrap{position:relative;}
   .tblwrap::after{content:"";display:block;height:1px;}}
+
+/* 广告位（r110）：两个槽都在正文之后；未批号时 slot 为空，DOM 里不出现任何节点。
+   min-height 不预留，避免无广告时留白造成的视觉断裂；CLS 风险由「正文之后」的位置规避。 */
+.ad-slot{margin:28px 0;padding:0;text-align:center;overflow:hidden}
+.ad-slot ins{display:block}
 </style>
 <script>try{var _t=localStorage.getItem("trTheme");if(_t&&_t!=="dark")document.documentElement.setAttribute("data-theme",_t);var _l=localStorage.getItem("trLang");if(_l&&_l!=="en"){document.documentElement.lang=_l;if(_l==="ar")document.documentElement.dir="rtl";}}catch(e){}</script>
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1401237223139327"
@@ -601,6 +606,8 @@ body.typing-active footer{opacity:.26;filter:saturate(.72);pointer-events:none;}
     <ul><li><a href="arabic-typing-test.html">Arabic Typing Test</a></li><li><a href="chinese-typing-test.html">Chinese Typing Test</a></li><li><a href="english-typing-test.html">English Typing Test</a></li><li><a href="hindi-typing-test.html">Hindi Typing Test</a></li><li><a href="urdu-typing-test.html">Urdu Typing Test</a></li><li><a href="vietnamese-typing-test.html">Kiểm Tra Tốc Độ Gõ Phím Tiếng Việt</a></li><li><a href="german-typing-test.html">German Typing Test</a></li><li><a href="french-typing-test.html">French Typing Test</a></li></ul>
   </nav>
 
+
+
   <section class="seo">
     <h2 id="typing-tests-in-other-languages">typing tests in other languages</h2>
     <p>Our <strong>typing tests in other languages</strong> give you the same timed test, the same live WPM and accuracy feedback, and the same instant results, in eight languages: <a href="english-typing-test.html">English Typing Test</a>, <a href="spanish-typing-test.html">Spanish Typing Test</a>, <a href="chinese-typing-test.html">Chinese Typing Test</a>, <a href="hindi-typing-test.html">Hindi Typing Test</a>, <a href="arabic-typing-test.html">Arabic Typing Test</a>, <a href="japanese-typing-test.html">Japanese Typing Test</a>, <a href="korean-typing-test.html">Korean Typing Test</a> and <a href="urdu-typing-test.html">Urdu Typing Test</a>. If you write in more than one language, your typing speed is not one number; it is five, and the only way to know each one is to test it in that language.</p>
@@ -628,6 +635,8 @@ body.typing-active footer{opacity:.26;filter:saturate(.72);pointer-events:none;}
     <details><summary>Can I switch languages without leaving the page?</summary><p>Use the custom typing test, which lets you change language along with duration, text type, theme and line width in one place.</p></details>
     <details><summary>Can I compare my WPM between two languages?</summary><p>Only if the input mechanism is the same. Chinese and Japanese involve IME conversion, Korean assembles jamo into blocks, Vietnamese reorders tone marks - so compare CPM within a language over time instead.</p></details>
   </section>
+
+
 
   <footer>
     <a href="/">Typing.Rerivo</a> · Free online WPM typing test · <a href="typing-tests.html">Browse every typing test, grouped by goal</a>
